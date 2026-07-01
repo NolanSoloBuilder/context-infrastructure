@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2620" height="1500" viewBox="0 0 2620 1500">
+<style>
+text { font-family: 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif; fill: #2a2521; }
+.title { font-size: 42px; font-weight: 700; }
+.table-title { font-size: 30px; font-weight: 700; text-anchor: middle; }
+.seat-no { font-size: 15px; font-weight: 700; text-anchor: middle; dominant-baseline: central; fill: #7a4b2b; }
+.name { font-size: 18px; text-anchor: middle; dominant-baseline: central; }
+.hint { font-size: 20px; fill: #6c625a; }
+.table { fill: #fff7ed; stroke: #b98252; stroke-width: 4; }
+.seat { fill: #ffffff; stroke: #caa076; stroke-width: 2; }
+.line { stroke: #d7b99c; stroke-width: 2; }
+.page-bg { fill: #fffdf9; }
+</style>
+<rect class="page-bg" x="0" y="0" width="2620" height="1500"/>
+<text class="title" x="80" y="82">婚礼席位图</text>
+<text class="hint" x="80" y="122">圆桌模板：按 PPT 顺序排列，座位号顺时针。空白处可直接填姓名。</text>
+<circle class="table" cx="380" cy="390" r="112"/>
+<text class="table-title" x="380" y="382">主桌</text>
+<text class="seat-no" x="380" y="426">10人桌</text>
+<line class="line" x1="380.0" y1="264.0" x2="380.0" y2="234.0"/>
+<circle class="seat" cx="380.0" cy="210.0" r="29"/>
+<text class="seat-no" x="380.0" y="210.0">1</text>
+<text class="name" x="380.0" y="146.0">________</text>
+<line class="line" x1="454.1" y1="288.1" x2="471.7" y2="263.8"/>
+<circle class="seat" cx="485.8" cy="244.4" r="29"/>
+<text class="seat-no" x="485.8" y="244.4">2</text>
+<text class="name" x="523.4" y="192.6">________</text>
+<line class="line" x1="499.8" y1="351.1" x2="528.4" y2="341.8"/>
+<circle class="seat" cx="551.2" cy="334.4" r="29"/>
+<text class="seat-no" x="551.2" y="334.4">3</text>
+<text class="name" x="612.1" y="314.6">________</text>
+<line class="line" x1="499.8" y1="428.9" x2="528.4" y2="438.2"/>
+<circle class="seat" cx="551.2" cy="445.6" r="29"/>
+<text class="seat-no" x="551.2" y="445.6">4</text>
+<text class="name" x="612.1" y="465.4">________</text>
+<line class="line" x1="454.1" y1="491.9" x2="471.7" y2="516.2"/>
+<circle class="seat" cx="485.8" cy="535.6" r="29"/>
+<text class="seat-no" x="485.8" y="535.6">5</text>
+<text class="name" x="523.4" y="587.4">________</text>
+<line class="line" x1="380.0" y1="516.0" x2="380.0" y2="546.0"/>
+<circle class="seat" cx="380.0" cy="570.0" r="29"/>
+<text class="seat-no" x="380.0" y="570.0">6</text>
+<text class="name" x="380.0" y="634.0">________</text>
+<line class="line" x1="305.9" y1="491.9" x2="288.3" y2="516.2"/>
+<circle class="seat" cx="274.2" cy="535.6" r="29"/>
+<text class="seat-no" x="274.2" y="535.6">7</text>
+<text class="name" x="236.6" y="587.4">________</text>
+<line class="line" x1="260.2" y1="428.9" x2="231.6" y2="438.2"/>
+<circle class="seat" cx="208.8" cy="445.6" r="29"/>
+<text class="seat-no" x="208.8" y="445.6">8</text>
+<text class="name" x="147.9" y="465.4">________</text>
+<line class="line" x1="260.2" y1="351.1" x2="231.6" y2="341.8"/>
+<circle class="seat" cx="208.8" cy="334.4" r="29"/>
+<text class="seat-no" x="208.8" y="334.4">9</text>
+<text class="name" x="147.9" y="314.6">________</text>
+<line class="line" x1="305.9" y1="288.1" x2="288.3" y2="263.8"/>
+<circle class="seat" cx="274.2" cy="244.4" r="29"/>
+<text class="seat-no" x="274.2" y="244.4">10</text>
+<text class="name" x="236.6" y="192.6">________</text>
+<circle class="table" cx="1000" cy="390" r="112"/>
+<text class="table-title" x="1000" y="382">领导桌</text>
+<text class="seat-no" x="1000" y="426">8人桌</text>
+<line class="line" x1="1000.0" y1="264.0" x2="1000.0" y2="234.0"/>
+<circle class="seat" cx="1000.0" cy="210.0" r="29"/>
+<text class="seat-no" x="1000.0" y="210.0">1</text>
+<text class="name" x="1000.0" y="146.0">________</text>
+<line class="line" x1="1089.1" y1="300.9" x2="1110.3" y2="279.7"/>
+<circle class="seat" cx="1127.3" cy="262.7" r="29"/>
+<text class="seat-no" x="1127.3" y="262.7">2</text>
+<text class="name" x="1172.5" y="217.5">________</text>
+<line class="line" x1="1126.0" y1="390.0" x2="1156.0" y2="390.0"/>
+<circle class="seat" cx="1180.0" cy="390.0" r="29"/>
+<text class="seat-no" x="1180.0" y="390.0">3</text>
+<text class="name" x="1244.0" y="390.0">________</text>
+<line class="line" x1="1089.1" y1="479.1" x2="1110.3" y2="500.3"/>
+<circle class="seat" cx="1127.3" cy="517.3" r="29"/>
+<text class="seat-no" x="1127.3" y="517.3">4</text>
+<text class="name" x="1172.5" y="562.5">________</text>
+<line class="line" x1="1000.0" y1="516.0" x2="1000.0" y2="546.0"/>
+<circle class="seat" cx="1000.0" cy="570.0" r="29"/>
+<text class="seat-no" x="1000.0" y="570.0">5</text>
+<text class="name" x="1000.0" y="634.0">________</text>
+<line class="line" x1="910.9" y1="479.1" x2="889.7" y2="500.3"/>
+<circle class="seat" cx="872.7" cy="517.3" r="29"/>
+<text class="seat-no" x="872.7" y="517.3">6</text>
+<text class="name" x="827.5" y="562.5">________</text>
+<line class="line" x1="874.0" y1="390.0" x2="844.0" y2="390.0"/>
+<circle class="seat" cx="820.0" cy="390.0" r="29"/>
+<text class="seat-no" x="820.0" y="390.0">7</text>
+<text class="name" x="756.0" y="390.0">________</text>
+<line class="line" x1="910.9" y1="300.9" x2="889.7" y2="279.7"/>
+<circle class="seat" cx="872.7" cy="262.7" r="29"/>
+<text class="seat-no" x="872.7" y="262.7">8</text>
+<text class="name" x="827.5" y="217.5">________</text>
+<circle class="table" cx="1620" cy="390" r="112"/>
+<text class="table-title" x="1620" y="382">女方好友1</text>
+<text class="seat-no" x="1620" y="426">11人桌</text>
+<line class="line" x1="1620.0" y1="264.0" x2="1620.0" y2="234.0"/>
+<circle class="seat" cx="1620.0" cy="210.0" r="29"/>
+<text class="seat-no" x="1620.0" y="210.0">1</text>
+<text class="name" x="1620.0" y="146.0">________</text>
+<line class="line" x1="1688.1" y1="284.0" x2="1704.3" y2="258.8"/>
+<circle class="seat" cx="1717.3" cy="238.6" r="29"/>
+<text class="seat-no" x="1717.3" y="238.6">2</text>
+<text class="name" x="1751.9" y="184.7">________</text>
+<line class="line" x1="1734.6" y1="337.7" x2="1761.9" y2="325.2"/>
+<circle class="seat" cx="1783.7" cy="315.2" r="29"/>
+<text class="seat-no" x="1783.7" y="315.2">3</text>
+<text class="name" x="1842.0" y="288.6">________</text>
+<line class="line" x1="1744.7" y1="407.9" x2="1774.4" y2="412.2"/>
+<circle class="seat" cx="1798.2" cy="415.6" r="29"/>
+<text class="seat-no" x="1798.2" y="415.6">4</text>
+<text class="name" x="1861.5" y="424.7">________</text>
+<line class="line" x1="1715.2" y1="472.5" x2="1737.9" y2="492.2"/>
+<circle class="seat" cx="1756.0" cy="507.9" r="29"/>
+<text class="seat-no" x="1756.0" y="507.9">5</text>
+<text class="name" x="1804.4" y="549.8">________</text>
+<line class="line" x1="1655.5" y1="510.9" x2="1664.0" y2="539.7"/>
+<circle class="seat" cx="1670.7" cy="562.7" r="29"/>
+<text class="seat-no" x="1670.7" y="562.7">6</text>
+<text class="name" x="1688.7" y="624.1">________</text>
+<line class="line" x1="1584.5" y1="510.9" x2="1576.0" y2="539.7"/>
+<circle class="seat" cx="1569.3" cy="562.7" r="29"/>
+<text class="seat-no" x="1569.3" y="562.7">7</text>
+<text class="name" x="1551.3" y="624.1">________</text>
+<line class="line" x1="1524.8" y1="472.5" x2="1502.1" y2="492.2"/>
+<circle class="seat" cx="1484.0" cy="507.9" r="29"/>
+<text class="seat-no" x="1484.0" y="507.9">8</text>
+<text class="name" x="1435.6" y="549.8">________</text>
+<line class="line" x1="1495.3" y1="407.9" x2="1465.6" y2="412.2"/>
+<circle class="seat" cx="1441.8" cy="415.6" r="29"/>
+<text class="seat-no" x="1441.8" y="415.6">9</text>
+<text class="name" x="1378.5" y="424.7">________</text>
+<line class="line" x1="1505.4" y1="337.7" x2="1478.1" y2="325.2"/>
+<circle class="seat" cx="1456.3" cy="315.2" r="29"/>
+<text class="seat-no" x="1456.3" y="315.2">10</text>
+<text class="name" x="1398.0" y="288.6">________</text>
+<line class="line" x1="1551.9" y1="284.0" x2="1535.7" y2="258.8"/>
+<circle class="seat" cx="1522.7" cy="238.6" r="29"/>
+<text class="seat-no" x="1522.7" y="238.6">11</text>
+<text class="name" x="1488.1" y="184.7">________</text>
+<circle class="table" cx="2240" cy="390" r="112"/>
+<text class="table-title" x="2240" y="382">女方好友2</text>
+<text class="seat-no" x="2240" y="426">11人桌</text>
+<line class="line" x1="2240.0" y1="264.0" x2="2240.0" y2="234.0"/>
+<circle class="seat" cx="2240.0" cy="210.0" r="29"/>
+<text class="seat-no" x="2240.0" y="210.0">1</text>
+<text class="name" x="2240.0" y="146.0">________</text>
+<line class="line" x1="2308.1" y1="284.0" x2="2324.3" y2="258.8"/>
+<circle class="seat" cx="2337.3" cy="238.6" r="29"/>
+<text class="seat-no" x="2337.3" y="238.6">2</text>
+<text class="name" x="2371.9" y="184.7">________</text>
+<line class="line" x1="2354.6" y1="337.7" x2="2381.9" y2="325.2"/>
+<circle class="seat" cx="2403.7" cy="315.2" r="29"/>
+<text class="seat-no" x="2403.7" y="315.2">3</text>
+<text class="name" x="2462.0" y="288.6">________</text>
+<line class="line" x1="2364.7" y1="407.9" x2="2394.4" y2="412.2"/>
+<circle class="seat" cx="2418.2" cy="415.6" r="29"/>
+<text class="seat-no" x="2418.2" y="415.6">4</text>
+<text class="name" x="2481.5" y="424.7">________</text>
+<line class="line" x1="2335.2" y1="472.5" x2="2357.9" y2="492.2"/>
+<circle class="seat" cx="2376.0" cy="507.9" r="29"/>
+<text class="seat-no" x="2376.0" y="507.9">5</text>
+<text class="name" x="2424.4" y="549.8">________</text>
+<line class="line" x1="2275.5" y1="510.9" x2="2284.0" y2="539.7"/>
+<circle class="seat" cx="2290.7" cy="562.7" r="29"/>
+<text class="seat-no" x="2290.7" y="562.7">6</text>
+<text class="name" x="2308.7" y="624.1">________</text>
+<line class="line" x1="2204.5" y1="510.9" x2="2196.0" y2="539.7"/>
+<circle class="seat" cx="2189.3" cy="562.7" r="29"/>
+<text class="seat-no" x="2189.3" y="562.7">7</text>
+<text class="name" x="2171.3" y="624.1">________</text>
+<line class="line" x1="2144.8" y1="472.5" x2="2122.1" y2="492.2"/>
+<circle class="seat" cx="2104.0" cy="507.9" r="29"/>
+<text class="seat-no" x="2104.0" y="507.9">8</text>
+<text class="name" x="2055.6" y="549.8">________</text>
+<line class="line" x1="2115.3" y1="407.9" x2="2085.6" y2="412.2"/>
+<circle class="seat" cx="2061.8" cy="415.6" r="29"/>
+<text class="seat-no" x="2061.8" y="415.6">9</text>
+<text class="name" x="1998.5" y="424.7">________</text>
+<line class="line" x1="2125.4" y1="337.7" x2="2098.1" y2="325.2"/>
+<circle class="seat" cx="2076.3" cy="315.2" r="29"/>
+<text class="seat-no" x="2076.3" y="315.2">10</text>
+<text class="name" x="2018.0" y="288.6">________</text>
+<line class="line" x1="2171.9" y1="284.0" x2="2155.7" y2="258.8"/>
+<circle class="seat" cx="2142.7" cy="238.6" r="29"/>
+<text class="seat-no" x="2142.7" y="238.6">11</text>
+<text class="name" x="2108.1" y="184.7">________</text>
+<circle class="table" cx="700" cy="1060" r="112"/>
+<text class="table-title" x="700" y="1052">男方好友1</text>
+<text class="seat-no" x="700" y="1096">11人桌</text>
+<line class="line" x1="700.0" y1="934.0" x2="700.0" y2="904.0"/>
+<circle class="seat" cx="700.0" cy="880.0" r="29"/>
+<text class="seat-no" x="700.0" y="880.0">1</text>
+<text class="name" x="700.0" y="816.0">________</text>
+<line class="line" x1="768.1" y1="954.0" x2="784.3" y2="928.8"/>
+<circle class="seat" cx="797.3" cy="908.6" r="29"/>
+<text class="seat-no" x="797.3" y="908.6">2</text>
+<text class="name" x="831.9" y="854.7">________</text>
+<line class="line" x1="814.6" y1="1007.7" x2="841.9" y2="995.2"/>
+<circle class="seat" cx="863.7" cy="985.2" r="29"/>
+<text class="seat-no" x="863.7" y="985.2">3</text>
+<text class="name" x="922.0" y="958.6">________</text>
+<line class="line" x1="824.7" y1="1077.9" x2="854.4" y2="1082.2"/>
+<circle class="seat" cx="878.2" cy="1085.6" r="29"/>
+<text class="seat-no" x="878.2" y="1085.6">4</text>
+<text class="name" x="941.5" y="1094.7">________</text>
+<line class="line" x1="795.2" y1="1142.5" x2="817.9" y2="1162.2"/>
+<circle class="seat" cx="836.0" cy="1177.9" r="29"/>
+<text class="seat-no" x="836.0" y="1177.9">5</text>
+<text class="name" x="884.4" y="1219.8">________</text>
+<line class="line" x1="735.5" y1="1180.9" x2="744.0" y2="1209.7"/>
+<circle class="seat" cx="750.7" cy="1232.7" r="29"/>
+<text class="seat-no" x="750.7" y="1232.7">6</text>
+<text class="name" x="768.7" y="1294.1">________</text>
+<line class="line" x1="664.5" y1="1180.9" x2="656.0" y2="1209.7"/>
+<circle class="seat" cx="649.3" cy="1232.7" r="29"/>
+<text class="seat-no" x="649.3" y="1232.7">7</text>
+<text class="name" x="631.3" y="1294.1">________</text>
+<line class="line" x1="604.8" y1="1142.5" x2="582.1" y2="1162.2"/>
+<circle class="seat" cx="564.0" cy="1177.9" r="29"/>
+<text class="seat-no" x="564.0" y="1177.9">8</text>
+<text class="name" x="515.6" y="1219.8">________</text>
+<line class="line" x1="575.3" y1="1077.9" x2="545.6" y2="1082.2"/>
+<circle class="seat" cx="521.8" cy="1085.6" r="29"/>
+<text class="seat-no" x="521.8" y="1085.6">9</text>
+<text class="name" x="458.5" y="1094.7">________</text>
+<line class="line" x1="585.4" y1="1007.7" x2="558.1" y2="995.2"/>
+<circle class="seat" cx="536.3" cy="985.2" r="29"/>
+<text class="seat-no" x="536.3" y="985.2">10</text>
+<text class="name" x="478.0" y="958.6">________</text>
+<line class="line" x1="631.9" y1="954.0" x2="615.7" y2="928.8"/>
+<circle class="seat" cx="602.7" cy="908.6" r="29"/>
+<text class="seat-no" x="602.7" y="908.6">11</text>
+<text class="name" x="568.1" y="854.7">________</text>
+<circle class="table" cx="1400" cy="1060" r="112"/>
+<text class="table-title" x="1400" y="1052">男方好友2</text>
+<text class="seat-no" x="1400" y="1096">11人桌</text>
+<line class="line" x1="1400.0" y1="934.0" x2="1400.0" y2="904.0"/>
+<circle class="seat" cx="1400.0" cy="880.0" r="29"/>
+<text class="seat-no" x="1400.0" y="880.0">1</text>
+<text class="name" x="1400.0" y="816.0">________</text>
+<line class="line" x1="1468.1" y1="954.0" x2="1484.3" y2="928.8"/>
+<circle class="seat" cx="1497.3" cy="908.6" r="29"/>
+<text class="seat-no" x="1497.3" y="908.6">2</text>
+<text class="name" x="1531.9" y="854.7">________</text>
+<line class="line" x1="1514.6" y1="1007.7" x2="1541.9" y2="995.2"/>
+<circle class="seat" cx="1563.7" cy="985.2" r="29"/>
+<text class="seat-no" x="1563.7" y="985.2">3</text>
+<text class="name" x="1622.0" y="958.6">________</text>
+<line class="line" x1="1524.7" y1="1077.9" x2="1554.4" y2="1082.2"/>
+<circle class="seat" cx="1578.2" cy="1085.6" r="29"/>
+<text class="seat-no" x="1578.2" y="1085.6">4</text>
+<text class="name" x="1641.5" y="1094.7">________</text>
+<line class="line" x1="1495.2" y1="1142.5" x2="1517.9" y2="1162.2"/>
+<circle class="seat" cx="1536.0" cy="1177.9" r="29"/>
+<text class="seat-no" x="1536.0" y="1177.9">5</text>
+<text class="name" x="1584.4" y="1219.8">________</text>
+<line class="line" x1="1435.5" y1="1180.9" x2="1444.0" y2="1209.7"/>
+<circle class="seat" cx="1450.7" cy="1232.7" r="29"/>
+<text class="seat-no" x="1450.7" y="1232.7">6</text>
+<text class="name" x="1468.7" y="1294.1">________</text>
+<line class="line" x1="1364.5" y1="1180.9" x2="1356.0" y2="1209.7"/>
+<circle class="seat" cx="1349.3" cy="1232.7" r="29"/>
+<text class="seat-no" x="1349.3" y="1232.7">7</text>
+<text class="name" x="1331.3" y="1294.1">________</text>
+<line class="line" x1="1304.8" y1="1142.5" x2="1282.1" y2="1162.2"/>
+<circle class="seat" cx="1264.0" cy="1177.9" r="29"/>
+<text class="seat-no" x="1264.0" y="1177.9">8</text>
+<text class="name" x="1215.6" y="1219.8">________</text>
+<line class="line" x1="1275.3" y1="1077.9" x2="1245.6" y2="1082.2"/>
+<circle class="seat" cx="1221.8" cy="1085.6" r="29"/>
+<text class="seat-no" x="1221.8" y="1085.6">9</text>
+<text class="name" x="1158.5" y="1094.7">________</text>
+<line class="line" x1="1285.4" y1="1007.7" x2="1258.1" y2="995.2"/>
+<circle class="seat" cx="1236.3" cy="985.2" r="29"/>
+<text class="seat-no" x="1236.3" y="985.2">10</text>
+<text class="name" x="1178.0" y="958.6">________</text>
+<line class="line" x1="1331.9" y1="954.0" x2="1315.7" y2="928.8"/>
+<circle class="seat" cx="1302.7" cy="908.6" r="29"/>
+<text class="seat-no" x="1302.7" y="908.6">11</text>
+<text class="name" x="1268.1" y="854.7">________</text>
+<circle class="table" cx="2100" cy="1060" r="112"/>
+<text class="table-title" x="2100" y="1052">男方好友3</text>
+<text class="seat-no" x="2100" y="1096">11人桌</text>
+<line class="line" x1="2100.0" y1="934.0" x2="2100.0" y2="904.0"/>
+<circle class="seat" cx="2100.0" cy="880.0" r="29"/>
+<text class="seat-no" x="2100.0" y="880.0">1</text>
+<text class="name" x="2100.0" y="816.0">________</text>
+<line class="line" x1="2168.1" y1="954.0" x2="2184.3" y2="928.8"/>
+<circle class="seat" cx="2197.3" cy="908.6" r="29"/>
+<text class="seat-no" x="2197.3" y="908.6">2</text>
+<text class="name" x="2231.9" y="854.7">________</text>
+<line class="line" x1="2214.6" y1="1007.7" x2="2241.9" y2="995.2"/>
+<circle class="seat" cx="2263.7" cy="985.2" r="29"/>
+<text class="seat-no" x="2263.7" y="985.2">3</text>
+<text class="name" x="2322.0" y="958.6">________</text>
+<line class="line" x1="2224.7" y1="1077.9" x2="2254.4" y2="1082.2"/>
+<circle class="seat" cx="2278.2" cy="1085.6" r="29"/>
+<text class="seat-no" x="2278.2" y="1085.6">4</text>
+<text class="name" x="2341.5" y="1094.7">________</text>
+<line class="line" x1="2195.2" y1="1142.5" x2="2217.9" y2="1162.2"/>
+<circle class="seat" cx="2236.0" cy="1177.9" r="29"/>
+<text class="seat-no" x="2236.0" y="1177.9">5</text>
+<text class="name" x="2284.4" y="1219.8">________</text>
+<line class="line" x1="2135.5" y1="1180.9" x2="2144.0" y2="1209.7"/>
+<circle class="seat" cx="2150.7" cy="1232.7" r="29"/>
+<text class="seat-no" x="2150.7" y="1232.7">6</text>
+<text class="name" x="2168.7" y="1294.1">________</text>
+<line class="line" x1="2064.5" y1="1180.9" x2="2056.0" y2="1209.7"/>
+<circle class="seat" cx="2049.3" cy="1232.7" r="29"/>
+<text class="seat-no" x="2049.3" y="1232.7">7</text>
+<text class="name" x="2031.3" y="1294.1">________</text>
+<line class="line" x1="2004.8" y1="1142.5" x2="1982.1" y2="1162.2"/>
+<circle class="seat" cx="1964.0" cy="1177.9" r="29"/>
+<text class="seat-no" x="1964.0" y="1177.9">8</text>
+<text class="name" x="1915.6" y="1219.8">________</text>
+<line class="line" x1="1975.3" y1="1077.9" x2="1945.6" y2="1082.2"/>
+<circle class="seat" cx="1921.8" cy="1085.6" r="29"/>
+<text class="seat-no" x="1921.8" y="1085.6">9</text>
+<text class="name" x="1858.5" y="1094.7">________</text>
+<line class="line" x1="1985.4" y1="1007.7" x2="1958.1" y2="995.2"/>
+<circle class="seat" cx="1936.3" cy="985.2" r="29"/>
+<text class="seat-no" x="1936.3" y="985.2">10</text>
+<text class="name" x="1878.0" y="958.6">________</text>
+<line class="line" x1="2031.9" y1="954.0" x2="2015.7" y2="928.8"/>
+<circle class="seat" cx="2002.7" cy="908.6" r="29"/>
+<text class="seat-no" x="2002.7" y="908.6">11</text>
+<text class="name" x="1968.1" y="854.7">________</text>
+</svg>

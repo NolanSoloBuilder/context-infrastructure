@@ -1,0 +1,483 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/7udcyj",
+    "id": "7udcyj",
+    "slide": 4,
+    "layoutId": "d19190a5-9abb-4590-8fd1-16197354dec5",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ba4a3220-0931-4b3e-9f35-fb67370b012f",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d19190a5-9abb-4590-8fd1-16197354dec5",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ba4a3220-0931-4b3e-9f35-fb67370b012f",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ba4a3220-0931-4b3e-9f35-fb67370b012f",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        24,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ed8bat4",
+      "id": "2",
+      "bbox": [
+        72,
+        56,
+        420,
+        28
+      ],
+      "geometry": "rect",
+      "text": "FORGEPANE MCP",
+      "textPreview": "FORGEPANE MCP",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#62748E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FORGEPANE MCP"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FORGEPANE MCP",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#62748E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FORGEPANE MCP",
+              "fontSize": 13,
+              "color": "#62748E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itgfmlkj",
+      "id": "3",
+      "bbox": [
+        72,
+        100,
+        840,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Acceptance Criteria",
+      "textPreview": "Acceptance Criteria",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#020618",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Acceptance Criteria"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Acceptance Criteria",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#020618",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Acceptance Criteria",
+              "fontSize": 38,
+              "color": "#020618",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8nqxs72",
+      "id": "4",
+      "bbox": [
+        96,
+        220,
+        16,
+        16
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#0F766E",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nuxc3yl",
+      "id": "5",
+      "bbox": [
+        130,
+        210,
+        950,
+        56
+      ],
+      "geometry": "rect",
+      "text": "The smoke tool returns ok=true, service=forgepane-mcp-smoke, domain=forgepane.com.",
+      "textPreview": "The smoke tool returns ok=true, service=forgepane-mcp-smoke, domain=forgepane.com.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#314158",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The smoke tool returns ok=true, service=forgepane-mcp-smoke, domain=forgepane.com."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The smoke tool returns ok=true, service=forgepane-mcp-smoke, domain=forgepane.com.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#314158"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The smoke tool returns ok=true, service=forgepane-mcp-smoke, domain=forgepane.com.",
+              "fontSize": 22,
+              "color": "#314158"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72x4nap4",
+      "id": "6",
+      "bbox": [
+        96,
+        302,
+        16,
+        16
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#475569",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih4byhgn",
+      "id": "7",
+      "bbox": [
+        130,
+        292,
+        950,
+        56
+      ],
+      "geometry": "rect",
+      "text": "The plan lists ordered steps, owners, verification checks, and rollback notes.",
+      "textPreview": "The plan lists ordered steps, owners, verification checks, and rollback notes.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#314158",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The plan lists ordered steps, owners, verification checks, and rollback notes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The plan lists ordered steps, owners, verification checks, and rollback notes.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#314158"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The plan lists ordered steps, owners, verification checks, and rollback notes.",
+              "fontSize": 22,
+              "color": "#314158"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "8",
+      "bbox": [
+        96,
+        384,
+        16,
+        16
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#475569",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "9",
+      "bbox": [
+        130,
+        374,
+        950,
+        56
+      ],
+      "geometry": "rect",
+      "text": "The final answer must mention any assumptions and avoid claiming unverified work.",
+      "textPreview": "The final answer must mention any assumptions and avoid claiming unverified work.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#314158",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The final answer must mention any assumptions and avoid claiming unverified work."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The final answer must mention any assumptions and avoid claiming unverified work.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#314158"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The final answer must mention any assumptions and avoid claiming unverified work.",
+              "fontSize": 22,
+              "color": "#314158"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "10",
+      "bbox": [
+        72,
+        668,
+        900,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Source: ForgePane local MCP rollout notes, 2026-06-19",
+      "textPreview": "Source: ForgePane local MCP rollout notes, 2026-06-19",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#90A1B9",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: ForgePane local MCP rollout notes, 2026-06-19"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: ForgePane local MCP rollout notes, 2026-06-19",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#90A1B9"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: ForgePane local MCP rollout notes, 2026-06-19",
+              "fontSize": 11,
+              "color": "#90A1B9"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

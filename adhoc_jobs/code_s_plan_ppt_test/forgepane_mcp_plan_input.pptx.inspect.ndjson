@@ -1,0 +1,51 @@
+{"kind":"deck","id":"pr/ren7nz","name":"Deck"}
+{"kind":"layout","layoutId":"ba4a3220-0931-4b3e-9f35-fb67370b012f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"d19190a5-9abb-4590-8fd1-16197354dec5","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ulpmaw","slide":1,"title":"FORGEPANE MCP","textShapes":6}
+{"kind":"shape","id":"sh/gn29gr2p","slide":1,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":1,"text":"FORGEPANE MCP","textPreview":"FORGEPANE MCP","textChars":13,"textLines":1,"bbox":[72,56,420,28]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":1,"text":"Test Goal","textPreview":"Test Goal","textChars":9,"textLines":1,"bbox":[72,100,840,72]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":1,"bbox":[96,220,16,16]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":1,"text":"Verify whether a delegated agent can turn a PPT into a plan-style execution brief.","textPreview":"Verify whether a delegated agent can turn a PPT into a plan-style execution brief.","textChars":82,"textLines":1,"bbox":[130,210,950,56]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":1,"bbox":[96,302,16,16]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":1,"text":"Use a tiny ForgePane MCP rollout deck as the source of truth.","textPreview":"Use a tiny ForgePane MCP rollout deck as the source of truth.","textChars":61,"textLines":1,"bbox":[130,292,950,56]}
+{"kind":"shape","id":"sh/5sneloj2","slide":1,"bbox":[96,384,16,16]}
+{"kind":"textbox","id":"sh/cbulwval","slide":1,"text":"Require concrete phases, risks, validation steps, and open questions.","textPreview":"Require concrete phases, risks, validation steps, and open questions.","textChars":69,"textLines":1,"bbox":[130,374,950,56]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":1,"text":"Source: ForgePane local MCP rollout notes, 2026-06-19","textPreview":"Source: ForgePane local MCP rollout notes, 2026-06-19","textChars":53,"textLines":1,"bbox":[72,668,900,24]}
+{"kind":"notes","id":"nt/ulpmaw","slide":1,"text":""}
+{"kind":"slide","id":"sl/zjfar8","slide":2,"title":"FORGEPANE MCP","textShapes":6}
+{"kind":"shape","id":"sh/bi9s36hc","slide":2,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/032lszqt","slide":2,"text":"FORGEPANE MCP","textPreview":"FORGEPANE MCP","textChars":13,"textLines":1,"bbox":[72,56,420,28]}
+{"kind":"textbox","id":"sh/tovahoza","slide":2,"text":"Implementation Phases","textPreview":"Implementation Phases","textChars":21,"textLines":1,"bbox":[72,100,840,72]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":2,"bbox":[96,220,16,16]}
+{"kind":"textbox","id":"sh/bulwval8","slide":2,"text":"Phase 1: keep the public smoke endpoint minimal and non-sensitive.","textPreview":"Phase 1: keep the public smoke endpoint minimal and non-sensitive.","textChars":66,"textLines":1,"bbox":[130,210,950,56]}
+{"kind":"shape","id":"sh/0fepkzup","slide":2,"bbox":[96,302,16,16]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":2,"text":"Phase 2: use DevSpace Read for search and fetch only, with OAuth owner approval.","textPreview":"Phase 2: use DevSpace Read for search and fetch only, with OAuth owner approval.","textChars":80,"textLines":1,"bbox":[130,292,950,56]}
+{"kind":"shape","id":"sh/idonyd0z","slide":2,"bbox":[96,384,16,16]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":2,"text":"Phase 3: keep shell-capable DevSpace behind strong authentication and limited roots.","textPreview":"Phase 3: keep shell-capable DevSpace behind strong authentication and limited roots.","textChars":84,"textLines":1,"bbox":[130,374,950,56]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":2,"text":"Source: ForgePane local MCP rollout notes, 2026-06-19","textPreview":"Source: ForgePane local MCP rollout notes, 2026-06-19","textChars":53,"textLines":1,"bbox":[72,668,900,24]}
+{"kind":"notes","id":"nt/zjfar8","slide":2,"text":""}
+{"kind":"slide","id":"sl/xw5fks","slide":3,"title":"FORGEPANE MCP","textShapes":6}
+{"kind":"shape","id":"sh/y1kre1w7","slide":3,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":3,"text":"FORGEPANE MCP","textPreview":"FORGEPANE MCP","textChars":13,"textLines":1,"bbox":[72,56,420,28]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":3,"text":"Risk Controls","textPreview":"Risk Controls","textChars":13,"textLines":1,"bbox":[72,100,840,72]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":3,"bbox":[96,220,16,16]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":3,"text":"Do not expose write, edit, or bash tools without an explicit private access layer.","textPreview":"Do not expose write, edit, or bash tools without an explicit private access layer.","textChars":82,"textLines":1,"bbox":[130,210,950,56]}
+{"kind":"shape","id":"sh/90je9cvi","slide":3,"bbox":[96,302,16,16]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":3,"text":"Prefer server logs and visible ChatGPT tool-call rows over app chip status text.","textPreview":"Prefer server logs and visible ChatGPT tool-call rows over app chip status text.","textChars":80,"textLines":1,"bbox":[130,292,950,56]}
+{"kind":"shape","id":"sh/r65wjudg","slide":3,"bbox":[96,384,16,16]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":3,"text":"Record every public hostname, LaunchAgent, and verification command in repo docs.","textPreview":"Record every public hostname, LaunchAgent, and verification command in repo docs.","textChars":81,"textLines":1,"bbox":[130,374,950,56]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":3,"text":"Source: ForgePane local MCP rollout notes, 2026-06-19","textPreview":"Source: ForgePane local MCP rollout notes, 2026-06-19","textChars":53,"textLines":1,"bbox":[72,668,900,24]}
+{"kind":"notes","id":"nt/xw5fks","slide":3,"text":""}
+{"kind":"slide","id":"sl/7udcyj","slide":4,"title":"FORGEPANE MCP","textShapes":6}
+{"kind":"shape","id":"sh/0z61032l","slide":4,"bbox":[0,0,24,720]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":4,"text":"FORGEPANE MCP","textPreview":"FORGEPANE MCP","textChars":13,"textLines":1,"bbox":[72,56,420,28]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":4,"text":"Acceptance Criteria","textPreview":"Acceptance Criteria","textChars":19,"textLines":1,"bbox":[72,100,840,72]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":4,"bbox":[96,220,16,16]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":4,"text":"The smoke tool returns ok=true, service=forgepane-mcp-smoke, domain=forgepane.com.","textPreview":"The smoke tool returns ok=true, service=forgepane-mcp-smoke, domain=forgepane.com.","textChars":82,"textLines":1,"bbox":[130,210,950,56]}
+{"kind":"shape","id":"sh/72x4nap4","slide":4,"bbox":[96,302,16,16]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":4,"text":"The plan lists ordered steps, owners, verification checks, and rollback notes.","textPreview":"The plan lists ordered steps, owners, verification checks, and rollback notes.","textChars":78,"textLines":1,"bbox":[130,292,950,56]}
+{"kind":"shape","id":"sh/p4r65wju","slide":4,"bbox":[96,384,16,16]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":4,"text":"The final answer must mention any assumptions and avoid claiming unverified work.","textPreview":"The final answer must mention any assumptions and avoid claiming unverified work.","textChars":81,"textLines":1,"bbox":[130,374,950,56]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":4,"text":"Source: ForgePane local MCP rollout notes, 2026-06-19","textPreview":"Source: ForgePane local MCP rollout notes, 2026-06-19","textChars":53,"textLines":1,"bbox":[72,668,900,24]}
+{"kind":"notes","id":"nt/7udcyj","slide":4,"text":""}

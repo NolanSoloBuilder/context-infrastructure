@@ -1,0 +1,23 @@
+# 团队级共享配置。所有人本机各自跑 lark-cli 用自己 OAuth 身份，
+# 但运行时引用的群 / wiki / 默认目标统一从这里读。
+#
+# 修改本文件属敏感清单（影响所有人 AI 行为），走 workflow_publish PR + review。
+# per-product 的 contexts/products/<x>/_meta.yml 可以覆盖这里的默认值。
+
+lark:
+  # 国内 feishu / 国际 lark；lark-cli config init 时按这个 brand 指定
+  brand: lark
+
+  # 默认通知群：PRD review / 状态变更 / 一般 build 通知都发这里。
+  # per-product 可以在 _meta.yml 里覆盖 review_chat_id / notify_chat_id。
+  default_notify_chat_id: oc_4bb061e8a8421a2a7d2080178fb37fb1   # coco, Evan, Mandy Hu, Xu
+
+  # 命名群（按用途引用，避免散落 chat_id 字面量）
+  chats:
+    rimbo_core: oc_4bb061e8a8421a2a7d2080178fb37fb1   # coco, Evan, Mandy Hu, Xu — PRD / 决策
+    mindspace: oc_7f12aea56adfd69bd9b58de40ecc1f4b
+    rimbo_dev: oc_ae6dca0d1c55bbd39568e759f6726680    # Rimbo研发群
+    deploy: oc_feb1334939d099c955ca453137abd95c
+
+  # PRD 镜像 wiki space（lark_sync 用）。先留空，第一次同步时填。
+  prd_wiki_space_id: ""

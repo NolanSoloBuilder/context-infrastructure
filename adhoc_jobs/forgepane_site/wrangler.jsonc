@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "forgepane-site",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-19",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "forgepane.com/*",
+      "zone_name": "forgepane.com"
+    },
+    {
+      "pattern": "www.forgepane.com/*",
+      "zone_name": "forgepane.com"
+    },
+    {
+      "pattern": "xuhao.forgepane.com/*",
+      "zone_name": "forgepane.com"
+    }
+  ]
+}

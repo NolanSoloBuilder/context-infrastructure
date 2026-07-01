@@ -20,6 +20,22 @@ Don't ask permission. Just do it.
 
 **找文件时，先查 `rules/WORKSPACE.md`，再搜索。** WORKSPACE.md 是这个 workspace 的目录索引，记录了每类内容的存放位置。绝大多数情况下查一下就能定位到目标目录，不需要全盘 glob/grep。如果发现新目录或项目没被收录，顺手更新 WORKSPACE.md。
 
+## Document the Conversation
+
+产品判断、架构讨论、技术路线、调研结论、可复用流程、长期偏好和重要决策，不能只停留在对话里。只要沟通内容后续可能被复用，就要在当前任务结束前落到仓库文档中。
+
+默认先按 `rules/WORKSPACE.md` 选择落点：调研报告放 `contexts/survey_sessions/`，思考和方法论放 `contexts/thought_review/`，可复用能力放 `rules/skills/`，日常记录放 `contexts/daily_records/`。如果只是补充长期协作规则，直接更新 `AGENTS.md` 或 `rules/` 下对应文件。
+
+## Testing / E2E
+
+涉及 Mindspace Workspace Harness、workspace-scoped conversation、memory/source/artifact/run 回写、context checkpoint、Agent Plaza evidence bridge 或三仓联动的代码改动，必须先参考 [`contexts/survey_sessions/2026_06_18_workspace_harness_e2e_smoke_runbook.md`](contexts/survey_sessions/2026_06_18_workspace_harness_e2e_smoke_runbook.md)。
+
+默认测试策略是 **Backend API E2E + 离线契约 E2E 优先**：先验证 SSE contract、checkpoint 续接、Workspace Memory、runtime references、artifact provenance 和 ML evidence pack；三服务 live smoke 只在显式需要真实链路时开启。
+
+涉及浏览器操作、页面验证、Web UI smoke、截图或交互调试时，默认强制使用 Codex 插件控制本地 Chrome，不用其它浏览器控制方式，除非用户明确指定替代方案。
+
+涉及本地 Mac App 或 SwiftUI App 的界面/文案/交互修改时，修改后必须重新构建或重新打包，然后关闭正在运行的 App 并重新打开，不能只依赖热加载或旧进程状态判断是否生效。
+
 ## Skills
 
 **Skills** 是 AI 可复用的能力，包括工作流、API 指南、最佳实践等。
