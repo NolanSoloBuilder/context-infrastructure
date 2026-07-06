@@ -1,0 +1,34 @@
+rules/skills/INDEX.md
+  s_f6fc62d19cb2f0::t_35dfcb8da3db80 81
+contexts/survey_sessions/2026_07_01_payment_platform_options_for_chinese_indie_developer.md
+  s_f8807900b8d73e::t_87935ec2ed082b 13-14,31-32
+  s_f8807900b8d73e::t_79c4cb37cccda6 1-12,15-30,33-47
+rules/skills/openbook_agent_harness.md
+  s_f6fc62d19cb2f0::t_35dfcb8da3db80 1-72
+contexts/survey_sessions/2026_06_18_openbook_context_support.md
+  s_f6fc62d19cb2f0::t_35dfcb8da3db80 97-134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "63937f7981406439e1f2a2edb2e78b7d00a679fa",
+  "prompts": {},
+  "sessions": {
+    "s_f6fc62d19cb2f0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f3656-6e1a-76c3-8542-a7dbdf324bbd",
+        "model": "gpt-5.5"
+      },
+      "human_author": "XuHao <xuhao2@xiaohongshu.com>"
+    },
+    "s_f8807900b8d73e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f1b66-0be8-7282-ab25-40c5ecd17086",
+        "model": "gpt-5.5"
+      },
+      "human_author": "XuHao <xuhao2@xiaohongshu.com>"
+    }
+  }
+}
