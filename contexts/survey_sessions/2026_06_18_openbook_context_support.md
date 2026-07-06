@@ -94,6 +94,44 @@ gh repo view dawei008/openbook --json nameWithOwner,description,stargazerCount,f
 
 结合本仓库已有上下文，`openbook` 最能补的是 `rules/skills/` 和 `contexts/thought_review/` 之间的中间层：它不是一个可执行 skill，但可以作为写新 skill、设计 Agent workflow、审查 Agent 产品方案时的参考书。
 
+## 2026-07-06 本地成书版补充
+
+本次新增本地成书版来源：
+
+- Markdown：`/Users/xuhao/Downloads/OpenBook-zh.md`
+- PDF：`/Users/xuhao/Desktop/OpenBook-zh.pdf`
+
+处理策略：后续需要读内容时以 Markdown 为主，PDF 只作为页数、标题、目录和末页版式的验证来源。没有把整本文本复制进仓库，原因是当前报告仍保留 license 未确认的边界；对本 workspace 来说，章节索引、阅读路由和验证记录已经足够支撑后续上下文引用。
+
+本机验证结果：
+
+- `OpenBook-zh.md` 是 UTF-8 文本，约 788 KB，13,122 行，456,663 个字符。
+- Markdown 中保留 313 个分页符，包含 `Appendix D`、`参考文献` 和末尾 `# Progress` 附录文本。
+- `OpenBook-zh.pdf` 是 PDF 1.5，标题为 `OpenBook: 构建 AI Agent 的 Harness 工程学`，313 页，创建时间为 2026-04-12 09:56:56 CST，生成链路为 LaTeX via pandoc / `xdvipdfmx`。
+- 用 `pdftoppm` 渲染了第 1、3、313 页到 `tmp/pdfs/openbook_zh_verify/`。封面标题、目录页和末页参考文献版式正常，第 3 页目录与 Markdown 开头目录一致，PDF 末页与 Markdown 结尾的参考文献段落一致。
+- 当前环境有 `pdfinfo` 和 `pdftoppm`，没有 `pdftotext`；因此 PDF 验证采用元数据 + 视觉抽样，而不是 PDF 文本抽取。
+
+本地 Markdown 的实用定位方式：
+
+```bash
+rg -n "Chapter 18|MCP|Skills|Plugin|四根支柱|AGENTS.md|Dream|记忆系统|权限模型|工具编排" /Users/xuhao/Downloads/OpenBook-zh.md
+sed -n '6040,6890p' /Users/xuhao/Downloads/OpenBook-zh.md  # Part VI / VII 周边
+sed -n '8670,9560p' /Users/xuhao/Downloads/OpenBook-zh.md  # Part IX / AGENTS.md 周边
+```
+
+对本 workspace 最值得优先引用的成书章节：
+
+| 主题 | 优先章节 | 使用方式 |
+|---|---|---|
+| System Prompt 与动态上下文 | Chapter 16 | 对照本仓 `rules/`、AGENTS 加载、缓存分区和动态 section 设计 |
+| 文件型记忆系统 | Chapter 17 | 对照 `contexts/memory/OBSERVATIONS.md`、L1/L2/L3 记忆和 Dream 整合 |
+| MCP / Skills / Plugin 分层 | Chapter 18-20 | 讨论连接外部能力、安装工作流知识和打包能力边界时先查 |
+| 多 Agent 编排 | Chapter 12-15 | 讨论 subagent、后台任务、Team/Swarm 和 Coordinator 边界时先查 |
+| 云上 Agent Harness | Chapter 23-26 | 讨论 `CONSTRAIN / INFORM / VERIFY / CORRECT`、双 Pod、AGENTS.md 治理和自修复循环时先查 |
+| 最小实现教程 | Appendix D | 写内部 workshop 或最小 Agent Harness 教学时先查，但代码需要按当前 SDK/API 重写 |
+
+已同步新增轻量 skill：`rules/skills/openbook_agent_harness.md`，并在 `rules/skills/INDEX.md` 登记。后续遇到 Agent Harness、Agent runtime、MCP、Skills、Plugin、多 Agent、记忆系统或云上 sandbox 相关问题时，先通过这个 skill 路由章节，再查真实代码或官方文档。
+
 ## 可复用判断
 
 第一，`Agent = LLM + Harness` 这个表达适合沉淀为长期概念。它把模型能力和工程运行时分开，能避免把 Agent 失败简单归因到 prompt 或模型。后续做 Agent 产品设计时，应先问 Harness 是否提供了足够的工具、权限、上下文、验证和恢复机制。

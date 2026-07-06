@@ -78,6 +78,7 @@
 - [多 Agent 并行 analysis](./bestpractice_multi_agent_analysis.md) ✅ — Topic 分割 50% 重叠、交叉验证
 - [AI 辅助调试诊断](./bestpractice_ai_debugging_diagnosis.md) ✅ — "代码改不好"的根因诊断决策树
 - [AI 产品设计原则](./bestpractice_ai_product_design.md) ✅ — 线性聊天 vs 知识工作、感知规则解耦
+- [OpenBook Agent Harness 上下文索引](./openbook_agent_harness.md) ✅ — 基于 OpenBook 成书版定位 Agent Harness、MCP、Skills、Plugin、多 Agent、记忆和云上 sandbox 设计章节
 
 ---
 
