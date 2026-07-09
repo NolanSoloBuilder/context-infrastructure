@@ -96,27 +96,29 @@ gh repo view dawei008/openbook --json nameWithOwner,description,stargazerCount,f
 
 ## 2026-07-06 本地成书版补充
 
-本次新增本地成书版来源：
+本次新增本地成书版来源，已归档到仓库：
 
-- Markdown：`/Users/xuhao/Downloads/OpenBook-zh.md`
-- PDF：`/Users/xuhao/Desktop/OpenBook-zh.pdf`
+- Markdown：`contexts/source_materials/openbook/openbook_zh.md`
+- PDF：`contexts/source_materials/openbook/openbook_zh.pdf`
+- 原始来源路径：`/Users/xuhao/Downloads/OpenBook-zh.md`、`/Users/xuhao/Desktop/OpenBook-zh.pdf`
 
-处理策略：后续需要读内容时以 Markdown 为主，PDF 只作为页数、标题、目录和末页版式的验证来源。没有把整本文本复制进仓库，原因是当前报告仍保留 license 未确认的边界；对本 workspace 来说，章节索引、阅读路由和验证记录已经足够支撑后续上下文引用。
+处理策略：后续需要读内容时以仓库内 Markdown 为主，PDF 只作为页数、标题、目录和末页版式的验证来源。当前报告仍保留 license 未确认的边界；引用或对外改编时，不直接搬运大段原文。
 
 本机验证结果：
 
 - `OpenBook-zh.md` 是 UTF-8 文本，约 788 KB，13,122 行，456,663 个字符。
 - Markdown 中保留 313 个分页符，包含 `Appendix D`、`参考文献` 和末尾 `# Progress` 附录文本。
 - `OpenBook-zh.pdf` 是 PDF 1.5，标题为 `OpenBook: 构建 AI Agent 的 Harness 工程学`，313 页，创建时间为 2026-04-12 09:56:56 CST，生成链路为 LaTeX via pandoc / `xdvipdfmx`。
+- 入仓副本已用 `cmp` 与原始文件逐字节校验一致。Markdown sha256 为 `23c189c725eb417e65f5c3946c141d15edaa6476130565b579353bf428cce487`，PDF sha256 为 `7e7a0f8af76d3bde8aee87e161b53643180a9df6fd73cf853c09124a3947f92c`。
 - 用 `pdftoppm` 渲染了第 1、3、313 页到 `tmp/pdfs/openbook_zh_verify/`。封面标题、目录页和末页参考文献版式正常，第 3 页目录与 Markdown 开头目录一致，PDF 末页与 Markdown 结尾的参考文献段落一致。
 - 当前环境有 `pdfinfo` 和 `pdftoppm`，没有 `pdftotext`；因此 PDF 验证采用元数据 + 视觉抽样，而不是 PDF 文本抽取。
 
 本地 Markdown 的实用定位方式：
 
 ```bash
-rg -n "Chapter 18|MCP|Skills|Plugin|四根支柱|AGENTS.md|Dream|记忆系统|权限模型|工具编排" /Users/xuhao/Downloads/OpenBook-zh.md
-sed -n '6040,6890p' /Users/xuhao/Downloads/OpenBook-zh.md  # Part VI / VII 周边
-sed -n '8670,9560p' /Users/xuhao/Downloads/OpenBook-zh.md  # Part IX / AGENTS.md 周边
+rg -n "Chapter 18|MCP|Skills|Plugin|四根支柱|AGENTS.md|Dream|记忆系统|权限模型|工具编排" contexts/source_materials/openbook/openbook_zh.md
+sed -n '6040,6890p' contexts/source_materials/openbook/openbook_zh.md  # Part VI / VII 周边
+sed -n '8670,9560p' contexts/source_materials/openbook/openbook_zh.md  # Part IX / AGENTS.md 周边
 ```
 
 对本 workspace 最值得优先引用的成书章节：

@@ -6,8 +6,9 @@
 - **适用场景**: Agent Harness 架构、Agent runtime、工具系统、权限模型、多 Agent、记忆系统、MCP、Skills、Plugin、云上 sandbox 设计讨论
 - **创建日期**: 2026-07-06
 - **主要上下文**: `contexts/survey_sessions/2026_06_18_openbook_context_support.md`
-- **本地源文件**: `/Users/xuhao/Downloads/OpenBook-zh.md`
-- **验证文件**: `/Users/xuhao/Desktop/OpenBook-zh.pdf`
+- **仓库源文件**: `contexts/source_materials/openbook/openbook_zh.md`
+- **仓库验证文件**: `contexts/source_materials/openbook/openbook_zh.pdf`
+- **Harness 知识库**: `contexts/knowledge_base/agent_harness/`
 
 ---
 
@@ -27,10 +28,12 @@
 ## 使用流程
 
 1. 先读 `contexts/survey_sessions/2026_06_18_openbook_context_support.md`，获取本 workspace 已确认的结论、边界和路由表。
-2. 需要具体内容时，以 `/Users/xuhao/Downloads/OpenBook-zh.md` 为主源，用 `rg` 定位章节，再用 `sed` 读相关片段。
-3. 需要确认成书版页数、标题、目录或版式时，使用 `/Users/xuhao/Desktop/OpenBook-zh.pdf` 做验证。PDF 是验证源，不是主解析源。
-4. 把 OpenBook 当作设计模式索引和问题清单，不把它当作某个闭源产品当前实现的事实来源。
-5. 涉及最新 API、官方规范、产品能力或安全边界时，继续查真实代码或官方文档。
+2. 需要先建立设计框架时，读 `contexts/knowledge_base/agent_harness/harness_primitives.md`。
+3. 需要找外部参考资料时，读 `contexts/knowledge_base/agent_harness/reference_cards.md`。
+4. 需要具体 OpenBook 内容时，以 `contexts/source_materials/openbook/openbook_zh.md` 为主源，用 `rg` 定位章节，再用 `sed` 读相关片段。
+5. 需要确认成书版页数、标题、目录或版式时，使用 `contexts/source_materials/openbook/openbook_zh.pdf` 做验证。PDF 是验证源，不是主解析源。
+6. 把 OpenBook 当作设计模式索引和问题清单，不把它当作某个闭源产品当前实现的事实来源。
+7. 涉及最新 API、官方规范、产品能力或安全边界时，继续查真实代码或官方文档。
 
 ## 快速路由
 
@@ -50,11 +53,11 @@
 ## 常用定位命令
 
 ```bash
-rg -n "Chapter 18|MCP|Skills|Plugin|四根支柱|AGENTS.md|Dream|记忆系统|权限模型|工具编排" /Users/xuhao/Downloads/OpenBook-zh.md
-sed -n '6040,6890p' /Users/xuhao/Downloads/OpenBook-zh.md
-sed -n '8670,9560p' /Users/xuhao/Downloads/OpenBook-zh.md
-pdfinfo /Users/xuhao/Desktop/OpenBook-zh.pdf
-pdftoppm -png -f 1 -l 3 /Users/xuhao/Desktop/OpenBook-zh.pdf tmp/pdfs/openbook_zh_verify/page
+rg -n "Chapter 18|MCP|Skills|Plugin|四根支柱|AGENTS.md|Dream|记忆系统|权限模型|工具编排" contexts/source_materials/openbook/openbook_zh.md
+sed -n '6040,6890p' contexts/source_materials/openbook/openbook_zh.md
+sed -n '8670,9560p' contexts/source_materials/openbook/openbook_zh.md
+pdfinfo contexts/source_materials/openbook/openbook_zh.pdf
+pdftoppm -png -f 1 -l 3 contexts/source_materials/openbook/openbook_zh.pdf tmp/pdfs/openbook_zh_verify/page
 ```
 
 ## 可信边界

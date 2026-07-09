@@ -11,6 +11,8 @@
 
 ### 知识与记录
 - 通用调研报告：`contexts/survey_sessions/`
+- 外部原始资料 / 本地文档归档：`contexts/source_materials/`
+- 二次理解后的结构化知识卡片：`contexts/knowledge_base/`
 - Rimbo 归档上下文：`contexts/rimbo/`
 - 思考 / 复盘 / 方法论：`contexts/thought_review/`
 - 每日日志：`contexts/daily_records/`

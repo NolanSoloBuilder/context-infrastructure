@@ -178,3 +178,16 @@ Adapter logs confirmed the web composer reached the server:
 ```
 
 Current interpretation: the ForgePane MCP servers, Apps SDK metadata, Codex Apps tool layer, and ChatGPT Web composer can all invoke the public no-auth smoke endpoint. The app chip may still display `点击以重试` after invocation, so the authoritative signal is the visible tool call row plus server-side `/smoke-mcp` request logs.
+
+## 2026-07-06 Cited Alpha Hostname
+
+`cited-alpha.forgepane.com` is bound to Cloudflare Pages project `cited-alpha-web`.
+
+- Project domains: `cited-alpha-web.pages.dev`, `cited-alpha.forgepane.com`.
+- Deployment used existing local `dist/` from `/Users/xuhao/Documents/Other/mindspace_web_frontend`.
+- Latest deployment URL: `https://48bc55dd.cited-alpha-web.pages.dev`.
+- Public contact email changed to `CitedAlpha@163.com`.
+- Verification:
+  - `https://cited-alpha.forgepane.com/` returned `200`.
+  - `https://cited-alpha-web.pages.dev/` returned `200`.
+  - `https://cited-alpha.forgepane.com/.well-known/security.txt` returned `Contact: mailto:CitedAlpha@163.com`.

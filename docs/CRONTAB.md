@@ -15,6 +15,7 @@
 Every 2m  → Situation Awareness: 快照采集（交通/摄像头/警报）
 Every 12h → Situation Awareness: 风力预警检查
 Weekly    → AI Heartbeat Reflector: 合并/提升/清理记忆
+Weekly    → Codex Experience Review: 复盘 Codex 对话与执行日志，更新经验文档
 Daily     → Crontab Monitor: 健康审计，发现异常则发告警邮件
 ```
 
@@ -54,6 +55,15 @@ Daily     → Crontab Monitor: 健康审计，发现异常则发告警邮件
 - **依赖**：OpenCode Server API、Gmail 或 Kit API
 - **建议时间**：每日 8:00 AM（日报）或每周一 8:00 AM（周报）
 
+### Codex Experience Review（每周）
+
+阅读和检索本机 Codex 对话记录、执行日志和 memory rollout summary，复盘执行经验、用户偏好、产品与 UI 判断，并更新 `contexts/thought_review/codex_execution_experience_review.md`。
+
+- **任务说明**：`periodic_jobs/codex_experience_review/PROMPT.md`
+- **维护文档**：`contexts/thought_review/codex_execution_experience_review.md`
+- **执行入口**：Codex App automation `Codex Experience Review`
+- **建议时间**：每周一 9:00 AM
+
 ---
 
 ## 示例 crontab 配置
@@ -79,6 +89,9 @@ Daily     → Crontab Monitor: 健康审计，发现异常则发告警邮件
 
 # AI News Survey 周报 — 每周一 8:00 AM（发布到 Kit 订阅者）
 0 8 * * 1 cd /path/to/your/workspace && /path/to/your/workspace/.venv/bin/python periodic_jobs/ai_heartbeat/src/v0/jobs/ai_news_survey.py --mode weekly --publish-to-kit >> /tmp/ai_news_weekly.log 2>&1
+
+# Codex Experience Review — 每周一 9:00 AM
+# 推荐使用 Codex App automation 执行；若改用系统 cron，需要用可访问 Codex CLI/automation 的执行器读取 periodic_jobs/codex_experience_review/PROMPT.md。
 ```
 
 ---

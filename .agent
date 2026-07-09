@@ -1,0 +1,7 @@
+# Agent Context References
+
+load:
+  - /Users/xuhao/Documents/Other/context-infrastructure/AGENTS.md
+  - /Users/xuhao/Documents/Other/context-infrastructure/contexts/thought_review/codex_execution_experience_review.md
+
+purpose: "Load the Codex execution experience review as default behavioral context for this workspace."
