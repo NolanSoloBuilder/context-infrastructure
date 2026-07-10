@@ -1,0 +1,82 @@
+adhoc_jobs/mac_migration_kit/manifests/applications.txt
+  s_e4abb0fc0692dd::t_924652d4113e4c 1-52
+adhoc_jobs/mac_migration_kit/manifests/cursor_extensions.txt
+  s_e4abb0fc0692dd::t_924652d4113e4c 1-56
+adhoc_jobs/mac_migration_kit/scripts/bootstrap_new_mac.sh
+  s_e4abb0fc0692dd::t_23eaba441d5d7d 1-105
+adhoc_jobs/mac_migration_kit/scripts/clone_repositories.sh
+  s_e4abb0fc0692dd::t_13522b6988dd30 1-48
+adhoc_jobs/mac_migration_kit/manifests/codex-skills-migrate.txt
+  s_e4abb0fc0692dd::t_ca52a6538d30e0 1-2,5-49,85-106,112-115
+  s_e4abb0fc0692dd::t_2c91ffb7c62703 3,107-111
+  s_e4abb0fc0692dd::t_3a458023484a83 4,50-84
+adhoc_jobs/mac_migration_kit/scripts/doctor_migration.sh
+  s_e4abb0fc0692dd::t_23eaba441d5d7d 1-45,52-57,64-70
+  s_e4abb0fc0692dd::t_eee40c3c1721c7 46-51,63
+  s_e4abb0fc0692dd::t_3881dc00405b9d 58-62
+adhoc_jobs/mac_migration_kit/manifests/git_repositories.current.tsv
+  s_e4abb0fc0692dd::t_67bf11d7a21788 1-43
+adhoc_jobs/mac_migration_kit/manifests/Brewfile
+  s_e4abb0fc0692dd::t_23eaba441d5d7d 1-32
+adhoc_jobs/mac_migration_kit/manifests/git_repositories.current.txt
+  s_e4abb0fc0692dd::t_924652d4113e4c 1-42
+adhoc_jobs/mac_migration_kit/scripts/restore_codex_environment.sh
+  s_e4abb0fc0692dd::t_eee40c3c1721c7 1-56,58-64
+  s_e4abb0fc0692dd::t_2a1966698b37d7 57
+adhoc_jobs/mac_migration_kit/README.md
+  s_e4abb0fc0692dd::t_eee40c3c1721c7 14,36-44,47-48,50-56,65,67-72,74
+  s_e4abb0fc0692dd::t_e1c964e7741077 23
+  s_e4abb0fc0692dd::t_ca52a6538d30e0 25
+  s_e4abb0fc0692dd::t_983a3640e37fc8 11,64,83-88
+  s_e4abb0fc0692dd::t_23eaba441d5d7d 1-10,12,15-16,26-35,57-63,66,73,76-82,89-97
+  s_e4abb0fc0692dd::t_2dfc9063fe64b4 24
+  s_e4abb0fc0692dd::t_1da68699750272 46,49,75
+  s_e4abb0fc0692dd::t_27a973ba216fc9 13,45
+  s_e4abb0fc0692dd::t_584179ac086af2 17-22
+adhoc_jobs/mac_migration_kit/.gitignore
+  s_e4abb0fc0692dd::t_eee40c3c1721c7 1-2,5
+  s_e4abb0fc0692dd::t_d68dece302b118 3-4
+adhoc_jobs/mac_migration_kit/manifests/vscode_extensions.txt
+  s_e4abb0fc0692dd::t_924652d4113e4c 1-45
+adhoc_jobs/mac_migration_kit/scripts/export_inventory.sh
+  s_e4abb0fc0692dd::t_23eaba441d5d7d 1-64,75-95,112-121,124-137
+  s_e4abb0fc0692dd::t_eee40c3c1721c7 96-111,122-123
+  s_e4abb0fc0692dd::t_13522b6988dd30 65-74
+adhoc_jobs/mac_migration_kit/prompts/03_codex_environment_restore_from_repo.md
+  s_e4abb0fc0692dd::t_04885223bbf169 1-89
+adhoc_jobs/mac_migration_kit/prompts/02_codex_skills_migration.md
+  s_e4abb0fc0692dd::t_4df212205dfd83 12,32-33,61,63-64,107,141,156
+  s_e4abb0fc0692dd::t_e1c964e7741077 1-6,9-11,15-18,20-24,29,34-60,69-73,84,87-106,108-136,139-140,145-155
+  s_e4abb0fc0692dd::t_c0939837521af5 13-14,19,25-28,30-31,62,65-68,74-83,85-86,137-138,142-144
+  s_e4abb0fc0692dd::t_ca52a6538d30e0 7-8
+adhoc_jobs/mac_migration_kit/scripts/backup_codex_environment.sh
+  s_e4abb0fc0692dd::t_3db51901394f34 8-9,33-46,87-165,177-178,184,186-188,206,213-214,218
+  s_e4abb0fc0692dd::t_6a66912cc47fd5 48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86
+  s_e4abb0fc0692dd::t_999febdc75657f 47,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,81,83,85
+  s_e4abb0fc0692dd::t_eee40c3c1721c7 1-7,10-32,166-176,179-182,185,189-205,207-212,215-217,219-224
+  s_e4abb0fc0692dd::t_597c5939db7874 183
+adhoc_jobs/mac_migration_kit/manifests/npm-global.txt
+  s_e4abb0fc0692dd::t_23eaba441d5d7d 1-13
+adhoc_jobs/mac_migration_kit/artifacts/codex-environment-20260710T151838.tar.gz.sha256
+  s_e4abb0fc0692dd::t_2c36ef52f82475 1
+adhoc_jobs/mac_migration_kit/prompts/01b_oh_my_zsh_setup.md
+  s_e4abb0fc0692dd::t_c9b2e66d29bb06 1-123
+adhoc_jobs/mac_migration_kit/prompts/01_system_toolchain_install.md
+  s_e4abb0fc0692dd::t_25d8bad2706d2f 1-159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "25a82635224e33012bc90f14f438584ba6800853",
+  "prompts": {},
+  "sessions": {
+    "s_e4abb0fc0692dd": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f46c7-ee02-7011-9b00-ef9b1a8831cf",
+        "model": "gpt-5.5"
+      },
+      "human_author": "XuHao <xuhao2@xiaohongshu.com>"
+    }
+  }
+}
