@@ -1,0 +1,5 @@
+*.tar.gz
+*.tar.gz.sha256
+!artifacts/codex-environment-20260710T151838.tar.gz
+!artifacts/codex-environment-20260710T151838.tar.gz.sha256
+private/
