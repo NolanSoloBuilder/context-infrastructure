@@ -41,6 +41,7 @@
 - [Google Docs 操作](./google_docs.md) ⚙️ — CLI 工具：发布 Markdown、创建/搜索/修改/分享文档
 - [图片生成与放大](./generate_image.md) — CLI 工具：Gemini Flash / Gemini Pro / GPT-Image-2 文生图、图片编辑、分辨率放大
 - [增长数据分析](./growth_analytics.md) ⚙️ — 三个 CLI 查询网站流量（GA4）、邮件订阅（Kit）、Twitter 互动（Typefully）
+- [StrongVPN WireGuard 节点优选](./strongvpn-node-optimizer/SKILL.md) ⚙️ — 实测 AI 服务访问质量，自动关闭冲突 VPN、切换最佳节点并在失败时回滚
 - [Typefully Metrics CLI](./typefully_metrics.md) ⚙️ — 通过浏览器 session 凭据查询 Twitter impression、engagement、followers 数据
 - [Typefully 发帖 CLI](./typefully_post.md) ⚙️ — 通过 Typefully v2 API 创建草稿、排期发布和直接发布 tweet / thread
 
