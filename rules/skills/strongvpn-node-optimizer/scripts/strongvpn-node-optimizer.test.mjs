@@ -11,9 +11,37 @@ import {
   isFreshCache,
   scoreCandidate,
   promoteWinningConfig,
+  parseCurlMetrics,
+  parseVpnConnections,
   selectCandidates,
   withNetworkTransaction,
 } from './strongvpn-node-optimizer.mjs';
+
+test('parses only connected macOS VPN services', () => {
+  const output = `
+Available network connection services in the current set (*=enabled):
+* (Connected)      8C95BBD3-1111-2222-3333-123456789ABC VPN (com.example) "StrongVPN" [VPN:com.example]
+* (Disconnected)   AAAAAAAA-1111-2222-3333-123456789ABC VPN (net.openvpn) "OpenVPN" [VPN:net.openvpn]
+`;
+
+  assert.deepEqual(parseVpnConnections(output), [
+    { id: '8C95BBD3-1111-2222-3333-123456789ABC', name: 'StrongVPN' },
+  ]);
+});
+
+test('parses curl metrics and treats reachable HTTP errors as transport success', () => {
+  const parsed = parseCurlMetrics('{"http_code":401,"time_appconnect":0.12,"time_starttransfer":0.20,"time_total":0.25,"speed_download":4000000}');
+
+  assert.deepEqual(parsed, {
+    ok: true,
+    httpCode: 401,
+    tls: 0.12,
+    ttfb: 0.20,
+    total: 0.25,
+    throughput: 32,
+  });
+  assert.equal(parseCurlMetrics('{"http_code":000,"time_total":10}').ok, false);
+});
 
 const fixture = `
 export const serverMapping = {

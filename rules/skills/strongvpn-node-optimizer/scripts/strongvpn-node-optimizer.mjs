@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 
+import { spawn } from 'node:child_process';
+import { chmod, mkdir, readFile, readdir, rename, rm, writeFile } from 'node:fs/promises';
 import { isIP } from 'node:net';
+import { homedir } from 'node:os';
+import { basename, dirname, join, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const REGION_PATTERNS = [
   ['singapore', /singapore|\bsin\b/i],
@@ -361,4 +366,434 @@ export async function promoteWinningConfig(store, config) {
   for (const path of await store.list('configs/')) {
     if (!keep.has(path)) await store.remove(path);
   }
+}
+
+export function parseVpnConnections(output) {
+  const connections = [];
+  for (const line of String(output).split('\n')) {
+    if (!line.includes('(Connected)')) continue;
+    const id = line.match(/\)\s+([0-9A-F-]{36})\b/i)?.[1];
+    const name = line.match(/"([^"]+)"/)?.[1];
+    if (id && name) connections.push({ id, name });
+  }
+  return connections;
+}
+
+export function parseCurlMetrics(output) {
+  try {
+    const data = JSON.parse(String(output).trim());
+    const httpCode = Number(data.http_code);
+    const total = Number(data.time_total);
+    const speed = Number(data.speed_download);
+    return {
+      ok: httpCode >= 200 && httpCode < 500 && Number.isFinite(total) && total > 0,
+      httpCode,
+      tls: Number(data.time_appconnect) || 0,
+      ttfb: Number(data.time_starttransfer) || 0,
+      total: total || 0,
+      throughput: Number.isFinite(speed) ? (speed * 8) / 1_000_000 : 0,
+    };
+  } catch {
+    return { ok: false, httpCode: 0, tls: 0, ttfb: 0, total: 0, throughput: 0 };
+  }
+}
+
+export async function runCommand(command, args = [], options = {}) {
+  return new Promise((resolvePromise, rejectPromise) => {
+    const child = spawn(command, args, {
+      stdio: options.inherit ? 'inherit' : ['pipe', 'pipe', 'pipe'],
+      env: { ...process.env, ...options.env },
+    });
+    let stdout = '';
+    let stderr = '';
+    if (!options.inherit) {
+      child.stdout.setEncoding('utf8');
+      child.stderr.setEncoding('utf8');
+      child.stdout.on('data', (chunk) => { stdout += chunk; });
+      child.stderr.on('data', (chunk) => { stderr += chunk; });
+      if (options.input !== undefined) child.stdin.end(options.input);
+      else child.stdin.end();
+    }
+    child.on('error', rejectPromise);
+    child.on('close', (code, signal) => {
+      const result = { code: code ?? 1, signal, stdout, stderr };
+      if ((code ?? 1) !== 0 && !options.allowFailure) {
+        const error = new Error(`${command} failed with exit code ${code ?? 1}`);
+        error.result = result;
+        rejectPromise(error);
+      } else {
+        resolvePromise(result);
+      }
+    });
+  });
+}
+
+export class FileStore {
+  constructor(root) {
+    this.root = root;
+  }
+
+  path(relativePath) {
+    const path = resolve(this.root, relativePath);
+    if (!path.startsWith(`${resolve(this.root)}/`)) throw new Error('Unsafe data path');
+    return path;
+  }
+
+  async ensure() {
+    await mkdir(this.root, { recursive: true, mode: 0o700 });
+    await chmod(this.root, 0o700);
+  }
+
+  async read(relativePath) {
+    try {
+      return await readFile(this.path(relativePath), 'utf8');
+    } catch (error) {
+      if (error.code === 'ENOENT') return null;
+      throw error;
+    }
+  }
+
+  async write(relativePath, value) {
+    await this.ensure();
+    const path = this.path(relativePath);
+    await mkdir(dirname(path), { recursive: true, mode: 0o700 });
+    await writeFile(path, value, { mode: 0o600 });
+    await chmod(path, 0o600);
+  }
+
+  async remove(relativePath) {
+    await rm(this.path(relativePath), { force: true });
+  }
+
+  async list(relativePrefix) {
+    const directory = this.path(relativePrefix);
+    try {
+      return (await readdir(directory)).map((name) => `${relativePrefix}${name}`);
+    } catch (error) {
+      if (error.code === 'ENOENT') return [];
+      throw error;
+    }
+  }
+}
+
+const VPN_APPS = ['StrongVPN', 'WireGuard', 'OpenVPN Connect', 'REDpass'];
+
+async function appIsRunning(name, runner) {
+  const escaped = name.replaceAll('"', '\\"');
+  const result = await runner('osascript', ['-e', `application "System Events" to (name of processes) contains "${escaped}"`], { allowFailure: true });
+  return result.stdout.trim() === 'true';
+}
+
+export function createMacNetworkAdapter(runner = runCommand) {
+  let managedConfigPath = null;
+  return {
+    setManagedConfig(path) {
+      managedConfigPath = path;
+    },
+    async snapshot() {
+      const [connections, route, dns, apps] = await Promise.all([
+        runner('scutil', ['--nc', 'list']),
+        runner('route', ['-n', 'get', 'default'], { allowFailure: true }),
+        runner('scutil', ['--dns'], { allowFailure: true }),
+        Promise.all(VPN_APPS.map(async (name) => ({ name, running: await appIsRunning(name, runner) }))),
+      ]);
+      return {
+        connectedServices: parseVpnConnections(connections.stdout),
+        runningApps: apps.filter(({ running }) => running).map(({ name }) => name),
+        routeFingerprint: route.stdout,
+        dnsFingerprint: dns.stdout,
+      };
+    },
+    async stopConflicts(snapshot) {
+      for (const service of snapshot.connectedServices) {
+        await runner('scutil', ['--nc', 'stop', service.id], { allowFailure: true });
+      }
+      for (const app of snapshot.runningApps) {
+        await runner('osascript', ['-e', `tell application "${app.replaceAll('"', '\\"')}" to quit`], { allowFailure: true });
+      }
+      await new Promise((resolvePromise) => setTimeout(resolvePromise, 1200));
+      for (const app of snapshot.runningApps) {
+        await runner('pkill', ['-TERM', '-x', app], { allowFailure: true });
+      }
+    },
+    async cleanupManagedTunnel() {
+      if (!managedConfigPath) return;
+      await runner('sudo', ['-n', 'wg-quick', 'down', managedConfigPath], { allowFailure: true });
+    },
+    async restore(snapshot) {
+      let complete = true;
+      for (const app of snapshot.runningApps) {
+        const result = await runner('open', ['-a', app], { allowFailure: true });
+        complete = complete && result.code === 0;
+      }
+      for (const service of snapshot.connectedServices) {
+        const result = await runner('scutil', ['--nc', 'start', service.id], { allowFailure: true });
+        complete = complete && result.code === 0;
+      }
+      return { complete };
+    },
+  };
+}
+
+async function commandExists(command, runner = runCommand) {
+  return (await runner('sh', ['-c', `command -v ${command}`], { allowFailure: true })).code === 0;
+}
+
+async function generateKeyPair(runner = runCommand) {
+  const privateKey = (await runner('wg', ['genkey'])).stdout.trim();
+  const publicKey = (await runner('wg', ['pubkey'], { input: `${privateKey}\n` })).stdout.trim();
+  if (!privateKey || !publicKey) throw new Error('WireGuard key generation failed');
+  return { privateKey, publicKey };
+}
+
+async function pingLatency(ip, runner = runCommand) {
+  const result = await runner('ping', ['-n', '-c', '2', '-W', '1000', ip], { allowFailure: true });
+  const match = result.stdout.match(/(?:round-trip|rtt).*?=\s*[\d.]+\/([\d.]+)\//);
+  return { ok: result.code === 0 && Boolean(match), latency: match ? Number(match[1]) : Number.POSITIVE_INFINITY };
+}
+
+const CURL_FORMAT = '{"http_code":%{http_code},"time_appconnect":%{time_appconnect},"time_starttransfer":%{time_starttransfer},"time_total":%{time_total},"speed_download":%{speed_download}}';
+const TEST_TARGETS = [
+  { name: 'openai-api', url: 'https://api.openai.com/v1/models', core: true },
+  { name: 'chatgpt', url: 'https://chatgpt.com/', core: true },
+  { name: 'claude', url: 'https://claude.ai/', core: true },
+  { name: 'github', url: 'https://github.com/' },
+  { name: 'gemini', url: 'https://gemini.google.com/' },
+  { name: 'cloudflare', url: 'https://speed.cloudflare.com/__down?bytes=1000000', throughput: true },
+];
+
+async function curlMetric(target, runner = runCommand) {
+  const result = await runner('curl', [
+    '--location', '--silent', '--show-error', '--output', '/dev/null',
+    '--connect-timeout', '8', '--max-time', '20', '--write-out', CURL_FORMAT,
+    target.url,
+  ], { allowFailure: true });
+  const metric = parseCurlMetrics(result.stdout);
+  return { ...metric, ok: result.code === 0 && metric.ok, name: target.name, core: target.core === true };
+}
+
+function aggregateRound(metrics) {
+  const successful = metrics.filter(({ ok }) => ok);
+  return {
+    ok: successful.length === metrics.length,
+    coreOk: metrics.filter(({ core }) => core).every(({ ok }) => ok),
+    tls: median(successful.map(({ tls }) => tls)),
+    ttfb: median(successful.map(({ ttfb }) => ttfb)),
+    total: median(successful.map(({ total }) => total)),
+    throughput: median(metrics.filter(({ name, ok }) => name === 'cloudflare' && ok).map(({ throughput }) => throughput)),
+  };
+}
+
+async function readCloudflareTrace(runner = runCommand) {
+  const result = await runner('curl', ['--silent', '--show-error', '--connect-timeout', '8', '--max-time', '15', 'https://www.cloudflare.com/cdn-cgi/trace'], { allowFailure: true });
+  const fields = Object.fromEntries(result.stdout.split('\n').map((line) => line.split('=')).filter((parts) => parts.length === 2));
+  return { loc: fields.loc ?? null, colo: fields.colo ?? null, warp: fields.warp ?? null };
+}
+
+async function validateTunnel(runner = runCommand) {
+  const [handshake, dns] = await Promise.all([
+    runner('sudo', ['-n', 'wg', 'show', 'svpn0', 'latest-handshakes'], { allowFailure: true }),
+    runner('dscacheutil', ['-q', 'host', '-a', 'name', 'api.openai.com'], { allowFailure: true }),
+  ]);
+  const handshakeOk = handshake.stdout.trim().split(/\s+/).some((value) => /^\d{10,}$/.test(value) && Number(value) > 0);
+  return { handshakeOk, dnsOk: dns.code === 0 && /ip_address:/.test(dns.stdout) };
+}
+
+async function tunnelUp(configPath, adapter, runner = runCommand) {
+  adapter.setManagedConfig(configPath);
+  await runner('sudo', ['-n', 'wg-quick', 'up', configPath]);
+}
+
+async function tunnelDown(configPath, runner = runCommand) {
+  await runner('sudo', ['-n', 'wg-quick', 'down', configPath], { allowFailure: true });
+}
+
+const BASE_URLS = [
+  'https://tools.strongvpn.asia/share/strong-wg',
+  'https://tools.strongtech.org/share/strong-wg',
+];
+
+async function benchmarkCandidate({ server, credentials, store, adapter, runner, emit }) {
+  const keyPair = await generateKeyPair(runner);
+  const generated = await generateConfig({ baseUrls: BASE_URLS, server, credentials, keyPair });
+  const configPath = store.path('runtime/svpn0.conf');
+  await store.write('runtime/svpn0.conf', generated.config);
+  let trace = { loc: null, colo: null, warp: null };
+  const samples = [];
+  try {
+    await tunnelUp(configPath, adapter, runner);
+    trace = await readCloudflareTrace(runner);
+    for (let round = 1; round <= 3; round += 1) {
+      const metrics = [];
+      for (const target of TEST_TARGETS) metrics.push(await curlMetric(target, runner));
+      samples.push(aggregateRound(metrics));
+      emit?.(`  第 ${round}/3 轮完成`);
+    }
+    const validation = await validateTunnel(runner);
+    for (const sample of samples) sample.coreOk = sample.coreOk && validation.handshakeOk && validation.dnsOk;
+  } finally {
+    await tunnelDown(configPath, runner);
+  }
+  const scored = scoreCandidate(samples);
+  return {
+    id: server.id,
+    label: server.label,
+    country: server.country,
+    region: server.region,
+    trace,
+    samples,
+    ...scored,
+    config: generated.config,
+  };
+}
+
+async function runBenchmark({ force, store, adapter, runner = runCommand, emit = console.log }) {
+  const cachedText = await store.read('latest.json');
+  if (!force && cachedText) {
+    const cached = JSON.parse(cachedText);
+    if (isFreshCache(cached.testedAt) && await store.read('configs/current.conf')) return { ...cached, cached: true };
+  }
+  const credentials = await readCredentials(runner);
+  const catalog = await fetchServerCatalog({ baseUrls: BASE_URLS });
+  const preferred = catalog.servers.filter(({ region }) => region !== null);
+  const preflight = new Map();
+  emit(`预检 ${preferred.length} 个候选节点…`);
+  for (const server of preferred) preflight.set(server.id, await pingLatency(server.ip, runner));
+  const candidates = selectCandidates(preferred, preflight, 6);
+  if (candidates.length === 0) throw new Error('No preferred StrongVPN candidates were reachable');
+
+  return withNetworkTransaction(adapter, async () => {
+    const results = [];
+    for (const [index, server] of candidates.entries()) {
+      emit(`[${index + 1}/${candidates.length}] 测试 ${server.label} (${server.id})`);
+      try {
+        results.push(await benchmarkCandidate({ server, credentials, store, adapter, runner, emit }));
+      } catch (error) {
+        results.push({
+          id: server.id, label: server.label, country: server.country, region: server.region,
+          trace: { loc: null, colo: null, warp: null }, samples: [], ...scoreCandidate([]),
+          error: error.message,
+        });
+        await adapter.cleanupManagedTunnel();
+      }
+    }
+    const ranked = rankCandidates(results);
+    const winner = ranked.find(({ eligible, config }) => eligible && config);
+    if (!winner) throw new Error('No StrongVPN node passed all stability and core service checks');
+    await promoteWinningConfig(store, winner.config);
+    await store.write('runtime/svpn0.conf', winner.config);
+    await tunnelUp(store.path('runtime/svpn0.conf'), adapter, runner);
+    const validation = await validateTunnel(runner);
+    if (!validation.handshakeOk || !validation.dnsOk) throw new Error('Winning tunnel failed final validation');
+
+    const latest = {
+      testedAt: new Date().toISOString(),
+      winner: winner.id,
+      results: ranked.map(({ config: _config, samples, error, ...item }) => ({
+        ...item,
+        rounds: samples.length,
+        error: error ?? null,
+      })),
+    };
+    await store.write('latest.json', `${JSON.stringify(latest, null, 2)}\n`);
+    return latest;
+  });
+}
+
+async function secureCredentialSet(username, runner = runCommand) {
+  if (!/^a\d{6}$/.test(username)) throw new Error('StrongVPN username must match a followed by six digits');
+  console.error('请在系统提示处输入 StrongVPN 密码（输入不会显示）：');
+  await runner('security', [
+    'add-generic-password', '-U', '-a', username, '-s', 'strongvpn-node-optimizer', '-w',
+  ], { inherit: true });
+}
+
+function printResult(value, json) {
+  if (json) {
+    console.log(JSON.stringify(value, null, 2));
+    return;
+  }
+  if (value.winner) console.log(`已连接最优节点：${value.winner}${value.cached ? '（使用 24 小时内缓存）' : ''}`);
+  else console.log(value.message ?? String(value));
+}
+
+async function cli(argv = process.argv.slice(2)) {
+  const json = argv.includes('--json');
+  const force = argv.includes('--force');
+  const args = argv.filter((arg) => !arg.startsWith('--'));
+  const command = args[0] ?? 'status';
+  const dataRoot = process.env.STRONGVPN_OPTIMIZER_HOME ?? join(homedir(), '.local', 'share', 'strongvpn-node-optimizer');
+  const store = new FileStore(dataRoot);
+  await store.ensure();
+  const adapter = createMacNetworkAdapter();
+
+  if (command === 'credentials' && args[1] === 'set') {
+    const username = args[2];
+    if (!username) throw new Error('Usage: credentials set <username>');
+    await secureCredentialSet(username);
+    printResult({ message: 'StrongVPN 凭据已安全保存到 macOS Keychain。' }, json);
+    return;
+  }
+  if (command === 'status') {
+    const [wg, wgQuick, keychain, latest] = await Promise.all([
+      commandExists('wg'), commandExists('wg-quick'),
+      runCommand('security', ['find-generic-password', '-s', 'strongvpn-node-optimizer'], { allowFailure: true }),
+      store.read('latest.json'),
+    ]);
+    const status = {
+      dependencies: { wg, wgQuick },
+      credentials: keychain.code === 0 ? 'configured' : 'missing',
+      latest: latest ? JSON.parse(latest) : null,
+    };
+    console.log(JSON.stringify(status, null, 2));
+    return;
+  }
+  if (command === 'benchmark') {
+    if (!(await commandExists('wg')) || !(await commandExists('wg-quick'))) {
+      const error = new Error('WireGuard tools are missing; install with brew install wireguard-tools');
+      error.exitCode = 3;
+      throw error;
+    }
+    const result = await runBenchmark({ force, store, adapter });
+    printResult(result, json);
+    return;
+  }
+  if (command === 'switch' && args[1] === 'best') {
+    const config = await store.read('configs/current.conf');
+    if (!config) throw new Error('No tested configuration exists; run benchmark first');
+    const result = await withNetworkTransaction(adapter, async () => {
+      await store.write('runtime/svpn0.conf', config);
+      await tunnelUp(store.path('runtime/svpn0.conf'), adapter);
+      const validation = await validateTunnel();
+      if (!validation.handshakeOk || !validation.dnsOk) throw new Error('Cached best tunnel failed validation');
+      return JSON.parse(await store.read('latest.json'));
+    });
+    printResult(result, json);
+    return;
+  }
+  if (command === 'restore') {
+    const previous = await store.read('configs/previous.conf');
+    const current = await store.read('configs/current.conf');
+    if (!previous) throw new Error('No previous configuration is available');
+    await withNetworkTransaction(adapter, async () => {
+      await store.write('runtime/svpn0.conf', previous);
+      await tunnelUp(store.path('runtime/svpn0.conf'), adapter);
+      const validation = await validateTunnel();
+      if (!validation.handshakeOk || !validation.dnsOk) throw new Error('Previous tunnel failed validation');
+      await store.write('configs/current.conf', previous);
+      if (current) await store.write('configs/previous.conf', current);
+    });
+    printResult({ message: '已恢复到上一个 StrongVPN 配置。' }, json);
+    return;
+  }
+  throw new Error('Usage: status | credentials set <username> | benchmark [--force] | switch best | restore [--json]');
+}
+
+const isMain = process.argv[1] && resolve(process.argv[1]) === resolve(fileURLToPath(import.meta.url));
+if (isMain) {
+  cli().catch((error) => {
+    const safeMessage = redactSensitive(error.message, []);
+    console.error(`错误：${safeMessage}`);
+    process.exitCode = error.exitCode ?? (/Keychain|credentials/i.test(error.message) ? 2 : /rollback/i.test(error.message) ? 5 : 4);
+  });
 }
