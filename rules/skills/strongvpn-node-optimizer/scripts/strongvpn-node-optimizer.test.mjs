@@ -8,6 +8,8 @@ import {
   parseServersModule,
   readCredentials,
   redactSensitive,
+  isFreshCache,
+  scoreCandidate,
 } from './strongvpn-node-optimizer.mjs';
 
 const fixture = `
@@ -151,4 +153,29 @@ test('reads credentials from Keychain without exposing security stderr', async (
     username: 'a000000',
     password: '0123456789',
   });
+});
+
+test('ranks a stable node above a one-off fast node', () => {
+  const stable = scoreCandidate([
+    { ok: true, coreOk: true, tls: 0.14, ttfb: 0.20, total: 0.30, throughput: 8 },
+    { ok: true, coreOk: true, tls: 0.15, ttfb: 0.21, total: 0.31, throughput: 8 },
+    { ok: true, coreOk: true, tls: 0.15, ttfb: 0.22, total: 0.32, throughput: 8 },
+  ]);
+  const flaky = scoreCandidate([
+    { ok: true, coreOk: true, tls: 0.08, ttfb: 0.10, total: 0.20, throughput: 12 },
+    { ok: false, coreOk: false },
+    { ok: true, coreOk: true, tls: 0.80, ttfb: 1.20, total: 2.00, throughput: 3 },
+  ]);
+
+  assert.ok(stable.score > flaky.score);
+  assert.equal(stable.eligible, true);
+  assert.equal(flaky.eligible, false);
+  assert.equal(stable.successRate, 1);
+});
+
+test('cache expires exactly after 24 hours', () => {
+  const base = Date.parse('2026-07-11T00:00:00Z');
+  assert.equal(isFreshCache('2026-07-11T00:00:00Z', base + 86_399_999), true);
+  assert.equal(isFreshCache('2026-07-11T00:00:00Z', base + 86_400_000), false);
+  assert.equal(isFreshCache('invalid', base), false);
 });

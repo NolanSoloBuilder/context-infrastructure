@@ -213,3 +213,70 @@ export function redactSensitive(value, secrets = []) {
   }
   return value;
 }
+
+function median(values) {
+  const sorted = values.filter(Number.isFinite).toSorted((a, b) => a - b);
+  if (sorted.length === 0) return null;
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0
+    ? (sorted[middle - 1] + sorted[middle]) / 2
+    : sorted[middle];
+}
+
+function coefficientOfVariation(values) {
+  const finite = values.filter(Number.isFinite);
+  if (finite.length < 2) return 0;
+  const mean = finite.reduce((sum, value) => sum + value, 0) / finite.length;
+  if (mean === 0) return 0;
+  const variance = finite.reduce((sum, value) => sum + ((value - mean) ** 2), 0) / finite.length;
+  return Math.sqrt(variance) / mean;
+}
+
+export function scoreCandidate(samples) {
+  const totalSamples = samples.length;
+  const successful = samples.filter((sample) => sample.ok === true);
+  const successRate = totalSamples === 0 ? 0 : successful.length / totalSamples;
+  const medianTls = median(successful.map((sample) => sample.tls));
+  const medianTtfb = median(successful.map((sample) => sample.ttfb));
+  const medianTotal = median(successful.map((sample) => sample.total));
+  const medianThroughput = median(successful.map((sample) => sample.throughput));
+  const jitter = coefficientOfVariation(successful.map((sample) => sample.total));
+  const stability = Math.max(0, Math.min(100, successRate * 100 * (1 - Math.min(jitter, 1) * 0.5)));
+  const latency = medianTtfb === null || medianTotal === null
+    ? 0
+    : Math.max(0, Math.min(100, 100 / (1 + (medianTtfb * 4) + (medianTotal * 2) + ((medianTls ?? 0) * 2))));
+  const throughput = medianThroughput === null
+    ? 0
+    : Math.max(0, Math.min(100, (medianThroughput / 20) * 100));
+  const score = (stability * 0.50) + (latency * 0.35) + (throughput * 0.15);
+  const eligible = totalSamples >= 3
+    && successRate >= 0.9
+    && samples.every((sample) => sample.ok === true && sample.coreOk !== false);
+
+  return {
+    eligible,
+    successRate,
+    stability,
+    latency,
+    throughput,
+    score,
+    medians: {
+      tls: medianTls,
+      ttfb: medianTtfb,
+      total: medianTotal,
+      throughput: medianThroughput,
+    },
+  };
+}
+
+export function rankCandidates(results) {
+  return results.toSorted((left, right) => {
+    if (left.eligible !== right.eligible) return left.eligible ? -1 : 1;
+    return right.score - left.score;
+  });
+}
+
+export function isFreshCache(testedAt, now = Date.now()) {
+  const timestamp = Date.parse(testedAt);
+  return Number.isFinite(timestamp) && now >= timestamp && (now - timestamp) < 86_400_000;
+}
