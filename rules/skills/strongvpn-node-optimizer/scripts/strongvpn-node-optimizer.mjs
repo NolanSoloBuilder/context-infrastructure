@@ -168,7 +168,7 @@ export async function generateConfig({
   const errors = [];
   for (const baseUrl of baseUrls) {
     try {
-      const response = await fetchImpl(`${baseUrl}/wg-generate`, {
+      const response = await fetchImpl(`${new URL(baseUrl).origin}/wg-generate`, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({

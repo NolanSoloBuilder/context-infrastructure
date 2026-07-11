@@ -143,6 +143,7 @@ test('builds a full-tunnel config and falls back between generator APIs', async 
   const fetchImpl = async (url, options) => {
     if (String(url).includes('strongvpn.asia')) throw new Error('primary unavailable');
     assert.equal(options.method, 'POST');
+    assert.equal(new URL(url).pathname, '/wg-generate');
     return Response.json({
       success: true,
       config: {
