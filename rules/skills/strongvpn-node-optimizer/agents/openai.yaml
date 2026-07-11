@@ -1,0 +1,4 @@
+interface:
+  display_name: "StrongVPN Node Optimizer"
+  short_description: "测速并切换最快的 StrongVPN WireGuard 节点"
+  default_prompt: "测试 StrongVPN 最快节点并安全切换，失败时恢复原 VPN。"
