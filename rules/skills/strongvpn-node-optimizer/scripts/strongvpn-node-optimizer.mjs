@@ -280,3 +280,85 @@ export function isFreshCache(testedAt, now = Date.now()) {
   const timestamp = Date.parse(testedAt);
   return Number.isFinite(timestamp) && now >= timestamp && (now - timestamp) < 86_400_000;
 }
+
+export async function snapshotNetworkState(adapter) {
+  return adapter.snapshot();
+}
+
+export async function stopConflictingVpns(snapshot, adapter) {
+  return adapter.stopConflicts(snapshot);
+}
+
+export async function restoreNetworkState(snapshot, adapter) {
+  return adapter.restore(snapshot);
+}
+
+export async function withNetworkTransaction(adapter, operation) {
+  const snapshot = await snapshotNetworkState(adapter);
+  await stopConflictingVpns(snapshot, adapter);
+  try {
+    return await operation(snapshot);
+  } catch (error) {
+    let cleanupError = null;
+    let restoreResult = null;
+    try {
+      await adapter.cleanupManagedTunnel();
+    } catch (caught) {
+      cleanupError = caught;
+    }
+    try {
+      restoreResult = await restoreNetworkState(snapshot, adapter);
+    } catch (caught) {
+      throw new AggregateError([error, cleanupError, caught].filter(Boolean), 'VPN switch failed and rollback failed');
+    }
+    if (cleanupError || restoreResult?.complete === false) {
+      throw new AggregateError(
+        [error, cleanupError].filter(Boolean),
+        'VPN switch failed and rollback was incomplete',
+      );
+    }
+    throw error;
+  }
+}
+
+const PREFERRED_REGIONS = ['singapore', 'japan', 'taiwan', 'us-west'];
+
+export function selectCandidates(servers, preflightResults, limit = 6) {
+  const groups = new Map(PREFERRED_REGIONS.map((region) => [region, []]));
+  for (const server of servers) {
+    if (groups.has(server.region)) groups.get(server.region).push(server);
+  }
+  for (const group of groups.values()) {
+    group.sort((left, right) => {
+      const leftLatency = preflightResults.get(left.id)?.latency ?? Number.POSITIVE_INFINITY;
+      const rightLatency = preflightResults.get(right.id)?.latency ?? Number.POSITIVE_INFINITY;
+      return leftLatency - rightLatency;
+    });
+  }
+
+  const selected = [];
+  let index = 0;
+  while (selected.length < limit) {
+    let added = false;
+    for (const region of PREFERRED_REGIONS) {
+      const candidate = groups.get(region)[index];
+      if (candidate && selected.length < limit) {
+        selected.push(candidate);
+        added = true;
+      }
+    }
+    if (!added) break;
+    index += 1;
+  }
+  return selected;
+}
+
+export async function promoteWinningConfig(store, config) {
+  const current = await store.read('configs/current.conf');
+  if (current !== null) await store.write('configs/previous.conf', current);
+  await store.write('configs/current.conf', config);
+  const keep = new Set(['configs/current.conf', 'configs/previous.conf']);
+  for (const path of await store.list('configs/')) {
+    if (!keep.has(path)) await store.remove(path);
+  }
+}

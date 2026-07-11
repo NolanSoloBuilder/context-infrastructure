@@ -10,6 +10,9 @@ import {
   redactSensitive,
   isFreshCache,
   scoreCandidate,
+  promoteWinningConfig,
+  selectCandidates,
+  withNetworkTransaction,
 } from './strongvpn-node-optimizer.mjs';
 
 const fixture = `
@@ -178,4 +181,112 @@ test('cache expires exactly after 24 hours', () => {
   assert.equal(isFreshCache('2026-07-11T00:00:00Z', base + 86_399_999), true);
   assert.equal(isFreshCache('2026-07-11T00:00:00Z', base + 86_400_000), false);
   assert.equal(isFreshCache('invalid', base), false);
+});
+
+function fakeNetworkAdapter(events) {
+  return {
+    async snapshot() {
+      events.push('snapshot');
+      return { connectedServices: ['company-vpn'] };
+    },
+    async stopConflicts() {
+      events.push('stop-conflicts');
+    },
+    async cleanupManagedTunnel() {
+      events.push('cleanup-new');
+    },
+    async restore() {
+      events.push('restore');
+      return { complete: true };
+    },
+  };
+}
+
+test('commits a successful switch without restoring conflicting VPNs', async () => {
+  const events = [];
+  const result = await withNetworkTransaction(fakeNetworkAdapter(events), async () => {
+    events.push('new-tunnel-up');
+    return { winner: 'str-sin303' };
+  });
+
+  assert.deepEqual(result, { winner: 'str-sin303' });
+  assert.deepEqual(events, ['snapshot', 'stop-conflicts', 'new-tunnel-up']);
+});
+
+test('cleans up and restores previous VPN state when switching fails', async () => {
+  const events = [];
+  await assert.rejects(
+    () => withNetworkTransaction(fakeNetworkAdapter(events), async () => {
+      events.push('new-tunnel-failed');
+      throw new Error('handshake timeout');
+    }),
+    /handshake timeout/,
+  );
+
+  assert.deepEqual(events, [
+    'snapshot',
+    'stop-conflicts',
+    'new-tunnel-failed',
+    'cleanup-new',
+    'restore',
+  ]);
+});
+
+test('selects at most six candidates with preferred-region diversity', () => {
+  const servers = [
+    { id: 'sin-1', region: 'singapore' },
+    { id: 'sin-2', region: 'singapore' },
+    { id: 'jp-1', region: 'japan' },
+    { id: 'jp-2', region: 'japan' },
+    { id: 'tw-1', region: 'taiwan' },
+    { id: 'tw-2', region: 'taiwan' },
+    { id: 'us-1', region: 'us-west' },
+    { id: 'us-2', region: 'us-west' },
+  ];
+  const preflight = new Map(servers.map((server, index) => [server.id, { latency: 10 + index }]));
+
+  const selected = selectCandidates(servers, preflight, 6);
+
+  assert.equal(selected.length, 6);
+  assert.deepEqual(selected.slice(0, 4).map(({ region }) => region), [
+    'singapore',
+    'japan',
+    'taiwan',
+    'us-west',
+  ]);
+});
+
+class MemoryStore {
+  constructor() {
+    this.files = new Map();
+  }
+
+  async read(path) {
+    return this.files.get(path) ?? null;
+  }
+
+  async write(path, value) {
+    this.files.set(path, value);
+  }
+
+  async remove(path) {
+    this.files.delete(path);
+  }
+
+  async list(prefix) {
+    return [...this.files.keys()].filter((path) => path.startsWith(prefix)).toSorted();
+  }
+}
+
+test('keeps only current and previous winning configs', async () => {
+  const store = new MemoryStore();
+  await promoteWinningConfig(store, 'winner-config');
+  await promoteWinningConfig(store, 'new-winner-config');
+
+  assert.equal(await store.read('configs/current.conf'), 'new-winner-config');
+  assert.equal(await store.read('configs/previous.conf'), 'winner-config');
+  assert.deepEqual(await store.list('configs/'), [
+    'configs/current.conf',
+    'configs/previous.conf',
+  ]);
 });
