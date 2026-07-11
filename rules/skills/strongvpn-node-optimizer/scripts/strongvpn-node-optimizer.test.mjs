@@ -201,6 +201,14 @@ test('reads credentials from Keychain without exposing security stderr', async (
   });
 });
 
+test('accepts StrongVPN passwords that are not exactly ten characters', async () => {
+  const runner = async (_command, args) => args.includes('-w')
+    ? { stdout: '01234567890\n', stderr: '' }
+    : { stdout: '', stderr: 'acct<blob>="a000000"\n' };
+
+  assert.equal((await readCredentials(runner)).password.length, 11);
+});
+
 test('ranks a stable node above a one-off fast node', () => {
   const stable = scoreCandidate([
     { ok: true, coreOk: true, tls: 0.14, ttfb: 0.20, total: 0.30, throughput: 8 },

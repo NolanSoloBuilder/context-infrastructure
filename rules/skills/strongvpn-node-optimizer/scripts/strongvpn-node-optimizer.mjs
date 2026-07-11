@@ -108,7 +108,8 @@ export async function fetchServerCatalog({ baseUrls, fetchImpl = fetch }) {
 }
 
 function assertCredentials(credentials) {
-  if (!/^a\d{6}$/.test(credentials?.username ?? '') || String(credentials?.password ?? '').length !== 10) {
+  const passwordLength = String(credentials?.password ?? '').length;
+  if (!/^a\d{6}$/.test(credentials?.username ?? '') || passwordLength < 8 || passwordLength > 128) {
     throw new Error('StrongVPN credentials are invalid');
   }
 }
