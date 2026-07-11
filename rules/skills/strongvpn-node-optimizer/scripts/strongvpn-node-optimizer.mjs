@@ -428,6 +428,28 @@ export async function runCommand(command, args = [], options = {}) {
   });
 }
 
+function shellQuote(value) {
+  return `'${String(value).replaceAll("'", `'\\''`)}'`;
+}
+
+const PRIVILEGED_BIN = {
+  wg: '/opt/homebrew/bin/wg',
+  'wg-quick': '/opt/homebrew/bin/wg-quick',
+};
+
+export async function runPrivileged(command, args = [], runner = runCommand, options = {}) {
+  const nonInteractive = await runner('sudo', ['-n', command, ...args], { ...options, allowFailure: true });
+  if (nonInteractive.code === 0) return nonInteractive;
+  const executable = PRIVILEGED_BIN[command] ?? command;
+  const shellCommand = [executable, ...args].map(shellQuote).join(' ');
+  return runner('osascript', [
+    '-e', 'on run argv',
+    '-e', 'do shell script (item 1 of argv) with administrator privileges',
+    '-e', 'end run',
+    '--', shellCommand,
+  ], options);
+}
+
 export class FileStore {
   constructor(root) {
     this.root = root;
@@ -518,7 +540,7 @@ export function createMacNetworkAdapter(runner = runCommand) {
     },
     async cleanupManagedTunnel() {
       if (!managedConfigPath) return;
-      await runner('sudo', ['-n', 'wg-quick', 'down', managedConfigPath], { allowFailure: true });
+      await runPrivileged('wg-quick', ['down', managedConfigPath], runner, { allowFailure: true });
     },
     async restore(snapshot) {
       let complete = true;
@@ -592,7 +614,7 @@ async function readCloudflareTrace(runner = runCommand) {
 
 async function validateTunnel(runner = runCommand) {
   const [handshake, dns] = await Promise.all([
-    runner('sudo', ['-n', 'wg', 'show', 'svpn0', 'latest-handshakes'], { allowFailure: true }),
+    runPrivileged('wg', ['show', 'svpn0', 'latest-handshakes'], runner, { allowFailure: true }),
     runner('dscacheutil', ['-q', 'host', '-a', 'name', 'api.openai.com'], { allowFailure: true }),
   ]);
   const handshakeOk = handshake.stdout.trim().split(/\s+/).some((value) => /^\d{10,}$/.test(value) && Number(value) > 0);
@@ -601,11 +623,11 @@ async function validateTunnel(runner = runCommand) {
 
 async function tunnelUp(configPath, adapter, runner = runCommand) {
   adapter.setManagedConfig(configPath);
-  await runner('sudo', ['-n', 'wg-quick', 'up', configPath]);
+  await runPrivileged('wg-quick', ['up', configPath], runner);
 }
 
 async function tunnelDown(configPath, runner = runCommand) {
-  await runner('sudo', ['-n', 'wg-quick', 'down', configPath], { allowFailure: true });
+  await runPrivileged('wg-quick', ['down', configPath], runner, { allowFailure: true });
 }
 
 const BASE_URLS = [

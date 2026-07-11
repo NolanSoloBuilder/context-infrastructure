@@ -8,6 +8,7 @@ import {
   parseServersModule,
   readCredentials,
   redactSensitive,
+  runPrivileged,
   isFreshCache,
   scoreCandidate,
   promoteWinningConfig,
@@ -41,6 +42,20 @@ test('parses curl metrics and treats reachable HTTP errors as transport success'
     throughput: 32,
   });
   assert.equal(parseCurlMetrics('{"http_code":000,"time_total":10}').ok, false);
+});
+
+test('falls back to the macOS authorization dialog when sudo is not cached', async () => {
+  const calls = [];
+  const runner = async (command, args) => {
+    calls.push({ command, args });
+    return command === 'sudo' ? { code: 1, stdout: '', stderr: '' } : { code: 0, stdout: '', stderr: '' };
+  };
+
+  await runPrivileged('wg', ['show', 'svpn0'], runner);
+
+  assert.equal(calls[0].command, 'sudo');
+  assert.equal(calls[1].command, 'osascript');
+  assert.match(calls[1].args.at(-1), /^'\/opt\/homebrew\/bin\/wg' 'show' 'svpn0'$/);
 });
 
 const fixture = `
