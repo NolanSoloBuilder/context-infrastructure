@@ -121,7 +121,7 @@ export async function readCredentials(runner) {
     'strongvpn-node-optimizer',
     '-g',
   ], { captureStderr: true });
-  const accountMatch = String(metadata?.stderr ?? '').match(/acct<blob>="([^"]+)"/);
+  const accountMatch = String(metadata?.stderr ?? '').match(/"?acct"?<blob>="([^"]+)"/);
   const passwordResult = await runner('security', [
     'find-generic-password',
     '-s',
