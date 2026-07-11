@@ -212,7 +212,7 @@ test('accepts StrongVPN passwords that are not exactly ten characters', async ()
 test('parses the quoted acct field emitted by current macOS security', async () => {
   const runner = async (_command, args) => args.includes('-w')
     ? { stdout: '01234567890\n', stderr: '' }
-    : { stdout: '', stderr: '    "acct"<blob>="a000000"\n' };
+    : { stdout: '    "acct"<blob>="a000000"\n', stderr: '' };
 
   assert.equal((await readCredentials(runner)).username, 'a000000');
 });
