@@ -87,3 +87,129 @@ export function parseServersModule(source) {
   if (result.length === 0) throw new Error('Server catalog contained no usable servers');
   return result;
 }
+
+export async function fetchServerCatalog({ baseUrls, fetchImpl = fetch }) {
+  const errors = [];
+  for (const baseUrl of baseUrls) {
+    try {
+      const response = await fetchImpl(`${baseUrl}/servers.js`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return { baseUrl, servers: parseServersModule(await response.text()) };
+    } catch (error) {
+      errors.push(`${new URL(baseUrl).host}: ${error.message}`);
+    }
+  }
+  throw new Error(`StrongVPN server catalog unavailable (${errors.join('; ')})`);
+}
+
+function assertCredentials(credentials) {
+  if (!/^a\d{6}$/.test(credentials?.username ?? '') || String(credentials?.password ?? '').length !== 10) {
+    throw new Error('StrongVPN credentials are invalid');
+  }
+}
+
+export async function readCredentials(runner) {
+  const metadata = await runner('security', [
+    'find-generic-password',
+    '-s',
+    'strongvpn-node-optimizer',
+    '-g',
+  ], { captureStderr: true });
+  const accountMatch = String(metadata?.stderr ?? '').match(/acct<blob>="([^"]+)"/);
+  const passwordResult = await runner('security', [
+    'find-generic-password',
+    '-s',
+    'strongvpn-node-optimizer',
+    '-w',
+  ], { captureStderr: true });
+  const credentials = {
+    username: accountMatch?.[1] ?? '',
+    password: String(passwordResult?.stdout ?? '').trim(),
+  };
+  assertCredentials(credentials);
+  return credentials;
+}
+
+function assertGeneratorSchema(data) {
+  const interfaceConfig = data?.config?.Interface;
+  const peerConfig = data?.config?.Peer;
+  if (
+    data?.success !== true
+    || typeof interfaceConfig?.Address !== 'string'
+    || !Array.isArray(interfaceConfig?.DNS)
+    || interfaceConfig.DNS.some((entry) => typeof entry !== 'string')
+    || typeof peerConfig?.PublicKey !== 'string'
+    || peerConfig.PublicKey.length === 0
+  ) {
+    throw new Error('StrongVPN generator response schema was invalid');
+  }
+  return { interfaceConfig, peerConfig };
+}
+
+export async function generateConfig({
+  baseUrls,
+  server,
+  credentials,
+  keyPair,
+  fetchImpl = fetch,
+  randomPort = () => Math.floor(Math.random() * 5001) + 55000,
+}) {
+  assertCredentials(credentials);
+  if (!server?.id || !isIP(server?.ip ?? '')) throw new Error('StrongVPN server mapping was invalid');
+  if (!keyPair?.privateKey || !keyPair?.publicKey) throw new Error('WireGuard key pair was invalid');
+
+  const errors = [];
+  for (const baseUrl of baseUrls) {
+    try {
+      const response = await fetchImpl(`${baseUrl}/wg-generate`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          aiouser: credentials.username,
+          aiopass: credentials.password,
+          server: server.id,
+          publickey: keyPair.publicKey,
+        }),
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const { interfaceConfig, peerConfig } = assertGeneratorSchema(await response.json());
+      const port = Number(randomPort());
+      if (!Number.isInteger(port) || port < 55000 || port > 60000) {
+        throw new Error('WireGuard endpoint port was invalid');
+      }
+      const config = [
+        '[Interface]',
+        `PrivateKey = ${keyPair.privateKey}`,
+        `Address = ${interfaceConfig.Address}`,
+        `DNS = ${interfaceConfig.DNS.join(', ')}`,
+        '',
+        '[Peer]',
+        `PublicKey = ${peerConfig.PublicKey}`,
+        'AllowedIPs = 0.0.0.0/0, ::/0',
+        `Endpoint = ${server.ip}:${port}`,
+        '',
+      ].join('\n');
+      return { server, config, publicKey: keyPair.publicKey, baseUrl };
+    } catch (error) {
+      errors.push(`${new URL(baseUrl).host}: ${error.message}`);
+    }
+  }
+  throw new Error(`StrongVPN config generation failed (${errors.join('; ')})`);
+}
+
+export function redactSensitive(value, secrets = []) {
+  const normalizedSecrets = secrets.filter(Boolean).map(String);
+  if (typeof value === 'string') {
+    return normalizedSecrets.reduce(
+      (text, secret) => text.split(secret).join('[REDACTED]'),
+      value,
+    );
+  }
+  if (Array.isArray(value)) return value.map((item) => redactSensitive(item, normalizedSecrets));
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, item]) => [key, redactSensitive(item, normalizedSecrets)]),
+    );
+  }
+  return value;
+}

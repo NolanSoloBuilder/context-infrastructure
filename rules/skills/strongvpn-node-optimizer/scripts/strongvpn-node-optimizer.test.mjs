@@ -3,7 +3,11 @@ import assert from 'node:assert/strict';
 
 import {
   classifyPreferredRegion,
+  fetchServerCatalog,
+  generateConfig,
   parseServersModule,
+  readCredentials,
+  redactSensitive,
 } from './strongvpn-node-optimizer.mjs';
 
 const fixture = `
@@ -64,4 +68,87 @@ test('ignores servers that are commented out in the official catalog', () => {
   `;
 
   assert.deepEqual(parseServersModule(withDisabledServer).map(({ id }) => id), ['str-lax311']);
+});
+
+test('falls back to the secondary catalog source', async () => {
+  const calls = [];
+  const fetchImpl = async (url) => {
+    calls.push(String(url));
+    if (String(url).includes('strongvpn.asia')) throw new Error('primary unavailable');
+    return new Response(fixture, { status: 200 });
+  };
+
+  const result = await fetchServerCatalog({
+    baseUrls: [
+      'https://tools.strongvpn.asia/share/strong-wg',
+      'https://tools.strongtech.org/share/strong-wg',
+    ],
+    fetchImpl,
+  });
+
+  assert.equal(result.baseUrl, 'https://tools.strongtech.org/share/strong-wg');
+  assert.equal(result.servers.length, 3);
+  assert.equal(calls.length, 2);
+});
+
+test('builds a full-tunnel config and falls back between generator APIs', async () => {
+  const fetchImpl = async (url, options) => {
+    if (String(url).includes('strongvpn.asia')) throw new Error('primary unavailable');
+    assert.equal(options.method, 'POST');
+    return Response.json({
+      success: true,
+      config: {
+        Interface: { Address: '10.0.0.2/32', DNS: ['1.1.1.1', '1.0.0.1'] },
+        Peer: { PublicKey: 'peer-public-key', AllowedIPs: ['0.0.0.0/0'] },
+      },
+    });
+  };
+
+  const result = await generateConfig({
+    baseUrls: [
+      'https://tools.strongvpn.asia/share/strong-wg',
+      'https://tools.strongtech.org/share/strong-wg',
+    ],
+    server: { id: 'str-sin303', ip: '203.0.113.10', label: 'Singapore', country: 'Singapore' },
+    credentials: { username: 'a000000', password: '0123456789' },
+    keyPair: { privateKey: 'private-key', publicKey: 'public-key' },
+    fetchImpl,
+    randomPort: () => 55001,
+  });
+
+  assert.match(result.config, /AllowedIPs = 0\.0\.0\.0\/0, ::\/0/);
+  assert.match(result.config, /Endpoint = 203\.0\.113\.10:55001/);
+  assert.match(result.config, /DNS = 1\.1\.1\.1, 1\.0\.0\.1/);
+  const redacted = JSON.stringify(redactSensitive(result, ['private-key', '0123456789']));
+  assert.equal(redacted.includes('private-key'), false);
+  assert.equal(redacted.includes('0123456789'), false);
+});
+
+test('rejects malformed generator API responses', async () => {
+  await assert.rejects(
+    () => generateConfig({
+      baseUrls: ['https://example.test'],
+      server: { id: 'str-sin303', ip: '203.0.113.10' },
+      credentials: { username: 'a000000', password: '0123456789' },
+      keyPair: { privateKey: 'private-key', publicKey: 'public-key' },
+      fetchImpl: async () => Response.json({ success: true, config: {} }),
+      randomPort: () => 55001,
+    }),
+    /schema/i,
+  );
+});
+
+test('reads credentials from Keychain without exposing security stderr', async () => {
+  const runner = async (_command, args) => {
+    if (args.includes('-w')) return { stdout: '0123456789\n', stderr: '' };
+    return {
+      stdout: '',
+      stderr: 'keychain: "/Users/test/Library/Keychains/login.keychain-db"\nacct<blob>="a000000"\n',
+    };
+  };
+
+  assert.deepEqual(await readCredentials(runner), {
+    username: 'a000000',
+    password: '0123456789',
+  });
 });
