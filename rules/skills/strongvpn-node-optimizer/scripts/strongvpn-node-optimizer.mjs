@@ -502,6 +502,10 @@ export class FileStore {
 
 const VPN_APPS = ['StrongVPN', 'WireGuard', 'OpenVPN Connect', 'REDpass'];
 
+export function isProtectedVpnApp(name) {
+  return /^REDpass$/i.test(String(name));
+}
+
 async function appIsRunning(name, runner) {
   const escaped = name.replaceAll('"', '\\"');
   const result = await runner('osascript', ['-e', `application "System Events" to (name of processes) contains "${escaped}"`], { allowFailure: true });
@@ -533,10 +537,12 @@ export function createMacNetworkAdapter(runner = runCommand) {
         await runner('scutil', ['--nc', 'stop', service.id], { allowFailure: true });
       }
       for (const app of snapshot.runningApps) {
+        if (isProtectedVpnApp(app)) continue;
         await runner('osascript', ['-e', `tell application "${app.replaceAll('"', '\\"')}" to quit`], { allowFailure: true });
       }
       await new Promise((resolvePromise) => setTimeout(resolvePromise, 1200));
       for (const app of snapshot.runningApps) {
+        if (isProtectedVpnApp(app)) continue;
         await runner('pkill', ['-TERM', '-x', app], { allowFailure: true });
       }
     },
@@ -547,6 +553,7 @@ export function createMacNetworkAdapter(runner = runCommand) {
     async restore(snapshot) {
       let complete = true;
       for (const app of snapshot.runningApps) {
+        if (isProtectedVpnApp(app)) continue;
         const result = await runner('open', ['-a', app], { allowFailure: true });
         complete = complete && result.code === 0;
       }

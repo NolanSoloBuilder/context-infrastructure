@@ -5,7 +5,7 @@ description: 在 macOS 上安全测试、比较和切换 StrongVPN WireGuard 节
 
 # StrongVPN Node Optimizer
 
-通过真实 AI 服务访问质量选择节点，不以单次 ping 代替实际体验。凭据只进入 macOS Keychain，配置只进入本机权限受控的数据目录；切换失败必须恢复原 VPN 状态。
+通过真实 AI 服务访问质量选择节点，不以单次 ping 代替实际体验。凭据只进入 macOS Keychain，配置只进入本机权限受控的数据目录；REDpass 被视为受保护的基础网络，任何测速和切换都不得关闭它，其他切换失败时必须恢复原 VPN 状态。
 
 ## 命令入口
 
@@ -36,7 +36,7 @@ node scripts/strongvpn-node-optimizer.mjs restore
 3. 脚本预检新加坡、日本、台湾、美西节点，最多对 6 个候选建立真实隧道。
 4. 每个候选测试 OpenAI API、ChatGPT、Claude、GitHub、Gemini 和 Cloudflare 小文件，共 3 轮。
 5. 只有三轮全部成功、核心服务可达、WireGuard 握手和 DNS 都正常的节点才有资格获选。
-6. 成功后保持最佳隧道连接，原 VPN 保持关闭；失败时由事务回滚恢复切换前状态。
+6. REDpass 全程保持运行，在其上叠加候选 StrongVPN 隧道；成功后保持最佳隧道连接，失败时由事务回滚恢复切换前状态。
 
 ### 快速重连与恢复
 
@@ -47,6 +47,7 @@ node scripts/strongvpn-node-optimizer.mjs restore
 ## 安全边界
 
 - 不读取、打印或总结 Keychain 中的密码。
+- 不停止、退出、强杀或重启 REDpass；它是当前网络的受保护底座。
 - 不打印 WireGuard private key、完整配置或本机公网 IP。
 - 不把 `~/.local/share/strongvpn-node-optimizer` 纳入 Git、云同步或调研文档。
 - 不降低 90% 成功率、三轮成功、核心服务、握手或 DNS 合格门槛来强行选出节点。

@@ -10,6 +10,7 @@ import {
   redactSensitive,
   runPrivileged,
   isFreshCache,
+  isProtectedVpnApp,
   scoreCandidate,
   promoteWinningConfig,
   parseCurlMetrics,
@@ -17,6 +18,12 @@ import {
   selectCandidates,
   withNetworkTransaction,
 } from './strongvpn-node-optimizer.mjs';
+
+test('treats REDpass as a protected network base instead of a conflicting VPN', () => {
+  assert.equal(isProtectedVpnApp('REDpass'), true);
+  assert.equal(isProtectedVpnApp('OpenVPN Connect'), false);
+  assert.equal(isProtectedVpnApp('StrongVPN'), false);
+});
 
 test('parses only connected macOS VPN services', () => {
   const output = `
