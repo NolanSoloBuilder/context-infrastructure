@@ -1,0 +1,2 @@
+# Run at 09:15 every weekday. Use absolute paths and a persistent output/state directory.
+15 9 * * 1-5 /Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/cited_alpha_lead_pipeline/scripts/run_daily.sh >> /Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/cited_alpha_lead_pipeline/cron.log 2>&1

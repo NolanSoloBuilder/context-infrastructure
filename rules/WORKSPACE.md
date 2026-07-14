@@ -36,4 +36,7 @@
 <!-- 格式：- `project-name` → `adhoc_jobs/project_name/` (说明) -->
 - `rimbo` / `rimbo-work-context` → `contexts/rimbo/README.md`（原 `rimbo-work-context` 已迁入当前空间；迁移清单见 `contexts/rimbo/MIGRATION_MANIFEST.md`）
 - `chrome-bookmark-cleanup` → `adhoc_jobs/chrome_bookmark_cleanup/`（Chrome 书签整理脚本、备份和整理预览）
+- `cited-alpha-lead-pipeline` → `adhoc_jobs/cited_alpha_lead_pipeline/`（公开联系人入口抓取、Hunter enrichment、验证与法域门禁）
+- `china-metro-typing` → `adhoc_jobs/tw_metro_typing_china/`（基于 tw-metro-typing fork 的中国 41 城地铁站名打字游戏）
 - `context-vault` / `AI Tool Environment Sync` → `/Users/xuhao/Documents/Basic/context-vault/`（独立 GitHub 仓库；不要放入当前 workspace 的 `adhoc_jobs/`）
+- `xuhao-personal-site` → `adhoc_jobs/xuhao_personal_site/`（徐昊个人网站原型；全屏横向叙事、作品集与近况）

@@ -1,0 +1,3 @@
+target_id,company,domain,person_name,input_email,email_source_url,country,subscriber_type,discovery_channel,proof_url,acquisition_source_type,opt_in,marketing_permission,consent_event_id,consented_at,consent_text_version,inbound_event_id,inbound_at,can_spam_ready,privacy_notice_ready
+sample_001,Example Research,example.com,,,,US,corporate,public_web,https://example.com/about,official_company_website,false,unknown,,,,,,true,true
+sample_002,Example Analytics,example.org,Alex Researcher,,,DE,corporate,public_web,https://example.org/team,official_company_website,false,unknown,,,,,,false,true
