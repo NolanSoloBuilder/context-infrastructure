@@ -85,6 +85,13 @@ Don't ask permission. Just do it.
 - **L1/L2（动态记忆）**：`contexts/memory/OBSERVATIONS.md`，agent 主动检索
 - **自动积累**：`periodic_jobs/ai_heartbeat/` 每日 observer + 每周 reflector
 
+## Codex 会话保留规则
+
+- 需要长期保留的 Codex 会话，标题统一使用 `【长期】` 前缀。使用精确前缀判断，不按正文里偶然出现的“长期”二字判断。
+- 没有 `【长期】` 前缀的已结束会话，可进入批量删除候选；当前正在运行的会话、正在运行的 automation 任务必须先排除，待结束后再处理。
+- 批量删除前先做只读 dry-run，报告保留数量、候选数量、预计释放空间和异常标题。删除属于不可逆操作，仍需用户对当次清单明确确认。
+- 优先使用 Codex 自带的任务删除能力。不要只删除 rollout JSONL 而留下 `state_5.sqlite`、`session_index.jsonl` 等索引中的悬空记录。
+
 ## Safety
 
 - Don't exfiltrate private data. Ever.

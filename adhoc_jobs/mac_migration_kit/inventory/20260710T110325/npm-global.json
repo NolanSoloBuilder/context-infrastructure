@@ -1,0 +1,61 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "@aisa-one/cli": {
+      "version": "0.2.0",
+      "overridden": false
+    },
+    "@larksuite/cli": {
+      "version": "1.0.55",
+      "overridden": false
+    },
+    "@openai/codex": {
+      "version": "0.130.0",
+      "overridden": false
+    },
+    "@waishnav/devspace": {
+      "version": "1.0.1",
+      "overridden": false
+    },
+    "@xdevplatform/xurl": {
+      "version": "1.2.2",
+      "overridden": false
+    },
+    "@xhs/codewiz-cc": {
+      "version": "0.0.34",
+      "overridden": false
+    },
+    "@xhs/hi-cli": {
+      "version": "0.2.26",
+      "overridden": false
+    },
+    "@xhs/skillhub-upload": {
+      "version": "0.1.0",
+      "overridden": false
+    },
+    "agent-browser": {
+      "version": "0.29.1",
+      "overridden": false
+    },
+    "cloudflared": {
+      "version": "0.7.1",
+      "overridden": false
+    },
+    "degit": {
+      "version": "3.4.7",
+      "overridden": false
+    },
+    "eas-cli": {
+      "version": "18.1.0",
+      "overridden": false
+    },
+    "npm": {
+      "version": "11.6.2",
+      "overridden": false
+    },
+    "wrangler": {
+      "version": "4.102.0",
+      "overridden": false
+    }
+  }
+}

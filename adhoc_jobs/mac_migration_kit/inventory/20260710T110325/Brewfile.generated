@@ -1,0 +1,138 @@
+tap "antoniorodr/memo"
+tap "facebook/fb"
+tap "homebrew/services", "https://gitee.com/imirror/homebrew-services.git"
+tap "openclaw/tap"
+tap "openhue/cli"
+tap "steipete/tap"
+tap "xdevplatform/tap"
+tap "yakitrak/yakitrak"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Core application library for C
+brew "glib"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Easiest way to build and release mobile apps
+brew "fastlane"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Fast and simple Node.js version manager
+brew "fnm"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# OpenType text shaping engine
+brew "harfbuzz"
+# CLI email client written in Rust
+brew "himalaya"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Manage your Java environment
+brew "jenv"
+# Utility to optimize JPEG files
+brew "jpegoptim"
+# Helps you navigate your file system faster by learning your habits
+brew "jump"
+# Development kit for the Java programming language
+brew "openjdk"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Java-based project management
+brew "maven"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# AI coding agent, built for the terminal
+brew "opencode"
+# Development kit for the Java programming language
+brew "openjdk@11"
+# Multithreaded PNG optimizer written in Rust
+brew "oxipng"
+# PNG image optimizing utility
+brew "pngquant"
+# Object-relational database system
+brew "postgresql@16", link: true
+# Python version management
+brew "pyenv"
+# Persistent key-value database, with built-in net interface
+brew "redis", restart_service: :changed
+# Watch files and take action when they change
+brew "watchman"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Configuration manager for AI coding agents
+cask "cc-switch"
+# Desktop debugging platform for mobile developers
+cask "flipper"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
+# Standalone app for debugging React Native apps
+cask "react-native-debugger"
+# Auth-enabled curl-like CLI for the X API
+cask "xdevplatform/tap/xurl"
+vscode "anseki.vscode-color"
+vscode "antfu.vite"
+vscode "bradlc.vscode-tailwindcss"
+vscode "burkeholland.simple-react-snippets"
+vscode "christian-kohler.path-intellisense"
+vscode "dbaeumer.vscode-eslint"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "eamodio.gitlens"
+vscode "ecmel.vscode-html-css"
+vscode "equimper.react-native-react-redux"
+vscode "esbenp.prettier-vscode"
+vscode "expo.vscode-expo-tools"
+vscode "fabiospampinato.vscode-terminals"
+vscode "formulahendry.auto-close-tag"
+vscode "git-ai.git-ai-vscode"
+vscode "github.vscode-github-actions"
+vscode "ionutvmi.path-autocomplete"
+vscode "jundat95.react-native-snippet"
+vscode "kisstkondoros.vscode-gutter-preview"
+vscode "llvm-vs-code-extensions.lldb-dap"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-ceintl.vscode-language-pack-zh-hans"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.remote-server"
+vscode "ms-vscode.vscode-typescript-next"
+vscode "msjsdiag.vscode-react-native"
+vscode "prisma.prisma"
+vscode "redhat.vscode-yaml"
+vscode "steoates.autoimport"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "swiftlang.swift-vscode"
+vscode "syler.sass-indented"
+vscode "sysoev.language-stylus"
+vscode "tomoki1207.pdf"
+vscode "typescriptteam.native-preview"
+vscode "vscode-icons-team.vscode-icons"
+vscode "wscats.eno"
+vscode "wscats.vue"
+vscode "xabikos.javascriptsnippets"
+vscode "xhs-appworks.edith-vscode-kit"
+npm "@aisa-one/cli"
+npm "@larksuite/cli"
+npm "@openai/codex"
+npm "@waishnav/devspace"
+npm "@xdevplatform/xurl"
+npm "@xhs/codewiz-cc"
+npm "@xhs/hi-cli"
+npm "@xhs/skillhub-upload"
+npm "agent-browser"
+npm "cloudflared"
+npm "degit"
+npm "eas-cli"
+npm "wrangler"

@@ -1,0 +1,198 @@
+{
+  "generated_at": "2026-07-13 11:44:48",
+  "scan_seconds": 589.9,
+  "system": {
+    "os": "macOS 27.0",
+    "build": "26A5378j",
+    "arch": "Apple Silicon (arm64) / Apple M2 Pro",
+    "user": "xuhao",
+    "home": "/Users/xuhao",
+    "filesystem": "APFS",
+    "disk_name": "Macintosh HD",
+    "disk_total": "460.4 GB",
+    "disk_used": "369.4 GB",
+    "disk_free": "91.0 GB",
+    "purgeable": "",
+    "disks": [
+      {"name": "Macintosh HD", "total": "460.4 GB", "used": "369.4 GB", "free": "91.0 GB"}
+    ]
+  },
+  "top5": [
+    {"rank": 1, "tier": "yellow", "size": "27.9 GB", "type": "应用数据", "name": "Application Support", "path": "/Users/xuhao/Library/Application Support", "note": "主要由 REDcity 6.3 GB、LarkInternational 3.6 GB、Apple wallpaper 2.7 GB、LarkShell 2.1 GB、Figma 1.5 GB、Cursor 1.5 GB 等组成。"},
+    {"rank": 2, "tier": "yellow", "size": "20.9 GB", "type": "用户项目与文档", "name": "Documents", "path": "/Users/xuhao/Documents", "note": "已确认 Basic 下项目约 11.8 GB，Other 下项目约 3.5 GB；其中包含代码、依赖和本工作区资料。"},
+    {"rank": 3, "tier": "yellow", "size": "19.9 GB", "type": "开发运行时", "name": "NVM", "path": "/Users/xuhao/.nvm", "note": "其中下载缓存约 8.6 GB，可安全清理；已安装 15 个 Node 版本约 11.3 GB，需要先确认项目与全局 CLI 依赖。"},
+    {"rank": 4, "tier": "green", "size": "14.3 GB", "type": "开发缓存", "name": "pnpm", "path": "/Users/xuhao/Library/pnpm", "note": "其中 content-addressable store 约 14.1 GB，global 目录只有约 43 MB。"},
+    {"rank": 5, "tier": "green", "size": "11.4 GB", "type": "应用缓存", "name": "Library Caches", "path": "/Users/xuhao/Library/Caches", "note": "大头包括微信、CocoaPods、Chrome、Codex、Playwright 与 pnpm 缓存。"}
+  ],
+  "green": [
+    {
+      "name": "pnpm 内容寻址缓存",
+      "path": "/Users/xuhao/Library/pnpm/store",
+      "size_estimate": "约 14.1 GB",
+      "kill_processes": ["所有正在运行 npm/pnpm install 的终端任务", "依赖该 store 的构建任务"],
+      "trash_paths": ["/Users/xuhao/Library/pnpm/store"],
+      "commands": [
+        {"label": "优先：只清未被引用的包", "cmd": "pnpm store prune"},
+        {"label": "完全重建 store（之后安装会重新下载）", "cmd": "rm -rf \"$HOME/Library/pnpm/store\""}
+      ]
+    },
+    {
+      "name": "macOS 用户级应用缓存",
+      "path": "/Users/xuhao/Library/Caches",
+      "size_estimate": "约 11.4 GB",
+      "kill_processes": ["WeChat", "Google Chrome", "Codex", "Xcode", "LarkSuite", "所有 Electron 应用"],
+      "trash_paths": ["/Users/xuhao/Library/Caches"],
+      "commands": [
+        {"label": "清空用户级缓存内容", "cmd": "find \"$HOME/Library/Caches\" -mindepth 1 -maxdepth 1 -exec rm -rf {} +"}
+      ]
+    },
+    {
+      "name": "NVM 下载缓存",
+      "path": "/Users/xuhao/.nvm/.cache",
+      "size_estimate": "约 8.6 GB",
+      "kill_processes": ["正在安装 Node 版本的 nvm 任务"],
+      "trash_paths": ["/Users/xuhao/.nvm/.cache"],
+      "commands": [
+        {"label": "使用 NVM 自带清理", "cmd": "export NVM_DIR=\"$HOME/.nvm\" && . \"$NVM_DIR/nvm.sh\" && nvm cache clear"}
+      ]
+    },
+    {
+      "name": "npm 下载与 npx 临时缓存",
+      "path": "/Users/xuhao/.npm",
+      "size_estimate": "约 4.4 GB",
+      "kill_processes": ["正在执行 npm install 或 npx 的终端任务"],
+      "trash_paths": ["/Users/xuhao/.npm/_cacache", "/Users/xuhao/.npm/_npx", "/Users/xuhao/.npm/_libvips", "/Users/xuhao/.npm/_prebuilds"],
+      "commands": [
+        {"label": "清 npm 与 npx 缓存", "cmd": "npm cache clean --force && rm -rf \"$HOME/.npm/_npx\" \"$HOME/.npm/_libvips\" \"$HOME/.npm/_prebuilds\""}
+      ]
+    },
+    {
+      "name": "Xcode iOS DeviceSupport",
+      "path": "/Users/xuhao/Library/Developer/Xcode/iOS DeviceSupport/iPhone16,1 26.5 (23F77)",
+      "size_estimate": "约 5.6 GB",
+      "kill_processes": ["Xcode", "连接真机的调试会话"],
+      "trash_paths": ["/Users/xuhao/Library/Developer/Xcode/iOS DeviceSupport/iPhone16,1 26.5 (23F77)"],
+      "commands": [
+        {"label": "删除这份设备调试支持文件", "cmd": "rm -rf \"$HOME/Library/Developer/Xcode/iOS DeviceSupport/iPhone16,1 26.5 (23F77)\""}
+      ]
+    },
+    {
+      "name": "Codex 本地运行时缓存",
+      "path": "/Users/xuhao/.cache/codex-runtimes",
+      "size_estimate": "约 1.5 GB",
+      "kill_processes": ["Codex", "正在运行的 Codex CLI 或本地 agent"],
+      "trash_paths": ["/Users/xuhao/.cache/codex-runtimes"],
+      "commands": [
+        {"label": "关闭 Codex 后删除可再生运行时", "cmd": "rm -rf \"$HOME/.cache/codex-runtimes\""}
+      ]
+    },
+    {
+      "name": "Codex 应用内部缓存与临时同步目录",
+      "path": "/Users/xuhao/Library/Application Support/Codex 与 /Users/xuhao/.codex",
+      "size_estimate": "约 1.4 GB",
+      "kill_processes": ["Codex", "ChatGPT", "codex app-server", "codex-code-mode-host"],
+      "trash_paths": [
+        "/Users/xuhao/Library/Application Support/Codex/Partitions/codex-browser-app/Cache",
+        "/Users/xuhao/Library/Application Support/Codex/Partitions/codex-browser-app/Code Cache",
+        "/Users/xuhao/Library/Application Support/Codex/Cache",
+        "/Users/xuhao/Library/Application Support/Codex/Code Cache",
+        "/Users/xuhao/Library/Application Support/Codex/GPUCache",
+        "/Users/xuhao/Library/Application Support/Codex/GraphiteDawnCache",
+        "/Users/xuhao/.codex/.tmp",
+        "/Users/xuhao/.codex/cache"
+      ],
+      "commands": [
+        {"label": "完全退出 Codex/ChatGPT 后清理纯缓存", "cmd": "rm -rf \"$HOME/Library/Application Support/Codex/Partitions/codex-browser-app/Cache\" \"$HOME/Library/Application Support/Codex/Partitions/codex-browser-app/Code Cache\" \"$HOME/Library/Application Support/Codex/Cache\" \"$HOME/Library/Application Support/Codex/Code Cache\" \"$HOME/Library/Application Support/Codex/GPUCache\" \"$HOME/Library/Application Support/Codex/GraphiteDawnCache\" \"$HOME/.codex/.tmp\" \"$HOME/.codex/cache\""}
+      ]
+    }
+  ],
+  "yellow": [
+    {
+      "name": "NVM 与 FNM 并存的 Node 运行时",
+      "path": "/Users/xuhao/.nvm/versions/node 和 /Users/xuhao/.local/share/fnm/node-versions",
+      "size": "合计约 15.6 GB",
+      "content_profile": "NVM 安装了 15 个版本，约 11.3 GB；FNM 另有 6 个版本，约 4.3 GB。v14、v16、v18、v20、v22 在两个管理器间存在重复。当前 .zshrc 同时初始化 NVM 与 FNM，并且全局 CLI 可能分散在各版本中。",
+      "why_manual": "删除旧版本前需要确认各仓库的 .nvmrc、package.json engines，以及每个版本里的全局 CLI。先决定保留 NVM 还是 FNM，再迁移 CLI，能够避免 PATH 漂移和命令突然失效。",
+      "disposal": "先执行 nvm ls、fnm list、npm -g ls --depth=0 盘点；确认默认保留 v22.22.0 及仍被项目声明的版本；NVM 用 nvm uninstall <version>，FNM 用 fnm uninstall <version> 逐个卸载。最后只保留一个版本管理器的 shell 初始化配置。",
+      "risk": "直接删除 versions 目录会同时丢失对应 Node 版本内的全局 CLI；当前 workspace 明确依赖全局 Node 环境，因此不建议整目录处理。"
+    },
+    {
+      "name": "Documents 下的项目仓库",
+      "path": "/Users/xuhao/Documents",
+      "size": "已识别约 15.4 GB",
+      "content_profile": "Basic/aurora 约 6.3 GB、Basic/armor 约 3.6 GB、Basic/vibe-marketing-rn 约 1.3 GB；Other/context-infrastructure 约 1.3 GB，Mindspace 三仓合计约 2.2 GB。已确认 vibe-marketing-rn node_modules 约 994 MB，mindspace_web_frontend node_modules 约 610 MB，两套 Python .venv 合计约 1.2 GB。",
+      "why_manual": "仓库源码、未提交改动、构建产物和依赖目录混合存在。项目依赖可以重建，但清理前要确认近期是否还会开发，并保留 lockfile 与虚拟环境复现方式。",
+      "disposal": "先在访达按项目逐个审查；近期不用的仓库可以归档到外置盘或 NAS；仅重建依赖时，先确认 git status，再删除明确的 node_modules、.venv、dist、build 等目录并按 lockfile 重装。",
+      "risk": "不要对 Documents 做批量删除。仓库中可能存在未提交代码、调研资料和本 workspace 的长期记忆文件。"
+    },
+    {
+      "name": "REDcity 应用数据",
+      "path": "/Users/xuhao/Library/Application Support/REDcity",
+      "size": "约 6.3 GB",
+      "content_profile": "账号目录中的 im 数据约 4.3 GB，Partitions 约 1.6 GB，另有 redcity-download 约 148 MB。主体是应用托管的聊天与会话数据。",
+      "why_manual": "这里含账号级数据和应用内部数据库，文件名无法可靠映射到可丢弃内容。应用内清理比直接删目录更能保持索引与账号状态一致。",
+      "disposal": "优先进入 REDcity 的存储管理或缓存清理入口；若需要保留聊天记录，先确认云端同步或导出；仍需手动处理时先完全退出 REDcity，再在访达中定位该目录逐项审查。",
+      "risk": "整目录删除可能导致本地聊天记录、登录态、下载内容和应用数据库一起丢失。",
+      "open_note": "目录采用应用内部账号 ID 和数据库结构，适合定位体积，不适合按文件名直接挑选删除。"
+    },
+    {
+      "name": "Android SDK、NDK 与模拟器镜像",
+      "path": "/Users/xuhao/Library/Android/sdk",
+      "size": "约 6.4 GB",
+      "content_profile": "NDK 约 2.4 GB、system-images 约 2.2 GB、emulator 约 966 MB，另有 build-tools、platforms、CMake 与 sources。",
+      "why_manual": "这些是已安装开发工具链，不是普通缓存。哪些版本可删取决于 Android 项目的 compileSdk、NDK 与模拟器配置。",
+      "disposal": "在 Android Studio 的 SDK Manager 中查看并卸载不用的 NDK、System Images、Build Tools 和 Platforms；也可以先核对各项目的 build.gradle、local.properties；清理后跑一次相关项目构建和模拟器启动验证。",
+      "risk": "直接删除 sdk 子目录可能让 Gradle 构建、native 编译或 Android 模拟器失效。"
+    },
+    {
+      "name": "Lark 本地数据与更新包",
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational",
+      "size": "约 3.6 GB",
+      "content_profile": "update 目录约 1.8 GB，aha 目录约 1.5 GB，其余是 sdk_storage、数据库和渲染缓存。",
+      "why_manual": "update 更接近可再生安装更新内容，aha 与数据库则由应用托管，无法仅凭目录名确认是否包含离线内容。",
+      "disposal": "先完全退出 LarkSuite；可先把 update 目录移到废纸篓并观察下次启动；其余内容优先用 Lark 的缓存/存储管理入口处理，或在访达中审查。",
+      "risk": "整目录删除会清掉登录态、应用设置和可能的本地离线数据。",
+      "trash_paths": ["/Users/xuhao/Library/Application Support/LarkInternational/update"],
+      "open_note": "update 子目录可单独回收；aha、sdk_storage 与数据库由 Lark 管理，建议通过应用入口处理。"
+    },
+    {
+      "name": "CoreSimulator 设备数据",
+      "path": "/Users/xuhao/Library/Developer/CoreSimulator/Devices",
+      "size": "约 3.5 GB",
+      "content_profile": "空间几乎全部位于 Devices，包含模拟器设备、安装的 App、测试数据和快照。",
+      "why_manual": "模拟器数据可重建，但可能包含当前开发调试所需的登录态、测试样本或特定系统版本。",
+      "disposal": "在 Xcode 的 Devices and Simulators 中删除不用的设备；先用 xcrun simctl list devices 查看设备与状态；只清不可用设备时可执行 xcrun simctl delete unavailable。",
+      "risk": "删除设备会丢失该模拟器里的 App、数据库、Keychain 与调试状态。"
+    }
+  ],
+  "red": [
+    {
+      "name": "重复安装的旧版 WeChat",
+      "path": "/Applications/WeChat 2.app",
+      "size": "约 660 MB",
+      "why_keep": "WeChat.app 与 WeChat 2.app 的 bundle identifier 都是 com.tencent.xinWeChat。前者版本 4.1.11，后者版本 4.1.10；后者是可确认的旧版重复应用。应用位于 /Applications，报告不直接代为卸载。",
+      "indirect_release": "先退出两个 WeChat 进程，确认 /Applications/WeChat.app 4.1.11 可正常登录和使用；随后在访达的应用程序目录中把 WeChat 2.app 移到废纸篓。不要删除 ~/Library/Containers/com.tencent.xinWeChat 或 Application Support 中的聊天数据。",
+      "auto_reclaim": "卸载旧版应用本体预计释放约 660 MB；聊天数据不会随应用本体自动清理。",
+      "app_paths": ["/Applications/WeChat 2.app"]
+    }
+  ],
+  "denied": [],
+  "summary": {
+    "overview": "最大可直接回收来源是 pnpm、应用缓存、NVM/npm 下载缓存、Codex 纯缓存与 Xcode DeviceSupport，合计估算约 47.0 GB；Node 版本管理器重复安装还提供约 15.6 GB 的人工优化空间。",
+    "tier_stats": {"green": "约 47.0 GB", "yellow": "约 50.8 GB", "red": "约 0.7 GB"},
+    "priority": [
+      "先清 NVM 下载缓存与 npm/npx 缓存，合计约 13.0 GB，对现有 Node 版本和项目代码影响最低。",
+      "再运行 pnpm store prune；若确认可以重新下载依赖，可回收整个 14.1 GB store。",
+      "退出常用应用后清理 ~/Library/Caches，预计约 11.4 GB；首次启动相关应用会重新生成缓存。",
+      "需要更多空间时再处理 Xcode DeviceSupport；近期仍做真机调试则保留。",
+      "最后统一 NVM/FNM，并逐个卸载旧 Node 版本；这一步必须先迁移全局 CLI。"
+    ],
+    "long_term": [
+      "Node 环境统一保留 NVM 或 FNM 其中一个，并把默认 Node 版本与全局 CLI 清单写入可复用环境文档。",
+      "每月执行 pnpm store prune、npm cache verify，并在 Xcode 和 Android Studio 中审查不再使用的设备支持与镜像。",
+      "项目依赖按仓库重建，删除 node_modules 或 .venv 前先确认 lockfile、Python 版本和未提交改动。",
+      "macOS 磁盘紧张时会自动回收部分可清除空间；重启也可能释放 swap 与临时快照。",
+      "若需要持续观察，可使用 DaisyDisk 或 GrandPerspective；大项目归档优先放外置盘、iCloud 或 NAS。"
+    ]
+  }
+}

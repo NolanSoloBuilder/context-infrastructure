@@ -1,0 +1,81 @@
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 5 taps (steipete/tap, openclaw/tap, xdevplatform/tap, homebrew/core and homebrew/cask).
+==> New Formulae
+adrs: Architectural Decision Record tool in Rust
+ai-cli: Generate images, video, audio, and text from the terminal
+asar: SNES assembler for applying patches to ROM images or building ROMs
+auth0: Build, manage and test your Auth0 integrations from the command-line
+bbrew: TUI for managing Homebrew, Flatpak, and Mac App Store packages
+bomctl: Format-agnostic SBOM tooling for the stages between SBOM generation and analysis
+cve-bin-tool: Scans binaries and SBOMs for known vulnerabilities and prepares reports
+diskwatch: Cross-platform disk diagnostics TUI
+epics-base: Experimental Physics and Industrial Control System
+esbonio: Language server for working with Sphinx projects
+filtlong: Quality filtering of long noisy DNA sequencing reads
+hunk: Review-first terminal diff viewer for agent-authored changesets
+kotofetch: Small, configurable CLI that displays Japanese quotes in the terminal
+kubectl-klock: Kubectl plugin to render watch output in a more readable fashion
+librefang: Self-hostable operating system for autonomous AI agents
+msdf-atlas-gen: Generator of multi-channel signed distance field atlases from fonts
+msdfgen: Multi-channel signed distance field generator
+prrte: PMIx Reference RunTime Environment
+rancher-machine: Machine management for a container-centric world
+salmon: Transcript-level quantification from RNA-seq reads
+sbom-utility: Tool to validate, analyze, query and edit Software Bills of Materials (SBOMs)
+sdl3_sound: Abstract soundfile decoder
+slint-cpp: C++ library and headers for the Slint UI toolkit
+smithery-cli: Install and list Model Context Protocol servers from Smithery
+tpack: Drop-in replacement for tmux-plugin-manager (tpm) with a TUI
+vsview: Next-generation VapourSynth previewer
+webfont: Generator of fonts from SVG icons, with TTF encoding and WOFF/WOFF2 decoding
+zero: Terminal coding agent you own
+==> New Casks
+adrafinil: Keep your computer awake while AI coding agents are working
+aside: Web browser with built-in AI assistant
+atoll: Dynamic Island for the MacBook notch
+caldigit-usb-hub-support-driver: Apple SuperDrive, Apple Keyboard, and Improved iPhone/iPad Charging
+dockspace: Widgets for your dock
+font-caacupe-one
+font-geomini
+font-hibur-mono
+font-scoutie-sans
+geolibre: GIS platform
+gitcomet: Git GUI
+gnome: Menu bar GIF search and creation tool
+harper-desktop: Grammar checker for developers
+itermcompanion: Pairs iTerm2 with the iTerm2 Companion iPhone app
+itsypad: Tiny, fast scratchpad and clipboard manager
+keeperdb: Database management tool for Postgres, MySQL, SQLite, MSSQL, Oracle, Redshift
+libifd-cyberjack: Driver for REINER SCT cyberJack smart card readers
+lumide: Agent-native code editor
+mac-sai: System cleaner, optimiser, and malware scanner
+muesli: Local-first dictation and meeting transcription
+onexrayse: Cross-platform Xray-core client
+goplaces
+openhuman: Personal AI assistant with local memory and integrations
+otty: Terminal emulator built for code agents
+pique: Quick Look extension for syntax-highlighted file previews
+platinum-notes: Improve audio quality of music files
+pocket-bard: TTRPG ambient audio and sound effects
+raycast-glaze: Create desktop apps by chatting with AI
+slashy: Email client for Gmail
+snapzy: Native screenshots, recording, annotation, and editing from the menu bar
+snippety: Snippet manager & text expander
+sonarqube-cli: Code quality and security for terminal workflows, scripts, and AI agents
+nameplate
+subtitle-studio: Offline AI subtitle generator
+tikz-editor: WYSIWYG editor for TikZ diagrams in LaTeX
+toolhive-studio: Desktop application to install, manage, and run MCP servers
+uniclipboard: Cross-device clipboard syncing tool
+valkey-admin: Administration tool for Valkey clusters and standalone instances
+vicinae: Application launcher and command palette
+zush: AI-powered file renamer and organiser
+
+You have 56 outdated formulae and 2 outdated casks installed.
+
+Warning: Skipping homebrew/services because it is not trusted. Run `brew trust homebrew/services` to trust it.
+Warning: Skipping homebrew/services because it is not trusted. Run `brew trust homebrew/services` to trust it.
+Warning: Calling the `--describe` switch is deprecated! Use the default behaviour instead.
