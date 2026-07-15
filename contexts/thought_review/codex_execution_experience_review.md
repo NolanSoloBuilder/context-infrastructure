@@ -18,9 +18,9 @@
 
 ## 最近复盘范围
 
-- 本轮运行于 `2026-07-14`，已建立索引：`/Users/xuhao/.codex/sessions/` 274 个 rollout，时间范围 `2026-01-14 12:01:04` 到 `2026-07-14 09:02:11`；`/Users/xuhao/.codex/archived_sessions/` 85 个 rollout，时间范围 `2026-03-05 11:35:24` 到 `2026-07-13 17:25:19`。
-- 已读取 `MEMORY.md` 与 9 份 `rollout_summaries`，其时间范围是 `2026-05-22 09:04:21` 到 `2026-07-13 07:25:53`。本轮重点回读了 Lark 授权分流、macOS 网络诊断、StrongVPN/REDpass、每日简报、clean worktree branch push、Workspace Harness/Chrome bridge 这几组高价值记录。
-- 已核对 `/Users/xuhao/.codex/logs_2.sqlite` 和 `/Users/xuhao/.codex/sqlite/logs_2.sqlite`。两份库都可读，但 `logs` 表当前都是 0 行，所以这轮没有额外 sqlite 事件证据可提炼。
+- 本轮运行于 `2026-07-15`，已建立索引：`/Users/xuhao/.codex/sessions/` 335 个 rollout，时间范围 `2026-01-14 12:01:04` 到 `2026-07-15 09:01:58`；`/Users/xuhao/.codex/archived_sessions/` 92 个 rollout，时间范围 `2026-03-05 11:35:24` 到 `2026-07-14 11:15:26`。
+- 已读取 `MEMORY.md` 与 17 份 `rollout_summaries`，其时间范围是 `2026-05-22 09:04:21` 到 `2026-07-14 06:19:20`。本轮额外定向回读了 5 个 raw session rollout、1 个 archived session rollout，以及 1 份新增 rollout summary；重点线索集中在 Workspace 默认 mounted skill、evidence/provenance 修复、本地 `Upgrade required`、context unit 原子计数和参考站个人站实现约束。
+- 已核对 `/Users/xuhao/.codex/logs_2.sqlite` 和 `/Users/xuhao/.codex/sqlite/logs_2.sqlite`。两份库都可读，但 `logs` 表当前都是 0 行，所以这轮依旧没有额外 sqlite 事件证据可提炼。
 - 已交叉对照当前 workspace 的 `AGENTS.md`、`rules/`、`contexts/`、`periodic_jobs/` 与现有复盘文档，把重复经验合并，只保留足够稳定或高风险的规则。
 
 ## 一、执行经验总结
@@ -113,23 +113,67 @@
 
 教训：面向结果的 git 操作更干净，也更符合长期仓库卫生。
 
+### 12. 任务合同只能有一个真源
+
+问题做法：产品已经有 `Profile` / schema / quality gate 这类正式任务合同后，还保留一个默认 mounted skill 作为兜底能力，导致 UI 标签、模型指令和真实任务边界相互打架。
+
+正确做法：先判断系统里谁才是任务合同的真源。对 Workspace 这类执行系统，`Profile` 应独占来源、工具、产物结构和质量门禁；默认 mounted skill 要 hard-cut，只保留用户主动添加的正交增强能力。历史数据则在读取、更新和 run 执行入口统一过滤，而不是只改某一层展示。
+
+教训：当两个合同同时存在时，产品会先出现错误暗示，执行层再被旧逻辑带偏。稳定修复不是“换一个更准的默认值”，而是删掉多余合同。
+
+### 13. 计数和门禁必须绑定原子单元
+
+问题做法：把文件数、命中的来源条数、`有正文` 的 source 数或宽泛的 `usableReferenceCount` 当成复杂度、覆盖率或成功门槛。
+
+正确做法：先定义真正的原子单元，再让计数、复杂度和 gate 都绑定到这个单元。对 context/skill 同步，应以 `skill` / `rule` 单元为准，而不是文件数；对检索/证据链路，应以 `source family`、`evidence role`、relevance 和 `attempted / matched / skipped / failed` 这类显式状态为准，而不是“数量够了”。
+
+教训：指标口径一旦错了，UI 展示、fallback 逻辑和质量门禁会同时被污染。问题表面看像文案或排序，根上其实是资产模型和状态模型定义错了。
+
+### 14. 本地调试绕过要做成环境边界
+
+问题做法：本地调试遇到套餐、额度或商业门禁时，只在某个子路径关开关、加账号白名单，或者只改前端文案；结果一旦本地和生产共享数据库、队列或 runner，生产门禁仍会在真实链路里抢先触发。
+
+正确做法：把“本地调试绕过”做成清晰的环境边界。后端统一返回稳定的机器原因码，如 `upgrade_required` / `llm_usage_quota`；Web 负责按 `resolvedLanguage` 显示中英文；`ENV_MODE=local` 要同时控制 quota enforcement 和任务 transport/runner ownership，确保任务真的走本地执行链路。
+
+教训：本地 debug path 如果没有独立边界，只是把线上商业约束随机地移来移去。真正的修复是让 local mode 拥有完整、可验证的执行闭环。
+
+### 15. Provenance 的信任边界要卡在持久化凭据
+
+问题做法：接受模型自报的 URL、quote、`sourceType`、成功态或 Artifact 内容；provider 抓到原文但 clue 不匹配时直接丢弃快照；HTML 原文未经清洗就进入最终报告。
+
+正确做法：把信任边界卡在已持久化的 planner / retrieval checkpoint 和 canonical receipt。任何 provenance 敏感字段都必须绑定真实 preflight/provider grounding；不满足就标记 `model_unverified` 并 fail closed。provider 抓取成功但暂时不能提升时，先保留原文快照；只有经过 dimension × role × period 复核的结果才能提升为正式证据或写入 Artifact。所有引用和报告 block 在 Artifact 边界统一转纯文本。
+
+教训：这类系统的长期稳定性，不来自更多 prompt，而来自更窄的 trust boundary。
+
+### 16. ID 合同出错时先修生成器，不要先扩列
+
+问题做法：数据库报 `Data too long` 之类错误时，先扩 `VARCHAR`、放宽 schema 或新增一次性兼容迁移，把上游 ID 合同问题藏起来。
+
+正确做法：先核对列宽、ID namespace 和生成器的原始设计，再修上游生成逻辑。像 `goal_revision_id` 这类统一业务 ID，应维持稳定长度合同，用确定性派生或新的安全命名空间修复，而不是让不同入口各自生成不同长度的 ID。
+
+教训：扩列能让当前写入通过，但会把不一致的 ID 语义扩散到更多表和更多服务里。
+
 ## 二、徐昊偏好与理念档案
 
 ### UI 设计偏好
 
 - 偏好真实、密度合适、可重复使用的工作界面。SaaS、CRM、运营工具应安静、克制、可扫描，避免营销式 hero、装饰性卡片堆叠和单一色相氛围。
 - 文案必须精确，尤其是状态、CTA、错误、disabled、expired、互斥关系和 backend display text。用户给出明确文案时应原样落实。
+- 错误文案应由展示层按当前语言环境映射，不把某一种自然语言硬编码进后端稳定错误合同。
 - 图标语义要准确。工具按钮优先使用熟悉符号和已有 icon library，不用文字胶囊替代常见图标。
 - UI 状态不能只靠“看起来差不多”。需要验证移动端和桌面端的文本容器、布局重排、重叠、加载态、空态和错误态。
 - 临时 mock 只用于验证，验证后立刻删除，不能留下会误提交的开关。
+- 参考站复刻或个人资料页任务里，核心交互语言要尽量贴近参考站；未确认的个人信息、项目内容和外链应留空，不靠推断补满。
 
 ### 产品设计理念
 
 - 产品壳层和真实能力要对齐。未上线或未准备好的能力宁可 hard-cut，也不要制造可点击但不可用的假入口。
 - AI 产品设计要区分“感知层”和“真实执行层”。前台可以用用户理解的比例和状态，后台必须保留真实成本、token、模型、source、artifact、checkpoint 等可审计数据。
 - Workspace / agent 类产品的价值在于上下文、来源、产物、记忆和可续接运行，而不只是一个聊天框。
+- 一旦已有 `Profile`、schema 或 run contract 这种正式任务合同，它就应成为唯一真源；默认 mounted skill 只适合用户显式选择的正交增强，不适合做兜底任务定义。
 - 首页推荐、任务入口和 briefing 需要具体到公司、行业、资产范围或明确目标，泛泛推荐没有决策价值。
 - 当用户说“展示内容不对”时，尤其是 memory / goal / context 这类界面，默认问题在真实数据分层、revision/version 语义或 durable context pack，而不只是标签文案。
+- 复杂度、资产数和 coverage 这类产品指标，应该展示原子单元，并把 `unit_count` 与底层 `file_entry_count` 之类实现细节分开。
 
 ### 交互原则
 
@@ -145,6 +189,7 @@
 - 用户主动改变一个环境变量后，偏好单变量复测。关掉后台隧道、停用一个过滤器、重启机器之后，都要重采 baseline。
 - 不接受“组件都装着”“扩展看起来 enabled”“命令能跑 `--help`”这种弱证据。用户更看重真正连通、真正可用、真正通过测试的闭环。
 - 自动化和集成类任务里，没有执行证据时只能沉淀输出格式和口径，不能顺手暗示能力已经接通。
+- 本地调试类修复，偏好真实队列/数据库/浏览器闭环验证；配置值显示正确不等于执行路径真的已经切到 local。
 
 ## 三、Codex 可复用规则清单
 
@@ -172,6 +217,12 @@
 22. 遇到交互授权卡点时，尽快把精确的 `verification_url` 或下一步操作原样交给用户，不在同一轮里盲目重试。
 23. “push 一个分支”之类请求的完成态是远端结果可见；没有 tracked diff 时不要制造空提交。
 24. 本地运行产物如 `.playwright-mcp/`、`.local-stack-logs/` 默认不提交，除非用户明确要求。
+25. 已有 `Profile` / schema / quality gate 合同时，不再叠加默认兜底 skill；`Profile` 负责来源、工具、产物和质量门禁，skill 只保留用户主动添加的正交增强。
+26. 计数、复杂度、coverage 和成功门禁要绑定原子单元或显式 family/status，不用文件数、弱 source 数量或“有正文”当代理指标。
+27. 本地调试绕过必须通过环境边界和 transport 边界实现；不要依赖账号白名单或散落开关。后端返回稳定机器错误码，前端按当前语言本地化展示。
+28. provenance 敏感链路不能信模型自报的 URL、quote、`sourceType` 或完成态；必须绑定已持久化的 planner/retrieval checkpoint 与 canonical receipt，不满足就 fail closed。
+29. provider 抓到原文但 clue 不匹配时，先保留快照；只有经过 dimension × role × period 复核的结果才能提升为正式证据或写入 Artifact。
+30. 参考站重建或个人资料页任务中，优先保留真实交互语言；未知的个人信息、项目链接或资历留空，不用推断内容补满。
 
 ## 周期任务维护要求
 
@@ -205,3 +256,24 @@
 ### 未能提供额外证据的来源
 
 - `/Users/xuhao/.codex/logs_2.sqlite` 与 `/Users/xuhao/.codex/sqlite/logs_2.sqlite` 虽可读，但 `logs` 表均为空，所以本轮没有从 sqlite 补充到新的经验条目。
+
+## 五、本轮变更记录（2026-07-15）
+
+### 新增执行经验
+
+- 新增了第 12-16 条，分别覆盖“任务合同唯一真源”“计数与门禁绑定原子单元”“本地调试绕过的环境边界”“provenance 绑定持久化凭据”“ID 合同错误先修生成器”。
+- 证据主要来自 2026-07-14 的 Workspace mounted skill / investor brief 讨论与修复、`Upgrade required` 本地链路修复、context unit 原子计数修复，以及一个 `goal_revision_id` 超长写库失败的 archived rollout。
+
+### 偏好档案变更
+
+- `UI 设计偏好` 新增两点：错误文案按当前语言环境在展示层映射；参考站复刻和个人资料页里，未知事实保持留空。
+- `产品设计理念` 新增两点：`Profile` 是正式任务合同的唯一真源；复杂度和资产数要展示原子单元，而不是底层文件数。
+- `工程验证偏好` 新增了对 local mode 的要求：必须验证真实 transport/queue/DB 是否已切到本地闭环。
+
+### 规则清单变更
+
+- 新增规则 25-30，覆盖 Profile 与 skill 的边界、原子计数、local debug 环境边界、receipt/provenance fail-closed，以及参考站复刻时的事实留空策略。
+
+### 未能提供额外证据的来源
+
+- `/Users/xuhao/.codex/logs_2.sqlite` 与 `/Users/xuhao/.codex/sqlite/logs_2.sqlite` 这轮依旧没有事件数据。

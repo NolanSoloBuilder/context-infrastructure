@@ -25,30 +25,21 @@ export const focusAreas = [
   },
 ];
 
+// Only publish projects that Xu Hao has explicitly approved for this site.
 export const projects = [
   {
-    title: "Context Infrastructure",
-    tag: "Personal AI System",
-    description: "A local-first operating system for rules, skills, memory, recurring observation, research, and durable collaboration with coding agents.",
-    status: "Active",
+    title: "CHINA METRO TYPING",
+    tag: "Typing game",
+    description: "A typing game across real metro lines in 41 Chinese cities, supporting Simplified Chinese and tone-free Pinyin.",
+    status: "Live",
+    url: "https://metro.forgepane.com/",
   },
   {
-    title: "Mindspace Workspace",
-    tag: "Agent Workspace",
-    description: "A workspace-scoped agent experience connecting conversation, memory, sources, artifacts, checkpoints, and evidence-backed execution.",
-    status: "Building",
-  },
-  {
-    title: "AI Tool Environment Sync",
-    tag: "Developer Tooling",
-    description: "A reproducible way to move personal AI tooling, skills, configuration, and operational context across machines.",
-    status: "Maintained",
-  },
-  {
-    title: "Automation Lab",
-    tag: "Applied Agents",
-    description: "Small, real workflows for research, daily review, release coordination, browser work, network diagnosis, and data collection.",
-    status: "Ongoing",
+    title: "Cited Alpha",
+    tag: "AI research workspace",
+    description: "A source-backed AI workspace for financial research that keeps questions, evidence, agent work, and cited outputs together.",
+    status: "Live",
+    url: "https://cited-alpha.forgepane.com/",
   },
 ];
 

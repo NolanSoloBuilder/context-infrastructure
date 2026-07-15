@@ -15,7 +15,7 @@
   --brown-dark: #3f2c24;
   --sand: #ead4b3;
   --intro-bg: #fcfcfc;
-  --intro-chip: #f4ece7;
+  --intro-chip: #f2e9e3;
   --cream: #fff8ec;
   --paper: rgba(255, 252, 247, 0.94);
   --ink-muted: #826b5d;
@@ -183,10 +183,17 @@ a {
   padding: 0 0.08em;
 }
 
-.about-button {
+.about-action {
   position: absolute;
   bottom: 88px;
-  left: 50%;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  animation: source-rise 600ms ease-out 1.15s both;
+}
+
+.about-button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -195,17 +202,17 @@ a {
   border: 0;
   border-radius: 999px;
   background: var(--intro-chip);
+  color: #916651;
   cursor: pointer;
   font-family: "Nunito Custom", sans-serif;
   font-size: 20px;
   font-weight: 900;
-  transform: translateX(-50%);
-  animation: button-rise 700ms 220ms both;
 }
 
 .about-button svg {
-  width: 23px;
-  height: 23px;
+  width: 24px;
+  height: 24px;
+  stroke-width: 2.25;
   transition: transform 160ms ease;
 }
 
@@ -215,14 +222,30 @@ a {
 
 .click-hint {
   position: absolute;
-  bottom: 18px;
-  left: 50%;
-  color: var(--brown-dark);
+  bottom: 20px;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: #1a1a1a;
   font-family: "Nunito Custom", sans-serif;
-  font-size: 13px;
-  line-height: 1.08;
-  transform: translateX(-50%);
-  animation: hint-bob 1.6s ease-in-out infinite;
+  font-size: 14px;
+  line-height: normal;
+  animation: source-rise 600ms ease-out 1.15s both;
+}
+
+.click-hint-content {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: hint-bob 1s infinite;
+}
+
+.click-hint svg {
+  width: 20px;
+  height: 20px;
 }
 
 .page-screen {
@@ -463,9 +486,15 @@ a {
   gap: 16px;
 }
 
+.mini-projects.is-empty {
+  display: block;
+}
+
 .mini-projects > .eyebrow { grid-column: 1 / -1; }
 
 .mini-projects article {
+  display: flex;
+  flex-direction: column;
   min-height: 230px;
   padding: 24px;
   border: 1px solid rgba(50, 67, 80, 0.14);
@@ -493,6 +522,23 @@ a {
 }
 
 .mini-projects p { margin: 0; color: #64707c; font-size: 12px; line-height: 1.6; }
+
+.mini-project-link {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 5px;
+  margin-top: auto;
+  padding-top: 18px;
+  color: #436472;
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.mini-project-link svg { width: 13px; height: 13px; }
+.mini-project-link:hover,
+.mini-project-link:focus-visible { color: #203f4d; text-decoration: underline; }
 
 .toolbox-panel {
   display: flex;
@@ -553,6 +599,7 @@ a {
   display: block;
   width: 46px;
   height: 46px;
+  border-radius: 12px;
   object-fit: contain;
   filter: drop-shadow(0 5px 6px rgba(13, 37, 52, 0.2));
 }
@@ -660,10 +707,26 @@ a {
   background: rgba(255,255,255,0.035);
 }
 
-.command-detail div { display: grid; gap: 6px; }
+.command-detail-meta { display: grid; align-content: start; gap: 6px; }
+.command-detail-copy { display: grid; align-content: start; gap: 10px; }
 .command-detail span { color: #8e73db; font-size: 10px; font-weight: 800; text-transform: uppercase; }
 .command-detail strong { font-size: 14px; }
 .command-detail p { margin: 0; color: #a8abb0; font-size: 12px; line-height: 1.55; }
+
+.project-live-link {
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  gap: 5px;
+  color: #c8b8ff;
+  font-size: 11px;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.project-live-link svg { width: 13px; height: 13px; }
+.project-live-link:hover,
+.project-live-link:focus-visible { color: white; text-decoration: underline; }
 
 .command-footer {
   position: absolute;
@@ -863,14 +926,14 @@ a {
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes button-rise {
-  from { opacity: 0; transform: translate(-50%, 24px); }
-  to { opacity: 1; transform: translate(-50%, 0); }
+@keyframes source-rise {
+  from { transform: translateY(130px); }
+  to { transform: translateY(0); }
 }
 
 @keyframes hint-bob {
-  0%, 100% { transform: translate(-50%, 0); }
-  50% { transform: translate(-50%, -5px); }
+  0%, 100% { animation-timing-function: cubic-bezier(0.8, 0, 1, 1); transform: translateY(-25%); }
+  50% { animation-timing-function: cubic-bezier(0, 0, 0.2, 1); transform: none; }
 }
 
 @media (max-width: 920px) {
@@ -893,7 +956,9 @@ a {
   .intro-copy { top: 52%; width: 100%; }
   .intro-hello { font-size: 36px; line-height: 1.2; }
   .intro-identity { margin-top: 34px !important; font-size: 30px; }
-  .about-button { bottom: 83px; font-size: 14px; }
+  .about-button { font-size: 14px; }
+  .about-button svg { width: 20px; height: 20px; }
+  .click-hint svg { width: 16px; height: 16px; }
 
   .page-screen { padding: 9px 9px 10px; }
   .page-header { grid-template-columns: 38px 1fr 38px; min-height: 44px; }
@@ -955,7 +1020,7 @@ a {
   .command-list button > span:nth-child(3) { display: none; }
   .command-list strong { font-size: 12px; }
   .command-detail { display: block; margin: 12px 9px; padding: 12px; }
-  .command-detail p { margin-top: 8px; }
+  .command-detail-copy { margin-top: 8px; }
 
   .now-layout {
     display: block;

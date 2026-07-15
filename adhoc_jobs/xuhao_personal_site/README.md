@@ -17,7 +17,7 @@ npm run build
 
 ## 内容维护
 
-个人资料、关注方向、项目和近况集中在 `src/content.js`。GitHub 使用已核验的公开资料 `NolanSoloBuilder`；LinkedIn、X、Notes 与邮箱在没有可靠公开地址前保持禁用或标记“待补充”，不伪造联系方式。
+个人资料、关注方向、项目和近况集中在 `src/content.js`。GitHub 使用已核验的公开资料 `NolanSoloBuilder`；LinkedIn、X、Notes 与邮箱在没有可靠公开地址前保持禁用或标记“待补充”，不伪造联系方式。项目集合只展示徐昊明确确认的内容，目前包括 [CHINA METRO TYPING](https://metro.forgepane.com/) 与 [Cited Alpha](https://cited-alpha.forgepane.com/)；卡片和 Selected Work 详情都提供对应的线上入口。
 
 页面共有五段：
 
@@ -32,6 +32,7 @@ npm run build
 ## 设计与资产决策
 
 - 保留参考站“单屏、横向切换、强视觉容器”的核心体验，但修复了参考站移动端横向错位的问题。
+- 参考站 HTML、CSS、JavaScript chunks、字体和可见资产已下载到 `../../tmp/yencheng_site_source/`；细节实现优先读取源码中的组件结构与响应式 token，不再只凭截图推断。
 - 壁纸由内置 ImageGen 根据参考截图的蓝青、奶油色和深靛色气质重新生成，不复刻原站壁纸。
 - `public/assets/` 中的 dock 图标来自参考页面和对应产品，仅用于本地原型与设计验证；公开发布前应确认授权或换成自有/开源资产。
 - 不热链原站资源，运行时所需资产全部本地化。

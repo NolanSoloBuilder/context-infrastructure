@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { ArrowUp, CircleArrowRight } from "lucide-react";
 import {
   ArrowCircleLeft,
   ArrowCircleRight,
@@ -24,7 +25,8 @@ import { focusAreas, nowItems, profile, projects } from "./content.js";
 const screens = ["hello", "portfolio", "work", "now", "end"];
 
 const iconMap = {
-  "Context Infrastructure": Brain,
+  "Cited Alpha": Brain,
+  "CHINA METRO TYPING": GlobeHemisphereEast,
   "Mindspace Workspace": Stack,
   "AI Tool Environment Sync": TerminalWindow,
   "Automation Lab": Wrench,
@@ -68,10 +70,17 @@ function Intro({ onEnter }) {
         <p className="intro-hello">Hello</p>
         <p className="intro-identity">I&apos;m <mark>{profile.englishName}</mark></p>
       </div>
-      <button className="about-button" type="button" onClick={onEnter}>
-        About Me <ArrowCircleRight weight="bold" />
-      </button>
-      <span className="click-hint" aria-hidden="true">↑<br />Click</span>
+      <div className="about-action">
+        <button className="about-button" type="button" onClick={onEnter}>
+          About Me <CircleArrowRight aria-hidden="true" />
+        </button>
+      </div>
+      <div className="click-hint" aria-hidden="true">
+        <div className="click-hint-content">
+          <ArrowUp strokeWidth={3.5} />
+          <span>Click</span>
+        </div>
+      </div>
     </section>
   );
 }
@@ -121,13 +130,16 @@ function ProfilePanel() {
 
 function MiniProjects() {
   return (
-    <div className="mini-projects">
+    <div className={`mini-projects${projects.length === 0 ? " is-empty" : ""}`}>
       <p className="eyebrow">Selected projects</p>
       {projects.slice(0, 3).map((project) => (
         <article key={project.title}>
           <strong>{project.title}</strong>
           <span>{project.tag}</span>
           <p>{project.description}</p>
+          <a className="mini-project-link" href={project.url} target="_blank" rel="noreferrer" aria-label={`View ${project.title} live`}>
+            View live <ArrowSquareOut weight="bold" />
+          </a>
         </article>
       ))}
     </div>
@@ -182,6 +194,7 @@ function Portfolio({ onBack, onNext }) {
 
 function Work({ onBack, onNext }) {
   const [selected, setSelected] = useState(0);
+  const selectedProject = projects[selected] ?? null;
   return (
     <section className="screen page-screen work-screen" aria-labelledby="work-title">
       <PageHeader title="Selected Work" onBack={onBack} onNext={onNext} />
@@ -211,11 +224,18 @@ function Work({ onBack, onNext }) {
             );
           })}
         </div>
-        <div className="command-detail">
-          <div><span>{projects[selected].tag}</span><strong>{projects[selected].title}</strong></div>
-          <p>{projects[selected].description}</p>
-        </div>
-        <div className="command-footer"><img src="/assets/raycast-mark.svg" alt="" /><span>Select a project to explore</span></div>
+        {selectedProject && (
+          <div className="command-detail">
+            <div className="command-detail-meta"><span>{selectedProject.tag}</span><strong>{selectedProject.title}</strong></div>
+            <div className="command-detail-copy">
+              <p>{selectedProject.description}</p>
+              <a className="project-live-link" href={selectedProject.url} target="_blank" rel="noreferrer" aria-label={`Open ${selectedProject.title} live project`}>
+                Open live project <ArrowSquareOut weight="bold" />
+              </a>
+            </div>
+          </div>
+        )}
+        {selectedProject && <div className="command-footer"><img src="/assets/raycast-mark.svg" alt="" /><span>Select a project to explore</span></div>}
       </div>
     </section>
   );
