@@ -56,6 +56,21 @@ Don't ask permission. Just do it.
 - 准备调用 `run_in_background=True` 前，先把这个 skill 读一遍再执行  
 - 派出 agent 后等系统通知即可，不需要轮询
 
+### 外部 Skill 登记与更新
+
+在本项目安装任何 GitHub、Skills CLI 或其他外部来源的 Skill 后，必须同时更新 `rules/skills/external_skills_registry.json`，再执行：
+
+```bash
+node tools/external_skills_registry.mjs sync
+node tools/external_skills_registry.mjs verify
+```
+
+`skills-lock.json` 是通过 Skills CLI 安装的具体 Skill 来源、路径和内容哈希真源；`rules/skills/external_skills_registry.json` 记录对应上游仓库 revision、许可证和安全备注；`rules/skills/global_skill_snapshots.json` 记录从全局精选到本项目的快照；`rules/skills/EXTERNAL_SKILLS.md` 是生成的人类可读索引。这些文件必须一致。
+
+检查上游更新时使用只读命令 `node tools/external_skills_registry.mjs check-updates`。当前 Skills CLI 没有只读的 `skills check`，不要把 `npx skills check` 当成 dry-run；确认升级后才执行 `npx -y skills update --project -y`。
+
+从全局增加项目 Skill 时，只能使用 `rules/skills/project_global_skill_selection.json` 的显式白名单和 `node tools/vendor_global_codex_skills.mjs sync`。只增加与本项目直接相关的 Agent、检索、Cloudflare、浏览器验证和 workspace 运维能力；排除小红书公司/内部业务、Mindspace/Expo/Fedith/Hi 等公司专用 Skill、纯代码生成 Skill、Cursor-only Skill、Codex `.system` 与插件缓存。快照只写入仓库内 `.agents/skills`，不得反向安装到用户全局目录。
+
 ## Axioms（公理）
 
 从个人经历提炼的决策原则，用于启发深度思考。分类索引、使用指南和触发词见 `rules/axioms/INDEX.md`。

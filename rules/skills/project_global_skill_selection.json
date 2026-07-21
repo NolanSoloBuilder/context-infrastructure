@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "policy": "Only vendor global Codex skills that are directly relevant to context-infrastructure. Company-specific, Xiaohongshu-internal, Mindspace, Expo/RN release, and generic pure-code skills are excluded.",
+  "skills": [
+    {
+      "name": "agents-sdk",
+      "category": "agent-infrastructure",
+      "reason": "项目持续研究和实现 Agent runtime、工具调用与执行边界。"
+    },
+    {
+      "name": "cloudflare",
+      "category": "cloudflare",
+      "reason": "项目包含 Cloudflare、Workers、域名和部署相关工作。"
+    },
+    {
+      "name": "cloudflare-email-service",
+      "category": "cloudflare",
+      "reason": "项目包含邮件服务、域名和 Cloudflare 基础设施。"
+    },
+    {
+      "name": "cloudflare-one",
+      "category": "cloudflare",
+      "reason": "项目包含 managed network、DNS、访问路径和 Cloudflare One 诊断。"
+    },
+    {
+      "name": "durable-objects",
+      "category": "agent-infrastructure",
+      "reason": "项目研究有状态 Agent、workspace runner 与 Durable Objects。"
+    },
+    {
+      "name": "find-skills",
+      "category": "skill-management",
+      "reason": "项目需要持续发现、安装和治理外部 Skills。"
+    },
+    {
+      "name": "llm-router",
+      "category": "agent-infrastructure",
+      "reason": "项目维护多模型路由与 Agent 执行策略。"
+    },
+    {
+      "name": "multi-source-search",
+      "category": "research",
+      "reason": "深度调研和多来源交叉验证是项目核心工作流。"
+    },
+    {
+      "name": "playwright",
+      "category": "browser-verification",
+      "reason": "项目需要浏览器 E2E、页面验证和交互诊断。"
+    },
+    {
+      "name": "sandbox-sdk",
+      "category": "agent-infrastructure",
+      "reason": "项目研究 Agent sandbox 和隔离执行环境。"
+    },
+    {
+      "name": "screenshot",
+      "category": "browser-verification",
+      "reason": "项目调研、页面验证和设计 QA 需要可审计截图。"
+    },
+    {
+      "name": "storage-analyzer",
+      "category": "workspace-operations",
+      "reason": "项目承担本机 Codex 数据、缓存和 workspace 存储诊断。"
+    },
+    {
+      "name": "turnstile-spin",
+      "category": "cloudflare",
+      "reason": "项目包含 Cloudflare 站点、Turnstile 和部署恢复链路。"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "category": "product-design",
+      "reason": "项目包含多个 Web 产品原型、设计 QA 和界面实现。"
+    },
+    {
+      "name": "web-perf",
+      "category": "browser-verification",
+      "reason": "项目需要 Web 性能诊断和线上体验验证。"
+    },
+    {
+      "name": "workers-best-practices",
+      "category": "cloudflare",
+      "reason": "项目包含 Cloudflare Workers 代码、部署和运行时边界。"
+    },
+    {
+      "name": "wrangler",
+      "category": "cloudflare",
+      "reason": "Wrangler 是项目 Cloudflare 本地开发和部署的直接工具。"
+    }
+  ],
+  "explicitExclusions": [
+    "任何小红书公司或内部业务 Skill",
+    "Mindspace、Expo/RN release、Fedith、Hi 等公司专用 Skill",
+    "code-search、Remotion、Lottie、text-to-lottie 等纯代码或代码生成 Skill",
+    "Cursor-only Skill",
+    "Codex .system Skill 与插件缓存 Skill"
+  ]
+}

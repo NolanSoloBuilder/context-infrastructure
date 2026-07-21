@@ -1,1 +1,6 @@
 adhoc_jobs/tmp_*
+.agents/skills/**/node_modules/
+.agents/skills/**/.git/
+.agents/skills/**/.DS_Store
+.agents/skills/**/__pycache__/
+.agents/skills/**/*.pyc

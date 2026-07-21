@@ -82,6 +82,14 @@
 - [AI 产品设计原则](./bestpractice_ai_product_design.md) ✅ — 线性聊天 vs 知识工作、感知规则解耦
 - [OpenBook Agent Harness 上下文索引](./openbook_agent_harness.md) ✅ — 基于 OpenBook 成书版定位 Agent Harness、MCP、Skills、Plugin、多 Agent、记忆和云上 sandbox 设计章节
 
+### Project-installed Skills（项目级安装）
+
+- [外部 Skills 注册表](./EXTERNAL_SKILLS.md) ✅ — 当前项目所有外部 Skill 的上游来源、精选全局快照、许可证、安全备注和更新流程；哈希分别由根目录 `skills-lock.json` 与 `global_skill_snapshots.json` 管理。
+- [dbskill](../../.agents/skills/dbs/SKILL.md) ✅ — `dontbesilent2025/dbskill` 的统一入口；项目内安装 29 个中文 Skills，覆盖商业诊断、内容创作、知识库与决策记录。`dbs-report`、`dbs-restore` 使用前需额外审查其文件访问行为。
+- [小红书内容检查](../../.agents/skills/xiaohongshu-content-checker/SKILL.md) ✅ — `4682B4LEE/xiaohongshu-content-checker` v1.3.3；发布前检查敏感词、导流风险、营销浓度和账号定位匹配度。平台规则可能变化，结论仅作风险参考；仓库未提供独立 `LICENSE` 文件，`SKILL.md` 元数据声明 MIT。
+- [小黑手绘正文配图 1.0](../../.agents/skills/ian-xiaohei-illustrations/SKILL.md) ✅ — `helloianneo/ian-xiaohei-illustrations`；将中文文章里的观点、流程和方法转成 16:9 白底手绘解释图。
+- [小黑实物场景配图 2.0](../../.agents/skills/ian-xiaohei-scenes/SKILL.md) ✅ — `helloianneo/ian-xiaohei-scenes`；用真实物件、小黑角色和物理动作表现处境、情绪、项目故事，并支持超横版长卷故事图。
+
 ---
 
 ## 如何添加你自己的 Skill

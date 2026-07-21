@@ -64,7 +64,23 @@
 
 将新 skill 添加到 `rules/skills/INDEX.md` 对应分类。
 
-### 2c. 关于 Axioms（公理）
+### 2c. 恢复项目级 Skills
+
+本仓库已经把项目需要的外部 Skill 保存在 `.agents/skills/`，克隆后会以项目级能力生效，不需要安装到用户全局目录。先运行一致性检查：
+
+```bash
+node tools/external_skills_registry.mjs verify
+```
+
+如果注册表列出了 npm 依赖，再运行：
+
+```bash
+node tools/bootstrap_project_skills.mjs
+```
+
+完整来源、选择理由和排除范围见 `rules/skills/EXTERNAL_SKILLS.md`。不要执行 `npx skills check`；当前 CLI 会把它当成实际刷新，而不是只读检查。
+
+### 2d. 关于 Axioms（公理）
 
 `rules/axioms/` 包含 43 条从真实经历中蒸馏的决策原则。这些代表原作者的视角和认知模式，对你有**参考价值**，但不能替代你自己的公理。
 
