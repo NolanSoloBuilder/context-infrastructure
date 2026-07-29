@@ -1,0 +1,48 @@
+[
+  {
+    "viewport": {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "indexState": {
+      "hash": "#notes",
+      "heading": "Xu Hao's Notes",
+      "notes": 1,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    "articleState": {
+      "heading": "The first note is taking shape",
+      "paragraphs": 3,
+      "backVisible": true
+    },
+    "returnedToIndex": true,
+    "portfolioHash": "#portfolio",
+    "continueHash": "#end"
+  },
+  {
+    "viewport": {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "indexState": {
+      "hash": "#notes",
+      "heading": "Xu Hao's Notes",
+      "notes": 1,
+      "scrollWidth": 390,
+      "clientWidth": 390
+    },
+    "articleState": {
+      "heading": "The first note is taking shape",
+      "paragraphs": 3,
+      "backVisible": true
+    },
+    "returnedToIndex": true,
+    "portfolioHash": "#portfolio",
+    "continueHash": "#end"
+  }
+]

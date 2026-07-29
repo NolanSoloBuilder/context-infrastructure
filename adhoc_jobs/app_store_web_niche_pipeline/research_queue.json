@@ -1,0 +1,90 @@
+{
+  "createdAt": "2026-07-17",
+  "country": "us",
+  "candidates": [
+    {
+      "appId": "949490225",
+      "priority": 1,
+      "atomicTask": "把多张图片按真实英寸/厘米和目标 DPI 排到纸张上，导出可打印 PDF",
+      "hypothesis": "输入来自电脑、批量排版和打印预览更适合 Web；一次性付费与大量评分证明长期需求",
+      "knownRisk": "已有桌面排版和在线 photo print 工具，需要找到更窄的用户或输出规范"
+    },
+    {
+      "appId": "6758417192",
+      "priority": 1,
+      "atomicTask": "把照片转换成可调线宽、细节和阴影的 tattoo stencil",
+      "hypothesis": "图像本地处理、preset 和打印导出都适合 WebGPU/Canvas，隐私和免订阅可以形成卖点",
+      "knownRisk": "评分样本极少，需要证明 tattoo artist 会通过 Web 搜索和付费"
+    },
+    {
+      "appId": "525117691",
+      "priority": 1,
+      "atomicTask": "把照片转换并编辑为 cross-stitch、bead 或 knitting pattern，再导出带符号 PDF",
+      "hypothesis": "大屏编辑、颜色映射、PDF 导出更适合浏览器，目标用户和交付结果清楚",
+      "knownRisk": "功能容易扩张成完整编辑器，需选择一个 craft 和一种输出"
+    },
+    {
+      "appId": "1534899128",
+      "priority": 1,
+      "atomicTask": "使用 IEC/ANSI 符号快速绘制 electrical single-line diagram 并导出 PDF",
+      "hypothesis": "拖拽绘图在桌面 Web 上更自然，专业用户有明确交付文件",
+      "knownRisk": "符号标准、专业责任和现有 CAD 竞品需要核实"
+    },
+    {
+      "appId": "1672085276",
+      "priority": 1,
+      "atomicTask": "在浏览器本地把音频文件转成文本和字幕，不上传服务器",
+      "hypothesis": "WebGPU/Whisper 可以复现主要价值，iOS 后台限制反而给桌面 Web 留出优势",
+      "knownRisk": "通用转录竞争密集，必须寻找特定音频来源或输出工作流"
+    },
+    {
+      "appId": "590534084",
+      "priority": 1,
+      "atomicTask": "拍摄现场快速记录 timecode marker，并导出 FCPXML/EDL/Premiere XML",
+      "hypothesis": "离线 PWA 可以覆盖核心任务，专业导出格式形成垂直壁垒",
+      "knownRisk": "现场手机单手操作可能优于网页，需要验证 PWA 安装和唤醒体验"
+    },
+    {
+      "appId": "6759716586",
+      "priority": 2,
+      "atomicTask": "片场复用 release form，收集签名和照片并立即生成 PDF",
+      "hypothesis": "离线 PWA、模板复用和本地 PDF 可覆盖核心任务",
+      "knownRisk": "电子签名法律要求、相机权限和现场手机交接体验"
+    },
+    {
+      "appId": "6764477784",
+      "priority": 2,
+      "atomicTask": "为 craft fair / Etsy 卖家计算材料、人工、展位成本和真实利润",
+      "hypothesis": "垂直成本计算器和 event ROI 可以先做成无需账户的 Web 工具",
+      "knownRisk": "完整库存 SaaS 范围过大，当前 App 没有评分证据"
+    },
+    {
+      "appId": "466757473",
+      "priority": 2,
+      "atomicTask": "根据 pinhole camera、胶片和 reciprocity curve 计算曝光时间",
+      "hypothesis": "规则型计算和 preset 适合 Web，长尾 SEO 查询明确",
+      "knownRisk": "市场可能太小，光表和现场计时仍偏移动端"
+    },
+    {
+      "appId": "1234266367",
+      "priority": 2,
+      "atomicTask": "通过麦克风分析 drumhead 频率，辅助 lug 和整套鼓调音",
+      "hypothesis": "Web Audio 可完成频谱与 pitch 分析，专业用户已有高价付费证据",
+      "knownRisk": "浏览器麦克风校准、环境噪声和移动使用姿势影响准确性"
+    },
+    {
+      "appId": "1084325249",
+      "priority": 2,
+      "atomicTask": "从照片 EXIF 或相机连接读取 shutter count 并生成磨损报告",
+      "hypothesis": "Nikon/Pentax 文件读取子任务非常适合临时 Web 工具和二手交易搜索",
+      "knownRisk": "Canon USB/Wi-Fi 私有协议和浏览器硬件访问覆盖有限"
+    },
+    {
+      "appId": "6767592281",
+      "priority": 2,
+      "atomicTask": "生成可切割 stencil/halftone，并按 A4/Letter 自动平铺导出多页 PDF",
+      "hypothesis": "比泛化 stencil 更具体的 tiled PDF 输出可能有搜索和付费空间",
+      "knownRisk": "当前只有一条低分评分，需要用社区需求独立验证"
+    }
+  ]
+}

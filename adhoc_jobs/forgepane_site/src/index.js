@@ -1,16 +1,23 @@
 const BRAND_HOSTS = new Set(["forgepane.com", "www.forgepane.com"]);
-const PERSONAL_HOST = "xuhao.forgepane.com";
+const PERSONAL_HOST = "nalon.forgepane.com";
+const BRAND_ASSET_PATHS = new Set([
+  "/assets/arrow-right.svg",
+  "/assets/forgepane-favicon.svg",
+  "/assets/nunito-bold.woff2",
+  "/assets/projects/china-metro-typing-route.webp",
+  "/assets/projects/cited-alpha-landing.webp"
+]);
 
 const SECURITY_HEADERS = {
   "content-security-policy":
-    "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "default-src 'none'; img-src 'self' data:; font-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
   "referrer-policy": "strict-origin-when-cross-origin",
   "x-content-type-options": "nosniff",
   "x-frame-options": "DENY"
 };
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     const url = new URL(request.url);
 
     if (url.hostname === "www.forgepane.com") {
@@ -19,10 +26,16 @@ export default {
     }
 
     if (url.hostname === PERSONAL_HOST) {
-      return html(personalPage(), 200);
+      return env.ASSETS.fetch(request);
     }
 
     if (BRAND_HOSTS.has(url.hostname)) {
+      if (BRAND_ASSET_PATHS.has(url.pathname)) {
+        return env.ASSETS.fetch(request);
+      }
+      if (url.pathname !== "/") {
+        return html(notFoundPage(), 404);
+      }
       return html(brandPage(), 200);
     }
 
@@ -49,6 +62,7 @@ function shell({ title, description, bodyClass, content }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
+  <link rel="icon" type="image/svg+xml" href="/assets/forgepane-favicon.svg">
   <style>
     :root {
       color-scheme: light;
@@ -267,6 +281,185 @@ function shell({ title, description, bodyClass, content }) {
       border-top: 1px solid var(--line);
     }
 
+    @font-face {
+      font-family: "Nunito ForgePane";
+      src: url("/assets/nunito-bold.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    .brand {
+      --directory-width: 706px;
+      --directory-line: #e5e5e5;
+      background: #fff;
+      color: #171717;
+    }
+
+    .brand .site {
+      display: block;
+    }
+
+    .brand .brand-nav {
+      width: min(var(--directory-width), calc(100% - 48px));
+      justify-content: center;
+      gap: 52px;
+      padding: 34px 0 0;
+      border: 0;
+      color: #171717;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .brand .brand-nav a {
+      padding: 5px 0;
+    }
+
+    .brand .brand-nav a:hover,
+    .brand .brand-nav a:focus-visible {
+      border-bottom-color: #171717;
+    }
+
+    .brand .directory-main {
+      width: min(var(--directory-width), calc(100% - 48px));
+      padding: 45px 0 34px;
+    }
+
+    .directory-hero {
+      text-align: center;
+    }
+
+    .directory-hero h1,
+    .product-entry h2 {
+      font-family: "Nunito ForgePane", Inter, ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: -0.025em;
+    }
+
+    .directory-hero h1 {
+      font-size: clamp(42px, 6vw, 55px);
+      line-height: 1;
+    }
+
+    .directory-hero p {
+      margin: 16px 0 0;
+      color: #707070;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .directory-links {
+      margin-top: 30px;
+      border-top: 1px solid var(--directory-line);
+      border-bottom: 1px solid var(--directory-line);
+    }
+
+    .directory-row {
+      min-height: 50px;
+      display: grid;
+      grid-template-columns: 95px minmax(0, 1fr) 246px 18px;
+      align-items: center;
+      gap: 16px;
+      border-top: 1px solid var(--directory-line);
+      font-size: 13px;
+    }
+
+    .directory-row:first-child {
+      border-top: 0;
+    }
+
+    .directory-row strong {
+      font-size: 13px;
+    }
+
+    .row-summary,
+    .row-domain {
+      color: #767676;
+    }
+
+    .row-domain {
+      text-align: right;
+    }
+
+    .link-icon {
+      width: 16px;
+      height: 16px;
+      display: block;
+      transition: transform 160ms ease;
+    }
+
+    .directory-row:hover .link-icon,
+    .directory-row:focus-visible .link-icon,
+    .product-link:hover .link-icon,
+    .product-link:focus-visible .link-icon {
+      transform: translateX(3px);
+    }
+
+    .product-entry {
+      margin-top: 55px;
+    }
+
+    .product-domain {
+      margin: 0 0 10px;
+      color: #737373;
+      font-size: 14px;
+    }
+
+    .product-entry h2 {
+      margin: 0;
+      font-size: clamp(31px, 4.5vw, 39px);
+      line-height: 1.05;
+    }
+
+    .product-description {
+      margin: 12px 0 0;
+      color: #656565;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .product-link {
+      width: fit-content;
+      margin-top: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #171717;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .product-shot {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 24px;
+      border-radius: 2px;
+    }
+
+    .brand .directory-footer {
+      width: min(var(--directory-width), calc(100% - 48px));
+      margin: 0 auto;
+      padding: 24px 0 34px;
+      border-top-color: var(--directory-line);
+      text-align: center;
+    }
+
+    .social-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 32px;
+      color: #171717;
+      font-size: 13px;
+    }
+
+    .directory-footer p {
+      margin: 22px 0 0;
+      color: #777;
+    }
+
     @media (max-width: 760px) {
       header {
         align-items: flex-start;
@@ -298,6 +491,74 @@ function shell({ title, description, bodyClass, content }) {
         grid-template-columns: 1fr;
         gap: 4px;
       }
+
+      .brand .brand-nav {
+        width: min(var(--directory-width), calc(100% - 40px));
+        flex-direction: row;
+        align-items: center;
+        gap: 28px;
+        padding-top: 25px;
+        overflow: visible;
+      }
+
+      .brand .directory-main,
+      .brand .directory-footer {
+        width: min(var(--directory-width), calc(100% - 40px));
+      }
+
+      .brand .directory-main {
+        padding-top: 42px;
+      }
+
+      .directory-hero {
+        text-align: left;
+      }
+
+      .directory-hero h1 {
+        font-size: 44px;
+      }
+
+      .directory-row {
+        grid-template-columns: minmax(0, 1fr) 18px;
+        gap: 5px 12px;
+        padding: 14px 0;
+      }
+
+      .directory-row strong {
+        font-size: 15px;
+      }
+
+      .row-summary,
+      .row-domain {
+        grid-column: 1 / -1;
+        text-align: left;
+      }
+
+      .directory-row .link-icon {
+        grid-column: 2;
+        grid-row: 1;
+      }
+
+      .product-entry {
+        margin-top: 46px;
+      }
+
+      .product-entry h2 {
+        font-size: 32px;
+      }
+
+      .product-shot {
+        margin-top: 20px;
+      }
+
+      .social-footer {
+        justify-content: flex-start;
+        gap: 20px 26px;
+      }
+
+      .brand .directory-footer {
+        text-align: left;
+      }
     }
   </style>
 </head>
@@ -312,88 +573,77 @@ function shell({ title, description, bodyClass, content }) {
 function brandPage() {
   return shell({
     title: "ForgePane",
-    description: "A personal lab for Mac tools, AI workflows, and local-first experiments.",
+    description: "The map of Nalon's public work across the web.",
     bodyClass: "brand",
-    content: `<header>
-  <a class="mark" href="https://forgepane.com">ForgePane</a>
-  <nav aria-label="Primary">
-    <a href="https://xuhao.forgepane.com">Xuhao</a>
-    <a href="https://forgepane.com/#labs">Labs</a>
-    <a href="https://forgepane.com/#devspace">DevSpace</a>
-  </nav>
-</header>
-<main>
-  <section class="intro">
-    <p class="eyebrow">Personal lab</p>
+    content: `<nav class="brand-nav" aria-label="Primary">
+  <a href="https://forgepane.com">Directory</a>
+  <a href="#personal">Personal</a>
+  <a href="#products">Products</a>
+</nav>
+<main class="directory-main">
+  <section class="directory-hero">
     <h1>ForgePane</h1>
-    <p class="lead">A personal lab for Mac tools, AI workflows, and local-first experiments.</p>
-    <div class="actions">
-      <a class="button primary" href="https://xuhao.forgepane.com">Xuhao</a>
-      <a class="button" href="#labs">Labs</a>
-      <a class="button" href="#devspace">DevSpace</a>
-    </div>
+    <p>The map of Nalon's public work across the web.</p>
   </section>
-  <section class="grid" id="labs" aria-label="Focus areas">
-    <article class="item">
-      <h2>Mac tools</h2>
-      <p>Small utilities, interface experiments, and local-first workflows for daily work.</p>
-    </article>
-    <article class="item">
-      <h2>AI workflows</h2>
-      <p>Agent patterns, context systems, and practical automation around real projects.</p>
-    </article>
-    <article class="item" id="devspace">
-      <h2>DevSpace</h2>
-      <p>A private MCP workspace endpoint reserved for secure local development experiments.</p>
-    </article>
-  </section>
-</main>
-<footer>ForgePane · built on Cloudflare Workers</footer>`
-  });
-}
 
-function personalPage() {
-  return shell({
-    title: "Xuhao",
-    description: "Personal homepage for Xuhao.",
-    bodyClass: "personal",
-    content: `<header>
-  <a class="mark" href="https://xuhao.forgepane.com">Xuhao</a>
-  <nav aria-label="Primary">
-    <a href="https://forgepane.com">ForgePane</a>
-    <a href="#work">Work</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-<main>
-  <section class="profile">
-    <div class="intro">
-      <p class="eyebrow">Builder / Engineer</p>
-      <h1>Xuhao</h1>
-      <p class="lead">I build tools and systems around AI, software workflows, and local-first productivity. This page is the personal entry point under ForgePane.</p>
-      <div class="actions" id="contact">
-        <a class="button primary" href="https://github.com/WebXuHao">GitHub</a>
-        <a class="button" href="https://forgepane.com">ForgePane</a>
-      </div>
-    </div>
-    <aside class="facts" id="work" aria-label="Profile details">
-      <h2>Current focus</h2>
-      <div class="fact">
-        <span>AI</span>
-        <span>LLM agents, context infrastructure, workflow automation.</span>
-      </div>
-      <div class="fact">
-        <span>Mac</span>
-        <span>Focused desktop utilities and local development tools.</span>
-      </div>
-      <div class="fact">
-        <span>Labs</span>
-        <span>Small experiments that can become durable products.</span>
-      </div>
-    </aside>
+  <section class="directory-links" id="personal" aria-label="Personal destinations">
+    <a class="directory-row" href="https://nalon.forgepane.com">
+      <strong>Nalon</strong>
+      <span class="row-summary">Personal site</span>
+      <span class="row-domain">nalon.forgepane.com</span>
+      <img class="link-icon" src="/assets/arrow-right.svg" alt="">
+    </a>
+    <a class="directory-row" href="https://nalon.forgepane.com/#notes">
+      <strong>Notes</strong>
+      <span class="row-summary">Personal blog. Coming soon</span>
+      <span class="row-domain">nalon.forgepane.com/#notes</span>
+      <img class="link-icon" src="/assets/arrow-right.svg" alt="">
+    </a>
+    <a class="directory-row" href="https://nalon.forgepane.com/#portfolio">
+      <strong>Portfolio</strong>
+      <span class="row-summary">Selected work</span>
+      <span class="row-domain">nalon.forgepane.com/#portfolio</span>
+      <img class="link-icon" src="/assets/arrow-right.svg" alt="">
+    </a>
+  </section>
+
+  <section id="products" aria-label="Products">
+    <article class="product-entry">
+      <p class="product-domain">metro.forgepane.com</p>
+      <h2>CHINA METRO TYPING</h2>
+      <p class="product-description">A typing game across real metro lines in 41 Chinese cities.</p>
+      <a class="product-link" href="https://metro.forgepane.com/">
+        <span>Open CHINA METRO TYPING</span>
+        <img class="link-icon" src="/assets/arrow-right.svg" alt="">
+      </a>
+      <a href="https://metro.forgepane.com/" aria-label="Open CHINA METRO TYPING">
+        <img class="product-shot" src="/assets/projects/china-metro-typing-route.webp" alt="CHINA METRO TYPING route view" width="2048" height="1024">
+      </a>
+    </article>
+
+    <article class="product-entry">
+      <p class="product-domain">cited-alpha.forgepane.com</p>
+      <h2>Cited Alpha</h2>
+      <p class="product-description">A source-backed AI workspace for financial research.</p>
+      <a class="product-link" href="https://cited-alpha.forgepane.com/">
+        <span>Open Cited Alpha</span>
+        <img class="link-icon" src="/assets/arrow-right.svg" alt="">
+      </a>
+      <a href="https://cited-alpha.forgepane.com/" aria-label="Open Cited Alpha">
+        <img class="product-shot" src="/assets/projects/cited-alpha-landing.webp" alt="Cited Alpha financial research landing page" width="2048" height="986" loading="lazy">
+      </a>
+    </article>
   </section>
 </main>
-<footer>xuhao.forgepane.com · personal homepage</footer>`
+<footer class="directory-footer">
+  <nav class="social-footer" aria-label="Social links">
+    <a href="https://github.com/NolanSoloBuilder">GitHub</a>
+    <a href="https://x.com/NolanBuilder01">X</a>
+    <a href="https://www.linkedin.com/in/web-xuhao/">LinkedIn</a>
+    <a href="https://www.xiaohongshu.com/user/profile/676aae57000000001801c80d">Xiaohongshu</a>
+  </nav>
+  <p>© 2026 Nalon. All rights reserved. · forgepane.com</p>
+</footer>`
   });
 }
 

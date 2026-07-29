@@ -1,0 +1,111 @@
+{
+  "supportValues": {
+    "dependable": 1,
+    "feature_detect": 0.7,
+    "fallback_required": 0.35,
+    "unavailable": 0
+  },
+  "capabilities": [
+    {
+      "id": "io.file.input",
+      "web": "dependable",
+      "ios": "dependable",
+      "fallback": null
+    },
+    {
+      "id": "io.file.direct_rw",
+      "web": "feature_detect",
+      "ios": "unavailable",
+      "fallback": "input_and_blob_download"
+    },
+    {
+      "id": "storage.opfs",
+      "web": "feature_detect",
+      "ios": "feature_detect",
+      "fallback": "indexeddb_or_cloud_sync"
+    },
+    {
+      "id": "compute.wasm",
+      "web": "dependable",
+      "ios": "dependable",
+      "fallback": "cloud_job"
+    },
+    {
+      "id": "compute.webgpu",
+      "web": "feature_detect",
+      "ios": "fallback_required",
+      "fallback": "wasm_cpu_or_cloud_gpu"
+    },
+    {
+      "id": "media.webcodecs",
+      "web": "feature_detect",
+      "ios": "fallback_required",
+      "fallback": "wasm_codec_or_cloud_transcode"
+    },
+    {
+      "id": "audio.webaudio",
+      "web": "dependable",
+      "ios": "feature_detect",
+      "fallback": "offline_file_import"
+    },
+    {
+      "id": "pwa.install_offline",
+      "web": "dependable",
+      "ios": "feature_detect",
+      "fallback": "ordinary_web"
+    },
+    {
+      "id": "background.continuous",
+      "web": "unavailable",
+      "ios": "unavailable",
+      "fallback": "backend_job_or_native"
+    },
+    {
+      "id": "ai.chrome_builtin",
+      "web": "feature_detect",
+      "ios": "unavailable",
+      "fallback": "bundled_webgpu_wasm_model_or_cloud"
+    },
+    {
+      "id": "extension.chrome",
+      "web": "feature_detect",
+      "ios": "unavailable",
+      "fallback": "ordinary_web_or_pwa"
+    },
+    {
+      "id": "device.camera_mic",
+      "web": "dependable",
+      "ios": "feature_detect",
+      "fallback": "file_upload"
+    },
+    {
+      "id": "device.bluetooth_usb_serial_nfc",
+      "web": "feature_detect",
+      "ios": "unavailable",
+      "fallback": "manual_file_qr_or_native_bridge"
+    }
+  ],
+  "hardRejectRules": [
+    "core capability unavailable without a value-preserving fallback",
+    "continuous background execution, locked-screen recording/location/BLE or exact scheduled wakeup",
+    "HealthKit, Apple Watch, VPN/Network Extension, CallKit, system keyboard or system content filter is core",
+    "mobile-required product whose core depends on Chrome Extension or Chrome built-in AI",
+    "page must close while long local processing continues",
+    "local-only promise with input too large for streaming/chunking/checkpoint"
+  ],
+  "fallbackOrder": [
+    "native_browser_api",
+    "wasm_web_worker_cpu",
+    "webgpu_optional_accelerator",
+    "resumable_cloud_job"
+  ],
+  "sources": [
+    "https://developer.chrome.com/docs/capabilities/web-apis/file-system-access",
+    "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+    "https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API",
+    "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia",
+    "https://web.dev/articles/service-worker-lifecycle",
+    "https://developer.chrome.com/docs/ai/get-started",
+    "https://support.google.com/chrome_webstore/answer/1698338"
+  ]
+}

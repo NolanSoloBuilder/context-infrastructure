@@ -1,7 +1,7 @@
 # Design QA
 
-日期：2026-07-14  
-参考站：https://www.yencheng.dev/  
+日期：2026-07-15
+参考站：https://www.yencheng.dev/
 实现：http://127.0.0.1:4175/
 
 ## Source of truth
@@ -83,6 +83,30 @@
 - 本轮作品面板验证：项目卡片数量为 2，链接分别为 `https://metro.forgepane.com/` 与 `https://cited-alpha.forgepane.com/`；两个线上入口均返回 HTTP 200。
 - 本轮 Selected Work 验证：两个选项均可切换；选中 `Cited Alpha` 后详情标题与链接同步更新为对应产品。页面无 Vite error overlay。
 - 本轮移动端验证：CSS 视口 390 × 844，卡片数量为 2，`body.scrollWidth` 为 391（1px 为浏览器取整），没有可见横向溢出或遮挡。
+
+## 2026-07-15 desktop-window revision
+
+- 用户要求 Dock 应用始终在模拟桌面内部打开窗口，不能把整个作品集导航到独立页面。
+- 当前 Dock 只保留 Finder、Projects、GitHub、Toolbox；Instagram、旅行和咖啡等私人应用已从公开桌面移除。
+- Finder、Projects、GitHub 与 Toolbox 共用同一桌面窗口容器，支持关闭、最小化与最大化；关闭或最小化后可从 Dock 恢复。
+- Projects 改为左侧产品选择器与右侧图片画廊。`CHINA METRO TYPING` 使用真实线上首页截图；`Cited Alpha` 使用仓库已有的真实产品界面截图。所有运行时素材均本地化到 `public/assets/projects/`。
+- 旧的 Selected Work 与 What I’m Doing Now 独立页面已删除，横向叙事由五屏收敛为 Hello、Portfolio、End 三屏；旧 `#work` / `#now` hash 会回落到 Portfolio。
+- 响应式样式已同步迁移到新的项目画廊与四应用 Dock；旧项目卡片、命令面板、Now 页面和隐藏 Dock 项选择器已清理。
+- 静态验证：`npm run build` 通过；`git diff --check -- .` 通过；本地 Vite 服务运行在 `http://127.0.0.1:4175/`。
+- Codex 浏览器插件初始化失败，错误为 `Cannot redefine property: process`；在用户明确授权后，改用 standalone Playwright 完成桌面与移动端复验。
+- 用户随后提供三张指定项目截图：地铁实玩图映射到 CHINA METRO TYPING；金融研究首页和带来源引用的投资报告映射到 Cited Alpha。图片已按作品窗口尺寸压缩为 WebP。Cited Alpha 双图最初等宽并排时单图宽度不足，现改为上下纵向排列并使用完整窗口宽度，内容随窗口滚动。
+- 结束页返回按钮经注释指出方向和样式不一致。参考站源码最后一屏使用 Lucide `Undo2`，桌面 30px、移动 24px、描边 2.25，且没有圆形边框；实现已按该组件与尺寸替换原文本字符 `↶`，按钮间距同步为源码的 16px。
+
+## 2026-07-15 Notes placeholder
+
+- 参考首页：`https://blog.yencheng.dev/`
+- 参考文章：`https://blog.yencheng.dev/blog/introducing-subflow`
+- 源站桌面与移动截图：`tmp/notes-reference/home-desktop.png`、`home-mobile.png`、`article-desktop.png`、`article-mobile.png`
+- 本地桌面与移动截图：`tmp/notes-local/index-desktop.png`、`index-mobile.png`、`article-desktop.png`、`article-mobile.png`
+- 同视口对照：`tmp/notes-local/comparison-index-desktop.png`、`comparison-index-mobile.png`、`comparison-article-desktop.png`
+- 设计判断：保留参考站的窄栏白底、顶部双导航、日期加标题列表和同宽文章详情；替换参考作者头像、身份、文章和素材，使用 Notes 图标与明确的 `Coming soon` 占位内容。
+- 桌面 1440 × 1000、移动 390 × 844 均无水平溢出；列表到文章、文章返回列表、Portfolio 返回、Continue 到结束页均可操作。
+- 全站 smoke 覆盖 GitHub、LinkedIn、X、Notes 入口，四个 Dock 应用窗口，Cited Alpha 双图纵排，以及结束页返回首屏；两种视口浏览器错误均为 0。
 
 ## Final result
 

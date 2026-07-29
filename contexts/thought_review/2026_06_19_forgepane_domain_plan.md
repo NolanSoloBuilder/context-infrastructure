@@ -191,3 +191,36 @@ Current interpretation: the ForgePane MCP servers, Apps SDK metadata, Codex Apps
   - `https://cited-alpha.forgepane.com/` returned `200`.
   - `https://cited-alpha-web.pages.dev/` returned `200`.
   - `https://cited-alpha.forgepane.com/.well-known/security.txt` returned `Contact: mailto:CitedAlpha@163.com`.
+
+## 2026-07-15 Nalon Personal Site Upgrade
+
+个人主页的公开品牌统一为 `Nalon`，长期地址改为 `nalon.forgepane.com`；旧的 `xuhao.forgepane.com` Worker 路由退出生产配置。新版内容来自 `adhoc_jobs/xuhao_personal_site/` 中的完整 Vite 作品集。
+
+- 仍由现有 `forgepane-site` Worker 承载，不新增重复的 Pages 项目；`nalon.forgepane.com` 使用 Workers Custom Domain 自动建立域名与证书。
+- Worker 使用静态资产 binding 读取 `../xuhao_personal_site/dist`，且通过 `run_worker_first` 先按 hostname 分流。
+- `nalon.forgepane.com` 委托给新版静态站；`forgepane.com` 品牌页与 `www.forgepane.com` 重定向继续由原 Worker 逻辑处理。
+- 旧的内联个人主页实现已删除，避免同一域名存在两份内容源。
+- 站内姓名、Notes 标题、HTML 标题、meta description、头像缩写和版权署名统一为 `Nalon`。
+- 发布前必须先构建个人站，再执行 `forgepane_site` 的 Wrangler dry-run 与部署；发布后同时验收个人域名、根域名和 `www` 重定向。
+
+Production verification on 2026-07-15:
+
+- Final Worker deployment `2068b81c-cfbb-4a3d-85ef-eb2581f44cc5` is active at 100%, version `e51d389f-7122-41c6-ad5e-ef066fbc7116`.
+- Wrangler triggers contain `forgepane.com/*`, `www.forgepane.com/*`, and the `nalon.forgepane.com` custom domain; the former `xuhao.forgepane.com/*` Worker route is absent.
+- Cloudflare public DNS resolvers return the Cloudflare edge addresses for `nalon.forgepane.com`.
+- `https://nalon.forgepane.com/` returns `200`, page title `Nalon`, and its hashed JavaScript asset returns `200` as `text/javascript`.
+- The deployment ignore manifest excludes the removed Instagram, travel, coffee, unused Xiaohongshu PNG, reference article image, and unused project captures. A direct request to the former coffee image path returns the SPA HTML shell rather than the image asset.
+- `https://forgepane.com/` remains `200` with title `ForgePane`; `https://www.forgepane.com/` remains a `301` redirect to the apex domain.
+
+## 2026-07-15 ForgePane Root Directory
+
+`forgepane.com` 从抽象的个人实验室介绍页调整为公开子域名总导览；`nalon.forgepane.com` 的个人站视觉与交互保持不变。
+
+- Personal 区域链接 Nalon 个人页、Notes 和 Portfolio。
+- Products 区域只展示已确认公开的 CHINA METRO TYPING 与 Cited Alpha，并复用各自的真实产品截图。
+- 根域不展示 DevSpace、API、验证 Worker 或其他私人/基础设施入口。
+- 根域仅允许四个显式静态资产路径进入共享 `ASSETS` binding，其他未知路径返回 `404`；个人域继续完整委托给同一个静态资产 binding。
+- 视觉目标来自用户选中的 ForgePane 纵向导览图；Codex 内置浏览器初始化报错 `Cannot redefine property: process`，因此浏览器截图对比需在运行时修复后补验，具体记录见 `adhoc_jobs/forgepane_site/design-qa.md`。
+- Production deployment `238f8d1a-2354-4132-a2d4-ea3409cb3980` is active at version `adc6a7cf-94c8-43a9-88ca-6c2ca4dd9713`.
+- Live HTTP verification: root `200` with title `ForgePane` and the new directory copy; personal domain `200` with title `Nalon`; arrow SVG, Nunito font, and both product screenshots return `200` with correct MIME types; removed Instagram and unknown paths return `404`; `www` remains a `301` redirect to the apex.
+- Root favicon added as `/assets/forgepane-favicon.svg`, a three-pane ForgePane mark. Deployment `a56f87f4-2c8a-4597-b36a-ae1dd8477690`, version `d635ac6c-9bae-4a60-8735-8bf4e2b08092`; live HTML contains the SVG favicon link and the asset returns `200 image/svg+xml`.

@@ -1,13 +1,16 @@
 export const profile = {
-  name: "徐昊",
-  englishName: "Xu Hao",
-  publicName: "Nolan · Builder",
+  name: "Nalon",
+  englishName: "Nalon",
+  publicName: "Nalon · Builder",
   location: "Beijing, China",
   role: "Engineer · Product Builder",
   headline: "Terminal Dev · Vibe Full-stack · Solo Founder",
   bio: "I build useful products at the intersection of engineering, product, and design. My current work centers on AI agents, full-stack systems, and the context infrastructure that helps people and models collaborate over time.",
   github: "https://github.com/NolanSoloBuilder",
   githubLabel: "NolanSoloBuilder",
+  linkedin: "https://www.linkedin.com/in/web-xuhao/",
+  x: "https://x.com/NolanBuilder01",
+  xiaohongshu: "https://www.xiaohongshu.com/user/profile/676aae57000000001801c80d",
 };
 
 export const focusAreas = [
@@ -25,7 +28,21 @@ export const focusAreas = [
   },
 ];
 
-// Only publish projects that Xu Hao has explicitly approved for this site.
+export const notes = [
+  {
+    slug: "first-note",
+    date: "Coming soon",
+    title: "The first note is taking shape",
+    excerpt: "A reserved space for product decisions, engineering lessons, and the systems behind the work.",
+    paragraphs: [
+      "This is a deliberate placeholder for the first public note.",
+      "Future writing will live here: product judgments, engineering lessons, build logs, and the reasoning behind finished systems.",
+      "The structure is ready. The actual note will replace this placeholder when it is worth publishing.",
+    ],
+  },
+];
+
+// Only publish projects that the site owner has explicitly approved for this site.
 export const projects = [
   {
     title: "CHINA METRO TYPING",
@@ -33,6 +50,9 @@ export const projects = [
     description: "A typing game across real metro lines in 41 Chinese cities, supporting Simplified Chinese and tone-free Pinyin.",
     status: "Live",
     url: "https://metro.forgepane.com/",
+    mark: "/assets/projects/china-metro-typing-mark.webp",
+    images: ["/assets/projects/china-metro-typing-route.webp"],
+    highlights: ["41 cities", "Real metro lines", "Chinese + Pinyin"],
   },
   {
     title: "Cited Alpha",
@@ -40,23 +60,11 @@ export const projects = [
     description: "A source-backed AI workspace for financial research that keeps questions, evidence, agent work, and cited outputs together.",
     status: "Live",
     url: "https://cited-alpha.forgepane.com/",
-  },
-];
-
-export const nowItems = [
-  {
-    label: "Building",
-    title: "Durable agent workflows",
-    text: "Making long-running agent work observable, resumable, and grounded in real evidence.",
-  },
-  {
-    label: "Exploring",
-    title: "Context as infrastructure",
-    text: "How memory, sources, preferences, and execution history become a reliable product layer.",
-  },
-  {
-    label: "Practicing",
-    title: "Product-quality engineering",
-    text: "Treating design details, system contracts, and live verification as the same delivery problem.",
+    mark: "/assets/projects/cited-alpha-mark.webp",
+    images: [
+      "/assets/projects/cited-alpha-landing.webp",
+      "/assets/projects/cited-alpha-cited-report.webp",
+    ],
+    highlights: ["Source-backed", "Agent research", "Cited outputs"],
   },
 ];

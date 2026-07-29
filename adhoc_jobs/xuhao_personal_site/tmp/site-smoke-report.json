@@ -1,0 +1,98 @@
+[
+  {
+    "viewport": {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    "errors": [],
+    "social": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/NolanSoloBuilder",
+        "tag": "A"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/web-xuhao/",
+        "tag": "A"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/NolanBuilder01",
+        "tag": "A"
+      },
+      {
+        "label": "Notes",
+        "href": null,
+        "tag": "BUTTON"
+      }
+    ],
+    "notesHash": "#notes",
+    "portfolioHash": "#portfolio",
+    "windows": [
+      "finder",
+      "projects",
+      "github",
+      "toolbox"
+    ],
+    "citedLayout": {
+      "display": "flex",
+      "direction": "column",
+      "images": 2
+    },
+    "restartHash": "#hello",
+    "dimensions": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    }
+  },
+  {
+    "viewport": {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    "errors": [],
+    "social": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/NolanSoloBuilder",
+        "tag": "A"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/web-xuhao/",
+        "tag": "A"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/NolanBuilder01",
+        "tag": "A"
+      },
+      {
+        "label": "Notes",
+        "href": null,
+        "tag": "BUTTON"
+      }
+    ],
+    "notesHash": "#notes",
+    "portfolioHash": "#portfolio",
+    "windows": [
+      "finder",
+      "projects",
+      "github",
+      "toolbox"
+    ],
+    "citedLayout": {
+      "display": "flex",
+      "direction": "column",
+      "images": 2
+    },
+    "restartHash": "#hello",
+    "dimensions": {
+      "scrollWidth": 390,
+      "clientWidth": 390
+    }
+  }
+]

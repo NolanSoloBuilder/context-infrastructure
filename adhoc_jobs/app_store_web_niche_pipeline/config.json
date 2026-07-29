@@ -1,0 +1,22 @@
+{
+  "country": "us",
+  "limit": 100,
+  "concurrency": 4,
+  "charts": [
+    { "id": "free", "feed": "topfreeapplications" },
+    { "id": "paid", "feed": "toppaidapplications" },
+    { "id": "grossing", "feed": "topgrossingapplications" }
+  ],
+  "categories": [
+    { "id": "overall", "genreId": null, "name": "Overall" },
+    { "id": "business", "genreId": 6000, "name": "Business" },
+    { "id": "utilities", "genreId": 6002, "name": "Utilities" },
+    { "id": "reference", "genreId": 6006, "name": "Reference" },
+    { "id": "productivity", "genreId": 6007, "name": "Productivity" },
+    { "id": "photo_video", "genreId": 6008, "name": "Photo & Video" },
+    { "id": "music", "genreId": 6011, "name": "Music" },
+    { "id": "health_fitness", "genreId": 6013, "name": "Health & Fitness" },
+    { "id": "education", "genreId": 6017, "name": "Education" },
+    { "id": "graphics_design", "genreId": 6027, "name": "Graphics & Design" }
+  ]
+}

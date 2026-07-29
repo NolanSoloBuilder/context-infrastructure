@@ -40,3 +40,6 @@
 - `china-metro-typing` → `adhoc_jobs/tw_metro_typing_china/`（基于 tw-metro-typing fork 的中国 41 城地铁站名打字游戏）
 - `context-vault` / `AI Tool Environment Sync` → `/Users/xuhao/Documents/Basic/context-vault/`（独立 GitHub 仓库；不要放入当前 workspace 的 `adhoc_jobs/`）
 - `xuhao-personal-site` → `adhoc_jobs/xuhao_personal_site/`（徐昊个人网站原型；全屏横向叙事、作品集与近况）
+- `xhs-shared-agent-post` → `adhoc_jobs/xhs_shared_agent_post/`（Shared Agent Workspace 小红书正文、视觉规格与成图）
+- 多问卷集合站 / `quiz-hub` → `/Users/xuhao/Documents/Other/quiz-hub/`（GitHub 私有仓库 `NolanSoloBuilder/quiz-hub`；线上 `quiz.forgepane.com`；问卷、网页、内容、封面与结果卡的正式真源）
+- `love-user-manual` 原始实现快照 → `adhoc_jobs/love_user_manual/`（已迁移到 `quiz-hub`，不再作为部署真源）

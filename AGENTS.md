@@ -56,6 +56,8 @@ Don't ask permission. Just do it.
 - 准备调用 `run_in_background=True` 前，先把这个 skill 读一遍再执行  
 - 派出 agent 后等系统通知即可，不需要轮询
 
+**主动委派权限**：主 Agent 可以根据任务的依赖拓扑主动派出 subagent，无需等待用户额外点名或授权。是否委派由 `workflow_parallel_subagents.md` 的任务可拆分性、子任务规模和实际收益判断；不为了形式制造并行，也不把“用户未明确要求 subagent”作为禁止条件。
+
 ### 外部 Skill 登记与更新
 
 在本项目安装任何 GitHub、Skills CLI 或其他外部来源的 Skill 后，必须同时更新 `rules/skills/external_skills_registry.json`，再执行：

@@ -1,48 +1,41 @@
 import { useEffect, useRef, useState } from "react";
-import { ArrowUp, CircleArrowRight } from "lucide-react";
+import { ArrowUp, CircleArrowRight, Undo2 } from "lucide-react";
 import {
   ArrowCircleLeft,
   ArrowCircleRight,
   ArrowSquareOut,
-  Brain,
-  Briefcase,
-  Command,
   Cpu,
-  EnvelopeSimple,
   GithubLogo,
-  GlobeHemisphereEast,
   LinkedinLogo,
   MapPin,
   NotePencil,
   Sparkle,
-  Stack,
-  TerminalWindow,
-  Wrench,
   XLogo,
 } from "@phosphor-icons/react";
-import { focusAreas, nowItems, profile, projects } from "./content.js";
+import { focusAreas, notes, profile, projects } from "./content.js";
 
-const screens = ["hello", "portfolio", "work", "now", "end"];
-
-const iconMap = {
-  "Cited Alpha": Brain,
-  "CHINA METRO TYPING": GlobeHemisphereEast,
-  "Mindspace Workspace": Stack,
-  "AI Tool Environment Sync": TerminalWindow,
-  "Automation Lab": Wrench,
-};
+const screens = ["hello", "portfolio", "notes", "end"];
 
 function getScreenFromHash() {
-  const index = screens.indexOf(window.location.hash.replace("#", ""));
+  const hash = window.location.hash.replace("#", "");
+  const index = screens.indexOf(["work", "now"].includes(hash) ? "portfolio" : hash);
   return index < 0 ? 0 : index;
 }
 
-function SocialLink({ label, href, children, disabled = false }) {
+function SocialLink({ label, href, children, disabled = false, onClick }) {
   if (disabled) {
     return (
       <span className="social-button is-disabled" aria-label={`${label}，待补充`} title={`${label} · 待补充`}>
         {children}
       </span>
+    );
+  }
+
+  if (onClick) {
+    return (
+      <button className="social-button" aria-label={label} type="button" onClick={onClick}>
+        {children}
+      </button>
     );
   }
 
@@ -53,16 +46,17 @@ function SocialLink({ label, href, children, disabled = false }) {
   );
 }
 
-function Intro({ onEnter }) {
+function Intro({ onEnter, onNotes }) {
   return (
     <section className="screen intro-screen" aria-labelledby="intro-name">
       <header className="intro-header">
-        <h1 id="intro-name" className="name-chip">{profile.name} · {profile.englishName}</h1>
+        <h1 id="intro-name" className="name-chip">{profile.name}</h1>
         <nav className="social-links" aria-label="Social links">
           <SocialLink label="GitHub" href={profile.github}><GithubLogo weight="fill" /></SocialLink>
-          <SocialLink label="LinkedIn" disabled><LinkedinLogo weight="fill" /></SocialLink>
-          <SocialLink label="X" disabled><XLogo weight="fill" /></SocialLink>
-          <SocialLink label="Notes" disabled><NotePencil weight="fill" /></SocialLink>
+          <SocialLink label="LinkedIn" href={profile.linkedin}><LinkedinLogo weight="fill" /></SocialLink>
+          <SocialLink label="X" href={profile.x}><XLogo weight="fill" /></SocialLink>
+          <SocialLink label="小红书" href={profile.xiaohongshu}><img src="/assets/xiaohongshu.svg" alt="" /></SocialLink>
+          <SocialLink label="Notes" onClick={onNotes}><NotePencil weight="fill" /></SocialLink>
         </nav>
       </header>
 
@@ -102,7 +96,7 @@ function PageHeader({ title, onBack, onNext }) {
 function ProfilePanel() {
   return (
     <div className="profile-panel">
-      <div className="avatar-monogram" aria-label="Xu Hao monogram">XH</div>
+      <div className="avatar-monogram" aria-label="Nalon monogram">N</div>
       <div className="profile-copy">
         <p className="eyebrow">{profile.publicName}</p>
         <h3>Hi, I&apos;m {profile.englishName}</h3>
@@ -128,20 +122,52 @@ function ProfilePanel() {
   );
 }
 
-function MiniProjects() {
+function ProjectGallery() {
+  const [selected, setSelected] = useState(0);
+  const project = projects[selected];
+
   return (
-    <div className={`mini-projects${projects.length === 0 ? " is-empty" : ""}`}>
-      <p className="eyebrow">Selected projects</p>
-      {projects.slice(0, 3).map((project) => (
-        <article key={project.title}>
-          <strong>{project.title}</strong>
-          <span>{project.tag}</span>
+    <div className="project-gallery">
+      <aside className="project-sidebar" aria-label="Selected projects">
+        <p className="eyebrow">Selected projects</p>
+        <div className="project-picker" role="listbox" aria-label="Choose a project">
+          {projects.map((item, index) => (
+            <button
+              type="button"
+              role="option"
+              aria-selected={selected === index}
+              className={selected === index ? "is-selected" : ""}
+              key={item.title}
+              onClick={() => setSelected(index)}
+            >
+              <img src={item.mark} alt="" />
+              <span><strong>{item.title}</strong><small>{item.tag}</small></span>
+            </button>
+          ))}
+        </div>
+      </aside>
+
+      <article className={`project-showcase gallery-layout-${project.images.length}`} aria-live="polite">
+        <div className={`project-media${project.images.length > 1 ? ` has-gallery gallery-count-${project.images.length}` : ""}`}>
+          <img className="project-hero" src={project.images[0]} alt={`${project.title} product preview`} />
+          {project.images.slice(1).map((image, index) => (
+            <img className="project-supporting-image" src={image} alt={`${project.title} feature preview ${index + 2}`} key={image} />
+          ))}
+        </div>
+        <div className="project-showcase-copy">
+          <div className="project-heading-row">
+            <div><span>{project.tag}</span><h3>{project.title}</h3></div>
+            <span className="live-status">{project.status}</span>
+          </div>
           <p>{project.description}</p>
-          <a className="mini-project-link" href={project.url} target="_blank" rel="noreferrer" aria-label={`View ${project.title} live`}>
-            View live <ArrowSquareOut weight="bold" />
+          <div className="project-highlights" aria-label={`${project.title} highlights`}>
+            {project.highlights.map((highlight) => <span key={highlight}>{highlight}</span>)}
+          </div>
+          <a href={project.url} target="_blank" rel="noreferrer" aria-label={`Open ${project.title} live`}>
+            Open live project <ArrowSquareOut weight="bold" />
           </a>
-        </article>
-      ))}
+        </div>
+      </article>
     </div>
   );
 }
@@ -160,116 +186,124 @@ function Toolbox() {
   );
 }
 
+function GitHubPanel() {
+  return (
+    <div className="github-panel">
+      <GithubLogo weight="fill" aria-hidden="true" />
+      <p className="eyebrow">Open source profile</p>
+      <h3>{profile.githubLabel}</h3>
+      <p>Public repositories, experiments, and the code behind the products I choose to share.</p>
+      <a href={profile.github} target="_blank" rel="noreferrer">
+        Visit GitHub <ArrowSquareOut weight="bold" />
+      </a>
+    </div>
+  );
+}
+
+function WindowBar({ title, onClose, onMinimize, onToggleMaximize, isMaximized }) {
+  return (
+    <div className="window-bar">
+      <div className="traffic-lights">
+        <button className="close-window" type="button" onClick={onClose} aria-label="Close window" />
+        <button className="minimize-window" type="button" onClick={onMinimize} aria-label="Minimize window" />
+        <button className="maximize-window" type="button" onClick={onToggleMaximize} aria-label={isMaximized ? "Restore window" : "Maximize window"} />
+      </div>
+      <span className="window-title">{title}</span>
+      <span />
+    </div>
+  );
+}
+
 function Portfolio({ onBack, onNext }) {
-  const [panel, setPanel] = useState("profile");
-  const panels = { profile: <ProfilePanel />, projects: <MiniProjects />, toolbox: <Toolbox /> };
+  const [activeApp, setActiveApp] = useState("finder");
+  const [isMaximized, setIsMaximized] = useState(false);
+  const apps = {
+    finder: { title: "finder", content: <ProfilePanel /> },
+    projects: { title: "projects", content: <ProjectGallery /> },
+    github: { title: "github", content: <GitHubPanel /> },
+    toolbox: { title: "toolbox", content: <Toolbox /> },
+  };
+  const openApp = (app) => {
+    setActiveApp(app);
+    setIsMaximized(false);
+  };
 
   return (
     <section className="screen page-screen portfolio-screen" aria-labelledby="portfolio-title">
       <PageHeader title="My Portfolio" onBack={onBack} onNext={onNext} />
       <div className="desktop-stage">
-        <div className="browser-window">
-          <div className="window-bar">
-            <div className="traffic-lights" aria-hidden="true"><i /><i /><i /></div>
-            <span className="window-title">finder</span>
-            <span />
+        {activeApp && (
+          <div className={`browser-window desktop-window${isMaximized ? " is-maximized" : ""}`}>
+            <WindowBar
+              title={apps[activeApp].title}
+              onClose={() => setActiveApp(null)}
+              onMinimize={() => setActiveApp(null)}
+              onToggleMaximize={() => setIsMaximized((value) => !value)}
+              isMaximized={isMaximized}
+            />
+            <div className="window-content">{apps[activeApp].content}</div>
           </div>
-          <div className="window-content" aria-live="polite">{panels[panel]}</div>
-        </div>
+        )}
 
         <nav className="dock" aria-label="Portfolio shortcuts">
-          <button type="button" onClick={() => setPanel("profile")} aria-label="About Xu Hao"><img src="/assets/finder.png" alt="" /></button>
-          <button type="button" onClick={() => setPanel("projects")} aria-label="Selected projects"><img src="/assets/photo.png" alt="" /></button>
-          <button type="button" onClick={() => setPanel("toolbox")} aria-label="Working style"><img src="/assets/instagram.webp" alt="" /></button>
-          <a href={profile.github} target="_blank" rel="noreferrer" aria-label="Open GitHub"><img src="/assets/github.webp" alt="" /></a>
-          <button type="button" onClick={() => setPanel("toolbox")} aria-label="Toolbox"><img src="/assets/raycast.png" alt="" /></button>
-          <button type="button" onClick={onNext} aria-label="Selected work"><img src="/assets/flightcn.png" alt="" /></button>
-          <button type="button" onClick={() => setPanel("projects")} aria-label="Context infrastructure"><img src="/assets/subflow.png" alt="" /></button>
-          <button type="button" onClick={onNext} aria-label="What I am doing now"><img src="/assets/coffee-diary.webp" alt="" /></button>
+          <button type="button" onClick={() => openApp("finder")} aria-label="Open Finder" aria-pressed={activeApp === "finder"}><img src="/assets/finder.png" alt="" /></button>
+          <button type="button" onClick={() => openApp("projects")} aria-label="Open Projects" aria-pressed={activeApp === "projects"}><img src="/assets/photo.png" alt="" /></button>
+          <button type="button" onClick={() => openApp("github")} aria-label="Open GitHub window" aria-pressed={activeApp === "github"}><img src="/assets/github.webp" alt="" /></button>
+          <button type="button" onClick={() => openApp("toolbox")} aria-label="Open Toolbox" aria-pressed={activeApp === "toolbox"}><img src="/assets/raycast.png" alt="" /></button>
         </nav>
       </div>
     </section>
   );
 }
 
-function Work({ onBack, onNext }) {
-  const [selected, setSelected] = useState(0);
-  const selectedProject = projects[selected] ?? null;
+function Notes({ onPortfolio, onNext }) {
+  const [selectedSlug, setSelectedSlug] = useState(null);
+  const selectedNote = notes.find((note) => note.slug === selectedSlug);
+
   return (
-    <section className="screen page-screen work-screen" aria-labelledby="work-title">
-      <PageHeader title="Selected Work" onBack={onBack} onNext={onNext} />
-      <div className="command-window">
-        <div className="command-topbar">
-          <span>{profile.name}&apos;s Projects...</span>
-          <a href={profile.github} target="_blank" rel="noreferrer">To GitHub <kbd>↗</kbd></a>
-        </div>
-        <p className="command-section-label">Projects</p>
-        <div className="command-list" role="listbox" aria-label="Selected projects">
-          {projects.map((project, index) => {
-            const Icon = iconMap[project.title] || Briefcase;
-            return (
-              <button
-                type="button"
-                role="option"
-                aria-selected={selected === index}
-                className={selected === index ? "is-selected" : ""}
-                key={project.title}
-                onClick={() => setSelected(index)}
-              >
-                <span className="project-icon"><Icon weight="duotone" /></span>
-                <strong>{project.title}</strong>
-                <span>{project.description}</span>
-                <em>{project.status}</em>
-              </button>
-            );
-          })}
-        </div>
-        {selectedProject && (
-          <div className="command-detail">
-            <div className="command-detail-meta"><span>{selectedProject.tag}</span><strong>{selectedProject.title}</strong></div>
-            <div className="command-detail-copy">
-              <p>{selectedProject.description}</p>
-              <a className="project-live-link" href={selectedProject.url} target="_blank" rel="noreferrer" aria-label={`Open ${selectedProject.title} live project`}>
-                Open live project <ArrowSquareOut weight="bold" />
-              </a>
+    <section className="screen notes-screen" aria-labelledby="notes-title">
+      <div className="notes-page">
+        <nav className="notes-nav" aria-label="Notes navigation">
+          <button type="button" onClick={() => setSelectedSlug(null)}>Notes</button>
+          <button type="button" onClick={onPortfolio}>Portfolio</button>
+        </nav>
+
+        {selectedNote ? (
+          <article className="note-article">
+            <button className="notes-back" type="button" onClick={() => setSelectedSlug(null)}>
+              <ArrowCircleLeft weight="bold" /> All Notes
+            </button>
+            <p className="note-date">{selectedNote.date}</p>
+            <h2 id="notes-title">{selectedNote.title}</h2>
+            {selectedNote.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            <aside>This placeholder will be replaced when the first note is ready to publish.</aside>
+          </article>
+        ) : (
+          <div className="notes-index">
+            <header>
+              <NotePencil weight="fill" aria-hidden="true" />
+              <h2 id="notes-title">Nalon&apos;s Notes</h2>
+            </header>
+            <p className="notes-intro">Product decisions, engineering lessons, build logs, and the reasoning behind useful systems.</p>
+
+            <div className="notes-list">
+              {notes.map((note) => (
+                <button type="button" key={note.slug} onClick={() => setSelectedSlug(note.slug)}>
+                  <span>{note.date}</span>
+                  <strong>{note.title}</strong>
+                  <small>{note.excerpt}</small>
+                </button>
+              ))}
             </div>
+
+            <footer className="notes-footer">
+              <a href={profile.github} target="_blank" rel="noreferrer">GitHub <ArrowSquareOut weight="bold" /></a>
+              <a href={profile.x} target="_blank" rel="noreferrer">X <ArrowSquareOut weight="bold" /></a>
+              <a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn <ArrowSquareOut weight="bold" /></a>
+              <button type="button" onClick={onNext}>Continue</button>
+            </footer>
           </div>
         )}
-        {selectedProject && <div className="command-footer"><img src="/assets/raycast-mark.svg" alt="" /><span>Select a project to explore</span></div>}
-      </div>
-    </section>
-  );
-}
-
-function Now({ onBack, onNext }) {
-  return (
-    <section className="screen page-screen now-screen" aria-labelledby="now-title">
-      <PageHeader title="What I’m Doing Now" onBack={onBack} onNext={onNext} />
-      <div className="now-layout">
-        <article className="now-overview">
-          <span className="eyebrow">Long-term builder</span>
-          <h3>Useful products, durable systems, real evidence.</h3>
-          <p>My work tends to start where product intent, technical architecture, and day-to-day execution stop agreeing with each other.</p>
-          <div className="principle-row">
-            <span><Command weight="bold" /> Build</span>
-            <span><GlobeHemisphereEast weight="bold" /> Verify</span>
-            <span><NotePencil weight="bold" /> Document</span>
-          </div>
-        </article>
-        <div className="now-cards">
-          {nowItems.map((item, index) => (
-            <article key={item.label}>
-              <span>0{index + 1} · {item.label}</span>
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-            </article>
-          ))}
-        </div>
-        <aside className="contact-card">
-          <div><span className="eyebrow">Find me</span><h3>{profile.githubLabel}</h3></div>
-          <a href={profile.github} target="_blank" rel="noreferrer">GitHub <ArrowSquareOut weight="bold" /></a>
-          <span className="contact-pending"><EnvelopeSimple weight="bold" /> Email · 待补充</span>
-        </aside>
       </div>
     </section>
   );
@@ -279,9 +313,11 @@ function End({ onRestart }) {
   return (
     <section className="screen end-screen" aria-labelledby="end-title">
       <div>
-        <h2 id="end-title">© 2026 {profile.name} · {profile.englishName}</h2>
+        <h2 id="end-title">© 2026 {profile.name}</h2>
         <p>Build useful things. Keep the system honest.</p>
-        <button type="button" onClick={onRestart} aria-label="Back to start">↶</button>
+        <button type="button" onClick={onRestart} aria-label="Back to start">
+          <Undo2 strokeWidth={2.25} aria-hidden="true" />
+        </button>
       </div>
     </section>
   );
@@ -317,11 +353,10 @@ export function App() {
         if (Math.abs(distance) >= 70) goTo(distance < 0 ? active + 1 : active - 1);
       }}
     >
-      <div className="screen-track" style={{ transform: `translate3d(-${active * 20}%, 0, 0)` }}>
-        <Intro onEnter={() => goTo(1)} />
+      <div className="screen-track" style={{ "--screen-count": screens.length, transform: `translate3d(-${active * (100 / screens.length)}%, 0, 0)` }}>
+        <Intro onEnter={() => goTo(1)} onNotes={() => goTo(2)} />
         <Portfolio onBack={() => goTo(0)} onNext={() => goTo(2)} />
-        <Work onBack={() => goTo(1)} onNext={() => goTo(3)} />
-        <Now onBack={() => goTo(2)} onNext={() => goTo(4)} />
+        <Notes onPortfolio={() => goTo(1)} onNext={() => goTo(3)} />
         <End onRestart={() => goTo(0)} />
       </div>
     </main>

@@ -1,0 +1,24 @@
+{
+  "name": "love-user-manual",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test",
+    "assets": "node scripts/render-assets.mjs",
+    "content": "node scripts/export-content.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "html-to-image": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "playwright": "latest"
+  }
+}

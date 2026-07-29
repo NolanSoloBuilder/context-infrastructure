@@ -1,6 +1,6 @@
 # Codex Desktop 误报 GitHub CLI 未安装诊断
 
-日期：2026-07-13
+日期：2026-07-13（2026-07-15 补充持久化修复）
 
 ## 现象
 
@@ -35,4 +35,10 @@ Codex Desktop 页面提示 `GitHub CLI (gh) is not installed`，但任务终端�
 
 优先把 `~/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin` 注入当前用户的 GUI launchd 环境，然后完整退出并重新打开 Codex Desktop。这样可以同时覆盖本地独立安装和 Homebrew 安装。
 
-这项修改会影响之后启动的所有 GUI 应用。先做一次当前登录会话内的临时验证；确认 Codex 检测恢复后，再决定是否用 LaunchAgent 持久化。单纯重装 `gh` 或继续修改 zsh 启动文件无法解决这条检测路径。
+这项修改会影响之后启动的所有 GUI 应用。单纯重装 `gh` 或继续修改 zsh 启动文件无法解决这条检测路径。
+
+## 2026-07-15 复发与持久化修复
+
+复发时再次确认：shell 中 `gh 2.92.0` 正常，Codex GUI 进程仍只有 `/usr/bin:/bin:/usr/sbin:/sbin`，同时 `launchctl getenv PATH` 为空。说明 7 月 13 日执行的 `launchctl setenv PATH ...` 只修复了当次登录会话，重新登录或重启后不会保留。
+
+已新增用户级 LaunchAgent：`~/Library/LaunchAgents/com.xuhao.gui-path.plist`。它在每次图形登录时执行一次 `launchctl setenv PATH ...`，持久补齐 `~/.local/bin`、Homebrew 和系统 CLI 目录；无需管理员权限，也不修改 Codex App 包。安装后通过 `launchctl bootstrap gui/$(id -u) ...` 立即加载，之后仍需完整退出并重开 Codex，让新进程继承修复后的环境。
