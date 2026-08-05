@@ -50,6 +50,7 @@
 
 特定任务的完整工作流程。
 
+- [Build in Public 内容工作流](../../.agents/skills/build-in-public/SKILL.md) ✅ — 将开发进度、产品判断、失败记录和阶段成果整理为同一事实真源，并分别生成小红书与 X 的平台原生草稿；默认不执行公开发布。
 - [并行 Subagent 工作流](./workflow_parallel_subagents.md) ✅ — 调用后台 agent、并行执行多个 subagent
   - **必读**：初次使用并行 subagent 前，必须先读此 skill
   - **禁止轮询**：agent 运行期间不要反复调用 `background_output`，系统会自动通知

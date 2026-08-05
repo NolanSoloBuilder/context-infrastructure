@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build in Public"
+  short_description: "把开发进度与产品想法改写成小红书和 X 平台原生帖子"
+  default_prompt: "Use $build-in-public to turn my recent development progress and ideas into platform-native Xiaohongshu and X drafts."

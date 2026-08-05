@@ -38,6 +38,7 @@
 - `chrome-bookmark-cleanup` → `adhoc_jobs/chrome_bookmark_cleanup/`（Chrome 书签整理脚本、备份和整理预览）
 - `cited-alpha-lead-pipeline` → `adhoc_jobs/cited_alpha_lead_pipeline/`（公开联系人入口抓取、Hunter enrichment、验证与法域门禁）
 - `china-metro-typing` → `adhoc_jobs/tw_metro_typing_china/`（基于 tw-metro-typing fork 的中国 41 城地铁站名打字游戏）
+- `china-route-typing` / `打字游中国` → `adhoc_jobs/china_route_typing_prototype/`（独立的全国城市线路打字游戏交互原型；复用地铁项目技术资产，不复用地铁站点数据）
 - `context-vault` / `AI Tool Environment Sync` → `/Users/xuhao/Documents/Basic/context-vault/`（独立 GitHub 仓库；不要放入当前 workspace 的 `adhoc_jobs/`）
 - `xuhao-personal-site` → `adhoc_jobs/xuhao_personal_site/`（徐昊个人网站原型；全屏横向叙事、作品集与近况）
 - `xhs-shared-agent-post` → `adhoc_jobs/xhs_shared_agent_post/`（Shared Agent Workspace 小红书正文、视觉规格与成图）
