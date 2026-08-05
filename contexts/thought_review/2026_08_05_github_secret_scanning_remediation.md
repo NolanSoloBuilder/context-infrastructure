@@ -30,3 +30,14 @@ Chrome 清理工具的源码继续保留。私密运行数据迁移到 `~/Librar
 仓库历史清理不能替代吊销与轮换。对本人或团队拥有的 AWS、Google、Tencent 凭据，应在对应控制台按告警类型逐条核对 usage/audit log，并遵循“先创建替代凭据并迁移消费者，再禁用旧凭据，最后删除旧凭据”的顺序。第三方页面或预签名下载 URL 中的凭据无法由本仓库所有者轮换，应在 GitHub 中按证据标记为 revoked、used in tests 或 false positive，不能把 `unknown` 直接解释为安全。
 
 任何核对记录只保存 alert number、provider、owner、rotation time、验证结果和审计链接，不保存 secret、token、Cookie、完整 URL 或 credential fragment。
+
+## 执行结果
+
+`2026-08-05` 已完成 `main` 历史重写并强制推送。重写后的安全修复 commit 为 `cd04cd528fe3b35da1b6473d6e556e6619c80c64`；重写前后的最终 tree hash 一致，说明历史清理没有改变安全修复之外的当前树内容。远端 `main` 的 40 个 commit 均保留，以上六个目标路径在所有可达对象中的计数为 0。
+
+GitHub 16 条 alerts 已全部关闭：
+
+- Google OAuth alerts `4`、`14`：官方 `tokeninfo` 返回 HTTP 400，按 `revoked` 关闭。
+- 其余 14 条：命中来自公开 App ID、Access/Secret ID、Firebase auth handler 的公开 API key、临时签名 URL、第三方页面源码或无 AWS 上下文的 SQLite 残留；历史已清理，按 `false_positive` 关闭。
+
+Apple private key 没有进入这 16 条 GitHub alerts。仓库与历史清理已经完成，但仍需在 Apple Developer 控制台定位对应 Sign in with Apple key 并吊销；在控制台完成前，整个事件保持“仓库侧完成，provider 侧待完成”。
