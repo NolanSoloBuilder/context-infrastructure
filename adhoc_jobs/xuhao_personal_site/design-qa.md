@@ -6,7 +6,7 @@
 
 ## Source of truth
 
-- 完整源码快照：`../../tmp/yencheng_site_source/`（HTML、CSS、JavaScript chunks、字体与可见资产）
+- 完整源码快照：`~/Library/Application Support/context-infrastructure/reference_snapshots/yencheng_site_source/`（仅本机保存；HTML、CSS、JavaScript chunks、字体与可见资产）
 - 桌面首屏：`../../tmp/xuhao_personal_site_capture/source-desktop-full.png`
 - 桌面作品集：`../../tmp/xuhao_personal_site_capture/source-desktop-after-intro.png`
 - 移动首屏：`../../tmp/xuhao_personal_site_capture/source-mobile-hello.png`

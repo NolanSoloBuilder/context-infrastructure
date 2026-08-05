@@ -4,3 +4,15 @@ adhoc_jobs/tmp_*
 .agents/skills/**/.DS_Store
 .agents/skills/**/__pycache__/
 .agents/skills/**/*.pyc
+
+# Private Chrome data and generated bookmark artifacts.
+/adhoc_jobs/chrome_bookmark_cleanup/backups/
+/adhoc_jobs/chrome_bookmark_cleanup/history_snapshot/
+/adhoc_jobs/chrome_bookmark_cleanup/output/
+/adhoc_jobs/chrome_bookmark_cleanup/chrome_extension/plan.json
+
+# Third-party page snapshots may embed provider credentials.
+/tmp/yencheng_site_source/
+
+# Imported document contains a real Apple private key and stays in the private archive.
+/contexts/rimbo/imported/contexts/lark_mirror/研发部门/APPLE登录.md

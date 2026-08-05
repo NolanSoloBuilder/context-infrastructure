@@ -5,13 +5,15 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { backupsDir, outputDir } = require('./private_paths');
+
+process.umask(0o077);
 
 const chromeBookmarksPath = path.join(
   os.homedir(),
   'Library/Application Support/Google/Chrome/Default/Bookmarks',
 );
-const organizedPath = path.join(__dirname, 'output/Bookmarks.organized.json');
-const backupsDir = path.join(__dirname, 'backups');
+const organizedPath = path.join(outputDir, 'Bookmarks.organized.json');
 
 function checksumBookmarks(bookmarks) {
   const md5 = crypto.createHash('md5');

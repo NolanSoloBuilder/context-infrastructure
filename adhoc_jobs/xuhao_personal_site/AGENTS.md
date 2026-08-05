@@ -6,7 +6,7 @@ Before making substantial visual changes, use the Product Design plugin's `get-c
 
 When implementing from a selected generated mock, treat that image as the source of truth for layout, component anatomy, density, spacing, color, typography, visible content, and hierarchy.
 
-For future URL fidelity work, download the reference page's HTML, CSS, JavaScript chunks, fonts, and visible assets before editing. Read the compiled component markup and exact responsive tokens instead of inferring details from screenshots alone. Keep the source snapshot under the workspace `tmp/` directory and cite it in `design-qa.md`.
+For future URL fidelity work, download the reference page's HTML, CSS, JavaScript chunks, fonts, and visible assets before editing. Read the compiled component markup and exact responsive tokens instead of inferring details from screenshots alone. Keep source snapshots outside Git under `~/Library/Application Support/context-infrastructure/reference_snapshots/` because compiled pages can embed provider credentials, and cite the local snapshot location in `design-qa.md`.
 
 Do not infer or author Xu Hao's personal portfolio entries. If he has not supplied a project, keep the project collection empty and render the existing section structure without placeholder copy; he will add approved content later.
 

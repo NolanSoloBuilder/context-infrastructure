@@ -26,9 +26,15 @@ function api(method, ...args) {
 }
 
 async function loadPlan() {
-  const response = await fetch(chrome.runtime.getURL('plan.json'), { cache: 'no-store' });
-  if (!response.ok) throw new Error(`Failed to load plan.json: ${response.status}`);
-  return response.json();
+  const input = document.getElementById('plan-file');
+  const file = input?.files?.[0];
+  if (!file) throw new Error('Select bookmark_plan.json before running.');
+
+  const plan = JSON.parse(await file.text());
+  if (!Array.isArray(plan.folders) || !Array.isArray(plan.urls)) {
+    throw new Error('Invalid bookmark plan: folders and urls must be arrays.');
+  }
+  return plan;
 }
 
 async function getBookmarkBar() {
@@ -240,12 +246,14 @@ async function run() {
   console.info('Codex Bookmark Organizer result', result);
 }
 
-run().catch(async (error) => {
-  const result = {
-    failedAt: new Date().toISOString(),
-    error: error && error.stack ? error.stack : String(error),
-  };
-  await chrome.storage.local.set({ lastResult: result });
-  setStatus(result);
-  console.error('Codex Bookmark Organizer failed', error);
+document.getElementById('run')?.addEventListener('click', () => {
+  run().catch(async (error) => {
+    const result = {
+      failedAt: new Date().toISOString(),
+      error: error && error.stack ? error.stack : String(error),
+    };
+    await chrome.storage.local.set({ lastResult: result });
+    setStatus(result);
+    console.error('Codex Bookmark Organizer failed', error);
+  });
 });

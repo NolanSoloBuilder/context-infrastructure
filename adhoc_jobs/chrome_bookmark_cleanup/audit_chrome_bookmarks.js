@@ -4,13 +4,14 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { historySnapshotDir: snapshotDir, outputDir } = require('./private_paths');
+
+process.umask(0o077);
 
 const chromeProfileDir = path.join(os.homedir(), 'Library/Application Support/Google/Chrome/Default');
 const bookmarksPath = path.join(chromeProfileDir, 'Bookmarks');
 const historyPath = path.join(chromeProfileDir, 'History');
 const historyJournalPath = path.join(chromeProfileDir, 'History-journal');
-const snapshotDir = path.join(__dirname, 'history_snapshot');
-const outputDir = path.join(__dirname, 'output');
 const historySnapshotPath = path.join(snapshotDir, 'History.sqlite');
 
 const NOW = new Date('2026-06-20T00:00:00+08:00');

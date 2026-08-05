@@ -4,12 +4,14 @@ const crypto = require('crypto');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
+const { outputDir } = require('./private_paths');
+
+process.umask(0o077);
 
 const chromeBookmarksPath = path.join(
   os.homedir(),
   'Library/Application Support/Google/Chrome/Default/Bookmarks',
 );
-const outputDir = path.join(__dirname, 'output');
 const auditItemsPath = path.join(outputDir, 'audit_items.csv');
 
 const GROUPS = [
@@ -322,6 +324,31 @@ function countUrls(node) {
   return (node.children || []).reduce((sum, child) => sum + countUrls(child), 0);
 }
 
+function buildExtensionPlan(bookmarks) {
+  const folders = [];
+  const urls = [];
+
+  function visit(folder, parentPath) {
+    for (const child of folder.children || []) {
+      if (child.type === 'url') {
+        urls.push({
+          parentPath,
+          title: child.name,
+          url: child.url,
+        });
+        continue;
+      }
+
+      const childPath = [...parentPath, child.name];
+      folders.push({ path: childPath });
+      visit(child, childPath);
+    }
+  }
+
+  visit(bookmarks.roots.bookmark_bar, []);
+  return { folders, urls };
+}
+
 function reorganize(bookmarks) {
   const result = clone(bookmarks);
   const before = countStats(result);
@@ -470,6 +497,8 @@ function main() {
   const organized = reorganize(source);
   const outputPath = path.join(outputDir, 'Bookmarks.organized.json');
   fs.writeFileSync(outputPath, `${JSON.stringify(organized.bookmarks, null, 3)}\n`);
+  const planPath = path.join(outputDir, 'bookmark_plan.json');
+  fs.writeFileSync(planPath, `${JSON.stringify(buildExtensionPlan(organized.bookmarks), null, 2)}\n`);
 
   const verify = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
   const outputChecksum = checksumBookmarks(verify);
@@ -481,6 +510,7 @@ function main() {
   console.log(JSON.stringify({
     source: chromeBookmarksPath,
     output: outputPath,
+    plan: planPath,
     report: path.join(outputDir, 'report.md'),
     before: organized.before,
     after: organized.after,
