@@ -1,0 +1,1187 @@
+> 针对 RAGFlow 现有 GraphRAG 体系的深度调研与二次开发设计文档。
+
+> 目标：在保持文档结构完整性的前提下，为**法规法条（PDF/HTML）**、**合规文档（Markdown）** 建立专业化知识图谱（代号 LegalKG），并与已有 **LegalClaw 外部新闻图谱** 做好跨源关联。
+
+> 生成日期：2026-05-19
+
+---
+
+## 1. 摘要
+
+本文档基于对 RAGFlow rag/graphrag/ 全模块的代码级调研，系统梳理了现有知识图谱（KG）与 GraphRAG 能力的边界，并针对**法务合规领域**的特殊需求提出专业化扩展方案。
+
+**核心结论**：
+
+- RAGFlow 原生 GraphRAG 是**通用型**实现，面向“非结构化长文本”的实体-关系提取，对**层级化结构化文档**（法规编-章-节-条、合规文档标题层级、新闻时序关联）支持不足。
+
+- 现有实现将图以 JSON 形式平铺存入 ES/Infinity，缺乏对**细粒度节点类型**（如 Law/Chapter/Article/Term）和**结构化关系类型**（如 CONTAINS/REFERENCES/AMENDS）的原生建模。
+
+- 现有 KGSearch 检索以**向量相似度**为核心，缺乏基于**图拓扑结构**的检索能力（如子图匹配、多跳路径约束、层级导航）。
+
+**本文档提出**：在复用 RAGFlow 现有基础设施（ES/Infinity、networkx、LLM 抽象层）的前提下，新增一套**领域专用图构建与检索层**（代号 LegalKG），实现：
+
+1. **结构保持型提取**：不将文档打平为 chunk 后再做通用实体提取，而是基于文档原有的层级结构直接构建图。
+
+2. **专业 Schema 建模**：为法规、合规、新闻分别定义节点类型与关系类型。
+
+3. **跨源关联**：在三类图谱（或统一图谱）之间建立桥梁关系（如法条→合规引用、新闻→法条影响）。
+
+4. **图结构感知的检索**：支持基于节点类型过滤、关系路径约束、子图社区的检索。
+
+---
+
+## 2. RAGFlow 现有知识图谱能力复盘
+
+### 2.1 架构总览
+
+RAGFlow 的 GraphRAG 能力集中在 rag/graphrag/ 目录下，核心特征如下：
+
+| 维度 | 现状 |
+| --- | --- |
+| **图计算引擎** | networkx（内存计算），依赖 graspologic 做 Leiden 社区发现 |
+| **图存储** | **无外部图数据库**。图以 node_link_data JSON 序列化后存入 ES/Infinity，以 knowledge_graph_kwd 区分类型（graph/subgraph/entity/relation/community_report） |
+| **提取策略** | 三种可插拔策略：light（默认，LightRAG 风格）、general（Microsoft GraphRAG 风格）、ner（spaCy 无 LLM） |
+| **构建流程** | 文档 → chunk → 逐 chunk LLM 提取实体/关系 → 子图（per doc）→ 合并为全局图 → 实体消歧 → 社区发现 → 社区报告 |
+| **检索方式** | KGSearch 类：查询重写 → 实体/关系向量检索 → N-hop 预计算邻居扩展 → 社区报告 → 融合为单一 chunk |
+| **与主链路集成** | 默认作为额外 chunk 插入检索结果头部；纯 KG 模式下完全替代常规检索 |
+
+### 2.2 关键文件速查
+
+| 用途 | 路径 |
+| --- | --- |
+| 构建主控 | rag/graphrag/general/index.py（run_graphrag_for_kb, generate_subgraph, merge_subgraph） |
+| 三种提取器 | rag/graphrag/general/graph_extractor.py（General） <split/> rag/graphrag/light/graph_extractor.py（Light） <split/> rag/graphrag/ner/graph_extractor.py（NER） |
+| 图检索 | rag/graphrag/search.py（KGSearch 类） |
+| 图工具 | rag/graphrag/utils.py（graph_merge, get_graph, set_graph, rebuild_graph） |
+| 实体消歧 | rag/graphrag/entity_resolution.py |
+| 社区发现 | rag/graphrag/general/leiden.py（hierarchical_leiden） |
+| 社区报告 | rag/graphrag/general/community_reports_extractor.py |
+| 断点续跑 | rag/graphrag/phase_markers.py（Redis 标记） |
+| 配置模型 | api/utils/validation_utils.py（GraphragConfig） |
+| 前端配置 | web/src/components/parse-configuration/graph-rag-form-fields.tsx |
+
+### 2.3 现有方案的优势（应保留）
+
+1. **断点续跑与增量更新**：subgraph checkpoint + Redis phase markers，支持任务中断后恢复，单文档更新时无需全量重建。
+
+2. **多策略提取器**：light / general / ner 的插件化设计可复用，我们只需新增领域专用提取器。
+
+3. **与 ES/Infinity 的集成**：无需引入新数据库，复用现有向量+全文混合索引。
+
+4. **LLM 抽象层**：rag/llm/chat_model.py 的 Base 类已封装好异步调用、缓存、限流，可直接复用。
+
+---
+
+## 3. 目标场景与需求分析
+
+### 3.1 三种数据源的特征
+
+| 数据源 | 格式 | 结构特征 | 关联需求 |
+| --- | --- | --- | --- |
+| **法规法条** | PDF/HTML | 强层级结构：编→章→节→条→款→项；大量内部引用（"本法第X条"、"依照前条规定"）；存在修订/废止/替代关系 | 条款间引用、跨法规引用、修订溯源、效力层级 |
+| **合规文档** | Markdown | 标题层级（H1→H2→H3）；内容常引用法规（"根据《XX法》第X条"）；内部条款间有关联（如"参见第三章"） | 章节层级导航、文档→法规引用、文档间交叉引用 |
+| **外部新闻（LegalClaw）** | HTML | 已有独立知识图谱（LegalClaw），每日增量更新十几条；节点类型为 event/organization/legislation/concept/policy；关系由 LLM 自由提取；原文为简短 HTML URL | 新闻→法规影响、新闻→合规措施、时序演进；需与 LegalKG 做好桥梁关联 |
+
+### 3.2 核心需求
+
+#### 3.2.1 结构保持
+
+**现有 RAGFlow 的问题**：
+
+- 法规 PDF 经过 DeepDoc 解析后，虽然 laws.py 能识别"第X条"，但 GraphRAG 构建时仍会将所有 chunk **打平**后做通用实体提取。
+
+- 通用提取器（Light/General）只产出 (entity_name, entity_type, description) 和 (src_id, tgt_id, description)，**丢失了原始文档的层级结构**。
+
+- 例如：《数据安全法》第三章第二十八条的内容，在通用图谱中只会变成几个孤立的实体节点（如"数据安全法"、"重要数据"），**"第三章包含第二十八条"这一结构关系完全丢失**。
+
+**需求**：图必须能表达和查询以下结构：
+
+```plaintext
+(Law:数据安全法)-[:CONTAINS]->(Chapter:第三章)-[:CONTAINS]->(Article:第二十八条)
+
+```
+
+#### 3.2.2 细粒度语义关系
+
+**现有 RAGFlow 的问题**：
+
+- 通用提取器产出的关系只有 description 和 weight，没有**语义类型**。
+
+- 无法区分："A 引用 B"、"A 定义 B"、"A 施加义务 B"、"A 处罚 B"。
+
+**需求**：支持丰富的关系类型，使检索时能进行关系约束查询（如"找出所有定义'个人信息'的条款"）。
+
+#### 3.2.3 跨源关联
+
+**现有 RAGFlow 的问题**：
+
+- 每个知识库（KB）是独立的图，KB 之间无关联机制。
+
+- 即使把三类文档放入同一个 KB，通用提取器也无法识别"合规文档引用了法规第X条"这种跨类型关系。
+
+**需求**：支持跨文档类型、跨知识库、跨系统的关联（如 LegalClaw 新闻提到某法条修订，应能导航到 LegalKG 中的该法条及其关联合规措施）。
+
+#### 3.2.4 检索增强
+
+**现有 RAGFlow 的问题**：
+
+- KGSearch.retrieval() 以向量相似度为核心，N-hop 扩展基于预计算的邻居列表，**无法根据关系类型过滤路径**。
+
+- 无法回答结构化查询，如："《个保法》中，定义了'个人信息'的所有条款，以及这些条款施加的义务是什么？"
+
+**需求**：图检索应支持：
+
+- 节点类型过滤（node_type = Article）
+
+- 关系类型过滤（rel_type = DEFINES）
+
+- 多跳路径模板查询（(:Law)-[:CONTAINS]-&gt;(:Article)-[:DEFINES]-&gt;(:Term)）
+
+- 子图社区检索（基于 Leiden 社区的法规主题聚类）
+
+---
+
+## 4. 差距分析：现有方案 vs 目标需求
+
+### 4.1 构建层差距
+
+| 差距点 | 现有 RAGFlow | 目标需求 | 影响等级 |
+| --- | --- | --- | --- |
+| **文档结构提取** | chunk 打平后通用实体提取 | 基于原始层级结构（编/章/节/条）直接建图 | 🔴 致命 |
+| **节点类型粒度** | 通用类型（organization, person, geo...） | 领域类型（Law, Chapter, Article, Term, Obligation...） | 🔴 致命 |
+| **关系类型粒度** | 无类型，仅 description | 语义类型（CONTAINS, REFERENCES, DEFINES, IMPOSES...） | 🔴 致命 |
+| **跨文档关联** | 无 | 合规→法规引用、新闻→法规影响 | 🟠 严重 |
+| **修订/废止追踪** | 无 | AMENDS, REPEALS, SUPERSEDES 关系 | 🟠 严重 |
+| **通用提取器适用性** | light/general/ner 面向非结构文本 | 法规有固定语法结构，需规则+LLM 混合提取 | 🟡 重要 |
+
+### 4.2 存储层差距
+
+| 差距点 | 现有 RAGFlow | 目标需求 | 影响等级 |
+| --- | --- | --- | --- |
+| **图数据模型** | JSON 序列化的 networkx 图，节点/边只有通用属性 | 需存储 node_type, rel_type, hierarchy_path 等结构化字段 | 🟠 严重 |
+| **索引能力** | ES/Infinity 按 keyword 过滤，无图遍历索引 | 需支持 from_entity_kwd + to_entity_kwd + rel_type 联合过滤 | 🟡 重要 |
+| **时序版本** | 无版本管理 | 法规修订需保留历史版本，支持版本对比 | 🟡 重要 |
+
+### 4.3 检索层差距
+
+| 差距点 | 现有 RAGFlow | 目标需求 | 影响等级 |
+| --- | --- | --- | --- |
+| **关系路径检索** | 不支持 | 支持多跳路径模板查询 | 🔴 致命 |
+| **类型约束检索** | 仅支持 entity_type_kwd 过滤 | 需支持多节点类型、多关系类型组合过滤 | 🟠 严重 |
+| **子图定位** | 社区报告是文本摘要 | 需能定位到具体子图（如"第三章的全部条款及其引用关系"） | 🟡 重要 |
+| **与 dense/sparse 融合** | 简单插入头部 | 需基于图结构的相关性参与加权融合 | 🟡 重要 |
+
+---
+
+## 5. 知识图谱 Schema 设计
+
+### 5.1 设计原则
+
+1. **文档结构即图结构**：不破坏原始文档的层级，将目录/章节/条款直接映射为图节点和 CONTAINS 关系。
+
+2. **语义关系显式化**：从文本中提取的引用、定义、义务、处罚等关系，赋予明确的关系类型标签。
+
+3. **跨源桥梁节点**：用共享的实体（如法规名称、术语）作为桥梁，连接不同数据源的子图。
+
+4. **兼容现有基础设施**：节点和边仍以 ES/Infinity chunk 形式存储，复用 knowledge_graph_kwd 字段扩展。
+
+### 5.2 法规法条子图 Schema
+
+基于用户提供的建模，细化如下：
+
+#### 节点类型（Node Labels）
+
+| 节点类型 | 说明 | 关键属性 |
+| --- | --- | --- |
+| Law | 整部法规，如《数据安全法》 | name, effective_date, issuing_authority, status (有效/已废止/修订中) |
+| Chapter | 章，如"第三章 数据安全制度" | name, number, law_name |
+| Section | 节（如有），如"第一节 一般规定" | name, number, chapter_name |
+| Article | 条，如"第二十八条" | number, content, law_name, chapter_name |
+| Clause | 款/项（条的细分） | number, content, parent_article |
+| Term | 术语/定义，如"重要数据" | name, definition_text, defined_in_article |
+| Obligation | 义务，如"应当取得同意" | description, subject, imposed_by_article |
+| Penalty | 罚则，如"处以XX万元罚款" | description, amount, penalizes_article |
+| Concept | 抽象法律概念，如"最小必要原则" | name, description |
+
+#### 关系类型（Edge Types）
+
+| 关系类型 | 方向 | 说明 |
+| --- | --- | --- |
+| CONTAINS | 父→子 | Law→Chapter, Chapter→Section, Section→Article, Article→Clause |
+| REFERENCES | A→B | Article A 引用 Article B（内部或跨法规） |
+| DEFINES | Article→Term | 某条定义了某术语 |
+| IMPOSES | Article→Obligation | 某条施加了某义务 |
+| PENALIZES | Article→Penalty | 某条规定了某罚则 |
+| AMENDS | NewLaw→OldLaw / NewArticle→OldArticle | 新法/新条修订旧法/旧条 |
+| REPEALS | NewLaw→OldLaw | 新法废止旧法 |
+| SUPERSEDES | NewArticle→OldArticle | 新条款替代旧条款 |
+| RELATES_TO | 任意→任意 | 语义关联（由 LLM 辅助判断） |
+| INTERPRETS | News/Compliance→Law | 新闻或合规文档对法条的解读/引用 |
+
+### 5.3 合规文档子图 Schema
+
+合规文档（Markdown）的结构与法规类似，但层级更灵活：
+
+#### 节点类型
+
+| 节点类型 | 说明 | 关键属性 |
+| --- | --- | --- |
+| ComplianceDoc | 整部合规文档 | title, version, department, effective_date |
+| CDSection | 章节（H1/H2/H3...） | title, level, heading_path |
+| CDClause | 具体条款/要求 | content, section_path |
+| CDRequirement | 具体要求（如"必须加密"） | description, priority |
+
+#### 关系类型
+
+| 关系类型 | 说明 | <br/> |
+| --- | --- | --- |
+| CONTAINS | 文档→章节→条款 | <br/> |
+| CITES_LAW | ComplianceDoc/CDClause → Law/Article | 引用法规 |
+| CITES_TERM | CDClause → Term | 引用法规定义的术语 |
+| DEPENDS_ON | CDClause → CDClause | 合规条款间的依赖（如"参见第三章"） |
+| IMPLEMENTS | ComplianceDoc → Law | 整部合规文档是对某法规的实施细则 |
+
+### 5.4 外部新闻：对接 LegalClaw 已有图谱
+
+外部新闻不重新构建，而是**对接已有 LegalClaw 法务知识库**。LegalClaw 已具备完整的自动化 pipeline（~2 秒/篇，100 份报告约 3-4 分钟），每日增量更新十几条，无需重复建设。
+
+#### LegalClaw 图谱 Schema（已有设计）
+
+| 维度 | 设计 |
+| --- | --- |
+| **节点类型** | event（事件）、organization（机构）、legislation（法规）、concept（概念）、policy（内部水位/SOP） |
+| **边** | source + target + relation（LLM 自由填写，如"发布方"、"被处罚"、"依据"）+ verified（人工审核标记） |
+| **存储** | JSON 格式图谱数据，支持交互式可视化（vis.js）和 Wiki 浏览 |
+| **构建** | 报告原文 → LLM 提取 JSON → 实体去重合并 → 增量入图 |
+| **查询** | 通过节点 type 过滤邻居（如事件的 organization 邻居 = 涉及机构） |
+
+#### 与 LegalKG 的 Schema 映射
+
+| LegalClaw 节点类型 | LegalKG 对应节点类型 | 对齐字段 |
+| --- | --- | --- |
+| legislation | Law | 法规名称标准化（如"GDPR" ↔ "通用数据保护条例"） |
+| concept | Term / Concept | 概念名称（如"未成年人保护" ↔ "未成年人保护"） |
+| organization | — | 作为外部实体引用，不纳入 LegalKG 主图 |
+| event | — | 作为外部事件引用，通过关联关系桥接 |
+| policy | ComplianceDoc | 内部水位/SOP 与合规文档对齐 |
+
+#### LegalKG → LegalClaw 的关联关系类型
+
+在 LegalKG 中新增以下**跨系统关联边**，用于桥接 LegalClaw 外部图谱：
+
+| 关系类型 | 方向 | 说明 | 存储位置 |
+| --- | --- | --- | --- |
+| HAS_NEWS | Law / Article → LegalClawEvent | 法条有相关新闻报道 | LegalKG（存储 LegalClaw 事件 ID） |
+| MENTIONED_IN | Term → LegalClawEvent | 术语在新闻事件中被提及 | LegalKG |
+| AFFECTED_BY | Law → LegalClawEvent | 法规受新闻事件影响（修订、废止） | LegalKG |
+| TRIGGERS_POLICY | LegalClawEvent → ComplianceDoc | 新闻事件触发合规文档更新 | LegalKG |
+| IMPLEMENTS_LEGISLATION | ComplianceDoc → Law | 合规文档是对法规的实施（原有） | LegalKG |
+
+**注意**：LegalClaw 事件节点不直接存入 LegalKG，LegalKG 中只存储其 **ID 引用** 和 **关联边**。新闻的详细内容、原文 URL、时间线等仍由 LegalClaw 提供。
+
+### 5.5 跨源统一视图
+
+法规法条 + 合规文档的子图在 **LegalKG（统一 KB）** 内构建，外部新闻通过 **LegalClaw ID 引用** 桥接：
+
+```plaintext
+# LegalKG 内部：法规 ↔ 合规
+(Law:个人信息保护法) <-[:CITES_LAW]- (CDClause:合规条款)
+(Term:个人信息) <-[:DEFINES]- (Article:个保法第4条)
+(Term:个人信息) <-[:CITES_TERM]- (CDClause:合规条款)
+# LegalKG → LegalClaw 桥梁（ID 引用）
+(Article:个保法第4条) -[:HAS_NEWS]-> (LegalClawEvent:E_20260413_个保法修订)
+(Term:个人信息) -[:MENTIONED_IN]-> (LegalClawEvent:E_20260413_个保法修订)
+(Law:个人信息保护法) -[:AFFECTED_BY]-> (LegalClawEvent:E_20260413_个保法修订)
+# LegalClaw 内部（外部系统）
+(LegalClawEvent:E_20260413_个保法修订) --发布方--> (LegalClawOrg:CAC)
+(LegalClawEvent:E_20260413_个保法修订) --颁布--> (LegalClawLegislation:个保法修订草案)
+(LegalClawEvent:E_20260413_个保法修订) --涉及--> (LegalClawConcept:未成年人保护)
+
+```
+
+**设计决策**：
+
+1. **法规 + 合规 → 统一 KB（LegalKG）**：两者结构相似（层级文档），更新频率低（法条每周、合规不定期），适合统一管理和图遍历。
+
+2. **外部新闻 → 对接 LegalClaw（独立系统）**：新闻更新频率高（每日十几条）、内容简短、已有成熟自动化 pipeline，独立维护更高效。
+
+3. **跨系统关联通过 ID 引用实现**：LegalKG 中存储 LegalClaw 事件/法规/概念的 ID，检索时通过 API 或预加载的映射表做跨系统导航。
+
+---
+
+## 6. 构建策略：从结构化文档到图
+
+### 6.1 核心思想：解析器即提取器
+
+**与 RAGFlow 原生 GraphRAG 的本质区别**：
+
+- **原生方案**：chunk -&gt; LLM 提取实体/关系（通用型，不感知文档类型）
+
+- **本方案**：结构化解析 -&gt; 规则提取结构关系 + LLM 提取语义关系（领域专用，结构优先）
+
+具体而言：
+
+1. **结构关系（CONTAINS, CITES_LAW 等）**：通过文档解析阶段的 AST/目录树直接生成，**无需 LLM**。
+
+2. **语义关系（DEFINES, IMPOSES, RELATES_TO 等）**：对特定节点（如 Article）调用 LLM 进行语义分析，**轻量且精准**。
+
+### 6.2 法规法条构建流程
+
+```plaintext
+PDF/HTML 原文
+    |
+    v
+[1] DeepDoc + laws.py 解析
+    ├── 输出层级树：Law -> Chapter -> Section -> Article -> Clause
+    └── 输出引用索引："第X条" -> Article ID 映射
+    |
+    v
+[2] 结构关系生成（规则驱动，零 LLM 成本）
+    ├── CONTAINS：直接由层级树生成
+    ├── REFERENCES：正则匹配 "本法第X条" / "《XX法》第X条" + 引用索引解析
+    └── 版本关系：通过文档元数据（修订日期、废止声明）生成 AMENDS/REPEALS
+    |
+    v
+[3] 语义关系提取（LLM 驱动，按 Article 调用）
+    ├── DEFINES：LLM 判断 Article 是否包含定义，提取 (术语, 定义文本)
+    ├── IMPOSES：LLM 判断 Article 是否施加义务，提取 (义务描述, 义务主体)
+    ├── PENALIZES：LLM 判断 Article 是否规定罚则
+    └── RELATES_TO：LLM 判断 Article 与已提取术语/概念的语义关联
+    |
+    v
+[4] 图合并与持久化
+    ├── 单部法规子图 -> 全局法规图（merge by Law name / Article number）
+    └── 存入 ES：graph / subgraph / entity / relation / community_report
+
+```
+
+### 6.3 合规文档构建流程
+
+```plaintext
+Markdown 原文
+    |
+    v
+[1] MarkdownHeaderTextSplitter 解析
+    ├── 输出层级树：ComplianceDoc -> CDSection(H1/H2/H3) -> CDClause
+    └── 保留 heading_path 作为元数据
+    |
+    v
+[2] 结构关系生成（规则驱动）
+    ├── CONTAINS：由标题层级生成
+    ├── DEPENDS_ON：正则匹配 "参见第X章" / "参照第X条"
+    └── CITES_LAW：正则匹配 "根据《XX法》第X条" + 法规名称标准化
+    |
+    v
+[3] 语义对齐（LLM 驱动）
+    ├── CITES_TERM：将合规文档中提到的术语链接到法规图谱中的 Term 节点
+    └── IMPLEMENTS：判断整部合规文档是否是对某法规的实施细则
+    |
+    v
+[4] 图合并
+    └── 合规子图 -> 统一图谱（merge by 共享 Term / Law 节点）
+
+```
+
+### 6.4 外部新闻：LegalClaw 增量同步与关联流程
+
+外部新闻不重新构建子图，而是通过**增量同步机制**对接已有 LegalClaw 图谱：
+
+```plaintext
+LegalClaw 每日增量更新
+    |
+    v
+[1] 增量同步（定时任务，每日 1 次）
+    ├── 调用 LegalClaw API 获取新增/更新的 event/legislation/concept 节点
+    └── 获取对应的新闻原文 URL 列表
+    |
+    v
+[2] 实体对齐（规则 + LLM）
+    ├── Legislation 对齐：LegalClaw 的 legislation.label → LegalKG 的 Law.name
+    │   └── 标准化映射（如"个保法" → "个人信息保护法"）
+    ├── Concept 对齐：LegalClaw 的 concept.label → LegalKG 的 Term.name / Concept.name
+    │   └── 全局术语词典匹配
+    └── Event 关联：LegalClaw 的 event.id → LegalKG 的跨系统关联边
+    |
+    v
+[3] 关联边生成（写入 LegalKG）
+    ├── HAS_NEWS：Law/Article → LegalClawEvent（法条有相关新闻）
+    ├── MENTIONED_IN：Term → LegalClawEvent（术语被新闻提及）
+    ├── AFFECTED_BY：Law → LegalClawEvent（法规受事件影响）
+    └── TRIGGERS_POLICY：LegalClawEvent → ComplianceDoc（事件触发合规更新）
+    |
+    v
+[4] 合规影响推送（可选）
+    └── 当检测到 AFFECTED_BY/TRIGGERS_POLICY 边时，推送通知给法务/合规团队
+
+```
+
+**同步策略**：
+
+- **频率**：每日凌晨定时同步（LegalClaw 更新后）。
+
+- **增量机制**：记录上次同步的 LegalClaw 节点最大 date，仅同步之后的增量。
+
+- **失败回退**：同步失败时，保留上次成功的关联数据，不删除旧关联。
+
+- **人工校验**：新生成的跨系统关联边默认 verified=false，法务可在 Web UI 中确认。
+
+### 6.5 与 RAGFlow 原生 GraphRAG 的共存策略
+
+**不替换，而是叠加**：
+
+| 层级 | 原生 GraphRAG | LegalKG（本方案） |
+| --- | --- | --- |
+| **提取器注册** | light / general / ner | 新增 legal_structured 方法 |
+| **配置入口** | parser_config.graphrag.method | 新增 parser_config.legal_kg.enabled |
+| **构建流程** | run_graphrag_for_kb() | 新增 run_legal_kg_for_kb()，在文档解析完成后调用 |
+| **存储字段** | knowledge_graph_kwd（graph/subgraph/entity/relation/community_report） | 扩展 knowledge_graph_kwd（legal_node, legal_relation, legal_community） |
+| **检索入口** | KGSearch.retrieval() | 新增 LegalKGSearch.retrieval()，在 dialog_service.py 中按配置切换 |
+
+**关键设计**：
+
+- LegalKG 的节点/边仍存储为 ES chunk，但使用新的 knowledge_graph_kwd 值（legal_node, legal_relation），与原生 entity/relation 隔离，避免冲突。
+
+- 一个 KB 可以同时启用原生 GraphRAG 和 LegalKG，各自独立构建和检索；也可以只启用其一。
+
+---
+
+## 7. 存储与索引设计
+
+### 7.1 ES/Infinity 字段扩展
+
+在现有 infinity_mapping.json / ES mapping 中新增以下字段（用于 legal_node 和 legal_relation）：
+
+#### legal_node 字段
+
+| 字段名 | 类型 | 说明 |
+| --- | --- | --- |
+| legal_node_type | keyword | 节点类型：Law, Chapter, Article, Term, ComplianceDoc, News... |
+| legal_node_label | keyword | 节点标识（如"个保法第4条"） |
+| legal_parent_id | keyword | 父节点 ID（用于层级导航） |
+| legal_hierarchy_path | keyword | 层级路径（如"个人信息保护法/第一章/第四条"） |
+| legal_source_doc_id | keyword | 来源文档 ID |
+| legal_source_type | keyword | 来源类型：law / compliance |
+| legal_content | text | 节点内容（如条款全文） |
+| legal_effective_date | date | 生效日期（法规/合规文档） |
+| legal_status | keyword | 状态：active / amended / repealed |
+
+#### legal_relation 字段
+
+| 字段名 | 类型 | 说明 |
+| --- | --- | --- |
+| legal_rel_type | keyword | 关系类型：CONTAINS, REFERENCES, DEFINES, IMPOSES... |
+| legal_from_node | keyword | 源节点 label |
+| legal_to_node | keyword | 目标节点 label |
+| legal_from_type | keyword | 源节点类型 |
+| legal_to_type | keyword | 目标节点类型 |
+| legal_rel_description | text | 关系描述（可选） |
+
+### 7.2 图快照存储
+
+全局图仍以 knowledge_graph_kwd: graph 存储，但 JSON 结构扩展为：
+
+```json
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "source_id": ["doc_1", "doc_2"],
+    "graph_type": "legal_kg",
+    "version": "2026-05-19"
+  },
+  "nodes": [
+    {
+      "id": "个保法第4条",
+      "node_type": "Article",
+      "law_name": "个人信息保护法",
+      "chapter": "第一章",
+      "content": "个人信息是以电子或者其他方式记录的..."
+    }
+  ],
+  "edges": [
+    {
+      "source": "个保法第4条",
+      "target": "个人信息",
+      "rel_type": "DEFINES",
+      "description": "第四条定义了个人信息"
+    }
+  ]
+}
+
+```
+
+### 7.3 索引策略
+
+1. **节点检索**：legal_node_type + legal_node_label 做 term 过滤，legal_content 做 BM25 + 向量混合检索。
+
+2. **关系检索**：legal_rel_type + legal_from_node + legal_to_node 做联合过滤。
+
+3. **层级导航**：legal_hierarchy_path 做 prefix 查询（如搜索"个人信息保护法/第一章/*"）。
+
+4. **时序查询**：legal_effective_date 做 range 过滤，支持"查询某日期前生效的所有法规"。
+
+---
+
+## 8. 增量更新设计
+
+> 目标：像 LegalClaw 一样支持**高效增量更新**，避免任何变更都触发全量重建，同时保留完整的变更历史与回滚能力。
+
+### 8.1 核心挑战
+
+LegalClaw 的增量更新相对简单：每篇新闻报告都是**新增节点/边**，不存在"修改已有节点"的场景。但 LegalKG 面对的是**结构化文档的演进**：
+
+| 场景 | 示例 | 影响 |
+| --- | --- | --- |
+| **法规修订** | 《个保法》2021 年发布 → 2026 年修订草案 | 条款内容变化、新增/删除 Article、修订关系链更新 |
+| **合规文档更新** | 《隐私政策》v1.2 → v1.3 | 章节重组、引用法条变化、术语对齐调整 |
+| **增量法条入库** | 新法规《数据出境管理办法》发布 | 全新子图并入、与现有法规建立引用关系 |
+| **错误修正** | 人工校验后发现某条 DEFINES 关系提取错误 | 单条关系删除 + 重新提取 |
+
+### 8.2 增量更新原则
+
+1. **文档级隔离**：每部法规 / 每份合规文档作为独立 **子图（subgraph）**，有自己的 source_id 和版本快照。
+
+2. **差异驱动（Diff-Driven）**：变更时计算"旧子图 vs 新子图"的 GraphChange diff，仅将 diff 应用到全局图。
+
+3. **下游传播**：节点/边变更自动触发反向索引更新（cited_by_article_ids）、语义关联重算（semantic_related_ids）、LegalClaw 关联刷新。
+
+4. **版本可追溯**：每次变更生成版本记录，支持按时间点回溯图状态。
+
+### 8.3 增量更新 Pipeline
+
+```plaintext
+文档变更触发（手动上传 / 定时扫描 / Webhook）
+    |
+    v
+[1] 变更检测（Change Detection）
+    ├── 文档哈希对比（xxhash 全文哈希）
+    ├── 元数据对比（effective_date, status 等）
+    └── 输出：变更类型 = {新增, 修改, 删除, 无变化}
+    |
+    v
+[2] 影响分析（Impact Analysis）
+    ├── 定位受影响的子图（通过 source_id）
+    ├── 标记受影响的节点类型（Law/Chapter/Article/Term）
+    └── 标记受影响的关系类型（CONTAINS/DEFINES/REFERENCES 等）
+    |
+    v
+[3] 子图重建（Subgraph Rebuild）——仅对变更文档
+    ├── 重新解析文档层级结构
+    ├── 重新提取结构关系（CONTAINS, REFERENCES）
+    ├── 重新提取语义关系（DEFINES, IMPOSES, PENALIZES）
+    └── 生成新子图（networkx Graph）
+    |
+    v
+[4] 差异计算（Diff Computation）
+    ├── 加载旧子图（从 subgraph checkpoint）
+    ├── 对比新旧子图：
+    │   ├── 新增节点 → added_updated_nodes
+    │   ├── 删除节点 → removed_nodes（连同其关联边）
+    │   ├── 修改节点（内容变化）→ added_updated_nodes
+    │   ├── 新增边 → added_updated_edges
+    │   └── 删除边 → removed_edges
+    └── 输出：GraphChange diff
+    |
+    v
+[5] 差异合并（Diff Merge）
+    ├── 加载全局图（从 ES graph checkpoint）
+    ├── 应用 GraphChange diff 到全局图
+    ├── 更新全局图版本号 + 时间戳
+    └── 写回 ES（graph + subgraph + entity + relation chunks）
+    |
+    v
+[6] 下游传播（Downstream Propagation）
+    ├── 反向索引更新：
+    │   ├── 被删除的 Article → 清除 cited_by_article_ids 中的引用
+    │   ├── 新增的 REFERENCES → 更新目标 Article 的 cited_by_article_ids
+    │   └── 修改的 Term → 重新计算所有关联 Article 的 semantic_related_ids
+    ├── 语义关联重算：
+    │   └── 变更的 Article 的 key_info 变化 → 与所有现有 Article 重新计算 Jaccard 相似度
+    ├── PageRank 重算：
+    │   └── 全局图结构变化 → 重新计算所有节点 PageRank
+    └── LegalClaw 关联刷新：
+        └── 变更的 Law/Term → 触发与 LegalClaw 的实体对齐和关联边重新生成
+    |
+    v
+[7] 版本记录（Version Log）
+    ├── 写入 version_log：变更时间、变更文档、GraphChange 摘要、操作人
+    └── 保留旧子图 checkpoint（保留最近 10 个版本，更早的归档到对象存储）
+
+```
+
+### 8.4 版本管理与回滚
+
+#### 版本日志 Schema（MySQL / ES）
+
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| version_id | string | 版本唯一标识（UUID） |
+| kb_id | string | 知识库 ID |
+| doc_id | string | 变更文档 ID |
+| change_type | enum | add / update / delete |
+| change_summary | JSON | GraphChange 的序列化摘要（节点/边增减数量） |
+| old_subgraph_id | string | 旧子图 checkpoint ID |
+| new_subgraph_id | string | 新子图 checkpoint ID |
+| downstream_tasks | JSON | 下游任务列表（反向索引更新、语义重算、LegalClaw 同步） |
+| status | enum | pending / applied / failed / rolled_back |
+| created_at | datetime | 变更时间 |
+| operator | string | 操作人（系统 / 用户邮箱） |
+
+#### 回滚机制
+
+```python
+async def rollback_version(kb_id: str, version_id: str):
+    """
+    回滚到指定版本：
+    1. 加载 version_id 对应的 old_subgraph
+    2. 计算 old_subgraph 与当前全局图的 diff
+    3. 应用 diff（本质上是一次逆向增量更新）
+    4. 更新 version_log 状态为 rolled_back
+    5. 触发下游传播（反向索引、语义关联、LegalClaw 关联刷新）
+    """
+
+```
+
+**回滚限制**：
+
+- 仅支持单文档级别的回滚（不能回滚整个 KB 到某个时间点）。
+
+- 回滚后如果期间有其他文档变更，可能导致冲突（需人工介入）。
+
+- 建议保留最近 30 天的 version_log，更早的归档。
+
+### 8.5 与 RAGFlow 原生断点续跑的整合
+
+LegalKG 的增量更新复用 RAGFlow 原生的 **subgraph checkpoint + phase markers** 机制：
+
+| 原生机制 | LegalKG 增量更新中的用途 |
+| --- | --- |
+| knowledge_graph_kwd: subgraph | 存储 per-doc 子图快照，作为增量 diff 的"旧版本" |
+| graphrag:phase:&#123;kb_id&#125;:&#123;phase&#125; | 新增 phase="incremental_sync"，标记增量同步进度 |
+| RedisDistributedLock | 防止并发增量更新导致的全局图不一致 |
+
+### 8.6 与 LegalClaw 增量更新的对齐
+
+| 维度 | LegalClaw | LegalKG |
+| --- | --- | --- |
+| **增量粒度** | 单篇新闻报告 | 单部法规 / 单份合规文档 |
+| **变更类型** | 仅新增 | 新增、修改、删除 |
+| **触发方式** | 每日定时任务 | 文档上传（实时）+ 定时扫描 + Webhook |
+| **自动化程度** | 全自动（LLM 提取 → 入图） | 结构关系全自动，语义关系支持人工校验后生效 |
+| **版本管理** | 无（新闻不可修改） | 完整版本日志 + 回滚能力 |
+| **下游传播** | 无 | 反向索引、语义关联、PageRank、LegalClaw 关联刷新 |
+
+**设计目标**：LegalKG 的增量更新比 LegalClaw 更复杂（因为文档可修改），但两者对外呈现一致的"增量入图"体验：上传/更新文档后，系统自动完成图更新，无需全量重建。
+
+---
+
+## 9. 可视化设计
+
+> 目标：像 LegalClaw 一样提供**交互式图谱 + Wiki 浏览**两层核心可视化，让法务/合规团队既能直观看到关系全貌，又能深入查看条款细节。时间线视图为可选扩展（Phase 2+ 评估）。
+
+### 9.1 两层可视化架构（核心）
+
+```plaintext
+┌─────────────────────────────────────────────┐
+│           LegalKG 可视化两层架构              │
+├─────────────────┬───────────────────────────┤
+│  ① 交互式图谱    │  ② Wiki 浏览页            │
+│  （宏观关系）    │  （细节内容）              │
+│                 │                          │
+│  · 法规层级树    │  · 法规主页               │
+│  · 引用关系网络  │  · 条款详情页             │
+│  · 语义关联图    │  · 术语百科页             │
+│  · 跨源关联图    │  · 合规文档页             │
+└─────────────────┴───────────────────────────┘
+              ↑
+         └── LLM 统一查询入口 ──┘
+
+```
+
+> **可选扩展（③ 时间线视图）**：法规生命周期时间线、新闻影响链、合规文档版本演进。仅在版本管理数据积累充分、有明确使用场景后实施。详见 §9.4（可选）。
+
+### 9.2 ① 交互式图谱（Interactive Graph）
+
+**技术选型**：前端复用 RAGFlow 已有的 **AntV G6**（web/src/pages/dataset/knowledge-graph/force-graph.tsx），后端提供子图查询 API。
+
+#### 节点与边的视觉映射
+
+| 视觉属性 | 映射规则 |
+| --- | --- |
+| **节点颜色** | Law=深蓝 #1e3a5f, Chapter=浅蓝 #4a90d9, Article=绿 #52c41a, Term=橙 #faad14, Obligation=红 #f5222d, Penalty=紫 #722ed1, ComplianceDoc=青 #13c2c2, Concept=灰 #8c8c8c |
+| **节点大小** | PageRank 值越大，节点越大（Law 固定最大，Clause 固定最小） |
+| **边颜色** | CONTAINS=灰色 #d9d9d9, REFERENCES=蓝色 #1890ff, DEFINES=橙色 #fa8c16, IMPOSES=红色 #ff4d4f, PENALIZES=紫色 #722ed1, AMENDS/REPEALS=红色虚线 #ff4d4f, RELATES_TO=绿色 #52c41a |
+| **边粗细** | weight 值越大，边越粗 |
+| **边线型** | CONTAINS=实线, REFERENCES=虚线, 修订/废止=点划线 |
+
+#### 交互行为
+
+| 交互 | 行为 |
+| --- | --- |
+| **单击节点** | 高亮该节点及其 1-hop 邻居，右侧弹出详情面板（节点属性、内容摘要、关联统计） |
+| **双击节点** | 导航到对应的 Wiki 浏览页（如双击 Article → 条款详情页） |
+| **拖拽节点** | 力导向布局下可手动调整位置，释放后固定（再次双击恢复自动布局） |
+| **滚轮缩放** | 画布缩放，缩放级别影响标签显示（远：仅显示 Law 标签；中：显示 Law+Article；近：显示全部） |
+| **右键菜单** | 展开/折叠子树、过滤关系类型、聚焦该节点子图、导出 PNG |
+| **框选多节点** | 选中多个节点后，显示诱导子图（诱导子图内所有节点和边） |
+| **搜索框** | 输入法规名称 / 条款编号 / 术语，自动定位并高亮节点 |
+
+#### 图谱模式切换
+
+| 模式 | 说明 | 适用场景 |
+| --- | --- | --- |
+| **层级树模式** | 以 Law 为根，按 CONTAINS 关系展开为树状结构 | 查看法规内部结构（编→章→节→条） |
+| **引用网络模式** | 隐藏 CONTAINS 边，仅显示 REFERENCES / DEFINES / IMPOSES 等语义关系 | 查看法条间的引用和语义关联 |
+| **跨源关联模式** | 显示 LegalKG 节点 + LegalClaw 事件节点（通过桥梁边连接） | 查看法规与新闻、合规的跨源关系 |
+| **社区聚类模式** | 基于 Leiden 社区检测着色，同一社区的节点同色 | 发现法规主题聚类（如"数据出境"社区） |
+
+### 9.3 ② Wiki 浏览页（Wiki-Style Browser）
+
+对标 LegalClaw 的 Wiki 网站，为 LegalKG 提供**结构化、可导航的网页浏览体验**。
+
+#### 法规主页（Law Home Page）
+
+```plaintext
+┌──────────────────────────────────────────────┐
+│ 《个人信息保护法》                              │
+│ 生效日期：2021-11-01 | 状态：有效 | 发布机关：全国人大常委会 │
+├──────────────────────────────────────────────┤
+│ 📋 目录                                       │
+│   第一章 总则                                  │
+│     第一条 ...                                 │
+│     第二条 ...                                 │
+│   第二章 个人信息处理规则                       │
+│     第十三条 ...                               │
+│   ...                                          │
+├──────────────────────────────────────────────┤
+│ 📊 统计                                       │
+│   总条款数：74 | 术语定义：12 | 义务：23 | 罚则：8 │
+│   被引用次数：156（内部）+ 89（跨法规）          │
+│   关联合规文档：3 份                            │
+│   关联新闻事件：15 件（来自 LegalClaw）          │
+├──────────────────────────────────────────────┤
+│ 🔗 相关法规                                    │
+│   《数据安全法》 | 《网络安全法》 | 《民法典》    │
+└──────────────────────────────────────────────┘
+
+```
+
+#### 条款详情页（Article Detail Page）
+
+```plaintext
+┌──────────────────────────────────────────────┐
+│ 第四条【个人信息的定义】                        │
+│ 所属：《个人信息保护法》第一章 总则              │
+├──────────────────────────────────────────────┤
+│ 📜 条款全文                                    │
+│   个人信息是以电子或者其他方式记录的与已识别...   │
+├──────────────────────────────────────────────┤
+│ 🏷️ 定义的术语                                  │
+│   「个人信息」→ 跳转术语页                      │
+│   「个人信息的处理」→ 跳转术语页                │
+├──────────────────────────────────────────────┤
+│ ⚖️ 施加的义务                                  │
+│   告知同意义务（第五条）                         │
+│   最小必要义务（第六条）                         │
+├──────────────────────────────────────────────┤
+│ 🔗 引用关系                                    │
+│   引用自：无                                   │
+│   被引用：第五十四条（处理者义务）、第七十三条...  │
+├──────────────────────────────────────────────┤
+│ 📰 相关新闻（来自 LegalClaw）                   │
+│   2026-03-15 网信办发布《个人信息保护合规审计... │
+│   2026-01-20 某平台因违反第四条被处罚...        │
+├──────────────────────────────────────────────┤
+│ 🏢 关联合规文档                                 │
+│   《用户隐私政策 v2.3》引用本条款                │
+│   《数据出境评估指引》引用本条款                 │
+└──────────────────────────────────────────────┘
+
+```
+
+#### 术语百科页（Term Encyclopedia Page）
+
+```plaintext
+┌──────────────────────────────────────────────┐
+│ 「个人信息」                                   │
+├──────────────────────────────────────────────┤
+│ 📖 定义                                        │
+│   《个人信息保护法》第四条：个人信息是以电子...   │
+├──────────────────────────────────────────────┤
+│ 📍 被定义的条款                                │
+│   《个保法》第四条、《网安法》第七十六条...      │
+├──────────────────────────────────────────────┤
+│ 📍 被引用的条款                                │
+│   《个保法》第五条、第十三条、第二十八条...      │
+│   《用户隐私政策》第三章...                      │
+├──────────────────────────────────────────────┤
+│ 🔗 关联概念                                    │
+│   「敏感个人信息」 | 「匿名化」 | 「去标识化」    │
+├──────────────────────────────────────────────┤
+│ 📰 相关新闻（LegalClaw）                       │
+│   ...                                          │
+└──────────────────────────────────────────────┘
+
+```
+
+### 9.4 （可选）③ 时间线视图（Timeline View）
+
+> **状态：可选扩展，Phase 2+ 评估。** 当前阶段优先实现交互式图谱和 Wiki 浏览。时间线视图仅在版本管理数据积累充分、有明确使用场景后实施。
+
+对标 LegalClaw 的"按 date 排序的事件列表"，扩展为支持**多维度时间线**：
+
+| 时间线类型 | 说明 | 示例 |
+| --- | --- | --- |
+| **法规生命周期** | 单部法规从发布到废止的全过程 | 发布 → 生效 → 修订草案 → 征求意见 → 修订生效 |
+| **新闻影响链** | 以法规/术语为锚点的外部新闻事件链 | 网信办发布新规 → 影响某法规 → 触发合规文档更新 |
+| **合规文档演进** | 单份合规文档的版本历史 | v1.0 → v1.1（新增章节）→ v1.2（修订条款）→ v2.0（大版本重构） |
+
+**前置条件**：需要 §8 增量更新中的 version_log 数据积累至少 3 个月以上，且法务团队明确反馈需要时间线追踪能力。
+
+### 9.5 可视化后端 API 设计
+
+为支持前端两层核心可视化，后端需要提供以下 API：
+
+| API | 路径 | 说明 | 优先级 |
+| --- | --- | --- | --- |
+| **子图查询** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/subgraph | 根据节点 ID 列表查询诱导子图（含节点+边），返回 networkx node_link_data | P0 |
+| **邻居查询** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/neighbors/&#123;node_id&#125; | 查询某节点的 N-hop 邻居（支持关系类型过滤） | P0 |
+| **路径查询** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/path?from=&#123;a&#125;&to=&#123;b&#125; | 查询两节点间的最短路径 / 所有路径 | P0 |
+| **层级树** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/tree?law=&#123;law_name&#125; | 返回某法规的层级树（Law→Chapter→Section→Article） | P0 |
+| **Wiki 页** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/wiki/&#123;node_type&#125;/&#123;node_label&#125; | 返回某节点的 Wiki 详情页数据 | P0 |
+| **搜索** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/search?q=&#123;query&#125; | 全文搜索节点（BM25 + 向量混合） | P0 |
+| **社区聚类** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/communities | 返回 Leiden 社区检测结果 | P1 |
+| **时间线** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/timeline?node=&#123;node_id&#125;&type=... | 返回时间线事件列表（**可选**） | P2 |
+| **版本对比** | GET /api/v1/datasets/&#123;kb_id&#125;/legal-kg/diff?version_a=&#123;v1&#125;&version_b=&#123;v2&#125; | 返回两个版本的 GraphChange diff（**可选**） | P2 |
+
+### 9.6 与 LegalClaw 可视化的对齐与差异
+
+| 维度 | LegalClaw | LegalKG |
+| --- | --- | --- |
+| **图谱技术** | vis.js | AntV G6（复用 RAGFlow 现有） |
+| **Wiki 浏览** | 按 event/organization/legislation/concept 分页 | 按 Law/Article/Term/ComplianceDoc 分页 |
+| **时间线** | 单维度（事件按 date 排序） | （可选）多维度（法规生命周期 / 新闻影响链 / 合规演进） |
+| **交互深度** | 节点拖拽、缩放、点击查看详情 | 更深度：模式切换（层级树/引用网络/跨源关联/社区聚类）、子图导出、版本对比 |
+| **跨系统集成** | 无 | LegalKG 图谱中可嵌入 LegalClaw 事件节点（通过 API 动态加载） |
+
+**设计目标**：LegalKG 的可视化比 LegalClaw 更**结构化**（因为有强层级 Schema），同时保持同样直观的交互体验。
+
+---
+
+## 10. 检索设计：LegalKGSearch
+
+### 8.1 与原生 KGSearch 的差异
+
+| 维度 | 原生 KGSearch | LegalKGSearch（本方案） |
+| --- | --- | --- |
+| **查询输入** | 自然语言问题 | 自然语言问题 + 可选的结构约束（如节点类型、关系类型） |
+| **实体识别** | LLM 提取通用实体 | 识别法规名称、条款编号、术语（规则+LLM 混合） |
+| **检索方式** | 向量相似度 + N-hop 预计算 | 向量相似度 + **图遍历**（类型约束的多跳） + 层级导航 |
+| **结果组织** | 单一文本 chunk（实体+关系+社区报告 CSV） | 结构化子图（节点列表+关系列表+层级路径），可由前端渲染为图 |
+| **与主链路融合** | 插入头部 | 作为结构化上下文插入，或支持纯图模式 |
+
+### 8.2 检索流程
+
+```plaintext
+用户问题："《个保法》中定义了'个人信息'的条款，以及这些条款施加的义务是什么？"
+    |
+    v
+[1] 查询解析（Query Parser）
+    ├── 识别法规名称：《个保法》-> "个人信息保护法"
+    ├── 识别术语："个人信息"
+    ├── 识别节点类型：Article, Term, Obligation
+    └── 识别关系类型：DEFINES, IMPOSES
+    |
+    v
+[2] 锚点定位（Anchor Search）
+    ├── 搜索 (legal_node_type:Term AND legal_node_label:个人信息) -> 找到 Term 节点
+    └── 搜索 (legal_node_type:Law AND legal_node_label:个人信息保护法) -> 找到 Law 节点
+    |
+    v
+[3] 图遍历（Graph Traversal，内存中基于 networkx）
+    ├── 路径 1: (Law:个人信息保护法)-[:CONTAINS*1..3]->(Article)-[:DEFINES]->(Term:个人信息)
+    │   -> 命中 Article:个保法第4条
+    ├── 路径 2: (Article:个保法第4条)-[:IMPOSES]->(Obligation)
+    │   -> 命中 Obligation:告知同意义务
+    └── 路径 3: (Term:个人信息)-[:RELATES_TO*1..2]->(Concept)
+    │   -> 扩展关联概念（如"敏感个人信息"）
+    |
+    v
+[4] 子图抽取与格式化
+    ├── 抽取覆盖所有命中节点的诱导子图
+    ├── 按层级排序：Law -> Chapter -> Article -> Term/Obligation
+    └── 格式化为结构化文本（或 JSON）供 LLM 生成答案
+    |
+    v
+[5] 与 dense/sparse 结果融合
+    ├── LegalKG 结果作为结构化上下文 chunk
+    ├── 与常规 dense/sparse 检索结果按 ID 合并、加权求和（参考 WP-5）
+    └── 进入重排序和 LLM 生成
+
+```
+
+### 8.3 查询解析细节
+
+查询解析器（LegalQueryParser）是 LegalKGSearch 的核心，负责将自然语言转化为图查询约束：
+
+**规则层**（无需 LLM）：
+
+- 法规名称识别：正则匹配《XXX法》/《XXX条例》，或使用法规名称词典。
+
+- 条款编号识别：正则匹配 "第X条"、"第X章第X条"。
+
+- 术语识别：基于已提取的全局 Term 词典做前缀匹配。
+
+**LLM 层**（复杂查询）：
+
+- 当用户问题涉及语义关系（如"哪些条款规定了处罚"）时，调用 LLM 将问题转化为约束元组：(target_node_type, rel_type, anchor_node)。
+
+- Prompt 示例：
+
+```plaintext
+  请将以下法律查询转化为图检索约束。
+  已知节点类型：Law, Chapter, Article, Term, Obligation, Penalty
+  已知关系类型：CONTAINS, DEFINES, IMPOSES, PENALIZES, REFERENCES
+  
+  用户查询："定义了个人信息处理者的条款有哪些？"
+  
+  输出 JSON：
+  {
+    "anchor": {"type": "Term", "label": "个人信息处理者"},
+    "path": [{"rel": "DEFINES", "direction": "incoming", "target_type": "Article"}]
+  }
+  
+```
+
+### 8.4 与主检索链的融合方式
+
+建议采用**结构化上下文插入**模式（而非简单文本 chunk）：
+
+```python
+# 在 dialog_service.py 中
+if prompt_config.get("use_legal_kg"):
+    legal_kg_result = await settings.legal_kg_retriever.retrieval(
+        question, tenant_ids, kb_ids, embd_mdl, llm,
+        return_format="structured"  # 返回节点+关系的结构化数据
+    )
+    # 将结构化子图转换为 LLM 友好的文本格式
+    kg_context = format_legal_kg_to_text(legal_kg_result)
+    if kg_context:
+        kbinfos["chunks"].insert(0, {
+            "content_with_weight": kg_context,
+            "docnm_kwd": "Legal Knowledge Graph",
+            "source_type": "legal_kg",
+            "chunk_id": get_uuid(),
+        })
+
+```
+
+**格式化输出示例**：
+
+```markdown
+## 知识图谱关联信息
+### 法规层级
+- 《个人信息保护法》第一章 总则
+  - 第四条【个人信息的定义】
+    - 定义了术语：个人信息
+    - 施加义务：告知同意（第五条）
+    - 关联概念：敏感个人信息（第二十八条）
+### 引用关系
+- 第四条 被 第五十四条 引用（关于处理者义务）
+- 第四条 与《数据安全法》第二十一条 语义关联
+### 相关新闻
+- 2026-03-15 网信办发布《个人信息保护合规审计管理办法》（涉及第四条定义范围）
+
+```
+
+---
+
+## 11. 实施路线图
+
+### 9.1 总体策略
+
+**分阶段实施，先法规、后合规、再对接 LegalClaw**：
+
+1. **Phase A 法规法条**：图建模和构建是最基础、最规范的，优先实现。
+
+2. **Phase B 合规文档**：复用法规定义的 Term 节点作为桥梁，接入统一图谱。
+
+3. **Phase C 对接 LegalClaw**：不做新闻子图，而是建立 LegalKG ↔ LegalClaw 的关联同步机制。
+
+### 9.2 Phase A：法规法条知识图谱（2-3 周）
+
+**目标**：完成法规法条的结构保持型图构建和基础检索。
+
+| 任务 | 说明 | 关键文件 |
+| --- | --- | --- |
+| **A1. Schema 定义** | 定义法规节点/关系类型的 Python 枚举和 Pydantic 模型 | rag/legal_kg/schema.py |
+| **A2. 结构提取器** | 基于 laws.py 的层级树，生成 CONTAINS 关系 | rag/legal_kg/extractors/structural.py |
+| **A3. 引用提取器** | 正则 + LLM 混合提取 REFERENCES 关系 | rag/legal_kg/extractors/citation.py |
+| **A4. 语义提取器** | LLM 提取 DEFINES/IMPOSES/PENALIZES 关系 | rag/legal_kg/extractors/semantic.py |
+| **A5. 图构建流水线** | 整合提取器，生成 networkx 图并存入 ES | rag/legal_kg/builder.py |
+| **A6. 检索器** | 实现 LegalKGSearch，支持锚点定位 + 图遍历 | rag/legal_kg/search.py |
+| **A7. 集成** | 在 task_executor.py 和 dialog_service.py 中接入 | 修改现有文件 |
+| **A8. 前端可视化** | 法规层级树 + 引用关系图（可复用现有 G6 组件） | web/src/pages/dataset/knowledge-graph/ |
+
+### 9.3 Phase B：合规文档接入（1-2 周）
+
+**目标**：将合规文档作为子图接入，建立合规→法规的桥梁。
+
+| 任务 | 说明 |
+| --- | --- |
+| **B1. Markdown 结构提取** | 基于标题层级生成 CONTAINS 关系 |
+| **B2. 合规引用提取** | 正则匹配 "根据《XX法》第X条"，生成 CITES_LAW 关系 |
+| **B3. 术语对齐** | 将合规文档中的术语链接到法规图谱的 Term 节点 |
+| **B4. 图合并** | 合规子图 merge 到全局法规图（共享 Law/Term 节点） |
+
+### 9.4 Phase C：对接 LegalClaw 外部新闻图谱（1 周）
+
+**目标**：建立 LegalKG 与已有 LegalClaw 外部新闻图谱的关联同步机制，实现法规/合规 ↔ 新闻的跨系统查询。
+
+| 任务 | 说明 |
+| --- | --- |
+| **C1. LegalClaw API 对接** | 封装 LegalClaw 图谱查询 API（获取 event/legislation/concept 节点） |
+| **C2. 实体对齐** | 建立 LegalClaw legislation ↔ LegalKG Law 的名称标准化映射表；LegalClaw concept ↔ LegalKG Term 的术语对齐 |
+| **C3. 关联同步** | 每日定时任务：同步 LegalClaw 增量 → 生成 HAS_NEWS/MENTIONED_IN/AFFECTED_BY 关联边 → 写入 LegalKG |
+| **C4. 跨系统检索** | LegalKGSearch 检索时，对命中的 Law/Term 节点，通过关联边查询 LegalClaw 相关事件，合并到结果中 |
+| **C5. 合规影响推送** | 当检测到 TRIGGERS_POLICY 关联时，推送通知给法务/合规团队 |
+
+### 9.5 Phase D：检索增强与融合（1-2 周）
+
+**目标**：实现 LegalKG 与 dense/sparse 的三路融合，以及结构化查询。
+
+| 任务 | 说明 |
+| --- | --- |
+| **D1. 查询解析器** | 实现 LegalQueryParser（规则+LLM） |
+| **D2. 图遍历引擎** | 基于 networkx 的类型约束多跳遍历 |
+| **D3. 三路融合** | dense 60% + sparse 20% + kg 20%（参考 WP-5） |
+| **D4. 子图可视化** | 前端支持交互式图探索（节点展开、路径高亮、过滤） |
+| **D5. 时序演进（可选）** | 法规修订历史时间线、新闻影响链可视化。仅在版本数据积累充分后评估 |
+
+---
+
+## 12. 与已有 Phase 3 计划的关系
+
+本文档是对 phase3-plan.md 中 **WP-4（法条知识图谱）** 和 **WP-5（三路混合检索）** 的**深化和重构**：
+
+| 对比项 | phase3-plan.md WP-4/WP-5 | 本文档 |
+| --- | --- | --- |
+| **图建模** | 以 chunk 为中心，通过 ES 字段（key_info_kwd, cites_article_ids）打标签 | 以图节点/边为中心，定义专业 Schema（Law/Chapter/Article/Term + CONTAINS/DEFINES/IMPOSES） |
+| **结构保持** | 未涉及 | 核心设计，文档层级直接映射为图结构 |
+| **关系类型** | 无显式关系类型，仅通过字段关联 | 10+ 种语义关系类型，支持图遍历 |
+| **检索方式** | 基于字段关联的"一跳扩展" | 基于 networkx 的类型约束多跳遍历 + 向量检索 |
+| **跨源关联** | 轻量级字段关联（related_compliance_ids, related_news_ids） | 统一图谱 + 桥梁节点（Term/Law/NewsEvent） |
+| **前端** | 无明确规划 | 法规层级树 + 引用关系图（时序演进为可选扩展） |
+
+**建议**：以本文档的设计为准，替代或大幅扩充 phase3-plan.md 中的 WP-4/WP-5 章节。
+
+---
+
+## 13. 风险与缓解
+
+| 风险 | 缓解措施 |
+| --- | --- |
+| **ES mapping 变更需 reindex** | 先在新知识库测试，旧数据用脚本回填；legal_node/legal_relation 使用新字段，不影响原有 chunk 索引 |
+| **结构提取规则覆盖不全** | 渐进回退：规则提取失败时，降级为 LLM 提取；提供人工校验入口 |
+| **图规模过大导致内存问题** | 按 Law 维度切分子图，检索时按需加载；或使用 networkx 的 subgraph view |
+| **LLM 语义提取成本高** | 仅对 Article 级别节点调用 LLM（而非所有 chunk）；结果缓存到 Redis；支持批量调用 |
+| **三路检索增加延迟** | 控制 LegalKG 扩展数量（默认 Top-20 节点）；可配置关闭 KG 路径（纯 dense/sparse 模式） |
+| **版本管理复杂** | 法规修订时，旧版本标记为 repealed，新版本建立 SUPERSEDES 关系；检索默认过滤 active |
+| **与上游 RAGFlow 合并冲突** | LegalKG 代码全部放在新增目录 rag/legal_kg/ 下，对现有文件修改通过钩子/配置注入，最小化侵入 |
+
+---
+
+## 14. 关键决策建议
+
+### 12.1 是否引入 Neo4j？
+
+**建议：暂不引入，保持 ES/Infinity 存储。**
+
+理由：
+
+1. 项目约束明确"复用现有 ES"，引入 Neo4j 增加运维复杂度。
+
+2. 法规法条图规模可控（中国现行法律约 300 部，每部平均 100 条，总节点数约 10 万级），networkx 内存计算足够。
+
+3. 如果未来图规模增长到百万级或需要复杂 Cypher 查询，再评估引入 TuGraph/Neo4j。
+
+### 12.2 是否替换原生 GraphRAG？
+
+**建议：不替换，叠加共存。**
+
+理由：
+
+1. 原生 GraphRAG 对通用非结构化文本（如内部会议纪要、邮件）仍有价值。
+
+2. LegalKG 专注于结构化法律文档，两者互补。
+
+3. 共存策略通过配置开关控制，零破坏原则。
+
+### 12.3 统一 KB vs 分开？
+
+**建议：法规 + 合规 → 统一 KB（LegalKG），外部新闻 → 对接 LegalClaw（独立系统）。**
+
+理由：
+
+1. **法规 + 合规结构相似**：两者都是层级化文档（编/章/节/条 vs H1/H2/H3），更新频率低，适合统一管理和图遍历。
+
+2. **外部新闻已有成熟系统**：LegalClaw 具备完整的自动化 pipeline（每日增量、实体去重、可视化），重复建设无价值。
+
+3. **更新频率差异大**：新闻每日十几条，法条每周少量更新，合规不定期更新。统一存储会导致新闻频繁触发动态图谱重建，影响性能。
+
+4. **跨系统关联通过 ID 引用实现**：LegalKG 中存储 LegalClaw 事件 ID，检索时做跨系统导航，兼顾灵活性和维护成本。
+
+---
+
+## 15. 附录：关键文件清单
+
+### 13.1 新增文件（建议目录结构）
+
+```plaintext
+rag/legal_kg/
+├── __init__.py
+├── schema.py                 # 节点/关系类型定义（枚举 + Pydantic）
+├── builder.py                # 图构建主控（run_legal_kg_for_kb）
+├── search.py                 # LegalKGSearch 检索器
+├── query_parser.py           # LegalQueryParser 查询解析
+├── formatters.py             # 子图 -> LLM 上下文文本格式化
+├── extractors/
+│   ├── __init__.py
+│   ├── structural.py         # 结构关系提取（CONTAINS 等）
+│   ├── citation.py           # 引用关系提取（REFERENCES 等）
+│   └── semantic.py           # 语义关系提取（DEFINES/IMPOSES/PENALIZES）
+├── legalclaw/
+│   ├── __init__.py
+│   ├── client.py             # LegalClaw API 客户端（查询 event/legislation/concept）
+│   ├── aligner.py            # 实体对齐（LegalClaw legislation/concept -> LegalKG Law/Term）
+│   ├── sync_scheduler.py     # 每日增量同步定时任务
+│   └── cross_linker.py       # 跨系统关联边生成（HAS_NEWS/MENTIONED_IN/AFFECTED_BY）
+├── utils/
+│   ├── __init__.py
+│   ├── graph_store.py        # 基于 ES 的图 CRUD 封装
+│   ├── version_manager.py    # 法规版本管理
+│   └── term_dictionary.py    # 全局术语词典（Redis/MySQL）
+└── tests/
+    ├── test_schema.py
+    ├── test_structural_extraction.py
+    ├── test_semantic_extraction.py
+    ├── test_search.py
+    └── test_legalclaw_sync.py
+
+```
+
+### 13.2 需要修改的现有文件
+
+| 文件 | 修改内容 |
+| --- | --- |
+| rag/svr/task_executor.py | 文档解析完成后，调用 run_legal_kg_for_kb() |
+| api/db/services/dialog_service.py | 检索阶段集成 LegalKGSearch；配置开关 use_legal_kg |
+| common/settings.py | 初始化 legal_kg_retriever = LegalKGSearch(docStoreConn) |
+| api/utils/validation_utils.py | 新增 LegalKGConfig Pydantic 模型 |
+| conf/infinity_mapping.json | 新增 legal_* 字段 mapping |
+| web/src/components/parse-configuration/graph-rag-form-fields.tsx | 新增 LegalKG 配置 UI（开关、实体类型、关系类型选择） |
+| web/src/pages/dataset/knowledge-graph/ | 增强可视化：层级树 + 引用关系（时序演进为可选扩展） |
+
+---
+
+_本文档由代码级调研生成，所有文件路径和类名均基于当前 RAGFlow 实际代码结构。建议在实施前，针对 laws.py 的层级树输出格式和 dialog_service.py 的检索集成点做一次原型验证。_

@@ -1,0 +1,39 @@
+{
+  "root": "58ab2642ea430526353832680db4fcc0",
+  "basis": "前一轮递归 menu-list 的完整结果；数组顺序用于阅读分组，不保证与页面排序一致",
+  "children": {
+    "58ab2642ea430526353832680db4fcc0": [
+      "8aff625d7aee65bfe5dae223a26c7ac6",
+      "2c6cbb3a673b5d7201c6c0af591b594a",
+      "9732a926592ad7c14feddea5bdce71c4",
+      "6ef4df778fd1cc9b32cfa754fe2e0229",
+      "11d967cd2743c384e370444ce31261af",
+      "2e815bb94df53f2cf02ed10be62f9bbf",
+      "6831cbdf8e2d8fed7bca347bc8e343a1"
+    ],
+    "6831cbdf8e2d8fed7bca347bc8e343a1": [
+      "d0dd3de848c87e3269c30edc26f3bcf6",
+      "06ded8b13411bc80764f71ef59ab46bf",
+      "ba0ed4a6875f55c69f81f4a142adee3d"
+    ],
+    "d0dd3de848c87e3269c30edc26f3bcf6": [
+      "38f00dc361ca8b338673efca29d74f0b",
+      "7a59e41d183d8f72a1248de54ae68cf5"
+    ],
+    "06ded8b13411bc80764f71ef59ab46bf": [
+      "55e7c9ff2761e83bc2ff4a47cce843e0",
+      "43a403ee87c6094315c450f6f3c3cb50",
+      "93c3fb9c45469e53363423a6ccc06e78"
+    ],
+    "55e7c9ff2761e83bc2ff4a47cce843e0": [
+      "0a36cc1b6374b4d866a0b237ca7618cf",
+      "d85c46a0c9c89e8127da2e2ba81493b9",
+      "e201d5f8a852e8f8f9f20698cfcf86fc",
+      "bdb6ce28acfd560735f0c981051b50c6"
+    ],
+    "43a403ee87c6094315c450f6f3c3cb50": [
+      "a774b74c9fde9ae993c19e43fc1313c4",
+      "6184834c3ee40413d6348efca305e3d1"
+    ]
+  }
+}

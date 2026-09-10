@@ -35,6 +35,7 @@
 <!-- 随着你的项目增长，在这里添加活跃项目的快捷路由 -->
 <!-- 格式：- `project-name` → `adhoc_jobs/project_name/` (说明) -->
 - `rimbo` / `rimbo-work-context` → `contexts/rimbo/README.md`（原 `rimbo-work-context` 已迁入当前空间；迁移清单见 `contexts/rimbo/MIGRATION_MANIFEST.md`）
+- `codex_execution_experience` / `codex 经验复盘` → `contexts/thought_review/codex_execution_experience_review.md`（默认加载 L0 启动卡）；专题规则按需看 `contexts/thought_review/codex_execution_experience/`
 - `chrome-bookmark-cleanup` → `adhoc_jobs/chrome_bookmark_cleanup/`（Chrome 书签整理脚本、备份和整理预览）
 - `cited-alpha-lead-pipeline` → `adhoc_jobs/cited_alpha_lead_pipeline/`（公开联系人入口抓取、Hunter enrichment、验证与法域门禁）
 - `china-metro-typing` → `adhoc_jobs/tw_metro_typing_china/`（基于 tw-metro-typing fork 的中国 41 城地铁站名打字游戏）
@@ -44,3 +45,4 @@
 - `xhs-shared-agent-post` → `adhoc_jobs/xhs_shared_agent_post/`（Shared Agent Workspace 小红书正文、视觉规格与成图）
 - 多问卷集合站 / `quiz-hub` → `/Users/xuhao/Documents/Other/quiz-hub/`（GitHub 私有仓库 `NolanSoloBuilder/quiz-hub`；线上 `quiz.forgepane.com`；问卷、网页、内容、封面与结果卡的正式真源）
 - `love-user-manual` 原始实现快照 → `adhoc_jobs/love_user_manual/`（已迁移到 `quiz-hub`，不再作为部署真源）
+- `mkagent` → `/Users/xuhao/Documents/Other/mkagent/`（GitHub fork `NolanSoloBuilder/mkagent`；上游 `MkThingsHQ/mkagent`，企业客户 Agent 定制候选底座）

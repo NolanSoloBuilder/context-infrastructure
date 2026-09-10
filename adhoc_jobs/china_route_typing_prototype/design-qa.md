@@ -104,3 +104,79 @@ No actionable P0, P1, or P2 mismatch remains after the real-map revision.
 - Add segment-specific image preloading and crossfade after at least two more approved route assets exist.
 
 final result: passed
+
+## Branching adventure + real satellite revision
+
+- User-selected direction: concept 3, `分岔奇遇`, revised to make the map materially more realistic.
+- Source visual truth: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/design-target-branching-satellite.png`.
+- Desktop implementation evidence: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/implementation-branching-satellite-event.png`.
+- Mobile implementation evidence: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/implementation-branching-satellite-mobile.png`.
+- Combined normalized comparison: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/design-comparison-branching-satellite.png`.
+- Browser: Codex in-app browser.
+
+### Viewport and comparison
+
+- Desktop CSS viewport: `1440 × 1024`, device scale factor `1`; captured page pixels are `1440 × 976` because the in-app browser chrome occupies 48 px.
+- Source image pixels: `1487 × 1058`.
+- Both source and implementation were center-cropped to `720 × 512` and appended side by side for review.
+- Mobile responsive evidence: `390 × 844`; measured document width equals viewport width (`390 px`).
+
+### Findings and fixes
+
+- [P1 fixed] The first implementation depended on an Esri raster endpoint that did not render in the local browser, leaving a pale vector map. Replaced it with the verified EOX `s2cloudless-2025` WMTS imagery, retained live OpenFreeMap labels, and kept Mapterhorn terrain/hillshade.
+- [P2 fixed] Terrain and hillshade initially shared one DEM source and produced a MapLibre warning. They now use separate raster-dem sources.
+- [P3 accepted] The implemented route occupies a tighter north-south shape than the generated target because it follows the stored 3,284-point OSRM driving geometry instead of reshaping a road for visual similarity.
+- [P3 accepted] The implementation shows 17% when the event opens after two correct characters; the target image showed a later 48% state. The earlier trigger is intentional gameplay logic and is covered by unit tests.
+
+### Required fidelity surfaces
+
+- Layout and hierarchy: passed. Header, three chapter cards, progress panel, full map, fork dialog, and bottom typing dock preserve the selected anatomy and density.
+- Map realism: passed. Verified Sentinel satellite tiles, real labels/roads, 3D terrain, stored driving geometry, car marker, stateful city nodes, and three event markers render together.
+- Gameplay state: passed. Typing `ya` opens the fork; choosing the national road changes resources from `1,240 / 56 / 75` to `1,200 / 54 / 90`; city completion then applies its independent arrival reward/cost.
+- Hidden route: passed. Twelve cumulative correct letters add the `.unlocked` state to the hidden event and show the success notice.
+- Scenic image switching: passed. Completing Ya'an exposes `leshan-sideroad.jpg`; completing Leshan exposes `yibin-birdview.jpg`, with provenance switched in the same panel.
+- Responsive layout: passed. `390 × 844` keeps the satellite route, controls, event markers, and typing dock visible without horizontal overflow.
+
+### Browser and build verification
+
+- [x] One MapLibre canvas, one vehicle marker, and three event markers rendered without a blocking map status.
+- [x] Fork dialog opened after the second correct letter and closed after a choice.
+- [x] Locked `河西走廊` returned its unlock notice.
+- [x] 2D/3D and full-screen controls toggled and restored.
+- [x] Browser console contained no errors after the primary flow.
+- [x] Unit tests: 6 passed.
+- [x] Production build passed.
+- [x] Sites worker/package tests: 4 passed.
+
+final result: passed
+
+## 3D route + destination scene revision
+
+- User revision: reuse the metro map's rendering approach for route, vehicle, and nodes; render a three-dimensional real map; fix the scenic image that did not switch.
+- Before-state evidence: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/implementation-before-3d-and-scenes.png`.
+- Desktop evidence: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/implementation-3d-scenes-desktop.png`.
+- Expanded-map evidence: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/implementation-3d-scenes-expanded.png`.
+- Mobile evidence: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/implementation-3d-scenes-mobile.png`.
+- Combined before/after review input: `/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/china_route_typing_prototype/design-comparison-3d-scenes.png`.
+- Browser: Codex in-app browser.
+
+### Findings and fixes
+
+- The previous map used a flat camera and a generic position dot. It now uses pitched DEM terrain, hillshade, high-zoom building extrusion, a Phosphor car marker, and separate route/progress/node GeoJSON sources.
+- City nodes now expose passed, current, next, and arrived states. The car's screen transform changed during partial typing, proving that it follows the stored road geometry continuously.
+- The previous scenic image was hard-coded to Ya'an. The scene manifest now switches the image and provenance as one state: completing `yaan` displayed `leshan-sideroad.jpg`; completing `leshan` displayed `yibin-birdview.jpg`.
+- The first expanded-map camera pass zoomed out farther than the route context warranted. It was replaced with explicit route-centered compact and expanded 3D camera states.
+
+### Verification
+
+- [x] Map canvas loaded with the `3D 地形` state and no blocking map error.
+- [x] One car icon rendered on the map and moved while typing `les`.
+- [x] Route line, completed progress, stateful nodes, and car remain distinct layers.
+- [x] Ya'an → Leshan → Yibin background images and visible provenance switch automatically.
+- [x] Combined visual review confirms the 3D vehicle marker is visible without weakening the scenic-image and typing-dock hierarchy; no P0–P2 visual issue remains.
+- [x] Mobile `390 × 844` layout keeps the 3D map, route trace, and typing dock visible without overlap.
+- [x] Unit tests: 3 passed.
+- [x] Production build passed.
+- [x] Sites worker/package tests: 4 passed.
+
+final result: passed

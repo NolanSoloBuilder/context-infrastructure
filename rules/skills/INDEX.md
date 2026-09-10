@@ -38,6 +38,7 @@
 - [Codex 环境迁移](./codex_environment_migration.md) — 新电脑迁移 Codex / OpenCode 本机配置、skills、memories、automations 和工具链
 - [Codex Thread 迁移与 Handoff](./codex_thread_migration.md) — Codex 会话、Code Space 会话和远端实例迁移的能力边界与操作路径
 - [给自己发邮件技能](./send_email.md) ⚙️ — 通过 Gmail 发送邮件通知，需配置 App Password
+- [163 邮箱 MCP](./netease_email_mcp.md) ⚙️ — 通过本机 IMAP/SMTP MCP 搜索、读取、发送和管理 163 邮箱，凭证存入 macOS Keychain
 - [分享报告到 Web](./share_report.md) ⚙️ — 将 MD 报告转 HTML 发布到你自己的服务器，返回 URL
 - [Google Docs 操作](./google_docs.md) ⚙️ — CLI 工具：发布 Markdown、创建/搜索/修改/分享文档
 - [图片生成与放大](./generate_image.md) — CLI 工具：Gemini Flash / Gemini Pro / GPT-Image-2 文生图、图片编辑、分辨率放大

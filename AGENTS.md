@@ -13,6 +13,7 @@ Before doing anything else:
 3. Read `rules/WORKSPACE.md` — file routing table, check before searching for files
 4. Read `rules/COMMUNICATION.md` — how to think and communicate (especially for non-coding tasks)
 5. Read `rules/skills/INDEX.md` — understand available skills
+6. Read `contexts/thought_review/codex_execution_experience_review.md` — this is the default L0 startup card; only read `contexts/thought_review/codex_execution_experience/` when the task clearly hits a matching topic
 
 Don't ask permission. Just do it.
 
