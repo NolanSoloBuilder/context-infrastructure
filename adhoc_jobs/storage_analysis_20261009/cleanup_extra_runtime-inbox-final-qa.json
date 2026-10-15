@@ -1,0 +1,52 @@
+{
+  "time": "2026-10-09T18:03:19.637051",
+  "commands": {
+    "images": {
+      "exit": 0,
+      "stdout": "{\n\n}\n",
+      "stderr": ""
+    },
+    "runtimes": {
+      "exit": 0,
+      "stdout": "{\n  \"runtimes\" : [\n\n  ]\n}\n",
+      "stderr": ""
+    },
+    "devices": {
+      "exit": 0,
+      "stdout": "{\n  \"devices\" : {\n\n  }\n}\n",
+      "stderr": ""
+    },
+    "core_sizes": {
+      "exit": 0,
+      "stdout": "8618712\t/Library/Developer/CoreSimulator/Images/Inbox\n0\t/Library/Developer/CoreSimulator/Images/mnt\n8618716\t/Library/Developer/CoreSimulator/Images\n0\t/Library/Developer/CoreSimulator/Volumes\n5152\t/Library/Developer/CoreSimulator/Profiles/DeviceTypes\n5152\t/Library/Developer/CoreSimulator/Profiles\n0\t/Library/Developer/CoreSimulator/Cryptex/Personalization\n0\t/Library/Developer/CoreSimulator/Cryptex/Images\n0\t/Library/Developer/CoreSimulator/Cryptex/Caches\n0\t/Library/Developer/CoreSimulator/Cryptex\n0\t/Library/Developer/CoreSimulator/Caches/dyld\n0\t/Library/Developer/CoreSimulator/Caches\n8623868\t/Library/Developer/CoreSimulator\n",
+      "stderr": ""
+    },
+    "mounts": {
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "inbox_handles": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "physical_files": [
+    {
+      "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+      "inode": 368426251,
+      "logical_size_bytes": 8825558354,
+      "allocated_size_bytes": 8825561088,
+      "uid": 0,
+      "flags": 0
+    }
+  ],
+  "original_parent_asset": {
+    "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+    "logical_size_bytes": 9116354048,
+    "allocated_size_bytes": 9116356608,
+    "inode": 154428680,
+    "flags": 524288
+  }
+}

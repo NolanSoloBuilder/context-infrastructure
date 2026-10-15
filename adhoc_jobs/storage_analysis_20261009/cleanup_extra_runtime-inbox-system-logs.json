@@ -1,0 +1,106 @@
+{
+  "exit": 0,
+  "stderr": "",
+  "messages": [
+    {
+      "timestamp": "2026-10-09 17:48:25.855243+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8158b40] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[57012].0x75f8158b40"
+    },
+    {
+      "timestamp": "2026-10-09 17:48:27.197798+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8158c80] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[57243].0x75f8158c80"
+    },
+    {
+      "timestamp": "2026-10-09 17:48:59.826114+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8158dc0] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[58053].0x75f8158dc0"
+    },
+    {
+      "timestamp": "2026-10-09 17:49:20.038849+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8158f00] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[58389].0x75f8158f00"
+    },
+    {
+      "timestamp": "2026-10-09 17:49:20.864497+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8159040] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[58450].0x75f8159040"
+    },
+    {
+      "timestamp": "2026-10-09 17:49:34.794094+0800",
+      "process": "simdiskimaged",
+      "message": "Success! Found simulator runtime info from image 'ImageInfo { uuid=61FC1144-DD94-4453-A47E-BC8F6904D641, path=/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-BFF8F3F9-629C-4FF9-AECE-B5DC27A4CEC9/Restore/090-44334-323.dmg, state=Reading(last update: 2026-10-09 09:49:32 +0000), verification=verified, runtimeInfo=RuntimeInfo { bundle=com.apple.CoreSimulator.SimRuntime.iOS-18-4, platform=com.apple.platform.iphonesimulator, version=1180672, build=22E238, isInternal=false, supportedArchitectures=x86_64,arm64 }, format=normal, mountPolicy=automatic, writePolicy=readOnly, mountingMode=mountAsDMG shadowURL=(null) }'"
+    },
+    {
+      "timestamp": "2026-10-09 17:49:57.767522+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8159180] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[59917].0x75f8159180"
+    },
+    {
+      "timestamp": "2026-10-09 17:54:26.450021+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8159400] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[66493].0x75f8159400"
+    },
+    {
+      "timestamp": "2026-10-09 17:55:06.662643+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8159540] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[67426].0x75f8159540"
+    },
+    {
+      "timestamp": "2026-10-09 17:55:16.698710+0800",
+      "process": "simdiskimaged",
+      "message": "Success! Found simulator runtime info from image 'ImageInfo { uuid=B16EA6C6-240D-4E56-94D1-7B7BAF22CC9D, path=/Library/Developer/CoreSimulator/Images/Inbox/B16EA6C6-240D-4E56-94D1-7B7BAF22CC9D.dmg, state=Reading(last update: 2026-10-09 09:55:10 +0000), verification=verified, runtimeInfo=RuntimeInfo { bundle=com.apple.CoreSimulator.SimRuntime.iOS-18-4, platform=com.apple.platform.iphonesimulator, version=1180672, build=22E238, isInternal=false, supportedArchitectures=x86_64,arm64 }, format=normal, mountPolicy=automatic, writePolicy=readOnly, mountingMode=mountAsDMG shadowURL=(null) }'"
+    },
+    {
+      "timestamp": "2026-10-09 17:55:52.949471+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f81592c0] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[68031].0x75f81592c0"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:32.748132+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8159680] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[68487].0x75f8159680"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:33.903347+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f81597c0] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[68505].0x75f81597c0"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:34.978219+0800",
+      "process": "simdiskimaged",
+      "message": "waitForDACallBack IntErr=1=0x1 retSuccess=0 inDictToMonitor=now={\n    Action = Unmount;\n    Dissenter = 1;\n    DissenterPID = 0;\n    DissenterStatus = 49168;\n    Target = \"file:///Library/Developer/CoreSimulator/Volumes/iOS_22E238/\";\n}"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:34.978284+0800",
+      "process": "simdiskimaged",
+      "message": "DMManager(Mount) unmountVolumePath IntErr=1=0x1 retSuccess=0 outDict={\n    Action = Unmount;\n    Dissenter = 1;\n    DissenterPID = 0;\n    DissenterStatus = 49168;\n    Target = \"file:///Library/Developer/CoreSimulator/Volumes/iOS_22E238/\";\n}"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:34.978311+0800",
+      "process": "simdiskimaged",
+      "message": "Failed to unmount '/Library/Developer/CoreSimulator/Volumes/iOS_22E238', will retry: {\n    Action = Unmount;\n    Dissenter = 1;\n    DissenterPID = 0;\n    DissenterStatus = 49168;\n    Target = \"file:///Library/Developer/CoreSimulator/Volumes/iOS_22E238/\";\n}"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:35.062775+0800",
+      "process": "simdiskimaged",
+      "message": "[0x75f8159900] activating connection: mach=false listener=false peer=true name=com.apple.CoreSimulator.simdiskimaged.peer[68519].0x75f8159900"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:37.391500+0800",
+      "process": "simdiskimaged",
+      "message": "waitForDACallBack IntErr=1=0x1 retSuccess=0 inDictToMonitor=now={\n    Action = Unmount;\n    Dissenter = 1;\n    DissenterPID = 0;\n    DissenterStatus = 49168;\n    Target = \"file:///Library/Developer/CoreSimulator/Volumes/iOS_22E238/\";\n}"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:37.391537+0800",
+      "process": "simdiskimaged",
+      "message": "DMManager(Mount) unmountVolumePath IntErr=1=0x1 retSuccess=0 outDict={\n    Action = Unmount;\n    Dissenter = 1;\n    DissenterPID = 0;\n    DissenterStatus = 49168;\n    Target = \"file:///Library/Developer/CoreSimulator/Volumes/iOS_22E238/\";\n}"
+    },
+    {
+      "timestamp": "2026-10-09 17:56:37.391581+0800",
+      "process": "simdiskimaged",
+      "message": "Failed to unmount '/Library/Developer/CoreSimulator/Volumes/iOS_22E238', will retry: {\n    Action = Unmount;\n    Dissenter = 1;\n    DissenterPID = 0;\n    DissenterStatus = 49168;\n    Target = \"file:///Library/Developer/CoreSimulator/Volumes/iOS_22E238/\";\n}"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "MAAsset": {
+    "class": [
+      {
+        "method": "loadSync:error:",
+        "encoding": "@32@0:8@16^@24"
+      },
+      {
+        "method": "getLoadResultFromMessage:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "method": "loadSync:allowingDifferences:error:",
+        "encoding": "@40@0:8@16@24^@32"
+      },
+      {
+        "method": "loadSync:allowingDifferences:withPurpose:error:",
+        "encoding": "@48@0:8@16@24@32^@40"
+      },
+      {
+        "method": "loadSync:withPurpose:error:",
+        "encoding": "@40@0:8@16@24^@32"
+      },
+      {
+        "method": "startCatalogDownload:options:completionWithError:",
+        "encoding": "v40@0:8@16@24@?32"
+      },
+      {
+        "method": "startCatalogDownloadSync:options:error:",
+        "encoding": "q40@0:8@16@24^@32"
+      }
+    ],
+    "instance": [
+      {
+        "method": "initWithAttributes:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "method": "state",
+        "encoding": "q16@0:8"
+      },
+      {
+        "method": "purge:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "method": "getLocalFileUrl",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "nonUserInitiatedDownloadsAllowed",
+        "encoding": "B16@0:8"
+      },
+      {
+        "method": "purgeSync",
+        "encoding": "q16@0:8"
+      },
+      {
+        "method": "refreshState",
+        "encoding": "B16@0:8"
+      },
+      {
+        "method": "wasLocal",
+        "encoding": "B16@0:8"
+      },
+      {
+        "method": "wasPurgeable",
+        "encoding": "B16@0:8"
+      },
+      {
+        "method": "purgeWithError:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "method": "_invokeClientDownloadCompletionAlreadyOnQueue:asset:completionBlockWithError:",
+        "encoding": "v40@0:8q16@24@?32"
+      },
+      {
+        "method": "getLocalFilePath",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "getLocalUrl",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "invokeClientDownloadCompletion:asset:completionBlockWithError:",
+        "encoding": "v40@0:8q16@24@?32"
+      },
+      {
+        "method": "startDownload:completionWithError:",
+        "encoding": "v32@0:8@16@?24"
+      },
+      {
+        "method": "startDownloadSync:error:",
+        "encoding": "q32@0:8@16^@24"
+      }
+    ]
+  },
+  "MAAssetQuery": {
+    "class": [],
+    "instance": [
+      {
+        "method": "resultCode",
+        "encoding": "q16@0:8"
+      },
+      {
+        "method": "returnTypes:",
+        "encoding": "v24@0:8q16"
+      },
+      {
+        "method": "initWithType:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "method": "queryMetaDataWithError:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "method": "results",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "getResultsFromMessage:",
+        "encoding": "v24@0:8@16"
+      },
+      {
+        "method": "queryInstalledAssetIds",
+        "encoding": "q16@0:8"
+      },
+      {
+        "method": "initWithType:andPurpose:",
+        "encoding": "@32@0:8@16@24"
+      },
+      {
+        "method": "augmentResultsWithState:",
+        "encoding": "v20@0:8B16"
+      },
+      {
+        "method": "queryMetaDataSync",
+        "encoding": "q16@0:8"
+      },
+      {
+        "method": "queryMetaData:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "method": "returnTypes",
+        "encoding": "q16@0:8"
+      },
+      {
+        "method": "queryParams",
+        "encoding": "@16@0:8"
+      }
+    ]
+  },
+  "MAQueryResultToString": {
+    "symbol": false
+  },
+  "MAQueryResultToStringWithNumeric": {
+    "symbol": false
+  },
+  "MAPurgeResultToString": {
+    "symbol": false
+  },
+  "MAAssetStateToString": {
+    "symbol": false
+  },
+  "_MAQueryResultToString": {
+    "symbol": false
+  },
+  "_MAPurgeResultToString": {
+    "symbol": false
+  }
+}

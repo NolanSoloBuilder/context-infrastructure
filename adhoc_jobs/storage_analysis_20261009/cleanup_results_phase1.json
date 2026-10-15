@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-10-09T17:13:18+08:00",
+  "status_label": "已完成逐项处理；系统swap待保存工作后正常重启",
+  "disk": {
+    "total_bytes": 494384795648,
+    "free_before_bytes": 34809315328,
+    "free_after_bytes": 148932235264,
+    "free_increase_bytes": 114122919936,
+    "free_percent": 30.12476042447696,
+    "df_after": "Filesystem   1024-blocks      Used Available Capacity iused      ifree %iused  Mounted on\n/dev/disk3s5   482797652 296470964 145441636    68% 8535162 1454416360    1%   /System/Volumes/Data\n"
+  },
+  "rows": [
+    {
+      "name": "企业微信全部本地残留",
+      "path": "Library/Containers + Group Containers + Preferences",
+      "status": "全部删除",
+      "action": "主容器及小程序、XPC、辅助组容器、偏好共10处均已回读不存在。",
+      "amount": "48.53 GB",
+      "note": "按用户明确弃用范围删除；普通微信数据保留。",
+      "group": "done"
+    },
+    {
+      "name": "旧 npx 重复临时安装",
+      "path": "~/.npm/_npx",
+      "status": "全部旧数字目录已清",
+      "action": "561个旧数字目录均已删除；最终剩余数字目录0。",
+      "amount": "17.00 GB",
+      "note": "保留13个原哈希安装目录，3个运行中的MCP进程和路径都在。体量来自清理前完整扫描。",
+      "group": "done"
+    },
+    {
+      "name": "全局 Node / npm / npx",
+      "path": "/opt/homebrew",
+      "status": "版本错配已修复",
+      "action": "Node25.2.1保持；npm/npx6.14.18恢复为随包11.6.2。",
+      "amount": "35个全局包保留",
+      "note": "全局包名称、版本、路径一致；npmrc未变；npx无安装调用Prettier通过。",
+      "group": "done"
+    },
+    {
+      "name": "pnpm共享store",
+      "path": "/Users/xuhao/Library/pnpm/store",
+      "status": "原生清理完成",
+      "action": "pnpm store prune (v3), then installed pnpm12 store prune (v11)",
+      "amount": "9.40 GB",
+      "note": "保留global、.tools及剩余store0.592GB。",
+      "group": "done"
+    },
+    {
+      "name": "Bun包缓存",
+      "path": "/Users/xuhao/.bun/install/cache",
+      "status": "原生清理完成",
+      "action": "bun pm --global cache rm",
+      "amount": "2.02 GB",
+      "note": "保留全局工具与bin。",
+      "group": "done"
+    },
+    {
+      "name": "uv下载缓存",
+      "path": "/Users/xuhao/.cache/uv",
+      "status": "原生清理完成",
+      "action": "uv cache clean --cache-dir ~/.cache/uv --no-config",
+      "amount": "1.94 GB",
+      "note": "保留Python解释器与项目虚拟环境。",
+      "group": "done"
+    },
+    {
+      "name": "NVM旧 Node 补丁版本",
+      "path": "~/.nvm/versions/node",
+      "status": "卸载2个，保留14个",
+      "action": "原生卸载18.20.5、18.20.7。",
+      "amount": "1.07 GB",
+      "note": "aurora精确18.20.1、当前22.22.0及独立全局CLI依赖的版本均保留。",
+      "group": "done"
+    },
+    {
+      "name": "Notion普通及离线缓存",
+      "path": "Library/Application Support/Notion",
+      "status": "缓存清理完成",
+      "action": "清普通Cache/Code Cache及Service Worker/CacheStorage。",
+      "amount": "7.39 GB",
+      "note": "IndexedDB、Local Storage、Service Worker数据库及账号/离线编辑状态保留。",
+      "group": "done"
+    },
+    {
+      "name": "Figma缓存",
+      "path": "Library/Application Support/Figma",
+      "status": "缓存清理完成",
+      "action": "清v42 Cache、Code Cache等明确可重建缓存。",
+      "amount": "1.24 GB",
+      "note": "DesktopProfile、IndexedDB和用户状态保留。",
+      "group": "done"
+    },
+    {
+      "name": "Chrome模型及纯缓存",
+      "path": "Library/Application Support/Google/Chrome",
+      "status": "清理完成并恢复应用",
+      "action": "正常退出后清AI模型4.27GB及纯缓存，再恢复默认profile。",
+      "amount": "4.27 GB",
+      "note": "Default账号、密码、书签、历史和扩展档案保留；按需可能重新下载AI模型。",
+      "group": "done"
+    },
+    {
+      "name": "WPS旧更新载荷",
+      "path": ".../.kingsoft/WpsUpdate/Bundle",
+      "status": "旧更新文件已清",
+      "action": "核实156天前zip及解包payload，无进程/句柄。",
+      "amount": "2.78 GB",
+      "note": "WPS账号、备份、OfficeSpace和用户文档保留。",
+      "group": "done"
+    },
+    {
+      "name": "Lark及其他应用缓存、Codex闲置安装暂存",
+      "path": "Library缓存 + ~/.cache/codex-runtimes",
+      "status": "闲置缓存已清",
+      "action": "逐目录按进程和句柄检查，应用/暂存清理共91处（另8处项目依赖）。",
+      "amount": "应用/暂存合计19.62 GB",
+      "note": "Code/Cursor工作区与Agent状态、Codex主runtime及配置引用的完整marketplace源码保留。此行合计包含上方Notion/Figma/Chrome/WPS，不可重复相加。",
+      "group": "done"
+    },
+    {
+      "name": "公共闲置项目依赖",
+      "path": "craft-agents-oss、LibreChat、Mindspace及4个metro worktree",
+      "status": "8处已清",
+      "action": "只删除确认闲置且有公开manifest/lock的node_modules。",
+      "amount": "6.45 GB",
+      "note": "源码、Git、锁文件、env、数据库、outputs和worktree源码未变；私有registry及活跃BeamJoin/aurora依赖保留。与store可能共享块。",
+      "group": "done"
+    },
+    {
+      "name": "CoreSimulator / iOS运行时",
+      "path": "/Library/Developer/CoreSimulator",
+      "status": "原生缓存清理完成",
+      "action": "dyld_shared_cache remove --all；unavailable/outdated清单无额外runtime可删。",
+      "amount": "7.86 GB",
+      "note": "两个可用runtime、4个设备及3.799GB设备数据保留；未删挂载卷或系统镜像。",
+      "group": "done"
+    },
+    {
+      "name": "Android SDK",
+      "path": "~/Library/Android/sdk",
+      "status": "核对后保留",
+      "action": "仅一个平台/NDK/测试镜像，无AVD及非零临时下载缓存。",
+      "amount": "保留6.92 GB",
+      "note": "没有可证明不再需要的重复SDK；不损坏移动项目环境。",
+      "group": "kept"
+    },
+    {
+      "name": "LibreChat Colima虚拟盘",
+      "path": "~/.colima",
+      "status": "原生prune完成，0B回收",
+      "action": "临时启动核对，镜像/构建缓存prune均0；fstrim未带来host净减少。",
+      "amount": "保留约10.59 GB",
+      "note": "5镜像、6容器、10卷全部有引用；数据库保留，profile恢复Stopped、context恢复default。",
+      "group": "kept"
+    },
+    {
+      "name": "Homebrew旧版本",
+      "path": "/opt/homebrew",
+      "status": "旧版本清理完成",
+      "action": "原生cleanup删除旧Mole1.47.1和portable-ruby。",
+      "amount": "47.93 MB",
+      "note": "当前Mole1.58.0及全部当前工具/后台服务保留。",
+      "group": "done"
+    },
+    {
+      "name": "Codex会话与索引",
+      "path": "~/.codex",
+      "status": "原生删除125条，0失败",
+      "action": "获批142条后按用户更正保留第138项「部署」；有效141条，实际删125条。",
+      "amount": "440.92 MB",
+      "note": "16条因级联未批准子树/共享rollout引用保留；部署及3子Agent、原保留105条、未登记rollout均在；SQLite quick_check=ok。",
+      "group": "done"
+    },
+    {
+      "name": "普通微信聊天与小程序",
+      "path": "Library/Containers/com.tencent.xinWeChat",
+      "status": "本轮保留",
+      "action": "原生退出返回用户取消，未强制退出或删除用户数据。",
+      "amount": "保留约4.86 GB",
+      "note": "企业微信与普通微信是两个独立数据范围。",
+      "group": "kept"
+    },
+    {
+      "name": "编辑器/应用持久用户状态",
+      "path": "Code/Cursor/User、Notion数据库、Figma档案",
+      "status": "持久状态保留",
+      "action": "纯缓存已分离处理，保留会话、扩展/工作区状态、文档与账号。",
+      "amount": "按用途保留",
+      "note": "没有按Application Support/Containers整根删除。",
+      "group": "kept"
+    },
+    {
+      "name": "系统VM / swap",
+      "path": "/System/Volumes/VM",
+      "status": "需要正常重启",
+      "action": "只读核对，未手删swap/sleepimage，未自动重启当前工作。",
+      "amount": "最终快照约15.03 GB",
+      "note": "保存工作后正常重启再测；swap随内存压力变化，本轮自然下降不作为删除归因。",
+      "group": "pending"
+    },
+    {
+      "name": "只读扫描缺口",
+      "path": "FileProvider、受保护系统目录、部分超时路径",
+      "status": "未纳入盲删",
+      "action": "没有把不可读路径或扫描超时当作空目录或垃圾。",
+      "amount": "未量明",
+      "note": "完整缺口保留在清理前分析快照；已核实候选均有执行结果。",
+      "group": "kept"
+    }
+  ],
+  "notes": [
+    "本轮执行前34.81GB可用；与先前35.53GB分析快照的差异来自并发运行。目录分配块包含硬链接/APFS共享，不能把各项体量直接相加当作净释放。",
+    "所有删除均在用户当次授权范围内；Codex会话额外经历具体名单确认，并按最新指示保留「部署」及子树。",
+    "Codex原生删除会级联spawn子树；13个父会话关联未获批子树、3个源会话与保留rollout共用ID，实际保留16条。没有用手删JSONL或改写数据库绕过原生边界。",
+    "企业微信10处均回读不存在；认证哈希未变、Mole whitelist未变；运行中的3个MCP安装保留。",
+    "Chrome与VS Code正常退出后恢复；微信退出请求被取消，因此其缓存与聊天数据保留。",
+    "系统资源通过原生管理器处理；保留SDK、可用模拟器、数据库卷、私有/活跃项目依赖及所有交付物。",
+    "缓存随使用可能再生。保存工作后正常重启可让系统自行回收交换空间，但实际回收量需重启后复测。",
+    "清理结束中途曾见151.21GB可用；恢复应用后交换卷从12.89GB增至15.03GB，最终报告快照为148.93GB。该波动来自运行中系统分配，Chrome AI模型仍未重新出现。"
+  ],
+  "source_files": [
+    "cleanup_baseline.json",
+    "cleanup_wework.json",
+    "cleanup_npx.json",
+    "cleanup_system.json",
+    "cleanup_developer.json",
+    "cleanup_apps.json",
+    "cleanup_projects.json",
+    "cleanup_codex_sessions.json",
+    "cleanup_preserve_verification.json",
+    "codex_native_delete_readiness.json",
+    "codex_session_candidates.json",
+    "codex_deletion_scope.json",
+    "codex_cleanup_candidates.html",
+    "cleanup_vm_final.json"
+  ],
+  "native_sources": [
+    "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/app-server/src/request_processors/thread_delete.rs",
+    "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/thread-store/src/local/delete_thread.rs"
+  ]
+}

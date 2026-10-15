@@ -1,0 +1,22 @@
+[
+  {
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+    "kind": "path",
+    "path": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-C0F620DB-869C-47D3-BAB2-5332FAC55F41/Restore/090-44334-323.dmg",
+    "exists": false
+  },
+  {
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+    "kind": "parentImagePath",
+    "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+    "exists": true,
+    "logical_size_bytes": 9116354048,
+    "allocated_size_bytes": 9116356608
+  },
+  {
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-26-3",
+    "kind": "path",
+    "path": "/Library/Developer/CoreSimulator/Images/196ED4C9-CE29-4A4A-B896-36AD1106F061.dmg",
+    "exists": false
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "/Library/Developer/CoreSimulator": {
+    "uid": 0,
+    "gid": 0,
+    "mode": "0o40755",
+    "flags": 0
+  },
+  "/Library/Developer/CoreSimulator/Images": {
+    "uid": 0,
+    "gid": 0,
+    "mode": "0o40755",
+    "flags": 0
+  },
+  "/Library/Developer/CoreSimulator/Images/Inbox": {
+    "uid": 0,
+    "gid": 0,
+    "mode": "0o40755",
+    "flags": 0
+  },
+  "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd": {
+    "uid": 0,
+    "gid": 0,
+    "mode": "0o100644",
+    "flags": 0
+  },
+  "imageinfo": {
+    "exit": 0,
+    "stderr": "hdiutil: WARNING: 'hdiutil imageinfo ...' is deprecated. Please use 'diskutil image info ...' instead.\n",
+    "format": "ULFO",
+    "format_description": "\u5df2\u538b\u7f29\u4e3aUDIF\u53ea\u8bfb(lzfse)",
+    "properties": {
+      "Checksummed": true,
+      "Compressed": true,
+      "Encrypted": false,
+      "Kernel Compatible": true,
+      "Partitioned": false,
+      "Software License Agreement": false
+    },
+    "size_information": {
+      "CUDIFEncoding-bytes-in-use": 8824431143,
+      "CUDIFEncoding-bytes-total": 8824431143,
+      "CUDIFEncoding-bytes-wasted": 0,
+      "Compressed Bytes": 8824431143,
+      "Compressed Ratio": 0.43317073948012175,
+      "Sector Count": 40427587,
+      "Total Bytes": 20698924544,
+      "Total Empty Bytes": 327208960,
+      "Total Non-Empty Bytes": 20371715584
+    }
+  }
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "ev-145f44aacb625decaea989c74ef2c7c701b85c1e0ce5df65e1a609f18cd28fa3",
+    "sourceRow": "Energy generation and storage",
+    "quote": "6,035",
+    "period": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:EnergyGenerationAndStorageMember"
+      }
+    ],
+    "rawValue": "6035000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-1559fa454d23f2d02483e6fed5a3eb89a9a108120d550b91dede0aba78240e7f",
+    "sourceRow": "Automotive regulatory credits",
+    "quote": "1,790",
+    "period": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:AutomotiveRegulatoryCreditsMember"
+      }
+    ],
+    "rawValue": "1790000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-209028db96b251222e2fa3aba75c7380358afba7746685222a96d5958a29578e",
+    "sourceRow": "Total revenues",
+    "quote": "96,773",
+    "period": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "dimensions": [],
+    "rawValue": "96773000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-520b81586a8a6530353f47cc79f9d145f7400c71b6c584334fed3803e1b6eef6",
+    "sourceRow": "Automotive regulatory credits",
+    "quote": "2,763",
+    "period": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:AutomotiveRegulatoryCreditsMember"
+      }
+    ],
+    "rawValue": "2763000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-52276fe094b640a2f10481da0f00ca62dd6d9540150786ff90c21c2d2cc8ccf6",
+    "sourceRow": "Services and other",
+    "quote": "8,319",
+    "period": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:ServicesAndOtherMember"
+      }
+    ],
+    "rawValue": "8319000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-5bb6713c3c93d5ba7bf343e726bf702b2b2161e892cede68e3b809e158460b69",
+    "sourceRow": "Automotive sales",
+    "quote": "78,509",
+    "period": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:AutomotiveSalesMember"
+      }
+    ],
+    "rawValue": "78509000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-6a0b028e5b5e7fc46049bfd06c30b9863864a1bb075a30e5d993b4a4271ba7c8",
+    "sourceRow": "Gross profit",
+    "quote": "17,660",
+    "period": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "dimensions": [],
+    "rawValue": "17660000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-7a597f53277c88cf47fbe7b433fd4152c8a628ef852100fb7366c50294e25b21",
+    "sourceRow": "Services and other",
+    "quote": "10,534",
+    "period": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:ServicesAndOtherMember"
+      }
+    ],
+    "rawValue": "10534000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-7c1c2b40896b6b07b9d17d869a26768c2181a073f39865ec9bd9aa7ecac00497",
+    "sourceRow": "Automotive sales",
+    "quote": "72,480",
+    "period": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:AutomotiveSalesMember"
+      }
+    ],
+    "rawValue": "72480000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-7cebd00c566709a71738a3575406b36f941a9c29215f3cc636dced2c6bfad079",
+    "sourceRow": "Total automotive revenues",
+    "quote": "77,070",
+    "period": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:AutomotiveRevenuesMember"
+      }
+    ],
+    "rawValue": "77070000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-819a81b6efaf1d60345e371d07d04a4bebc903b5188346d2c42fa3f3f4fa5b8b",
+    "sourceRow": "Gross profit",
+    "quote": "17,450",
+    "period": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "dimensions": [],
+    "rawValue": "17450000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-839807ffb06d94a5070c28bf6452d23ce4ad1e9345a4525ef634dcaa325bdadc",
+    "sourceRow": "Total automotive revenues",
+    "quote": "82,419",
+    "period": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:AutomotiveRevenuesMember"
+      }
+    ],
+    "rawValue": "82419000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-ccc4431aba314b48a328a01f3576d1a6a552b1f384027b447a4d833aacdea244",
+    "sourceRow": "Energy generation and storage",
+    "quote": "10,086",
+    "period": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "dimensions": [
+      {
+        "dimension": "srt:ProductOrServiceAxis",
+        "member": "tsla:EnergyGenerationAndStorageMember"
+      }
+    ],
+    "rawValue": "10086000000",
+    "htmlExact": true
+  },
+  {
+    "id": "ev-d4e106e57eeae9152f63adfb1bc7befb35352479ba40e2295bf6ae9e114d1769",
+    "sourceRow": "Total revenues",
+    "quote": "97,690",
+    "period": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "dimensions": [],
+    "rawValue": "97690000000",
+    "htmlExact": true
+  }
+]

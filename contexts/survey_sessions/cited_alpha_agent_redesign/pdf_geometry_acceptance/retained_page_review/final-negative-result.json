@@ -1,0 +1,64 @@
+[
+  {
+    "case": "exif",
+    "orientation": null,
+    "mlRejected": false,
+    "backendRejected": false,
+    "pass": true
+  },
+  {
+    "case": "exif",
+    "orientation": 1,
+    "mlRejected": false,
+    "backendRejected": false,
+    "pass": true
+  },
+  {
+    "case": "exif",
+    "orientation": 2,
+    "mlRejected": true,
+    "backendRejected": true,
+    "pass": true
+  },
+  {
+    "case": "exif",
+    "orientation": 3,
+    "mlRejected": true,
+    "backendRejected": true,
+    "pass": true
+  },
+  {
+    "case": "exif",
+    "orientation": 6,
+    "mlRejected": true,
+    "backendRejected": true,
+    "pass": true
+  },
+  {
+    "case": "exif",
+    "orientation": 8,
+    "mlRejected": true,
+    "backendRejected": true,
+    "pass": true
+  },
+  {
+    "case": "non-pixels",
+    "mlRejected": true,
+    "pass": true
+  },
+  {
+    "case": "width-mismatch",
+    "mlRejected": true,
+    "pass": true
+  },
+  {
+    "case": "height-mismatch",
+    "mlRejected": true,
+    "pass": true
+  },
+  {
+    "case": "missing-dimension",
+    "mlRejected": true,
+    "pass": true
+  }
+]

@@ -1,0 +1,2220 @@
+{
+  "scope_sha256": "00e9716608642d68342ece70e22afe1063a5ccf152ae81a05c373f4f06c88803",
+  "manifest_sha256": "6259006e1727dbe2136ecfbc443d556928dce088d8f98268fe8e687a9e52128a",
+  "approved_count": 141,
+  "transport": "native app-server stdio",
+  "native_version": "0.160.0",
+  "native_source_urls": [
+    "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/app-server/src/request_processors/thread_delete.rs",
+    "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/thread-store/src/local/delete_thread.rs"
+  ],
+  "scope_rule": "Native delete cascades spawned subtree. Skip any root with descendants outside current approved deletion IDs. Preserve approved correction, original kept IDs, new IDs, active/queued/recent threads and all unindexed rollouts. Never physical delete fallback.",
+  "before": {
+    "indexed_threads": 249,
+    "protected_ids": 108,
+    "protected_existing_rollout_paths": 253,
+    "unindexed_existing_paths": 144
+  },
+  "items": [
+    {
+      "id": "01a00ee3-fed3-7cc0-8bfd-6501b48f177d",
+      "title": "帮我调研一下肺隔离症，我们孩子22周四维产检cvd0.3 肺隔离症，重点看下后期是否存在自我修复可能，概率多少",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 987136,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T16-43-38-01a00ee3-fed3-7cc0-8bfd-6501b48f177d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00ee4-1a44-7ef2-90fd-8f3e79dcbf09",
+      "title": "帮我调研一下肺隔离症，我们孩子22周四维产检cvd0.3 肺隔离症，重点看下后期是否存在自我修复可能，概率多少",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 634880,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T16-43-45-01a00ee4-1a44-7ef2-90fd-8f3e79dcbf09.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00ee4-2c03-7f32-a669-1bacefc0d7af",
+      "title": "帮我调研一下肺隔离症，我们孩子22周四维产检cvd0.3 肺隔离症，重点看下后期是否存在自我修复可能，概率多少",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 716800,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T16-43-49-01a00ee4-2c03-7f32-a669-1bacefc0d7af.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00f1b-53c3-7740-86a3-80e8861a4f55",
+      "title": "汇丰卓越理财里面那些基金对应QQQ和 VOO\u0005VGT",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 888832,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T17-44-04-01a00f1b-53c3-7740-86a3-80e8861a4f55.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00f1b-80be-7292-8946-331258244978",
+      "title": "汇丰卓越理财里面那些基金对应QQQ和 VOO\u0005VGT",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1036288,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T17-44-15-01a00f1b-80be-7292-8946-331258244978.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00f1b-94cd-7c13-a125-a77614d31d00",
+      "title": "汇丰卓越理财里面那些基金对应QQQ和 VOO\u0005VGT",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 827392,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T17-44-20-01a00f1b-94cd-7c13-a125-a77614d31d00.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a012fd-a563-7e30-9931-400045b98dae",
+      "title": "调研一下PAgent和这个Agent的关系，以及它们的是干嘛用的？[https://mkagent.app/](https://mkagent.app/)",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 753664,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-18T11-50-08-01a012fd-a563-7e30-9931-400045b98dae.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a012fd-b200-7521-9570-52c1e4991ab0",
+      "title": "调研一下PAgent和这个Agent的关系，以及它们的是干嘛用的？[https://mkagent.app/](https://mkagent.app/)",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 544768,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-18T11-50-11-01a012fd-b200-7521-9570-52c1e4991ab0.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a012fd-be6f-7320-ab08-737372a6eeb6",
+      "title": "调研一下PAgent和这个Agent的关系，以及它们的是干嘛用的？[https://mkagent.app/](https://mkagent.app/)",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 753664,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-18T11-50-14-01a012fd-be6f-7320-ab08-737372a6eeb6.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019c54f7-109a-7872-9a36-737e5676791a",
+      "title": "标题栏在移动端模式下，吸顶不生效了，看一下",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 524288,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-02-13T11-06-43-019c54f7-109a-7872-9a36-737e5676791a.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019c5c99-8437-7dc1-aed5-af4e5da18de2",
+      "title": "创建项目架构设计视图图谱潜在标题限制",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 98304,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-02-14T22-41-30-019c5c99-8437-7dc1-aed5-af4e5da18de2.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019c5c9b-58ab-7da0-aeca-60a2ac87a85c",
+      "title": "创建项目整体架构图布局方案」}??? Wait instructions",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1118208,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-02-14T22-43-30-019c5c9b-58ab-7da0-aeca-60a2ac87a85c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019c6197-fad0-7ab1-8d9a-cfa526286759",
+      "title": "初始化项目」} continuous? wait 这里 english",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1646592,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-02-15T21-57-56-019c6197-fad0-7ab1-8d9a-cfa526286759.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019c61c5-b982-7bf0-88ba-d19e8c9a2b91",
+      "title": "修复上传文件后页面卡死问题」} However instruction:",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 200704,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-02-15T22-47-53-019c61c5-b982-7bf0-88ba-d19e8c9a2b91.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019c85c1-8193-73f0-a1b2-c528f87b659d",
+      "title": "设计完整 agent 对话方案给出调研",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1007616,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-02-22T22-29-37-019c85c1-8193-73f0-a1b2-c528f87b659d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019cbd7a-e7ac-7741-a1e7-932699a1c004",
+      "title": "更新跟进文案推荐接口要求} ಚಿತ್ರ? Wait not closed",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 167936,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-03-05T18-11-14-019cbd7a-e7ac-7741-a1e7-932699a1c004.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019cbe3b-cc02-7062-8edc-0cec10d55f64",
+      "title": "/Users/xuhao/Documents/Other/mindspace_app/components/ui/ChannelAssistant.tsx  图标加大后，左侧的第一次引导位置也要校正",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 86016,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-03-05T21-41-55-019cbe3b-cc02-7062-8edc-0cec10d55f64.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019cbe3f-0c50-7770-8c7e-37eb2119f999",
+      "title": "/Users/xuhao/Documents/Other/mindspace_app/app/channel/item/[id].tsx 底部的 ai入口，从 ChannelAssistant 改为 现有的 chatinput组件，然后只读，点击直接跳转，跳转逻辑不变",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 479232,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-03-05T21-45-28-019cbe3f-0c50-7770-8c7e-37eb2119f999.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019cc85d-cce3-7491-b1ec-ecfe40aa82bc",
+      "title": "启动安卓真机调试项目请求帮助（18-36 chars?? maybe?）",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 65536,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-03-07T20-55-16-019cc85d-cce3-7491-b1ec-ecfe40aa82bc.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019cc881-0b8d-7f80-bc0c-e1881888b34f",
+      "title": "从现在开始我们开始进行安卓端的兼容，首先 agent 对话页面的底部 input 的阴影和键盘弹起时候的位置是不对的，底部安全区也不对。",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 221184,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-03-07T21-33-46-019cc881-0b8d-7f80-bc0c-e1881888b34f.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019cc884-90dd-79c1-b44a-596278d56bce",
+      "title": "Find orbit 安装其他机型方法",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 81920,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-03-07T21-37-37-019cc884-90dd-79c1-b44a-596278d56bce.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e23ff-eb57-7272-9a57-ba043d1f18bd",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 28672,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-00-35-019e23ff-eb57-7272-9a57-ba043d1f18bd.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e23ff-efa6-7370-9ca1-3dcbe63c6797",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 98304,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-00-36-019e23ff-efa6-7370-9ca1-3dcbe63c6797.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e2410-4db3-79b0-9db8-6515a550888c",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 28672,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-18-28-019e2410-4db3-79b0-9db8-6515a550888c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e2410-5234-7d01-a6c1-df3da92ff2f8",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 98304,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-18-29-019e2410-5234-7d01-a6c1-df3da92ff2f8.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e2417-9d20-78d0-b1d7-5ab723806c2b",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 28672,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-26-27-019e2417-9d20-78d0-b1d7-5ab723806c2b.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e2417-a163-7a23-9704-b5944143700d",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 98304,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-26-28-019e2417-a163-7a23-9704-b5944143700d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e2418-6591-7513-b278-5166ce979a83",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 28672,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-27-19-019e2418-6591-7513-b278-5166ce979a83.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e2418-6666-7162-8d18-853881397440",
+      "title": "Review the current code changes (staged, unstaged, and untracked files) and provide prioritized findings.",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 98304,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/14/rollout-2026-05-14T09-27-19-019e2418-6666-7162-8d18-853881397440.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019e442d-c600-7a90-b483-b6010d28e627",
+      "title": "完善 skill 广场功能",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 32768,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/05/20/rollout-2026-05-20T14-58-31-019e442d-c600-7a90-b483-b6010d28e627.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f2213-1709-70e0-bc1c-a27c1bb750d3",
+      "title": "梳理新用户记忆链路",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-02T17-05-04-019f2213-1709-70e0-bc1c-a27c1bb750d3.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f3b3f-1365-7353-9a98-5b841be59f6a",
+      "title": "019f3b3f-1365-7353-9a98-5b841be59f6a",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-07T14-23-37-019f3b3f-1365-7353-9a98-5b841be59f6a.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f3b46-99b3-7e51-b25c-4a58ee5beb12",
+      "title": "019f3b46-99b3-7e51-b25c-4a58ee5beb12",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-07T14-31-50-019f3b46-99b3-7e51-b25c-4a58ee5beb12.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f3b79-78aa-7750-b001-f59da0c8459c",
+      "title": "019f3b79-78aa-7750-b001-f59da0c8459c",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-07T15-27-24-019f3b79-78aa-7750-b001-f59da0c8459c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f3b93-6ffc-7c72-a57c-2e1c5e503f75",
+      "title": "只回复:ok",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 69632,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/07/rollout-2026-07-07T15-55-46-019f3b93-6ffc-7c72-a57c-2e1c5e503f75.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f3b98-a124-7d33-936c-4180a68fc384",
+      "title": "只回复:ok",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/07/rollout-2026-07-07T16-01-26-019f3b98-a124-7d33-936c-4180a68fc384.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f3b9e-144f-73b2-8127-b5defac2076a",
+      "title": "只回复:ok",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/07/rollout-2026-07-07T16-07-23-019f3b9e-144f-73b2-8127-b5defac2076a.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f3bed-26ad-7693-bfe5-90f6990f8aed",
+      "title": "019f3bed-26ad-7693-bfe5-90f6990f8aed",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-07T17-33-45-019f3bed-26ad-7693-bfe5-90f6990f8aed.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f407a-63c9-7a21-a2d4-dcf6ee81d554",
+      "title": "019f407a-63c9-7a21-a2d4-dcf6ee81d554",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 49152,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-08T14-46-30-019f407a-63c9-7a21-a2d4-dcf6ee81d554.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f407a-6beb-7950-8cc6-8653e5552f87",
+      "title": "019f407a-6beb-7950-8cc6-8653e5552f87",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-08T14-46-33-019f407a-6beb-7950-8cc6-8653e5552f87.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4098-2259-7800-b4a3-5397150a1919",
+      "title": "回复数字1",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-18-59-019f4098-2259-7800-b4a3-5397150a1919.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4098-7a85-74b2-88fb-0224b5e0909e",
+      "title": "回复数字2",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-19-22-019f4098-7a85-74b2-88fb-0224b5e0909e.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4098-b23d-7c73-bb72-4ffdadd1d9e1",
+      "title": "回复数字3",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-19-36-019f4098-b23d-7c73-bb72-4ffdadd1d9e1.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4098-da65-70a0-9696-f9eafd21ae88",
+      "title": "回复数字4",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-19-47-019f4098-da65-70a0-9696-f9eafd21ae88.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4099-0e2b-7ee3-9ad6-5d9a4f8a0183",
+      "title": "回复数字5",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-20-00-019f4099-0e2b-7ee3-9ad6-5d9a4f8a0183.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4099-4241-73f2-a01f-3742686ad497",
+      "title": "回复数字6",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 73728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-20-13-019f4099-4241-73f2-a01f-3742686ad497.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f409a-2cb7-72c3-a965-0243ed9f55c0",
+      "title": "用三句话解释 Rust 的所有权和借用机制,并给一个会编译报错的例子",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 90112,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-21-13-019f409a-2cb7-72c3-a965-0243ed9f55c0.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f409a-902e-7370-96d1-59934adde87e",
+      "title": "用三句话解释 Rust 的所有权和借用机制,并给一个会编译报错的例子",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 90112,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-21-39-019f409a-902e-7370-96d1-59934adde87e.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f409a-e092-7872-b5f5-e8f2c6b56d92",
+      "title": "用三句话解释 Rust 的所有权和借用机制,并给一个会编译报错的例子",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 90112,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-21-59-019f409a-e092-7872-b5f5-e8f2c6b56d92.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f409b-30b8-7d00-af8d-369df9c5a40b",
+      "title": "用三句话解释 Rust 的所有权和借用机制,并给一个会编译报错的例子",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 90112,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-22-20-019f409b-30b8-7d00-af8d-369df9c5a40b.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f40a1-768e-76d3-96e2-241b3a7e2617",
+      "title": "回复ok",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 98304,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/08/rollout-2026-07-08T15-29-11-019f40a1-768e-76d3-96e2-241b3a7e2617.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f411e-575c-7801-bf78-c834404f1fb0",
+      "title": "新增满人街活动页",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-08T17-45-35-019f411e-575c-7801-bf78-c834404f1fb0.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4121-0511-7f01-bbf2-91faa45c605d",
+      "title": "019f4121-0511-7f01-bbf2-91faa45c605d",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-08T17-48-30-019f4121-0511-7f01-bbf2-91faa45c605d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f419f-3431-75b2-8a87-f103860cd587",
+      "title": "019f419f-3431-75b2-8a87-f103860cd587",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-08T20-06-20-019f419f-3431-75b2-8a87-f103860cd587.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f41a8-9d4e-7292-878d-c505604b530d",
+      "title": "019f41a8-9d4e-7292-878d-c505604b530d",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-07-08T20-16-37-019f41a8-9d4e-7292-878d-c505604b530d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f42ff-9e21-7690-a627-60efe297ed5f",
+      "title": "每日工作回顾与状态更新草稿",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 36864,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/09/rollout-2026-07-09T02-31-16-019f42ff-9e21-7690-a627-60efe297ed5f.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f44ec-c396-7b43-8936-b3b68a7fc6db",
+      "title": "添加 waffo-verify meta",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/09/rollout-2026-07-09T11-29-55-019f44ec-c396-7b43-8936-b3b68a7fc6db.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4995-00c1-7a91-a536-1a8b17ffe9f0",
+      "title": "帮我获取一下GPT昨晚发布会的一些相关内容。如果涉要多个模型的话，告诉我每个模型的定位是什么，给我总结一下。",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 45056,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/10/rollout-2026-07-10T09-12-09-019f4995-00c1-7a91-a536-1a8b17ffe9f0.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019f4b27-4eea-76a3-846e-d3f3de4b7c08",
+      "title": "https://docs.xiaohongshu.com/doc/5c148cfe5fa18ea06e1842757f…",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 40960,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/07/10/rollout-2026-07-10T16-31-35-019f4b27-4eea-76a3-846e-d3f3de4b7c08.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019fc666-9083-7cc0-9e1b-62e8d5daf8d3",
+      "title": "设计中国城市线路地图游戏",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 94138368,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-03T14-53-58-019fc666-9083-7cc0-9e1b-62e8d5daf8d3.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019fd635-3751-7b30-ab8e-9252307112f2",
+      "title": "翻译杨浦区雍景苑英文地址",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 413696,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-06T16-33-59-019fd635-3751-7b30-ab8e-9252307112f2.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019fdb83-e643-75e1-8a8e-72949a78cb04",
+      "title": "查找汇丰香港转账入金嘉信流程",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 3657728,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-07T17-18-02-019fdb83-e643-75e1-8a8e-72949a78cb04.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019feeed-2aa8-7e42-afde-f2570a94509b",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 65536,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/11/rollout-2026-08-11T11-45-48-019feeed-2aa8-7e42-afde-f2570a94509b.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019ff3c3-d88e-7971-a406-803fd6e44f8b",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 241664,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/12/rollout-2026-08-12T10-18-46-019ff3c3-d88e-7971-a406-803fd6e44f8b.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019ff402-5eb7-7952-aa5c-df1f3a406df7",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 81920,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/12/rollout-2026-08-12T11-27-03-019ff402-5eb7-7952-aa5c-df1f3a406df7.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019ff49c-88a3-71a3-a4ad-b866e5fd3e6b",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 151552,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/12/rollout-2026-08-12T14-15-27-019ff49c-88a3-71a3-a4ad-b866e5fd3e6b.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019ff4c9-300b-79c1-bde6-96c558456b76",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 516096,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/12/rollout-2026-08-12T15-04-13-019ff4c9-300b-79c1-bde6-96c558456b76.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019ff5be-5845-7ff1-9e45-a2ba11d35d8c",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 114688,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/12/rollout-2026-08-12T19-32-00-019ff5be-5845-7ff1-9e45-a2ba11d35d8c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "019ffef1-3573-7380-8299-e4d66c0c81dc",
+      "title": "比较QQQ与QQQM投资标的",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 434176,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-14T14-24-08-019ffef1-3573-7380-8299-e4d66c0c81dc.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00ee2-8dfc-7ae3-a9d9-c4215e4fd62d",
+      "title": "调研胎儿肺隔离症自愈概率",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 2134016,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T16-42-03-01a00ee2-8dfc-7ae3-a9d9-c4215e4fd62d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00f0d-ec04-7c92-b7b6-d5536eb0cbd2",
+      "title": "查找汇丰基金对应QQQ VOO VGT",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 3342336,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T17-29-25-01a00f0d-ec04-7c92-b7b6-d5536eb0cbd2.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a00f14-cfac-73e3-9d6a-fe815e45c1b4",
+      "title": "实时语音聊天",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 49152,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-17T17-36-57-01a00f14-cfac-73e3-9d6a-fe815e45c1b4.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a012fb-cb9e-7333-bba3-648684144d19",
+      "title": "调研 PAgent 与 mkagent",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 634880,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-18T11-48-06-01a012fb-cb9e-7333-bba3-648684144d19.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a01dea-c799-7c62-8287-9d6dd8617556",
+      "title": "调研 macOS 端智能方向",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 684032,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-20T14-45-20-01a01dea-c799-7c62-8287-9d6dd8617556.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a01e2b-3729-7041-b5f5-c0437a4e112c",
+      "title": "【需求3】托管方式支持",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 43479040,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-20T15-55-43-01a01e2b-3729-7041-b5f5-c0437a4e112c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a02362-6daf-7033-a741-27ceb67e1746",
+      "title": "分析学区与成本",
+      "action": "none",
+      "before_allocated_bytes": 6823936,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-21T16-14-08-01a02362-6daf-7033-a741-27ceb67e1746.jsonl",
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-21T16-22-20-01a02362-6daf-7033-a741-27ceb67e1746_01a02369-f236-7022-a717-d35bdcdc5ef7.jsonl"
+      ],
+      "status": "skipped_shared_immutable_rollout_id",
+      "retained_unindexed_links": [
+        {
+          "immutable_rollout_id": "01a02369-f236-7022-a717-d35bdcdc5ef7",
+          "retained_path": "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-21T16-22-20-1ddcfe81-fb61-590b-a802-e9a589d976cf_01a02369-f236-7022-a717-d35bdcdc5ef7.jsonl"
+        }
+      ]
+    },
+    {
+      "id": "01a03bfa-aaa9-7381-8215-e61a6bb937d5",
+      "title": "评估基金赎回避险建议",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1519616,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-26T10-51-18-01a03bfa-aaa9-7381-8215-e61a6bb937d5.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a03c27-d557-7411-9e7b-796954353f23",
+      "title": "【需求2】风险中心改版",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 91893760,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-26T11-40-38-01a03c27-d557-7411-9e7b-796954353f23.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a03cdc-3cc2-78f0-9c2e-923232bcea72",
+      "title": "查找美国账户注册代码",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 999424,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-26T14-57-41-01a03cdc-3cc2-78f0-9c2e-923232bcea72.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a03d01-8058-7783-b503-a6fefaaf3992",
+      "title": "分析散粒肿成因与复发",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 5726208,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-26T15-38-23-01a03d01-8058-7783-b503-a6fefaaf3992.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a041eb-f658-7703-a684-c10a9ff12a4b",
+      "title": "分析英特尔市值增长潜力",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 3133440,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-27T14-32-58-01a041eb-f658-7703-a684-c10a9ff12a4b.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0425b-018b-7183-a4ba-485be4839308",
+      "title": "评估订阅额度共享池方案",
+      "action": "none",
+      "before_allocated_bytes": 16080896,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-27T16-34-15-01a0425b-018b-7183-a4ba-485be4839308.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a0425d-8715-7f40-a946-6e81eb9df21d",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1118208
+        },
+        {
+          "id": "01a0425d-a686-7a32-8c07-d29545c01d67",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 884736
+        },
+        {
+          "id": "01a0425d-b9a5-7f01-aaed-f712bf6c1612",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 974848
+        }
+      ]
+    },
+    {
+      "id": "01a0426a-f14f-7243-885e-1bbef4cbb49b",
+      "title": "分析嘉信美股投资讨论",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 991232,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-27T16-51-40-01a0426a-f14f-7243-885e-1bbef4cbb49b.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0427f-f744-7082-a0df-6e002d5f74bc",
+      "title": "梳理博主提到的 Skills",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 798720,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-27T17-14-37-01a0427f-f744-7082-a0df-6e002d5f74bc.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0430b-1823-7da3-8c66-813d45d79d4d",
+      "title": "查找 GL5.3 Fresh 国产卡厂商",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 569344,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-27T19-46-35-01a0430b-1823-7da3-8c66-813d45d79d4d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0462d-d971-7372-8980-cee18829b60c",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 917504,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-28T10-23-25-01a0462d-d971-7372-8980-cee18829b60c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a05556-3d98-7823-a583-07031ca035c5",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1462272,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-31T09-01-50-01a05556-3d98-7823-a583-07031ca035c5.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0558c-2480-76d0-b2df-8b23fc8b98de",
+      "title": "查找瑞芯微股票代码",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 737280,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-08-31T10-00-42-01a0558c-2480-76d0-b2df-8b23fc8b98de.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a055ed-7a9c-7f52-9da2-440354e0166f",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 131072,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/31/rollout-2026-08-31T11-47-01-01a055ed-7a9c-7f52-9da2-440354e0166f.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a05791-8282-77a2-8e21-023c0ce6b62c",
+      "title": "Guardian review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 229376,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/08/31/rollout-2026-08-31T19-25-49-01a05791-8282-77a2-8e21-023c0ce6b62c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a05a7b-35a8-7061-979c-d554c14e4ad3",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 5066752,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-01T09-00-19-01a05a7b-35a8-7061-979c-d554c14e4ad3.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a05fa2-6072-7b43-ab8a-8f258636dcdd",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1507328,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-02T09-01-12-01a05fa2-6072-7b43-ab8a-8f258636dcdd.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a061eb-4eb3-7ea2-8fe0-351912b4f871",
+      "title": "查找持仓信息来源",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1077248,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-02T19-40-06-01a061eb-4eb3-7ea2-8fe0-351912b4f871.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a064c9-2333-7480-82dc-1fbcfa0e02ad",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 5603328,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-03T09-01-38-01a064c9-2333-7480-82dc-1fbcfa0e02ad.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0664f-3b8c-7bb2-a78a-e44b52f7acfb",
+      "title": "排查汇丰账户关联报错",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 2453504,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-03T16-07-43-01a0664f-3b8c-7bb2-a78a-e44b52f7acfb.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a06694-1437-7fa3-9bb8-de130803e328",
+      "title": "梳理AI产业分层与投资判断",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 512000,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-03T17-22-55-01a06694-1437-7fa3-9bb8-de130803e328.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a066a9-5525-76e1-97d7-5912b981941f",
+      "title": "Upgrade Nezu pet directions",
+      "action": "none",
+      "before_allocated_bytes": 14983168,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-03T17-46-08-01a066a9-5525-76e1-97d7-5912b981941f.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a066aa-ff06-7603-b8df-ecc23432a3e3",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1847296
+        },
+        {
+          "id": "01a066ab-bf3c-7162-b9a9-6d64b341132b",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 14667776
+        },
+        {
+          "id": "01a066af-49de-7fe1-bafc-1335b960a130",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 20914176
+        },
+        {
+          "id": "01a066b2-8b3c-7b20-b3ac-62ebf790e6c1",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 49676288
+        },
+        {
+          "id": "01a066bd-7b36-71b0-add4-4f312a29ef55",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 2809856
+        },
+        {
+          "id": "01a066bd-96e8-78a0-b90f-1acf6ecfa924",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 5668864
+        },
+        {
+          "id": "01a066bd-b3d9-7872-8a3e-f71f4b14887d",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 5365760
+        },
+        {
+          "id": "01a066c1-7bcc-7353-84fa-561946683bf6",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 4988928
+        },
+        {
+          "id": "01a066c1-9f21-7d72-9d94-6620926751a9",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 4800512
+        },
+        {
+          "id": "01a066cb-14e9-75b2-8a89-ed6b048e99df",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 2781184
+        },
+        {
+          "id": "01a066cb-2f31-76b3-a2b2-a959a18101e9",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 2781184
+        },
+        {
+          "id": "01a066cb-4849-7571-83b2-833cca9d33ff",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 2785280
+        },
+        {
+          "id": "01a066cd-174f-7ad1-ab2a-4a28ed557905",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 13586432
+        }
+      ]
+    },
+    {
+      "id": "01a066b0-7128-79c0-b176-4da2d9dde164",
+      "title": "排查电脑卡顿原因",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 499712,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-03T17-53-54-01a066b0-7128-79c0-b176-4da2d9dde164.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a06715-0ecc-7631-8724-5918b78a4aab",
+      "title": "同步 main 并创建开发分支",
+      "action": "none",
+      "before_allocated_bytes": 27410432,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-03T19-43-48-01a06715-0ecc-7631-8724-5918b78a4aab.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a06b6f-0f3e-7a83-99e8-7f22f832bb08",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1511424
+        },
+        {
+          "id": "01a06b6f-2b32-7a32-a784-d0592e3ab9cf",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1286144
+        }
+      ]
+    },
+    {
+      "id": "01a069ef-26e6-7240-95d3-9cd911af726f",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1806336,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-04T09-01-15-01a069ef-26e6-7240-95d3-9cd911af726f.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a06b7d-cfec-7bf3-b0cf-1bac5f4e0075",
+      "title": "修复风险中心时间与文案",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 18735104,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-04T16-16-42-01a06b7d-cfec-7bf3-b0cf-1bac5f4e0075.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0749f-238c-7481-8712-4b0017f15824",
+      "title": "将所有窗口移到主屏幕",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 843776,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-06T10-49-41-01a0749f-238c-7481-8712-4b0017f15824.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a074ab-eab9-7321-a3ce-0a4edda0aac0",
+      "title": "获取粉丝团需求并制定方案",
+      "action": "none",
+      "before_allocated_bytes": 46469120,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-06T11-03-39-01a074ab-eab9-7321-a3ce-0a4edda0aac0.jsonl",
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-15T15-58-13-01a074ab-eab9-7321-a3ce-0a4edda0aac0_01a0a412-d841-7710-9192-c1da84c03100.jsonl"
+      ],
+      "status": "skipped_shared_immutable_rollout_id",
+      "retained_unindexed_links": [
+        {
+          "immutable_rollout_id": "01a0a412-d841-7710-9192-c1da84c03100",
+          "retained_path": "/Users/xuhao/.codex/sessions/2026/09/15/rollout-2026-09-15T15-58-13-a1bece9b-82d9-5624-9cfe-44f5fa3005cc_01a0a412-d841-7710-9192-c1da84c03100.jsonl"
+        }
+      ]
+    },
+    {
+      "id": "01a07962-4e56-7bb2-844f-a590313e8793",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 864256,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-07T09-01-20-01a07962-4e56-7bb2-844f-a590313e8793.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a07e88-5069-76a3-82cb-7180db2770e1",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 475136,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-08T09-00-57-01a07e88-5069-76a3-82cb-7180db2770e1.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a07f04-e6c7-7660-a67f-f9d516b56252",
+      "title": "轻量化埋点默认值",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1683456,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-08T11-17-02-01a07f04-e6c7-7660-a67f-f9d516b56252.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08002-5ca0-7ac3-b02f-3d7b76c2fab6",
+      "title": "查找 FDE 主要技术栈",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 4878336,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-08T15-53-53-01a08002-5ca0-7ac3-b02f-3d7b76c2fab6.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0806f-0155-77c1-a1a4-9a920c7dbd16",
+      "title": "优化创业 CEO 自我介绍",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 155648,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-08T17-52-33-01a0806f-0155-77c1-a1a4-9a920c7dbd16.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a080bf-e689-70c1-8982-59de7e431d14",
+      "title": "抽象链路并拆分笔记",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 9699328,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-08T19-20-55-01a080bf-e689-70c1-8982-59de7e431d14.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a083af-b34f-7b40-99a0-c063bc518535",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1236992,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T09-02-05-01a083af-b34f-7b40-99a0-c063bc518535.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a084cb-b7e3-7f41-9420-e0de265cfca2",
+      "title": "回顾计算机历史与工作习惯",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 577536,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T14-12-18-01a084cb-b7e3-7f41-9420-e0de265cfca2.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a084cc-3a3b-70f1-b64b-92272393b985",
+      "title": "调研 FDE 企业知识库 RAG 方案",
+      "action": "none",
+      "before_allocated_bytes": 4890624,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T14-12-51-01a084cc-3a3b-70f1-b64b-92272393b985.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a08500-ac08-7840-85fc-fc2f971e48ee",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 884736
+        },
+        {
+          "id": "01a08500-d007-7c11-92a2-4362a3d7cc32",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 602112
+        }
+      ]
+    },
+    {
+      "id": "01a084de-1fe8-7670-89c2-69f3b03e3982",
+      "title": "查找企业级 FED 与 Agent Harness 资料",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 675840,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T14-32-24-01a084de-1fe8-7670-89c2-69f3b03e3982.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a084ed-84f1-7283-b012-b1ad5d8b0336",
+      "title": "分析 Marc Lou 创业项目",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 442368,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T14-49-13-01a084ed-84f1-7283-b012-b1ad5d8b0336.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0851c-13d3-7212-ad35-07331cf92c57",
+      "title": "查询入口CTR及PV UV",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 10264576,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T15-40-05-01a0851c-13d3-7212-ad35-07331cf92c57.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08584-f733-73c0-98af-5a7200974b51",
+      "title": "启动 PiAgent 和 MkAgent",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 2056192,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T17-34-38-01a08584-f733-73c0-98af-5a7200974b51.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0859a-c322-7712-a67a-be6d7272dda1",
+      "title": "调研小红书内部 FDE 机会",
+      "action": "none",
+      "before_allocated_bytes": 143953920,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T17-58-27-01a0859a-c322-7712-a67a-be6d7272dda1.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a0859c-08b9-7fe2-9b3c-03b1b5a2a44a",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1409024
+        },
+        {
+          "id": "01a0859c-24fa-7d43-89cb-5be0e5ff4c33",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1015808
+        },
+        {
+          "id": "01a085ee-379a-7ad1-bee7-fb91e5a50640",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 724992
+        },
+        {
+          "id": "01a085ee-c37e-7283-9de7-c36ab1ecfba7",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 389120
+        },
+        {
+          "id": "01a085ef-306d-7351-9668-eff6ccc0a6e2",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 909312
+        },
+        {
+          "id": "01a08a91-bfee-7350-92bc-4e54d784cb27",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 18804736
+        },
+        {
+          "id": "01a08a91-e96e-7df0-9fa0-1e6f6b75f18a",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 8744960
+        },
+        {
+          "id": "01a08a92-ad47-7512-ab91-bd46d200ebbb",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 9060352
+        },
+        {
+          "id": "01a08e6a-32b3-70f2-b612-f9aa274699c8",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 8282112
+        },
+        {
+          "id": "01a08e85-1e77-7f00-855f-d3b0d03cbc7a",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 12115968
+        },
+        {
+          "id": "01a09dad-479c-7040-adee-6a26de79328f",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 4349952
+        },
+        {
+          "id": "01a09dad-77fa-7022-be56-8e818c64a2ac",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 3608576
+        },
+        {
+          "id": "01a09db1-11fe-7c61-ba56-884294945334",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 3579904
+        }
+      ]
+    },
+    {
+      "id": "01a08611-ea56-7513-ae65-102be5ccfe0f",
+      "title": "澄清NEX定位并完善运行流程",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 749568,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-09T20-08-36-01a08611-ea56-7513-ae65-102be5ccfe0f.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a088d5-430b-7411-a0fe-0b31d479087c",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1331200,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-10T09-01-12-01a088d5-430b-7411-a0fe-0b31d479087c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08946-db15-7963-8aa6-429820beee34",
+      "title": "调研折叠屏出海应用机会",
+      "action": "none",
+      "before_allocated_bytes": 5111808,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-10T11-05-17-01a08946-db15-7963-8aa6-429820beee34.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a08949-6902-7880-a281-17a0cd81a965",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 462848
+        },
+        {
+          "id": "01a08949-89d2-71e2-a088-045810dc6159",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 585728
+        },
+        {
+          "id": "01a08949-a8a9-7e42-a4e3-97cc32af02c1",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 401408
+        }
+      ]
+    },
+    {
+      "id": "01a08958-debe-7bb2-9d40-6718c6929f01",
+      "title": "使用清理 CLI 清理 Mac",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1196032,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-10T11-24-58-01a08958-debe-7bb2-9d40-6718c6929f01.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08959-71c9-7321-8d50-b0bed3d93f7f",
+      "title": "分析基金",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 9945088,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-10T11-25-35-01a08959-71c9-7321-8d50-b0bed3d93f7f.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08dfb-135e-7151-bfd2-ae03a17b7b68",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 139264,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-11T09-00-37-01a08dfb-135e-7151-bfd2-ae03a17b7b68.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08e6e-e371-7c10-8fce-7d55e78d30e0",
+      "title": "排查 MR 合并后构建发布",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 360448,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-11T11-07-07-01a08e6e-e371-7c10-8fce-7d55e78d30e0.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08f56-91af-70e1-a3e4-3b2e86847227",
+      "title": "记录端开发转型学习路径",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 552960,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-11T15-20-10-01a08f56-91af-70e1-a3e4-3b2e86847227.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a08ff1-6ea2-77f0-a011-b0fd26f6c020",
+      "title": "复现 StoryComet 网站能力",
+      "action": "none",
+      "before_allocated_bytes": 135311360,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-11T18-09-19-01a08ff1-6ea2-77f0-a011-b0fd26f6c020.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a08ff5-314a-78c3-9a4f-7c5bd157ee91",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1138688
+        },
+        {
+          "id": "01a08ff5-60ac-7393-b265-85da034b478a",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1384448
+        },
+        {
+          "id": "01a09dbb-e45e-7612-a568-45e0beee293b",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 544768
+        },
+        {
+          "id": "01a09dbc-c5c5-73d1-bf84-f6d1fd053c60",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 503808
+        },
+        {
+          "id": "01a09dd8-b6c5-7830-a951-e64917158603",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 487424
+        },
+        {
+          "id": "01a09dd8-ecb5-7840-8566-5761da621b67",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 987136
+        },
+        {
+          "id": "01a09dd9-1d45-7b92-9646-eb2f7023e6ac",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 790528
+        },
+        {
+          "id": "01a09de9-0ffe-7da0-9b91-4c4e2696a60e",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 602112
+        },
+        {
+          "id": "01a09de9-3eb6-7083-874e-e40cb0b2a086",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 421888
+        },
+        {
+          "id": "01a09f31-8c16-72e0-bf20-910f2618acfa",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 868352
+        },
+        {
+          "id": "01a09f31-caf9-77a2-9284-85666ac5252d",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1044480
+        }
+      ]
+    },
+    {
+      "id": "01a09d6e-df3b-7393-953d-d0d34dc9b495",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1306624,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-14T09-01-24-01a09d6e-df3b-7393-953d-d0d34dc9b495.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a09dc2-e43b-7b82-9c63-c665163743cb",
+      "title": "添加繁体字与台湾地铁信息",
+      "action": "none",
+      "before_allocated_bytes": 22536192,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-14T10-33-10-01a09dc2-e43b-7b82-9c63-c665163743cb.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a09dc6-e65f-7643-a1ff-7cf1d29d4e1b",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 827392
+        },
+        {
+          "id": "01a09de7-90a0-7630-ae34-faf45e8438c2",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 348160
+        },
+        {
+          "id": "01a09ea5-93e3-7121-b865-00bbf19df18c",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 897024
+        },
+        {
+          "id": "01a09ea5-c463-7bd0-aac4-a1fd2349dbbc",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 798720
+        }
+      ]
+    },
+    {
+      "id": "01a09eef-5022-7972-8568-dcd605f9da15",
+      "title": "继续完成 Creem 注册",
+      "action": "none",
+      "before_allocated_bytes": 49676288,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-14T16-01-18-01a09eef-5022-7972-8568-dcd605f9da15.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a0b233-462d-7fc0-9240-59c1a86137e4",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1982464
+        },
+        {
+          "id": "01a0b235-fd4a-75f3-8d98-9f66c648bd59",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1187840
+        }
+      ]
+    },
+    {
+      "id": "01a09eff-746e-7a02-a82c-7d16333bc3a6",
+      "title": "调研国内OPC公司注册",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 405504,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-14T16-18-56-01a09eff-746e-7a02-a82c-7d16333bc3a6.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a09f29-c535-7af3-94eb-103d826b3d70",
+      "title": "UI",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 63414272,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-14T17-05-09-01a09f29-c535-7af3-94eb-103d826b3d70.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a09f9c-685f-74c3-9d1d-87795b82bd13",
+      "title": "调研儿童单词学习平台",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1712128,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-14T19-10-22-01a09f9c-685f-74c3-9d1d-87795b82bd13.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0a295-d9bb-7d11-a437-10b87c37319d",
+      "title": "Codex Experience Review",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 1060864,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-15T09-02-04-01a0a295-d9bb-7d11-a437-10b87c37319d.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0a32d-14ad-75d0-b5d0-351af466b040",
+      "title": "RAG",
+      "action": "none",
+      "before_allocated_bytes": 14364672,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-15T11-47-41-01a0a32d-14ad-75d0-b5d0-351af466b040_01a0a32d-79a9-7250-9005-177534581924.jsonl",
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-15T11-47-15-01a0a32d-14ad-75d0-b5d0-351af466b040.jsonl"
+      ],
+      "status": "skipped_shared_immutable_rollout_id",
+      "retained_unindexed_links": [
+        {
+          "immutable_rollout_id": "01a0a32d-79a9-7250-9005-177534581924",
+          "retained_path": "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-15T11-47-41-92720ca3-a098-5857-baa4-a2cdf3e3da3a_01a0a32d-79a9-7250-9005-177534581924.jsonl"
+        }
+      ]
+    },
+    {
+      "id": "01a0a3b2-c6ea-71b3-b478-e279edc1378c",
+      "title": "溯源能力",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 12967936,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-15T14-13-17-01a0a3b2-c6ea-71b3-b478-e279edc1378c.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0c33c-354c-77d1-8855-4d6853bd6b49",
+      "title": "我安装完了，它这些功能都干嘛的？ This information is used to shape the CLI…",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 122880,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-21T17-11-38-01a0c33c-354c-77d1-8855-4d6853bd6b49.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a0c346-1a02-7b73-b39f-fef2b5e79e4a",
+      "title": "我想跑一个jev的demo，https://vercel.com/webxuhao00-9310s-projects/…",
+      "action": "native_thread_delete",
+      "before_allocated_bytes": 122880,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/archived_sessions/rollout-2026-09-21T17-22-26-01a0c346-1a02-7b73-b39f-fef2b5e79e4a.jsonl"
+      ],
+      "status": "deleted_verified",
+      "after_allocated_bytes": 0,
+      "state_row_absent": true,
+      "rollouts_absent": true
+    },
+    {
+      "id": "01a11ada-bed3-72c3-9742-2132a6de13ff",
+      "title": "评估 BeamJoin 产品并提出建议",
+      "action": "none",
+      "before_allocated_bytes": 16535552,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/10/08/rollout-2026-10-08T17-31-45-01a11ada-bed3-72c3-9742-2132a6de13ff.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a11adb-48d2-72e3-a3e6-0a6e9b273eb8",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 7970816
+        },
+        {
+          "id": "01a11adb-65ed-7620-9d33-88af1615b93b",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 8282112
+        },
+        {
+          "id": "01a11adb-80f6-75d1-96ac-2f8a81e36b69",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 5615616
+        },
+        {
+          "id": "01a11c21-5ec4-72e2-b7de-719530c9f0e9",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1462272
+        },
+        {
+          "id": "01a11c21-921a-7de3-98aa-d890de32f02a",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1695744
+        },
+        {
+          "id": "01a11c21-bb1b-7dc2-8dbb-e8284938035d",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1843200
+        }
+      ]
+    },
+    {
+      "id": "01a11e34-390a-7772-acbe-24a621396802",
+      "title": "查询营销托管弹窗埋点数据",
+      "action": "none",
+      "before_allocated_bytes": 0,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/10/09/rollout-2026-10-09T09-08-21-01a11e34-390a-7772-acbe-24a621396802.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a11e34-82c1-77f2-a042-fbceadba3237",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 4059136
+        }
+      ]
+    },
+    {
+      "id": "01a11e70-786f-7862-873c-b039ee83b6bf",
+      "title": "修复自由绘制卡死",
+      "action": "none",
+      "before_allocated_bytes": 34725888,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/10/09/rollout-2026-10-09T10-14-09-01a11e70-786f-7862-873c-b039ee83b6bf.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a11e70-c96e-77e2-92eb-8507ce6a1fc1",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 19714048
+        },
+        {
+          "id": "01a11e73-a8dd-7ce0-a63a-af41e0f9f745",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 25763840
+        },
+        {
+          "id": "01a11e86-7c48-7292-adf3-a6f8fc0d99c5",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 18157568
+        }
+      ]
+    },
+    {
+      "id": "01a11e89-c31c-7053-b2ca-e0a3e6326655",
+      "title": "收窄列表留白",
+      "action": "none",
+      "before_allocated_bytes": 0,
+      "rollout_paths": [
+        "/Users/xuhao/.codex/sessions/2026/10/09/rollout-2026-10-09T10-41-47-01a11e89-c31c-7053-b2ca-e0a3e6326655.jsonl"
+      ],
+      "status": "skipped_unapproved_descendants",
+      "unapproved_descendants": [
+        {
+          "id": "01a11e8a-2e71-7c21-ae72-d8653245e08f",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1351680
+        },
+        {
+          "id": "01a11e8e-7698-7c62-8911-8fb2b261c0c0",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 3567616
+        },
+        {
+          "id": "01a11f5c-9169-7212-b84c-4c027fb7bf48",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 1896448
+        },
+        {
+          "id": "01a11fa8-fb6f-7c32-8435-6132c90d4058",
+          "title": "[异常标题已保留，未展开原始文本]",
+          "rollout_allocated_bytes": 2748416
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "indexed_threads_after": 124,
+    "original_kept_ids_still_present": true,
+    "preserve_correction_ids_still_present": true,
+    "all_preexisting_unapproved_ids_still_present": true,
+    "protected_rollout_paths_still_exist": true,
+    "unindexed_rollouts_still_exist": true,
+    "unindexed_rollout_sizes_unchanged": true,
+    "authentication_hash_unchanged": true,
+    "sqlite_quick_check": [
+      "ok"
+    ],
+    "native_mcp_list_threads_online_after": true
+  },
+  "summary": {
+    "approved_count": 141,
+    "processed_count": 141,
+    "deleted_count": 125,
+    "skipped_count": 16,
+    "failed_count": 0,
+    "verified_rollout_allocated_reduction_bytes": 440918016
+  },
+  "initialize_ok": true,
+  "native_before_count": 205,
+  "native_after_count": 87,
+  "native_deleted_ids_still_listed": [],
+  "native_process_exit": 0,
+  "native_source_commit": "a956835d020762cb2b570053af06f643a11c0ecc",
+  "native_schema_paths": [
+    "/tmp/codex-schema-storage-20261009/v2/ThreadDeleteParams.json",
+    "/tmp/codex-schema-storage-20261009/v2/ThreadDeleteResponse.json"
+  ],
+  "skipped_total_allocated_bytes": 538873856
+}

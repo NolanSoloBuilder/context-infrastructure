@@ -1,0 +1,80 @@
+[
+  {
+    "path": "/Users/xuhao/Library/Android/sdk/platforms",
+    "operation": "remove_explicit_authorized_sdk_package_tree",
+    "before_size_bytes": 140648448,
+    "after_exists": false,
+    "package_ids": [
+      "platforms;android-36"
+    ],
+    "elapsed_seconds": 6.09,
+    "status": "removed"
+  },
+  {
+    "path": "/Users/xuhao/Library/Android/sdk/build-tools",
+    "operation": "remove_explicit_authorized_sdk_package_tree",
+    "before_size_bytes": 392540160,
+    "after_exists": false,
+    "package_ids": [
+      "build-tools;36.0.0",
+      "build-tools;35.0.0"
+    ],
+    "elapsed_seconds": 0.17,
+    "status": "removed"
+  },
+  {
+    "path": "/Users/xuhao/Library/Android/sdk/ndk",
+    "operation": "remove_explicit_authorized_sdk_package_tree",
+    "before_size_bytes": 2585587712,
+    "after_exists": false,
+    "package_ids": [
+      "ndk;27.1.12297006"
+    ],
+    "elapsed_seconds": 13.12,
+    "status": "removed"
+  },
+  {
+    "path": "/Users/xuhao/Library/Android/sdk/emulator",
+    "operation": "remove_explicit_authorized_sdk_package_tree",
+    "before_size_bytes": 1013620736,
+    "after_exists": false,
+    "package_ids": [
+      "emulator"
+    ],
+    "elapsed_seconds": 0.21,
+    "status": "removed"
+  },
+  {
+    "path": "/Users/xuhao/Library/Android/sdk/system-images",
+    "operation": "remove_explicit_authorized_sdk_package_tree",
+    "before_size_bytes": 2405351424,
+    "after_exists": false,
+    "package_ids": [
+      "system-images;android-36;google_apis_playstore;arm64-v8a"
+    ],
+    "elapsed_seconds": 0.08,
+    "status": "removed"
+  },
+  {
+    "path": "/Users/xuhao/Library/Android/sdk/sources",
+    "operation": "remove_explicit_authorized_sdk_package_tree",
+    "before_size_bytes": 250511360,
+    "after_exists": false,
+    "package_ids": [
+      "sources;android-36"
+    ],
+    "elapsed_seconds": 6.09,
+    "status": "removed"
+  },
+  {
+    "path": "/Users/xuhao/Library/Android/sdk/cmake",
+    "operation": "remove_explicit_authorized_sdk_package_tree",
+    "before_size_bytes": 98865152,
+    "after_exists": false,
+    "package_ids": [
+      "cmake;3.22.1"
+    ],
+    "elapsed_seconds": 1.04,
+    "status": "removed"
+  }
+]

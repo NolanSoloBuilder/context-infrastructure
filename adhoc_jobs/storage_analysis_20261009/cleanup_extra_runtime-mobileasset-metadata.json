@@ -1,0 +1,49 @@
+{
+  "asset_root": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset",
+  "asset_directory_entries": [
+    "AssetData",
+    "Info.plist",
+    "version.plist"
+  ],
+  "metadata": [
+    {
+      "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/Info.plist",
+      "top_level_keys": [
+        "CFBundleIdentifier",
+        "CFBundleInfoDictionaryVersion",
+        "CFBundleName",
+        "CFBundleShortVersionString",
+        "CFBundleVersion",
+        "MobileAssetProperties",
+        "_DisableAFSCCompression"
+      ],
+      "values": {
+        "MobileAssetProperties": {
+          "Build": "22E238"
+        }
+      }
+    },
+    {
+      "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/version.plist",
+      "top_level_keys": [
+        "BuildVersion",
+        "CFBundleShortVersionString",
+        "CFBundleVersion",
+        "ProjectName",
+        "SourceVersion"
+      ],
+      "values": {
+        "BuildVersion": "13115"
+      }
+    }
+  ],
+  "native_asset_related_tools": [
+    "/usr/bin/AssetCacheManagerUtil",
+    "/usr/bin/AssetCacheTetheratorUtil",
+    "/usr/bin/assetutil",
+    "/usr/bin/AssetCacheLocatorUtil",
+    "/Applications/Xcode.app/Contents/Developer/usr/bin/mlassetc",
+    "/Applications/Xcode.app/Contents/Developer/usr/bin/backgroundassets-debug",
+    "/Applications/Xcode.app/Contents/Developer/usr/bin/copySceneKitAssets"
+  ]
+}

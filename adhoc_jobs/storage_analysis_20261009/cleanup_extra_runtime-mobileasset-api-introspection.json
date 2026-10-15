@@ -1,0 +1,140 @@
+{
+  "MAAsset": {
+    "present": true,
+    "relevant_selectors": [
+      {
+        "selector": "assetType",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "initWithAttributes:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "selector": "state",
+        "encoding": "q16@0:8"
+      },
+      {
+        "selector": "attributes",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "assetId",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "purge:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "selector": "getLocalFileUrl",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "purgeSync",
+        "encoding": "q16@0:8"
+      },
+      {
+        "selector": "refreshState",
+        "encoding": "B16@0:8"
+      },
+      {
+        "selector": "wasLocal",
+        "encoding": "B16@0:8"
+      },
+      {
+        "selector": "wasPurgeable",
+        "encoding": "B16@0:8"
+      },
+      {
+        "selector": "absoluteAssetId",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "purgeWithError:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "selector": "getLocalFilePath",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "getLocalUrl",
+        "encoding": "@16@0:8"
+      }
+    ]
+  },
+  "MAAssetQuery": {
+    "present": true,
+    "relevant_selectors": [
+      {
+        "selector": "resultCode",
+        "encoding": "q16@0:8"
+      },
+      {
+        "selector": "assetType",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "returnTypes:",
+        "encoding": "v24@0:8q16"
+      },
+      {
+        "selector": "initWithType:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "selector": "queryMetaDataWithError:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "selector": "results",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "getResultsFromMessage:",
+        "encoding": "v24@0:8@16"
+      },
+      {
+        "selector": "assetIds",
+        "encoding": "@16@0:8"
+      },
+      {
+        "selector": "queryInstalledAssetIds",
+        "encoding": "q16@0:8"
+      },
+      {
+        "selector": "initWithType:andPurpose:",
+        "encoding": "@32@0:8@16@24"
+      },
+      {
+        "selector": "augmentResultsWithState:",
+        "encoding": "v20@0:8B16"
+      },
+      {
+        "selector": "queryMetaDataSync",
+        "encoding": "q16@0:8"
+      },
+      {
+        "selector": "queryMetaData:",
+        "encoding": "v24@0:8@?16"
+      },
+      {
+        "selector": "returnTypes",
+        "encoding": "q16@0:8"
+      },
+      {
+        "selector": "queryParams",
+        "encoding": "@16@0:8"
+      }
+    ]
+  },
+  "MAAssetManager": {
+    "present": false,
+    "relevant_selectors": []
+  },
+  "parent_asset_flags": {
+    "st_flags": 524288,
+    "allocated_size_bytes": 9116356608
+  }
+}

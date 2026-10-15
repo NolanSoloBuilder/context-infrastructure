@@ -36,14 +36,16 @@
 - [AI CLI Agent 实用指南](./ai_agent_cli_guide.md) — CLI Agent 设计原则、工具对比（Claude Code / Codex / OpenCode）、文件响应模式、AI 调用 AI
 - [AIsa API / Skills / LLM Gateway 接入指南](./aisa_gateway.md) ⚙️ — AIsa 统一模型网关、Agent Skills、search / scholar / Tavily / Perplexity 资源接入，需配置 `AISA_API_KEY`
 - [Codex 环境迁移](./codex_environment_migration.md) — 新电脑迁移 Codex / OpenCode 本机配置、skills、memories、automations 和工具链
+- [Skill 作用域治理](./skill_scope_management.md) — 全局通用、公司项目、业务项目三类范围；本机来源库、项目链接、实际加载审计与恢复方法
 - [Codex Thread 迁移与 Handoff](./codex_thread_migration.md) — Codex 会话、Code Space 会话和远端实例迁移的能力边界与操作路径
+- [Diagram Design：Codex 绘图插件](./diagram_design_codex.md) — 全局安装、更新、调用与示例验收
 - [给自己发邮件技能](./send_email.md) ⚙️ — 通过 Gmail 发送邮件通知，需配置 App Password
 - [163 邮箱 MCP](./netease_email_mcp.md) ⚙️ — 通过本机 IMAP/SMTP MCP 搜索、读取、发送和管理 163 邮箱，凭证存入 macOS Keychain
 - [分享报告到 Web](./share_report.md) ⚙️ — 将 MD 报告转 HTML 发布到你自己的服务器，返回 URL
 - [Google Docs 操作](./google_docs.md) ⚙️ — CLI 工具：发布 Markdown、创建/搜索/修改/分享文档
 - [图片生成与放大](./generate_image.md) — CLI 工具：Gemini Flash / Gemini Pro / GPT-Image-2 文生图、图片编辑、分辨率放大
 - [增长数据分析](./growth_analytics.md) ⚙️ — 三个 CLI 查询网站流量（GA4）、邮件订阅（Kit）、Twitter 互动（Typefully）
-- [StrongVPN WireGuard 节点优选](./strongvpn-node-optimizer/SKILL.md) ⚙️ — 实测 AI 服务访问质量，自动关闭冲突 VPN、切换最佳节点并在失败时回滚
+- [StrongVPN WireGuard 下载与节点优选](./strongvpn-node-optimizer/SKILL.md) ⚙️ — 直接调用接口查看节点、下载配置；按需实测 AI 服务访问质量并切换，保护 REDpass，失败时回滚
 - [Typefully Metrics CLI](./typefully_metrics.md) ⚙️ — 通过浏览器 session 凭据查询 Twitter impression、engagement、followers 数据
 - [Typefully 发帖 CLI](./typefully_post.md) ⚙️ — 通过 Typefully v2 API 创建草稿、排期发布和直接发布 tweet / thread
 
@@ -57,6 +59,7 @@
   - **禁止轮询**：agent 运行期间不要反复调用 `background_output`，系统会自动通知
   - 判断标准：任务可拆分为 ≥2 个子任务，每个 ≥5 tool calls
   - 核心参数：并行度 ≤5，调研 overlap 30-50%，代码 overlap 0-20%
+- [StrongVPN 节点到 VPS 统一订阅](./strongvpn-node-optimizer/references/subscription_workflow.md) ⚙️ — 下载/复用 WireGuard 配置、转换并验证 Clash YAML、保留原链接原子更新阿里云 VPS、刷新客户端；触发“更新 StrongVPN 订阅”或“重新下载节点并更新订阅”
 - [深度调研工作流](./workflow_deep_research_survey.md) ✅ — 多 Agent 并行 + 交叉验证（Phase 1-3 信息采集）
 - [分析写作工作流](./workflow_analytical_writing.md) ✅ — 将调研素材转化为有判断力的分析文章。包含 Thesis Catalog（核心分析视角 L1-L6）和判断合成步骤。**做深度调研并写 external 文章时，两个 skill 都要读**
 - [认知画像提取工作流](./workflow_cognitive_profile_extraction.md) — 从非结构化对话数据提取可预测的认知公理
@@ -87,6 +90,7 @@
 ### Project-installed Skills（项目级安装）
 
 - [外部 Skills 注册表](./EXTERNAL_SKILLS.md) ✅ — 当前项目所有外部 Skill 的上游来源、精选全局快照、许可证、安全备注和更新流程；哈希分别由根目录 `skills-lock.json` 与 `global_skill_snapshots.json` 管理。
+- [TypeSafe 官方 Skill](../../.agents/skills/typesafe-ai/SKILL.md) ✅ — TypeSafe 官方使用说明；按实时 API / SDK 文档编写调用代码，与 Jev in Codex 批量分类工具分开。
 - [dbskill](../../.agents/skills/dbs/SKILL.md) ✅ — `dontbesilent2025/dbskill` 的统一入口；项目内安装 29 个中文 Skills，覆盖商业诊断、内容创作、知识库与决策记录。`dbs-report`、`dbs-restore` 使用前需额外审查其文件访问行为。
 - [小红书内容检查](../../.agents/skills/xiaohongshu-content-checker/SKILL.md) ✅ — `4682B4LEE/xiaohongshu-content-checker` v1.3.3；发布前检查敏感词、导流风险、营销浓度和账号定位匹配度。平台规则可能变化，结论仅作风险参考；仓库未提供独立 `LICENSE` 文件，`SKILL.md` 元数据声明 MIT。
 - [小黑手绘正文配图 1.0](../../.agents/skills/ian-xiaohei-illustrations/SKILL.md) ✅ — `helloianneo/ian-xiaohei-illustrations`；将中文文章里的观点、流程和方法转成 16:9 白底手绘解释图。

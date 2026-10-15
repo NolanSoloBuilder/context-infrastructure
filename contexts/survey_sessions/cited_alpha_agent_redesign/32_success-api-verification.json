@@ -1,0 +1,49 @@
+{
+  "workspaceDocumentMatchesPersistedReport": true,
+  "versionListed": true,
+  "citationsVerified": 58,
+  "sources": [
+    {
+      "kind": "html_table_cell",
+      "evidenceId": "ev-0be700949501386ee50193bce1e24b677737c24b1288d82f98d16b93f643d587",
+      "sourceKeys": [
+        "evidenceId",
+        "sourceTitle",
+        "sourceUrl",
+        "contentSha256",
+        "parserVersion",
+        "locator",
+        "html",
+        "targetHtml",
+        "targetScope",
+        "focusHtml",
+        "focusScope"
+      ],
+      "locatorVerified": true,
+      "targetAnchorPresent": true
+    },
+    {
+      "kind": "document_field",
+      "evidenceId": "ev-1f9ae1a29b7c90338ba457d905ee8e082610ccf327ef13f0bd211afea1dbe223",
+      "sourceKeys": [
+        "kind",
+        "evidenceId",
+        "sourceTitle",
+        "sourceUrl",
+        "contentSha256",
+        "parserVersion",
+        "locator",
+        "pageNumber",
+        "bboxNormalized",
+        "locationPrecision",
+        "pageRendition"
+      ],
+      "locatorVerified": true,
+      "pageNumber": 5,
+      "locationPrecision": "page",
+      "originalPdfBytes": 11267189,
+      "originalPdfSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc"
+    }
+  ],
+  "verification": "Authenticated data APIs only; no visual checks"
+}

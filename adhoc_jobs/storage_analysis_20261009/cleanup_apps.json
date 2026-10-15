@@ -1,0 +1,1397 @@
+{
+  "generated_at": "2026-10-09T16:35:57+0800",
+  "mode": "apply",
+  "items": [
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/DawnGraphiteCache",
+      "app": "Code",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/CachedData",
+      "app": "Code",
+      "category": "rebuildable_app_cache",
+      "before": 14094336,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/GPUCache",
+      "app": "Code",
+      "category": "rebuildable_app_cache",
+      "before": 2785280,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/Cache",
+      "app": "Code",
+      "category": "rebuildable_app_cache",
+      "before": 946176,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/CachedExtensionVSIXs",
+      "app": "Code",
+      "category": "rebuildable_app_cache",
+      "before": 44904448,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/DawnWebGPUCache",
+      "app": "Code",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/Code Cache",
+      "app": "Code",
+      "category": "rebuildable_app_cache",
+      "before": 24576,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/DawnGraphiteCache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/CachedData",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/GPUCache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/Cache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/Partitions/cursor-browser/DawnGraphiteCache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/Partitions/cursor-browser/GPUCache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/Partitions/cursor-browser/Cache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 81600512,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/Partitions/cursor-browser/DawnWebGPUCache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/Partitions/cursor-browser/Code Cache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 32935936,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/CachedExtensionVSIXs",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/DawnWebGPUCache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/Code Cache",
+      "app": "Cursor",
+      "category": "rebuildable_app_cache",
+      "before": 16384,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/DawnGraphiteCache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/GPUCache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Cache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/DawnGraphiteCache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/GPUCache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 5840896,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Cache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 691683328,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/DawnWebGPUCache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Code Cache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 204791808,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/DawnWebGPUCache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Code Cache",
+      "app": "Notion",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v41/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v41/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 14942208,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v41/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v25/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v31/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v31/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 2342912,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v31/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v36/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v36/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 8429568,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v36/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v38/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v38/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 9306112,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v38/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v39/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v39/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 14422016,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v39/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v37/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v37/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 8658944,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v37/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v30/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v30/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v30/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v29/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/GPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 1916928,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Cache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 377532416,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 14704640,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Code Cache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 759271424,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v26/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v28/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v33/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v33/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 6184960,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v33/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v34/DawnGraphiteCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v34/DawnWebGPUCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 8187904,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v34/DawnCache",
+      "app": "Figma",
+      "category": "rebuildable_app_cache",
+      "before": 561152,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational/GrShaderCache",
+      "app": "Lark",
+      "category": "rebuildable_app_cache",
+      "before": 2334720,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational/ShaderCache",
+      "app": "Lark",
+      "category": "rebuildable_app_cache",
+      "before": 1646592,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational/CodeCache",
+      "app": "Lark",
+      "category": "rebuildable_app_cache",
+      "before": 9510912,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkShell/ShaderCache",
+      "app": "Lark",
+      "category": "rebuildable_app_cache",
+      "before": 1646592,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkShell/CodeCache",
+      "app": "Lark",
+      "category": "rebuildable_app_cache",
+      "before": 30183424,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Service Worker/CacheStorage",
+      "app": "Notion",
+      "category": "service_worker_response_cache",
+      "before": 6484865024,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
+      "app": "Chrome",
+      "category": "downloaded_browser_ai_model",
+      "before": 4269944832,
+      "after": 0,
+      "status": "cleaned",
+      "action": "native_quit_then_delete_exact_cache",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Caches/Google/Chrome",
+      "app": "Chrome",
+      "category": "rebuildable_browser_cache",
+      "before": 273338368,
+      "after": 0,
+      "status": "cleaned",
+      "action": "native_quit_then_delete_exact_cache",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Caches/com.google.Chrome",
+      "app": "Chrome",
+      "category": "rebuildable_browser_cache",
+      "before": 0,
+      "after": 0,
+      "status": "absent",
+      "action": "none",
+      "whykeep": ""
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational/update/update.noindex",
+      "app": "Lark",
+      "category": "stale_updater_download",
+      "before": 1582252032,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational/update/update_downloading",
+      "app": "Lark",
+      "category": "stale_updater_download",
+      "before": 577851392,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Caches",
+      "app": "WPS",
+      "category": "rebuildable_app_cache",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat/Data/Library/Caches",
+      "app": "WeChat",
+      "category": "rebuildable_app_cache",
+      "before": 14659584,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.cache/codex-runtimes/codex-runtime-install-h8T4JK",
+      "app": null,
+      "category": "abandoned_codex_runtime_install_staging",
+      "before": 227606528,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.cache/codex-runtimes/codex-runtime-install-bpXYaU",
+      "app": null,
+      "category": "abandoned_codex_runtime_install_staging",
+      "before": 348602368,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/bundled-marketplaces/openai-bundled.staging-6654507d-6948-4512-9428-842c102e82c6",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 197791744,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-WCR2z8",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-VMMNYM",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 241131520,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-LeZGPq",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-hg29Gg",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-b2oY9h",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-DeaDw5",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 14008320,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-O1mV4k",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 0,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-upgrade-5fOxwz",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 81920,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/.staging/marketplace-add-k9Ueze",
+      "app": null,
+      "category": "abandoned_codex_marketplace_staging",
+      "before": 238452736,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_exact_cache_directory",
+      "whykeep": "",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/User",
+      "app": "Code",
+      "category": "persistent_user_state",
+      "before": 2224209920,
+      "after": 2224209920,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "workspaceStorage/globalStorage contain workspace, extensions and Copilot state"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/User",
+      "app": "Cursor",
+      "category": "persistent_user_state",
+      "before": 1440718848,
+      "after": 1440718848,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "globalStorage contains Agent conversations and user state"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/IndexedDB",
+      "app": "Notion",
+      "category": "persistent_user_state",
+      "before": 2846720,
+      "after": 2846720,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "persistent documents and offline changes"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Local Storage",
+      "app": "Notion",
+      "category": "persistent_user_state",
+      "before": 3776512,
+      "after": 3776512,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "account and document state"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile",
+      "app": "Figma",
+      "category": "persistent_user_state",
+      "before": 467013632,
+      "after": 467013632,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "retained profile, IndexedDB and Service Worker outside explicit caches"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/Default",
+      "app": "Chrome",
+      "category": "persistent_user_state",
+      "before": 791937024,
+      "after": 791937024,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "bookmarks, login, history and extensions"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat/Data/Documents",
+      "app": "WeChat",
+      "category": "persistent_user_state",
+      "before": 3026128896,
+      "after": 3026128896,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "chat databases and attachments; no user-data deletion"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat/Data/.wxapplet",
+      "app": "WeChat",
+      "category": "persistent_user_state",
+      "before": 1608216576,
+      "after": 1608216576,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "miniapp payload/state not independently proven pure cache"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/.kingsoft",
+      "app": "WPS",
+      "category": "persistent_user_state",
+      "before": 2798645248,
+      "after": 22024192,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "OfficeSpace, document backups, account and user data retained; only stale updater Bundle removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/.kingsoft/office6/cache",
+      "app": "WPS",
+      "category": "persistent_user_state",
+      "before": 0,
+      "after": 0,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "key-value files not independently proven disposable; allocated size is zero"
+    },
+    {
+      "path": "/Users/xuhao/.cache/codex-runtimes/codex-primary-runtime",
+      "app": null,
+      "category": "persistent_user_state",
+      "before": 1634054144,
+      "after": 1634054144,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "active Codex Node/Python dependency runtime"
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/diagram-design",
+      "app": null,
+      "category": "persistent_user_state",
+      "before": 40869888,
+      "after": 40869888,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "Registered diagram-design marketplace completed Git clone/catalogue; installed cache is independent but future catalogue/update lifecycle still references this source"
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/marketplaces/chatcut-inc",
+      "app": null,
+      "category": "persistent_user_state",
+      "before": 241295360,
+      "after": 241295360,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "Registered chatcut-inc marketplace completed Git clone/catalogue; installed cache is independent but source lifecycle is not disposable staging"
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/bundled-marketplaces/openai-bundled",
+      "app": null,
+      "category": "persistent_user_state",
+      "before": 52580352,
+      "after": 52580352,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "Active config.toml marketplaces.openai-bundled.source points directly to this completed directory"
+    },
+    {
+      "path": "/Users/xuhao/.codex/.tmp/plugins",
+      "app": null,
+      "category": "persistent_user_state",
+      "before": 30130176,
+      "after": 30130176,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "completed plugin repository, not abandoned staging"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/.kingsoft/WpsUpdate/Bundle",
+      "before": 2776621056,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_stale_wps_updater_download_and_unpacked_payload",
+      "whykeep": "",
+      "evidence": {
+        "age_days": 156.06,
+        "payload": "wpsoffice.zip and unpacked wpsoffice.app, version 12.1.25200",
+        "updater_script_extracts_zip_to_same_Bundle": true
+      },
+      "verified_absent": true,
+      "preserved_backup_account_markers_unchanged": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/craft-agents-oss/node_modules",
+      "before": 2220990464,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/craft-agents-oss/bun.lock"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/LibreChat/node_modules",
+      "before": 2041589760,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/LibreChat/package-lock.json",
+        "/Users/xuhao/Documents/Other/LibreChat/bun.lock"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/mindspace_web_frontend/node_modules",
+      "before": 653807616,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/mindspace_web_frontend/package-lock.json",
+        "/Users/xuhao/Documents/Other/mindspace_web_frontend/bun.lock"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/mindspace_app/node_modules",
+      "before": 734240768,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/mindspace_app/package-lock.json"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-offline-html/node_modules",
+      "before": 199634944,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-offline-html/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-ningbo-ai-pronunciation/node_modules",
+      "before": 215318528,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-ningbo-ai-pronunciation/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-jinan-station-name/node_modules",
+      "before": 193830912,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-jinan-station-name/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-route-pill/node_modules",
+      "before": 193830912,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-route-pill/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/armor/node_modules",
+      "before": null,
+      "after": null,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "private XHS registry; sample tarball HEAD 200, full authenticated dependency restore not verified"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/merchant-trade/node_modules",
+      "before": 1145102336,
+      "after": 1145102336,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "private XHS registry; sample tarball HEAD 200, full authenticated dependency restore not verified"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/mono-live/node_modules",
+      "before": 1752543232,
+      "after": 1752543232,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "private XHS package namespace and registry; complete restore not verified"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/vibe-marketing-rn/node_modules",
+      "before": 1166974976,
+      "after": 1166974976,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "recent dependency install, project activity not conclusively idle"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/agent-native-aluminum-platform/node_modules",
+      "before": 495964160,
+      "after": 495964160,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "multiple native active BeamJoin threads"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/tmp",
+      "before": 606126080,
+      "after": 606126080,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "research repository/source snapshots; name tmp does not prove disposable"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees",
+      "before": 62509056,
+      "after": 62509056,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "all worktree source/Git metadata retained, only qualified node_modules removed"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/output",
+      "before": 25870336,
+      "after": 25870336,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "exported and delivered artifacts are retained"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/aurora",
+      "before": null,
+      "after": null,
+      "status": "kept_active",
+      "action": "none",
+      "whykeep": "Live promotion-ark tool/project dependency tree, all source and dependencies preserved; no expensive parent scan"
+    }
+  ],
+  "summary": {
+    "cleaned_items": 99,
+    "tracked_allocated_directory_reduction_bytes": 26070376448,
+    "app_cache_and_codex_install_staging_reduction_bytes": 19617132544,
+    "public_project_node_modules_directory_reduction_bytes": 6453243904,
+    "kept_items": 24,
+    "size_note": "Allocated-directory reductions are not whole disk net free; public project dependencies may share APFS blocks/hardlinks. Whole disk df belongs to root final."
+  },
+  "application_lifecycle": [
+    {
+      "app": "Chrome",
+      "action": "native_quit_second_attempt",
+      "code": 0
+    },
+    {
+      "app": "Chrome",
+      "action": "native_reopen_default_profile",
+      "code": 0
+    },
+    {
+      "app": "Chrome",
+      "action": "process_readback",
+      "main_running": true
+    },
+    {
+      "app": "VS Code",
+      "action": "native_reopen_after_cache_cleanup",
+      "code": 0,
+      "main_running": true
+    },
+    {
+      "app": "WeChat",
+      "action": "native_quit_declined",
+      "whykeep": "native quit returned user cancelled (-128); cache and chat data kept",
+      "main_running": false
+    },
+    {
+      "action": "final_native_main_process_readback",
+      "Google Chrome": true,
+      "VS Code": true,
+      "force_quit_used": false
+    }
+  ],
+  "project_verification": {
+    "cleaned_directories_absent": true,
+    "all_cleaned_manifests_and_locks_unchanged": true,
+    "cleaned_projects": 8
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "boundary": "Actual ML normalizer+rendition -> actual Backend metadata validator+Pillow decoder; offline context, not full authenticated HTTP/DAO or production sealed version.",
+  "cases": [
+    {
+      "page": 4,
+      "fieldId": "offline-original-provider:line:4:43",
+      "text": "25,707",
+      "imageSha256": "3b9e0493b9f8c1fa1571e6c19d3220fca56ab256f4dbf27d3df7b92f3a1c5e03",
+      "width": 2666,
+      "height": 1500,
+      "bbox": {
+        "x": 0.83008254,
+        "y": 0.29333332,
+        "width": 0.03225802999999994,
+        "height": 0.014666679999999988
+      },
+      "originalPdfPrecision": "page"
+    },
+    {
+      "page": 4,
+      "fieldId": "offline-original-provider:line:4:63",
+      "text": "2,064",
+      "imageSha256": "3b9e0493b9f8c1fa1571e6c19d3220fca56ab256f4dbf27d3df7b92f3a1c5e03",
+      "width": 2666,
+      "height": 1500,
+      "bbox": {
+        "x": 0.48649663,
+        "y": 0.43866667,
+        "width": 0.02925728999999999,
+        "height": 0.015333330000000034
+      },
+      "originalPdfPrecision": "page"
+    },
+    {
+      "page": 4,
+      "fieldId": "offline-original-provider:line:4:131",
+      "text": "2,064",
+      "imageSha256": "3b9e0493b9f8c1fa1571e6c19d3220fca56ab256f4dbf27d3df7b92f3a1c5e03",
+      "width": 2666,
+      "height": 1500,
+      "bbox": {
+        "x": 0.48574644,
+        "y": 0.84666669,
+        "width": 0.029632389999999953,
+        "height": 0.015333299999999994
+      },
+      "originalPdfPrecision": "page"
+    },
+    {
+      "page": 26,
+      "fieldId": "offline-original-provider:line:26:54",
+      "text": "Operating Cash Flow ($B)",
+      "imageSha256": "f02a1f145f1bf8628a4f1bb1147318922071db49732c1d43accb757b1e2a5173",
+      "width": 1500,
+      "height": 2666,
+      "bbox": {
+        "x": 0.21733333,
+        "y": 0.43473369,
+        "width": 0.020000000000000018,
+        "height": 0.11777942999999996
+      },
+      "originalPdfPrecision": "page"
+    },
+    {
+      "page": 26,
+      "fieldId": "offline-original-provider:line:26:55",
+      "text": "Free Cash Flow ($B)",
+      "imageSha256": "f02a1f145f1bf8628a4f1bb1147318922071db49732c1d43accb757b1e2a5173",
+      "width": 1500,
+      "height": 2666,
+      "bbox": {
+        "x": 0.192,
+        "y": 0.43585896,
+        "width": 0.01933333000000001,
+        "height": 0.09077268999999999
+      },
+      "originalPdfPrecision": "page"
+    },
+    {
+      "page": 31,
+      "fieldId": "offline-original-provider:line:31:39",
+      "text": "Net cash provided by operating activities",
+      "imageSha256": "6d286692767bff3c5fee6d52fa1bde9d10dfc47e0b26f42b8b0118a904b08290",
+      "width": 2666,
+      "height": 1500,
+      "bbox": {
+        "x": 0.045011252,
+        "y": 0.34866667,
+        "width": 0.160915228,
+        "height": 0.015333319999999984
+      },
+      "originalPdfPrecision": "page"
+    },
+    {
+      "page": 31,
+      "fieldId": "offline-original-provider:line:31:106",
+      "text": "(37)",
+      "imageSha256": "6d286692767bff3c5fee6d52fa1bde9d10dfc47e0b26f42b8b0118a904b08290",
+      "width": 2666,
+      "height": 1500,
+      "bbox": {
+        "x": 0.93323332,
+        "y": 0.57066667,
+        "width": 0.017254290000000005,
+        "height": 0.015333359999999963
+      },
+      "originalPdfPrecision": "page"
+    },
+    {
+      "page": 31,
+      "fieldId": "offline-original-provider:line:31:122",
+      "text": "(37)",
+      "imageSha256": "6d286692767bff3c5fee6d52fa1bde9d10dfc47e0b26f42b8b0118a904b08290",
+      "width": 2666,
+      "height": 1500,
+      "bbox": {
+        "x": 0.75581396,
+        "y": 0.65066665,
+        "width": 0.017629380000000028,
+        "height": 0.016666650000000005
+      },
+      "originalPdfPrecision": "page"
+    }
+  ]
+}

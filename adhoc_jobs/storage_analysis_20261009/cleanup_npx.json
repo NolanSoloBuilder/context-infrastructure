@@ -1,0 +1,4561 @@
+{
+  "started_at": 1791534582.022323,
+  "hash_roots_kept": [
+    "28e6dccb1ef61a57",
+    "15c61037b1978c83",
+    "b235d46820191930",
+    "31e32ef8478fbf80",
+    "4b4c857f6efdfb61",
+    "1d6e82a4126006c4",
+    "9833c18b2d85bc59",
+    "69f9afb961c37556",
+    "eea2bd7412d4593b",
+    "32026684e21afda6",
+    "e41f203b7505f1fb",
+    "ac0ed6aa23b37c1e",
+    "99336612077b7094"
+  ],
+  "items": [
+    {
+      "path": "/Users/xuhao/.npm/_npx/24861",
+      "inode": 359012934,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24895",
+      "inode": 357753606,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68988",
+      "inode": 360666339,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/58177",
+      "inode": 353468241,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/40715",
+      "inode": 360996676,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192925696,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69061",
+      "inode": 360666370,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/64748",
+      "inode": 360154837,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 135516160,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68972",
+      "inode": 360666351,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/38262",
+      "inode": 360423826,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193175552,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36101",
+      "inode": 360402414,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35186",
+      "inode": 359677621,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/56282",
+      "inode": 360606139,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 12419072,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31377",
+      "inode": 354009187,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69458",
+      "inode": 360668491,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/57733",
+      "inode": 360610228,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 49176576,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/3764",
+      "inode": 359492694,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 103034880,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68541",
+      "inode": 360666143,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/64527",
+      "inode": 360148952,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 20566016,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68917",
+      "inode": 360666346,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36994",
+      "inode": 359683302,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 102174720,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/17019",
+      "inode": 359159518,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/11128",
+      "inode": 360703641,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/75009",
+      "inode": 353599475,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192847872,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69051",
+      "inode": 360666345,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/38435",
+      "inode": 360424297,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193155072,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/58988",
+      "inode": 353469774,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63766",
+      "inode": 360088090,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193163264,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79208",
+      "inode": 353639377,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/29540",
+      "inode": 357790238,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/32598",
+      "inode": 354012227,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 91807744,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35120",
+      "inode": 359677631,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/98533",
+      "inode": 358708051,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/86099",
+      "inode": 358533274,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35129",
+      "inode": 359677624,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68522",
+      "inode": 360666141,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37028",
+      "inode": 359683307,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/46877",
+      "inode": 353454032,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/67555",
+      "inode": 360205525,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/7737",
+      "inode": 358822713,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8912",
+      "inode": 360697872,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68942",
+      "inode": 360666371,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63536",
+      "inode": 354059832,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/90360",
+      "inode": 358561184,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35142",
+      "inode": 359677629,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62087",
+      "inode": 360035301,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69450",
+      "inode": 360668490,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/46649",
+      "inode": 359758747,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193060864,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35174",
+      "inode": 359677619,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/17640",
+      "inode": 353959100,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/67705",
+      "inode": 358361269,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17756160,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31144",
+      "inode": 362297433,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8977",
+      "inode": 360697877,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78342",
+      "inode": 353633079,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69230",
+      "inode": 358371722,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 11411456,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69466",
+      "inode": 360668487,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/87120",
+      "inode": 360684175,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31947",
+      "inode": 364652830,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18137088,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/89082",
+      "inode": 358536620,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/3079",
+      "inode": 353926926,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68899",
+      "inode": 360666375,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69513",
+      "inode": 360668493,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35465",
+      "inode": 358040174,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/14376",
+      "inode": 361343280,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14446592,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8802",
+      "inode": 360697871,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/90481",
+      "inode": 353697632,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 64290816,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24983",
+      "inode": 359588345,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 52961280,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79540",
+      "inode": 353644812,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192778240,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69389",
+      "inode": 361204871,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31694",
+      "inode": 357846919,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 42237952,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/87400",
+      "inode": 359464065,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 73637888,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/55748",
+      "inode": 362325312,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62902",
+      "inode": 353476007,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28582",
+      "inode": 357761681,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193175552,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/93803",
+      "inode": 361261287,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/25858",
+      "inode": 357755354,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/43878",
+      "inode": 359094445,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/85196",
+      "inode": 359460554,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 10166272,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9323",
+      "inode": 360697888,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/13368",
+      "inode": 360739715,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 107917312,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23536",
+      "inode": 360874869,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/61121",
+      "inode": 360010570,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 79458304,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8894",
+      "inode": 360697881,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/32080",
+      "inode": 359649628,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 74825728,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35097",
+      "inode": 359677626,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36044",
+      "inode": 359681162,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9979",
+      "inode": 359543217,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 177614848,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79179",
+      "inode": 353639376,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/87030",
+      "inode": 353688010,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/29636",
+      "inode": 357790363,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192946176,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/74496",
+      "inode": 353597349,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/27107",
+      "inode": 357757947,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28170",
+      "inode": 359625716,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18755584,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/91197",
+      "inode": 353716334,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/56197",
+      "inode": 360606059,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/38775",
+      "inode": 360915082,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192925696,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35258",
+      "inode": 359677622,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/43089",
+      "inode": 361089054,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193187840,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68891",
+      "inode": 360666357,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8835",
+      "inode": 360697887,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68637",
+      "inode": 360208526,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/13351",
+      "inode": 360739716,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18968576,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/29231",
+      "inode": 359636872,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 32391168,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66334",
+      "inode": 353491968,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 75120640,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35669",
+      "inode": 362302600,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/30915",
+      "inode": 357845257,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 94134272,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/45377",
+      "inode": 360580482,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 16691200,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69579",
+      "inode": 360668486,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/85101",
+      "inode": 360354198,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 146354176,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/55348",
+      "inode": 362323966,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/75925",
+      "inode": 361212510,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 3342336,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69546",
+      "inode": 360668497,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79972",
+      "inode": 360280931,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 89313280,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/74463",
+      "inode": 353597351,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/16017",
+      "inode": 360783286,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 170631168,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/77444",
+      "inode": 364476540,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17756160,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/39655",
+      "inode": 360506386,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193171456,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79178",
+      "inode": 353639374,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78608",
+      "inode": 360276431,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 2727936,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/43011",
+      "inode": 360562076,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 12587008,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/30970",
+      "inode": 357845254,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 100200448,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78095",
+      "inode": 353633010,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24914",
+      "inode": 357753602,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/25204",
+      "inode": 357754081,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8861",
+      "inode": 360697866,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68469",
+      "inode": 354069293,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35250",
+      "inode": 359677637,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/47489",
+      "inode": 359856775,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/54856",
+      "inode": 358229903,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/86556",
+      "inode": 359462959,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/21024",
+      "inode": 358966485,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37945",
+      "inode": 359685519,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69555",
+      "inode": 360668496,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/22004",
+      "inode": 358970187,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69597",
+      "inode": 360210566,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193011712,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/15811",
+      "inode": 360782495,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 181780480,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35071",
+      "inode": 359677620,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35085",
+      "inode": 360400062,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/53290",
+      "inode": 358224456,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18964480,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/27547",
+      "inode": 362294467,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/64076",
+      "inode": 360115086,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 77357056,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37177",
+      "inode": 359683308,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23321",
+      "inode": 360874119,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33745",
+      "inode": 357929517,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193093632,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/47402",
+      "inode": 359399963,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78026",
+      "inode": 353633006,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "kept_active"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/85177",
+      "inode": 353683378,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31485",
+      "inode": 362298362,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69537",
+      "inode": 360668495,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/72171",
+      "inode": 358387175,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 16494592,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36033",
+      "inode": 359681166,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37929",
+      "inode": 359685518,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13799424,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33926",
+      "inode": 359671881,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19853312,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23549",
+      "inode": 360874909,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69591",
+      "inode": 360668482,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/22239",
+      "inode": 358970185,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36068",
+      "inode": 359681149,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69562",
+      "inode": 360668481,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8873",
+      "inode": 360697869,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36057",
+      "inode": 359681153,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69905",
+      "inode": 360211348,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192966656,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/65700",
+      "inode": 361177926,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 159051776,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35414",
+      "inode": 358039658,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/7832",
+      "inode": 358822712,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/67862",
+      "inode": 360207602,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/29614",
+      "inode": 359638670,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/55701",
+      "inode": 362325006,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 9822208,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/67637",
+      "inode": 360205881,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35274",
+      "inode": 354184981,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/74816",
+      "inode": 360271237,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/65158",
+      "inode": 360177078,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193175552,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/6913",
+      "inode": 358822191,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/61168",
+      "inode": 360010571,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 85147648,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79108",
+      "inode": 353638671,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/60441",
+      "inode": 353472270,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33540",
+      "inode": 357909311,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33316",
+      "inode": 359662050,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 6545408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/39421",
+      "inode": 359687686,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 96845824,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/17980",
+      "inode": 353960888,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193003520,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69967",
+      "inode": 360671118,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/1154",
+      "inode": 359489029,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31680",
+      "inode": 357846921,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13869056,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69500",
+      "inode": 360668494,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/53469",
+      "inode": 360603837,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/46389",
+      "inode": 362311015,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66317",
+      "inode": 353491969,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23387",
+      "inode": 360874908,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/95787",
+      "inode": 360379685,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/15078",
+      "inode": 361367512,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192987136,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23146",
+      "inode": 358976306,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/7266",
+      "inode": 364584263,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18108416,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69027",
+      "inode": 360666374,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8707",
+      "inode": 353430849,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66639",
+      "inode": 360663997,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79241",
+      "inode": 360278567,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37296",
+      "inode": 359325418,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193101824,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35999",
+      "inode": 359681148,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/67718",
+      "inode": 358361266,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68905",
+      "inode": 360666344,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/85458",
+      "inode": 359460951,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/49840",
+      "inode": 353461247,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35997",
+      "inode": 359681159,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/65422",
+      "inode": 361176970,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14446592,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37061",
+      "inode": 359683296,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37095",
+      "inode": 359683293,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36147",
+      "inode": 359681150,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/85200",
+      "inode": 359460553,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62056",
+      "inode": 360035293,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36386",
+      "inode": 359683222,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/10644",
+      "inode": 360700859,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37066",
+      "inode": 359683295,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68934",
+      "inode": 360666354,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/14412",
+      "inode": 361343279,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 178249728,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68960",
+      "inode": 360666349,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62466",
+      "inode": 358318505,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 4096,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/16148",
+      "inode": 360784040,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 57630720,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/4732",
+      "inode": 358811969,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19046400,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36113",
+      "inode": 359681155,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8937",
+      "inode": 360697862,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/64762",
+      "inode": 353479156,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 55521280,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68993",
+      "inode": 360666350,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68356",
+      "inode": 360207832,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/14618",
+      "inode": 358904658,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62698",
+      "inode": 353476006,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8908",
+      "inode": 360697870,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/27862",
+      "inode": 357759017,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/17060",
+      "inode": 360859450,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 29237248,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/5080",
+      "inode": 358816528,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24242",
+      "inode": 360882547,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193187840,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/86084",
+      "inode": 358533275,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18968576,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36122",
+      "inode": 359681158,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66460",
+      "inode": 353491975,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 82857984,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63549",
+      "inode": 354059830,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/82423",
+      "inode": 361253528,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35991",
+      "inode": 368098191,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 30760960,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/32515",
+      "inode": 354011411,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/30626",
+      "inode": 362417862,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18128896,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66255",
+      "inode": 358353012,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69017",
+      "inode": 360666356,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36179",
+      "inode": 359681151,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63149",
+      "inode": 360038371,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193093632,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69487",
+      "inode": 360668488,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62898",
+      "inode": 360037350,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 170491904,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/93738",
+      "inode": 362349959,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8996",
+      "inode": 360697892,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9071",
+      "inode": 360697884,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/45449",
+      "inode": 360580530,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 120823808,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/42461",
+      "inode": 361046336,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 66658304,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23456",
+      "inode": 360874868,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/53345",
+      "inode": 360603835,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23836",
+      "inode": 359586935,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78530",
+      "inode": 360276086,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "kept_active"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24022",
+      "inode": 358980443,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/38825",
+      "inode": 360915083,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192925696,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69489",
+      "inode": 360668498,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33405",
+      "inode": 359245465,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 175239168,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/65674",
+      "inode": 358352562,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33238",
+      "inode": 359244880,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 28282880,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69624",
+      "inode": 360668489,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63570",
+      "inode": 354059831,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/47381",
+      "inode": 359399967,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14364672,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69411",
+      "inode": 360668403,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78107",
+      "inode": 353633005,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63546",
+      "inode": 360087348,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/38840",
+      "inode": 360477986,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193126400,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23434",
+      "inode": 360874864,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18169856,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35338",
+      "inode": 358039324,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23433",
+      "inode": 360874911,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/12146",
+      "inode": 360706649,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 8175616,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/48757",
+      "inode": 359944022,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192983040,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28010",
+      "inode": 362294561,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23483",
+      "inode": 360874867,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18087936,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/27447",
+      "inode": 362294466,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/34853",
+      "inode": 362301644,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/39542",
+      "inode": 360506254,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193003520,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9050",
+      "inode": 360697864,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23448",
+      "inode": 360874860,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23470",
+      "inode": 360874863,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/34057",
+      "inode": 357966791,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193052672,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/27672",
+      "inode": 357758763,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37084",
+      "inode": 359683297,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9057",
+      "inode": 358826273,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36194",
+      "inode": 359681161,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23446",
+      "inode": 360874857,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18755584,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/16567",
+      "inode": 359575229,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35381",
+      "inode": 358039656,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23479",
+      "inode": 360874862,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9061",
+      "inode": 360697865,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33881",
+      "inode": 359052954,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 6733824,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/27449",
+      "inode": 362294468,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13869056,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8943",
+      "inode": 360697873,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66628",
+      "inode": 360663999,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78520",
+      "inode": 360276085,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13889536,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69452",
+      "inode": 360668479,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8928",
+      "inode": 361291822,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35326",
+      "inode": 358039323,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 16392192,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69401",
+      "inode": 362334987,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 46010368,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/53301",
+      "inode": 361133538,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 60133376,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23412",
+      "inode": 360874855,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37012",
+      "inode": 359683305,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36134",
+      "inode": 359681152,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79235",
+      "inode": 353639375,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/87171",
+      "inode": 358534596,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 103493632,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33219",
+      "inode": 357879648,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 154361856,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/12535",
+      "inode": 361314549,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193015808,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36102",
+      "inode": 359681154,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/43955",
+      "inode": 359094700,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17039360,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/39724",
+      "inode": 360968800,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193187840,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/26952",
+      "inode": 357757267,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8921",
+      "inode": 360697878,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35310",
+      "inode": 358039325,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/42242",
+      "inode": 361045509,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 98779136,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23423",
+      "inode": 360874873,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/30068",
+      "inode": 359639600,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/43936",
+      "inode": 359725277,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37047",
+      "inode": 359683300,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69039",
+      "inode": 360666372,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36157",
+      "inode": 359681157,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/99021",
+      "inode": 358712972,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/14697",
+      "inode": 358904660,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/53362",
+      "inode": 361133677,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 114810880,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36954",
+      "inode": 359683306,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36168",
+      "inode": 359681163,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69006",
+      "inode": 360666353,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69234",
+      "inode": 358371721,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/30059",
+      "inode": 359203196,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 96219136,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/11786",
+      "inode": 361293352,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 49311744,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66620",
+      "inode": 360663998,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68543",
+      "inode": 360666142,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 159744,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35148",
+      "inode": 359677635,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/42872",
+      "inode": 359090226,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23610",
+      "inode": 360874910,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36938",
+      "inode": 359683299,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62482",
+      "inode": 358318504,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/57796",
+      "inode": 360610231,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 58499072,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35316",
+      "inode": 358039326,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/10631",
+      "inode": 360700858,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13856768,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/98357",
+      "inode": 358708050,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68979",
+      "inode": 360666352,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69097",
+      "inode": 360666373,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/94790",
+      "inode": 353720882,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37219",
+      "inode": 360912912,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14929920,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/49000",
+      "inode": 353460487,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8788",
+      "inode": 360697875,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68946",
+      "inode": 360666341,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/53307",
+      "inode": 358224454,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/64067",
+      "inode": 360115087,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 5701632,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23102",
+      "inode": 359584290,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35067",
+      "inode": 359677625,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/84219",
+      "inode": 360298019,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 111194112,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23566",
+      "inode": 360874859,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17756160,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/5912",
+      "inode": 358818943,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18972672,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/85132",
+      "inode": 353683379,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37161",
+      "inode": 359683301,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23561",
+      "inode": 360874854,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23337",
+      "inode": 360874116,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78090",
+      "inode": 361216515,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193105920,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24911",
+      "inode": 359588347,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13901824,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69312",
+      "inode": 361204813,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/3640",
+      "inode": 353928764,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 83075072,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/26022",
+      "inode": 357756181,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/60253",
+      "inode": 353471968,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/14917",
+      "inode": 364329981,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17760256,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/5924",
+      "inode": 358818942,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/18144",
+      "inode": 359160270,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78001",
+      "inode": 353632942,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/46990",
+      "inode": 359801090,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/25051",
+      "inode": 357753970,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/48203",
+      "inode": 359887994,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193171456,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/91133",
+      "inode": 353716335,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35230",
+      "inode": 359677633,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/40263",
+      "inode": 358116407,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79116",
+      "inode": 353638669,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66797",
+      "inode": 358353573,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18755584,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79129",
+      "inode": 353638670,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33105",
+      "inode": 357874611,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193060864,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/33901",
+      "inode": 359052955,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 43188224,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/87067",
+      "inode": 360684200,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69521",
+      "inode": 360668483,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24942",
+      "inode": 357753604,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/77424",
+      "inode": 353631858,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/59985",
+      "inode": 358309931,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/75141",
+      "inode": 361211045,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/30317",
+      "inode": 359203390,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 125845504,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/13754",
+      "inode": 361342041,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78868",
+      "inode": 353635722,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63616",
+      "inode": 358324095,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/58454",
+      "inode": 360628416,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193097728,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24926",
+      "inode": 359588346,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 42520576,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/70653",
+      "inode": 359454134,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8862",
+      "inode": 360697867,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35405",
+      "inode": 358039659,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78401",
+      "inode": 353633081,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13791232,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36079",
+      "inode": 359681160,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37997",
+      "inode": 360913990,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69573",
+      "inode": 360668484,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23593",
+      "inode": 360874865,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/60459",
+      "inode": 358312345,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24943",
+      "inode": 357753603,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/94227",
+      "inode": 361262413,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 154324992,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9745",
+      "inode": 360698544,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/1173",
+      "inode": 359489030,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 5701632,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/97238",
+      "inode": 353725982,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35207",
+      "inode": 359677623,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/43874",
+      "inode": 359725274,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/84070",
+      "inode": 360297578,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 92811264,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8800",
+      "inode": 360697861,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/43077",
+      "inode": 360562087,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 104546304,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78038",
+      "inode": 353633009,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/61115",
+      "inode": 360010569,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18763776,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/18915",
+      "inode": 359161300,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8838",
+      "inode": 360697874,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23398",
+      "inode": 360875007,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14802944,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/62909",
+      "inode": 362332358,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37105",
+      "inode": 359683304,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/90448",
+      "inode": 353697631,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 43237376,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36023",
+      "inode": 359681156,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36491",
+      "inode": 360403394,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 27496448,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63455",
+      "inode": 354059785,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/64442",
+      "inode": 353478653,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 1863680,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/93640",
+      "inode": 361260223,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/1193",
+      "inode": 359489031,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36006",
+      "inode": 359681164,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/49134",
+      "inode": 359409576,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193138688,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23947",
+      "inode": 360881578,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8814",
+      "inode": 360697880,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63490",
+      "inode": 354059783,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35646",
+      "inode": 360400844,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/2986",
+      "inode": 353926895,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69502",
+      "inode": 360668485,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19185664,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/60080",
+      "inode": 353471882,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/91976",
+      "inode": 361258797,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/34966",
+      "inode": 354184940,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23589",
+      "inode": 360874871,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17756160,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/45596",
+      "inode": 359755332,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193003520,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35427",
+      "inode": 358039662,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/71565",
+      "inode": 360265059,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 8900608,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78415",
+      "inode": 353633082,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78071",
+      "inode": 353633007,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "kept_active"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/48046",
+      "inode": 359887572,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193126400,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/86335",
+      "inode": 353686739,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 22806528,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/86138",
+      "inode": 358533273,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/53099",
+      "inode": 358224453,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/47036",
+      "inode": 353454033,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/34702",
+      "inode": 358010515,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193175552,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/21075",
+      "inode": 358966486,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/60021",
+      "inode": 358309929,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35223",
+      "inode": 354184978,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/67203",
+      "inode": 358356165,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 15593472,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/99375",
+      "inode": 358714260,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23528",
+      "inode": 360875006,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18206720,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68610",
+      "inode": 360208529,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/24967",
+      "inode": 359588344,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14446592,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69955",
+      "inode": 360671119,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 4845568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63205",
+      "inode": 354059322,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31813",
+      "inode": 364404750,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 18108416,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/13971",
+      "inode": 360740527,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193077248,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/11848",
+      "inode": 361293769,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 77520896,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28798",
+      "inode": 362296120,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23526",
+      "inode": 360874866,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/4413",
+      "inode": 359508801,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192917504,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/92767",
+      "inode": 360377372,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/47438",
+      "inode": 359399964,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/14935",
+      "inode": 364329982,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14929920,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78083",
+      "inode": 353633008,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23586",
+      "inode": 360874912,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35087",
+      "inode": 359677628,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35241",
+      "inode": 359677630,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/42313",
+      "inode": 361045636,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 102035456,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/10562",
+      "inode": 360700857,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28156",
+      "inode": 359625717,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 41922560,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/54088",
+      "inode": 360001438,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 9822208,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36408",
+      "inode": 359683221,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23575",
+      "inode": 360874858,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/61162",
+      "inode": 360010572,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 13869056,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/75562",
+      "inode": 360272853,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37181",
+      "inode": 359324975,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192958464,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79160",
+      "inode": 353639379,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/84693",
+      "inode": 360321271,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192913408,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/65732",
+      "inode": 358352563,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36091",
+      "inode": 359681165,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/97277",
+      "inode": 353725980,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/12203",
+      "inode": 360706652,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 14962688,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/42117",
+      "inode": 361031031,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 64323584,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/54100",
+      "inode": 360001437,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/40190",
+      "inode": 360996590,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 166080512,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9011",
+      "inode": 360697882,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8761",
+      "inode": 360697885,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23099",
+      "inode": 359584291,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17756160,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63127",
+      "inode": 353476060,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/13062",
+      "inode": 360712334,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193167360,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/93564",
+      "inode": 361260222,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/66658",
+      "inode": 360663996,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/44959",
+      "inode": 359755154,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 107393024,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23407",
+      "inode": 360874861,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36922",
+      "inode": 359683310,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/32324",
+      "inode": 354010197,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/74703",
+      "inode": 360271209,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/11704",
+      "inode": 361293199,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 282624,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69083",
+      "inode": 360666338,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69413",
+      "inode": 360668402,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19181568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36971",
+      "inode": 359683303,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63519",
+      "inode": 354059833,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/47111",
+      "inode": 353454512,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36186",
+      "inode": 358050174,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 46866432,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/52053",
+      "inode": 361127484,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 21741568,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/96410",
+      "inode": 360381509,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28070",
+      "inode": 359625718,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 4677632,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9074",
+      "inode": 358826274,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36982",
+      "inode": 359683292,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/97536",
+      "inode": 358697238,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/2201",
+      "inode": 359490234,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/15793",
+      "inode": 358911665,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/64536",
+      "inode": 353478651,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 3518464,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35394",
+      "inode": 358039657,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35536",
+      "inode": 360400846,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/25759",
+      "inode": 359605794,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 132661248,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/141",
+      "inode": 358715955,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35993",
+      "inode": 359288023,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 193175552,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8967",
+      "inode": 360697883,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28079",
+      "inode": 357760208,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8993",
+      "inode": 360697876,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/56258",
+      "inode": 362326475,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/22923",
+      "inode": 359584254,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/36947",
+      "inode": 359683298,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/14684",
+      "inode": 358904657,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 9822208,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35163",
+      "inode": 359677638,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/83993",
+      "inode": 360297346,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 1368064,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8769",
+      "inode": 360697863,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/31130",
+      "inode": 359645787,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/1046",
+      "inode": 358725911,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 102490112,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37001",
+      "inode": 359683309,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/30647",
+      "inode": 354007618,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/67544",
+      "inode": 360205526,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19075072,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/70735",
+      "inode": 360672125,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/75849",
+      "inode": 361212400,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37039",
+      "inode": 359683294,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9021",
+      "inode": 360697886,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69085",
+      "inode": 360666369,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/95833",
+      "inode": 360379684,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/15951",
+      "inode": 360782728,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 192925696,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/68505",
+      "inode": 360666144,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/7717",
+      "inode": 358822711,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 19075072,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/4730",
+      "inode": 358811970,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35109",
+      "inode": 359677634,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23497",
+      "inode": 360874856,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35196",
+      "inode": 359677632,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/37251",
+      "inode": 360912914,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/48532",
+      "inode": 359401745,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 43302912,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69477",
+      "inode": 360668480,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/79078",
+      "inode": 353638624,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/28078",
+      "inode": 359625715,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 15159296,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/23490",
+      "inode": 360874907,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/32947",
+      "inode": 359661384,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 60157952,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/63349",
+      "inode": 354059325,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/8950",
+      "inode": 360697879,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/9086",
+      "inode": 360697890,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 0,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/57712",
+      "inode": 360610229,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 17756160,
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/57978",
+      "inode": 361163550,
+      "uid": 501,
+      "keep_reason": [],
+      "before_allocated_bytes": 38703104,
+      "status": "removed"
+    }
+  ],
+  "preserve_numeric": [
+    {
+      "path": "/Users/xuhao/.npm/_npx/65315",
+      "inode": 361176621,
+      "uid": 501,
+      "keep_reason": [
+        "numeric PID currently exists, conservatively keep"
+      ]
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35219",
+      "inode": 359677627,
+      "uid": 501,
+      "keep_reason": [
+        "numeric PID currently exists, conservatively keep"
+      ]
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69613",
+      "inode": 360668492,
+      "uid": 501,
+      "keep_reason": [
+        "numeric PID currently exists, conservatively keep"
+      ]
+    }
+  ],
+  "allocation_basis": "preceding verified aggregate numeric roots 17.002078208 GB; per-root remeasurement timed out before any deletion",
+  "finished_at": 1791535946.043672,
+  "df_after": "Filesystem   1024-blocks      Used Available Capacity iused      ifree %iused  Mounted on\n/dev/disk3s5   482797652 305252816 137709416    69% 9000863 1377094160    1%   /System/Volumes/Data\n",
+  "final_collision_audit": [
+    {
+      "path": "/Users/xuhao/.npm/_npx/65315",
+      "inode": 361176621,
+      "before_allocated_bytes": 0,
+      "audit": "numeric PID alone was a collision; no command path or open handle in this root",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78026",
+      "inode": 353633006,
+      "before_allocated_bytes": 0,
+      "audit": "numeric PID alone was a collision; no command path or open handle in this root",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/35219",
+      "inode": 359677627,
+      "before_allocated_bytes": 0,
+      "audit": "numeric PID alone was a collision; no command path or open handle in this root",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/69613",
+      "inode": 360668492,
+      "before_allocated_bytes": 0,
+      "audit": "numeric PID alone was a collision; no command path or open handle in this root",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78530",
+      "inode": 360276086,
+      "before_allocated_bytes": 0,
+      "audit": "numeric PID alone was a collision; no command path or open handle in this root",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx/78071",
+      "inode": 353633007,
+      "before_allocated_bytes": 0,
+      "audit": "numeric PID alone was a collision; no command path or open handle in this root",
+      "status": "removed"
+    }
+  ],
+  "original_removed_count": 555,
+  "remaining_numeric_roots": [],
+  "removed_original_numeric_count": 561,
+  "removed_original_numeric_snapshot_bytes": 17002078208
+}

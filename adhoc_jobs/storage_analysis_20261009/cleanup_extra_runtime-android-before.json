@@ -1,0 +1,147 @@
+{
+  "adb_path": null,
+  "adb_realpath": null,
+  "sdk_root": "/Users/xuhao/Library/Android/sdk",
+  "sdk_root_realpath": "/Users/xuhao/Library/Android/sdk",
+  "sdk_root_stat": {
+    "uid": 501,
+    "inode": 184462266
+  },
+  "packages": [
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/platforms",
+      "name": "platforms",
+      "uid": 501,
+      "inode": 184493540,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 140648448,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/cmake",
+      "name": "cmake",
+      "uid": 501,
+      "inode": 213445832,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 98865152,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/licenses",
+      "name": "licenses",
+      "uid": 501,
+      "inode": 184462267,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 8192,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/.knownPackages",
+      "name": ".knownPackages",
+      "uid": 501,
+      "inode": 184508100,
+      "is_symlink": false,
+      "is_dir": false,
+      "size_bytes": 4096,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/ndk",
+      "name": "ndk",
+      "uid": 501,
+      "inode": 213325004,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 2585587712,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/.temp",
+      "name": ".temp",
+      "uid": 501,
+      "inode": 184462275,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 0,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/system-images",
+      "name": "system-images",
+      "uid": 501,
+      "inode": 184465179,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 2405351424,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/sources",
+      "name": "sources",
+      "uid": 501,
+      "inode": 184475437,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 250511360,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/emulator",
+      "name": "emulator",
+      "uid": 501,
+      "inode": 184464744,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 1013620736,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/build-tools",
+      "name": "build-tools",
+      "uid": 501,
+      "inode": 184507800,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 392540160,
+      "du_exit_code": 0
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/platform-tools",
+      "name": "platform-tools",
+      "uid": 501,
+      "inode": 184508082,
+      "is_symlink": false,
+      "is_dir": true,
+      "size_bytes": 34050048,
+      "du_exit_code": 0
+    }
+  ],
+  "android_keys": [
+    {
+      "path": "/Users/xuhao/.android/adbkey",
+      "exists": true,
+      "uid": 501,
+      "inode": 283335367,
+      "size_bytes": 1704,
+      "mode": 384
+    },
+    {
+      "path": "/Users/xuhao/.android/adbkey.pub",
+      "exists": true,
+      "uid": 501,
+      "inode": 283335368,
+      "size_bytes": 717,
+      "mode": 420
+    },
+    {
+      "path": "/Users/xuhao/.android/adb_usb.ini",
+      "exists": false
+    }
+  ],
+  "adb_processes": [
+    "72995 adb"
+  ]
+}

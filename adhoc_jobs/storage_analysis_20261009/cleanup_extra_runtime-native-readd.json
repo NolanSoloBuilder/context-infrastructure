@@ -1,0 +1,50 @@
+{
+  "source_path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+  "same_apfs_volume": true,
+  "download_requested": false,
+  "move_requested": false,
+  "add": {
+    "exit_code": 6,
+    "stdout": "C: 5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253 <unknown platform> (Unusable - Copy/Move Failed: Error Domain=SimDiskImageErrorDomain Code=6 \"You can’t save the file “090-44334-323.dmg” because the volume “iOS 18.4 Simulator Bundle” is read only.\" UserInfo={NSLocalizedDescription=You can’t save the file “090-44334-323.dmg” because the volume “iOS 18.4 Simulator Bundle” is read only., unusableErrorDetail=Error Domain=NSCocoaErrorDomain Code=642 \"You can’t save the file “090-44334-323.dmg” because the volume “iOS 18.4 Simulator Bundle” is read only.\" UserInfo={NSUserStringVariant=(\n    Remove\n), NSFilePath=/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC/Restore/090-44334-323.dmg, NSURL=file:///Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC/Restore/090-44334-323.dmg, NSUnderlyingError=0x75f9409260 {Error Domain=NSPOSIXErrorDomain Code=30 \"Read-only file system\"}}})\n\n",
+    "stderr": "",
+    "elapsed_seconds": 11.57
+  },
+  "registered_images_after_add": {
+    "5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253": {
+      "deletable": true,
+      "identifier": "5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253",
+      "kind": "Cryptex Disk Image",
+      "parentIdentifier": "C442B829-14F6-4BA3-934A-C6131CA7C6FC",
+      "parentImagePath": "/Library/Developer/CoreSimulator/Cryptex/Images/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC.dmg",
+      "parentMountPath": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC",
+      "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+      "signatureState": "Personalized",
+      "sizeBytes": 8825558354,
+      "state": "Unusable",
+      "unusableErrorDetail": "Error Domain=SimDiskImageErrorDomain Code=6 \"You can’t save the file “090-44334-323.dmg” because the volume “iOS 18.4 Simulator Bundle” is read only.\" UserInfo={NSLocalizedDescription=You can’t save the file “090-44334-323.dmg” because the volume “iOS 18.4 Simulator Bundle” is read only., unusableErrorDetail=Error Domain=NSCocoaErrorDomain Code=642 \"You can’t save the file “090-44334-323.dmg” because the volume “iOS 18.4 Simulator Bundle” is read only.\" UserInfo={NSUserStringVariant=(\n    Remove\n), NSFilePath=/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC/Restore/090-44334-323.dmg, NSURL=file:///Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC/Restore/090-44334-323.dmg, NSUnderlyingError=0x75f9409260 {Error Domain=NSPOSIXErrorDomain Code=30 \"Read-only file system\"}}}",
+      "unusableErrorMessage": "You can’t save the file “090-44334-323.dmg” because the volume “iOS 18.4 Simulator Bundle” is read only.",
+      "unusableSubstate": "Copy/Move Failed"
+    },
+    "BB711A6A-5259-4195-AFE9-FADDF7507665": {
+      "build": "22E238",
+      "deletable": true,
+      "identifier": "BB711A6A-5259-4195-AFE9-FADDF7507665",
+      "kind": "Cryptex Disk Image",
+      "mountPath": "/Library/Developer/CoreSimulator/Volumes/iOS_22E238",
+      "parentIdentifier": "2C66A07C-9E93-4F88-BE67-FE59199E31FA",
+      "parentImagePath": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+      "parentMountPath": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-2C66A07C-9E93-4F88-BE67-FE59199E31FA",
+      "path": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-2C66A07C-9E93-4F88-BE67-FE59199E31FA/Restore/090-44334-323.dmg",
+      "platformIdentifier": "com.apple.platform.iphonesimulator",
+      "runtimeBundlePath": "/Library/Developer/CoreSimulator/Volumes/iOS_22E238/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 18.4.simruntime",
+      "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+      "signatureState": "Verified",
+      "state": "Ready",
+      "supportedArchitectures": [
+        "x86_64",
+        "arm64"
+      ],
+      "version": "18.4"
+    }
+  }
+}

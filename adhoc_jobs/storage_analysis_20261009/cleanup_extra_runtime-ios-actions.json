@@ -1,0 +1,92 @@
+[
+  {
+    "device_id": "530953E7-D80E-42A0-9628-D1BBCC836E4B",
+    "operation": "native_shutdown_already_verified",
+    "status": "already_shutdown"
+  },
+  {
+    "device_id": "4EEFFAC6-AD74-4400-A521-A2CE1059E682",
+    "operation": "native_shutdown_already_verified",
+    "status": "already_shutdown"
+  },
+  {
+    "device_id": "A2A87508-3C5C-40AE-BE2F-B9DA09E4AED0",
+    "operation": "native_shutdown_already_verified",
+    "status": "already_shutdown"
+  },
+  {
+    "device_id": "A11CC860-CDDA-43A7-8F5B-A6EDFE317119",
+    "operation": "native_shutdown_already_verified",
+    "status": "already_shutdown"
+  },
+  {
+    "command": [
+      "/usr/bin/xcrun",
+      "simctl",
+      "delete",
+      "530953E7-D80E-42A0-9628-D1BBCC836E4B"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/xcrun",
+      "simctl",
+      "delete",
+      "4EEFFAC6-AD74-4400-A521-A2CE1059E682"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/xcrun",
+      "simctl",
+      "delete",
+      "A2A87508-3C5C-40AE-BE2F-B9DA09E4AED0"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/xcrun",
+      "simctl",
+      "delete",
+      "A11CC860-CDDA-43A7-8F5B-A6EDFE317119"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/xcrun",
+      "simctl",
+      "runtime",
+      "delete",
+      "2C4FE14D-5072-4CBB-A1B3-85ACA07F8EB8"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "runtime_identifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-4"
+  },
+  {
+    "command": [
+      "/usr/bin/xcrun",
+      "simctl",
+      "runtime",
+      "delete",
+      "196ED4C9-CE29-4A4A-B896-36AD1106F061"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "",
+    "runtime_identifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-3"
+  }
+]

@@ -30,18 +30,33 @@ MCP 官方没有发布通用 IMAP/SMTP 邮箱服务器。MCP 官方 Registry 收
 5. 分别做 IMAP 只读 smoke 和 SMTP 发信 smoke。测试邮件只发给用户自己；删除测试只操作专门创建的测试邮件。
 6. 163 会在服务器端自动保存已发送邮件。将账户的 `save_to_sent` 设为 `false`，避免 MCP 再追加一份而产生重复留档。
 
-## Codex 配置
+## Codex 配置与按需启动
 
-全局配置位于 `/Users/xuhao/.codex/config.toml`：
+全局配置保留命令定义但默认不启动：
 
 ```toml
 [mcp_servers.netease-mail]
+enabled = false
 command = "/Users/xuhao/.local/bin/mcp-email-server"
 args = ["stdio"]
 startup_timeout_sec = 20
 ```
 
-修改 MCP 配置后需要重启 Codex，并在新任务中确认工具可见。当前任务看不到工具时，依次核对：固定版本是否安装、stdio 握手与 `tools/list`、Codex 配置、重启后的任务可见性。
+使用本工作区的按需入口，无需重启 Codex或修改全局开关：
+
+```bash
+python3 /Users/xuhao/Documents/Other/context-infrastructure/tools/netease_mail_on_demand.py --list-tools
+```
+
+先从工具列表核对名称和输入 schema，再调用：
+
+```bash
+python3 /Users/xuhao/Documents/Other/context-infrastructure/tools/netease_mail_on_demand.py --tool <工具名> < /tmp/mail_tool_args.json
+```
+
+参数文件应权限收紧，完成后按数据敏感程度清理；也可从标准输入直接传入 JSON。按需入口复用已安装的邮箱工具 Python 环境，通过 MCP SDK 管理初始化、调用与退出；不安装额外依赖、不保存凭据、不自动重试写操作。每次调用结束即关闭服务与连接。只做握手和 tools/list 不能证明 IMAP/SMTP 业务操作成功。
+
+若以后主动恢复客户端常驻工具，应在重新加载后的聊天中确认工具可见，不把配置文件修改当作当前聊天已完成热加载的证明。
 
 ## 操作边界
 

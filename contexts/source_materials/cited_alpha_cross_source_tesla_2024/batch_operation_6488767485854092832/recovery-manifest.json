@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "recovered-provider-readonly/v1",
+  "operation": "projects/829189946367/locations/us/operations/6488767485854092832",
+  "outputPrefix": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/",
+  "scope": {
+    "userId": "pdf-b7239c049f014f",
+    "workspaceId": "workspace-67c131c6-2579-4b48-aa05-d85cdbb94637",
+    "documentId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3",
+    "fileId": "file_e9aca68920734fabbc3a27b72d27cfa3",
+    "fileItemId": "uf_78b818ac18f04d789728734ad9ed41e1"
+  },
+  "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+  "pages": 36,
+  "shards": [
+    {
+      "bucket": "cited-alpha-20260701-document-ai",
+      "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-0.json",
+      "generation": "1789101844305433",
+      "sha256": "881124ac7ba7438f6d942282c78f00af45cd57bb25d3e41fb20417e20a27eb5d",
+      "bytes": 6417149,
+      "localFile": "shard-0000.json"
+    },
+    {
+      "bucket": "cited-alpha-20260701-document-ai",
+      "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-1.json",
+      "generation": "1789101844724983",
+      "sha256": "0fdede3d04dc6e894c0b61bf1aded40c53d215691695b0a5841591952985d6c0",
+      "bytes": 10263480,
+      "localFile": "shard-0001.json"
+    },
+    {
+      "bucket": "cited-alpha-20260701-document-ai",
+      "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-2.json",
+      "generation": "1789101845174194",
+      "sha256": "cc762d52485881a0e6b17b1fe99bfff91b20b682298494072f470160a13e1f39",
+      "bytes": 12376518,
+      "localFile": "shard-0002.json"
+    },
+    {
+      "bucket": "cited-alpha-20260701-document-ai",
+      "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-3.json",
+      "generation": "1789101845560767",
+      "sha256": "bb7deaf70c36632ccadce4537af7ee16b25f8bce2895752875e38c0aa97ecf92",
+      "bytes": 4578904,
+      "localFile": "shard-0003.json"
+    }
+  ],
+  "cloudWrites": 0,
+  "providerSubmissions": 0,
+  "scopeAuthority": "prior admission/upload receipts; reauthorize actual DAO before sealing",
+  "inputReceipt": {
+    "bucket": "cited-alpha-20260701-document-ai",
+    "key": "research/input/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/TSLA-Q4-2024-Update.pdf",
+    "generation": "1789101777743240",
+    "sha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+    "bytes": 11267189
+  },
+  "localReceipts": {
+    "operation.json": {
+      "sha256": "d22d27fb0ec8198801e7b6f2b348fac019720f09e9f55cc576d3beac35bd0a9e",
+      "bytes": 1085
+    },
+    "providerDocuments.json": {
+      "sha256": "407971af9132842f2151ead2a8961b16b243129a389e9165380bca77e8d5471c",
+      "bytes": 48939212
+    }
+  }
+}

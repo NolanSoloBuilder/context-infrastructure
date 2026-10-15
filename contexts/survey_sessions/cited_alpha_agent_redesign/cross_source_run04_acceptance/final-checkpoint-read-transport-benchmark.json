@@ -1,0 +1,33 @@
+{
+  "sequence": 190,
+  "bytes": 4029869,
+  "samples": [
+    {
+      "mode": "fresh",
+      "index": 0,
+      "seconds": 4.919673374999547
+    },
+    {
+      "mode": "fresh",
+      "index": 1,
+      "seconds": 5.1221466660063015
+    },
+    {
+      "mode": "reused",
+      "index": 0,
+      "seconds": 3.9259246250003343
+    },
+    {
+      "mode": "reused",
+      "index": 1,
+      "seconds": 3.536129707994405
+    },
+    {
+      "mode": "reused",
+      "index": 2,
+      "seconds": 3.4369884579937207
+    }
+  ],
+  "scopeAndHashValidated": true,
+  "limitations": "Five sequential local ADC reads; not concurrent pool or production benchmark; no writes or model calls"
+}

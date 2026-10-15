@@ -137,11 +137,15 @@ function renderIndex(state) {
   }
 
   lines.push("", "## 精选全局 Skill 快照", "");
-  lines.push("这些 Skill 已复制到仓库内 `.agents/skills/`，迁移后直接以项目级 Skill 生效，不会写回任何全局目录。", "");
-  lines.push("| Skill | 分类 | 原全局路径 | 来源 | 快照哈希 | 选择原因 |", "| --- | --- | --- | --- | --- | --- |");
-  for (const skill of snapshots.skills ?? []) {
-    const source = skill.sourceUrl ? `[${skill.source ?? skill.sourceType}](${skill.sourceUrl})` : skill.sourceType;
-    lines.push(`| \`${skill.name}\` | ${skill.category} | \`${skill.originalPath}\` | ${source} | \`${skill.contentHash.slice(0, 12)}\` | ${escapeTable(skill.reason)} |`);
+  if ((snapshots.skills?.length ?? 0) === 0) {
+    lines.push("当前未复制全局 Skill 到项目；克隆本仓库后，按需在全局环境安装这些能力。", "");
+  } else {
+    lines.push("这些 Skill 已复制到仓库内 `.agents/skills/`，迁移后直接以项目级 Skill 生效，不会写回任何全局目录。", "");
+    lines.push("| Skill | 分类 | 原全局路径 | 来源 | 快照哈希 | 选择原因 |", "| --- | --- | --- | --- | --- | --- |");
+    for (const skill of snapshots.skills) {
+      const source = skill.sourceUrl ? `[${skill.source ?? skill.sourceType}](${skill.sourceUrl})` : skill.sourceType;
+      lines.push(`| \`${skill.name}\` | ${skill.category} | \`${skill.originalPath}\` | ${source} | \`${skill.contentHash.slice(0, 12)}\` | ${escapeTable(skill.reason)} |`);
+    }
   }
   lines.push("", "明确排除：", "");
   for (const exclusion of snapshots.explicitExclusions ?? []) lines.push(`- ${exclusion}`);

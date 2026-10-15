@@ -1,0 +1,38 @@
+{
+  "before": {
+    "E8CFF0FB-F474-47D5-B3D3-FE6BD87D1593": {
+      "build": "22E238",
+      "deletable": true,
+      "identifier": "E8CFF0FB-F474-47D5-B3D3-FE6BD87D1593",
+      "kind": "Cryptex Disk Image",
+      "mountPath": "/Library/Developer/CoreSimulator/Volumes/iOS_22E238",
+      "parentIdentifier": "DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9",
+      "parentImagePath": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+      "parentMountPath": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9",
+      "path": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9/Restore/090-44334-323.dmg",
+      "platformIdentifier": "com.apple.platform.iphonesimulator",
+      "runtimeBundlePath": "/Library/Developer/CoreSimulator/Volumes/iOS_22E238/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 18.4.simruntime",
+      "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+      "signatureState": "Verified",
+      "state": "Ready",
+      "supportedArchitectures": [
+        "x86_64",
+        "arm64"
+      ],
+      "version": "18.4"
+    }
+  },
+  "delete": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "after": {
+    "exit": 0,
+    "stdout": "{\n  \"E8CFF0FB-F474-47D5-B3D3-FE6BD87D1593\" : {\n    \"build\" : \"22E238\",\n    \"deletable\" : true,\n    \"identifier\" : \"E8CFF0FB-F474-47D5-B3D3-FE6BD87D1593\",\n    \"kind\" : \"Cryptex Disk Image\",\n    \"mountPath\" : \"\\/Library\\/Developer\\/CoreSimulator\\/Volumes\\/iOS_22E238\",\n    \"parentIdentifier\" : \"DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9\",\n    \"parentImagePath\" : \"\\/System\\/Library\\/AssetsV2\\/com_apple_MobileAsset_iOSSimulatorRuntime\\/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset\\/AssetData\\/090-44150-318.dmg\",\n    \"parentMountPath\" : \"\\/Library\\/Developer\\/CoreSimulator\\/Cryptex\\/Images\\/bundle\\/SimRuntimeBundle-DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9\",\n    \"path\" : \"\\/Library\\/Developer\\/CoreSimulator\\/Cryptex\\/Images\\/bundle\\/SimRuntimeBundle-DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9\\/Restore\\/090-44334-323.dmg\",\n    \"platformIdentifier\" : \"com.apple.platform.iphonesimulator\",\n    \"runtimeBundlePath\" : \"\\/Library\\/Developer\\/CoreSimulator\\/Volumes\\/iOS_22E238\\/Library\\/Developer\\/CoreSimulator\\/Profiles\\/Runtimes\\/iOS 18.4.simruntime\",\n    \"runtimeIdentifier\" : \"com.apple.CoreSimulator.SimRuntime.iOS-18-4\",\n    \"signatureState\" : \"Verified\",\n    \"state\" : \"Deleting\",\n    \"supportedArchitectures\" : [\n      \"x86_64\",\n      \"arm64\"\n    ],\n    \"version\" : \"18.4\"\n  }\n}\n",
+    "stderr": ""
+  },
+  "inbox_names": [
+    "5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "projects/829189946367/locations/us/operations/71526297375386633",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.documentai.v1.BatchProcessMetadata",
+    "state": "SUCCEEDED",
+    "createTime": "2026-09-11T02:29:54.497340Z",
+    "updateTime": "2026-09-11T02:30:58.702610Z",
+    "individualProcessStatuses": [
+      {
+        "inputGcsSource": "gs://cited-alpha-20260701-document-ai/research/input/local-canary/cross-source-full36-01/05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc/05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc.pdf",
+        "status": {},
+        "outputGcsDestination": "gs://cited-alpha-20260701-document-ai/research/output/local-canary/cross-source-full36-01/05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc/71526297375386633/0",
+        "humanReviewStatus": {
+          "state": "SKIPPED",
+          "stateMessage": "HumanReviewConfig is DISABLED, skipping human review."
+        }
+      }
+    ]
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.documentai.v1.BatchProcessResponse"
+  }
+}

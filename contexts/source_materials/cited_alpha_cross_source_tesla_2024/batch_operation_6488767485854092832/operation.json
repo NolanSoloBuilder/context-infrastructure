@@ -1,0 +1,24 @@
+{
+  "name": "projects/829189946367/locations/us/operations/6488767485854092832",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.documentai.v1.BatchProcessMetadata",
+    "state": "SUCCEEDED",
+    "createTime": "2026-09-11T04:43:02.283220Z",
+    "updateTime": "2026-09-11T04:44:05.756966Z",
+    "individualProcessStatuses": [
+      {
+        "inputGcsSource": "gs://cited-alpha-20260701-document-ai/research/input/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/TSLA-Q4-2024-Update.pdf",
+        "status": {},
+        "outputGcsDestination": "gs://cited-alpha-20260701-document-ai/research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0",
+        "humanReviewStatus": {
+          "state": "SKIPPED",
+          "stateMessage": "HumanReviewConfig is DISABLED, skipping human review."
+        }
+      }
+    ]
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.documentai.v1.BatchProcessResponse"
+  }
+}

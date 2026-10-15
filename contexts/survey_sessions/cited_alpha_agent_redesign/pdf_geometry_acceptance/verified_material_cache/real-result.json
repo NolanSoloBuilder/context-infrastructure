@@ -1,0 +1,29 @@
+{
+  "realFixture": "36page Tesla + recovered provider; offline reconstructed version/store",
+  "coldStoreReads": 3,
+  "hotAdditionalReads": 0,
+  "coldSeconds": 1.693,
+  "hotSeconds": 0.057,
+  "scopeHashRejectedBeforeRead": true,
+  "responsePollutionPrevented": true,
+  "loadVerifiedStillFresh": true,
+  "namespaceIsolation": true,
+  "retainedBytes": 262731289,
+  "entries": 2,
+  "legacyReceipts": [
+    {
+      "receiptKind": "extension",
+      "coldReads": 6,
+      "cached": false,
+      "contentEquivalent": true
+    },
+    {
+      "receiptKind": "minimal",
+      "coldReads": 6,
+      "cached": false,
+      "contentEquivalent": true
+    }
+  ],
+  "originalPdfPrecision": "page",
+  "surface": "retained_provider_page"
+}

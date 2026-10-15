@@ -1,0 +1,389 @@
+{
+  "generated_at": 1791540421.7222579,
+  "authorization": "User explicitly requested full Cursor uninstall and local data disposal. Preserve project source/Git and shared VSCode/Codex/Node assets.",
+  "items": [
+    {
+      "path": "/Users/xuhao/.cursor/worktrees/wakanda-monorepo",
+      "before": 29319168,
+      "after": 0,
+      "action": "preserve_project_source_outside_cursor_data",
+      "status": "preserved_source_relocated",
+      "destination": "/Users/xuhao/Documents/Other/cursor-retained-worktrees-20261009/wakanda-monorepo",
+      "git_native_attempts": [
+        {
+          "worktree": "OYwLq",
+          "returncode": 128,
+          "error": "fatal: not a git repository: /Users/xuhao/Documents/Basic/wakanda-monorepo/.git/worktrees/OYwLq"
+        },
+        {
+          "worktree": "KbHCG",
+          "returncode": 128,
+          "error": "fatal: not a git repository: /Users/xuhao/Documents/Basic/wakanda-monorepo/.git/worktrees/KbHCG"
+        }
+      ],
+      "destination_allocated_bytes": 29319168,
+      "all_source_and_git_file_metadata_unchanged": true,
+      "why": "Both original .git pointers referenced missing main-repository worktree metadata before cleanup. Native Git move/status/HEAD unavailable; preserved all source and original .git bytes by same-volume rename, no history invented.",
+      "source_content_readback": {
+        "sha256": "ad42b885436e0fb01577e55596353a0cf47ec5d2c21ed71a156efc8039806760",
+        "regular_source_files": 1920,
+        "logical_source_bytes": 24295482,
+        "secret_named_files_not_read": [
+          "KbHCG/.npmrc",
+          "KbHCG/apps/vibe/.env",
+          "KbHCG/apps/vibe/.env.development",
+          "KbHCG/apps/vibe/.env.production",
+          "KbHCG/apps/vibe/.npmrc",
+          "OYwLq/.npmrc",
+          "OYwLq/apps/vibe/.env",
+          "OYwLq/apps/vibe/.env.development",
+          "OYwLq/apps/vibe/.env.production",
+          "OYwLq/apps/vibe/.npmrc"
+        ]
+      },
+      "source_content_double_read_identical": true,
+      "hash_note": "Content SHA256 is a post-relocation baseline read twice. Original preservation was independently verified by same-volume rename retaining every inode/size/mtime/type, not an invented pre-move hash. Secret-named files were stat-preserved but excluded from content hashing.",
+      "git_pointer_sha256": {
+        "KbHCG/.git": "aee97b9e9564a7ce56fb865aa03e4cf3f39c0ed39504f25fe365aa926e2ad0d5",
+        "OYwLq/.git": "4f86d9e31de6855348136fc548675467ad005dbfe65ed30176721f099251d080"
+      }
+    },
+    {
+      "path": "/Users/xuhao/.local/bin/cursor-agent",
+      "before": 0,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_symlink_target": "/Users/xuhao/.local/share/cursor-agent/versions/2025.09.12-4852336/cursor-agent",
+      "symlink_inode": 202367435,
+      "verified_absent": true
+    },
+    {
+      "path": "/usr/local/bin/cursor",
+      "before": 0,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "blocked_administrator_permission",
+      "appstate": "not_running",
+      "verified_symlink_target": "/Applications/Cursor.app/Contents/Resources/app/bin/code",
+      "symlink_inode": 128078722,
+      "error": "[Errno 13] Permission denied: '/usr/local/bin/cursor'",
+      "administrator_noninteractive_probe_exit": 1,
+      "administrator_probe_message": "sudo -n requires a password; no credentials requested/read",
+      "native_administrator_retry": {
+        "interface": "Finder exact item Move To Trash",
+        "status": "blocked_mac_locked",
+        "message": "Cua reported Mac is locked and automatic unlock could not unlock it; user must unlock locally. No password/auth dialog displayed or entered.",
+        "time": 1791540751.113457
+      }
+    },
+    {
+      "path": "/Applications/Cursor.app",
+      "before": 882790400,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.cursor",
+      "before": 2873102336,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/.cursor-server",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/.local/share/cursor-agent",
+      "before": 155328512,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Applications/Cursor.app",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor",
+      "before": 1445298176,
+      "after": 1273856,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "blocked_administrator_permission",
+      "appstate": "not_running",
+      "error": "[Errno 13] Permission denied: 'storage.json.backup_20250329_112102'",
+      "administrator_noninteractive_probe_exit": 1,
+      "administrator_probe_message": "sudo -n requires a password; no credentials requested/read",
+      "native_administrator_retry": {
+        "interface": "Finder exact item Move To Trash",
+        "status": "blocked_mac_locked",
+        "message": "Cua reported Mac is locked and automatic unlock could not unlock it; user must unlock locally. No password/auth dialog displayed or entered.",
+        "time": 1791540751.1134589
+      },
+      "user_writable_remaining_cleanup": {
+        "time": 1791540822.6502059,
+        "why": "Continue exact Cursor deletion after root-owned backup directory EACCES; remaining parent directories only wrap protected root-owned backup folder. No privilege bypass or shared path touched.",
+        "remaining_root_owned_path": "/Users/xuhao/Library/Application Support/Cursor/User/globalStorage/backups"
+      }
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.todesktop.230313mzl4w4u92.sfl4",
+      "before": 8192,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Caches/Cursor",
+      "before": 40349696,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Caches/com.todesktop.230313mzl4w4u92",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/HTTPStorages/com.todesktop.230313mzl4w4u92",
+      "before": 1024000,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/HTTPStorages/com.todesktop.230313mzl4w4u92.binarycookies",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Logs/com.todesktop.230313mzl4w4u92",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Preferences/ByHost/com.todesktop.230313mzl4w4u92.ShipIt.2283CDE0-74E1-531C-B832-00BEF5C3D9CE.plist",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Preferences/com.todesktop.230313mzl4w4u92.plist",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_cursor_owned_app_cli_or_local_data",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Saved Application State/com.todesktop.230313mzl4w4u92.savedState",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/WebKit/com.todesktop.230313mzl4w4u92",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/.cursor-tutor",
+      "before": 0,
+      "after": 0,
+      "action": "rmdir_empty_cursor_tutorial_directory",
+      "status": "deleted_verified",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "keychain:Cursor Safe Storage",
+      "before": null,
+      "after": null,
+      "action": "delete_cursor_only_safe_storage_keychain_item",
+      "status": "deleted_keychain_verified",
+      "metadata_query_exit": 0,
+      "delete_exit": 0,
+      "readback_query_exit": 44,
+      "secret_value_read": false
+    }
+  ],
+  "verification": {
+    "cursor_processes": [],
+    "root_cursor_data_absent": true,
+    "app_absent": true,
+    "cursor_agent_data_absent": true,
+    "cursor_agent_link_absent": true,
+    "system_cursor_link_absent": false,
+    "source_worktrees_preserved": true,
+    "shared_global_node_present": true,
+    "vscode_app_present": true,
+    "codex_mcp_bundled_source_present": true,
+    "repo_rules_not_traversed_or_modified": true,
+    "all_deleted_physical_paths_still_absent": true,
+    "app_support_data_absent": false,
+    "source_content_readback_sha256_identical": true
+  },
+  "application_lifecycle": [
+    {
+      "action": "no_native_quit_needed",
+      "app": "Cursor",
+      "appstate": "not_running",
+      "force_quit_used": false
+    }
+  ],
+  "ownership_audit": {
+    "bundle_id": "com.todesktop.230313mzl4w4u92",
+    "homebrew_cask_installed": false,
+    "dedicated_launchagent_or_daemon_matches": 0,
+    "apple_CursorUIViewService_preserved": true,
+    "global_node_packages_not_modified": true
+  },
+  "baseline": {
+    "app_state": "not_running",
+    "paths": [
+      {
+        "path": "/Applications/Cursor.app",
+        "allocated_bytes": 882790400,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/.cursor",
+        "allocated_bytes": 2902421504,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/.cursor-server",
+        "allocated_bytes": 0,
+        "exists_or_symlink": false
+      },
+      {
+        "path": "/Users/xuhao/.local/bin/cursor-agent",
+        "allocated_bytes": 0,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/.local/share/cursor-agent",
+        "allocated_bytes": 155328512,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Applications/Cursor.app",
+        "allocated_bytes": 0,
+        "exists_or_symlink": false
+      },
+      {
+        "path": "/Users/xuhao/Library/Application Support/Cursor",
+        "allocated_bytes": 1445298176,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.todesktop.230313mzl4w4u92.sfl4",
+        "allocated_bytes": 8192,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Library/Caches/Cursor",
+        "allocated_bytes": 40349696,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Library/Caches/com.todesktop.230313mzl4w4u92",
+        "allocated_bytes": 0,
+        "exists_or_symlink": false
+      },
+      {
+        "path": "/Users/xuhao/Library/HTTPStorages/com.todesktop.230313mzl4w4u92",
+        "allocated_bytes": 1024000,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Library/HTTPStorages/com.todesktop.230313mzl4w4u92.binarycookies",
+        "allocated_bytes": 4096,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Library/Logs/com.todesktop.230313mzl4w4u92",
+        "allocated_bytes": 0,
+        "exists_or_symlink": false
+      },
+      {
+        "path": "/Users/xuhao/Library/Preferences/ByHost/com.todesktop.230313mzl4w4u92.ShipIt.2283CDE0-74E1-531C-B832-00BEF5C3D9CE.plist",
+        "allocated_bytes": 4096,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Library/Preferences/com.todesktop.230313mzl4w4u92.plist",
+        "allocated_bytes": 4096,
+        "exists_or_symlink": true
+      },
+      {
+        "path": "/Users/xuhao/Library/Saved Application State/com.todesktop.230313mzl4w4u92.savedState",
+        "allocated_bytes": 0,
+        "exists_or_symlink": false
+      },
+      {
+        "path": "/Users/xuhao/Library/WebKit/com.todesktop.230313mzl4w4u92",
+        "allocated_bytes": 0,
+        "exists_or_symlink": false
+      },
+      {
+        "path": "/usr/local/bin/cursor",
+        "allocated_bytes": 0,
+        "exists_or_symlink": true
+      }
+    ]
+  },
+  "summary": {
+    "deleted_filesystem_items": 11,
+    "blocked_items": 2,
+    "failed_items": 0,
+    "allocated_directory_net_reduction_bytes": 5396639744,
+    "preserved_relocated_source_bytes": 29319168,
+    "size_note": "Fresh allocated before minus after for all attempted exact Cursor targets, including verified partial deletion. Relocated source is excluded. APFS shared extents and concurrent whole-disk df are not attributed as Cursor physical net free.",
+    "fully_deleted_allocated_bytes": 3952615424,
+    "partial_deleted_allocated_bytes": 1444024320
+  }
+}

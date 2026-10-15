@@ -33,8 +33,6 @@ Don't ask permission. Just do it.
 
 默认测试策略是 **Backend API E2E + 离线契约 E2E 优先**：先验证 SSE contract、checkpoint 续接、Workspace Memory、runtime references、artifact provenance 和 ML evidence pack；三服务 live smoke 只在显式需要真实链路时开启。
 
-涉及浏览器操作、页面验证、Web UI smoke、截图或交互调试时，默认强制使用 Codex 插件控制本地 Chrome，不用其它浏览器控制方式，除非用户明确指定替代方案。
-
 涉及本地 Mac App 或 SwiftUI App 的界面/文案/交互修改时，修改后必须重新构建或重新打包，然后关闭正在运行的 App 并重新打开，不能只依赖热加载或旧进程状态判断是否生效。
 
 ## Skills
@@ -73,6 +71,8 @@ node tools/external_skills_registry.mjs verify
 检查上游更新时使用只读命令 `node tools/external_skills_registry.mjs check-updates`。当前 Skills CLI 没有只读的 `skills check`，不要把 `npx skills check` 当成 dry-run；确认升级后才执行 `npx -y skills update --project -y`。
 
 从全局增加项目 Skill 时，只能使用 `rules/skills/project_global_skill_selection.json` 的显式白名单和 `node tools/vendor_global_codex_skills.mjs sync`。只增加与本项目直接相关的 Agent、检索、Cloudflare、浏览器验证和 workspace 运维能力；排除小红书公司/内部业务、Mindspace/Expo/Fedith/Hi 等公司专用 Skill、纯代码生成 Skill、Cursor-only Skill、Codex `.system` 与插件缓存。快照只写入仓库内 `.agents/skills`，不得反向安装到用户全局目录。
+
+Skill 范围按 [Skill 作用域治理](rules/skills/skill_scope_management.md) 管理：全局仅保留跨项目通用能力；公司内部及特定业务项目 Skill 通过对应仓库的 `.agents/skills` 加载。公司 Skill 内容和本机来源链接不提交到私人仓库，CLI 与认证缓存保持原有位置。
 
 ## Axioms（公理）
 

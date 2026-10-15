@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "semanticReview": "passed",
+  "editorialReview": "passed",
+  "scores": {
+    "answer": 4,
+    "reasoning": 4,
+    "organization": 4,
+    "readability": 4,
+    "evidence": 4
+  },
+  "issues": [],
+  "reviewer": {
+    "kind": "independent_model",
+    "version": "research-review/v2-anchor-bindings"
+  },
+  "contentHash": "sha256:135cc44dba108671b6ad6d6f2b4da61ea67616882a84165d731a0c9c44955920"
+}

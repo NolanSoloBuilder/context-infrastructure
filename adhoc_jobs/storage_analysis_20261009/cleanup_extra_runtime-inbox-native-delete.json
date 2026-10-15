@@ -1,0 +1,13 @@
+{
+  "native_exact_delete": {
+    "exit": 2,
+    "stdout": "",
+    "stderr": "No runtime disk images or bundles found matching '5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253'. Try 'runtime list'.\nNo matching images found to delete\n"
+  },
+  "sizes": {
+    "exit": 0,
+    "stdout": "8618716\t/Library/Developer/CoreSimulator/Images\n8623868\t/Library/Developer/CoreSimulator\n",
+    "stderr": ""
+  },
+  "file_exists": true
+}

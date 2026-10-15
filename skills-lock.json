@@ -187,6 +187,12 @@
       "skillPath": "ian-xiaohei-scenes/SKILL.md",
       "computedHash": "c80e43376a160c05b7f923d6e2e61d4dcd710235be92e57df1f336a37b64d452"
     },
+    "typesafe-ai": {
+      "source": "typesafe-ai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/typesafe-ai/SKILL.md",
+      "computedHash": "9cd84c5e535dec8dec59917c110f9c00b4a61faadb86b432ec7e41051170af12"
+    },
     "xiaohongshu-content-checker": {
       "source": "4682B4LEE/xiaohongshu-content-checker",
       "sourceType": "github",

@@ -1,0 +1,57 @@
+{
+  "time": "2026-10-09T17:55:54.005772",
+  "exit": 0,
+  "images": {
+    "61FC1144-DD94-4453-A47E-BC8F6904D641": {
+      "build": "22E238",
+      "deletable": true,
+      "identifier": "61FC1144-DD94-4453-A47E-BC8F6904D641",
+      "kind": "Cryptex Disk Image",
+      "mountPath": "/Library/Developer/CoreSimulator/Volumes/iOS_22E238",
+      "parentIdentifier": "BFF8F3F9-629C-4FF9-AECE-B5DC27A4CEC9",
+      "parentImagePath": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+      "parentMountPath": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-BFF8F3F9-629C-4FF9-AECE-B5DC27A4CEC9",
+      "path": "/Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-BFF8F3F9-629C-4FF9-AECE-B5DC27A4CEC9/Restore/090-44334-323.dmg",
+      "platformIdentifier": "com.apple.platform.iphonesimulator",
+      "runtimeBundlePath": "/Library/Developer/CoreSimulator/Volumes/iOS_22E238/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 18.4.simruntime",
+      "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+      "signatureState": "Verified",
+      "state": "Ready",
+      "supportedArchitectures": [
+        "x86_64",
+        "arm64"
+      ],
+      "version": "18.4"
+    },
+    "B16EA6C6-240D-4E56-94D1-7B7BAF22CC9D": {
+      "build": "22E238",
+      "deletable": true,
+      "identifier": "B16EA6C6-240D-4E56-94D1-7B7BAF22CC9D",
+      "kind": "Disk Image",
+      "path": "/Library/Developer/CoreSimulator/Images/Inbox/B16EA6C6-240D-4E56-94D1-7B7BAF22CC9D.dmg",
+      "platformIdentifier": "com.apple.platform.iphonesimulator",
+      "runtimeBundlePath": "/Library/Developer/CoreSimulator/Images/mnt/B16EA6C6-240D-4E56-94D1-7B7BAF22CC9D/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 18.4.simruntime",
+      "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+      "signatureState": "Verified",
+      "sizeBytes": 8825558354,
+      "state": "Unusable",
+      "supportedArchitectures": [
+        "x86_64",
+        "arm64"
+      ],
+      "unusableErrorDetail": "Error Domain=SimDiskImageErrorDomain Code=5 \"Duplicate of 61FC1144-DD94-4453-A47E-BC8F6904D641\" UserInfo={NSLocalizedDescription=Duplicate of 61FC1144-DD94-4453-A47E-BC8F6904D641, unusableErrorDetail=}",
+      "unusableErrorMessage": "Duplicate of 61FC1144-DD94-4453-A47E-BC8F6904D641",
+      "unusableSubstate": "Other Failure",
+      "version": "18.4"
+    }
+  },
+  "stderr": "",
+  "inbox": [
+    {
+      "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+      "inode": 368426251,
+      "logical_size": 8825558354,
+      "allocated_size": 8825561088
+    }
+  ]
+}

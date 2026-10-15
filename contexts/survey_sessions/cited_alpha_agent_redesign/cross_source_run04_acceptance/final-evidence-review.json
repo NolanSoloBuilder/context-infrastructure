@@ -1,0 +1,980 @@
+{
+  "checkpoint": 190,
+  "evidence": [
+    {
+      "id": "ev-0be700949501386ee50193bce1e24b677737c24b1288d82f98d16b93f643d587",
+      "kind": "sec",
+      "label": "Net cash provided by operating activities",
+      "period": "2023",
+      "quote": "13,256",
+      "coordinate": [
+        26,
+        20,
+        4
+      ],
+      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-145f44aacb625decaea989c74ef2c7c701b85c1e0ce5df65e1a609f18cd28fa3",
+      "kind": "sec",
+      "label": "Energy generation and storage",
+      "period": "2023",
+      "quote": "6,035",
+      "coordinate": [
+        23,
+        8,
+        4
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:EnergyGenerationAndStorageMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-149b131b1f701f221863e4121e4a0673602cb5b93bda9b03162592f6bc6067d0",
+      "kind": "pdf",
+      "page": 4,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:4:49",
+      "quote": "4,179",
+      "label": "Total gross profit",
+      "period": "Q4 2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Total  gross profit                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      4,438                                                                                                                                                                                                                                                                                                                                                                                                                                            3,696                                                                                                                                                                                                                                                                                                                                                                                                                                            4,578                                                                                                                                                                                                                                                                                                                                                                                                                                            4,997                                                                                                                                                                                                                                                                                                                                                                                                                                            4,179                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        -6%",
+      "bbox": [
+        {
+          "x": 0.83533382,
+          "y": 0.322
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.322
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.33733332
+        },
+        {
+          "x": 0.83533382,
+          "y": 0.33733332
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-1559fa454d23f2d02483e6fed5a3eb89a9a108120d550b91dede0aba78240e7f",
+      "kind": "sec",
+      "label": "Automotive regulatory credits",
+      "period": "2023",
+      "quote": "1,790",
+      "coordinate": [
+        23,
+        5,
+        4
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:AutomotiveRegulatoryCreditsMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-1fcd9dcdcb3edaedd43e9eb3df9d8cb53d1c693cb02bad05e1a3805ad1410771",
+      "kind": "pdf",
+      "page": 5,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:134",
+      "quote": "4,358",
+      "label": "Free cash flow",
+      "period": "2023",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Free cash flow                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2,786                                                                                                                                                                                                                                                                                                                                                                                                                                            5,015                                                                                                                                                                                                                                                                                                                                                                                                                                                             7,566                                                                                                                                                                                                                                                                                                                                                                                                                                            4,358                                                                                                                                                                                                                                                                                                                                                                                                                                            3,584                                                                                                                                                                                                                                                                                                                                                                                                                                                               -18%",
+      "bbox": [
+        {
+          "x": 0.74831206,
+          "y": 0.84666669
+        },
+        {
+          "x": 0.77494371,
+          "y": 0.84666669
+        },
+        {
+          "x": 0.77494371,
+          "y": 0.86199999
+        },
+        {
+          "x": 0.74831206,
+          "y": 0.86199999
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-209028db96b251222e2fa3aba75c7380358afba7746685222a96d5958a29578e",
+      "kind": "sec",
+      "label": "Total revenues",
+      "period": "2023",
+      "quote": "96,773",
+      "coordinate": [
+        23,
+        10,
+        4
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-253a2f3034964d099d764cd684343e0bfee9acc058472501bf080a3901258eb2",
+      "kind": "pdf",
+      "page": 4,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:4:67",
+      "quote": "1,583",
+      "label": "Income from operations",
+      "period": "Q4 2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Income from operations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            2,064                                                                                                                                                                                                                                                                                                                                                                                                                           1,171                                                                                                                                                                                                                                                                                                                                                                                                                                            1,605                                                                                                                                                                                                                                                                                                                                                                                                                                            2,717                                                                                                                                                                                                                                                                                                                                                                                                                                            1,583                                                                                                                                                                                                                                                                                                                                                                                                                                                               -23%",
+      "bbox": [
+        {
+          "x": 0.83608401,
+          "y": 0.43866667
+        },
+        {
+          "x": 0.86271566,
+          "y": 0.43866667
+        },
+        {
+          "x": 0.86271566,
+          "y": 0.45333335
+        },
+        {
+          "x": 0.83608401,
+          "y": 0.45333335
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-3e1811a581194a1ac17c7371c77d82ddcdec8a6dc1f607bd26a2df43ce447029",
+      "kind": "pdf",
+      "page": 4,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:4:93",
+      "quote": "2,317",
+      "label": "Net income attributable to common stockholders (GAAP)",
+      "period": "Q4 2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Net income attributable to common stockholders (GAAP)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                7,928                                                                                                                                                                                                                                                                                                                                                                                                                           1,129                                                                                                                                                                                                                                                                                                                                                                                                                                            1,478                                                                                                                                                                                                                                                                                                                                                                                                                                            2,167                                                                                                                                                                                                                                                                                                                                                                                                                                            2,317                                                                                                                                                                                                                                                                                                                                                                                                                                                               -71%",
+      "bbox": [
+        {
+          "x": 0.83608401,
+          "y": 0.61400002
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.61400002
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.62800002
+        },
+        {
+          "x": 0.83608401,
+          "y": 0.62800002
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-48e83670d44a3e770d540dc81fb82f4afe5f4d986928a9a87b699b147ecbbd67",
+      "kind": "sec",
+      "label": "Income from operations",
+      "period": "2023",
+      "quote": "8,891",
+      "coordinate": [
+        23,
+        24,
+        4
+      ],
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-49febd6677ce963549be792038dc402b3231436ea16fb4d8bf5b93919cfe67c4",
+      "kind": "pdf",
+      "page": 4,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:4:25",
+      "quote": "19,798",
+      "label": "Total automotive revenues",
+      "period": "Q4 2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Total automotive revenues                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           21,563                                                                                                                                                                                                                                                                                                                                                                                                    17,378                                                                                                                                                                                                                                                                                                                                                                                                    19,878                                                                                                                                                                                                                                                                                                                                                                                                    20,016                                                                                                                                                                                                                                                                                                                                                                                                    19,798                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        -8%",
+      "bbox": [
+        {
+          "x": 0.83008254,
+          "y": 0.17666666
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.17666666
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.192
+        },
+        {
+          "x": 0.83008254,
+          "y": 0.192
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-520b81586a8a6530353f47cc79f9d145f7400c71b6c584334fed3803e1b6eef6",
+      "kind": "sec",
+      "label": "Automotive regulatory credits",
+      "period": "2024",
+      "quote": "2,763",
+      "coordinate": [
+        23,
+        5,
+        1
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:AutomotiveRegulatoryCreditsMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-52276fe094b640a2f10481da0f00ca62dd6d9540150786ff90c21c2d2cc8ccf6",
+      "kind": "sec",
+      "label": "Services and other",
+      "period": "2023",
+      "quote": "8,319",
+      "coordinate": [
+        23,
+        9,
+        4
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:ServicesAndOtherMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-5bb6713c3c93d5ba7bf343e726bf702b2b2161e892cede68e3b809e158460b69",
+      "kind": "sec",
+      "label": "Automotive sales",
+      "period": "2023",
+      "quote": "78,509",
+      "coordinate": [
+        23,
+        4,
+        6
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:AutomotiveSalesMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-66c7005d07d9d44998864c8d57e00e3661dcfacf714c82b5e51edbc4aeec2534",
+      "kind": "sec",
+      "label": "Gross profit total automotive",
+      "period": [
+        "2024"
+      ],
+      "quote": "14,197",
+      "coordinate": [
+        13,
+        12,
+        3
+      ],
+      "rawExact": true,
+      "unit": "million USD",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-6a0b028e5b5e7fc46049bfd06c30b9863864a1bb075a30e5d993b4a4271ba7c8",
+      "kind": "sec",
+      "label": "Gross profit",
+      "period": "2023",
+      "quote": "17,660",
+      "coordinate": [
+        23,
+        18,
+        4
+      ],
+      "concept": "us-gaap:GrossProfit",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-7493961acf5440852717cc5b1c95c0be28aa614743edb31389734b7e9363452c",
+      "kind": "sec",
+      "label": "Income from operations",
+      "period": "2024",
+      "quote": "7,076",
+      "coordinate": [
+        23,
+        24,
+        1
+      ],
+      "concept": "us-gaap:OperatingIncomeLoss",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-753a39e4bba22b96d8b3439a3ac0117c0986c7c4c43fefd9b7956ca897260403",
+      "kind": "pdf",
+      "page": 5,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:135",
+      "quote": "3,584",
+      "label": "Free cash flow",
+      "period": "2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Free cash flow                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2,786                                                                                                                                                                                                                                                                                                                                                                                                                                            5,015                                                                                                                                                                                                                                                                                                                                                                                                                                                             7,566                                                                                                                                                                                                                                                                                                                                                                                                                                            4,358                                                                                                                                                                                                                                                                                                                                                                                                                                            3,584                                                                                                                                                                                                                                                                                                                                                                                                                                                               -18%",
+      "bbox": [
+        {
+          "x": 0.83533382,
+          "y": 0.84600002
+        },
+        {
+          "x": 0.86384094,
+          "y": 0.84600002
+        },
+        {
+          "x": 0.86384094,
+          "y": 0.86199999
+        },
+        {
+          "x": 0.83533382,
+          "y": 0.86199999
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-7a597f53277c88cf47fbe7b433fd4152c8a628ef852100fb7366c50294e25b21",
+      "kind": "sec",
+      "label": "Services and other",
+      "period": "2024",
+      "quote": "10,534",
+      "coordinate": [
+        23,
+        9,
+        1
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:ServicesAndOtherMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-7c1c2b40896b6b07b9d17d869a26768c2181a073f39865ec9bd9aa7ecac00497",
+      "kind": "sec",
+      "label": "Automotive sales",
+      "period": "2024",
+      "quote": "72,480",
+      "coordinate": [
+        23,
+        4,
+        2
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:AutomotiveSalesMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-7cebd00c566709a71738a3575406b36f941a9c29215f3cc636dced2c6bfad079",
+      "kind": "sec",
+      "label": "Total automotive revenues",
+      "period": "2024",
+      "quote": "77,070",
+      "coordinate": [
+        23,
+        7,
+        1
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:AutomotiveRevenuesMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-7d25e8c90073db2b635554751606de322bacc5663009c03a8bd0de7979663c0a",
+      "kind": "sec",
+      "label": "Gross margin energy generation and storage segment",
+      "period": [
+        "2023"
+      ],
+      "quote": "18.9",
+      "coordinate": [
+        13,
+        19,
+        5
+      ],
+      "rawExact": true,
+      "unit": "percent",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-819a81b6efaf1d60345e371d07d04a4bebc903b5188346d2c42fa3f3f4fa5b8b",
+      "kind": "sec",
+      "label": "Gross profit",
+      "period": "2024",
+      "quote": "17,450",
+      "coordinate": [
+        23,
+        18,
+        1
+      ],
+      "concept": "us-gaap:GrossProfit",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-839807ffb06d94a5070c28bf6452d23ce4ad1e9345a4525ef634dcaa325bdadc",
+      "kind": "sec",
+      "label": "Total automotive revenues",
+      "period": "2023",
+      "quote": "82,419",
+      "coordinate": [
+        23,
+        7,
+        4
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:AutomotiveRevenuesMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-8bade8408d0c7c45f75a2b86ce457bdafd95c29452d0e6cb8df60c06c172f316",
+      "kind": "pdf",
+      "page": 8,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:8:76",
+      "quote": "14.7",
+      "label": "Storage deployed (GWh)",
+      "period": "2023",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Storage deployed (GWh)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   3.0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            4.0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            6.5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    14.7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    31.4                                                                                                                                                                                                                                                                                                                                                                                                                                               114%",
+      "bbox": [
+        {
+          "x": 0.75468868,
+          "y": 0.54799998
+        },
+        {
+          "x": 0.77606905,
+          "y": 0.54799998
+        },
+        {
+          "x": 0.77606905,
+          "y": 0.56066668
+        },
+        {
+          "x": 0.75468868,
+          "y": 0.56066668
+        }
+      ],
+      "unit": "GWh",
+      "unaudited": true
+    },
+    {
+      "id": "ev-958cc8e7076414226a1a8b507a6903915c2ec1c823b56306ef730cfd06c2f7c4",
+      "kind": "sec",
+      "label": "Gross margin total automotive",
+      "period": [
+        "2023"
+      ],
+      "quote": "19.4",
+      "coordinate": [
+        13,
+        13,
+        5
+      ],
+      "rawExact": true,
+      "unit": "percent",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-9697bbbc2440d850056a86c498acd43d44764df903eec62b798aa788c6c00816",
+      "kind": "sec",
+      "label": "Gross margin total automotive",
+      "period": [
+        "2024"
+      ],
+      "quote": "18.4",
+      "coordinate": [
+        13,
+        13,
+        2
+      ],
+      "rawExact": true,
+      "unit": "percent",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-99727f80cd85bff1ae696a21c3db9cfa752308a0959641a70f11be43f231ee9e",
+      "kind": "sec",
+      "label": "Purchases of property and equipment excluding finance leases, net of sales",
+      "period": "2023",
+      "quote": "( 8,898 )",
+      "coordinate": [
+        26,
+        22,
+        4
+      ],
+      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-af12431ed9bb9223ba2dc002ae7f1b1481a1103f8b084f962ddcbc937c5fc72c",
+      "kind": "sec",
+      "label": "Net cash provided by operating activities",
+      "period": "2024",
+      "quote": "14,923",
+      "coordinate": [
+        26,
+        20,
+        1
+      ],
+      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-b470d96c661680b04b398dc430d6032327f6214dd051db2cfbb9656949791452",
+      "kind": "pdf",
+      "page": 8,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:8:50",
+      "quote": "1,789,226",
+      "label": "Total deliveries",
+      "period": "2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Total deliveries                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     499,647                                                                                                                                                                                                                                                                                                                                                          936,222                                                                                                                                                                                                                                                                                             1,313,851                                                                                                                                                                                                                                                                                             1,808,581                                                                                                                                                                                                                                                                                             1,789,226                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -1%",
+      "bbox": [
+        {
+          "x": 0.81657916,
+          "y": 0.36399999
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.36399999
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.37933335
+        },
+        {
+          "x": 0.81657916,
+          "y": 0.37933335
+        }
+      ],
+      "unit": "vehicles",
+      "unaudited": true
+    },
+    {
+      "id": "ev-b7659d3cb5b5cff5a79e5cd5752181723a056c234a8389eb07384218834bc5cf",
+      "kind": "sec",
+      "label": "Gross profit energy generation and storage segment",
+      "period": [
+        "2024"
+      ],
+      "quote": "2,640",
+      "coordinate": [
+        13,
+        18,
+        3
+      ],
+      "rawExact": true,
+      "unit": "million USD",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-ba64a74d561dc58659d2c4aafd21012dd304f600aede5023e37f76595c2a0fff",
+      "kind": "pdf",
+      "page": 4,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:4:31",
+      "quote": "3,061",
+      "label": "Energy generation and storage revenue",
+      "period": "Q4 2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Energy generation and storage revenue                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            1,438                                                                                                                                                                                                                                                                                                                                                                                                                                            1,635                                                                                                                                                                                                                                                                                                                                                                                                                                            3,014                                                                                                                                                                                                                                                                                                                                                                                                                                            2,376                                                                                                                                                                                                                                                                                                                                                                                                                                            3,061                                                                                                                                                                                                                                                                                                                                                                                                                                                113%",
+      "bbox": [
+        {
+          "x": 0.83533382,
+          "y": 0.20533334
+        },
+        {
+          "x": 0.86271566,
+          "y": 0.20533334
+        },
+        {
+          "x": 0.86271566,
+          "y": 0.22
+        },
+        {
+          "x": 0.83533382,
+          "y": 0.22
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-be7e13460dc7aab0915e0ada25da8bb37fea676fb3f7f1aa33ed2c33f31cfe29",
+      "kind": "sec",
+      "label": "Gross profit total automotive",
+      "period": [
+        "2023"
+      ],
+      "quote": "16,030",
+      "coordinate": [
+        13,
+        12,
+        7
+      ],
+      "rawExact": true,
+      "unit": "million USD",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-c46d23ccac8363a1b2eac4db97c21bae283205398ee28a089679e54aeedb3129",
+      "kind": "sec",
+      "label": "Net income attributable to common stockholders",
+      "period": "2023",
+      "quote": "14,997",
+      "coordinate": [
+        23,
+        32,
+        6
+      ],
+      "concept": "us-gaap:NetIncomeLoss",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-c57aec1d9b9d09e34f68d8f4b07c4d54fb1cf8c4238b50b8649bb3aa04d3bf8d",
+      "kind": "pdf",
+      "page": 8,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:8:49",
+      "quote": "1,808,581",
+      "label": "Total deliveries",
+      "period": "2023",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Total deliveries                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     499,647                                                                                                                                                                                                                                                                                                                                                          936,222                                                                                                                                                                                                                                                                                             1,313,851                                                                                                                                                                                                                                                                                             1,808,581                                                                                                                                                                                                                                                                                             1,789,226                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -1%",
+      "bbox": [
+        {
+          "x": 0.72955739,
+          "y": 0.36399999
+        },
+        {
+          "x": 0.7753188,
+          "y": 0.36399999
+        },
+        {
+          "x": 0.7753188,
+          "y": 0.38
+        },
+        {
+          "x": 0.72955739,
+          "y": 0.38
+        }
+      ],
+      "unit": "vehicles",
+      "unaudited": true
+    },
+    {
+      "id": "ev-cb1207a63ebd4e02d5a0385d201de26c2ae380b0d17cad264f9fe192f3f9d7c0",
+      "kind": "sec",
+      "label": "Gross margin energy generation and storage segment",
+      "period": [
+        "2024"
+      ],
+      "quote": "26.2",
+      "coordinate": [
+        13,
+        19,
+        2
+      ],
+      "rawExact": true,
+      "unit": "percent",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-ccc4431aba314b48a328a01f3576d1a6a552b1f384027b447a4d833aacdea244",
+      "kind": "sec",
+      "label": "Energy generation and storage",
+      "period": "2024",
+      "quote": "10,086",
+      "coordinate": [
+        23,
+        8,
+        1
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [
+        {
+          "dimension": "srt:ProductOrServiceAxis",
+          "member": "tsla:EnergyGenerationAndStorageMember"
+        }
+      ],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-d309bcde15c78fa8cdd0c266ca9337c2c839b9b02a7cdfde145e6e5a8a876c3b",
+      "kind": "sec",
+      "label": "Net income attributable to common stockholders",
+      "period": "2024",
+      "quote": "7,091",
+      "coordinate": [
+        23,
+        32,
+        2
+      ],
+      "concept": "us-gaap:NetIncomeLoss",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-d4e106e57eeae9152f63adfb1bc7befb35352479ba40e2295bf6ae9e114d1769",
+      "kind": "sec",
+      "label": "Total revenues",
+      "period": "2024",
+      "quote": "97,690",
+      "coordinate": [
+        23,
+        10,
+        1
+      ],
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-d84e79b6d94d182e45ea0432dd8a29150ee6cb56207324410ee63429497ad559",
+      "kind": "sec",
+      "label": "Purchases of property and equipment excluding finance leases, net of sales",
+      "period": "2024",
+      "quote": "( 11,339 )",
+      "coordinate": [
+        26,
+        22,
+        1
+      ],
+      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "dimensions": [],
+      "unit": "iso4217:USD",
+      "scale": 6,
+      "rawExact": true
+    },
+    {
+      "id": "ev-d95600f13fdac2ec2a8e36aadb8b6a7ee89ea93450f2a0bcf2ef8b6133420aa0",
+      "kind": "sec",
+      "label": "Gross profit energy generation and storage segment",
+      "period": [
+        "2023"
+      ],
+      "quote": "1,141",
+      "coordinate": [
+        13,
+        18,
+        7
+      ],
+      "rawExact": true,
+      "unit": "million USD",
+      "typedXbrl": false
+    },
+    {
+      "id": "ev-ded970e298334a3a773ad5804bbf12a193cd87decc229fe669517392f996c122",
+      "kind": "pdf",
+      "page": 4,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:4:43",
+      "quote": "25,707",
+      "label": "Total revenues",
+      "period": "Q4 2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Total revenues                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    25,167                                                                                                                                                                                                                                                                                                                                                                                                    21,301                                                                                                                                                                                                                                                                                                                                                                                                    25,500                                                                                                                                                                                                                                                                                                                                                                                                    25,182                                                                                                                                                                                                                                                                                                                                                                                                    25,707                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2%",
+      "bbox": [
+        {
+          "x": 0.83008254,
+          "y": 0.29333332
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.29333332
+        },
+        {
+          "x": 0.86234057,
+          "y": 0.308
+        },
+        {
+          "x": 0.83008254,
+          "y": 0.308
+        }
+      ],
+      "unit": "million USD",
+      "unaudited": true
+    },
+    {
+      "id": "ev-ec76077822abaa04b6d8d8f0d486b86c42395779ba50cb84d59926014bef1618",
+      "kind": "pdf",
+      "page": 8,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:8:77",
+      "quote": "31.4",
+      "label": "Storage deployed (GWh)",
+      "period": "2024",
+      "providerPolygonExact": true,
+      "originalPdfTextRow": "Storage deployed (GWh)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   3.0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            4.0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            6.5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    14.7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    31.4                                                                                                                                                                                                                                                                                                                                                                                                                                               114%",
+      "bbox": [
+        {
+          "x": 0.84171045,
+          "y": 0.54866666
+        },
+        {
+          "x": 0.86384094,
+          "y": 0.54866666
+        },
+        {
+          "x": 0.86384094,
+          "y": 0.56066668
+        },
+        {
+          "x": 0.84171045,
+          "y": 0.56066668
+        }
+      ],
+      "unit": "GWh",
+      "unaudited": true
+    }
+  ],
+  "calculations": [
+    {
+      "id": "calc-13c59dbc29ec1a2fbe0e5e0d9306f43dc7ace929eb33e8214fc0274a06db5172",
+      "inputEvidenceIds": [
+        "ev-7493961acf5440852717cc5b1c95c0be28aa614743edb31389734b7e9363452c",
+        "ev-48e83670d44a3e770d540dc81fb82f4afe5f4d986928a9a87b699b147ecbbd67"
+      ],
+      "label": "Income from operations",
+      "valuePercent": "-20.41",
+      "decimalRecomputed": true
+    },
+    {
+      "id": "calc-157845aef15155449418afbb6580a46c30e0174631712c67f4ce108300cec1b2",
+      "inputEvidenceIds": [
+        "ev-7cebd00c566709a71738a3575406b36f941a9c29215f3cc636dced2c6bfad079",
+        "ev-839807ffb06d94a5070c28bf6452d23ce4ad1e9345a4525ef634dcaa325bdadc"
+      ],
+      "label": "Total automotive revenues",
+      "valuePercent": "-6.49",
+      "decimalRecomputed": true
+    },
+    {
+      "id": "calc-259320b2ef5de191040241a3257ecccf8d2bb5fa2bd8f142955b0bdce54f3b12",
+      "inputEvidenceIds": [
+        "ev-d4e106e57eeae9152f63adfb1bc7befb35352479ba40e2295bf6ae9e114d1769",
+        "ev-209028db96b251222e2fa3aba75c7380358afba7746685222a96d5958a29578e"
+      ],
+      "label": "Total revenues",
+      "valuePercent": "0.95",
+      "decimalRecomputed": true
+    },
+    {
+      "id": "calc-bbcf924c60d65bb68613dec79e1e0d767c39049424e5124cb32139482426a8b3",
+      "inputEvidenceIds": [
+        "ev-ccc4431aba314b48a328a01f3576d1a6a552b1f384027b447a4d833aacdea244",
+        "ev-145f44aacb625decaea989c74ef2c7c701b85c1e0ce5df65e1a609f18cd28fa3"
+      ],
+      "label": "Energy generation and storage",
+      "valuePercent": "67.13",
+      "decimalRecomputed": true
+    }
+  ],
+  "boundary": "local raw material checks only; no report acceptance"
+}

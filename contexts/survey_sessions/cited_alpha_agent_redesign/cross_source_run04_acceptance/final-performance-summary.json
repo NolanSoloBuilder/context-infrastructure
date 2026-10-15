@@ -1,0 +1,37 @@
+{
+  "callback_calculate": {
+    "count": 4,
+    "medianSeconds": 12.532399999999999,
+    "sumSeconds": 52.6379,
+    "statuses": {
+      "ok": 4
+    }
+  },
+  "callback_checkpoint": {
+    "count": 189,
+    "medianSeconds": 7.0759,
+    "sumSeconds": 1383.8804,
+    "statuses": {
+      "error": 1,
+      "ok": 188
+    }
+  },
+  "checkpoint_load": {
+    "count": 195,
+    "medianSeconds": 3.8622,
+    "sumSeconds": 753.1265,
+    "statuses": {
+      "ok": 195
+    }
+  },
+  "checkpoint_save": {
+    "count": 191,
+    "medianSeconds": 3.1081,
+    "sumSeconds": 655.4166,
+    "statuses": {
+      "ok": 191
+    }
+  },
+  "checkpointReadWriteUnionSeconds": 1408.5430970191956,
+  "note": "callback spans include nested store spans; do not add their sums"
+}

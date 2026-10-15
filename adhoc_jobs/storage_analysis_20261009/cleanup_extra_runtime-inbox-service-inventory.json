@@ -1,0 +1,51 @@
+{
+  "system/com.apple.CoreSimulator.simdiskimaged": {
+    "exit": 0,
+    "stderr": "",
+    "safe_lines": [
+      "active count = 2",
+      "path = (submitted by com.apple.CoreS.79387)",
+      "type = Submitted",
+      "state = running",
+      "program = /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/bin/simdiskimaged",
+      "pid = 79390",
+      "last exit code = (never exited)",
+      "type = resource",
+      "state = active",
+      "active count = 1",
+      "type = jetsam",
+      "state = active",
+      "active count = 1"
+    ]
+  },
+  "gui/501/com.apple.CoreSimulator.CoreSimulatorService": {
+    "exit": 113,
+    "stderr": "Bad request.\nCould not find service \"com.apple.CoreSimulator.CoreSimulatorService\" in domain for user gui: 501",
+    "safe_lines": []
+  },
+  "user/501/com.apple.CoreSimulator.CoreSimulatorService": {
+    "exit": 0,
+    "stderr": "",
+    "safe_lines": [
+      "active count = 4",
+      "path = /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc",
+      "type = XPCService",
+      "state = running",
+      "program = /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService",
+      "pid = 79892",
+      "last exit code = (never exited)",
+      "type = resource",
+      "state = active",
+      "active count = 1",
+      "type = jetsam",
+      "state = active",
+      "active count = 1"
+    ]
+  },
+  "framework_bin": {
+    "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/Resources/bin": [
+      "simdiskimaged",
+      "simctl"
+    ]
+  }
+}

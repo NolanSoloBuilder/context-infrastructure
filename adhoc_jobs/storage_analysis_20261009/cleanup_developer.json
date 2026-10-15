@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-09",
+  "status": "completed_for_assigned_scope",
+  "measurement": "directory allocated-size changes from du -k*1024; decimal GB; actual system net freed measured by root df",
+  "total_directory_size_reduction_bytes": 14428082176,
+  "actions": [
+    {
+      "path": "/Users/xuhao/Library/pnpm/store",
+      "before": {
+        "size_bytes": 9990598656
+      },
+      "after": {
+        "size_bytes": 592465920
+      },
+      "directory_size_reduction_bytes": 9398132736,
+      "action": "pnpm store prune (v3), then installed pnpm12 store prune (v11)",
+      "status": "completed",
+      "retained_reason": "Native prune retains references/metadata and global tools",
+      "verification": {
+        "name": "pnpm_store_prune",
+        "command": [
+          "pnpm",
+          "store",
+          "prune"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 274.72,
+        "stdout": "Removed all cached metadata files\nRemoved 293847 files\nRemoved 7717 packages\n",
+        "stderr": "",
+        "v11_action": {
+          "command": "/opt/homebrew/lib/node_modules/pnpm/pnpm store prune",
+          "exit_code": 0,
+          "stdout": "Checking 1 registered project; Removed 650 packages from global virtual store"
+        }
+      }
+    },
+    {
+      "path": "/Users/xuhao/.bun/install/cache",
+      "before": {
+        "size_bytes": 2016497664
+      },
+      "after": {
+        "size_bytes": 0
+      },
+      "directory_size_reduction_bytes": 2016497664,
+      "action": "bun pm --global cache rm",
+      "status": "completed",
+      "retained_reason": "Global tool installs, binaries, project environments and credentials retained",
+      "verification": {
+        "name": "bun_cache_clear",
+        "command": [
+          "/Users/xuhao/.bun/bin/bun",
+          "pm",
+          "--global",
+          "cache",
+          "rm"
+        ],
+        "exit_code": 0,
+        "stdout": "Cleared bun install cache; Cleared 0 cached bunx packages",
+        "stderr": "",
+        "attempts": [
+          "Plain pm rejected because cwd has no package.json; no cache changes",
+          "First global command timed out at180 seconds after partial cache deletion",
+          "Global command retried and completed exit0"
+        ],
+        "after_size_bytes": 0
+      }
+    },
+    {
+      "path": "/Users/xuhao/.cache/uv",
+      "before": {
+        "size_bytes": 1942659072
+      },
+      "after": {
+        "size_bytes": 12288
+      },
+      "directory_size_reduction_bytes": 1942646784,
+      "action": "uv cache clean --cache-dir ~/.cache/uv --no-config",
+      "status": "completed",
+      "retained_reason": "Global tool installs, binaries, project environments and credentials retained",
+      "verification": {
+        "name": "uv_cache_clear",
+        "command": [
+          "uv",
+          "cache",
+          "clean",
+          "--cache-dir",
+          "/Users/xuhao/.cache/uv",
+          "--no-config"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 107.9,
+        "stdout": "",
+        "stderr": "Clearing cache at: /Users/xuhao/.cache/uv\nRemoved 40797 files (1.7GiB)\n"
+      }
+    },
+    {
+      "path": "/Users/xuhao/.nvm/versions/node",
+      "before": {
+        "version_count": 16,
+        "removed_candidate_size_bytes": 1070804992
+      },
+      "after": {
+        "version_count": 14,
+        "removed_candidate_size_bytes": 0
+      },
+      "directory_size_reduction_bytes": 1070804992,
+      "action": "nvm uninstall v18.20.5; nvm uninstall v18.20.7",
+      "status": "completed",
+      "retained_reason": "精确项目版本、活跃/default版本、独立global CLI与不同major/minor环境保留",
+      "verification": {
+        "native_result": {
+          "name": "nvm_old_patch_uninstall",
+          "command": [
+            "zsh",
+            "-c",
+            "source /Users/xuhao/.nvm/nvm.sh --no-use && nvm uninstall v18.20.5 && nvm uninstall v18.20.7"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 270.53,
+          "stdout": "Uninstalled node v18.20.5\nUninstalled node v18.20.7\n",
+          "stderr": ""
+        },
+        "project_files_scanned": 544,
+        "node_version_files": [
+          {
+            "path": "/Users/xuhao/Documents/Basic/merchant-trade/.nvmrc",
+            "value": "v14.21.3"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Other/mindspace_app/.nvmrc",
+            "value": "v22.22.0"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Other/mindspace_app/.node-version",
+            "value": "22.22.0"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Other/agent-native-aluminum-platform/.node-version",
+            "value": "22.22.0"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Basic/armor/.nvmrc",
+            "value": "v18.19.1"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Other/LibreChat/.nvmrc",
+            "value": "24.16.0"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Basic/aurora/.nvmrc",
+            "value": "v18.20.1"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Other/context-infrastructure/tmp/birdclaw_survey_20260623/repo/.node-version",
+            "value": "25.8.1"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Basic/vibe-rn/.node-version",
+            "value": "v18"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Basic/vibe-marketing-rn/.node-version",
+            "value": "v18"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Basic/aurora-fansopen-preserved/.nvmrc",
+            "value": "v18.20.1"
+          },
+          {
+            "path": "/Users/xuhao/Documents/Basic/mono-live/.nvmrc",
+            "value": "v18.19.1"
+          }
+        ],
+        "aliases": [
+          {
+            "path": "/Users/xuhao/.nvm/alias/default",
+            "value": "22"
+          }
+        ],
+        "active_version_snapshot": {
+          "v22.22.0": [
+            "7492",
+            "10197",
+            "10336",
+            "11931",
+            "15836",
+            "17588",
+            "21672",
+            "24484",
+            "34598",
+            "35367",
+            "37463",
+            "38678",
+            "38708",
+            "38748",
+            "39073",
+            "39257",
+            "39295",
+            "41916",
+            "83078",
+            "98175"
+          ]
+        },
+        "retained": [
+          {
+            "version": "v14.14.0",
+            "reason": "含hulk等独立旧CLI，未证明可替代"
+          },
+          {
+            "version": "v14.21.3",
+            "reason": "merchant-trade .nvmrc和engines精确绑定"
+          },
+          {
+            "version": "v16.20.2",
+            "reason": "含get-api-data-mcp、modular-startup等独立全局工具"
+          },
+          {
+            "version": "v18.16.1",
+            "reason": "含modular-startup 5.3.5等独立全局工具"
+          },
+          {
+            "version": "v18.17.0",
+            "reason": "不同minor的独立环境，未证明长期用途消失"
+          },
+          {
+            "version": "v18.19.1",
+            "reason": "armor和mono-live的.nvmrc精确绑定"
+          },
+          {
+            "version": "v18.20.1",
+            "reason": "aurora与aurora-fansopen-preserved的.nvmrc精确绑定"
+          },
+          {
+            "version": "v18.20.8",
+            "reason": "同major/minor最新patch，保留formula-cli、yarn、pnpm和expo全局工具"
+          },
+          {
+            "version": "v19.9.0",
+            "reason": "独立major环境，未证明长期用途消失"
+          },
+          {
+            "version": "v20.19.0",
+            "reason": "有@xhs/hulk、@expo/cli等其他同系列版本未覆盖的全局工具"
+          },
+          {
+            "version": "v20.19.4",
+            "reason": "当前20.19系列最新patch且包含独立CLI/MCP依赖"
+          },
+          {
+            "version": "v22.12.0",
+            "reason": "不同minor且含pnpm版本，未扩展到跨minor环境卸载"
+          },
+          {
+            "version": "v22.16.0",
+            "reason": "含happy-coder、lark/rslib/ctx等独立全局工具"
+          },
+          {
+            "version": "v22.22.0",
+            "reason": "当前活跃进程、默认22 alias、Mindspace与BeamJoin项目绑定"
+          }
+        ],
+        "retained_binary_checks": [
+          {
+            "version": "v18.20.8",
+            "exit_code": 0,
+            "stdout": "v18.20.8"
+          },
+          {
+            "version": "v18.20.1",
+            "exit_code": 0,
+            "stdout": "v18.20.1"
+          },
+          {
+            "version": "v22.22.0",
+            "exit_code": 0,
+            "stdout": "v22.22.0"
+          }
+        ],
+        "global_packages_coverage": [
+          {
+            "removed_version": "v18.20.7",
+            "package": {
+              "name": "@xhs/formula-cli",
+              "version": "3.26.15"
+            },
+            "retained_in": "v18.20.8",
+            "same_version": true
+          },
+          {
+            "removed_version": "v18.20.7",
+            "package": {
+              "name": "yarn",
+              "version": "1.22.22"
+            },
+            "retained_in": "v18.20.8",
+            "same_version": true
+          }
+        ],
+        "removed_directories_absent": true
+      }
+    },
+    {
+      "path": "/opt/homebrew/lib/node_modules/npm",
+      "before": {
+        "node_version": "25.2.1",
+        "npm_version": "6.14.18",
+        "npx_version": "6.14.18",
+        "non_npm_global_packages": 35
+      },
+      "after": {
+        "node_version": "25.2.1",
+        "npm_version": "11.6.2",
+        "npx_version": "11.6.2",
+        "non_npm_global_packages": 35
+      },
+      "action": "brew postinstall /opt/homebrew/Cellar/node/25.2.1/.brew/node.rb",
+      "status": "completed",
+      "retained_reason": "恢复当前Homebrew Node随包现代npm，保留其他global CLI及用户~/.npmrc；未下载/升级Node",
+      "verification": {
+        "action": "brew postinstall /opt/homebrew/Cellar/node/25.2.1/.brew/node.rb",
+        "npm_before": "6.14.18",
+        "npm_after": "11.6.2",
+        "non_npm_global_packages_before": 35,
+        "non_npm_global_packages_after": 35,
+        "global_packages_unchanged": true,
+        "missing": [],
+        "added": [],
+        "config_metadata_checks": [
+          {
+            "path": "/Users/xuhao/.npmrc",
+            "unchanged": true
+          }
+        ],
+        "commands": [
+          {
+            "command": "node --version",
+            "exit_code": 0,
+            "stdout": "v25.2.1",
+            "stderr": ""
+          },
+          {
+            "command": "npm --version",
+            "exit_code": 0,
+            "stdout": "11.6.2",
+            "stderr": ""
+          },
+          {
+            "command": "npx --version",
+            "exit_code": 0,
+            "stdout": "11.6.2",
+            "stderr": ""
+          },
+          {
+            "command": "npm config get prefix",
+            "exit_code": 0,
+            "stdout": "/opt/homebrew",
+            "stderr": ""
+          }
+        ]
+      },
+      "smoke": "npx --no-install prettier --version returned3.9.8"
+    }
+  ],
+  "boundaries": [
+    "未删除项目源码或node_modules、未改MCP配置、未读取凭据内容",
+    "未操作npx（root负责）、企业微信、Codex、模拟器、Colima",
+    "全局npm35个其他包路径/名称/版本完全不变；用户~/.npmrc元数据未变",
+    "Bun首次普通入口失败，首次global清理180秒超时后续跑完成；最终cache目录回读0字节",
+    "NVM保留14个版本，未扩展至跨major/minor卸载。"
+  ]
+}

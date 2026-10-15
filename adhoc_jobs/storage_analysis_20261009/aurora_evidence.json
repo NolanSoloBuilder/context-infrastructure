@@ -1,0 +1,133 @@
+[
+  {
+    "path": "/Users/xuhao/Documents/Basic/aurora/node_modules",
+    "timeout": true,
+    "partial_stdout": ""
+  },
+  {
+    "path": "/Users/xuhao/Documents/Basic/aurora/.git",
+    "partial": false,
+    "entries": [
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git",
+        "size_bytes": 456855552
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/objects",
+        "size_bytes": 434630656
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/worktrees",
+        "size_bytes": 11501568
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/info",
+        "size_bytes": 1642496
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/ai",
+        "size_bytes": 827392
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/logs",
+        "size_bytes": 790528
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/hooks",
+        "size_bytes": 65536
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/refs",
+        "size_bytes": 53248
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/gk",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/.git/fsmonitor--daemon",
+        "size_bytes": 0
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/Users/xuhao/Documents/Basic/aurora/packages",
+    "partial": false,
+    "entries": [
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages",
+        "size_bytes": 2149511168
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/promotion",
+        "size_bytes": 1593266176
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/basic",
+        "size_bytes": 208031744
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/ark",
+        "size_bytes": 73940992
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/seller",
+        "size_bytes": 72343552
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/fulfillment",
+        "size_bytes": 53153792
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/themis",
+        "size_bytes": 34365440
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/item",
+        "size_bytes": 29499392
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/vendor",
+        "size_bytes": 23425024
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/hawk",
+        "size_bytes": 18731008
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/note",
+        "size_bytes": 16310272
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/datacenter",
+        "size_bytes": 13127680
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/task",
+        "size_bytes": 9240576
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/live",
+        "size_bytes": 1863680
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/school",
+        "size_bytes": 1757184
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/growth",
+        "size_bytes": 249856
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/open",
+        "size_bytes": 135168
+      },
+      {
+        "path": "/Users/xuhao/Documents/Basic/aurora/packages/sail",
+        "size_bytes": 69632
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,471 @@
+{
+  "generated_at": 1791537741.887038,
+  "authorization": "User explicitly discards all Notion local data and ordinary WeChat chat/miniapp/local data. Chrome local AI disposal is separately scoped.",
+  "items": [
+    {
+      "path": "/Users/xuhao/Library/Application Scripts/notion.id.NotionSafariExtension",
+      "app": "Notion",
+      "before": 0,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Scripts/notion.id.NotionSafariExtension.SafariExtension",
+      "app": "Notion",
+      "before": 0,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion",
+      "app": "Notion",
+      "before": 19800064,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/notion.id.sfl4",
+      "app": "Notion",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Caches/notion.id",
+      "app": "Notion",
+      "before": 0,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/notion.id.NotionSafariExtension",
+      "app": "Notion",
+      "before": 28672,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/notion.id.NotionSafariExtension.SafariExtension",
+      "app": "Notion",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/HTTPStorages/notion.id",
+      "app": "Notion",
+      "before": 86016,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Preferences/ByHost/notion.id.ShipIt.2283CDE0-74E1-531C-B832-00BEF5C3D9CE.plist",
+      "app": "Notion",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Preferences/notion.id.plist",
+      "app": "Notion",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/WebKit/notion.id",
+      "app": "Notion",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Scripts/5A4RE8SF68.com.tencent.xinWeChat",
+      "app": "WeChat",
+      "before": 0,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Scripts/com.tencent.xinWeChat",
+      "app": "WeChat",
+      "before": 0,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Scripts/com.tencent.xinWeChat.WeChatFileProviderExtension",
+      "app": "WeChat",
+      "before": 0,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Scripts/com.tencent.xinWeChat.WeChatMacShare",
+      "app": "WeChat",
+      "before": 0,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/CrashReporter/WeChat_2283CDE0-74E1-531C-B832-00BEF5C3D9CE.plist",
+      "app": "WeChat",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Caches/com.tencent.xinWeChat",
+      "app": "WeChat",
+      "before": 2027589632,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat",
+      "app": "WeChat",
+      "before": 4802895872,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat.WeChatFileProviderExtension",
+      "app": "WeChat",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat.WeChatMacShare",
+      "app": "WeChat",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Group Containers/5A4RE8SF68.com.tencent.xinWeChat",
+      "app": "WeChat",
+      "before": 4096,
+      "after": 0,
+      "action": "delete_explicitly_discarded_local_user_data",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true,
+      "appstate_after": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Preferences/com.tencent.xinWeChat.plist",
+      "app": "WeChat",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/Local State",
+      "app": "Chrome",
+      "before": 20480,
+      "after": 126976,
+      "action": "disable_native_on_device_ai_user_setting",
+      "status": "configured_verified",
+      "appstate": "not_running",
+      "pref": "optimization_guide.on_device_foundational_model_user_settings",
+      "source_default": true,
+      "source_functions": [
+        "OnDeviceAiSettingsHandler::HandleSetOnDeviceAiEnabled",
+        "model_execution::prefs::RegisterLocalStatePrefs",
+        "OnDeviceModelComponent::RegistrationCriteria::is_model_allowed/should_uninstall"
+      ],
+      "source_urls": [
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/chrome/browser/ui/webui/settings/on_device_ai_settings_handler.cc",
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/components/optimization_guide/core/model_execution/model_execution_prefs.cc",
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/components/optimization_guide/core/model_execution/on_device_model_component.h"
+      ],
+      "setting_route": "chrome://settings/ai",
+      "value_before": "not_present_default_true",
+      "value_after": false,
+      "only_requested_json_value_changed": true,
+      "all_profile_files_untouched_by_edit": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
+      "app": "Chrome",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "absent",
+      "appstate": "not_running"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/OptGuideOnDeviceClassifierModel",
+      "app": "Chrome",
+      "before": 126033920,
+      "after": 0,
+      "action": "delete_discarded_local_ai_model_component",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/optimization_guide_model_store",
+      "app": "Chrome",
+      "before": 45703168,
+      "after": 8122368,
+      "action": "none",
+      "status": "kept_outside_local_genai_scope",
+      "appstate": "not_running",
+      "whykeep": "Security and other browser models retained; only user-discarded target43 passage embedding model removed in a separate precise action"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/OptimizationGuideModelsManifest",
+      "app": "Chrome",
+      "before": 172032,
+      "after": 172032,
+      "action": "none",
+      "status": "kept_outside_local_genai_scope",
+      "appstate": "not_running",
+      "whykeep": "Small component configuration catalogue, not local model weights; foundational installation now disabled"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/OnDeviceHeadSuggestModel",
+      "app": "Chrome",
+      "before": 0,
+      "after": 0,
+      "action": "none",
+      "status": "kept_outside_local_genai_scope",
+      "appstate": "not_running",
+      "whykeep": "Omnibox head suggestions model is not foundational GenAI; currently zero allocated bytes"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/Default/Preferences",
+      "app": "Chrome",
+      "before": 368640,
+      "after": 368640,
+      "action": "disable_native_history_search_ai_opt_in",
+      "status": "configured_verified",
+      "appstate": "not_running",
+      "pref": "optimization_guide.history_search_setting_state",
+      "disabled_value": 2,
+      "source_default": 0,
+      "source_urls": [
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/components/optimization_guide/core/optimization_guide_prefs.cc",
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/components/optimization_guide/core/optimization_guide_prefs.h",
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/components/optimization_guide/core/model_execution/model_execution_features_controller.cc"
+      ],
+      "value_before": "not_present_default0",
+      "value_after": 2,
+      "only_requested_json_value_changed": true,
+      "setting_route": "chrome://settings/ai/historySearch",
+      "source_ui_urls": [
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/chrome/browser/resources/settings/ai_page/history_search_page.html",
+        "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/chrome/browser/resources/settings/ai_page/history_search_page.ts"
+      ]
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/optimization_guide_model_store/43",
+      "app": "Chrome",
+      "before": 37580800,
+      "after": 0,
+      "action": "delete_discarded_passage_embedder_target_43_only",
+      "status": "cleaned",
+      "appstate": "not_running",
+      "target_enum": "OPTIMIZATION_TARGET_PASSAGE_EMBEDDER=43",
+      "re_download_prevention_verified": false,
+      "why_redownload_possible": "Chrome152 model observer registers target43 before user opt-in and is shared with PassageEmbedder, launched HistoryEmbeddings and PermissionsAIv4; no stable native switch disabling all three observers is verified. User-facing history AI search is explicitly disabled, no internal flag or browser security setting changed.",
+      "source_url": "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/chrome/browser/passage_embeddings/passage_embedder_model_observer_factory.cc",
+      "verified_absent": true,
+      "all_other_models_security_models_and_browser_user_files_untouched": true
+    }
+  ],
+  "application_lifecycle": [
+    {
+      "app": "Notion",
+      "action": "no_quit_needed",
+      "appstate": "not_running"
+    },
+    {
+      "app": "Notion",
+      "action": "left_closed_after_explicit_data_disposal",
+      "appstate": "not_running",
+      "reopened": false,
+      "force_quit_used": false
+    },
+    {
+      "app": "WeChat",
+      "action": "no_quit_needed",
+      "appstate": "not_running"
+    },
+    {
+      "app": "WeChat",
+      "action": "left_closed_after_explicit_data_disposal",
+      "appstate": "not_running",
+      "reopened": false,
+      "force_quit_used": false
+    },
+    {
+      "app": "Chrome",
+      "action": "native_normal_quit_for_local_ai_setting",
+      "returncode": 0,
+      "user_cancelled": false
+    },
+    {
+      "app": "Chrome",
+      "action": "native_reopen_original_user_data_profile",
+      "returncode": 0
+    },
+    {
+      "app": "Chrome",
+      "action": "native_normal_quit_for_history_ai_setting_and_shared_embedding_model",
+      "returncode": 0,
+      "user_cancelled": false
+    },
+    {
+      "app": "Chrome",
+      "action": "native_reopen_original_profile_after_history_ai_disposal",
+      "returncode": 0
+    }
+  ],
+  "verification": {
+    "codex_before": {
+      "protected_deployment_ids_present": true,
+      "current_registered_rollouts_present": true,
+      "openai_bundled_mcp_source_present": true,
+      "diagram_marketplace_source_present": true,
+      "chatcut_marketplace_source_present": true
+    },
+    "codex_after": {
+      "protected_deployment_ids_present": true,
+      "current_registered_rollouts_present": true,
+      "openai_bundled_mcp_source_present": true,
+      "diagram_marketplace_source_present": true,
+      "chatcut_marketplace_source_present": true
+    },
+    "chrome_after": {
+      "default_main_running": true,
+      "on_device_ai_user_setting_false": true,
+      "foundational_model_path_absent": true,
+      "legacy_classifier_model_path_absent": true,
+      "cloud_ai_browser_features_untouched": true,
+      "force_quit_used": false,
+      "readback_at": 1791538189.787727
+    },
+    "discarded_apps_all_cleaned_paths_still_absent": true,
+    "discarded_app_paths_recreated": [],
+    "chrome_history_ai_after": {
+      "default_main_running": true,
+      "history_search_explicitly_disabled_value2": true,
+      "foundational_ai_still_disabled": true,
+      "passage_embedder_target43_absent": true,
+      "anti_phishing_target25_preserved": true,
+      "all_shared_target43_download_paths_disabled": false,
+      "model_may_redownload_for_permission_prediction_or_launch_preload": true,
+      "force_quit_used": false
+    },
+    "codex_final": {
+      "protected_deployment_ids_present": true,
+      "registered_rollouts_present": true,
+      "openai_bundled_mcp_source_present": true
+    }
+  },
+  "summary": {
+    "cleaned_items": 22,
+    "blocked_items": 0,
+    "failed_items": 0,
+    "allocated_directory_reduction_bytes": 7014047744
+  },
+  "chrome_model_store_evidence": {
+    "source": "https://chromium.googlesource.com/chromium/src/+/refs/tags/152.0.7977.152/components/optimization_guide/proto/models.proto",
+    "targets_kept": {
+      "25": "CLIENT_SIDE_PHISHING",
+      "43": "PASSAGE_EMBEDDER",
+      "2": "LANGUAGE_DETECTION",
+      "9": "NOTIFICATION_PERMISSION",
+      "20": "GEOLOCATION_PERMISSION",
+      "26": "OMNIBOX_SCORING",
+      "15": "PAGE_TOPICS",
+      "58": "FEDCM_SEGMENTATION",
+      "71": "WEBRTC_ECHO_CANCELLATION"
+    },
+    "why": "Preserve browser security and non-foundational predictions; 43 semantic embedding is independent of the user foundational AI switch, not proven disposable or controlled by that switch. Generative API target folders 49/51/59 are empty."
+  },
+  "completed_at": 1791538582.824157
+}

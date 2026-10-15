@@ -1,0 +1,847 @@
+{
+  "bundle": {
+    "schemaVersion": "research-report-bundle/v1",
+    "document": {
+      "summaryCitationIds": [
+        "cit_total_rev_2024",
+        "cit_unit",
+        "cit_fy_end",
+        "cit_fy_period"
+      ],
+      "title": "Tesla 2024年总收入核对及财年口径说明报告",
+      "summary": "本报告对特斯拉（Tesla）2024年总收入、报表单位以及财年口径进行了核对。特斯拉在2024年录得总收入97,690百万美元（折合976.90亿美元），较2023年的96,773百万美元增长0.95%。该报表的披露单位为百万美元，币种为美元。财年口径采用标准的公历年划分，即从2024年1月1日起至2024年12月31日止。",
+      "sections": [
+        {
+          "heading": "一、 Tesla 2024年总收入核对",
+          "blocks": [
+            {
+              "id": "txt_verification_p1",
+              "type": "paragraph",
+              "citationIds": [
+                "cit_total_rev_2024"
+              ],
+              "text": "根据特斯拉（Tesla, Inc.）发布的 2024 年 Form 10-K 年报，特斯拉在 2024 财年的总收入（Total revenues）为 97,690 百万美元。相较于 2023 财年的 96,773 百万美元，同比增长了约 0.95%。"
+            },
+            {
+              "rows": [
+                {
+                  "id": "row_tot_rev",
+                  "cells": [
+                    {
+                      "text": "总收入 (Total revenues)",
+                      "citationIds": [
+                        "cit_statement_title"
+                      ],
+                      "id": "cell_m_1"
+                    },
+                    {
+                      "id": "cell_v24_1",
+                      "text": "97,690",
+                      "citationIds": [
+                        "cit_total_rev_2024"
+                      ]
+                    },
+                    {
+                      "citationIds": [
+                        "cit_total_rev_2023"
+                      ],
+                      "id": "cell_v23_1",
+                      "text": "96,773"
+                    },
+                    {
+                      "id": "cell_g_1",
+                      "citationIds": [
+                        "cit_growth"
+                      ],
+                      "text": "0.95%"
+                    }
+                  ]
+                }
+              ],
+              "caption": "Tesla 2024财年与2023财年总收入对比（单位：百万美元）",
+              "type": "table",
+              "id": "tbl_revenue_compare",
+              "columns": [
+                {
+                  "label": "指标",
+                  "id": "col_metric"
+                },
+                {
+                  "id": "col_2024",
+                  "label": "2024年 (百万美元)"
+                },
+                {
+                  "label": "2023年 (百万美元)",
+                  "id": "col_2023"
+                },
+                {
+                  "id": "col_growth",
+                  "label": "同比增速"
+                }
+              ]
+            }
+          ],
+          "id": "sec_revenue_verification"
+        },
+        {
+          "id": "sec_unit_and_currency",
+          "blocks": [
+            {
+              "text": "特斯拉财务报表采用的披露单位为“百万美元（in millions, except per share data）”，涉及每股收益的数据除外。因此，报表中列报的 97,690 百万美元代表 97,690,000,000 美元（即 976.90 亿美元或 97.69 十亿美元）。法定报告使用的记账本位币为美元（USD）。",
+              "id": "txt_unit_p1",
+              "type": "paragraph",
+              "citationIds": [
+                "cit_unit"
+              ]
+            }
+          ],
+          "heading": "二、 披露单位与货币口径"
+        },
+        {
+          "blocks": [
+            {
+              "id": "txt_fy_p1",
+              "citationIds": [
+                "cit_fy_end",
+                "cit_fy_period"
+              ],
+              "text": "特斯拉采用的是符合标准公历年（Calendar Year）的财政年度（Fiscal Year）划分口径，其财年截止日为每年的12月31日。因此，特斯拉 2024 财年的具体时间范围是从 2024年1月1日 起至 2024年12月31日 止，共计12个月。这一口径不同于部分跨历年结算的其他企业，属于标准的公历年会计年度。",
+              "type": "paragraph"
+            }
+          ],
+          "id": "sec_fiscal_year",
+          "heading": "三、 财年口径与时间范围"
+        }
+      ],
+      "schemaVersion": "research-report/v1"
+    },
+    "citations": [
+      {
+        "id": "cit_total_rev_2024",
+        "evidenceIds": [
+          "ev-369855ed0d711c91e595705314f24e0a4403cc82058647ef00724f5bbc4860c9"
+        ],
+        "calculationIds": []
+      },
+      {
+        "id": "cit_total_rev_2023",
+        "evidenceIds": [
+          "ev-fa972ca81190dd45b77bf54b23c94b4e02881dac016bd678b67ab49b551c65a5"
+        ],
+        "calculationIds": []
+      },
+      {
+        "id": "cit_unit",
+        "evidenceIds": [
+          "ev-14d274cab0700ed94d0ddb04ccb1e95416caf0bafa421197f7d1ece82cbdae9b"
+        ],
+        "calculationIds": []
+      },
+      {
+        "id": "cit_fy_end",
+        "evidenceIds": [
+          "ev-a653f498e1eec7ed971f7fdaf611ba1276091c12ab11cd149d6dda163f34aafc"
+        ],
+        "calculationIds": []
+      },
+      {
+        "id": "cit_fy_period",
+        "evidenceIds": [
+          "ev-15ffd0ff0acf105f907f73c00d96fe024dd2967c2e79f63dad8fcd43c119e6ba",
+          "ev-573f518e6f3049fe0c4676a5cae0bec3d085891aa8c9ab51b0081bd6eb0d22b3"
+        ],
+        "calculationIds": []
+      },
+      {
+        "id": "cit_statement_title",
+        "evidenceIds": [
+          "ev-5498e624afc3629c17163afaba8b44f3ec3c58a5bd9c47b19c088ddf1ecddedc"
+        ],
+        "calculationIds": []
+      },
+      {
+        "id": "cit_growth",
+        "evidenceIds": [
+          "ev-369855ed0d711c91e595705314f24e0a4403cc82058647ef00724f5bbc4860c9",
+          "ev-fa972ca81190dd45b77bf54b23c94b4e02881dac016bd678b67ab49b551c65a5"
+        ],
+        "calculationIds": [
+          "calc-3ca21b41547c74b86048222bb4365d4e483de69209dc89fbfc74270ad7ff3dbc"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ev-14d274cab0700ed94d0ddb04ccb1e95416caf0bafa421197f7d1ece82cbdae9b",
+        "sourceId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "quote": "(in millions, except per share data)",
+        "locator": {
+          "kind": "html_paragraph",
+          "paragraph_index": 589,
+          "dom_id": null,
+          "tag": "div",
+          "text_start": 0,
+          "text_end": 36
+        },
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "snapshotId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "contentSha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "parserVersion": "research-sec-html/v1",
+        "rawEvidence": {
+          "user_id": "local-canary",
+          "workspace_id": "local-canary",
+          "document_id": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+          "filing": {
+            "cik": "0001318605",
+            "ticker": "TSLA",
+            "entity": "Tesla, Inc.",
+            "accession_number": "0001628280-25-003063",
+            "form": "10-K",
+            "filing_date": "2025-01-30",
+            "report_date": "2024-12-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+          },
+          "provenance": {
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+            "snapshot_uri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+            "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+            "parser_version": "research-sec-html/v1",
+            "capture_receipt": {
+              "schemaVersion": "sec-edgar-source-capture/v1",
+              "status": "retained",
+              "contentHash": "sha256:2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+              "objectUri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+              "mimeType": "text/html; charset=utf-8",
+              "originalContentType": "text/html",
+              "byteSize": 2596459,
+              "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+              "viewerEligible": true,
+              "storagePolicy": "immutable_content_addressed",
+              "captureHash": "sha256:8d4c2c828726b782fd1901cdab8e415f9c50d05d5837382da9c7261e8054aca1"
+            }
+          },
+          "quote": "(in millions, except per share data)",
+          "locator": {
+            "kind": "html_paragraph",
+            "paragraph_index": 589,
+            "dom_id": null,
+            "tag": "div",
+            "text_start": 0,
+            "text_end": 36
+          },
+          "source_refs": [],
+          "evidence_id": "ev-14d274cab0700ed94d0ddb04ccb1e95416caf0bafa421197f7d1ece82cbdae9b"
+        },
+        "sourceTitle": "10-K 2025-01-30"
+      },
+      {
+        "id": "ev-15ffd0ff0acf105f907f73c00d96fe024dd2967c2e79f63dad8fcd43c119e6ba",
+        "sourceId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "quote": "Year Ended December 31,",
+        "locator": {
+          "kind": "html_table_cell",
+          "table_index": 23,
+          "row_index": 1,
+          "cell_index": 1,
+          "column_start": 3,
+          "column_end": 17,
+          "row_span": 1,
+          "column_span": 15,
+          "dom_id": null,
+          "header_cell": false,
+          "xbrl_facts": [],
+          "numeric_status": "untyped_text",
+          "footnotes": [],
+          "column_headers": [],
+          "row_context": " | Year Ended December 31,",
+          "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+        },
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "snapshotId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "contentSha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "parserVersion": "research-sec-html/v1",
+        "rawEvidence": {
+          "user_id": "local-canary",
+          "workspace_id": "local-canary",
+          "document_id": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+          "filing": {
+            "cik": "0001318605",
+            "ticker": "TSLA",
+            "entity": "Tesla, Inc.",
+            "accession_number": "0001628280-25-003063",
+            "form": "10-K",
+            "filing_date": "2025-01-30",
+            "report_date": "2024-12-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+          },
+          "provenance": {
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+            "snapshot_uri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+            "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+            "parser_version": "research-sec-html/v1",
+            "capture_receipt": {
+              "schemaVersion": "sec-edgar-source-capture/v1",
+              "status": "retained",
+              "contentHash": "sha256:2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+              "objectUri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+              "mimeType": "text/html; charset=utf-8",
+              "originalContentType": "text/html",
+              "byteSize": 2596459,
+              "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+              "viewerEligible": true,
+              "storagePolicy": "immutable_content_addressed",
+              "captureHash": "sha256:8d4c2c828726b782fd1901cdab8e415f9c50d05d5837382da9c7261e8054aca1"
+            }
+          },
+          "quote": "Year Ended December 31,",
+          "locator": {
+            "kind": "html_table_cell",
+            "table_index": 23,
+            "row_index": 1,
+            "cell_index": 1,
+            "column_start": 3,
+            "column_end": 17,
+            "row_span": 1,
+            "column_span": 15,
+            "dom_id": null,
+            "header_cell": false,
+            "xbrl_facts": [],
+            "numeric_status": "untyped_text",
+            "footnotes": [],
+            "column_headers": [],
+            "row_context": " | Year Ended December 31,",
+            "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+          },
+          "source_refs": [],
+          "evidence_id": "ev-15ffd0ff0acf105f907f73c00d96fe024dd2967c2e79f63dad8fcd43c119e6ba"
+        },
+        "sourceTitle": "10-K 2025-01-30"
+      },
+      {
+        "id": "ev-369855ed0d711c91e595705314f24e0a4403cc82058647ef00724f5bbc4860c9",
+        "sourceId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "quote": "97,690",
+        "locator": {
+          "kind": "html_table_cell",
+          "table_index": 23,
+          "row_index": 10,
+          "cell_index": 1,
+          "column_start": 3,
+          "column_end": 4,
+          "row_span": 1,
+          "column_span": 2,
+          "dom_id": null,
+          "header_cell": false,
+          "xbrl_facts": [
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "context_ref": "c-1",
+              "unit_ref": "usd",
+              "unit": "iso4217:USD",
+              "period": {
+                "startdate": "2024-01-01",
+                "enddate": "2024-12-31",
+                "instant": null,
+                "identifier": "0001318605"
+              },
+              "dimensions": [],
+              "value": "97690000000",
+              "display_value": "97,690",
+              "scale": 6,
+              "decimals": "-6",
+              "format": "ixt:num-dot-decimal"
+            }
+          ],
+          "numeric_status": "typed_xbrl",
+          "footnotes": [],
+          "column_headers": [
+            "2024"
+          ],
+          "row_context": "Total revenues | 97,690 |  |  | 96,773 |  |  | 81,462 | ",
+          "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+        },
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "snapshotId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "contentSha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "parserVersion": "research-sec-html/v1",
+        "rawEvidence": {
+          "user_id": "local-canary",
+          "workspace_id": "local-canary",
+          "document_id": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+          "filing": {
+            "cik": "0001318605",
+            "ticker": "TSLA",
+            "entity": "Tesla, Inc.",
+            "accession_number": "0001628280-25-003063",
+            "form": "10-K",
+            "filing_date": "2025-01-30",
+            "report_date": "2024-12-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+          },
+          "provenance": {
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+            "snapshot_uri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+            "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+            "parser_version": "research-sec-html/v1",
+            "capture_receipt": {
+              "schemaVersion": "sec-edgar-source-capture/v1",
+              "status": "retained",
+              "contentHash": "sha256:2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+              "objectUri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+              "mimeType": "text/html; charset=utf-8",
+              "originalContentType": "text/html",
+              "byteSize": 2596459,
+              "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+              "viewerEligible": true,
+              "storagePolicy": "immutable_content_addressed",
+              "captureHash": "sha256:8d4c2c828726b782fd1901cdab8e415f9c50d05d5837382da9c7261e8054aca1"
+            }
+          },
+          "quote": "97,690",
+          "locator": {
+            "kind": "html_table_cell",
+            "table_index": 23,
+            "row_index": 10,
+            "cell_index": 1,
+            "column_start": 3,
+            "column_end": 4,
+            "row_span": 1,
+            "column_span": 2,
+            "dom_id": null,
+            "header_cell": false,
+            "xbrl_facts": [
+              {
+                "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+                "context_ref": "c-1",
+                "unit_ref": "usd",
+                "unit": "iso4217:USD",
+                "period": {
+                  "startdate": "2024-01-01",
+                  "enddate": "2024-12-31",
+                  "instant": null,
+                  "identifier": "0001318605"
+                },
+                "dimensions": [],
+                "value": "97690000000",
+                "display_value": "97,690",
+                "scale": 6,
+                "decimals": "-6",
+                "format": "ixt:num-dot-decimal"
+              }
+            ],
+            "numeric_status": "typed_xbrl",
+            "footnotes": [],
+            "column_headers": [
+              "2024"
+            ],
+            "row_context": "Total revenues | 97,690 |  |  | 96,773 |  |  | 81,462 | ",
+            "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+          },
+          "source_refs": [],
+          "evidence_id": "ev-369855ed0d711c91e595705314f24e0a4403cc82058647ef00724f5bbc4860c9"
+        },
+        "sourceTitle": "10-K 2025-01-30",
+        "valueDecimal": "97690000000",
+        "metric": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "iso4217:USD",
+        "period": {
+          "startdate": "2024-01-01",
+          "enddate": "2024-12-31",
+          "instant": null,
+          "identifier": "0001318605"
+        },
+        "entity": "0001318605",
+        "currency": "USD"
+      },
+      {
+        "id": "ev-5498e624afc3629c17163afaba8b44f3ec3c58a5bd9c47b19c088ddf1ecddedc",
+        "sourceId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "quote": "Consolidated Statements of Operations",
+        "locator": {
+          "kind": "html_paragraph",
+          "paragraph_index": 588,
+          "dom_id": null,
+          "tag": "div",
+          "text_start": 0,
+          "text_end": 37
+        },
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "snapshotId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "contentSha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "parserVersion": "research-sec-html/v1",
+        "rawEvidence": {
+          "user_id": "local-canary",
+          "workspace_id": "local-canary",
+          "document_id": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+          "filing": {
+            "cik": "0001318605",
+            "ticker": "TSLA",
+            "entity": "Tesla, Inc.",
+            "accession_number": "0001628280-25-003063",
+            "form": "10-K",
+            "filing_date": "2025-01-30",
+            "report_date": "2024-12-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+          },
+          "provenance": {
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+            "snapshot_uri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+            "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+            "parser_version": "research-sec-html/v1",
+            "capture_receipt": {
+              "schemaVersion": "sec-edgar-source-capture/v1",
+              "status": "retained",
+              "contentHash": "sha256:2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+              "objectUri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+              "mimeType": "text/html; charset=utf-8",
+              "originalContentType": "text/html",
+              "byteSize": 2596459,
+              "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+              "viewerEligible": true,
+              "storagePolicy": "immutable_content_addressed",
+              "captureHash": "sha256:8d4c2c828726b782fd1901cdab8e415f9c50d05d5837382da9c7261e8054aca1"
+            }
+          },
+          "quote": "Consolidated Statements of Operations",
+          "locator": {
+            "kind": "html_paragraph",
+            "paragraph_index": 588,
+            "dom_id": null,
+            "tag": "div",
+            "text_start": 0,
+            "text_end": 37
+          },
+          "source_refs": [],
+          "evidence_id": "ev-5498e624afc3629c17163afaba8b44f3ec3c58a5bd9c47b19c088ddf1ecddedc"
+        },
+        "sourceTitle": "10-K 2025-01-30"
+      },
+      {
+        "id": "ev-573f518e6f3049fe0c4676a5cae0bec3d085891aa8c9ab51b0081bd6eb0d22b3",
+        "sourceId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "quote": "2024",
+        "locator": {
+          "kind": "html_table_cell",
+          "table_index": 23,
+          "row_index": 2,
+          "cell_index": 1,
+          "column_start": 3,
+          "column_end": 5,
+          "row_span": 1,
+          "column_span": 3,
+          "dom_id": null,
+          "header_cell": false,
+          "xbrl_facts": [],
+          "numeric_status": "untyped_text",
+          "footnotes": [],
+          "column_headers": [],
+          "row_context": " | 2024 |  | 2023 |  | 2022",
+          "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+        },
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "snapshotId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "contentSha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "parserVersion": "research-sec-html/v1",
+        "rawEvidence": {
+          "user_id": "local-canary",
+          "workspace_id": "local-canary",
+          "document_id": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+          "filing": {
+            "cik": "0001318605",
+            "ticker": "TSLA",
+            "entity": "Tesla, Inc.",
+            "accession_number": "0001628280-25-003063",
+            "form": "10-K",
+            "filing_date": "2025-01-30",
+            "report_date": "2024-12-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+          },
+          "provenance": {
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+            "snapshot_uri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+            "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+            "parser_version": "research-sec-html/v1",
+            "capture_receipt": {
+              "schemaVersion": "sec-edgar-source-capture/v1",
+              "status": "retained",
+              "contentHash": "sha256:2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+              "objectUri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+              "mimeType": "text/html; charset=utf-8",
+              "originalContentType": "text/html",
+              "byteSize": 2596459,
+              "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+              "viewerEligible": true,
+              "storagePolicy": "immutable_content_addressed",
+              "captureHash": "sha256:8d4c2c828726b782fd1901cdab8e415f9c50d05d5837382da9c7261e8054aca1"
+            }
+          },
+          "quote": "2024",
+          "locator": {
+            "kind": "html_table_cell",
+            "table_index": 23,
+            "row_index": 2,
+            "cell_index": 1,
+            "column_start": 3,
+            "column_end": 5,
+            "row_span": 1,
+            "column_span": 3,
+            "dom_id": null,
+            "header_cell": false,
+            "xbrl_facts": [],
+            "numeric_status": "untyped_text",
+            "footnotes": [],
+            "column_headers": [],
+            "row_context": " | 2024 |  | 2023 |  | 2022",
+            "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+          },
+          "source_refs": [],
+          "evidence_id": "ev-573f518e6f3049fe0c4676a5cae0bec3d085891aa8c9ab51b0081bd6eb0d22b3"
+        },
+        "sourceTitle": "10-K 2025-01-30"
+      },
+      {
+        "id": "ev-a653f498e1eec7ed971f7fdaf611ba1276091c12ab11cd149d6dda163f34aafc",
+        "sourceId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "quote": "For the fiscal year ended December 31 , 2024",
+        "locator": {
+          "kind": "html_paragraph",
+          "paragraph_index": 6,
+          "dom_id": null,
+          "tag": "div",
+          "text_start": 0,
+          "text_end": 44
+        },
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "snapshotId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "contentSha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "parserVersion": "research-sec-html/v1",
+        "rawEvidence": {
+          "user_id": "local-canary",
+          "workspace_id": "local-canary",
+          "document_id": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+          "filing": {
+            "cik": "0001318605",
+            "ticker": "TSLA",
+            "entity": "Tesla, Inc.",
+            "accession_number": "0001628280-25-003063",
+            "form": "10-K",
+            "filing_date": "2025-01-30",
+            "report_date": "2024-12-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+          },
+          "provenance": {
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+            "snapshot_uri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+            "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+            "parser_version": "research-sec-html/v1",
+            "capture_receipt": {
+              "schemaVersion": "sec-edgar-source-capture/v1",
+              "status": "retained",
+              "contentHash": "sha256:2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+              "objectUri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+              "mimeType": "text/html; charset=utf-8",
+              "originalContentType": "text/html",
+              "byteSize": 2596459,
+              "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+              "viewerEligible": true,
+              "storagePolicy": "immutable_content_addressed",
+              "captureHash": "sha256:8d4c2c828726b782fd1901cdab8e415f9c50d05d5837382da9c7261e8054aca1"
+            }
+          },
+          "quote": "For the fiscal year ended December 31 , 2024",
+          "locator": {
+            "kind": "html_paragraph",
+            "paragraph_index": 6,
+            "dom_id": null,
+            "tag": "div",
+            "text_start": 0,
+            "text_end": 44
+          },
+          "source_refs": [],
+          "evidence_id": "ev-a653f498e1eec7ed971f7fdaf611ba1276091c12ab11cd149d6dda163f34aafc"
+        },
+        "sourceTitle": "10-K 2025-01-30"
+      },
+      {
+        "id": "ev-fa972ca81190dd45b77bf54b23c94b4e02881dac016bd678b67ab49b551c65a5",
+        "sourceId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "quote": "96,773",
+        "locator": {
+          "kind": "html_table_cell",
+          "table_index": 23,
+          "row_index": 10,
+          "cell_index": 4,
+          "column_start": 9,
+          "column_end": 10,
+          "row_span": 1,
+          "column_span": 2,
+          "dom_id": null,
+          "header_cell": false,
+          "xbrl_facts": [
+            {
+              "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "context_ref": "c-28",
+              "unit_ref": "usd",
+              "unit": "iso4217:USD",
+              "period": {
+                "startdate": "2023-01-01",
+                "enddate": "2023-12-31",
+                "instant": null,
+                "identifier": "0001318605"
+              },
+              "dimensions": [],
+              "value": "96773000000",
+              "display_value": "96,773",
+              "scale": 6,
+              "decimals": "-6",
+              "format": "ixt:num-dot-decimal"
+            }
+          ],
+          "numeric_status": "typed_xbrl",
+          "footnotes": [],
+          "column_headers": [
+            "2023"
+          ],
+          "row_context": "Total revenues | 97,690 |  |  | 96,773 |  |  | 81,462 | ",
+          "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+        },
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+        "snapshotId": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "contentSha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+        "parserVersion": "research-sec-html/v1",
+        "rawEvidence": {
+          "user_id": "local-canary",
+          "workspace_id": "local-canary",
+          "document_id": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+          "filing": {
+            "cik": "0001318605",
+            "ticker": "TSLA",
+            "entity": "Tesla, Inc.",
+            "accession_number": "0001628280-25-003063",
+            "form": "10-K",
+            "filing_date": "2025-01-30",
+            "report_date": "2024-12-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+          },
+          "provenance": {
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+            "snapshot_uri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+            "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+            "parser_version": "research-sec-html/v1",
+            "capture_receipt": {
+              "schemaVersion": "sec-edgar-source-capture/v1",
+              "status": "retained",
+              "contentHash": "sha256:2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+              "objectUri": "gs://cited-alpha-workspace-source-snapshots/workspace-source-snapshots/sec-edgar/sha256/2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+              "mimeType": "text/html; charset=utf-8",
+              "originalContentType": "text/html",
+              "byteSize": 2596459,
+              "canonicalUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+              "viewerEligible": true,
+              "storagePolicy": "immutable_content_addressed",
+              "captureHash": "sha256:8d4c2c828726b782fd1901cdab8e415f9c50d05d5837382da9c7261e8054aca1"
+            }
+          },
+          "quote": "96,773",
+          "locator": {
+            "kind": "html_table_cell",
+            "table_index": 23,
+            "row_index": 10,
+            "cell_index": 4,
+            "column_start": 9,
+            "column_end": 10,
+            "row_span": 1,
+            "column_span": 2,
+            "dom_id": null,
+            "header_cell": false,
+            "xbrl_facts": [
+              {
+                "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+                "context_ref": "c-28",
+                "unit_ref": "usd",
+                "unit": "iso4217:USD",
+                "period": {
+                  "startdate": "2023-01-01",
+                  "enddate": "2023-12-31",
+                  "instant": null,
+                  "identifier": "0001318605"
+                },
+                "dimensions": [],
+                "value": "96773000000",
+                "display_value": "96,773",
+                "scale": 6,
+                "decimals": "-6",
+                "format": "ixt:num-dot-decimal"
+              }
+            ],
+            "numeric_status": "typed_xbrl",
+            "footnotes": [],
+            "column_headers": [
+              "2023"
+            ],
+            "row_context": "Total revenues | 97,690 |  |  | 96,773 |  |  | 81,462 | ",
+            "table_context": "atory credits 2,763 1,790 1,776 Automotive leasing 1,827 2,120 2,476 Total automotive revenues 77,070 82,419 71,462 Energy generation and storage 10,086 6,035 3,909 Services and other 10,534 8,319 6,091 Total revenues 97,690 96,773 81,462 Cost of revenues Automotive sales 61,870 65,121 49,599 Automotive leasing 1,003 1,268 1,509 Total automotive cost of revenues 62,873 66,389 51,108 Energy generation and storage 7,446 4,894 3,621 Services and other 9,921 7,830 5,880 Total cost of revenues 80,240 79,113 60,609 Gross profit 17,450 17,660 20,853 Operating expenses Research and development 4,540 3,969 3,075 Selling, general and administrative 5,150 4,800 3,946 Restructuring and other 684 — 176 Total operating expenses 10,374 8,769 7,197 Income from operations 7,076 8,891 13,656 Interest income 1,569 1,066 297 Interest expense ( 350 ) ( 156 ) ( 191 ) Other income (expense), net 695 172 ( 43 ) Income before income taxes 8,990 9,973 13,719 Provision for (benefit from) income taxes 1,837 ( 5,001 ) 1,132 Net income 7,153 14,974 12,587 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 62 ( 23 ) 31 Net income attributable to common stockholders $ 7,091 $ 14,997 $ 12,556 Net income per share of common stock attributable to common stockholders Basic $ 2.23 $ 4.73 $ 4.02 Diluted $ 2.04 $ 4.30 $ 3.62 Weighted average shares used in computing net income per share of common stock Basic 3,197 3,174 3,130 Diluted 3,498 3,485 3,475"
+          },
+          "source_refs": [],
+          "evidence_id": "ev-fa972ca81190dd45b77bf54b23c94b4e02881dac016bd678b67ab49b551c65a5"
+        },
+        "sourceTitle": "10-K 2025-01-30",
+        "valueDecimal": "96773000000",
+        "metric": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "iso4217:USD",
+        "period": {
+          "startdate": "2023-01-01",
+          "enddate": "2023-12-31",
+          "instant": null,
+          "identifier": "0001318605"
+        },
+        "entity": "0001318605",
+        "currency": "USD"
+      }
+    ],
+    "calculations": [
+      {
+        "id": "calc-3ca21b41547c74b86048222bb4365d4e483de69209dc89fbfc74270ad7ff3dbc",
+        "operation": "growth_rate",
+        "inputEvidenceIds": [
+          "ev-369855ed0d711c91e595705314f24e0a4403cc82058647ef00724f5bbc4860c9",
+          "ev-fa972ca81190dd45b77bf54b23c94b4e02881dac016bd678b67ab49b551c65a5"
+        ],
+        "precision": 2,
+        "inputs": [
+          {
+            "evidenceId": "ev-369855ed0d711c91e595705314f24e0a4403cc82058647ef00724f5bbc4860c9",
+            "valueDecimal": "97690000000",
+            "unit": "iso4217:USD",
+            "currency": "USD"
+          },
+          {
+            "evidenceId": "ev-fa972ca81190dd45b77bf54b23c94b4e02881dac016bd678b67ab49b551c65a5",
+            "valueDecimal": "96773000000",
+            "unit": "iso4217:USD",
+            "currency": "USD"
+          }
+        ],
+        "valueDecimal": "0.95",
+        "unit": "percent",
+        "currency": null
+      }
+    ],
+    "contentHash": "sha256:def13bcb2ac8b8fd1f0c52bb34a120a00acff749801c08afaf7bc0c3cc088293"
+  },
+  "receipt": {
+    "schemaVersion": "research-report-check/v1",
+    "userId": "local-canary",
+    "workspaceId": "local-canary",
+    "runId": "tesla-2024-1789038671",
+    "contentHash": "sha256:def13bcb2ac8b8fd1f0c52bb34a120a00acff749801c08afaf7bc0c3cc088293",
+    "sourceIntegrity": "passed",
+    "semanticReview": "passed",
+    "editorialReview": "passed",
+    "reviewer": {
+      "kind": "independent-source-and-combined-model-review",
+      "version": "local-canary/v1"
+    },
+    "receiptHash": "sha256:d38d70b06379ad6a26e1853c9a1227135b941000207191ad252ac94531ab8c51"
+  }
+}

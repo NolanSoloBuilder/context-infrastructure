@@ -1,0 +1,179 @@
+{
+  "items": [
+    {
+      "path": "/Users/xuhao/Documents/Other/craft-agents-oss/node_modules",
+      "before": 2220990464,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/craft-agents-oss/bun.lock"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/LibreChat/node_modules",
+      "before": 2041589760,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/LibreChat/package-lock.json",
+        "/Users/xuhao/Documents/Other/LibreChat/bun.lock"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/mindspace_web_frontend/node_modules",
+      "before": 653807616,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/mindspace_web_frontend/package-lock.json",
+        "/Users/xuhao/Documents/Other/mindspace_web_frontend/bun.lock"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/mindspace_app/node_modules",
+      "before": 734240768,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/mindspace_app/package-lock.json"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-offline-html/node_modules",
+      "before": 199634944,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-offline-html/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-ningbo-ai-pronunciation/node_modules",
+      "before": 215318528,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-ningbo-ai-pronunciation/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-jinan-station-name/node_modules",
+      "before": 193830912,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/china-metro-jinan-station-name/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-route-pill/node_modules",
+      "before": 193830912,
+      "after": 0,
+      "status": "cleaned",
+      "action": "delete_idle_public_project_dependencies",
+      "whykeep": "",
+      "lockfiles": [
+        "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees/metro-route-pill/pnpm-lock.yaml"
+      ],
+      "source_and_locks_unchanged": true,
+      "verified_absent": true
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/armor/node_modules",
+      "before": null,
+      "after": null,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "private XHS registry; sample tarball HEAD 200, full authenticated dependency restore not verified"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/merchant-trade/node_modules",
+      "before": 1145102336,
+      "after": 1145102336,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "private XHS registry; sample tarball HEAD 200, full authenticated dependency restore not verified"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/mono-live/node_modules",
+      "before": 1752543232,
+      "after": 1752543232,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "private XHS package namespace and registry; complete restore not verified"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Basic/vibe-marketing-rn/node_modules",
+      "before": 1166974976,
+      "after": 1166974976,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "recent dependency install, project activity not conclusively idle"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/agent-native-aluminum-platform/node_modules",
+      "before": 495964160,
+      "after": 495964160,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "multiple native active BeamJoin threads"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/tmp",
+      "before": 606126080,
+      "after": 606126080,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "research repository/source snapshots; name tmp does not prove disposable"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/.worktrees",
+      "before": 62509056,
+      "after": 62509056,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "all worktree source/Git metadata retained, only qualified node_modules removed"
+    },
+    {
+      "path": "/Users/xuhao/Documents/Other/context-infrastructure/output",
+      "before": 25870336,
+      "after": 25870336,
+      "status": "kept",
+      "action": "none",
+      "whykeep": "exported and delivered artifacts are retained"
+    }
+  ],
+  "note": "Dependency directory allocated-block reduction is not disk net gain; pnpm hardlinks/shared store can overlap.",
+  "summary": {
+    "cleaned_items": 8,
+    "tracked_directory_reduction_bytes": 6453243904
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-10-09T16:36:21.936385+08:00",
+  "scope": "只处理Colima/Docker、CoreSimulator原生可再生缓存、Android SDK审查、Homebrew safe cleanup与swap只读回测；未触碰企业微信/apps/npx/nvm/pnpm/Codex。",
+  "items": [
+    {
+      "name": "CoreSimulator dyld共享缓存",
+      "path": "/Library/Developer/CoreSimulator/Caches",
+      "before_size_bytes": 7855513600,
+      "after_size_bytes": 0,
+      "size_reduce_bytes": 7855513600,
+      "actions": [
+        "xcrun simctl runtime delete --unusable --dry-run",
+        "xcrun simctl runtime delete --outdated --dry-run",
+        "xcrun simctl runtime dyld_shared_cache remove --all",
+        "xcrun simctl delete unavailable"
+      ],
+      "status": "completed",
+      "verification": {
+        "native_exit_code": 0,
+        "native_message": "Removed dyld shared caches for all runtimes",
+        "available_runtimes_before": [
+          "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+          "com.apple.CoreSimulator.SimRuntime.iOS-26-3"
+        ],
+        "available_runtimes_after": [
+          "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+          "com.apple.CoreSimulator.SimRuntime.iOS-26-3"
+        ],
+        "device_ids_preserved": true,
+        "device_count": 4,
+        "user_devices_before_size_bytes": 3798560768,
+        "user_devices_after_size_bytes": 3798560768,
+        "runtime_images_after_size_bytes": 8393510912
+      },
+      "preserved": [
+        "两个可用runtime iOS18.4与iOS26.3",
+        "全部4个设备及设备用户数据",
+        "runtime Images 8.393510912GB"
+      ],
+      "note": "native --unusable与--outdated均无候选；清理仅涉及可重建dyld缓存。两个runtime各有设备，iPhone16Pro已有约3GB应用数据，不能仅凭Shutdown/较久未用删除。共享缓存需要时由系统重新生成。"
+    },
+    {
+      "name": "Colima LibreChat Docker与稀疏磁盘",
+      "path": "/Users/xuhao/.colima",
+      "before_size_bytes": 10589212672,
+      "after_size_bytes": 10593570816,
+      "size_reduce_bytes": -4358144,
+      "actions": [
+        "colima start --profile librechat --activate=false --save-config=false",
+        "docker --context colima-librechat system df -v",
+        "docker --context colima-librechat image prune --all --force",
+        "docker --context colima-librechat builder prune --all --force",
+        "colima ssh --profile librechat -- sudo fstrim --all --verbose --dry-run",
+        "colima ssh --profile librechat -- sudo fstrim --all --verbose",
+        "colima stop --profile librechat"
+      ],
+      "status": "completed_no_unused_docker_assets",
+      "verification": {
+        "all_volumes_preserved": true,
+        "volume_count": 10,
+        "all_images_preserved": true,
+        "image_count": 5,
+        "all_containers_preserved": true,
+        "container_count": 6,
+        "image_prune_reclaimed_bytes": 0,
+        "builder_prune_reclaimed_bytes": 0,
+        "colima_state": "Stopped",
+        "docker_current_context": "default",
+        "database_health_before_stop": "MongoDB and Postgres healthy"
+      },
+      "preserved": [
+        "全部5个被引用镜像",
+        "全部6个现有容器",
+        "全部10个named/anonymous卷，包括MongoDB/Postgres/Meili和上传数据",
+        "Colima原2CPU/6GiB内存/20GiB磁盘配置与Stopped状态"
+      ],
+      "note": "启动后既有6个容器按其restart策略自动恢复，核验和限定prune后恢复原Stopped。Docker没有无引用镜像或构建缓存。fstrim报告553791488+95547904+336396288字节discard，此数是guest空闲块，不是host释放量；host du没有净减少，反增约4.36MB。未执行container prune、volume prune或system prune。"
+    },
+    {
+      "name": "Android SDK",
+      "path": "/Users/xuhao/Library/Android/sdk",
+      "before_size_bytes": 6921187328,
+      "after_size_bytes": 6921187328,
+      "size_reduce_bytes": 0,
+      "actions": [
+        "核对installed platforms/build-tools/NDK/system-images",
+        "emulator -list-avds",
+        "检查 .temp/.downloadIntermediates/~/.android/cache/~/.android/avd",
+        "限定检索本机工作区Gradle依赖"
+      ],
+      "status": "verified_preserved",
+      "verification": {
+        "platforms": [
+          "android-36"
+        ],
+        "build_tools": [
+          "35.0.0",
+          "36.0.0"
+        ],
+        "ndk": [
+          "27.1.12297006"
+        ],
+        "system_images": [
+          "android-36"
+        ],
+        "avds": [],
+        "sdk_temp_size_bytes": 0,
+        "download_intermediates_exists": false,
+        "android_cache_exists": false,
+        "sdkmanager_present_in_standard_cmdline_tools_paths": false
+      },
+      "preserved": [
+        "唯一Android36平台及唯一系统镜像",
+        "唯一NDK27.1",
+        "emulator/platform-tools",
+        "35.0.0与36.0.0两个build-tools"
+      ],
+      "note": "实际扫描Aurora/当前workspace/BeamJoin未找到Android Gradle依赖，Basic文件清单只命中后端Java Gradle项目，不能据此判定用户移动测试能力已不用。没有AVD或非零下载缓存；缺少sdkmanager且未证明35.0.0闲置，避免手删SDK包或唯一测试资源。"
+    },
+    {
+      "name": "Homebrew旧版本与缓存",
+      "path": "/opt/homebrew",
+      "before_size_bytes": 47931392,
+      "after_size_bytes": 0,
+      "size_reduce_bytes": 47931392,
+      "before_after_scope": "仅本次实际删除的旧Mole和旧portable-ruby路径，不是整个Homebrew",
+      "actions": [
+        "HOMEBREW_NO_AUTO_UPDATE=1 brew cleanup --dry-run --prune=all",
+        "HOMEBREW_NO_AUTO_UPDATE=1 brew cleanup --prune=all"
+      ],
+      "status": "completed",
+      "verification": {
+        "native_exit_code": 0,
+        "native_reported_release": "approximately 43.6MB",
+        "old_paths_absent": true,
+        "current_mole_version": "Mole version 1.58.0\nmacOS: 27.0\nArchitecture: arm64\nKernel: 27.0.0\nSIP: Enabled\nDisk Free: 121.63GB\nInstall: Homebrew\nShell: /bin/zsh",
+        "current_service_pids_still_present": [
+          5691,
+          5703,
+          6197,
+          18215
+        ]
+      },
+      "preserved": [
+        "所有当前formula和cask版本",
+        "运行中的Redis/Postgres/Node/cloudflared服务",
+        "没有upgrade、autoremove或卸载任何当前工具"
+      ],
+      "note": "删除旧Mole1.47.1、旧portable-ruby4.0.6及64B旧node构建日志；两路径du分配块数约47.93MB，Homebrew自身报告约43.6MB（口径不同）。全局Cellar after du45秒超时，故只用已核验删除路径描述本项变化。"
+    },
+    {
+      "name": "系统VM/swap",
+      "path": "/System/Volumes/VM",
+      "before_size_bytes": 16106127360,
+      "after_size_bytes": 12884901888,
+      "size_reduce_bytes": null,
+      "actions": [
+        "只读回测 du -x 和 sysctl vm.swapusage；未删除swap、未重启"
+      ],
+      "status": "deferred_normal_reboot",
+      "verification": {
+        "last_sysctl": "total = 13312.00M used = 12411.12M free = 900.88M",
+        "swap_is_runtime_managed": true
+      },
+      "preserved": [
+        "全部系统交换文件与sleepimage",
+        "当前运行App及工具服务"
+      ],
+      "note": "当次swap卷从先前16.106GB自然变化为12.885GB；不是本次清理删除造成，不计为归因释放。后续保存工作正常重启后再测，不能保证全量释放。"
+    }
+  ],
+  "verified_allocated_size_reduction_bytes": 7903444992,
+  "global_df_release_attribution": "多个agent并行清理且系统swap动态变化，最终净释放应由主agent全局df复测；本JSON不将guest fstrim报告或swap自然变化加作已释放空间。",
+  "source_files": [
+    "/tmp/storage-clean-system-before-20261009.json",
+    "/tmp/storage-clean-system-after-20261009.json",
+    "/tmp/storage-clean-system-sim-before-20261009.json",
+    "/tmp/storage-clean-system-sim-after-20261009.json",
+    "/tmp/storage-clean-system-docker-before-20261009.json",
+    "/tmp/storage-clean-system-docker-after-20261009.json",
+    "/tmp/storage-clean-system-homebrew-before-20261009.json"
+  ],
+  "gaps": [
+    "全局Cellar后测45秒超时，只核验实际删除的旧版本路径",
+    "Android SDK包是否还需使用不能由当前工作区无Gradle命中推断，保留唯一测试能力",
+    "未读取Docker卷数据库内容，仅验证卷/容器/镜像身份和数据库health保持一致"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "reuseRecoveredProvider": true,
+  "question": "结合Tesla 2024 Form 10-K与工作区已上传的TSLA Q4 2024 Update，分析收入、盈利和现金流，重点解释汽车及储能业务的变化。给我一份可阅读的中文报告，标明来源、期间与口径，解释两份材料的一致与差异。关键数字保留字段级引用，派生指标能查看公式与输入；缺乏证据或精确定位时明确说明。不需要估值。",
+  "limits": {
+    "modelCalls": 64,
+    "toolCalls": 128,
+    "durationSeconds": 1800
+  },
+  "reviewCalls": 2,
+  "sdkAttempts": 66,
+  "retryAttempts": 1,
+  "model": "gemini-3.8-flash",
+  "writerMaxOutputTokens": 16384,
+  "spacingSeconds": 20,
+  "project": "cited-alpha-20260701",
+  "location": "global",
+  "auth": "local-token-NOT-OIDC",
+  "cloudTasks": "held; real consumer invoked once"
+}

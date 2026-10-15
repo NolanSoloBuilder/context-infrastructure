@@ -1,0 +1,12 @@
+{
+  "project": "cited-alpha-20260701",
+  "writerModel": "gemini-3.5-flash",
+  "reviewModel": "gemini-3.5-flash",
+  "limits": {
+    "modelCalls": 32,
+    "toolCalls": 64,
+    "durationSeconds": 600
+  },
+  "reviewCalls": 2,
+  "productionPublication": false
+}

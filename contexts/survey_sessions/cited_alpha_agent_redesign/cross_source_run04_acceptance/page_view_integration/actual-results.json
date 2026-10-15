@@ -1,0 +1,58 @@
+{
+  "4": {
+    "fields": 144,
+    "calls": 2,
+    "sizes": [
+      {
+        "toolEnvelopeBytes": 48718,
+        "modelTextBytes": 22995
+      },
+      {
+        "toolEnvelopeBytes": 37644,
+        "modelTextBytes": 17779
+      }
+    ]
+  },
+  "5": {
+    "fields": 144,
+    "calls": 2,
+    "sizes": [
+      {
+        "toolEnvelopeBytes": 48630,
+        "modelTextBytes": 22951
+      },
+      {
+        "toolEnvelopeBytes": 37666,
+        "modelTextBytes": 17790
+      }
+    ]
+  },
+  "7": {
+    "fields": 109,
+    "calls": 2,
+    "sizes": [
+      {
+        "toolEnvelopeBytes": 48578,
+        "modelTextBytes": 22941
+      },
+      {
+        "toolEnvelopeBytes": 17656,
+        "modelTextBytes": 8329
+      }
+    ]
+  },
+  "8": {
+    "fields": 109,
+    "calls": 2,
+    "sizes": [
+      {
+        "toolEnvelopeBytes": 48570,
+        "modelTextBytes": 22937
+      },
+      {
+        "toolEnvelopeBytes": 17608,
+        "modelTextBytes": 8305
+      }
+    ]
+  }
+}

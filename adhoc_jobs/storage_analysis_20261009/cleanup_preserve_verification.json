@@ -1,0 +1,53 @@
+{
+  "/Users/xuhao/.codex/auth.json": {
+    "exists": true,
+    "inode_matches": true,
+    "hash_matches": true
+  },
+  "/Users/xuhao/.config/mole/whitelist": {
+    "exists": true,
+    "inode_matches": true,
+    "hash_matches": true
+  },
+  "/Users/xuhao/.codex/sessions": {
+    "exists": true,
+    "inode_matches": true
+  },
+  "/Users/xuhao/.codex/archived_sessions": {
+    "exists": true,
+    "inode_matches": true
+  },
+  "/Users/xuhao/.codex/state_5.sqlite": {
+    "exists": true,
+    "inode_matches": true
+  },
+  "/Users/xuhao/Library/Containers/com.tencent.xinWeChat/Data": {
+    "exists": true,
+    "inode_matches": true
+  },
+  "/Users/xuhao/Library/Application Support/Google/Chrome/Default": {
+    "exists": true,
+    "inode_matches": true
+  },
+  "active_npx_roots": [
+    {
+      "pid": 96948,
+      "root": "15c61037b1978c83",
+      "pid_still_present": true,
+      "root_still_exists": true
+    },
+    {
+      "pid": 96908,
+      "root": "eea2bd7412d4593b",
+      "pid_still_present": true,
+      "root_still_exists": true
+    },
+    {
+      "pid": 96940,
+      "root": "9833c18b2d85bc59",
+      "pid_still_present": true,
+      "root_still_exists": true
+    }
+  ],
+  "wework_removed_all": true
+}

@@ -10,9 +10,13 @@
 - 定时任务：`periodic_jobs/`
 
 ### 知识与记录
+
+- 爱室丽选品 Agent 访谈底稿：`contexts/survey_sessions/2026_09_18_ashley_assortment_discovery.md`（公开背景、待核实流程与决策层级，尚未确认内部 SOP）。
 - 通用调研报告：`contexts/survey_sessions/`
 - 外部原始资料 / 本地文档归档：`contexts/source_materials/`
+- 绩效 / OKR 历史资料与本人自评语气：[2026 上半年原文档案](../contexts/source_materials/2026_09_16_h1_performance/README.md)（按业务域索引，含 OKR、周报、业务指标、技术方案、4篇历史自评与离线图片）；[本期复盘稿](../contexts/thought_review/2026_09_16_h1_okr_review.md)。
 - 二次理解后的结构化知识卡片：`contexts/knowledge_base/`
+- 铝型材 DIY 连续学习：`contexts/knowledge_base/aluminum_profile_learning/00-学习计划.md`（按篇记录材料、结构、加工与采购知识）
 - Rimbo 归档上下文：`contexts/rimbo/`
 - 思考 / 复盘 / 方法论：`contexts/thought_review/`
 - 每日日志：`contexts/daily_records/`
@@ -41,8 +45,13 @@
 - `china-metro-typing` → `adhoc_jobs/tw_metro_typing_china/`（基于 tw-metro-typing fork 的中国 41 城地铁站名打字游戏）
 - `china-route-typing` / `打字游中国` → `adhoc_jobs/china_route_typing_prototype/`（独立的全国城市线路打字游戏交互原型；复用地铁项目技术资产，不复用地铁站点数据）
 - `context-vault` / `AI Tool Environment Sync` → `/Users/xuhao/Documents/Basic/context-vault/`（独立 GitHub 仓库；不要放入当前 workspace 的 `adhoc_jobs/`）
+- `skill-scope` / `全局 Skill 范围` → `rules/skills/skill_scope_management.md`（治理规则）；`~/.local/share/agent-skill-scopes/manifest.json`（本机来源、项目链接、备份及审计真源）
+- `Mac磁盘清理` / `storage-analysis` → `adhoc_jobs/storage_analysis_20261009/`（磁盘快照、逐项清理结果、Codex会话候选与执行证据；日常记录在 `contexts/daily_records/2026_10_09_*cleanup*.md`）
 - `xuhao-personal-site` → `adhoc_jobs/xuhao_personal_site/`（徐昊个人网站原型；全屏横向叙事、作品集与近况）
+- `agent-native-aluminum-platform` / BeamJoin → `/Users/xuhao/Documents/Other/agent-native-aluminum-platform/`（独立 GitHub 仓库 `NolanSoloBuilder/agent-native-aluminum-platform`；领域命令、Web 3D、API、MCP、联调脚本）；产品规格与技术架构已复制到该仓库 `docs/`，本工作区原调研稿仍保留在 `contexts/survey_sessions/`；旧 Demo 位于 `adhoc_jobs/aluminum_editor_demo/`，不作为新工程依赖
 - `xhs-shared-agent-post` → `adhoc_jobs/xhs_shared_agent_post/`（Shared Agent Workspace 小红书正文、视觉规格与成图）
 - 多问卷集合站 / `quiz-hub` → `/Users/xuhao/Documents/Other/quiz-hub/`（GitHub 私有仓库 `NolanSoloBuilder/quiz-hub`；线上 `quiz.forgepane.com`；问卷、网页、内容、封面与结果卡的正式真源）
 - `love-user-manual` 原始实现快照 → `adhoc_jobs/love_user_manual/`（已迁移到 `quiz-hub`，不再作为部署真源）
 - `mkagent` → `/Users/xuhao/Documents/Other/mkagent/`（GitHub fork `NolanSoloBuilder/mkagent`；上游 `MkThingsHQ/mkagent`，企业客户 Agent 定制候选底座）
+- `cited-alpha-agent-redesign` → `contexts/survey_sessions/cited_alpha_agent_redesign/README.md`（通用金融研究 Agent 总方案、分层设计与迁移验收入口）
+- `StrongVPN订阅更新` / `重新下载节点并更新订阅` → `rules/skills/strongvpn-node-optimizer/references/subscription_workflow.md`（节点下载、Clash YAML 转换、验证、VPS 原子发布与客户端刷新；当前为一份完整统一订阅）

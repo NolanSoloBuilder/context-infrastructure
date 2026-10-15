@@ -1,0 +1,20 @@
+{
+  "sequence": 190,
+  "contentHash": "sha256:becad9b6cf758e2ad9fb507bacb2ebd697bfcafd8e9b628056fc674f977f1df5",
+  "byteSize": 4029869,
+  "runStatus": "failed",
+  "terminalReason": "research_failed",
+  "errorMessage": "research execution did not acknowledge completion",
+  "budgetUsage": {
+    "modelCalls": 34,
+    "toolCalls": 59
+  },
+  "evidenceCount": 42,
+  "calculationCount": 4,
+  "checkedCandidate": false,
+  "toolContractVersion": "research-tools/v2",
+  "documentCaptureStates": {
+    "doc_file_e9aca68920734fabbc3a27b72d27cfa3": "completed"
+  },
+  "proof": "separate process real MySQL pointer and GCS canonical bytes/scope/hash validation; no writes or model calls"
+}

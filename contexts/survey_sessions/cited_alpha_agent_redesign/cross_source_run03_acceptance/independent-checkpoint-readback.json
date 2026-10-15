@@ -1,0 +1,20 @@
+{
+  "sequence": 146,
+  "contentHash": "sha256:e74a721d22365fde1d0c9af59d9ee27eb2959eb797110c0582b50fe0404bd40f",
+  "byteSize": 1401063,
+  "runStatus": "failed",
+  "terminalReason": "deadline_exceeded",
+  "errorMessage": "research deadline exceeded; any pending document capture has unknown outcome",
+  "budgetUsage": {
+    "modelCalls": 35,
+    "toolCalls": 36
+  },
+  "evidenceCount": 33,
+  "calculationCount": 3,
+  "checkedCandidate": false,
+  "toolContractVersion": "research-tools/v2",
+  "documentCaptureStates": {
+    "doc_file_e9aca68920734fabbc3a27b72d27cfa3": "completed"
+  },
+  "proof": "separate process real MySQL pointer and GCS canonical bytes/scope/hash validation; no writes or model calls"
+}

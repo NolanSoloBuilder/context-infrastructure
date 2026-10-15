@@ -1,0 +1,53 @@
+{
+  "started_at": 1791537543.444258,
+  "authorized_scope": "delete librechat Colima VM including all container runtime data; retain source project and global CLI",
+  "items": [
+    {
+      "path": "/Users/xuhao/.colima/librechat",
+      "before_allocated_bytes": 12288,
+      "error": "",
+      "exists_after": false,
+      "status": "removed",
+      "after_allocated_bytes": 0
+    },
+    {
+      "path": "/Users/xuhao/.colima/_lima/colima-librechat",
+      "before_allocated_bytes": 1515982848,
+      "error": "",
+      "exists_after": false,
+      "status": "removed",
+      "after_allocated_bytes": 0
+    },
+    {
+      "path": "/Users/xuhao/.colima/_lima/_disks",
+      "before_allocated_bytes": 9077551104,
+      "error": "",
+      "exists_after": true,
+      "status": "remaining",
+      "after_allocated_bytes": 0,
+      "remaining_names": []
+    }
+  ],
+  "before_list": "PROFILE      STATUS     ARCH       CPUS    MEMORY    DISK     RUNTIME    ADDRESS\nlibrechat    Stopped    aarch64    2       6GiB      20GiB    docker     \n",
+  "before_contexts": "NAME            DESCRIPTION                               DOCKER ENDPOINT                               ERROR\ndefault *       Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                   \ndesktop-linux   Docker Desktop                            unix:///Users/xuhao/.docker/run/docker.sock   \n",
+  "after_list": "PROFILE    STATUS    ARCH    CPUS    MEMORY    DISK    RUNTIME    ADDRESS\n",
+  "after_contexts": "NAME            DESCRIPTION                               DOCKER ENDPOINT                               ERROR\ndefault *       Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                   \ndesktop-linux   Docker Desktop                            unix:///Users/xuhao/.docker/run/docker.sock   \n",
+  "action": "colima delete --profile librechat --data --force",
+  "native_exit_code": 0,
+  "status": "completed",
+  "finished_at": 1791537611.221354,
+  "verified_allocated_reduction_bytes": 10593546240,
+  "verification": {
+    "profile_absent_from_list": true,
+    "vm_instance_path_absent": true,
+    "librechat_settings_absent": true,
+    "container_disk_dir_empty": true,
+    "docker_default_and_desktop_contexts_unchanged": true,
+    "project_source_preserved": {
+      "/Users/xuhao/Documents/Other/LibreChat/.git": {
+        "exists": true,
+        "inode_matches": true
+      }
+    }
+  }
+}

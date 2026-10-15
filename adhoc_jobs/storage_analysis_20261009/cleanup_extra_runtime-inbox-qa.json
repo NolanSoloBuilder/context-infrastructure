@@ -1,0 +1,35 @@
+{
+  "exists": true,
+  "entries": [
+    {
+      "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+      "realpath": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+      "inode": 368426251,
+      "uid": 0,
+      "gid": 0,
+      "mode": 33188,
+      "symlink": false,
+      "logical_size_bytes": 8825558354,
+      "allocated_size_bytes": 8825561088,
+      "ctime": "2026-10-09T17:33:20.276613",
+      "mtime": "2026-10-09T17:33:20.274979",
+      "birthtime": "2026-10-09T17:33:10.901571",
+      "flags": 0
+    }
+  ],
+  "runtime_images": {
+    "exit": 0,
+    "stdout": "{\n\n}\n",
+    "stderr": ""
+  },
+  "runtimes": {
+    "exit": 0,
+    "stdout": "{\n  \"runtimes\" : [\n\n  ]\n}\n",
+    "stderr": ""
+  },
+  "inbox_handles": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac.launchxpc",
+      "is_link": false,
+      "uid": 501,
+      "inode": 299533,
+      "before_allocated_bytes": 40960,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac",
+      "is_link": false,
+      "uid": 501,
+      "inode": 297557,
+      "before_allocated_bytes": 48418390016,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac.MiniProgram",
+      "is_link": false,
+      "uid": 501,
+      "inode": 299918,
+      "before_allocated_bytes": 978944,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/88L2Q4487U.com.tencent.WeWorkMac.IPCHelper",
+      "is_link": false,
+      "uid": 501,
+      "inode": 298478,
+      "before_allocated_bytes": 40960,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Group Containers/88L2Q4487U.com.tencent.WeWorkMacDebug",
+      "is_link": false,
+      "uid": 501,
+      "inode": 297613,
+      "before_allocated_bytes": 4096,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Group Containers/88L2Q4487U.com.tencent.WeWorkMac.dev",
+      "is_link": false,
+      "uid": 501,
+      "inode": 297655,
+      "before_allocated_bytes": 4096,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Group Containers/88L2Q4487U.WeWorkMac",
+      "is_link": false,
+      "uid": 501,
+      "inode": 297644,
+      "before_allocated_bytes": 106569728,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Group Containers/88L2Q4487U.com.tencent.WeWorkMacUIDev",
+      "is_link": false,
+      "uid": 501,
+      "inode": 297633,
+      "before_allocated_bytes": 4096,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Group Containers/88L2Q4487U.com.tencent.WeWorkMac",
+      "is_link": false,
+      "uid": 501,
+      "inode": 297623,
+      "before_allocated_bytes": 3198976,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    },
+    {
+      "path": "/Users/xuhao/Library/Preferences/com.tencent.WeWorkMac.plist",
+      "is_link": false,
+      "uid": 501,
+      "inode": 175896729,
+      "before_allocated_bytes": 4096,
+      "action": "delete confirmed abandoned WeWork remnant",
+      "status": "removed"
+    }
+  ],
+  "started_at": 1791534324.323127,
+  "finished_at": 1791534845.516371,
+  "df_after": "Filesystem   1024-blocks      Used Available Capacity  iused      ifree %iused  Mounted on\n/dev/disk3s5   482797652 337941316 102923764    77% 11248247 1029237640    1%   /System/Volumes/Data\n"
+}

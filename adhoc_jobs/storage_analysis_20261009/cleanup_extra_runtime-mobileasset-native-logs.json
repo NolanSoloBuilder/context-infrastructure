@@ -1,0 +1,76 @@
+{
+  "exit": 0,
+  "stderr": "",
+  "messages": [
+    {
+      "timestamp": "2026-10-09 17:39:21.001070+0800",
+      "process": "mobileassetd",
+      "message": "assetType: com.apple.MobileAsset.iOSSimulatorRuntime client: org.python.python, command: 1 (MA_QUERY_ASSET_TYPE)"
+    },
+    {
+      "timestamp": "2026-10-09 17:39:21.001177+0800",
+      "process": "mobileassetd",
+      "message": "Client process does not have 'com.apple.MobileAsset.iOSSimulatorRuntime' entitlement"
+    },
+    {
+      "timestamp": "2026-10-09 17:39:21.001179+0800",
+      "process": "mobileassetd",
+      "message": "failed entitlement check for: com.apple.MobileAsset.iOSSimulatorRuntime with 22 for command: 1 (MA_QUERY_ASSET_TYPE)"
+    },
+    {
+      "timestamp": "2026-10-09 17:39:21.001181+0800",
+      "process": "mobileassetd",
+      "message": "failed entitlement check for: 1 com.apple.MobileAsset.iOSSimulatorRuntime"
+    },
+    {
+      "timestamp": "2026-10-09 17:39:21.001820+0800",
+      "process": "Python",
+      "message": "Got the query meta data reply for: com.apple.MobileAsset.iOSSimulatorRuntime, response: 5"
+    },
+    {
+      "timestamp": "2026-10-09 17:40:19.174870+0800",
+      "process": "mobileassetd",
+      "message": "assetType: com.apple.MobileAsset.iOSSimulatorRuntime client: org.python.python, command: 18 (MA_QUERY_INSTALLED_IDS)"
+    },
+    {
+      "timestamp": "2026-10-09 17:40:19.175348+0800",
+      "process": "mobileassetd",
+      "message": "Client process does not have 'com.apple.MobileAsset.iOSSimulatorRuntime' entitlement"
+    },
+    {
+      "timestamp": "2026-10-09 17:40:19.175354+0800",
+      "process": "mobileassetd",
+      "message": "failed entitlement check for: com.apple.MobileAsset.iOSSimulatorRuntime with 22 for command: 18 (MA_QUERY_INSTALLED_IDS)"
+    },
+    {
+      "timestamp": "2026-10-09 17:40:19.175357+0800",
+      "process": "mobileassetd",
+      "message": "failed entitlement check for: 18 com.apple.MobileAsset.iOSSimulatorRuntime"
+    },
+    {
+      "timestamp": "2026-10-09 17:41:59.278544+0800",
+      "process": "mobileassetd",
+      "message": "assetType: com.apple.MobileAsset.iOSSimulatorRuntime client: org.python.python, command: 27 (MA_LOAD_ASSET_BY_ID)"
+    },
+    {
+      "timestamp": "2026-10-09 17:41:59.279479+0800",
+      "process": "mobileassetd",
+      "message": "Client process does not have 'com.apple.MobileAsset.iOSSimulatorRuntime' entitlement"
+    },
+    {
+      "timestamp": "2026-10-09 17:41:59.279481+0800",
+      "process": "mobileassetd",
+      "message": "failed entitlement check for: com.apple.MobileAsset.iOSSimulatorRuntime with 22 for command: 27 (MA_LOAD_ASSET_BY_ID)"
+    },
+    {
+      "timestamp": "2026-10-09 17:41:59.279487+0800",
+      "process": "mobileassetd",
+      "message": "failed entitlement check for: 27 com.apple.MobileAsset.iOSSimulatorRuntime"
+    },
+    {
+      "timestamp": "2026-10-09 17:41:59.279535+0800",
+      "process": "Python",
+      "message": "Asset load result for (assetId=6fb1e5fe25ee1c372f7116516e615c556906bd4e assetType=com.apple.MobileAsset.iOSSimulatorRuntime attributesHash=0b64efe4359c043780ca51c368b1401cc88047d1 assetIdHash=7c8834453cc91a819cee8eb0458218bb4b1f0d98 nonIdHash=7c8834453cc91a819cee8eb0458218bb4b1f0d98 pallasDynamicAssetIdHash=7c8834453cc91a819cee8eb0458218bb4b1f0d98 contentHash=7c8834453cc91a819cee8eb0458218bb4b1f0d98 urlHash=7c8834453cc91a819cee8eb0458218bb4b1f0d98 policyHash=7c8834453cc91a819cee8eb0458218bb4b1f0d98): 5 (MAQueryNotEntitled)"
+    }
+  ]
+}

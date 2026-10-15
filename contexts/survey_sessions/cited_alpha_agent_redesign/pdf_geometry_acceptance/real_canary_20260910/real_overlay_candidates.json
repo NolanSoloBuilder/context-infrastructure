@@ -1,0 +1,183 @@
+{
+  "source": "real Google Document AI OCR single request",
+  "rawSha256": "60443b10535d065ff82ca6a97826fbcde559e88bfb2d8eade62af4aa5aad488f",
+  "providerSha256": "0fb5c056fc6335336b22762e0cffc0fd47b2053fc62172731e1853d39fee1580",
+  "documentVersionId": "dv-f89e51e1de4ef1a4f745a2517b1e1c5c7fa1c9deaf4548abdb256132496ca862",
+  "processorVersion": "projects/829189946367/locations/us/processors/ba7872f1c0ed02be/processorVersions/pretrained-ocr-v2.1-2024-08-07",
+  "fields": [
+    {
+      "pageNumber": 1,
+      "quote": "Geometry validation - native PDF page 1",
+      "providerPolygon": [
+        {
+          "x": 0.10161663,
+          "y": 0.060632307
+        },
+        {
+          "x": 0.57678986,
+          "y": 0.060632307
+        },
+        {
+          "x": 0.57678986,
+          "y": 0.07925509
+        },
+        {
+          "x": 0.10161663,
+          "y": 0.07925509
+        }
+      ],
+      "bboxNormalized": {
+        "x": 0.10161663,
+        "y": 0.06063230700000005,
+        "width": 0.47517323,
+        "height": 0.018622783000000004
+      },
+      "rule": "unrotated-crop-normalized candidate; pending Chrome acceptance"
+    },
+    {
+      "pageNumber": 1,
+      "quote": "Revenue USD 120",
+      "providerPolygon": [
+        {
+          "x": 0.17667437,
+          "y": 0.34993502
+        },
+        {
+          "x": 0.36836028,
+          "y": 0.34993502
+        },
+        {
+          "x": 0.36836028,
+          "y": 0.3624946
+        },
+        {
+          "x": 0.17667437,
+          "y": 0.3624946
+        }
+      ],
+      "bboxNormalized": {
+        "x": 0.17667437,
+        "y": 0.34993502000000004,
+        "width": 0.19168591,
+        "height": 0.012559579999999959
+      },
+      "rule": "unrotated-crop-normalized candidate; pending Chrome acceptance"
+    },
+    {
+      "pageNumber": 1,
+      "quote": "Costs USD 120",
+      "providerPolygon": [
+        {
+          "x": 0.17609699,
+          "y": 0.7245561
+        },
+        {
+          "x": 0.334873,
+          "y": 0.7245561
+        },
+        {
+          "x": 0.334873,
+          "y": 0.7375487
+        },
+        {
+          "x": 0.17609699,
+          "y": 0.7375487
+        }
+      ],
+      "bboxNormalized": {
+        "x": 0.17609699,
+        "y": 0.7245561,
+        "width": 0.15877600999999997,
+        "height": 0.01299259999999991
+      },
+      "rule": "unrotated-crop-normalized candidate; pending Chrome acceptance"
+    },
+    {
+      "pageNumber": 2,
+      "quote": "Page 2: rotated and cropped",
+      "providerPolygon": [
+        {
+          "x": 0.062465753,
+          "y": 0.0977169
+        },
+        {
+          "x": 0.46356165,
+          "y": 0.0977169
+        },
+        {
+          "x": 0.46356165,
+          "y": 0.12237443
+        },
+        {
+          "x": 0.062465753,
+          "y": 0.12237443
+        }
+      ],
+      "bboxNormalized": {
+        "x": 0.87762557,
+        "y": 0.062465753000000006,
+        "width": 0.02465753000000004,
+        "height": 0.401095897
+      },
+      "rule": "unrotated-crop-normalized candidate; pending Chrome acceptance"
+    },
+    {
+      "pageNumber": 2,
+      "quote": "Revenue USD 240",
+      "providerPolygon": [
+        {
+          "x": 0.11232877,
+          "y": 0.7082192
+        },
+        {
+          "x": 0.3419178,
+          "y": 0.7082192
+        },
+        {
+          "x": 0.3419178,
+          "y": 0.72511417
+        },
+        {
+          "x": 0.11232877,
+          "y": 0.72511417
+        }
+      ],
+      "bboxNormalized": {
+        "x": 0.27488582999999994,
+        "y": 0.11232877,
+        "width": 0.01689497000000001,
+        "height": 0.22958903
+      },
+      "rule": "unrotated-crop-normalized candidate; pending Chrome acceptance"
+    },
+    {
+      "pageNumber": 2,
+      "quote": "Costs USD 240",
+      "providerPolygon": [
+        {
+          "x": 0.51123285,
+          "y": 0.37488586
+        },
+        {
+          "x": 0.7013699,
+          "y": 0.37488586
+        },
+        {
+          "x": 0.7013699,
+          "y": 0.39178082
+        },
+        {
+          "x": 0.51123285,
+          "y": 0.39178082
+        }
+      ],
+      "bboxNormalized": {
+        "x": 0.60821918,
+        "y": 0.51123285,
+        "width": 0.016894960000000014,
+        "height": 0.19013705000000003
+      },
+      "rule": "unrotated-crop-normalized candidate; pending Chrome acceptance"
+    }
+  ]
+}

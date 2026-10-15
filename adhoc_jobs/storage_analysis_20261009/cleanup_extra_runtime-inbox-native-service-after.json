@@ -1,0 +1,24 @@
+{
+  "time": "2026-10-09T18:01:00.426552",
+  "inbox_names": [
+    "5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd"
+  ],
+  "runtime_images": {
+    "exit": 0,
+    "stdout": "{\n  \"E8CFF0FB-F474-47D5-B3D3-FE6BD87D1593\" : {\n    \"deletable\" : true,\n    \"identifier\" : \"E8CFF0FB-F474-47D5-B3D3-FE6BD87D1593\",\n    \"kind\" : \"Cryptex Disk Image\",\n    \"parentIdentifier\" : \"DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9\",\n    \"parentImagePath\" : \"\\/System\\/Library\\/AssetsV2\\/com_apple_MobileAsset_iOSSimulatorRuntime\\/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset\\/AssetData\\/090-44150-318.dmg\",\n    \"parentMountPath\" : \"\\/Library\\/Developer\\/CoreSimulator\\/Cryptex\\/Images\\/bundle\\/SimRuntimeBundle-DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9\",\n    \"path\" : \"\\/Library\\/Developer\\/CoreSimulator\\/Cryptex\\/Images\\/bundle\\/SimRuntimeBundle-DAD8AA5F-D8AB-4C3E-8301-14AFCB4163A9\\/Restore\\/090-44334-323.dmg\",\n    \"signatureState\" : \"Unknown\",\n    \"state\" : \"Verifying\"\n  }\n}\n",
+    "stderr": ""
+  },
+  "runtimes": {
+    "exit": 0,
+    "stdout": "{\n  \"runtimes\" : [\n\n  ]\n}\n",
+    "stderr": ""
+  },
+  "sizes": {
+    "exit": 0,
+    "stdout": "8618716\t/Library/Developer/CoreSimulator/Images\n8623868\t/Library/Developer/CoreSimulator\n",
+    "stderr": ""
+  },
+  "inbox_names_after": [
+    "5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd"
+  ]
+}

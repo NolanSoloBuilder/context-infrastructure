@@ -1,0 +1,68 @@
+{
+  "runId": "workspace-run-9ca05266a24b4c8ca0b8aeef70b8ebc3",
+  "workspaceId": "workspace-0cceab24-198e-435d-ae50-2d12eb65f3ba",
+  "status": "succeeded",
+  "executionStatus": "succeeded",
+  "deliveryStatus": "complete",
+  "runType": "conversation",
+  "triggerType": "retry",
+  "requestPayload": {
+    "acceptedRequest": {
+      "question": "请生成一份可直接阅读的中文Tesla 2024财年研究报告，约1500字。以Tesla官方2024 Form 10-K和本工作区上传的官方Q4 and FY 2024 Update PDF交叉核对：2024与2023总营收、汽车业务收入、毛利率、经营现金流和资本开支；用清晰指标表注明期间、单位和同比。分析增长质量、盈利压力和现金流，结论先行，分层短段落，不罗列检索过程。必须读取上传PDF的实际财务表格并引用至少一个字段级定位；必须调用平台文章信源库搜索Tesla并阅读相关正文，引用至少一篇有实质关联的文章，在单独的后续观察段明确文章日期和观点属性。信息检索截止2026-09-14，后续文章不可反写成2024已知事实。同公司10-K和Update是不同原始文件而非独立第三方。每项关键事实附可打开原文的引用；缺失数据明确写资料不足，不编造估值、评级或目标价。",
+      "messageId": "workspace-user-e9881970856a83a62a07fa62759ce0fc1b1de6d0",
+      "triggerType": "manual",
+      "chatSessionId": "e8b8ddc35e3b41f9879e892202dc5280",
+      "artifactIntent": "create_new"
+    },
+    "admissionRequestHash": "sha256:6e13cf53a7cbed613ba3c64df8b2f43ba0dbefa516f6422118725568b1447007"
+  },
+  "resultSummary": "研究报告已生成，可查看正文与来源。",
+  "memoryDiff": null,
+  "artifactDiff": {
+    "versionId": "research-version-29597e48-f011-5dc3-9087-dc5476e8557f",
+    "artifactId": "workspace-artifact-b2b53fa0060b4c30bfdf4a4aee9b7a00",
+    "currentVersion": 2
+  },
+  "sourceDiff": null,
+  "metadata": {
+    "researchReportCheck": {
+      "contentHash": "sha256:664d5b82f0dd8a6e4a91fd6e5cd7db576592c8b59fbf84aa83a1c895582ee835",
+      "receiptHash": "sha256:26be7778f31e7bcc066f4426f53c698e2c95834496d3d1a4a30d0f87dc76bfd7",
+      "checkpointContentHash": "sha256:6dfed5e2fe8142a3c97c413298cb22b66993a1e16869bd3273776d887517c76e"
+    }
+  },
+  "errorMessage": null,
+  "createdAt": "2026-09-14T03:36:23",
+  "finishedAt": "2026-09-14T03:38:42",
+  "researchProgress": {
+    "evidenceRegisteredCount": 19,
+    "calculationRegisteredCount": 6,
+    "activity": "ready_for_delivery",
+    "schemaVersion": "research-progress/v1",
+    "checkpointCursor": "workspace-run-9ca05266a24b4c8ca0b8aeef70b8ebc3-agent:14",
+    "updatedAt": "2026-09-14T03:38:40.943014+00:00"
+  },
+  "usedSources": [],
+  "attempt": 1,
+  "retryable": false,
+  "lastEventId": "research-event-29597e48-f011-5dc3-9087-dc5476e8557f",
+  "retryAfterSeconds": 0,
+  "stateVersion": 4,
+  "deadlineAt": "2026-09-14T03:51:24",
+  "terminalReason": "research_report_delivered",
+  "taskIntentId": null,
+  "taskContractId": null,
+  "contextPackId": null,
+  "runtimePolicyId": null,
+  "deliveryReceiptId": null,
+  "harnessContractVersion": "research-v1",
+  "harnessRolloutBucket": 0,
+  "harnessRolloutRevision": "research-v1-explicit",
+  "harnessRolloutReason": "inherited",
+  "lastProgressAt": null,
+  "waitingReason": null,
+  "resumeCondition": null,
+  "waitingDeadlineAt": null,
+  "rootRunId": "workspace-run-1bb2e3c15ca241c68e102073f1ebe917",
+  "retryOfRunId": "workspace-run-1bb2e3c15ca241c68e102073f1ebe917"
+}

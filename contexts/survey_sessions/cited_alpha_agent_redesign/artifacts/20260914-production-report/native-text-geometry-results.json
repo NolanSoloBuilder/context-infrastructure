@@ -1,0 +1,153 @@
+{
+  "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+  "note": "Native text display matches; no visibility or formal field qualification.",
+  "results": [
+    {
+      "quote": "27%",
+      "page": 5,
+      "precision": "text_match",
+      "bbox": {
+        "x": 0.9303543182737025,
+        "y": 0.8166345505996495,
+        "width": 0.019659642207398353,
+        "height": 0.020212909311413507
+      },
+      "reason": "native-pdf-exact-line/v1",
+      "nativeTextMatch": {
+        "method": "native-pdf-exact-line/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "exactText": "27%",
+        "rowAnchor": "Capital expenditures",
+        "candidateCount": 1
+      },
+      "seconds": 0.2557
+    },
+    {
+      "quote": "17.9%",
+      "page": 5,
+      "precision": "text_match",
+      "bbox": {
+        "x": 0.8344894001415004,
+        "y": 0.3506057135156986,
+        "width": 0.02830579138872047,
+        "height": 0.020212909311413563
+      },
+      "reason": "native-pdf-exact-line/v1",
+      "nativeTextMatch": {
+        "method": "native-pdf-exact-line/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "exactText": "17.9%",
+        "rowAnchor": null,
+        "candidateCount": 1
+      },
+      "seconds": 0.1797
+    },
+    {
+      "quote": "-39 bp",
+      "page": 5,
+      "precision": "text_match",
+      "bbox": {
+        "x": 0.9202800308267642,
+        "y": 0.3506057135156986,
+        "width": 0.02955996058217114,
+        "height": 0.020212909311413563
+      },
+      "reason": "native-pdf-exact-line/v1",
+      "nativeTextMatch": {
+        "method": "native-pdf-exact-line/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "exactText": "-39 bp",
+        "rowAnchor": null,
+        "candidateCount": 1
+      },
+      "seconds": 0.1181
+    },
+    {
+      "quote": "97,690",
+      "page": 5,
+      "precision": "text_match",
+      "bbox": {
+        "x": 0.831123723974126,
+        "y": 0.29235210888020474,
+        "width": 0.031629396604002435,
+        "height": 0.020212909311413563
+      },
+      "reason": "native-pdf-exact-line/v1",
+      "nativeTextMatch": {
+        "method": "native-pdf-exact-line/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "exactText": "97,690",
+        "rowAnchor": null,
+        "candidateCount": 1
+      },
+      "seconds": 0.1185
+    },
+    {
+      "quote": "77,070",
+      "page": 5,
+      "precision": "text_match",
+      "bbox": {
+        "x": 0.8310896123913484,
+        "y": 0.17584489960921706,
+        "width": 0.031629396604002435,
+        "height": 0.020212909311413563
+      },
+      "reason": "native-pdf-exact-line/v1",
+      "nativeTextMatch": {
+        "method": "native-pdf-exact-line/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "exactText": "77,070",
+        "rowAnchor": null,
+        "candidateCount": 1
+      },
+      "seconds": 0.118
+    },
+    {
+      "quote": "14,923",
+      "page": 5,
+      "precision": "text_match",
+      "bbox": {
+        "x": 0.8312829113604218,
+        "y": 0.7875077482819025,
+        "width": 0.031629396604002435,
+        "height": 0.020212909311413618
+      },
+      "reason": "native-pdf-exact-line/v1",
+      "nativeTextMatch": {
+        "method": "native-pdf-exact-line/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "exactText": "14,923",
+        "rowAnchor": null,
+        "candidateCount": 1
+      },
+      "seconds": 0.1903
+    },
+    {
+      "quote": "(11,339)",
+      "page": 5,
+      "precision": "text_match",
+      "bbox": {
+        "x": 0.8244719653325261,
+        "y": 0.8166345505996495,
+        "width": 0.03848582474226803,
+        "height": 0.020212909311413507
+      },
+      "reason": "native-pdf-exact-line/v1",
+      "nativeTextMatch": {
+        "method": "native-pdf-exact-line/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "exactText": "(11,339)",
+        "rowAnchor": null,
+        "candidateCount": 1
+      },
+      "seconds": 0.1133
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+标红的需要重点学习
+适用方向：终端校招生
+1、学习路线～0-3个月
+熟练掌握 iOS 语言基础
+Swift：可选类型、值类型与引用类型、协议与泛型、闭包捕获语义、ARC 内存管理（strong/weak/unowned、循环引用）、Codable、错误处理。推荐书籍《Swift 进阶》（objc.io）
+Objective-C：Runtime（消息转发、method swizzling、关联对象）、KVO/KVC 原理、property 修饰符语义。推荐《Objective-C 高级编程》
+Swift 与 OC 混编：桥接头文件、@objc 与 dynamic、命名映射规则
+iOS 系统机制
+内存管理：ARC 实现原理、autoreleasepool、内存五大区、Memory Graph 排查循环引用
+多线程：GCD（队列/同步异步/死锁）、NSOperation、线程安全、锁的选型（os_unfair_lock / NSLock / 信号量）
+RunLoop：运行模式、与线程的关系、在卡顿监控中的应用
+事件传递与响应链：hitTest、touch 事件分发
+UI 渲染与性能基础
+UIView 与 CALayer 的关系、图层树/渲染树/呈现树
+离屏渲染的触发条件与规避（圆角、阴影、mask、光栅化）
+卡顿成因：主线程阻塞、布局计算、图片解码时机
+UITableView / UICollectionView 复用机制与滑动优化
+React Native 基础
+RN 新架构：JSI、Fabric 渲染器、TurboModule、Codegen —— 与老架构 Bridge 的本质差异
+JS 与 Native 通信机制、线程模型（JS 线程 / UI 线程 / Shadow 线程）
+Bundle 加载流程、Metro 打包原理
+React 基础：Hooks、状态管理、渲染优化（memo / useMemo / useCallback）
+Android 基础
+Kotlin：空安全、扩展函数、协程（Coroutine/Flow）、data class、密封类
+四大组件与生命周期、Activity/Fragment 栈管理、Context 泄漏陷阱
+内存管理：GC 机制、强软弱虚引用、内存抖动与 OOM 常见成因
+UI 体系：View 绘制三大流程（measure/layout/draw）、事件分发机制、Jetpack Compose 声明式 UI 入门
+鸿蒙（HarmonyOS NEXT）基础
+ArkTS 语言：基于 TypeScript 的类型系统与语法约束、与标准 TS 的差异
+ArkUI 声明式开发范式：@Component、@State/@Prop/@Link 状态管理、布局体系
+Stage 模型：UIAbility 生命周期、AbilityStage、Context 体系（与 Android 的 Activity 模型对比理解）
+应用包结构：HAP/HAR/HSP 三种包形态与模块化组织方式
+工程与协作基础
+Xcode 工程结构、Build Settings、Scheme / Configuration（Debug / AdHoc / Release 的差异）
+依赖管理：CocoaPods 与 SPM
+Git 工作流、Code Review 规范
+抓包与调试：Charles / Proxyman、LLDB 常用命令
+
+2、学习路线～3-6个月
+性能优化专项
+启动优化：pre-main 阶段拆解、动态库合并、二进制重排、+load 治理
+内存优化：OOM 归因、大图与视频内存占用、Instruments Allocations / Leaks 实战
+卡顿治理：帧率监控原理、主线程耗时打点、离屏渲染排查
+包体积优化：无用资源与代码扫描、图片压缩、符号表裁剪、RN Bundle 拆包
+工具链：Instruments 全家桶、Xcode Organizer、公司内部 APM 平台
+端上稳定性体系
+Crash 治理：符号化、堆栈归因、常见崩溃类型（野指针 / 数组越界 / 多线程竞争 / KVO 未移除）
+监控体系：崩溃率、ANR、接口成功率、页面秒开率的口径与看板
+发布链路：分阶段发布规则（7 天 1%→2%→5%→10%→20%→50%→100%）、只能暂停不能回滚、服务端开关兜底的必要性
+热修复方案与边界
+日志体系：本地日志回捞、trace 关联排查
+Android 性能与稳定性
+启动优化：Application 初始化治理、异步/延迟加载、Baseline Profile 与 AOT 预编译
+内存优化：MAT 分析 hprof、LeakCanary 自动化泄漏检测、Bitmap 内存治理
+卡顿治理：Choreographer 帧回调监控、JankStats、Perfetto 系统级 trace 分析
+ANR 治理：五类 ANR 成因、主线程阻塞排查、traces.txt 解读（iOS 无此概念，Android 独有）
+包体积：R8 混淆与资源压缩、APK Analyzer、动态特性模块（Dynamic Feature）
+鸿蒙性能与工程化
+DevEco Studio Profiler：CPU/内存/丢帧分析
+ArkTS 性能：状态管理粒度优化、LazyForEach 长列表、组件复用（@Reusable）
+方舟编译器与 AOT 机制、应用冷启动优化
+元服务与卡片开发、一次开发多端部署（1+8+N 适配）
+架构设计能力
+架构模式：MVC / MVP / MVVM / VIPER 的取舍，为什么 iOS 的 MVC 容易变成 Massive View Controller
+组件化：模块拆分、路由设计（URL Router / Protocol 注册）、依赖解耦
+响应式编程：Combine / RxSwift 的原理与内存管理陷阱
+跨端方案对比：原生 / RN / Flutter / 动态化 DSL 的适用边界
+工程化实践
+CI/CD：打包流水线、自动化测试接入、包大小卡口
+单元测试与 UI 测试：XCTest、Mock 与依赖注入
+代码质量：静态扫描、Lint 规则、Danger 自动化 Review
+
+3、学习路线～7-12个月
+深水区技术
+SwiftUI：声明式 UI 原理、与 UIKit 混用、状态驱动模型、性能陷阱
+Swift Concurrency：async/await、Actor、结构化并发、与 GCD 的迁移策略
+编译与链接：Mach-O 结构、dyld 加载流程、静态库与动态库、符号解析
+音视频与图形：AVFoundation、播放器实例管理、AudioSession 共享机制、Metal 基础
+RN 深度与混合栈治理
+原生与 RN 混合栈的生命周期、内存与页面栈管理
+RN 性能剖析与优化：首屏渲染、长列表、动画掉帧
+自定义 TurboModule 与 Fabric 组件开发
+RN 热更新工程化：版本管理、灰度、回滚
+Android 深水区
+编译与运行时：DEX 结构、ClassLoader 机制、热修复与插件化原理
+跨进程通信：Binder 机制与 AIDL、进程保活与多进程架构
+Jetpack Compose 进阶：重组原理、性能陷阱、与 View 体系互操作
+字节码插桩（ASM/AGP Transform）在埋点与监控中的应用
+鸿蒙深化
+分布式能力：跨设备流转、分布式数据管理、软总线
+Native 开发：NAPI 与 C++ 混合开发、跨语言调用
+与 RN / 跨端框架的鸿蒙适配现状与迁移成本评估
+跨端一致性工程
+同一需求在 iOS / Android / 鸿蒙 / RN 四栈的实现差异与对齐方法
+多端埋点口径统一、指标可比性治理
+跨端技术选型决策框架：什么场景用原生、什么场景用 RN、什么场景做动态化
+业务架构与领域理解
+电商商详链路：路由 scheme → 接口协议 → 组件装配 → 渲染 → 转化
+动态化能力：DSL 渲染、服务端下发布局、组件配置化
+埋点体系与数据口径：曝光判定、点击归因、实验分流
+大促保障：容量预估、降级预案、监控值守
+AI 学习
+AI 基础：
+算法：机器学习、深度学习、Transformer、Pre-Training、Fine-Tuning、SFT、LoRA、RLHF
+搜索：Embedding、RAG、向量数据库、Chunk
+大模型：多模态、MOE、MCP、Function Call、Prompt、Memory、Plan
+agent：Agent、Multi-Agent
+AI 框架与端侧能力：
+工程：LangChain、MCP 生态
+端侧推理：Core ML、Apple Neural Engine、模型量化与端侧部署、iOS 26 Foundation Models 框架
+AI 实践（客户端场景）：
+Prompt 设计：通过精准的 prompt 让大模型给出结构化、可直接消费的结果
+AI 辅助排查：崩溃堆栈智能归因、海量日志语义检索、性能瓶颈初筛
+AI 生成 UI：设计稿转代码、组件生成的可用边界
+端侧 AI 应用：图像识别、语音输入、本地小模型推理
+AI 优化
+Token 优化
+端侧推理加速与功耗控制
+数据飞轮
+Vibe Coding
+cursor、codex、claude code、gemini、trae、windsurf
+学会使用主流的 mcp、agent、plan、skills、rules、debug 等方案帮助自己进行快速开发，解放生产力
+客户端特有注意点：AI 生成的客户端代码必须人工 Review 内存管理与线程安全，这两类问题 AI 最容易写错且线上代价最高
+
+4、四端性能工具链对照
+性能定位能力的本质是「知道用什么工具看什么数据」。各端工具形态差异很大，但排查思路相通：先用线上监控定位「哪里有问题」，再用本地工具剖析「为什么有问题」。
+能力维度
+iOS
+Android
+鸿蒙
+RN
+综合剖析
+Instruments（Time Profiler）
+Perfetto / AS Profiler
+DevEco Profiler
+Chrome DevTools Performance
+内存泄漏
+Memory Graph Debugger
+MAT + LeakCanary
+DevEco 内存快照
+Heap Snapshot
+卡顿帧率
+Instruments Core Animation
+JankStats + Perfetto
+DevEco 丢帧分析
+RN Perf Monitor
+启动耗时
+App Launch 模板
+Macrobenchmark
+DevEco 启动分析
+自埋点 TTI
+包体积
+LinkMap 分析
+APK Analyzer
+HAP 包分析
+bundle-visualizer
+UI 层级
+View Hierarchy Debugger
+Layout Inspector
+ArkUI Inspector
+React DevTools
+线上监控
+Sentry（上传 dSYM）
+Sentry（上传 mapping）
+需确认平台覆盖
+Sentry（上传 Source Map）
+四端不对称的关键点（务必建立认知）：
+Android 有、iOS 没有：ANR 概念、LeakCanary 自动化泄漏检测、Baseline Profile、StrictMode
+iOS 有、Android 没有：pre-main 阶段优化、二进制重排（Order File）
+鸿蒙独有：分布式流转能力、元服务/卡片形态、一次开发多端部署
+RN 特有：Hermes Profiler、JSI 通信耗时分析、Source Map 还原链路
+这些不对称意味着各端性能指标不能简单横向对比，跨端分析前必须先对齐口径。
+5、推荐书单与资料
+阶段
+书籍 / 资料
+0-3 个月 · iOS
+《Swift 进阶》（objc.io）、《Objective-C 高级编程》、《iOS Programming: The Big Nerd Ranch Guide》
+0-3 个月 · Android
+《Kotlin 实战》、《Android 开发艺术探索》、Jetpack Compose 官方 Codelab
+0-3 个月 · 鸿蒙
+HarmonyOS NEXT 官方开发文档、ArkTS 语言基础教程、华为开发者联盟 Codelabs
+3-6 个月
+《iOS 性能优化实战》、《Effective Objective-C 2.0》、WWDC Performance 专题
+7-12 个月
+《程序员的自我修养——链接、装载与库》、SwiftUI 官方教程、React Native 新架构官方文档
+持续
+WWDC 年度 Session、Apple 官方文档、objc.io、喵神 onevcat 博客
+
+6、与后端学习计划的关键差异
+客户端同学需要特别建立的四个认知，这些是后端岗位不会遇到的：
+发布不可逆 —— 服务端可以秒级回滚，客户端发出去就收不回。分阶段发布只能暂停、不能撤回，因此任何有风险的功能都必须配服务端开关。
+性能即体验 —— 后端看 QPS / RT / 可用性，客户端看崩溃率、帧率、内存峰值、包体积、启动耗时。这些要形成肌肉记忆。
+内存与线程是高频事故源 —— 循环引用、KVO 未移除、多线程竞争，是客户端 Crash 的最大来源，也是 Code Review 的重点。
+排查链路更长 —— 客户端问题依赖日志回捞 + trace 关联 + 用户复现，无法像服务端那样随时登机器看现场。要尽早熟悉全套排查工具链。

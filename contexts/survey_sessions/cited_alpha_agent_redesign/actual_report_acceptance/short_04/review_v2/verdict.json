@@ -1,0 +1,34 @@
+{
+  "status": "rejected",
+  "semanticReview": "rejected",
+  "editorialReview": "rejected",
+  "scores": {
+    "answer": 4,
+    "reasoning": 3,
+    "organization": 4,
+    "readability": 4,
+    "evidence": 2
+  },
+  "issues": [
+    {
+      "category": "factual",
+      "blockId": "summary",
+      "detail": "摘要中关于2023年总收入（96,773百万美元）及增长率（0.95%）的表述，在摘要绑定的证据中缺少支持（未包含2023年总收入的证据或计算过程）。"
+    },
+    {
+      "category": "factual",
+      "blockId": "txt_verification_p1",
+      "detail": "段落中关于2023财年总收入（96,773百万美元）以及同比增长约0.95%的表述，在当前段落绑定的证据中缺少支持（仅绑定了2024年总收入的证据）。"
+    },
+    {
+      "category": "factual",
+      "blockId": "txt_unit_p1",
+      "detail": "段落中提及的“97,690 百万美元”以及“记账本位币为美元（USD）”在当前段落绑定的证据中缺少支持（仅绑定了单位“in millions, except per share data”的证据）。"
+    }
+  ],
+  "reviewer": {
+    "kind": "independent_model",
+    "version": "research-review/v2-anchor-bindings"
+  },
+  "contentHash": "sha256:def13bcb2ac8b8fd1f0c52bb34a120a00acff749801c08afaf7bc0c3cc088293"
+}

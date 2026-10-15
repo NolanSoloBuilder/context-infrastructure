@@ -1,0 +1,12 @@
+{
+  "verify": {
+    "exit": 1,
+    "stdout": "Signature verification failed: (-67068 cannot find code object on disk\n",
+    "stderr": ""
+  },
+  "images": {
+    "exit": 0,
+    "stdout": "{\n\n}\n",
+    "stderr": ""
+  }
+}

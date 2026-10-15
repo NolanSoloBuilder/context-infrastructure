@@ -2,7 +2,7 @@
 
 > 本文件由 `tools/external_skills_registry.mjs sync` 生成。GitHub 安装来源维护在 `external_skills_registry.json` 与 `skills-lock.json`；从用户全局目录精选到项目的快照维护在 `global_skill_snapshots.json`。
 
-当前项目登记 **32 个上游安装 Skill、17 个精选全局快照，共 49 个项目级 Skill**。最近对账日期：`2026-07-21`。
+当前项目登记 **33 个上游安装 Skill、0 个精选全局快照，共 33 个项目级 Skill**。最近对账日期：`2026-09-23`。
 
 ## 上游来源
 
@@ -12,30 +12,12 @@
 | [4682B4LEE/xiaohongshu-content-checker](https://github.com/4682B4LEE/xiaohongshu-content-checker) | 1 | 1.3.3 | MIT（仅 SKILL.md 声明） | `60dbf1a28910` | 2026-07-21 | 未提供自动扫描结果；安装内容仅含 Markdown |
 | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | 1 | — | MIT | `91b560849e8f` | 2026-07-21 | Safe；0 alerts；Low Risk |
 | [helloianneo/ian-xiaohei-scenes](https://github.com/helloianneo/ian-xiaohei-scenes) | 1 | — | MIT | `3555bcb9ecab` | 2026-07-21 | Safe；0 alerts；Low Risk |
+| [typesafe-ai/skills](https://github.com/typesafe-ai/skills) | 1 | — | MIT | `65a39f393687` | 2026-09-23 | Safe；0 Socket alerts；Snyk Low Risk |
 
 ## 精选全局 Skill 快照
 
-这些 Skill 已复制到仓库内 `.agents/skills/`，迁移后直接以项目级 Skill 生效，不会写回任何全局目录。
+当前未复制全局 Skill 到项目；克隆本仓库后，按需在全局环境安装这些能力。
 
-| Skill | 分类 | 原全局路径 | 来源 | 快照哈希 | 选择原因 |
-| --- | --- | --- | --- | --- | --- |
-| `agents-sdk` | agent-infrastructure | `~/.agents/skills/agents-sdk` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `8e099cc1bffc` | 项目持续研究和实现 Agent runtime、工具调用与执行边界。 |
-| `cloudflare` | cloudflare | `~/.agents/skills/cloudflare` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `7c3a935fe7c3` | 项目包含 Cloudflare、Workers、域名和部署相关工作。 |
-| `cloudflare-email-service` | cloudflare | `~/.agents/skills/cloudflare-email-service` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `8df31104749e` | 项目包含邮件服务、域名和 Cloudflare 基础设施。 |
-| `cloudflare-one` | cloudflare | `~/.agents/skills/cloudflare-one` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `37630f69116a` | 项目包含 managed network、DNS、访问路径和 Cloudflare One 诊断。 |
-| `durable-objects` | agent-infrastructure | `~/.agents/skills/durable-objects` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `ed6880c1be09` | 项目研究有状态 Agent、workspace runner 与 Durable Objects。 |
-| `find-skills` | skill-management | `~/.agents/skills/find-skills` | [vercel-labs/skills](https://github.com/vercel-labs/skills.git) | `fd866d013fc2` | 项目需要持续发现、安装和治理外部 Skills。 |
-| `llm-router` | agent-infrastructure | `~/.agents/skills/llm-router` | local-snapshot | `81280f360477` | 项目维护多模型路由与 Agent 执行策略。 |
-| `multi-source-search` | research | `~/.agents/skills/multi-source-search` | local-snapshot | `90d6081d1277` | 深度调研和多来源交叉验证是项目核心工作流。 |
-| `playwright` | browser-verification | `~/.claude/skills/playwright` | local-snapshot | `ff339251fb9d` | 项目需要浏览器 E2E、页面验证和交互诊断。 |
-| `sandbox-sdk` | agent-infrastructure | `~/.agents/skills/sandbox-sdk` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `8aa2b00634fc` | 项目研究 Agent sandbox 和隔离执行环境。 |
-| `screenshot` | browser-verification | `~/.claude/skills/screenshot` | local-snapshot | `ecaa8e63fc67` | 项目调研、页面验证和设计 QA 需要可审计截图。 |
-| `storage-analyzer` | workspace-operations | `~/.claude/skills/storage-analyzer` | local-snapshot | `81a7e857f599` | 项目承担本机 Codex 数据、缓存和 workspace 存储诊断。 |
-| `turnstile-spin` | cloudflare | `~/.agents/skills/turnstile-spin` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `5a30fbac2d8f` | 项目包含 Cloudflare 站点、Turnstile 和部署恢复链路。 |
-| `ui-ux-pro-max` | product-design | `~/.agents/skills/ui-ux-pro-max` | [duc01226/easyplatform](https://github.com/duc01226/easyplatform.git) | `afac8eaa1444` | 项目包含多个 Web 产品原型、设计 QA 和界面实现。 |
-| `web-perf` | browser-verification | `~/.agents/skills/web-perf` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `621dd1a31bb6` | 项目需要 Web 性能诊断和线上体验验证。 |
-| `workers-best-practices` | cloudflare | `~/.agents/skills/workers-best-practices` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `b4a625977dff` | 项目包含 Cloudflare Workers 代码、部署和运行时边界。 |
-| `wrangler` | cloudflare | `~/.agents/skills/wrangler` | [cloudflare/skills](https://github.com/cloudflare/skills.git) | `db3282488c8d` | Wrangler 是项目 Cloudflare 本地开发和部署的直接工具。 |
 
 明确排除：
 
@@ -79,6 +61,15 @@
 - 许可证证据：仓库 LICENSE
 - Skills（1）：`ian-xiaohei-scenes`
 - 备注：小黑 2.0，适合真实物件场景、项目故事和超横版长卷图。
+
+### typesafe-ai/skills
+
+- 仓库：https://github.com/typesafe-ai/skills
+- 安装日期：`2026-09-23`；最近更新：`2026-09-23`
+- 许可证证据：Skill 目录 LICENSE；GitHub 仓库许可证元数据为 MIT
+- Skills（1）：`typesafe-ai`
+- 备注：TypeSafe 官方使用说明 Skill；编写接口调用前要求读取当前官方 API 或 SDK 文档。
+- 备注：与 Jev in Codex 的批量分类工具项目分别维护。
 
 ## 对账与更新
 

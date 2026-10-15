@@ -1,0 +1,438 @@
+[
+  {
+    "path": "/Users/xuhao/.local",
+    "partial": false,
+    "entries": [
+      {
+        "path": "/Users/xuhao/.local",
+        "size_bytes": 7099346944
+      },
+      {
+        "path": "/Users/xuhao/.local/share",
+        "size_bytes": 6857138176
+      },
+      {
+        "path": "/Users/xuhao/.local/bin",
+        "size_bytes": 163409920
+      },
+      {
+        "path": "/Users/xuhao/.local/gh",
+        "size_bytes": 78729216
+      },
+      {
+        "path": "/Users/xuhao/.local/state",
+        "size_bytes": 69632
+      }
+    ],
+    "errors": []
+  },
+  {
+    "path": "/private/var",
+    "timeout": true,
+    "partial_stdout": ""
+  },
+  {
+    "path": "/System/Library/AssetsV2",
+    "partial": true,
+    "entries": [
+      {
+        "path": "/System/Library/AssetsV2",
+        "size_bytes": 13760348160
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime",
+        "size_bytes": 9116368896
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_Understanding",
+        "size_bytes": 1210585088
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_Font8",
+        "size_bytes": 1156071424
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_LinguisticData",
+        "size_bytes": 967790592
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Speech_AutomaticSpeechRecognition",
+        "size_bytes": 398467072
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_DictionaryServices_dictionary3macOS",
+        "size_bytes": 154894336
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_TextToSpeech",
+        "size_bytes": 123936768
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_Trial_Siri_SiriTextToSpeech",
+        "size_bytes": 118689792
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_SearchQueryUnderstanding",
+        "size_bytes": 118358016
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_TTSAXResourceModelAssets",
+        "size_bytes": 114999296
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_ContextKit",
+        "size_bytes": 111382528
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Translation_Assets",
+        "size_bytes": 35078144
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_UnderstandingASRHammer",
+        "size_bytes": 27496448
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VoiceTriggerAssetsASMac",
+        "size_bytes": 19705856
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_GameController_DB1",
+        "size_bytes": 15921152
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MecabraDictionaryRapidUpdates",
+        "size_bytes": 11427840
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_CoreSuggestions",
+        "size_bytes": 11259904
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VCPMobileAssets",
+        "size_bytes": 7569408
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_PKITrustStore",
+        "size_bytes": 5103616
+      },
+      {
+        "path": "/System/Library/AssetsV2/PreinstalledAssetsV2",
+        "size_bytes": 5087232
+      },
+      {
+        "path": "/System/Library/AssetsV2/history",
+        "size_bytes": 4751360
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_GeoPolygonDataAssets",
+        "size_bytes": 4538368
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VideoAppsMusicAssets3",
+        "size_bytes": 3833856
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_RecoveryOSUpdateBrain",
+        "size_bytes": 3424256
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_phoneNumberResolver",
+        "size_bytes": 2879488
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_Font7",
+        "size_bytes": 2129920
+      },
+      {
+        "path": "/System/Library/AssetsV2/persisted",
+        "size_bytes": 1544192
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_LinguisticData",
+        "size_bytes": 1454080
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_RawCamera_Camera",
+        "size_bytes": 1368064
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_DictionaryServices_dictionaryOSX",
+        "size_bytes": 872448
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VoiceServices_VoiceResources",
+        "size_bytes": 438272
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_CoreSuggestionsModels",
+        "size_bytes": 286720
+      },
+      {
+        "path": "/System/Library/AssetsV2/locks",
+        "size_bytes": 262144
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VoiceServices_GryphonVoice",
+        "size_bytes": 262144
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_TKModelMessages",
+        "size_bytes": 188416
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UARP_A2363",
+        "size_bytes": 167936
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_RegulatoryCertification",
+        "size_bytes": 159744
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SpeechTranslationAssets7",
+        "size_bytes": 143360
+      },
+      {
+        "path": "/System/Library/AssetsV2/analytics",
+        "size_bytes": 139264
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SpotlightResources",
+        "size_bytes": 131072
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VoiceServices_CustomVoice",
+        "size_bytes": 98304
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_ProactiveEventTrackerAssets",
+        "size_bytes": 90112
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VoiceTriggerAssetsStudioDisplay",
+        "size_bytes": 81920
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_DesktopPicture",
+        "size_bytes": 77824
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SpeechTranslationAssets5",
+        "size_bytes": 69632
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VoiceServices_CombinedVocalizerVoices",
+        "size_bytes": 61440
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_SummarizationKitConfiguration",
+        "size_bytes": 61440
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_VoiceServicesVocalizerVoice",
+        "size_bytes": 61440
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MacSoftwareUpdate",
+        "size_bytes": 53248
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MacinTalkVoiceAssets",
+        "size_bytes": 45056
+      },
+      {
+        "path": "/System/Library/AssetsV2/manifests",
+        "size_bytes": 32768
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_DeviceCheck",
+        "size_bytes": 28672
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SafariBackgroundImage",
+        "size_bytes": 24576
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_ImageCaptionModel",
+        "size_bytes": 20480
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_KextDenyList",
+        "size_bytes": 20480
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_PhotosCuratedMusicLibraryAsset",
+        "size_bytes": 20480
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_network_networknomicon",
+        "size_bytes": 16384
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SFRSoftwareUpdate",
+        "size_bytes": 16384
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_routined_defaults",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/SplunkRecords",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Handwriting_Synthesis",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_OSEligibility",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_AppleKeyServicesCRL2",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_SearchQueryUnderstandingOverrides",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MediaSupport",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_ComfortSoundsAssets",
+        "size_bytes": 12288
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_AppleDeveloperDocumentation",
+        "size_bytes": 8192
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_TopLevelDomainDafsa",
+        "size_bytes": 8192
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Photos_SpatialPhotosRelive",
+        "size_bytes": 8192
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_PKITrustSupplementals",
+        "size_bytes": 8192
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MobileAccessoryUpdate_TrackpadFirmware_6",
+        "size_bytes": 8192
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_PhishingImageClassifier2",
+        "size_bytes": 8192
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_PlatformAssets",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SoftwareUpdateDocumentation",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_GamePolicy_DB1",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_PSUSConfig_AutoAssetSetTargets",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UARP_A3056",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SecExperimentAssets",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_Trial_Siri_SiriUnderstandingAsrAssistant",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_Trial_Siri_SiriFindMyConfigurationFiles",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MobileAccessoryUpdate_A2084_EA",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MacRecoveryOSUpdate",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MobileAssetBrain",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MobileSoftwareUpdate_MacUpdateBrain",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_IntelligentRouting",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MacSplatSoftwareUpdate",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_TimeZoneUpdate",
+        "size_bytes": 4096
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_SpeechEndpointMacOSAssets",
+        "size_bytes": 0
+      },
+      {
+        "path": "/System/Library/AssetsV2/staging",
+        "size_bytes": 0
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_HomeKitDevices",
+        "size_bytes": 0
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_MXSmartRoutingAppsV2",
+        "size_bytes": 0
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_AudioAnalytics",
+        "size_bytes": 0
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_AXIconVision",
+        "size_bytes": 0
+      },
+      {
+        "path": "/System/Library/AssetsV2/com_apple_MobileAsset_UAF_Unilog",
+        "size_bytes": 0
+      },
+      {
+        "path": "/System/Library/AssetsV2/downloadDir",
+        "size_bytes": 0
+      }
+    ],
+    "errors": [
+      "du: /System/Library/AssetsV2/com_apple_MobileAsset_UAF_FM_Overrides: Operation not permitted"
+    ]
+  },
+  {
+    "path": "/Users/xuhao/Library/CloudStorage",
+    "partial": false,
+    "entries": [
+      {
+        "path": "/Users/xuhao/Library/CloudStorage",
+        "size_bytes": 0
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-10-09T16:04:41.652939+08:00",
+  "measurement": "du -x -k 分配块数乘1024；GB十进制。目录遍历可能有不同时间、硬链接去重和APFS克隆共享的差异，数据是占用画像，不等于可释放量；根目录与子目录存在包含关系，不可相加。",
+  "entries": [
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac/Data",
+      "size_bytes": 48418344960,
+      "size_gb": 48.418,
+      "category": "应用账号和文档数据",
+      "owner": "企业微信",
+      "recommendation": "优先使用企业微信自身存储管理，先审查大附件并将要保留的文件归档外盘；确认不再使用且备份完整后，再决定是否移走整个残留容器。不要直接删除 Profiles 或 Library。",
+      "verified_boundary": "外层扫描先超时，Data 单独 du 完整完成约48.42GB；随后 Documents 单独扫描43.39GB、Profiles39.38GB、cefcache3.96GB；不同遍历时间/硬链接统计口径，不能将后一次子目录相加修正先前root。/Applications未找到企业微信，Spotlight bundle lookup也无结果，仅说明疑似应用残留。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac/Data/Documents/Profiles",
+      "size_bytes": 39375372288,
+      "size_gb": 39.375,
+      "category": "应用账号数据，可能含聊天和附件",
+      "owner": "企业微信",
+      "recommendation": "使用应用内存储管理按附件筛选；需要保留的文件先导出/备份。此目录可能包含账号数据库和消息关联，不手删整个目录。",
+      "verified_boundary": "只读目录大小，未读取消息、文档或数据库内容。",
+      "tier": "yellow",
+      "is_candidate": true,
+      "included_in": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac/Data"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac/Data/Documents/cefcache",
+      "size_bytes": 3962662912,
+      "size_gb": 3.963,
+      "category": "嵌入式浏览器数据，边界未细分",
+      "owner": "企业微信",
+      "recommendation": "优先用应用内缓存清理。尚未细分其浏览器缓存与离线/登录状态，暂不作为可全量自动清理项。",
+      "verified_boundary": "只验证目录名和分配占用，未读其中内容。",
+      "tier": "yellow",
+      "is_candidate": true,
+      "included_in": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac/Data"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion",
+      "size_bytes": 7408103424,
+      "size_gb": 7.408,
+      "category": "应用分区和离线状态，疑似残留",
+      "owner": "Notion",
+      "recommendation": "确认是否仍使用 Notion 和离线页面，并确认云端同步完整；如已弃用，先归档再处理整目录。继续使用时，仅清普通 Cache 和 Code Cache，保留 Service Worker、IndexedDB 和 Local Storage。",
+      "verified_boundary": "/Applications和Spotlight notion.id查询均未找到应用；进程comm未找到Notion主程序。这不能证明系统绝无该App。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Cache",
+      "size_bytes": 691683328,
+      "size_gb": 0.692,
+      "category": "可再生普通缓存",
+      "owner": "Notion",
+      "recommendation": "确认Notion已退出后，将这一个明确缓存子目录纳入下一次清理预览。重开后可能重新生成。",
+      "verified_boundary": "明确Cache/Code Cache子路径；未对整个Partitions或Service Worker作缓存判断。",
+      "tier": "green",
+      "is_candidate": true,
+      "included_in": "/Users/xuhao/Library/Application Support/Notion"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Code Cache",
+      "size_bytes": 204791808,
+      "size_gb": 0.205,
+      "category": "可再生普通缓存",
+      "owner": "Notion",
+      "recommendation": "确认Notion已退出后，将这一个明确缓存子目录纳入下一次清理预览。重开后可能重新生成。",
+      "verified_boundary": "明确Cache/Code Cache子路径；未对整个Partitions或Service Worker作缓存判断。",
+      "tier": "green",
+      "is_candidate": true,
+      "included_in": "/Users/xuhao/Library/Application Support/Notion"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Service Worker",
+      "size_bytes": 6485741568,
+      "size_gb": 6.486,
+      "category": "Service Worker离线/网站状态",
+      "owner": "Notion",
+      "recommendation": "确认离线使用与同步状态后，通过Notion的重置/应用内设置处理，或确认弃用后再归档整个Notion目录。",
+      "verified_boundary": "目录大小已验证；没有读取页面内容或将其视为普通缓存。",
+      "tier": "yellow",
+      "is_candidate": true,
+      "included_in": "/Users/xuhao/Library/Application Support/Notion"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
+      "size_bytes": 4269944832,
+      "size_gb": 4.27,
+      "category": "可再下载本地AI模型",
+      "owner": "Google Chrome",
+      "recommendation": "在 chrome://on-device-internals 检查模型；确认不需要Chrome本地AI能力后，关闭Chrome，仅将该模型目录列入下一次清理。未来应用再次请求内置AI时可能重新下载。",
+      "verified_boundary": "该目录只有一个模型版本2025.8.8.1141；Chrome当前仍有主进程。模型生命周期已通过Chrome官方文档核验：https://developer.chrome.com/docs/ai/understand-built-in-model-management",
+      "tier": "green",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/Default",
+      "size_bytes": 803282944,
+      "size_gb": 0.803,
+      "category": "浏览器用户档案",
+      "owner": "Google Chrome",
+      "recommendation": "通过Chrome设置按缓存/站点分别处理，保留书签、密码、历史和登录状态。",
+      "verified_boundary": "只统计目录大小，不读取用户档案内容。",
+      "tier": "yellow",
+      "is_candidate": false
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational/update",
+      "size_bytes": 2161430528,
+      "size_gb": 2.161,
+      "category": "待更新应用包和下载状态",
+      "owner": "Lark",
+      "recommendation": "确认Lark更新完成并退出后，通过应用更新/缓存管理处理遗留下载。update.noindex内有完整LarkSuite.app 1.582GB，update_downloading约0.578GB，尚未证明它们已闲置。",
+      "verified_boundary": "已验证更新包结构，未检查更新是否进行，也未认为整个LarkInternational可删。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkInternational/aha",
+      "size_bytes": 1638559744,
+      "size_gb": 1.639,
+      "category": "应用用户数据",
+      "owner": "Lark",
+      "recommendation": "应用内存储管理审查附件和离线内容，保留账号状态。",
+      "verified_boundary": "大头在users；没有读取用户内容。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/LarkShell",
+      "size_bytes": 2272493568,
+      "size_gb": 2.272,
+      "category": "应用账号状态和用户数据",
+      "owner": "飞书/Lark",
+      "recommendation": "先确认对应版本是否还在使用，再通过应用内缓存管理处理。iron/users与aha占大头，不能把整个目录视为下载缓存。",
+      "verified_boundary": "由目录结构判断为应用用户数据；具体会话内容未读取。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat/Data",
+      "size_bytes": 4862001152,
+      "size_gb": 4.862,
+      "category": "聊天和小程序应用数据",
+      "owner": "微信",
+      "recommendation": "使用微信设置里的存储/缓存管理，先处理不需要的图片、视频和文件；保留需要的聊天/附件。小程序资源另占约1.61GB，可在应用内清理。",
+      "verified_boundary": "Documents约3.20GB；.wxapplet约1.61GB；Library普通Caches只有约14.66MB。未读取聊天。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/.kingsoft",
+      "size_bytes": 2798645248,
+      "size_gb": 2.799,
+      "category": "应用托管数据，具体类型未细分",
+      "owner": "WPS Office",
+      "recommendation": "先确认WPS是否仍使用，并通过应用内缓存、备份和下载管理逐项查看。不要仅凭.kingsoft名称全删；Documents为空也不能证明无用户数据。",
+      "verified_boundary": "只验证目录大小；/Applications与Spotlight bundle未找到WPS，残留判定仍需用户确认。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Code/User/workspaceStorage",
+      "size_bytes": 2171166720,
+      "size_gb": 2.171,
+      "category": "编辑器工作区状态和扩展数据",
+      "owner": "VS Code",
+      "recommendation": "保留正在使用项目对应的状态；仅在识别旧工作区并备份后清理其对应子目录。不能把整个User目录清空。",
+      "verified_boundary": "未读取workspace.json或数据库，只统计目录。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Cursor/User/globalStorage",
+      "size_bytes": 1440456704,
+      "size_gb": 1.44,
+      "category": "编辑器扩展和全局状态",
+      "owner": "Cursor",
+      "recommendation": "默认保留，可能含扩展状态及本地会话；通过Cursor自身管理或先备份再审查。",
+      "verified_boundary": "未读取会话或数据库内容。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Cache",
+      "size_bytes": 377532416,
+      "size_gb": 0.378,
+      "category": "可再生普通缓存",
+      "owner": "Figma",
+      "recommendation": "确认Figma退出后，仅将此明确缓存子路径列入下一次清理预览。保留Service Worker及用户档案。",
+      "verified_boundary": "v42占1.275GB，其中两个普通缓存合计1.137GB，均已du核验。",
+      "tier": "green",
+      "is_candidate": true,
+      "included_in": "/Users/xuhao/Library/Application Support/Figma"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Code Cache",
+      "size_bytes": 759271424,
+      "size_gb": 0.759,
+      "category": "可再生普通缓存",
+      "owner": "Figma",
+      "recommendation": "确认Figma退出后，仅将此明确缓存子路径列入下一次清理预览。保留Service Worker及用户档案。",
+      "verified_boundary": "v42占1.275GB，其中两个普通缓存合计1.137GB，均已du核验。",
+      "tier": "green",
+      "is_candidate": true,
+      "included_in": "/Users/xuhao/Library/Application Support/Figma"
+    },
+    {
+      "path": "/Users/xuhao/Library/Application Support/Figma",
+      "size_bytes": 1720844288,
+      "size_gb": 1.721,
+      "category": "应用档案和普通缓存",
+      "owner": "Figma",
+      "recommendation": "先清已确认的v42 Cache及Code Cache。旧profile版本合计约0.43GB，使用状态未核验，另行审查。",
+      "verified_boundary": "完整根目录du；子缓存包含于本条，不可重复相加。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/com.docker.docker",
+      "size_bytes": 1100926976,
+      "size_gb": 1.101,
+      "category": "Docker虚拟机/应用数据",
+      "owner": "Docker Desktop",
+      "recommendation": "先确认本地Docker是否仍需要；需要时用docker system df查看镜像/卷并按项目判断，保留容器卷中的持久数据。",
+      "verified_boundary": "仅确认容器大小；/Applications和Spotlight bundle未找到Docker Desktop，未运行Docker清理。",
+      "tier": "yellow",
+      "is_candidate": true
+    },
+    {
+      "path": "/System/Volumes/Data/Library/Developer/CoreSimulator",
+      "size_bytes": 16254300160,
+      "size_gb": 16.254,
+      "category": "系统开发资产",
+      "owner": "Xcode",
+      "recommendation": "通过Xcode设置中的Platforms/Components审查未用的runtime后选择卸载；本次之前清理明确保留模拟器资源。",
+      "verified_boundary": "du -x避免跨入挂载runtime卷；与developer agent报告可能同项，不能重复计算。",
+      "tier": "system",
+      "is_candidate": false
+    },
+    {
+      "path": "/System/Volumes/VM",
+      "size_bytes": 16106127360,
+      "size_gb": 16.106,
+      "category": "系统运行时虚拟内存交换卷",
+      "owner": "macOS",
+      "recommendation": "保存工作并正常重启后复测；可能回收部分交换空间，释放量取决于重启后内存压力，不保证全量16.1GB。不手删swap文件。",
+      "verified_boundary": "du -x完整完成；与/private/var/vm的sleepimage不同。",
+      "tier": "system",
+      "is_candidate": false
+    },
+    {
+      "path": "/private/var/vm",
+      "size_bytes": 2147483648,
+      "size_gb": 2.147,
+      "category": "系统sleepimage",
+      "owner": "macOS",
+      "recommendation": "保留，由系统管理。",
+      "verified_boundary": "此路径2.147GB不是当前swap总量；实际swap在/System/Volumes/VM。",
+      "tier": "system",
+      "is_candidate": false
+    },
+    {
+      "path": "/Applications/Xcode.app",
+      "size_bytes": 3960836096,
+      "size_gb": 3.961,
+      "category": "应用本体",
+      "owner": "Xcode",
+      "recommendation": "仍做iOS开发就保留；如明确不再需要，再用系统应用管理卸载。",
+      "verified_boundary": "初扫超时，单项90秒补扫完整完成；不含系统CoreSimulator runtime。",
+      "tier": "system",
+      "is_candidate": false
+    }
+  ],
+  "root_totals": [
+    {
+      "path": "/Users/xuhao/Library/Application Support",
+      "size_bytes": 38050390016,
+      "status": "partial",
+      "reason": "FileProvider/Purgatory一个目录Resource deadlock avoided"
+    },
+    {
+      "path": "/Users/xuhao/Library/Group Containers",
+      "size_bytes": 2670653440,
+      "status": "ok"
+    },
+    {
+      "path": "/Applications",
+      "size_bytes": 29709692928,
+      "status": "partial",
+      "reason": "按单App计量得到约29.71GB；SMPrinterClient一个bundle permission denied，Xcode补扫已完成。"
+    },
+    {
+      "path": "/System/Volumes/Data/Library",
+      "size_bytes": 21941604352,
+      "status": "partial",
+      "reason": "多个管理员/隐私保护子路径 denied；Developer已完整测18.287GB。"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers",
+      "size_bytes": null,
+      "status": "partial",
+      "reason": "根目录90秒超时，868子目录中首轮完成307；补扫第三方/UUID与重点Data，仍不宣称整根完整。"
+    }
+  ],
+  "snapshots": {
+    "root_snapshot_count": 1,
+    "root_snapshot_type": "com.apple.os.update",
+    "purgeable": false,
+    "time_machine_local_snapshots": 0,
+    "recommendation": "当前只有系统启动快照，不列为清理候选；没有Time Machine本地快照可回收。"
+  },
+  "gaps": [
+    {
+      "path": "/Users/xuhao/Library/Application Support/FileProvider/Purgatory",
+      "status": "partial",
+      "reason": "Resource deadlock avoided，未确认遗漏体量。"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers",
+      "status": "partial",
+      "reason": "根目录超时，未计量剩余Apple容器；重点企业微信/微信/WPS Data已经补扫。"
+    },
+    {
+      "path": "/Users/xuhao/Library/Containers/app.pastenow.PasteNow",
+      "status": "timeout",
+      "reason": "单项45秒超时，未确认体量。"
+    },
+    {
+      "path": "/System/Volumes/Data/Library",
+      "status": "partial",
+      "reason": "系统/管理员保护目录 Permission denied / Operation not permitted，未使用sudo。"
+    },
+    {
+      "path": "/Applications/SMPrinterClient.app/Contents/Resources/SAMKeychain.bundle",
+      "status": "denied",
+      "reason": "Permission denied，App计量是下限。"
+    }
+  ],
+  "source_files": [
+    "/tmp/storage-apps-initial-20261009.json",
+    "/tmp/storage-apps-deep-20261009.json",
+    "/tmp/storage-apps-detail-20261009.json",
+    "/tmp/storage-apps-final-detail-20261009.json",
+    "/tmp/storage-apps-chat-types-20261009.json",
+    "/tmp/storage-apps-inventory-20261009.json",
+    "/tmp/storage-apps-system-20261009.json"
+  ],
+  "safe_cache_paths": [
+    "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Cache",
+    "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Code Cache",
+    "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Cache",
+    "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Code Cache"
+  ],
+  "safe_cache_size_bytes": 2033278976,
+  "optional_model_path": "/Users/xuhao/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
+  "optional_model_size_bytes": 4269944832,
+  "sources": [
+    {
+      "title": "Chrome内置模型管理",
+      "url": "https://developer.chrome.com/docs/ai/understand-built-in-model-management",
+      "accessed_at": "2026-10-09"
+    }
+  ]
+}

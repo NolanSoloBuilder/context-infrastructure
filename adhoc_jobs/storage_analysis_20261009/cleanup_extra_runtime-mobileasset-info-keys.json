@@ -1,0 +1,21 @@
+{
+  "topkeys": [
+    "CFBundleIdentifier",
+    "CFBundleInfoDictionaryVersion",
+    "CFBundleName",
+    "CFBundleShortVersionString",
+    "CFBundleVersion",
+    "MobileAssetProperties",
+    "_DisableAFSCCompression"
+  ],
+  "attributeKeys": [
+    "Build",
+    "SimulatorVersion",
+    "__AssetDefaultGarbageCollectionBehavior"
+  ],
+  "identity": {
+    "Build": "22E238",
+    "SimulatorVersion": "18.4",
+    "__AssetDefaultGarbageCollectionBehavior": "NeverCollected"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "generated_at": "2026-10-09T18:15:14+08:00",
+  "status_label": "追加清理已执行；Cursor两项待解锁授权，iOS两项系统残留未清",
+  "disk": {
+    "total_bytes": 494384795648,
+    "free_before_bytes": 34809315328,
+    "free_after_bytes": 178167930880,
+    "free_increase_bytes": 143358615552,
+    "free_percent": 36.03831113909394,
+    "df_after": "Filesystem   1024-blocks      Used Available Capacity iused      ifree %iused  Mounted on\n/dev/disk3s5   482797652 264774856 173992120    61% 8040433 1739921200    0%   /System/Volumes/Data\n/dev/disk3s6   482797652  17827388 173992120    10%      17 1739921200    0%   /System/Volumes/VM\n",
+    "vm_used_after_bytes": 18255245312
+  },
+  "rows": [
+    {
+      "name": "企业微信全部本地残留",
+      "path": "Library/Containers + Group Containers + Preferences",
+      "status": "全部删除",
+      "action": "主容器及小程序、XPC、辅助组容器、偏好共10处均已回读不存在。",
+      "amount": "48.53 GB",
+      "note": "第一阶段48.53GB全部清除；普通微信按追加授权另行清除。",
+      "group": "done"
+    },
+    {
+      "name": "旧 npx 重复临时安装",
+      "path": "~/.npm/_npx",
+      "status": "全部旧数字目录已清",
+      "action": "561个旧数字目录均已删除；最终剩余数字目录0。",
+      "amount": "17.00 GB",
+      "note": "保留13个原哈希安装目录，3个运行中的MCP进程和路径都在。体量来自清理前完整扫描。",
+      "group": "done"
+    },
+    {
+      "name": "全局 Node / npm / npx",
+      "path": "/opt/homebrew",
+      "status": "版本错配已修复",
+      "action": "Node25.2.1保持；npm/npx6.14.18恢复为随包11.6.2。",
+      "amount": "35个全局包保留",
+      "note": "全局包名称、版本、路径一致；npmrc未变；npx无安装调用Prettier通过。",
+      "group": "done"
+    },
+    {
+      "name": "pnpm共享store",
+      "path": "/Users/xuhao/Library/pnpm/store",
+      "status": "原生清理完成",
+      "action": "pnpm store prune (v3), then installed pnpm12 store prune (v11)",
+      "amount": "9.40 GB",
+      "note": "保留global、.tools及剩余store0.592GB。",
+      "group": "done"
+    },
+    {
+      "name": "Bun包缓存",
+      "path": "/Users/xuhao/.bun/install/cache",
+      "status": "原生清理完成",
+      "action": "bun pm --global cache rm",
+      "amount": "2.02 GB",
+      "note": "保留全局工具与bin。",
+      "group": "done"
+    },
+    {
+      "name": "uv下载缓存",
+      "path": "/Users/xuhao/.cache/uv",
+      "status": "原生清理完成",
+      "action": "uv cache clean --cache-dir ~/.cache/uv --no-config",
+      "amount": "1.94 GB",
+      "note": "保留Python解释器与项目虚拟环境。",
+      "group": "done"
+    },
+    {
+      "name": "NVM旧 Node 补丁版本",
+      "path": "~/.nvm/versions/node",
+      "status": "卸载2个，保留14个",
+      "action": "原生卸载18.20.5、18.20.7。",
+      "amount": "1.07 GB",
+      "note": "aurora精确18.20.1、当前22.22.0及独立全局CLI依赖的版本均保留。",
+      "group": "done"
+    },
+    {
+      "name": "Notion全部本地数据",
+      "path": "Library/Application Support/Notion",
+      "status": "本地数据已清空",
+      "action": "第一阶段缓存已清；追加删除数据库、账号与扩展本地状态，明确归属路径均不存在。",
+      "amount": "7.39 GB + 19.93 MB",
+      "note": "追加明确弃用授权；应用保持关闭。",
+      "group": "done"
+    },
+    {
+      "name": "Figma缓存",
+      "path": "Library/Application Support/Figma",
+      "status": "缓存清理完成",
+      "action": "清v42 Cache、Code Cache等明确可重建缓存。",
+      "amount": "1.24 GB",
+      "note": "DesktopProfile、IndexedDB和用户状态保留。",
+      "group": "done"
+    },
+    {
+      "name": "Chrome本地生成式AI与历史AI搜索",
+      "path": "Library/Application Support/Google/Chrome",
+      "status": "模型已清、功能已关闭",
+      "action": "基础生成式AI设置false、历史AI搜索设置2；正常退出编辑后恢复Chrome并读回。",
+      "amount": "4.27 GB + 163.61 MB",
+      "note": "书签/密码/历史/扩展保留；反钓鱼模型保留。37.58MB共享语义模型仍可能被其它预测功能重下。",
+      "group": "done"
+    },
+    {
+      "name": "WPS旧更新载荷",
+      "path": ".../.kingsoft/WpsUpdate/Bundle",
+      "status": "旧更新文件已清",
+      "action": "核实156天前zip及解包payload，无进程/句柄。",
+      "amount": "2.78 GB",
+      "note": "WPS账号、备份、OfficeSpace和用户文档保留。",
+      "group": "done"
+    },
+    {
+      "name": "Lark及其他应用缓存、Codex闲置安装暂存",
+      "path": "Library缓存 + ~/.cache/codex-runtimes",
+      "status": "闲置缓存已清",
+      "action": "逐目录按进程和句柄检查，应用/暂存清理共91处（另8处项目依赖）。",
+      "amount": "应用/暂存合计19.62 GB",
+      "note": "Code/Cursor工作区与Agent状态、Codex主runtime及配置引用的完整marketplace源码保留。此行合计包含上方Notion/Figma/Chrome/WPS，不可重复相加。",
+      "group": "done"
+    },
+    {
+      "name": "公共闲置项目依赖",
+      "path": "craft-agents-oss、LibreChat、Mindspace及4个metro worktree",
+      "status": "8处已清",
+      "action": "只删除确认闲置且有公开manifest/lock的node_modules。",
+      "amount": "6.45 GB",
+      "note": "源码、Git、锁文件、env、数据库、outputs和worktree源码未变；私有registry及活跃BeamJoin/aurora依赖保留。与store可能共享块。",
+      "group": "done"
+    },
+    {
+      "name": "CoreSimulator共享缓存（第一阶段）",
+      "path": "/Library/Developer/CoreSimulator",
+      "status": "共享缓存已清",
+      "action": "第一阶段dyld_shared_cache remove --all，后续运行时与设备另列。",
+      "amount": "7.86 GB",
+      "note": "追加处理后仍有系统父镜像及本次Inbox暂存，见下方未完成项。",
+      "group": "done"
+    },
+    {
+      "name": "Android SDK",
+      "path": "~/Library/Android/sdk",
+      "status": "其余SDK已删，adb保留",
+      "action": "删除七类非ADB包；SDK剩34.06MB。",
+      "amount": "追加减少6.89 GB",
+      "note": "整个platform-tools、.android密钥、原ADB进程与路径保持，版本36.0.0前后相同；以后编译和模拟器需重新安装SDK。",
+      "group": "done"
+    },
+    {
+      "name": "LibreChat Colima虚拟盘",
+      "path": "~/.colima",
+      "status": "虚拟机及容器数据已删除",
+      "action": "colima delete --profile librechat --data --force；profile/VM不存在，容器磁盘目录为空。",
+      "amount": "追加减少10.59 GB",
+      "note": "源码/Git、全局CLI及default/desktop-linux contexts保留。",
+      "group": "done"
+    },
+    {
+      "name": "Homebrew旧版本",
+      "path": "/opt/homebrew",
+      "status": "旧版本清理完成",
+      "action": "原生cleanup删除旧Mole1.47.1和portable-ruby。",
+      "amount": "47.93 MB",
+      "note": "当前Mole1.58.0及全部当前工具/后台服务保留。",
+      "group": "done"
+    },
+    {
+      "name": "Codex会话与索引",
+      "path": "~/.codex",
+      "status": "原生删除125条，0失败",
+      "action": "获批142条后按用户更正保留第138项「部署」；有效141条，实际删125条。",
+      "amount": "440.92 MB",
+      "note": "16条因级联未批准子树/共享rollout引用保留；部署及3子Agent、原保留105条、未登记rollout均在；SQLite quick_check=ok。",
+      "group": "done"
+    },
+    {
+      "name": "普通微信聊天与小程序",
+      "path": "Library/Containers/com.tencent.xinWeChat",
+      "status": "全部本地数据已删",
+      "action": "聊天/小程序主容器、扩展/group、缓存和明确偏好均不存在，应用保持关闭。",
+      "amount": "追加减少6.83 GB",
+      "note": "追加明确弃用授权覆盖第一阶段的保留决定；没有重新生成本地数据。",
+      "group": "done"
+    },
+    {
+      "name": "保留的其他应用持久状态",
+      "path": "Code/User、Figma档案及其他应用文档",
+      "status": "持久状态保留",
+      "action": "保留VSCode工作区、Figma用户状态、WPS文档与其他未弃用应用账号。",
+      "amount": "按用途保留",
+      "note": "Notion、微信、Cursor按追加弃用范围处理，不再列作保留。",
+      "group": "kept"
+    },
+    {
+      "name": "系统VM / swap",
+      "path": "/System/Volumes/VM",
+      "status": "需要正常重启",
+      "action": "只读核对，未手删swap/sleepimage，未自动重启当前工作。",
+      "amount": "交换卷快照约18.26 GB",
+      "note": "保存工作后正常重启再测；不手删swap、不自动重启。数值随当前内存压力变化。",
+      "group": "pending"
+    },
+    {
+      "name": "只读扫描缺口",
+      "path": "FileProvider、受保护系统目录、部分超时路径",
+      "status": "未纳入盲删",
+      "action": "没有把不可读路径或扫描超时当作空目录或垃圾。",
+      "amount": "未量明",
+      "note": "完整缺口保留在清理前分析快照；已核实候选均有执行结果。",
+      "group": "kept"
+    },
+    {
+      "name": "iOS模拟设备与runtime登记",
+      "path": "CoreSimulator/Devices + simctl",
+      "status": "4设备已删；物理运行时未全清",
+      "action": "逐ID删除4设备和原2runtime；最终登记/设备/挂载为空，后续ghost亦清除。",
+      "amount": "设备减少3.80 GB",
+      "note": "Xcode27、CLT、iPhoneOS27编译SDK和真机支持保留。父资产可能在服务启动时重新被发现。",
+      "group": "done"
+    },
+    {
+      "name": "iOS18.4系统父镜像",
+      "path": "/System/Library/AssetsV2/.../6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset",
+      "status": "系统权限阻碍，未清",
+      "action": "Xcode已安装列表为空，系统储存空间删除按钮禁用，MobileAsset返回MAQueryNotEntitled。",
+      "amount": "仍有9.12 GB",
+      "note": "未计回收；当前没有已验证精确清理入口，不修改SIP/索引/保护标志。",
+      "group": "pending"
+    },
+    {
+      "name": "本次原生导入产生的Inbox暂存",
+      "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+      "status": "本次副产物未清",
+      "action": "完整du发现先前漏查；精确inode/size/hash确认。管理员删除EPERM，原生move/扫描/服务GC均未回收。",
+      "amount": "仍有8.83 GB",
+      "note": "本次失败尝试新增文件，不属于清理前垃圾，不计回收；已停止扩大尝试并纠正旧19.079GB减少量。",
+      "group": "pending"
+    },
+    {
+      "name": "Cursor完整卸载",
+      "path": "Cursor.app、~/.cursor、AppSupport/Cursor、cursor-agent及专属CLI",
+      "status": "主要数据已删；2项待授权",
+      "action": "应用/扩展/会话/Agent runtime/缓存/偏好与专属钥匙串项已清；剩root软链及1.27MB旧设置备份。",
+      "amount": "目录实际减少5.40 GB",
+      "note": "Mac锁定阻碍管理员入口。两份真实源码29.32MB已迁出Documents/Other/cursor-retained-worktrees-20261009，未计释放。",
+      "group": "pending"
+    }
+  ],
+  "notes": [
+    "第一阶段基线34.81GB与结果148.93GB已冻结在cleanup_results_phase1.json；追加阶段起点150.34GB，同卷df前后净增加单独展示。目录分配块可能共享，不能直接相加归因。",
+    "追加按用户明确弃用范围处理Android非ADB包、模拟设备、Notion/微信数据、LibreChat Colima及Chrome本地AI；后来另授权完整卸载Cursor。",
+    "系统交换卷及并行应用写入会改变可用空间；报告采用当前同卷df，包含自然变化。",
+    "iOS登记为空不代表物理数据全部消失：9.12GB系统父资产仍在；本次尝试新增8.83GB受保护暂存仍在。初次漏查Inbox导致19.079GB减少量高估，已纠正为当前10.254GB净目录减少。",
+    "Cursor剩root专属软链和1.27MB备份需要管理员处理；Mac锁定，等待用户解锁。两份真实源码原样迁出保留，原.git指针清理前已损坏，未伪造Git修复。",
+    "Chrome本地生成式AI和历史AI搜索已关闭，现有对应权重已删；安全模型保留，共享语义权重可能由其他预测功能重下。",
+    "Codex前轮按名单原生删除125条、16条关联保护，第138「部署」与子树保留；本阶段未继续删除会话。",
+    "认证文件、Mole whitelist、ADB密钥和项目源码保持。缓存可能随使用再生；保存工作后正常重启可自行回收swap，需另行复测，未自动重启。"
+  ],
+  "source_files": [
+    "cleanup_baseline.json",
+    "cleanup_wework.json",
+    "cleanup_npx.json",
+    "cleanup_system.json",
+    "cleanup_developer.json",
+    "cleanup_apps.json",
+    "cleanup_projects.json",
+    "cleanup_codex_sessions.json",
+    "cleanup_preserve_verification.json",
+    "codex_native_delete_readiness.json",
+    "codex_session_candidates.json",
+    "codex_deletion_scope.json",
+    "codex_cleanup_candidates.html",
+    "cleanup_vm_final.json",
+    "cleanup_results_phase1.json",
+    "report_phase1.html",
+    "cleanup_extra_baseline.json",
+    "cleanup_extra_apps.json",
+    "cleanup_extra_colima.json",
+    "cleanup_extra_runtime.json",
+    "cleanup_extra_runtime-inbox-final-qa.json",
+    "cleanup_extra_cursor.json"
+  ],
+  "native_sources": [
+    "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/app-server/src/request_processors/thread_delete.rs",
+    "https://github.com/openai/codex/blob/a956835d020762cb2b570053af06f643a11c0ecc/codex-rs/thread-store/src/local/delete_thread.rs",
+    "https://developer.android.com/tools/releases/platform-tools",
+    "https://developer.apple.com/documentation/xcode/downloading-and-installing-additional-xcode-components"
+  ],
+  "additional_phase": {
+    "free_before_bytes": 150335762432,
+    "free_increase_bytes": 27832168448,
+    "started_at": "2026-10-09T17:18:28.229717+08:00"
+  }
+}

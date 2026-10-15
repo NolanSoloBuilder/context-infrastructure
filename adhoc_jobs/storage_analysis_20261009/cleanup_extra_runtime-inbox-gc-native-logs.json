@@ -1,0 +1,10 @@
+{
+  "exit": 0,
+  "stderr": "",
+  "messages": [
+    {
+      "timestamp": "2026-10-09 18:00:41.750139+0800",
+      "message": "Found an orphan image not in our database! SUS (\u2256_\u2256 )\n/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg"
+    }
+  ]
+}

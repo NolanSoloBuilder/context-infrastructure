@@ -1,0 +1,145 @@
+{
+  "loadedHead": "66ad4b243ba24262ec796524ead7cc1450468571",
+  "proof": "Real GCS cold read then token-authenticated warm source reads; same frozen document and no model/provider invocation. Not a report DAO/browser acceptance.",
+  "observations": [
+    {
+      "case": "cold_metadata",
+      "status": 200,
+      "elapsedSeconds": 24.254,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:135",
+      "quote": "3,584",
+      "pageRendition": {
+        "schemaVersion": "research-page-rendition/v1",
+        "surface": "retained_provider_page",
+        "documentVersionId": "dv-6942ca39c5375a6a67ee98e72832eaa4b858e52349c127a8b8faa137c054fbff",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "providerSha256": "8c28518ca66a2b200beada79950e842e787d9d1b35c2ab2d540cef97c9fd5bdf",
+        "fieldKind": "line",
+        "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:135",
+        "pageNumber": 5,
+        "mimeType": "image/png",
+        "byteSize": 395719,
+        "sha256": "1a6c2fc25278d754d048c9055a892155a9519b0da408b0ed97e6f9ae79ba1bf6",
+        "width": 2666,
+        "height": 1500,
+        "locationPrecision": "field",
+        "bboxNormalized": {
+          "x": 0.83533382,
+          "y": 0.84600002,
+          "width": 0.028507119999999997,
+          "height": 0.015999970000000086
+        }
+      },
+      "originalGeometry": {
+        "schemaVersion": "research-pdf-geometry/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "pdfViewBox": [
+          0.0,
+          0.0,
+          1583.04,
+          890.52
+        ],
+        "pdfRotation": 0,
+        "pdfUserUnit": 1.0,
+        "locationPrecision": "page",
+        "bboxNormalized": null,
+        "reason": "provider_coordinate_frame_unqualified"
+      }
+    },
+    {
+      "case": "warm_image",
+      "status": 200,
+      "elapsedSeconds": 0.809,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:135",
+      "quote": "3,584",
+      "pageRendition": {
+        "schemaVersion": "research-page-rendition/v1",
+        "surface": "retained_provider_page",
+        "documentVersionId": "dv-6942ca39c5375a6a67ee98e72832eaa4b858e52349c127a8b8faa137c054fbff",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "providerSha256": "8c28518ca66a2b200beada79950e842e787d9d1b35c2ab2d540cef97c9fd5bdf",
+        "fieldKind": "line",
+        "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:135",
+        "pageNumber": 5,
+        "mimeType": "image/png",
+        "byteSize": 395719,
+        "sha256": "1a6c2fc25278d754d048c9055a892155a9519b0da408b0ed97e6f9ae79ba1bf6",
+        "width": 2666,
+        "height": 1500,
+        "locationPrecision": "field",
+        "bboxNormalized": {
+          "x": 0.83533382,
+          "y": 0.84600002,
+          "width": 0.028507119999999997,
+          "height": 0.015999970000000086
+        }
+      },
+      "originalGeometry": {
+        "schemaVersion": "research-pdf-geometry/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "pdfViewBox": [
+          0.0,
+          0.0,
+          1583.04,
+          890.52
+        ],
+        "pdfRotation": 0,
+        "pdfUserUnit": 1.0,
+        "locationPrecision": "page",
+        "bboxNormalized": null,
+        "reason": "provider_coordinate_frame_unqualified"
+      },
+      "imageHashMatches": true,
+      "imageBytes": 395719
+    },
+    {
+      "case": "warm_other_field",
+      "status": 200,
+      "elapsedSeconds": 0.717,
+      "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:121",
+      "quote": "14,923",
+      "pageRendition": {
+        "schemaVersion": "research-page-rendition/v1",
+        "surface": "retained_provider_page",
+        "documentVersionId": "dv-6942ca39c5375a6a67ee98e72832eaa4b858e52349c127a8b8faa137c054fbff",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "providerSha256": "8c28518ca66a2b200beada79950e842e787d9d1b35c2ab2d540cef97c9fd5bdf",
+        "fieldKind": "line",
+        "fieldId": "doc_file_e9aca68920734fabbc3a27b72d27cfa3:line:5:121",
+        "pageNumber": 5,
+        "mimeType": "image/png",
+        "byteSize": 395719,
+        "sha256": "1a6c2fc25278d754d048c9055a892155a9519b0da408b0ed97e6f9ae79ba1bf6",
+        "width": 2666,
+        "height": 1500,
+        "locationPrecision": "field",
+        "bboxNormalized": {
+          "x": 0.83008254,
+          "y": 0.78799999,
+          "width": 0.033383309999999944,
+          "height": 0.015333350000000023
+        }
+      },
+      "originalGeometry": {
+        "schemaVersion": "research-pdf-geometry/v1",
+        "rawSha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+        "pageNumber": 5,
+        "pdfViewBox": [
+          0.0,
+          0.0,
+          1583.04,
+          890.52
+        ],
+        "pdfRotation": 0,
+        "pdfUserUnit": 1.0,
+        "locationPrecision": "page",
+        "bboxNormalized": null,
+        "reason": "provider_coordinate_frame_unqualified"
+      },
+      "imageHashMatches": true,
+      "imageBytes": 395719
+    }
+  ]
+}

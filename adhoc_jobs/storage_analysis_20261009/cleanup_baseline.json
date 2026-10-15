@@ -1,0 +1,37 @@
+{
+  "time": 1791534323.777429,
+  "df": "Filesystem   1024-blocks      Used Available Capacity  iused     ifree %iused  Mounted on\n/dev/disk3s5   482797652 403723296  33993472    93% 12052583 339934720    3%   /System/Volumes/Data\n",
+  "preserve": {
+    "/Users/xuhao/.codex/auth.json": {
+      "inode": 354230337,
+      "size": 4217,
+      "sha256": "70ffb9d3576d7c9661cbbd0aaa18f242eb0b2dd4d24414e577720918119f2f8d"
+    },
+    "/Users/xuhao/.config/mole/whitelist": {
+      "inode": 317955624,
+      "size": 1352,
+      "sha256": "6300441b85b407ce6dea326df35317b153c85c3fc89eb4ecfefd9697c37f5c31"
+    },
+    "/Users/xuhao/.codex/sessions": {
+      "inode": 234264620,
+      "size": 96
+    },
+    "/Users/xuhao/.codex/archived_sessions": {
+      "inode": 257658127,
+      "size": 8320
+    },
+    "/Users/xuhao/.codex/state_5.sqlite": {
+      "inode": 256400696,
+      "size": 4538368
+    },
+    "/Users/xuhao/Library/Containers/com.tencent.xinWeChat/Data": {
+      "inode": 1646585,
+      "size": 416
+    },
+    "/Users/xuhao/Library/Application Support/Google/Chrome/Default": {
+      "inode": 308942785,
+      "size": 3648
+    }
+  },
+  "free_before_bytes": 34809315328
+}

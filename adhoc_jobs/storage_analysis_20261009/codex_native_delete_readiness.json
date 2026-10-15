@@ -1,0 +1,23 @@
+{
+  "transport": "independent_native_stdio_app_server",
+  "control_socket_available": false,
+  "methods_sent": [
+    "initialize",
+    "initialized",
+    "thread/list"
+  ],
+  "initialize_ok": true,
+  "server_metadata": {
+    "codexHome": "/Users/xuhao/.codex",
+    "platformOs": "macos",
+    "platformFamily": "unix",
+    "userAgent": "storage-readonly-audit/0.160.0 (Mac OS 27.0.0; arm64) dumb (storage-readonly-audit; 1.0)"
+  },
+  "read_only_thread_list_ok": true,
+  "sample_thread_ids": [
+    "01a074ab-eab9-7321-a3ce-0a4edda0aac0"
+  ],
+  "list_result_count": 1,
+  "probe_process_exit": 0,
+  "delete_request_sent": false
+}

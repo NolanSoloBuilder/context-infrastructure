@@ -1,0 +1,55 @@
+{
+  "df": "Filesystem   1024-blocks      Used Available Capacity iused      ifree %iused  Mounted on\n/dev/disk3s5   482797652 296148912 146812268    67% 8535326 1468122680    1%   /System/Volumes/Data\n",
+  "preserve": {
+    "/Users/xuhao/.codex/auth.json": {
+      "inode": 354230337,
+      "size": 4217,
+      "sha256": "70ffb9d3576d7c9661cbbd0aaa18f242eb0b2dd4d24414e577720918119f2f8d"
+    },
+    "/Users/xuhao/.config/mole/whitelist": {
+      "inode": 317955624,
+      "size": 1352,
+      "sha256": "6300441b85b407ce6dea326df35317b153c85c3fc89eb4ecfefd9697c37f5c31"
+    },
+    "/Users/xuhao/Library/Application Support/Google/Chrome/Default": {
+      "inode": 308942785,
+      "size": 3648
+    },
+    "/Users/xuhao/.android/adbkey": {
+      "inode": 283335367,
+      "size": 1704,
+      "sha256": "15104b6085d170cdb97dab9d5114502dcb13d5c57c39349377e8d70fdb4fe650"
+    },
+    "/Users/xuhao/.android/adbkey.pub": {
+      "inode": 283335368,
+      "size": 717,
+      "sha256": "26f8e7cc5ddb10d9960d58a208a3a76484378147b83e78509b69cd9f83b091fa"
+    },
+    "/Users/xuhao/Documents/Other/LibreChat/.git": {
+      "inode": 346288565,
+      "size": 448
+    }
+  },
+  "paths": [
+    {
+      "path": "/Users/xuhao/.colima",
+      "inode": 346305051,
+      "uid": 501,
+      "is_link": false
+    },
+    {
+      "path": "/Users/xuhao/.colima/librechat",
+      "inode": 346305052,
+      "uid": 501,
+      "is_link": false
+    },
+    {
+      "path": "/Users/xuhao/.colima/_lima/colima-librechat",
+      "inode": 346306620,
+      "uid": 501,
+      "is_link": false
+    }
+  ],
+  "time": "2026-10-09T17:18:28.229717+08:00",
+  "free_before_bytes": 150335762432
+}

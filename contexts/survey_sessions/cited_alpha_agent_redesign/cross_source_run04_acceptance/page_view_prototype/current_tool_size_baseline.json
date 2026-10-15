@@ -1,0 +1,222 @@
+{
+  "4": {
+    "counts": {
+      "lines": 144,
+      "table_cells": 0,
+      "spans": 139,
+      "tables": 0,
+      "blocks": 139
+    },
+    "currentFieldsBytes": 225336,
+    "fieldBytesMedian": 630,
+    "currentAllCalls": 15,
+    "compactFullLinesBytes": 14393,
+    "lineTextChars": 1253,
+    "first20Texts": [
+      "4",
+      "FINANCIAL SUMMARY",
+      "(Unaudited)",
+      "($ in millions, except percentages and per share data)",
+      "Total automotive revenues",
+      "Energy generation and storage revenue",
+      "Services and other revenue",
+      "Total revenues",
+      "Total gross profit",
+      "Total GAAP gross margin",
+      "Operating expenses",
+      "Income from operations",
+      "Operating margin",
+      "Adjusted EBITDA",
+      "Q4-2023",
+      "Q1-2024",
+      "Q2-2024",
+      "Q3-2024",
+      "Q4-2024",
+      "YoY"
+    ],
+    "last5Texts": [
+      "30,720",
+      "33,648",
+      "36,563",
+      "26%",
+      "TESLA"
+    ],
+    "tables": []
+  },
+  "5": {
+    "counts": {
+      "lines": 144,
+      "table_cells": 0,
+      "spans": 137,
+      "tables": 0,
+      "blocks": 137
+    },
+    "currentFieldsBytes": 223426,
+    "fieldBytesMedian": 623,
+    "currentAllCalls": 15,
+    "compactFullLinesBytes": 14401,
+    "lineTextChars": 1261,
+    "first20Texts": [
+      "5",
+      "FINANCIAL SUMMARY",
+      "(Unaudited)",
+      "($ in millions, except percentages and per share data)",
+      "Total automotive revenues",
+      "Energy generation and storage revenue",
+      "Services and other revenue",
+      "Total revenues",
+      "Total gross profit",
+      "Total GAAP gross margin",
+      "Operating expenses",
+      "Income from operations",
+      "Operating margin",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "YoY",
+      "27,236"
+    ],
+    "last5Texts": [
+      "22,185",
+      "29,094",
+      "36,563",
+      "26%",
+      "TESLA"
+    ],
+    "tables": []
+  },
+  "6": {
+    "counts": {
+      "lines": 20,
+      "table_cells": 0,
+      "spans": 19,
+      "tables": 0,
+      "blocks": 14
+    },
+    "currentFieldsBytes": 33103,
+    "fieldBytesMedian": 734,
+    "currentAllCalls": 2,
+    "compactFullLinesBytes": 3029,
+    "lineTextChars": 1217,
+    "first20Texts": [
+      "FINANCIAL SUMMARY",
+      "Revenue",
+      "Profitability",
+      "Cash",
+      "Total revenue increased 2% YoY in Q4 to $25.7B. YoY, revenue was impacted by the following items:",
+      "+ growth in Energy Generation and Storage and Services and Other",
+      "+ growth in vehicle deliveries",
+      "+ higher regulatory credit revenue",
+      "- reduced S3XY vehicle average selling price (ASP) (excl. FX impact¹), due to pricing, attractive financing options and mix",
+      "Our operating income decreased 23% YoY to $1.6B in Q4, resulting in a 6.2% operating margin. YoY, operating income was primarily",
+      "impacted by the following items:",
+      "- reduced S3XY vehicle ASP",
+      "increase in operating expenses driven by Al and other R&D projects",
+      "+ growth in Energy Generation and Storage and Services and Other gross profit",
+      "+ lower cost per vehicle, including lower raw material costs partially offset by lower fixed cost absorption from production decrease YoY",
+      "+ higher regulatory credit revenue",
+      "Quarter-end cash, cash equivalents and investments in Q4 was $36.6B. The sequential increase of $2.9B was primarily the result of positive",
+      "free cash flow of $2.0B.",
+      "6 (1) Impact is calculated on a constant currency basis. Actuals are compared against current results converted into USD using average exchange rates from Q4'23.",
+      "TESLA"
+    ],
+    "last5Texts": [
+      "Quarter-end cash, cash equivalents and investments in Q4 was $36.6B.",
+      "The sequential increase of $2.9B was primarily the result of positive\nfree cash flow of $2.0B.",
+      "6 (1) Impact is calculated on a constant currency basis.",
+      "Actuals are compared against current results converted into USD using average exchange rates from Q4'23.",
+      "TESLA"
+    ],
+    "tables": []
+  },
+  "7": {
+    "counts": {
+      "lines": 109,
+      "table_cells": 0,
+      "spans": 107,
+      "tables": 0,
+      "blocks": 107
+    },
+    "currentFieldsBytes": 172702,
+    "fieldBytesMedian": 689.0,
+    "currentAllCalls": 11,
+    "compactFullLinesBytes": 10968,
+    "lineTextChars": 1048,
+    "first20Texts": [
+      "7",
+      "OPERATIONAL SUMMARY",
+      "(Unaudited)",
+      "Model 3/Y production",
+      "Other models production",
+      "Total production",
+      "Model 3/Y deliveries",
+      "Other models deliveries",
+      "Q4-2023",
+      "Q1-2024",
+      "Q2-2024",
+      "Q3-2024",
+      "Q4-2024",
+      "YoY",
+      "476,777",
+      "412,376",
+      "386,576",
+      "443,668",
+      "436,718",
+      "-8%"
+    ],
+    "last5Texts": [
+      "62,421",
+      "65,495",
+      "19%",
+      "(1) Days of supply is calculated by dividing new vehicle ending inventory by the relevant quarter's deliveries and using 75 trading days (aligned with Automotive News definition).",
+      "TESLA"
+    ],
+    "tables": []
+  },
+  "8": {
+    "counts": {
+      "lines": 109,
+      "table_cells": 0,
+      "spans": 103,
+      "tables": 0,
+      "blocks": 103
+    },
+    "currentFieldsBytes": 168593,
+    "fieldBytesMedian": 613.0,
+    "currentAllCalls": 11,
+    "compactFullLinesBytes": 10970,
+    "lineTextChars": 1050,
+    "first20Texts": [
+      "OPERATIONAL SUMMARY",
+      "(Unaudited)",
+      "Model 3/Y production",
+      "Other models production",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "YoY",
+      "454,932",
+      "906,032",
+      "1,298,434",
+      "54,805",
+      "24,390",
+      "71,177",
+      "1,775,159",
+      "70,826",
+      "1,679,338",
+      "-5%"
+    ],
+    "last5Texts": [
+      "65,495",
+      "19%",
+      "8",
+      "(1) Days of supply is calculated by dividing new vehicle ending inventory by the relevant year's deliveries and using 300 trading days (aligned with Automotive News definition).",
+      "TESLA"
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "generated_at": "2026-10-09T18:04:36.307954+08:00",
+  "status": "partial_complete_android_and_devices_and_original_images_removed_two_runtime_residuals_retained",
+  "items": [
+    {
+      "name": "Android SDK保留adb",
+      "before_size_bytes": 6921187328,
+      "after_size_bytes": 34062336,
+      "size_reduce_bytes": 6887124992,
+      "action": "按UID/真实路径/无symlink/package.xml白名单定向删除7类已授权SDK包",
+      "status": "completed",
+      "removed_packages": [
+        {
+          "path": "/Users/xuhao/Library/Android/sdk/platforms",
+          "operation": "remove_explicit_authorized_sdk_package_tree",
+          "before_size_bytes": 140648448,
+          "after_exists": false,
+          "package_ids": [
+            "platforms;android-36"
+          ],
+          "elapsed_seconds": 6.09,
+          "status": "removed"
+        },
+        {
+          "path": "/Users/xuhao/Library/Android/sdk/build-tools",
+          "operation": "remove_explicit_authorized_sdk_package_tree",
+          "before_size_bytes": 392540160,
+          "after_exists": false,
+          "package_ids": [
+            "build-tools;36.0.0",
+            "build-tools;35.0.0"
+          ],
+          "elapsed_seconds": 0.17,
+          "status": "removed"
+        },
+        {
+          "path": "/Users/xuhao/Library/Android/sdk/ndk",
+          "operation": "remove_explicit_authorized_sdk_package_tree",
+          "before_size_bytes": 2585587712,
+          "after_exists": false,
+          "package_ids": [
+            "ndk;27.1.12297006"
+          ],
+          "elapsed_seconds": 13.12,
+          "status": "removed"
+        },
+        {
+          "path": "/Users/xuhao/Library/Android/sdk/emulator",
+          "operation": "remove_explicit_authorized_sdk_package_tree",
+          "before_size_bytes": 1013620736,
+          "after_exists": false,
+          "package_ids": [
+            "emulator"
+          ],
+          "elapsed_seconds": 0.21,
+          "status": "removed"
+        },
+        {
+          "path": "/Users/xuhao/Library/Android/sdk/system-images",
+          "operation": "remove_explicit_authorized_sdk_package_tree",
+          "before_size_bytes": 2405351424,
+          "after_exists": false,
+          "package_ids": [
+            "system-images;android-36;google_apis_playstore;arm64-v8a"
+          ],
+          "elapsed_seconds": 0.08,
+          "status": "removed"
+        },
+        {
+          "path": "/Users/xuhao/Library/Android/sdk/sources",
+          "operation": "remove_explicit_authorized_sdk_package_tree",
+          "before_size_bytes": 250511360,
+          "after_exists": false,
+          "package_ids": [
+            "sources;android-36"
+          ],
+          "elapsed_seconds": 6.09,
+          "status": "removed"
+        },
+        {
+          "path": "/Users/xuhao/Library/Android/sdk/cmake",
+          "operation": "remove_explicit_authorized_sdk_package_tree",
+          "before_size_bytes": 98865152,
+          "after_exists": false,
+          "package_ids": [
+            "cmake;3.22.1"
+          ],
+          "elapsed_seconds": 1.04,
+          "status": "removed"
+        }
+      ],
+      "verification": {
+        "adb_command_v_before": null,
+        "adb_command_v_after": null,
+        "explicit_adb_path": "/Users/xuhao/Library/Android/sdk/platform-tools/adb",
+        "adb_realpath_before": "/Users/xuhao/Library/Android/sdk/platform-tools/adb",
+        "adb_realpath_after": "/Users/xuhao/Library/Android/sdk/platform-tools/adb",
+        "adb_version_before": "Android Debug Bridge version 1.0.41\nVersion 36.0.0-13206524\nInstalled as /Users/xuhao/Library/Android/sdk/platform-tools/adb\nRunning on Darwin 27.0.0 (arm64)\n",
+        "adb_version_after": "Android Debug Bridge version 1.0.41\nVersion 36.0.0-13206524\nInstalled as /Users/xuhao/Library/Android/sdk/platform-tools/adb\nRunning on Darwin 27.0.0 (arm64)\n",
+        "version_equal": true,
+        "adb_dylibs_equal": true,
+        "dynamic_libraries_only_macos_system": true,
+        "platform_tools_inode_before": 184508082,
+        "platform_tools_inode_after": 184508082,
+        "platform_tools_inode_unchanged": true,
+        "platform_tools_size_bytes": 34050048,
+        "existing_adb_pid": 72995,
+        "existing_adb_pid_preserved": true,
+        "existing_adb_binary": "/Users/xuhao/Library/Android/sdk/platform-tools/adb",
+        "adb_key_metadata_unchanged": true,
+        "adb_keys_read_content": false
+      },
+      "preserved": [
+        "整个platform-tools",
+        "整个~/.android（含adbkey/adbkey.pub与连接配置）",
+        "原ADB server进程",
+        "8KB licenses、4KB knownPackages、空.temp",
+        "SDK根目录与原连接路径"
+      ],
+      "note": "此执行shell原本command-v adb无结果，既有ADB server和显式SDK路径可执行且版本未变。未运行adb kill-server或任何设备连接/重置命令。"
+    },
+    {
+      "name": "四个已授权iOS模拟器设备",
+      "before_size_bytes": 3798560768,
+      "after_size_bytes": 8192,
+      "size_reduce_bytes": 3798552576,
+      "actions": [
+        {
+          "device_id": "530953E7-D80E-42A0-9628-D1BBCC836E4B",
+          "operation": "native_shutdown_already_verified",
+          "status": "already_shutdown"
+        },
+        {
+          "device_id": "4EEFFAC6-AD74-4400-A521-A2CE1059E682",
+          "operation": "native_shutdown_already_verified",
+          "status": "already_shutdown"
+        },
+        {
+          "device_id": "A2A87508-3C5C-40AE-BE2F-B9DA09E4AED0",
+          "operation": "native_shutdown_already_verified",
+          "status": "already_shutdown"
+        },
+        {
+          "device_id": "A11CC860-CDDA-43A7-8F5B-A6EDFE317119",
+          "operation": "native_shutdown_already_verified",
+          "status": "already_shutdown"
+        },
+        {
+          "command": [
+            "/usr/bin/xcrun",
+            "simctl",
+            "delete",
+            "530953E7-D80E-42A0-9628-D1BBCC836E4B"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "/usr/bin/xcrun",
+            "simctl",
+            "delete",
+            "4EEFFAC6-AD74-4400-A521-A2CE1059E682"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "/usr/bin/xcrun",
+            "simctl",
+            "delete",
+            "A2A87508-3C5C-40AE-BE2F-B9DA09E4AED0"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "/usr/bin/xcrun",
+            "simctl",
+            "delete",
+            "A11CC860-CDDA-43A7-8F5B-A6EDFE317119"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "status": "completed",
+      "verification": {
+        "before_device_ids": [
+          "4EEFFAC6-AD74-4400-A521-A2CE1059E682",
+          "530953E7-D80E-42A0-9628-D1BBCC836E4B",
+          "A11CC860-CDDA-43A7-8F5B-A6EDFE317119",
+          "A2A87508-3C5C-40AE-BE2F-B9DA09E4AED0"
+        ],
+        "devices_after": {},
+        "all_device_delete_exit_codes_zero": true,
+        "unexpected_new_devices_before_mutation": false
+      },
+      "note": "4设备在动作前均已Shutdown，逐ID native simctl delete；没有使用delete all或删除非授权新增设备。"
+    },
+    {
+      "name": "两个已授权iOS runtime原生注册和镜像",
+      "before_runtime_count": 2,
+      "after_runtime_count": 0,
+      "before_native_logical_image_size_bytes": 17219061747,
+      "known_allocated_core_simulator_images_before_size_bytes": 8393510912,
+      "known_allocated_core_simulator_images_after_size_bytes": 8825565184,
+      "known_allocated_size_reduce_bytes": -432054272,
+      "actions": [
+        {
+          "command": [
+            "/usr/bin/xcrun",
+            "simctl",
+            "runtime",
+            "delete",
+            "2C4FE14D-5072-4CBB-A1B3-85ACA07F8EB8"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "runtime_identifier": "com.apple.CoreSimulator.SimRuntime.iOS-18-4"
+        },
+        {
+          "command": [
+            "/usr/bin/xcrun",
+            "simctl",
+            "runtime",
+            "delete",
+            "196ED4C9-CE29-4A4A-B896-36AD1106F061"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "runtime_identifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-3"
+        }
+      ],
+      "status": "registered_runtimes_removed_physical_inbox_side_effect_blocked",
+      "verification": {
+        "native_runtime_delete_exit_codes_zero": true,
+        "runtime_images_after": {},
+        "runtimes_after": [],
+        "runtime_native_verbose": "Total Disk Images: 0 (0.0G)",
+        "remaining_parent_asset": [
+          {
+            "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
+            "kind": "parentImagePath",
+            "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+            "exists": true,
+            "logical_size_bytes": 9116354048,
+            "allocated_size_bytes": 9116356608
+          }
+        ],
+        "xcode_version": "Xcode 27.0\nBuild version 27A266a\n",
+        "iphoneos_sdk_path": "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk\n",
+        "preserved_support_paths": {
+          "/Applications/Xcode.app": true,
+          "/Library/Developer/CommandLineTools": true,
+          "/Library/Developer/DeveloperDiskImages": true,
+          "/Library/Developer/CoreDevice": true,
+          "/Users/xuhao/Library/Developer/Xcode/iOS DeviceSupport": true
+        },
+        "readd_placeholder_and_clone_removed": false,
+        "registered_placeholder_removed": true,
+        "parent_clone_removed": true,
+        "unregistered_inbox_side_effect_removed": false,
+        "inbox_orphan": {
+          "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+          "realpath": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+          "inode": 368426251,
+          "uid": 0,
+          "gid": 0,
+          "mode": 33188,
+          "symlink": false,
+          "logical_size_bytes": 8825558354,
+          "allocated_size_bytes": 8825561088,
+          "ctime": "2026-10-09T17:33:20.276613",
+          "mtime": "2026-10-09T17:33:20.274979",
+          "birthtime": "2026-10-09T17:33:10.901571",
+          "flags": 0,
+          "sha256": "0afb7dff2ae4b54cfe827ac55f09737ccbaee04d4b295889f9ccbe1d4dfaaa30"
+        },
+        "devices_after": {},
+        "all_native_generated_registration_ghosts_removed": true,
+        "no_core_simulator_mounts_after": true,
+        "full_core_simulator_after_size_bytes": 8830840832,
+        "full_images_after_size_bytes": 8825565184
+      },
+      "preserved": [
+        "Xcode27.0",
+        "CommandLineTools",
+        "iPhoneOS27.0编译SDK",
+        "DeveloperDiskImages/CoreDevice/iOS DeviceSupport实体设备支持"
+      ],
+      "note": "最终完整du与metadata QA：所有runtime/device注册已删，无CoreSimulator挂载，Cryptex clone和后续ghost均清空；Images/Inbox仍有本次最初native re-add产生的8.825561GB cxbd。原生scan/逐UUID删除/verify/闲置simdiskimaged服务刷新均未清该未登记文件；正常管理员精确unlink实际报Operation not permitted。原持久Images删除的8.393507GB被此新副产物抵消，不能报完全回收。"
+    },
+    {
+      "name": "iOS18.4 MobileAsset父镜像残留",
+      "path": "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg",
+      "before_size_bytes": 9116356608,
+      "after_size_bytes": 9116356608,
+      "size_reduce_bytes": 0,
+      "status": "blocked_native_management_entitlement",
+      "asset_identifier": "com.apple.MobileAsset.iOSSimulatorRuntime",
+      "asset_build": "22E238",
+      "simulator_version": "18.4",
+      "parent_native_identifier": "C0F620DB-869C-47D3-BAB2-5332FAC55F41",
+      "action": "原生simctl扫描、重新添加和删除均不能回收父asset；MobileAsset只读query和精确loadSync由mobileassetd拒绝，未取得合法精确asset对象，未调用purgeSync。",
+      "required_next_step": "本轮该9.116GB父资产保留：原生系统储存空间删除按钮disabled，Xcode已安装平台列表为空，MobileAsset API由系统entitlement拒绝。需要Apple/Xcode系统资产管理器重新识别或修复后再原生删除；当前没有已验证可用的删除入口。管理员sudo未证明能补齐MobileAsset entitlement，不应要求用户直接删系统Assets、关闭SIP或伪造entitlement。",
+      "note": "目录hash是本地资产路径标识；精确加载请求被entitlement检查挡在对象加载之前，不能声称此hash已被管理器验证为可purge的assetId。源Info.plist明确18.4/22E238/NeverCollected。父asset未清理，不计入本轮释放。",
+      "garbage_collection_policy": "NeverCollected",
+      "native_api_private_framework": true,
+      "actions": [
+        {
+          "command": "xcrun simctl runtime scan-and-mount",
+          "exit_code": 0,
+          "result": "runtime registry仍为空，父asset仍在"
+        },
+        {
+          "command": "xcrun simctl runtime add <现存父dmg>（无--move、无下载）",
+          "exit_code": 6,
+          "result": "SimDiskImageErrorDomain Code6, NSCocoaError642/POSIX30，导入内嵌image时报只读卷；两个新增登记项随后逐IDnative delete成功"
+        },
+        {
+          "command": "xcrun simctl runtime delete 5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253; delete BB711A6A-5259-4195-AFE9-FADDF7507665",
+          "exit_code": 0,
+          "result": "异步Deleting已结束，registry为空，clone不存在，父asset仍在"
+        },
+        {
+          "entry": "MAAssetQuery.queryMetaDataSync",
+          "result_code": 5,
+          "result": "MAQueryNotEntitled，未有匹配对象"
+        },
+        {
+          "entry": "MAAssetQuery.queryInstalledAssetIds",
+          "result_code": 3,
+          "result": "mobileassetd entitlement check拒绝"
+        },
+        {
+          "entry": "MAAsset.loadSync:error: 对指定asset type与ID只读加载",
+          "loaded": false,
+          "result": "mobileassetd记录5 (MAQueryNotEntitled)"
+        },
+        {
+          "entry": "Xcode27 Settings → Components → Other Installed Platforms",
+          "verification_owner": "root",
+          "result": "实际UI为No Items，iOS27旁Get；无目标18.4删除行"
+        },
+        {
+          "entry": "macOS系统设置 → 通用 → 储存空间 → 开发者",
+          "verification_owner": "root",
+          "result": "显示模拟器支持8.83GB、命令行工具1.73GB；选择模拟器支持后删除按钮仍disabled，只提供在Xcode中管理；XcodeComponents没有已安装平台条目"
+        }
+      ],
+      "actual_blocker": {
+        "system_daemon": "mobileassetd",
+        "required_entitlement": "com.apple.MobileAsset.iOSSimulatorRuntime",
+        "message": "Client process does not have 'com.apple.MobileAsset.iOSSimulatorRuntime' entitlement",
+        "load_result": "5 (MAQueryNotEntitled)",
+        "denied_commands": [
+          "MA_QUERY_ASSET_TYPE",
+          "MA_QUERY_INSTALLED_IDS",
+          "MA_LOAD_ASSET_BY_ID"
+        ],
+        "regular_sudo_is_not_proven_to_fix_entitlement": true,
+        "native_storage_ui_delete_enabled": false,
+        "xcode_installed_platforms": "No Items"
+      },
+      "verification": {
+        "after_original_dmg_exists": true,
+        "after_original_dmg_allocated_bytes": 9116356608,
+        "runtime_images_after": {},
+        "runtimes_after": [],
+        "devices_after": {},
+        "import_clone_path": "/Library/Developer/CoreSimulator/Cryptex/Images/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC.dmg",
+        "import_clone_exists": false,
+        "native_delete_async_finished": true,
+        "native_purgeSync_called": false,
+        "file_st_flags": 524288,
+        "all_followup_registrations_removed": true
+      }
+    },
+    {
+      "name": "本次native runtime re-add产生的Inbox暂存副产物",
+      "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+      "before_size_bytes": 0,
+      "after_size_bytes": 8825561088,
+      "size_reduce_bytes": -8825561088,
+      "status": "blocked_exact_admin_unlink_and_native_orphan_gc_failed_to_remove",
+      "counting_boundary": "该文件已计入runtime Images目录after大小；此行仅说明副产物归属，不能在总量中重复扣减",
+      "metadata": {
+        "path": "/Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd",
+        "inode": 368426251,
+        "logical_size_bytes": 8825558354,
+        "allocated_size_bytes": 8825561088,
+        "uid": 0,
+        "flags": 0
+      },
+      "birthtime": "2026-10-09T17:33:10.901571",
+      "ctime": "2026-10-09T17:33:20.276613",
+      "sha256": "0afb7dff2ae4b54cfe827ac55f09737ccbaee04d4b295889f9ccbe1d4dfaaa30",
+      "attribution": "原始add结果5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd path、UUID、8825558354 logical size与此文件完全一致；ctime/birthtime对应本次17:33尝试。",
+      "actions": [
+        {
+          "operation": "normal_macos_admin_exact_unlink",
+          "guard": "inode=368426251 && size=8825558354",
+          "exit": 1,
+          "actual_error": "rm: <exact cxbd>: Operation not permitted (1)"
+        },
+        {
+          "operation": "native_runtime_scan_and_mount",
+          "exit": 0,
+          "result": "registry不能识别本cxbd，文件仍在"
+        },
+        {
+          "operation": "native_runtime_delete_exact_old_uuid",
+          "exit": 2,
+          "actual_error": "No matching images found to delete"
+        },
+        {
+          "operation": "native_runtime_add_own_temp_with_move",
+          "result": "后台verified后Unusable Duplicate of系统父asset；移动未成功，source按native契约保留；新登记随后native delete/verify清除，无新的物理副本留存",
+          "client_timeout_seconds": 40,
+          "note": "后续长native动作不再用subprocess timeout杀客户端，改为exec session等待；本次源保留以真实Duplicate结果为证"
+        },
+        {
+          "operation": "launchctl kickstart -k system/com.apple.CoreSimulator.simdiskimaged through normal admin authorization",
+          "exit": 0,
+          "result": "只刷新无booted设备的闲置服务；启动GC没有删除本cxbd，自动重新登记父asset的唯一UUID随后native delete成功"
+        },
+        {
+          "operation": "final_full_directory_qa",
+          "result": "registry={}、runtimes=[]、devices={}、无mount/无lsof句柄，整个CoreSimulator唯一大文件就是此cxbd；原AssetsV2父dmg未修改"
+        }
+      ],
+      "required_next_step": "当前没有已验证可用的合法精确删除入口。应由Apple/Xcode/CoreSimulator系统管理器修复此未登记暂存文件清理；不能声称普通管理员再确认即可解决，更不能关闭SIP、改flags或写系统索引。",
+      "preserved_original_parent_asset": true
+    }
+  ],
+  "verified_allocated_directory_reduction_bytes": 10253623296,
+  "freed_counting_boundary": "当前最终净目录减少，仅Android SDK、用户sim设备、CoreSimulator Images三个互不重叠目录的before-after。Images after包含本次新增8.825GB Inbox副产物，原19.079GB已纠正为10.253623GB。父AssetsV2原9.116GB没有回收。Runtime native逻辑size和副产物独立说明行不另加/扣。最终磁盘净释放仍以root df为准。",
+  "primary_sources": [
+    {
+      "title": "Android官方Platform Tools包含adb且可独立下载使用",
+      "url": "https://developer.android.com/tools/releases/platform-tools"
+    },
+    {
+      "title": "Apple官方Xcode Components管理与删除入口",
+      "url": "https://developer.apple.com/documentation/xcode/downloading-and-installing-additional-xcode-components"
+    },
+    {
+      "title": "当前Xcode27本机官方simctl runtime help",
+      "source": "xcrun simctl help runtime"
+    },
+    {
+      "title": "本机mobileassetd原生权限拒绝日志（限定SimulatorRuntime asset type）",
+      "source": "/tmp/storage-extra-runtime-mobileasset-native-logs-20261009.json"
+    }
+  ],
+  "source_files": [
+    "cleanup_extra_runtime-android-before.json",
+    "cleanup_extra_runtime-adb-baseline.json",
+    "cleanup_extra_runtime-ios-before.json",
+    "cleanup_extra_runtime-android-actions.json",
+    "cleanup_extra_runtime-ios-actions.json",
+    "cleanup_extra_runtime-after.json",
+    "cleanup_extra_runtime-native-assets-check.json",
+    "cleanup_extra_runtime-mobileasset-metadata.json",
+    "cleanup_extra_runtime-native-remaining-query.json",
+    "cleanup_extra_runtime-orphan-scan.json",
+    "cleanup_extra_runtime-native-readd.json",
+    "cleanup_extra_runtime-readd-recovery.json",
+    "cleanup_extra_runtime-recovery-verified.json",
+    "cleanup_extra_runtime-mobileasset-query.json",
+    "cleanup_extra_runtime-mobileasset-installedquery.json",
+    "cleanup_extra_runtime-mobileasset-load-exact.json",
+    "cleanup_extra_runtime-mobileasset-info-keys.json",
+    "cleanup_extra_runtime-mobileasset-native-logs.json",
+    "cleanup_extra_runtime-inbox-qa.json",
+    "cleanup_extra_runtime-inbox-hash.json",
+    "cleanup_extra_runtime-inbox-native-scan.json",
+    "cleanup_extra_runtime-inbox-native-delete.json",
+    "cleanup_extra_runtime-inbox-admin-cleanup.json",
+    "cleanup_extra_runtime-inbox-protection.json",
+    "cleanup_extra_runtime-inbox-native-reclaim.json",
+    "cleanup_extra_runtime-inbox-reclaim-state.json",
+    "cleanup_extra_runtime-inbox-reclaim-delete.json",
+    "cleanup_extra_runtime-inbox-system-logs.json",
+    "cleanup_extra_runtime-inbox-ghost-verify.json",
+    "cleanup_extra_runtime-inbox-final-current.json",
+    "cleanup_extra_runtime-inbox-service-inventory.json",
+    "cleanup_extra_runtime-inbox-native-gc-hints.json",
+    "cleanup_extra_runtime-inbox-native-service-refresh.json",
+    "cleanup_extra_runtime-inbox-native-service-after.json",
+    "cleanup_extra_runtime-inbox-gc-native-logs.json",
+    "cleanup_extra_runtime-inbox-refresh-registration-delete.json",
+    "cleanup_extra_runtime-inbox-final-qa.json"
+  ],
+  "qa_correction": {
+    "previous_after_images_bytes": 4096,
+    "corrected_after_images_bytes": 8825565184,
+    "reason": "先前仅复核runtime registry与Cryptex clone，未复扫Images/Inbox物理文件；最终QA发现本次native readd遗留临时cxbd",
+    "original_asset_untouched": true
+  },
+  "unresolved_original_parent_asset_bytes": 9116356608,
+  "unresolved_new_attempt_inbox_side_effect_bytes": 8825561088
+}

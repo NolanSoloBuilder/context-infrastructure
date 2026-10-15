@@ -1,0 +1,27 @@
+{
+  "versions": [
+    {
+      "versionId": "workspace-artifact-version-b6db39fb-ec43-4688-9645-142ba87db9c5",
+      "version": 1,
+      "schema": null
+    }
+  ],
+  "reportVersionId": null,
+  "scope": {
+    "user_id": "pdf-b7239c049f014f",
+    "workspace_id": "workspace-67c131c6-2579-4b48-aa05-d85cdbb94637",
+    "run_id": "workspace-run-95b62390855242a98c43937d9e3a977c"
+  },
+  "status": "failed",
+  "terminalReason": "deadline_exceeded",
+  "errorMessage": "research deadline exceeded; any pending document capture has unknown outcome",
+  "stepId": null,
+  "deadline": "2026-09-11 05:21:01",
+  "target": {
+    "artifactId": "workspace-artifact-4dc1963d-5b11-46bc-ae92-201986f55696",
+    "baseVersion": 1
+  },
+  "checkpoint": null,
+  "consumerDone": true,
+  "consumerErrorType": null
+}

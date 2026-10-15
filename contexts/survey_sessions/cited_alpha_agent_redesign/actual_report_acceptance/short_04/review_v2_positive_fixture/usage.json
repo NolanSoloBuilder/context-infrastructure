@@ -1,0 +1,16 @@
+{
+  "reviewCalls": 1,
+  "events": [
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "workspace_report_semantic_verifier",
+      "kind": "llm",
+      "source": "general_research_review",
+      "inputTokens": 31266,
+      "outputTokens": 74,
+      "thoughtTokens": 1899,
+      "totalTokens": 33239
+    }
+  ]
+}

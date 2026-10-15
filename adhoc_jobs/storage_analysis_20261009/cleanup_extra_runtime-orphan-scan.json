@@ -1,0 +1,16 @@
+{
+  "scan_and_mount": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "registered_images": {},
+  "parent_asset_exists_after": true,
+  "parent_stat": {
+    "st_dev": 16777230,
+    "size_bytes": 9116354048,
+    "allocated_size_bytes": 9116356608,
+    "target_dir_st_dev": 16777230,
+    "same_filesystem": true
+  }
+}

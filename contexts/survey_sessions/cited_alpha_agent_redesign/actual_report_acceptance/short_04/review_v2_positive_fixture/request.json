@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "research-execution-request/v1",
+  "userId": "local-canary",
+  "workspaceId": "local-canary",
+  "runId": "tesla-2024-1789038671",
+  "question": "核对 Tesla 2024 年总收入，并说明单位与财年口径",
+  "asOf": "2026-09-10T11:11:14.804099+00:00",
+  "authorizedDocuments": {},
+  "checkpoint": null,
+  "limits": {
+    "modelCalls": 32,
+    "toolCalls": 64,
+    "durationSeconds": 600
+  }
+}

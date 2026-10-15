@@ -1,0 +1,34 @@
+[
+  {
+    "bucket": "cited-alpha-20260701-document-ai",
+    "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-0.json",
+    "generation": "1789101844305433",
+    "sha256": "881124ac7ba7438f6d942282c78f00af45cd57bb25d3e41fb20417e20a27eb5d",
+    "bytes": 6417149,
+    "localFile": "shard-0000.json"
+  },
+  {
+    "bucket": "cited-alpha-20260701-document-ai",
+    "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-1.json",
+    "generation": "1789101844724983",
+    "sha256": "0fdede3d04dc6e894c0b61bf1aded40c53d215691695b0a5841591952985d6c0",
+    "bytes": 10263480,
+    "localFile": "shard-0001.json"
+  },
+  {
+    "bucket": "cited-alpha-20260701-document-ai",
+    "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-2.json",
+    "generation": "1789101845174194",
+    "sha256": "cc762d52485881a0e6b17b1fe99bfff91b20b682298494072f470160a13e1f39",
+    "bytes": 12376518,
+    "localFile": "shard-0002.json"
+  },
+  {
+    "bucket": "cited-alpha-20260701-document-ai",
+    "key": "research/output/pdf-b7239c049f014f/file-library-8bab5cd809dc41c4b3fb130f18816c60/file_e9aca68920734fabbc3a27b72d27cfa3/6488767485854092832/0/TSLA-Q4-2024-Update-3.json",
+    "generation": "1789101845560767",
+    "sha256": "bb7deaf70c36632ccadce4537af7ee16b25f8bce2895752875e38c0aa97ecf92",
+    "bytes": 4578904,
+    "localFile": "shard-0003.json"
+  }
+]

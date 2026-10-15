@@ -1,0 +1,194 @@
+{
+  "writer": [
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 1405,
+      "outputTokens": 36,
+      "thoughtTokens": 125,
+      "totalTokens": 1566
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 1821,
+      "outputTokens": 83,
+      "thoughtTokens": 97,
+      "totalTokens": 2001
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 10458,
+      "outputTokens": 93,
+      "thoughtTokens": 250,
+      "totalTokens": 10801
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 12194,
+      "outputTokens": 85,
+      "thoughtTokens": 259,
+      "totalTokens": 12538
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 14333,
+      "outputTokens": 81,
+      "thoughtTokens": 67,
+      "totalTokens": 14481
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 14903,
+      "outputTokens": 81,
+      "thoughtTokens": 11,
+      "totalTokens": 14995
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 15416,
+      "outputTokens": 92,
+      "thoughtTokens": 53,
+      "totalTokens": 15561
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 16752,
+      "outputTokens": 92,
+      "thoughtTokens": 24,
+      "totalTokens": 16868
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 18073,
+      "outputTokens": 85,
+      "thoughtTokens": 136,
+      "totalTokens": 18294
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 22819,
+      "outputTokens": 79,
+      "thoughtTokens": 211,
+      "totalTokens": 23109
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 23538,
+      "outputTokens": 85,
+      "thoughtTokens": 1193,
+      "totalTokens": 24816
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 29038,
+      "outputTokens": 93,
+      "thoughtTokens": 685,
+      "totalTokens": 29816
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 31208,
+      "outputTokens": 149,
+      "thoughtTokens": 198,
+      "totalTokens": 31555
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 32042,
+      "outputTokens": 1708,
+      "thoughtTokens": 3424,
+      "totalTokens": 37174
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 37403,
+      "outputTokens": 1715,
+      "thoughtTokens": 560,
+      "totalTokens": 39678
+    },
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "agent_deep_research",
+      "kind": "llm",
+      "source": "general_research_agent",
+      "inputTokens": 39466,
+      "outputTokens": 499,
+      "thoughtTokens": 35,
+      "totalTokens": 40000
+    }
+  ],
+  "review": [
+    {
+      "provider": "vertex-ai",
+      "model": "gemini-3.5-flash",
+      "scenario": "workspace_report_semantic_verifier",
+      "kind": "llm",
+      "source": "general_research_review",
+      "inputTokens": 8717,
+      "outputTokens": 74,
+      "thoughtTokens": 2482,
+      "totalTokens": 11273
+    }
+  ],
+  "reviewCalls": 1
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "research-document-version/v1",
+  "userId": "geometry-canary-user",
+  "workspaceId": "geometry-canary-workspace",
+  "documentId": "geometry-canary-document",
+  "fileId": "geometry-canary-file",
+  "rawReceipt": {
+    "schemaVersion": "research-document-object/v1",
+    "storagePolicy": "immutable_content_addressed",
+    "objectUri": "canary-local://60443b10535d065ff82ca6a97826fbcde559e88bfb2d8eade62af4aa5aad488f.pdf",
+    "sha256": "60443b10535d065ff82ca6a97826fbcde559e88bfb2d8eade62af4aa5aad488f",
+    "byteSize": 1387,
+    "mimeType": "application/pdf"
+  },
+  "providerReceipt": {
+    "schemaVersion": "research-document-object/v1",
+    "storagePolicy": "immutable_content_addressed",
+    "objectUri": "canary-local://0fb5c056fc6335336b22762e0cffc0fd47b2053fc62172731e1853d39fee1580.json",
+    "sha256": "0fb5c056fc6335336b22762e0cffc0fd47b2053fc62172731e1853d39fee1580",
+    "byteSize": 190350,
+    "mimeType": "application/json"
+  },
+  "manifestReceipt": {
+    "schemaVersion": "research-document-object/v1",
+    "storagePolicy": "immutable_content_addressed",
+    "objectUri": "canary-local://efe071d1ee79758044938418d5ca88acdfd317500a3b26845a30d807dc17a3ef.json",
+    "sha256": "efe071d1ee79758044938418d5ca88acdfd317500a3b26845a30d807dc17a3ef",
+    "byteSize": 33440,
+    "mimeType": "application/json"
+  },
+  "parserVersion": "research-document-layout-normalizer/v1",
+  "providerCallAttempted": true,
+  "providerCallStatus": "completed",
+  "pageCount": 2,
+  "documentVersionId": "dv-f89e51e1de4ef1a4f745a2517b1e1c5c7fa1c9deaf4548abdb256132496ca862"
+}

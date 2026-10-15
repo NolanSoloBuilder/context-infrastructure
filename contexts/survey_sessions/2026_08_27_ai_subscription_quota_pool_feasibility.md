@@ -165,6 +165,48 @@ Codex 自身支持通过 profile 或配置切换 provider，但不会替平台�
 
 这里的无感边界是“请求级切换”，不是生成到一半后的 token 级热切换。若 SELF 在返回第一个 SSE 内容事件前报告限额，Gateway 可以在内部把同一请求重试到 POOL；一旦已经向 Codex 输出了部分内容，再换账号重放可能产生重复或不一致，应该结束该请求并在下一次请求切池。上游 `previous_response_id` 也可能只在原账号下有效，因此 Gateway 需要签发自己的虚拟 response id、保存必要上下文，并在跨账号时重建输入，不能把上游会话 ID 原样暴露给客户端。
 
+### Cockpit Tools 对方案的验证与可复用边界
+
+2026-09-21 检查 `jlcodes99/cockpit-tools` 最新主干提交 `dbe56a1edd07ac9d794c72ea4e6a12d5a3d4eb16`。它已经实现的不是单纯替换 Codex `auth.json`，而是一套本地数据面：Cockpit 为 Codex profile 写入受管 `auth.json` 与 `config.toml`，令 Codex 始终请求本机 OpenAI-compatible gateway；Go sidecar 再从多个 Codex OAuth 账号中选择凭证，并处理 API Key 鉴权、quota reserve、cooldown、请求级重试、session affinity 和 usage 记录。仓库测试明确覆盖了 session 原绑定账号返回 `usage_limit_reached` 后从 A 切换到 B 的行为。
+
+这证明“Codex 客户端不变、网关内部切换订阅账号”在工程上可行，也可以直接作为 MVP 的协议与失败切换参考。不过，Cockpit 解决的是同一设备所有者管理自己的多个账号，当前服务默认绑定 `127.0.0.1`。跨用户额度池仍缺少多租户控制面：贡献者归属、消费者 API Key、远程凭证托管或贡献者节点、额度债权账本、押金、结算、争议、隐私隔离与审计。
+
+当前用途明确为交流、学习和个人研究，可以直接 fork、运行和修改 Cockpit Tools。需要保留原作者署名；如果公开分发修改版，应按仓库声明的 `CC BY-NC-SA 4.0` 继续以相同许可共享，且不用于商业目的。它的核心代理依赖 `router-for-me/CLIProxyAPI`，后者采用 MIT，当前已经提供 Codex OAuth、多账号负载均衡、session affinity、quota cooldown 和 OpenAI-compatible endpoint。学习验证阶段可直接基于 Cockpit 完成最短路径 PoC；只有未来转成企业内部商业用途、收费服务或付费产品时，才需要取得 Cockpit 作者的书面商业授权，或改用 MIT 的 CLIProxyAPI 自建控制面。
+
+第一版可以沿用 Cockpit 的凭证分层：控制面持有和刷新贡献者的 `refresh_token`，数据面只获得短期 `access_token`；消费者始终只拿平台 Key。若选择贡献者本地节点模式，则把 Cockpit/CLIProxyAPI sidecar 运行在贡献者设备上，由中央调度器通过出站长连接分派请求，平台不托管长期 OAuth 凭证，代价是在线率、延迟和节点可信执行更难保证。
+
+### 2026-09-21 产品范围收窄：快速切换，不迁移原会话
+
+第一版不要求用户自己的 Pro 会话在原请求中无感切入池子。客户端保留两个隔离入口：`Self Profile` 继续使用用户自己的 ChatGPT/Codex 登录；`Pool Profile` 使用平台 `base_url` 和平台 API Key。用户点击“使用池子额度”后，工具保存当前状态、切换到 Pool Profile，并启动一个新的 Codex 会话；结束后可以一键切回 Self Profile。
+
+```text
+Self Profile                         Pool Profile
+官方 ChatGPT OAuth                   平台 API Key
+Codex -> OpenAI                      Codex -> Pool Gateway -> A/C/D
+用户自己的订阅                       平台结算的池子额度
+```
+
+两套 profile 必须使用隔离的 `CODEX_HOME` 或完整备份/恢复 `auth.json` 与 `config.toml`。切换动作不能把贡献者 A 的凭证写到 B 的电脑；B 的 Pool Profile 只保存平台 Key，A/C/D 的 OAuth 凭证仍由平台数据面持有。CLI 可以提供 `codex-self`、`codex-pool` 两个启动命令，Desktop 可以参考 Cockpit 的 profile takeover 和重启流程。
+
+这个范围删除了 SELF/POOL 自动故障转移、跨账号 `previous_response_id` 转换、原会话上下文迁移、部分 SSE 后的重试以及官方订阅身份和平台 provider 的同实例并存要求。平台端仍需保留账号池调度、quota cooldown、请求计量、账本和凭证隔离。验收标准改为：切换操作在数秒内完成，启动的新 Codex 会话能使用池子额度，切回后原账号凭证和配置完整恢复。
+
+### 架构验证 PoC：只证明链路与快速切换
+
+当前阶段只评估架构合理性和快速实现，不实现押金、交易、正式结算、开放注册、复杂多租户治理与同会话自动伸缩。PoC 分成两个独立组件：
+
+```text
+客户端 Profile Switcher                 Pool Gateway
+参考 Cockpit profile takeover           直接使用 CLIProxyAPI
+├─ Self：官方 ChatGPT OAuth              ├─ 平台 API Key 鉴权
+└─ Pool：平台 base_url + pool key         ├─ 两个自有测试 OAuth 账号
+                                           ├─ round-robin/cooldown
+                                           └─ OpenAI-compatible Responses API
+```
+
+第一阶段可以完全本地运行：Cockpit/CLIProxyAPI 导入两个自有测试账号，Codex Pool Profile 指向 `127.0.0.1`，验证请求成功、账号选择、额度错误后的切号和切回 Self 后的配置恢复。第二阶段只把 CLIProxyAPI 移到一台远程测试机，通过 HTTPS 和测试 API Key 访问；客户端仍然沿用相同 Pool Profile。控制面先使用静态配置文件和 CLI 管理，不建设数据库、账本、押金或管理后台。
+
+PoC 验收只看五件事：Self 模式保持官方登录；一次操作可以切到 Pool 并启动新会话；Pool 请求不会把上游账号凭证返回客户端；某个测试账号限额后新请求可以选择另一个账号；切回 Self 后原 `auth.json`、`config.toml` 与历史状态不丢失。通过后再决定是否建设真实额度账本和用户平台。
+
 平台至少要兼容 Codex 当前所需的 `/v1/responses`、SSE 事件、错误码、工具调用和 usage 字段。只实现普通 Chat Completions 不足以让当前 Codex 正常接入。上游凭证不得出现在响应、浏览器、本地配置、日志或普通业务数据库明文中，否则 B 可以绕过账本直接消费 A 的账号，甚至形成账号接管风险。
 
 这只是推荐架构，并不意味着 OpenAI 已授权把个人 ChatGPT/Codex OAuth 凭证用于第三方流量。技术上，平台可以像一个 OAuth credential proxy 一样转发；经营上仍要把凭证撤销、上游封禁和接口变化视为可能让供给瞬间归零的核心风险。

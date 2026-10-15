@@ -1,0 +1,114 @@
+{
+  "MAAbsoluteAssetId": {
+    "class": [
+      {
+        "method": "supportsSecureCoding",
+        "encoding": "B16@0:8"
+      }
+    ],
+    "instance": [
+      {
+        "method": "initWithPlist:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "method": "policyHash",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "encodeAsPlist",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "assetType",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "diffFrom:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "method": "allAttributesHash",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "pallasDynamicAssetIdHash",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "initWithCoder:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "method": "initWithAssetId:forAssetType:",
+        "encoding": "@32@0:8@16@24"
+      },
+      {
+        "method": "summary",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "diffFromAsset:",
+        "encoding": "@24@0:8@16"
+      },
+      {
+        "method": "initWithAssetId:forAssetType:attributes:",
+        "encoding": "@40@0:8@16@24@32"
+      },
+      {
+        "method": "contentHash",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "assetIdHash",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "description",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": ".cxx_destruct",
+        "encoding": "v16@0:8"
+      },
+      {
+        "method": "diffFromAssetId:assetType:attributes:",
+        "encoding": "@40@0:8@16@24@32"
+      },
+      {
+        "method": "isEqual:",
+        "encoding": "B24@0:8@16"
+      },
+      {
+        "method": "setAssetId:",
+        "encoding": "v24@0:8@16"
+      },
+      {
+        "method": "assetId",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "nonIdHash",
+        "encoding": "@16@0:8"
+      },
+      {
+        "method": "encodeWithCoder:",
+        "encoding": "v24@0:8@16"
+      },
+      {
+        "method": "setAssetType:",
+        "encoding": "v24@0:8@16"
+      },
+      {
+        "method": "hasOnlyAssetTypeAndId",
+        "encoding": "B16@0:8"
+      },
+      {
+        "method": "urlHash",
+        "encoding": "@16@0:8"
+      }
+    ]
+  },
+  "MAQueryResult": {},
+  "MAPurgeResult": {}
+}

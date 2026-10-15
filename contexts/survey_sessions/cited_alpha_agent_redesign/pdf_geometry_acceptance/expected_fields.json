@@ -1,0 +1,55 @@
+{
+  "synthetic": true,
+  "realDocAIValidated": false,
+  "rawSha256": "60443b10535d065ff82ca6a97826fbcde559e88bfb2d8eade62af4aa5aad488f",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "rotate": 0,
+      "mediaBox": [
+        0,
+        0,
+        600,
+        800
+      ],
+      "cropBox": [
+        0,
+        0,
+        600,
+        800
+      ],
+      "targetText": "Revenue USD 120",
+      "targetContainerPdfRect": [
+        100,
+        500,
+        260,
+        530
+      ],
+      "distractor": "Costs USD 120"
+    },
+    {
+      "pageNumber": 2,
+      "rotate": 90,
+      "mediaBox": [
+        0,
+        0,
+        600,
+        800
+      ],
+      "cropBox": [
+        50,
+        100,
+        550,
+        700
+      ],
+      "targetText": "Revenue USD 240",
+      "targetContainerPdfRect": [
+        100,
+        250,
+        260,
+        290
+      ],
+      "distractor": "Costs USD 240"
+    }
+  ]
+}

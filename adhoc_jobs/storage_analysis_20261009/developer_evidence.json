@@ -1,0 +1,346 @@
+{
+  "scanned_date": "2026-10-09",
+  "measurement": "allocated bytes from du -k * 1024; decimal GB=bytes/1e9; live mutable data, not guaranteed post-delete gain",
+  "status": "complete_for_assigned_scope",
+  "top5": [
+    {
+      "path": "/Library/Developer",
+      "size_bytes": 18287480832,
+      "category": "developer_environment",
+      "recommendation": "CoreSimulator 占16.25 GB，其中Images8.39 GB是iOS26.3运行时，Caches/dyld7.86 GB。先确认需要的iOS版本，再由Xcode设置的Components/Platforms或simctl runtime官方管理入口清理，不手删挂载路径。",
+      "verified_boundary": "补测du -kx已完成；跳过挂载卷避免重复计量。另有iOS18.4运行时由/System/Library/AssetsV2供给，未包含本目录18.29 GB。CommandLineTools1.73 GB是开发环境。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": [
+        {
+          "path": "/Library/Developer/CoreSimulator/Images",
+          "size_bytes": 8393510912,
+          "note": "images.plist确认唯一直接dmg为iOS26.3"
+        },
+        {
+          "path": "/Library/Developer/CoreSimulator/Caches/dyld",
+          "size_bytes": 7855513600,
+          "note": "共享缓存，需CoreSimulator管理入口处理"
+        }
+      ]
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx",
+      "size_bytes": 18149392384,
+      "category": "reproducible_cli_dependencies_conditional",
+      "recommendation": "最优先处理增长机制：统一默认全局Node/npm（当前Node25.2.1与npm/npx6.14.18混用），固定常用MCP/CLI版本并验证入口。在维护窗口关闭相关客户端、再次枚举进程后，只清561个旧数字目录，可释放上限约17.00 GB；保留13个现代哈希目录和3个运行中根。",
+      "verified_boundary": "du -kx完整测量18.149 GB；561个旧数字目录合计17.002 GB，13个现代目录1.147 GB。进程命中3个现代目录；lsof无命中不能证明未被未来懒加载。年龄超过7天仅91目录/2.283 GB，不代表可直接删。",
+      "reclaim_estimate_bytes": 17002078208,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.colima",
+      "size_bytes": 10589212672,
+      "category": "persistent_virtual_machine_data",
+      "recommendation": "librechat profile已停止。若已弃用LibreChat本地环境，先确认MongoDB/上传内容等持久数据去向，备份或导出后走Colima profile管理卸载。继续使用则先择时启动并运行docker system df评估镜像和构建缓存，不删除整盘。",
+      "verified_boundary": "colima list返回librechat Stopped，配置虚拟盘20GiB；实际分配10.589 GB。_lima/_disks9.082 GB、profile目录1.507 GB。Docker daemon当前不可连接，镜像与卷占用未验证。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/Library/pnpm",
+      "size_bytes": 10156224512,
+      "category": "shared_package_store",
+      "recommendation": "执行前确认pnpm版本和全局CLI目录，再用pnpm store prune清理未引用包，后测磁盘增量。store9.99 GB为占用上限，不能把全部算可释放。保留global/.tools。",
+      "verified_boundary": "du完整测量；store9.991 GB、.tools0.121 GB、global0.045 GB。共享store和项目node_modules可能有硬链接，与项目依赖占用不能直接相加。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.codex",
+      "size_bytes": 9797447680,
+      "category": "conversation_history_and_active_tooling",
+      "recommendation": "按Codex App会话管理做保留/删除清单：保留【长期】前缀、当前运行会话和automation任务；只有当次清单批准后才删除。marketplace临时克隆可在退出App并确认没有同步/安装时检查；所有SQLite与rollout索引一并由App管理。",
+      "verified_boundary": "archived_sessions4.662 GB、sessions0.769 GB、thread_history_1.sqlite分配1.580 GB；.tmp当次补测1.061 GB（marketplaces0.776、bundled-marketplaces0.250、plugins0.030）。没有读取会话内容或凭据。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    }
+  ],
+  "entries": [
+    {
+      "path": "/Library/Developer",
+      "size_bytes": 18287480832,
+      "category": "developer_environment",
+      "recommendation": "CoreSimulator 占16.25 GB，其中Images8.39 GB是iOS26.3运行时，Caches/dyld7.86 GB。先确认需要的iOS版本，再由Xcode设置的Components/Platforms或simctl runtime官方管理入口清理，不手删挂载路径。",
+      "verified_boundary": "补测du -kx已完成；跳过挂载卷避免重复计量。另有iOS18.4运行时由/System/Library/AssetsV2供给，未包含本目录18.29 GB。CommandLineTools1.73 GB是开发环境。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": [
+        {
+          "path": "/Library/Developer/CoreSimulator/Images",
+          "size_bytes": 8393510912,
+          "note": "images.plist确认唯一直接dmg为iOS26.3"
+        },
+        {
+          "path": "/Library/Developer/CoreSimulator/Caches/dyld",
+          "size_bytes": 7855513600,
+          "note": "共享缓存，需CoreSimulator管理入口处理"
+        }
+      ]
+    },
+    {
+      "path": "/Users/xuhao/.npm/_npx",
+      "size_bytes": 18149392384,
+      "category": "reproducible_cli_dependencies_conditional",
+      "recommendation": "最优先处理增长机制：统一默认全局Node/npm（当前Node25.2.1与npm/npx6.14.18混用），固定常用MCP/CLI版本并验证入口。在维护窗口关闭相关客户端、再次枚举进程后，只清561个旧数字目录，可释放上限约17.00 GB；保留13个现代哈希目录和3个运行中根。",
+      "verified_boundary": "du -kx完整测量18.149 GB；561个旧数字目录合计17.002 GB，13个现代目录1.147 GB。进程命中3个现代目录；lsof无命中不能证明未被未来懒加载。年龄超过7天仅91目录/2.283 GB，不代表可直接删。",
+      "reclaim_estimate_bytes": 17002078208,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.colima",
+      "size_bytes": 10589212672,
+      "category": "persistent_virtual_machine_data",
+      "recommendation": "librechat profile已停止。若已弃用LibreChat本地环境，先确认MongoDB/上传内容等持久数据去向，备份或导出后走Colima profile管理卸载。继续使用则先择时启动并运行docker system df评估镜像和构建缓存，不删除整盘。",
+      "verified_boundary": "colima list返回librechat Stopped，配置虚拟盘20GiB；实际分配10.589 GB。_lima/_disks9.082 GB、profile目录1.507 GB。Docker daemon当前不可连接，镜像与卷占用未验证。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/Library/pnpm",
+      "size_bytes": 10156224512,
+      "category": "shared_package_store",
+      "recommendation": "执行前确认pnpm版本和全局CLI目录，再用pnpm store prune清理未引用包，后测磁盘增量。store9.99 GB为占用上限，不能把全部算可释放。保留global/.tools。",
+      "verified_boundary": "du完整测量；store9.991 GB、.tools0.121 GB、global0.045 GB。共享store和项目node_modules可能有硬链接，与项目依赖占用不能直接相加。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.codex",
+      "size_bytes": 9797447680,
+      "category": "conversation_history_and_active_tooling",
+      "recommendation": "按Codex App会话管理做保留/删除清单：保留【长期】前缀、当前运行会话和automation任务；只有当次清单批准后才删除。marketplace临时克隆可在退出App并确认没有同步/安装时检查；所有SQLite与rollout索引一并由App管理。",
+      "verified_boundary": "archived_sessions4.662 GB、sessions0.769 GB、thread_history_1.sqlite分配1.580 GB；.tmp当次补测1.061 GB（marketplaces0.776、bundled-marketplaces0.250、plugins0.030）。没有读取会话内容或凭据。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk",
+      "size_bytes": 6921187328,
+      "category": "developer_environment",
+      "recommendation": "这里只有一个NDK27.1.12297006（2.59 GB）和Android36系统镜像（2.41 GB），没有核实到重复版本。若当前不做Android本地开发，可在Android Studio SDK Manager卸载不用的NDK/镜像；若在用，保留。",
+      "verified_boundary": "SDK总6.921 GB；emulator1.014 GB。~/.android仅8 KB、不存在avd目录。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.cache",
+      "size_bytes": 5423669248,
+      "category": "mixed_regenerable_cache_and_active_runtime",
+      "recommendation": "缓存需分项：codex-runtimes主运行时1.63 GB保留，两个codex-runtime-install目录共0.576 GB可在App退出后检查；uv1.94 GB上轮已prune，重复prune收益未验证。Puppeteer0.582 GB属于可再下载浏览器依赖，停相关自动化再清。",
+      "verified_boundary": "总5.424 GB；codex-runtimes2.210、uv1.943、puppeteer0.582、codewiz0.369 GB。目录名为cache不代表可在运行时整根删除。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/opt/homebrew/Cellar",
+      "size_bytes": 4184260608,
+      "category": "installed_toolchains",
+      "recommendation": "Homebrew全目录4.18 GB不值得整体动。定向brew cleanup --dry-run当前仅允许清Mole1.47.1约9.2 MB；其他多版本formula因最新版本未安装被跳过。避免为这点空间开展全量升级或手删Cellar。",
+      "verified_boundary": "全范围brew cleanup --dry-run45秒超时；brew list --versions遇untrusted cask tap报错，但定向11个formula的dry-run退出0，只列Mole旧版本。",
+      "reclaim_estimate_bytes": 9207808,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.m2",
+      "size_bytes": 1655152640,
+      "category": "dependency_repository",
+      "recommendation": "1.66 GB为Maven repository，含公司/自定义来源依赖的再下载可用性未验证；保留，收益小于npx与pnpm。",
+      "verified_boundary": "repository1.655 GB，未读取settings.xml等凭据配置。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.gradle",
+      "size_bytes": 663523328,
+      "category": "developer_environment",
+      "recommendation": "0.66 GB中JDK0.51 GB、Gradle wrapper0.153 GB，构建环境为主，保留。",
+      "verified_boundary": "未发现大缓存目录；未读取凭据。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/Library/Developer",
+      "size_bytes": 3815133184,
+      "category": "simulator_device_data",
+      "recommendation": "CoreSimulator Devices3.80 GB存模拟器设备数据。4个设备全部Shutdown且available，不是无人使用的垃圾；按需要用Xcode Devices and Simulators删除不再使用的设备。",
+      "verified_boundary": "3.815 GB完整测量；Xcode DerivedData为0，CoreSimulator Caches/Temp均0。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    },
+    {
+      "path": "/Users/xuhao/.bun",
+      "size_bytes": 2189062144,
+      "category": "package_cache_and_global_cli",
+      "recommendation": "cache2.016 GB可在相关工具关闭后用Bun原生命令清理；保留install/global0.111 GB和bin0.061 GB。",
+      "verified_boundary": "总2.189 GB，与root agent的bun扫描重叠，整合时只记一次。",
+      "reclaim_estimate_bytes": null,
+      "subpaths": []
+    }
+  ],
+  "small_extra_directories": [
+    {
+      "path": "/Users/xuhao/.android",
+      "size_bytes": 8192,
+      "note": "正常环境/小量目录，优先级低"
+    },
+    {
+      "path": "/Users/xuhao/.cocoapods",
+      "size_bytes": 10784768,
+      "note": "正常环境/小量目录，优先级低"
+    },
+    {
+      "path": "/Users/xuhao/miniconda3",
+      "size_bytes": 0,
+      "note": "正常环境/小量目录，优先级低"
+    },
+    {
+      "path": "/Users/xuhao/.conda",
+      "size_bytes": 8192,
+      "note": "正常环境/小量目录，优先级低"
+    },
+    {
+      "path": "/Users/xuhao/.swiftpm",
+      "size_bytes": 0,
+      "note": "正常环境/小量目录，优先级低"
+    },
+    {
+      "path": "/Users/xuhao/.opencode",
+      "size_bytes": 104652800,
+      "note": "正常环境/小量目录，优先级低"
+    }
+  ],
+  "absent": [
+    "/Users/xuhao/.cargo",
+    "/Users/xuhao/.rustup",
+    "/Users/xuhao/.android/avd",
+    "/usr/local/Cellar"
+  ],
+  "npx_analysis": {
+    "directories": 574,
+    "layouts": {
+      "legacy_numeric_prefix": 561,
+      "modern_hash_prefix": 13
+    },
+    "size_groups": {
+      "legacy_numeric_prefix": {
+        "count": 561,
+        "size_bytes": 17002078208
+      },
+      "modern_hash_prefix": {
+        "count": 13,
+        "size_bytes": 1147314176
+      }
+    },
+    "installed_root_size_groups": {
+      "empty_lib": {
+        "count": 325,
+        "size_bytes": 0
+      },
+      "installed:@playwright/mcp@0.0.83": {
+        "count": 63,
+        "size_bytes": 989233152
+      },
+      "installed:@xhs/tracking-kit-mcp@0.1.6": {
+        "count": 1,
+        "size_bytes": 69906432
+      },
+      "installed:mcp@1.4.2": {
+        "count": 42,
+        "size_bytes": 8108630016
+      },
+      "staging_only": {
+        "count": 101,
+        "size_bytes": 7892647936
+      },
+      "installed:chrome-devtools-mcp@1.10.1": {
+        "count": 1,
+        "size_bytes": 15462400
+      },
+      "unresolved": {
+        "count": 30,
+        "size_bytes": 0
+      },
+      "installed:@xhs/fedith-mcp@0.1.0-prerelease.5": {
+        "count": 1,
+        "size_bytes": 30662656
+      },
+      "installed:@playwright/cli@0.1.22": {
+        "count": 1,
+        "size_bytes": 19226624
+      },
+      "installed:@wonderwhy-er/desktop-commander@0.2.51": {
+        "count": 1,
+        "size_bytes": 216485888
+      },
+      "installed:vite@8.3.4": {
+        "count": 1,
+        "size_bytes": 30760960
+      },
+      "installed:tsc@2.0.4": {
+        "count": 1,
+        "size_bytes": 32768
+      },
+      "installed:vercel@59.23.2": {
+        "count": 1,
+        "size_bytes": 332054528
+      },
+      "installed:@upstash/context7-mcp@4.1.1": {
+        "count": 1,
+        "size_bytes": 62066688
+      },
+      "installed:wrangler@4.132.0": {
+        "count": 1,
+        "size_bytes": 219910144
+      },
+      "installed:playwright@1.63.0": {
+        "count": 1,
+        "size_bytes": 18997248
+      },
+      "installed:skills@1.7.0": {
+        "count": 1,
+        "size_bytes": 5799936
+      },
+      "installed:xcodebuildmcp@2.7.0": {
+        "count": 1,
+        "size_bytes": 137515008
+      }
+    },
+    "older_than_7d": {
+      "count": 91,
+      "size_bytes": 2283016192
+    },
+    "active": {
+      "active_npx_process_roots": {
+        "15c61037b1978c83": [
+          "96948"
+        ],
+        "eea2bd7412d4593b": [
+          "96908"
+        ],
+        "9833c18b2d85bc59": [
+          "96940"
+        ]
+      },
+      "ps_code": 0,
+      "open_npx_roots": [],
+      "lsof_code": 0,
+      "lsof_stderr": ""
+    }
+  },
+  "npx_code_evidence": {
+    "path": "/opt/homebrew/lib/node_modules/npm/node_modules/libnpx/index.js",
+    "lines": "146-151",
+    "verified_fact": "ensurePackages用cache/_npx/process.pid作为安装prefix，并在process exit注册rimraf.sync(prefix)",
+    "inference": "重复数字前缀和.staging残留与旧npx按PID安装及退出清理未完成相符；无法仅凭目录确定每次异常/中断/清理失败原因。"
+  },
+  "limitations": [
+    "首次~/.npm和/Library/Developer扫描120秒超时；后者du -x与npx子目录补测完成。~/.npm根中其他子目录未在此任务补测。",
+    "/Library/Developer的测量刻意跳过CoreSimulator挂载卷，iOS18.4的System/Library/AssetsV2 backing image不包含在本任务。",
+    "pnpm/bun/uv共享缓存、项目依赖硬链接及APFS克隆会使目录占用相加大于实际可释放空间。",
+    "没有删除、移动、改配置、启动/停止用户进程或读取凭据。"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "adb_command_path": null,
+  "adb_explicit_path": "/Users/xuhao/Library/Android/sdk/platform-tools/adb",
+  "adb_realpath": "/Users/xuhao/Library/Android/sdk/platform-tools/adb",
+  "remaining_sdk_entries": [
+    ".knownPackages",
+    ".temp",
+    "licenses",
+    "platform-tools"
+  ],
+  "android_keys": [
+    {
+      "path": "/Users/xuhao/.android/adbkey",
+      "exists": true,
+      "uid": 501,
+      "inode": 283335367,
+      "size_bytes": 1704,
+      "mode": 384
+    },
+    {
+      "path": "/Users/xuhao/.android/adbkey.pub",
+      "exists": true,
+      "uid": 501,
+      "inode": 283335368,
+      "size_bytes": 717,
+      "mode": 420
+    },
+    {
+      "path": "/Users/xuhao/.android/adb_usb.ini",
+      "exists": false
+    }
+  ],
+  "sim": {
+    "images": {
+      "exit_code": 0,
+      "stdout": "{\n\n}\n",
+      "stderr": ""
+    },
+    "runtimes": {
+      "exit_code": 0,
+      "stdout": "{\n  \"runtimes\" : [\n\n  ]\n}\n",
+      "stderr": ""
+    },
+    "devices": {
+      "exit_code": 0,
+      "stdout": "{\n  \"devices\" : {\n\n  }\n}\n",
+      "stderr": ""
+    }
+  },
+  "sizes": [
+    {
+      "path": "/Users/xuhao/Library/Android/sdk",
+      "exists": true,
+      "size_bytes": 34062336,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "/Users/xuhao/Library/Android/sdk/platform-tools",
+      "exists": true,
+      "size_bytes": 34050048,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "/Users/xuhao/Library/Developer/CoreSimulator/Devices",
+      "exists": true,
+      "size_bytes": 8192,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "/Library/Developer/CoreSimulator/Images",
+      "exists": true,
+      "size_bytes": 4096,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "path": "/Library/Developer/CoreSimulator",
+      "exists": true,
+      "size_bytes": 5279744,
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "adb_version": {
+    "exit_code": 0,
+    "stdout": "Android Debug Bridge version 1.0.41\nVersion 36.0.0-13206524\nInstalled as /Users/xuhao/Library/Android/sdk/platform-tools/adb\nRunning on Darwin 27.0.0 (arm64)\n",
+    "stderr": ""
+  },
+  "adb_dylibs": {
+    "exit_code": 0,
+    "stdout": "/Users/xuhao/Library/Android/sdk/platform-tools/adb (architecture x86_64):\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.0.0)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 1856.105.0)\n\t/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (compatibility version 1.0.0, current version 275.0.0)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 60157.60.19)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n/Users/xuhao/Library/Android/sdk/platform-tools/adb (architecture arm64):\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.0.0)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 1856.105.0)\n\t/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit (compatibility version 1.0.0, current version 275.0.0)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 60157.60.19)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n",
+    "stderr": ""
+  },
+  "xcode": {
+    "exit_code": 0,
+    "stdout": "Xcode 27.0\nBuild version 27A266a\n",
+    "stderr": ""
+  },
+  "iphoneos_sdk": {
+    "exit_code": 0,
+    "stdout": "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk\n",
+    "stderr": ""
+  },
+  "active_adb_binary": "/Users/xuhao/Library/Android/sdk/platform-tools/adb",
+  "adb_pid_preserved": true,
+  "preserved_support_paths": {
+    "/Applications/Xcode.app": true,
+    "/Library/Developer/CommandLineTools": true,
+    "/Library/Developer/DeveloperDiskImages": true,
+    "/Library/Developer/CoreDevice": true,
+    "/Users/xuhao/Library/Developer/Xcode/iOS DeviceSupport": true
+  }
+}

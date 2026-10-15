@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-10-09 15:56:22",
+  "scan_seconds": 150.00865983963013,
+  "groups": [
+    {
+      "path": "/Users/xuhao/Documents",
+      "timeout": true,
+      "partial_stdout": ""
+    },
+    {
+      "path": "/Users/xuhao/Downloads",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/Users/xuhao/Downloads",
+          "size_bytes": 8192
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/Users/xuhao/Desktop",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/Users/xuhao/Desktop",
+          "size_bytes": 5447680
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/Users/xuhao/Movies",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/Users/xuhao/Movies",
+          "size_bytes": 722112512
+        },
+        {
+          "path": "/Users/xuhao/Movies/JianyingPro",
+          "size_bytes": 664186880
+        },
+        {
+          "path": "/Users/xuhao/Movies/FocuSee Project",
+          "size_bytes": 57876480
+        },
+        {
+          "path": "/Users/xuhao/Movies/Videos",
+          "size_bytes": 49152
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/Users/xuhao/Pictures",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/Users/xuhao/Pictures",
+          "size_bytes": 20799488
+        },
+        {
+          "path": "/Users/xuhao/Pictures/Photos Library.photoslibrary",
+          "size_bytes": 20795392
+        },
+        {
+          "path": "/Users/xuhao/Pictures/Photo Booth图库",
+          "size_bytes": 4096
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/Users/xuhao/Music",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/Users/xuhao/Music/Music",
+          "size_bytes": 14794752
+        },
+        {
+          "path": "/Users/xuhao/Music",
+          "size_bytes": 14794752
+        },
+        {
+          "path": "/Users/xuhao/Music/网易云音乐",
+          "size_bytes": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/Users/xuhao/.Trash",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/Users/xuhao/.Trash",
+          "size_bytes": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/Users/Shared",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/Users/Shared",
+          "size_bytes": 51544064
+        },
+        {
+          "path": "/Users/Shared/UURemote",
+          "size_bytes": 45805568
+        },
+        {
+          "path": "/Users/Shared/.IT-UEM-Logs",
+          "size_bytes": 5308416
+        },
+        {
+          "path": "/Users/Shared/Relocated Items",
+          "size_bytes": 61440
+        },
+        {
+          "path": "/Users/Shared/Previously Relocated Items 5",
+          "size_bytes": 61440
+        },
+        {
+          "path": "/Users/Shared/Previously Relocated Items 3",
+          "size_bytes": 61440
+        },
+        {
+          "path": "/Users/Shared/Previously Relocated Items 4",
+          "size_bytes": 61440
+        },
+        {
+          "path": "/Users/Shared/Previously Relocated Items 1",
+          "size_bytes": 57344
+        },
+        {
+          "path": "/Users/Shared/Previously Relocated Items 2",
+          "size_bytes": 57344
+        },
+        {
+          "path": "/Users/Shared/Previously Relocated Items",
+          "size_bytes": 57344
+        },
+        {
+          "path": "/Users/Shared/SC Info",
+          "size_bytes": 0
+        },
+        {
+          "path": "/Users/Shared/Proxyman",
+          "size_bytes": 0
+        },
+        {
+          "path": "/Users/Shared/CleanMyMac X Menu",
+          "size_bytes": 0
+        },
+        {
+          "path": "/Users/Shared/CleanMyMac X",
+          "size_bytes": 0
+        },
+        {
+          "path": "/Users/Shared/CleanMyMac_5",
+          "size_bytes": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/private/var/vm",
+      "exit_code": 0,
+      "partial": false,
+      "entries": [
+        {
+          "path": "/private/var/vm",
+          "size_bytes": 2147483648
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

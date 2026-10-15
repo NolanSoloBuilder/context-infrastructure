@@ -1,0 +1,71 @@
+{
+  "4": {
+    "bytes": 36747,
+    "under32KiB": false,
+    "fieldsAt32KiB": 127,
+    "fields": 144,
+    "coverage": {
+      "start": 0,
+      "end": 144,
+      "total": 144,
+      "complete": true
+    },
+    "availableLayers": {
+      "line": 144,
+      "span": 139,
+      "cell": 0
+    }
+  },
+  "5": {
+    "bytes": 36714,
+    "under32KiB": false,
+    "fieldsAt32KiB": 128,
+    "fields": 144,
+    "coverage": {
+      "start": 0,
+      "end": 144,
+      "total": 144,
+      "complete": true
+    },
+    "availableLayers": {
+      "line": 144,
+      "span": 137,
+      "cell": 0
+    }
+  },
+  "7": {
+    "bytes": 28083,
+    "under32KiB": true,
+    "fieldsAt32KiB": 109,
+    "fields": 109,
+    "coverage": {
+      "start": 0,
+      "end": 109,
+      "total": 109,
+      "complete": true
+    },
+    "availableLayers": {
+      "line": 109,
+      "span": 107,
+      "cell": 0
+    }
+  },
+  "8": {
+    "bytes": 28055,
+    "under32KiB": true,
+    "fieldsAt32KiB": 109,
+    "fields": 109,
+    "coverage": {
+      "start": 0,
+      "end": 109,
+      "total": 109,
+      "complete": true
+    },
+    "availableLayers": {
+      "line": 109,
+      "span": 103,
+      "cell": 0
+    }
+  },
+  "checks": "exact _rows IDs/text/bbox; bounded pagination complete; cross version/page/layer rejected; duplicates retained; oversized field rejected; detached response; empty page"
+}

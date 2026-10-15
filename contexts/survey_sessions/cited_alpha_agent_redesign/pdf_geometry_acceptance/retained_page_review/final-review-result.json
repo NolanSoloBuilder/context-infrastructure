@@ -1,0 +1,20 @@
+{
+  "checkedAtUtc": "2026-09-11T05:16:56.054932+00:00",
+  "realArchiveCrossRepoCases": 8,
+  "adversarialCasesPassed": 10,
+  "exif3RejectedBy": [
+    "ML",
+    "Backend"
+  ],
+  "dimensionValidation": "ML rejects nonpixels/missing/size mismatch before publishing metadata",
+  "originalPdfFallback": "page",
+  "duplicateValues": "distinct IDs and rectangles",
+  "pngVerifyRegression": "independently caught, authors fixed order, real8 passed after fix",
+  "scope": "actual functions and archived material; no cloud/authenticated HTTP/browser/service execution",
+  "files": {
+    "/Users/xuhao/Documents/Other/mindspace_ml_backend/mindspace/service/research_agent/page_rendition.py": "52e21e5a9908629a6c21b3acd14167f8bb665e3bbee568fe957f29d620aecac0",
+    "/Users/xuhao/Documents/Other/mindspace_backend/mindspace/service/ml_service/research_page_rendition.py": "a428323988994c8ecba1d0285f6d4d137c1c7bc5d1821b5adae93cb35e101655",
+    "/Users/xuhao/Documents/Other/mindspace_backend/mindspace/service/research_report/document_reader.py": "9c1f29943969582f75fd2c116eb0b9c276967acd3ec1724d19b3735953efd9ab",
+    "/Users/xuhao/Documents/Other/mindspace_web_frontend/src/app/components/workspace/ResearchPageImageSourceView.tsx": "98c145bb3b8484aa880436ef83532dd42bd4208fcd64197da9a699b7a875395a"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "runId": "workspace-run-f8754e6c9bf94678ab1c5550afd69058",
+  "status": "succeeded",
+  "versionId": "research-version-3eba590c-3f49-5be7-89a9-438bb433f502",
+  "version": 2,
+  "schema": "research-report/v1",
+  "sectionCount": 5,
+  "citationCount": 58,
+  "evidenceCount": 61,
+  "calculationCount": 18,
+  "checks": {
+    "sourceIntegrity": "passed",
+    "semanticReview": "passed",
+    "editorialReview": "passed"
+  },
+  "bundleHash": "sha256:76f39ccf4d883c2e6354809a1233b38cdda03dea3c8300864d8b5f151162efad",
+  "checkpointBytes": 14844415,
+  "storedBundleEqualsCheckedCandidate": true
+}

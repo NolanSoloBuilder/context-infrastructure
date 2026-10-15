@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "0:323: execution error: rm: /Library/Developer/CoreSimulator/Images/Inbox/5F5EAB22-FAD8-40B2-B42A-6A56A8ADB253.cxbd: Operation not permitted (1)\n",
+  "after_exists": true
+}

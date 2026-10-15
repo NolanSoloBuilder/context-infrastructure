@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { spawn } from 'node:child_process';
+import { existsSync, realpathSync } from 'node:fs';
 import { chmod, mkdir, readFile, readdir, rename, rm, writeFile } from 'node:fs/promises';
 import { isIP } from 'node:net';
 import { homedir } from 'node:os';
@@ -749,6 +750,11 @@ function printResult(value, json) {
 }
 
 async function cli(argv = process.argv.slice(2)) {
+  if (['servers', 'download', '--help', '-h', 'help'].includes(argv[0])) {
+    const { runDownloader } = await import('./strongvpn-download.mjs');
+    await runDownloader(argv);
+    return;
+  }
   const json = argv.includes('--json');
   const force = argv.includes('--force');
   const args = argv.filter((arg) => !arg.startsWith('--'));
@@ -817,10 +823,10 @@ async function cli(argv = process.argv.slice(2)) {
     printResult({ message: '已恢复到上一个 StrongVPN 配置。' }, json);
     return;
   }
-  throw new Error('Usage: status | credentials set <username> | benchmark [--force] | switch best | restore [--json]');
+  throw new Error('Usage: servers [filter] | download <server> | status | credentials set <username> | benchmark [--force] | switch best | restore [--json]');
 }
 
-const isMain = process.argv[1] && resolve(process.argv[1]) === resolve(fileURLToPath(import.meta.url));
+const isMain = process.argv[1] && existsSync(process.argv[1]) && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url));
 if (isMain) {
   cli().catch((error) => {
     const safeMessage = redactSensitive(error.message, []);

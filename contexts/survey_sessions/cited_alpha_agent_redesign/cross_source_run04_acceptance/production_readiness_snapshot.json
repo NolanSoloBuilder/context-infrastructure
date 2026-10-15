@@ -1,0 +1,307 @@
+{
+  "services": {
+    "cited-alpha-api": {
+      "revision": "cited-alpha-api-00047-nfj",
+      "url": "https://cited-alpha-api-rcbwgbgtcq-uc.a.run.app",
+      "image": "us-central1-docker.pkg.dev/cited-alpha-20260701/cited-alpha-backend/api:release-24b91fb869be48cd7020d5378043ab99ec2bcadf-34455223187",
+      "serviceAccount": "cited-alpha-api@cited-alpha-20260701.iam.gserviceaccount.com",
+      "timeoutSeconds": 300,
+      "concurrency": 80,
+      "safeEnv": {
+        "ENV_MODE": "prod",
+        "APP_RUNTIME_ROLE": "web",
+        "MINDSPACE_SECRETS_YAML_FILE": "/var/run/mindspace-secrets/prod.secrets.yaml",
+        "WORKSPACE_CLOUD_TASKS_ENABLED": "true",
+        "WORKSPACE_RUNNER_INTERNAL_AUDIENCE": "https://cited-alpha-api-rcbwgbgtcq-uc.a.run.app",
+        "WORKSPACE_RUNNER_ALLOWED_SERVICE_ACCOUNTS": "cited-alpha-workspace-dispatch@cited-alpha-20260701.iam.gserviceaccount.com",
+        "WORKSPACE_ML_RUNNER_URL": "https://cited-alpha-ml-runner-rcbwgbgtcq-uc.a.run.app",
+        "WORKSPACE_ML_RUNNER_AUDIENCE": "https://cited-alpha-ml-runner-rcbwgbgtcq-uc.a.run.app"
+      },
+      "secretVersions": [
+        {
+          "name": "cited-alpha-prod-secrets-yaml",
+          "items": [
+            {
+              "key": "latest",
+              "path": "prod.secrets.yaml"
+            }
+          ]
+        }
+      ],
+      "iam": {
+        "bindings": [
+          {
+            "members": [
+              "allUsers",
+              "serviceAccount:cited-alpha-workspace-dispatch@cited-alpha-20260701.iam.gserviceaccount.com"
+            ],
+            "role": "roles/run.invoker"
+          }
+        ],
+        "etag": "BwZbHPvP9zU=",
+        "version": 1
+      }
+    },
+    "cited-alpha-workspace-runner": {
+      "revision": "cited-alpha-workspace-runner-00023-rvm",
+      "url": "https://cited-alpha-workspace-runner-rcbwgbgtcq-uc.a.run.app",
+      "image": "us-central1-docker.pkg.dev/cited-alpha-20260701/cited-alpha-backend/api:release-24b91fb869be48cd7020d5378043ab99ec2bcadf-34455223187",
+      "serviceAccount": "cited-alpha-workspace-runner@cited-alpha-20260701.iam.gserviceaccount.com",
+      "timeoutSeconds": 1800,
+      "concurrency": 1,
+      "safeEnv": {
+        "ENV_MODE": "prod",
+        "APP_RUNTIME_ROLE": "workspace-runner",
+        "MINDSPACE_SECRETS_YAML_FILE": "/var/run/mindspace-secrets/prod.secrets.yaml",
+        "WORKSPACE_CLOUD_TASKS_ENABLED": "false",
+        "WORKSPACE_RUNNER_INTERNAL_AUDIENCE": "https://cited-alpha-workspace-runner-rcbwgbgtcq-uc.a.run.app",
+        "WORKSPACE_RUNNER_ALLOWED_SERVICE_ACCOUNTS": "cited-alpha-workspace-dispatch@cited-alpha-20260701.iam.gserviceaccount.com",
+        "WORKSPACE_ML_RUNNER_URL": "https://cited-alpha-ml-runner-rcbwgbgtcq-uc.a.run.app",
+        "WORKSPACE_ML_RUNNER_AUDIENCE": "https://cited-alpha-ml-runner-rcbwgbgtcq-uc.a.run.app"
+      },
+      "secretVersions": [
+        {
+          "name": "cited-alpha-prod-secrets-yaml",
+          "items": [
+            {
+              "key": "latest",
+              "path": "prod.secrets.yaml"
+            }
+          ]
+        }
+      ],
+      "iam": {
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:cited-alpha-ml-runner@cited-alpha-20260701.iam.gserviceaccount.com",
+              "serviceAccount:cited-alpha-workspace-dispatch@cited-alpha-20260701.iam.gserviceaccount.com"
+            ],
+            "role": "roles/run.invoker"
+          }
+        ],
+        "etag": "BwZbHtchK0I=",
+        "version": 1
+      }
+    },
+    "cited-alpha-ml-api": {
+      "revision": "cited-alpha-ml-api-00043-5lv",
+      "url": "https://cited-alpha-ml-api-rcbwgbgtcq-uc.a.run.app",
+      "image": "us-central1-docker.pkg.dev/cited-alpha-20260701/cited-alpha-ml-backend/ml-api:release-9a6c7e41d1943f4321a9e59f4e5eb65fecbb029d-34455221982",
+      "serviceAccount": "cited-alpha-ml-api-runtime@cited-alpha-20260701.iam.gserviceaccount.com",
+      "timeoutSeconds": 900,
+      "concurrency": 40,
+      "safeEnv": {
+        "ENV_MODE": "prod",
+        "APP_RUNTIME_ROLE": "web",
+        "MINDSPACE_SECRETS_YAML_FILE": "/secrets/prod.secrets.yaml",
+        "MODEL_CALLS_DISABLED": "true"
+      },
+      "secretVersions": [
+        {
+          "name": "cited-alpha-ml-prod-secrets-yaml",
+          "items": [
+            {
+              "key": "latest",
+              "path": "prod.secrets.yaml"
+            }
+          ]
+        }
+      ],
+      "iam": {
+        "bindings": [
+          {
+            "members": [
+              "allUsers"
+            ],
+            "role": "roles/run.invoker"
+          }
+        ],
+        "etag": "BwZVmyeGA6o=",
+        "version": 1
+      }
+    },
+    "cited-alpha-ml-runner": {
+      "revision": "cited-alpha-ml-runner-00023-9xq",
+      "url": "https://cited-alpha-ml-runner-rcbwgbgtcq-uc.a.run.app",
+      "image": "us-central1-docker.pkg.dev/cited-alpha-20260701/cited-alpha-ml-backend/ml-api:release-9a6c7e41d1943f4321a9e59f4e5eb65fecbb029d-34455221982",
+      "serviceAccount": "cited-alpha-ml-runner@cited-alpha-20260701.iam.gserviceaccount.com",
+      "timeoutSeconds": 1800,
+      "concurrency": 1,
+      "safeEnv": {
+        "ENV_MODE": "prod",
+        "APP_RUNTIME_ROLE": "workspace-runner",
+        "MINDSPACE_SECRETS_YAML_FILE": "/secrets/prod.secrets.yaml",
+        "MODEL_CALLS_DISABLED": "false",
+        "WORKSPACE_INTERNAL_AUTH_AUDIENCE": "https://cited-alpha-ml-runner-rcbwgbgtcq-uc.a.run.app",
+        "WORKSPACE_INTERNAL_AUTH_ALLOWED_SERVICE_ACCOUNTS": "cited-alpha-workspace-runner@cited-alpha-20260701.iam.gserviceaccount.com"
+      },
+      "secretVersions": [
+        {
+          "name": "cited-alpha-ml-prod-secrets-yaml",
+          "items": [
+            {
+              "key": "latest",
+              "path": "prod.secrets.yaml"
+            }
+          ]
+        }
+      ],
+      "iam": {
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:cited-alpha-workspace-runner@cited-alpha-20260701.iam.gserviceaccount.com"
+            ],
+            "role": "roles/run.invoker"
+          }
+        ],
+        "etag": "BwZbHM0o85Y=",
+        "version": 1
+      }
+    }
+  },
+  "secretWhitelist": {
+    "cited-alpha-prod-secrets-yaml": {
+      "research-runtime": {},
+      "document-ai": {
+        "credentialsFileConfigured": false
+      },
+      "workspace-harness-rollout": {},
+      "workspace-source-snapshot-storage": {},
+      "vertex-ai": {
+        "credentialsFileConfigured": false
+      }
+    },
+    "cited-alpha-ml-prod-secrets-yaml": {
+      "research-runtime": {},
+      "document-ai": {
+        "project-id": "",
+        "location": "",
+        "processor-id": "",
+        "credentialsFileConfigured": false
+      },
+      "workspace-harness-rollout": {},
+      "workspace-source-snapshot-storage": {},
+      "vertex-ai": {
+        "project-id": "",
+        "credentialsFileConfigured": false
+      }
+    }
+  },
+  "buckets": {
+    "cited-alpha-workspace-source-snapshots": {
+      "bindings": [
+        {
+          "members": [
+            "projectEditor:cited-alpha-20260701",
+            "projectOwner:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyBucketOwner"
+        },
+        {
+          "members": [
+            "projectViewer:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyBucketReader"
+        },
+        {
+          "members": [
+            "projectEditor:cited-alpha-20260701",
+            "projectOwner:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyObjectOwner"
+        },
+        {
+          "members": [
+            "projectViewer:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyObjectReader"
+        },
+        {
+          "members": [
+            "serviceAccount:829189946367-compute@developer.gserviceaccount.com",
+            "serviceAccount:cited-alpha-ml-runner@cited-alpha-20260701.iam.gserviceaccount.com",
+            "serviceAccount:cited-alpha-ml-runtime@cited-alpha-20260701.iam.gserviceaccount.com"
+          ],
+          "role": "roles/storage.objectCreator"
+        },
+        {
+          "condition": {
+            "description": "Create immutable research checkpoints only",
+            "expression": "resource.name.startsWith('projects/_/buckets/cited-alpha-workspace-source-snapshots/objects/workspace-research-checkpoints/v1/')",
+            "title": "research-checkpoint-create"
+          },
+          "members": [
+            "serviceAccount:cited-alpha-workspace-runner@cited-alpha-20260701.iam.gserviceaccount.com"
+          ],
+          "role": "roles/storage.objectCreator"
+        },
+        {
+          "members": [
+            "serviceAccount:cited-alpha-api@cited-alpha-20260701.iam.gserviceaccount.com",
+            "serviceAccount:cited-alpha-workspace-runner@cited-alpha-20260701.iam.gserviceaccount.com"
+          ],
+          "role": "roles/storage.objectViewer"
+        },
+        {
+          "condition": {
+            "description": "Read immutable research PDF and parse snapshots",
+            "expression": "resource.name.startsWith('projects/_/buckets/cited-alpha-workspace-source-snapshots/objects/workspace-source-snapshots/documents/sha256/')",
+            "title": "research-document-read"
+          },
+          "members": [
+            "serviceAccount:cited-alpha-ml-runner@cited-alpha-20260701.iam.gserviceaccount.com"
+          ],
+          "role": "roles/storage.objectViewer"
+        }
+      ],
+      "etag": "CAg="
+    },
+    "cited-alpha-20260701-document-ai": {
+      "bindings": [
+        {
+          "members": [
+            "projectEditor:cited-alpha-20260701",
+            "projectOwner:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyBucketOwner"
+        },
+        {
+          "members": [
+            "projectViewer:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyBucketReader"
+        },
+        {
+          "members": [
+            "projectEditor:cited-alpha-20260701",
+            "projectOwner:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyObjectOwner"
+        },
+        {
+          "members": [
+            "projectViewer:cited-alpha-20260701"
+          ],
+          "role": "roles/storage.legacyObjectReader"
+        },
+        {
+          "members": [
+            "serviceAccount:cited-alpha-ml-runner@cited-alpha-20260701.iam.gserviceaccount.com",
+            "serviceAccount:service-829189946367@gcp-sa-prod-dai-core.iam.gserviceaccount.com"
+          ],
+          "role": "roles/storage.objectCreator"
+        },
+        {
+          "members": [
+            "serviceAccount:cited-alpha-ml-runner@cited-alpha-20260701.iam.gserviceaccount.com",
+            "serviceAccount:service-829189946367@gcp-sa-prod-dai-core.iam.gserviceaccount.com"
+          ],
+          "role": "roles/storage.objectViewer"
+        }
+      ],
+      "etag": "CAU="
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "/Users/xuhao/.codex/auth.json": {
+    "exists": true,
+    "inode_matches": true,
+    "hash_matches": true
+  },
+  "/Users/xuhao/.config/mole/whitelist": {
+    "exists": true,
+    "inode_matches": true,
+    "hash_matches": true
+  },
+  "/Users/xuhao/Library/Application Support/Google/Chrome/Default": {
+    "exists": true,
+    "inode_matches": true
+  },
+  "/Users/xuhao/.android/adbkey": {
+    "exists": true,
+    "inode_matches": true,
+    "hash_matches": true
+  },
+  "/Users/xuhao/.android/adbkey.pub": {
+    "exists": true,
+    "inode_matches": true,
+    "hash_matches": true
+  },
+  "/Users/xuhao/Documents/Other/LibreChat/.git": {
+    "exists": true,
+    "inode_matches": true
+  }
+}

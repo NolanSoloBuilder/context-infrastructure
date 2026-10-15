@@ -1,0 +1,69 @@
+{
+  "status": "rejected",
+  "semanticReview": "rejected",
+  "editorialReview": "rejected",
+  "scores": {
+    "answer": 3,
+    "reasoning": 2,
+    "organization": 4,
+    "readability": 4,
+    "evidence": 1
+  },
+  "issues": [
+    {
+      "category": "factual",
+      "blockId": "cell-r2-c4",
+      "detail": "单元格陈述汽车业务同比变动-6.49%，但未绑定本地计算记录（calculationIds为空）。"
+    },
+    {
+      "category": "factual",
+      "blockId": "cell-r5-c4",
+      "detail": "单元格陈述服务与其他收入同比变动+26.63%，但未绑定本地计算记录（calculationIds为空）。"
+    },
+    {
+      "category": "factual",
+      "blockId": "cell-r6-c4",
+      "detail": "单元格陈述毛利同比变动-1.19%，但未绑定本地计算记录（calculationIds为空）。"
+    },
+    {
+      "category": "factual",
+      "blockId": "cell-r11-c4",
+      "detail": "单元格陈述资本支出同比变动+27.43%，但未绑定本地计算记录（calculationIds为空）。"
+    },
+    {
+      "category": "factual",
+      "blockId": "summary",
+      "detail": "摘要中提及高额资本支出（113.39亿美元）、上年释放递延所得税备抵以及相关业务风险，但未绑定资本支出证据（ev-5dacbbfe...）、MD&A税收说明（ev-02a01059...）及风险因子证据。"
+    },
+    {
+      "category": "factual",
+      "blockId": "p-rev-2",
+      "detail": "段落中汽车总营收下降6.49%与汽车销售收入下降7.68%均属于衍生增长率指标，但未绑定对应的本地计算记录。"
+    },
+    {
+      "category": "factual",
+      "blockId": "p-profit-1",
+      "detail": "段落中提及综合毛利率（由18.2%降至17.9%）、毛利变动（-1.19%）以及营业利润率（从9.2%下滑至7.2%），不仅缺少营业收入证据，且未绑定相应的利润率与增长率本地计算记录。"
+    },
+    {
+      "category": "factual",
+      "blockId": "p-profit-2",
+      "detail": "段落中研发费用增长14.39%、SG&A增长7.29%缺少本地计算记录支持；且所引用的重组费用证据中并无'其中5.83亿美元为员工离职遣散费'的具体事实支持。"
+    },
+    {
+      "category": "factual",
+      "blockId": "p-cf-2",
+      "detail": "段落中资本支出增长27.43%及自由现金流（约35.84亿美元）缺少本地计算记录，且该段落未绑定经营现金流证据以支撑自由现金流的计算。"
+    },
+    {
+      "category": "factual",
+      "blockId": "p-risk-3",
+      "detail": "段落中声称监管积分收入'占营业利润比例超过39%'，缺少营业利润证据支撑，且缺少本地绑定的比率计算记录。"
+    }
+  ],
+  "reviewer": {
+    "kind": "independent_model",
+    "version": "research-review/v3-compact-anchor-bindings"
+  },
+  "contentHash": "sha256:788785fc326c9e451134056c981402f195279778dc4ee08e0fc5062c6e9e8e96"
+}

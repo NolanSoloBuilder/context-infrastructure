@@ -1,0 +1,20 @@
+{
+  "sequence": 6,
+  "contentHash": "sha256:a9cc4a3c24a720a520baa313cc45fb6578c5eab68646b8eef809d4b501567eb2",
+  "byteSize": 5558,
+  "runStatus": "running",
+  "terminalReason": null,
+  "errorMessage": null,
+  "budgetUsage": {
+    "modelCalls": 1,
+    "toolCalls": 1
+  },
+  "evidenceCount": 0,
+  "calculationCount": 0,
+  "checkedCandidate": false,
+  "toolContractVersion": "research-tools/v2",
+  "documentCaptureStates": {
+    "doc_file_e9aca68920734fabbc3a27b72d27cfa3": "completed"
+  },
+  "proof": "separate process real MySQL pointer and GCS canonical bytes/scope/hash validation; no writes or model calls"
+}

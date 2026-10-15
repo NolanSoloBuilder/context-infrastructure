@@ -1,0 +1,45 @@
+{
+  "question": "比较 Tesla 2024 年报与所附 Q4 and FY 2024 Update 对全年收入、经营现金流和自由现金流的披露。核对主体、期间、单位及计算口径，解释一致与差异，并分别提供原文定位。",
+  "sourceA": {
+    "type": "SEC 10-K HTML",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+    "sha256": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18",
+    "filename": "2a5dc10024afd96cf71f154c949759123c1da05715fb574866eaba6e1ec3bb18.html",
+    "byteSize": 2596459,
+    "origin": "retained source used by actual canary07; bytes rehashed"
+  },
+  "sourceB": {
+    "sourceUrl": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+    "resolvedUrl": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+    "retrievedAt": "2026-09-11T02:26:27.234800+00:00",
+    "sha256": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc",
+    "byteSize": 11267189,
+    "mimeType": "application/pdf",
+    "filename": "05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc.pdf",
+    "issuer": "Tesla, Inc.",
+    "title": "Q4 and FY 2024 Update",
+    "sourceIndependence": "Distinct document from annual 10-K, same issuer; not independent corroboration",
+    "status": "local original archive; not yet attached to an application workspace or parsed by production Document AI"
+  },
+  "evaluationOnly": {
+    "mustDistinguish": [
+      "PDF physical page4 quarterly versus page5 annual",
+      "PDF financial summary explicitly Unaudited",
+      "same issuer is not independent institutional corroboration",
+      "reported rounded YoY versus independently calculated precise YoY",
+      "cash capex sign and definition before subtraction"
+    ],
+    "reviewedPdfPages": [
+      4,
+      5
+    ],
+    "requiredDeliverables": [
+      "two persistent source snapshots",
+      "both citations resolve within report version",
+      "PDF annual table page/field precision honestly identified",
+      "derived free cash flow inputs and formula readable",
+      "no number in question used as answer hint"
+    ]
+  },
+  "status": "source preparation and manual source review only; app ingestion, model comparison and UI acceptance pending"
+}

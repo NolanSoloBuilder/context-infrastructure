@@ -1,0 +1,9 @@
+# 已付费 PDF batch 原始结果归档
+
+2026-09-11。原件为上级目录SHA为05dfde334f800ec5f0ee140c0dd78409f24ad775e11a0c68f8a6b534b04cafdc的36页PDF。
+
+业务Run首次解析POST已被Document AI接纳；随后本地ADC缺少quota project导致operationGET403。使用本进程quota project恢复只读查询后确认SUCCEEDED。该业务Run保持failed，未写入报告，模型调用数为0。
+
+这里只保留该operation的精确子目录原始4个JSON分片。下载按GCS generation固定，字节大小及SHA见recovery-manifest.json。输入GCS对象与上传原件逐字节一致，页号完整覆盖1–36；没有重做batchProcess。operation、原件和分片的版本关系均保留。
+
+这些是解析与恢复证据，不代表OCR每个数字正确，也不代表报告交付。原始分片不可覆盖；后续normalizer升级应从这些原文另建版本。

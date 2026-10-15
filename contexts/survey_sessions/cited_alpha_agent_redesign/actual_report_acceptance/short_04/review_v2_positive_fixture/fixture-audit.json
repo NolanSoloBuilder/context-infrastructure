@@ -1,0 +1,16 @@
+{
+  "kind": "operator-repaired-positive-review-fixture",
+  "originalBundleSHA256": "5ce89d53821800e6c02e70c0b8f336842f03fb6b3e1d024e3258305915804d82",
+  "changes": [
+    "bind prior period and calculation to summary and paragraph",
+    "bind original revenue to units paragraph",
+    "replace unsupported functional currency with supported reporting currency"
+  ],
+  "unchanged": [
+    "all source evidence",
+    "all calculations",
+    "original source directory"
+  ],
+  "agentGeneratedRevision": false,
+  "productionPublished": false
+}

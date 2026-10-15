@@ -1,0 +1,266 @@
+{
+  "generated_at": "2026-10-09T16:11:52+08:00",
+  "scan_seconds": null,
+  "system": {
+    "os": "macOS 27.0",
+    "build": "26A5425a",
+    "arch": "Apple Silicon arm64",
+    "user": "xuhao",
+    "home": "/Users/xuhao",
+    "filesystem": "APFS",
+    "disk_total": "494.38 GB",
+    "disk_used": "458.86 GB",
+    "disk_free": "35.53 GB",
+    "purgeable": "",
+    "disk_name": "内置APFS容器"
+  },
+  "top5": [
+    {
+      "rank": 1,
+      "name": "企业微信数据",
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac/Data",
+      "size": "约 48.42 GB",
+      "tier": "yellow",
+      "type": "账号/聊天附件",
+      "note": "疑似残留，需判断是否继续使用"
+    },
+    {
+      "rank": 2,
+      "name": "系统开发资源",
+      "path": "/Library/Developer；/System/Library/AssetsV2/...iOSSimulatorRuntime",
+      "size": "约 27.40 GB",
+      "tier": "yellow",
+      "type": "运行时/共享缓存",
+      "note": "Developer18.29GB，另有iOS旧运行时backing约9.12GB；已排除挂载卷重复统计"
+    },
+    {
+      "rank": 3,
+      "name": "npx工具安装",
+      "path": "/Users/xuhao/.npm/_npx",
+      "size": "约 18.15 GB",
+      "tier": "yellow",
+      "type": "重复临时工具",
+      "note": "其中旧数字目录17.00GB"
+    },
+    {
+      "rank": 4,
+      "name": "系统VM交换卷",
+      "path": "/System/Volumes/VM",
+      "size": "约 16.11 GB",
+      "tier": "blue",
+      "type": "系统运行时",
+      "note": "正常重启后复测，保留系统管理"
+    },
+    {
+      "rank": 5,
+      "name": "16个Node版本",
+      "path": "/Users/xuhao/.nvm/versions/node",
+      "size": "约 12.57 GB",
+      "tier": "yellow",
+      "type": "运行环境",
+      "note": "按项目版本与全局CLI需求筛选"
+    }
+  ],
+  "green": [
+    {
+      "name": "Notion普通缓存",
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Cache\n/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Code Cache",
+      "size_estimate": "约 0.90 GB",
+      "kill_processes": [
+        "Notion"
+      ],
+      "trash_paths": [
+        "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Cache",
+        "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Code Cache"
+      ],
+      "commands": [
+        {
+          "label": "复核这几个明确缓存目录（只读）",
+          "cmd": "du -sk '/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Cache' '/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Code Cache'"
+        },
+        {
+          "label": "未来维护时仅清这些缓存；Service Worker与账号档案保留",
+          "cmd": "# 确认应用已退出并批准当次清单后再执行\nrm -rf -- '/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Cache' '/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Code Cache'"
+        }
+      ]
+    },
+    {
+      "name": "Figma普通缓存",
+      "path": "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Cache\n/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Code Cache",
+      "size_estimate": "约 1.14 GB",
+      "kill_processes": [
+        "Figma"
+      ],
+      "trash_paths": [
+        "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Cache",
+        "/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Code Cache"
+      ],
+      "commands": [
+        {
+          "label": "复核这几个明确缓存目录（只读）",
+          "cmd": "du -sk '/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Cache' '/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Code Cache'"
+        },
+        {
+          "label": "未来维护时仅清这些缓存；Service Worker与账号档案保留",
+          "cmd": "# 确认应用已退出并批准当次清单后再执行\nrm -rf -- '/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Cache' '/Users/xuhao/Library/Application Support/Figma/DesktopProfile/v42/Code Cache'"
+        }
+      ]
+    },
+    {
+      "name": "Bun包下载缓存",
+      "path": "/Users/xuhao/.bun/install/cache",
+      "size_estimate": "约 2.02 GB",
+      "kill_processes": [
+        "Bun安装/开发任务"
+      ],
+      "trash_paths": [
+        "/Users/xuhao/.bun/install/cache"
+      ],
+      "commands": [
+        {
+          "label": "未来使用原生命令；保留install/global和bin",
+          "cmd": "bun pm cache rm"
+        }
+      ]
+    }
+  ],
+  "yellow": [
+    {
+      "name": "旧npx临时安装：第一优先级",
+      "path": "/Users/xuhao/.npm/_npx",
+      "size": "约 17.00 GB（旧数字目录；整个npx为18.15 GB）",
+      "content_profile": "561个旧数字前缀目录：重复mcp@1.4.2约8.11GB、.staging残留约7.89GB；现代13个哈希目录约1.15GB，其中三个在运行。",
+      "why_manual": "当前Node25.2.1搭配npm/npx6.14.18。libnpx源码证实按PID创建临时目录并在退出时清理；残留与未完成退出清理相符，具体原因未验证。",
+      "disposal": "先统一默认全局Node/npm/npx来源，并固定常用MCP/CLI的全局安装版本。验证各工具入口后安排维护窗口，复查进程，仅列出旧数字目录供清理。保留现代哈希目录和运行中的根，再回读df。",
+      "risk": "直接清空_npx会打断当前MCP；17GB是候选体量上限。"
+    },
+    {
+      "name": "pnpm共享store：原生prune",
+      "path": "/Users/xuhao/Library/pnpm/store",
+      "size": "约 9.99 GB",
+      "content_profile": "共享包store；pnpm根10.16GB中另含global和.tools。",
+      "why_manual": "全部store大小不等于未引用包大小，与项目依赖可能硬链接共享。",
+      "disposal": "确认当前pnpm版本与store dir，并完成或暂停安装任务。使用pnpm store prune处理未引用包，保留global和.tools。运行前后读取df，记录实际收益。",
+      "risk": "不能手删整个Library/pnpm；prune实际释放量未知。"
+    },
+    {
+      "name": "Chrome本地AI模型：按需要处理",
+      "path": "/Users/xuhao/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
+      "size": "约 4.27 GB",
+      "content_profile": "本地Gemini/内置AI下载模型；与书签、密码、登录和Default档案分离。",
+      "why_manual": "是否保留取决于是否使用浏览器内置AI。Chrome当前有进程，模型可能按应用请求重新下载。",
+      "disposal": "先在chrome://on-device-internals检查模型用途。确认不需要后关闭Chrome，下一轮只预览和处理这个模型目录。重新打开后保留用户档案，并回读磁盘增量。",
+      "risk": "未来调用内置AI可能重新下载；官方依据见报告正文链接。"
+    },
+    {
+      "name": "企业微信：最大可审查用户数据",
+      "path": "/Users/xuhao/Library/Containers/com.tencent.WeWorkMac/Data",
+      "size": "约 48.42 GB",
+      "content_profile": "账号、聊天文件和本地文档；Profiles单测约39.38GB。安装目录和Spotlight查询均未找到企业微信，仅能判断疑似残留。",
+      "why_manual": "可能存在需要留存且尚未同步的附件和账号数据库。",
+      "disposal": "先确认是否仍使用企业微信及资料保留需求。继续使用时，通过应用内存储管理按大附件逐项清理；若已弃用，先导出或归档需要的文件，并核对备份后再处理残留容器。手动审查可从访达打开此路径开始。",
+      "risk": "不要整目录直接删除Profiles或Data；移动到废纸篓还需清空才释放空间。",
+      "open_note": "内部是账号关联结构，优先用应用内管理或完整归档，避免只删数据库旁边的附件目录。"
+    },
+    {
+      "name": "16个Node运行环境",
+      "path": "/Users/xuhao/.nvm/versions/node",
+      "size": "约 12.57 GB",
+      "content_profile": "16个Node14/16/18/19/20/22版本，包含各版本全局CLI。",
+      "why_manual": "老项目的.nvmrc和全局CLI可能仍依赖这些版本，当前PATH默认是Homebrew Node25。",
+      "disposal": "先列nvm ls并汇总活跃项目.nvmrc。将需保留的全局CLI迁到确定的全局环境并验证。只用nvm uninstall删除确认不再需要的版本，保留当前项目要求的解释器。",
+      "risk": "12.57GB是全部环境体量，不能当作可全量释放。"
+    },
+    {
+      "name": "停用中的LibreChat Colima虚拟盘",
+      "path": "/Users/xuhao/.colima",
+      "size": "约 10.59 GB",
+      "content_profile": "librechat profile Stopped，包含持久虚拟机磁盘；Docker daemon当前不可连接。",
+      "why_manual": "镜像、MongoDB/上传内容和卷的比例尚未验证。",
+      "disposal": "确认本地LibreChat环境是否还要使用。继续使用时择时启动后先docker system df核对镜像和卷；已弃用时先备份数据库与上传内容。最后通过Colima profile管理卸载，再读取df。",
+      "risk": "删除整个磁盘会丢失持久数据库和卷。"
+    },
+    {
+      "name": "Notion离线分区",
+      "path": "/Users/xuhao/Library/Application Support/Notion/Partitions/notion/Service Worker",
+      "size": "约 6.49 GB",
+      "content_profile": "Service Worker离线/网站状态。Notion根7.41GB中另有已列绿灯的0.90GB普通缓存。",
+      "why_manual": "安装查询未找到Notion，但不能据此认定本地页面和离线状态无价值。",
+      "disposal": "确认是否继续使用Notion及云端同步。先清已量出的普通Cache和Code Cache。要处理此离线分区时，使用应用重置或先归档后决定，保留未同步内容。",
+      "risk": "离线页面和网站状态可能丢失。"
+    },
+    {
+      "name": "微信聊天和小程序数据",
+      "path": "/Users/xuhao/Library/Containers/com.tencent.xinWeChat/Data",
+      "size": "约 4.86 GB",
+      "content_profile": "Documents约3.20GB，小程序资源约1.61GB；普通Caches只有约15MB。",
+      "why_manual": "大头含聊天和小程序状态，需要按用途筛选。",
+      "disposal": "在微信内打开存储或缓存管理。优先审查不需要的视频、图片和小程序资源。需要的聊天附件先备份或导出，再逐项处理。",
+      "risk": "清理附件后历史消息里的文件可能无法再次打开。"
+    },
+    {
+      "name": "项目依赖：只清不活跃项目",
+      "path": "/Users/xuhao/Documents",
+      "size": "已验证子项目至少约 29 GB，aurora整根未完成",
+      "content_profile": "armor的node_modules3.33GB、craft-agents-oss2.22GB、LibreChat2.04GB、mono-live1.75GB；不计入本报告分段总和，以免与store硬链接重复。",
+      "why_manual": "这些是项目可再生依赖，但重装需要网络、私有registry和可能的编译环境。",
+      "disposal": "先选择近期不再开发的项目。保留源码、锁文件和本地配置，再预览node_modules及构建产物。只处理确认闲置的项目，并验证需要时仍能恢复依赖。",
+      "risk": "不删除活跃项目、.git、.local数据库或环境文件。"
+    },
+    {
+      "name": "Xcode/Android开发资源",
+      "path": "/Library/Developer；/Users/xuhao/Library/Android/sdk",
+      "size": "系统Developer18.29GB＋iOS旧runtime backing约9.12GB；Android SDK6.92GB",
+      "content_profile": "iOS26.3镜像8.39GB、dyld共享缓存7.86GB；另有系统iOS旧runtime backing约9.12GB。Android只有一个NDK和Android36镜像。",
+      "why_manual": "上一轮明确保留的开发资源，版本是否需要取决于实际项目与测试目标。",
+      "disposal": "先列xcrun simctl list runtimes并确认活跃项目的iOS/Android目标。在Xcode或SDK Manager里选择卸载不用的runtime、NDK和镜像。保留仍使用的工具链，结束后通过管理器和df回读。",
+      "risk": "不要删除已挂载的runtime卷路径，避免重复计算挂载镜像大小。"
+    }
+  ],
+  "red": [
+    {
+      "name": "Codex会话和SQLite索引",
+      "path": "/Users/xuhao/.codex",
+      "size": "约 9.80 GB",
+      "why_keep": "archived_sessions约4.66GB、thread_history_1.sqlite约1.58GB、sessions约0.77GB，属于会话与索引；.tmp约1.06GB也可能有进行中的安装。",
+      "indirect_release": "保留【长期】前缀、正在运行会话及automation；先做当次清单和空间dry-run，再确认需要删除的会话，并通过App的会话删除能力一致处理索引。这里只进行规划。",
+      "auto_reclaim": "会话归档本身不等于释放磁盘空间。"
+    }
+  ],
+  "denied": [
+    "/Users/xuhao/Library/Application Support/FileProvider/Purgatory：Resource deadlock avoided，未确认遗漏体量。",
+    "/Users/xuhao/Library/Containers：根目录超时，未计量剩余Apple容器；重点企业微信/微信/WPS Data已经补扫。",
+    "/Users/xuhao/Library/Containers/app.pastenow.PasteNow：单项45秒超时，未确认体量。",
+    "/System/Volumes/Data/Library：系统/管理员保护目录 Permission denied / Operation not permitted，未使用sudo。",
+    "/Applications/SMPrinterClient.app/Contents/Resources/SAMKeychain.bundle：Permission denied，App计量是下限。",
+    "/Users/xuhao/Documents/Basic/aurora/node_modules：独立补测超时，未计入体量。",
+    "/Users/xuhao/Documents：根扫描超时，已按项目补测；大部分项目已量出。",
+    "/System/Library/AssetsV2：部分受保护系统资产未能读取；iOSSimulatorRuntime已量到9.12GB。",
+    "/private/var：60秒超时，根目录总量未确认；/private/var/vm的sleepimage已单独测量。"
+  ],
+  "summary": {
+    "overview": "优先处理旧npx重复安装与工具链一致性；明确应用缓存/可选模型约6.30GB，企业微信48.42GB需先审查资料保留。分段色块表示候选目录体量，实际可释放量须清理后复测。",
+    "tier_stats": {
+      "green": "约 4.05 GB",
+      "yellow": "约 148.52 GB",
+      "red": "约 9.80 GB"
+    },
+    "priority": [
+      "1. 先统一默认全局Node/npm/npx并验证常用MCP，维护窗口仅清旧数字npx目录；候选上限17.00GB。",
+      "2. 退出相关应用后，处理Notion/Figma普通缓存2.03GB；按需处理Chrome本地AI模型4.27GB和Bun下载缓存2.02GB。",
+      "3. pnpm store prune只清未引用包；store9.99GB为上限，实际收益未知。",
+      "4. 保存工作后正常重启，再读df和VM卷；当前swap卷16.1GB可能部分回收，也可能随内存压力增长。",
+      "5. 若仍需要更多空间，先判断企业微信48.42GB是否已弃用，再筛选旧Node版本、模拟器和Colima环境。"
+    ],
+    "long_term": [
+      "固定常用MCP/CLI的全局安装版本，减少启动时临时下载。libnpx的PID目录/退出清理源码支持残留模式，但每次退出失败原因尚未验证。",
+      "不要将挂载的iOS运行时卷再次相加；目录分配块会受硬链接和APFS克隆共享影响。",
+      "本轮 Downloads和Trash几乎为空，Homebrew定向旧版本仅约9MB，清理收益应集中于npx、应用状态和已弃用环境。",
+      "普通应用本体约29.71GB；保留日常使用的应用，按需卸载实际不再使用的应用。",
+      "Chrome模型管理官方说明：https://developer.chrome.com/docs/ai/understand-built-in-model-management；未来应用请求内置AI时模型可能重新下载。",
+      "扫描为2026-10-09只读快照。Mole整机总览partial；本报告用du -x补测重点路径，未宣称穷尽所有文件。",
+      "系统iOS旧runtime backing已单独量到约9.12GB；删除前需确认测试版本，再通过Xcode或simctl runtime管理入口处理。",
+      ".local约7.10GB、系统AssetsV2已见约13.76GB（partial），这类混合运行/系统数据默认保留。"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "runtime_images": {
+    "exit": 0,
+    "stdout": "{\n\n}\n",
+    "stderr": ""
+  },
+  "runtimes": {
+    "exit": 0,
+    "stdout": "{\n  \"runtimes\" : [\n\n  ]\n}\n",
+    "stderr": ""
+  },
+  "devices": {
+    "exit": 0,
+    "stdout": "{\n  \"devices\" : {\n\n  }\n}\n",
+    "stderr": ""
+  },
+  "paths": {
+    "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime/6fb1e5fe25ee1c372f7116516e615c556906bd4e.asset/AssetData/090-44150-318.dmg": {
+      "exists": true,
+      "size": 9116354048,
+      "allocated": 9116356608
+    },
+    "/Library/Developer/CoreSimulator/Cryptex/Images/SimRuntimeBundle-C442B829-14F6-4BA3-934A-C6131CA7C6FC.dmg": {
+      "exists": false,
+      "size": 0,
+      "allocated": 0
+    }
+  }
+}
