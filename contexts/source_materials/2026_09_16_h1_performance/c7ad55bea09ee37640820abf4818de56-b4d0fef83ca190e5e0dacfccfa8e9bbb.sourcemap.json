@@ -1,0 +1,74 @@
+{
+  "1d5b4ebcff5be9779fef23532ebbe849": {
+    "mdContent": "# AI Coding AI代码覆盖追踪"
+  },
+  "47544445d407218d05cdc45b19385dee": {
+    "mdContent": "注意：codewiz vscode 插件 暂不支持 hook 代码统计，如果是会用codewiz出码，需要手动给commit打标。"
+  },
+  "3154001e8aebfb7ce74b8ed85491f88a": {
+    "mdContent": "```bash\ngit commit -m \"feat: xxxxx --VibeAiCoding-codewiz\"\n```"
+  },
+  "bf4cbb37b127d8a731bf9e60b6c1e0ba": {
+    "mdContent": "<font backgroundColor=\"#FFFF33\">codwiz-cli 支持统计，目前建议使用，安装文档：</font>[CodeWiz-CLI 快速开始指南](https://docs.xiaohongshu.com/doc/f9231ed568bd4c24e2e765c14c466a14)<font backgroundColor=\"#FFFF33\">安装完 codewiz 后，执行一下命令，重启 codewiz-cli 就能统计到了。</font>"
+  },
+  "4d11b16561c2e5aef0dcf46298c58697": {
+    "mdContent": "```plaintext\ngit-ai install-hooks && mkdir -p ~/.config/codewiz/plugin && ln -sf ~/.config/opencode/plugins/git-ai.ts ~/.config/codewiz/plugin/git-ai.ts\n```"
+  },
+  "c6e1ba1414f2d9e99f4f338cf191adac": {
+    "mdContent": "<br/>"
+  },
+  "9f3957642b8623c3a1116205bdfd095d": {
+    "mdContent": "![](https://xhs-doc-i1.xhscdn.com/104004dg31u4kb6iv2s05bi4h4o?sign=27a1ebd4ff6ebfafa03f9defc59d33c1&t=6ab724ae&redoc-w=1044&redoc-h=214)"
+  },
+  "7d0050fe537074096d61581a92a79cf5": {
+    "mdContent": "<br/>"
+  },
+  "2c415bd692026bdc1fcd00f397a65f0e": {
+    "mdContent": "### 使用步骤"
+  },
+  "4c569c18da109c4ee6d8b31359cd786d": {
+    "mdContent": "#### 标准流程"
+  },
+  "5365255d6dffd840f9fb2ca2cdf0c313": {
+    "mdContent": "[1. 本地安装 git-ai](https://docs.xiaohongshu.com/doc/7d5afc465b9e151b8fa02be1a43975a8?anchorLinkId=block-fc66521cc97cda222ef8490bf8695a29)"
+  },
+  "8093e9531daa0ae712949cd51f1f650e": {
+    "mdContent": "新统计方式接入："
+  },
+  "5f52dbf76eec803201c5ae35d0ca2d71": {
+    "mdContent": "<redoc-mention mentionId=\"500033350\" mentionName=\"赤红(王亦森)\" /><redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" /><redoc-mention mentionId=\"500017698\" mentionName=\"古辰(谷万坡)\" /><redoc-mention mentionId=\"160882893\" mentionName=\"南天(杨志鹏)\" />搞下新统计方式的流水线配置，详情查看[CodeWiz-CLI 快速开始指南](https://docs.xiaohongshu.com/doc/f9231ed568bd4c24e2e765c14c466a14)"
+  },
+  "b376c75bb136f0e98367bc2cacfdf353": {
+    "mdContent": "| 域 | 项目 | 负责人 | 流水线是否安装统计 |\n| --- | --- | --- | --- |\n| 营销 | vibe-marketing-rn | <redoc-mention mentionId=\"500011869\" mentionName=\"南冬(徐昊)\" /> | 是 |\n| 交易链路 | armor | <redoc-mention mentionId=\"500033350\" mentionName=\"赤红(王亦森)\" /> | <br/> |\n| 频道用增市集 | vibe-rn | <redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" /> | 是 |\n| 直播 | live-rn-mono | <redoc-mention mentionId=\"500017698\" mentionName=\"古辰(谷万坡)\" /> | <br/> |\n| 橱窗 | wakanda-comp-rn | <redoc-mention mentionId=\"160882893\" mentionName=\"南天(杨志鹏)\" /> | 是 |\n| 市集种草 | market-promotion | <redoc-mention mentionId=\"160882893\" mentionName=\"南天(杨志鹏)\" /> | 是 |\n| 新大仓 | wakanda-rn-monorepo | <redoc-mention mentionId=\"160882893\" mentionName=\"南天(杨志鹏)\" /> | 是 |"
+  },
+  "daa9786921b0d94c77ea3782b2cfc572": {
+    "mdContent": "<br/>"
+  },
+  "982fd27e8c809ff7e2f14a6a4a5d8856": {
+    "mdContent": "<br/>"
+  },
+  "da924d8d585f8d1800cabf03d0a2c9b2": {
+    "mdContent": "#### 待废弃："
+  },
+  "f88dfdc53ec9b942fd20a48f9db384ec": {
+    "mdContent": "~~使用ai-assist-commit Skill，初始化个人环境。将这句话发送给安装过 skill 的 IDE 跟随 ai 提示安装个人环境安装。~~"
+  },
+  "55ac997288df31fc1efbcc54fcc5f84a": {
+    "mdContent": "~~tips：项目环境根据表格@南冬进行 mr 提交，大家不需要关心，只需要安装个人环境配置。~~"
+  },
+  "46ee5c93c0fbde2a4a1424f8a1e806a0": {
+    "mdContent": "1. ~~验证效果（设置完，重启IDE 重启shell cli）~~"
+  },
+  "b2a47c37d955811b2db35581f6712843": {
+    "mdContent": "  1. ~~使用 ai 修改文件，commit 提交代码，git log 查看 commit 信息，git push 会自动生成报~~~~告(注意，第一次push生成报告后会拦截，需要两次push)。~~"
+  },
+  "d25cec1261021e4cd7041a983ae1e53c": {
+    "mdContent": "<redoc-columns>\n<redoc-column ratio=\"0.2\">\n![](https://xhs-doc-i1.xhscdn.com/1040025031rspjikn1k02t50mf0?sign=de6b58863432a2f63c5d0c5dc79b2b3f&t=6ab724af&redoc-w=900&redoc-h=432)\n\n![](https://xhs-doc-i1.xhscdn.com/1040025031rspjqa6hk057tvhc0?sign=c549edf8320625836c783d4ccdba6804&t=6ab724af&redoc-w=332&redoc-h=298)\n\n</redoc-column>\n<redoc-column ratio=\"0.2\">\n![](https://xhs-doc-i1.xhscdn.com/1040025031rseu4ve1k02747gvo?sign=7e42e17cb6d0af3a73cecc8c126c6242&t=6ab724af&redoc-w=332&redoc-h=252)\n\n提交两次push\n\n![](https://xhs-doc-i1.xhscdn.com/1040025031rsrder31k02c5kb9s?sign=3f369c2962776ebbb0f7a1524c462f09&t=6ab724af&redoc-w=308&redoc-h=104)\n\n</redoc-column>\n<redoc-column ratio=\"0.2\">\n常见错误1：编辑器 hook 报错，\n\n![](https://xhs-doc-i1.xhscdn.com/1040025031rseuisl1k04amls5c?sign=ba7a0332aad70b20a70f81b72193f0bb&t=6ab724af&redoc-w=1798&redoc-h=1134)\n\n</redoc-column>\n<redoc-column ratio=\"0.194161\">\n常见错误 2：commit hooks 没执行\n\n检查 hooks 路径，设置为 .hooks\n\n设置路径命令：\n\n```plaintext\n git config core.hooksPath .hooks \n```\n\n<br/>\n\n查看git hook 路径\n\n```plaintext\n git config core.hooksPath\n```\n\n</redoc-column>\n<redoc-column ratio=\"0.205839\">\n常见错误3：git-ai不可用，重启shell 或者IDE\n\n<br/>\n\n![](https://xhs-doc-i1.xhscdn.com/1040025031rtiodtn1k0a19ci98?sign=618c023d0f285566568078c709cc3845&t=6ab724af&redoc-w=618&redoc-h=188)\n\n</redoc-column>\n</redoc-columns>"
+  },
+  "b5dc10bcc2f4d496b6550db7e04759ab": {
+    "mdContent": "<br/>"
+  },
+  "510a6a16668fa20d64f2c97dcf4eb613": {
+    "mdContent": "<br/>"
+  }
+}

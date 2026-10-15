@@ -1,0 +1,428 @@
+{
+  "bb0e7c6602b0f45ea8ee436325ba8cb0": {
+    "mdContent": "# # AI 代码覆盖率汇报摘要"
+  },
+  "418889e35f32802f56f4933ab2ccfdbb": {
+    "mdContent": "<br/>"
+  },
+  "6c6204999adcf3a9b284789c80114c00": {
+    "mdContent": "<br/>"
+  },
+  "c303fa6886958525e4ba83ddc0ed706c": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">统计时间范围：</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">2026-04-01</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 至 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">2026-04-14</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font>"
+  },
+  "7c919c6e100ffea9fe78c9704b461499": {
+    "mdContent": "<br/>"
+  },
+  "da89f433d9afb7be75f25449bf3af255": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">生成时间：</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">2026-04-14 10:17:49 CST</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font>"
+  },
+  "15682fa3aba431f9ec5a8d144194b980": {
+    "mdContent": "<br/>"
+  },
+  "391db942c420b0149fee31f1720ef345": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">统计口径说明：</font>"
+  },
+  "368c7d67436db1fc8359dcb5f59cec66": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 基于各项目 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">ai-code-report</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 目录下的 Markdown 报告汇总</font>"
+  },
+  "681f1fbd9a42a562fa8f220355bdbdfa": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 同一分支仅保留时间范围内最新的一份报告</font>"
+  },
+  "ceadb1d4967c37fc30e79bedd344d639": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 过滤总新增代码 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">&lt;= 100</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行的小型变更</font>"
+  },
+  "6cbc6e1687d0b9079f68be7e6dd0b1c7": {
+    "mdContent": "<br/>"
+  },
+  "fc92b21abb6b041f72599daa8ad5e1c9": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 一、结论摘要</font>"
+  },
+  "6fc01365affba82e9ac45d6d85891cf6": {
+    "mdContent": "<br/>"
+  },
+  "26a5f933434b2b1c1e40cb1c8179320a": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">本次共统计有效报告 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**19**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 份，其中 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**11**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 份包含 AI 代码，</font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**8**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 份为纯手工开发，按报告数计算的 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**AI 覆盖率为 57.89%**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">。</font>"
+  },
+  "a8979f2f456db6d7919511b8c2457a19": {
+    "mdContent": "<br/>"
+  },
+  "ddee0143f77d8d3b02d1ccccf83123df": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">从代码量看，总新增代码 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**25,954**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行，其中：</font>"
+  },
+  "e64b8d061093b9ebf0637d0ee66227a0": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\"> **AI 新增 13,769 行，占 53.05%**</font>"
+  },
+  "50f9808f3893e317bd08bd07da1adba2": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\"> **人工新增 12,185 行，占 46.95%**</font>"
+  },
+  "c4a325a8bd745159ae8482e378fd379f": {
+    "mdContent": "<br/>"
+  },
+  "cc7c9182ef54dc9eb037bd1260634a11": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">整体结论：</font>"
+  },
+  "f216f11954812c148534f7ddb192c8fd": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 4 月上半月口径下，AI 报告覆盖率接近 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">60%</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">，而代码量口径已经超过 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">50%</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">，说明本阶段 AI 在实际交付中的参与深度明显提升</font>"
+  },
+  "2b5f0854174b9f4b876bfa15d25fc0a5": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\"> `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">live-rn-mono</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 是本轮最核心的 AI 产出来源，不仅样本最多，而且贡献了绝大多数 AI 代码</font>"
+  },
+  "e8a1af9e1895eef011c1512c81d00fcd": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\"> `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">armor</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 本轮样本数不多，但 3 个有效样本全部包含 AI，且整体 AI 占比接近 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">85%</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font>"
+  },
+  "80a8ee941b1630ad8571e5a70b6d4f88": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\"> `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">wakanda-comp-rn</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 和 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">market-promotion</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 本轮仍以纯手工样本为主，项目间落地深度差异依旧明显</font>"
+  },
+  "b7c38ad3d0959b19c34a5df157093566": {
+    "mdContent": "<br/>"
+  },
+  "2b9fd11133a495d03e81c098394be9b5": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 二、核心数据</font>"
+  },
+  "b4c27048245e2e78b96a5120113d86dd": {
+    "mdContent": "<br/>"
+  },
+  "480acbfcafb4de0ed1d79d39867c360e": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 指标 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 数值 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "b61f7acbf5efbf56226b9f527b045588": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;------&#124;------&#124;</font>"
+  },
+  "6556d09c159ee1249edeb30ccbc32c1d": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 原始报告数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 30 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "c65b124ba1187188cb864f007ab4ba83": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 过滤后有效报告数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 19 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "87d3adf4590f76364fecb001ad944d0a": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 含 AI 代码报告数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 11 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "e95394fede4223096f9f3cd0aefca9e2": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 纯手工报告数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 8 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "389fd8ac8427d69db873304368e4de36": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI 覆盖率 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 57.89% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "cbedeff75cfe61001aaebacf99e16fff": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 总新增代码 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 25,954 行 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "dd442a543140eb26ab992ddbf306387b": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI 新增代码 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 13,769 行 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "57b9a4570465721a32af874a1775c4e1": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人工新增代码 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 12,185 行 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "b83b1392428e72b4c1a679aec2d3bd38": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI 代码占比 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 53.05% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "7a3448f41eaabae01d04477c0965bd12": {
+    "mdContent": "<br/>"
+  },
+  "377961b54cb3d75c88e73c54106d844c": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 三、分项目情况</font>"
+  },
+  "a1cc9b569efa56c4e38b77e8fda28e4d": {
+    "mdContent": "<br/>"
+  },
+  "e76cc78cc8be228731dcd94847d9b9fb": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 项目 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 报告数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 含 AI 报告 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 覆盖率 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI代码行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人工代码行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI占比 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "ee5f0ccbe79733878d001249c08748fa": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;------&#124;--------&#124;-----------&#124;--------&#124;-----------:&#124;-------------:&#124;--------:&#124;</font>"
+  },
+  "8524052194d07fdc5a77eb1d650d70dd": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> armor </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 3 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 3 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 100.00% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 494 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 88 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 84.88% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "ccb8972203987ef9fc6f9ab18f969ac9": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 13 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 8 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 61.54% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 13,275 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 9,845 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 57.42% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "0b25b64c8ba455a5151cdbd9405b8c7a": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wakanda-comp-rn </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 2 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0.00% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1,859 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0.00% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "966f470ace8955dd29bb86833a72a554": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> market-promotion </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0.00% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 393 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 0.00% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "255b0b5f8545ffec3b6dac158faf8cf0": {
+    "mdContent": "<br/>"
+  },
+  "96a4f0ffe16b449d1cabebecc629e6bc": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">项目观察：</font>"
+  },
+  "744b01eca026934c34903295eedf5c70": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\"> `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">live-rn-mono</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 本轮贡献了 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**13,275**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行 AI 代码，是绝对核心的 AI 产出项目</font>"
+  },
+  "612941c9a7c8a36ac295a94ec107e8f6": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\"> `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">armor</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 样本虽然只有 3 个，但全部带 AI，且 AI 占比高达 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">84.88%</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font>"
+  },
+  "4f71a19ce5d7ffc7f182c4c0ae5f2c9b": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\"> `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">wakanda-comp-rn</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 与 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">market-promotion</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 本轮未出现进入有效区间的 AI 样本</font>"
+  },
+  "fe73942c7f74f8b386685d435d9123a9": {
+    "mdContent": "<br/>"
+  },
+  "d6d1a7bc3f94d4e461c7d260d7d32c0e": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 四、重点发现</font>"
+  },
+  "f5c65590e8e702916b6413acabde0888": {
+    "mdContent": "<br/>"
+  },
+  "d4cf38b5bcf32e19fb3daa3ba187e992": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">### 1. AI 代码量占比首次超过人工</font>"
+  },
+  "c5834e0835cb6b2257cc7427e16ffdbd": {
+    "mdContent": "<br/>"
+  },
+  "47a0b8bfc6f99fa89a02216ffb2a26ae": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">本轮 AI 新增代码占比达到 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**53.05%**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">，已经高于人工新增的 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**46.95%**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">。这说明在 4 月上半月的有效样本里，AI 已经成为主要产出来源之一。</font>"
+  },
+  "b0829da777fc6808bcce9d0977aeea91": {
+    "mdContent": "<br/>"
+  },
+  "ec1fac71356e604ccaf3b571b2110223": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">### 2. AI 产出高度集中在 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">live-rn-mono</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font>"
+  },
+  "66dbe4ceee9c64315f72ab549b570c29": {
+    "mdContent": "<br/>"
+  },
+  "bebe3543c7fba29149b2a680adadc922": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">live-rn-mono</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 单项目贡献 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**13,275**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行 AI 代码，占全部 AI 新增代码的 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**96.41%**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">。本轮 AI 的绝大多数产出都来自这个项目。</font>"
+  },
+  "eb7eea11ee7551b60aba5a28fb095351": {
+    "mdContent": "<br/>"
+  },
+  "d08af992727f238069bdce4cae5b66cf": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">### 3. 纯手工样本仍然稳定存在</font>"
+  },
+  "890b02f035254b3d63a02f339a916018": {
+    "mdContent": "<br/>"
+  },
+  "0cc235970404f42b65e7050434050212": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">纯手工报告共 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**8**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 份，合计 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**5,188**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行代码，占总新增代码的 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**19.99%**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">。其中最大的纯手工分支为：</font>"
+  },
+  "c874b7b4ed187122ebe73648db583cfd": {
+    "mdContent": "<br/>"
+  },
+  "d04edad92409b21f7a8428e100e89713": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 项目 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 分支 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 作者 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人工代码行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "dfa35f40a19eda6ce5e3a8e89ae656df": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;------&#124;------&#124;------&#124;-------------:&#124;</font>"
+  },
+  "4bab43aaf0e52c841215e41dbccc479a": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wakanda-comp-rn </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat/ae-region-adaptation </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wangyisen </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1,430 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "9c5b33594ca9a0f168a91997c2a49533": {
+    "mdContent": "<br/>"
+  },
+  "deb6bac5e664203f5007b9aae81c7983": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 五、纯手工代码 List</font>"
+  },
+  "b05a2e3747f814cb3405058f8fdb7127": {
+    "mdContent": "<br/>"
+  },
+  "311c8f6266a2ebf4cc33ae77969b234c": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">以下为本次统计范围内识别出的全部纯手工代码分支清单：</font>"
+  },
+  "0bb6fcf422a1d5619123c45283cdfd1e": {
+    "mdContent": "<br/>"
+  },
+  "e7357d353d24e27d3c7db3095fda1b6f": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 项目 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 分支 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人员 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人工代码行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 提交次数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "b5067ad9534c3ea2a129397822666d08": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;------&#124;------&#124;------&#124;-------------:&#124;---------:&#124;</font>"
+  },
+  "ddf8dff56235216a0606721198f6d6ac": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wakanda-comp-rn </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat/ae-region-adaptation </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wangyisen </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1,430 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 10 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "3924542efa8e0b995eb7b64ed812560f": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat-buyer-wallet-recharge </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> liyingyu </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1,159 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 26 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "6876ac78cface9a720b6592e0a1c6a4c": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> alpha/goods_explain_setting </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> sida </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 969 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 22 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "b52c98598b6dc2c7652969613824d78e": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feature-pendant-style </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 伯约(jiangzexin) </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 525 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 6 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "2e5d2e37d8b7595d48d3a8959ebc1494": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wakanda-comp-rn </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat-order-curation-guide </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> yangzhipeng </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 429 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 6 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "b748428d10795199996d538140026e01": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> market-promotion </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat-topic-guide </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> yangzhipeng </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 393 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 8 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "5e567d09680f4052438b559166d1bb13": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feature-update-pendant </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 伯约(jiangzexin) </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 160 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 3 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "356c6a6f2ab09a6ea6aa37e693374cf7": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> alpha/goods_explain_uba </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> sida </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 123 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 2 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "ddbbb13373a7fc51ad29f942130b3339": {
+    "mdContent": "<br/>"
+  },
+  "d9ab59af44444d918525248980162d39": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">补充说明：</font>"
+  },
+  "275bd6d6ac9ebfbb4d94ac07f116bab3": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 纯手工代码总计 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">5,188</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行，占总新增代码的 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">19.99%</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font>"
+  },
+  "c09ba04a4a41126ccf2e5e4b4ca06d64": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\"> `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">wangyisen</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 一人贡献了 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">1,430</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行纯手工代码，占纯手工总量 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">27.56%</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font>"
+  },
+  "f5636d3416eddce14b062f523bbbe387": {
+    "mdContent": "<br/>"
+  },
+  "6fa4c1451bd143fcc2902452e83e1b47": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 六、AI 占比极低分支表</font>"
+  },
+  "f9b06a4a2ff14789841669103136bcb9": {
+    "mdContent": "<br/>"
+  },
+  "e7f89708cb15e4735a4534ad54db0ca1": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">口径说明：这里将 </font><font color=\"#BD5800\" backgroundColor=\"rgba(0, 0, 0, 0)\">**AI 占比低于 10%**</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 的分支定义为“占比极低”。</font>"
+  },
+  "ba7b65814450749e58ed7dbaee616eef": {
+    "mdContent": "<br/>"
+  },
+  "d9b7d6e703186312c0a77e6d490e9e1a": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 项目 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 分支 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI占比 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI代码行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人工代码行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 总新增行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "ba3f1fe1ad2d42fb9865ce855ebcfffc": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;------&#124;------&#124;-------:&#124;-----------:&#124;-------------:&#124;-----------:&#124;</font>"
+  },
+  "cbcc9652a23419a7a940f0b1f674e322": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feature-update-lotter-tracker </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 2.87% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 5 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 169 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 174 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "a45bedd37782f9876ba0d3fd96164509": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> fix-cover-bug </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 6.63% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 12 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 169 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 181 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "64e3d3a05710d58a8a007c59af4bf777": {
+    "mdContent": "<br/>"
+  },
+  "c95258e69c69bb0fa3e89325b91f0b04": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">观察：</font>"
+  },
+  "c7f2776db83f58e3df4e504f87553ffe": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 本轮进入有效样本的低占比分支数量不多，说明 AI 使用并非只是“点到为止”的试用</font>"
+  },
+  "7df58dde986da5c3456f6fb65e24dc3f": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 两个低占比分支都来自 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">live-rn-mono</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">，说明该项目虽然整体 AI 产出高，但内部不同分支的使用深度也存在分化</font>"
+  },
+  "37588e0f9e4ea99b9e002346f422e0ac": {
+    "mdContent": "<br/>"
+  },
+  "40f471c19c59478c7c034da99d79fe6b": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 七、代表性样本</font>"
+  },
+  "5a64cbe6b4a514a9869e4471127227a4": {
+    "mdContent": "<br/>"
+  },
+  "2bf625b4ee1f589e5b01c43d979f16df": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">### AI 参与度较高的分支</font>"
+  },
+  "569662b13745a865389dc24686c4b20b": {
+    "mdContent": "<br/>"
+  },
+  "d846a59371fac0ac87ef5671d7d6fdab": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 项目 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 分支 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI占比 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> AI行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人工行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "56334acb975f67b5edac77ec6af18415": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;------&#124;------&#124;-------:&#124;-------:&#124;---------:&#124;</font>"
+  },
+  "aadb5afdd5b3fe35a640e40c6d70fd6a": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> armor </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> lancer-slim/m-skin </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 96.46% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 191 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 7 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "db7e02e8bfb374bfb1afae90b3c7b582": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> armor </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> lancer-slim/feat-three-card </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 86.81% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 158 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 24 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "8587cd6f291fd574a920767015dfe058": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat-coupon-list-tabs </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 78.87% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 3,539 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 948 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "765f6d5e72fe9c8594201bd69b6f4ea1": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> armor </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> lancer-slim/3coupon </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 71.78% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 145 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 57 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "daada8486fc7b334184b3356f843b00b": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feature-starlight-pendant </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 67.32% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 3,795 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1,842 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "79db68c744ae910ebe7c380ee8ebbeb7": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat-cover-update </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 63.03% </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 5,782 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 3,391 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "b5078a7ae363f3a6aecca52f09e5c89e": {
+    "mdContent": "<br/>"
+  },
+  "acd1c85f67506df392ca3ad90a213481": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">### 纯手工开发的主要分支</font>"
+  },
+  "61a52191efe6b644cf99d3895b7cbab0": {
+    "mdContent": "<br/>"
+  },
+  "b80d0c036fdd666377ca31870c9eb575": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 项目 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 分支 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 作者 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 人工代码行数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 提交次数 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "7ba2d2f761d4d32758faa121a840fb69": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;------&#124;------&#124;------&#124;-------------:&#124;---------:&#124;</font>"
+  },
+  "f6960dbc3dd6b0b7a8cdbfe41ba8ebc9": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wakanda-comp-rn </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat/ae-region-adaptation </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wangyisen </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1,430 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 10 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "527e7536da7b397b5c352d7b740be74d": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat-buyer-wallet-recharge </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> liyingyu </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 1,159 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 26 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "1d686c236b9e1eb806afc6fddff42c7e": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> alpha/goods_explain_setting </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> sida </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 969 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 22 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "07864fe5c73f8d333b5f73f2de17ed9d": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> live-rn-mono </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feature-pendant-style </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 伯约(jiangzexin) </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 525 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 6 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "88a60c649c1a94c2dd3023fdbc9b877e": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> wakanda-comp-rn </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> feat-order-curation-guide </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> yangzhipeng </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 429 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 6 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&#124;</font>"
+  },
+  "ba111853f3574c1c6359071f2bed7c7b": {
+    "mdContent": "<br/>"
+  },
+  "1565efd01e4b8dc65fe80bf57b03e3cc": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 八、建议口径</font>"
+  },
+  "7ec9f4568aa46ca1405d8de2832dfa56": {
+    "mdContent": "<br/>"
+  },
+  "f1fded12e676e5f67130d6d97ec5aeeb": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">如果用于群内同步，可直接使用下面这段：</font>"
+  },
+  "df5c3de2a21a4546bc8142271ded006e": {
+    "mdContent": "<br/>"
+  },
+  "d3b197f616731540c8cf8d8a24cf6037": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&gt; 2026-04-01 至 2026-04-14 期间，共统计 19 份有效开发报告，57.89% 的报告已包含 AI 代码。总新增代码 2.60 万行，其中 AI 贡献 1.38 万行，占比 53.05%。本轮 AI 代码量已超过人工代码量，产出主要集中在 `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">live-rn-mono</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`，同时 `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">armor</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">` 也出现了高占比样本。</font>"
+  },
+  "21307c28db97b7328579bc46f10a9d10": {
+    "mdContent": "<br/>"
+  },
+  "9716bfda93e1463533310d0d98c78e4c": {
+    "mdContent": "<font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\">如果用于正式汇报，可采用下面这段：</font>"
+  },
+  "317dd1cd7c2888d87e492a79033a20eb": {
+    "mdContent": "<br/>"
+  },
+  "546312713ad82d83c526c0f335fc6e9c": {
+    "mdContent": "<font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">&gt; 从 2026-04-01 至 2026-04-14 的数据看，AI 编码在有效开发分支中的覆盖率达到 57.89%，代码量口径占比达到 53.05%，说明在本阶段的有效样本里，AI 已经从“辅助工具”进一步向“主要产出方式之一”演进。AI 产出高度集中在 `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">live-rn-mono</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`，而 `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">armor</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">` 的样本也表现出较高渗透；与此同时，`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">wakanda-comp-rn</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">` 和 `</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">market-promotion</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">` 仍未出现有效 AI 样本，后续可重点推进低渗透项目的场景化落地。</font>"
+  },
+  "f43b1e18d2081cdfb594339082e12b4e": {
+    "mdContent": "<br/>"
+  },
+  "83c99d142e97bdfe4a5f563e4cedaab8": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">## 九、说明</font>"
+  },
+  "fd5262aaa18bafeb1fe1a9625f1c8f23": {
+    "mdContent": "<br/>"
+  },
+  "da4601eeedb5a5da97b965dcf79e2617": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 本次结果基于已有统计报告，不直接扫描源码仓库</font>"
+  },
+  "23b73068a2232a219c16dc6e5a141640": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 同一分支在时间范围内只取最新报告，避免重复计算</font>"
+  },
+  "d2876dfafd4ebb98fb3ff023c86bb8ef": {
+    "mdContent": "<font color=\"#D53538\" backgroundColor=\"rgba(0, 0, 0, 0)\">-</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 过滤掉了 </font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#008809\" backgroundColor=\"rgba(0, 0, 0, 0)\">&lt;= 100</font><font color=\"#666666\" backgroundColor=\"rgba(0, 0, 0, 0)\">`</font><font color=\"#0D0D0D\" backgroundColor=\"rgba(0, 0, 0, 0)\"> 行的小型变更，因此结果更偏向反映“有效开发产出”</font>"
+  }
+}

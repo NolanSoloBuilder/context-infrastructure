@@ -1,0 +1,20 @@
+{
+  "a9f14afaf9c2a7a081d9ba4bdfd65782": {
+    "mdContent": "# 小需求龙虾交付"
+  },
+  "77716d6580a72dab066a19fda6c7ddf3": {
+    "mdContent": "<redoc-text-draw remoteTemplate=\"sequenceDiagram\n    participant U as 用户\n    participant J as Jarvis (主 Agent)\n    participant PC as PingCode API\n    participant Redoc as Hi Redoc\n    participant Git as GitLab (code.devops)\n    participant CW as CodeWiz (Code Agent)\n    participant CI as 云效流水线\n    participant Hi as Hi 消息推送\n\n    U->>J: 提供 PingCode 链接\n    \n    Note over J: ⚡ Step 0: 预检 & SSH 配置\n    J->>J: 运行 preflight.sh\n    J->>Git: SSH 连通性测试\n    J->>Hi: ✅ 预检通过，开始处理...\n\n    Note over J: 📋 Step 1: 获取需求详情\n    J->>PC: GET /redpingcode/work_item/{id}\n    PC-->>J: 标题、空间、负责人、PRD链接、节点信息\n    J->>Redoc: 读取 PRD 文档内容 (hi-redoc-curd -r {docId})\n    Redoc-->>J: PRD 全文 Markdown\n    J->>J: 解析仓库路径 (REPO_PATH)\n    J->>Hi: ✅ 需求已获取（标题+仓库+负责人）\n\n    Note over J: 🔀 Step 2: 仓库准备 & 创建分支\n    J->>Git: git clone / git pull (对齐 main/master)\n    J->>Git: git checkout -b feature/pingcode-{id}-{slug}\n    J->>Hi: ✅ 仓库就绪，分支已创建\n\n    Note over J: 📝 Step 3: 创建前端开发子任务\n    J->>PC: GET /work_item/{id}（读 nodeProgress 找前端节点）\n    PC-->>J: FE_NODE_ID / businessLine\n    alt 有前端开发节点\n        J->>PC: POST /v4/{workspace}/work_item (subtask, subTypeId=304)\n        PC-->>J: SUB_TASK_ID\n        J->>Hi: ✅ 子任务已创建 #{SUB_TASK_ID}\n    else 无前端开发节点\n        J->>Hi: ⚠️ 子任务跳过，不阻塞后续流程\n    end\n\n    Note over J: 🔍 Step 4: 分析代码 & 制定计划\n    J->>Git: 读取项目结构 (ls / package.json)\n    J->>J: 识别项目类型 (RN / Web / Java / Go)\n    J->>J: 列出改动文件清单 & 摘要\n    J->>Hi: ✅ 修改计划确定，启动 Code Agent...\n\n    Note over J: 🤖 Step 5: Code Agent 生成代码\n    J->>CW: codewiz run '需求+技术栈描述' (background + pty)\n    CW->>CW: 读取代码结构、实现功能\n    CW-->>J: Done 事件（openclaw system event）\n    J->>Hi: ✅ 代码生成完成，开始构建验证...\n\n    Note over J: 🔨 Step 6: 构建验证\n    J->>J: pnpm install / npm install\n    J->>J: pnpm type-check / npm run build\n    alt 构建失败\n        J->>CW: codewiz run --continue '修复 TS 错误'\n        CW-->>J: 修复完成\n    end\n    J->>Hi: ✅ 构建验证通过\n\n    Note over J: 📤 Step 7: Commit & Push\n    J->>Git: git add . && git commit -m \"feat: {TITLE}\"\n    J->>Git: git push -u origin feature/...\n    J->>Hi: ✅ 代码已推送（分支+Commit）\n\n    Note over J: 🚀 Step 8: 部署与验证\n    \n    alt RN 项目 - 云真机预览（可选）\n        J->>J: 启动 Metro dev server (hammer dev)\n        J->>J: 申请云真机 (cloud-device.js)\n        J->>J: 激活 debug 模式 (adb + deep link)\n        J->>J: 截图验证 (adb screencap)\n        J->>Hi: 📱 发送预览截图\n        J->>J: 释放云真机 (--kill)\n    end\n\n    alt RN 项目 - 分支包\n        J->>CI: 推送触发云效流水线\n        loop 轮询构建状态 (30s x 20次)\n            J->>CI: pipeline_client.py queryStatus\n            CI-->>J: running / success / failed\n        end\n        J->>J: 生成扫码二维码 (qrcode)\n        J->>Hi: 📱 发送二维码 + 分支包链接\n    else Web 项目\n        J->>CI: 触发云效流水线 (browser 或自动)\n        loop 轮询 SIT 部署状态\n            J->>CI: pipeline_client.py queryStatus\n        end\n        J->>Hi: 🔗 发送 SIT 访问地址\n    end\n\n    Note over J: 📊 Step 9 & 10: 通知 & 完成报告\n    J->>Hi: 🚀 全流程完成通知（含所有关键信息）\n    J->>U: 输出完整摘要报告（分支/Commit/子任务/部署）\" remoteView=\"chart-only\"/>"
+  },
+  "122405774c7d5755a96433c1307cd794": {
+    "mdContent": "<br/>"
+  },
+  "69db137001169f3c93a24bbb080c8e8c": {
+    "mdContent": "## 关键步骤说明"
+  },
+  "7ad3e4f65022f1edc88ce042485c79d5": {
+    "mdContent": "| 步骤 | 调用方 | 被调用方 | 核心动作 |\n| --- | --- | --- | --- |\n| Step 0 预检 | Jarvis | SSH/GitLab | preflight.sh 检查 7 个维度 |\n| Step 1 需求 | Jarvis | PingCode API + Redoc | GET work_item → 读 PRD 文档 |\n| Step 2 仓库 | Jarvis | GitLab | clone/pull + 切功能分支 |\n| Step 3 子任务 | Jarvis | PingCode API | 读 nodeProgress → POST subtask (subTypeId=304) |\n| Step 4 分析 | Jarvis | 本地文件系统 | 读项目结构，制定改动计划 |\n| Step 5 代码 | Jarvis | CodeWiz | background + pty，Done 事件回调 |\n| Step 6 构建 | Jarvis | pnpm/npm | type-check + build，失败则让 CW 修复 |\n| Step 7 推送 | Jarvis | GitLab | commit + push |\n| Step 8 部署 | Jarvis | 云效 CI + 云真机 | 轮询 pipeline，生成二维码 |\n| Step 9/10 通知 | Jarvis | Hi 消息 | 每步推送进度，最终汇总报告 |"
+  },
+  "bfa0848008131f8e2287b4911fbc7dcb": {
+    "mdContent": "<br/>"
+  }
+}

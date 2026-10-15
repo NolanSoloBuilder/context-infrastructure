@@ -1,0 +1,107 @@
+{
+  "6fc71eb8d2e767fc4c0f464c88875203": {
+    "mdContent": "# 小红卡性能优化"
+  },
+  "a8344583711157b723f37abf6f376435": {
+    "mdContent": "[小红卡体验性能评测](https://docs.xiaohongshu.com/doc/a5a8edac1876b73a576d2d4f797ed583)"
+  },
+  "333faa8de7b1b130413c3d1cafea3ab0": {
+    "mdContent": "### 目前可见问题："
+  },
+  "95aad8ff72f4063e081dcf4fd8182155": {
+    "mdContent": "1. 缓存未剔除preloadData剔除"
+  },
+  "075f31e80b8635180e11789bb4603456": {
+    "mdContent": "  1. 剔除前："
+  },
+  "b5e152f3599d8e926a387ae20c810c4e": {
+    "mdContent": "    1. 安卓低端：[Cache] getBootstrapCache took 237.35 ms"
+  },
+  "9f2ebf560af02a8a884597e9fcc1b7d6": {
+    "mdContent": "    2. IOS 高端：[Cache] getBootstrapCache took 52.28 ms"
+  },
+  "84c816afb6e6262bdefacd05331606f9": {
+    "mdContent": "  2. 剔除后："
+  },
+  "92a42930e8e4b11884d6d095978b0859": {
+    "mdContent": "    1. 安卓低端：[Cache] getBootstrapCache took 236.60 ms  <font backgroundColor=\"#FFFF33\">变化不大。</font>"
+  },
+  "1fc04e568f11fe2daee1b2c8936b3e93": {
+    "mdContent": "    2. IOS 高端：[Cache] getBootstrapCache took 49.32 ms <font backgroundColor=\"#FFFF33\">变化不大。</font>"
+  },
+  "60faf24eecc3f0e3d54c83e96a4f001a": {
+    "mdContent": "2. 前置 userid 获取阻塞 "
+  },
+  "c7766d849fbe10d4ab6949835fea5f7e": {
+    "mdContent": "  1. DEV 安卓低端：[Cache] getCurrentUserId took<font backgroundColor=\"#FFFF33\"> 187.40 ms</font>"
+  },
+  "d2ce51f5d337a7b5bee6a0efa6fbc660": {
+    "mdContent": "  2. IOS 高端：[Cache] getCurrentUserId took 64.50 ms"
+  },
+  "89e33f2a219048cf511688dd7cc6ceca": {
+    "mdContent": "  3. 更改后，取消通过 bridge 和缓存进行用户 id 获取 =&gt; 0ms"
+  },
+  "cd656319dfb1009c517be10a9da1d286": {
+    "mdContent": "3. 前置缓存获取串行，需要改并行。"
+  },
+  "f0f187979f65cc62339f7ec2fe9790ae": {
+    "mdContent": "<br/>"
+  },
+  "9914d1f986f4e73bdecc0bfc1dea7bfa": {
+    "mdContent": "### 优化注意点："
+  },
+  "f3e4dc035aaf8bd53cbf5d95e126fc00": {
+    "mdContent": "1. <font color=\"#0D0D0D\">trace 分析，</font>[https://fe.devops.sit.xiaohongshu.com/docs/react-native/performance/analyze.html](https://fe.devops.sit.xiaohongshu.com/docs/react-native/performance/analyze.html)  AI 和源码对应找到加载延时，和渲染延迟。"
+  },
+  "3ce5d1b28c58a5ec065f432430850e35": {
+    "mdContent": "2. "
+  },
+  "6dc51d9fcb109f8320aa9ac28762d3cb": {
+    "mdContent": "<br/>"
+  },
+  "d068daed6daf65bd8a1ef489df93a675": {
+    "mdContent": "<br/>"
+  },
+  "56b98c533d6e01505162ef77d682bd93": {
+    "mdContent": "### 优化后整体时序图"
+  },
+  "8a9c660a6bc93dfe3afb902b10155f3d": {
+    "mdContent": "<redoc-text-draw remoteTemplate=\"sequenceDiagram\n    participant Page as \"main.tsx\"\n    participant Cache as \"cacheStore\"\n    participant MemberAPI as \"memberInfo API\"\n    participant GoodsAPI as \"goodsList API\"\n    participant Convert as \"dataConverter\"\n    participant GoodsStore as \"goodsStore\"\n    participant View as \"GoodsFeedSection / GoodsFeed\"\n    Page->>Cache: getBootstrapCache()\n    Cache-->>Page: cachedMemberInfo + cachedFeeds\n    par 并发请求新鲜数据\n        Page->>MemberAPI: preloadPostApiUsergrowthRedvipMemberInfoQuery()\n        MemberAPI-->>Page: freshMemberInfo / error\n    and\n        Page->>GoodsAPI: preloadPostApiRockingResourcePlanBatchGet(page=1)\n        GoodsAPI-->>Page: freshGoodsResult / error\n    end\n    alt 缓存完整(memberInfo && feeds.length > 0)\n        Page->>GoodsStore: applyBootstrapCache(cachedFeeds)\n        Page->>View: 渲染缓存会员信息 + 缓存商品\n        Page->>View: 首帧稳定后再开启列表/顶部次级副作用\n    else 无完整缓存\n        Note over View: 首屏先渲染真实组件最小占位结构\n        Note over View: 未开卡/已开卡卡面直接可见\n        Note over View: BenefitSection 只保留券包/运费包外壳、积分数字区域布局、商品区外壳\n        Note over View: 后续 fresh group 默认 blocking 4 张\n    end\n    alt 新鲜组请求成功\n        Page->>Convert: convertGoodsListToFeedItems(freshGoodsResult.list)\n        Convert-->>Page: freshFeeds\n        alt 首屏前已命中缓存组\n            Note over Page: 根据 freshMemberInfo.cardInfo.status 决定 blocking 数量\n            Note over Page: 未开卡 2，已开卡 4\n        else 首屏前无缓存组\n            Note over Page: 无缓存兜底，fresh group 默认 blocking 4 张\n        end\n        alt 已有完整缓存且 freshFeeds 为空\n            Note over Page: 保留 cachedFeeds，避免底部商品区被覆盖为空\n            Page->>GoodsStore: applyBootstrapFresh(cachedFeeds, nextRequestId, hasMore=true)\n            Page->>Cache: setMemberInfoCache(freshMemberInfo)\n            Page->>Cache: setFeedsCache(cachedFeeds)\n        else freshFeeds 非空\n            Page->>GoodsStore: applyBootstrapFresh(freshFeeds, nextRequestId, hasMore)\n            Page->>Cache: setMemberInfoCache(freshMemberInfo)\n            Page->>Cache: setFeedsCache(freshFeeds)\n        end\n        Note over GoodsStore,View: applyBootstrapFresh 内部会 reconcileGoodsItems\n        Note over GoodsStore,View: 对渲染字段未变化的 item 复用缓存对象引用\n        Page->>View: 用新鲜数据覆盖当前展示\n    else 新鲜组请求失败\n        alt 页面上已有缓存组\n            Note over View: 保留缓存展示，不额外清空商品列表\n        else 页面上无缓存组\n            Note over View: memberInfoHydrated=true，但商品区可能无内容\n        end\n    end\" remoteView=\"show-all\"/>"
+  },
+  "43fc47cbe395e127f0ef548abc7cbae5": {
+    "mdContent": "<redoc-text-draw remoteTemplate=\"sequenceDiagram\n    participant User as \"用户\"\n    participant Page as \"main.tsx\"\n    participant MemberAPI as \"memberInfo API\"\n    participant GoodsStore as \"goodsStore\"\n    participant GoodsAPI as \"goodsList API\"\n    participant Convert as \"dataConverter\"\n    participant View as \"GoodsFeed\"\n    User->>Page: PullRefresh / onRequest\n    Page->>Page: handleRefresh()\n    par 刷新会员信息\n        Page->>MemberAPI: postApiUsergrowthRedvipMemberInfoQuery()\n        alt 会员接口成功\n            MemberAPI-->>Page: freshMemberInfo\n            Page->>Page: setMemberViewState(fresh)\n        else 会员接口失败\n            MemberAPI-->>Page: error\n            Note over Page: 保留当前 memberInfo，仅标记 hydrated\n        end\n    and 刷新商品列表\n        Page->>GoodsStore: refresh(true)\n        GoodsStore->>GoodsStore: 记录 previousState\n        GoodsStore->>GoodsAPI: postApiRockingResourcePlanBatchGet(page=1)\n        alt 商品接口成功\n            GoodsAPI-->>GoodsStore: list\n            GoodsStore->>Convert: convertGoodsListToFeedItems(list)\n            Convert-->>GoodsStore: convertedList\n            alt convertedList 为空且 previousState.goodsList 非空\n                Note over GoodsStore: 保留 previousState.goodsList\n            else convertedList 非空\n                GoodsStore->>GoodsStore: 用新列表覆盖\n                GoodsStore->>Cache: setFeedsCache(convertedList)\n            end\n        else 商品接口失败\n            GoodsAPI-->>GoodsStore: error\n            alt previousState.goodsList 非空\n                GoodsStore->>GoodsStore: 恢复 previousState，结束 refreshing\n            else 无旧列表\n                GoodsStore->>GoodsStore: 保持错误态 + 空列表\n            end\n        end\n    end\n    GoodsStore-->>View: goodsList / refreshing / hasMore\"/>"
+  },
+  "1781651dcb6a4bbb18c3c69ca95592be": {
+    "mdContent": "<br/>"
+  },
+  "17daf9160b2493f68cea68ba8d785cfb": {
+    "mdContent": "<br/>"
+  },
+  "e473377e095d48403fb4fa0e1d7a4d25": {
+    "mdContent": "<br/>"
+  },
+  "6c054a3b3dee1f4263271ce20f6f7933": {
+    "mdContent": "### 踩坑"
+  },
+  "3553ddaf0d6bc1552872807585b6b1d7": {
+    "mdContent": "1. 安卓情况下initialMetrics为 null 导致第一屏什么也不渲染"
+  },
+  "bf1fdaca866c3887ca00770d28c894a6": {
+    "mdContent": "<redoc-columns>\n<redoc-column ratio=\"0.2\">\n![](https://xhs-doc-i1.xhscdn.com/104004dg31trmcrkdmo80k08c44?sign=cdc2afa30a880869ed9afde10aeb8fed&t=6ab48b9c&redoc-w=436&redoc-h=183)\n\n</redoc-column>\n<redoc-column ratio=\"0.160407\">\n![](https://xhs-doc-i1.xhscdn.com/104004dg31trmce44mq00acgp0g?sign=80360d7eca679fb1201c41d33d48df03&t=6ab48b9c&redoc-w=312&redoc-h=166)\n</redoc-column>\n<redoc-column ratio=\"0.639593\">\n![](https://xhs-doc-i1.xhscdn.com/104004dg31trmhbf36i004v7qso?sign=ce2d25faeb0cce1392c59bfbc44a4b85&t=6ab48b9c&redoc-w=524&redoc-h=300)\n</redoc-column>\n</redoc-columns>"
+  },
+  "ab206b9befcf9ab0efc7f2f1392e0eec": {
+    "mdContent": "解决方案：安卓给默认值"
+  },
+  "5c3ef91fc84fec0b26d3e7b74aa04927": {
+    "mdContent": "![](https://xhs-doc-i1.xhscdn.com/104004dg31trmd6q60c1v1bqtqs?sign=b28b04124a91a4c70eb8e77b48a15f6e&t=6ab48b9d&redoc-w=708&redoc-h=224)"
+  },
+  "6cdbd1b5454925738c4ec5f23418f4fa": {
+    "mdContent": "2. SafeAreaProvider 里面不能使用SafeAreaView 标签，会让延迟加载，删除标签使用。"
+  },
+  "0f5c0d9fecc837048465df8d6963fe99": {
+    "mdContent": "3. "
+  },
+  "77033f8f6625b5e7c08874279f9d5fc2": {
+    "mdContent": "<br/>"
+  }
+}

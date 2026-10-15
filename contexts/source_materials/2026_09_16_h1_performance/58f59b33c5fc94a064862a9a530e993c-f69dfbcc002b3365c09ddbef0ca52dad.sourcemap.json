@@ -1,0 +1,1193 @@
+{
+  "bd024477fa82f43ffeb9db1cca04fa9c": {
+    "mdContent": "# 小红卡活动配置化 V2 技术方案"
+  },
+  "0476e99eb3fac0518ebaf93055bc1b61": {
+    "mdContent": "## 1. 文档结论"
+  },
+  "c6b3c4fa15478f9a42d274aec5c67d82": {
+    "mdContent": "本文提出一套面向小红卡活动的配置化 V2 方案，目标是在 RN 已内置组件能够覆盖需求的前提下，新增活动只需要创建配置和发布版本，不再按照活动 ID 修改前端页面代码。"
+  },
+  "e3ebb67ddffdd61609aeb27bcb72d013": {
+    "mdContent": "核心结论："
+  },
+  "95ce22908ace3b1faea61ba7ad45fbc6": {
+    "mdContent": "- 老活动继续使用原路由、原接口和原 Apollo 配置，不迁入 V2 即不受影响。"
+  },
+  "d22a9fe45c48f7118b31f55ce8bffc19": {
+    "mdContent": "- 新活动使用新的详情路由、新详情接口、新写接口和版本化配置库。"
+  },
+  "c03e25018313379d00c7a2ae80312d3a": {
+    "mdContent": "- Config 只保存活动固定规则、固定内容和页面模板，不保存用户报名、中奖、库存、积分和票务等动态数据。"
+  },
+  "3b5bef60852b954c8f5f476bb063c7dc": {
+    "mdContent": "- 服务端负责读取 Config、查询实时业务数据、计算唯一 sceneCode，并编译出最终页面文档。"
+  },
+  "804e916695590d9f23e41f5069cb9660": {
+    "mdContent": "- RN 只按照页面协议渲染模块和执行白名单动作，不根据时间、中奖状态或活动 ID推导页面。"
+  },
+  "a67af75065ff1a6a591dd862c01f7490": {
+    "mdContent": "- 页面协议采用受约束的 Server-Driven UI 形式：允许组合已注册模块，不允许配置任意 RN 样式、动态 JavaScript 或通用表达式。"
+  },
+  "45d226269a96962553d8265832bef627": {
+    "mdContent": "- 抽奖、积分兑换、免费兑换使用同一套页面协议，但分别进入独立业务 Handler。"
+  },
+  "dab268a6127390c7f437df4a1958218f": {
+    "mdContent": "<redoc-highlight emoji=\"tuding\" fillColor=\"yellow\">\n配置决定“这个活动固定是什么”；实时接口决定“当前用户此刻是什么状态”；详情编译器决定“当前页面最终展示什么”；RN 只负责渲染和触发动作。\n</redoc-highlight>"
+  },
+  "4db05138014ac218352e594d4f1918b4": {
+    "mdContent": "## 2. 当前实现及问题"
+  },
+  "cf538dabffcfecd658467a47377d1294": {
+    "mdContent": "当前实现分散在三端："
+  },
+  "e399055615f99b42c26ca00b32a5326c": {
+    "mdContent": "- RN：packages/red-card-member-activity/src/main.tsx 固定编排 KV、信息区、结果区、阵容、活动亮点、相关笔记、规则和底部按钮。"
+  },
+  "e6d3dc0e30e2c6aabc9bcee6918dd9fb": {
+    "mdContent": "- RN：src/theme/activityTheme.ts 和 src/config/activityConfig.ts 按 activityId 保存主题、直接报名和票务链接等差异。"
+  },
+  "23f332fb49468710b34880539ea092c5": {
+    "mdContent": "- IDL：ActivityDetail 是固定字段集合，新增页面能力通常需要增加 IDL 字段。"
+  },
+  "08a9bea79eb31c0cc73db382ae5af73d": {
+    "mdContent": "- 后端：ActivityConfig 同时承载活动业务字段和展示字段。"
+  },
+  "933212fd681659fed01462cdd0e3a3cf": {
+    "mdContent": "- 后端：ActivityApolloConfig 从 redvip.activity.config.list 一次性读取全部活动配置。"
+  },
+  "a6fb4269eb947165d0b90dcc9047cbc9": {
+    "mdContent": "- 后端：ActivityQueryService 负责计算活动阶段、用户报名、中奖、积分和票务状态，但尚未输出统一页面场景和最终 Page Document。"
+  },
+  "cd2d522e1c344688753719ddd6acdb2a": {
+    "mdContent": "现有模式适合少量同构活动，但随着抽奖、积分兑换、免费兑换、不同结果卡、不同按钮数量和不同跳转方式增加，会出现以下问题："
+  },
+  "4fd19423a390dff35e5890486bbee798": {
+    "mdContent": "- RN 持续增加 activityId 分支。"
+  },
+  "ec4c39ad578e8d6052e6af5b721660ed": {
+    "mdContent": "- 页面状态由前端重复推导，容易和服务端业务状态不一致。"
+  },
+  "c04ab08839a786f189a55448017472a8": {
+    "mdContent": "- 页面固定内容、业务规则和用户动态数据边界不清晰。"
+  },
+  "9e24e595775c380f908ee3d0dafbb4e8": {
+    "mdContent": "- Apollo 单列表缺少草稿、版本、校验、预览、发布和审计能力。"
+  },
+  "05f15e16b49f99901cd8b3679127bc00": {
+    "mdContent": "- 单一底部按钮模型无法覆盖模块内按钮、双按钮和不同动作。"
+  },
+  "d322cfb5adf9a97d9e1de73b320d9164": {
+    "mdContent": "- ticketCount 同时表达库存、中奖数或票数时语义不稳定。"
+  },
+  "9c94fc48c4c22d40ee4cbd11e56730dc": {
+    "mdContent": "## 3. 目标与非目标"
+  },
+  "505d9c2ca19d3225556a90357052d5f7": {
+    "mdContent": "### 3.1 目标"
+  },
+  "2ca1678aad9689cdaedcd366ff6d0a7f": {
+    "mdContent": "- 新活动在组件能力已覆盖时，实现零 RN 代码新增。"
+  },
+  "4a1b8c652983d4ca6ccc6477fa5489ca": {
+    "mdContent": "- 同一协议覆盖抽奖、积分兑换和免费兑换详情页。"
+  },
+  "0b32b700dcf4ece8406e870b874f050f": {
+    "mdContent": "- 支持不同场景下模块增删、顺序变化、结果卡差异和一到多个按钮。"
+  },
+  "05841a2fa1a352db310321fc7ffd77c0": {
+    "mdContent": "- 支持固定内容、动态业务数据和最终展示数据的明确分层。"
+  },
+  "66aa6f63c205f17bedf0824b05316573": {
+    "mdContent": "- 支持配置草稿、校验、预览、发布、回滚和审计。"
+  },
+  "b2d53afc779aa10fe06593f194dfaf42": {
+    "mdContent": "- 页面预览和线上详情使用同一个服务端编译器。"
+  },
+  "a0b80edd34ca9f8a132fc73b649433a8": {
+    "mdContent": "- 写操作由服务端再次校验，不能信任客户端携带的 Scene 或按钮状态。"
+  },
+  "bb786f655c1d8e5f773a43d94b1e22ce": {
+    "mdContent": "### 3.2 非目标"
+  },
+  "9a1efc5276aa132377723d62778d9ada": {
+    "mdContent": "- V2 不兼容或复用老 ActivityDetail 字段。"
+  },
+  "16ba99e8694e522655514eb247df76cc": {
+    "mdContent": "- V2 不支持服务端下发任意 RN StyleSheet。"
+  },
+  "fa1a0698c3b45435c808c6c1114a3701": {
+    "mdContent": "- V2 不支持配置动态 JavaScript、通用条件表达式或任意接口请求。"
+  },
+  "becdb567d9678d47c86dd6be7418ab39": {
+    "mdContent": "- V2 不保证完全不发 RN 版本；新增组件类型或新的交互能力仍需要发版。"
+  },
+  "c4a30c8e4b56a212f5679e276fad3448": {
+    "mdContent": "- 本期不把 Apollo 改造成正式活动管理后台；Apollo 只适合作为过渡配置源。"
+  },
+  "24581a39ed90b0f69f6090e39e995a70": {
+    "mdContent": "## 4. 总体架构"
+  },
+  "d63e13db0cb76e150657ebe0e67abbde": {
+    "mdContent": "<redoc-text-draw remoteTemplate=\"flowchart LR\nAdmin[活动后台或配置库] --> Config[已发布活动 Config]\nConfig --> Compiler[页面编译器]\nRuntime[报名 中奖 库存 积分 票务] --> Compiler\nCompiler --> Detail[queryActivityPageV2]\nDetail --> Renderer[RN PageRenderer]\nRenderer --> Registry[组件注册表]\nRenderer --> Action[ActionDispatcher]\nAction --> Command[executeActivityActionV2]\nCommand --> Handler[Lottery Points Free Handler]\" theme=\"light\"/>"
+  },
+  "939678e0e43db24b2bb62d8477032c3b": {
+    "mdContent": "整体数据流："
+  },
+  "43e223eaa5d78d9634009a90cc4c1d4c": {
+    "mdContent": "1. 活动运营在后台创建草稿 Config。"
+  },
+  "12f303c8b2e9894adaa1b067f5539cdf": {
+    "mdContent": "2. 发布服务使用 JSON Schema 校验 Config 和所有组件 Props。"
+  },
+  "848642c097716a807af97e3b0c1db80d": {
+    "mdContent": "3. 发布后生成不可变的 configVersion。"
+  },
+  "1dece38fde2aff6d1518e839bd2d58c2": {
+    "mdContent": "4. 用户查询详情时，服务端读取已发布 Config。"
+  },
+  "9941feeffd5cf93ca7b0318aad6bf55a": {
+    "mdContent": "5. 服务端查询报名、中奖、填写、库存、积分和票务等运行态。"
+  },
+  "0c184cb23bf70f9fe3deea8ecf53daac": {
+    "mdContent": "6. Scene Resolver 计算唯一 sceneCode。"
+  },
+  "67bd2103fef3f908e48dd5a9ffd28d23": {
+    "mdContent": "7. Page Compiler 合并模块基础 Props、Scene Override 和实时数据。"
+  },
+  "99de001f61c7b9c321d5ca4bdc0e1961": {
+    "mdContent": "8. 详情接口返回当前用户最终可渲染的 Page Document。"
+  },
+  "4e0c89c5039dfe93d844258ef9473d69": {
+    "mdContent": "9. RN Renderer 按 type + version 找到本地组件并渲染。"
+  },
+  "81bac166f26db4cc14431998d6b89bd0": {
+    "mdContent": "10. 用户点击服务端命令按钮时，统一写接口重新读取配置和实时状态并再次校验。"
+  },
+  "a5eb06347782fa83a56b90c9a466952a": {
+    "mdContent": "## 5. 数据边界"
+  },
+  "38f6df9e09fa42cf3f5b904a985aa7c4": {
+    "mdContent": "| 数据类型 | 示例 | 真源 | 是否进入 Config | 是否由详情接口返回 |\n| --- | --- | --- | --- | --- |\n| 固定业务规则 | 报名时间、开奖时间、奖品数量、填写截止时间 | 已发布 Config | 是 | 页面或运行态需要时返回 |\n| 固定展示内容 | KV、阵容、亮点、笔记、规则、中奖奖品展示文案 | 已发布 Config | 是 | 编译到模块 Props |\n| 页面结构 | 模块顺序、组件版本、按钮布局、Scene 模板 | 已发布 Config | 是 | 编译成最终 Page Document |\n| 用户状态 | 是否报名、是否中奖、填写状态 | 业务数据库 | 否 | 是 |\n| 资源状态 | 剩余库存、用户积分、门票状态 | 库存、积分、票务系统 | 否 | 按活动类型返回 |\n| 最终 Scene | LOTTERY_WON_NEED_ENTRY | 服务端计算 | 否 | 是 |\n| 最终按钮可用性 | 是否可点、禁用原因 | 服务端计算 | 否 | 是 |"
+  },
+  "6dbf4c06dd8228269db73716ed89f031": {
+    "mdContent": "## 6. 最终 Config"
+  },
+  "a30cd7e57118e9d809ae3b5708af4640": {
+    "mdContent": "以下为抽奖型夜人节示例。文档使用 JSONC 注释便于评审；实际存储使用标准 JSON。"
+  },
+  "668ad4cb9c346010a9a4a6037fea5a6b": {
+    "mdContent": "```json\n{\n  // 活动配置协议版本。\n  \"schemaVersion\": \"1.0\",\n\n  // 活动唯一 ID。\n  \"activityId\": \"night_festival_2026\",\n\n  // LOTTERY / POINTS_EXCHANGE / FREE_EXCHANGE。\n  \"activityType\": \"LOTTERY\",\n\n  // 服务端业务逻辑真正需要的固定参数。\n  \"business\": {\n    \"schedule\": {\n      // 活动实际开始时间。\n      \"activityStartAt\": \"2026-08-14T17:00:00+08:00\",\n      // 活动实际结束时间。\n      \"activityEndAt\": \"2026-08-20T23:00:00+08:00\",\n      // 报名开始时间。\n      \"joinStartAt\": \"2026-08-04T00:00:00+08:00\",\n      // 报名截止时间。\n      \"joinEndAt\": \"2026-08-09T23:59:00+08:00\",\n      // 计划开奖时间。\n      \"drawAt\": \"2026-08-10T12:00:00+08:00\"\n    },\n\n    // 抽奖任务使用，RN 不消费。\n    \"lottery\": {\n      // 中奖用户数，不表示每人获得的票数。\n      \"winnerCount\": 100\n    },\n\n    // 真实履约奖品。\n    \"reward\": {\n      // 每位中奖用户实际获得的门票数。\n      \"quantity\": 2,\n      // 票务系统的模板 ID。\n      \"ticketTemplateId\": \"night_festival_2026_ticket\"\n    },\n\n    // 观演人信息填写规则。\n    \"entry\": {\n      // 需要填写的人数。\n      \"personCount\": 2,\n      // 填写截止时间。\n      \"deadlineAt\": \"2026-08-12T23:59:00+08:00\",\n      // 填写页展示的协议。\n      \"agreement\": {\n        \"title\": \"观演人信息填写协议\",\n        \"url\": \"https://fe.xiaohongshu.com/barleypromotion/vincent/66fe6db64eae4a72bcfdcc5aaa011df0?naviHidden=yes&fullscreen=true&source=redcard\"\n      }\n    }\n  },\n\n  // 活动详情页页面模板。\n  \"page\": {\n    // 只配置不同活动之间真正有差异的语义颜色。\n    \"theme\": {\n      \"primaryColor\": \"#526FE5\",\n      \"secondaryColor\": \"#A2B5FF\",\n      \"pageBackground\": {\n        \"type\": \"LINEAR_GRADIENT\",\n        \"colors\": [\"#FFFFFFFF\", \"#F7F7F7FF\"]\n      }\n    },\n\n    // 页面可以使用的模块；默认顺序与数组顺序一致。\n    \"modules\": [\n      {\n        \"id\": \"hero\",\n        \"type\": \"HERO\",\n        \"version\": 1,\n        \"slot\": \"HERO\",\n        \"props\": {\n          \"imageUrl\": \"https://sns-img.example.com/night-festival/hero.png\",\n          \"aspectRatio\": 1.05\n        }\n      },\n      {\n        \"id\": \"basicInfo\",\n        \"type\": \"BASIC_INFO\",\n        \"version\": 1,\n        \"slot\": \"CONTENT\",\n        \"props\": {\n          \"title\": \"小红书夜人节\",\n          \"items\": [\n            {\n              \"icon\": \"CALENDAR\",\n              \"label\": \"活动时间\",\n              \"value\": \"2026.08.14–2026.08.20\"\n            },\n            {\n              \"icon\": \"LOCATION\",\n              \"label\": \"活动地点\",\n              \"value\": \"上海·中国船舶馆\"\n            },\n            {\n              \"icon\": \"TICKET\",\n              \"label\": \"门票类型\",\n              \"value\": \"单人七日通票两张\"\n            }\n          ],\n          \"description\": \"欢迎入学，祝你学得开心，玩得尽兴！\"\n        }\n      },\n      {\n        \"id\": \"result\",\n        \"type\": \"RESULT_CARD\",\n        \"version\": 1,\n        \"slot\": \"RESULT\",\n        \"props\": {\n          // 后端活动配置，RN 原样展示，不能自行拼接。\n          \"rewardText\": \"夜人节七日通票2张\"\n        }\n      },\n      {\n        \"id\": \"lineup\",\n        \"type\": \"LINEUP\",\n        \"version\": 1,\n        \"slot\": \"CONTENT\",\n        \"props\": {\n          \"title\": \"明星阵容\",\n          \"items\": [\n            {\n              \"name\": \"李大奔BENZO\",\n              \"imageUrl\": \"https://sns-img.example.com/night-festival/benzo.png\",\n              \"dateText\": \"8.15\"\n            }\n          ]\n        }\n      },\n      {\n        \"id\": \"highlights\",\n        \"type\": \"HIGHLIGHT_CAROUSEL\",\n        \"version\": 1,\n        \"slot\": \"CONTENT\",\n        \"props\": {\n          \"title\": \"活动亮点\",\n          \"items\": [\n            {\n              \"title\": \"艺人运动会\",\n              \"imageUrl\": \"https://sns-img.example.com/night-festival/highlight-sports.png\"\n            },\n            {\n              \"title\": \"校园比赛\",\n              \"imageUrl\": \"https://sns-img.example.com/night-festival/highlight-campus.png\"\n            },\n            {\n              \"title\": \"随堂小测验\",\n              \"imageUrl\": \"https://sns-img.example.com/night-festival/highlight-quiz.png\"\n            }\n          ]\n        }\n      },\n      {\n        \"id\": \"relatedNotes\",\n        \"type\": \"NOTE_CAROUSEL\",\n        \"version\": 1,\n        \"slot\": \"CONTENT\",\n        \"props\": {\n          \"title\": \"相关笔记\",\n          \"items\": [\n            {\n              \"noteId\": \"note_001\",\n              \"title\": \"夜人节入学指南\",\n              \"coverUrl\": \"https://sns-img.example.com/night-festival/note-1.png\",\n              \"authorName\": \"夜人节学院\",\n              \"authorAvatarUrl\": \"https://sns-img.example.com/night-festival/avatar.png\",\n              \"link\": \"xhsdiscover://item/note_001\"\n            }\n          ]\n        }\n      },\n      {\n        \"id\": \"rules\",\n        \"type\": \"RULE_LIST\",\n        \"version\": 1,\n        \"slot\": \"CONTENT\",\n        \"props\": {\n          \"title\": \"活动规则\",\n          \"items\": [\n            \"每位用户仅可参与一次抽奖\",\n            \"中奖后需在规定时间内填写观演人信息\",\n            \"逾期未填写视为主动放弃\"\n          ]\n        }\n      }\n    ],\n\n    // 可被 Scene 复用的按钮组。\n    \"actionGroups\": {\n      \"join\": {\n        // 按钮具体宽度、圆角、字重和间距由 RN ACTION_GROUP@1 控制。\n        \"layout\": \"SINGLE\",\n        \"actions\": [\n          {\n            \"id\": \"joinLottery\",\n            \"text\": \"免费参与抽奖\",\n            \"style\": \"PRIMARY\",\n            \"behavior\": {\n              \"type\": \"SERVER_COMMAND\",\n              \"command\": \"LOTTERY_JOIN\"\n            }\n          }\n        ]\n      },\n      \"fillEntry\": {\n        \"layout\": \"SINGLE\",\n        \"actions\": [\n          {\n            \"id\": \"openEntryForm\",\n            \"text\": \"填写观演人信息\",\n            \"style\": \"PRIMARY\",\n            \"behavior\": {\n              \"type\": \"OPEN_SCREEN\",\n              \"screen\": \"ENTRY_FORM\"\n            }\n          }\n        ]\n      },\n      \"entryCompleted\": {\n        \"layout\": \"DUAL_EQUAL\",\n        \"actions\": [\n          {\n            \"id\": \"viewTicket\",\n            \"text\": \"查看门票\",\n            \"style\": \"PRIMARY\",\n            \"behavior\": {\n              \"type\": \"OPEN_LINK\",\n              \"url\": \"xhsdiscover://miniapp/6877645292e647000178b39c/pages/chat/index?sourec=PZ_20260804&xhsMpBizQuery=sourec%3DPZ&page_key=12\"\n            }\n          },\n          {\n            \"id\": \"shareCompanion\",\n            \"text\": \"分享同行人查看\",\n            \"style\": \"PRIMARY\",\n            \"behavior\": {\n              \"type\": \"COPY_TEXT\",\n              \"text\": \"http://xhslink.com/m/6YVgywXHi9\",\n              \"successToast\": \"链接已复制\"\n            }\n          }\n        ]\n      },\n      \"viewTicket\": {\n        \"layout\": \"SINGLE\",\n        \"actions\": [\n          {\n            \"id\": \"viewTicket\",\n            \"text\": \"查看门票\",\n            \"style\": \"PRIMARY\",\n            \"behavior\": {\n              \"type\": \"OPEN_LINK\",\n              \"url\": \"xhsdiscover://miniapp/6877645292e647000178b39c/pages/chat/index?sourec=PZ_20260804&xhsMpBizQuery=sourec%3DPZ&page_key=12\"\n            }\n          }\n        ]\n      }\n    },\n\n    // Scene 由服务端计算，RN 不自行推导。\n    \"scenes\": {\n      \"LOTTERY_NOT_STARTED\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"footerActionGroup\": null\n      },\n      \"LOTTERY_JOINABLE\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"footerActionGroup\": \"join\"\n      },\n      \"LOTTERY_JOINED_WAIT_DRAW\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"result\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"moduleOverrides\": {\n          \"result\": {\n            \"variant\": \"WAIT_DRAW\",\n            \"title\": \"填写成功\",\n            \"drawTimeLabel\": \"开奖时间\",\n            \"showReward\": true,\n            \"showDrawTime\": true,\n            \"showEntryList\": true\n          }\n        },\n        \"footerActionGroup\": null\n      },\n      \"LOTTERY_DRAWING\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"result\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"moduleOverrides\": {\n          \"result\": {\n            \"variant\": \"DRAWING\",\n            \"title\": \"正在开奖\",\n            \"description\": \"开奖结果即将公布\",\n            \"showReward\": false,\n            \"showDrawTime\": false,\n            \"showEntryList\": false\n          }\n        },\n        \"footerActionGroup\": null\n      },\n      \"LOTTERY_NOT_WON\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"result\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"moduleOverrides\": {\n          \"result\": {\n            \"variant\": \"NOT_WON\",\n            \"title\": \"很遗憾，本次未中奖\",\n            \"description\": \"感谢你的参与，期待下次与你见面\",\n            \"showReward\": false,\n            \"showDrawTime\": false,\n            \"showEntryList\": false\n          }\n        },\n        \"footerActionGroup\": null\n      },\n      \"LOTTERY_WON_NEED_ENTRY\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"result\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"moduleOverrides\": {\n          \"result\": {\n            \"variant\": \"WON_NEED_ENTRY\",\n            \"title\": \"恭喜你抽中\",\n            \"entryTip\": \"请填写两位观演人信息\",\n            \"deadlineLabel\": \"填写截止时间\",\n            \"showReward\": true,\n            \"showDeadline\": true,\n            \"showEntryList\": false\n          }\n        },\n        \"footerActionGroup\": \"fillEntry\"\n      },\n      \"LOTTERY_WON_ENTRY_COMPLETED\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"result\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"moduleOverrides\": {\n          \"result\": {\n            \"variant\": \"ENTRY_COMPLETED\",\n            \"title\": \"填写成功\",\n            \"entryTip\": \"你已填写两位观演人信息\",\n            \"deadlineLabel\": \"填写截止时间\",\n            \"showReward\": true,\n            \"showDeadline\": true,\n            \"showEntryList\": true\n          }\n        },\n        \"footerActionGroup\": \"entryCompleted\"\n      },\n      \"LOTTERY_TICKET_READY\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"result\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"moduleOverrides\": {\n          \"result\": {\n            \"variant\": \"TICKET_READY\",\n            \"title\": \"门票已生成\",\n            \"showReward\": true,\n            \"showDeadline\": false,\n            \"showEntryList\": true\n          }\n        },\n        \"footerActionGroup\": \"viewTicket\"\n      },\n      \"LOTTERY_MISSED\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"result\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"moduleOverrides\": {\n          \"result\": {\n            \"variant\": \"MISSED\",\n            \"title\": \"填写已截止\",\n            \"description\": \"因未在规定时间内填写信息，中奖资格已失效\",\n            \"showReward\": true,\n            \"showDeadline\": true,\n            \"showEntryList\": false\n          }\n        },\n        \"footerActionGroup\": null\n      },\n      \"ACTIVITY_ENDED\": {\n        \"moduleIds\": [\"hero\", \"basicInfo\", \"lineup\", \"highlights\", \"relatedNotes\", \"rules\"],\n        \"footerActionGroup\": null\n      }\n    }\n  }\n}\n```"
+  },
+  "2e71659ad4be5f82e8b8a7caabe7745a": {
+    "mdContent": "### 6.1 明确不进入 Config 的字段"
+  },
+  "bceda972ab5285fdd9b9c496d97cf4dd": {
+    "mdContent": "以下信息必须来自实时业务数据："
+  },
+  "a23c3ccb7563f5f39338d88d42dadddd": {
+    "mdContent": "- 当前用户是否报名。"
+  },
+  "15f689820ea09c35da3e5656cc39be8e": {
+    "mdContent": "- 当前用户是否中奖。"
+  },
+  "d2138d11edd5ccd3c517211f3c440245": {
+    "mdContent": "- 当前用户填写了几位观演人。"
+  },
+  "1c2ed90afc44697f20497c84dddd6fa1": {
+    "mdContent": "- 当前观演人姓名、证件类型和脱敏证件号。"
+  },
+  "59cd025f2cfe02646867c7eee125aad4": {
+    "mdContent": "- 当前积分余额。"
+  },
+  "f798352770d8d05dcea1956c13b0d8cb": {
+    "mdContent": "- 当前剩余库存。"
+  },
+  "aedbaa196407140c2e2981005b99d400": {
+    "mdContent": "- 当前门票是否生成、使用、转赠或过期。"
+  },
+  "a9d36aea91eb201ecd1bfbc6bf4aa274": {
+    "mdContent": "- 当前按钮是否可点击及禁用原因。"
+  },
+  "9085970936596a2511cce23cbdeef9fa": {
+    "mdContent": "- 当前 sceneCode。"
+  },
+  "efaf6e9b1542ad35354eed7b0171f945": {
+    "mdContent": "### 6.2 配置引用规则"
+  },
+  "caded3a5e0eba9dd6463a8d7af8149c1": {
+    "mdContent": "允许的引用只有两类："
+  },
+  "1361c4bbfa15976adfae7eec1b1b8ea0": {
+    "mdContent": "- Scene 通过 moduleIds 和 footerActionGroup 引用同一 Page 内已定义的模块及按钮组。"
+  },
+  "dc15e38aada40f3e5b1f8ccb195fc2ea": {
+    "mdContent": "- ticketTemplateId、inventoryPoolId 等引用外部业务系统中的稳定实体 ID。"
+  },
+  "00a21045b4804145850c444b895187c4": {
+    "mdContent": "不允许："
+  },
+  "558eeb27fcad075307a94b882dd95133": {
+    "mdContent": "- contentRef: content.lineup 一类任意 JSON 路径。"
+  },
+  "5128ef4451f1ac0f7865ee54b578782b": {
+    "mdContent": "- configRef: business.xxx 一类跨层路径。"
+  },
+  "9743c79fcb2107954300ebaccba2e0dd": {
+    "mdContent": "- &#123;&#123;runtime.user.isWinner&#125;&#125; 一类运行时表达式。"
+  },
+  "2af0cf8c03bf044632151ed99a98619d": {
+    "mdContent": "- 服务端下发任意 RN StyleSheet 或组件类名。"
+  },
+  "58bf985f860ec47e6e668593a23f508a": {
+    "mdContent": "## 7. 页面协议"
+  },
+  "dd97e42af53000e5c60576313475b213": {
+    "mdContent": "### 7.1 Page Document"
+  },
+  "1ef3286460c1a8889eb8ef40411d591a": {
+    "mdContent": "详情接口最终返回的 page 遵循以下逻辑结构："
+  },
+  "b88a82b0b89a4dcfb08881740dbe3f60": {
+    "mdContent": "```typescript\ninterface ActivityPageDocument {\n  activityId: string\n  activityType: 'LOTTERY' | 'POINTS_EXCHANGE' | 'FREE_EXCHANGE'\n  protocolVersion: string\n  configVersion: number\n  sceneCode: string\n  serverTime: number\n  refreshAfterMs?: number\n  page: {\n    theme: ActivityTheme\n    modules: PageModule[]\n    footer?: ActionGroup\n  }\n  runtime: ActivityRuntime\n}\n\ninterface PageModule {\n  id: string\n  type: string\n  version: number\n  slot: 'HERO' | 'RESULT' | 'CONTENT' | 'FLOATING'\n  props: Record<string, unknown>\n}\n```"
+  },
+  "4d1c903e0689924dd0dba32af65729ff": {
+    "mdContent": "Record&lt;string, unknown&gt; 只是传输层表现。每个 type + version 都必须有独立 JSON Schema 和 TypeScript Props 类型，例如 RESULT_CARD@1、LINEUP@1，不能将它当成任意 JSON。"
+  },
+  "51a323ef8d53282fd463f86562fc65c2": {
+    "mdContent": "### 7.2 首期组件注册表"
+  },
+  "decb2d53c426f72421cf2d39bc0da416": {
+    "mdContent": "| 组件 | 版本 | 职责 |\n| --- | --- | --- |\n| HERO | 1 | 顶部 KV、沉浸式导航适配 |\n| BASIC_INFO | 1 | 活动标题、时间、地点、票种和描述 |\n| RESULT_CARD | 1 | 报名、开奖、中奖、填写和票务结果 |\n| LINEUP | 1 | 普通阵容或时间轴阵容 |\n| HIGHLIGHT_CAROUSEL | 1 | 活动亮点横滑模块 |\n| NOTE_CAROUSEL | 1 | 相关笔记横滑模块 |\n| RULE_LIST | 1 | 结构化活动规则和协议链接 |\n| ACTION_GROUP | 1 | 单按钮、双按钮和纵向按钮布局 |"
+  },
+  "30ed798e298851326b0312c13451e279": {
+    "mdContent": "组件协议采用显式版本。例如新增完全不同的结果卡结构时注册 RESULT_CARD@2，而不是向 RESULT_CARD@1 无限添加可选字段。"
+  },
+  "09fa9a465cb46a0b94284e6d27b81ca9": {
+    "mdContent": "### 7.3 Action 协议"
+  },
+  "df4d5ebfa634690de41fee93d3e79917": {
+    "mdContent": "首期动作白名单："
+  },
+  "5ed25eced55002f008b11920f2ea532d": {
+    "mdContent": "| 动作 | 是否写请求 | 说明 |\n| --- | --- | --- |\n| SERVER_COMMAND | 是 | 报名、积分兑换、免费领取、提交信息、转赠等 |\n| OPEN_SCREEN | 否 | 打开已注册的 RN 子页面 |\n| OPEN_LINK | 否 | 打开经过服务端校验的 Deeplink 或 HTTPS 链接 |\n| COPY_TEXT | 否 | 复制固定文本并 Toast |\n| OPEN_MODAL | 否 | 打开已注册标准弹层 |\n| CLOSE_PAGE | 否 | 关闭当前页面 |"
+  },
+  "ac581208f71ea7c1662f3b8f071c955f": {
+    "mdContent": "配置只能选择动作类型及其标准参数，不能配置任意 Bridge 方法。"
+  },
+  "c3cfc23f45477e467b6a1de651c23d64": {
+    "mdContent": "## 8. 详情接口方案"
+  },
+  "b9fc535d2f3cb9412d7e00062bd3f956": {
+    "mdContent": "### 8.1 接口定义"
+  },
+  "ba7ffdfe88d9e86e09a08fbae5bd9c22": {
+    "mdContent": "新增 V2 接口，不修改老接口语义："
+  },
+  "e26630a0b86e502c6f817fa202183fb1": {
+    "mdContent": "```plaintext\nqueryActivityPageV2(activityId)\n```"
+  },
+  "1ee1962081aebca580c1342969d6828d": {
+    "mdContent": "请求："
+  },
+  "eafa081920078927e89212f0a9776ee4": {
+    "mdContent": "```json\n{\n  \"activityId\": \"night_festival_2026\"\n}\n```"
+  },
+  "8a7c37fd2742d0bca116f2754a68ca53": {
+    "mdContent": "响应示例："
+  },
+  "c5261c6d568eb83164aa2ff7166a0167": {
+    "mdContent": "```plaintext\n{\n  \"response\": {\n    \"success\": true,\n    \"code\": 0,\n    \"msg\": \"success\"\n  },\n  \"activityId\": \"night_festival_2026\",\n  \"activityType\": \"LOTTERY\",\n  \"protocolVersion\": \"1.0\",\n  \"configVersion\": 12,\n  \"sceneCode\": \"LOTTERY_WON_NEED_ENTRY\",\n  \"serverTime\": 1786352400000,\n  \"refreshAfterMs\": 30000,\n  \"pageDocumentJson\": \"{...}\",\n  \"runtimeJson\": \"{...}\"\n}\n```"
+  },
+  "4eb2508f0a10a19ffb5e76871c226f0d": {
+    "mdContent": "第一期 IDL 推荐使用强类型信封加已校验 JSON 文档："
+  },
+  "15fbefa0706fe04e9bf6350dee9626b6": {
+    "mdContent": "```plaintext\nstruct QueryActivityPageV2Response {\n    1: required Response response,\n    2: optional string activityId,\n    3: optional string activityType,\n    4: optional string protocolVersion,\n    5: optional i64 configVersion,\n    6: optional string sceneCode,\n    7: optional i64 serverTime,\n    8: optional i64 refreshAfterMs,\n    9: optional string pageDocumentJson,\n    10: optional string runtimeJson,\n}\n```"
+  },
+  "d2acb57c7ba23061f50369bef411ff99": {
+    "mdContent": "选择该形式的原因："
+  },
+  "e6b9eb09c3524e6b0eadc52dfe449bba": {
+    "mdContent": "- 页面组件 Props 是多态结构，直接在 Thrift 中为每个组件建立大型 Union 会导致每次新增组件都发布 IDL。"
+  },
+  "243326c002a14cdc7346621d7b55708d": {
+    "mdContent": "- JSON 并不等于无协议；发布配置、服务端编译结果和 RN 接收端都必须按同一份 JSON Schema 校验。"
+  },
+  "d7a94589432afd4ac630d2d2ea42b8c7": {
+    "mdContent": "- activityId、版本、Scene 和服务端时间仍保留为强类型一级字段，便于网关、监控和缓存使用。"
+  },
+  "7efdb6799a13f896f58f49b205357f6c": {
+    "mdContent": "协议稳定后，可以将高频公共字段提升为强类型 Thrift，但不应同时维护两套不同语义的 Page Document。"
+  },
+  "08dbb2b12168dea2a0608c2d9c61fae0": {
+    "mdContent": "### 8.2 字段解释"
+  },
+  "c2f4a9b7ba2bb6d3de00b2e7697f33b7": {
+    "mdContent": "| 字段 | 来源 | 含义 |\n| --- | --- | --- |\n| response | 服务端 | 通用成功状态和错误码 |\n| activityId | Config | 活动唯一 ID |\n| activityType | Config | 业务 Handler 类型 |\n| protocolVersion | 页面协议 | Page Document 的协议版本 |\n| configVersion | 配置发布记录 | 当前使用的不可变发布版本 |\n| sceneCode | Scene Resolver | 当前用户唯一权威场景 |\n| serverTime | 服务端 | 当前毫秒时间，避免使用设备时间推导状态 |\n| refreshAfterMs | 服务端计算 | 建议客户端下次刷新间隔；为空表示不需要自动刷新 |\n| pageDocumentJson | Page Compiler | 已完成合并、可以直接渲染的页面文档 |\n| runtimeJson | 业务查询 | 当前用户运行态，供表单、刷新、埋点和调试使用 |"
+  },
+  "3ffe46afd31848e3ca32d829fa847ffb": {
+    "mdContent": "### 8.3 Page Document 示例"
+  },
+  "d330760f34adf643fcaf865da01fbd24": {
+    "mdContent": "```plaintext\n{\n  \"theme\": {\n    \"primaryColor\": \"#526FE5\",\n    \"secondaryColor\": \"#A2B5FF\",\n    \"pageBackground\": {\n      \"type\": \"LINEAR_GRADIENT\",\n      \"colors\": [\"#FFFFFFFF\", \"#F7F7F7FF\"]\n    }\n  },\n  \"modules\": [\n    {\n      \"id\": \"hero\",\n      \"type\": \"HERO\",\n      \"version\": 1,\n      \"slot\": \"HERO\",\n      \"props\": {\n        \"imageUrl\": \"https://sns-img.example.com/night-festival/hero.png\",\n        \"aspectRatio\": 1.05\n      }\n    },\n    {\n      \"id\": \"result\",\n      \"type\": \"RESULT_CARD\",\n      \"version\": 1,\n      \"slot\": \"RESULT\",\n      \"props\": {\n        // 来自 Config。\n        \"variant\": \"WON_NEED_ENTRY\",\n        \"title\": \"恭喜你抽中\",\n        \"rewardText\": \"夜人节七日通票2张\",\n        \"entryTip\": \"请填写两位观演人信息\",\n        \"deadlineLabel\": \"填写截止时间\",\n\n        // 来自实时业务数据或服务端有效规则。\n        \"deadlineAt\": 1786550340000,\n        \"entryStatus\": \"NOT_SUBMITTED\"\n      }\n    }\n  ],\n  \"footer\": {\n    \"layout\": \"SINGLE\",\n    \"actions\": [\n      {\n        \"id\": \"openEntryForm\",\n        \"text\": \"填写观演人信息\",\n        \"style\": \"PRIMARY\",\n        \"enabled\": true,\n        \"disabledReason\": null,\n        \"behavior\": {\n          \"type\": \"OPEN_SCREEN\",\n          \"screen\": \"ENTRY_FORM\",\n          \"params\": {\n            \"activityId\": \"night_festival_2026\"\n          }\n        }\n      }\n    ]\n  }\n}\n```"
+  },
+  "018861c2394c0dd0db86b67d2cf2170e": {
+    "mdContent": "### 8.4 Runtime 示例"
+  },
+  "1e9fa0efbeac44e404676c1fe4e5eb95": {
+    "mdContent": "```plaintext\n{\n  // 服务端计算的活动阶段。\n  \"activityPhase\": \"DRAWN\",\n\n  // 当前用户参与状态。\n  \"participation\": {\n    \"status\": \"JOINED\",\n    \"joinedAt\": 1786093200000\n  },\n\n  // 当前用户抽奖状态。\n  \"lottery\": {\n    \"status\": \"WON\",\n    \"drawnAt\": 1786334400000\n  },\n\n  // 当前用户信息填写状态。\n  \"entry\": {\n    \"status\": \"NOT_SUBMITTED\",\n    \"personCount\": 2,\n    \"deadlineAt\": 1786550340000,\n    \"entries\": []\n  },\n\n  // 当前用户票务状态。\n  \"ticket\": {\n    \"status\": \"PENDING\",\n    \"ticketIds\": []\n  }\n}\n```"
+  },
+  "97e57cc15df4f69d110026387bb6ee26": {
+    "mdContent": "runtimeJson 按活动类型拥有独立 Schema："
+  },
+  "a76d6e5341e718474bce3f9b72d51645": {
+    "mdContent": "- LOTTERY：participation、lottery、entry、ticket。"
+  },
+  "efa91f63b0ddda317c336c0d1fdb8c4b": {
+    "mdContent": "- POINTS_EXCHANGE：exchange、pointsBalance、inventory、ticket。"
+  },
+  "a9f9973c66659a2d5a3062ff822e8b83": {
+    "mdContent": "- FREE_EXCHANGE：claim、inventory、userLimit、ticket。"
+  },
+  "4fc92d009e208938eac891136cdbe602": {
+    "mdContent": "RN 不使用 Runtime 再次选择 Scene；Scene 已由服务端决定。Runtime 用于子页面初始化、埋点、局部刷新和问题排查。"
+  },
+  "dce2cea1a74389d7f924190a53f28c27": {
+    "mdContent": "## 9. Scene 计算"
+  },
+  "8d5b150af3ee53c94cf76bc97737addc": {
+    "mdContent": "### 9.1 抽奖型 Scene"
+  },
+  "ffa2905a151615d98e993b25465b5a41": {
+    "mdContent": "首期场景："
+  },
+  "3afd66c06bf1058509bcebfeda5f5a29": {
+    "mdContent": "- LOTTERY_NOT_STARTED"
+  },
+  "f40dfce0decd69522a0ca2ded01ec2f7": {
+    "mdContent": "- LOTTERY_JOINABLE"
+  },
+  "680f3bff52fe6819bfe47e964ddaff41": {
+    "mdContent": "- LOTTERY_JOINED_WAIT_DRAW"
+  },
+  "140e3b273d49b0079c9bd2950fb8ef66": {
+    "mdContent": "- LOTTERY_DRAWING"
+  },
+  "c8c93baf5de2c217a5a353edfc52d9d2": {
+    "mdContent": "- LOTTERY_NOT_WON"
+  },
+  "10101aa1ba3f236d6199872bb85ff4a6": {
+    "mdContent": "- LOTTERY_WON_NEED_ENTRY"
+  },
+  "b7a15fc53ae87706bb8b1259f7efd6be": {
+    "mdContent": "- LOTTERY_WON_ENTRY_COMPLETED"
+  },
+  "e5977f4bb8ea30bb5ec1a6ebf4744770": {
+    "mdContent": "- LOTTERY_TICKET_READY"
+  },
+  "152739c6ea754eb32a6a22e61c072079": {
+    "mdContent": "- LOTTERY_MISSED"
+  },
+  "592745263980c3b3c23443d55b0499a2": {
+    "mdContent": "- ACTIVITY_ENDED"
+  },
+  "d6374395805c094cd6c32f694a6d644b": {
+    "mdContent": "- ACTIVITY_OFFLINE"
+  },
+  "a79c8f207d32951180b1c55372e5edb9": {
+    "mdContent": "服务端根据活动阶段、报名记录、中奖记录、填写截止时间、填写记录和票务状态按照固定优先级计算 Scene。必须继续保留开奖前不泄露预录入中奖结果的规则。"
+  },
+  "b7dba0a891ac986823c98ff3516bec53": {
+    "mdContent": "### 9.2 积分兑换型 Scene"
+  },
+  "a597ecaa3e5943f3afb3a60ec010fcd9": {
+    "mdContent": "- POINTS_NOT_STARTED"
+  },
+  "1e69b12b3c69252f0c2407109e064173": {
+    "mdContent": "- POINTS_AVAILABLE"
+  },
+  "9628dfb85d99aaf4b1ecaeaf290a2ccc": {
+    "mdContent": "- POINTS_INSUFFICIENT"
+  },
+  "271a01721e2c0ec05d771d85d9a6b184": {
+    "mdContent": "- POINTS_SOLD_OUT"
+  },
+  "3b01c6c2f1441a8f6ef80da2bc537aad": {
+    "mdContent": "- POINTS_COMPLETED"
+  },
+  "e8eb404c703c32196310888b6db6922c": {
+    "mdContent": "- POINTS_TICKET_PENDING"
+  },
+  "d665d064511c11b1456bbe1eb37fa840": {
+    "mdContent": "- POINTS_TICKET_READY"
+  },
+  "f6c980e43b9aa5a563b30d5fd6f3da3e": {
+    "mdContent": "- ACTIVITY_ENDED"
+  },
+  "df9c09ef283055d52e498b47d0b89761": {
+    "mdContent": "- ACTIVITY_OFFLINE"
+  },
+  "ebd1b607a67b8b1cee4d9347cb22214c": {
+    "mdContent": "积分价格属于固定业务配置；当前用户积分和实时库存属于 Runtime。"
+  },
+  "2c949c72c718ef6176f6d2b39aa5543c": {
+    "mdContent": "### 9.3 免费兑换型 Scene"
+  },
+  "9d91a6a61dc4912d146c4873512b237f": {
+    "mdContent": "- FREE_NOT_STARTED"
+  },
+  "643bee945102bde5dcd5ad6d2bfc78c6": {
+    "mdContent": "- FREE_AVAILABLE"
+  },
+  "614da0ce783d435e5d08a0c0fd08fe38": {
+    "mdContent": "- FREE_SOLD_OUT"
+  },
+  "72e5e00b5e0a47b1ebfa1a5a80a7c8da": {
+    "mdContent": "- FREE_LIMIT_REACHED"
+  },
+  "1ec0c03e93f9527986f6d7404aec86cd": {
+    "mdContent": "- FREE_COMPLETED"
+  },
+  "7be64e143624e828145fb57e1c506b26": {
+    "mdContent": "- FREE_TICKET_PENDING"
+  },
+  "b44c0fcfecbb24dcf583551242dfcae8": {
+    "mdContent": "- FREE_TICKET_READY"
+  },
+  "69c38efcb8fb132194592fcdcfabe814": {
+    "mdContent": "- ACTIVITY_ENDED"
+  },
+  "e3e5fe3c47aa14595924814ac6a09c2f": {
+    "mdContent": "- ACTIVITY_OFFLINE"
+  },
+  "1d820382a7b84b58d702ca5091779c01": {
+    "mdContent": "免费兑换不能复用抽奖报名语义。它需要独立的 FREE_CLAIM 命令、领取记录和强库存扣减。"
+  },
+  "7bb41e4696aecdd18df4716286e3d292": {
+    "mdContent": "## 10. 前端方案"
+  },
+  "bb0856d31f6d7cce7eb98d6f9d50c7e2": {
+    "mdContent": "### 10.1 路由和包结构"
+  },
+  "1d7b3135cef0e69d0c661f7f35f328c5": {
+    "mdContent": "建议新增独立 V2 页面包和路由："
+  },
+  "047e35056d4c559e3faa7396df65bda8": {
+    "mdContent": "```plaintext\npackages/red-card-activity-v2/\n  src/\n    apis/\n    components/\n    protocol/\n    renderer/\n    actions/\n    screens/\n    store/\n    tracker/\n    main.tsx\n\nroute: /red-card-activity-v2\n```"
+  },
+  "8ab9c1bb22858ea83bb5eb6814a0577f": {
+    "mdContent": "老 red-card-member-activity 和 red-card-member-points-activity 保持原接口和行为。活动迁移时由入口配置整体切换到新路由，不在 V2 Renderer 中增加老字段 fallback。"
+  },
+  "005550bd24d23629f3835752ff88dd33": {
+    "mdContent": "### 10.2 协议层"
+  },
+  "c3f2990f8772cd89e5ab4cc5fd4c96b2": {
+    "mdContent": "protocol/ 包含："
+  },
+  "10d20a6d5ff765b74a36c78b56e5e613": {
+    "mdContent": "- Page Document TypeScript 类型。"
+  },
+  "0e5b21067febae8ea9fd1d19f26e6a96": {
+    "mdContent": "- 各组件 Props 类型。"
+  },
+  "3333c781ba4ad1edf3f3ee3ccef1c12f": {
+    "mdContent": "- 各 Action 参数类型。"
+  },
+  "1953ecef2eb4132efe59e4f32a30235f": {
+    "mdContent": "- JSON Schema 运行时校验器。"
+  },
+  "bdbba7a441ec7f2aac07cba592239255": {
+    "mdContent": "- protocolVersion 和组件版本支持矩阵。"
+  },
+  "e4453b03f5476bccfcedd8e2ec3b431a": {
+    "mdContent": "接口返回后先完成以下校验："
+  },
+  "ca76b5e778ec1d9284d602183f85ff62": {
+    "mdContent": "1. protocolVersion 是否受支持。"
+  },
+  "75c3732a11c6c7c81198cf5385df5dae": {
+    "mdContent": "2. 每个 type + version 是否在组件注册表中。"
+  },
+  "c149c068016a3717c3179d2a371d5d45": {
+    "mdContent": "3. 每个模块 Props 是否通过对应 Schema。"
+  },
+  "875a4cc2d5979d204967ea74625d8356": {
+    "mdContent": "4. Action 类型和参数是否在白名单中。"
+  },
+  "0f12378015d1dbdd86220d32815c5724": {
+    "mdContent": "失败时上报协议错误并进入统一错误页，不能静默渲染未知结构。"
+  },
+  "0fd3f9727fcc10ab21e8f7e8f32ef7cc": {
+    "mdContent": "### 10.3 组件注册表"
+  },
+  "febcc3d8819786879366a3b717692ef0": {
+    "mdContent": "```typescript\nconst componentRegistry = {\n  'HERO@1': HeroV1,\n  'BASIC_INFO@1': BasicInfoV1,\n  'RESULT_CARD@1': ResultCardV1,\n  'LINEUP@1': LineupV1,\n  'HIGHLIGHT_CAROUSEL@1': HighlightCarouselV1,\n  'NOTE_CAROUSEL@1': NoteCarouselV1,\n  'RULE_LIST@1': RuleListV1,\n} as const\n```"
+  },
+  "a59a159d37efbb4806c836b4124943f3": {
+    "mdContent": "Renderer 只负责："
+  },
+  "3d898868102a903d34b14be2d732339d": {
+    "mdContent": "- 按接口数组顺序渲染模块。"
+  },
+  "81bfa181cbd021d4254ac2c3bf041dad": {
+    "mdContent": "- 根据 Slot 处理沉浸式 KV、内容区和悬浮层。"
+  },
+  "1875d7d5a68b98f51aeb8f311625beaa": {
+    "mdContent": "- 渲染 Footer ActionGroup。"
+  },
+  "94a57fa637a1a7852a9d7ce646538ba0": {
+    "mdContent": "- 处理安全区、Android 透明状态栏和最大 420px 内容窗口。"
+  },
+  "31e874d4bbd29392bbead5fd0c05b223": {
+    "mdContent": "- 对模块曝光和按钮点击统一埋点。"
+  },
+  "b6bb481f6edfe2c88448573eff2b3d6a": {
+    "mdContent": "Renderer 不负责："
+  },
+  "f1c58483f8c1c806bec49b8be3c958a3": {
+    "mdContent": "- 根据时间判断活动阶段。"
+  },
+  "42eedc84e488dee1c60cbff614593f62": {
+    "mdContent": "- 根据用户状态判断是否中奖。"
+  },
+  "cf46442a045ec4b0b54bfc7975af2fd7": {
+    "mdContent": "- 根据活动 ID 选择主题和按钮行为。"
+  },
+  "813720f6f3c69c0ab319ec7e532167e8": {
+    "mdContent": "- 拼接奖品名称、门票数量和中奖文案。"
+  },
+  "4d94696c2cb48d5c7ca809a789d91e67": {
+    "mdContent": "- 判断库存、积分或写操作是否允许。"
+  },
+  "cd8ca1f5994e2d5a7fd64b519abb88bb": {
+    "mdContent": "### 10.4 样式边界"
+  },
+  "97225c1c6d1923d60f43719f969427f8": {
+    "mdContent": "配置可控制："
+  },
+  "4fe4e2f9ac2901dc8b56cbd8c49e72cb": {
+    "mdContent": "- 主题语义色。"
+  },
+  "a812ebb83abe5564ea536966edeeda65": {
+    "mdContent": "- 组件 Variant。"
+  },
+  "0fea7c04ab4699160de7861f021a470b": {
+    "mdContent": "- 模块是否展示和顺序。"
+  },
+  "55e7fc8d783f0dda19f0a81f447ad111": {
+    "mdContent": "- 按钮布局和语义样式。"
+  },
+  "f592aeeab02878c94856cc808407192a": {
+    "mdContent": "RN 组件固定："
+  },
+  "69bcb85d9e554f2b4c6cd6ca9df355e1": {
+    "mdContent": "- 281px 按钮宽度等设计尺寸。"
+  },
+  "80a194a26ba37d046531f22797f44dc4": {
+    "mdContent": "- 字号、字重、圆角、间距。"
+  },
+  "cf3f3c9848971fd00944c75c91af687f": {
+    "mdContent": "- Android 加 100 字重等平台差异。"
+  },
+  "7d2a23e2cf19e0e42fafbeb8cbd8ef41": {
+    "mdContent": "- 折叠屏和最大内容宽度。"
+  },
+  "91ca1b8c97db2bfaa89a8842f192fa3d": {
+    "mdContent": "- SVG 字形和主题色条的叠放规则。"
+  },
+  "486da75bf802dde909c7151fa40390b3": {
+    "mdContent": "### 10.5 ActionDispatcher"
+  },
+  "fdb89b4bbfa1f17ecbdf35dd4b0223a5": {
+    "mdContent": "ActionDispatcher 统一处理："
+  },
+  "aeb57c5a19d3bfb9a56195d16a2da35c": {
+    "mdContent": "- OPEN_SCREEN：校验 Screen 注册表并打开子页面。"
+  },
+  "6dba633ab032564edb739de297e7ba30": {
+    "mdContent": "- OPEN_LINK：校验 Scheme 或 HTTPS 白名单后跳转。"
+  },
+  "e4b3d6d3f2d5dee49d3c4f8e599d7366": {
+    "mdContent": "- COPY_TEXT：写剪贴板并展示接口下发的 Toast。"
+  },
+  "4a24d58264019261f34558c2e6acd252": {
+    "mdContent": "- SERVER_COMMAND：生成幂等键并调用统一写接口。"
+  },
+  "307766d2805c23026f97e10d442d4225": {
+    "mdContent": "服务端命令成功后，RN 必须重新请求 queryActivityPageV2，不能只在本地猜测下一个 Scene。"
+  },
+  "acf6663f4afc48e7ae55fcb70ca24735": {
+    "mdContent": "### 10.6 缓存和 Preload"
+  },
+  "5022dfd95fc27af658cb74b267cc14df": {
+    "mdContent": "缓存键至少包含："
+  },
+  "5964a3b87bc12744daec4551b817ec85": {
+    "mdContent": "```plaintext\nactivityId + userId + configVersion + protocolVersion\n```"
+  },
+  "5337cd92d2b4cf91bc469ed280663b0f": {
+    "mdContent": "推荐策略："
+  },
+  "e80e9a10b1d4a36b20fa28d602abb289": {
+    "mdContent": "- 首屏可以先展示上次成功缓存。"
+  },
+  "89212d24f3d84ee215cba3ac7869b9bc": {
+    "mdContent": "- Preload/Fresh 返回后只用权威结果替换一次页面。"
+  },
+  "3e7b21a4f4b9141089d2e0f5483ebeba": {
+    "mdContent": "- 缓存中同时保存完整 Page Document 和 Runtime，不能只缓存模块列表。"
+  },
+  "f41a0a8d2fb8e1e5af362d135b0fc8f2": {
+    "mdContent": "- refreshAfterMs 到期或跨越报名、开奖、截止时间时必须刷新。"
+  },
+  "a99c6727670e720b747a3c0f8806ee22": {
+    "mdContent": "- 写操作成功后主动失效当前活动用户缓存。"
+  },
+  "c977d6a72fd3050260f30b6aa2792993": {
+    "mdContent": "- Preview 响应使用独立缓存命名空间，绝不能污染线上缓存。"
+  },
+  "2b9602c6ea1005e6497b8d2c11984ab7": {
+    "mdContent": "## 11. 后端方案"
+  },
+  "e17817c33ea8340dc08a4cb87b4143c8": {
+    "mdContent": "### 11.1 新增领域边界"
+  },
+  "57535c653c345457eefccf52f738de6d": {
+    "mdContent": "建议新增以下核心能力："
+  },
+  "e08f3569a5ade7256d88d3009925ebd1": {
+    "mdContent": "```plaintext\nActivityConfigRepository\nActivityConfigValidator\nActivityRuntimeQueryService\nActivitySceneResolver\nActivityPageCompiler\nActivityActionService\nActivityTypeHandler\n```"
+  },
+  "4b718bf3d0859695553b057a16331c70": {
+    "mdContent": "职责："
+  },
+  "7cbd1b62d8e0f8b0a7de9b311c30678b": {
+    "mdContent": "- ActivityConfigRepository：按活动和发布版本读取不可变 Config。"
+  },
+  "5ac594f18b024c9e96a6b82f40a66068": {
+    "mdContent": "- ActivityConfigValidator：校验顶层 Config、模块 Props、Scene 引用和 Action 白名单。"
+  },
+  "a6a8d6cfc98af9a17678bd3e1f86ad37": {
+    "mdContent": "- ActivityRuntimeQueryService：查询当前用户和资源运行态。"
+  },
+  "f4d8dcd25d2190af1edbae9f4c6951b1": {
+    "mdContent": "- ActivitySceneResolver：根据 Config 和 Runtime 计算唯一 Scene。"
+  },
+  "a149319c4d2555f95eafb3a0fde27333": {
+    "mdContent": "- ActivityPageCompiler：生成最终 Page Document。"
+  },
+  "bab86e4b530e08d3ab14c07d2cee8b56": {
+    "mdContent": "- ActivityActionService：统一校验、幂等和命令分发。"
+  },
+  "326c121bbbec4d75c8b23a31288b6f1c": {
+    "mdContent": "- ActivityTypeHandler：实现不同活动类型的查询及写操作差异。"
+  },
+  "9375e48a55eee9cdf8e7df48b4f614a4": {
+    "mdContent": "### 11.2 Handler"
+  },
+  "0c3410215eff3e9f11d8cfeb4cecc38e": {
+    "mdContent": "```java\npublic interface ActivityTypeHandler {\n    String activityType();\n\n    ActivityRuntime queryRuntime(\n        String activityId,\n        String userId,\n        PublishedActivityConfig config\n    );\n\n    String resolveScene(\n        PublishedActivityConfig config,\n        ActivityRuntime runtime,\n        Instant now\n    );\n\n    ActionResult execute(\n        ActivityActionCommand command,\n        PublishedActivityConfig config\n    );\n}\n```"
+  },
+  "dd42fd6fb4e716972acf49a16e2a2077": {
+    "mdContent": "首期实现："
+  },
+  "7fa478fcf2983b4ce3e91b79e60f50a2": {
+    "mdContent": "- LotteryActivityHandler"
+  },
+  "7ead8f786402148efaae59b10e6b4df1": {
+    "mdContent": "- PointsExchangeActivityHandler"
+  },
+  "f0a89a98f1edc8f1a477a17c54851c79": {
+    "mdContent": "- FreeExchangeActivityHandler"
+  },
+  "2806b14b186e35cfa46631eeca5bb456": {
+    "mdContent": "不要让 ActivityQueryService 继续通过大量 if activityType 承载所有活动类型。"
+  },
+  "09eca8d07fb80dc8e68bf3539a5859ab": {
+    "mdContent": "### 11.3 页面编译顺序"
+  },
+  "7dc5f2af87e7b19054f310171e6ce1be": {
+    "mdContent": "Page Compiler 按固定顺序执行："
+  },
+  "f9214abec5fe2d1e2f809064175b6c18": {
+    "mdContent": "1. 读取当前 Scene 配置。"
+  },
+  "807242c4bc003713079ddddfd6c55328": {
+    "mdContent": "2. 根据 moduleIds 选择模块并保持顺序。"
+  },
+  "f5833f285a30df57e82571e1ebbe5bc7": {
+    "mdContent": "3. 复制模块基础 Props。"
+  },
+  "17f1a80217525175e5bd792de1825283": {
+    "mdContent": "4. 合并当前 Scene 的 moduleOverrides。"
+  },
+  "204fea78bbc9e70e652679eb986f2cd1": {
+    "mdContent": "5. 由对应 Module Enricher 填入动态 Props。"
+  },
+  "eea27b9024c4ccada8196f2d3696cadb": {
+    "mdContent": "6. 解析当前 Scene 的 Footer ActionGroup。"
+  },
+  "2fa5914201a2952d025adf556023b5ae": {
+    "mdContent": "7. 根据实时权限计算 enabled 和 disabledReason。"
+  },
+  "23b479cd09b2e177415cc0ed4730324a": {
+    "mdContent": "8. 输出最终 Page Document 并按协议 Schema 再校验一次。"
+  },
+  "47947da8cd95cd0e0d9dfad8127b8d0c": {
+    "mdContent": "例如 ResultCardEnricher 负责写入："
+  },
+  "33c68662391b317a42af0c7f5d181b0d": {
+    "mdContent": "- 实际中奖状态。"
+  },
+  "73a6bcde861a3a7ea6a49180e39d3c6f": {
+    "mdContent": "- 有效填写截止时间。"
+  },
+  "c34c547f71fbeeccf5e0382be9b68c31": {
+    "mdContent": "- 脱敏观演人列表。"
+  },
+  "642ea988ca266e4d09fb9ea04ae9017a": {
+    "mdContent": "- 当前门票状态。"
+  },
+  "eb1558e873376d40ea60ed1634baf743": {
+    "mdContent": "它不能修改 Config 中的固定 rewardText。"
+  },
+  "158ab70e9a6b091d903a2a5d6a245ff1": {
+    "mdContent": "### 11.4 配置存储"
+  },
+  "c5761af2f30dd4af23f535b0035872d3": {
+    "mdContent": "正式方案使用版本化数据库，不建议继续把全部 V2 活动存入 Apollo 单列表。"
+  },
+  "5bc0f153b1160e211cfea3197e1ac819": {
+    "mdContent": "建议表："
+  },
+  "1525fbbbc760d14a4d96031ab20bd1c0": {
+    "mdContent": "```sql\nactivity\n- activity_id\n- activity_type\n- current_published_version\n- created_at\n- updated_at\n\nactivity_version\n- activity_id\n- version\n- definition_json\n- schema_version\n- status\n- created_by\n- created_at\n- published_by\n- published_at\n\nactivity_publication\n- activity_id\n- version\n- environment\n- published_at\n- operator\n\nactivity_preview_session\n- preview_token_hash\n- activity_id\n- version\n- mock_scene_code\n- expires_at\n- created_by\n\nactivity_audit_log\n- activity_id\n- version\n- operation\n- operator\n- diff_json\n- created_at\n```"
+  },
+  "5ec97687c1955b5381979106a34d6fd8": {
+    "mdContent": "发布状态、创建人和发布时间属于配置管理元数据，不进入 definition_json。"
+  },
+  "5a750110bcd645069e6e7016c91fb318": {
+    "mdContent": "### 11.5 强库存"
+  },
+  "5bb116a102d90b610438f1e3c294de96": {
+    "mdContent": "积分兑换和免费兑换不能继续使用“查询已兑换数后再判断”的弱一致方式。建议独立库存表："
+  },
+  "73e9d4a91065a496e5c8363508cfb5cf": {
+    "mdContent": "```sql\nactivity_session_inventory\n- activity_id\n- config_version\n- session_id\n- total_count\n- issued_count\n- reserved_count\n- version\n```"
+  },
+  "5be773e695c983a0fa533ea6a0b78813": {
+    "mdContent": "领取时使用数据库原子条件更新或统一库存服务："
+  },
+  "0941e97dfe4a41a0e95a14140142dfd2": {
+    "mdContent": "```sql\nupdate activity_session_inventory\nset issued_count = issued_count + 1,\n    version = version + 1\nwhere activity_id = ?\n  and session_id = ?\n  and issued_count + reserved_count < total_count\n  and version = ?;\n```"
+  },
+  "1f17d6d429a00b645d1ab89c36dd279a": {
+    "mdContent": "语义必须拆分："
+  },
+  "3e508481d6db44aabad9c4d6532d82c9": {
+    "mdContent": "- 抽奖：winnerCount。"
+  },
+  "6b50ee994a396825c125fd478f6acc55": {
+    "mdContent": "- 积分/免费兑换：inventoryPoolId 或库存表总量。"
+  },
+  "e7ea0e96f5a1f09d1279488fe014ce22": {
+    "mdContent": "- 每人获得票数：reward.quantity。"
+  },
+  "0248c540792ab9e29a7000592fc72bc4": {
+    "mdContent": "- 每张票对应观演人数：填写或票务模板规则。"
+  },
+  "6cad797601e24455a07aed869d78885c": {
+    "mdContent": "不再让 ticketCount 同时表达多个概念。"
+  },
+  "2efe78b39eb958d076230b65bc856c58": {
+    "mdContent": "## 12. 统一写接口"
+  },
+  "a874e512ae030975d8e27fc6dc76fa1c": {
+    "mdContent": "新增："
+  },
+  "614e249c0f26638371946880ef72ea9a": {
+    "mdContent": "```plaintext\nexecuteActivityActionV2\n```"
+  },
+  "da16d8eaf8f02a121c461cef32e399f1": {
+    "mdContent": "请求："
+  },
+  "458aff7d80f1a8aa904ea76638dc532b": {
+    "mdContent": "```plaintext\n{\n  \"activityId\": \"night_festival_2026\",\n  \"actionId\": \"joinLottery\",\n  \"sceneCode\": \"LOTTERY_JOINABLE\",\n  \"configVersion\": 12,\n  \"idempotencyKey\": \"client-generated-uuid\",\n  \"inputJson\": \"{}\"\n}\n```"
+  },
+  "fa55c3d87da67f9fb20f4ff5b415a3ad": {
+    "mdContent": "服务端处理顺序："
+  },
+  "88ff8bb8316a71f968d4088a0a141068": {
+    "mdContent": "1. 重新读取当前发布配置。"
+  },
+  "aa8a9ff84fdac8cf800dd63b1b03b316": {
+    "mdContent": "2. 校验客户端 configVersion 是否仍有效。"
+  },
+  "215cb6dec04e870a16b55b881c60b012": {
+    "mdContent": "3. 重新查询 Runtime。"
+  },
+  "411b38f83b234238445017760aea0e9b": {
+    "mdContent": "4. 重新计算 Scene。"
+  },
+  "9f0a22f08414922ba51c3d4c8eae07c0": {
+    "mdContent": "5. 校验 actionId 是否属于当前 Scene 且可执行。"
+  },
+  "7d152f0262fb6307d9f54bf432e1ecc2": {
+    "mdContent": "6. 校验输入 Schema。"
+  },
+  "20ede84fa648e64672699255b4359061": {
+    "mdContent": "7. 进入对应活动 Handler。"
+  },
+  "777525a181265c4cffc210a587e0071c": {
+    "mdContent": "8. 使用 idempotencyKey 保证写操作幂等。"
+  },
+  "f469b9f65fe471a9d5d09a6dc59b1bdc": {
+    "mdContent": "9. 返回操作结果和最新详情，或让 RN 立即回刷详情。"
+  },
+  "ca5d85ec8d503c93759b4bd5d29319e2": {
+    "mdContent": "客户端传入的 sceneCode 只用于并发冲突检测，不能作为服务端授权依据。"
+  },
+  "b174097686fe7263a571dcaa32648b4b": {
+    "mdContent": "命令集合："
+  },
+  "590c256b7e913505694e012527db39a0": {
+    "mdContent": "- LOTTERY_JOIN"
+  },
+  "3748e214c8e8776bc25708a5c3672a8f": {
+    "mdContent": "- POINTS_EXCHANGE"
+  },
+  "fc5dd0afae5e4315c494fc5715801645": {
+    "mdContent": "- FREE_CLAIM"
+  },
+  "2ce6629a8954d6d2ed50ad4d94d93e75": {
+    "mdContent": "- SUBMIT_ENTRY_INFO"
+  },
+  "f3cbcb789497fd60052848c773a88708": {
+    "mdContent": "- TRANSFER_TICKET"
+  },
+  "cfeb045184e74d41aabedd8fbf7532dc": {
+    "mdContent": "- REDEEM_CODE"
+  },
+  "6eb25ad74eda3a1fe4c7a7a8be7be4bf": {
+    "mdContent": "## 13. 配置校验和发布"
+  },
+  "d7240dcdff15e28e2172142b67025203": {
+    "mdContent": "发布前必须完成："
+  },
+  "14ff07ca20e2461a21e6c00d25f336e8": {
+    "mdContent": "- 顶层 Config JSON Schema 校验。"
+  },
+  "ae43be5e9a8a4158cb466d1862472514": {
+    "mdContent": "- 活动类型专属 Business Schema 校验。"
+  },
+  "303e0a9adb7b08164296dbac73d3188f": {
+    "mdContent": "- 每个 type + version 的 Props Schema 校验。"
+  },
+  "13ffb64d0223ccb2432803c940483606": {
+    "mdContent": "- Module ID 和 ActionGroup ID 唯一性校验。"
+  },
+  "9cfa5a29c5ffa50b2a447f24912bf2ab": {
+    "mdContent": "- Scene 引用完整性校验。"
+  },
+  "03830fcf5b77a438eb68c9de52e5cb5e": {
+    "mdContent": "- URL Scheme 和 HTTPS 域名白名单校验。"
+  },
+  "c550bd8d870496146d9d3362ed40fde0": {
+    "mdContent": "- joinStartAt、joinEndAt、drawAt、activityStartAt、activityEndAt 顺序校验。"
+  },
+  "f91ca3221936d68d471cc796ecde1a27": {
+    "mdContent": "- reward.quantity、entry.personCount 和票务模板规则一致性校验。"
+  },
+  "4ed10f8cc80110111fbbbcf4a99b563e": {
+    "mdContent": "- 所有 Scene 至少能编译成一个合法 Page Document。"
+  },
+  "4aaf8f8bf5373af81e21fffa5fafa2f6": {
+    "mdContent": "- 当前线上最低 RN 版本是否支持配置中使用的全部组件版本。"
+  },
+  "8e8066de6fe82015625d002988aae015": {
+    "mdContent": "发布生成新版本，不覆盖旧版本。线上查询只读取 PUBLISHED 版本；回滚只需要将当前发布指针切回之前版本。"
+  },
+  "fd9941d2bd92037858f2c2eb8e810a01": {
+    "mdContent": "## 14. 预览方案"
+  },
+  "de721b4d5e11919f9eaef3149d82fafe": {
+    "mdContent": "预览不能把动态 Mock 写进正式 Config。"
+  },
+  "0615023dfe9ed02f1e96c7983057d037": {
+    "mdContent": "流程："
+  },
+  "708405ab38c4e503a2559289d4d23bb6": {
+    "mdContent": "1. 用户选择一个草稿版本。"
+  },
+  "4317de68450cefb1c5615b48ace81194": {
+    "mdContent": "2. 后台选择 Mock Scene，例如 LOTTERY_WON_NEED_ENTRY。"
+  },
+  "68df7e20221c02c19ba4849cef6f28d7": {
+    "mdContent": "3. 后台生成短期有效的 Preview Token。"
+  },
+  "bdfb16113f5059996d9c7146a545aea1": {
+    "mdContent": "4. 预览接口读取草稿 Config 和独立 Mock Runtime。"
+  },
+  "ab970a0eb051c2506f5c4301ecd2428f": {
+    "mdContent": "5. 使用与线上相同的 Page Compiler 生成页面。"
+  },
+  "4297cee636c3e0d0704c0b89cc417320": {
+    "mdContent": "6. RN 预览页展示水印，并禁用所有写操作。"
+  },
+  "de7820e1978f5e4c61eacbf76240b8df": {
+    "mdContent": "Preview Token 至少绑定："
+  },
+  "db2d12b77f90add3b088f595b4feb729": {
+    "mdContent": "- activityId。"
+  },
+  "979224b4215253697e1f80c4c15f64ff": {
+    "mdContent": "- configVersion。"
+  },
+  "fca0ad4a1aaf68d82231b00f1517568e": {
+    "mdContent": "- mockSceneCode。"
+  },
+  "cf49980db0537382844ad2e08350774a": {
+    "mdContent": "- operator。"
+  },
+  "512a6f62e799263239ba953061786810": {
+    "mdContent": "- expiresAt。"
+  },
+  "f3df09fb12534702cd3322328cd426bf": {
+    "mdContent": "## 15. IDL 改造"
+  },
+  "e92707c0cb5117c3d53a822bcb472f49": {
+    "mdContent": "新增而不是修改老接口："
+  },
+  "80c5a5047329a4f4417fd851c5e74a50": {
+    "mdContent": "- QueryActivityPageV2Request"
+  },
+  "4d2879aa847994169a8dacb8a5eb4acb": {
+    "mdContent": "- QueryActivityPageV2Response"
+  },
+  "349cf7ce71157811196ba86f6ded4d1d": {
+    "mdContent": "- ExecuteActivityActionV2Request"
+  },
+  "85bc3382212fbf3b1726a9d2fc8fa98f": {
+    "mdContent": "- ExecuteActivityActionV2Response"
+  },
+  "89990aff9bf9e01782cb3944bbc6b8bb": {
+    "mdContent": "建议 IDL："
+  },
+  "b4ab14635347cffa6fde56ae210e22cb": {
+    "mdContent": "```plaintext\nstruct QueryActivityPageV2Request {\n    1: required string activityId,\n    2: optional string previewToken,\n}\n\nstruct QueryActivityPageV2Response {\n    1: required Response response,\n    2: optional string activityId,\n    3: optional string activityType,\n    4: optional string protocolVersion,\n    5: optional i64 configVersion,\n    6: optional string sceneCode,\n    7: optional i64 serverTime,\n    8: optional i64 refreshAfterMs,\n    9: optional string pageDocumentJson,\n    10: optional string runtimeJson,\n}\n\nstruct ExecuteActivityActionV2Request {\n    1: required string activityId,\n    2: required string actionId,\n    3: required string sceneCode,\n    4: required i64 configVersion,\n    5: required string idempotencyKey,\n    6: optional string inputJson,\n}\n\nstruct ExecuteActivityActionV2Response {\n    1: required Response response,\n    2: optional string actionResultJson,\n    3: optional QueryActivityPageV2Response latestPage,\n}\n```"
+  },
+  "63d837a752022e66248bdc87beddb891": {
+    "mdContent": "previewToken 只在 Beta 或后台预览环境开放，线上普通用户请求不能通过它访问草稿配置。"
+  },
+  "d4bfae647ae0910bc8edf1f1ee724e50": {
+    "mdContent": "## 16. 兼容与迁移"
+  },
+  "f515cad65e2856cdf414739e96709599": {
+    "mdContent": "V1 和 V2 是两条独立链路："
+  },
+  "ca683fadf873a0fe9c90ca4954b6410f": {
+    "mdContent": "| 维度 | V1 | V2 |\n| --- | --- | --- |\n| RN 路由 | 原活动路由 | /red-card-activity-v2 |\n| 详情接口 | queryActivityDetail | queryActivityPageV2 |\n| 写接口 | joinActivity 等多个接口 | executeActivityActionV2 |\n| 配置 | Apollo redvip.activity.config.list | 版本化 Activity Config |\n| 页面逻辑 | RN 固定页面和活动 ID 分支 | 服务端 Scene + Page Document |"
+  },
+  "9e7d1e360164cb62e1ef59a01cb4bdaf": {
+    "mdContent": "不在 V2 中兼容 V1 字段。某个活动需要迁移时，应完成配置录入、全 Scene 预览和回归后，整体切换入口路由；回滚时将入口切回 V1。"
+  },
+  "6bc5d08f8c87db59dec0408e92dc250c": {
+    "mdContent": "## 17. 实施拆分"
+  },
+  "24e62c04c91e7430db51a1c380879ca7": {
+    "mdContent": "### 17.1 第一阶段：协议和抽奖闭环"
+  },
+  "871d590f7a5ec5073b69e086f961079a": {
+    "mdContent": "- 确定 Config JSON Schema 1.0。"
+  },
+  "81d9ec696f9fa240db966417bec17c4d": {
+    "mdContent": "- 确定 Page Document Schema 1.0。"
+  },
+  "0dbd7e4aa5c46692bc9868193f44f6c5": {
+    "mdContent": "- 新增 V2 IDL。"
+  },
+  "6f8d8787ee80cdf2dd942ed2300531ca": {
+    "mdContent": "- 后端实现 Config Repository、Lottery Handler、Scene Resolver 和 Page Compiler。"
+  },
+  "591ededda45f8a70a73c2bde58f3a157": {
+    "mdContent": "- RN 实现 V2 Renderer、首期组件注册表和 ActionDispatcher。"
+  },
+  "30e3fcf9dcc1b8421c2b37c0fbdd2d37": {
+    "mdContent": "- 用夜人节配置跑通未开始、可报名、等待开奖、未中奖、中奖待填写、填写完成和票务就绪场景。"
+  },
+  "5f507f9eafc5b99dae1985f46d1567d4": {
+    "mdContent": "### 17.2 第二阶段：配置管理和预览"
+  },
+  "85638887526d5386b747e2e76e8082f2": {
+    "mdContent": "- 建立版本化配置表。"
+  },
+  "a340b60399043893c0cf42607dce9f67": {
+    "mdContent": "- 建立草稿、发布、回滚和审计能力。"
+  },
+  "54483b53f42cd6f1b299097f2a5cc680": {
+    "mdContent": "- 建立 JSON Schema 校验。"
+  },
+  "663a1f3bbb6ebfc8f272f42757d59455": {
+    "mdContent": "- 建立 Preview Token 和 Mock Runtime。"
+  },
+  "9358d1e9ce9ec25e6b346d9b512858bf": {
+    "mdContent": "- 后台接入组件表单 Schema 和全 Scene 预览。"
+  },
+  "f95369f52ad3798a96f2b5bb271f7258": {
+    "mdContent": "### 17.3 第三阶段：兑换类型"
+  },
+  "5387a0c74365d246fa2162e4535a7d98": {
+    "mdContent": "- 实现强库存。"
+  },
+  "6cc92693475065de8be5fa2b96e71e33": {
+    "mdContent": "- 实现 PointsExchangeActivityHandler。"
+  },
+  "880e6475bb849200c68c8f1c179ca1cd": {
+    "mdContent": "- 实现 FreeExchangeActivityHandler。"
+  },
+  "10f26116fd223c28fc997db149d42c7d": {
+    "mdContent": "- 增加积分不足、售罄、限领、兑换完成和门票就绪组件状态。"
+  },
+  "7b515a37310c8320ed74a5067f47e5cc": {
+    "mdContent": "## 18. 测试方案"
+  },
+  "ed8a058d12330b83b44d6996c601f888": {
+    "mdContent": "### 18.1 协议测试"
+  },
+  "8567ea16b5e96c872a75dd20f33737ba": {
+    "mdContent": "- 每个组件版本维护合法和非法 Props Fixture。"
+  },
+  "e551a7cd7d56e9f49e826a5eddf9c3cd": {
+    "mdContent": "- Config 发布校验覆盖无效引用、重复 ID、未知组件和未知 Action。"
+  },
+  "37b6783a71448d5e6383657bb105016e": {
+    "mdContent": "- Java 编译结果和 RN Schema 使用同一组 Golden Fixture。"
+  },
+  "0cb0fab30985bf7ee4b41d6a3042ef80": {
+    "mdContent": "### 18.2 Scene 测试"
+  },
+  "a84f1d4733a63325777d6a64a763ccd6": {
+    "mdContent": "- 每种活动类型使用参数化测试覆盖全部 Scene。"
+  },
+  "0b750dd2004d54526392db9c6b9c2dd3": {
+    "mdContent": "- 覆盖报名、开奖、填写和活动时间临界点。"
+  },
+  "2c6426d79807c234bb2baed8ac5f87ad": {
+    "mdContent": "- 覆盖开奖前数据库已录入中奖结果但接口不得泄露。"
+  },
+  "d2ad64feabe97520c69b72818105f0c2": {
+    "mdContent": "- 覆盖用户未登录、记录不存在、已转赠和受赠状态。"
+  },
+  "8d99f275a2e73521ccff405116315c61": {
+    "mdContent": "### 18.3 写操作测试"
+  },
+  "e4d7608a63d199d3f6e22e6807536665": {
+    "mdContent": "- 幂等键重复提交。"
+  },
+  "e7f0c58997253ea75a348e76398c8823": {
+    "mdContent": "- 配置版本变化。"
+  },
+  "a7d1e13e7765d85ce583e07c16130abf": {
+    "mdContent": "- 客户端携带过期 Scene。"
+  },
+  "72e966403917d7b858f2ac36cf851e4c": {
+    "mdContent": "- 库存并发扣减。"
+  },
+  "0078b6143ff7330732fd6291e1d92603": {
+    "mdContent": "- 积分扣减失败和补偿。"
+  },
+  "2611f5a6b62e40731d93995d83d1dc59": {
+    "mdContent": "- 写成功后返回或回刷最新 Page Document。"
+  },
+  "c9a58943902ecd1aa1c187fc8502ac15": {
+    "mdContent": "### 18.4 RN 测试"
+  },
+  "863c9a0d698afd1a3056381e8190f4d2": {
+    "mdContent": "- 每个 Module 的 Snapshot 和交互测试。"
+  },
+  "862a0ad5d0bcda5354b3530190fc73da": {
+    "mdContent": "- 未知组件版本进入统一降级页。"
+  },
+  "b9085d8faaedfb593cb718cfe8cfb181": {
+    "mdContent": "- 单按钮、双按钮、无按钮布局。"
+  },
+  "7ede3bedb603504877c82f74ce5a5602": {
+    "mdContent": "- Android 和 iOS 字重差异。"
+  },
+  "a292331a0ab1e919917cde4247de282b": {
+    "mdContent": "- 透明状态栏、最大 420px 内容窗口和折叠屏。"
+  },
+  "e385e7a51340929716cb3ffddd3ad9e2": {
+    "mdContent": "- 缓存、Preload、Fresh 更新过程中不出现 Banner 或模块反复闪烁。"
+  },
+  "ddca470922edd84ff9a13eb4c2cc0cb1": {
+    "mdContent": "## 19. 监控与审计"
+  },
+  "633229712f44eadf707168ecb2474e99": {
+    "mdContent": "建议统一记录："
+  },
+  "5f871d2a7fa5cb932322104d92315b09": {
+    "mdContent": "- activityId。"
+  },
+  "bf4e7eee5f66a9eb58e5b536d523de56": {
+    "mdContent": "- activityType。"
+  },
+  "085936eb49ed616f4bbb826fb2d703b3": {
+    "mdContent": "- configVersion。"
+  },
+  "9eb3da8d5a1eceaa1ed770dcd1c53ef1": {
+    "mdContent": "- protocolVersion。"
+  },
+  "c96a7558ad0a0d8482d1b2f17919fc77": {
+    "mdContent": "- sceneCode。"
+  },
+  "28e196e8055adf41161116bba638e7dd": {
+    "mdContent": "- moduleId。"
+  },
+  "11618e5587e50e560710f89756819299": {
+    "mdContent": "- actionId。"
+  },
+  "2741b0733c19dca208f2f9702d2abf24": {
+    "mdContent": "- idempotencyKey。"
+  },
+  "3e8f17b44e1f2c9fbc0131585326bb76": {
+    "mdContent": "- Page Compiler 错误。"
+  },
+  "56df37ddbdcac7bbced8d59b47b56664": {
+    "mdContent": "- Schema 校验错误。"
+  },
+  "6cd3228e2e9d1da30e35fc38937a547a": {
+    "mdContent": "- Scene 与客户端提交值不一致。"
+  },
+  "e50bc369ed1feffab99160c3d69a9817": {
+    "mdContent": "配置发布审计必须记录版本、操作人、Diff、发布时间和回滚来源。"
+  },
+  "44a2a4b588afb7d936163fd9476286a0": {
+    "mdContent": "## 20. 风险和控制"
+  },
+  "65e86232bc26e45388798c4845b3aac2": {
+    "mdContent": "| 风险 | 控制方式 |\n| --- | --- |\n| 配置能力无限膨胀 | 只允许白名单组件、Variant 和 Action |\n| Page JSON 失去强类型 | JSON Schema、生成 TypeScript 类型、服务端和 RN 双重校验 |\n| 服务端与 RN 组件版本不一致 | 发布时检查线上最低 RN 支持矩阵 |\n| 页面状态与业务状态不一致 | Scene 只由服务端计算，写请求再次校验 |\n| 缓存展示旧页面 | 缓存键包含用户、Config 和协议版本，并支持临界时间刷新 |\n| 免费兑换超卖 | 原子库存扣减和幂等记录 |\n| 预览误触真实写操作 | Preview 独立 Token、缓存和 Mock Runtime，写操作强制禁用 |\n| 固定展示文案与履约参数冲突 | 发布校验 rewardText、reward.quantity 和票务模板 |"
+  },
+  "d2c25348ba8ff3e0a73a27b02cbeb077": {
+    "mdContent": "## 21. 待确认项"
+  },
+  "134512ee8c81ebf310bdb381d049acc5": {
+    "mdContent": "- V2 正式配置库是直接建设活动后台数据库，还是先使用 Apollo 单活动 Key 过渡。"
+  },
+  "4d6073c69f86557cf598d0c70f2fd9a3": {
+    "mdContent": "- winnerCount 是否由现有开奖任务直接读取；若开奖流程外部传入人数，则从 Config 删除。"
+  },
+  "2a8f853e40d583f1a846ff7a5f3a075a": {
+    "mdContent": "- 票务模板是否可以校验每份奖品数量和观演人数。"
+  },
+  "0638361bfe1548cef8c53a74383e0e8d": {
+    "mdContent": "- 第一批必须支持的 RESULT_CARD Variant 清单。"
+  },
+  "4ff0cc978c9f301f8c2d0e3368354b36": {
+    "mdContent": "- 后台是否已有可复用的 Page Schema Framework；若使用公司既有 PSF，需要对齐其 RN Renderer、Schema 管理和发布能力。"
+  },
+  "c94dba6178a09926e1818c1cc56166e1": {
+    "mdContent": "- 页面协议 JSON Schema 的代码生成工具及真源仓库。"
+  }
+}

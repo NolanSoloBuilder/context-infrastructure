@@ -1,0 +1,227 @@
+- menu:
+  - menuitem " 招聘系统":
+    - link " 招聘系统":
+      - /url: /workbench
+      - generic: 
+      - generic: 招聘系统
+  - menuitem " 发展反馈":
+    - generic: 
+    - generic: 发展反馈
+  - menuitem " 绩效管理":
+    - generic: 
+    - generic: 绩效管理
+  - menuitem " 员工激励":
+    - generic: 
+    - generic: 员工激励
+  - menuitem " 员工自助":
+    - generic: 
+    - generic: 员工自助
+  - menuitem " 报表中心":
+    - link " 报表中心":
+      - /url: /report_center
+      - generic: 
+      - generic: 报表中心
+- generic: 
+- generic: 绩效评价
+- generic "xuhao2@xiaohongshu.com":
+  - generic: 南冬(徐昊)
+- generic: 南冬(徐昊)
+- generic: 研发三组
+- generic: OKR
+- generic: 历史绩效
+- main:
+  - generic: 最终结果
+  - generic: 业务绩效结果
+  - generic: "3.75"
+  - generic: Great. 部门内优秀的业绩标杆
+  - generic: 李必(李泌)
+  - generic: 绩效主管
+  - generic: 作为团队C端AICoding的Owner，在多个AICoding链路上都有关键能力产出，前期用小红卡作为样板间100%的覆盖为后续规模化验证了可能性，后期主动牵头团队规范完善业务资产完善度量能力，帮助团队快速实现规模化，团队研效上实现了显著提升。
+  - generic: 自评分数
+  - generic: "3.75"
+  - generic: Great. 部门内优秀的业绩标杆
+  - generic: 业绩产出(2)
+  - generic: 产出 01
+  - paragraph:
+    - generic: 本地 & 专业号 & 小红卡从 0-1 到规模化交付的前端核心支撑， 营销域粉丝团，电商小红卡等方向重点交付。
+  - paragraph:
+    - generic: 核心产出：
+  - generic: "1."
+  - generic: 本地经营能力：补齐移动端入驻-认领-经营全流程，支撑 GTM 节奏。
+  - generic: a.
+  - generic: 年初本地重启，上半年完成移动端本地经营能力的 0-1，BK 整个链路的重写等，同时面向小红卡做能力梳理和关键能力补齐，保障小红卡的体验和稳定性上线，小红卡过程中，团队首次需求页面 RN 出码100 % 覆盖，页面直出模式得以验证。
+  - generic: "2."
+  - generic: 小红卡 0-1：完成交易闭环 + 经营闭环，保障上线质量。
+  - generic: a.
+  - generic: 从 0-1 完成：C端购卡/赠卡/盲盒/支付/订单；B端签约/核销/订单管理等经营能力，上线前体验走查问题清零；核心页面性能达标；活动期无 block 级问题。移动端经营阵地 + 运营工具补齐，支撑商家入驻有序推进。
+  - paragraph:
+    - generic: 做的好的：
+  - generic: "1."
+  - generic: 在小红卡“方向分散 + 资源频繁调整”的环境下，保证关键链路持续推进，中间通过运营工具化弥补流程短板。
+  - generic: "2."
+  - generic: 业务推进和 AI 提效节奏紧密，研效方案落地走在团队前列。
+  - generic: a.
+  - generic: 本地需求从 6 月起走 D2C，展示类场景提效明显。
+  - generic: b.
+  - generic: 小红卡系列需求页面 D2C 覆盖 100%（订单/核销/签约等），样式准确率约 90%（可直接用或微调上线）
+  - generic: c.
+  - generic: 完成 10+ 需求落地，形成业务侧可复用经验与 badcase 集合，对团队落地有积极推进作用。
+  - paragraph:
+    - generic: 待提升的：
+  - generic: "1."
+  - generic: 产品迭代中更多的方案和策略的反馈，视角要从任务交付角色切换到事情合伙人角度。
+  - paragraph:
+    - generic: 问题&思考：
+  - paragraph:
+    - generic: 25 年依旧是业务变化较多的一年，从本地重启，到专业号，到小红卡，到电商营销，变化中有个好处，接触了大部分的业务形态，对于出码方案设计有一定帮助，短板是多个业务本身由于阶段短期，更多是服务短期目标，后面重点看下营销域的目标对齐和跟踪。
+  - generic: 关联OKR
+  - generic: 2026年1-2月 O1
+  - generic: 2026年1-2月 O1
+  - generic: 产出 02
+  - paragraph:
+    - generic: RN AI Coding 体系建设与落地，构建前端 AI 出码能力的工程闭环
+  - paragraph:
+    - generic: 核心产出：
+    - generic: AI Coding 从简单 MCP 工具到团队内可复用、可度量、可在业务中持续交付的工程体系。
+  - paragraph:
+    - generic: 能力上：
+  - generic: AI coding 出码规范标准化上下文（代码规范/目录/路由/样式/系分）RN Context 完成度 90%。
+  - generic: 摸底团队 RN 工程能力，业务代码等能力隐形规约，输出 rule skill 等 context ，并整合到 ctx工具内进行快速覆盖和落地，意图识别、workflow 复用能力可延伸到 RN 搭建等场景。
+  - link "【RN】IDE AI 研发覆盖操作手册":
+    - /url: https://docs.xiaohongshu.com/doc/bb7d2105f21213512b8b298fbb5c1aac
+    - generic: 【RN】IDE AI 研发覆盖操作手册
+  - generic: 牵头团队熟悉 RN 研发标准，覆盖组件，能力，体验等方面
+  - link "前端 RN 研发标准":
+    - /url: https://docs.xiaohongshu.com/doc/8127527d5b7051e82ec2478e85112e61
+    - generic: 前端 RN 研发标准
+  - generic: 一方面明确团队开发标准，一方面为后续的出码 context 做准备
+  - generic: 。
+  - generic: 建设 Vibe Coding 工程链路（多 agent+线上出码）
+  - generic: 出码基础架构升级，基于新架构重做可交互工作流：plan + 可交互步骤执行 + context 持久化，支持会场AI Agent 工作流。
+  - generic: 完成 Vibe 线上出码流程 Figma/BDD → 召回 → 出码 → 联调 → 自愈/验证 → 交付环节。
+  - generic: AI coding 研效过程度量（AI 代码贡献率打标、采纳率追踪、节点可观测）
+  - generic: 持续追踪研效口径，子任务填写 check，研效衡量数据，为 AI coding 方向提供数据参考。
+  - link "交易C端研效看版":
+    - /url: https://redbi.devops.xiaohongshu.com/dashboard/list?projectId=1007&dashboardId=36812&pageId=page_yeW0PjBhuZ_46118
+    - generic: 交易C端研效看版
+  - generic: 建设接入 AI 代码打标，RN 项目 100% 接入
+  - link "AI Coding AI代码覆盖追踪":
+    - /url: https://docs.xiaohongshu.com/doc/c7ad55bea09ee37640820abf4818de56
+    - generic: AI Coding AI代码覆盖追踪
+  - generic: AI 贡献率：1 月 43%，2 月 48%（后续将纳入更多数据源提升完整性）
+  - generic: 最新双月
+  - generic: RN
+  - generic: 需求覆盖
+  - generic: "88"
+  - generic: "%，团队年度指标，半年视角 RN平均需求人天提效17%（3.77->3.12），SDU提升36.7%（5.15->7.04）。"
+  - paragraph:
+    - generic: 做的好的：
+  - generic: "1."
+  - generic: AI Coding 从“工程侧尝试”变成“业务实际落地”，并通过落地案例建立参考坐标与扩大团队内使用覆盖。
+  - generic: "2."
+  - generic: AI 研效衡量维度把“感觉提效”变成“可量化提效”，为后续方向决策提供客观数据。
+  - paragraph:
+    - generic: 待提升的：
+  - paragraph:
+    - generic: 受资源精力所限，去年
+    - generic: 更多从
+    - generic: 方向性
+    - generic: 问题视角
+    - generic: 看解法，随着
+    - generic: 技术储备
+    - generic: 越充足的情况下
+    - generic: 下，
+    - generic: 需要
+    - generic: 做
+    - generic: 更完整
+    - generic: 的命题解决
+    - generic: 方案
+    - generic: 。另外研效指标的归因需要更精细化
+    - generic: ，动作和指标变化相关联
+    - generic: 。
+  - paragraph:
+    - generic: 问题&思考：
+  - paragraph:
+    - generic: 全年角度，跟年初相比，个人 AI 方向的技术储备，方案判断有比较大的提升，团队内的落地成都和AI 覆盖程度比年初要好很多，后续方向一个是前端内的方案沉淀加深和出码效果覆盖进一步提升，另外就是 agent 研发角色大命题下的解决方案的探索和思考。当前的提效，是工程红利，还是结构性红利，还是模型红利？我认为是模型红利+上下文的甜蜜期，越往后走，越依赖人的先验支持，公司内领域的知识必然不会被模型识别和训练，而生产级研发中，大量决策依赖隐性知识。所以我们一起梳理 RN 研发标准，沉淀上下文 context，但是目前的人力上下文运营机制目前还是不是很顺畅，需要考虑上下文自我进化，类似 openclaw 的 agent 进化。同时出码场景的 memory 需要考虑建设，skill 只能上下文的一部分问题，日常的代码细节和标准需要memory持久化进行维护和更新，模拟人脑记忆，预期将 coding 上线再提高一个台阶。
+  - generic: 关联OKR
+  - generic: 2026年1-2月 O2
+  - generic: 2026年1-2月 O2
+  - generic: 思考与复盘
+  - paragraph:
+    - generic: 过去一年内，业务伴随变化，过程都是 0-1 的重要项目落地，在此过程中，研效是非常紧迫的一个点，同样也作为技术探索贯穿整年，综合来讲，相比年初对 AI Coding的技术认知， 以及团队在 AI 出码的落地程度上都有一个比较大的提升。
+  - paragraph:
+    - generic: 做得好的：
+  - generic: "1."
+  - generic: 受技术升级和外部环境影响下，整个出码方案和研效方案都快速变化，在其中快速适应和学习，快速迭代出码方案，团队内牵头在业务落地AI，拿结果。
+  - generic: "2."
+  - generic: 研效衡量方面的持续化追踪，快速出AI 覆盖率的衡量方案等，为团队拿研效结果找到一个客观数据锚点。
+  - paragraph:
+    - generic: 待提升的：
+  - generic: "1."
+  - generic: 研效方案上在需求直出上面耗费一定时间，过程技术方向性试错存在一定成本。
+- img "feedback"
+- generic: 反馈与建议
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2
+- generic: 南冬(徐昊) xuhao2

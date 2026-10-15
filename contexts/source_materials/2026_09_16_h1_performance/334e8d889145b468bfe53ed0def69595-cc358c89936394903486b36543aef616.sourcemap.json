@@ -1,0 +1,50 @@
+{
+  "d2dacb252d0b13f984934d3a050abee1": {
+    "mdContent": "# 研发工作流操作"
+  },
+  "f52fa8350eaf1cc2e298e7382a395ddf": {
+    "mdContent": "<redoc-highlight>\nSDU 统计要求：<font backgroundColor=\"#FFFF33\">需要我们将云效的代码分支和子任务进行关联。</font>\n</redoc-highlight>"
+  },
+  "a019e089136a374751e178cfba217d94": {
+    "mdContent": "### 一、所有任务必须落 Pingcode"
+  },
+  "a9d8b9cf1bb90105e714ab8d2f322c38": {
+    "mdContent": "### 二、<font backgroundColor=\"#FFFF33\">重要：</font>排期要填写节点以及子任务时间"
+  },
+  "9c0d72b0ea759f894445d76ba3228bee": {
+    "mdContent": "子任务的时间统计为 结束时间-开始时间，长期节假日需要拆两个子任务，比如年前和年后。因为时间段是做差来算工时，如果追求极致，可以将周末也拆解出来。"
+  },
+  "22b3f70a19ff76c77ee79da6d308bf94": {
+    "mdContent": "![](https://xhs-doc-i1.xhscdn.com/104004dg31u22oeei1a0f2odaj0?sign=ef85ec4b21dc486a76bbcf03f0ea861a&t=6ab48bd1&redoc-w=688&redoc-h=376)"
+  },
+  "15973fbbd50c1a9a911bb02c033f353d": {
+    "mdContent": "<br/>"
+  },
+  "fb6206a670bc461d837443d767d39608": {
+    "mdContent": "### 三、<font backgroundColor=\"#FFFF33\">重要：</font>子任务需要关联研发分支，不关联SDU 为 0"
+  },
+  "287f8b45448f2ed4734a86f1e9755204": {
+    "mdContent": "<redoc-columns>\n<redoc-column ratio=\"0.333333\">\n关联后效果：\n\n![](https://xhs-doc-i1.xhscdn.com/104004dg31u22ll5vh803iepl7o?sign=418816b04d528b06a8f72eabf7991070&t=6ab48bd1&redoc-w=888&redoc-h=426)\n</redoc-column>\n<redoc-column ratio=\"0.333333\">\n关联方式 1：通过 mr 关联 pingcode\n\n![](https://xhs-doc-i1.xhscdn.com/104004dg31u22mmrqh809nvph8c?sign=dfee0d1878bb43d4e5480113a069ad44&t=6ab48bd1&redoc-w=2954&redoc-h=1264)\n\n</redoc-column>\n<redoc-column ratio=\"0.333333\">\n关联 方式 2：pingcode 手动关联\n\n![](https://xhs-doc-i1.xhscdn.com/104004dg31u22noue1g07218sko?sign=401e932ff2a37c7a92ff3fae4375ee5f&t=6ab48bd1&redoc-w=2108&redoc-h=618)\n\n</redoc-column>\n</redoc-columns>"
+  },
+  "b5c968426cf563aae23490557a616763": {
+    "mdContent": "### 四、需求要打标； RN打【前端-移动端-RN】PC 打【前端-PC端-WEB】查询可以通过看板 [需求打标明细](https://redbi.devops.xiaohongshu.com/dashboard/list?projectId=1007&dashboardId=36744&pageId=page_yeW0PjBhuZ)"
+  },
+  "12e398163eb4276dfe27b116eeae2cdb": {
+    "mdContent": "![](https://xhs-doc-i1.xhscdn.com/104004dg31u22s6nk1g0a03hs78?sign=5d85269b58c8650b24e18943aecd3d80&t=6ab48bd1&redoc-w=703&redoc-h=367)"
+  },
+  "074104c9f331ea64b01b34fa68cdf866": {
+    "mdContent": "<br/>"
+  },
+  "50ac69752e12d013e85cbf960645e89a": {
+    "mdContent": "<br/>"
+  },
+  "3078e800a08615fcd7dace799f639c35": {
+    "mdContent": "### 五、任务完成及时更新子任务状态，养成通过 pingcode 管理工作内容的习惯。"
+  },
+  "e1902635d3d9391a7061f62d337db0cc": {
+    "mdContent": "<br/>"
+  },
+  "c12c1ee54e83a8cac365070c3e1f5981": {
+    "mdContent": "<br/>"
+  }
+}

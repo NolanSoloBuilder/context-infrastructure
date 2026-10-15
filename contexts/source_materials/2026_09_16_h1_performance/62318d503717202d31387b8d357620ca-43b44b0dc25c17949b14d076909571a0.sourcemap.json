@@ -1,0 +1,419 @@
+{
+  "171f01133da85a9fdb543c9eb414d30b": {
+    "mdContent": "# 研发三组-用增方向周会-26-05-25"
+  },
+  "e52807075a8f7fae0b4ce6231a392d87": {
+    "mdContent": "## 周报迭代"
+  },
+  "9b54f7dad269a57863c5637dd832a14c": {
+    "mdContent": "周会轮值：班纳、章太、南烟、莱壹、正南、世利、智零、九尘、和彦、流光、<font color=\"#FFFFFF\">非扬、</font><font color=\"rgba(0, 0, 0, 0.85)\">黄逸姿、空海</font><font color=\"rgba(0, 0, 0, 0.85)\">、赵涛</font>"
+  },
+  "ded77fbe8cf2760eeb7ba0a782d6a268": {
+    "mdContent": "本周：<redoc-mention mentionId=\"500035837\" mentionName=\"流光(吴万金)\" />"
+  },
+  "3be725402694974e34f94b88eb307d84": {
+    "mdContent": "下周：<redoc-mention mentionId=\"500045243\" mentionName=\"非扬(杜祥宇)\" />"
+  },
+  "51d80dbcac7baf5dae27780d59d9d14b": {
+    "mdContent": "## 上周 TODO"
+  },
+  "2ba8782a35c81e2137576a9d28720fff": {
+    "mdContent": "| TODO项 | 跟进人 | 进展 |\n| --- | --- | --- |\n| <br/> | <br/> | <br/> |\n| <br/> | <br/> | <br/> |"
+  },
+  "e7f587742e156ce3ce3aa4454fab5f1a": {
+    "mdContent": "## 一、本周议题"
+  },
+  "53436acb0a688fa8c073f625e8863b30": {
+    "mdContent": "  <redoc-mention mentionId=\"500039642\" mentionName=\"南烟(张庆博)\" /> 一起聊下用增技术团队的定位及能力建设（背景：后面会有个营销团队，他们和用增的边界是什么）"
+  },
+  "64310f14d0898105bab44cb3a9316b71": {
+    "mdContent": "  <redoc-mention mentionId=\"500040422\" mentionName=\"空海(李天宝)\" />分享下 种草业务"
+  },
+  "306d65201adbbc56948f9482710d96c2": {
+    "mdContent": "## 二、OKR进展"
+  },
+  "fedb8d7cd367d222b5b895d3b14abf21": {
+    "mdContent": "<redoc-okr userOkrTaskId=\"277299\" targetIds=\"260912\" showAll=\"false\" />"
+  },
+  "a76b76a724502b68419e8ad9a605ab17": {
+    "mdContent": "KR1: [【PRD】市集feeds2坑承接](https://docs.xiaohongshu.com/doc/4ca18715f3766f27dd80b0308498de8f)覆盖笔记种草卡、星光引流卡，能力上覆盖频控、优先级等，同时包含旧业务迁移兼容，5.12号评审，5.18-5.23开发<font color=\"rgba(0, 0, 0, 0.45)\">_[非扬主投]_</font>，5.24联调 ，5.25-5.26**测试****ing**，5.28上线**[做好切流、业务退场逻辑周知]**"
+  },
+  "80c44533b779a12758abc8c3bbb5e92e": {
+    "mdContent": "KR2: 618券订阅提醒[【618主会场】发券订阅新增push提醒实验](https://docs.xiaohongshu.com/doc/48aaa6dcc20d9b7813e56dbb0f349550)<font color=\"rgba(0, 0, 0, 0.85)\">实验中</font><font color=\"rgba(0, 0, 0, 0.85)\">；大促混资券push&短信召回</font>[PRD｜大促混资券发 push&短信召回](https://docs.xiaohongshu.com/doc/e76665cc79464d92a9a7b7a21d16b76b)<font color=\"rgba(0, 0, 0, 0.85)\">，</font><font color=\"rgba(0, 0, 0, 0.85)\">22-27开发中</font><font color=\"rgba(0, 0, 0, 0.45)\">_[和彦混资券链路、正南通用券链路]_</font><font color=\"rgba(0, 0, 0, 0.85)\">，28-29测试，下周一6.1上线</font><font color=\"rgba(0, 0, 0, 0.85)\">。</font>"
+  },
+  "04f7df3cfc185c120f1fccd814d7eff9": {
+    "mdContent": "KR3: 结合会员66大促专属券场景，建设权益分配能力，目前排期已定（5.26技术方案，6.4上线，6.6对客），[小红卡66专属券-权益中心-技术方案](https://docs.xiaohongshu.com/doc/95ebf0d5379e1b1470b3aab644e6e67e)。"
+  },
+  "c45ab0c222edb06745e46ad440612726": {
+    "mdContent": "KR4: 容器中心新应用基础渲染框架已搭建完成，常规coupon解析能力已经接入；改造方案已评[权益召回与容器渲染重构方案](https://docs.xiaohongshu.com/doc/548603020a12654dc07b832f6edc1b84)，会分为阶段一（优化marketing-Integeration权益模型）和阶段二（权益召回+容器渲染解耦进container-info）两个阶段进行改造，618后逐步放量上线"
+  },
+  "60dc642d15d9a09cd63777bd11a0a197": {
+    "mdContent": "KR5: [【Launch Review】P0人群个性化单品券-一二期](https://docs.xiaohongshu.com/doc/603c7ef7e9e640e6074f7aeaec41a2ed)上报方案算法把行为特征推全，下周看增量结果。下发方面和算法、客户端开始动态化触点专项，目标6月中旬在商详场域对不同用户动态算法决策触点下发发券"
+  },
+  "de8cf4ef45eb16f46834ac4b919236b5": {
+    "mdContent": "<br/>"
+  },
+  "1ad3d50e6a203778e5244d7e3ff76381": {
+    "mdContent": "<redoc-okr userOkrTaskId=\"277299\" targetIds=\"260914\" showAll=\"false\" />"
+  },
+  "7360af66d590fc7b2e864a172346d566": {
+    "mdContent": "KR1: [0421策略合并发放](https://docs.xiaohongshu.com/doc/61d41b0f985fac719834702746afe4f5)已发布，512已小范围配置使用。"
+  },
+  "713f627d3d47c0060a1564e06362e741": {
+    "mdContent": "KR2: [策略链路小助](https://docs.xiaohongshu.com/doc/0acd79ee63f2da51468443a551795e46)覆盖主体链路排查<font color=\"rgba(0, 0, 0, 0.45)\">[优化阶段]</font>；同时将整合进电商答疑agent<font color=\"rgba(0, 0, 0, 0.45)\">[</font><font color=\"rgba(0, 0, 0, 0.45)\">收集信息</font><font color=\"rgba(0, 0, 0, 0.45)\">优化阶段]</font>"
+  },
+  "3145a89cfcf9842d0d5d9605d80b1c43": {
+    "mdContent": "KR3: [【1.1】直播间容器统一](https://docs.xiaohongshu.com/doc/47368a0ef2b4cf69dcfcb4c52aabe139)与上下游对焦结论，无法在客户端层面统一直播间进房和其他时机，计划在用增策略接口内部收口，方案产出中"
+  },
+  "db197b784917d6469ebbe05a956476dc": {
+    "mdContent": "KR4:  条件引擎链路梳理[marketing-integration 条件引擎机制梳理](https://docs.xiaohongshu.com/doc/48b5c63f9926903ba0ba39ebb4eb9ca7)，参数化Feature开发自测完成 [参数化 Feature 技术方案](https://docs.xiaohongshu.com/doc/6ba94a80d9dbde50a5297b24f526f7ef)，条件计算结果策略维度隔离开发自测完成[StrategyContext 中间结果隔离技术方案](https://docs.xiaohongshu.com/doc/0d777024d85d552d82982d4cb795cef0)，多参数复合条件方案设计中，上述功能预计大促后上线"
+  },
+  "bdc5eff4be861861aea5f8a4696dfebd": {
+    "mdContent": "KR5: 暂无进展"
+  },
+  "23ed48a51a26f3c845a4bb30498e586f": {
+    "mdContent": "<br/>"
+  },
+  "f83587363096291385eabf31dff09c9b": {
+    "mdContent": "<br/>"
+  },
+  "da45806fd6990ef9bd7570de1970cb16": {
+    "mdContent": "## 三、业务进展<redoc-mention mentionId=\"500039642\" mentionName=\"南烟(张庆博)\" />"
+  },
+  "c8ba41cff0ff2d3a03e333fb4e5c0830": {
+    "mdContent": "<redoc-highlight>\n### 业务项目进展 绿灯\n\n[「2026M6W1-空海」迭代](https://pingcode2.devops.xiaohongshu.com/my-space/61/0000000105/sprint/list?sprintId=9283)\n\n<br/>\n\n用增业务数据：P0 MAB **583w**（连续四周上涨，目标完成度94%），实验下策略带来的P0增量**MAB为50.74w**，非P0 34.13w，大促活动带来的P0增量MAB为**3w**；\n\n从这个数字也直接反馈出来两个点：\n\n- 补贴策略还是增长的最核心的手段，过往的通过纯规则策略驱动的方式，解决业务冷启的问题，但天花板也很容易触碰到，后续应该是用更精细化的手段提升这部分带来的收益，策略补贴的全面智能化是方向；\n\n- 我们当前还是在单条腿走路，玩法、种草、流量、货盘都还没有真正在业务指标提升上有太大的反馈，业务侧后续的重点方向也会去探索新的东西来驱动增长，会有很多大胆的尝试，这过程也要求咱们技术不能只能被动的接需求，在一些方面上我们是比业务更专业，更精通的，咱们要通过技术能力帮助业务找到有效路径，最终拿到实实在在的增量\n\n<br/>\n\n</redoc-highlight>"
+  },
+  "29db4db0726b21606b7cbadc68ca9dfc": {
+    "mdContent": "<br/>"
+  },
+  "0e2324d8ef3f977b8ec8f3d4eb7c2c57": {
+    "mdContent": "<br/>"
+  },
+  "5572abed1383b0059d2e1117eb348a79": {
+    "mdContent": "## 四、重点项目进展"
+  },
+  "8ed885c5b0954f91862914feb338a22c": {
+    "mdContent": "> 服务端开发投入超过10人天的就算项目，围绕子方向核心OKR展开的、低于10人天的、有关联性的需求也可打包成项目放在这里\n> \n> **项目介绍 **核心包含项目主R、成本（人日）\n> \n> **项目目标 **阐述项目核心解决什么问题，不要简单复制PRD里的目标描述，简要归纳和总结，要有关键指标项**（一句话）**\n> \n> **项目进展 **直接同步项目状态、风险/健康度、剩余里程碑以及上线后的结果回收情况**（一句话）**"
+  },
+  "5b94790a626074be2a024f59720144a3": {
+    "mdContent": "<br/>"
+  },
+  "d7e057864b73c4f5de3bb49980e296e1": {
+    "mdContent": "### 1. 内容种草"
+  },
+  "2fc19ea1a18d8c676886b43e64c6010c": {
+    "mdContent": "**（主R：**<redoc-mention mentionId=\"500040422\" mentionName=\"空海(李天宝)\" />** ）**"
+  },
+  "19d5f6fd7463af6e7bf6a7e008abf067": {
+    "mdContent": "**项目背景&目标：**通过种草笔记投稿活动，建立用户心智，解决“用户想买”的问题 [内容种草业务OnePage](https://docs.xiaohongshu.com/doc/77a8655f047ee1549655195b0de204ba)"
+  },
+  "eb30386aacef453e723627a88eb708f7": {
+    "mdContent": "**项目进展：**"
+  },
+  "e41b6ac1100f97b46a26c8552bb3e5e1": {
+    "mdContent": "1. 业务进展"
+  },
+  "ff797154bb510f6f7216337e04c329b9": {
+    "mdContent": "  1. 活动频率会加速，本周落地4-5个活动"
+  },
+  "901071c1047af307dba396539ab732c4": {
+    "mdContent": "  2. 活动效果追踪"
+  },
+  "4dcd1758348024a35ea8b450f3c1d4de": {
+    "mdContent": "    1. 520活动（512-522）：总投稿量1.34w（种草平台3502，社区5553）；千赞笔记140条；蓝链GMV7.9w，店铺GMV187w"
+  },
+  "f7374ad2284d58238fab3c9b83eb6d30": {
+    "mdContent": "    2. 穿搭活动（516-531）：投稿量4666条；千赞笔记40条；蓝链GMV3.5w，店铺GMV10.5w"
+  },
+  "2721ebffd07987b9c60501dd5e009dc3": {
+    "mdContent": "  3. 内容用增的成交转化数据待产出，当前版本：[https://picasso-private-1251524319.cos.ap-shanghai.myqcloud.com/formula-static/dibp/jt14m9me/report-20260522-0321-%E5%86%85%E5%AE%B9%E6%8B%89%E6%96%B0%E8%AF%9D%E9%A2%98%E5%BD%92%E5%9B%A0%E5%88%86%E6%9E%90.html](https://picasso-private-1251524319.cos.ap-shanghai.myqcloud.com/formula-static/dibp/jt14m9me/report-20260522-0321-%E5%86%85%E5%AE%B9%E6%8B%89%E6%96%B0%E8%AF%9D%E9%A2%98%E5%BD%92%E5%9B%A0%E5%88%86%E6%9E%90.html)"
+  },
+  "5439058ab7d94439b2584705b25e9af0": {
+    "mdContent": "2. 产品需求：当前阶段利用现有工具，主要围绕蓝链做转化和提升"
+  },
+  "15a320bfa5a48bf1eed5ea7396b24436": {
+    "mdContent": "  1. 【开发中】[【技术方案】种草挂链激励](https://docs.xiaohongshu.com/doc/1814565c9ab0feeb367414e068559e4b)"
+  },
+  "1cfa977d5ebfe9fadf49b3579f851645": {
+    "mdContent": "  2. 【✅】[【技术方案】内容种草商品蓝链惊喜补贴](https://docs.xiaohongshu.com/doc/a221427e8a6f0a6439c88980f764b4f8)"
+  },
+  "8bb720dc58b0109d6aeec126c9d6294a": {
+    "mdContent": "3. 技术需求：主攻AI审核，减轻运营审核负担，高效进行活动探索"
+  },
+  "04b83e39e817995ee4d03cad9a786c86": {
+    "mdContent": "  1. 【一期已上线】[【技术方案】种草审核优化](https://docs.xiaohongshu.com/doc/c61faac91fe7de3a1c31ac6f10f5a31c)"
+  },
+  "d8b6db7b93494e91f5f301c0f6843d97": {
+    "mdContent": "<br/>"
+  },
+  "71b3a10e5830b2e92b731ca900734951": {
+    "mdContent": "### 2. 电商用户实时行为"
+  },
+  "b7f92af24e2dd0fe67c2fe799e8123dd": {
+    "mdContent": "**（主R：**<redoc-mention mentionId=\"500027083\" mentionName=\"莱壹(陈子欣)\" />**人日：后端投入开发15pd）**"
+  },
+  "d46133af77ead4d446762c4ca6f27118": {
+    "mdContent": "**项目介绍：**当前用增策略触发，依赖于端侧对于用户行为的固化判定，当前仅支持各场域停留x秒等独立规则（触点）"
+  },
+  "5065c1a9ac97f2adda1637031b980fdd": {
+    "mdContent": "    1. 当前仅支持各场域停留x秒等独立规则，无法支持对复杂用户行为的刻画，比如1分钟内连续访问3次商详"
+  },
+  "d505f2b28ed7dffee723aff5cd26e9a6": {
+    "mdContent": "    2. 触点调整不灵活，新增触发规则也需涉及客户端发版"
+  },
+  "4ab6d2b7197c30ccef7a12f885bf59c3": {
+    "mdContent": "[电商用户实时行为](https://docs.xiaohongshu.com/doc/5c5b7ba00fe3d9e337b3b851b040e9bc)[PRD｜实时行为接入算法](https://docs.xiaohongshu.com/doc/500be6414cab52b0582a45da040d0179)"
+  },
+  "74ab094c6920ce21311343ee3382c7cb": {
+    "mdContent": "**项目目标：**通过客户端与工程的紧密联动，用户行为识别规则动态下发，实现用户行为序列的实时判定与采集；主动触发发券、提醒和特征上报等服务动作，一方面提升用户整体体验，另一方面支持业务基于实时行为特征进行精准策略制定，持续提升业务效果"
+  },
+  "77a4c1095ce92d813fe0dfeafee86bea": {
+    "mdContent": "**项目进展：**"
+  },
+  "29a6735ef549cf2c5aeffe310660f023": {
+    "mdContent": "上报方面"
+  },
+  "0a502765fb7fab730d61e28e3c159c6e": {
+    "mdContent": "- 用增算法："
+  },
+  "7db2cbff6401cf29cbf306a1ccc636f1": {
+    "mdContent": "  - P0人群里推全，当前通过先验数据分析，根据用户的视频浏览时长分了3档，最高的那档本身发券概率最高，会调低发券的面额，降低成本。"
+  },
+  "39720ec348db43fa9fcb7abd71e9d0a0": {
+    "mdContent": "  - 当前目标稳定，重新进行其他特征重新进行数据归因"
+  },
+  "11f2eb04678db71387945f1148052423": {
+    "mdContent": "- 对外输出MF接入："
+  },
+  "2b47f4868ab8af2395c52615b098c57c": {
+    "mdContent": "  - [merchant Generate引入行为信号](https://docs.xiaohongshu.com/doc/9e3871127f078729a2b4fec97561d68b)待定中，预计双月接入"
+  },
+  "cbeac1289270de1dd56c6661d0500b5d": {
+    "mdContent": "下发方面"
+  },
+  "26029d37810b0af73a550729f599d518": {
+    "mdContent": "- 本周和算法以及客户端目标对齐。6月中旬前客户端通商详链路，服务端通后端和算法链路，目标完成商详场域动态触点下发"
+  },
+  "bb848527a1940d8f02d4e245bb66d093": {
+    "mdContent": "<br/>"
+  },
+  "c32b7bf01b2ed64443dd484026b9dd96": {
+    "mdContent": "### 3.RDS专项"
+  },
+  "0e75c44a08f10453b435b3c0306bbbd1": {
+    "mdContent": "**（主R：**<redoc-mention mentionId=\"500037703\" mentionName=\"和彦(王志超)\" />** 人日：30pd）**"
+  },
+  "3f687551efbb8e18e855c1505d647791": {
+    "mdContent": "**项目背景：**[RDS服务端海外部署方案](https://docs.xiaohongshu.com/doc/b3745670652be4d8b6334b7d6fde4abc)"
+  },
+  "a0fb31912c9e71b8b84a2ccc37f2d4a3": {
+    "mdContent": "配合电商出海战略，将用增+场域服务部署至 SG/AE 数据中心，支撑海外用户的策略触达、券分发、容器渲染等全链路能力。"
+  },
+  "dd1c2bf8c216822404468ae3cc2ebc5f": {
+    "mdContent": "**项目目标：**完成服务海外双数据中心部署，海外用户请求本地闭环，满足数据合规与性能要求，支撑每区域月均 50 万订单量。"
+  },
+  "42c7c67e2048ca9e88f35a5c80d2c391": {
+    "mdContent": "**项目进展：**[三组用增&场域链路RDS海外部署技术方案](https://docs.xiaohongshu.com/doc/2352ad063af8bf403a32fa95b13f2fd5)[三组用增&场域链路RDS海外部署指引](https://docs.xiaohongshu.com/doc/fbc365e90556507813d9c7887811de8c)技术方案已评审，各业务子域陆续开展本域技术方案评审,原定6.23提测，现**出海方案有调整**，会再一次排期。"
+  },
+  "e220de2a0404807b038b2fef2fb5f187": {
+    "mdContent": "<br/>"
+  },
+  "2a742d10d5f4af3d3be3662c26a34d56": {
+    "mdContent": "### 4. 618用增大促券相关迭代"
+  },
+  "792381ad64433fe364caceb553f7995c": {
+    "mdContent": "**（主R：**<redoc-mention mentionId=\"500027083\" mentionName=\"莱壹(陈子欣)\" />** 人日：7pd）**"
+  },
+  "26e6b63eb8fcff5b3c6e33c3204d43f8": {
+    "mdContent": "**项目背景：**618大促平台券相关的业务迭代，涉及小红卡大促券直播换肤和实时条件。合并容器下不同范围券的展示修改"
+  },
+  "32b4d29b256df68efed1c69db948d6cb": {
+    "mdContent": "[PRD｜26.618发券弹窗换肤](https://docs.xiaohongshu.com/doc/ed75040dbc57bfb69eed33a6d7893dff)"
+  },
+  "11914a51752b1b98428639428c031b44": {
+    "mdContent": "[小红卡618大促券 ✖️ 主会场改造](https://docs.xiaohongshu.com/doc/220ca10abed37de1a6ef64a594fc277d)"
+  },
+  "93a7a25f5698ca5c0340a0179d8d212f": {
+    "mdContent": "[PRD | 日常容器支持展示可使用范围](https://docs.xiaohongshu.com/doc/2bda435761e7e17691c2b6344d0cf8aa)"
+  },
+  "5fa45a077af8005cbae17543580d2b60": {
+    "mdContent": "**项目目标：**增量兑换比、增量GMV"
+  },
+  "52ab8e8c0c1fdf8044b283fd8f193b81": {
+    "mdContent": "**项目进展：**本周开发，分阶段提测。整体5.18前提测，5.20前可配"
+  },
+  "03df2102f275e170b96f3bc84df97fd9": {
+    "mdContent": "<br/>"
+  },
+  "2372e4f43e44aeada8f3c9eb843af550": {
+    "mdContent": "### 4. 618用增大促券相关迭代"
+  },
+  "ca678da59ea690f659ab06b705c07b1c": {
+    "mdContent": "**（主R：**<redoc-mention mentionId=\"500027083\" mentionName=\"莱壹(陈子欣)\" />** 人日：7pd）**"
+  },
+  "9c32b875268d119763f5ee1941fe39f6": {
+    "mdContent": "**项目背景：**618大促平台券相关的业务迭代，涉及小红卡大促券直播换肤和实时条件。合并容器下不同范围券的展示修改"
+  },
+  "4c8561a095d7abaa63a31bf5a2c7e20e": {
+    "mdContent": "[PRD｜26.618发券弹窗换肤](https://docs.xiaohongshu.com/doc/ed75040dbc57bfb69eed33a6d7893dff)"
+  },
+  "9671b0dbb8d494e8b3823b3754fc018c": {
+    "mdContent": "[小红卡618大促券 ✖️ 主会场改造](https://docs.xiaohongshu.com/doc/220ca10abed37de1a6ef64a594fc277d)"
+  },
+  "0b35f32c039f757ed18b9cb6e342045d": {
+    "mdContent": "[PRD | 日常容器支持展示可使用范围](https://docs.xiaohongshu.com/doc/2bda435761e7e17691c2b6344d0cf8aa)"
+  },
+  "d1f2ed3c9a991cff7ef016a389da641e": {
+    "mdContent": "**项目目标：**增量兑换比、增量GMV"
+  },
+  "cb3e2810163fa6fd06f6a6a483fc593d": {
+    "mdContent": "**项目进展：**本周开发，分阶段提测。整体5.18前提测，5.20前可配"
+  },
+  "db0a82fca61298d4a699c5afa86e9614": {
+    "mdContent": "<br/>"
+  },
+  "bf6e232ad71751b875002d03adccbc54": {
+    "mdContent": "### 5.动态优先级"
+  },
+  "b7dc1e3e8b1c95ddcd25aeeb2f4c8764": {
+    "mdContent": "**（主R：****正南****  人日：****9****pd）**"
+  },
+  "235133580a1a9ec4ecaccad5232d52b4": {
+    "mdContent": "**项目背景：**当前策略优先级固定，无法满足依据用户<font backgroundColor=\"rgba(0, 0, 0, 0)\">属性</font>差异化发券，不满足后续平台精细化运营诉求。"
+  },
+  "d39b809b5422e5ba6c61894e2787ac7e": {
+    "mdContent": "[0430 动态优先级组](https://docs.xiaohongshu.com/doc/e2498ec6b706a9db372e1e92e7b39a2f)\n[动态优先级组技术方案](https://docs.xiaohongshu.com/doc/a8959a7217785ec1acdea2634e91047e)"
+  },
+  "45d091e0a25d15e48e802d1121ac4187": {
+    "mdContent": "**项目目标**：  精细化发券，GMV的提升"
+  },
+  "0517e0ec930aa9d7ff39c7e88e572ed1": {
+    "mdContent": "**项目进展：****5.27B端前端联调，6.5测试，6.9上线**"
+  },
+  "0fd2ae7ecd909e10d6f1123ce9623e81": {
+    "mdContent": "<br/>"
+  },
+  "ddee70b1d8339721b40e298a66784112": {
+    "mdContent": "### 7.大促动态券包"
+  },
+  "7e25e4506194070878c5ef5ba40a10ab": {
+    "mdContent": "**（主R：**<redoc-mention mentionId=\"500023918\" mentionName=\"智零(林志勇)\" />**  人日：12pd）**"
+  },
+  "57c8cfaef3d0d60f156708803abe8e95": {
+    "mdContent": "**项目背景：**[0330 大促算法动态券包](https://docs.xiaohongshu.com/doc/31ae63cf40d2fd9acce2bcd0e95f6cf9)大促面额决策灵活性差，可决策空间小"
+  },
+  "ec4b3e21c68cb23ccee2596e32b44e55": {
+    "mdContent": "**项目目标**：  借助动态券的能力，精简配置的同时算法可灵活决定发券面额，优化大促算法策略的效果"
+  },
+  "b7c8d259efcab0095898c312276721f8": {
+    "mdContent": "**项目进展：** 4.27-5.7号开发，5.11-5.12号联调，5.13号-5.15号测试，5.18号已发布，5.20号预演，**本****周****小流量****实验**"
+  },
+  "b54f5a7d6b4b0c7b1fee8fd639ff6271": {
+    "mdContent": "<br/>"
+  },
+  "2829dc1caebabf7aaf22dfcd71d345d6": {
+    "mdContent": "### 8.商详首发单品券样式对齐追补"
+  },
+  "e42123b3b6fcca99843f2e0593652bb8": {
+    "mdContent": "（**主R：**<redoc-mention mentionId=\"500043320\" mentionName=\"章太(王诗雅)\" />， **人日**：**5pd**）"
+  },
+  "e3387b03bc174c30a2306377571491cb": {
+    "mdContent": "**背景：**商详单品券样式希望对齐追补单品券，并且在现有单品券上支持折扣券、手动开，并兼容包运费逻辑"
+  },
+  "829b6f2a7dc7a5793f801b3da50aadff": {
+    "mdContent": "**目标：**"
+  },
+  "3623501f2ce7a7d4b206baa6d8499a39": {
+    "mdContent": "- 新增首发单品券容器，C端样式对齐追补单品券"
+  },
+  "9d7ddc699e029339d3357047fadc49b2": {
+    "mdContent": "- 首发单品券和追补单品券，都支持立减券和折扣券两种类型，支持手动开和自动开"
+  },
+  "4ce21331152ab970e90107fc1c26e001": {
+    "mdContent": "- 首发单品券和追补单品券都要兼容退货包运费"
+  },
+  "9438c3eee9b37af372fbf3c45bc54f17": {
+    "mdContent": "**项目进展：**服务端5.19-5.21开发自测，前端5.25-5.27介入，5.28-5.29测试，6.1上线"
+  },
+  "2d9b3de060910bbb0fca916b4ba69fa9": {
+    "mdContent": "5.27联调"
+  },
+  "426c0ebf021dcc2b4a8dc7d3d77ab52f": {
+    "mdContent": "### 10.  定向场域补贴专项"
+  },
+  "4cc76e1b6f24f5a27346840bbc65ccb0": {
+    "mdContent": "**（主R：**<redoc-mention mentionId=\"500023918\" mentionName=\"智零(林志勇)\" />**  人日：x pd）**"
+  },
+  "38b72dadbdd1c8fa85a2b9e50ac8e4a8": {
+    "mdContent": "#### 定向橱窗补贴"
+  },
+  "30029cd303bb7b98f66faa60a3e39352": {
+    "mdContent": "**项目背景：**橱窗是买手非直播期间的唯一展示商品场域，具有长效承接价值<font color=\"rgba(0, 0, 0, 0.45)\">[发券-优化体验；催用-提升转化]</font>"
+  },
+  "7f6b9242d4c3923587b989c4fa30be00": {
+    "mdContent": "**项目目标**：提升UG券曝光率和核销率，带动P0核心人群的MAB复购与转化"
+  },
+  "e11bc656c8a43c1c74fc154449562f7f": {
+    "mdContent": "**项目进展：**  5.9号橱窗[产品方案](https://docs.xiaohongshu.com/doc/44cd3b2c2514b9da292d38a98249bc12)评审，5.18-5.20号开发，5.22-25号**联调****ing**，5.28-6.1号整体功能测试，6.2号上线"
+  },
+  "efd624afb10df7a903fcf67858d21a10": {
+    "mdContent": "#### 定向店铺券"
+  },
+  "66a51402b70e8af0c5eaa03e54fb4c54": {
+    "mdContent": "**项目背景：**店铺页发券利于引导用户向下转化、提升店铺停留深度、扩大动态单品券的覆盖用户规模"
+  },
+  "616a2fea809607f88884ea05c178ed1b": {
+    "mdContent": "**项目目标**：落地动态单品券发放能力，提升UG券曝光率和核销率，带动P0核心人群的MAB复购与转化"
+  },
+  "5addba6ce99f5a0ffd234e192b8c58f0": {
+    "mdContent": "**项目进展：**  5.15号ug产品[B端方案](https://docs.xiaohongshu.com/doc/8d6e9e025087dca284f4644b509412d1)评审(策略、权益、算法、数仓等部分)，5.22号[店铺c端评审](https://docs.xiaohongshu.com/doc/fc79338bf883b739b50080e9f267a8d8)，5.25-27号**开发ing**，5.28号联调，5.29-6.1号测试，6.2号上线"
+  },
+  "f1f9ba006bc8d4ccdd7ebe7c3e1f2138": {
+    "mdContent": "<br/>"
+  },
+  "bc1832b772da43ee5bb97c023e3e879f": {
+    "mdContent": "### 11. 66大促动态混资策略-稳定性保障"
+  },
+  "38b8d942bf2c297307751920f4a27887": {
+    "mdContent": "（**主R：** <redoc-mention mentionId=\"500016449\" mentionName=\"九尘(毛杰杰)\" />， **人日**：**5pd**）"
+  },
+  "cb669c0b0e2600fa59e9888c16fdf89c": {
+    "mdContent": "**背景：**本次大促活动新增动态混资策略，需保证策略从配置到执行全链路的数据准确性。"
+  },
+  "76029d2228829ba287f91d327d287d68": {
+    "mdContent": "**目标：**梳理全链路流程，完善风险防控机制，新增监控与问题排查工具，保障大促期间混资策略的稳定性和准确性。"
+  },
+  "52df4debbecb189dd9cc451003ce0e51": {
+    "mdContent": "**目前进度：**初期规划的工具和保障事项均已完成，大促期间持续跟进中[大促-动态混资策略-稳定性保障](https://docs.xiaohongshu.com/doc/3a3a8b98dcd857227a50452ffd908e87)"
+  },
+  "230485f5a088a371c65fbe3a37e8c9b9": {
+    "mdContent": "<br/>"
+  },
+  "531f30710bd7055042792ba1aecdb8fc": {
+    "mdContent": "### 12. 动态混资券权益池SOP"
+  },
+  "14450fc4284831db5c92175214877883": {
+    "mdContent": "（**主R：** <redoc-mention mentionId=\"500046081\" mentionName=\"黄逸姿（实习）\" /><redoc-mention mentionId=\"500035837\" mentionName=\"流光(吴万金)\" />， **人日**：**5pd**）"
+  },
+  "d8929115c6c786df1e19b19c586c31b2": {
+    "mdContent": "**背景：**大促期间频繁调整动态混资券权益池，对Apollo人工配置强依赖，人工成本高、易出错。"
+  },
+  "bba0b12062f4897a1055ab620d0fbd83": {
+    "mdContent": "**目标：**实现自动创建权益池，去除对 Apollo 人工维护的依赖，保障大促期间权益池创建的准确性及面额防控。"
+  },
+  "bc718966f13607d5cb9ef904f15c620c": {
+    "mdContent": "**项目进展：**已上线 [动态混资券权益池配置SOP-技术方案](https://docs.xiaohongshu.com/doc/30f2d216aeb00e20fb743ac198976c58)"
+  },
+  "43961573b9adc5ed2c5a3469009f9165": {
+    "mdContent": "<br/>"
+  },
+  "43b4943c8514240b5c1ef4b8e4bbb61d": {
+    "mdContent": "## 五、本周TODO"
+  },
+  "6618786e54c374aff4589ec1d5e1f72f": {
+    "mdContent": "| TODO项 | 跟进人 | 进展 |\n| --- | --- | --- |\n| <br/> | <br/> | <br/> |\n| <br/> | <br/> | <br/> |"
+  },
+  "fdf845b9dde79682d0d90b318c4917ba": {
+    "mdContent": "<br/>"
+  }
+}

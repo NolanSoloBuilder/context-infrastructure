@@ -1,0 +1,131 @@
+{
+  "9950c376c2d78161132ee82220503cf5": {
+    "mdContent": "# 研发三组周会-26-07-23"
+  },
+  "52e86a7afc2c5f244a98223107cb2647": {
+    "mdContent": "## 周报迭代"
+  },
+  "b3ad6ca412112527db771a2c12b891d6": {
+    "mdContent": "周会轮值：班纳、承渊、当心、典庆、非扬、江洋、镜心、九尘、空海、莱壹、猎枭、凌风、立欧、流光、伦太、马达、暮光、南冬、南烟、千岳、仁杰、荣荣、世利、术赤、学琛、遥梦、云沉、章太、赵宇、正南、智零、朱仝、宗杭、平常"
+  },
+  "be6627d40779eb684a1132e0c0cabffa": {
+    "mdContent": "本周：<redoc-mention mentionId=\"500008127\" mentionName=\"平常(王青)\" />"
+  },
+  "2de4b9762978c0f49469ff98da673cf3": {
+    "mdContent": "下周：<redoc-mention mentionId=\"500001425\" mentionName=\"班纳(曾翔钰)\" />"
+  },
+  "889007200a14ac5028fb4d7d159b4270": {
+    "mdContent": "## 上周 TODO"
+  },
+  "a539c712c7aedd1720bddc2b23b96480": {
+    "mdContent": "| TODO项 | 跟进人 | 进展 |\n| --- | --- | --- |\n| <br/> | <br/> | <br/> |\n| <br/> | <br/> | <br/> |"
+  },
+  "492e6cff00eba8a83184c07f449cc7f1": {
+    "mdContent": "## 本周议题"
+  },
+  "b466ce04bfcdfe546c47cd30f2ea1241": {
+    "mdContent": "**团队后续分工和安排**"
+  },
+  "6c3c463b4c6878104a1bc486723b49a3": {
+    "mdContent": "# 各方向进展"
+  },
+  "bed8e11c7bc09aad3d36fca7cff70f4d": {
+    "mdContent": "## 一 用户增长"
+  },
+  "20c5e6744d0c0f6831d6fa0fc0dce7c9": {
+    "mdContent": "**业务进展**"
+  },
+  "ab675adc6942bc36f242614fd3d5120e": {
+    "mdContent": "<redoc-highlight>\n### MAB数据情况：\n\n截止7.23，P0mab 588.9w  wow+0.3% （目标完成度91.3%）   P0稳定mab 167w（占比 28.35 %，红线 ≥26.7%），总mab3697.5w\n\n### 业务目标情况：\n\n![](https://xhs-doc-i1.xhscdn.com/104004dg322v89kkd7409kbtivk?sign=05af27b480731ec268c24b80cb9e06c8&t=6ab724c4&redoc-w=646&redoc-h=272)\n\n**现状下一些技术做工方向上的判断：**\n\n**补贴业务**：\n\n- 全链路的灵活性(已支持面额、触发时机的灵活)-&gt;AI&算法化 (提补贴发放的转化效率)\n\n- 前置利益点&催领&催用能力夯实-&gt;场域覆盖-&gt;AI决策（提补贴触达用户的效率）\n\n**种草业务**，<redoc-comment commentGid=\"7665980359286442089\" blockId=\"3f306eaa8da1918d07d9549e53a3b79c\">AI审核和晒单链路优化是正确的事，整体方向需看清后做判断</redoc-comment>；\n\n**流量业务**，个性化push继续推进，其他事项，以需求支撑为主\n\n<redoc-comment commentGid=\"7665980264797182983\" blockId=\"4e07333a07f57afadf52eda4ff6a040c\">**玩法业务**</redoc-comment><redoc-comment commentGid=\"7665980264797182983\" blockId=\"4e07333a07f57afadf52eda4ff6a040c\">，需求支撑为主，支撑产品侧做“高价值”需求的交付</redoc-comment>\n\n<br/>\n\n**大促补贴业务**，<font color=\"#374151\">降低业务推进中的人工依赖、提升业务效率</font>\n\n- 基于工程链路改造并结合 AI，提升策略配置效率，减少人工配置成本；\n\n- <font color=\"#374151\">基于待建设用户触发漏斗明细数据，并结合 AI 实现活动链路盯盘和问题自助排查，降低人工排查成本</font>\n\n<font color=\"#374151\">长期来看，大促策略要逐步向算法托管演进，预计双十一后具备落地能力</font>\n\n<br/>\n\n### 重点事项进展：\n\n#### **策略平台升级 **\n\n**升级目标：**<font color=\"#374151\">在一年一度需求高峰到来前，</font><font color=\"#CC3030\">**完成铲屎 & 基建储备**</font><font color=\"#374151\">，重点提升策略配置效率、系统稳定性、迭代效率，并解决策略执行链路黑盒问题</font>\n\n- **策略配置效率提升 @朱仝 @九尘 **：\n\n  - 已完成混咨发放条件下沉至权益池，由权益池统一承接发放规则配置，显著提升混咨策略配置效率，在本周的周末促已经应用，显著提升配置及盯盘的效率\n\n  - 智能配置助手：<font color=\"rgba(0, 0, 0, 0.45)\">_这个事情会从两个阶段切入。_</font><font color=\"rgba(0, 0, 0, 0.45)\">**_前期聚焦配置效率，目标是策略配置的提效；后期聚焦策略效果，打通 配置 -&gt; 反馈 -&gt; 自动操作 的策略迭代闭环_**</font><font color=\"rgba(0, 0, 0, 0.45)\">_。配置效率分三期实现，一期基于Seal实现权益池的创建，二期建设策略平台Agent嵌入平台、覆盖权益池的创建和修改，三期覆盖策略配置全流程。_</font><font color=\"#3357D9\">进展</font>：目<redoc-comment commentGid=\"7665981080840706206\" blockId=\"89b108fe608bda20ac780f0142e62766\">前基于Seal实现的权益池创建，已经交付产品验收</redoc-comment>，预期下周正式使用[权益池智能配置-最终交付版.mp4](https://xhs-doc.xhscdn.com/104004dg323072c3a7006o9s2vg)\n\n- [**稳定性&迭代效率提升**](https://docs.xiaohongshu.com/doc/dd88f84517e3eb9f19bc869fd2e48c9c)** @智零**：<font color=\"#374151\">通过领域抽象和模块边界治理，让写好代码变得容易，梳理并治理已腐化内容，当前已分别指定到人在本双月推进落地；后续通过 AI 扫描、CR 和责任田的机制来持续保鲜，避免腐化问题再次发生；</font>[<font color=\"#374151\">**进展**</font>](https://docs.xiaohongshu.com/doc/4d3e1198e75cfd26c5da2d4be4c889cd)：主干链路上下文、filter清腐完成；边界治理改造<font color=\"rgba(0, 0, 0, 0.45)\">_[_</font><redoc-comment commentGid=\"7665981282704174877\" blockId=\"0d72fdc6c21d46d0b77b9355e367ce91\"><font color=\"rgba(0, 0, 0, 0.45)\">_直播直塞改前端回调、混资价格带下沉权益池_</font></redoc-comment><font color=\"rgba(0, 0, 0, 0.45)\">_]_</font>子项完成，其余子项有序推进中；AI扫描MR告警监控保鲜能力上线运行中；\n\n- **解决策略执行黑盒 @流光**：构建用户策略执行链路中各节点的过滤动线，将过程数据实时写入数据流，并基于 Flink 的实时聚合能力，输出用户节点级明细数据与汇总统计数据[策略实时触发漏斗](https://docs.xiaohongshu.com/doc/146c67e181e2a3a93ceeeae70ef7bd79)**，进展：资源问题，暂未投入**\n\n#### **重点推进事项BY快速拿收益**\n\n- <font color=\"#374151\" backgroundColor=\"#FFFF33\">**动态触点能力扩覆盖 @莱壹**</font><font color=\"#374151\">**：**</font>\n\n  - <font color=\"#374151\">当前日常ug商详50%实验组在dab和dgmv几乎不变情况下（日均相比对照组降0.4%以内），实验组补贴成本减少10w-13w/d，推全后预计商详用增每月</font><font color=\"#CC3030\">**节省**</font><font color=\"#CC3030\">**750w**</font>\n\n  - <font color=\"#374151\">预期收益会来自两方面：短触点（比如商详0秒、市集0秒）里算法识别自然高概率转化用户延长发放秒数，减少发券陪跑从而降低补贴成本；长触点（比如直播10秒）里算法识别券敏感人群，提前发放推动转化概率，在补贴成本不变情况下提升转化。</font>\n\n  - <font color=\"#374151\">后续优先完成动态触点对 UG 发券剩余场域（直播、市集）的覆盖，扩大动态触点能力的应用范围，从而获取更大规模的业务收益（总体预计拿到</font><font color=\"#374151\">**月千万+的成本降低**</font><font color=\"#374151\">和xx转化提升）。 </font>\n\n  - <font color=\"#374151\">**进展：**</font><font color=\"#374151\">**剩余场域覆盖目前**</font><font color=\"#374151\">**资源问题，暂hold**</font>\n\n- [<font color=\"#374151\">**策略执行链路升级**</font>](https://docs.xiaohongshu.com/doc/9db5dda23ac6716e07a6003eba0b8fd3)<font color=\"#374151\">** @智零 ：**</font><font color=\"#374151\">调整优先级过滤与容器渲染节点的执行顺序，解决算法决策空权益时影响其他策略正常触发的问题，提升策略触发率和链路容错能力（会做AB）</font><font color=\"#374151\">**进展：**</font><font color=\"#374151\">7.23上线，待by场域切流（直播场域优先）</font>\n\n- <font color=\"#374151\">**电商Push系统能力建设 @非扬：**</font><font color=\"#374151\">建设电商push特征工程，打通电商实时信号与算法特征两条链路，提升电商push的发送量级和点击转化效率 </font><font color=\"#374151\">**进展：已和产品握手产出方案，待和社区推送团队对齐方案和节奏**</font>\n\n#### **重点推进事项BY业务支撑**\n\n- <redoc-comment commentGid=\"7665982309201897269\" blockId=\"9e4c1a88ee106c90c195f2f2e9a5b9b4\">**动态混咨链路改造 **</redoc-comment>**@南烟 **<font color=\"#374151\">**：**</font><font color=\"#374151\">拆分混咨业务处理与策略执行逻辑，补齐策略执行前置业务数据加工和后置数据处理能力，提升链路扩展性与迭代效率；</font><font color=\"#374151\">**进展：7.27提测，7月底周末促使用新链路**</font>\n\n- <font color=\"#374151\">**大促发券链路统一 @流光**</font><font color=\"#374151\">：将</font><redoc-comment commentGid=\"7665982038618727806\" blockId=\"735f14658a816d1258b3a402aedee948\"><font color=\"#374151\">大促平台券、购物车买手券等存量链路迁移至动态链路</font></redoc-comment><font color=\"#374151\">，降低链路维护成本，提升策略配置与迭代效率，7月底上线；</font><font color=\"#374151\">**进展：**</font><font color=\"#374151\">**测试中，7.27发布，七夕促使用**</font>\n\n- **种草业务产粮漏斗刻画（看清业务） @空海：**<font color=\"#374151\">种草业务链路节点多，缺少全链路数据视角，难以评估各环节效果和产粮效率。需建设锚定 MAB 的产粮漏斗，串联笔记曝光 UV → 笔详曝光 UV → 转化 UV 等核心节点，并下钻到具体做功点，识别关键问题，牵引技术做功方向，找到快速扩规模的最佳路径；</font><font color=\"#374151\">**进展：**</font><font color=\"#374151\">**预计7.28完成盘点**</font>\n\n</redoc-highlight>"
+  },
+  "52ee21155681e9606e6df9e60011be83": {
+    "mdContent": "**重点项目**"
+  },
+  "daf0c592be4e844730ff4da4c9bd065f": {
+    "mdContent": "| [商详退出好店好货挽留[货盘、补贴]](https://docs.xiaohongshu.com/doc/4959c8234866d2ff0b72f5509ff91db6)-智零 | 背景：内容场<font color=\"rgba(0, 0, 0, 0.45)\">_[MF/搜索-商笔]_</font>-&gt;电商场<font color=\"rgba(0, 0, 0, 0.45)\">_[商详]_</font>的MAB新客做挽留转化 <split/> 节奏：7.23产品方案粗评，货品承接部分待进一步详评 | <br/> |\n| --- | --- | --- |\n| [券展示规范-强化平台券](https://docs.xiaohongshu.com/doc/d4981e2a772d9a655f923194ed2c23b7)-正南 | 背景：_各个场域都有各自规范和表达，突出平台券，形成统一的券规范和认知_ 节奏：07.24 策略平台侧完成技术方案评审，下周排期开发 | <br/> |\n| [【凑单页】日常发券接新凑单页](https://docs.xiaohongshu.com/doc/fcb47d4657f880efbe2082f39901a331)-正南 | 背景：_大促凑单页相比之前的用增凑单页功能相对完善，用户体验更好，产品侧希望做统一 _节奏：凑单页本周完成改造，待下游投入人力后联调 & 测试 | <br/> |\n| [【prd】晒单笔记激励全链路](https://docs.xiaohongshu.com/doc/b5786dd742a94ce45447e99e2ad56c49)- 空海 | <redoc-comment commentGid=\"7665982373626187393\" blockId=\"6bb8ef741b392f9a4c75f5c1f47871ea\">背景：以平台出资的方式切入晒单笔记业务</redoc-comment> <split/> 节奏：产品方案初评完成，7.29 产品方案完成详评 | <br/> |\n| [【PRD】市集种草新增推荐商品模块一期](https://docs.xiaohongshu.com/doc/c69bdbc21a5f4ca4c2b2732fd946ad7f)- 伦太 | 背景：种草增加商品推荐模块，用平台圈选的高新人转化品，牵引笔记推荐内容 <split/> 节奏：开发中，8.5提测，8.10上线 | <br/> |\n| [【免单卡】落地页下单双倍进度权益](https://docs.xiaohongshu.com/doc/38a7f565d2c76266452718427b1390d0)-世利 | <redoc-comment commentGid=\"7665982721519368527\" blockId=\"f8feebb0ad11b6c2ec87b99d2d242a4c\">背景：提升用户在落地页内直接成交，提升整体活动完成率 节奏：开发中，7.28提测，730上线</redoc-comment> | <br/> |\n| [【免单卡】交易链路感知](https://docs.xiaohongshu.com/doc/dc8515ab33b5585858f7dd2cf1c8ffb3)-镜心 | 背景：增加交易链路中的免单卡活动透出，促进用户下单和支付转化 节奏：本周完成开发，待上游投入人力后联调 & 测试，预计8.7前上线 | <br/> |\n| [8.7大促平台券小红卡改造](https://docs.xiaohongshu.com/doc/7d99429948d27034fda16840f38db959)-莱壹 | 背景：87开始的七夕大促平台券和小红卡联动开卡后的券膨胀 <split/> 节奏：本周五技术方案评审，下周开发，预计8.4前上线 | <br/> |\n| [【PRD】搜索onebox增加平台券发券入口](https://docs.xiaohongshu.com/doc/b14bb00dc483e3327d8dccaf2da6d1c0)-九尘 | 背景：综搜场景中主动搜索买手或店铺名称的用户，前置透出利益点 <split/> 节奏：测试中，7.27上线 | <br/> |\n| [周末大集 会场需求2.0](https://docs.xiaohongshu.com/doc/32afa65ab79dcd739c3f046c33438a60)-九尘 | 背景：会场直播卡，进房利益点前置透出 <split/> 节奏：prd评审完成，待技术方案评审 | <br/> |\n| [头商引入混资发放侧改动](https://pingcode2.devops.xiaohongshu.com/my-space/61/0000000105/sprint/list?sprintId=9795&workItem=965422&tab=detail)-流光 <split/> <br/> | 背景：目前针对站外的头商新增引入计划，针对引入的商家单独开设混资报名活动，用户报名后，覆盖各个场域增发混资券； <split/> 节奏：开发中，8.3上线 | <br/> |"
+  },
+  "6bb1e79290c9fdf6ce8a1e133a620e28": {
+    "mdContent": "<br/>"
+  },
+  "5373f23587ece0593cb64268e0164e36": {
+    "mdContent": "## 二 商家营销"
+  },
+  "a3b44e11ae911679cee2880af41044ea": {
+    "mdContent": "**业务进展**"
+  },
+  "4b3e1bbae87115c9c4feddaf95d57b09": {
+    "mdContent": "<redoc-highlight>\n### **业务目标拆解**\n\n大方向是DGMV，拆解到商家营销的两个维度业务目标（Q3）：\n\n- **供给扩面：**工具 商品覆盖率50%；（**当前48%**）\n\n- **成交渗透：**工具gmv渗透率55%；（**当前45%**）\n\n- **质量护栏：**观察折扣率，防止覆盖扩张带来供给劣化，本双月先建立指标基准。\n\n![](https://xhs-doc-i1.xhscdn.com/104004dg322vih7m57472f2d818?sign=3c63e8a253fbde37b31e1c744ff19191&t=6ab724c4&redoc-w=389&redoc-h=227)\n\n### **当前方向判断**\n\n- 商家经营工具基本完善，重点在 从<redoc-comment commentGid=\"7665984014304396598\" blockId=\"7b44aa44144dcdfb2ce74c172a946ee4\">\"</redoc-comment><redoc-comment commentGid=\"7665984014304396598\" blockId=\"7b44aa44144dcdfb2ce74c172a946ee4\">**敢用/易用/会用**</redoc-comment><redoc-comment commentGid=\"7665984014304396598\" blockId=\"7b44aa44144dcdfb2ce74c172a946ee4\">\"</redoc-comment>维度 提高B端供给，从价格透出提高C端感知（需要**增加普惠价体感**，价格表达、自动领券、利益点梳理中）。短期看人群定投优先级不高，钱效后续规划。\n\n- 后续托管规划拓展新人券、粉丝券、复购券等工具，需要补齐**商品选择策略**，例如新人券优先覆盖大众款、低价款，复购券匹配消耗型商品，粉丝券匹配特色款。单工具订单渗透率可以作为核心观测指标。\n\n- 还需要看清的：重点梳理<redoc-comment commentGid=\"7665984959197394730\" blockId=\"87602af0e807d44df7685b88ad63f722\">粉丝券、复购券、定向人群券及店铺新人券</redoc-comment>的投放方式、C 端表达、自动领券能力及券模板算价接入情况，明确各类券在什么条件下能够被表达、计入价格并被用户领取。\n\n<br/>\n\n### **key事项**\n\n- **购物车惊喜券托管**，一期打通B端产品链路，覆盖1k白名单商家，**7月30日发布**，On Track。目标：购物车惊喜券商家渗透率2%→10%，商品渗透率3%→15%，日订单1.72万→20万，日DGMV 184.6万→500万。@凌风 \n\n- **定金预售 **，重点看定金预售贡献 GMV 和 尾款转化率。**8.6发布**，项目ontrack，数据单独追踪。@遥梦 \n\n- **资损预警**优化：增加极限到手价计算口径，校准资损预警口径，商家检出率由21.7%降低至3%以内，商品检出率由接近20%降低至5%以内。**7.31待投入**。@遥梦\n\n- 工具**roadmap简化**：顺手配复购券、商品发布营销推荐。ontrack。@非扬\n\n<br/>\n\n### <redoc-comment commentGid=\"7665991122474782566\" blockId=\"505c9d7084e08d3ef8e158b50967bd4d\">商家营销易用性提升</redoc-comment>\n\n<redoc-mention mentionId=\"500011869\" mentionName=\"南冬(徐昊)\" />\n\n产品原声1：nps分数不高需要优化，但是问题分散没有产品主线，无法合并大迭代去统一解决，看不到对DGMV的贡献。\n\n产品原声2：需要产品单独抽时间去总结和归纳用户问题，需要验证有效性和关联性，受迭代方向限制，精力有限。\n\n[Ark营销 NPS 数据看板](https://cowork.xiaohongshu.com/f/ark-nps-dashboard/?v=1007)\n\n![](https://xhs-doc-i1.xhscdn.com/104004dg322vd33g672035kermg?sign=3d2e81028e895632e4bfc0b3ad5dab56&t=6ab724c4&redoc-w=493&redoc-h=256)\n\n<br/>\n\n**目标：**以 NPS 和日常用户反馈为入口，建立一套由真实问题持续驱动的营销体验迭代机制。形成可以长期运转的反馈回收、问题判断、研发迭代和效果回看闭环。\n\n**方案：**利用 AI 降低反馈处理和问题验证成本，辅助完成反馈归类、同类问题聚合、业务上下文补充和影响范围分析，纳入代码库和产品资料上下文，利用Agent能力加速从用户反馈到问题结论、再到方案验证和上线回看的过程。问题优先级和最终方案仍由产品与研发共同判断审批。\n\n**预期：**打通整体产品技术链路，持续反馈问题脉络结论，双月nps分数上涨，体验主线问题阶段性反馈减少，提升工具易用性。\n\n**本周进展：**\n\n<redoc-comment commentGid=\"7665985440233321316\" blockId=\"63b97304c1cd8d62ac472520ec83b5dc\">跟产品对齐了目前产品测对于nps的监测和优化流程，收集痛点，下周进入流程设计和开发。</redoc-comment>\n</redoc-highlight>"
+  },
+  "cda531c56cde9680172b19e45760ebc5": {
+    "mdContent": "<br/>"
+  },
+  "3d9b99b5c42e8fa0981cea2000f9ff03": {
+    "mdContent": "<br/>"
+  },
+  "64420fade8beff4ce9255a9bea55de48": {
+    "mdContent": "## 三 买手营销"
+  },
+  "830a19537b33167e00d0475f1d80b9ff": {
+    "mdContent": "**业务进展**"
+  },
+  "b2735f7e19475cdaa2aa8e6865c8295a": {
+    "mdContent": "<redoc-highlight>\n### 业务数据\n\n**核心目标：买手DGMV增长与营销工具渗透率**\n\n当前业务数据：\n\n- **买手大盘日均 DGMV：6714 万**（周末 7/18 冲到 1.09 亿，周中 7/20 低谷 4071 万，双峰模式明显，周末买手开播更多）\n\n- **买手券核销日均 DGMV：1198 万**\n\n- **券核销占大盘：17.8%**（区间 15.4%~20.0%）\n\n- 买手券渗透：<redoc-comment commentGid=\"7665991582036297603\" blockId=\"2703f3accbd47e40abf7bf405d98539c\">单日创建买手券渗透2.15%，发券2.09%，越是头部买手，买手券创建渗透越高，k1只有0.07%，k6高达24%，重点做工K4-6</redoc-comment>\n\n### key事项\n\n#### 技术事项\n\n1、**统一营销投放平台建设**：**当前当心跟进到一期上线，下周介入一起联调；梳理切流方案和待办项**。\n\n- 节奏：牟定着直播任务券，7月底联调，8.5晚上提测，8.12发布，8.13比对观察一天，8.14切流，8.21推全\n\n<redoc-comment commentGid=\"7665987364378044436\" blockId=\"55ede886c4423bda8e89b794f25c2732\">2、</redoc-comment><redoc-comment commentGid=\"7665987364378044436\" blockId=\"55ede886c4423bda8e89b794f25c2732\">**稳定性建设：**</redoc-comment><redoc-comment commentGid=\"7665987364378044436\" blockId=\"55ede886c4423bda8e89b794f25c2732\">保障交接期系统平稳过渡，明确买手营销各链路的运维边界与责任归属。</redoc-comment>\n\n重点对直播间链路与私域链路进行端到端梳理，细化至接口粒度，系统性识别存储、监控、告警及应急处置层面的稳定性风险，形成可落地的运维规范；并与直播侧、橱窗、群聊侧完成对齐，就运维边界达成明确共识。\n\n#### 业务事项\n\n1、**买手券支持商品优惠预览**：已推全\n\n数据回收：\n\n- 营销工具首页-商品优惠预览模块渗透31.27%，每天有172个买手使用，次留 34.78%\n\n- 曝光了商品优惠预览模块的买手，灰度后相比灰度前，当天对券终止再新建券的占比提升了+3.83pp（10.34%-&gt;14.17%），有更多买手能看到商品预估到手价后，去修改买手券参数\n\n2、**直播任务券智能推荐**：解决买手不知道发什么券（面额/门槛/张数），支持买手按照发券目标发多个档位的券，兼顾「小额券促主推品转化」和「大面额券拉客单价」的双重目标；\n\n当前进展：7.30上线，当心跟进上线\n\n3、**买手营销工具优化**：新增定时任务券周期性自动发放、券复制、券商品范围优化等工具能力，提升买手创券配置效率、工具渗透率\n\n当前进展：下周一需求详评，但**新功能的上线需要同步评估当前迁移链路的改造，短期内需要双写**\n\n4、<redoc-comment commentGid=\"7665987106679998192\" blockId=\"f0e717dea270274f732797f18a044e17\">**买手券全托管**</redoc-comment>：解决买手不知该发什么券、发多少、发给谁的问题；根据买手X用户X价格带分层发券，并结合直播间实时状态动态调整发券策略，提升买手券整体 ROI与DGMV\n\n当前进展：下周详评\n</redoc-highlight>"
+  },
+  "656f1bf859fc0331a9cab74ffd8ccf1b": {
+    "mdContent": "<br/>"
+  },
+  "f8ee3629bbfe0e77f8d20b0131deac19": {
+    "mdContent": "## 四 营销平台建设"
+  },
+  "1d5028bacf968d72d3550f8d315804f0": {
+    "mdContent": "<redoc-highlight>\n### 统一营销投放平台\n\n<font color=\"#374151\">**建设目标：**</font><font color=\"#374151\">统一买手、商家、平台等多方权益发放链路，沉淀通用投放能力，避免各业务场域</font><font color=\"#374151\">**重复建设**</font><font color=\"#374151\">，降低多方协同和迭代成本，提升</font><font color=\"#374151\">**系统稳定性**</font><font color=\"#374151\">与可复用性。同时，进一步</font><font color=\"#374151\">**明确营销架构边界**</font><font color=\"#374151\">，解决现状职责边界模糊、迭代效率低等问题，实现整体投放效率显著提升，支撑营销日常需求在</font><font color=\"#CC3030\">**三组内闭环**</font>\n\n**预期节奏：**牟定着**直播任务券**，7月底联调，8.5晚上提测，8.12发布，8.13比对观察一天，8.14切流，8.21推全\n\n**当前进度：** @南烟 @当心 @章太 @班纳 @莱壹  **实际复杂度略超预期，整体ontrack**\n\n<br/>\n\n<br/>\n\n### **营销工具**\n\n**定位：**作为基础域，向上串联统一投放平台，向下串联基础交易链路，将不同场景背后的共性能力抽象为原子化、可组合的能力，让营销场景低成本、安全、可复用地落地。\n\n<br/>\n\n**技术方向定调：**在券、促销、红包三大垂直模型的基础上，横向沉淀营销场景共性的规则，收口资金履约能力，并在不同业务间复用；让新场景从重复业务开发转向抽象能力建设。\n\n<br/>\n\n**平台指标：**\n\n免开发率\n\n- 标准化承接率：新场景中无需定制开发的比例；\n\n- 接入效率：需求到上线的平均周期及研发投入；\n\n- 能力复用率：单项公共能力覆盖的业务场景数；\n\n- 质量与安全：资金差错及线上故障。\n\n本双月先建立指标基线，业务结果按具体场景单独跟踪。\n\n<br/>\n\n**key事项**：\n\n- **平台券预算管理能力。** 平台预算管理统一切回工程侧，**7.27开始切流**，核销超额后的处理从直接拉闸下线改为暂停，收敛预算超花风险，同时保留业务快恢能力。@遥梦 \n\n- **营销库存能力。** 营销库存能力单独抽象，移除redis强依赖，增加分桶设计，解决持久化和高性能场景业务层拆桶问题。能力复用在商家券、平台券、买手分批发券场景。预计** 8 月切流**。@承渊 \n\n- **商家混资红包能力**交易结算链路打通。支撑粉丝购物团满返玩法做留存，**已上线**，对比上线前同口径数据，周中新増关注 **71,826 UV**（**+65%**），新增加团 **95,534 UV**（**+733%**），基数较小但增速验证了模式可行性。@承渊 \n\n- **买手资金履约能力**收口：买手混资红包支持发放侧扣减买手钱包，保证资金流水一致，**7月22日发布**；直播营销架构升级中同步推进买手券接入。@当心 \n\n</redoc-highlight>"
+  },
+  "3c748aef4d616230f7df58102ac2d89b": {
+    "mdContent": "<br/>"
+  },
+  "03b97e862c47fb73381bd1dce626a8d9": {
+    "mdContent": "<br/>"
+  },
+  "bf66d9e38881ffb78f15bd8c7c2fecf1": {
+    "mdContent": "## 五 大促&招商"
+  },
+  "eccf64c1c06cb2d6d1bb1ce0ac963c9f": {
+    "mdContent": "<redoc-highlight>\n### 业务支撑\n\n**周末促：**通过周期性的活动和补贴，放大周末流量优势，培养用户购物习惯&强化周末优惠心智，通过确定的流量窗口吸引商家参与，通过商家让利&平台补贴提高成交转化，进而形成良性循环\n\n- 活动招商：商家混资总报名商家数量1000+（商品1.5W），&gt;5件商家数量346，占比33%；买手混资总买手数量598个（商品1.5W），&gt;5件的买手数量472，占比78.9%;\n\n- 会场&全链路氛围交付：VS<redoc-comment commentGid=\"7665987793875298812\" blockId=\"406deb865006c0a15b1fe227721a4fd2\">球迷市集流量基本持平</redoc-comment>，成交爆发明显，3日UV 178.5万 vs 180.9万（-1.3%），DGMV 118.2万 vs 95.0万（**+24.4%**），DAB **+43.8%**，订单数 **+33.1%**，转化率 0.256% vs 0.176%（**+46%**）\n\n- 周末促混资直播间发平台红包：通过红包吸引用户关注和观播，提高混资商家和成交转化，提高商家和主播的开播意愿\n\n**头商星选合伙人：**面向站外头部商家的冷启动扶持计划，用\"流量+混资补贴+治理保障\"三重杠杆，30天完成商家跃迁到B5/B6，转换站外生意为站内增量。一期500头商底池，在女装、珠宝、文玩行业试点，目标扶持100个商家。已进开发，731发布。@千岳\n\n**大促托管报名：**通过“大促托管计划”，实现“<redoc-comment commentGid=\"7665987785285364056\" blockId=\"6853081e55567dae570608198e722b7c\">一次托管，后续默认参与”的自动化机制</redoc-comment>，简化商家报名链路，同时为下半年密集的活动，储备长期稳定的货品供给。完成技术方案&排期，817上线。 @学琛\n\n<br/>\n\n#### 基础能力建设\n\n<redoc-comment commentGid=\"7665988674343948001\" blockId=\"c4923b898d2d784e2a3835636bfd3a81\">**大促交付标准：**</redoc-comment><redoc-comment commentGid=\"7665988674343948001\" blockId=\"c4923b898d2d784e2a3835636bfd3a81\">从几次大促的交付流程中看到的问题：大促活动缺少标准的交付SOP，全链路氛围配置效率低、验证成本高，会场搭建定制化开发多，历史招商、投放、氛围在协作就存在交互不合理的问题，接下来动作：</redoc-comment>\n\n- 厘清大促交付的业务边界：招商提供基础数据(商品VS活动、商家VS活动、买手VS活动)、投放平台编排优先级、氛围中心配置&召回素材\n\n- 氛围配置产品化&集中化：提供活动氛围配置&可视化产品能力，收敛全链路氛围配置，支持设计自主配置，降低交付成本（大促会场氛围交付成本3-&gt;1）CC <redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" />\n\n- 会场组件协议标准化：梳理历史会场组件，与产品&运营同学在组件标准化上达成共识，构建通用组件，降低标准组件下的交付成本 3 -&gt; 1 CC <redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" />\n\n**招商2C查询能力：**搭建 campaign2c 查询服务，通过 RedTable（HBase）异构招商数据，对完提供各种维度报名信息查询，来提升业务的迭代效率，一期7.20上线，已接入业务场景：用增发券、会场实时过滤等  @术赤\n\n**新圈商能力建设：**新平台已发布，目前招商侧迁移中，8月初完成，老的平台8月底下线 @学琛\n\n**Mongo下线：**开发改造完成，等QA测试资源8.3投入 @千岳\n\n**宠粉定金预售改造：**开发中，7.27提测 @术赤\n</redoc-highlight>"
+  },
+  "509ad286d1a6f33720dca43ce526068c": {
+    "mdContent": "<br/>"
+  },
+  "0eb506fe13c5a3143b527d89dddc48cc": {
+    "mdContent": "## 六 横向项目"
+  },
+  "a603b75587a6f3a0ae79fddd6bf18d4f": {
+    "mdContent": "**业务进展：横向稳定性相关**"
+  },
+  "8e3c9f1aacbf54f3e509b1500166a64a": {
+    "mdContent": "<redoc-highlight>\n\n<br/>\n\n</redoc-highlight>"
+  },
+  "6e78db76cd694022fc35de83304bd94e": {
+    "mdContent": "#### PE转型"
+  },
+  "4cb1332a10bf61ae39a29857c565af0c": {
+    "mdContent": "<redoc-columns>\n<redoc-column ratio=\"0.5\">\n**双月目标/OKR**\n\n- 协同PE Infra建设RN全栈的最佳实践，营销场景完成需求落地\n\n- 建设组内SDU和PE化率基准观测\n</redoc-column>\n<redoc-column ratio=\"0.5\">\n**年度目标/OKR**\n\n- 团队整体 SDU 下降 x%，不低于整体平均\n\n- PE 需求占比达到 x%\n</redoc-column>\n</redoc-columns>"
+  },
+  "863c6f2a0a817b96a2567137c321951d": {
+    "mdContent": "**进展追踪：**"
+  },
+  "eb6c8bc2588cb118aa8a1420490a2ca1": {
+    "mdContent": "| 事项 | KA | 负责人 | **进展健康度** <split/> <font color=\"#FFFFFF\">**🟢**</font>** **OnTrack <font color=\"#FFFFFF\">🟡 Risk </font> <split/> <font color=\"#FFFFFF\">🔴 Pending</font> | 本周进展 |\n| --- | --- | --- | --- | --- |\n| 业务研发知识 | 业务域、代码库梳理 | <redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" /> | <font color=\"#FFFFFF\">**🟢**</font>** **OnTrack | 本周完成代码库梳理 [三组业务仓库总览](https://docs.xiaohongshu.com/doc/0bd6bfb41f29d7f6b15671db5e254b76)，正在做知识提取 |\n|  | 知识提取和验证 | <redoc-mention mentionId=\"500044016\" mentionName=\"猎枭(马嘉路)\" />with infra | <font color=\"#FFFFFF\">**🟢**</font>** **OnTrack | - |\n| RN全栈最佳实践 | 典型需求效果验证 | <redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" /> <redoc-mention mentionId=\"500044016\" mentionName=\"猎枭(马嘉路)\" />with infra | <font color=\"#FFFFFF\">**🟢**</font>** **OnTrack | 本周完成典型需求梳理[研发三组典型需求](https://docs.xiaohongshu.com/doc/fae897fcdf25fc8523056c33f660f942)，下周开始进行验证 |\n|  | 业务域最佳实践 | <redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" /> <redoc-mention mentionId=\"500044016\" mentionName=\"猎枭(马嘉路)\" /> | <font color=\"#FFFFFF\">**🟢**</font>** **OnTrack | - |\n| 场景落地 | 会场交付场景落地1个case | <redoc-mention mentionId=\"500008127\" mentionName=\"平常(王青)\" /> <split/> <redoc-mention mentionId=\"500005878\" mentionName=\"朱仝(仝守玉)\" /> | <font color=\"#FFFFFF\">**🟢**</font>** **OnTrack | - |\n|  | 数据看板场景落地1个case | <redoc-mention mentionId=\"500044016\" mentionName=\"猎枭(马嘉路)\" /> | <font color=\"#FFFFFF\">**🟢**</font>** **OnTrack <split/> <br/> | - |"
+  },
+  "4432f5aebc77ee56bd4f9530c30951ab": {
+    "mdContent": "<br/>"
+  },
+  "60c432c6662dac26b73fcaab0a9fb17f": {
+    "mdContent": "# 本周TODO"
+  },
+  "d4affc1537ccbc086e3d48c4d3d68c05": {
+    "mdContent": "| TODO项 | 跟进人 | 进展 |\n| --- | --- | --- |\n| <br/> | <br/> | <br/> |\n| <br/> | <br/> | <br/> |"
+  },
+  "0e89a7d52255d3eb9eb2c37156c6d145": {
+    "mdContent": "<br/>"
+  }
+}
