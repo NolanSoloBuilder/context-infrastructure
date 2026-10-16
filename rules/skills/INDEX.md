@@ -45,7 +45,7 @@
 - [Google Docs 操作](./google_docs.md) ⚙️ — CLI 工具：发布 Markdown、创建/搜索/修改/分享文档
 - [图片生成与放大](./generate_image.md) — CLI 工具：Gemini Flash / Gemini Pro / GPT-Image-2 文生图、图片编辑、分辨率放大
 - [增长数据分析](./growth_analytics.md) ⚙️ — 三个 CLI 查询网站流量（GA4）、邮件订阅（Kit）、Twitter 互动（Typefully）
-- [StrongVPN WireGuard 下载与节点优选](./strongvpn-node-optimizer/SKILL.md) ⚙️ — 直接调用接口查看节点、下载配置；按需实测 AI 服务访问质量并切换，保护 REDpass，失败时回滚
+- [StrongVPN 节点与私人订阅维护](./strongvpn-node-optimizer/SKILL.md) ⚙️ — 查看/下载节点、单节点修复、导出最新既有配置、维护固定链接订阅；按需测试并切换，保护 REDpass
 - [Typefully Metrics CLI](./typefully_metrics.md) ⚙️ — 通过浏览器 session 凭据查询 Twitter impression、engagement、followers 数据
 - [Typefully 发帖 CLI](./typefully_post.md) ⚙️ — 通过 Typefully v2 API 创建草稿、排期发布和直接发布 tweet / thread
 
@@ -59,7 +59,7 @@
   - **禁止轮询**：agent 运行期间不要反复调用 `background_output`，系统会自动通知
   - 判断标准：任务可拆分为 ≥2 个子任务，每个 ≥5 tool calls
   - 核心参数：并行度 ≤5，调研 overlap 30-50%，代码 overlap 0-20%
-- [StrongVPN 节点到 VPS 统一订阅](./strongvpn-node-optimizer/references/subscription_workflow.md) ⚙️ — 下载/复用 WireGuard 配置、转换并验证 Clash YAML、保留原链接原子更新阿里云 VPS、刷新客户端；触发“更新 StrongVPN 订阅”或“重新下载节点并更新订阅”
+- [StrongVPN 节点到 VPS 统一订阅](./strongvpn-node-optimizer/references/subscription_workflow.md) ⚙️ — 下载/复用 WireGuard 配置、转换并验证 Clash YAML、MetaCubeX 国内及 UU 远程直连、保留原链接原子更新阿里云 VPS、刷新客户端；触发“更新 StrongVPN 订阅”或“重新下载节点并更新订阅”
 - [深度调研工作流](./workflow_deep_research_survey.md) ✅ — 多 Agent 并行 + 交叉验证（Phase 1-3 信息采集）
 - [分析写作工作流](./workflow_analytical_writing.md) ✅ — 将调研素材转化为有判断力的分析文章。包含 Thesis Catalog（核心分析视角 L1-L6）和判断合成步骤。**做深度调研并写 external 文章时，两个 skill 都要读**
 - [认知画像提取工作流](./workflow_cognitive_profile_extraction.md) — 从非结构化对话数据提取可预测的认知公理

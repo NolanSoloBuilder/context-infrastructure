@@ -1,11 +1,11 @@
 ---
 name: strongvpn-node-optimizer
-description: 通过 StrongVPN 接口下载 WireGuard 配置、转换并更新 Clash/VPS 私人订阅，或在 macOS 上测试、比较和切换节点。用于下载节点、更新 StrongVPN 订阅、提取 strong-wg 接口、测速、切换或恢复节点。
+description: 查看或下载 StrongVPN WireGuard 节点、验证及修复单节点、导出已有配置，维护 Clash/VPS 固定链接订阅与国内直连分流；也支持按需测速和切换。
 ---
 
 # StrongVPN Node Optimizer
 
-根据用户目标选择下载或测速流程。下载直接调用官方页面使用的接口；测速通过真实 AI 服务访问质量选择节点。持久化凭据只进入 macOS Keychain，配置进入本机权限受控的目录；REDpass 是受保护的基础网络，测速和切换不得关闭它，其他切换失败时恢复原 VPN 状态。
+先区分查看、复制、验证、重新生成和发布。持久化凭据在 macOS Keychain，私人配置在 Git 外受控目录。REDpass 是受保护的基础网络，不因验证、换节点或维护本 Skill 而停止它。
 
 ## 命令入口
 
@@ -24,13 +24,25 @@ node scripts/strongvpn-node-optimizer.mjs restore
 
 ## 工作流
 
-### 统一订阅完整更新
+### 按请求选择流程
 
-用户说“更新 StrongVPN 订阅”“重新下载节点并更新订阅”，或要求 WireGuard → Clash YAML → VPS 发布时，先读[完整订阅工作流](references/subscription_workflow.md)。当前用户选择一份包含全部保留节点的共用订阅，不拆四份；正常发布保留原 URL，只原子替换服务器文件。只说“更新”默认复用配置，明确“重新下载”才注册新密钥；没有 `publish/convert/update-subscription` 现成子命令，不要混用会生成并切网的 `benchmark`。
+| 用户意图 | 操作及参考 |
+| --- | --- |
+| 查看地区/候选节点 | `servers`，只读目录，不等于下载全部 |
+| 给一份当前可用的 `.conf` | 读取实际选择、定向验证；[本地工具](references/local_tools.md) `export-conf` 复制匹配当前 YAML 的源文件，不生成密钥 |
+| 更新订阅或调整国内/UU 分流 | [订阅工作流](references/subscription_workflow.md)，默认复用身份，保留原 URL |
+| 某节点失效，必要时换密钥 | 工作流的单节点故障流程：旧配置/对照测试后按授权生成一次；`prepare-replacement` 仅创建候选，其他节点不动 |
+| 明确重新下载指定节点 | 下方下载流程；只处理用户指定集合 |
+| 对现有 Clash 节点测速/切换 | 优先通过现有内核验证和选择；不注册新身份 |
+| 明确采用系统 WireGuard 隧道进行 AI 服务对比 | 下方 `benchmark/switch/restore`；需允许其生成身份和变更隧道，不能用于普通订阅维修 |
+
+当前用户选择一份完整共用订阅，保留原链接、MetaCubeX 国内/私网直连与 UU 远程例外；更新节点不得退回全代理、拆四份或顺带切系统代理/TUN。UU 进程兜底已配置不等于本机识别成功，见工作流的验证边界。
+
+`scripts/strongvpn_subscription.py` 的三个命令只做本地准备/导出或只读 HTTPS 验收，运行方式见[本地工具](references/local_tools.md)。它不负责生成密钥、发布、回滚或客户端激活；Node 入口没有 `publish/convert/update-subscription` 子命令。维护、审阅或测试 Skill 本身不授权改现网或注册密钥。
 
 ### 查看和下载节点文件
 
-1. 运行 `servers 日本` 或 `servers japan` 获取实时节点列表；省略筛选词会列出全部节点。支持 `--json`。
+1. 运行 `servers 日本` 或 `servers japan` 获取实时节点列表；省略筛选词只列出全部候选，不表示授权下载全部。支持 `--json`。候选必须对应下载页真实下拉框的可选项，目录由页面实际 import 定位；页面变化或批量全量前核对真实 option values。按用户指定范围或当前订阅选定集下载，不把目录里的所有节点默认逐个生成。
 2. 运行 `download <节点ID>`，复用 Keychain 凭据。可带 `--username <用户名>` 核对账号，避免误用已有账号。
 3. 输出下载文件的绝对路径，默认位于本机数据目录的 `downloads/`，文件权限 `0600`，不会输出配置正文或私钥。
 4. 需要指定目标时用 `--output /绝对路径/节点.conf`，父目录须存在；现有文件不覆盖。`--source strongvpn|strongtech` 可指定来源。目录 GET 可自动备用，生成 POST 每次只发送一次，失败或超时停止。
@@ -56,7 +68,11 @@ unset strongvpn_password
 
 HTTPS 成功可以证明该配置在测试时能够完成加密通信并转发流量；超时只记录为本次未验证，不能直接证明配置已过期。保存逐节点结果和原文件哈希，勿保存私钥或完整配置到日志。2026-10-15 的 AIO 实测中，47 份旧配置的最后 12 份通过两个 HTTPS 目标，较早 35 份超时；这是特定账户和时点的证据，不作为跨账户固定规则。
 
-### 测速工具首次设置
+### 系统 WireGuard 测速模式
+
+此分支与 Clash 现有节点测试不同：`benchmark` 会生成新身份并操作系统隧道，可能影响提供方保留的配置。仅在用户明确选择此模式并允许这些操作时使用；对现有 Clash 节点测速时不安装 `wg`、不运行此分支。生成逻辑与下载共用校验和单次 POST，生成失败/结果未知会终止本次 benchmark，不跨镜像或继续注册其他候选。
+
+首次设置：
 
 1. 运行 `status`，确认 `wg`、`wg-quick` 和凭据状态。
 2. 缺少依赖时安装全局 Homebrew 公式：`brew install wireguard-tools`。

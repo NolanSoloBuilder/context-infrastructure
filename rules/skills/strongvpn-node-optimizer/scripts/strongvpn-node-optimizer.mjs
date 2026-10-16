@@ -17,6 +17,100 @@ const REGION_PATTERNS = [
 
 const UNSUPPORTED_SOURCE = /\b(?:fetch|function|eval|require|process|globalThis|import)\b|=>|\bnew\s+/;
 
+// Preserve offsets and newlines so comments cannot become data or join tokens.
+// This is a bounded lexer, not a JavaScript evaluator.
+function stripJavaScriptComments(source, maskStrings = false) {
+  let output = '';
+  let quote = null;
+  let escaped = false;
+  for (let index = 0; index < source.length; index += 1) {
+    const char = source[index];
+    if (quote) {
+      output += maskStrings && char !== '\n' && char !== '\r' ? ' ' : char;
+      if (escaped) escaped = false;
+      else if (char === '\\') escaped = true;
+      else if (char === quote) quote = null;
+      continue;
+    }
+    if (char === "'" || char === '"' || char === '`') {
+      quote = char;
+      output += maskStrings ? ' ' : char;
+    } else if (char === '/' && source[index + 1] === '/') {
+      output += '  ';
+      index += 1;
+      while (index + 1 < source.length && !/[\r\n]/.test(source[index + 1])) {
+        output += ' ';
+        index += 1;
+      }
+    } else if (char === '/' && source[index + 1] === '*') {
+      const end = source.indexOf('*/', index + 2);
+      if (end === -1) throw new Error('Unterminated JavaScript block comment');
+      output += source.slice(index, end + 2).replace(/[^\r\n]/g, ' ');
+      index = end + 1;
+    } else output += char;
+  }
+  if (quote) throw new Error('Unterminated JavaScript string');
+  return output;
+}
+
+function htmlAttributes(source) {
+  const attributes = new Map();
+  const pattern = /([^\s=/>]+)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+)))?/g;
+  for (const match of source.matchAll(pattern)) {
+    const name = match[1].toLowerCase();
+    if (attributes.has(name)) throw new Error('Duplicate HTML attribute');
+    attributes.set(name, match[2] ?? match[3] ?? match[4] ?? '');
+  }
+  return attributes;
+}
+
+function catalogUrlFromPage(source, pageUrl) {
+  if (typeof source !== 'string') throw new Error('Unsupported generator page type');
+  const html = source.replace(/<!--[\s\S]*?-->/g, '');
+  if (html.includes('<!--')) throw new Error('Unterminated HTML comment');
+  const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)];
+  const markup = html.replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, '')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, '');
+  const selects = [...markup.matchAll(/<select\b([^>]*)>/gi)]
+    .filter((match) => htmlAttributes(match[1]).get('id') === 'serverSelect');
+  if (selects.length !== 1 || htmlAttributes(selects[0][1]).has('disabled')) {
+    throw new Error('Generator page must contain one enabled serverSelect');
+  }
+  if (/<base\b/i.test(markup)) throw new Error('Generator page base URL changes are unsupported');
+
+  const imports = [];
+  for (const script of scripts) {
+    const attributes = htmlAttributes(script[1]);
+    if (attributes.get('type')?.toLowerCase() !== 'module') continue;
+    if (attributes.has('src')) throw new Error('External generator module format is unsupported');
+    const code = stripJavaScriptComments(script[2]);
+    const masked = stripJavaScriptComments(code, true);
+    const pattern = /\bimport\s*\{([^{}]*)\}\s*from\b/g;
+    for (const match of masked.matchAll(pattern)) {
+      const names = match[1].split(',').map((name) => name.trim()).filter(Boolean).sort();
+      const exportedNames = names.map((name) => name.split(/\s+/)[0]);
+      if (!exportedNames.includes('servers') && !exportedNames.includes('serverMapping')) continue;
+      if (names.join(',') !== 'serverMapping,servers') {
+        throw new Error('Generator catalog named import format is unsupported');
+      }
+      const specifier = code.slice(match.index + match[0].length).match(/^\s*(['"])([^'"\r\n\\]+)\1/);
+      if (!specifier) throw new Error('Generator catalog module path is unclear');
+      imports.push(specifier[2]);
+    }
+  }
+  if (imports.length !== 1) throw new Error('Generator catalog module reference is missing or ambiguous');
+  const specifier = imports[0];
+  if (!/^(?:\.{1,2}\/|\/|https:\/\/)/.test(specifier)) {
+    throw new Error('Generator catalog must use a relative or HTTPS module URL');
+  }
+  const catalogUrl = new URL(specifier, pageUrl);
+  if (catalogUrl.protocol !== 'https:' || catalogUrl.origin !== pageUrl.origin
+    || catalogUrl.username || catalogUrl.password) {
+    throw new Error('Generator catalog module must be same-origin HTTPS');
+  }
+  return catalogUrl;
+}
+
 export function classifyPreferredRegion(server) {
   const haystack = `${server.country ?? ''} ${server.label ?? ''} ${server.id ?? ''}`;
   return REGION_PATTERNS.find(([, pattern]) => pattern.test(haystack))?.[0] ?? null;
@@ -57,7 +151,7 @@ export function parseServersModule(source) {
   if (typeof source !== 'string') {
     throw new Error('Unsupported server catalog type');
   }
-  const sanitizedSource = source.replace(/^\s*\/\/.*$/gm, '');
+  const sanitizedSource = stripJavaScriptComments(source);
   if (UNSUPPORTED_SOURCE.test(sanitizedSource)) {
     throw new Error('Unsupported executable expression in server catalog');
   }
@@ -81,6 +175,7 @@ export function parseServersModule(source) {
     const country = countryMatch[1];
     for (const entryMatch of countryMatch[2].matchAll(entryPattern)) {
       const id = entryMatch[1];
+      if (!/^str-[a-z0-9]+$/.test(id)) throw new Error('Unsupported server ID shape');
       const ip = mappings.get(id);
       if (!ip) throw new Error(`Missing IP mapping for ${id}`);
       if (seen.has(id)) throw new Error(`Duplicate server ID: ${id}`);
@@ -98,9 +193,18 @@ export async function fetchServerCatalog({ baseUrls, fetchImpl = fetch }) {
   const errors = [];
   for (const baseUrl of baseUrls) {
     try {
-      const response = await fetchImpl(`${baseUrl}/servers.js`);
+      const pageUrl = new URL(`${baseUrl.replace(/\/+$/, '')}/strong-wg.html`);
+      if (pageUrl.protocol !== 'https:' || pageUrl.username || pageUrl.password) {
+        throw new Error('Generator page must use HTTPS without URL credentials');
+      }
+      const page = await fetchImpl(pageUrl.href, { redirect: 'error' });
+      if (!page.ok) throw new Error(`Generator page HTTP ${page.status}`);
+      if (page.redirected) throw new Error('Generator page redirects are unsupported');
+      const catalogUrl = catalogUrlFromPage(await page.text(), pageUrl);
+      const response = await fetchImpl(catalogUrl.href, { redirect: 'error' });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return { baseUrl, servers: parseServersModule(await response.text()) };
+      if (response.redirected) throw new Error('Generator catalog redirects are unsupported');
+      return { baseUrl, pageUrl: pageUrl.href, catalogUrl: catalogUrl.href, servers: parseServersModule(await response.text()) };
     } catch (error) {
       errors.push(`${new URL(baseUrl).host}: ${error.message}`);
     }
@@ -138,22 +242,6 @@ export async function readCredentials(runner) {
   return credentials;
 }
 
-function assertGeneratorSchema(data) {
-  const interfaceConfig = data?.config?.Interface;
-  const peerConfig = data?.config?.Peer;
-  if (
-    data?.success !== true
-    || typeof interfaceConfig?.Address !== 'string'
-    || !Array.isArray(interfaceConfig?.DNS)
-    || interfaceConfig.DNS.some((entry) => typeof entry !== 'string')
-    || typeof peerConfig?.PublicKey !== 'string'
-    || peerConfig.PublicKey.length === 0
-  ) {
-    throw new Error('StrongVPN generator response schema was invalid');
-  }
-  return { interfaceConfig, peerConfig };
-}
-
 export async function generateConfig({
   baseUrls,
   server,
@@ -162,47 +250,22 @@ export async function generateConfig({
   fetchImpl = fetch,
   randomPort = () => Math.floor(Math.random() * 5001) + 55000,
 }) {
-  assertCredentials(credentials);
-  if (!server?.id || !isIP(server?.ip ?? '')) throw new Error('StrongVPN server mapping was invalid');
-  if (!keyPair?.privateKey || !keyPair?.publicKey) throw new Error('WireGuard key pair was invalid');
-
-  const errors = [];
-  for (const baseUrl of baseUrls) {
-    try {
-      const response = await fetchImpl(`${new URL(baseUrl).origin}/wg-generate`, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          aiouser: credentials.username,
-          aiopass: credentials.password,
-          server: server.id,
-          publickey: keyPair.publicKey,
-        }),
-      });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const { interfaceConfig, peerConfig } = assertGeneratorSchema(await response.json());
-      const port = Number(randomPort());
-      if (!Number.isInteger(port) || port < 55000 || port > 60000) {
-        throw new Error('WireGuard endpoint port was invalid');
-      }
-      const config = [
-        '[Interface]',
-        `PrivateKey = ${keyPair.privateKey}`,
-        `Address = ${interfaceConfig.Address}`,
-        `DNS = ${interfaceConfig.DNS.join(', ')}`,
-        '',
-        '[Peer]',
-        `PublicKey = ${peerConfig.PublicKey}`,
-        'AllowedIPs = 0.0.0.0/0, ::/0',
-        `Endpoint = ${server.ip}:${port}`,
-        '',
-      ].join('\n');
-      return { server, config, publicKey: keyPair.publicKey, baseUrl };
-    } catch (error) {
-      errors.push(`${new URL(baseUrl).host}: ${error.message}`);
-    }
+  // Keep benchmark generation identical to downloads. Imports stay lazy to avoid
+  // a CLI/module cycle: the downloader imports this module's catalog helpers.
+  const { generateDownload } = await import('./strongvpn-download.mjs');
+  const baseUrl = baseUrls?.[0];
+  try {
+    const config = await generateDownload({
+      baseUrl, server, credentials, keys: keyPair, fetchImpl,
+      endpointPort: Number(randomPort()),
+    });
+    return { server, config, publicKey: keyPair.publicKey, baseUrl };
+  } catch (error) {
+    // An uncertain registration must stop the benchmark, not move on and register
+    // further candidates while the previous operation's outcome is unknown.
+    error.stopBenchmark = true;
+    throw error;
   }
-  throw new Error(`StrongVPN config generation failed (${errors.join('; ')})`);
 }
 
 export function redactSensitive(value, secrets = []) {
@@ -645,9 +708,9 @@ const BASE_URLS = [
   'https://tools.strongtech.org/share/strong-wg',
 ];
 
-async function benchmarkCandidate({ server, credentials, store, adapter, runner, emit }) {
+async function benchmarkCandidate({ server, credentials, store, adapter, runner, emit, baseUrl }) {
   const keyPair = await generateKeyPair(runner);
-  const generated = await generateConfig({ baseUrls: BASE_URLS, server, credentials, keyPair });
+  const generated = await generateConfig({ baseUrls: [baseUrl], server, credentials, keyPair });
   const configPath = store.path('runtime/svpn0.conf');
   await store.write('runtime/svpn0.conf', generated.config);
   let trace = { loc: null, colo: null, warp: null };
@@ -699,8 +762,9 @@ async function runBenchmark({ force, store, adapter, runner = runCommand, emit =
     for (const [index, server] of candidates.entries()) {
       emit(`[${index + 1}/${candidates.length}] 测试 ${server.label} (${server.id})`);
       try {
-        results.push(await benchmarkCandidate({ server, credentials, store, adapter, runner, emit }));
+        results.push(await benchmarkCandidate({ server, credentials, store, adapter, runner, emit, baseUrl: catalog.baseUrl }));
       } catch (error) {
+        if (error.stopBenchmark) throw error;
         results.push({
           id: server.id, label: server.label, country: server.country, region: server.region,
           trace: { loc: null, colo: null, warp: null }, samples: [], ...scoreCandidate([]),

@@ -8,7 +8,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   SOURCES, createWireGuardKeys, formatDownloadedConfig, generateDownload,
-  downloadToFile, parseDownloadArgs,
+  downloadToFile, parseDownloadArgs, runDownloader,
 } from './strongvpn-download.mjs';
 
 const server = { id: 'str-nrt301', ip: '192.0.2.1' };
@@ -119,6 +119,33 @@ test('CLI rejects ambiguous arguments and requires username with stdin', () => {
   assert.throws(() => parseDownloadArgs(['download', server.id, '--source', 'other']), /source/);
   assert.throws(() => parseDownloadArgs(['download', server.id, '--password-stdin']), /username/);
   assert.throws(() => parseDownloadArgs(['download', server.id, 'extra']), /一次/);
+});
+
+test('public servers JSON includes the actual page and imported catalog URLs', async () => {
+  const originalFetch = globalThis.fetch;
+  const originalLog = console.log;
+  const output = [];
+  const calls = [];
+  globalThis.fetch = async (url) => {
+    calls.push(url);
+    if (url.endsWith('/strong-wg.html')) return new Response(`<select id="serverSelect"></select>
+      <script type="module">import { servers, serverMapping } from './live.js?v=3';</script>`);
+    assert.equal(url, `${SOURCES.strongvpn}/live.js?v=3`);
+    return new Response(`export const serverMapping = {'str-nrt301': {ip: atob('MTkyLjAuMi4x')}};
+      export const servers = {'Japan': [{value:'str-nrt301',label:'Tokyo'}]};`);
+  };
+  console.log = (value) => output.push(value);
+  try {
+    await runDownloader(['servers', '日本', '--json']);
+    const parsed = JSON.parse(output[0]);
+    assert.equal(parsed.pageUrl, `${SOURCES.strongvpn}/strong-wg.html`);
+    assert.equal(parsed.catalogUrl, `${SOURCES.strongvpn}/live.js?v=3`);
+    assert.deepEqual(parsed.servers.map(({ id }) => id), ['str-nrt301']);
+    assert.equal(calls.length, 2);
+  } finally {
+    globalThis.fetch = originalFetch;
+    console.log = originalLog;
+  }
 });
 
 test('global symlink CLI works and importing from stdin causes no CLI side effects', async () => {

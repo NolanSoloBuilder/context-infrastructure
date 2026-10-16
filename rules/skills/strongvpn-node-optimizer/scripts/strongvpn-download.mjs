@@ -59,10 +59,18 @@ export function formatDownloadedConfig(data, server, keys, port = randomInt(5500
   ].join('\n');
 }
 
-export async function generateDownload({ baseUrl, server, credentials, keys, fetchImpl = fetch }) {
+export async function generateDownload({ baseUrl, server, credentials, keys, fetchImpl = fetch, endpointPort }) {
   if (!Object.values(SOURCES).includes(baseUrl)) throw new Error('下载来源必须是两个已知 HTTPS 站点之一。');
   if (!/^a\d{6}$/.test(credentials?.username ?? '') || typeof credentials?.password !== 'string' || !credentials.password) {
     throw new Error('缺少有效凭据。请设置 Keychain 或通过标准输入提供密码。');
+  }
+  const keyPattern = /^[A-Za-z0-9+/]{43}=$/;
+  if (!/^str-[a-z0-9]+$/.test(server?.id ?? '') || !isIP(server?.ip ?? '')
+    || !keyPattern.test(keys?.privateKey ?? '') || !keyPattern.test(keys?.publicKey ?? '')) {
+    throw new Error('节点映射或 WireGuard 密钥无效；未提交生成请求。');
+  }
+  if (endpointPort !== undefined && (!Number.isInteger(endpointPort) || endpointPort < 55000 || endpointPort > 60000)) {
+    throw new Error('WireGuard endpoint port was invalid; generation was not submitted.');
   }
   let response;
   try {
@@ -79,7 +87,7 @@ export async function generateDownload({ baseUrl, server, credentials, keys, fet
   let data;
   try { data = await response.json(); } catch { throw new Error('生成接口返回非 JSON 数据；未自动重试。'); }
   if (data?.success !== true) throw new Error('生成接口拒绝请求，请核查账号、密码或节点；未自动重试。');
-  return formatDownloadedConfig(data, server, keys);
+  return formatDownloadedConfig(data, server, keys, endpointPort);
 }
 
 export async function downloadToFile({ output, generate }) {
@@ -148,7 +156,7 @@ export async function runDownloader(argv = process.argv.slice(2)) {
     const aliases = { 日本: 'japan', 新加坡: 'singapore', 美国: 'united states', 台湾: 'taiwan', 香港: 'hong kong' };
     const query = (aliases[options.selector] ?? options.selector ?? '').toLowerCase();
     const servers = catalog.servers.filter((s) => `${s.id} ${s.country} ${s.label} ${s.region ?? ''}`.toLowerCase().includes(query));
-    console.log(options.json ? JSON.stringify({ source: catalog.baseUrl, servers }, null, 2) : servers.map((s) => `${s.id}\t${s.country}\t${s.label}`).join('\n') || '没有匹配的节点。');
+    console.log(options.json ? JSON.stringify({ source: catalog.baseUrl, pageUrl: catalog.pageUrl, catalogUrl: catalog.catalogUrl, servers }, null, 2) : servers.map((s) => `${s.id}\t${s.country}\t${s.label}`).join('\n') || '没有匹配的节点。');
     return;
   }
   const server = catalog.servers.find((s) => s.id === options.selector);

@@ -84,3 +84,40 @@ VPS 当前只服务 `/etc/forgepane/caddy/strongvpn/files/strongvpn.yaml`，使�
 统一订阅让各设备看到相同的完整节点列表，并未提供每设备独立密钥。已告知用户多设备同时使用应选不同节点，同一配置并发仍可能互相干扰；私人使用说明补充了全节点测速也会使用密钥。后续只需替换 strongvpn.yaml，客户端更新订阅即可。此次临时 SSH 公钥、私钥与服务器暂存配置副本也已清理，其他登录授权保留。
 
 用户要求沉淀下次可直接触发的完整流程，已新增[StrongVPN 节点下载、转换与 VPS 订阅更新](../../rules/skills/strongvpn-node-optimizer/references/subscription_workflow.md)，并登记到 Skill 入口、技能索引与 WORKSPACE 路由。工作流区分“更新订阅”复用既有配置与“重新下载节点并更新订阅”注册新密钥，覆盖字段转换、最终合集验证、保持原 URL 的原子发布、客户端刷新与回滚/临时授权清理。文档不包含真实账号密码、私钥或订阅令牌；本次仅整理文档，没有再次下载或修改 VPS。
+
+用户随后要求下载范围以网页下拉框为准，并可抓取请求。已通过内置浏览器分别读取两个真实页面的 `select#serverSelect` 并捕获加载请求：两者均有 53 个可选 option、34 个国家/地区组；53 个 ID 与现有解析结果和原导出目标均一致，没有额外 ID。原 47 为生成成功数，另 6 个失败；这与账户保存配置数、12 份通过连接测试不是同一概念。实际加载为 GET 页面及 `servers.js`，生成 POST 仅从源码核对，没有实际发送。完整证据及后续约束见[下拉框与请求核对](../survey_sessions/2026_10_15_strongvpn_dropdown_audit.md)。Skill 与工作流已补充真实 option 集合核对及下载目标范围约束，不默认批量生成全部可选目录，现有本地/VPS 统一订阅不变。
+
+目录读取代码也已从硬编码数据文件改为读取当前网页的实际 module import，同源 HTTPS 与异常结构失败关闭；补全块注释/行尾注释过滤，避免将注释旧项计入。该通用缺陷没有造成此次真实 53 与 DOM 的差异。CLI 输出增加页面和目录来源元数据；36 项定向测试通过，真实只读列表调用与两镜像离线重放均核对为 53 节点、34 国家，无生成调用。
+
+
+## MetaCubeX 国内直连与 UU 远程例外
+
+用户明确授权采用 MetaCubeX：国内直连、其他 StrongVPN，同步 VPS 与本机 Clash，保留原订阅 URL；随后补充 UU 远程也要直连。已完成两次同文件原子更新，均未调用 StrongVPN 生成接口、读取账号密码或注册新密钥。12 个代理、私钥和代理组与输入逐字段相同，首尔 `str-sel302` 选择保持。
+
+配置加入 MetaCubeX `meta/geo` 分支的 `geosite/private.mrs`、`geoip/private.mrs`、`geosite/cn.mrs`、`geoip/cn.mrs` 四个 HTTP provider；`format: mrs`，行为分别 domain/ipcidr，每 86400 秒更新，下载出口 `StrongVPN`，缓存路径相对内核数据目录。私网和国内规则为 DIRECT，最后 `MATCH,StrongVPN`，IP 规则允许解析后判断。未添加全局 DNS 设置、自动测速或自动切换。隔离实例在 `-t` 后确认无 ruleset 缓存才启动，实际下载并载入四合集；本机刷新后分别载入国内域名 110821、国内 IP 10008、私网域名 130、私网 IP 18 项。
+
+首次分流版本 SHA-256 从 `7eaef06886d9f89b63f2426e19e1f07e9da165b303f21afc2121feeb11c705aa` 更新为 `630bc56b154035cb29095e174de54bb6b97f27bbb9caa28ab68ed27358c5f411`；随后加入 UU 例外的最终版本为 `fd24f4aa559294d4e6ee639b652a8c8ccfe1e736b1d680454716214980d6c9c3`。原 URL 的 GET/HEAD 均 200，本机源文件、两个私人清单、VPS HTTPS 下载和 Clash 当前订阅缓存哈希一致。无令牌/目录/直接文件请求仍 404，原 origin API 无来源凭据仍 403，VPS loopback health 200。Caddy 路由及主配置哈希、5 个容器 PID/启动时间均未变化，无 Caddy 重载、服务重启或额外公网端口。
+
+本机实际通过 SOCKS 发起并从连接 API 取得链路证据：
+
+| 目标 | 命中 | 结果 |
+| --- | --- | --- |
+| 百度 HTTPS | `RuleSet / cn-domain / DIRECT` | TLS 校验通过，HTTP 200 |
+| `223.5.5.5:443`，TLS 名 `dns.alidns.com` | `RuleSet / cn-ip / DIRECT` | TLS 校验通过 |
+| 自建临时 HTTP 服务，数值回环地址 | `RuleSet / private-ip / DIRECT` | HTTP 200 |
+| 同一临时服务，localhost | `RuleSet / private-domain / DIRECT` | HTTP 200 |
+| gstatic `generate_204` | `Match / StrongVPN / 首尔` | TLS 校验通过，HTTP 204 |
+| UU 官方 API 域名根路径 | `DomainSuffix / nrd.nie.163.com / DIRECT` | TLS 校验通过，HTTP 404；仅证明根路径响应与路由，不作为业务 API 健康证明 |
+
+UU 远程由网易官方 `uu.163.com` 以明确产品链接指向 `uuyc.163.com`，未使用搜索结果中的仿冒下载站。本机已安装、运行的 bundle 为 `com.netease.uuremote`，可执行文件确认 `UURemote`、`UURemoteService`、`UURemoteDaemon`、`UURemoteServer`。在国内规则之前加入这四条 `PROCESS-NAME -> DIRECT` 与 `nrd.nie.163.com`、`uuyc.163.com`、`uuyc.webapp.163.com` 三条 `DOMAIN-SUFFIX -> DIRECT`，显式 `find-process-mode: strict`；未泛放所有网易域名、端口或 UDP。真实 Clash 规则页和内核 API 均确认 12 条有序规则已加载。
+
+**UU 进程验收边界：** 产品域名直连已实测，但受控同名 curl 在隔离和本机内核的进程信息均为空，落入 Match，故不能声称进程兜底已生效。仅对私人测试副本做 ad-hoc 签名以运行，没有修改系统 curl 或真实 UU App。进一步 debug 明确为 `process not found`：lsof 与 API 的源端口一致，而同时读取的 `net.inet.tcp.pcblist_n` 查不到该连接/客户端 PID；普通自建 Python 回环连接可查到，未发现通用结构偏移或权限错误。网络过滤/Flow Divert 可能影响记录，但原因未证实，未借此关闭安全软件、REDpass 或要求 TUN/管理员。现场 UU 主程序有 5 TCP/152 UDP socket、辅助 Server 有 1 TCP，均无连接到本机 Clash 7897；当前 UU 本身没有进入 StrongVPN。未建立、断开或重启真实远控会话。Windows/移动端进程名未核验，不把 Mac 规则宣称为全平台进程保证。
+
+系统代理和 TUN 均维持关闭、规则模式保留；只有进入 Clash 的流量才执行上述规则，DIRECT 不会覆盖其他系统 VPN/路由。私人 README、固定链接说明与三文件 ZIP 均已更新，ZIP CRC/逐文件字节/0600 权限通过。后续更新须保留 MetaCubeX 与 UU 例外，已写入[订阅工作流](../../rules/skills/strongvpn-node-optimizer/references/subscription_workflow.md)及 Skill 入口。
+
+备份和脱敏报告保留在 Git 外 `~/.local/share/strongvpn-node-optimizer/runs/`：`20261015T113830Z-metacubex-candidate`、`20261015T113747Z-metacubex-deploy`、`20261015T114418Z-uu-direct-candidate`、`20261015T114405Z-uu-direct-deploy`。两个发布前文件分别备份到 VPS 私人 history 批次目录，服务器 README 已更新。隔离内核、自建 HTTP 服务、受控 curl 等本次自有进程全部结束，私人同名测试二进制已删除；临时 SSH 公钥精确移除，其他授权行保留，本机临时 SSH 私钥删除，服务器无本次遗留发布候选。真实 UU/REDpass 和其他任务均未停止。
+
+
+## 单个既有 WireGuard 配置交付
+
+用户要求提供当前可访问节点的一份 `.conf`。读取实时 Clash 选择确认仍为首尔 `str-sel302`，将对应原始 `.conf` 与当前统一订阅的密钥、Endpoint、IPv4、AllowedIPs、DNS 逐项核对后，逐字节复制到 Git 外私人 deliveries 批次目录，文件 0600。通过现有内核指定该节点分别访问 Cloudflare trace 与 gstatic generate_204，延迟 161/187 ms，均通过；没有调用生成接口、新建密钥、切换节点或改变网络开关。交付文件 SHA-256 为 `46b5dfe49b49efdb8635d11946164ccf25698e839c84dfe6c2192e5599d12211`。原生 WireGuard 文件只包含单节点隧道配置，不携带 Clash 分流规则，仍复用当前节点身份。

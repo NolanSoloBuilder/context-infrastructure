@@ -1,4 +1,4 @@
 interface:
   display_name: "StrongVPN Node Optimizer"
-  short_description: "通过接口下载 WireGuard 节点配置，或测速并切换 StrongVPN 节点"
-  default_prompt: "使用 $strongvpn-node-optimizer 查看并下载指定地区的 StrongVPN 节点配置。"
+  short_description: "查看与修复 StrongVPN 节点，导出现有配置并维护 Clash/VPS 私人订阅"
+  default_prompt: "使用 $strongvpn-node-optimizer 检查我的 StrongVPN 节点和订阅；按请求范围处理，保留现有分流与订阅链接。"

@@ -1,6 +1,6 @@
 # StrongVPN 节点下载、转换与 VPS 订阅更新
 
-适用：在当前项目继续维护用户的 StrongVPN → WireGuard `.conf` → Mihomo/Clash YAML → 阿里云 HTTPS 私人订阅。最后核对：2026-10-15。本文记录可复用流程和已验证的部署结构；账号、私钥、令牌与完整订阅 URL 留在 Git 外。
+适用：在当前项目继续维护用户的 StrongVPN → WireGuard `.conf` → Mihomo/Clash YAML → 阿里云 HTTPS 私人订阅。最后核对：2026-10-16。本文记录可复用流程和已验证的部署结构；账号、私钥、令牌与完整订阅 URL 留在 Git 外。
 
 ## 下次如何触发
 
@@ -26,6 +26,7 @@
 | 当前统一清单镜像 | `deployment-20261015/unified-manifest.json`；含 `host/path/url/file/sha256` |
 | 当前本地统一文件 | `subscriptions/unified-2026-10-15/strongvpn.yaml` |
 | 当前用户链接说明 | `subscriptions/unified-2026-10-15/订阅链接.md` |
+| 单节点更新后的原生配置覆盖表 | `subscriptions/unified-2026-10-15/node-sources.json`，若存在；只记录最新替换 `.conf` 路径及哈希 |
 | 原始导出及测试报告 | `exports/all-nodes-2026-10-15T07-04-02-021Z/` 中 `.conf`、`export_report.json`、`existing-node-validation.json` |
 | Clash 安装位置 | `/Applications/Clash Verge.app` |
 | Clash 数据目录 | `~/Library/Application Support/io.github.clash-verge-rev.clash-verge-rev/` |
@@ -51,6 +52,8 @@
 4. 备份当前本地与服务器已发布文件，记录其 SHA-256。目录 `0700`，文件、报告、ZIP 内文件 `0600`。
 5. Node.js 20+ 用于下载；转换/清单可用本机 `uv run --with pyyaml --no-project python`。复用现有 Mihomo，不为配置更新安装或升级客户端，不启动全量构建。
 
+需要重新生成并发布时，先对现有订阅做 [只读 HTTPS 预检](local_tools.md#只读-https-预检与发布后验收)，确认输入/线上哈希、证书信任通道及既有 VPS 身份可用，再注册新密钥。若只要求复制 `.conf` 或维护 Skill，不建立远端临时授权。历史调查/运行记录链接属于当前工作区的证据，安装到其他环境后缺失时不阻塞执行；操作合同仍以本 Skill、私人清单和实时状态为准。
+
 ```zsh
 strongvpn_skill="$HOME/.codex/skills/strongvpn-node-optimizer"
 strongvpn_run_dir="$HOME/.local/share/strongvpn-node-optimizer/runs/$(date -u +%Y%m%dT%H%M%SZ)"
@@ -59,7 +62,19 @@ mkdir -p "$strongvpn_run_dir"
 node "$strongvpn_skill/scripts/strongvpn-node-optimizer.mjs" servers --json > "$strongvpn_run_dir/catalog.json"
 ```
 
-目录 GET 会读取实时官方节点，允许备用来源。继承当前订阅的节点选择，不因目录有更多节点就默认重新生成全部目录。某个 ID 消失时记录缺失，结合用户指定地区处理，不猜测 IP。
+目录读取先 GET 当前下载网页，再跟随页面实际 module import，允许备用来源但不合并镜像。**网页真实下拉框的可选项决定候选边界**：排除占位项、禁用/隐藏选项和禁用组。每次核对页面结构；页面/目录改变、解析集合有疑问或要全量生成时，读取真实 `select#serverSelect` 的 option values，与 CLI ID 集合逐项对照，不一致先停止生成。相关公开证据见[下拉框与请求核对](../../../../contexts/survey_sessions/2026_10_15_strongvpn_dropdown_audit.md)。
+
+本次目标是下拉框可选集合与用户指定节点/地区的交集；普通订阅维护继承当前统一订阅的选定集合，不因目录有更多节点就默认重新生成全部目录。某个 ID 消失时记录缺失，结合用户指定地区处理，不猜测 IP。记录可选数、目标数、尝试数、生成成功数和最终连接通过数，避免把上次的“53 个选项、47 次生成成功、12 份通过验证”当成同一个数量。
+
+### 单个节点故障与条件重建
+
+用户要求“先看节点是否失效，必要时下载新密钥并更新订阅”时，先对该节点的旧配置测试两个固定 HTTPS 目标，并用一个其他节点作对照。目标失败且对照正常，可以执行用户已授权的单节点重新生成；超时不能证明由多设备共用或密钥撤销导致。目标仍可用时先查设备共用/客户端状态，不无故重新注册。
+
+只对明确的目标 ID 提交一次生成 POST。新的配置通过隔离测试后，从**当前统一 YAML**复制完整候选，仅替换这个节点的连接字段，保留名称、组引用、其他节点、四个 MetaCubeX provider 与 UU 例外。逐字段断言其他节点和非 proxies 顶层配置不变。订阅 URL 保持原值，按正常原子发布与客户端刷新流程完成。
+
+单节点续建后，原全量导出中的同名 `.conf` 可能已是旧密钥。将新 `.conf` 的私人路径/哈希写入 `subscriptions/unified-2026-10-15/node-sources.json` 的 `overrides[节点ID]`；后续交付原生文件先查此表，再查原始导出，最终都必须与当前 YAML 的密钥及连接字段匹配。不能凭旧导出文件名覆盖回已更新节点。表中没有的节点继续沿用原始导出；当前 YAML 及线上哈希仍是订阅内容真源。
+
+换密钥不会为共用订阅产生每设备独立身份；所有设备刷新同一订阅后仍共用对应条目。验证后提示其他设备刷新原链接，并在同时使用时选择不同节点。2026-10-16 新加坡 `str-sin303` 已按本流程单独更新，其他 11 个节点字段保持原值；记录见[新加坡修复](../../../../contexts/daily_records/2026_10_16_strongvpn_singapore_repair.md)。
 
 ## 3. 下载节点：仅在要求重新下载时执行
 
@@ -103,9 +118,58 @@ node "$strongvpn_skill/scripts/strongvpn-node-optimizer.mjs" download str-sin303
 
 每个出站使用 `type: wireguard`、`udp: true`。不要丢弃私钥、DNS、隧道地址或返回的路由范围，不重新生成 Endpoint 端口。多 Peer、同地址族多个隧道地址、未知扩展或与当前解析器不兼容的字段，需要核对格式后再转换，不能静默取第一项或忽略。
 
-整体配置沿用当前已验证设置：`mixed-port: 7897`、`allow-lan: false`、`mode: rule`、`log-level: warning`、全局 `ipv6: true`；一个名为 `StrongVPN` 的 `select` 组，包含本次保留的全部代理，规则为 `MATCH,StrongVPN`。不要添加自动测速、自动回退、四设备分组，或顺带开启系统代理/TUN。若用户选定节点仍通过测试，保留选择；否则选择本次通过且延迟较低的节点，并说明变化。
+整体配置沿用当前已验证设置：`mixed-port: 7897`、`allow-lan: false`、`mode: rule`、`log-level: warning`、全局 `ipv6: true`；一个名为 `StrongVPN` 的 `select` 组，包含本次保留的全部代理。用户已选择 **MetaCubeX 国内直连、其余 StrongVPN**，后续更换节点必须保留下面的 `rule-providers` 和有序 `rules`，并保留 UU 远程的产品例外，不能退回只有 `MATCH,StrongVPN`。不要添加自动测速、自动回退、四设备分组，或顺带开启系统代理/TUN。若用户选定节点仍通过测试，保留选择；否则选择本次通过且延迟较低的节点，并说明变化。
 
-输出候选 `strongvpn.yaml`，核对节点 ID、名称和私钥无意外重复、组引用闭合；生成过程仅输出安全摘要，不打印 YAML 正文。目录元数据用于名称，**连接字段以 `.conf` 为准**，不能把目录刚变化的 IP 强行覆盖旧配置。
+输出候选 `strongvpn.yaml`，核对节点 ID、名称和私钥无意外重复、组引用闭合；生成过程仅输出安全摘要，不打印 YAML 正文。目录元数据用于名称，**连接字段以本次 `.conf` 为准**，不能把目录刚变化的 IP 强行覆盖旧配置。单节点替换用 [prepare-replacement](local_tools.md#单节点替换候选)，提供已有新配置与当前 YAML；工具保留全部非目标设置，不代替网络验证。原生文件交付用 [export-conf](local_tools.md#导出当前节点的原生-conf)，优先核对更新后的源覆盖表。
+
+### 固定分流策略：MetaCubeX
+
+规则源采用 [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat) 的 `meta` 分支。仅使用国内和私网的域名/IP 四个合集，不叠加其他重复的国内合集，也不加入广告拦截或按服务分组。香港、台湾等沿用该数据源分类，不另外扩展“国内”。
+
+四项均为 `type: http`、`format: mrs`、`interval: 86400`，下载出口指定 `proxy: StrongVPN`，避免依赖国内网络直连 GitHub。路径必须相对 Mihomo 数据目录，不能写本机绝对路径。
+
+| provider 名称 | behavior | URL 后缀（前缀统一为 `https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/`） | path |
+| --- | --- | --- | --- |
+| `private-domain` | `domain` | `geosite/private.mrs` | `./ruleset/private-domain.mrs` |
+| `private-ip` | `ipcidr` | `geoip/private.mrs` | `./ruleset/private-ip.mrs` |
+| `cn-domain` | `domain` | `geosite/cn.mrs` | `./ruleset/cn-domain.mrs` |
+| `cn-ip` | `ipcidr` | `geoip/cn.mrs` | `./ruleset/cn-ip.mrs` |
+
+```yaml
+rules:
+  - RULE-SET,private-domain,DIRECT
+  - RULE-SET,private-ip,DIRECT
+  - RULE-SET,cn-domain,DIRECT
+  - RULE-SET,cn-ip,DIRECT
+  - MATCH,StrongVPN
+```
+
+IP 规则不加 `no-resolve`，让未命中域名合集的域名也能解析后按私网/国内 IP 直连。最终未命中时进入手动选择的 `StrongVPN` 节点。保留现有 DNS 配置，不因这次规则变更顺带启用 DNS 劫持。
+
+必须在 Clash 的“规则”模式使用上述策略；“全局”模式会绕过分流。规则拉取每 86400 秒更新，远程节点订阅仍按客户端现有间隔更新，二者独立。规则分类依赖上游数据，不承诺所有国内服务永远都被正确识别。技术依据：[Mihomo rule-providers](https://wiki.metacubex.one/config/rule-providers/)、[路由规则](https://wiki.metacubex.one/config/rules/)。
+
+### UU 远程专属直连例外
+
+用户额外要求 UU 远程直连。先于上述国内规则放置下面的产品规则，保留 `find-process-mode: strict`。本机 `/Applications/UURemote.app` 的 bundle ID 是 `com.netease.uuremote`；实际运行的主程序及三个辅助进程如下，不要把 UU 加速器或所有网易产品泛化为同一例外。
+
+```yaml
+find-process-mode: strict
+rules:
+  - PROCESS-NAME,UURemote,DIRECT
+  - PROCESS-NAME,UURemoteService,DIRECT
+  - PROCESS-NAME,UURemoteDaemon,DIRECT
+  - PROCESS-NAME,UURemoteServer,DIRECT
+  - DOMAIN-SUFFIX,nrd.nie.163.com,DIRECT
+  - DOMAIN-SUFFIX,uuyc.163.com,DIRECT
+  - DOMAIN-SUFFIX,uuyc.webapp.163.com,DIRECT
+  # 接续四条 RULE-SET 和 MATCH,StrongVPN，不能只保留本段。
+```
+
+[网易官方入口](https://uu.163.com/)将 UU 远程链接到 `uuyc.163.com`；另外两个产品域名在本机程序二进制中核对。MetaCubeX 国内域名合集目前已涵盖 `163.com`，显式产品规则用于固定用户例外；进程识别成功时，进程规则可覆盖 UU 发往数值 IP、境外 P2P/中继地址的流量。不得据此开放整个 `netease.com`、随意猜测端口或放行所有 UDP。
+
+进程匹配只适用于本机可识别的来源进程，不能识别从另一台设备转发来的应用身份；上述进程名核验范围为 macOS，Windows/移动端仍按产品域名及国内 IP 判断，不能宣称已验证全平台 UU 进程。依据：[Mihomo 进程规则](https://wiki.metacubex.one/config/rules/#process-name)、[进程匹配模式](https://wiki.metacubex.one/config/general/#进程匹配模式)。
+
+验收时保持真实 UU 进程和远控会话不受打断：检查已加载的进程/域名规则与优先级，定向请求产品域名并从 API 确认 `DomainSuffix / DIRECT`；可用私有目录中命名为 `UURemote` 的系统 curl 副本发送受控请求，验证 `ProcessName / UURemote / DIRECT`，并明确其为规则机制测试，不能代称真实远控端到端成功。真实 UU 新连接尚未出现时如实记录，不擅自建立远控会话。 2026-10-15 本机 Mihomo 1.19.32 的 SOCKS 受控测试曾返回空进程信息，故必须检查实际 `ProcessName` 命中，不能把已加载规则等同于所有 UU 数值 IP 已直连；不能仅凭空进程信息归因管理员权限或要求启用 TUN。
 
 ## 5. 配置检查和实际连通验证
 
@@ -117,8 +181,10 @@ node "$strongvpn_skill/scripts/strongvpn-node-optimizer.mjs" download str-sin303
 
 2. `-t` 仅证明配置可解析。连通测试优先使用隔离的用户态 Mihomo 实例，或在有回退备份时通过既有 Clash 内核测试；不要为测试启用系统代理/TUN，不修改默认路由，不关闭 REDpass。隔离实例使用**测试副本**：将 `mixed-port` 改为已核对未占用的独立端口、仅监听 loopback、独立 controller Unix socket/私有 secret 与数据目录、`tun.enable: false`。不能原样并起占用 7897 的配置，也不能把绑定端口失败算成节点超时。记录自己的 PID，结束后只清理本次实例；测试用端口/控制字段不写回正式发布 YAML。
 3. 通过 Mihomo API 对**具体 WireGuard 节点**调用 `/proxies/<URL编码的完整节点名>/delay`，不要测可能回退的代理组。分别请求 `https://1.1.1.1/cdn-cgi/trace` 与 `https://www.gstatic.com/generate_204`，每目标超时 8000 ms，节点并发最多 2。
-4. 两个目标都成功才加入发布列表；超时记为“本次未通过”，不能直接定性为过期。报告保存每目标结果、延迟和配置哈希，保留原配置不删。测试会使用该客户端身份，其他设备在线时可能受到影响，不无限重复测速。
-5. 移除未通过节点及相应组引用，再次 `-t`。如一个都未通过，不发布空订阅，保留故障报告并说明旧服务端密钥是否可能已受本次生成影响。
+4. 本次新生成配置在两个目标都成功后才可发布；超时记为“本次未通过”，不能直接定性为过期。报告保存每目标结果、延迟和配置哈希，保留原配置不删。单节点维修只测目标及必要对照，不为刷新界面或格式检查遍历全部节点。测试会使用该客户端身份，其他设备在线时可能受到影响，不无限重复测速。
+5. 只有用户本次授权包含全量清理时，才移除已测试且未通过的节点及组引用，再次 `-t`；未测试不等于失败。单节点新配置未通过就停止发布，不顺带删除其他节点。全量验证一个都未通过时不发布空订阅；保留报告，说明文件回滚不能恢复提供方已淘汰的身份。
+
+规则变更还要单独验收分流：隔离实例用全新数据目录进行一次冷缓存启动，确认四个 provider 实际下载、`ruleCount > 0`；不能把 `-t` 已填充的目录当冷缓存。通过实际 SOCKS 请求国内域名、国内 IP 和海外 HTTPS 目标，同时从 `/connections` 捕获对应 `rule`、`rulePayload` 与 `chains`，核对国内为 `DIRECT`，海外包含 `StrongVPN` 及所选节点。`/delay` 指定出站会绕过分流，不能作为规则验收。发布后本机实际运行内核重复定向验收。
 
 当前 Clash 内核 API 走 Unix socket。进程内读取 `clash-verge.yaml` 的 `external-controller-unix` 和 `secret`；HTTP 头使用 `Authorization: Bearer ...`。socket 路径会随运行变化，不写死 `/var/folders/...`，不把 secret 打进日志或命令参数。只读验证可以用 CLI；需要应用界面操作时使用可用的原生应用工具。
 
@@ -155,6 +221,8 @@ aliyun ecs DescribeInstances --profile beamjoin-deploy --RegionId cn-hongkong \
 
 本机候选、VPS 下载内容与客户端缓存必须能用哈希闭环。发布后更新私人主清单 `subscription-manifest.json` 的 `subscriptions[0].file/sha256`，保留 `mode=unified` 和单项数组；更新镜像 `unified-manifest.json` 顶层的 `file/sha256`。二者对应的 `url/path` 保持原值，不能把数组主清单改成扁平对象或恢复四设备结构；先写新文件再原子替换，避免更新半份清单。同时更新本地 `strongvpn.yaml`、私人链接说明、ZIP 和本次脱敏结果，清楚标记当前发布源。
 
+公网验收保留 TLS 验证。若本机 Python/OpenSSL 报 `unable to get local issuer certificate`，不能把它当作订阅文件故障，也不能使用 `verify=False` 或 `curl -k`。macOS 可用系统 `/usr/bin/curl` 的原生证书信任通道，核对 HTTPS 状态、`ssl_verify_result=0` 和下载哈希；秘密 URL 通过 `--config -` 标准输入提供，响应写入 0600 私人文件，不进进程参数/日志。验收失败先按下述回滚流程保护现网，修复验收通道后复用已验证候选，不为重试发布重新生成密钥。
+
 ### 只有改路由或轮换 URL 时才处理 Caddy
 
 这不是正常文件更新步骤。当前主 Caddyfile 在 origin 站点内导入 `/etc/caddy/shared/strongvpn/routes.inc`，宿主目录 `/etc/forgepane/caddy` 已只读挂载到容器。
@@ -168,8 +236,10 @@ aliyun ecs DescribeInstances --profile beamjoin-deploy --RegionId cn-hongkong \
 ## 8. 刷新客户端与收尾
 
 1. 当前本机远程订阅名为 `StrongVPN · 12 节点 · 统一订阅`。节点数变化时相应改名；保留一个统一远程条目，不重新导入四份。
-2. 正常 URL 不变，点击该订阅“刷新”，必要时“重新激活订阅”。保留客户端现有系统代理、TUN 和更新间隔设置；本次基线自动更新为 1440 分钟，系统代理/TUN 关闭。
+2. 正常 URL 不变，点击该订阅“刷新”，必要时“重新激活订阅”。保留客户端现有系统代理、TUN 和更新间隔设置；2026-10-15/16 的历史基线为自动更新 1440 分钟、系统代理/TUN 关闭，但每次先读实时值，不能为了对齐历史而关闭用户已开启的开关。
 3. 通过真实代理页和内核 API核对节点数、组引用与选择。更新前保存的节点若仍在通过名单中，通过界面或 `PUT /proxies/StrongVPN`（JSON `name` 字段）恢复它，并再次读取 `now` 确认；否则选择本次通过的节点并说明变化。客户端缓存配置哈希应与线上内容一致；用现有 SOCKS 端口发一次 HTTPS 请求，确认所选节点实际转发成功。UI 仅出现卡片或内核 `-t` 成功不等于已连通。
+
+   遇到 UI 仍显示旧 `Timeout` 时，先对比本地源/VPS/客户端缓存哈希、当前运行文件的目标密钥、API `alive/history` 与真实转发结果。若后台正常，不为界面旧显示再注册密钥；可点击该节点的延迟数值单独重测，必要时重新加载应用 WebView 清除显示缓存，无需重启内核或真实 UU/REDpass。不同测速 URL 的历史可能不同，仍失败时核对具体目标，不直接认定显示缓存。原生菜单点击后以 fresh AX 确认是否真正执行，最终记录实际显示或明确未完成的 UI 验收。
 4. 清理本次测试进程和远端暂存副本。临时 SSH 授权按**完整公钥**精确删除，核对其他授权行和 `0600` 权限保留，再移除本次本地私钥。不按通用备注批量清理其他密钥。
 5. 本次结果写入 `contexts/daily_records/`：是否新生成、目标/成功/保留/失败数、生成失败是否结果未知、发布前后哈希、HTTP 与客户端实测、URL 是否保留、回滚/清理结果。只记录非秘密摘要。
 6. 向用户报告实际结果和当前配置/链接说明文件的绝对路径；不承诺节点长期有效或所有应用均可访问。
@@ -181,4 +251,4 @@ aliyun ecs DescribeInstances --profile beamjoin-deploy --RegionId cn-hongkong \
 - 统一文件已通过 Mihomo 配置检查、VPS GET/HEAD 与哈希校验、Clash 12 节点载入、SOCKS HTTPS 200；没有更改系统代理/TUN。
 - 完整执行记录：[2026-10-15 节点导出与订阅部署](../../../../contexts/daily_records/2026_10_15_strongvpn_node_export.md)。历史日期、节点数量与服务版本是基线，不能替代后续实时核对。
 
-本文给出操作命令、字段映射和验收合同；当前没有一个叫 `publish`、`convert` 或 `update-subscription` 的现成 CLI 子命令。不要假设它们存在；下载使用已经实现的 `servers/download`，转换和发布按本文在受控脚本中完成。
+本文给出操作命令、字段映射和验收合同；Node 入口没有 `publish`、`convert` 或 `update-subscription` 子命令。下载使用已经实现的 `servers/download`；本地单节点候选、既有 `.conf` 导出与只读 HTTPS 验收使用独立的 [Python 工具](local_tools.md)。远端原子发布、回滚、清单提交和客户端刷新仍按本文操作，不能假设本地工具代为完成。

@@ -77,6 +77,23 @@ export const servers = {
   'USA': [{ value: 'str-lax311', label: 'Los Angeles, USA' }],
 };`;
 
+const generatorPage = (specifier = './servers.js') => `
+<select id="serverSelect"></select>
+<script type="module">import { servers, serverMapping } from '${specifier}';</script>`;
+
+async function catalogFromPage(page, source = fixture) {
+  const calls = [];
+  const result = await fetchServerCatalog({
+    baseUrls: ['https://primary.test/share/strong-wg'],
+    fetchImpl: async (url, options) => {
+      calls.push(String(url));
+      assert.equal(options.redirect, 'error');
+      return new Response(calls.length === 1 ? page : source, { status: 200 });
+    },
+  });
+  return { result, calls };
+}
+
 test('parses StrongVPN catalog without executing remote code', () => {
   const parsed = parseServersModule(fixture);
 
@@ -125,12 +142,90 @@ test('ignores servers that are commented out in the official catalog', () => {
   assert.deepEqual(parseServersModule(withDisabledServer).map(({ id }) => id), ['str-lax311']);
 });
 
+test('ignores inline and block comments without deleting comment markers inside strings', () => {
+  const source = `
+    export const serverMapping = {
+      'str-old001': { ip: atob('MTkyLjAuMi4x') },
+      'str-old002': { ip: atob('MTkyLjAuMi4y') },
+      'str-live001': { ip: atob('MTkyLjAuMi4z') },
+    };
+    export const servers = { 'Test': [
+      /* { value: 'str-old001', label: 'Old block entry' }, */
+      { value: 'str-live001', label: 'https://example.test/a/*b*/' }, // { value: 'str-old002', label: 'Old inline entry' }
+    ] };
+  `;
+  const parsed = parseServersModule(source);
+  assert.deepEqual(parsed.map(({ id }) => id), ['str-live001']);
+  assert.equal(parsed[0].label, 'https://example.test/a/*b*/');
+});
+
+test('rejects unterminated block comments instead of returning a partial catalog', () => {
+  assert.throws(() => parseServersModule(`${fixture}\n/* old catalog`), /unterminated.*comment/i);
+});
+
+test('does not add mapping-only servers and rejects unsafe selectable IDs', () => {
+  const mappingOnly = fixture.replace("'USA': [{ value: 'str-lax311', label: 'Los Angeles, USA' }],", '');
+  assert.deepEqual(parseServersModule(mappingOnly).map(({ id }) => id), ['str-sin303', 'str-nrt301']);
+  assert.throws(() => parseServersModule(fixture.replaceAll('str-lax311', '../str-lax311')), /ID shape/i);
+});
+
+test('fetches the current page and follows its actual named import with version query', async () => {
+  const page = generatorPage('./current-catalog.js?v=20261015');
+  const { result, calls } = await catalogFromPage(page);
+  assert.deepEqual(calls, [
+    'https://primary.test/share/strong-wg/strong-wg.html',
+    'https://primary.test/share/strong-wg/current-catalog.js?v=20261015',
+  ]);
+  assert.equal(result.pageUrl, calls[0]);
+  assert.equal(result.catalogUrl, calls[1]);
+  assert.equal(result.servers.length, 3);
+});
+
+test('only follows real module imports, ignoring imports inside comments and strings', async () => {
+  const page = `<select id='serverSelect'></select>
+    <!-- <script type="module">import { servers, serverMapping } from './old-html.js';</script> -->
+    <script>const irrelevant = "import { servers, serverMapping } from './classic.js'";</script>
+    <script type='module'>
+      // import { servers, serverMapping } from './old-line.js';
+      /* import { servers, serverMapping } from './old-block.js'; */
+      const note = "import { servers, serverMapping } from './inside-string.js'";
+      import { serverMapping, /* current */ servers, } from './live.js?v=2';
+    </script>`;
+  const { calls } = await catalogFromPage(page);
+  assert.equal(calls[1], 'https://primary.test/share/strong-wg/live.js?v=2');
+});
+
+test('fails closed on cross-origin imports, missing select, and ambiguous or changed page formats', async () => {
+  const pages = [
+    generatorPage('https://other.test/catalog.js'),
+    generatorPage('http://primary.test/catalog.js'),
+    generatorPage('servers.js'),
+    generatorPage().replace('<select id="serverSelect"></select>', ''),
+    generatorPage().replace('<select id="serverSelect">', '<select id="serverSelect" disabled>'),
+    generatorPage().replace('type="module"', 'type="text/javascript"'),
+    `${generatorPage()}<script type="module">import { servers, serverMapping } from './other.js';</script>`,
+    `${generatorPage()}<script type="module">import { servers as otherServers, serverMapping as otherMapping } from './other.js';</script>`,
+    generatorPage().replace('servers, serverMapping', 'servers, serverMapping, extra'),
+    `${generatorPage()}<base href="/different/">`,
+    '<select id="serverSelect"></select><script type="module" src="./app.js"></script>',
+    generatorPage().replace("import {", "/* import {"),
+  ];
+  for (const page of pages) {
+    let calls = 0;
+    await assert.rejects(fetchServerCatalog({
+      baseUrls: ['https://primary.test/share/strong-wg'],
+      fetchImpl: async () => { calls += 1; return new Response(page); },
+    }), /catalog unavailable/i);
+    assert.equal(calls, 1, 'must not guess or fetch a data module after page validation fails');
+  }
+});
+
 test('falls back to the secondary catalog source', async () => {
   const calls = [];
   const fetchImpl = async (url) => {
     calls.push(String(url));
     if (String(url).includes('strongvpn.asia')) throw new Error('primary unavailable');
-    return new Response(fixture, { status: 200 });
+    return new Response(String(url).endsWith('/strong-wg.html') ? generatorPage('./mirror.js?rev=2') : fixture, { status: 200 });
   };
 
   const result = await fetchServerCatalog({
@@ -143,55 +238,77 @@ test('falls back to the secondary catalog source', async () => {
 
   assert.equal(result.baseUrl, 'https://tools.strongtech.org/share/strong-wg');
   assert.equal(result.servers.length, 3);
-  assert.equal(calls.length, 2);
+  assert.deepEqual(calls, [
+    'https://tools.strongvpn.asia/share/strong-wg/strong-wg.html',
+    'https://tools.strongtech.org/share/strong-wg/strong-wg.html',
+    'https://tools.strongtech.org/share/strong-wg/mirror.js?rev=2',
+  ]);
 });
 
-test('builds a full-tunnel config and falls back between generator APIs', async () => {
-  const fetchImpl = async (url, options) => {
-    if (String(url).includes('strongvpn.asia')) throw new Error('primary unavailable');
-    assert.equal(options.method, 'POST');
-    assert.equal(new URL(url).pathname, '/wg-generate');
-    return Response.json({
-      success: true,
-      config: {
-        Interface: { Address: '10.0.0.2/32', DNS: ['1.1.1.1', '1.0.0.1'] },
-        Peer: { PublicKey: 'peer-public-key', AllowedIPs: ['0.0.0.0/0'] },
-      },
-    });
-  };
+const generatorKeys = {
+  privateKey: Buffer.alloc(32, 1).toString('base64'),
+  publicKey: Buffer.alloc(32, 2).toString('base64'),
+};
+const generatorResponse = () => ({
+  success: true,
+  config: {
+    Interface: { Address: '10.0.0.2/32', DNS: ['1.1.1.1', '1.0.0.1'] },
+    Peer: { PublicKey: Buffer.alloc(32, 7).toString('base64'), AllowedIPs: ['0.0.0.0/0'] },
+  },
+});
+const generationOptions = () => ({
+  baseUrls: ['https://tools.strongtech.org/share/strong-wg', 'https://tools.strongvpn.asia/share/strong-wg'],
+  server: { id: 'str-sin303', ip: '2001:db8::10', label: 'Singapore', country: 'Singapore' },
+  credentials: { username: 'a000000', password: '0123456789' },
+  keyPair: generatorKeys,
+  randomPort: () => 55001,
+});
 
+test('benchmark generation shares validated routes and IPv6 formatting with downloads', async () => {
+  let calls = 0;
   const result = await generateConfig({
-    baseUrls: [
-      'https://tools.strongvpn.asia/share/strong-wg',
-      'https://tools.strongtech.org/share/strong-wg',
-    ],
-    server: { id: 'str-sin303', ip: '203.0.113.10', label: 'Singapore', country: 'Singapore' },
-    credentials: { username: 'a000000', password: '0123456789' },
-    keyPair: { privateKey: 'private-key', publicKey: 'public-key' },
-    fetchImpl,
-    randomPort: () => 55001,
+    ...generationOptions(),
+    fetchImpl: async (url, options) => {
+      calls += 1;
+      assert.equal(url, 'https://tools.strongtech.org/wg-generate');
+      assert.equal(options.method, 'POST');
+      assert.equal(options.redirect, 'error');
+      assert.ok(!options.body.includes(generatorKeys.privateKey));
+      return Response.json(generatorResponse());
+    },
   });
-
-  assert.match(result.config, /AllowedIPs = 0\.0\.0\.0\/0, ::\/0/);
-  assert.match(result.config, /Endpoint = 203\.0\.113\.10:55001/);
+  assert.equal(calls, 1);
+  assert.match(result.config, /^AllowedIPs = 0\.0\.0\.0\/0$/m);
+  assert.match(result.config, /Endpoint = \[2001:db8::10\]:55001/);
   assert.match(result.config, /DNS = 1\.1\.1\.1, 1\.0\.0\.1/);
-  const redacted = JSON.stringify(redactSensitive(result, ['private-key', '0123456789']));
-  assert.equal(redacted.includes('private-key'), false);
+  const redacted = JSON.stringify(redactSensitive(result, [generatorKeys.privateKey, '0123456789']));
+  assert.equal(redacted.includes(generatorKeys.privateKey), false);
   assert.equal(redacted.includes('0123456789'), false);
 });
 
-test('rejects malformed generator API responses', async () => {
-  await assert.rejects(
-    () => generateConfig({
-      baseUrls: ['https://example.test'],
-      server: { id: 'str-sin303', ip: '203.0.113.10' },
-      credentials: { username: 'a000000', password: '0123456789' },
-      keyPair: { privateKey: 'private-key', publicKey: 'public-key' },
-      fetchImpl: async () => Response.json({ success: true, config: {} }),
-      randomPort: () => 55001,
-    }),
-    /schema/i,
-  );
+test('benchmark generation never retries mirrors or echoes uncertain errors', async () => {
+  for (const failure of ['timeout', 'http', 'schema']) {
+    let calls = 0;
+    await assert.rejects(generateConfig({
+      ...generationOptions(),
+      fetchImpl: async () => {
+        calls += 1;
+        if (failure === 'timeout') throw new Error('private response content');
+        if (failure === 'http') return new Response('private response content', { status: 503 });
+        return Response.json({ success: true, config: {} });
+      },
+    }), (error) => error.stopBenchmark === true && !error.message.includes('private response content'));
+    assert.equal(calls, 1);
+  }
+});
+
+test('invalid benchmark endpoint is rejected before registration', async () => {
+  let calls = 0;
+  await assert.rejects(generateConfig({
+    ...generationOptions(), randomPort: () => 0,
+    fetchImpl: async () => { calls += 1; return Response.json(generatorResponse()); },
+  }), /port/i);
+  assert.equal(calls, 0);
 });
 
 test('reads credentials from Keychain without exposing security stderr', async () => {
