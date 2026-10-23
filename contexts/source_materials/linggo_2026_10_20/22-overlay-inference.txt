@@ -1,0 +1,43 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - status:
+      - generic: 板材面推导
+      - generic: 当前未选中型材，已按整个画布中的 16 根型材推导候选面。 已识别 12 个面，6 个因重叠冲突已隐藏，剩余 6 个可放置面（覆盖），点击透明预览即可放置板材。
+      - generic: 6 面
+      - button "退出面板推导"
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - generic: 当前未选中型材，已按整个画布中的 16 根型材推导候选面。 已生成 6 个面板预览，已隐藏 6 个冲突面，请点击要放置的面（覆盖）
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert

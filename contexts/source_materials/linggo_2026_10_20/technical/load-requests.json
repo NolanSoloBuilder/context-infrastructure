@@ -1,0 +1,242 @@
+[
+  {
+    "id": "8002DDC50D31EC1D3A26A086B57D7BB2",
+    "type": "Document",
+    "method": "GET",
+    "url": "https://linggo.online/designer?canvasId=canvas_1792489292539_3c2645"
+  },
+  {
+    "id": "93732.55",
+    "type": "Stylesheet",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/17x0maqx-j1rl.css"
+  },
+  {
+    "id": "93732.57",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0yb2wil16uz6h.js"
+  },
+  {
+    "id": "93732.58",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/02_219x1_anxz.js"
+  },
+  {
+    "id": "93732.59",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0manft0ycrrr3.js"
+  },
+  {
+    "id": "93732.60",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0vl.za9_nn7i_.js"
+  },
+  {
+    "id": "93732.61",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/054xudjab.nfu.js"
+  },
+  {
+    "id": "93732.62",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/turbopack-0ormtkfxq8kxp.js"
+  },
+  {
+    "id": "93732.63",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0auqg655-nro8.js"
+  },
+  {
+    "id": "93732.64",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0jmrt-hnip1~c.js"
+  },
+  {
+    "id": "93732.65",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/01xlw8hd842-c.js"
+  },
+  {
+    "id": "93732.66",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0d3shmwh5_nmn.js"
+  },
+  {
+    "id": "93732.67",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0p0mczu27ys1g.js"
+  },
+  {
+    "id": "93732.82",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/auth/get-session"
+  },
+  {
+    "id": "93732.83",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/account/access?includeDesignerCanvasQuota=1"
+  },
+  {
+    "id": "93732.84",
+    "type": "Fetch",
+    "method": "POST",
+    "url": "https://linggo.online/api/analytics/event"
+  },
+  {
+    "id": "93732.85",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/designer/announcement"
+  },
+  {
+    "id": "93732.86",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0yzp6u0zi2nah.js"
+  },
+  {
+    "id": "93732.87",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/10kymcj08v_ix.js"
+  },
+  {
+    "id": "93732.88",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0~hzjnl1w-~xm.js"
+  },
+  {
+    "id": "93732.89",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/01dzh~xamok1h.js"
+  },
+  {
+    "id": "93732.90",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0hznvc8586q-h.js"
+  },
+  {
+    "id": "93732.91",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0~yqa7povpu9..js"
+  },
+  {
+    "id": "93732.92",
+    "type": "Script",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/144mpmm-~uams.js"
+  },
+  {
+    "id": "93732.93",
+    "type": "Stylesheet",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0bjj4dwok~n73.css"
+  },
+  {
+    "id": "93732.94",
+    "type": "Stylesheet",
+    "method": "GET",
+    "url": "https://linggo.online/_next/static/chunks/0cyxnag.u~lnt.css"
+  },
+  {
+    "id": "93732.95",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/account/access"
+  },
+  {
+    "id": "93732.96",
+    "type": "Image",
+    "method": "GET",
+    "url": "https://linggo.online/api/designer/profiles/2020/preview?v=profile%2Fprofile-2020%2Fprofile-section-v4-c89ec8b799e21eba37fd27c8.svg"
+  },
+  {
+    "id": "93732.98",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/custom-aabb"
+  },
+  {
+    "id": "93732.99",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/designer/assets/catalog/profile-2020/2020.stl?v=b8b3e8543fc06af13a0551c170164d0ad9c84a9b9af5cae0308658e49269716a"
+  },
+  {
+    "id": "93732.100",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/designer/canvases?canvasId=canvas_1792489292539_3c2645"
+  },
+  {
+    "id": "93732.101",
+    "type": "Other",
+    "method": "GET",
+    "url": "https://linggo.online/icon?3090bb6f7ab240ed"
+  },
+  {
+    "id": "93732.102",
+    "type": "Other",
+    "method": "GET",
+    "url": "https://linggo.online/icon?3090bb6f7ab240ed"
+  },
+  {
+    "id": "93732.103",
+    "type": "Other",
+    "method": "GET",
+    "url": "https://linggo.online/icon?3090bb6f7ab240ed"
+  },
+  {
+    "id": "93732.104",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/designer/canvases?limit=100"
+  },
+  {
+    "id": "93732.105",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/designer/assets/catalog/profile-4040/4040.stl?v=5bd9a2dd20d31b04ffaf7e349724108e05a183a545551d6628f74bdc71eca9f1"
+  },
+  {
+    "id": "93732.106",
+    "type": "Fetch",
+    "method": "GET",
+    "url": "https://linggo.online/api/designer/assets/catalog/connector-l-40/ha11-yz-408-4040.obj"
+  },
+  {
+    "id": "93732.107",
+    "type": "Image",
+    "method": "GET",
+    "url": "https://linggo.online/media/public/designer-panel-material-assets/oak_veneer_01/oak_veneer_01_diff_2k.jpg?v=0718c2e1a209afe6"
+  },
+  {
+    "id": "93732.108",
+    "type": "Image",
+    "method": "GET",
+    "url": "https://linggo.online/media/public/designer-panel-material-assets/oak_veneer_01/oak_veneer_01_nor_gl_2k.jpg?v=e74a9d3ddcd86473"
+  },
+  {
+    "id": "93732.109",
+    "type": "Image",
+    "method": "GET",
+    "url": "https://linggo.online/media/public/designer-panel-material-assets/oak_veneer_01/oak_veneer_01_rough_2k.jpg?v=5c81718ee172299c"
+  }
+]

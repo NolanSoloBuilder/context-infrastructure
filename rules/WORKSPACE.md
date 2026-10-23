@@ -13,6 +13,7 @@
 
 - 爱室丽选品 Agent 访谈底稿：`contexts/survey_sessions/2026_09_18_ashley_assortment_discovery.md`（公开背景、待核实流程与决策层级，尚未确认内部 SOP）。
 - 通用调研报告：`contexts/survey_sessions/`
+- 美股图文日报：`contexts/survey_sessions/us_market_daily/YYYY-MM-DD/`（日报、行情快照、曲线与行业图）；生成脚本与现有Python环境：`adhoc_jobs/us_market_daily/`
 - 外部原始资料 / 本地文档归档：`contexts/source_materials/`
 - 绩效 / OKR 历史资料与本人自评语气：[2026 上半年原文档案](../contexts/source_materials/2026_09_16_h1_performance/README.md)（按业务域索引，含 OKR、周报、业务指标、技术方案、4篇历史自评与离线图片）；[本期复盘稿](../contexts/thought_review/2026_09_16_h1_okr_review.md)。
 - 二次理解后的结构化知识卡片：`contexts/knowledge_base/`
@@ -45,6 +46,7 @@
 - `china-metro-typing` → `adhoc_jobs/tw_metro_typing_china/`（基于 tw-metro-typing fork 的中国 41 城地铁站名打字游戏）
 - `china-route-typing` / `打字游中国` → `adhoc_jobs/china_route_typing_prototype/`（独立的全国城市线路打字游戏交互原型；复用地铁项目技术资产，不复用地铁站点数据）
 - `context-vault` / `AI Tool Environment Sync` → `/Users/xuhao/Documents/Basic/context-vault/`（独立 GitHub 仓库；不要放入当前 workspace 的 `adhoc_jobs/`）
+- `claude-code-proxy` → `/Users/xuhao/Documents/Basic/claude-code-proxy/`（内部 Runway API proxy 仓库；凭据治理和发布前检查入口）
 - `skill-scope` / `全局 Skill 范围` → `rules/skills/skill_scope_management.md`（治理规则）；`~/.local/share/agent-skill-scopes/manifest.json`（本机来源、项目链接、备份及审计真源）
 - `Mac磁盘清理` / `storage-analysis` → `adhoc_jobs/storage_analysis_20261009/`（磁盘快照、逐项清理结果、Codex会话候选与执行证据；日常记录在 `contexts/daily_records/2026_10_09_*cleanup*.md`）
 - `xuhao-personal-site` → `adhoc_jobs/xuhao_personal_site/`（徐昊个人网站原型；全屏横向叙事、作品集与近况）

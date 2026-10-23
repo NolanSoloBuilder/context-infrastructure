@@ -1,0 +1,69 @@
+{
+  "report_date_beijing": "2026-10-23",
+  "session": "2026-10-22",
+  "type": "manual_requested_report",
+  "close_crosscheck": {
+    "provider": "Stock Analysis",
+    "values": {
+      "QQQ": 704.47,
+      "QQQM": 290.13,
+      "VOO": 702.3,
+      "BRK-B": 546.97
+    },
+    "result": "matched to cents"
+  },
+  "qqqm_high_discrepancy": {
+    "date": "2026-10-06",
+    "yahoo": 314.11,
+    "stockanalysis": 314.12,
+    "basis_used": "Yahoo for all calculations and curves"
+  },
+  "vix": {
+    "close": 19.03,
+    "previous_close": 16.68,
+    "source": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+  },
+  "treasury": {
+    "asof": "2026-10-22",
+    "two_year_pct": 4.65,
+    "ten_year_pct": 4.96,
+    "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+  },
+  "sgov": {
+    "yield_asof": "2026-10-21",
+    "sec_30_day_yield_pct": 3.76,
+    "close_asof": "2026-10-22",
+    "close": 100.62,
+    "source": "https://www.ishares.com/us/products/314116/sgov"
+  },
+  "events": [
+    {
+      "date": "2026-10-27/2026-10-28",
+      "event": "FOMC",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "Microsoft FY27 Q1",
+      "source": "https://www.microsoft.com/en-us/investor/default"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "Amazon Q3 2026, 17:00 ET call",
+      "source": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "Employment Cost Index, 08:30 ET",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm"
+    }
+  ],
+  "validation": [
+    "21 symbols current asof",
+    "4 main closing prices cross-checked",
+    "VIX official CSV matched",
+    "60 dates exactly aligned",
+    "all 180 historical drawdown points checked against only prior/current data",
+    "normalized endpoints match saved close history"
+  ]
+}

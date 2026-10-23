@@ -119,6 +119,14 @@ ipo_disclosure：上市文件与6月后更新；financials：利润、用户、�
 
 ## IPO与员工流动性边界
 
+### 2026-10-16快手对照更新
+
+[StockAnalysis行情](https://stockanalysis.com/quote/hkg/1024/statistics/)显示10月16日16:08港股报价29.30港元、市值1267.7亿港元，按7.8港元/美元近似折合162.5亿美元。数据页TTM PE约6.93，但预测PE与其他来源差异大，不沿用为可靠2026E。市值历史页面文字日期与报价时间存在一天差异，因此只采用约数。
+
+[快手2026H1官方业绩](https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-second-quarter-and-interim-2026)：半年营收693亿元人民币，同比增长2.4%；期内利润61亿元，去年同期89亿元；调整后净利润73亿元，去年同期102亿元。将半年利润简单乘二不是全年预测。以港元/美元7.8及人民币/美元6.7351作示意换算，市值约1095亿元人民币，对应期内利润年化PE约9倍、调整后年化约7.5倍。两种利润口径不能混用。
+
+盈利停滞或下降与AI投入解释部分低估值；低PE并非无条件低估。比较内容平台时应看广告转化、利润增长持续性和现金流，不能仅凭用户量推定估值。私营平台缺少公开审计和流动性，增长溢价应有盈利质量支持。
+
 既往回购月份不构成未来持续开放的承诺。上市筹备、上市完成、员工可以出售是不同节点；比较立即兑现与等待时，应单列未来无窗口、上市延期、上市后锁定和股价下跌情景，不能只比较两个报价。
 
 [SEC投资者教育资料](https://www.investor.gov/introduction-investing/investing-basics/glossary/initial-public-offerings-lockup-agreements)指出美国IPO锁定协议可覆盖员工，期限因协议而异，多数为180天。不能直接套用于香港上市员工。[港交所2022年咨询文件](https://www.hkex.com.hk/-/media/HKEX-Market/News/Market-Consultations/2016-Present/October-2022-Specialist-Technology-Co/Consultation-Paper/cp202210.pdf)说明实务中承销商常要求部分或全部现有股东作出约六个月的自愿锁定承诺；这是市场实践描述，不是普通员工一律适用的法定期限。具体仍看股权计划、上市安排与签署协议。

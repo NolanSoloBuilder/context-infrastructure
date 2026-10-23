@@ -1,0 +1,96 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - dialog "模板库":
+      - generic: Template Library
+      - heading "模板库" [level=3]
+      - generic: 在 调研测试-20261020 中继续编辑，选择后导入当前视图中心。
+      - button "关闭模板库":
+      - generic "搜索模板模块":
+        - textbox "搜索模板模块" [active]:
+          - /placeholder: 搜索模块、标签或作者
+      - tablist "模板来源":
+        - button "全部"
+        - button "官方"
+        - button "社区"
+      - generic: 模块类型
+      - button "全部"
+      - button "通用模块"
+      - generic: 复杂度
+      - button "全部"
+      - button "标准"
+      - button "进阶"
+      - button "专家"
+      - generic: 2 个可用模块
+      - generic: 导入动作不会离开当前画布
+      - article:
+        - img "猫架"
+        - heading "猫架" [level=4]
+        - generic: 社区
+        - button "导入"
+        - paragraph: 可复用模块
+        - generic: 通用模块
+        - generic: 标准
+        - generic: 李工
+        - generic: 2026/8/2
+      - article:
+        - img "120缸"
+        - heading "120缸" [level=4]
+        - generic: 社区
+        - button "导入"
+        - paragraph: 可复用模块
+        - generic: 通用模块
+        - generic: 标准
+        - generic: lu2033227
+        - generic: 2026/7/8
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - generic: 已创建新画布
+    - region "快速上手":
+      - generic: Getting Started
+      - generic: 快速上手
+      - generic: 从第一根型材开始
+      - list:
+        - generic: "1"
+        - generic: 选择型材型号
+        - generic: P
+        - generic: "2"
+        - generic: 按住 Shift，在画布中拖拽创建
+        - generic: Shift
+        - generic: "3"
+        - generic: 空白拖动旋转视角，滚轮缩放（快捷键 Shift+/）
+      - button "创建第一根型材"
+      - button "更多帮助"
+      - button "不再提示"
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert

@@ -1,0 +1,221 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 未命名画布
+    - generic: 选择默认创建型材型号；随后按住 Shift 在画布中拖拽创建。
+    - region "快速上手":
+      - generic: Getting Started
+      - generic: 快速上手
+      - generic: 从第一根型材开始
+      - list:
+        - generic: "1"
+        - generic: 选择型材型号
+        - generic: P
+        - generic: "2"
+        - generic: 按住 Shift，在画布中拖拽创建
+        - generic: Shift
+        - generic: "3"
+        - generic: 空白拖动旋转视角，滚轮缩放（快捷键 Shift+/）
+      - button "创建第一根型材"
+      - button "更多帮助"
+      - button "不再提示"
+    - dialog "资源面板":
+      - tablist "资源类型":
+        - tab "型材 P":
+          - generic: 型材
+          - generic: P
+        - tab "光轴 H" [active] [selected]:
+          - generic: 光轴
+          - generic: H
+        - tab "连接件 C":
+          - generic: 连接件
+          - generic: C
+        - tab "板材 B":
+          - generic: 板材
+          - generic: B
+        - tab "配件 G":
+          - generic: 配件
+          - generic: G
+      - button "关闭":
+      - paragraph: Shaft System
+      - heading "光轴与光轴配件" [level=3]
+      - paragraph: 选择光轴规格，或选择适配孔径的光轴配件并进入沿轴装配流程。
+      - textbox "搜索光轴规格 / 配件型号（如 φ8、固定环、法兰）"
+      - generic: 5 个系列 · 52 个规格
+      - heading "光轴" [level=4]
+      - paragraph: 按光轴系列分组，直接点直径即可切换默认创建规格或替换当前选中的光轴。
+      - generic: 1 个系列 · 12 个规格
+      - article:
+        - img "标准光轴"
+        - generic: 标准光轴
+        - generic: 12 个直径规格
+        - generic: 拖拽创建长度，可像型材一样修改长度
+        - list "标准光轴 直径规格":
+          - button "φ3" [pressed]:
+            - generic: φ3
+          - button "φ4":
+            - generic: φ4
+          - button "φ5":
+            - generic: φ5
+          - button "φ6":
+            - generic: φ6
+          - button "φ8":
+            - generic: φ8
+          - button "φ10":
+            - generic: φ10
+          - button "φ12":
+            - generic: φ12
+          - button "φ13":
+            - generic: φ13
+          - button "φ15":
+            - generic: φ15
+          - button "φ16":
+            - generic: φ16
+          - button "φ18":
+            - generic: φ18
+          - button "φ20":
+            - generic: φ20
+      - heading "光轴配件" [level=4]
+      - paragraph: 与光轴一样按系列展示。点击卡片智能装配到目标光轴，点击规格按指定孔径自由放置。
+      - generic: 4 个系列 · 40 个规格
+      - article:
+        - img "T型开口标准型"
+        - generic: T型开口标准型
+        - generic: 光轴 T 型开口件 · 18 个孔径规格
+        - generic: 右上可智能装配，下方可直接按孔径自由放置
+        - button "智能装配"
+        - list "T型开口标准型 规格":
+          - button "φ3":
+            - generic: φ3
+          - button "φ4":
+            - generic: φ4
+          - button "φ5":
+            - generic: φ5
+          - button "φ6":
+            - generic: φ6
+          - button "φ7":
+            - generic: φ7
+          - button "φ8":
+            - generic: φ8
+          - button "φ9":
+            - generic: φ9
+          - button "φ10":
+            - generic: φ10
+          - button "φ11":
+            - generic: φ11
+          - button "φ12":
+            - generic: φ12
+          - button "φ13":
+            - generic: φ13
+          - button "φ14":
+            - generic: φ14
+          - button "φ15":
+            - generic: φ15
+          - button "φ16":
+            - generic: φ16
+          - button "φ17":
+            - generic: φ17
+          - button "φ18":
+            - generic: φ18
+          - button "φ19":
+            - generic: φ19
+          - button "φ20":
+            - generic: φ20
+      - article:
+        - img "固定环-标准型-开口型"
+        - generic: 固定环-标准型-开口型
+        - generic: 光轴固定环 · 9 个孔径规格
+        - generic: 右上可智能装配，下方可直接按孔径自由放置
+        - button "智能装配"
+        - list "固定环-标准型-开口型 规格":
+          - button "φ6":
+            - generic: φ6
+          - button "φ8":
+            - generic: φ8
+          - button "φ10":
+            - generic: φ10
+          - button "φ12":
+            - generic: φ12
+          - button "φ13":
+            - generic: φ13
+          - button "φ15":
+            - generic: φ15
+          - button "φ16":
+            - generic: φ16
+          - button "φ18":
+            - generic: φ18
+          - button "φ20":
+            - generic: φ20
+      - article:
+        - img "底座用支架-圆法兰型"
+        - generic: 底座用支架-圆法兰型
+        - generic: 光轴圆法兰支架 · 4 个孔径规格
+        - generic: 右上可智能装配，下方可直接按孔径自由放置
+        - button "智能装配"
+        - list "底座用支架-圆法兰型 规格":
+          - button "φ10":
+            - generic: φ10
+          - button "φ12":
+            - generic: φ12
+          - button "φ15":
+            - generic: φ15
+          - button "φ20":
+            - generic: φ20
+      - article:
+        - img "支柱固定夹-同径直交型"
+        - generic: 支柱固定夹-同径直交型
+        - generic: 光轴支柱固定夹-同径直交型 · 9 个孔径规格
+        - generic: 右上可智能装配，下方可直接按孔径自由放置
+        - button "智能装配"
+        - list "支柱固定夹-同径直交型 规格":
+          - button "φ6":
+            - generic: φ6
+          - button "φ8":
+            - generic: φ8
+          - button "φ10":
+            - generic: φ10
+          - button "φ12":
+            - generic: φ12
+          - button "φ15":
+            - generic: φ15
+          - button "φ16":
+            - generic: φ16
+          - button "φ20":
+            - generic: φ20
+          - button "φ25":
+            - generic: φ25
+          - button "φ30":
+            - generic: φ30
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert

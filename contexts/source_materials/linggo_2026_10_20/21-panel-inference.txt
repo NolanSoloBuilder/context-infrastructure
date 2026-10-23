@@ -1,0 +1,134 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - generic: 当前未选中型材，已按整个画布中的 16 根型材推导候选面。 已识别 6 个面，但全部与已有模型重叠冲突，未生成预览。
+    - dialog "资源面板":
+      - tablist "资源类型":
+        - tab "型材 P":
+          - generic: 型材
+          - generic: P
+        - tab "光轴 H":
+          - generic: 光轴
+          - generic: H
+        - tab "连接件 C":
+          - generic: 连接件
+          - generic: C
+        - tab "板材 B" [selected]:
+          - generic: 板材
+          - generic: B
+        - tab "配件 G":
+          - generic: 配件
+          - generic: G
+      - button "关闭":
+      - paragraph: Panel Builder
+      - heading "添加板材" [level=3]
+      - paragraph: 输入尺寸后可手动放置，也可从选中型材推导可点击的面板预览。
+      - paragraph: Setup
+      - generic: 尺寸与模式
+      - generic: W
+      - generic: 宽度
+      - spinbutton "W 宽度": "200"
+      - generic: mm
+      - generic: H
+      - generic: 高度
+      - spinbutton "H 高度": "200"
+      - generic: mm
+      - generic: T
+      - generic: 厚度
+      - spinbutton "T 厚度": "5"
+      - generic: mm
+      - button "内嵌：板材嵌入型材槽口":
+        - generic: 内嵌
+        - paragraph: 板材嵌入型材槽口
+      - button "覆盖：板材覆盖框架外侧":
+        - generic: 覆盖
+        - paragraph: 板材覆盖框架外侧
+      - button "平嵌：板面与外表面齐平":
+        - generic: 平嵌
+        - paragraph: 板面与外表面齐平
+      - paragraph: Material
+      - generic: 板材表面
+      - generic: 20 款
+      - generic: 木纹
+      - button "榉木" [pressed]:
+        - generic: 榉木
+      - button "松木":
+        - generic: 松木
+      - button "红木":
+        - generic: 红木
+      - button "浅橡木板":
+        - generic: 浅橡木板
+      - button "复古松木":
+        - generic: 复古松木
+      - button "整板橡木贴皮":
+        - generic: 整板橡木贴皮
+      - generic: 玻璃
+      - button "透明玻璃":
+        - generic: 透明玻璃
+      - button "柔光玻璃":
+        - generic: 柔光玻璃
+      - button "绿调玻璃":
+        - generic: 绿调玻璃
+      - generic: 亚克力
+      - button "透明亚克力":
+        - generic: 透明亚克力
+      - button "烟灰亚克力":
+        - generic: 烟灰亚克力
+      - button "磨砂亚克力":
+        - generic: 磨砂亚克力
+      - button "琥珀色亚克力":
+        - generic: 琥珀色亚克力
+      - button "红色亚克力":
+        - generic: 红色亚克力
+      - button "蓝色亚克力":
+        - generic: 蓝色亚克力
+      - button "绿色亚克力":
+        - generic: 绿色亚克力
+      - button "黄色亚克力":
+        - generic: 黄色亚克力
+      - button "紫色亚克力":
+        - generic: 紫色亚克力
+      - button "橙色亚克力":
+        - generic: 橙色亚克力
+      - generic: 石材
+      - button "玄武石":
+        - generic: 玄武石
+      - generic: 200 × 200 × 5 mm
+      - generic: 榉木 · 按内框
+      - paragraph: 当前未选中型材，已按整个画布中的 16 根型材推导
+      - button "添加板材"
+      - button "推导添加板材" [active]
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert

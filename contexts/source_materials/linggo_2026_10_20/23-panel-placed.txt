@@ -1,0 +1,53 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - status:
+      - generic: 板材面推导
+      - generic: 已放置 1 张板材，可继续点击其他预览，或退出面板推导。
+      - generic: 5 面
+      - button "退出面板推导"
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - button "位置":
+      - generic: 位置
+    - button "尺寸":
+      - generic: 尺寸
+    - button "切割":
+      - generic: 切割
+    - button "打孔":
+      - generic: 打孔
+    - button "更多":
+      - generic: 更多
+    - generic: 选中：板材 500×1200×5 mm
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert

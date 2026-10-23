@@ -1,0 +1,222 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - generic: 选择默认创建型材型号；随后按住 Shift 在画布中拖拽创建。
+    - dialog "资源面板":
+      - tablist "资源类型":
+        - tab "型材 P":
+          - generic: 型材
+          - generic: P
+        - tab "光轴 H":
+          - generic: 光轴
+          - generic: H
+        - tab "连接件 C" [active] [selected]:
+          - generic: 连接件
+          - generic: C
+        - tab "板材 B":
+          - generic: 板材
+          - generic: B
+        - tab "配件 G":
+          - generic: 配件
+          - generic: G
+      - button "关闭":
+      - paragraph: Connector Library
+      - heading "选择连接件" [level=3]
+      - generic "当前未选择对象，自动推导将从整个画布推算":
+        - generic: 放置：自动
+        - checkbox "放置：自动"
+      - paragraph: 当前未选择对象，自动推导将从整个画布推算
+      - paragraph: 搜索系列/尺寸，选择后即可放置。
+      - textbox "搜索（如 L / T / 40 系 / 三通）"
+      - generic: 27 个结果
+      - list "连接件类别":
+        - button "全部 27":
+          - generic: 全部
+          - generic: "27"
+        - button "20系 9":
+          - generic: 20系
+          - generic: "9"
+        - button "30系 9":
+          - generic: 30系
+          - generic: "9"
+        - button "40系 9":
+          - generic: 40系
+          - generic: "9"
+      - heading "20系连接件" [level=4]
+      - paragraph: 支持当前目录中的挂载连接件型号
+      - generic: 9 款
+      - button "45°重型角码 (20 系) 45°重型角码 (20 系) L · 20mm 20系连接件 · 智能放置 · 20系 · 45°":
+        - img "45°重型角码 (20 系)"
+        - generic: 45°重型角码 (20 系)
+        - generic: L · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · 45°
+      - button "135°重型角码 (20 系) 135°重型角码 (20 系) L · 20mm 20系连接件 · 智能放置 · 20系 · 135°":
+        - img "135°重型角码 (20 系)"
+        - generic: 135°重型角码 (20 系)
+        - generic: L · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · 135°
+      - button "端面三向连接件 (20 系) 端面三向连接件 (20 系) CUSTOM · 20mm 20系连接件 · 智能放置 · 20系 · 三向":
+        - img "端面三向连接件 (20 系)"
+        - generic: 端面三向连接件 (20 系)
+        - generic: CUSTOM · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · 三向
+      - button "二通连接件 (20 系) 二通连接件 (20 系) CUSTOM · 20mm 20系连接件 · 智能放置 · 20系 · 二通":
+        - img "二通连接件 (20 系)"
+        - generic: 二通连接件 (20 系)
+        - generic: CUSTOM · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · 二通
+      - button "三通连接件 (20 系) 三通连接件 (20 系) CUSTOM · 20mm 20系连接件 · 智能放置 · 20系 · 三通":
+        - img "三通连接件 (20 系)"
+        - generic: 三通连接件 (20 系)
+        - generic: CUSTOM · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · 三通
+      - button "L 型钣金连接件 (20 系) L 型钣金连接件 (20 系) LP · 20mm 20系连接件 · 智能放置 · 20系 · L钣金":
+        - img "L 型钣金连接件 (20 系)"
+        - generic: L 型钣金连接件 (20 系)
+        - generic: LP · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · L钣金
+      - button "L 型角码 (20 系) L 型角码 (20 系) L · 20mm 20系连接件 · 智能放置 · 20系 · 槽6":
+        - img "L 型角码 (20 系)"
+        - generic: L 型角码 (20 系)
+        - generic: L · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · 槽6
+      - button "L 型槽内连接件 (20 系) L 型槽内连接件 (20 系) L · 20mm 20系连接件 · 智能放置 · 20系 · L板":
+        - img "L 型槽内连接件 (20 系)"
+        - generic: L 型槽内连接件 (20 系)
+        - generic: L · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · L板
+      - button "T 型钣金连接件 (20 系) T 型钣金连接件 (20 系) T · 20mm 20系连接件 · 智能放置 · 20系 · T钣金":
+        - img "T 型钣金连接件 (20 系)"
+        - generic: T 型钣金连接件 (20 系)
+        - generic: T · 20mm
+        - generic: 20系连接件 · 智能放置 · 20系 · T钣金
+      - heading "30系连接件" [level=4]
+      - paragraph: 支持当前目录中的挂载连接件型号
+      - generic: 9 款
+      - button "45°重型角码 (30 系) 45°重型角码 (30 系) L · 30mm 30系连接件 · 智能放置 · 30系 · 45°":
+        - img "45°重型角码 (30 系)"
+        - generic: 45°重型角码 (30 系)
+        - generic: L · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · 45°
+      - button "135°重型角码 (30 系) 135°重型角码 (30 系) L · 30mm 30系连接件 · 智能放置 · 30系 · 135°":
+        - img "135°重型角码 (30 系)"
+        - generic: 135°重型角码 (30 系)
+        - generic: L · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · 135°
+      - button "端面三向连接件 (30 系) 端面三向连接件 (30 系) CUSTOM · 30mm 30系连接件 · 智能放置 · 30系 · 三向":
+        - img "端面三向连接件 (30 系)"
+        - generic: 端面三向连接件 (30 系)
+        - generic: CUSTOM · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · 三向
+      - button "二通连接件 (30 系) 二通连接件 (30 系) CUSTOM · 30mm 30系连接件 · 智能放置 · 30系 · 二通":
+        - img "二通连接件 (30 系)"
+        - generic: 二通连接件 (30 系)
+        - generic: CUSTOM · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · 二通
+      - button "三通连接件 (30 系) 三通连接件 (30 系) CUSTOM · 30mm 30系连接件 · 智能放置 · 30系 · 三通":
+        - img "三通连接件 (30 系)"
+        - generic: 三通连接件 (30 系)
+        - generic: CUSTOM · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · 三通
+      - button "L 型钣金连接件 (30 系) L 型钣金连接件 (30 系) LP · 30mm 30系连接件 · 智能放置 · 30系 · L钣金":
+        - img "L 型钣金连接件 (30 系)"
+        - generic: L 型钣金连接件 (30 系)
+        - generic: LP · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · L钣金
+      - button "L 型角码 (30 系) L 型角码 (30 系) L · 30mm 30系连接件 · 智能放置 · 30系 · 槽8":
+        - img "L 型角码 (30 系)"
+        - generic: L 型角码 (30 系)
+        - generic: L · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · 槽8
+      - button "L 型槽内连接件 (30 系) L 型槽内连接件 (30 系) L · 30mm 30系连接件 · 智能放置 · 30系 · L板":
+        - img "L 型槽内连接件 (30 系)"
+        - generic: L 型槽内连接件 (30 系)
+        - generic: L · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · L板
+      - button "T 型钣金连接件 (30 系) T 型钣金连接件 (30 系) T · 30mm 30系连接件 · 智能放置 · 30系 · T钣金":
+        - img "T 型钣金连接件 (30 系)"
+        - generic: T 型钣金连接件 (30 系)
+        - generic: T · 30mm
+        - generic: 30系连接件 · 智能放置 · 30系 · T钣金
+      - heading "40系连接件" [level=4]
+      - paragraph: 支持当前目录中的挂载连接件型号
+      - generic: 9 款
+      - button "45°重型角码 (40 系) 45°重型角码 (40 系) L · 40mm 40系连接件 · 智能放置 · 40系 · 45°":
+        - img "45°重型角码 (40 系)"
+        - generic: 45°重型角码 (40 系)
+        - generic: L · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · 45°
+      - button "135°重型角码 (40 系) 135°重型角码 (40 系) L · 40mm 40系连接件 · 智能放置 · 40系 · 135°":
+        - img "135°重型角码 (40 系)"
+        - generic: 135°重型角码 (40 系)
+        - generic: L · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · 135°
+      - button "端面三向连接件 (40 系) 端面三向连接件 (40 系) CUSTOM · 40mm 40系连接件 · 智能放置 · 40系 · 三向":
+        - img "端面三向连接件 (40 系)"
+        - generic: 端面三向连接件 (40 系)
+        - generic: CUSTOM · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · 三向
+      - button "二通连接件 (40 系) 二通连接件 (40 系) CUSTOM · 40mm 40系连接件 · 智能放置 · 40系 · 二通":
+        - img "二通连接件 (40 系)"
+        - generic: 二通连接件 (40 系)
+        - generic: CUSTOM · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · 二通
+      - button "三通连接件 (40 系) 三通连接件 (40 系) CUSTOM · 40mm 40系连接件 · 智能放置 · 40系 · 三通":
+        - img "三通连接件 (40 系)"
+        - generic: 三通连接件 (40 系)
+        - generic: CUSTOM · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · 三通
+      - button "L 型钣金连接件 (40 系) L 型钣金连接件 (40 系) LP · 40mm 40系连接件 · 智能放置 · 40系 · L钣金":
+        - img "L 型钣金连接件 (40 系)"
+        - generic: L 型钣金连接件 (40 系)
+        - generic: LP · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · L钣金
+      - button "L 型角码 (40 系) L 型角码 (40 系) L · 38mm 40系连接件 · 智能放置 · 40系 · 槽8":
+        - img "L 型角码 (40 系)"
+        - generic: L 型角码 (40 系)
+        - generic: L · 38mm
+        - generic: 40系连接件 · 智能放置 · 40系 · 槽8
+      - button "L 型槽内连接件 (40 系) L 型槽内连接件 (40 系) L · 40mm 40系连接件 · 智能放置 · 40系 · L板":
+        - img "L 型槽内连接件 (40 系)"
+        - generic: L 型槽内连接件 (40 系)
+        - generic: L · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · L板
+      - button "T 型钣金连接件 (40 系) T 型钣金连接件 (40 系) T · 40mm 40系连接件 · 智能放置 · 40系 · T钣金":
+        - img "T 型钣金连接件 (40 系)"
+        - generic: T 型钣金连接件 (40 系)
+        - generic: T · 40mm
+        - generic: 40系连接件 · 智能放置 · 40系 · T钣金
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert

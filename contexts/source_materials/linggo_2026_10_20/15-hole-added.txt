@@ -1,0 +1,92 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - button "位置":
+      - generic: 位置
+    - button "长度":
+      - generic: 长度
+    - button "斜切":
+      - generic: 斜切
+    - button "打孔":
+      - generic: 打孔
+    - button "更多":
+      - generic: 更多
+    - generic: 铝型材
+    - generic: 打孔
+    - button "关闭当前属性卡片": ×
+    - generic: 1 孔
+    - generic: 模式
+    - generic: 可用面：Z+ 面 / Z- 面 / Y+ 面 / Y- 面
+    - button "关闭"
+    - button "拖动中" [pressed]
+    - button "落点"
+    - generic: 孔位
+    - generic: 加工面
+    - button "Z+ 面"
+    - button "Z- 面"
+    - button "Y+ 面"
+    - button "Y- 面"
+    - generic: 列表
+    - list:
+      - button "Z+ 通孔 ⌀5mm":
+        - generic: Z+
+        - generic: 通孔
+        - generic: ⌀5mm
+    - button "新增孔位" [active]
+    - button "复制孔位"
+    - button "删除孔位"
+    - generic: 已选孔位：Z+ · 通孔 · ⌀5mm
+    - generic: 参数
+    - generic: 类型
+    - combobox:
+      - option "普通圆孔" [selected]
+      - option "沉头孔"
+    - generic: 孔面
+    - combobox:
+      - option "Z+ 面" [selected]
+      - option "Z- 面"
+      - option "Y+ 面"
+      - option "Y- 面"
+    - generic: 孔径
+    - generic: D
+    - spinbutton "D": "5"
+    - generic: X轴长度
+    - generic: X
+    - spinbutton "X": "300"
+    - generic: 截面
+    - textbox [disabled]: 截面居中
+    - generic: 选中：2020 型材 · 长度 600 mm
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert

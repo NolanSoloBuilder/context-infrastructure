@@ -1,0 +1,143 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - generic: 渲染已打开：将画布快照发送到后台生成 PNG，完成后可下载。
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）" [pressed]:
+      - text: 渲染（高质量出图）
+  - dialog "渲染":
+    - paragraph: Render
+    - heading "渲染" [level=3]
+    - paragraph: 3D 编辑视角里拖主体摆位，右侧直接调渲染相机与主体参数
+    - generic: 检查中
+    - button "重置":
+      - text: 重置
+    - button "关闭":
+    - generic: 现代客厅暖光
+    - generic: 空白处旋转 / 平移 / 缩放编辑视角 · 拖主体摆位 · 右下小窗看最终构图
+    - generic: 渲染远近 6000 mm
+    - generic: 左右环绕 40°
+    - generic: 上下环绕 25°
+    - generic: 最终构图预览
+    - generic: 垂直构图按渲染机位显示
+    - generic: 左键空白处旋转视角
+    - generic: 右键 / Shift 平移视角
+    - generic: 滚轮缩放编辑视图
+    - generic: 左键拖主体摆位
+    - generic: 右下小窗看最终构图
+    - generic: 相机
+    - generic: 远近
+    - strong: 6000 mm
+    - generic: 左右环绕
+    - strong: 40°
+    - generic: 上下环绕
+    - strong: 25°
+    - generic: 远近
+    - slider: "6000"
+    - generic: 6000 mm
+    - generic: 左右环绕
+    - slider: "40"
+    - generic: 40°
+    - generic: 上下环绕
+    - slider: "25"
+    - generic: 25°
+    - button "同步当前视角"
+    - generic: 相机始终对准主体，只调远近、左右环绕、上下环绕；房间和主体摆位基准保持固定。
+    - generic: 主体
+    - generic: 左右
+    - strong: 居中
+    - generic: 前后
+    - strong: 居中
+    - generic: 安全区
+    - strong: 左 1104 / 右 1104 mm · 后 0 / 前 823 mm
+    - generic: 旋转
+    - strong: 0°
+    - generic: 左右
+    - slider: "-4.1942202014372"
+    - generic: 居中
+    - generic: 前后
+    - slider: "0"
+    - generic: 居中
+    - generic: 主体旋转
+    - slider: "0"
+    - generic: 0°
+    - generic: 拖动条与 3D 拖拽会按最终场景的真实后墙净距做安全夹紧，前后范围会按可达空间自动变成非对称。
+    - generic "高级参数"
+    - option "默认"
+    - option "现代客厅清爽"
+    - option "现代客厅暖光" [selected]
+    - option "棚拍柔光"
+    - option "暖光展厅"
+    - option "深色目录"
+    - option "默认" [selected]
+    - option "拉丝银铝"
+    - option "原铝"
+    - option "阳极黑"
+    - option "默认" [selected]
+    - option "镀锌连接件"
+    - option "拉丝不锈钢"
+    - option "喷砂深灰"
+    - option "阳极黑"
+    - option "默认" [selected]
+    - option "拉丝金属"
+    - option "黑色塑料"
+    - option "黑橡胶"
+    - option "默认" [selected]
+    - option "拉丝金属"
+    - option "喷砂深灰"
+    - option "黑色塑料"
+    - generic: 本次提交
+    - generic: 机位
+    - strong: 4572, 2979, 4189
+    - generic: 目标点
+    - strong: 1103, 402, 27
+    - generic: 主体位置
+    - strong: 居中 · 居中
+    - generic: 主体旋转
+    - strong: 0°
+    - generic: 渲染任务
+    - generic: 状态
+    - strong:
+      - generic: 未开始
+    - generic: 分辨率
+    - strong: 1920×1080
+    - generic: 采样
+    - strong: "64"
+    - generic: 用时
+    - strong: "--"
+    - generic: 提交中…
+    - button "提交中…" [disabled]:
+      - text: 提交中…
+    - button "下载 PNG" [disabled]:
+      - text: 下载 PNG
+- alert

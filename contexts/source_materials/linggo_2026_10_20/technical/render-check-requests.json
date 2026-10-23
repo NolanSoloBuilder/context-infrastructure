@@ -1,0 +1,26 @@
+{
+  "requests": [
+    {
+      "id": "93732.272",
+      "url": "https://linggo.online/api/designer/render/health",
+      "method": "GET"
+    },
+    {
+      "id": "93732.273",
+      "url": "https://linggo.online/api/designer/render/capabilities",
+      "method": "GET"
+    }
+  ],
+  "responses": [
+    {
+      "id": "93732.272",
+      "url": "https://linggo.online/api/designer/render/health",
+      "status": 200
+    },
+    {
+      "id": "93732.273",
+      "url": "https://linggo.online/api/designer/render/capabilities",
+      "status": 200
+    }
+  ]
+}

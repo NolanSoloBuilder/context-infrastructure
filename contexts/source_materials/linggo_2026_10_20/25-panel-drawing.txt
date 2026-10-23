@@ -1,0 +1,167 @@
+- main:
+  - complementary:
+    - link "打开工作台（新标签页）":
+      - /url: /workspace/home
+      - text: 徐
+    - navigation:
+      - button "返回工作台":
+      - button "画布管理":
+      - button "保存":
+      - button "撤销 (Ctrl+Z)":
+      - button "重做 (Ctrl+Shift+Z)":
+      - button "视图":
+      - button "导出":
+      - button "更新说明":
+      - button "快捷键":
+    - button "退出登录":
+  - main:
+    - button "打开画布切换器":
+      - generic: 当前画布
+      - generic: 调研测试-20261020
+    - button "位置":
+      - generic: 位置
+    - button "尺寸":
+      - generic: 尺寸
+    - button "切割":
+      - generic: 切割
+    - button "打孔":
+      - generic: 打孔
+    - button "更多":
+      - generic: 更多
+    - generic: 选中：板材 500×1200×5 mm
+    - paragraph: Material Export
+    - heading "导出材料清单" [level=3]
+    - paragraph: 画布全部对象
+    - button "关闭导出材料清单":
+    - generic: 8 项 / 58 件
+    - generic: 生成时间：2026/10/20 17:47:21
+    - table:
+      - rowgroup:
+        - row "序号 分类 型号 / 规格 尺寸 / 说明 打孔 / 加工 加工图 数量":
+          - columnheader "序号"
+          - columnheader "分类"
+          - columnheader "型号 / 规格"
+          - columnheader "尺寸 / 说明"
+          - columnheader "打孔 / 加工"
+          - columnheader "加工图"
+          - columnheader "数量"
+      - rowgroup:
+        - row "1 型材 2020 截面 20mm x 20mm / 长 600mm Z+ 通孔 ⌀5 (沿X长度300 / 截面居中) — x1根":
+          - cell "1"
+          - cell "型材"
+          - cell "2020"
+          - cell "截面 20mm x 20mm / 长 600mm"
+          - cell "Z+ 通孔 ⌀5 (沿X长度300 / 截面居中)"
+          - cell "—"
+          - cell "x1根"
+        - row "2 型材 4040 截面 40mm x 40mm / 长 1120mm — — x2根":
+          - cell "2"
+          - cell "型材"
+          - cell "4040"
+          - cell "截面 40mm x 40mm / 长 1120mm"
+          - cell "—"
+          - cell "—"
+          - cell "x2根"
+        - row "3 型材 4040 截面 40mm x 40mm / 长 680mm — — x4根":
+          - cell "3"
+          - cell "型材"
+          - cell "4040"
+          - cell "截面 40mm x 40mm / 长 680mm"
+          - cell "—"
+          - cell "—"
+          - cell "x4根"
+        - row "4 型材 4040 截面 40mm x 40mm / 长 420mm — — x5根":
+          - cell "4"
+          - cell "型材"
+          - cell "4040"
+          - cell "截面 40mm x 40mm / 长 420mm"
+          - cell "—"
+          - cell "—"
+          - cell "x5根"
+        - row "5 型材 4040 截面 40mm x 40mm / 长 1200mm — — x2根":
+          - cell "5"
+          - cell "型材"
+          - cell "4040"
+          - cell "截面 40mm x 40mm / 长 1200mm"
+          - cell "—"
+          - cell "—"
+          - cell "x2根"
+        - row "6 型材 4040 截面 40mm x 40mm / 长 640mm — — x2根":
+          - cell "6"
+          - cell "型材"
+          - cell "4040"
+          - cell "截面 40mm x 40mm / 长 640mm"
+          - cell "—"
+          - cell "—"
+          - cell "x2根"
+        - row "7 板材 榉木 材质 榉木 / 尺寸 500mm x 1200mm / 厚 5mm — 榉木 加工图操作 x1块":
+          - cell "7"
+          - cell "板材"
+          - cell "榉木"
+          - cell "材质 榉木 / 尺寸 500mm x 1200mm / 厚 5mm"
+          - cell "—"
+          - cell "榉木 加工图操作":
+            - generic "榉木 加工图操作":
+              - button "查看" [active]:
+                - generic: 查看
+              - button "导出 榉木 DXF 加工文件":
+              - button "导出 榉木 SVG 加工图":
+          - cell "x1块"
+        - row "8 连接件 L 型角码（40系）（38系） 外形 40mm x 40mm x 36mm / 孔径 6.2mm / 孔距 30mm — — x41件":
+          - cell "8"
+          - cell "连接件"
+          - cell "L 型角码（40系）（38系）"
+          - cell "外形 40mm x 40mm x 36mm / 孔径 6.2mm / 孔距 30mm"
+          - cell "—"
+          - cell "—"
+          - cell "x41件"
+    - button "下载 CSV"
+    - button "复制"
+    - dialog "板材加工图":
+      - paragraph: Panel Drawing
+      - heading "板材加工图" [level=3]
+      - paragraph: 榉木 加工图 / 500 x 1200 x 5mm
+      - button "关闭板材加工图":
+      - generic "板材加工图":
+        - img "榉木 加工图":
+          - generic: W=500mm
+          - generic: H=1200mm
+          - generic: 基准：左下角为原点 (0,0)，单位 mm
+          - generic: 榉木 加工图
+          - generic: T=5mm / 1块
+      - heading "板材信息" [level=4]
+      - term: 规格
+      - definition: 榉木
+      - term: 材质
+      - definition: 榉木
+      - term: 尺寸
+      - definition: 500 x 1200 x 5mm
+      - term: 数量
+      - definition: x1块
+      - term: 基准
+      - definition: 左下角 (0, 0)，单位 mm
+      - heading "加工特征" [level=4]
+      - generic: 无孔位或切割特征
+      - button "导出 SVG":
+        - generic: 导出 SVG
+      - button "导出 DXF 加工":
+        - generic: 导出 DXF 加工
+      - button "打印 / PDF":
+        - generic: 打印 / PDF
+    - button "打开型材选择面板":
+      - img "2020"
+      - generic: "2020"
+      - text: 打开型材选择面板
+    - button "移动 (W)":
+      - text: 移动 (W)
+    - button "旋转 (E)":
+      - text: 旋转 (E)
+    - button "尺子 (M)":
+      - text: 尺子 (M)
+    - button "吸附高亮 (L)":
+      - text: 吸附高亮 (L)
+    - button "显示长度标注":
+      - text: 显示长度标注
+    - button "渲染（高质量出图）":
+      - text: 渲染（高质量出图）
+- alert
