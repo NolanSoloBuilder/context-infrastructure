@@ -12,10 +12,6 @@
   },
   "routes": [
     {
-      "pattern": "forgepane.com/*",
-      "zone_name": "forgepane.com"
-    },
-    {
       "pattern": "www.forgepane.com/*",
       "zone_name": "forgepane.com"
     },
