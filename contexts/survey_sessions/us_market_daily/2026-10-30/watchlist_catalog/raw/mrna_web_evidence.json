@@ -1,0 +1,40 @@
+{
+  "collected_at_utc": "2026-10-30T01:29:05.980581+00:00",
+  "capture_method": "web.run open/find/click successful text retrieval; CLI curl blocked; factual extraction, not full-document archive",
+  "documents": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+      "read_scope": "业绩公告正文及完整财务表",
+      "facts": {
+        "revenue_usd_m": 145,
+        "net_loss_usd_m": 782,
+        "eps_gaap": -1.97,
+        "cash_equivalents_investments_usd_m": 6910,
+        "cash_date": "2026-06-30",
+        "six_month_operating_cash_outflow_usd_m": 1156,
+        "q2_net_product_sales_usd_m": 94
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm",
+      "read_scope": "Item1.01可转债条款",
+      "facts": {
+        "closing_date": "2026-09-01",
+        "principal_usd": 3000000000,
+        "maturity": "2032-03-01",
+        "regular_coupon": 0,
+        "initial_conversion_price": 210.58
+      }
+    },
+    {
+      "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/",
+      "read_scope": "官方临床新闻公告正文",
+      "facts": {
+        "event_date": "2026-10-22",
+        "primary_endpoint_RFS_HR": 0.58,
+        "overall_survival": "not mature",
+        "status": "investigational, not approved claim"
+      }
+    }
+  ]
+}

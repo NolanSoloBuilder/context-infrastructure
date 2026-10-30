@@ -1,0 +1,171 @@
+{
+  "checked_date_beijing": "2026-10-28",
+  "saved_at_utc": "2026-10-28T07:23:56.370566+00:00",
+  "source_note": "https://www.xiaohongshu.com/explore/6adde8540000000013033800",
+  "read_scope": "公开网页可见账号和相对时间；全部8张图片逐张视觉读取；只摘要不复刻全文；未使用评论区AI摘要作为证据。",
+  "provenance_limits": "图片页脚2026-07-14只是可见标签，未定位对应X原帖认证；孙宇晨本人精确引语与个人投资记录未核验。",
+  "claims": [
+    {
+      "id": "C01",
+      "image_page": 1,
+      "topic": "孙宇晨的精确预测、日期及十年前荐股记录",
+      "assessment": "⚠️ 本人原始出处未核实",
+      "basis_and_limits": "未取得可回溯的本人原帖或完整原声。转载之间重复，不能当成独立证据。",
+      "sources": [],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C02",
+      "image_page": 1,
+      "topic": "个人已投入 10 亿美元物理 AI",
+      "assessment": "⚠️ 现有证据不支持这个完整表述",
+      "basis_and_limits": "3 月 23 日可读材料是 **TRON 委托发布的机构新闻稿**：AI 基金规模从 1 亿美元扩大至 10 亿美元，面向代理经济基础设施。机构基金规模不等于个人已支付金额，代理经济也不等于机器人投资。[公司新闻稿](https://ct.com/press-releases/tron-dao-scales-ai-fund-to-1-billion-expanding-its-2023-agentic-economy-thesis)",
+      "sources": [
+        "https://ct.com/press-releases/tron-dao-scales-ai-fund-to-1-billion-expanding-its-2023-agentic-economy-thesis"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C03",
+      "image_page": 2,
+      "topic": "Cosmos 3 发布",
+      "assessment": "✅ 产品可确认；日期需校正",
+      "basis_and_limits": "NVIDIA 官方公告日期为 **2026-06-01**，介绍视觉推理、世界生成与动作预测。与图片日期差一天的具体原因未核实。[官方公告](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Cosmos-3-the-Open-Frontier-Foundation-Model-for-Physical-AI/default.aspx)",
+      "sources": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Cosmos-3-the-Open-Frontier-Foundation-Model-for-Physical-AI/default.aspx"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C04",
+      "image_page": 2,
+      "topic": "生成式 AI 已结束、CES 精确提及次数",
+      "assessment": "⚠️ 引语与次数未核实",
+      "basis_and_limits": "不能用物理 AI 的发布证明生成式 AI 退出。Gartner 的 2026 趋势同时包含多种 AI 路线；物理 AI 是其中之一。[Gartner 趋势列表](https://www.gartner.com/en/articles/top-technology-trends-2026)",
+      "sources": [
+        "https://www.gartner.com/en/articles/top-technology-trends-2026"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C05",
+      "image_page": 4,
+      "topic": "Optimus 年产与售价数字",
+      "assessment": "⚠️ 不能当实际交付或现售报价",
+      "basis_and_limits": "本次读到的 Tesla 三季报相关段落仍强调研发、商业化与大规模生产准备；没有用该材料核实文中的精确目标及来源。目标、产能、产量、交付量、成本和售价必须分别核对。[Tesla 三季报](https://ir.tesla.com/_flysystem/s3/sec/000162828026066775/tsla-20260930-gen.pdf)",
+      "sources": [
+        "https://ir.tesla.com/_flysystem/s3/sec/000162828026066775/tsla-20260930-gen.pdf"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C06",
+      "image_page": 4,
+      "topic": "宇树 2025 年出货超过 5,500 台",
+      "assessment": "✅ 有公司公开声明",
+      "basis_and_limits": "公司称口径为实际销售并交付的纯人形机器人，不含双臂轮式机器人，区别于订单和生产量。这是公司声明，不是本次独立审计的结果。[公司声明](https://www.prnewswire.com/news-releases/unitree-ranks-no1-globally-in-humanoid-robot-shipments-exceeding-5-500-units-in-2025--302674729.html)",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/unitree-ranks-no1-globally-in-humanoid-robot-shipments-exceeding-5-500-units-in-2025--302674729.html"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C07",
+      "image_page": 4,
+      "topic": "宇树 IPO 进度",
+      "assessment": "🕒 需按当前日期更新",
+      "basis_and_limits": "上交所公告为 **2026-08-19 上市，代码 688836**。旧图中的 IPO 阶段描述不适合直接作为今天的状态。[上交所公告](https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml)",
+      "sources": [
+        "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C08",
+      "image_page": 4,
+      "topic": "银河通用 2025 年底融资与估值",
+      "assessment": "✅ 有公司发布记录",
+      "basis_and_limits": "公司 2025-12-19 新闻稿称该轮融资超过 3 亿美元、估值 30 亿美元。这是私募融资估值，不能替代公开股票的合理价值或证明盈利能力。[公司新闻稿](https://www.prnewswire.com/news-releases/galbot-secures-over-300-million-in-new-funding-breaking-records-with-3-billion-valuation-in-chinas-humanoid-robot-sector-302647204.html)",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/galbot-secures-over-300-million-in-new-funding-breaking-records-with-3-billion-valuation-in-chinas-humanoid-robot-sector-302647204.html"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C09",
+      "image_page": 4,
+      "topic": "小鹏 2026 年 AI 研发 70 亿元",
+      "assessment": "✅ 计划有官方出处",
+      "basis_and_limits": "官方使用的是“计划投入”，范围涵盖汽车、机器人等 AI 研发，不能写成已花完或全部投向人形机器人。[小鹏官网](https://www.xpeng.com/moments/56)",
+      "sources": [
+        "https://www.xpeng.com/moments/56"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C10",
+      "image_page": 4,
+      "topic": "奥比相机数量、拓普独家供应、双环大额 RV 订单",
+      "assessment": "⚠️ 精确供应关系与金额未证实",
+      "basis_and_limits": "本次未取得支持这些精确断言的客户公告、合同或上市公司原始披露。业务与机器人有关，不足以证明特定客户、独家地位和订单金额。未证实也不等于确认不存在。",
+      "sources": [],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C11",
+      "image_page": 6,
+      "topic": "三星与 SK 海力士 HBM 已全部排至 2028 年",
+      "assessment": "⚠️ 时间、公司和产品口径不足",
+      "basis_and_limits": "SK 海力士 **10 月 28 日**官方材料披露，已签长期协议覆盖 2027–2028 年总产能的 **50% 以上**，并继续洽谈。该口径不是“两家公司全部 HBM 产能”，更不能倒推为 7 月已知事实。[SK 海力士公告](https://news.skhynix.com/en/q3-2026-business-results/)",
+      "sources": [
+        "https://news.skhynix.com/en/q3-2026-business-results/"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C12",
+      "image_page": 5,
+      "topic": "51Sim 53.5% 市占率",
+      "assessment": "✅ 数字有披露；范围较窄",
+      "basis_and_limits": "港交所公司公告引用沙利文数据，限定为**中国端到端高阶智能驾驶仿真及数据平台**，不是全球物理 AI 市场。[公司公告](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0309/2026030901261_c.pdf)",
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0309/2026030901261_c.pdf"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C13",
+      "image_page": 6,
+      "topic": "2030 年仿真市场约 1,806 亿元",
+      "assessment": "✅ 有预测出处；不是收入事实",
+      "basis_and_limits": "同一公告引用沙利文对中国物理 AI 仿真及数据平台的预测为 **1,806.1 亿元**。预测能否实现、企业能拿到多少、能留下多少利润，仍是三个问题。[公司公告](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0309/2026030901261_c.pdf)",
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0309/2026030901261_c.pdf"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C14",
+      "image_page": 6,
+      "topic": "Gartner 将物理 AI 列为 2026 战略趋势",
+      "assessment": "✅ 可确认",
+      "basis_and_limits": "官方摘要发布于 2025-10-18；趋势被关注，不代表相关股票便宜。[Gartner 摘要](https://www.gartner.com/en/documents/7069098)",
+      "sources": [
+        "https://www.gartner.com/en/documents/7069098"
+      ],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    },
+    {
+      "id": "C15",
+      "image_page": 6,
+      "topic": "其他机构规模预测、通用效率/数据倍数与板块短期涨幅",
+      "assessment": "⚠️ 缺必要定义",
+      "basis_and_limits": "本次未取得足够原始材料来认证 NAI500 等精确预测，以及没有任务基准、指数成分或起止日的倍数。保留为待核查线索，不用于收益预测。",
+      "sources": [],
+      "evidence_time_note": "来源日期和可支持范围见 basis_and_limits；晚于截图标注日期的来源不能证明当时已知。"
+    }
+  ],
+  "return_check": "quote_evidence/return_checks.json",
+  "return_limits": "单一Yahoo第三方源，拆股一致收盘价、不含分红再投，未完成跨源复核。",
+  "safety": "没有账户操作、发布、交易或自动化配置更改。"
+}

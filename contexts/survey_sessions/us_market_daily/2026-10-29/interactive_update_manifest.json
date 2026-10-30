@@ -1,0 +1,11 @@
+{
+  "updated_at_utc": "2026-10-29T02:18:24.816940+00:00",
+  "reason": "User requested released Google earnings, pre/post quotes, and SOFI fixed research",
+  "source_before": "report_before_extended_update.md",
+  "script": "apply_extended_sofi_update.py",
+  "baseline_generator_warning": "build_report.py creates morning baseline only; reapply this script to retain this update",
+  "alert_contract_changed": false,
+  "alert_state_note": "Same-session quote/stage state not updated. Its original report hash is preserved by report_before_extended_update.md; this report.html/MD is the user-requested content revision.",
+  "original_report_sha256": "11cc88dc46391b4985234a9a528880317a499969459f82e2c4f350844fbe8277",
+  "updated_report_sha256": "3514af2a9f2300044dd2304d8742eaaf46f93092a2100db99ccf421bba8efebb"
+}

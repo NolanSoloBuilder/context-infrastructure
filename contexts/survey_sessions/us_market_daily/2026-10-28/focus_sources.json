@@ -1,0 +1,132 @@
+{
+  "updated_at_utc": "2026-10-28T04:00:42.846820+00:00",
+  "report_date_beijing": "2026-10-28",
+  "market_session": "2026-10-27",
+  "user_focus": {
+    "horizon": "3–5年",
+    "risk_preference": "尽量控制回撤",
+    "positions": "未确认买入",
+    "priority": [
+      "Google等头部公司",
+      "QQQ/QQQM",
+      "估值与兑现机会"
+    ],
+    "opportunity_definition": "不限制市值；机器人供应链作为研究方向"
+  },
+  "sources": [
+    {
+      "id": "finews_requested",
+      "url": "https://finews.fyi/2026-10-05",
+      "read_scope": "页面正文、新闻链接、日期、指标定义",
+      "page_date": "2026-10-05",
+      "status": "historical_lead_source",
+      "limits": "10月5日历史页，不代表今日；非逐条准确性审计"
+    },
+    {
+      "id": "finews_latest",
+      "url": "https://finews.fyi/",
+      "read_scope": "首页10月27日版正文与部分原文",
+      "page_date": "2026-10-27",
+      "updated_at_page_utc": "2026-10-27T22:07:47Z",
+      "status": "lead_source_only",
+      "limits": "指定/2026-10-27路径读取失败；首页同一原文衍生多条摘要，按主张去重"
+    },
+    {
+      "id": "googl_price",
+      "url": "https://stockanalysis.com/stocks/googl/history/",
+      "status": "cross_checked",
+      "facts": {
+        "close_usd": 320.58,
+        "day_pct": 1.19,
+        "session": "2026-10-27"
+      },
+      "cross_source": "googl_focus_metrics.json, Yahoo raw/GOOGL.json",
+      "limits": "第三方价格，未混入盘后"
+    },
+    {
+      "id": "googl_high",
+      "url": "https://stockanalysis.com/stocks/googl/",
+      "status": "high_value_cross_checked",
+      "facts": {
+        "high_52w_usd": 408.61,
+        "high_date_yahoo": "2026-05-18",
+        "drawdown_pct_calculated": 21.543770816945905
+      },
+      "limits": "高点数值跨源一致；高点具体日期来自Yahoo日线"
+    },
+    {
+      "id": "googl_valuation",
+      "url": "https://stockanalysis.com/stocks/googl/statistics/",
+      "status": "third_party_snapshot",
+      "facts": {
+        "ttm_pe": 16.08,
+        "forward_pe": 23.96,
+        "p_fcf": 73.6,
+        "reported_fcf_yield_pct": 1.36
+      },
+      "limits": "数据页10月28日检查、价格截至10月27日；预期值为市场估计，尚非自建合理价值模型"
+    },
+    {
+      "id": "googl_q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+      "status": "issuer_disclosure_read",
+      "period_end": "2026-06-30",
+      "publication_date": "2026-07-22",
+      "facts": {
+        "operating_income_yoy_pct": 30,
+        "other_income_net_gain_usd_billions": 98.0,
+        "q2_operating_cash_flow_usd_millions": 39069,
+        "q2_capex_usd_millions": 44924,
+        "q2_fcf_usd_millions": -5855,
+        "ttm_fcf_usd_millions": 53273
+      },
+      "limits": "Q2历史经营基线，不冒充10月28日新业绩；没有将投资浮盈视为可持续经营盈利"
+    },
+    {
+      "id": "googl_earnings_date",
+      "url": "https://abc.xyz/investor/events/default.aspx",
+      "status": "official_details_missing",
+      "secondary_url": "https://stockanalysis.com/stocks/googl/statistics/",
+      "secondary_claim": "2026-10-28美国盘后",
+      "limits": "官方动态页面未返回对应公告正文；不包装成官方已核验日期"
+    },
+    {
+      "id": "qqqm_overlap",
+      "url": "https://www.schwab.wallst.com/schwab/Prospect/research/etfs/schwabETF/index.asp?symbol=QQQM&type=holdings",
+      "status": "constituents_observed",
+      "facts": {
+        "alphabet_share_classes": [
+          "GOOGL",
+          "GOOG"
+        ]
+      },
+      "limits": "持仓生效日期未单列，不将精确权重视为当日实时占比"
+    },
+    {
+      "id": "ter_robotics",
+      "url": "https://investors.teradyne.com/news-events/press-releases/detail/455/teradyne-reports-third-quarter-2026-results",
+      "status": "issuer_disclosure_read",
+      "period_end": "2026-09-27",
+      "facts": {
+        "revenue_usd_millions_rounded": 1306,
+        "robotics_revenue_usd_millions_rounded": 96,
+        "robotics_share_pct_calculated": 7.3506891271056665,
+        "robotics_profitable": "issuer states achieved profitability"
+      },
+      "limits": "占比为公告四舍五入收入之比；本次未完成市场估值，不能称低估；精确分部利润率未用于判断"
+    }
+  ],
+  "changes": {
+    "research_policy": "../research_policy.md",
+    "previous_report_sha256": "fc790290f75776b0a741876357bcea6ee128e6c685decb6c5ad48eaf85fa7c36",
+    "added_price_file": "googl_focus_metrics.json",
+    "existing_price_series_changed": false,
+    "existing_alert_thresholds_changed": false,
+    "allocation_approved": false
+  },
+  "access_limits": [
+    "两个Yahoo原文抽查返回429，未绕过",
+    "公司日期公告转载页超时或403，未绕过",
+    "只读取公开资料，没有发帖或交易"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "report_date_beijing": "2026-10-30",
+  "collected_at_utc": "2026-10-29T23:41:39.059925+00:00",
+  "status": "VALUATION_RESEARCH_INCOMPLETE_MATURE_STAGE_STRESS_ONLY",
+  "new_progress": "Capital profitability check links current P/TBV to prospective sustainable ROTCE; no full equity valuation or target entry price",
+  "quote": {
+    "symbol": "SOFI",
+    "session": "2026-10-29",
+    "regular_close_usd": 17.61,
+    "validation": "Parent supplied Yahoo and StockAnalysis matching regular close; no independent quote request by this subtask"
+  },
+  "sources": [
+    {
+      "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Reports-Third-Quarter-2026-with-Record-Net-Revenue-of-1-4-Billion-Net-Income-of-241-Million-and-Raises-Full-Year-Guidance/default.aspx",
+      "type": "official_Q3_earnings_release",
+      "publication_date": "2026-10-27",
+      "read_scope": "tangible book/ROTCE; GAAP/non-GAAP EPS denominator and guidance; credit assumptions",
+      "facts": {
+        "TBV_usd_m": 9704.959,
+        "TBV_per_common_share_usd": 7.48,
+        "company_reported_quarter_ROTCE_approx_pct": 10,
+        "management_FY2027_adjusted_EPS_outlook_usd": 0.9,
+        "GAAP_quarter_weighted_diluted_shares_m": 1357.811,
+        "adjusted_quarter_weighted_diluted_shares_m": 1331.432,
+        "difference_reason": "NonGAAP adjusted denominator excludes specified convertible-note dilution",
+        "personal_loan_annualized_chargeoff_pct": 2.26,
+        "company_estimated_chargeoff_excluding_late_stage_delinquent_sales_including_recoveries_pct": 3.4,
+        "personal_loan_fair_value_annual_default_assumption_pct": 5.1
+      }
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/pbv.html",
+      "type": "primary_academic_valuation_method",
+      "read_scope": "stable growth price/book relationship, prospective earnings convention, payout/retention/growth identity",
+      "applied_formula": "P/TBV=(prospective sustainable ROTCE-g)/(Ke-g)",
+      "definition": "ROTCE = next-period common earnings / beginning tangible common equity; adaptation uses tangible common equity rather than total book equity"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+      "type": "SEC_submissions_current_index",
+      "read_from": "company_raw/sofi_submissions.json",
+      "read_at_utc": "2026-10-29T23:41:39.060104+00:00",
+      "local_sha256": "ffb1f3ee0e17010864704479afa95652acc7f5f926ed06aeae4cc85ff7f042ef",
+      "recent_8K": "2026-10-27 accession0001818874-26-000065",
+      "latest_10Q": "2026-08-06 accession0001818874-26-000054 report period2026-06-30"
+    }
+  ],
+  "model_assumptions": {
+    "cost_of_equity_pct": 12.0,
+    "long_run_tangible_equity_growth_pct": 4.0,
+    "payout_identity": "retention=g/ROTCE; equity distribution=(ROTCE-g)*beginning tangible book",
+    "clean_surplus_assumed": true,
+    "prospective_ROTE_convention": true,
+    "not_a_user_return_target": true
+  },
+  "calculations": {
+    "P_TBV": 2.35427807486631,
+    "price_div_management_FY2027_adjusted_EPS": 19.566666666666666,
+    "implied_sustainable_prospective_ROTCE_pct": 22.83422459893048,
+    "stress_scenarios": [
+      {
+        "prospective_sustainable_ROTCE_assumption_pct": 15.0,
+        "justified_P_TBV": 1.375,
+        "illustrative_price_usd": 10.285,
+        "difference_from_regular_close_pct": -41.59568427030096
+      },
+      {
+        "prospective_sustainable_ROTCE_assumption_pct": 20.0,
+        "justified_P_TBV": 2.0000000000000004,
+        "illustrative_price_usd": 14.960000000000004,
+        "difference_from_regular_close_pct": -15.048268029528645
+      },
+      {
+        "prospective_sustainable_ROTCE_assumption_pct": 25.0,
+        "justified_P_TBV": 2.6250000000000004,
+        "illustrative_price_usd": 19.635000000000005,
+        "difference_from_regular_close_pct": 11.499148211243648
+      }
+    ]
+  },
+  "limitations": [
+    "Mature-stage stress, not full multistage valuation; high-growth transition/platform independent value not modeled",
+    "Company current-quarter approx10%ROTCE not directly comparable to prospective sustainable modeled return",
+    "No Q3 full10Q available in current supplied submissions index; regulatory capital, fair-value sensitivities, retained credit risk and dilution need full reconciliation",
+    "Ke12% and g4% are subjective research assumptions, not validated market inputs or user-approved return requirements",
+    "Illustrative prices are not entry triggers or loss bounds",
+    "NonGAAP2027EPS0.90 is guidance, not guaranteed outcome or GAAP forecast",
+    "Extended quotes excluded from valuation because timestamps/volume differ"
+  ],
+  "user_context": {
+    "budget_usd": 30000,
+    "horizon_years": [
+      3,
+      5
+    ],
+    "temporary_portfolio_loss_tolerance_approx_pct": 20,
+    "portfolio_sizing_plan_approved": false,
+    "holding_confirmed": false
+  },
+  "not_in_four_symbol_alert_contract": true,
+  "not_traded": true
+}

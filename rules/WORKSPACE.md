@@ -14,6 +14,7 @@
 - 爱室丽选品 Agent 访谈底稿：`contexts/survey_sessions/2026_09_18_ashley_assortment_discovery.md`（公开背景、待核实流程与决策层级，尚未确认内部 SOP）。
 - 通用调研报告：`contexts/survey_sessions/`
 - 美股图文日报：`contexts/survey_sessions/us_market_daily/YYYY-MM-DD/`（日报、行情快照、曲线与行业图）；生成脚本与现有Python环境：`adhoc_jobs/us_market_daily/`
+- A 股 ETF 晨报：`contexts/survey_sessions/a_share_daily/YYYY-MM-DD/`（银行螺丝钉专栏、指定 E 大策略整理文章、上证与科创行情图及来源）；首期采集绘图脚本：`adhoc_jobs/a_share_daily/sample.py`
 - 外部原始资料 / 本地文档归档：`contexts/source_materials/`
 - 绩效 / OKR 历史资料与本人自评语气：[2026 上半年原文档案](../contexts/source_materials/2026_09_16_h1_performance/README.md)（按业务域索引，含 OKR、周报、业务指标、技术方案、4篇历史自评与离线图片）；[本期复盘稿](../contexts/thought_review/2026_09_16_h1_okr_review.md)。
 - 二次理解后的结构化知识卡片：`contexts/knowledge_base/`
@@ -57,3 +58,5 @@
 - `mkagent` → `/Users/xuhao/Documents/Other/mkagent/`（GitHub fork `NolanSoloBuilder/mkagent`；上游 `MkThingsHQ/mkagent`，企业客户 Agent 定制候选底座）
 - `cited-alpha-agent-redesign` → `contexts/survey_sessions/cited_alpha_agent_redesign/README.md`（通用金融研究 Agent 总方案、分层设计与迁移验收入口）
 - `StrongVPN订阅更新` / `重新下载节点并更新订阅` → `rules/skills/strongvpn-node-optimizer/references/subscription_workflow.md`（节点下载、Clash YAML 转换、验证、VPS 原子发布与客户端刷新；当前为一份完整统一订阅）
+
+- 美股在线观察台 / `us-market-site` → `adhoc_jobs/us_market_site/`（独立Sites源码Git；固定公网地址与发布证据见 `contexts/survey_sessions/us_market_daily/cloud_site/`；仅公开行情研究，私账仍本地）

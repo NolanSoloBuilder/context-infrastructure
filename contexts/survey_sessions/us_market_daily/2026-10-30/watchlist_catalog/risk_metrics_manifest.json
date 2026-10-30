@@ -1,0 +1,169 @@
+{
+  "captured_at_utc": "2026-10-30T01:42:15.720363+00:00",
+  "requested_asof": "2026-10-29",
+  "symbols": [
+    {
+      "symbol": "QQQM",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_QQQM_20261030T014215Z.json",
+      "raw_sha256": "445263822e179131199c244dda0898374d0ca1726ad2d40dbcd8b8ecf97f7d96",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "VOO",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_VOO_20261030T014215Z.json",
+      "raw_sha256": "bfae1e67acef62f3714e023c14708a7a953f453b3f6a66d5bbacf80e1b1292bb",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "QQQ",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_QQQ_20261030T014215Z.json",
+      "raw_sha256": "72f313dfe14af3071deb6c603b38c99f5d92a8aee70ae975c1219abef9c1b6f8",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "SPMO",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_SPMO_20261030T014215Z.json",
+      "raw_sha256": "80e1c9c43fa81dbca5b1dea0fa564cfa24a9446589dcc5e8a9943aff81220612",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "MAGS",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_MAGS_20261030T014215Z.json",
+      "raw_sha256": "4188b731f8936900cda60df3569d3c616c6b41f7ca01e814bc2966f2943f1250",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "RRX",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RRX?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_RRX_20261030T014215Z.json",
+      "raw_sha256": "afa3710449554154d67c595eb5588557b036fe846bd8f14ecb00258c4699ca80",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "CGNX",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_CGNX_20261030T014215Z.json",
+      "raw_sha256": "4639bd771d2365ea937a57c8bff144356d5dfe6acabe07b205777a82269ca8b4",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "ATS",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ATS?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_ATS_20261030T014215Z.json",
+      "raw_sha256": "84608172ae83a6161be74b3effe6231485b71b013219915ba6967b57344b1dd5",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "GOOGL",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_GOOGL_20261030T014215Z.json",
+      "raw_sha256": "ea227c2d539c2dc861ffd3b5f836b9812fdd519b3f97e31594c3a9450b0db0ca",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "SMH",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_SMH_20261030T014215Z.json",
+      "raw_sha256": "aa01ce6d6362fe54051c37c4b2729371d8612eb837fc6159638f2c19de01af9d",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "VGT",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_VGT_20261030T014215Z.json",
+      "raw_sha256": "b66e5cadf79027e23cde9d5fe3013e2dfdefcc0de0a65e90895939e3685f0f14",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "NVDA",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_NVDA_20261030T014215Z.json",
+      "raw_sha256": "336e33620a92fad7773f7709dba9dcab06cfd57271950a8cacf358e79570565b",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "SOXX",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_SOXX_20261030T014215Z.json",
+      "raw_sha256": "48956612ded11dcd02f630752373e6ac4abea65757680bbb1cbfeeed80dcf87f",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "DRAM",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_DRAM_20261030T014215Z.json",
+      "raw_sha256": "29cc55fc8ea015efc0f7154ecf6c19b11d01b640718ad5ea137ff009eb8d6d71",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "MRNA",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_MRNA_20261030T014215Z.json",
+      "raw_sha256": "455fc0d8821add61b56583387f16a747f091895ecbbd0f49e0702040fd5ec877",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "SOFI",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_SOFI_20261030T014215Z.json",
+      "raw_sha256": "17bf781149db76386e99af8aff6d6a4a783326564555900c434ac037446c3006",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "BRK-B",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_BRK-B_20261030T014215Z.json",
+      "raw_sha256": "894a161c6655c522a306a8012d7b7e7eba814b09af565468c05461ef37a46137",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    },
+    {
+      "symbol": "SGOV",
+      "asof_session": "2026-10-29",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?range=2y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "raw_file": "raw/metrics_SGOV_20261030T014215Z.json",
+      "raw_sha256": "5fd9d1349ddbca38de0636f856c307fb3a39ed0c99dc6835082b76bc1a8b2fb1",
+      "return_adjustment_status": "adjusted_close",
+      "lag_calendar_days": 0
+    }
+  ],
+  "errors": []
+}

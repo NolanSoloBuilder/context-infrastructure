@@ -1,0 +1,13 @@
+{
+  "profile": "nandong-feishu",
+  "brand": "feishu",
+  "verified_user": "南冬",
+  "app_id": "cli_aa6bccc470bb1c0c",
+  "chat_id": "oc_694dac14c6045bae8f0167003c127188",
+  "chat_name": "陈老师星球内容分享",
+  "sync_sender_app_id": "cli_c08abc1da138d00f",
+  "source_type": "用户指定的私群机器人同步",
+  "filter_contract": "新动态正文/星主回答；不含成员提问和评论，发布前人工审核",
+  "verified_on": "2026-10-28",
+  "shortcut_limitation": "im +chat-messages-list额外需要contact:user.base:readonly；采用CLI api GET同一消息接口读取原始卡片，不做通讯录姓名补全"
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "report_date_beijing": "2026-10-27",
+  "run_id": "2026-10-27-daily",
+  "collection_completed_at_utc": "2026-10-26T23:45:07Z",
+  "scope_status": "selected_public_threads_with_timestamp_and_coverage_gaps",
+  "complete_reddit_scan": false,
+  "discovery": {
+    "communities_considered": [
+      "investing",
+      "stocks",
+      "SecurityAnalysis",
+      "ValueInvesting",
+      "Bogleheads",
+      "ETFs"
+    ],
+    "methods": [
+      "public New listings",
+      "stocks Top day listing",
+      "targeted web search",
+      "original thread body and visible comments",
+      "primary-source verification"
+    ],
+    "limitations": [
+      "New listings except stocks were stale or insufficient; stocks Top day listing was a two-week-old cached snapshot and not used as today's ranking.",
+      "Python RSS request failed local certificate validation; standard system curl request returned HTTP403. No access-control bypass or further retry.",
+      "Precise original post timestamps absent; cannot convert them reliably into Beijing time or certify latest24hours.",
+      "No votes/comment counts reported."
+    ]
+  },
+  "items": [
+    {
+      "item_id": "equal_weight_cap_weight_divergence_2026_10_26",
+      "post_id": "1xfpwel",
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xfpwel/sp_500_is_down_25_since_oct_6_yet_70_of_its/",
+      "community": "stocks",
+      "title": "S&P 500 is down 2.5% since Oct 6 yet 70% of its stocks are up",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "post_time_status": "Not verified: original page returned only relative age; secondary index labels October 26 without timezone.",
+      "event_dates": [
+        "2026-10-06",
+        "2026-10-23",
+        "2026-10-26"
+      ],
+      "content_read": "Original body and visible comment branches; not all collapsed replies.",
+      "classification": "verified_ETF_price_comparison_with_unverified_constituent_breadth",
+      "claims": [
+        {
+          "claim": "RSP price return Oct6 to Oct26 +2.335982%; VOO -1.785819%; through Oct23 +1.982759% / -2.460206%.",
+          "status": "calculated_and_endpoints_cross_checked",
+          "sources": [
+            "https://stockanalysis.com/etf/rsp/history/",
+            "https://stockanalysis.com/etf/voo/history/",
+            "reddit_market_checks.json"
+          ]
+        },
+        {
+          "claim": "70% of S&P constituents rose; median stock is 13% below high; top-four contribution explains most decline.",
+          "status": "not_verified_not_used_as_fact"
+        }
+      ],
+      "counterargument": "Equal weight relative strength does not establish future outperformance or net capital flows; comments also note prior mega-cap contributions and difficulty predicting sector rotation.",
+      "next_check": "Maintain same-date RSP/VOO comparison; verify constituent counts using a dated membership list.",
+      "collected_at_utc": "2026-10-26T23:45:07Z",
+      "post_freshness": "exact_24h_or_72h_window_not_verified",
+      "heat_metrics": null,
+      "automated_trade_signal": false
+    },
+    {
+      "item_id": "ai_cash_returns_calendar_2026_10_28_29",
+      "post_id": "1xfspoa",
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xfspoa/fed_pce_and_big_tech_earnings_the_week_that_could/",
+      "community": "stocks",
+      "title": "Fed, PCE and Big Tech earnings: the week that could reset the AI trade",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "post_time_status": "Not verified: only relative page age available.",
+      "event_dates": [
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "content_read": "Original body; no substantive comments returned.",
+      "classification": "verified_calendar_plus_research_questions_not_earnings_predictions",
+      "claims": [
+        {
+          "claim": "Fed Oct27-28, MSFT Oct28 after regular close, GDP/PCE Oct29 08:30ET, AMZN Oct29 17:00ET call.",
+          "status": "verified_primary_schedule",
+          "sources": [
+            "https://www.federalreserve.gov/newsevents/2026-october.htm",
+            "https://www.microsoft.com/en-us/investor/faq",
+            "https://www.bea.gov/news/schedule",
+            "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+          ]
+        },
+        {
+          "claim": "AI revenue growth should be evaluated against capital expenditure, cash generation and return on investment.",
+          "status": "research_framework_not_current_earnings_fact"
+        },
+        {
+          "claim": "Post rate probabilities, consensus PCE and other earnings dates.",
+          "status": "not_independently_verified_not_adopted"
+        }
+      ],
+      "counterargument": "Upfront investment can depress current free cash flow while creating future value; growth does not guarantee stock gains; no comment consensus was available.",
+      "next_check": "Read actual company releases and cash-flow statements when published.",
+      "collected_at_utc": "2026-10-26T23:45:07Z",
+      "post_freshness": "exact_24h_or_72h_window_not_verified",
+      "heat_metrics": null,
+      "automated_trade_signal": false
+    },
+    {
+      "item_id": "neocloud_consolidation_forecast_scope_2026_10_14",
+      "post_id": "1xftfdv",
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xftfdv/elon_musk_warns_200_ai_startups_face_guppylevel/",
+      "community": "stocks",
+      "title": "Elon Musk Warns 200+ AI startups Face Guppy-Level Death",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "post_time_status": "Not verified: only relative page age available.",
+      "event_dates": [
+        "2026-10-14"
+      ],
+      "content_read": "Original body and visible comments discussing financing costs and skepticism; collapsed replies not read.",
+      "classification": "verified_existence_and_scope_of_forecast_other_claims_unverified",
+      "claims": [
+        {
+          "claim": "Gartner Oct14 predicts over80% of neocloud providers cease independent operations by2030. Forecast, not realized bankruptcies.",
+          "status": "forecast_publication_verified_primary",
+          "sources": [
+            "https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030"
+          ]
+        },
+        {
+          "claim": "Musk quotation and all lenders shutting funding, exact200+ affected companies, premarket-to-close causality.",
+          "status": "not_verified_from_primary_material_not_adopted"
+        }
+      ],
+      "counterargument": "Ceasing independent operations need not mean bankruptcy; financing and cash sources vary across firms, and consolidation need not eliminate equipment demand.",
+      "next_check": "Company-level liquidity, maturity schedule, interest costs, contract cash collection and capex obligations.",
+      "collected_at_utc": "2026-10-26T23:45:07Z",
+      "post_freshness": "exact_24h_or_72h_window_not_verified",
+      "heat_metrics": null,
+      "automated_trade_signal": false
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.reddit.com/r/ValueInvesting/comments/1xfylot/",
+      "reason": "Reddit valuation theme repeated already-reported Q2/earnings arguments without verified substantive increment."
+    },
+    {
+      "claim_keys": [
+        "bkd_occupancy_profit_quality_2026q3",
+        "rddt_q3_2026_users_monetization_event",
+        "staged_entry_not_drawdown_protection"
+      ],
+      "reason": "Already reported October26; no newly verified material change adopted."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "valuation_date_beijing": "2026-10-29",
+  "quote_session_us": "2026-10-28",
+  "financial_basis": "Partial operations update only: Q3 TTM revenue and EBIT, Sep30 shares; entire June capital bridge frozen and separately isolated. NOT a fully refreshed valuation.",
+  "units": "USD billions and billion current common shares; per-share prices USD",
+  "facts": {
+    "close_usd": 324.89,
+    "ttm_revenue_B": 471.101,
+    "ttm_ebit_B": 156.976,
+    "non_equity_cash_and_bonds_B": 155.411,
+    "market_equity_B": 101.189,
+    "private_investments_B": 131.461,
+    "interest_debt_B": 100.164,
+    "finance_lease_B": 2.59,
+    "preferred_claim_B": 19.25,
+    "nci_proxy_B": 7.1,
+    "current_common_shares_B": 12.294
+  },
+  "source_basis": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/d36818d8k.htm",
+    "https://stockanalysis.com/stocks/googl/statistics/",
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+  ],
+  "accounting_policy": {
+    "sbc": "Retained in EBIT as an economic operating cost; never added back. Hold current share count, with an extra 10% dilution sensitivity separately.",
+    "leases": "Operating rental cash cost retained in EBIT; operating lease debt is not separately deducted. Forecast capex includes cash and future financed asset purchases; finance lease debt deducted, principal is not an extra operating outflow.",
+    "preferred": "Deduct liquidation preference as claim-value proxy, exclude conversion shares; not both claim and if-converted share count. Future preferred coupons included in this claim-value approximation, not separately deducted again.",
+    "investments": "Investment income excluded from EBIT; mark-date/tax/liquidity haircut applied to investment assets, without another full deferred-tax subtraction.",
+    "working_capital": "2% of incremental revenue; excludes separately reserved 20–40B operating cash.",
+    "terminal": "Years6–10 revenue growth fades linearly from growth_next5 to terminal_growth. FCFF11=NOPAT10*(1+g)*(1-g/ROIC). Capex year10 uses actual year10 growth, which now equals terminal growth; no terminal reinvestment discontinuity.",
+    "assumptions": "All growth, margins, taxes, capex, D&A, discount/terminal rates, reserve, retention factors and scenario bands below are analyst assumptions, not management guidance or probability estimates."
+  },
+  "scenarios": [
+    {
+      "name": "保守压力",
+      "growth_first5": 0.1,
+      "growth_next5": 0.05,
+      "mature_ebit_margin": 0.28,
+      "tax_rate": 0.21,
+      "wacc": 0.11,
+      "terminal_growth": 0.025,
+      "terminal_roic": 0.12,
+      "capex_revenue_ratios": [
+        0.43,
+        0.45,
+        0.42,
+        0.36,
+        0.32,
+        0.28,
+        0.24,
+        0.21,
+        0.19,
+        null
+      ],
+      "da_revenue_ratios": [
+        0.08,
+        0.1,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "incremental_nwc_ratio": 0.02,
+      "operating_cash_reserve_B": 40,
+      "market_equity_retention": 0.5,
+      "private_investments_retention": 0.25
+    },
+    {
+      "name": "基准",
+      "growth_first5": 0.18,
+      "growth_next5": 0.09,
+      "mature_ebit_margin": 0.36,
+      "tax_rate": 0.21,
+      "wacc": 0.1,
+      "terminal_growth": 0.03,
+      "terminal_roic": 0.15,
+      "capex_revenue_ratios": [
+        0.44,
+        0.45,
+        0.38,
+        0.32,
+        0.27,
+        0.235,
+        0.21,
+        0.19,
+        0.18,
+        null
+      ],
+      "da_revenue_ratios": [
+        0.08,
+        0.1,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "incremental_nwc_ratio": 0.02,
+      "operating_cash_reserve_B": 30,
+      "market_equity_retention": 0.7,
+      "private_investments_retention": 0.5
+    },
+    {
+      "name": "乐观兑现",
+      "growth_first5": 0.22,
+      "growth_next5": 0.12,
+      "mature_ebit_margin": 0.38,
+      "tax_rate": 0.21,
+      "wacc": 0.09,
+      "terminal_growth": 0.035,
+      "terminal_roic": 0.18,
+      "capex_revenue_ratios": [
+        0.4,
+        0.4,
+        0.33,
+        0.28,
+        0.24,
+        0.21,
+        0.19,
+        0.18,
+        0.17,
+        null
+      ],
+      "da_revenue_ratios": [
+        0.08,
+        0.1,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "incremental_nwc_ratio": 0.02,
+      "operating_cash_reserve_B": 20,
+      "market_equity_retention": 0.9,
+      "private_investments_retention": 0.75
+    }
+  ]
+}

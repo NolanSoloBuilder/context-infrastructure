@@ -1,0 +1,114 @@
+{
+  "verified_at_utc": "2026-10-26T23:42:25.073232+00:00",
+  "session": "2026-10-26",
+  "report_date_beijing": "2026-10-27",
+  "numerical_checks_passed": true,
+  "watchlist": {
+    "BRK-B": {
+      "close": 548.56,
+      "raw_high_52w": 549.96002197,
+      "display_high_52w": 549.96,
+      "high_date": "2026-10-22",
+      "drawdown_magnitude_pct": 0.25456839736108794,
+      "previous_20_session_mean_volume": 4446820.0,
+      "current_volume": 4690175,
+      "volume_ratio": 1.0547256241538898,
+      "normalization_end": 106.902596
+    },
+    "QQQ": {
+      "close": 712.2,
+      "raw_high_52w": 762.85998535,
+      "display_high_52w": 762.86,
+      "high_date": "2026-10-06",
+      "drawdown_magnitude_pct": 6.6407957052806665,
+      "previous_20_session_mean_volume": 36761255.0,
+      "current_volume": 32734475,
+      "volume_ratio": 0.8904613022596753,
+      "normalization_end": null
+    },
+    "QQQM": {
+      "close": 293.26,
+      "raw_high_52w": 314.11499023,
+      "display_high_52w": 314.11,
+      "high_date": "2026-10-06",
+      "drawdown_magnitude_pct": 6.639282147340109,
+      "previous_20_session_mean_volume": 2906775.0,
+      "current_volume": 3864489,
+      "volume_ratio": 1.3294764816678277,
+      "normalization_end": 101.731023
+    },
+    "VOO": {
+      "close": 703.41,
+      "raw_high_52w": 718.4699707,
+      "display_high_52w": 718.47,
+      "high_date": "2026-10-06",
+      "drawdown_magnitude_pct": 2.0961206692960865,
+      "previous_20_session_mean_volume": 6041695.0,
+      "current_volume": 4902922,
+      "volume_ratio": 0.8115143184156102,
+      "normalization_end": 101.006598
+    }
+  },
+  "historical_drawdown_points_checked_without_lookahead": 180,
+  "chart_sessions": 60,
+  "chart_start": "2026-08-03",
+  "chart_end": "2026-10-26",
+  "chart_visual_review": "Both PNGs opened and inspected: Chinese labels, legends, thresholds, axis signs and latest values readable.",
+  "sector_count": 12,
+  "sector_breadth_excluding_smh": {
+    "up": 7,
+    "down": 3,
+    "unchanged": 1
+  },
+  "cross_check": {
+    "watchlist_close_source": "Stock Analysis historical tables, regular close October 26, 2026",
+    "watchlist_close_match": true,
+    "high_prices_and_dates_match_except_qqqm": true,
+    "QQQM_high_difference": {
+      "Yahoo_display": 314.11,
+      "Yahoo_raw": 314.11499023,
+      "StockAnalysis": 314.12,
+      "Yahoo_15_level": 266.99,
+      "StockAnalysis_15_level": 267.0,
+      "treatment": "Keep one Yahoo series throughout; calculate returns on raw series, display quotes to cents and compute observation prices after restoring high to cents; difference does not affect stage."
+    },
+    "NDX_close_difference": {
+      "Yahoo": 29273.4,
+      "Investing.com": 29273.41,
+      "treatment": "Yahoo retained; 0.01 index point rounding/provider difference disclosed."
+    },
+    "volumes_differ_between_providers": true,
+    "StockAnalysis_volumes": {
+      "QQQ": 33021469,
+      "QQQM": 3876663,
+      "VOO": 4921123,
+      "BRK-B": 4664143
+    },
+    "SMH_XLE_XLC_close_checked": true,
+    "RSP_closes_checked": [
+      {
+        "date": "2026-10-06",
+        "close": 212.33
+      },
+      {
+        "date": "2026-10-23",
+        "close": 216.54
+      },
+      {
+        "date": "2026-10-26",
+        "close": 217.29
+      }
+    ]
+  },
+  "limitations": [
+    "Price bars are third-party; not an exchange-certified execution record.",
+    "Historical bars and volume calculations use one consistent Yahoo series; selected current quotes and high-date bars cross-checked.",
+    "Valuations and constituent-level market breadth not verified.",
+    "Reddit post timestamps unavailable; visible body/comments read, public RSS returned HTTP403.",
+    "Alphabet IR event text unavailable; Apple date only visible in official-site search index; not included as confirmed main calendar events."
+  ],
+  "images": {
+    "watchlist_curves.png": "3d0d0c6c4124c67d93a9e95041538b53f1a11478b96021dbfdad0aeedfda3abb",
+    "sector_daily.png": "33e7f4941c848e3c2c3b183f2b548de98477daa0cb0786ee5f913166551ac740"
+  }
+}

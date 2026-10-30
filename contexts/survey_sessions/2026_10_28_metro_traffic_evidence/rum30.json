@@ -1,0 +1,270 @@
+{
+  "data": {
+    "viewer": {
+      "accounts": [
+        {
+          "countries": [
+            {
+              "count": 6230,
+              "dimensions": {
+                "countryName": "CN"
+              },
+              "sum": {
+                "visits": 730
+              }
+            }
+          ],
+          "days": [
+            {
+              "count": 1340,
+              "dimensions": {
+                "date": "2026-10-23"
+              },
+              "sum": {
+                "visits": 150
+              }
+            },
+            {
+              "count": 70,
+              "dimensions": {
+                "date": "2026-10-27"
+              },
+              "sum": {
+                "visits": 20
+              }
+            },
+            {
+              "count": 320,
+              "dimensions": {
+                "date": "2026-10-12"
+              },
+              "sum": {
+                "visits": 40
+              }
+            },
+            {
+              "count": 90,
+              "dimensions": {
+                "date": "2026-10-02"
+              },
+              "sum": {
+                "visits": 10
+              }
+            },
+            {
+              "count": 10,
+              "dimensions": {
+                "date": "2026-10-14"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 910,
+              "dimensions": {
+                "date": "2026-10-21"
+              },
+              "sum": {
+                "visits": 50
+              }
+            },
+            {
+              "count": 140,
+              "dimensions": {
+                "date": "2026-10-01"
+              },
+              "sum": {
+                "visits": 20
+              }
+            },
+            {
+              "count": 30,
+              "dimensions": {
+                "date": "2026-10-05"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 10,
+              "dimensions": {
+                "date": "2026-10-17"
+              },
+              "sum": {
+                "visits": 10
+              }
+            },
+            {
+              "count": 30,
+              "dimensions": {
+                "date": "2026-10-09"
+              },
+              "sum": {
+                "visits": 10
+              }
+            },
+            {
+              "count": 10,
+              "dimensions": {
+                "date": "2026-10-26"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 160,
+              "dimensions": {
+                "date": "2026-10-13"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 30,
+              "dimensions": {
+                "date": "2026-10-06"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 10,
+              "dimensions": {
+                "date": "2026-10-04"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 700,
+              "dimensions": {
+                "date": "2026-10-20"
+              },
+              "sum": {
+                "visits": 90
+              }
+            },
+            {
+              "count": 640,
+              "dimensions": {
+                "date": "2026-10-19"
+              },
+              "sum": {
+                "visits": 110
+              }
+            },
+            {
+              "count": 110,
+              "dimensions": {
+                "date": "2026-09-29"
+              },
+              "sum": {
+                "visits": 10
+              }
+            },
+            {
+              "count": 40,
+              "dimensions": {
+                "date": "2026-10-03"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 1580,
+              "dimensions": {
+                "date": "2026-10-15"
+              },
+              "sum": {
+                "visits": 210
+              }
+            }
+          ],
+          "devices": [
+            {
+              "count": 5670,
+              "dimensions": {
+                "deviceType": "desktop"
+              },
+              "sum": {
+                "visits": 650
+              }
+            },
+            {
+              "count": 440,
+              "dimensions": {
+                "deviceType": "mobile"
+              },
+              "sum": {
+                "visits": 70
+              }
+            },
+            {
+              "count": 120,
+              "dimensions": {
+                "deviceType": "tablet"
+              },
+              "sum": {
+                "visits": 10
+              }
+            }
+          ],
+          "sources": [
+            {
+              "count": 5500,
+              "dimensions": {
+                "refererHost": "metro.forgepane.com"
+              },
+              "sum": {
+                "visits": 0
+              }
+            },
+            {
+              "count": 10,
+              "dimensions": {
+                "refererHost": "ntp.msn.cn"
+              },
+              "sum": {
+                "visits": 10
+              }
+            },
+            {
+              "count": 10,
+              "dimensions": {
+                "refererHost": "www.baidu.com"
+              },
+              "sum": {
+                "visits": 10
+              }
+            },
+            {
+              "count": 710,
+              "dimensions": {
+                "refererHost": ""
+              },
+              "sum": {
+                "visits": 710
+              }
+            }
+          ],
+          "total": [
+            {
+              "count": 6230,
+              "sum": {
+                "visits": 730
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "errors": null
+}

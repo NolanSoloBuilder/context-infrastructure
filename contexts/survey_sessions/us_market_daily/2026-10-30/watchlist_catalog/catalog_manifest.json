@@ -1,0 +1,9 @@
+{
+  "input": "contexts/survey_sessions/us_market_daily/2026-10-30/watchlist_catalog/catalog.json",
+  "metrics": "contexts/survey_sessions/us_market_daily/2026-10-30/watchlist_catalog/risk_metrics.json",
+  "output": "contexts/survey_sessions/us_market_daily/2026-10-30/watchlist_catalog/report.html",
+  "assets": 17,
+  "layout": "all ETFs together, stocks separate; daily report shared style",
+  "sha256": "a9be01e9a80e28f8dafb102f483e3614a770349e29907cb49a83c0a945281eaa",
+  "external_runtime_requests": false
+}

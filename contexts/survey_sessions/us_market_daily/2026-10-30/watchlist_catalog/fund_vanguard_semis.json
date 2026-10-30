@@ -1,0 +1,467 @@
+{
+  "collected_at": "2026-10-30T01:28:36.202432+00:00",
+  "funds": {
+    "VGT": {
+      "name": "Vanguard Information Technology ETF",
+      "type": "信息技术行业指数ETF",
+      "strategy": "跟踪 MSCI US Investable Market Information Technology 25/50 Index，覆盖美国大中小市值信息技术公司。",
+      "expense_pct": 0.09,
+      "holdings_count": 318,
+      "holdings_date": "2026-09-30",
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "weight_pct": 17.6
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple",
+          "weight_pct": 15.9
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "weight_pct": 11.2
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron",
+          "weight_pct": 4.5
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom",
+          "weight_pct": 4.1
+        },
+        {
+          "symbol": "AMD",
+          "name": "AMD",
+          "weight_pct": 3.7
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel",
+          "weight_pct": 2.0
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco",
+          "weight_pct": 1.6
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research",
+          "weight_pct": 1.6
+        },
+        {
+          "symbol": "PLTR",
+          "name": "Palantir",
+          "weight_pct": 1.6
+        }
+      ],
+      "notes": [
+        "前十合计63.7%；前三44.7%，股票数量多并不代表权重平均。",
+        "GICS信息技术行业范围与纳指100不同；Alphabet、Meta归通信服务，Amazon、Tesla归可选消费，不能把VGT当作涵盖所有科技巨头的组合。",
+        "半导体38.1%＋半导体材料及设备5.5%=43.6%（9/30），因此与SMH、SOXX和NVDA存在较多共同风险。"
+      ],
+      "risks": [
+        "行业集中、估值与利率敏感；增加VGT会提高科技与半导体敞口。"
+      ],
+      "sources": [
+        {
+          "url": "https://fund-docs.vanguard.com/F0958.pdf",
+          "title": "Vanguard VGT官方月末事实表",
+          "asof": "2026-09-30"
+        }
+      ],
+      "gaps": [
+        "动态网页未能提供完整可读持仓，使用最新可读取9/30官方PDF，非10/29即时持仓。"
+      ],
+      "metrics": {
+        "pe": 32.8,
+        "pb": 11.0,
+        "metrics_date": "2026-09-30",
+        "fund_etf_assets_usd": 154542000000,
+        "distribution": "季度"
+      }
+    },
+    "VOO": {
+      "name": "Vanguard S&P 500 ETF",
+      "type": "美国大盘宽基指数ETF",
+      "strategy": "被动复制标普500指数，覆盖美国主要行业的大型公司。",
+      "expense_pct": 0.03,
+      "holdings_count": 505,
+      "holdings_date": "2026-09-30",
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "weight_pct": 8.4
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple",
+          "weight_pct": 7.4
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "weight_pct": 5.8
+        },
+        {
+          "symbol": "GOOGL/GOOG",
+          "name": "Alphabet（类别合并）",
+          "weight_pct": 5.5
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon",
+          "weight_pct": 3.7
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom",
+          "weight_pct": 2.5
+        },
+        {
+          "symbol": "META",
+          "name": "Meta",
+          "weight_pct": 2.4
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron",
+          "weight_pct": 1.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "weight_pct": 1.5
+        },
+        {
+          "symbol": "AMD",
+          "name": "AMD",
+          "weight_pct": 1.5
+        }
+      ],
+      "notes": [
+        "前十大公司合计40.6%；Alphabet为A/C类合并口径，不能再把GOOGL与GOOG重复相加。",
+        "信息技术39.7%，仍有明显科技权重；与QQQM、VGT、MAGS及单独GOOGL/NVDA会重叠。",
+        "在本观察池中可作为较广泛的股票核心研究对象；全股票ETF仍可能出现超过20%的阶段性跌幅。"
+      ],
+      "risks": [
+        "美国大盘整体估值与盈利风险；宽基覆盖并不限制最大回撤。"
+      ],
+      "sources": [
+        {
+          "url": "https://fund-docs.vanguard.com/F0968.pdf",
+          "title": "Vanguard VOO官方月末事实表",
+          "asof": "2026-09-30"
+        }
+      ],
+      "gaps": [
+        "使用9/30官方月末披露，不把它写成10/29最新持仓。"
+      ],
+      "metrics": {
+        "pe": 24.7,
+        "pb": 5.3,
+        "metrics_date": "2026-09-30",
+        "fund_etf_assets_usd": 1032260000000,
+        "distribution": "季度"
+      }
+    },
+    "SMH": {
+      "name": "VanEck Semiconductor ETF",
+      "type": "半导体行业指数ETF",
+      "strategy": "跟踪MVIS US Listed Semiconductor 25 Index，覆盖芯片生产和设备；可纳入美国上市的外国企业。",
+      "expense_pct": 0.35,
+      "holdings_count": 26,
+      "holdings_date": "2026-10-28",
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "weight_pct": 19.56
+        },
+        {
+          "symbol": "TSM",
+          "name": "台积电",
+          "weight_pct": 9.54
+        },
+        {
+          "symbol": "AMD",
+          "name": "AMD",
+          "weight_pct": 5.64
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom",
+          "weight_pct": 5.58
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments",
+          "weight_pct": 5.4
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron",
+          "weight_pct": 4.86
+        },
+        {
+          "symbol": "ADI",
+          "name": "Analog Devices",
+          "weight_pct": 4.68
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell",
+          "weight_pct": 4.56
+        },
+        {
+          "symbol": "ASML",
+          "name": "ASML",
+          "weight_pct": 4.39
+        },
+        {
+          "symbol": "SKHY",
+          "name": "SK hynix",
+          "weight_pct": 4.21
+        }
+      ],
+      "notes": [
+        "26项为官网总持仓口径，含现金；指数名中的25指目标股票组合，不应写成26家芯片公司。",
+        "同为10/28持仓：SMH的NVDA19.56%、TSM9.54%；SOXX分别7.59%、3.15%，SMH对这两家公司更集中。",
+        "前十68.42%（根据披露权重相加）；SMH/SOXX一起买主要改变权重，并未增加行业之间的分散。"
+      ],
+      "risks": [
+        "芯片周期、AI资本开支、地缘与出口限制；对NVDA及台积电依赖明显。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/holdings/",
+          "title": "VanEck SMH官方每日持仓与产品页",
+          "asof": "2026-10-28"
+        }
+      ],
+      "gaps": [
+        "本次官网最新可读持仓停留10/28，未当作10/29持仓。"
+      ],
+      "metrics": {
+        "distribution": "年度"
+      }
+    },
+    "SOXX": {
+      "name": "iShares Semiconductor ETF",
+      "type": "半导体行业指数ETF",
+      "strategy": "跟踪NYSE Semiconductor Index，覆盖30只美国上市半导体产业链股票。",
+      "expense_pct": 0.33,
+      "holdings_count": 30,
+      "holdings_date": "2026-10-28",
+      "holdings": [
+        {
+          "symbol": "AMD",
+          "name": "ADVANCED MICRO DEVICES",
+          "weight_pct": 9.56
+        },
+        {
+          "symbol": "INTC",
+          "name": "INTEL CORPORATION",
+          "weight_pct": 8.31
+        },
+        {
+          "symbol": "MU",
+          "name": "MICRON TECHNOLOGY",
+          "weight_pct": 7.98
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "weight_pct": 7.59
+        },
+        {
+          "symbol": "AVGO",
+          "name": "BROADCOM INC",
+          "weight_pct": 7.39
+        },
+        {
+          "symbol": "MRVL",
+          "name": "MARVELL TECHNOLOGY",
+          "weight_pct": 4.63
+        },
+        {
+          "symbol": "TXN",
+          "name": "TEXAS INSTRUMENT",
+          "weight_pct": 4.62
+        },
+        {
+          "symbol": "ADI",
+          "name": "ANALOG DEVICES",
+          "weight_pct": 4.6
+        },
+        {
+          "symbol": "QCOM",
+          "name": "QUALCOMM",
+          "weight_pct": 4.18
+        },
+        {
+          "symbol": "AMAT",
+          "name": "APPLIED MATERIAL INC",
+          "weight_pct": 3.53
+        }
+      ],
+      "notes": [
+        "当日半导体84.25%、设备15.71%；与SMH共同覆盖芯片产业，但头部权重不同。",
+        "官方产品页当前费率为0.33%，不能继续引用旧0.35%或0.34%。",
+        "官方公告：2026-11-03为拆股登记日、11/04收盘后实施，11/05起拆股调整交易；该页未显示比例，本资料不猜比例。"
+      ],
+      "risks": [
+        "行业风险、信用与估值周期高度相关；较低单股权重仍不能保证低回撤。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf",
+          "title": "iShares SOXX官方产品页",
+          "asof": "2026-10-28/29"
+        },
+        {
+          "url": "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv",
+          "title": "iShares SOXX官方持仓CSV",
+          "asof": "2026-10-28"
+        }
+      ],
+      "gaps": [
+        "产品页各字段更新日不同：NAV和资产为10/29，股票持仓/估值/量能为10/28。"
+      ],
+      "metrics": {
+        "pe": 44.7,
+        "pb": 10,
+        "metrics_date": "2026-10-28",
+        "distribution": "季度",
+        "median_spread_30d_pct": 0.02,
+        "avg_volume_30d": 8521560,
+        "volume_metrics_date": "2026-10-28"
+      }
+    },
+    "SGOV": {
+      "name": "iShares 0-3 Month Treasury Bond ETF",
+      "type": "短期美国国债指数ETF",
+      "strategy": "跟踪ICE 0-3 Month US Treasury Securities Index；以短期美国国库券管理流动性。",
+      "expense_pct": 0.09,
+      "holdings_date": "2026-10-28",
+      "holdings": [
+        {
+          "symbol": "912797WE3",
+          "name": "美债国库券2026-12-08到期",
+          "weight_pct": 8.53
+        },
+        {
+          "symbol": "912797WF0",
+          "name": "美债国库券2026-12-15到期",
+          "weight_pct": 8.19
+        },
+        {
+          "symbol": "912797VX2",
+          "name": "美债国库券2026-11-17到期",
+          "weight_pct": 7.63
+        },
+        {
+          "symbol": "912797WG8",
+          "name": "美债国库券2026-12-22到期",
+          "weight_pct": 6.87
+        },
+        {
+          "symbol": "912797VY0",
+          "name": "美债国库券2026-11-24到期",
+          "weight_pct": 6.8
+        }
+      ],
+      "notes": [
+        "30日SEC收益率3.79%（10/28，扣基金费用口径），12个月分配收益率3.64%是另一口径。",
+        "月度分配；收益会随短端利率变化。除息价格回落需与派息合看，价格涨跌不等于总回报。",
+        "有效久期0.11年；属于防守资产候选，用户尚未确认持有。"
+      ],
+      "risks": [
+        "不是银行存款；价格、买卖价差、税务和利率下降导致再投资收益下降。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+          "title": "iShares SGOV官方产品页",
+          "asof": "2026-10-28/29"
+        },
+        {
+          "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf/latest-holdings.csv",
+          "title": "iShares SGOV官方持仓CSV",
+          "asof": "2026-10-28"
+        }
+      ],
+      "gaps": [
+        "官网Number of Holdings字段显示0，与实际持仓CSV矛盾，故不引用该数量字段。"
+      ],
+      "metrics": {
+        "sec_yield_30d_pct": 3.79,
+        "yield_date": "2026-10-28",
+        "effective_duration_years": 0.11,
+        "distribution": "月度",
+        "median_spread_30d_pct": 0.01
+      }
+    },
+    "QQQ": {
+      "name": "Invesco QQQ Trust, Series 1",
+      "type": "纳斯达克100指数ETF",
+      "strategy": "跟踪纳斯达克100，覆盖纳斯达克上市的主要非金融企业。",
+      "expense_pct": 0.18,
+      "holdings_date": null,
+      "holdings": [],
+      "notes": [
+        "与QQQM跟踪同一指数，按同一经济暴露合并考虑。",
+        "官方说明QQQ更常用于追求流动性的交易者；长期研究同时比较QQQM费用。"
+      ],
+      "risks": [
+        "成长与头部公司集中、估值与利率敏感。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-qqq-trust-series-1.html",
+          "title": "Invesco QQQ官方产品页",
+          "asof": "2026-10-14（规模/持仓数），费率当前网页"
+        }
+      ],
+      "gaps": [
+        "当前完整持仓未成功取回，不填写实时前十权重。"
+      ]
+    },
+    "QQQM": {
+      "name": "Invesco NASDAQ 100 ETF",
+      "type": "纳斯达克100指数ETF",
+      "strategy": "至少90%资产投资纳斯达克100成分；季度再平衡，年度重构。",
+      "expense_pct": 0.15,
+      "holdings_date": null,
+      "holdings": [],
+      "notes": [
+        "与QQQ同指数，费用较低；本次仍需比较实际价差和成交条件。",
+        "包含金融以外多个行业，范围与纯信息技术行业VGT不同。"
+      ],
+      "risks": [
+        "与VOO、MAGS、VGT以及GOOGL/NVDA存在重复暴露。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.invesco.com/us-rest/contentdetail?contentId=3bb2c37291215710VgnVCM1000006e36b50aRCRD&dnsName=us",
+          "title": "Invesco QQQM官方产品说明",
+          "asof": "2026-03-31版（费用/策略）"
+        },
+        {
+          "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html",
+          "title": "Invesco QQQM产品页",
+          "asof": "2026-10-30读取，动态内容未完整显示"
+        }
+      ],
+      "gaps": [
+        "最新官方持仓下载页面返回地区选择页；不填未经核验权重。"
+      ]
+    }
+  }
+}

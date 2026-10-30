@@ -1,0 +1,287 @@
+{
+  "asof": "2026-10-27",
+  "overall_star": 4.8,
+  "membership_basis": "作者当日常规估值原图绿色品种；结构化整理页接口低估分类辅助录入；不使用其阈值计算分类替代作者分类",
+  "source_article": "https://www.sina.cn/news/detail/5358751491031596.html",
+  "source_image": "sources/3001_first.jpg",
+  "auxiliary_source": "https://yzb.yhlsd.com/",
+  "count": 27,
+  "rows": [
+    {
+      "name": "中证全指",
+      "code": "CSI000985",
+      "group": "宽基",
+      "metric": "市盈率",
+      "display": "15.17倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证800",
+      "code": "SH000906",
+      "group": "宽基",
+      "metric": "市盈率",
+      "display": "14.16倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证500",
+      "code": "SH000905",
+      "group": "宽基",
+      "metric": "市盈率",
+      "display": "23.90倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "沪深300",
+      "code": "SH000300",
+      "group": "宽基",
+      "metric": "市盈率",
+      "display": "11.60倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证A50",
+      "code": "CSI930050",
+      "group": "策略",
+      "metric": "市盈率",
+      "display": "15.72倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "MSCI质量",
+      "code": "MI707717L",
+      "group": "策略",
+      "metric": "市盈率",
+      "display": "23.52倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证A500",
+      "code": "CSI000510",
+      "group": "策略",
+      "metric": "市盈率",
+      "display": "17.69倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证红利低波",
+      "code": "CSIH30269",
+      "group": "策略",
+      "metric": "盈利收益率",
+      "display": "11.09%",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "优选300",
+      "code": "CSI931069",
+      "group": "策略",
+      "metric": "盈利收益率",
+      "display": "10.54%",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "自由现金流",
+      "code": "CSI932365",
+      "group": "策略",
+      "metric": "市盈率",
+      "display": "10.76倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "沪港深红利低波",
+      "code": "CSI931157",
+      "group": "策略",
+      "metric": "盈利收益率",
+      "display": "10.52%",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证价值",
+      "code": "CSI931052",
+      "group": "策略",
+      "metric": "市盈率",
+      "display": "10.75倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证A100",
+      "code": "SH000903",
+      "group": "策略",
+      "metric": "市盈率",
+      "display": "14.74倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证红利",
+      "code": "SH000922",
+      "group": "策略",
+      "metric": "盈利收益率",
+      "display": "10.21%",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "沪港深消费50",
+      "code": "CSI931357",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "24.63倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证白酒",
+      "code": "399997",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "21.66倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "食品饮料",
+      "code": "CSI930653",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "23.56倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证消费",
+      "code": "000932",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "24.14倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "生物科技",
+      "code": "CSI930743",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "50.48倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "消费红利",
+      "code": "CSIH30094",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "21.38倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "中证医疗",
+      "code": "399989",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "49.25倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "消费龙头",
+      "code": "CSI931068",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "22.10倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "恒生消费",
+      "code": "HKHSCGSI",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "13.82倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "消费50",
+      "code": "CSI931139",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "22.03倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "证券行业",
+      "code": "399975",
+      "group": "行业",
+      "metric": "市净率",
+      "display": "1.52倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    },
+    {
+      "name": "医药100",
+      "code": "000978",
+      "group": "行业",
+      "metric": "市盈率",
+      "display": "28.27倍",
+      "author_status": "低估",
+      "threshold_status": "正常",
+      "status_mismatch": true
+    },
+    {
+      "name": "港股科技",
+      "code": "CSI931573",
+      "group": "主题",
+      "metric": "市盈率",
+      "display": "31.22倍",
+      "author_status": "低估",
+      "threshold_status": "低估",
+      "status_mismatch": false
+    }
+  ],
+  "notes": [
+    "整体星级与单个指数低估分类是不同指标",
+    "市盈率/市净率以倍计，盈利收益率以%计，不能直接混排比较",
+    "医药100原图绿色及接口低估，整理页阈值计算却为正常，保留低估行并显式标差异",
+    "基金参考代码未加入本表，避免把指数低估名单当成已核验的ETF买入清单"
+  ]
+}

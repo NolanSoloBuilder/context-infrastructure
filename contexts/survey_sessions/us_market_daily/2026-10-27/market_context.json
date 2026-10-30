@@ -1,0 +1,95 @@
+{
+  "report_date_beijing": "2026-10-27",
+  "session": "2026-10-26",
+  "checked_at_utc": "2026-10-26T23:45:07Z",
+  "regular_stock_close_utc": "2026-10-26T20:00:00Z",
+  "regular_stock_close_beijing": "2026-10-27T04:00:00+08:00",
+  "calendar": {
+    "source": "https://www.nyse.com/trade/hours-calendars",
+    "is_new_completed_session": true,
+    "next_session": "2026-10-27",
+    "next_open_beijing": "2026-10-27T21:30:00+08:00"
+  },
+  "macro": [
+    {
+      "name": "VIX",
+      "value": 18.39,
+      "day_change": -1.06,
+      "day_pct": -5.45,
+      "asof": "2026-10-26",
+      "source": "https://www.cboe.com/tradable-products/vix/",
+      "basis": "Cboe dated quote matches Yahoo daily; Cboe page also displays data as of8:15PM without a clearly stated timezone. Not asserted simultaneous with4PM stock close."
+    },
+    {
+      "name": "US2Y",
+      "value_pct": 4.68,
+      "previous_session_pct": 4.69,
+      "asof": "2026-10-26",
+      "basis": "Treasury daily par yield curve reference, not executable quote",
+      "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+    },
+    {
+      "name": "US10Y",
+      "value_pct": 5,
+      "previous_session_pct": 5,
+      "asof": "2026-10-26",
+      "basis": "Treasury daily par yield curve reference, not executable quote",
+      "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+    },
+    {
+      "name": "SGOV",
+      "yield_pct": 3.76,
+      "asof": "2026-10-23",
+      "basis": "30-day SEC yield, annualized fund measure; variable, not guaranteed total return or investor after-tax return",
+      "source": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf"
+    }
+  ],
+  "confirmed_events": [
+    {
+      "event": "FOMC decision / press conference",
+      "us_time": "2026-10-28 14:00 / 14:30 America/New_York",
+      "beijing_time": "2026-10-29 02:00 / 02:30",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm"
+    },
+    {
+      "event": "MSFT FY27Q1 earnings",
+      "us_time": "2026-10-28 after stock market closes",
+      "beijing_time": "2026-10-29 early morning; exact release time not confirmed",
+      "source": "https://www.microsoft.com/en-us/investor/faq"
+    },
+    {
+      "event": "Q3 GDP advance and September personal income/outlays including PCE",
+      "us_time": "2026-10-29 08:30 America/New_York",
+      "beijing_time": "2026-10-29 20:30",
+      "source": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "event": "AMZN Q3 earnings call",
+      "us_time": "2026-10-29 17:00 America/New_York",
+      "beijing_time": "2026-10-30 05:00",
+      "source": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+    },
+    {
+      "event": "Q3 Employment Cost Index",
+      "us_time": "2026-10-30 08:30 America/New_York",
+      "beijing_time": "2026-10-30 20:30",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm"
+    }
+  ],
+  "cpi_jobs": {
+    "no_CPI_or_employment_situation_in_window": "2026-10-27 through2026-11-02 US calendar dates",
+    "next_employment_situation": "2026-11-06 08:30 America/New_York",
+    "next_CPI": "2026-11-10 08:30 America/New_York",
+    "source": "https://www.bls.gov/schedule/2026/11_sched.htm"
+  },
+  "brk_disclosure_check": {
+    "source": "https://www.berkshirehathaway.com/news/2026news.html",
+    "latest_listed_date": "2026-09-18",
+    "new_current_session_announcement_found": false,
+    "scope": "public company news menu only; not an exhaustive SEC filing review"
+  },
+  "calendar_gaps": [
+    "Alphabet official IR event body unavailable in text reader; no date certified.",
+    "Apple official-site search index mentions Nov2 17:00ET call, but dynamic IR body was unavailable; not listed as fully confirmed upcoming event."
+  ]
+}

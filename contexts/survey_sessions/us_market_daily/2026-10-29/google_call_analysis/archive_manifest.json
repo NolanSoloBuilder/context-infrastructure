@@ -1,0 +1,28 @@
+[
+  {
+    "id": "stockanalysis",
+    "url": "https://stockanalysis.com/stocks/googl/transcripts/712854-q3-2026/",
+    "status": "CLI_archive_failed_web_body_read_separately",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '20', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/stocks/googl/transcripts/712854-q3-2026/']' returned non-zero exit status 56."
+  },
+  {
+    "id": "benzinga",
+    "url": "https://www.benzinga.com/news/26/10/62679903/alphabet-q3-2026-earnings-call-transcript",
+    "status": "CLI_archive_failed_web_body_read_separately",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '20', '-A', 'Mozilla/5.0', 'https://www.benzinga.com/news/26/10/62679903/alphabet-q3-2026-earnings-call-transcript']' returned non-zero exit status 28."
+  },
+  {
+    "id": "fool",
+    "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/alphabet-googl-q3-2026-earnings-call-transcript/",
+    "status": "CLI_archive_failed_web_body_read_separately",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '20', '-A', 'Mozilla/5.0', 'https://www.fool.com/earnings/call-transcripts/2026/10/29/alphabet-googl-q3-2026-earnings-call-transcript/']' returned non-zero exit status 28."
+  },
+  {
+    "id": "official_ceo",
+    "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
+    "retrieved_at_utc": "2026-10-29T09:03:24.895197+00:00",
+    "sha256": "2b1c2af60ccaf714f5d148cc226548c0e1ab2424cf9e5c60c94a52313595b4e8",
+    "status": "archived_public_body",
+    "raw_file": "raw/official_ceo.html"
+  }
+]

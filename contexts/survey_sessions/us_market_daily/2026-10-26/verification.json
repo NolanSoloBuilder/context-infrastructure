@@ -1,0 +1,33 @@
+{
+  "report_date_beijing": "2026-10-26",
+  "automation_id": "automation-3",
+  "heartbeat_utc": "2026-10-25T23:31:24.391000+00:00",
+  "report_type": "no_new_session_brief",
+  "latest_completed_session": "2026-10-23",
+  "next_regular_session": "2026-10-26",
+  "next_regular_open_beijing": "2026-10-26T21:30:00+08:00",
+  "new_session": false,
+  "charts_generated": false,
+  "alert_state_updated": false,
+  "alert_state_sha256": "cb33b7f1c7d40b94659f59aff02fb9531805b074a0ffec846da3c633165092e2",
+  "sources": [
+    {
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "observation": "October 26 is not an exchange holiday; core session opens 09:30 ET."
+    },
+    {
+      "url": "https://stockanalysis.com/etf/qqqm/history/",
+      "observation": "Latest regular close is October 23, 2026 at 16:00 EDT. Extended-hours quote excluded."
+    },
+    {
+      "url": "https://www.berkshirehathaway.com/news/2026news.html",
+      "observation": "News-release list still has September 18 as latest entry; this is not a complete filing review."
+    }
+  ],
+  "news_scan_note": "No new material development was verified in the limited weekend search. Disregarded aggregator wording that incorrectly labels Friday prices as a Sunday stock-market close.",
+  "known_user_context": {
+    "horizon": "3-5 years",
+    "risk_preference": "limit drawdown",
+    "staged_entry_plan_confirmed": false
+  }
+}

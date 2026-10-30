@@ -1,0 +1,162 @@
+from pathlib import Path
+from datetime import datetime,timezone
+import json
+P=Path(__file__).resolve().parent
+m={r['symbol']:r for r in json.loads((P/'metrics.json').read_text())}
+g=json.loads((P/'google_update/google_valuation_model.json').read_text())
+def pct(v):return f'{v:+.2f}%'
+def tab(h,rows):return '| '+' | '.join(h)+' |\n| '+' | '.join(['---']*len(h))+' |\n'+''.join('| '+' | '.join(map(str,r))+' |\n' for r in rows)
+research={
+'VOO':{'status':'可考虑小额时间分批','next':'总风险预算内评估首笔，不等15%'},
+'QQQM':{'status':'可考虑小额时间分批','next':'不加速；复核AI盈利与现金回报'},
+'QQQ':{'status':'同指数对照','next':'与QQQM合并研究，避免重复额度'},
+'RRX':{'status':'安全边际不足','next':'11/3现金流、持续调整与去杠杆'},
+'CGNX':{'status':'估值候选','next':'11/4财报与RealSense成本、稀释'},
+'ATS':{'status':'高风险候选','next':'订单、回款及杠杆验证'},
+'GOOGL':{'status':'暂缓大额首笔','next':'Q3资本桥已更新；核TPU周转与2027投入'},
+'NVDA':{'status':'估值待完成','next':'客户资本回报、融资及盈利分母'},
+'SMH':{'status':'行业比较','next':'盈利周期与盘后价格差异'},
+'SOFI':{'status':'估值待完成','next':'高增长过渡、正常化ROTCE与信用风险'},
+'BRK-B':{'status':'继续研究','next':'经营利润、保险与投资原披露'},
+'SGOV':{'status':'防守配置候选','next':'SEC收益率、交易价差与结算'}}
+(P/'watchlist_research.json').write_text(json.dumps(research,ensure_ascii=False,indent=2)+'\n')
+rrx=163.62;prices=[165.07,148.41,131.75,98.43]
+(P/'robotics_sources.json').write_text(json.dumps({'report_date_beijing':'2026-10-30','regular_session':'2026-10-29','rrx_close':rrx,'scope':'re-read Q2 official release and adjustment schedule; new price sensitivity, not new earnings','reference_eps':10.60-.57-.32,'reference_pe_assumption':17,'amortization_per_share':3.92,'amortization_scenarios':[{'restore_ratio':r,'eps':9.71-3.92*r,'value':v,'relative_to_close_pct':(v/rrx-1)*100} for r,v in zip([0,.25,.5,1],prices)],'source':'https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/REGAL-REXNORD-REPORTS-SECOND-QUARTER-2026-FINANCIAL-RESULTS/default.aspx','limits':['17x multiple and amortization restoration are assumptions, not validated historical discount','No humanoid-specific revenue/orders verified','Dynamic IR directory did not expose latest news listing; not a comprehensive no-news assertion']},ensure_ascii=False,indent=2)+'\n')
+(P/'robotics_update.md').write_text(f'''# 机器人研究更新｜2026-10-30
+
+RRX10/29收盘163.62，较前日+1.57%，已与第二来源核对。今天重新读Q2公司披露及调整表，经营基线仍是8/5公布的Q2，不能称新增季度业绩。全年调整EPS中点10.60扣0.57退税、恢复0.32股权薪酬后为9.71；按主观17倍为165.07，现价只折让{(1-rrx/165.07)*100:.2f}%。
+
+9.71仍加回3.92收购摊销；恢复25%/50%为经济成本时，17倍参考值为148.41/131.75，相对现价约{(148.41/rrx-1)*100:.1f}%/{(131.75/rrx-1)*100:.1f}%。这些是成本敏感性，不证明恢复比例正确，17倍也未证明属于历史或同业低位。没有因此新增低估机会。[Q2原始财报和调整表](https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/REGAL-REXNORD-REPORTS-SECOND-QUARTER-2026-FINANCIAL-RESULTS/default.aspx)
+
+订单增长与去杠杆仍是正面反证；公司Q2杠杆3.06倍含协同预期，现金转化比机器人题材更值得核查。11/3盘前财报、北京时间23:00电话会将更新经营分母。人形机器人订单占比未单独核验，不把整个运动控制分部当人形机器人收入。
+
+CGNX58.97、ATS19.09均已更新同日价格；前者等待RealSense整合成本、留任和稀释，后者继续核订单回款与负债，保持有条件研究候选。没有新增已低估标的，原候选价不是自动买单。官方动态新闻目录读取不完整，不把未读到新闻说成没有新披露。[日历核验](./macro_events.md) · [算式与来源](./robotics_sources.json)
+''')
+# Reviewed narrative uses current session metrics and independently researched company/macro files.
+WATCH=['QQQ','QQQM','VOO','BRK-B']; R=['GOOGL','RRX','CGNX','ATS','NVDA','SOFI','SMH','SGOV']
+sectors={'XLK':'科技','XLC':'通信','XLY':'可选消费','XLP':'必需消费','XLV':'医疗','XLF':'金融','XLI':'工业','XLE':'能源','XLU':'公用事业','XLB':'材料','XLRE':'房地产','SMH':'半导体'}
+levels=tab(['标的','52周盘中高点／日期','回撤幅度','距15%还差（百分点）','当前价至15%所需变动','阶段'],[[m[s]['label'],f"{m[s]['high_52w']:.2f} / {m[s]['high_date']}",f"{-m[s]['drawdown_pct']:.2f}%",f"{15+m[s]['drawdown_pct']:.2f}",pct(m[s]['additional_drop_to_15_pct']),'不足13%，阶段未变'] for s in WATCH])
+trend=tab(['标的','当日','近5交易日','近21交易日','50日均线','200日均线','量／此前20日均量'],[[m[s]['label'],pct(m[s]['day_pct']),pct(m[s]['five_session_pct']),pct(m[s]['twenty_one_session_pct']),f"{m[s]['ma50']:.2f}",f"{m[s]['ma200']:.2f}",f"{m[s]['volume_vs_prior20']:.2f}倍"] for s in WATCH+R])
+sector_table=tab(['行业／ETF','当日','近5交易日','近21交易日','当日相对VOO（百分点）','近21日相对VOO（百分点）'],[[f'{sectors[s]} {s}',pct(m[s]['day_pct']),pct(m[s]['five_session_pct']),pct(m[s]['twenty_one_session_pct']),f"{m[s]['day_pct']-m['VOO']['day_pct']:+.2f}",f"{m[s]['twenty_one_session_pct']-m['VOO']['twenty_one_session_pct']:+.2f}"] for s in sorted(sectors,key=lambda s:m[s]['day_pct'],reverse=True)])
+index_table=tab(['指数','常规收盘（点）','当日','近5交易日','近21交易日','距52周高点回撤'],[[m[s]['label'],f"{m[s]['close']:,.2f}",pct(m[s]['day_pct']),pct(m[s]['five_session_pct']),pct(m[s]['twenty_one_session_pct']),f"{-m[s]['drawdown_pct']:.2f}%"] for s in ['^GSPC','^IXIC','^NDX']])
+model_table=tab(['Google情景','未来5年收入年增假设','成熟营业利润率假设','折现率假设','条件价值（美元）'],[[r['name'],f"{r['assumptions']['growth_first5']*100:.0f}%",f"{r['assumptions']['mature_ebit_margin']*100:.0f}%",f"{r['assumptions']['wacc']*100:.0f}%",f"{r['price_usd']:.2f}"] for r in g['scenarios']])
+c=json.loads((P/'market_context.json').read_text())
+events=tab(['已核实事件','美东时间','北京时间','观察重点'],[[e['name'],datetime.fromisoformat(e['us_eastern']).strftime('%m/%d %H:%M %Z')+(' EST' if '-05:00' in e['us_eastern'] else ' EDT'),datetime.fromisoformat(e['beijing']).strftime('%m/%d %H:%M'),e['condition']] for e in c['events']])
+text=f'''# 美股观察｜2026-10-30 北京时间
+
+采用 **2026-10-29（周四）美股常规收盘**，对应北京时间10/30 04:00。股票/ETF单位为美元，指数为点。10/29正常交易，下一交易日为美东10/30，北京时间今晚21:30常规开盘。[NYSE交易日历](https://www.nyse.com/trade/hours-calendars)
+
+**今日判断：VOO与QQQM可考虑小额按时间分批，暂不加速；Google暂缓大额首笔。** 标普500−0.30%，纳斯达克综合−1.38%，纳斯达克100−1.38%；11个行业ETF中9涨2跌，科技与通信承压。原四个回撤观察标的均未进入13%接近区间，没有新跨档提醒。Google回撤30.54%是研究数据，不扩展为原四标的买入提醒。
+
+你的条件已更新：**3万美元、3–5年、可接受约6,000美元（20%）暂时亏损、境外资金无需急用。** VOO30%／QQQM10%／个股5%／SGOV55%仍是未采用草案；未确认任何成交，20%也不是损失保证。
+
+盘后行情采集于北京时间 **07:35:43**，仍处10/29盘后交易中；本版不是最终盘后收盘。所有Yahoo最新分钟参考均为零量，第二来源存在时点/价格差异，不能当可成交价。10/30盘前当时尚未开始，详见总表与[时段核验](./extended_detail.md)。
+
+**今天对你最重要的事**
+
+1. **Google：完整Q3 10-Q已取得，重算后仍未显示充分安全边际。** 财报后的首个常规交易日收283.82（−12.64%）；本次将现金/投资、债务、租赁、优先索偿和股数更新进模型。保留原主观经营假设，基准约216美元，提高营运资金占用后约212–215美元，均不是确定合理价或买单。关键变化是：资本桥比冻结六月数据的结果低约1.08美元/股，且单季全公司库存占款32.20亿美元已可核算，TPU仍未单列。最强反证是云和TPU投入迅速兑现高现金回报；下一步跟踪Q4外购算力后的利润与2027投入。[原始10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm) · [完整重算及假设](./google_update/google_update.md)
+2. **指数首笔：不再等已公布的GDP/PCE，也不要求先跌15%。** 季度增长有韧性，但9月核心PCE同比3.1%、环比0.3%；Amazon最新AWS增长39.3%，集团TTM自由现金流却为−423.57亿美元。需求与股东现金回报仍会分化。对你更合适的是限定总股票比例的小额时间分批，研究顺序偏VOO、再QQQM；暂不因盘后下跌加速或一次买满。最强反证是AI盈利和现金兑现快于预期、等待会错过上涨；下一次收盘只更新后续节奏，不再增加一个无限延期的首笔门槛。[BEA](https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026) · [Amazon官方财报](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx) · [宏观与财报核验](./macro_events.md)
+3. **SOFI：19.6倍预期调整盈利，仍不足以证明便宜。** 17.61收盘对应2.354倍有形净资产；在主观12%股权回报、4%长期资本增长的成熟期检查中，当前价格要求约22.83%的可持续前瞻有形资本回报。模型未计高增长过渡与平台独立价值，不能直接判高估或当目标价；它说明应继续核信用损失、资本与每股盈利，而不是因十几美元股价追买。最强反证是平台利润和交叉销售使资本回报持续提高。[公司原表](https://investors.sofi.com/news/news-details/2026/SoFi-Reports-Third-Quarter-2026-with-Record-Net-Revenue-of-1-4-Billion-Net-Income-of-241-Million-and-Raises-Full-Year-Guidance/default.aspx) · [本次估值检验](./sofi_research.md)
+
+{(P/'watchlist_table.md').read_text()}
+![近60个交易日价格走势与逐日滚动回撤]({P}/watchlist_curves.png)
+
+**Google估值结果**
+
+常规收盘283.82，距自身52周盘中高点408.61（5/18）回撤30.54%；50/200日线340.29/340.94。财报后跌幅增加不自动增加安全边际。盘后280.64为07:35:43零量分钟参考，另一源07:26为280.28，未伪称一致，也未混入估值分母。
+
+{model_table}
+
+上述是十年现金流模型的**条件估值**，财务事实已更新到Q3；增长、利润率、资本开支/折旧路径、税、投资折价、折现率和终值仍是研究假设。当前283.82比基准高31.2%，若回到该假设基准变化约−23.8%；两种百分比不能混用。基准企业价值约73%来自第10年后的终值，你3–5年的实际持有回报不会由它保证。改变其他假设也会大幅改变结论。
+
+净资本桥基准1196.25亿美元，其中投资资产有折价、经营现金有保留；2651亿美元现金和证券合计不能全当净现金。Q3应收、库存、应付、递延收入四项现金影响合计−47.51亿美元，不等于全部营运资金，也不等于TPU独立占款。6.6十亿美元TPU回购担保是有条件最大毛义务，公司认为公允价值不重大，本次没有机械全扣或称其已亏损。
+
+旧180–195等入场档继续暂停，本次没有替换成新的精确买价。下一项是服务/TPU经济性、外购算力后的利润和投入回收；不能在完成资本桥后继续把“缺完整10-Q”当等待理由。[主来源与读取范围](./google_update/google_sources.json) · [更新模型输入](./google_update/google_model_inputs.json) · [十年模型](./google_update/google_valuation_model.json) · [营运资金压力](./google_update/google_nwc_dcf_stress.json)
+
+**SOFI研究观察**
+
+10/29收17.61（+2.74%），近5交易日+19.23%。2027管理层调整EPS0.90对应19.57倍，是未来非GAAP展望，调整股数还排除部分可转债摊薄；不能直接当GAAP预测PE。公司Q3资本回报约10%与本次22.83%可持续前瞻要求的期间、分母不同，不把差额当已证实盈利缺口。
+
+当前只完成成熟期资本回报压力检查，尚缺高增长到成熟期、资本约束、平台价值与稀释的完整过渡。SEC最新申报清单本次已重取，最近10-Q仍为8/6的6/30季度，没有冒充Q3附注。下一项继续核贷款出售后风险、公允价值假设和监管资本；维持估值待完成，尚未确认持仓。[原始分母、假设与反证](./sofi_research.md) · [计算与来源](./sofi_sources.json)
+
+**机器人供应链筛选**
+
+RRX163.62（+1.57%）只比主观165.07参考值低0.88%。重新读Q2调整表后，去退税和恢复股权薪酬的9.71参考EPS仍全额加回收购摊销；若恢复25%/50%为经济成本，17倍参考值148.41/131.75，相对现价约−9.3%/−19.5%。比例和17倍均为假设，未证明历史低估；今天没有新增已低估候选。
+
+下一核验在11/3盘前财报：现金转化、持续调整项和去杠杆，而不是只看机器人产品叙事。CGNX58.97、ATS19.09保留有条件候选，分别核整合支出/稀释和订单回款/杠杆。人形机器人收入与订单占比尚未单列，不用集团收入替代。[今日成本压力与来源](./robotics_update.md)
+
+**行业观察**
+
+11个行业ETF **9涨2跌**，SMH另列。这是行业ETF层面的广度，不是所有股票的涨跌家数；价格变化也不等于资金净流入。
+
+- **通信XLC−1.87%、科技XLK−1.18%**：弱势集中于你额外偏好的成长方向；QQQM相对VOO风险集中更明显，个股额度应计入同一股票总预算。
+- **半导体SMH−1.06%**：盘后零量参考542.99、相对同日561.67收盘−3.32%，另一源07:21为541.03，时刻不同。它提示隔夜价格风险，尚不能用未核实催化剂解释为行业基本面全面恶化。
+- **医疗XLV+2.40%、房地产XLRE+2.21%**：相对强势说明并非行业普跌，不构成单日追涨理由。XLRE当日Yahoo原始低点42.61高于开盘42.43，OHLC验证未通过；本次只使用已与第二来源核对的收盘与前收计算涨跌，没有修补或使用异常低点。
+- **必需消费XLP+1.54%、公用事业XLU+1.53%**：与成长股分化；行业名称不保证低回撤，仍需评估估值。
+
+![11个行业ETF与半导体当日涨跌]({P}/sector_daily.png)
+
+{sector_table}
+
+**🔎 Reddit 投资与信息差观察**
+
+今天只保留**一项新读到的观点分歧**：r/stocks的[收入多元化观点](https://www.reddit.com/r/stocks/comments/1xikhvm/in_q4_2019_google_search_was_60_of_googles/)与[反方估值讨论](https://www.reddit.com/r/stocks/comments/1xiof6z/goog_upgrade_from_sell_to_hold_pt_of_290/)都涉及Google。Search收入占合计49.66%可由财报核算，但收入分散不能证明利润和现金回报同样分散；Services也不等于单独Search。可见反方评论强调了利润结构。帖子目标价与评论中误传的3000亿美元2026资本开支不采用为入场依据，CFO实际维持1950–2050亿美元指引。
+
+这次读到了原帖与实质评论，但未取得精确发帖北京时间，其他社区部分列表缓存陈旧，不能声称完整覆盖最近24小时。新增是讨论解释的核验，财报本身是已知事件。[完整主张、反证与时间缺口](./reddit_digest.md) · [逐项来源](./reddit_sources.json)
+
+FiNews新取公开HTML对应10/29、更新北京时间10/30 **06:09:48**，读取21条新闻；网页工具旧缓存仍显示10/28，已区分。Amazon现金回报和GDP/PCE线索已回查官方；部分摘要外链主题不匹配，未升级成已核验新闻。[FiNews读取范围](./finews_digest.md) · [来源记录](./finews_sources.json)
+
+**对你当前状态的建议**
+
+**可考虑小额按时间分批，先按总预算讨论，不加速、不给个股填满名额。** 昨日等待的GDP/PCE已公布，首个财报后交易日已结束；当前行业ETF广度没有显示全面恶化，但AI投资的现金回报与通胀风险仍在。今天据此推进首笔研究，不把下一项事件重新变成无限等待条件。
+
+如果你选择采用[昨日配置草案](../2026-10-29/allocation_draft/report.md)，可评估首笔指数预算3,000美元（VOO2,250、QQQM750），其后六个月每月1,500美元；个股总额1,500美元另按条件决定。这只是未获采用的方案，尚未确认你已下单；QQQ/QQQM共用一个指数额度。SGOV55%为目标防守配置，未投入股票的预算另暂放短期美债，不能把全部暂存资金都当未来股票额度。不要为了避免闲置现金而借款或放大杠杆。
+
+VOO距50日线约+0.21%，QQQM约−1.39%；它们是位置描述，不能当机械交易信号。QQQM从294.53到266.99的15%观察价还需约−9.35%，时间分批与回撤提醒可以并行。最强反证是实际盈利继续转差或信用/融资风险扩散，此时应具体调整节奏；相反，盈利兑现和价格继续上涨会让等待产生机会成本。下一次10/30收盘用于更新后续节奏，不额外增加首笔必须等待的门槛。
+
+你说可能快进快出，当前尚不清楚是SGOV停车周转还是个股短线，未据此改变3–5年目标。现金账户卖SGOV换股票后，若只靠未结算卖出款支付，在其结算前卖新股票仍可能违规；按交易日与实际结算状态判断，不按自然日48小时判断。[嘉信规则](https://www.schwab.com/learn/story/avoid-these-violations-when-trading-cash)
+
+BRK.B收541.96（+0.30%），所读公司公告目录未展示新的10/29项目，不等于完整SEC扫描，不根据涨价推断回购、投资或保险变化。[公司目录](https://www.berkshirehathaway.com/news/2026news.html)
+
+**距观察档还有多远**
+
+{levels}
+
+观察价沿用自身滚动高点，四个高点本日均未更新。QQQM的Yahoo高点314.11与另一源314.12仍差一美分，15%价对应266.99与267.00；不据此重复提醒。百分点衡量回撤幅度差，百分比衡量当前价格到目标价的变化。
+
+**利率与未来一周事件**
+
+财政部10/29参考曲线：**2年4.61%、10年4.98%**，较前日−6／−7基点；并非嘉信可成交报价。VIX日期值17.20，+0.29；Cboe另一个时间模块有时区/采集时点歧义，没有当成股票16:00同步报价证明。10/28FOMC维持3.75%–4.00%，不是今天的新决定。[财政部](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026) · [Cboe](https://www.cboe.com/tradable-products/vix/)
+
+已公布：Q3 GDP环比折年+3.4%；9月PCE环比+0.5%／同比+3.6%，核心+0.3%／+3.1%。季度与月度窗口不同，没有核市场预期，不写超预期。Amazon是10/29盘后事件，AWS增长39.3%，TTM自由现金流−423.57亿美元；TTM不是单季数字，数据未混入10/29常规收盘曲线。
+
+{events}
+
+11/1起美国冬令时，上表已换算。CGNX财报11/4盘后，具体分钟未知；下一CPI11/10、下一FOMC12/8–9，不在前述一周内。Apple本次未取得官方明细，不填猜测日期。[BLS10月](https://www.bls.gov/schedule/2026/10_sched.htm)／[11月](https://www.bls.gov/schedule/2026/11_sched.htm) · [完整宏观与公司日历核验](./macro_events.md)
+
+SGOV本次官方最新可见为 **10/28的30日SEC收益率3.79%**，较此前参考3.78%仅微变；是年化收入参考，非未来一年承诺或总回报。仍未确认持有。[iShares原页](https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf)
+
+**完整表现与趋势数据**
+
+{trend}
+
+{index_table}
+
+5／21交易日分别用于周／月观察。ETF与股票价格单位美元，指数为点；纳斯达克综合仅作环境参考，QQQM跟踪纳斯达克100。指数成交量口径差异较大，不据其量比作资金流结论。纳指100收盘另与[历史表](https://ca.investing.com/indices/nq-100-historical-data)核对，纳斯达克综合收盘与[另一历史表](https://www.investing.com/indices/nasdaq-composite-historical-data)一致；标普第二源为[衍生参考报价](https://www.investing.com/indices/us-spx-500-historical-data)7720.22，与Yahoo7720.39差0.17点，本版保留统一Yahoo序列，不伪称完全一致。
+
+**口径、核验和缺口**
+
+- 日线来自本次新取Yahoo拆股一致OHLC，价格表现不含现金分红再投资。60个连续收盘观测点为8/6–10/29，跨59个价格间隔；三个标的各历史回撤只使用当时之前364个日历日盘中高点，不用今天的高点回填。
+- 50／200日均线同一价格序列；量比为当日量／此前20交易日均量，不含当日。QQQ／QQQM／VOO／BRK.B／GOOGL等12项常规收盘与第二来源一致；量有约0%至3%的差异，量能只作辅证，未当资金流或确定买点。
+- XLRE原始低点高于开盘价，OHLC验证未过。只补入经第二来源核收盘43.06、前收42.13的收盘回报，保留原错误、未修补低点；高点、回撤和量比不使用。行业图仍有12项，缺口未填成0。[原始清单及质量补充](./manifest.json)
+- 盘后所有最新Yahoo分钟参考均零量；第二来源时刻不同，价格差异全部保留；不是成交保证、不是最终盘后收盘，也不更新四标的常规收盘提醒。10/30盘前当时尚未开始。[价格交叉核验](./quote_verification.json) · [盘后来源](./extended_verification.json)
+- Google已取得Q3完整10-Q并更新主要财务事实，未来经营及成本预测仍是假设；SOFI完整Q3附注、高增长资本模型、全成分股广度与指数估值分母仍不齐。Reddit精确发布时间与完整24小时扫描有缺口，FiNews不是独立行情源。
+- 两张PNG已打开检查，日期、中文、正负号、末值可读。HTML沿用既有模板并作内容/资源静态校验；未宣称本次完成桌面/手机实机浏览器验收，也未绕过已有本地URL浏览限制。不操作账户、不自动交易、不公开托管。
+
+[指标](./metrics.json) · [本次验证](./verification.json) · [宏观事实](./market_context.json) · [图表与行情原清单](./manifest.json)
+'''
+(P/'report.md').write_text(text)
+# Make freshly verified SGOV reference explicit in the current context only.
+c['sgov']={'yield_date':'2026-10-28','yield_30_day_sec_pct':3.79,'source':'https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf','basis':'annualized income reference, not promised total return'}
+(P/'market_context.json').write_text(json.dumps(c,ensure_ascii=False,indent=2)+'\n')
+print('Reviewed report.md written',len(text))

@@ -1,0 +1,222 @@
+{
+  "report_date_beijing": "2026-10-24",
+  "session": "2026-10-23",
+  "verified_at_utc": "2026-10-23T23:36:45.588702+00:00",
+  "calendar": {
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "session_type": "regular US session",
+    "next_session": "2026-10-26"
+  },
+  "crosschecked_closes": [
+    {
+      "symbol": "QQQ",
+      "primary": 704.4,
+      "secondary": 704.4,
+      "url": "https://stockanalysis.com/etf/qqq/history/",
+      "result": "match"
+    },
+    {
+      "symbol": "QQQM",
+      "primary": 290.06,
+      "secondary": 290.06,
+      "url": "https://stockanalysis.com/etf/qqqm/history/",
+      "result": "match"
+    },
+    {
+      "symbol": "VOO",
+      "primary": 698.58,
+      "secondary": 698.58,
+      "url": "https://stockanalysis.com/etf/voo/history/",
+      "result": "match"
+    },
+    {
+      "symbol": "BRK-B",
+      "primary": 542.19,
+      "secondary": 542.19,
+      "url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "result": "match"
+    },
+    {
+      "symbol": "XLE",
+      "primary": 69.33,
+      "secondary": 69.33,
+      "url": "https://stockanalysis.com/etf/xle/history/",
+      "result": "match"
+    },
+    {
+      "symbol": "SMH",
+      "primary": 527.2,
+      "secondary": 527.2,
+      "url": "https://stockanalysis.com/etf/smh/history/",
+      "result": "match"
+    },
+    {
+      "symbol": "^GSPC",
+      "primary": 7623.68,
+      "secondary": 7623.68,
+      "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=INX%3AIOM",
+      "result": "match"
+    },
+    {
+      "symbol": "^IXIC",
+      "primary": 25955.34,
+      "secondary": 25955.34,
+      "url": "https://ca.finance.yahoo.com/news/us-equity-indexes-fall-treasury-202915276.html",
+      "result": "match"
+    },
+    {
+      "symbol": "^NDX",
+      "primary": 28957.53,
+      "secondary": 28957.53,
+      "url": "https://ca.investing.com/indices/nq-100-historical-data",
+      "result": "match"
+    },
+    {
+      "symbol": "^VIX",
+      "primary": 19.45,
+      "secondary": 19.45,
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "result": "match"
+    }
+  ],
+  "crosschecked_highs": [
+    {
+      "symbol": "QQQ",
+      "primary": 762.86,
+      "secondary": 762.86,
+      "date": "2026-10-06",
+      "url": "https://stockanalysis.com/etf/qqq/history/",
+      "difference_usd": 0.0
+    },
+    {
+      "symbol": "QQQM",
+      "primary": 314.11,
+      "secondary": 314.12,
+      "date": "2026-10-06",
+      "url": "https://stockanalysis.com/etf/qqqm/history/",
+      "difference_usd": 0.01
+    },
+    {
+      "symbol": "VOO",
+      "primary": 718.47,
+      "secondary": 718.47,
+      "date": "2026-10-06",
+      "url": "https://stockanalysis.com/etf/voo/history/",
+      "difference_usd": 0.0
+    },
+    {
+      "symbol": "BRK-B",
+      "primary": 549.96,
+      "secondary": 549.96,
+      "date": "2026-10-22",
+      "url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "difference_usd": 0.0
+    }
+  ],
+  "treasury": {
+    "session": "2026-10-23",
+    "two_year_pct": 4.69,
+    "ten_year_pct": 5.0,
+    "previous_two_year_pct": 4.65,
+    "previous_ten_year_pct": 4.96,
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+  },
+  "vix": {
+    "yahoo_daily_close": 19.45,
+    "cboe_dated_page_value": 19.45,
+    "previous_close": 19.03,
+    "cboe_historical_csv_last_date": "2026-10-22",
+    "caveat": "Official historical CSV had not yet published October 23; same-date official spot page matches Yahoo daily close; do not claim CSV confirmation.",
+    "url": "https://www.cboe.com/tradable-products/vix/"
+  },
+  "sgov": {
+    "sec_30_day_yield_pct": 3.76,
+    "official_asof": "2026-10-22",
+    "quote_session": "2026-10-23",
+    "market_close": 100.66,
+    "url": "https://www.ishares.com/us/products/314116/sgov",
+    "note": "SEC yield is annualized and variable, not a promised return or total return."
+  },
+  "events": [
+    {
+      "date": "2026-10-27/2026-10-28",
+      "event": "FOMC",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "Microsoft FY27 Q1 earnings",
+      "url": "https://www.microsoft.com/en-us/investor/default"
+    },
+    {
+      "date": "2026-10-29",
+      "time_et": "08:30",
+      "event": "GDP Q3 advance and September Personal Income and Outlays",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "date": "2026-10-29",
+      "time_et": "17:00",
+      "event": "Amazon Q3 earnings call",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+    },
+    {
+      "date": "2026-10-30",
+      "time_et": "08:30",
+      "event": "Employment Cost Index Q3",
+      "url": "https://www.bls.gov/schedule/2026/10_sched.htm"
+    }
+  ],
+  "calendar_gap_note": "BLS October calendar has no CPI or monthly Employment Situation release during October 24-30; not a claim that there are no other labor releases.",
+  "brk_disclosure_check": {
+    "url": "https://www.berkshirehathaway.com/news/2026news.html",
+    "latest_news_release_date": "2026-09-18",
+    "scope": "Company news list only; no new October 23 operating release located, not a complete SEC filing review."
+  },
+  "user_profile": {
+    "horizon": "3-5 years",
+    "priority": "limit drawdown",
+    "holdings_confirmed": false,
+    "staged_entry_plan_accepted": false,
+    "budget_known": false,
+    "maximum_tolerable_loss_known": false
+  },
+  "validation": {
+    "fresh_same_session_symbols": 21,
+    "main_close_comparisons": 4,
+    "drawdown_points_recomputed_without_future_data": 180,
+    "normalized_observations": 60,
+    "normalized_period": [
+      "2026-07-31",
+      "2026-10-23"
+    ],
+    "sector_rows": 12,
+    "sector_up": 3,
+    "sector_down": 8,
+    "images": {
+      "watchlist_curves.png": {
+        "size": [
+          2144,
+          1664
+        ],
+        "visually_inspected": true,
+        "readable": true
+      },
+      "sector_daily.png": {
+        "size": [
+          2144,
+          1184
+        ],
+        "visually_inspected": true,
+        "readable": true
+      }
+    },
+    "main_threshold_alerts": []
+  },
+  "limitations": [
+    "All price histories and computed technical indicators use Yahoo third-party data; main closes/highs crosschecked with Stock Analysis.",
+    "QQQM intraday high differs by USD0.01 between sources; homogeneous Yahoo series retained.",
+    "Volume differs slightly between vendors; ratios use a single Yahoo series.",
+    "Valuation and constituent advance/decline breadth not independently assessed."
+  ]
+}

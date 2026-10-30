@@ -1,0 +1,75 @@
+{
+  "checked_on": "2026-10-28",
+  "identity_source": "https://www.sina.cn/news/detail/5135723174823089.html",
+  "identity_statement_date": "2025-02-19",
+  "wechat": {
+    "name": "长赢指数投资",
+    "id": "chinaetfs",
+    "public_index": "https://qnmlgb.tech/authors/5bc0be31244d4e2deaad5161",
+    "status": "公开目录见7月30日标题，详情未取得；本人1月13日平台原文说明公众号披露缩减；10月原文仍未取得"
+  },
+  "weibo": {
+    "name": "二级市场捡辣鸡冠军",
+    "id": "7519797263",
+    "public_page": "https://www.sina.cn/media/7519797263",
+    "status": "公开主页可读；置顶旧文、2026生日动态与2025旧投资帖并存，不能称为当前投资观点"
+  },
+  "xueqiu": {
+    "id": "4776750571",
+    "url": "https://xueqiu.com/u/etfs",
+    "status": "直读访问受限，检索可见历史内容"
+  },
+  "historical_materials": "https://youzhiyouxing.cn/materials/813",
+  "excluded_unverified_names": [
+    "长赢指数投顾",
+    "ETF拯救世界吧"
+  ],
+  "latest_october_view": "仍未核验；新增本人2026年1月/4月/5月平台原文用于解释信息披露与策略适用边界，非当前交易信号",
+  "qieman": {
+    "read_method": "curl公开HTML内__NEXT_DATA__ props.pageProps.item.article，未登录、无令牌、未访问受限投顾账户",
+    "reviewed_articles": [
+      {
+        "item_id": 21583,
+        "url": "https://content.qieman.com/items/21583?access_token=&darkMode=false&enableImageClick=true&hideDownload=1&refferer=albus",
+        "author": "ETF拯救世界",
+        "title": "2026年1月ETF计划（三）",
+        "published_date_beijing": "2026-01-13",
+        "content_sha256": "40b78c958c79a0223c5a2cabddb7254af4c44b7787c8e979b91a7556d7dcd323",
+        "reviewed_summary": "作者当时宣布公众号缩减为部分卖出披露，不再公开买入，并称当月停止接收新人。解释老组合高位买入常为有盈利垫的换仓；不是10月现状确认。",
+        "latest_october_signal": false
+      },
+      {
+        "item_id": 22957,
+        "url": "https://content.qieman.com/items/22957?access_token=&darkMode=false&enableImageClick=true&hideDownload=1&refferer=albus",
+        "author": "ETF拯救世界",
+        "title": "2026年4月ETF计划（三）",
+        "published_date_beijing": "2026-04-15",
+        "content_sha256": "4556e8110d69097abf189668ed355653030da9cc467ff0e326b645103cbe768d",
+        "reviewed_summary": "150与S均卖出医疗C；S另买红利100。本人计划在平台可包含买入，但不等于公众号同样披露；非10月信号。",
+        "latest_october_signal": false
+      },
+      {
+        "item_id": 23245,
+        "url": "https://content.qieman.com/items/23245?access_token=&darkMode=false&enableImageClick=true&hideDownload=1&refferer=albus",
+        "author": "ETF拯救世界",
+        "title": "2026年5月ETF计划（二）",
+        "published_date_beijing": "2026-05-08",
+        "content_sha256": "6bcc7060997c7d9d14974460048763e63c2700ff8e24d98e4444aec1d465c30a",
+        "reviewed_summary": "150卖出一份上证50场外基金；无完整仓位快照；页面日期为5月8日，搜索摘要曾显示5月7日，以页面及结构化日期为准。",
+        "latest_october_signal": false
+      }
+    ],
+    "complete_current_allocation": null,
+    "status": "取得本人署名平台原文；10月最新公众号/计划和当前仓位未取得，不能称为作者最新发布"
+  },
+  "excluded_new_sources": [
+    {
+      "url": "https://www.sina.cn/news/detail/5327419750746448.html",
+      "reason": "显示名二级市场检拉鸡冠军，与已核验本人二级市场捡辣鸡冠军不同，不作为本人证据"
+    },
+    {
+      "url": "https://zedex.cn/",
+      "reason": "自称大模型对且慢帖子归纳，非本人原文，不用于确认当前买入条件与仓位"
+    }
+  ]
+}

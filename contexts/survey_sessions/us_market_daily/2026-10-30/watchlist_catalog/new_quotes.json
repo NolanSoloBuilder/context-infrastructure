@@ -1,0 +1,98 @@
+[
+  {
+    "symbol": "SPMO",
+    "session": "2026-10-29",
+    "close": 142.4,
+    "day_pct": -1.725,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=2y&interval=1d&events=div%2Csplits",
+    "crosscheck_url": "https://stockanalysis.com/etf/spmo/",
+    "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+    "gaps": [
+      "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+    ],
+    "daily_bar_session": "2026-10-28",
+    "daily_bar_close": 144.9,
+    "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+    "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+  },
+  {
+    "symbol": "MAGS",
+    "session": "2026-10-29",
+    "close": 69.7,
+    "day_pct": -2.189,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=2y&interval=1d&events=div%2Csplits",
+    "crosscheck_url": "https://stockanalysis.com/etf/mags/",
+    "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+    "gaps": [
+      "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+    ],
+    "daily_bar_session": "2026-10-28",
+    "daily_bar_close": 71.26,
+    "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+    "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+  },
+  {
+    "symbol": "SOXX",
+    "session": "2026-10-29",
+    "close": 513.86,
+    "day_pct": -1.548,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=2y&interval=1d&events=div%2Csplits",
+    "crosscheck_url": "https://stockanalysis.com/etf/soxx/",
+    "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+    "gaps": [
+      "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+    ],
+    "daily_bar_session": "2026-10-28",
+    "daily_bar_close": 521.94,
+    "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+    "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+  },
+  {
+    "symbol": "DRAM",
+    "session": "2026-10-29",
+    "close": 51.75,
+    "day_pct": -4.379,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=2y&interval=1d&events=div%2Csplits",
+    "crosscheck_url": "https://stockinvest.us/stock-price/DRAM",
+    "crosscheck_status": "与Macroaxis及Stockinvest明确2026-10-29收盘51.75一致；StockAnalysis抓取页为盘中，未用作收盘核验",
+    "gaps": [
+      "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+    ],
+    "daily_bar_session": "2026-10-28",
+    "daily_bar_close": 54.12,
+    "quote_timestamp_utc": "2026-10-29T20:00:01+00:00",
+    "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+  },
+  {
+    "symbol": "VGT",
+    "session": "2026-10-29",
+    "close": 122.24,
+    "day_pct": -1.092,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=2y&interval=1d&events=div%2Csplits",
+    "crosscheck_url": "https://stockanalysis.com/etf/vgt/",
+    "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+    "gaps": [
+      "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+    ],
+    "daily_bar_session": "2026-10-28",
+    "daily_bar_close": 123.59,
+    "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+    "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+  },
+  {
+    "symbol": "MRNA",
+    "session": "2026-10-29",
+    "close": 222.76,
+    "day_pct": 4.013,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=2y&interval=1d&events=div%2Csplits",
+    "crosscheck_url": "https://stockanalysis.com/stocks/mrna/",
+    "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+    "gaps": [
+      "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+    ],
+    "daily_bar_session": "2026-10-28",
+    "daily_bar_close": 214.16,
+    "quote_timestamp_utc": "2026-10-29T20:00:01+00:00",
+    "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+  }
+]

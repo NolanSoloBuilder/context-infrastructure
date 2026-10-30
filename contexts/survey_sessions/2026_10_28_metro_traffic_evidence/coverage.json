@@ -1,0 +1,20 @@
+{
+  "meta": [
+    {
+      "name": "oldest",
+      "type": "DateTime"
+    },
+    {
+      "name": "newest",
+      "type": "DateTime"
+    }
+  ],
+  "data": [
+    {
+      "oldest": "2026-07-28 00:01:52",
+      "newest": "2026-10-27 19:40:33"
+    }
+  ],
+  "rows": 1,
+  "rows_before_limit_at_least": 31612
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_on": "2026-10-30",
+  "source_asof": "2026-10-29",
+  "provider": "银行螺丝钉",
+  "verified_star": 4.8,
+  "watch_threshold": 5.0,
+  "stage": "below_watch_threshold",
+  "evidence": "https://www.xueqiu.com/3079173340/414577843",
+  "interpretation": "新一期4.8星，较4.7上升0.1星，距5星0.2；未触发重点观察线",
+  "notification_rule": "首次达到/跨过5星、退出后重新达到或作者修正时突出提示；同日重跑和阶段不变不重复称新触发",
+  "previous_verified_star": 4.7
+}

@@ -1,0 +1,97 @@
+{
+  "status": "proposal_not_confirmed_no_trades",
+  "date_beijing": "2026-10-27",
+  "basis": "All purchase percentages are fractions of initial capital P0, excluding emergency funds and fixed near-term spending. Market-value weights drift.",
+  "target_weights_pct": {
+    "VOO": 30,
+    "QQQM": 10,
+    "SGOV": 55,
+    "USD_cash": 5
+  },
+  "scheduled_purchases": [
+    {
+      "month": 0,
+      "VOO_percent_initial_capital": 7.5,
+      "QQQM_percent_initial_capital": 2.5,
+      "total_equity_cost_percent_initial_capital": 10
+    },
+    {
+      "month": 1,
+      "VOO_percent_initial_capital": 3.75,
+      "QQQM_percent_initial_capital": 1.25,
+      "total_equity_cost_percent_initial_capital": 15
+    },
+    {
+      "month": 2,
+      "VOO_percent_initial_capital": 3.75,
+      "QQQM_percent_initial_capital": 1.25,
+      "total_equity_cost_percent_initial_capital": 20
+    },
+    {
+      "month": 3,
+      "VOO_percent_initial_capital": 3.75,
+      "QQQM_percent_initial_capital": 1.25,
+      "total_equity_cost_percent_initial_capital": 25
+    },
+    {
+      "month": 4,
+      "VOO_percent_initial_capital": 3.75,
+      "QQQM_percent_initial_capital": 1.25,
+      "total_equity_cost_percent_initial_capital": 30
+    },
+    {
+      "month": 5,
+      "VOO_percent_initial_capital": 3.75,
+      "QQQM_percent_initial_capital": 1.25,
+      "total_equity_cost_percent_initial_capital": 35
+    },
+    {
+      "month": 6,
+      "VOO_percent_initial_capital": 3.75,
+      "QQQM_percent_initial_capital": 1.25,
+      "total_equity_cost_percent_initial_capital": 40
+    }
+  ],
+  "acceleration_proposal": {
+    "per_symbol": [
+      "VOO",
+      "QQQM"
+    ],
+    "reference": "own rolling52week intraday high; same convention as daily report",
+    "at15": "One future monthly installment for that symbol can be advanced.",
+    "at25": "Cumulative advancement allowance rises to two monthly installments per symbol, inclusive of any advancement at15.",
+    "one_time": "Each allowance can be used only once during this initial build-up; no reset on reentry or a new high.",
+    "skip": "Remove advanced installments from the future calendar, do not buy them twice.",
+    "cost_budget": "VOO purchases at most30%P0; QQQM purchases at most10%P0.",
+    "risk_override": "Pause/add less if projected stock market-value weight would exceed45% or spending/risk capacity changes."
+  },
+  "stress_cases": [
+    {
+      "hypothetical_VOO_return_pct": -20,
+      "hypothetical_QQQM_return_pct": -30,
+      "hypothetical_defensive_assets_return_pct": 0,
+      "portfolio_change_pct": -9.0
+    },
+    {
+      "hypothetical_VOO_return_pct": -35,
+      "hypothetical_QQQM_return_pct": -50,
+      "hypothetical_defensive_assets_return_pct": 0,
+      "portfolio_change_pct": -15.5
+    },
+    {
+      "hypothetical_VOO_return_pct": -50,
+      "hypothetical_QQQM_return_pct": -65,
+      "hypothetical_defensive_assets_return_pct": 0,
+      "portfolio_change_pct": -21.5
+    }
+  ],
+  "stress_assumptions": [
+    "hypothetical arithmetic, not a historical backtest or prediction",
+    "starting stock weights30%VOO/10%QQQM; defensive assets60%",
+    "no intermediate purchases or rebalancing",
+    "defensive total return assumed0 only for the calculation",
+    "exclude FX, taxes and transaction costs; actual losses may be larger"
+  ],
+  "account_status": "No confirmed holdings or account action",
+  "automation_status": "Existing daily automation and live alert state unchanged"
+}

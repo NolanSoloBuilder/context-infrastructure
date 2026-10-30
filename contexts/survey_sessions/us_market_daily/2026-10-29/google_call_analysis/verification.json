@@ -1,0 +1,17 @@
+{
+  "date_beijing": "2026-10-29",
+  "checks": {
+    "cashflow_arithmetic": true,
+    "cloud_margin_arithmetic": true,
+    "date_and_values": true,
+    "official_replay_link": true,
+    "no_file_URL": true,
+    "expected_two_tables": true
+  },
+  "html_tables": 2,
+  "source_downloads": "embedded",
+  "html_sha256": "30cbd5ddeebcbfe7b701e7d54f10db1bc95da05908ab7e378aa8dfedc9ff683a",
+  "visual_validation": "not performed; existing file-URL browser policy restriction not bypassed",
+  "current_price": "not asserted",
+  "new_entry_ranges": "none"
+}

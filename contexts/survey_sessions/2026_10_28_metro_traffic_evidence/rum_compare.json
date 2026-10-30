@@ -1,0 +1,33 @@
+{
+  "data": {
+    "viewer": {
+      "accounts": [
+        {
+          "current": [
+            {
+              "avg": {
+                "sampleInterval": 10.179738562091503
+              },
+              "count": 6230,
+              "sum": {
+                "visits": 730
+              }
+            }
+          ],
+          "previous": [
+            {
+              "avg": {
+                "sampleInterval": 12.88135593220339
+              },
+              "count": 760,
+              "sum": {
+                "visits": 140
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "errors": null
+}

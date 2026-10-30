@@ -1,0 +1,137 @@
+[
+  {
+    "key": "treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "retrieved_at_utc": "2026-10-28T23:30:51.076643+00:00",
+    "sha256": "5da37eb50dd54f8b988f3beea9ca5fb7cd94cfc3813327049a7bd1b577c475e9",
+    "raw_file": "context_raw/treasury.html",
+    "read_scope": "HTML public body and tables",
+    "status": "fetched"
+  },
+  {
+    "key": "fed",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "retrieved_at_utc": "2026-10-28T23:30:49.717278+00:00",
+    "sha256": "87583983a4b52348ac785faeb5a359f3492e33c7e502ff53c276bfa5d6c2d001",
+    "raw_file": "context_raw/fed.html",
+    "read_scope": "HTML public body and tables",
+    "status": "fetched"
+  },
+  {
+    "key": "bea",
+    "url": "https://www.bea.gov/news/schedule",
+    "retrieved_at_utc": "2026-10-28T23:30:51.395759+00:00",
+    "sha256": "a6acf1febe79e97ee701ee23d04d28ac0709d998f95311f3304a741b9493e149",
+    "raw_file": "context_raw/bea.html",
+    "read_scope": "HTML public body and tables",
+    "status": "fetched"
+  },
+  {
+    "key": "bls_oct",
+    "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://www.bls.gov/schedule/2026/10_sched.htm']' returned non-zero exit status 56."
+  },
+  {
+    "key": "bls_nov",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://www.bls.gov/schedule/2026/11_sched.htm']' returned non-zero exit status 56."
+  },
+  {
+    "key": "nyse",
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://www.nyse.com/trade/hours-calendars']' returned non-zero exit status 28."
+  },
+  {
+    "key": "berkshire",
+    "url": "https://www.berkshirehathaway.com/news/2026news.html",
+    "retrieved_at_utc": "2026-10-28T23:30:51.717495+00:00",
+    "sha256": "ad0e809e75addc408cd3de7d1120d5c45608d29f226d54cb707d97a63ff53bfd",
+    "raw_file": "context_raw/berkshire.html",
+    "read_scope": "HTML public body and tables",
+    "status": "fetched"
+  },
+  {
+    "key": "msft",
+    "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "cboe",
+    "url": "https://www.cboe.com/tradable-products/vix/",
+    "retrieved_at_utc": "2026-10-28T23:30:52.939056+00:00",
+    "sha256": "667e80ab74515ba257fe86e61c0519b4b8669e1b06b0371a55ff22d9fe80b36d",
+    "raw_file": "context_raw/cboe.html",
+    "read_scope": "HTML public body and tables",
+    "status": "fetched"
+  },
+  {
+    "key": "qqq",
+    "url": "https://stockanalysis.com/etf/qqq/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/etf/qqq/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "qqqm",
+    "url": "https://stockanalysis.com/etf/qqqm/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/etf/qqqm/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "voo",
+    "url": "https://stockanalysis.com/etf/voo/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/etf/voo/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "brkb",
+    "url": "https://stockanalysis.com/stocks/brk.b/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/stocks/brk.b/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "googl_history",
+    "url": "https://stockanalysis.com/stocks/googl/history/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/stocks/googl/history/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "qqq_history",
+    "url": "https://stockanalysis.com/etf/qqq/history/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/etf/qqq/history/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "qqqm_history",
+    "url": "https://stockanalysis.com/etf/qqqm/history/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/etf/qqqm/history/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "voo_history",
+    "url": "https://stockanalysis.com/etf/voo/history/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/etf/voo/history/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "brkb_history",
+    "url": "https://stockanalysis.com/stocks/brk.b/history/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/stocks/brk.b/history/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "sp500",
+    "url": "https://stockanalysis.com/quote/index/SPX/history/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/quote/index/SPX/history/']' returned non-zero exit status 56."
+  },
+  {
+    "key": "nasdaq",
+    "url": "https://stockanalysis.com/quote/index/IXIC/history/",
+    "status": "failed",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://stockanalysis.com/quote/index/IXIC/history/']' returned non-zero exit status 56."
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "automation_id": "automation-3",
+  "last_checked_session": "2026-10-29",
+  "report_date_beijing": "2026-10-30",
+  "updated_at_utc": "2026-10-29T23:47:49.868698+00:00",
+  "basis": {
+    "window": "(session - 364 calendar days, session]",
+    "high": "intraday high in split-adjusted Yahoo OHLC series",
+    "drawdown": "100 * (1 - close / rolling high), positive magnitude",
+    "stages": "below_13: D<13; near_15: 13<=D<15; at_or_above_15: 15<=D<23; near_25: 23<=D<25; at_or_above_25: D>=25",
+    "high_dates_on_ties": "earliest high in current window"
+  },
+  "data_validation": {
+    "watchlist_closes_verified": true,
+    "watchlist_highs_verified_with_disclosed_qqqm_one_cent_difference": true,
+    "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-30/verification.json",
+    "report_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-30/report.md",
+    "report_sha256": "0bb56344ff07616d4c739366621f28327d6baf81bf2dd00af83e6a259f3d5024",
+    "report_html_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-30/report.html"
+  },
+  "symbols": {
+    "QQQM": {
+      "provider_symbol": "QQQM",
+      "last_checked_session": "2026-10-29",
+      "close_usd": 294.53,
+      "high_52w_usd": 314.11,
+      "high_date": "2026-10-06",
+      "drawdown_pct": 6.2349751091041234,
+      "stage": "below_13",
+      "stage_since_session": "2026-10-23",
+      "first_recorded_session": "2026-10-23",
+      "last_highlight_report_date": null,
+      "level_15_usd": 266.99,
+      "level_25_usd": 235.58,
+      "gap_to_15_percentage_points": 8.765024890895877,
+      "price_change_to_15_pct": -9.347861743858953,
+      "previous_stage": "below_13",
+      "new_highlight": false,
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+    },
+    "VOO": {
+      "provider_symbol": "VOO",
+      "last_checked_session": "2026-10-29",
+      "close_usd": 707.32,
+      "high_52w_usd": 718.47,
+      "high_date": "2026-10-06",
+      "drawdown_pct": 1.5519038837481847,
+      "stage": "below_13",
+      "stage_since_session": "2026-10-23",
+      "first_recorded_session": "2026-10-23",
+      "last_highlight_report_date": null,
+      "level_15_usd": 610.7,
+      "level_25_usd": 538.85,
+      "gap_to_15_percentage_points": 13.448096116251815,
+      "price_change_to_15_pct": -13.660087545392162,
+      "previous_stage": "below_13",
+      "new_highlight": false,
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+    },
+    "BRK.B": {
+      "provider_symbol": "BRK-B",
+      "last_checked_session": "2026-10-29",
+      "close_usd": 541.96,
+      "high_52w_usd": 549.96,
+      "high_date": "2026-10-22",
+      "drawdown_pct": 1.4546511892454927,
+      "stage": "below_13",
+      "stage_since_session": "2026-10-23",
+      "first_recorded_session": "2026-10-23",
+      "last_highlight_report_date": null,
+      "level_15_usd": 467.47,
+      "level_25_usd": 412.47,
+      "gap_to_15_percentage_points": 13.545348810754508,
+      "price_change_to_15_pct": -13.745294906578353,
+      "previous_stage": "below_13",
+      "new_highlight": false,
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+    }
+  },
+  "highlighted_symbols": [],
+  "retired_symbols": {
+    "QQQ": {
+      "retired_report_date_beijing": "2026-10-30",
+      "reason": "User removed QQQ, retaining QQQM",
+      "last_valid_state": {
+        "provider_symbol": "QQQ",
+        "last_checked_session": "2026-10-29",
+        "close_usd": 715.34,
+        "high_52w_usd": 762.86,
+        "high_date": "2026-10-06",
+        "drawdown_pct": 6.229184831892088,
+        "stage": "below_13",
+        "stage_since_session": "2026-10-23",
+        "first_recorded_session": "2026-10-23",
+        "last_highlight_report_date": null,
+        "level_15_usd": 648.43,
+        "level_25_usd": 572.15,
+        "gap_to_15_percentage_points": 8.770815168107912,
+        "price_change_to_15_pct": -9.35345944512055,
+        "previous_stage": "below_13",
+        "new_highlight": false,
+        "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+      }
+    }
+  },
+  "active_watch_symbols": [
+    "QQQM",
+    "VOO",
+    "BRK-B"
+  ]
+}

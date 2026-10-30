@@ -1,0 +1,288 @@
+{
+  "status": "Q3_CAPITAL_BRIDGE_UPDATED_NWC_PRESSURE_CHECK",
+  "created_at_utc": "2026-10-29T23:39:20.191320+00:00",
+  "units": "USD billions; common shares billions; per-share USD",
+  "facts": {
+    "cash_and_equivalents_B": 56.334,
+    "marketable_securities_current_B": 208.764,
+    "marketable_equity_B": 90.384,
+    "marketable_debt_B": 118.38,
+    "non_equity_cash_and_bonds_B": 174.714,
+    "marketable_equity_spacex_short_restricted_B_rounded": 75.2,
+    "nonmarketable_securities_B": 135.23,
+    "nonmarketable_measurement_alternative_B": 128.169,
+    "private_equity_initial_cost_B": 48.595,
+    "private_equity_cumulative_upward_adjustment_B": 88.784,
+    "private_equity_cumulative_downward_adjustment_B": 9.21,
+    "equity_method_and_other_B": 7.061,
+    "longterm_debt_carrying_B": 125.102,
+    "current_debt_B": 1.016,
+    "interest_debt_total_B": 126.118,
+    "finance_lease_B": 3.705,
+    "preferred_claim_B": 19.25,
+    "preferred_depositary_shares_B": 0.385,
+    "preferred_claim_per_depositary_share_USD": 50,
+    "nci_proxy_B_rounded": 6.9,
+    "current_common_shares_B": 12.294,
+    "share_count_asof": "2026-10-21",
+    "ttm_revenue_B": 471.101,
+    "ttm_ebit_B": 156.976,
+    "q3_operating_cashflow_B": 42.29,
+    "q3_cash_capex_B": 51.355,
+    "q3_reported_fcf_B": -9.065,
+    "q3_fine_paid_B_CFO_transcript": 5.2,
+    "cash_and_current_marketable_B": 265.098,
+    "balance_sheet_date": "2026-09-30"
+  },
+  "bridge_scenarios": [
+    {
+      "scenario": "保守压力",
+      "old_June_bridge_B": 69.76674999999999,
+      "new_Sept_bridge_B": 57.74050000000002,
+      "new_bridge_per_current_share_USD": 4.696640637709453,
+      "bridge_change_B": -12.026249999999969,
+      "assumptions": {
+        "operating_cash_reserve_B": 40,
+        "market_equity_retention": 0.5,
+        "private_investments_retention": 0.25
+      }
+    },
+    {
+      "scenario": "基准",
+      "old_June_bridge_B": 132.8698,
+      "new_Sept_bridge_B": 119.6248,
+      "new_bridge_per_current_share_USD": 9.73034000325362,
+      "bridge_change_B": -13.245000000000005,
+      "assumptions": {
+        "operating_cash_reserve_B": 30,
+        "market_equity_retention": 0.7,
+        "private_investments_retention": 0.5
+      }
+    },
+    {
+      "scenario": "乐观兑现",
+      "old_June_bridge_B": 195.97285000000005,
+      "new_Sept_bridge_B": 181.50909999999993,
+      "new_bridge_per_current_share_USD": 14.764039368797782,
+      "bridge_change_B": -14.463750000000118,
+      "assumptions": {
+        "operating_cash_reserve_B": 20,
+        "market_equity_retention": 0.9,
+        "private_investments_retention": 0.75
+      }
+    }
+  ],
+  "nwc": {
+    "q2_6m_cashflow_components_B": {
+      "AR": -6.904,
+      "inventory": -7.739,
+      "AP": 2.09,
+      "deferred_revenue": 0.789,
+      "income_taxes": 8.304,
+      "other_assets": -9.95,
+      "accrued_and_other_liabilities": 0.308
+    },
+    "q3_9m_cashflow_components_B": {
+      "AR": -10.821,
+      "inventory": -10.959,
+      "AP": 1.925,
+      "deferred_revenue": 3.34,
+      "income_taxes": 4.602,
+      "other_assets": -17.757,
+      "accrued_and_other_liabilities": -0.86
+    },
+    "Q3_components_as9m_less6m_B": {
+      "AR": -3.917,
+      "inventory": -3.22,
+      "AP": -0.165,
+      "deferred_revenue": 2.551,
+      "income_taxes": -3.702,
+      "other_assets": -7.807,
+      "accrued_and_other_liabilities": -1.168
+    },
+    "Q3_selected_four_account_cash_effect_B": -4.7509999999999994,
+    "balance_sheet_inventory_Jun30_B": 9.991,
+    "balance_sheet_inventory_Sep30_B": 13.308,
+    "inventory_balance_change_B": 3.317,
+    "cashflow_inventory_change_B": -3.22,
+    "balance_cashflow_gap_B": 0.09699999999999998,
+    "TPU_separate_inventory_cash_use_not_disclosed": true,
+    "oneoff_inventory_reversal_scenarios": [
+      {
+        "hypothetical_reversal_fraction_of_all_company_Q3_inventory_cash_use": 0,
+        "cash_release_B": 0.0,
+        "cash_release_per_current_common_share_USD": 0.0,
+        "reported_Q3_FCF_plus_fine_and_inventory_reversal_B": -3.8649999999999993
+      },
+      {
+        "hypothetical_reversal_fraction_of_all_company_Q3_inventory_cash_use": 0.5,
+        "cash_release_B": 1.61,
+        "cash_release_per_current_common_share_USD": 0.13095819098747358,
+        "reported_Q3_FCF_plus_fine_and_inventory_reversal_B": -2.254999999999999
+      },
+      {
+        "hypothetical_reversal_fraction_of_all_company_Q3_inventory_cash_use": 1,
+        "cash_release_B": 3.22,
+        "cash_release_per_current_common_share_USD": 0.26191638197494715,
+        "reported_Q3_FCF_plus_fine_and_inventory_reversal_B": -0.6449999999999991
+      }
+    ],
+    "annual_incremental_nwc_scenarios": [
+      {
+        "incremental_nwc_ratio": 0.02,
+        "first5_growth_assumption": 0.18,
+        "discount_assumption": 0.1,
+        "first5_years": [
+          {
+            "year": 1,
+            "revenue_B": 555.89918,
+            "revenue_increment_B": 84.79818,
+            "nwc_investment_B": 1.6959636,
+            "extra_vs_2pct_B": 0.0,
+            "pv_extra_at10pct_B": 0.0
+          },
+          {
+            "year": 2,
+            "revenue_B": 655.9610324,
+            "revenue_increment_B": 100.06185240000002,
+            "nwc_investment_B": 2.0012370480000006,
+            "extra_vs_2pct_B": 0.0,
+            "pv_extra_at10pct_B": 0.0
+          },
+          {
+            "year": 3,
+            "revenue_B": 774.034018232,
+            "revenue_increment_B": 118.07298583199997,
+            "nwc_investment_B": 2.3614597166399993,
+            "extra_vs_2pct_B": 0.0,
+            "pv_extra_at10pct_B": 0.0
+          },
+          {
+            "year": 4,
+            "revenue_B": 913.3601415137599,
+            "revenue_increment_B": 139.32612328175992,
+            "nwc_investment_B": 2.7865224656351986,
+            "extra_vs_2pct_B": 0.0,
+            "pv_extra_at10pct_B": 0.0
+          },
+          {
+            "year": 5,
+            "revenue_B": 1077.7649669862367,
+            "revenue_increment_B": 164.40482547247677,
+            "nwc_investment_B": 3.2880965094495354,
+            "extra_vs_2pct_B": 0.0,
+            "pv_extra_at10pct_B": 0.0
+          }
+        ],
+        "first5_pv_cash_drag_vs_2pct_B": 0.0,
+        "first5_pv_cash_drag_per_share_USD": 0.0
+      },
+      {
+        "incremental_nwc_ratio": 0.05,
+        "first5_growth_assumption": 0.18,
+        "discount_assumption": 0.1,
+        "first5_years": [
+          {
+            "year": 1,
+            "revenue_B": 555.89918,
+            "revenue_increment_B": 84.79818,
+            "nwc_investment_B": 4.239909,
+            "extra_vs_2pct_B": 2.5439454,
+            "pv_extra_at10pct_B": 2.3126776363636363
+          },
+          {
+            "year": 2,
+            "revenue_B": 655.9610324,
+            "revenue_increment_B": 100.06185240000002,
+            "nwc_investment_B": 5.003092620000001,
+            "extra_vs_2pct_B": 3.0018555720000006,
+            "pv_extra_at10pct_B": 2.4808723735537193
+          },
+          {
+            "year": 3,
+            "revenue_B": 774.034018232,
+            "revenue_increment_B": 118.07298583199997,
+            "nwc_investment_B": 5.903649291599999,
+            "extra_vs_2pct_B": 3.5421895749599996,
+            "pv_extra_at10pct_B": 2.6612994552667155
+          },
+          {
+            "year": 4,
+            "revenue_B": 913.3601415137599,
+            "revenue_increment_B": 139.32612328175992,
+            "nwc_investment_B": 6.966306164087996,
+            "extra_vs_2pct_B": 4.179783698452798,
+            "pv_extra_at10pct_B": 2.85484850655884
+          },
+          {
+            "year": 5,
+            "revenue_B": 1077.7649669862367,
+            "revenue_increment_B": 164.40482547247677,
+            "nwc_investment_B": 8.22024127362384,
+            "extra_vs_2pct_B": 4.9321447641743035,
+            "pv_extra_at10pct_B": 3.0624738524903923
+          }
+        ],
+        "first5_pv_cash_drag_vs_2pct_B": 13.372171824233304,
+        "first5_pv_cash_drag_per_share_USD": 1.0876990258852532
+      },
+      {
+        "incremental_nwc_ratio": 0.1,
+        "first5_growth_assumption": 0.18,
+        "discount_assumption": 0.1,
+        "first5_years": [
+          {
+            "year": 1,
+            "revenue_B": 555.89918,
+            "revenue_increment_B": 84.79818,
+            "nwc_investment_B": 8.479818,
+            "extra_vs_2pct_B": 6.7838544,
+            "pv_extra_at10pct_B": 6.1671403636363635
+          },
+          {
+            "year": 2,
+            "revenue_B": 655.9610324,
+            "revenue_increment_B": 100.06185240000002,
+            "nwc_investment_B": 10.006185240000002,
+            "extra_vs_2pct_B": 8.004948192000002,
+            "pv_extra_at10pct_B": 6.615659662809918
+          },
+          {
+            "year": 3,
+            "revenue_B": 774.034018232,
+            "revenue_increment_B": 118.07298583199997,
+            "nwc_investment_B": 11.807298583199998,
+            "extra_vs_2pct_B": 9.445838866559997,
+            "pv_extra_at10pct_B": 7.096798547377907
+          },
+          {
+            "year": 4,
+            "revenue_B": 913.3601415137599,
+            "revenue_increment_B": 139.32612328175992,
+            "nwc_investment_B": 13.932612328175992,
+            "extra_vs_2pct_B": 11.146089862540794,
+            "pv_extra_at10pct_B": 7.612929350823571
+          },
+          {
+            "year": 5,
+            "revenue_B": 1077.7649669862367,
+            "revenue_increment_B": 164.40482547247677,
+            "nwc_investment_B": 16.44048254724768,
+            "extra_vs_2pct_B": 13.152386037798141,
+            "pv_extra_at10pct_B": 8.16659693997438
+          }
+        ],
+        "first5_pv_cash_drag_vs_2pct_B": 35.65912486462214,
+        "first5_pv_cash_drag_per_share_USD": 2.9005307356940087
+      }
+    ]
+  },
+  "policies": {
+    "tax": "Retentions combine tax, market and liquidity haircuts; do not also subtract all deferred-tax liability. Debt assets are book/fair-value proxies, not riskless cash.",
+    "leases": "Operating rental costs retained in operating forecasts; do not deduct operating debt again without recasting. Finance-lease debt included once; future financed assets must be included in capex.",
+    "preferred": "Deduct385m*50 liquidation proxy19.25B, excluding preferred conversion shares; do not deduct claim and conversion dilution simultaneously.",
+    "nci": "6.9B rounded book proxy, not independently valued. RNCI0.825B is included, not extra deduction.",
+    "inventory": "Sold TPU hardware inventory working-capital use is already within CFO, not a second subtraction of cash capex; all-company inventory includes Pixel.",
+    "full_model_gap": "A full10-year scenario calculator has been rerun separately withQ3facts. Future TPU/service mix, margins, external compute, capex and remaining assumptions are not fully recalibrated; the outputs are conditional research values, not certified fair values or entry bands."
+  }
+}

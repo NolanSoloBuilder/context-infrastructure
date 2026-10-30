@@ -1,0 +1,263 @@
+{
+  "status": "passed_with_disclosed_gaps",
+  "session": "2026-10-29",
+  "report_date_beijing": "2026-10-30",
+  "verified_at_utc": "2026-10-29T23:46:48.391035+00:00",
+  "regular_close_cross_checks": [
+    {
+      "symbol": "QQQ",
+      "session": "2026-10-29",
+      "provider_close_usd": 715.34,
+      "second_source_close_usd": 715.34,
+      "source_url": "https://stockanalysis.com/etf/qqq/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 37975249,
+      "provider_volume": 36940569,
+      "provider_volume_difference_pct": -2.7246167628815265
+    },
+    {
+      "symbol": "QQQM",
+      "session": "2026-10-29",
+      "provider_close_usd": 294.53,
+      "second_source_close_usd": 294.53,
+      "source_url": "https://stockanalysis.com/etf/qqqm/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 2510918,
+      "provider_volume": 2450178,
+      "provider_volume_difference_pct": -2.4190355877810377
+    },
+    {
+      "symbol": "VOO",
+      "session": "2026-10-29",
+      "provider_close_usd": 707.32,
+      "second_source_close_usd": 707.32,
+      "source_url": "https://stockanalysis.com/etf/voo/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 5122767,
+      "provider_volume": 5070399,
+      "provider_volume_difference_pct": -1.022260040325862
+    },
+    {
+      "symbol": "BRK-B",
+      "session": "2026-10-29",
+      "provider_close_usd": 541.96,
+      "second_source_close_usd": 541.96,
+      "source_url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 4068361,
+      "provider_volume": 4148843,
+      "provider_volume_difference_pct": 1.9782413605872184
+    },
+    {
+      "symbol": "GOOGL",
+      "session": "2026-10-29",
+      "provider_close_usd": 283.82,
+      "second_source_close_usd": 283.82,
+      "source_url": "https://stockanalysis.com/stocks/googl/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 139691848,
+      "provider_volume": 138462344,
+      "provider_volume_difference_pct": -0.8801544382174731
+    },
+    {
+      "symbol": "SOFI",
+      "session": "2026-10-29",
+      "provider_close_usd": 17.61,
+      "second_source_close_usd": 17.61,
+      "source_url": "https://stockanalysis.com/stocks/sofi/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 65133427,
+      "provider_volume": 64103243,
+      "provider_volume_difference_pct": -1.5816517684536957
+    },
+    {
+      "symbol": "RRX",
+      "session": "2026-10-29",
+      "provider_close_usd": 163.62,
+      "second_source_close_usd": 163.62,
+      "source_url": "https://stockanalysis.com/stocks/rrx/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true
+    },
+    {
+      "symbol": "CGNX",
+      "session": "2026-10-29",
+      "provider_close_usd": 58.97,
+      "second_source_close_usd": 58.97,
+      "source_url": "https://stockanalysis.com/stocks/cgnx/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true
+    },
+    {
+      "symbol": "ATS",
+      "session": "2026-10-29",
+      "provider_close_usd": 19.09,
+      "second_source_close_usd": 19.09,
+      "source_url": "https://stockanalysis.com/stocks/ats/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 167524,
+      "provider_volume": 167524,
+      "provider_volume_difference_pct": 0.0
+    },
+    {
+      "symbol": "NVDA",
+      "session": "2026-10-29",
+      "provider_close_usd": 213.66,
+      "second_source_close_usd": 213.66,
+      "source_url": "https://stockanalysis.com/stocks/nvda/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 77304159,
+      "provider_volume": 75456091,
+      "provider_volume_difference_pct": -2.390644984573209
+    },
+    {
+      "symbol": "SMH",
+      "session": "2026-10-29",
+      "provider_close_usd": 561.67,
+      "second_source_close_usd": 561.67,
+      "source_url": "https://stockanalysis.com/etf/smh/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 5966137,
+      "provider_volume": 5883746,
+      "provider_volume_difference_pct": -1.3809773392733038
+    },
+    {
+      "symbol": "SGOV",
+      "session": "2026-10-29",
+      "provider_close_usd": 100.71,
+      "second_source_close_usd": 100.71,
+      "source_url": "https://stockanalysis.com/etf/sgov/history/",
+      "source_scope": "regular dated row and dated extended-price header",
+      "close_match": true,
+      "second_source_volume": 21018887,
+      "provider_volume": 20615972,
+      "provider_volume_difference_pct": -1.9169188168717044
+    }
+  ],
+  "watch_highs": {
+    "QQQ": {
+      "yahoo": 762.86,
+      "stock_analysis": 762.86,
+      "date": "2026-10-06"
+    },
+    "QQQM": {
+      "yahoo": 314.11,
+      "stock_analysis": 314.12,
+      "date": "2026-10-06",
+      "difference_disclosed": true
+    },
+    "VOO": {
+      "yahoo": 718.47,
+      "stock_analysis": 718.47,
+      "date": "2026-10-06"
+    },
+    "BRK-B": {
+      "yahoo": 549.96,
+      "stock_analysis": 549.96,
+      "date": "2026-10-22"
+    }
+  },
+  "chart_checks": [
+    {
+      "symbol": "QQQM",
+      "observations": 60,
+      "first_date": "2026-08-06",
+      "last_date": "2026-10-29",
+      "normalized_last": 100.091752,
+      "drawdown_last_pct": -6.2349751091041234,
+      "rolling_high_no_lookahead": "passed"
+    },
+    {
+      "symbol": "VOO",
+      "observations": 60,
+      "first_date": "2026-08-06",
+      "last_date": "2026-10-29",
+      "normalized_last": 100.130235,
+      "drawdown_last_pct": -1.5519038837481847,
+      "rolling_high_no_lookahead": "passed"
+    },
+    {
+      "symbol": "BRK-B",
+      "observations": 60,
+      "first_date": "2026-08-06",
+      "last_date": "2026-10-29",
+      "normalized_last": 103.307226,
+      "drawdown_last_pct": -1.4546511892454927,
+      "rolling_high_no_lookahead": "passed"
+    }
+  ],
+  "sector_count": 12,
+  "sector_daily_sorted": [
+    {
+      "symbol": "XLV",
+      "day_pct": 2.4037347184994617
+    },
+    {
+      "symbol": "XLRE",
+      "day_pct": 2.207453789692937
+    },
+    {
+      "symbol": "XLP",
+      "day_pct": 1.5430723443046412
+    },
+    {
+      "symbol": "XLU",
+      "day_pct": 1.5297662638386056
+    },
+    {
+      "symbol": "XLF",
+      "day_pct": 1.4430741905933742
+    },
+    {
+      "symbol": "XLB",
+      "day_pct": 1.2919362920554622
+    },
+    {
+      "symbol": "XLI",
+      "day_pct": 0.9733511402342243
+    },
+    {
+      "symbol": "XLY",
+      "day_pct": 0.7543528165914193
+    },
+    {
+      "symbol": "XLE",
+      "day_pct": 0.3798424365556441
+    },
+    {
+      "symbol": "SMH",
+      "day_pct": -1.056952134273692
+    },
+    {
+      "symbol": "XLK",
+      "day_pct": -1.183243197296302
+    },
+    {
+      "symbol": "XLC",
+      "day_pct": -1.8712432776778587
+    }
+  ],
+  "ohlc_exception": "XLRE low42.61>open42.43; used cross-checked closes only, not reconstructed low/high/drawdown",
+  "extended": "12 zero-volume references; cross-source time/price differences retained; not final postmarket",
+  "google_model_checks": "Q3 facts updated, bridge119.6248B and base216.280958 recomputed; forward assumptions not proven",
+  "image_visual_inspection": "Both PNGs opened; labels/date/signs/terminal values readable",
+  "template_browser_test": "not repeated; unchanged template, file-URL policy restriction respected",
+  "gaps": [
+    "XLRE OHLC anomaly retained",
+    "Broad constituent breadth and index valuation denominator not fully verified",
+    "SOFI Q3 full10Q unavailable in latest SEC submission snapshot",
+    "Third-party transcript scope, not complete official audio verification",
+    "Reddit precise publication times and full24h coverage incomplete",
+    "SPX derived reference differs0.17points; common Yahoo sequence retained, no official-close equality asserted"
+  ],
+  "no_account_actions": true
+}

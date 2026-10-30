@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "report_date": "2026-10-29",
+  "market_asof": "2026-10-28",
+  "verified_star": 4.7,
+  "previous_star": 4.8,
+  "threshold_triggered": false,
+  "original_low_rows": 21,
+  "charts": 2,
+  "fold_default_closed": true,
+  "anchors_valid": true,
+  "shared_style_sha256": "17c89a4bb08d958cf732f20ab06075de613407519a721a4130b1fce08a505fa2",
+  "visual_check": "未执行浏览器视觉核验；静态结构和SVG已检查"
+}

@@ -1,0 +1,52 @@
+{
+  "quotes": [
+    [
+      "QQQ",
+      "721.25"
+    ],
+    [
+      "QQQM",
+      "296.96"
+    ],
+    [
+      "VOO",
+      "707.52"
+    ],
+    [
+      "BRK.B",
+      "542.99"
+    ]
+  ],
+  "brokenAnchors": [],
+  "chartCount": 2,
+  "embeddedImages": true,
+  "sourceUnchanged": true,
+  "zoomOpens": true,
+  "escapeCloses": true,
+  "detailNavigation": true,
+  "appendixNavigation": true,
+  "mobilePageWidth": {
+    "content": 390,
+    "viewport": 390
+  },
+  "tableScrollLocal": true,
+  "errors": [],
+  "externalRequests": [],
+  "passed": true,
+  "evidenceDownloadMatchesSource": true,
+  "mobileTopScreenshot": true,
+  "html_sha256": "6cd6fb0ee9227ed255c8fed5efb6f120fe2acc43c0e0311a2f7d0c32d16ee215",
+  "chartsReadyAtPageLoad": [
+    {
+      "complete": true,
+      "width": 2144,
+      "loading": "eager"
+    },
+    {
+      "complete": true,
+      "width": 2144,
+      "loading": "eager"
+    }
+  ],
+  "reviewed_at_utc": "2026-10-28T03:45:47.927Z"
+}

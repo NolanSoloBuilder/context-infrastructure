@@ -1,0 +1,375 @@
+{
+  "retrieved_at": "2026-10-30T01:27:52.073927+00:00",
+  "funds": {
+    "MAGS": {
+      "name": "Roundhill Magnificent Seven ETF",
+      "type": "主动管理股票ETF（含总回报互换）",
+      "strategy": "七巨头等权敞口，每季度再平衡",
+      "expense_pct": 0.3,
+      "inception_date": "2023-04-11",
+      "holdings_date": "2026-10-29",
+      "raw_csv_date": "2026-10-30",
+      "holdings_date_method": "官网app.js的Co函数对CSV Date减一日后展示；文件名10292026和所用美股价格均对应10/29。",
+      "holdings": [
+        {
+          "name": "Tesla",
+          "symbol": "TSLA",
+          "weight_pct": 16.89,
+          "direct_weight_pct": 6.26,
+          "swap_weight_pct": 10.63
+        },
+        {
+          "name": "Apple",
+          "symbol": "AAPL",
+          "weight_pct": 15.36,
+          "direct_weight_pct": 5.69,
+          "swap_weight_pct": 9.67
+        },
+        {
+          "name": "Microsoft",
+          "symbol": "MSFT",
+          "weight_pct": 15.13,
+          "direct_weight_pct": 4.11,
+          "swap_weight_pct": 11.02
+        },
+        {
+          "name": "Amazon",
+          "symbol": "AMZN",
+          "weight_pct": 14.41,
+          "direct_weight_pct": 5.34,
+          "swap_weight_pct": 9.07
+        },
+        {
+          "name": "NVIDIA",
+          "symbol": "NVDA",
+          "weight_pct": 13.72,
+          "direct_weight_pct": 5.08,
+          "swap_weight_pct": 8.64
+        },
+        {
+          "name": "Meta Platforms",
+          "symbol": "META",
+          "weight_pct": 12.6,
+          "direct_weight_pct": 4.67,
+          "swap_weight_pct": 7.93
+        },
+        {
+          "name": "Alphabet",
+          "symbol": "GOOGL",
+          "weight_pct": 12.03,
+          "direct_weight_pct": 4.46,
+          "swap_weight_pct": 7.57
+        }
+      ],
+      "holdings_basis": "同一公司直接股票权重与总回报互换名义敞口权重之和。按披露四舍五入值汇总，非互换公允价值权重。",
+      "holdings_exposure_total_pct": 100.14,
+      "collateral_and_other": [
+        {
+          "symbol": "912797VA2",
+          "name": "United States Treasury Bill 12/03/2026",
+          "weight_pct": 18.55
+        },
+        {
+          "symbol": "912797VP9",
+          "name": "United States Treasury Bill 11/03/2026",
+          "weight_pct": 9.31
+        },
+        {
+          "symbol": "912797WN3",
+          "name": "United States Treasury Bill 01/05/2027",
+          "weight_pct": 9.24
+        },
+        {
+          "symbol": "FGXXX",
+          "name": "First American Government Obligations Fund 12/01/2031",
+          "weight_pct": 14.43
+        },
+        {
+          "symbol": "XBOX",
+          "name": "Roundhill Box Spread ETF",
+          "weight_pct": 5.8
+        },
+        {
+          "symbol": "Cash&Other",
+          "name": "Cash & Other",
+          "weight_pct": -57.47
+        }
+      ],
+      "net_assets_usd": 5370141700.0,
+      "notes": [
+        "表内持仓指基金持仓，非用户已持有。",
+        "以股票及互换合并经济敞口理解集中度；国债/货基等担保或现金管理资产不能当作低风险股票替代仓位。",
+        "原始CSV含互换名义敞口及负Cash & Other，不宜把所有行正权重相加作净资产配置。"
+      ],
+      "risks": [
+        "少数公司集中、科技盈利和估值共振、互换对手方及融资风险"
+      ],
+      "sources": [
+        {
+          "url": "https://www.roundhillinvestments.com/etf/mags/",
+          "title": "Roundhill MAGS官方产品页",
+          "asof": "2026-10-30采集（费率和策略）"
+        },
+        {
+          "url": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_10292026.csv",
+          "title": "Roundhill官方每日全基金持仓CSV",
+          "asof": "2026-10-29展示口径"
+        },
+        {
+          "url": "https://www.roundhillinvestments.com/assets/js/app.js",
+          "title": "官网持仓渲染及日期处理代码",
+          "asof": "2026-10-30采集"
+        }
+      ],
+      "gaps": [
+        "未核基金最新每股NAV或买卖价差；本文件不提供实时行情。"
+      ]
+    },
+    "DRAM": {
+      "name": "Roundhill Memory ETF",
+      "type": "主动管理股票ETF（含总回报互换）",
+      "strategy": "全球存储芯片与存储设备主题；覆盖HBM、DRAM、NAND等，通常季度再平衡",
+      "expense_pct": 0.65,
+      "inception_date": "2026-04-02",
+      "holdings_date": "2026-10-29",
+      "raw_csv_date": "2026-10-30",
+      "holdings_date_method": "官网app.js的Co函数对CSV Date减一日后展示；文件名10292026和所用美股价格均对应10/29。",
+      "holdings": [
+        {
+          "name": "Micron Technology",
+          "symbol": "MU",
+          "weight_pct": 27.1,
+          "direct_weight_pct": 2.92,
+          "swap_weight_pct": 24.18
+        },
+        {
+          "name": "Samsung Electronics",
+          "symbol": "005930/005935 KS",
+          "weight_pct": 25.36,
+          "direct_weight_pct": 18.56,
+          "swap_weight_pct": 6.8
+        },
+        {
+          "name": "SK hynix",
+          "symbol": "000660 KS / SKHY",
+          "weight_pct": 22.91,
+          "direct_weight_pct": 16.85,
+          "swap_weight_pct": 6.06
+        },
+        {
+          "name": "CXMT",
+          "symbol": "CXMT",
+          "weight_pct": 4.65,
+          "direct_weight_pct": 0,
+          "swap_weight_pct": 4.65
+        },
+        {
+          "name": "Sandisk",
+          "symbol": "SNDK",
+          "weight_pct": 4.22,
+          "direct_weight_pct": 4.22,
+          "swap_weight_pct": 0
+        },
+        {
+          "name": "Seagate Technology",
+          "symbol": "STX",
+          "weight_pct": 4.22,
+          "direct_weight_pct": 4.22,
+          "swap_weight_pct": 0
+        },
+        {
+          "name": "Western Digital",
+          "symbol": "WDC",
+          "weight_pct": 3.69,
+          "direct_weight_pct": 3.69,
+          "swap_weight_pct": 0
+        },
+        {
+          "name": "Kioxia Holdings",
+          "symbol": "285A JP",
+          "weight_pct": 3.02,
+          "direct_weight_pct": 3.02,
+          "swap_weight_pct": 0
+        },
+        {
+          "name": "Nanya Technology",
+          "symbol": "2408 TT",
+          "weight_pct": 2.6,
+          "direct_weight_pct": 2.6,
+          "swap_weight_pct": 0
+        },
+        {
+          "name": "Winbond Electronics",
+          "symbol": "2344 TT",
+          "weight_pct": 1.24,
+          "direct_weight_pct": 1.24,
+          "swap_weight_pct": 0
+        },
+        {
+          "name": "GigaDevice Semiconductor",
+          "symbol": "603986 C1",
+          "weight_pct": 0.86,
+          "direct_weight_pct": 0.86,
+          "swap_weight_pct": 0
+        }
+      ],
+      "holdings_basis": "同一公司直接股票权重与总回报互换名义敞口权重之和。按披露四舍五入值汇总，非互换公允价值权重。",
+      "holdings_exposure_total_pct": 99.87,
+      "collateral_and_other": [
+        {
+          "symbol": "912797VA2",
+          "name": "United States Treasury Bill 12/03/2026",
+          "weight_pct": 4.95
+        },
+        {
+          "symbol": "912797VP9",
+          "name": "United States Treasury Bill 11/03/2026",
+          "weight_pct": 14.89
+        },
+        {
+          "symbol": "912797WN3",
+          "name": "United States Treasury Bill 01/05/2027",
+          "weight_pct": 9.86
+        },
+        {
+          "symbol": "CNY",
+          "name": "CHINESE YUAN",
+          "weight_pct": 0.0
+        },
+        {
+          "symbol": "FGXXX",
+          "name": "First American Government Obligations Fund 12/01/2031",
+          "weight_pct": 15.75
+        },
+        {
+          "symbol": "KRW",
+          "name": "SOUTH KOREA WON",
+          "weight_pct": 0.04
+        },
+        {
+          "symbol": "TWD",
+          "name": "NEW TAIWAN DOLLAR",
+          "weight_pct": 0.0
+        },
+        {
+          "symbol": "Cash&Other",
+          "name": "Cash & Other",
+          "weight_pct": -45.4
+        }
+      ],
+      "net_assets_usd": 20135560512.0,
+      "notes": [
+        "表内持仓指基金持仓，非用户已持有。",
+        "以股票及互换合并经济敞口理解集中度；国债/货基等担保或现金管理资产不能当作低风险股票替代仓位。",
+        "原始CSV含互换名义敞口及负Cash & Other，不宜把所有行正权重相加作净资产配置。"
+      ],
+      "risks": [
+        "存储供需和价格强周期；韩股、汇率及地缘风险；互换对手方风险；成立未满一年，缺完整52周和长期实盘记录"
+      ],
+      "sources": [
+        {
+          "url": "https://www.roundhillinvestments.com/etf/dram/",
+          "title": "Roundhill DRAM官方产品页",
+          "asof": "2026-10-30采集（费率和策略）"
+        },
+        {
+          "url": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_10292026.csv",
+          "title": "Roundhill官方每日全基金持仓CSV",
+          "asof": "2026-10-29展示口径"
+        },
+        {
+          "url": "https://www.roundhillinvestments.com/assets/js/app.js",
+          "title": "官网持仓渲染及日期处理代码",
+          "asof": "2026-10-30采集"
+        }
+      ],
+      "gaps": [
+        "未核基金最新每股NAV或买卖价差；本文件不提供实时行情。"
+      ]
+    },
+    "SPMO": {
+      "name": "Invesco S&P 500 Momentum ETF",
+      "type": "被动指数／动量因子ETF",
+      "strategy": "跟踪S&P 500 Momentum Index，至少90%资产投向指数证券；按市值和动量分数赋权，每年3月及9月第三个星期五重构并再平衡。",
+      "expense_pct": 0.13,
+      "inception_date": "2015-10-09",
+      "holdings_date": "2026-10-28",
+      "holdings": [
+        {
+          "name": "Apple Inc",
+          "symbol": "AAPL",
+          "weight_pct": 9.703
+        },
+        {
+          "name": "Micron Technology Inc",
+          "symbol": "MU",
+          "weight_pct": 9.1713
+        },
+        {
+          "name": "Advanced Micro Devices Inc",
+          "symbol": "AMD",
+          "weight_pct": 5.5646
+        },
+        {
+          "name": "Johnson & Johnson",
+          "symbol": "JNJ",
+          "weight_pct": 4.8256
+        },
+        {
+          "name": "Alphabet Inc",
+          "symbol": "GOOGL",
+          "weight_pct": 4.7489
+        },
+        {
+          "name": "Intel Corp",
+          "symbol": "INTC",
+          "weight_pct": 4.6138
+        },
+        {
+          "name": "Alphabet Inc",
+          "symbol": "GOOG",
+          "weight_pct": 3.8209
+        },
+        {
+          "name": "ExxonMobil Holdings Corp",
+          "symbol": "XOM",
+          "weight_pct": 3.5551
+        },
+        {
+          "name": "Cisco Systems Inc",
+          "symbol": "CSCO",
+          "weight_pct": 2.4611
+        },
+        {
+          "name": "Lam Research Corp",
+          "symbol": "LRCX",
+          "weight_pct": 2.4167
+        }
+      ],
+      "holdings_count": 103,
+      "top10_weight_pct": 50.881,
+      "notes": [
+        "股票来自标普500但权重与VOO明显不同。",
+        "动量策略追随近期强势，与低估筛选是不同逻辑。GOOG与GOOGL应合并评估Alphabet公司暴露。"
+      ],
+      "risks": [
+        "趋势快速反转时可能落后；半年调整造成滞后；阶段性行业或个股集中。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-momentum-etf.html",
+          "title": "Invesco SPMO官方产品页",
+          "asof": "2026-10-30采集"
+        },
+        {
+          "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138E339/holdings/fund?idType=cusip&productType=ETF",
+          "title": "Invesco官方持仓API",
+          "asof": "2026-10-28"
+        }
+      ],
+      "gaps": [
+        "持仓API最新有效日为10/28，与10/29行情基准相差一个交易日，勿冒称同日。"
+      ]
+    }
+  }
+}

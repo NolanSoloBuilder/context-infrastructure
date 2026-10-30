@@ -1,0 +1,590 @@
+{
+  "meta": [
+    {
+      "name": "day",
+      "type": "Date"
+    },
+    {
+      "name": "event",
+      "type": "String"
+    },
+    {
+      "name": "n",
+      "type": "UInt64"
+    }
+  ],
+  "data": [
+    {
+      "day": "2026-09-28",
+      "event": "game_start",
+      "n": "2"
+    },
+    {
+      "day": "2026-09-28",
+      "event": "page_view",
+      "n": "11"
+    },
+    {
+      "day": "2026-09-29",
+      "event": "game_complete",
+      "n": "32"
+    },
+    {
+      "day": "2026-09-29",
+      "event": "game_start",
+      "n": "41"
+    },
+    {
+      "day": "2026-09-29",
+      "event": "leaderboard_view",
+      "n": "28"
+    },
+    {
+      "day": "2026-09-29",
+      "event": "page_view",
+      "n": "91"
+    },
+    {
+      "day": "2026-09-30",
+      "event": "game_complete",
+      "n": "1"
+    },
+    {
+      "day": "2026-09-30",
+      "event": "game_start",
+      "n": "8"
+    },
+    {
+      "day": "2026-09-30",
+      "event": "leaderboard_view",
+      "n": "1"
+    },
+    {
+      "day": "2026-09-30",
+      "event": "page_view",
+      "n": "11"
+    },
+    {
+      "day": "2026-10-01",
+      "event": "game_complete",
+      "n": "30"
+    },
+    {
+      "day": "2026-10-01",
+      "event": "game_start",
+      "n": "56"
+    },
+    {
+      "day": "2026-10-01",
+      "event": "leaderboard_view",
+      "n": "18"
+    },
+    {
+      "day": "2026-10-01",
+      "event": "page_view",
+      "n": "160"
+    },
+    {
+      "day": "2026-10-02",
+      "event": "game_complete",
+      "n": "9"
+    },
+    {
+      "day": "2026-10-02",
+      "event": "game_start",
+      "n": "12"
+    },
+    {
+      "day": "2026-10-02",
+      "event": "leaderboard_view",
+      "n": "9"
+    },
+    {
+      "day": "2026-10-02",
+      "event": "page_view",
+      "n": "49"
+    },
+    {
+      "day": "2026-10-02",
+      "event": "streak_updated",
+      "n": "3"
+    },
+    {
+      "day": "2026-10-03",
+      "event": "game_complete",
+      "n": "5"
+    },
+    {
+      "day": "2026-10-03",
+      "event": "game_start",
+      "n": "7"
+    },
+    {
+      "day": "2026-10-03",
+      "event": "leaderboard_view",
+      "n": "5"
+    },
+    {
+      "day": "2026-10-03",
+      "event": "page_view",
+      "n": "116"
+    },
+    {
+      "day": "2026-10-04",
+      "event": "game_complete",
+      "n": "9"
+    },
+    {
+      "day": "2026-10-04",
+      "event": "game_start",
+      "n": "17"
+    },
+    {
+      "day": "2026-10-04",
+      "event": "leaderboard_view",
+      "n": "8"
+    },
+    {
+      "day": "2026-10-04",
+      "event": "page_view",
+      "n": "40"
+    },
+    {
+      "day": "2026-10-04",
+      "event": "streak_updated",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-05",
+      "event": "game_complete",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-05",
+      "event": "game_start",
+      "n": "4"
+    },
+    {
+      "day": "2026-10-05",
+      "event": "leaderboard_view",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-05",
+      "event": "page_view",
+      "n": "37"
+    },
+    {
+      "day": "2026-10-06",
+      "event": "game_complete",
+      "n": "21"
+    },
+    {
+      "day": "2026-10-06",
+      "event": "game_start",
+      "n": "24"
+    },
+    {
+      "day": "2026-10-06",
+      "event": "leaderboard_view",
+      "n": "18"
+    },
+    {
+      "day": "2026-10-06",
+      "event": "page_view",
+      "n": "49"
+    },
+    {
+      "day": "2026-10-07",
+      "event": "game_complete",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-07",
+      "event": "game_start",
+      "n": "9"
+    },
+    {
+      "day": "2026-10-07",
+      "event": "leaderboard_view",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-07",
+      "event": "page_view",
+      "n": "20"
+    },
+    {
+      "day": "2026-10-08",
+      "event": "game_complete",
+      "n": "5"
+    },
+    {
+      "day": "2026-10-08",
+      "event": "game_start",
+      "n": "8"
+    },
+    {
+      "day": "2026-10-08",
+      "event": "leaderboard_view",
+      "n": "5"
+    },
+    {
+      "day": "2026-10-08",
+      "event": "page_view",
+      "n": "25"
+    },
+    {
+      "day": "2026-10-09",
+      "event": "game_complete",
+      "n": "9"
+    },
+    {
+      "day": "2026-10-09",
+      "event": "game_start",
+      "n": "14"
+    },
+    {
+      "day": "2026-10-09",
+      "event": "leaderboard_view",
+      "n": "9"
+    },
+    {
+      "day": "2026-10-09",
+      "event": "page_view",
+      "n": "26"
+    },
+    {
+      "day": "2026-10-09",
+      "event": "streak_updated",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-10",
+      "event": "page_view",
+      "n": "5"
+    },
+    {
+      "day": "2026-10-11",
+      "event": "game_start",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-11",
+      "event": "page_view",
+      "n": "3"
+    },
+    {
+      "day": "2026-10-12",
+      "event": "game_complete",
+      "n": "83"
+    },
+    {
+      "day": "2026-10-12",
+      "event": "game_start",
+      "n": "88"
+    },
+    {
+      "day": "2026-10-12",
+      "event": "leaderboard_view",
+      "n": "75"
+    },
+    {
+      "day": "2026-10-12",
+      "event": "page_view",
+      "n": "310"
+    },
+    {
+      "day": "2026-10-13",
+      "event": "game_complete",
+      "n": "26"
+    },
+    {
+      "day": "2026-10-13",
+      "event": "game_start",
+      "n": "30"
+    },
+    {
+      "day": "2026-10-13",
+      "event": "leaderboard_view",
+      "n": "23"
+    },
+    {
+      "day": "2026-10-13",
+      "event": "page_view",
+      "n": "124"
+    },
+    {
+      "day": "2026-10-13",
+      "event": "streak_updated",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-14",
+      "event": "game_complete",
+      "n": "4"
+    },
+    {
+      "day": "2026-10-14",
+      "event": "game_start",
+      "n": "12"
+    },
+    {
+      "day": "2026-10-14",
+      "event": "leaderboard_view",
+      "n": "4"
+    },
+    {
+      "day": "2026-10-14",
+      "event": "page_view",
+      "n": "49"
+    },
+    {
+      "day": "2026-10-15",
+      "event": "game_complete",
+      "n": "374"
+    },
+    {
+      "day": "2026-10-15",
+      "event": "game_start",
+      "n": "859"
+    },
+    {
+      "day": "2026-10-15",
+      "event": "leaderboard_view",
+      "n": "366"
+    },
+    {
+      "day": "2026-10-15",
+      "event": "page_view",
+      "n": "1958"
+    },
+    {
+      "day": "2026-10-15",
+      "event": "streak_updated",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-16",
+      "event": "game_complete",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-16",
+      "event": "game_start",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-16",
+      "event": "leaderboard_view",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-16",
+      "event": "page_view",
+      "n": "6"
+    },
+    {
+      "day": "2026-10-17",
+      "event": "game_complete",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-17",
+      "event": "game_start",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-17",
+      "event": "leaderboard_view",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-17",
+      "event": "page_view",
+      "n": "13"
+    },
+    {
+      "day": "2026-10-18",
+      "event": "game_start",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-18",
+      "event": "page_view",
+      "n": "10"
+    },
+    {
+      "day": "2026-10-19",
+      "event": "game_complete",
+      "n": "195"
+    },
+    {
+      "day": "2026-10-19",
+      "event": "game_start",
+      "n": "590"
+    },
+    {
+      "day": "2026-10-19",
+      "event": "leaderboard_view",
+      "n": "183"
+    },
+    {
+      "day": "2026-10-19",
+      "event": "page_view",
+      "n": "715"
+    },
+    {
+      "day": "2026-10-19",
+      "event": "share_open",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-19",
+      "event": "share_success",
+      "n": "1"
+    },
+    {
+      "day": "2026-10-19",
+      "event": "streak_updated",
+      "n": "14"
+    },
+    {
+      "day": "2026-10-20",
+      "event": "game_complete",
+      "n": "172"
+    },
+    {
+      "day": "2026-10-20",
+      "event": "game_start",
+      "n": "323"
+    },
+    {
+      "day": "2026-10-20",
+      "event": "leaderboard_view",
+      "n": "172"
+    },
+    {
+      "day": "2026-10-20",
+      "event": "page_view",
+      "n": "892"
+    },
+    {
+      "day": "2026-10-20",
+      "event": "streak_updated",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-21",
+      "event": "game_complete",
+      "n": "159"
+    },
+    {
+      "day": "2026-10-21",
+      "event": "game_start",
+      "n": "359"
+    },
+    {
+      "day": "2026-10-21",
+      "event": "leaderboard_view",
+      "n": "154"
+    },
+    {
+      "day": "2026-10-21",
+      "event": "page_view",
+      "n": "1136"
+    },
+    {
+      "day": "2026-10-23",
+      "event": "game_complete",
+      "n": "284"
+    },
+    {
+      "day": "2026-10-23",
+      "event": "game_start",
+      "n": "585"
+    },
+    {
+      "day": "2026-10-23",
+      "event": "leaderboard_view",
+      "n": "281"
+    },
+    {
+      "day": "2026-10-23",
+      "event": "page_view",
+      "n": "1682"
+    },
+    {
+      "day": "2026-10-23",
+      "event": "streak_updated",
+      "n": "4"
+    },
+    {
+      "day": "2026-10-24",
+      "event": "game_complete",
+      "n": "6"
+    },
+    {
+      "day": "2026-10-24",
+      "event": "game_start",
+      "n": "11"
+    },
+    {
+      "day": "2026-10-24",
+      "event": "leaderboard_view",
+      "n": "6"
+    },
+    {
+      "day": "2026-10-24",
+      "event": "page_view",
+      "n": "11"
+    },
+    {
+      "day": "2026-10-25",
+      "event": "page_view",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-26",
+      "event": "game_complete",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-26",
+      "event": "game_start",
+      "n": "3"
+    },
+    {
+      "day": "2026-10-26",
+      "event": "leaderboard_view",
+      "n": "2"
+    },
+    {
+      "day": "2026-10-26",
+      "event": "page_view",
+      "n": "12"
+    },
+    {
+      "day": "2026-10-27",
+      "event": "game_complete",
+      "n": "22"
+    },
+    {
+      "day": "2026-10-27",
+      "event": "game_start",
+      "n": "53"
+    },
+    {
+      "day": "2026-10-27",
+      "event": "leaderboard_view",
+      "n": "20"
+    },
+    {
+      "day": "2026-10-27",
+      "event": "page_view",
+      "n": "36"
+    }
+  ],
+  "rows": 114,
+  "rows_before_limit_at_least": 12829
+}

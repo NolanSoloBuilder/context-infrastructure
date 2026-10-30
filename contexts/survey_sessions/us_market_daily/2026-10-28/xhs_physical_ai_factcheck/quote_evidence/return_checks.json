@@ -1,0 +1,86 @@
+{
+  "SNDK": {
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=2y&interval=1d&events=div%2Csplits",
+    "first_observation": "2025-02-13",
+    "splits": {},
+    "limits": "Yahoo提供方拆股一致调整OHLC；价格回报不含分红再投；无法核验原作者实际选取端点",
+    "one_year_to_image_date": {
+      "start": "2025-07-14",
+      "end": "2026-07-14",
+      "start_close": 42.47999954223633,
+      "end_close": 1757.8199462890625,
+      "ending_price_multiple": 41.379942684352564,
+      "gain_pct": 4037.9942684352563
+    },
+    "one_year_to_latest_close": {
+      "start": "2025-10-27",
+      "end": "2026-10-27",
+      "start_close": 176.49000549316406,
+      "end_close": 1304.8399658203125,
+      "ending_price_multiple": 7.393279648749586,
+      "gain_pct": 639.3279648749586
+    }
+  },
+  "NVDA": {
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=max&interval=1d&events=div%2Csplits",
+    "first_observation": "1999-02-01",
+    "splits": {
+      "959832000": {
+        "date": 962112600,
+        "numerator": 2.0,
+        "denominator": 1.0,
+        "splitRatio": "2:1"
+      },
+      "999316800": {
+        "date": 1000301400,
+        "numerator": 2.0,
+        "denominator": 1.0,
+        "splitRatio": "2:1"
+      },
+      "1143867600": {
+        "date": 1144416600,
+        "numerator": 2.0,
+        "denominator": 1.0,
+        "splitRatio": "2:1"
+      },
+      "1188619200": {
+        "date": 1189517400,
+        "numerator": 3.0,
+        "denominator": 2.0,
+        "splitRatio": "3:2"
+      },
+      "1625112000": {
+        "date": 1626787800,
+        "numerator": 4.0,
+        "denominator": 1.0,
+        "splitRatio": "4:1"
+      },
+      "1717214400": {
+        "date": 1718026200,
+        "numerator": 10.0,
+        "denominator": 1.0,
+        "splitRatio": "10:1"
+      }
+    },
+    "limits": "Yahoo提供方拆股一致调整OHLC；价格回报不含分红再投；无法核验原作者实际选取端点",
+    "ten_years_to_image_date": {
+      "points": [
+        {
+          "date": "2016-07-14",
+          "close": 1.3329999446868896,
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1467331200&period2=1469059200&interval=1d&events=div%2Csplits",
+          "granularity": "1d"
+        },
+        {
+          "date": "2026-07-14",
+          "close": 211.8000030517578,
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1782864000&period2=1784592000&interval=1d&events=div%2Csplits",
+          "granularity": "1d"
+        }
+      ],
+      "ending_price_multiple": 158.88973131316058,
+      "gain_pct": 15788.973131316057
+    },
+    "range_max_granularity_warning": "range=max returned monthly bars despite requested daily; initial max-range result is excluded from exact-date checks."
+  }
+}

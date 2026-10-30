@@ -1,0 +1,2159 @@
+{
+  "asof": "2026-10-28",
+  "source_priority": "作者原图绿色区域，已人工逐行核对",
+  "source_url": "https://www.sina.cn/news/detail/5359112091341831.html",
+  "count": 21,
+  "auxiliary_cheap_count": 27,
+  "excluded_auxiliary_only": [
+    "沪港深消费50",
+    "食品饮料",
+    "MSCI质量",
+    "消费红利",
+    "生物科技",
+    "恒生消费"
+  ],
+  "items": [
+    {
+      "name": "中证红利低波",
+      "code": "CSIH30269",
+      "api_name": "中证红利低波动",
+      "metric": "盈利收益率",
+      "metric_short": "收益率",
+      "data_since": "2005.12以来",
+      "default_group": "策略",
+      "unit": "percent",
+      "current": 0.1111,
+      "current_display": "11.11%",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 27.939747327502428,
+      "axis": {
+        "direction": "descending",
+        "metric_min": 0.02,
+        "metric_max": 0.1686,
+        "current_position": 27.939747327502428,
+        "current_position_raw": 27.939747327502428,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 0.1686,
+          "display": "16.86%",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 0.1,
+          "display": "10.00%",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 0.064,
+          "display": "6.40%",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 0.02,
+          "display": "2.00%",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 0.1686,
+          "boundary_display": "16.86%",
+          "ratio": 0.5175517551755175,
+          "display": "↑51.76%",
+          "value_display": "+51.8%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 51.8,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 0.1,
+          "boundary_display": "10.00%",
+          "ratio": -0.09990999099909989,
+          "display": "↓-9.99%",
+          "value_display": "−10.0%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 10.0,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "563020",
+        "outside": "021707"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "10.00%",
+        "high": "6.40%",
+        "historical_low": "2.00%",
+        "historical_high": "16.86%"
+      }
+    },
+    {
+      "name": "沪港深红利低波",
+      "code": "CSI931157",
+      "api_name": "沪港深红利低波",
+      "metric": "盈利收益率",
+      "metric_short": "收益率",
+      "data_since": "2014.11以来",
+      "default_group": "策略",
+      "unit": "percent",
+      "current": 0.1053,
+      "current_display": "10.53%",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 31.435732187611887,
+      "axis": {
+        "direction": "descending",
+        "metric_min": 0.057,
+        "metric_max": 0.1931,
+        "current_position": 31.435732187611887,
+        "current_position_raw": 31.435732187611887,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 0.1931,
+          "display": "19.31%",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 0.1,
+          "display": "10.00%",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 0.064,
+          "display": "6.40%",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 0.057,
+          "display": "5.70%",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 0.1931,
+          "boundary_display": "19.31%",
+          "ratio": 0.8338081671415003,
+          "display": "↑83.38%",
+          "value_display": "+83.4%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 83.4,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 0.1,
+          "boundary_display": "10.00%",
+          "ratio": -0.05033238366571699,
+          "display": "↓-5.03%",
+          "value_display": "−5.0%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 5.0,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "",
+        "outside": "007751"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "10.00%",
+        "high": "6.40%",
+        "historical_low": "5.70%",
+        "historical_high": "19.31%"
+      }
+    },
+    {
+      "name": "中证红利",
+      "code": "SH000922",
+      "api_name": "中证红利",
+      "metric": "盈利收益率",
+      "metric_short": "收益率",
+      "data_since": "2008.5以来",
+      "default_group": "策略",
+      "unit": "percent",
+      "current": 0.1021,
+      "current_display": "10.21%",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 32.27272727272727,
+      "axis": {
+        "direction": "descending",
+        "metric_min": 0.016,
+        "metric_max": 0.166,
+        "current_position": 32.27272727272727,
+        "current_position_raw": 32.27272727272727,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 0.166,
+          "display": "16.60%",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 0.1,
+          "display": "10.00%",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 0.064,
+          "display": "6.40%",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 0.016,
+          "display": "1.60%",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 0.166,
+          "boundary_display": "16.60%",
+          "ratio": 0.6258570029382959,
+          "display": "↑62.59%",
+          "value_display": "+62.6%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 62.6,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 0.1,
+          "boundary_display": "10.00%",
+          "ratio": -0.020568070519098834,
+          "display": "↓-2.06%",
+          "value_display": "−2.1%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 2.1,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "515180",
+        "outside": "021399"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "10.00%",
+        "high": "6.40%",
+        "historical_low": "1.60%",
+        "historical_high": "16.60%"
+      }
+    },
+    {
+      "name": "优选300",
+      "code": "CSI931069",
+      "api_name": "优选300",
+      "metric": "盈利收益率",
+      "metric_short": "收益率",
+      "data_since": "2008.12以来",
+      "default_group": "策略",
+      "unit": "percent",
+      "current": 0.1057,
+      "current_display": "10.57%",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 28.965517241379313,
+      "axis": {
+        "direction": "descending",
+        "metric_min": 0.028999999999999998,
+        "metric_max": 0.1435,
+        "current_position": 28.965517241379313,
+        "current_position_raw": 28.965517241379313,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 0.1435,
+          "display": "14.35%",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 0.1,
+          "display": "10.00%",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 0.064,
+          "display": "6.40%",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 0.028999999999999998,
+          "display": "2.90%",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 0.1435,
+          "boundary_display": "14.35%",
+          "ratio": 0.357615894039735,
+          "display": "↑35.76%",
+          "value_display": "+35.8%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 35.8,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 0.1,
+          "boundary_display": "10.00%",
+          "ratio": -0.053926206244087005,
+          "display": "↓-5.39%",
+          "value_display": "−5.4%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 5.4,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "501060",
+        "outside": "023711"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "10.00%",
+        "high": "6.40%",
+        "historical_low": "2.90%",
+        "historical_high": "14.35%"
+      }
+    },
+    {
+      "name": "自由现金流",
+      "code": "CSI932365",
+      "api_name": "自由现金流",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2013.12以来",
+      "default_group": "策略",
+      "unit": "number",
+      "current": 10.76,
+      "current_display": "10.76",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 29.888888888888886,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 0.0,
+        "metric_max": 100.0,
+        "current_position": 29.888888888888886,
+        "current_position_raw": 29.888888888888886,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 0.0,
+          "display": "0",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 12.0,
+          "display": "12",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 15.0,
+          "display": "15",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 100.0,
+          "display": "100",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 0.0,
+          "boundary_display": "0",
+          "ratio": 1.0,
+          "display": "↑100.00%",
+          "value_display": "+100%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 100,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 12.0,
+          "boundary_display": "12",
+          "ratio": -0.11524163568773237,
+          "display": "↓-11.52%",
+          "value_display": "−11.5%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 11.5,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "159235",
+        "outside": "024616"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "12",
+        "high": "15",
+        "historical_low": "0",
+        "historical_high": "100"
+      }
+    },
+    {
+      "name": "中证价值",
+      "code": "CSI931052",
+      "api_name": "中证价值",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2007.6以来",
+      "default_group": "策略",
+      "unit": "number",
+      "current": 10.87,
+      "current_display": "10.87",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 32.403433476394845,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 6.34,
+        "metric_max": 79.51,
+        "current_position": 32.403433476394845,
+        "current_position_raw": 32.403433476394845,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 6.34,
+          "display": "6.34",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 11.0,
+          "display": "11",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 15.0,
+          "display": "15",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 79.51,
+          "display": "79.51",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 6.34,
+          "boundary_display": "6.34",
+          "ratio": 0.4167433302667893,
+          "display": "↑41.67%",
+          "value_display": "+41.7%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 41.7,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 11.0,
+          "boundary_display": "11",
+          "ratio": -0.011959521619135308,
+          "display": "↓-1.20%",
+          "value_display": "−1.2%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 1.2,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "512040",
+        "outside": "006748"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "11",
+        "high": "15",
+        "historical_low": "6.34",
+        "historical_high": "79.51"
+      }
+    },
+    {
+      "name": "沪深300",
+      "code": "SH000300",
+      "api_name": "沪深300",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2005.4以来",
+      "default_group": "宽基",
+      "unit": "number",
+      "current": 11.71,
+      "current_display": "11.71",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 30.91666666666667,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 8.0,
+        "metric_max": 49.0,
+        "current_position": 30.91666666666667,
+        "current_position_raw": 30.91666666666667,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 8.0,
+          "display": "8",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 12.0,
+          "display": "12",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 17.0,
+          "display": "17",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 49.0,
+          "display": "49",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 8.0,
+          "boundary_display": "8",
+          "ratio": 0.3168232280102477,
+          "display": "↑31.68%",
+          "value_display": "+31.7%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 31.7,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 12.0,
+          "boundary_display": "12",
+          "ratio": -0.024765157984628448,
+          "display": "↓-2.48%",
+          "value_display": "−2.5%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 2.5,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "510310",
+        "outside": "021832"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "12",
+        "high": "17",
+        "historical_low": "8",
+        "historical_high": "49"
+      }
+    },
+    {
+      "name": "中证800",
+      "code": "SH000906",
+      "api_name": "中证800",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2007.1以来",
+      "default_group": "宽基",
+      "unit": "number",
+      "current": 14.33,
+      "current_display": "14.33",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 29.48275862068965,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 9.2,
+        "metric_max": 51.0,
+        "current_position": 29.48275862068965,
+        "current_position_raw": 29.48275862068965,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 9.2,
+          "display": "9.2",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 15.0,
+          "display": "15",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 19.0,
+          "display": "19",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 51.0,
+          "display": "51",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 9.2,
+          "boundary_display": "9.2",
+          "ratio": 0.3579902302861131,
+          "display": "↑35.80%",
+          "value_display": "+35.8%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 35.8,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 15.0,
+          "boundary_display": "15",
+          "ratio": -0.04675505931612002,
+          "display": "↓-4.68%",
+          "value_display": "−4.7%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 4.7,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "515800",
+        "outside": "024870"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "15",
+        "high": "19",
+        "historical_low": "9.2",
+        "historical_high": "51"
+      }
+    },
+    {
+      "name": "中证A100",
+      "code": "SH000903",
+      "api_name": "中证A100",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2012.1以来",
+      "default_group": "策略",
+      "unit": "number",
+      "current": 14.89,
+      "current_display": "14.89",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 32.875,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 7.0,
+        "metric_max": 45.0,
+        "current_position": 32.875,
+        "current_position_raw": 32.875,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 7.0,
+          "display": "7",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 15.0,
+          "display": "15",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 19.0,
+          "display": "19",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 45.0,
+          "display": "45",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 7.0,
+          "boundary_display": "7",
+          "ratio": 0.5298858294157153,
+          "display": "↑52.99%",
+          "value_display": "+53.0%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 53.0,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 15.0,
+          "boundary_display": "15",
+          "ratio": -0.007387508394895865,
+          "display": "↓-0.74%",
+          "value_display": "−0.7%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 0.7,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "512910",
+        "outside": "213010"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "15",
+        "high": "19",
+        "historical_low": "7",
+        "historical_high": "45"
+      }
+    },
+    {
+      "name": "中证全指",
+      "code": "CSI000985",
+      "api_name": "中证全指",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2013.1以来",
+      "default_group": "宽基",
+      "unit": "number",
+      "current": 15.53,
+      "current_display": "15.53",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 29.97858672376873,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 11.33,
+        "metric_max": 30.28,
+        "current_position": 29.97858672376873,
+        "current_position_raw": 29.97858672376873,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 11.33,
+          "display": "11.33",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 16.0,
+          "display": "16",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 20.0,
+          "display": "20",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 30.28,
+          "display": "30.28",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 11.33,
+          "boundary_display": "11.33",
+          "ratio": 0.2704443013522215,
+          "display": "↑27.04%",
+          "value_display": "+27.0%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 27.0,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 16.0,
+          "boundary_display": "16",
+          "ratio": -0.030264005151320068,
+          "display": "↓-3.03%",
+          "value_display": "−3.0%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 3.0,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "",
+        "outside": "025430"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "16",
+        "high": "20",
+        "historical_low": "11.33",
+        "historical_high": "30.28"
+      }
+    },
+    {
+      "name": "中证A50",
+      "code": "CSI930050",
+      "api_name": "中证A50",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2014.12以来",
+      "default_group": "策略",
+      "unit": "number",
+      "current": 15.8,
+      "current_display": "15.8",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 17.109144542772864,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 13.48,
+        "metric_max": 36.65,
+        "current_position": 17.109144542772864,
+        "current_position_raw": 17.109144542772864,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 13.48,
+          "display": "13.48",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 18.0,
+          "display": "18",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 22.0,
+          "display": "22",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 36.65,
+          "display": "36.65",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 13.48,
+          "boundary_display": "13.48",
+          "ratio": 0.1468354430379747,
+          "display": "↑14.68%",
+          "value_display": "+14.7%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 14.7,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 18.0,
+          "boundary_display": "18",
+          "ratio": -0.13924050632911386,
+          "display": "↓-13.92%",
+          "value_display": "−13.9%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 13.9,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "159593",
+        "outside": "021212"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "18",
+        "high": "22",
+        "historical_low": "13.48",
+        "historical_high": "36.65"
+      }
+    },
+    {
+      "name": "中证A500",
+      "code": "CSI000510",
+      "api_name": "中证A500",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2004.12以来",
+      "default_group": "策略",
+      "unit": "number",
+      "current": 17.89,
+      "current_display": "17.89",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 26.285714285714292,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 13.75,
+        "metric_max": 38.68,
+        "current_position": 26.285714285714292,
+        "current_position_raw": 26.285714285714292,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 13.75,
+          "display": "13.75",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 19.0,
+          "display": "19",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 24.0,
+          "display": "24",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 38.68,
+          "display": "38.68",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 13.75,
+          "boundary_display": "13.75",
+          "ratio": 0.23141419787590836,
+          "display": "↑23.14%",
+          "value_display": "+23.1%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 23.1,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 19.0,
+          "boundary_display": "19",
+          "ratio": -0.062045835662381185,
+          "display": "↓-6.20%",
+          "value_display": "−6.2%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 6.2,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "159338",
+        "outside": "023965"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "19",
+        "high": "24",
+        "historical_low": "13.75",
+        "historical_high": "38.68"
+      }
+    },
+    {
+      "name": "消费50",
+      "code": "CSI931139",
+      "api_name": "消费50",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2019.3以来",
+      "default_group": "行业",
+      "unit": "number",
+      "current": 21.98,
+      "current_display": "21.98",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 27.299880525686977,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 12.84,
+        "metric_max": 39.33,
+        "current_position": 27.299880525686977,
+        "current_position_raw": 27.299880525686977,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 12.84,
+          "display": "12.84",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 24.0,
+          "display": "24",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 32.0,
+          "display": "32",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 39.33,
+          "display": "39.33",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 12.84,
+          "boundary_display": "12.84",
+          "ratio": 0.4158325750682439,
+          "display": "↑41.58%",
+          "value_display": "+41.6%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 41.6,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 24.0,
+          "boundary_display": "24",
+          "ratio": -0.09190172884440398,
+          "display": "↓-9.19%",
+          "value_display": "−9.2%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 9.2,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "515650",
+        "outside": "008975"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "24",
+        "high": "32",
+        "historical_low": "12.84",
+        "historical_high": "39.33"
+      }
+    },
+    {
+      "name": "消费龙头",
+      "code": "CSI931068",
+      "api_name": "消费龙头",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2018.11以来",
+      "default_group": "行业",
+      "unit": "number",
+      "current": 22.17,
+      "current_display": "22.17",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 25.70833333333334,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 16.0,
+        "metric_max": 45.0,
+        "current_position": 25.70833333333334,
+        "current_position_raw": 25.70833333333334,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 16.0,
+          "display": "16",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 24.0,
+          "display": "24",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 32.0,
+          "display": "32",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 45.0,
+          "display": "45",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 16.0,
+          "boundary_display": "16",
+          "ratio": 0.2783040144339198,
+          "display": "↑27.83%",
+          "value_display": "+27.8%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 27.8,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 24.0,
+          "boundary_display": "24",
+          "ratio": -0.08254397834912035,
+          "display": "↓-8.25%",
+          "value_display": "−8.3%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 8.3,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "501090",
+        "outside": "501090"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "24",
+        "high": "32",
+        "historical_low": "16",
+        "historical_high": "45"
+      }
+    },
+    {
+      "name": "医药100",
+      "code": "000978",
+      "api_name": "医药100",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2011.3以来",
+      "default_group": "行业",
+      "unit": "number",
+      "current": 28.31,
+      "current_display": "28.31",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "normal",
+      "threshold_zone_label": "正常",
+      "status_mismatch": true,
+      "status_compare_label": "接口低估 / 阈值正常",
+      "valuation_rank": 34.62499999999999,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 23.0,
+        "metric_max": 63.0,
+        "current_position": 34.62499999999999,
+        "current_position_raw": 34.62499999999999,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 23.0,
+          "display": "23",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 28.0,
+          "display": "28",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 36.0,
+          "display": "36",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 63.0,
+          "display": "63",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "低估线",
+          "boundary_value": 28.0,
+          "boundary_display": "28",
+          "ratio": 0.010950194277640365,
+          "display": "↑1.10%",
+          "value_display": "+1.1%",
+          "hint": "高于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 1.1,
+          "fill_active": true
+        },
+        {
+          "label": "高估线",
+          "boundary_value": 36.0,
+          "boundary_display": "36",
+          "ratio": -0.27163546450017667,
+          "display": "↓-27.16%",
+          "value_display": "−27.2%",
+          "hint": "低于高估线",
+          "kind": "threshold",
+          "tone": "expensive-red",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 27.2,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "",
+        "outside": "001550"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "28",
+        "high": "36",
+        "historical_low": "23",
+        "historical_high": "63"
+      }
+    },
+    {
+      "name": "中证消费",
+      "code": "000932",
+      "api_name": "中证消费",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2009.7以来",
+      "default_group": "行业",
+      "unit": "number",
+      "current": 23.86,
+      "current_display": "23.86",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 17.58974358974359,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 17.0,
+        "metric_max": 53.0,
+        "current_position": 17.58974358974359,
+        "current_position_raw": 17.58974358974359,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 17.0,
+          "display": "17",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 30.0,
+          "display": "30",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 40.0,
+          "display": "40",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 53.0,
+          "display": "53",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 17.0,
+          "boundary_display": "17",
+          "ratio": 0.2875104777870913,
+          "display": "↑28.75%",
+          "value_display": "+28.8%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 28.8,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 30.0,
+          "boundary_display": "30",
+          "ratio": -0.25733445096395646,
+          "display": "↓-25.73%",
+          "value_display": "−25.7%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 25.7,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "159928",
+        "outside": "009179"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "30",
+        "high": "40",
+        "historical_low": "17",
+        "historical_high": "53"
+      }
+    },
+    {
+      "name": "中证500",
+      "code": "SH000905",
+      "api_name": "中证500",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2007.1以来",
+      "default_group": "宽基",
+      "unit": "number",
+      "current": 24.37,
+      "current_display": "24.37",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 30.708333333333336,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 17.0,
+        "metric_max": 93.0,
+        "current_position": 30.708333333333336,
+        "current_position_raw": 30.708333333333336,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 17.0,
+          "display": "17",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 25.0,
+          "display": "25",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 40.0,
+          "display": "40",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 93.0,
+          "display": "93",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 17.0,
+          "boundary_display": "17",
+          "ratio": 0.30242100943783345,
+          "display": "↑30.24%",
+          "value_display": "+30.2%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 30.2,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 25.0,
+          "boundary_display": "25",
+          "ratio": -0.025851456709068486,
+          "display": "↓-2.59%",
+          "value_display": "−2.6%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 2.6,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "510580",
+        "outside": "011964"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "25",
+        "high": "40",
+        "historical_low": "17",
+        "historical_high": "93"
+      }
+    },
+    {
+      "name": "中证白酒",
+      "code": "399997",
+      "api_name": "中证白酒",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2015.1以来",
+      "default_group": "行业",
+      "unit": "number",
+      "current": 21.26,
+      "current_display": "21.26",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 13.911111111111113,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 15.0,
+        "metric_max": 71.0,
+        "current_position": 13.911111111111113,
+        "current_position_raw": 13.911111111111113,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 15.0,
+          "display": "15",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 30.0,
+          "display": "30",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 40.0,
+          "display": "40",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 71.0,
+          "display": "71",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 15.0,
+          "boundary_display": "15",
+          "ratio": 0.29444967074317974,
+          "display": "↑29.44%",
+          "value_display": "+29.4%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 29.4,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 30.0,
+          "boundary_display": "30",
+          "ratio": -0.4111006585136405,
+          "display": "↓-41.11%",
+          "value_display": "−41.1%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 41.1,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "161725",
+        "outside": "161725"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "30",
+        "high": "40",
+        "historical_low": "15",
+        "historical_high": "71"
+      }
+    },
+    {
+      "name": "中证医疗",
+      "code": "399989",
+      "api_name": "中证医疗",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2014.10以来",
+      "default_group": "行业",
+      "unit": "number",
+      "current": 49.7,
+      "current_display": "49.7",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 25.65217391304348,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 32.0,
+        "metric_max": 140.0,
+        "current_position": 25.65217391304348,
+        "current_position_raw": 25.65217391304348,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 32.0,
+          "display": "32",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 55.0,
+          "display": "55",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 75.0,
+          "display": "75",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 140.0,
+          "display": "140",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 32.0,
+          "boundary_display": "32",
+          "ratio": 0.3561368209255534,
+          "display": "↑35.61%",
+          "value_display": "+35.6%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 35.6,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 55.0,
+          "boundary_display": "55",
+          "ratio": -0.10663983903420517,
+          "display": "↓-10.66%",
+          "value_display": "−10.7%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 10.7,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "512170",
+        "outside": "162412"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "55",
+        "high": "75",
+        "historical_low": "32",
+        "historical_high": "140"
+      }
+    },
+    {
+      "name": "港股科技",
+      "code": "CSI931573",
+      "api_name": "港股科技",
+      "metric": "市盈率",
+      "metric_short": "PE",
+      "data_since": "2014.12以来",
+      "default_group": "主题",
+      "unit": "number",
+      "current": 31.83,
+      "current_display": "31.83",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 26.525,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 0.0,
+        "metric_max": 100.0,
+        "current_position": 26.525,
+        "current_position_raw": 26.525,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 0.0,
+          "display": "0",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 40.0,
+          "display": "40",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 56.0,
+          "display": "56",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 100.0,
+          "display": "100",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 0.0,
+          "boundary_display": "0",
+          "ratio": 1.0,
+          "display": "↑100.00%",
+          "value_display": "+100%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 100,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 40.0,
+          "boundary_display": "40",
+          "ratio": -0.2566760917373548,
+          "display": "↓-25.67%",
+          "value_display": "−25.7%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 25.7,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "513980",
+        "outside": "016495"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "40",
+        "high": "56",
+        "historical_low": "0",
+        "historical_high": "100"
+      }
+    },
+    {
+      "name": "证券行业",
+      "code": "399975",
+      "api_name": "证券行业",
+      "metric": "市净率",
+      "metric_short": "PB",
+      "data_since": "2013.7以来",
+      "default_group": "行业",
+      "unit": "number",
+      "current": 1.5,
+      "current_display": "1.5",
+      "zone": "cheap",
+      "zone_label": "低估",
+      "zone_rank": 0,
+      "threshold_zone": "cheap",
+      "threshold_zone_label": "低估",
+      "status_mismatch": false,
+      "status_compare_label": "接口低估 / 阈值低估",
+      "valuation_rank": 27.272727272727266,
+      "axis": {
+        "direction": "ascending",
+        "metric_min": 1.05,
+        "metric_max": 4.8,
+        "current_position": 27.272727272727266,
+        "current_position_raw": 27.272727272727266,
+        "normal_position": 33.33333333333333,
+        "expensive_position": 66.66666666666666,
+        "cheap_extreme": {
+          "label": "最低",
+          "value": 1.05,
+          "display": "1.05",
+          "position": 0
+        },
+        "normal_boundary": {
+          "label": "进入正常",
+          "value": 1.6,
+          "display": "1.6",
+          "position": 33.33333333333333
+        },
+        "expensive_boundary": {
+          "label": "进入高估",
+          "value": 2.2,
+          "display": "2.2",
+          "position": 66.66666666666666
+        },
+        "expensive_extreme": {
+          "label": "最高",
+          "value": 4.8,
+          "display": "4.8",
+          "position": 100
+        },
+        "extended_low": false,
+        "extended_high": false,
+        "history": {
+          "min_date": "阈值表",
+          "max_date": "阈值表"
+        }
+      },
+      "distances": [
+        {
+          "label": "历史低点",
+          "boundary_value": 1.05,
+          "boundary_display": "1.05",
+          "ratio": 0.3,
+          "display": "↑30.00%",
+          "value_display": "+30.0%",
+          "hint": "高于低点",
+          "kind": "extreme-cheap",
+          "tone": "deep-green",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 30.0,
+          "fill_active": true
+        },
+        {
+          "label": "低估线",
+          "boundary_value": 1.6,
+          "boundary_display": "1.6",
+          "ratio": -0.06666666666666672,
+          "display": "↓-6.67%",
+          "value_display": "−6.7%",
+          "hint": "低于低估线",
+          "kind": "threshold",
+          "tone": "normal-yellow",
+          "breached_today": false,
+          "missing": false,
+          "fill_percent": 6.7,
+          "fill_active": false
+        }
+      ],
+      "funds": {
+        "inside": "512000",
+        "outside": "007992"
+      },
+      "api_valuation_status": "1",
+      "threshold_source": {
+        "low": "1.6",
+        "high": "2.2",
+        "historical_low": "1.05",
+        "historical_high": "4.8"
+      }
+    }
+  ]
+}

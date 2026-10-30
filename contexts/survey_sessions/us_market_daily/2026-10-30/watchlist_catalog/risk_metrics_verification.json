@@ -1,0 +1,114 @@
+{
+  "all_recomputed": true,
+  "checks": [
+    {
+      "symbol": "ATS",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "BRK-B",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "CGNX",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "DRAM",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "GOOGL",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "MAGS",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "MRNA",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "NVDA",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "QQQ",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "QQQM",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "RRX",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "SGOV",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "SMH",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "SOFI",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "SOXX",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "SPMO",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "VGT",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    },
+    {
+      "symbol": "VOO",
+      "calculation_recomputed": true,
+      "ohlc_close_bounds_mismatches": 0,
+      "same_session": true
+    }
+  ],
+  "provider_adjusted_documentation": "https://in.help.yahoo.com/kb/adjusted-close-sln28256.html"
+}

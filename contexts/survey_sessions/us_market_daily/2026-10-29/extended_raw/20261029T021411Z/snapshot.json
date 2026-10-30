@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-10-29T02:14:11.167122+00:00",
+  "captured_at_beijing": "2026-10-29T10:14:11.167122+08:00",
+  "regular_asof_session": "2026-10-28",
+  "observations": [
+    {
+      "symbol": "QQQ",
+      "label": "QQQ",
+      "currency": "USD",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5d&interval=1m&includePrePost=true",
+      "captured_at_utc": "2026-10-29T02:14:11.167122+00:00",
+      "status": "available",
+      "regular_session": "2026-10-28",
+      "regular_close_usd": 725.61,
+      "previous_regular_session": "2026-10-27",
+      "previous_regular_close_usd": 721.25,
+      "raw_file": "extended_raw/20261029T021411Z/QQQ.json",
+      "sha256": "003c2fb954cf1aa28a8f0f08a5a56b34ede28ac3b2cd74283808b7a9e12d505f",
+      "pre": {
+        "status": "no_verified_nonzero_volume_bar",
+        "session": "2026-10-28",
+        "segment": "pre"
+      },
+      "post": {
+        "status": "available",
+        "session": "2026-10-28",
+        "segment": "post",
+        "price_usd": 727.95,
+        "price_raw": 727.9529,
+        "bar_start_unix": 1793217600,
+        "bar_start_et": "2026-10-28T16:00:00-04:00",
+        "bar_start_beijing": "2026-10-29T04:00:00+08:00",
+        "minute_volume": 463781,
+        "sampling": "close of latest nonzero-volume 1-minute bar",
+        "session_window_ended_at_capture": true,
+        "reference_close_usd": 725.61,
+        "reference_session": "2026-10-28",
+        "change_vs_reference_pct": 0.32288897580012854
+      }
+    },
+    {
+      "symbol": "QQQM",
+      "label": "QQQM",
+      "currency": "USD",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=5d&interval=1m&includePrePost=true",
+      "captured_at_utc": "2026-10-29T02:14:11.167122+00:00",
+      "status": "available",
+      "regular_session": "2026-10-28",
+      "regular_close_usd": 298.71,
+      "previous_regular_session": "2026-10-27",
+      "previous_regular_close_usd": 296.96,
+      "raw_file": "extended_raw/20261029T021411Z/QQQM.json",
+      "sha256": "bbf2aba61a2fe81e166d34863b52a16db27214b66ba952e7ae954d416330524d",
+      "pre": {
+        "status": "no_verified_nonzero_volume_bar",
+        "session": "2026-10-28",
+        "segment": "pre"
+      },
+      "post": {
+        "status": "no_verified_nonzero_volume_bar",
+        "session": "2026-10-28",
+        "segment": "post"
+      }
+    },
+    {
+      "symbol": "VOO",
+      "label": "VOO",
+      "currency": "USD",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=5d&interval=1m&includePrePost=true",
+      "captured_at_utc": "2026-10-29T02:14:11.167122+00:00",
+      "status": "available",
+      "regular_session": "2026-10-28",
+      "regular_close_usd": 709.9,
+      "previous_regular_session": "2026-10-27",
+      "previous_regular_close_usd": 707.52,
+      "raw_file": "extended_raw/20261029T021411Z/VOO.json",
+      "sha256": "8407ba54651daf582ec78bb7c193d515ee351492f5fee03d90401d0f605e9fa0",
+      "pre": {
+        "status": "no_verified_nonzero_volume_bar",
+        "session": "2026-10-28",
+        "segment": "pre"
+      },
+      "post": {
+        "status": "available",
+        "session": "2026-10-28",
+        "segment": "post",
+        "price_usd": 710.18,
+        "price_raw": 710.18,
+        "bar_start_unix": 1793217600,
+        "bar_start_et": "2026-10-28T16:00:00-04:00",
+        "bar_start_beijing": "2026-10-29T04:00:00+08:00",
+        "minute_volume": 291840,
+        "sampling": "close of latest nonzero-volume 1-minute bar",
+        "session_window_ended_at_capture": true,
+        "reference_close_usd": 709.9,
+        "reference_session": "2026-10-28",
+        "change_vs_reference_pct": 0.03943873508562845
+      }
+    },
+    {
+      "symbol": "BRK-B",
+      "label": "BRK.B",
+      "currency": "USD",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=5d&interval=1m&includePrePost=true",
+      "captured_at_utc": "2026-10-29T02:14:11.167122+00:00",
+      "status": "available",
+      "regular_session": "2026-10-28",
+      "regular_close_usd": 540.34,
+      "previous_regular_session": "2026-10-27",
+      "previous_regular_close_usd": 542.99,
+      "raw_file": "extended_raw/20261029T021411Z/BRK-B.json",
+      "sha256": "332c2731dbdfc7741cd3031327bcba44964ab7b274e19ba20d786d144b8e548c",
+      "pre": {
+        "status": "no_verified_nonzero_volume_bar",
+        "session": "2026-10-28",
+        "segment": "pre"
+      },
+      "post": {
+        "status": "available",
+        "session": "2026-10-28",
+        "segment": "post",
+        "price_usd": 540.34,
+        "price_raw": 540.34,
+        "bar_start_unix": 1793217600,
+        "bar_start_et": "2026-10-28T16:00:00-04:00",
+        "bar_start_beijing": "2026-10-29T04:00:00+08:00",
+        "minute_volume": 740887,
+        "sampling": "close of latest nonzero-volume 1-minute bar",
+        "session_window_ended_at_capture": true,
+        "reference_close_usd": 540.34,
+        "reference_session": "2026-10-28",
+        "change_vs_reference_pct": -4.970943956461582e-06
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "label": "GOOGL",
+      "currency": "USD",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=5d&interval=1m&includePrePost=true",
+      "captured_at_utc": "2026-10-29T02:14:11.167122+00:00",
+      "status": "available",
+      "regular_session": "2026-10-28",
+      "regular_close_usd": 324.89,
+      "previous_regular_session": "2026-10-27",
+      "previous_regular_close_usd": 320.58,
+      "raw_file": "extended_raw/20261029T021411Z/GOOGL.json",
+      "sha256": "08f7e21e202bcf06aa598587d3fce94a58f4e69053ed4abb478eab3794a06b88",
+      "pre": {
+        "status": "no_verified_nonzero_volume_bar",
+        "session": "2026-10-28",
+        "segment": "pre"
+      },
+      "post": {
+        "status": "available",
+        "session": "2026-10-28",
+        "segment": "post",
+        "price_usd": 326.95,
+        "price_raw": 326.95,
+        "bar_start_unix": 1793217600,
+        "bar_start_et": "2026-10-28T16:00:00-04:00",
+        "bar_start_beijing": "2026-10-29T04:00:00+08:00",
+        "minute_volume": 4173213,
+        "sampling": "close of latest nonzero-volume 1-minute bar",
+        "session_window_ended_at_capture": true,
+        "reference_close_usd": 324.89,
+        "reference_session": "2026-10-28",
+        "change_vs_reference_pct": 0.634056221216639
+      }
+    },
+    {
+      "symbol": "SOFI",
+      "label": "SOFI",
+      "currency": "USD",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=5d&interval=1m&includePrePost=true",
+      "captured_at_utc": "2026-10-29T02:14:11.167122+00:00",
+      "status": "available",
+      "regular_session": "2026-10-28",
+      "regular_close_usd": 17.14,
+      "previous_regular_session": "2026-10-27",
+      "previous_regular_close_usd": 16.4,
+      "raw_file": "extended_raw/20261029T021411Z/SOFI.json",
+      "sha256": "bba733c771afd01ed37cfbc2e4e3c131cab896b191028414653f9039ad2d0b2b",
+      "pre": {
+        "status": "no_verified_nonzero_volume_bar",
+        "session": "2026-10-28",
+        "segment": "pre"
+      },
+      "post": {
+        "status": "available",
+        "session": "2026-10-28",
+        "segment": "post",
+        "price_usd": 17.1,
+        "price_raw": 17.1,
+        "bar_start_unix": 1793217600,
+        "bar_start_et": "2026-10-28T16:00:00-04:00",
+        "bar_start_beijing": "2026-10-29T04:00:00+08:00",
+        "minute_volume": 3631455,
+        "sampling": "close of latest nonzero-volume 1-minute bar",
+        "session_window_ended_at_capture": true,
+        "reference_close_usd": 17.14,
+        "reference_session": "2026-10-28",
+        "change_vs_reference_pct": -0.23336867808371187
+      }
+    }
+  ],
+  "method": {
+    "regular": "Saved daily OHLC close, unchanged",
+    "extended": "Latest nonzero-volume 1-minute bar close within provider pre/post windows on the stated US date",
+    "returns": "pre vs preceding regular close; post vs same-day regular close; do not add percentages",
+    "alerts": "Extended prices do not update the regular-close four-symbol alert state",
+    "scope": "No overnight 20:00-04:00 quotes; pre/post data are venue/provider snapshots, not guaranteed consolidated executable quotes"
+  }
+}

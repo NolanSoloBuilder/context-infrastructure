@@ -1,0 +1,1424 @@
+{
+  "report_date": "2026-10-29",
+  "indices": [
+    {
+      "symbol": "000001.SH",
+      "name": "上证指数",
+      "value": 3651.43,
+      "change": -30.04,
+      "changePercent": -0.82
+    },
+    {
+      "symbol": "399001.SZ",
+      "name": "深证成指",
+      "value": 11138.2,
+      "change": -334.98,
+      "changePercent": -2.92,
+      "turnover": 840903489814
+    },
+    {
+      "symbol": "399006.SZ",
+      "name": "创业板指",
+      "value": 2517.59,
+      "change": -117.17,
+      "changePercent": -4.45,
+      "turnover": 421433924060
+    },
+    {
+      "symbol": "000300.SH",
+      "name": "沪深 300",
+      "value": 4041.84,
+      "change": -42.03,
+      "changePercent": -1.03,
+      "turnover": 411892973338
+    },
+    {
+      "symbol": "000688.SH",
+      "name": "科创 50",
+      "value": 1228.09,
+      "change": -54.84,
+      "changePercent": -4.27,
+      "turnover": 71099759233
+    },
+    {
+      "symbol": "000905.SH",
+      "name": "中证 500",
+      "value": 6453.72,
+      "change": -187.17,
+      "changePercent": -2.82,
+      "turnover": 271552262709
+    },
+    {
+      "symbol": "899050.BJ",
+      "name": "北证 50",
+      "value": 910.08,
+      "change": -36.75,
+      "changePercent": -3.88,
+      "turnover": 14487695799
+    }
+  ],
+  "breadth": {
+    "turnover": 1556524180000,
+    "advancing": 781,
+    "declining": 4728,
+    "unchanged": 417,
+    "total": 5926
+  },
+  "sectors": {
+    "up": [
+      {
+        "code": "BK1347",
+        "name": "纺织鞋类制造",
+        "changePercent": 6.17,
+        "leader": {
+          "name": "华利集团",
+          "symbol": "300979"
+        }
+      },
+      {
+        "code": "BK1385",
+        "name": "航天装备Ⅲ",
+        "changePercent": 3.54,
+        "leader": {
+          "name": "中国卫星",
+          "symbol": "600118"
+        }
+      },
+      {
+        "code": "BK1232",
+        "name": "航天装备Ⅱ",
+        "changePercent": 3.54,
+        "leader": {
+          "name": "中国卫星",
+          "symbol": "600118"
+        }
+      },
+      {
+        "code": "BK1300",
+        "name": "院线",
+        "changePercent": 3.37,
+        "leader": {
+          "name": "横店影视",
+          "symbol": "603103"
+        }
+      },
+      {
+        "code": "BK1376",
+        "name": "核力发电",
+        "changePercent": 2.91,
+        "leader": {
+          "name": "中国广核",
+          "symbol": "003816"
+        }
+      }
+    ],
+    "down": [
+      {
+        "code": "BK1340",
+        "name": "印制电路板",
+        "changePercent": -7.97,
+        "leader": {
+          "name": "金安国纪",
+          "symbol": "002636"
+        }
+      },
+      {
+        "code": "BK1592",
+        "name": "通信线缆及配套",
+        "changePercent": -7.01,
+        "leader": {
+          "name": "富士达",
+          "symbol": "920640"
+        }
+      },
+      {
+        "code": "BK0459",
+        "name": "元件",
+        "changePercent": -6.99,
+        "leader": {
+          "name": "金安国纪",
+          "symbol": "002636"
+        }
+      },
+      {
+        "code": "BK1591",
+        "name": "通信网络设备及器件",
+        "changePercent": -6.66,
+        "leader": {
+          "name": "信科移动-U",
+          "symbol": "688387"
+        }
+      },
+      {
+        "code": "BK1334",
+        "name": "光学元件",
+        "changePercent": -6.61,
+        "leader": {
+          "name": "凤凰光学",
+          "symbol": "600071"
+        }
+      }
+    ]
+  },
+  "stocks": [
+    {
+      "symbol": "510300.SH",
+      "name": "沪深 300 ETF",
+      "value": 4.11,
+      "change": -0.042,
+      "changePercent": -1.01
+    },
+    {
+      "symbol": "510500.SH",
+      "name": "中证 500 ETF",
+      "value": 6.49,
+      "change": -0.182,
+      "changePercent": -2.73
+    },
+    {
+      "symbol": "588000.SH",
+      "name": "科创 50 ETF",
+      "value": 1.29,
+      "change": -0.064,
+      "changePercent": -4.73
+    },
+    {
+      "symbol": "159915.SZ",
+      "name": "创业板 ETF",
+      "value": 2.54,
+      "change": -0.109,
+      "changePercent": -4.11
+    },
+    {
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "value": 1354,
+      "change": 23.25,
+      "changePercent": 1.75
+    },
+    {
+      "symbol": "300750.SZ",
+      "name": "宁德时代",
+      "value": 229.07,
+      "change": -0.07,
+      "changePercent": -0.03
+    },
+    {
+      "symbol": "601318.SH",
+      "name": "中国平安",
+      "value": 53.2,
+      "change": 0.89,
+      "changePercent": 1.7
+    },
+    {
+      "symbol": "600036.SH",
+      "name": "招商银行",
+      "value": 42.94,
+      "change": 0.81,
+      "changePercent": 1.92
+    },
+    {
+      "symbol": "601398.SH",
+      "name": "工商银行",
+      "value": 8.78,
+      "change": 0.22,
+      "changePercent": 2.57
+    },
+    {
+      "symbol": "600941.SH",
+      "name": "中国移动",
+      "value": 101.47,
+      "change": 2.09,
+      "changePercent": 2.1
+    },
+    {
+      "symbol": "002594.SZ",
+      "name": "比亚迪",
+      "value": 82.5,
+      "change": -0.24,
+      "changePercent": -0.29
+    },
+    {
+      "symbol": "688981.SH",
+      "name": "中芯国际",
+      "value": 101,
+      "change": -1,
+      "changePercent": -0.98
+    },
+    {
+      "symbol": "000333.SZ",
+      "name": "美的集团",
+      "value": 87.48,
+      "change": 1.57,
+      "changePercent": 1.83
+    },
+    {
+      "symbol": "601899.SH",
+      "name": "紫金矿业",
+      "value": 28.04,
+      "change": 0.09,
+      "changePercent": 0.32
+    }
+  ],
+  "heatmap": [
+    {
+      "symbol": "601939.SH",
+      "name": "建设银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 12.04,
+      "changePercent": 2.29,
+      "marketCap": 31496.69
+    },
+    {
+      "symbol": "601398.SH",
+      "name": "工商银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 8.78,
+      "changePercent": 2.57,
+      "marketCap": 31292.47
+    },
+    {
+      "symbol": "688825.SH",
+      "name": "长鑫科技",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 42.87,
+      "changePercent": -3.36,
+      "marketCap": 29101.91
+    },
+    {
+      "symbol": "601288.SH",
+      "name": "农业银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 7.56,
+      "changePercent": 1.75,
+      "marketCap": 26458.72
+    },
+    {
+      "symbol": "601857.SH",
+      "name": "中国石油",
+      "sector": "能源",
+      "industry": "炼化及贸易",
+      "value": 13.69,
+      "changePercent": 3.24,
+      "marketCap": 25055.57
+    },
+    {
+      "symbol": "601988.SH",
+      "name": "中国银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 7.16,
+      "changePercent": 1.99,
+      "marketCap": 23070.41
+    },
+    {
+      "symbol": "600941.SH",
+      "name": "中国移动",
+      "sector": "通信",
+      "industry": "通信服务",
+      "value": 101.47,
+      "changePercent": 2.1,
+      "marketCap": 22014.82
+    },
+    {
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "sector": "消费",
+      "industry": "白酒",
+      "value": 1354,
+      "changePercent": 1.75,
+      "marketCap": 16926.1
+    },
+    {
+      "symbol": "600938.SH",
+      "name": "中国海油",
+      "sector": "能源",
+      "industry": "油气开采",
+      "value": 35.42,
+      "changePercent": 1.64,
+      "marketCap": 16835.11
+    },
+    {
+      "symbol": "601088.SH",
+      "name": "中国神华",
+      "sector": "能源",
+      "industry": "煤炭开采",
+      "value": 51.62,
+      "changePercent": 3.97,
+      "marketCap": 11196.09
+    },
+    {
+      "symbol": "600036.SH",
+      "name": "招商银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 42.94,
+      "changePercent": 1.92,
+      "marketCap": 10829.4
+    },
+    {
+      "symbol": "300750.SZ",
+      "name": "宁德时代",
+      "sector": "新能源与汽车",
+      "industry": "电池",
+      "value": 229.07,
+      "changePercent": -0.03,
+      "marketCap": 10599.64
+    },
+    {
+      "symbol": "601628.SH",
+      "name": "中国人寿",
+      "sector": "金融",
+      "industry": "保险",
+      "value": 35.07,
+      "changePercent": 0.2,
+      "marketCap": 9912.43
+    },
+    {
+      "symbol": "601318.SH",
+      "name": "中国平安",
+      "sector": "金融",
+      "industry": "保险",
+      "value": 53.2,
+      "changePercent": 1.7,
+      "marketCap": 9633.27
+    },
+    {
+      "symbol": "601138.SH",
+      "name": "工业富联",
+      "sector": "科技",
+      "industry": "消费电子",
+      "value": 45.22,
+      "changePercent": -7.03,
+      "marketCap": 8973.5
+    },
+    {
+      "symbol": "688981.SH",
+      "name": "中芯国际",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 101,
+      "changePercent": -0.98,
+      "marketCap": 8648.01
+    },
+    {
+      "symbol": "601328.SH",
+      "name": "交通银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 8.56,
+      "changePercent": 3.63,
+      "marketCap": 7563.94
+    },
+    {
+      "symbol": "002594.SZ",
+      "name": "比亚迪",
+      "sector": "新能源与汽车",
+      "industry": "乘用车",
+      "value": 82.5,
+      "changePercent": -0.29,
+      "marketCap": 7521.69
+    },
+    {
+      "symbol": "601899.SH",
+      "name": "紫金矿业",
+      "sector": "材料",
+      "industry": "工业金属",
+      "value": 28.04,
+      "changePercent": 0.32,
+      "marketCap": 7456.06
+    },
+    {
+      "symbol": "600900.SH",
+      "name": "长江电力",
+      "sector": "公用事业",
+      "industry": "电力",
+      "value": 29.99,
+      "changePercent": 2.01,
+      "marketCap": 7338.02
+    },
+    {
+      "symbol": "601658.SH",
+      "name": "邮储银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 5.74,
+      "changePercent": 1.59,
+      "marketCap": 6893.46
+    },
+    {
+      "symbol": "300308.SZ",
+      "name": "中际旭创",
+      "sector": "科技",
+      "industry": "通信设备",
+      "value": 582.05,
+      "changePercent": -8.53,
+      "marketCap": 6856.02
+    },
+    {
+      "symbol": "600028.SH",
+      "name": "中国石化",
+      "sector": "能源",
+      "industry": "炼化及贸易",
+      "value": 5.62,
+      "changePercent": 2.56,
+      "marketCap": 6784.15
+    },
+    {
+      "symbol": "000333.SZ",
+      "name": "美的集团",
+      "sector": "消费",
+      "industry": "白色家电",
+      "value": 87.48,
+      "changePercent": 1.83,
+      "marketCap": 6674.99
+    },
+    {
+      "symbol": "601728.SH",
+      "name": "中国电信",
+      "sector": "通信",
+      "industry": "通信服务",
+      "value": 6.99,
+      "changePercent": 1.6,
+      "marketCap": 6396.35
+    },
+    {
+      "symbol": "688256.SH",
+      "name": "寒武纪",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 913,
+      "changePercent": -4.7,
+      "marketCap": 5741.44
+    },
+    {
+      "symbol": "601998.SH",
+      "name": "中信银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 9.29,
+      "changePercent": 1.75,
+      "marketCap": 5169.44
+    },
+    {
+      "symbol": "603259.SH",
+      "name": "药明康德",
+      "sector": "医药",
+      "industry": "医疗服务",
+      "value": 142.89,
+      "changePercent": 0.34,
+      "marketCap": 4336.57
+    },
+    {
+      "symbol": "688041.SH",
+      "name": "海光信息",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 185.88,
+      "changePercent": -3.54,
+      "marketCap": 4320.48
+    },
+    {
+      "symbol": "601166.SH",
+      "name": "兴业银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 19.4,
+      "changePercent": 1.57,
+      "marketCap": 4105.6
+    },
+    {
+      "symbol": "688235.SH",
+      "name": "百济神州",
+      "sector": "医药",
+      "industry": "化学制药",
+      "value": 253.69,
+      "changePercent": -0.28,
+      "marketCap": 3912.62
+    },
+    {
+      "symbol": "600030.SH",
+      "name": "中信证券",
+      "sector": "金融",
+      "industry": "证券",
+      "value": 24.5,
+      "changePercent": -1.45,
+      "marketCap": 3827.95
+    },
+    {
+      "symbol": "002475.SZ",
+      "name": "立讯精密",
+      "sector": "科技",
+      "industry": "消费电子",
+      "value": 48.07,
+      "changePercent": -3.28,
+      "marketCap": 3722.17
+    },
+    {
+      "symbol": "002371.SZ",
+      "name": "北方华创",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 497.3,
+      "changePercent": -2.81,
+      "marketCap": 3620.11
+    },
+    {
+      "symbol": "601319.SH",
+      "name": "中国人保",
+      "sector": "金融",
+      "industry": "保险",
+      "value": 7.53,
+      "changePercent": 2.87,
+      "marketCap": 3330.07
+    },
+    {
+      "symbol": "600000.SH",
+      "name": "浦发银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 9.99,
+      "changePercent": 1.42,
+      "marketCap": 3327.25
+    },
+    {
+      "symbol": "600276.SH",
+      "name": "恒瑞医药",
+      "sector": "医药",
+      "industry": "化学制药",
+      "value": 48.62,
+      "changePercent": 0.54,
+      "marketCap": 3227.01
+    },
+    {
+      "symbol": "002415.SZ",
+      "name": "海康威视",
+      "sector": "科技",
+      "industry": "计算机设备",
+      "value": 34.79,
+      "changePercent": 1.87,
+      "marketCap": 3188.46
+    },
+    {
+      "symbol": "300502.SZ",
+      "name": "新易盛",
+      "sector": "科技",
+      "industry": "通信设备",
+      "value": 228.4,
+      "changePercent": -11.06,
+      "marketCap": 3185.58
+    },
+    {
+      "symbol": "603993.SH",
+      "name": "洛阳钼业",
+      "sector": "材料",
+      "industry": "工业金属",
+      "value": 13.98,
+      "changePercent": -0.57,
+      "marketCap": 2990.92
+    },
+    {
+      "symbol": "601601.SH",
+      "name": "中国太保",
+      "sector": "金融",
+      "industry": "保险",
+      "value": 30.75,
+      "changePercent": 3.89,
+      "marketCap": 2958.25
+    },
+    {
+      "symbol": "300059.SZ",
+      "name": "东方财富",
+      "sector": "金融",
+      "industry": "证券",
+      "value": 17.96,
+      "changePercent": -0.28,
+      "marketCap": 2841.67
+    },
+    {
+      "symbol": "000858.SZ",
+      "name": "五粮液",
+      "sector": "消费",
+      "industry": "白酒",
+      "value": 72.28,
+      "changePercent": -0.17,
+      "marketCap": 2805.63
+    },
+    {
+      "symbol": "601211.SH",
+      "name": "国泰海通",
+      "sector": "金融",
+      "industry": "证券",
+      "value": 15.9,
+      "changePercent": 0.13,
+      "marketCap": 2795.39
+    },
+    {
+      "symbol": "688347.SH",
+      "name": "华虹宏力",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 144.93,
+      "changePercent": -6.47,
+      "marketCap": 2794.97
+    },
+    {
+      "symbol": "688836.SH",
+      "name": "宇树科技",
+      "sector": "工业",
+      "industry": "自动化设备",
+      "value": 662.39,
+      "changePercent": -4.82,
+      "marketCap": 2679.13
+    },
+    {
+      "symbol": "601225.SH",
+      "name": "陕西煤业",
+      "sector": "能源",
+      "industry": "煤炭开采",
+      "value": 27.5,
+      "changePercent": 2.27,
+      "marketCap": 2666.13
+    },
+    {
+      "symbol": "600150.SH",
+      "name": "中国船舶",
+      "sector": "工业",
+      "industry": "航海装备",
+      "value": 33.86,
+      "changePercent": 0.27,
+      "marketCap": 2548.18
+    },
+    {
+      "symbol": "601816.SH",
+      "name": "京沪高铁",
+      "sector": "工业",
+      "industry": "铁路公路",
+      "value": 5.2,
+      "changePercent": 1.17,
+      "marketCap": 2544.14
+    },
+    {
+      "symbol": "601919.SH",
+      "name": "中远海控",
+      "sector": "工业",
+      "industry": "航运港口",
+      "value": 16.67,
+      "changePercent": 1.28,
+      "marketCap": 2536.89
+    },
+    {
+      "symbol": "003816.SZ",
+      "name": "中国广核",
+      "sector": "公用事业",
+      "industry": "电力",
+      "value": 4.9,
+      "changePercent": 7.22,
+      "marketCap": 2474.44
+    },
+    {
+      "symbol": "002714.SZ",
+      "name": "牧原股份",
+      "sector": "消费",
+      "industry": "养殖业",
+      "value": 41.15,
+      "changePercent": 1.96,
+      "marketCap": 2375.59
+    },
+    {
+      "symbol": "600919.SH",
+      "name": "江苏银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 12.73,
+      "changePercent": 2.5,
+      "marketCap": 2336.12
+    },
+    {
+      "symbol": "002142.SZ",
+      "name": "宁波银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 34.98,
+      "changePercent": 2.43,
+      "marketCap": 2309.94
+    },
+    {
+      "symbol": "600183.SH",
+      "name": "生益科技",
+      "sector": "科技",
+      "industry": "元件",
+      "value": 94.12,
+      "changePercent": -8.17,
+      "marketCap": 2286.18
+    },
+    {
+      "symbol": "601869.SH",
+      "name": "长飞光纤",
+      "sector": "科技",
+      "industry": "通信设备",
+      "value": 273.6,
+      "changePercent": -8.91,
+      "marketCap": 2265.15
+    },
+    {
+      "symbol": "000001.SZ",
+      "name": "平安银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 11.54,
+      "changePercent": 2.03,
+      "marketCap": 2239.44
+    },
+    {
+      "symbol": "600309.SH",
+      "name": "万华化学",
+      "sector": "材料",
+      "industry": "化学制品",
+      "value": 70.61,
+      "changePercent": 0.21,
+      "marketCap": 2210.43
+    },
+    {
+      "symbol": "688012.SH",
+      "name": "中微公司",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 227,
+      "changePercent": -5.42,
+      "marketCap": 2174.3
+    },
+    {
+      "symbol": "300760.SZ",
+      "name": "迈瑞医疗",
+      "sector": "医药",
+      "industry": "医疗器械",
+      "value": 179,
+      "changePercent": 2.11,
+      "marketCap": 2169.12
+    },
+    {
+      "symbol": "601995.SH",
+      "name": "中金公司",
+      "sector": "其他",
+      "industry": "",
+      "value": 27.12,
+      "changePercent": -9.99,
+      "marketCap": 2150.99
+    },
+    {
+      "symbol": "000651.SZ",
+      "name": "格力电器",
+      "sector": "消费",
+      "industry": "白色家电",
+      "value": 37.58,
+      "changePercent": 0.75,
+      "marketCap": 2105.01
+    },
+    {
+      "symbol": "601985.SH",
+      "name": "中国核电",
+      "sector": "公用事业",
+      "industry": "电力",
+      "value": 9.94,
+      "changePercent": 2.9,
+      "marketCap": 2044.46
+    },
+    {
+      "symbol": "688008.SH",
+      "name": "澜起科技",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 166.79,
+      "changePercent": -4.53,
+      "marketCap": 2035.74
+    },
+    {
+      "symbol": "603288.SH",
+      "name": "海天味业",
+      "sector": "消费",
+      "industry": "调味发酵品",
+      "value": 34.53,
+      "changePercent": 3.2,
+      "marketCap": 2017.92
+    },
+    {
+      "symbol": "600025.SH",
+      "name": "华能水电",
+      "sector": "公用事业",
+      "industry": "电力",
+      "value": 10.71,
+      "changePercent": 1.9,
+      "marketCap": 1995.39
+    },
+    {
+      "symbol": "603986.SH",
+      "name": "兆易创新",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 275.99,
+      "changePercent": -4.79,
+      "marketCap": 1942.89
+    },
+    {
+      "symbol": "601668.SH",
+      "name": "中国建筑",
+      "sector": "工业",
+      "industry": "房屋建设",
+      "value": 4.61,
+      "changePercent": 0.66,
+      "marketCap": 1904.87
+    },
+    {
+      "symbol": "600188.SH",
+      "name": "兖矿能源",
+      "sector": "能源",
+      "industry": "煤炭开采",
+      "value": 18.8,
+      "changePercent": 3.64,
+      "marketCap": 1886.93
+    },
+    {
+      "symbol": "601898.SH",
+      "name": "中煤能源",
+      "sector": "能源",
+      "industry": "煤炭开采",
+      "value": 14.16,
+      "changePercent": 1.51,
+      "marketCap": 1877.43
+    },
+    {
+      "symbol": "600406.SH",
+      "name": "国电南瑞",
+      "sector": "新能源与汽车",
+      "industry": "电网设备",
+      "value": 23.3,
+      "changePercent": -0.17,
+      "marketCap": 1871.4
+    },
+    {
+      "symbol": "600887.SH",
+      "name": "伊利股份",
+      "sector": "消费",
+      "industry": "饮料乳品",
+      "value": 29.45,
+      "changePercent": 2.65,
+      "marketCap": 1862.82
+    },
+    {
+      "symbol": "601766.SH",
+      "name": "中国中车",
+      "sector": "工业",
+      "industry": "轨交设备",
+      "value": 6.48,
+      "changePercent": 1.41,
+      "marketCap": 1859.69
+    },
+    {
+      "symbol": "002379.SZ",
+      "name": "宏桥控股",
+      "sector": "材料",
+      "industry": "工业金属",
+      "value": 14.2,
+      "changePercent": -0.77,
+      "marketCap": 1850.42
+    },
+    {
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "sector": "科技",
+      "industry": "元件",
+      "value": 94.14,
+      "changePercent": -10,
+      "marketCap": 1831.39
+    },
+    {
+      "symbol": "688802.SH",
+      "name": "沐曦股份",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 457.22,
+      "changePercent": -6.57,
+      "marketCap": 1829.34
+    },
+    {
+      "symbol": "601818.SH",
+      "name": "光大银行",
+      "sector": "金融",
+      "industry": "银行",
+      "value": 3.09,
+      "changePercent": 0.33,
+      "marketCap": 1825.74
+    },
+    {
+      "symbol": "600690.SH",
+      "name": "海尔智家",
+      "sector": "消费",
+      "industry": "白色家电",
+      "value": 19.63,
+      "changePercent": 0.82,
+      "marketCap": 1825.3
+    },
+    {
+      "symbol": "002463.SZ",
+      "name": "沪电股份",
+      "sector": "科技",
+      "industry": "元件",
+      "value": 94.11,
+      "changePercent": -10,
+      "marketCap": 1814.96
+    },
+    {
+      "symbol": "000338.SZ",
+      "name": "潍柴动力",
+      "sector": "新能源与汽车",
+      "industry": "汽车零部件",
+      "value": 20.5,
+      "changePercent": -3.98,
+      "marketCap": 1771.25
+    },
+    {
+      "symbol": "300394.SZ",
+      "name": "天孚通信",
+      "sector": "科技",
+      "industry": "通信设备",
+      "value": 161.6,
+      "changePercent": -19.77,
+      "marketCap": 1762.77
+    },
+    {
+      "symbol": "302132.SZ",
+      "name": "中航成飞",
+      "sector": "工业",
+      "industry": "航空装备",
+      "value": 65,
+      "changePercent": 1.42,
+      "marketCap": 1736.86
+    },
+    {
+      "symbol": "002916.SZ",
+      "name": "深南电路",
+      "sector": "科技",
+      "industry": "元件",
+      "value": 253.8,
+      "changePercent": -9.37,
+      "marketCap": 1728.72
+    },
+    {
+      "symbol": "000725.SZ",
+      "name": "京东方Ａ",
+      "sector": "科技",
+      "industry": "光学光电子",
+      "value": 4.63,
+      "changePercent": -4.14,
+      "marketCap": 1715.15
+    },
+    {
+      "symbol": "601066.SH",
+      "name": "中信建投",
+      "sector": "金融",
+      "industry": "证券",
+      "value": 21.9,
+      "changePercent": -1.57,
+      "marketCap": 1698.72
+    },
+    {
+      "symbol": "300408.SZ",
+      "name": "三环集团",
+      "sector": "科技",
+      "industry": "元件",
+      "value": 84.54,
+      "changePercent": -2.83,
+      "marketCap": 1688.03
+    },
+    {
+      "symbol": "600031.SH",
+      "name": "三一重工",
+      "sector": "工业",
+      "industry": "工程机械",
+      "value": 18.29,
+      "changePercent": 2.41,
+      "marketCap": 1681.77
+    },
+    {
+      "symbol": "002352.SZ",
+      "name": "顺丰控股",
+      "sector": "工业",
+      "industry": "物流",
+      "value": 32.15,
+      "changePercent": 0.97,
+      "marketCap": 1641.31
+    },
+    {
+      "symbol": "600930.SH",
+      "name": "华电新能",
+      "sector": "公用事业",
+      "industry": "电力",
+      "value": 3.91,
+      "changePercent": 0,
+      "marketCap": 1631.03
+    },
+    {
+      "symbol": "600989.SH",
+      "name": "宝丰能源",
+      "sector": "其他",
+      "industry": "",
+      "value": 22.22,
+      "changePercent": 1,
+      "marketCap": 1629.47
+    },
+    {
+      "symbol": "603268.SH",
+      "name": "松发股份",
+      "sector": "工业",
+      "industry": "航海装备",
+      "value": 158.8,
+      "changePercent": -5.01,
+      "marketCap": 1617.72
+    },
+    {
+      "symbol": "688801.SH",
+      "name": "燧原科技",
+      "sector": "科技",
+      "industry": "半导体",
+      "value": 367.14,
+      "changePercent": -10.5,
+      "marketCap": 1579.99
+    },
+    {
+      "symbol": "601336.SH",
+      "name": "新华保险",
+      "sector": "金融",
+      "industry": "保险",
+      "value": 50.55,
+      "changePercent": -0.59,
+      "marketCap": 1576.93
+    },
+    {
+      "symbol": "300476.SZ",
+      "name": "胜宏科技",
+      "sector": "科技",
+      "industry": "元件",
+      "value": 160.38,
+      "changePercent": -11.05,
+      "marketCap": 1576.19
+    },
+    {
+      "symbol": "688795.SH",
+      "name": "摩尔线程",
+      "sector": "其他",
+      "industry": "",
+      "value": 333.99,
+      "changePercent": -12.45,
+      "marketCap": 1569.85
+    },
+    {
+      "symbol": "600016.SH",
+      "name": "民生银行",
+      "sector": "其他",
+      "industry": "",
+      "value": 3.54,
+      "changePercent": 0.57,
+      "marketCap": 1549.9
+    },
+    {
+      "symbol": "601688.SH",
+      "name": "华泰证券",
+      "sector": "金融",
+      "industry": "证券",
+      "value": 17.09,
+      "changePercent": -0.58,
+      "marketCap": 1542.69
+    },
+    {
+      "symbol": "300124.SZ",
+      "name": "汇川技术",
+      "sector": "其他",
+      "industry": "",
+      "value": 56.78,
+      "changePercent": 1.1,
+      "marketCap": 1539.34
+    },
+    {
+      "symbol": "601009.SH",
+      "name": "南京银行",
+      "sector": "其他",
+      "industry": "",
+      "value": 12.36,
+      "changePercent": 3.87,
+      "marketCap": 1528.14
+    },
+    {
+      "symbol": "300033.SZ",
+      "name": "同花顺",
+      "sector": "其他",
+      "industry": "",
+      "value": 200.69,
+      "changePercent": 0.85,
+      "marketCap": 1510.47
+    }
+  ],
+  "overseas": [
+    {
+      "symbol": "HSI",
+      "name": "恒生指数",
+      "value": 22958.65,
+      "change": -136.18,
+      "changePercent": -0.59
+    },
+    {
+      "symbol": "HSTECH",
+      "name": "恒生科技指数",
+      "value": 3744.14,
+      "change": -109.58,
+      "changePercent": -2.84
+    },
+    {
+      "symbol": "HXC",
+      "name": "纳斯达克中国金龙指数",
+      "value": 5400.39,
+      "change": -100.62,
+      "changePercent": -1.83,
+      "asOf": "2026-10-28"
+    }
+  ],
+  "forex": [],
+  "news": [
+    {
+      "title": "中远海控：前三季度净利润同比增长13.22% Q3净利润环比增长128%",
+      "summary": "公司前三季度实现营业收入1876.14亿元，同比增长11.94%；归母净利润306.49亿元，同比增长13.22%，第三季度归母净利润172.30亿元，同比增长80.73%。集运业务经营效益上升，是业绩增长的主要原因。",
+      "url": "https://finance.eastmoney.com/a/202610293914310783.html",
+      "source": "财联社",
+      "publishedAt": "2026-10-29T09:21:00.000Z"
+    },
+    {
+      "title": "华鑫股份控股股东拟易主！上海国资券商分层大棋落子",
+      "summary": "华鑫股份公告称，控股股东上海仪电集团拟向上海国盛集团、上海国茂控股合计转让26.99%股权，交易落地后公司控股股东将变更为上海国盛集团，实控人仍为上海市国资委。该事项涉及券商股权和上海国资金融资源布局调整。",
+      "url": "https://finance.eastmoney.com/a/202610293914314811.html",
+      "source": "国际金融报",
+      "publishedAt": "2026-10-29T09:23:00.000Z"
+    },
+    {
+      "title": "亚翔集成：前三季度净利润7.91亿元，同比增长78.76%",
+      "summary": "公司前三季度实现营业收入40.15亿元，同比增长29.14%；归母净利润7.91亿元，同比增长78.76%。公司称，本期施工项目毛利率较好且有效控制发包成本。",
+      "url": "https://finance.eastmoney.com/a/202610293914314633.html",
+      "source": "证券时报网",
+      "publishedAt": "2026-10-29T09:21:00.000Z"
+    },
+    {
+      "title": "满坤科技：第三季度净利润同比增长231%",
+      "summary": "公司第三季度营业收入7.24亿元，同比增长56.48%；归母净利润1.29亿元，同比增长231.24%。前三季度实现营业收入16.67亿元，同比增长36.32%；归母净利润1.72亿元，同比增长69.04%，业绩增长主要来自订单承接增加和产品销售提升。",
+      "url": "https://finance.eastmoney.com/a/202610293914298581.html",
+      "source": "每日经济新闻",
+      "publishedAt": "2026-10-29T09:19:00.000Z"
+    },
+    {
+      "title": "长城基金杨维维：关注两机产业与国产算力",
+      "summary": "基金经理在三季报解读中提到，三季度科技板块持续调整，AI基建等前期强势方向降温；四季度市场仍在震荡中寻找新的叙事支点，建议关注两机产业与国产算力相关机会。",
+      "url": "https://finance.sina.com.cn/stock/enterprise/sale/2026-10-29/doc-iniwwtuv8824300.shtml",
+      "source": "新浪财经",
+      "publishedAt": "2026-10-29T09:29:19.000Z"
+    },
+    {
+      "title": "阿里云荷兰地域正式开启服务",
+      "summary": "阿里云宣布荷兰首个地域节点正式开启服务，这是公司今年新开的第四个海外地域节点。公司同时表示，年内海外累计新增12个可用区，后续还计划在土耳其、芬兰新设地域节点。",
+      "url": "https://finance.eastmoney.com/a/202610293914311265.html",
+      "source": "人民财讯",
+      "publishedAt": "2026-10-29T09:20:00.000Z"
+    },
+    {
+      "title": "星闪年出货将达2亿颗，下一步要过芯片供应关",
+      "summary": "国际星闪联盟披露，去年星闪芯片出货约1.14亿颗，今年上半年已超过去年全年，预计全年达到1.5亿至2亿颗，同比增长约50%。该技术属于新一代无线短距通信技术，产业化进展与芯片供给能力成为关注重点。",
+      "url": "https://finance.eastmoney.com/a/202610293914321380.html",
+      "source": "界面新闻",
+      "publishedAt": "2026-10-29T09:22:00.000Z"
+    },
+    {
+      "title": "美国稀土计划遭重挫",
+      "summary": "报道指出，美国本土稀土产业推进受挫，显示其供应链重建仍面临较大不确定性。稀土相关议题对全球资源品与产业链安全预期有一定影响。",
+      "url": "https://finance.eastmoney.com/a/202610293914302596.html",
+      "source": "三里河",
+      "publishedAt": "2026-10-29T09:21:00.000Z"
+    },
+    {
+      "title": "欧元兑美元徘徊于年内低点附近，市场继续聚焦美国宏观数据及欧洲央行最新政策动向",
+      "summary": "欧元兑美元徘徊于年内低点附近，市场关注美国宏观数据和欧洲央行政策动向。汇率波动反映出全球资金对利率路径和增长前景的重新定价。",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQYnQ4Z0xLQllhV1ROY0QxVTc4TVJYTlljS2FtcnV1dWQ1dDRRSTZiV0VZX0NxNHFDWUlZSlhUR0V3eUxmQXk0SU9CRzZYMGotTFZFWEItNTRhSHc1VktTSUM5WTRUbWhYTE0xd0JwX1dfcjh2NFAzMkJucGVGUlBSNGlSOVhSeFZtU3BTeXYyYzRUdm1wSkFIRC1PXzczWjBTVlFXUHBvZGFsLVZKV3FfN3pnRGd0bDloUDlfaFhOdUU1UUFXbm1IRjcwMzB0b1dHajk2dDlubnpDbkRNZXRLMGc1YksxWWNveU51dG5R?oc=5",
+      "source": "www.tmgm.com"
+    },
+    {
+      "title": "分析：欧洲盈利增速多年来首次有望比肩美国",
+      "summary": "分析指出，本轮财报季欧洲盈利增速预期正在追赶美国，明晟欧洲指数成分股三季度利润同比增幅预计为23%，略低于标普500成分股24%的预期增幅。海外盈利修复与估值变化值得继续观察。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwtuu2809744.shtml",
+      "source": "环球市场播报",
+      "publishedAt": "2026-10-29T09:23:27.000Z"
+    },
+    {
+      "title": "【美股盘前】美联储维持利率不变，沃什暗示后续可能加息；谷歌跌超10%，Q3自由现金流降至-90.7亿美元；微软资本开支低于预期拖累新云概念股，Nebius跌超6%；存储股下跌，闪迪、美光跌超3%",
+      "summary": "美股盘前三大期指涨跌不一，美联储维持利率不变后，科技股承压。谷歌因业绩和现金流表现不佳盘前大跌，微软资本开支低于预期也拖累新云概念股，存储链条同步回落。",
+      "url": "https://forex.eastmoney.com/a/202610293914309567.html",
+      "source": "每日经济新闻",
+      "publishedAt": "2026-10-29T09:21:00.000Z"
+    },
+    {
+      "title": "分析：法国债务困境与希腊危机的对比",
+      "summary": "市场讨论欧元区债务风险再度升温，焦点转向法国，相关债券风险指标升至2011年末希腊危机最严峻时期以来高位。欧洲财政与债市波动可能影响全球风险偏好。",
+      "url": "https://finance.sina.com.cn/world/2026-10-29/doc-iniwwtuv8825201.shtml",
+      "source": "环球市场播报",
+      "publishedAt": "2026-10-29T09:31:01.000Z"
+    },
+    {
+      "title": "美伊重启和平谈判的努力缓解供应担忧，油价出现下跌",
+      "summary": "重启和平谈判的预期缓解了市场对中东局势升级和供应中断的担忧，国际油价随之走低。能源价格回落有助于缓和通胀预期，但地缘局势仍需持续关注。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwwtuu2814783.shtml",
+      "source": "环球市场播报",
+      "publishedAt": "2026-10-29T09:29:55.000Z"
+    },
+    {
+      "title": "沃格光电：前三季度净亏损1.87亿元",
+      "summary": "公司前三季度营业收入18.66亿元，同比下降1.81%；归母净利润为-1.87亿元。第三季度收入和利润仍承压，显示部分消费电子和面板链相关公司业绩修复尚不稳固。",
+      "url": "https://finance.eastmoney.com/a/202610293914322544.html",
+      "source": "财联社",
+      "publishedAt": "2026-10-29T09:29:00.000Z"
+    },
+    {
+      "title": "碧桂园服务：10月29日斥资487.25万港元回购100万股",
+      "summary": "碧桂园服务公告称，10月29日回购100万股，总代价487.25万港元，购回股份拟注销。港股公司回购通常反映管理层对公司估值与现金流安排的态度。",
+      "url": "https://finance.eastmoney.com/a/202610293914310954.html",
+      "source": "南方财经网",
+      "publishedAt": "2026-10-29T09:23:00.000Z"
+    },
+    {
+      "title": "中国联通公布业绩：第三季度净利润16.64亿元，同比下降31.3%",
+      "summary": "公司第三季度营业收入932.83亿元，同比增长0.5%；归母净利润16.64亿元，同比下降31.3%。盈利回落反映通信运营商在收入增长放缓背景下的利润压力。",
+      "url": "https://finance.eastmoney.com/a/202610293914303226.html",
+      "source": "中新经纬",
+      "publishedAt": "2026-10-29T09:20:00.000Z"
+    },
+    {
+      "title": "摩根大通在天齐锂业的H股好仓比例上升0.48%至11.81%",
+      "summary": "香港交易所披露信息显示，JPMorganChase&Co.在天齐锂业的H股好仓比例于10月26日升至11.81%，同时淡仓比例下降。机构持仓变化显示对锂盐相关标的的关注度有所提升。",
+      "url": "https://finance.eastmoney.com/a/202610293914312676.html",
+      "source": "南方财经网",
+      "publishedAt": "2026-10-29T09:23:00.000Z"
+    },
+    {
+      "title": "贝莱德在赣锋锂业的H股好仓比例上升1.36%至9.34%",
+      "summary": "香港交易所披露信息显示，BlackRock,Inc.在赣锋锂业的H股好仓比例于10月26日升至9.34%。机构持仓变化反映海外资金对锂产业链的配置有所调整。",
+      "url": "https://finance.eastmoney.com/a/202610293914314997.html",
+      "source": "南方财经网",
+      "publishedAt": "2026-10-29T09:23:00.000Z"
+    },
+    {
+      "title": "摩根大通在恒瑞医药的H股好仓比例上升0.34%至10.21%",
+      "summary": "香港交易所披露信息显示，JPMorganChase&Co.在恒瑞医药的H股好仓比例于10月26日升至10.21%。机构持仓变化对医药板块情绪有一定指示意义。",
+      "url": "https://finance.eastmoney.com/a/202610293914315512.html",
+      "source": "南方财经网",
+      "publishedAt": "2026-10-29T09:23:00.000Z"
+    },
+    {
+      "title": "摩根大通在三花智控的H股好仓比例上升0.45%至5.35%",
+      "summary": "香港交易所披露信息显示，JPMorganChase&Co.在三花智控的H股好仓比例于10月26日升至5.35%。机构持仓变动反映市场对智能控制与汽车零部件链条的持续关注。",
+      "url": "https://finance.eastmoney.com/a/202610293914311454.html",
+      "source": "南方财经网",
+      "publishedAt": "2026-10-29T09:23:00.000Z"
+    },
+    {
+      "title": "贝莱德在比亚迪股份的H股好仓比例上升0.13%至7.12%",
+      "summary": "香港交易所披露信息显示，BlackRock,Inc.在比亚迪股份的H股好仓比例于10月26日升至7.12%。机构仓位变化显示海外资金对新能源车龙头仍有配置。",
+      "url": "https://finance.eastmoney.com/a/202610293914311345.html",
+      "source": "南方财经网",
+      "publishedAt": "2026-10-29T09:23:00.000Z"
+    },
+    {
+      "title": "高盛集团在宁德时代的H股好仓比例下降0.06%至4.98%",
+      "summary": "香港交易所披露信息显示，高盛集团在宁德时代的H股好仓比例于10月23日降至4.98%。仓位微调对锂电龙头情绪有边际影响。",
+      "url": "https://finance.eastmoney.com/a/202610293914322367.html",
+      "source": "南方财经网",
+      "publishedAt": "2026-10-29T09:19:00.000Z"
+    },
+    {
+      "title": "美科技巨头股价突然重挫10%",
+      "summary": "Alphabet盘前大跌超10%，此前发布的业绩和现金流表现不及预期，引发市场对其人工智能战略前景的担忧。美科技股波动对A股算力、云计算和相关产业链情绪具有外溢影响。",
+      "url": "https://finance.eastmoney.com/a/202610293914322633.html",
+      "source": "证券时报",
+      "publishedAt": "2026-10-29T09:18:00.000Z"
+    }
+  ],
+  "gauges": [
+    {
+      "key": "breadth",
+      "display": "14",
+      "caption": "上涨 781 · 下跌 4728",
+      "score": 14,
+      "asOf": "2026-10-29"
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-10-29T12:30:00.000Z",
+      "allDay": false,
+      "title": "美国 GDP",
+      "kind": "data",
+      "impact": "high",
+      "region": "us",
+      "detail": "预期 3.2%，前值 1.5%"
+    },
+    {
+      "at": "2026-10-29T12:30:00.000Z",
+      "allDay": false,
+      "title": "核心美国 PCE 物价指数",
+      "kind": "data",
+      "impact": "high",
+      "region": "us",
+      "detail": "预期 0.3%，前值 0.2%"
+    },
+    {
+      "at": "2026-10-31T01:30:00.000Z",
+      "allDay": false,
+      "title": "官方制造业 PMI",
+      "kind": "data",
+      "impact": "medium",
+      "region": "cn",
+      "detail": "预期 49.9，前值 50.1"
+    },
+    {
+      "at": "2026-10-31T01:30:00.000Z",
+      "allDay": false,
+      "title": "官方非制造业 PMI",
+      "kind": "data",
+      "impact": "medium",
+      "region": "cn",
+      "detail": "预期 50.0，前值 50.2"
+    },
+    {
+      "at": "2026-11-01T01:45:00.000Z",
+      "allDay": false,
+      "title": "财新制造业 PMI",
+      "kind": "data",
+      "impact": "medium",
+      "region": "cn",
+      "detail": "预计"
+    },
+    {
+      "at": "2026-11-03T01:45:00.000Z",
+      "allDay": false,
+      "title": "财新服务业 PMI",
+      "kind": "data",
+      "impact": "low",
+      "region": "cn",
+      "detail": "预计"
+    }
+  ],
+  "summary_md": "- 上证指数报3651.43点，跌0.82%；深证成指跌2.92%，创业板指跌4.45%；沪深两市成交额约1.56万亿元，个股上涨781家、下跌4728家，市场整体偏弱。\n- 板块上，纺织鞋类制造、航天装备、院线、核力发电逆势走强；印制电路板、通信线缆及配套、元件、通信网络设备及器件、光学元件跌幅靠前，科技硬件方向调整明显。\n- 资金与指数层面，沪深300跌1.03%，中证500跌2.82%，科创50跌4.27%，北证50跌3.88%；创业板ETF、科创50ETF等相关品种同步回落。\n- 宏观与政策面，市场关注美国GDP、核心PCE等高影响数据发布；国内10月31日将公布官方制造业PMI和非制造业PMI，11月初还有财新PMI等待落地。\n- 公司与行业方面，中远海控前三季度净利润同比增长13.22%，Q3同比增长80.73%；亚翔集成前三季度净利润增长78.76%，满坤科技Q3净利润增长231.24%，显示部分制造与工程链条业绩韧性。\n- 传媒与消费方向，横店影视所在院线板块上涨，贵州茅台、中国平安、招商银行、工商银行、中国移动等权重股收涨，对指数形成一定支撑。\n- 海外市场方面，恒生指数跌0.59%，恒生科技指数跌2.84%，纳斯达克中国金龙指数跌1.83%；美股盘前科技股承压，谷歌大跌超10%，相关情绪对中概与科技板块有联动影响。\n- 需留意后续风险与事件，欧洲债务与能源价格波动、中东局势和美国宏观数据仍可能影响全球风险偏好；同时，部分A股三季报、减持与股权变动信息继续密集披露。",
+  "sources": [
+    "东方财富",
+    "新浪财经",
+    "Google 新闻"
+  ],
+  "updated_at": "2026-10-29 09:33:06"
+}

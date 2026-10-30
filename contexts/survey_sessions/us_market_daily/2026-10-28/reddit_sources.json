@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "report_date_beijing": "2026-10-28",
+  "run_id": "2026-10-28-daily",
+  "collection_completed_at_utc": "2026-10-27T23:34:55Z",
+  "collection_completed_at_beijing": "2026-10-28T07:34:55+08:00",
+  "scope_status": "selected_public_threads_and_comments_with_primary_event_verification_timestamp_and_feed_gaps",
+  "complete_reddit_scan": false,
+  "discovery": {
+    "communities_considered": [
+      "investing",
+      "stocks",
+      "SecurityAnalysis",
+      "ValueInvesting",
+      "Bogleheads",
+      "ETFs"
+    ],
+    "methods": [
+      "public New listings",
+      "stocks Top day listing",
+      "targeted dated web search",
+      "original thread body and visible comments",
+      "primary IR filings and releases"
+    ],
+    "public_listing_results": [
+      {
+        "url": "https://www.reddit.com/r/stocks/new/",
+        "status": "read_current_event_candidates"
+      },
+      {
+        "url": "https://www.reddit.com/r/investing/new/",
+        "status": "read_but_search_provider_crawl_last_week"
+      },
+      {
+        "url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+        "status": "read_but_search_provider_crawl_last_week"
+      },
+      {
+        "url": "https://www.reddit.com/r/ValueInvesting/new/",
+        "status": "read_provider_crawl_yesterday_no_selected_increment"
+      },
+      {
+        "url": "https://www.reddit.com/r/Bogleheads/new/",
+        "status": "read_provider_crawl_today_no_selected_increment"
+      },
+      {
+        "url": "https://www.reddit.com/r/ETFs/new/",
+        "status": "read_but_search_provider_crawl_last_week"
+      },
+      {
+        "url": "https://www.reddit.com/r/stocks/top/?t=day",
+        "status": "stale_two_week_cache_not_used_as_today_ranking"
+      },
+      {
+        "url": "https://www.reddit.com/r/stocks/new/.rss",
+        "status": "normal_public_curl_GET_HTTP403_stopped_no_bypass"
+      }
+    ],
+    "limitations": [
+      "Original pages only expose relative ages; exact UTC/Beijing publication timestamps unavailable.",
+      "Search indices label selected threads or comments October27,2026 without timezone; do not certify exact24h or72h.",
+      "Only selected visible comments read, not all collapsed or authenticated content.",
+      "No votes/comment counts reported; no sentiment consensus inferred.",
+      "Six communities considered does not imply comprehensive scan or no new content elsewhere."
+    ]
+  },
+  "items": [
+    {
+      "item_id": "avgo_residual_backstop_disclosure_2026_10_27",
+      "post_id": "1xgriwj",
+      "comment_id": null,
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xgriwj/broadcom_ceo_intervened_to_seal_63_billion/",
+      "community": "stocks",
+      "title": "Broadcom CEO Intervened to Seal $63 Billion Anthropic Debt Deal",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "post_date_as_labeled": "2026-10-27",
+      "post_time_status": "Only search index calendar date, timezone unspecified; original relative age not used to infer exact time.",
+      "event_dates": [
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "event_time_notes": "8-K reports arrangement dated October26 and signature October27.",
+      "content_read": "Original body and visible comments through collateral/guarantee debate; not collapsed replies. Official three-page 8-K text, especially page2.",
+      "classification": "verified_primary_contingent_liability_disclosure_with_unverified_media_deal_details",
+      "claims": [
+        {
+          "claim": "Broadcom arranged financial partners to take on part of AI rack purchase and customer lease arrangements and provided SPV residual value support; maximum potential liability on an undiscounted basis upon deployment is approximately USD43b.",
+          "status": "verified_primary_filing",
+          "sources": [
+            "https://investors.broadcom.com/static-files/0ee4f6b7-4a23-4de0-8f3e-48f147ae30d3"
+          ],
+          "source_locator": "8-K page2 Item2.03"
+        },
+        {
+          "claim": "Contingent liability increases with deployment and declines with customer lease payments. Following lease default, remedies and equipment value may reduce exposure; disclosed shortfall calculation references72.5%of outstanding lease amounts and proceeds from equipment sale.",
+          "status": "verified_primary_filing_not_probability_estimate",
+          "sources": [
+            "https://investors.broadcom.com/static-files/0ee4f6b7-4a23-4de0-8f3e-48f147ae30d3"
+          ]
+        },
+        {
+          "claim": "Customer named Anthropic, USD63b total transaction, bank negotiation narrative and changing loan terms in Reddit/WSJ excerpt.",
+          "status": "not_independently_primary_verified_not_treated_as_filing_fact"
+        },
+        {
+          "claim": "Loss has occurred or maximum exposure is expected loss.",
+          "status": "rejected_inference"
+        }
+      ],
+      "relevance": "AI infrastructure supplier financing adds a credit/asset-value dimension to QQQM/VOO technology exposure.",
+      "counterargument": "Management calls trigger probability low and identifies remedies; that judgment is not independent assurance. Visible comments focus on financing and collateral value but do not establish broad consensus.",
+      "next_check": "Actual contingent exposure in subsequent filings, deployment/lease collections, customer payment performance and equipment residual values.",
+      "new_vs_prior_report": "New company-specific regulatory disclosure; not a repetition of yesterday's generic neocloud/Gartner forecast.",
+      "collected_at_utc": "2026-10-27T23:34:55Z",
+      "post_freshness": "recent_calendar_date_only_exact_window_not_verified",
+      "heat_metrics": null,
+      "automated_trade_signal": false
+    },
+    {
+      "item_id": "nvda_meta_equity_forward_settlement_2026_10_27",
+      "post_id": "1xgptmy",
+      "comment_id": null,
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xgptmy/nvidia_to_invest_3_billion_in_meta_as_tech_giants/",
+      "community": "stocks",
+      "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "post_date_as_labeled": "2026-10-27",
+      "post_time_status": "Only search index calendar date, timezone unspecified; original relative age not used to infer exact time.",
+      "event_dates": [
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-29",
+        "2027-11-19"
+      ],
+      "event_time_notes": "NVIDIA release datedOctober27. Meta pricing page headerOctober27 but body datelineOctober26; inconsistency preserved. Future closing/settlement dates are expected, not completed.",
+      "content_read": "Original body and visible comment branches discussing circular financing, scale and demand; official NVIDIA announcement and Meta launch/pricing releases.",
+      "classification": "verified_primary_planned_investment_and_forward_offering_terms",
+      "claims": [
+        {
+          "claim": "NVIDIA announced it will invest USD3b in Meta equity offering.",
+          "status": "verified_company_announcement_not_completed_investment",
+          "sources": [
+            "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Meta-to-Expand-Collaboration-on-Muse-and-Muse-Family-of-Models-Amid-Robust-Growth/default.aspx"
+          ]
+        },
+        {
+          "claim": "Meta pricing release upsizes common stock forward offering toUSD25b fromUSD22.5b; Meta expects no initial proceeds from shares sold by forward purchasers, and expects future settlement on or beforeNovember19,2027. Offerings expected to closeOctober29,2026 subject to conditions.",
+          "status": "verified_latest_primary_terms_not_completion",
+          "sources": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx"
+          ]
+        },
+        {
+          "claim": "The old headline total is all cash already received; crossholding proves fake demand or unlawful accounting.",
+          "status": "not_supported_not_adopted"
+        }
+      ],
+      "relevance": "Financing structure, settlement timing, dilution and post-investment cash returns matter to technology/semiconductor/communication research.",
+      "counterargument": "Some comments worry about supplier/customer crossholdings; others noteUSD3b is only part of fundraising. Neither side proves demand quality or valuation. No broad consensus inferred.",
+      "next_check": "ExpectedOctober29 closing, actual forward settlements, share count and operating/free cash flow.",
+      "new_vs_prior_report": "New NVIDIA commitment and Meta latest pricing/forward terms; more specific than previous generic AI cash-return research.",
+      "collected_at_utc": "2026-10-27T23:34:55Z",
+      "post_freshness": "recent_calendar_date_only_exact_window_not_verified",
+      "heat_metrics": null,
+      "automated_trade_signal": false
+    },
+    {
+      "item_id": "hubbell_q3_2026_organic_growth_cashflow",
+      "post_id": "1xgnw3d",
+      "comment_id": "19rqhpdvaxjq9",
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/comment/19rqhpdvaxjq9/",
+      "parent_post_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/rstocks_daily_discussion_technicals_tuesday_oct/",
+      "community": "stocks",
+      "title": "Hubbell Reports Third Quarter 2026 Results — daily discussion comment",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "post_date_as_labeled": "2026-10-27",
+      "post_time_status": "Parent daily-thread date and search index date only; comment relative age. Quoted news timestamp is not comment timestamp.",
+      "event_dates": [
+        "2026-09-30",
+        "2026-10-27"
+      ],
+      "event_time_notes": "Q3 endedSeptember30; financial releaseOctober27. Company-distributed newswire release07:30EDT=19:30Beijing onOctober27, distinct from unknown Reddit post time.",
+      "content_read": "Specific Reddit comment and surrounding thread; no substantive replies to that company comment found. Official Hubbell release and cash-flow/segment discussion.",
+      "classification": "verified_company_financial_metrics_with_valuation_not_assessed",
+      "claims": [
+        {
+          "claim": "Q3 net sales+25%year-over-year; company lists organic+11%and acquisitions+13%; Electrical Solutions organic sales+22%.",
+          "status": "verified_primary_release_company_defined_organic_metric",
+          "sources": [
+            "https://hubbell.gcs-web.com/node/32291"
+          ]
+        },
+        {
+          "claim": "Operating cash flowUSD323m versusUSD284m; free cash flowUSD280m versusUSD254m prior-year quarter.",
+          "status": "verified_primary_release_free_cash_flow_non_GAAP",
+          "sources": [
+            "https://hubbell.gcs-web.com/node/32291"
+          ]
+        },
+        {
+          "claim": "All25%sales growth is incremental end demand, or earnings growth establishes cheap valuation.",
+          "status": "not_supported_not_adopted"
+        }
+      ],
+      "relevance": "Electrical/grid equipment provides a separate observable channel for infrastructure demand; not a recommendation to add a sector or single stock.",
+      "counterargument": "Growth also reflects acquisitions, pricing and tariff effects; company-defined non-GAAP metrics and integration/debt costs require review. No multiple/valuation work done.",
+      "next_check": "Organic orders, capacity-expansion cash returns, integration performance and financing cost.",
+      "new_vs_prior_report": "NewOctober27 company results, not previously reported.",
+      "collected_at_utc": "2026-10-27T23:34:55Z",
+      "post_freshness": "current_dated_daily_thread_exact_comment_time_not_verified",
+      "heat_metrics": null,
+      "automated_trade_signal": false
+    },
+    {
+      "item_id": "bwxt_antares_fuel_framework_2026_10_27",
+      "post_id": "1xgnw3d",
+      "comment_id": "19rqdcgluoysj",
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/comment/19rqdcgluoysj/",
+      "parent_post_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/rstocks_daily_discussion_technicals_tuesday_oct/",
+      "community": "stocks",
+      "title": "BWXT Announces Contract with Antares for TRISO Nuclear Fuel Production — daily discussion comment",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "post_date_as_labeled": "2026-10-27",
+      "post_time_status": "Parent daily-thread date and search index date only; exact comment timestamp unavailable.",
+      "event_dates": [
+        "2026-10-27"
+      ],
+      "event_time_notes": "Official release datedOctober27; future project milestones are forecasts, not delivery confirmations.",
+      "content_read": "Specific Reddit comment; no substantive direct counterargument replies returned. Official two-page BWXT PDF.",
+      "classification": "verified_commercial_framework_with_unquantified_financial_impact",
+      "claims": [
+        {
+          "claim": "Multi-year commercial TRISO fuel framework includes terms for an initial1MTU(metric ton uranium)allocation.",
+          "status": "verified_primary_release",
+          "sources": [
+            "https://investors.bwxt.com/node/18011/pdf"
+          ]
+        },
+        {
+          "claim": "Future task orders define specific quantities, delivery schedules and technical requirements; release does not disclose a contract dollar value.",
+          "status": "verified_scope_of_primary_release",
+          "sources": [
+            "https://investors.bwxt.com/node/18011/pdf"
+          ]
+        },
+        {
+          "claim": "Allocation is delivered revenue, disclosed profit, or proven AI-data-center-driven demand.",
+          "status": "not_supported_not_adopted"
+        }
+      ],
+      "relevance": "Observable nuclear supply-chain progress, requiring commercial delivery and cash collection verification before financial inference.",
+      "counterargument": "Signed framework is more concrete than intent but remains exposed to funding, amendment/termination and execution delays; no profitability data.",
+      "next_check": "Firm task orders, schedules, deliveries, revenue recognition and cash receipts.",
+      "new_vs_prior_report": "NewOctober27 contract disclosure, not previously reported.",
+      "collected_at_utc": "2026-10-27T23:34:55Z",
+      "post_freshness": "current_dated_daily_thread_exact_comment_time_not_verified",
+      "heat_metrics": null,
+      "automated_trade_signal": false
+    }
+  ],
+  "excluded": [
+    {
+      "claim_keys": [
+        "equal_weight_cap_weight_divergence_2026_10_26",
+        "ai_cash_returns_calendar_2026_10_28_29",
+        "neocloud_consolidation_forecast_scope_2026_10_14",
+        "rddt_q3_2026_users_monetization_event",
+        "bkd_occupancy_profit_quality_2026q3",
+        "staged_entry_not_drawdown_protection"
+      ],
+      "reason": "Already reported; no duplicate selected as new daily item. Calendar maintained in parent market report."
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/rstocks_daily_discussion_technicals_tuesday_oct/",
+      "topic": "MirionQ3results",
+      "reason": "Search/reposted financial release seen but current official results page not verified; omitted rather than overstate primary verification."
+    }
+  ],
+  "publication_status": "integrated_into_daily_report",
+  "parent_primary_cross_check": {
+    "checked_at_utc": "2026-10-27T23:40:00.117552+00:00",
+    "result": "Primary agent read Broadcom 8-K page2, Meta pricing release lines84-102 and BWXT PDF page1 via successful source reference opens; NVIDIA and Hubbell key content also retrieved via official search-index text. Initial direct URL opens returned tool Internal Error, resolved through existing successful source references.",
+    "scope": "core amounts, contingent/planned nature and missing contract value checked; no independent valuation work"
+  }
+}

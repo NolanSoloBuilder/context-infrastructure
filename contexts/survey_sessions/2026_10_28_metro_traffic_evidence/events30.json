@@ -1,0 +1,44 @@
+{
+  "meta": [
+    {
+      "name": "event",
+      "type": "String"
+    },
+    {
+      "name": "n",
+      "type": "UInt64"
+    }
+  ],
+  "data": [
+    {
+      "event": "leaderboard_view",
+      "n": "1392"
+    },
+    {
+      "event": "page_view",
+      "n": "7599"
+    },
+    {
+      "event": "game_start",
+      "n": "3121"
+    },
+    {
+      "event": "game_complete",
+      "n": "1453"
+    },
+    {
+      "event": "streak_updated",
+      "n": "28"
+    },
+    {
+      "event": "share_success",
+      "n": "1"
+    },
+    {
+      "event": "share_open",
+      "n": "1"
+    }
+  ],
+  "rows": 7,
+  "rows_before_limit_at_least": 12829
+}

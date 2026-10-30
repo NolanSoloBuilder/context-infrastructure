@@ -1,0 +1,98 @@
+{
+  "checked_at_utc": "2026-10-29T09:08:20.485517+00:00",
+  "sources": [
+    {
+      "id": "official_release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "kind": "primary_SEC_earnings_release",
+      "read_scope": "financial tables, webcast provenance",
+      "status": "web_body_read"
+    },
+    {
+      "id": "official_replay",
+      "url": "https://www.youtube.com/watch?v=X9mmCagxJTo",
+      "kind": "official_call_replay",
+      "read_scope": "link confirmed from original SEC release; title only",
+      "status": "audio_not_played_captions_not_obtained"
+    },
+    {
+      "id": "official_ceo",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
+      "kind": "primary_edited_CEO_remarks",
+      "read_scope": "CEO prepared remarks; not CFO or full Q&A",
+      "status": "web_body_read_and_public_html_archived"
+    },
+    {
+      "id": "stockanalysis",
+      "url": "https://stockanalysis.com/stocks/googl/transcripts/712854-q3-2026/",
+      "kind": "Quartr_third_party_call_transcription",
+      "read_scope": "prepared CEO/CBO/Cloud/CFO remarks and Q&A",
+      "status": "web_body_read_CLI_archive_failed"
+    },
+    {
+      "id": "benzinga",
+      "url": "https://www.benzinga.com/news/26/10/62679903/alphabet-q3-2026-earnings-call-transcript",
+      "kind": "third_party_corrected_call_transcription",
+      "read_scope": "CFO outlook, Search monetization, Cloud capacity and capital commitments; editor correction",
+      "status": "web_body_read_CLI_archive_failed"
+    },
+    {
+      "id": "marketbeat",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/",
+      "kind": "third_party_timestamped_call_transcription",
+      "read_scope": "48:49–49:41 TPU working capital; 53:55 committed contracts and product margin gap",
+      "status": "web_body_read"
+    },
+    {
+      "id": "fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/alphabet-googl-q3-2026-earnings-call-transcript/",
+      "kind": "third_party_call_transcription",
+      "read_scope": "CFO remarks and Q&A cross-read; summary EPS label not used",
+      "status": "web_body_read_CLI_archive_failed"
+    }
+  ],
+  "claim_checks": [
+    {
+      "topic": "Search",
+      "source_ids": [
+        "official_ceo",
+        "stockanalysis"
+      ],
+      "fact": "query growth strongest in five years; management acknowledges lower AI Mode monetization; FX largest sequential deceleration driver",
+      "inference": "franchise resilience supported, incremental AI profitability not established"
+    },
+    {
+      "topic": "Cloud",
+      "source_ids": [
+        "official_release",
+        "benzinga"
+      ],
+      "fact": "103% revenue growth includes meaningful TPU sales; Q3 segment margin 36.2%; external bridging compute ramps Q4",
+      "inference": "do not extrapolate combined growth as recurring cloud growth or constant margins"
+    },
+    {
+      "topic": "Cash",
+      "source_ids": [
+        "official_release",
+        "stockanalysis",
+        "marketbeat"
+      ],
+      "fact": "negative 9.065B FCF includes 5.2B fine cash payment and TPU inventory build; contracts precede inventory",
+      "inference": "separate one-off payment and working capital from capex; no double counting or nine-month inventory addback"
+    },
+    {
+      "topic": "Capital",
+      "source_ids": [
+        "benzinga"
+      ],
+      "fact": "2026 capex unchanged, 2027 significantly higher",
+      "inference": "3–5-year per-share cash returns depend on reinvestment intensity, recovery and financing"
+    }
+  ],
+  "limits": [
+    "Full official audio not played; CFO/Q&A read through third-party transcriptions",
+    "Multiple transcripts are representations of the same call, not independent evidence of outcomes",
+    "No complete Q3 capital bridge rebuilt this turn",
+    "No current quote or new precise entry price asserted"
+  ]
+}

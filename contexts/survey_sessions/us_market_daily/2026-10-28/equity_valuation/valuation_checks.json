@@ -1,0 +1,35 @@
+{
+  "financial_identities_passed": true,
+  "terminal_growth_and_reinvestment_matched": true,
+  "reverse_dcf_matches_close": true,
+  "higher_wacc_lowers_value": true,
+  "base_value_usd": 207.2353210913642,
+  "wacc_9pct_g3_value": 251.3697866455616,
+  "final_results": [
+    {
+      "name": "保守压力",
+      "value_usd": 66.05311235222023
+    },
+    {
+      "name": "基准",
+      "value_usd": 207.2353210913642
+    },
+    {
+      "name": "乐观兑现",
+      "value_usd": 384.39120880109317
+    }
+  ],
+  "rrx_review": {
+    "core_eps_after_refund_and_sbc": 9.709999999999999,
+    "baseline_value": 165.07,
+    "close": 158.21,
+    "discount_to_base_pct": 4.155812685527338,
+    "research_entry_usd": [
+      130,
+      140
+    ],
+    "caveat": "Additional restructuring/amortization adjustments may still represent economic cost; baseline PE17 is an assumption, not historical fact."
+  },
+  "source_quote_session": "2026-10-27",
+  "scope": "Arithmetic/model coherence, not a forecast or backtest"
+}

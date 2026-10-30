@@ -1,0 +1,38 @@
+{
+  "status": "data_and_parser_checks_passed",
+  "checked_at_utc": "2026-10-29T02:19:18.429173+00:00",
+  "sofi_close_verified_against_dated_secondary": 17.14,
+  "pre_post_quotes_dated_and_benchmarks_checked": true,
+  "return_comparison_tolerance_percentage_points": 0.0001,
+  "tolerance_reason": "Stored displayed reference price rounded to cents; returns use raw OHLC precision",
+  "zero_volume_indicative_flag_preserved": true,
+  "parser_next_day_premarket_and_previous_day_cases_passed": true,
+  "alert_symbols_preserved": [
+    "QQQ",
+    "QQQM",
+    "VOO",
+    "BRK.B"
+  ],
+  "regular_charts_unchanged": true,
+  "automation_update_read_back": {
+    "id": "automation-3",
+    "status": "ACTIVE",
+    "rrule": "FREQ=DAILY;BYHOUR=7;BYMINUTE=30;BYSECOND=0",
+    "target_thread_id": "01a167e0-6c40-7372-9e4c-26618f1f7d03",
+    "prompt_has_sofi_and_extended_quotes": true
+  },
+  "rejected_intermediate_snapshot": "extended_raw/20261029T021411Z/snapshot.json: nonzero-volume filter selected stale16:00bars; do not use; corrected current snapshot inextended_quotes.json",
+  "ui_validation": {
+    "status": "blocked_by_browser_local_file_url_policy",
+    "attempted_target": "Existing IAB tab1 report.html#data; tab acquisition/reload blocked by URL policy",
+    "desktop_and_mobile_visual_recheck_completed": false,
+    "no_policy_bypass_attempted": true,
+    "static_content_navigation_checked": true
+  },
+  "source_markdown_sha256": "3514af2a9f2300044dd2304d8742eaaf46f93092a2100db99ccf421bba8efebb",
+  "html_sections_verified": [
+    "extended",
+    "sofi"
+  ],
+  "finished_at_utc": "2026-10-29T02:20:32.583253+00:00"
+}

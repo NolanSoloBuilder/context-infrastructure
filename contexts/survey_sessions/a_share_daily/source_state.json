@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-10-30T09:07:22.431817+08:00",
+  "articles": [
+    {
+      "issue": "3001",
+      "url": "https://www.sina.cn/news/detail/5358751491031596.html",
+      "content_sha256": "9b433ca8baf35f50f29849565bdaa8b4e5060846e2700497326676ca29a32913",
+      "scope": "主文章正文，排除推荐信息流",
+      "status": "read",
+      "reported_in": "2026-10-28/lsd_update.md"
+    },
+    {
+      "issue": "3000",
+      "url": "https://www.sina.cn/news/detail/5358391119841336.html",
+      "content_sha256": "97c2ee78a88fbd79982e4682a3b73c85d85c94e25040cf2cacc94cf8bdb39cc0",
+      "scope": "主文章正文，排除推荐信息流",
+      "status": "read",
+      "reported_in": "2026-10-28/lsd_update.md"
+    },
+    {
+      "issue": "3002",
+      "url": "https://www.sina.cn/news/detail/5359112091341831.html",
+      "scope": "作者正文与10月28日原图，排除推荐流",
+      "status": "read",
+      "reported_in": "2026-10-29/report.html"
+    },
+    {
+      "issue": "3003",
+      "url": "https://www.xueqiu.com/3079173340/414577843",
+      "scope": "本人雪球正文与常规/红利原图分日期查看",
+      "status": "read",
+      "reported_in": "2026-10-30/report.html"
+    }
+  ],
+  "valuation_images": {
+    "2026-10-27": "2026-10-28/sources/3001_first.jpg",
+    "2026-10-26": "2026-10-28/sources/3001_attachment.jpg"
+  },
+  "scope_note": "仅对已成功读取的两个新浪详情建立基线，不能证明账号全部更新覆盖。",
+  "feishu": {
+    "profile": "nandong-feishu",
+    "chat_id": "oc_694dac14c6045bae8f0167003c127188",
+    "last_successful_read_at": "2026-10-30T09:06:34.440969+08:00",
+    "morning_window_end": "2026-10-30T09:00:00+08:00",
+    "supplement_window_end": "2026-10-28T12:02:47+08:00",
+    "reported_message_ids": [
+      "om_x100b613c046df4a8df6c78de2f1fe65",
+      "om_x100b613c26bd2ca4c014f74d93c5663",
+      "om_x100b613d16bfb4a8dfce0ebb70cfb15",
+      "om_x100b613f675c9c80b4b29335389409c",
+      "om_x100b6120d13104a8b09e5cabd88e759",
+      "om_x100b6122e3d02d1ccfd96c1daa312f7",
+      "om_x100b61234832c0a8ce8b9a790e52923",
+      "om_x100b6122b93d2cacce4e86308681b78",
+      "om_x100b6107cfcc40a0df4787425a0569a",
+      "om_x100b6118633c0ca4df25e7e039dfa1d",
+      "om_x100b611fb7be30b8dc13021dd1c2309"
+    ],
+    "report": "2026-10-30/report.html",
+    "evidence": "2026-10-30/sources/feishu_author_digest.json",
+    "coverage_warning": "机器人曾有故障，非原星球完整记录"
+  },
+  "etf_world": {
+    "enabled": false,
+    "removed_on": "2026-10-28",
+    "reason": "用户要求停止相关订阅并移除日报内容"
+  }
+}

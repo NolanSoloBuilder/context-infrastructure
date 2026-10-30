@@ -1,0 +1,37 @@
+{
+  "metrics": {
+    "symbol": "GOOGL",
+    "label": "GOOGL",
+    "session": "2026-10-27",
+    "close": 320.58,
+    "day_pct": 1.1931814788348927,
+    "five_session_pct": -5.789353555219845,
+    "twenty_one_session_pct": -6.468275252438915,
+    "high_52w": 408.61,
+    "high_date": "2026-05-18",
+    "drawdown_pct": -21.543770816945905,
+    "level_15": 347.32,
+    "level_25": 306.46,
+    "additional_drop_to_15_pct": 8.340664450846823,
+    "ma50": 341.89259948730466,
+    "ma200": 341.23069915771487,
+    "vs_ma50_pct": -6.233715777118021,
+    "vs_ma200_pct": -6.051833154643749,
+    "volume": 28527400,
+    "volume_vs_prior20": 1.19260384448082,
+    "bars": 501,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=2y&interval=1d&events=div%2Csplits"
+  },
+  "source": {
+    "symbol": "GOOGL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=2y&interval=1d&events=div%2Csplits",
+    "raw_file": "GOOGL.json",
+    "sha256": "e994918ad06b33ee6dc51b5b6dd5489177030f62ace77e6764ec6116b93d60e7",
+    "file_saved_utc": "2026-10-28T03:55:18.782203+00:00",
+    "first_session": "2024-10-28",
+    "last_session": "2026-10-27",
+    "bars": 501,
+    "currency": "USD",
+    "splits": {}
+  }
+}

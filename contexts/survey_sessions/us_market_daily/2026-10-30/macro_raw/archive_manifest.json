@@ -1,0 +1,40 @@
+[
+  {
+    "key": "finews",
+    "url": "https://finews.fyi/",
+    "status": "saved",
+    "bytes": 79571,
+    "sha256": "5ce31c02c535708286601ecd417c575deb2b27f8ce83d778830346304b734238",
+    "captured_at_utc": "2026-10-29T23:36:13.153814+00:00"
+  },
+  {
+    "key": "treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "status": "saved",
+    "bytes": 1334648,
+    "sha256": "12b4d01229e70005ffce0913268a8baefb57412f46a417255bfa998c143c5e6e",
+    "captured_at_utc": "2026-10-29T23:36:13.648753+00:00"
+  },
+  {
+    "key": "amazon",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+    "status": "cli_archive_failed_web_body_read",
+    "error": "Command '['curl', '-sSL', '--fail', '--max-time', '25', '-A', 'Mozilla/5.0', 'https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx']' returned non-zero exit status 56."
+  },
+  {
+    "key": "pce",
+    "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+    "status": "saved",
+    "bytes": 51646,
+    "sha256": "ecebe8c3ca45d0e8b73d1036edee38838e930b6d96b89f7098235d76ea6b1f07",
+    "captured_at_utc": "2026-10-29T23:36:14.321098+00:00"
+  },
+  {
+    "key": "gdp",
+    "url": "https://bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+    "status": "saved",
+    "bytes": 51251,
+    "sha256": "b51d2f8f5bb721a5b37d17426a7512dcbfce1949aeb1e33b3ff28c823fcaaa30",
+    "captured_at_utc": "2026-10-29T23:36:15.899108+00:00"
+  }
+]

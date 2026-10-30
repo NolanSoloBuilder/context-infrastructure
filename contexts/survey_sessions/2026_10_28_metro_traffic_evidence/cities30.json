@@ -1,0 +1,64 @@
+{
+  "meta": [
+    {
+      "name": "city",
+      "type": "String"
+    },
+    {
+      "name": "n",
+      "type": "UInt64"
+    }
+  ],
+  "data": [
+    {
+      "city": "suzhou",
+      "n": "2031"
+    },
+    {
+      "city": "shanghai",
+      "n": "394"
+    },
+    {
+      "city": "beijing",
+      "n": "174"
+    },
+    {
+      "city": "nanjing",
+      "n": "73"
+    },
+    {
+      "city": "macau",
+      "n": "58"
+    },
+    {
+      "city": "chengdu",
+      "n": "38"
+    },
+    {
+      "city": "chuzhou",
+      "n": "26"
+    },
+    {
+      "city": "hong-kong",
+      "n": "21"
+    },
+    {
+      "city": "taipei",
+      "n": "20"
+    },
+    {
+      "city": "shenzhen",
+      "n": "18"
+    },
+    {
+      "city": "xuzhou",
+      "n": "18"
+    },
+    {
+      "city": "xian",
+      "n": "18"
+    }
+  ],
+  "rows": 12,
+  "rows_before_limit_at_least": 45
+}

@@ -1,0 +1,174 @@
+{
+  "report_date_beijing": "2026-10-30",
+  "session": "2026-10-29",
+  "updated_at_utc": "2026-10-29T23:39:34.088222+00:00",
+  "scope": "Completed 10/29 US session and publicly released after-hours company results; no account access or transactions",
+  "gdp": {
+    "release_us": "2026-10-29T08:30:00-04:00",
+    "quarter": "2026Q3 advance",
+    "real_growth_saar_pct": 3.4,
+    "previous_quarter_growth_saar_pct": 2.2,
+    "real_private_domestic_final_sales_saar_pct": 4.9,
+    "quarter_pce_price_saar_pct": 2.1,
+    "quarter_core_pce_price_saar_pct": 2.5,
+    "source": "https://bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+  },
+  "pce": {
+    "release_us": "2026-10-29T08:30:00-04:00",
+    "reference_month": "2026-09",
+    "headline_mom_pct": 0.5,
+    "headline_yoy_pct": 3.6,
+    "core_mom_pct": 0.3,
+    "core_yoy_pct": 3.1,
+    "real_pce_mom_pct_display": 0.0,
+    "real_pce_exact_description": "less than0.1% monthly increase",
+    "personal_income_mom_pct": 0.2,
+    "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+    "not_consensus_comparison": "No independent consensus estimate verified; do not assert surprise versus estimates"
+  },
+  "fed": {
+    "publication_date": "2026-10-28",
+    "target_pct": [
+      3.75,
+      4.0
+    ],
+    "vote": "10-2",
+    "dissent": "preferred raise25bp",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "next_meeting_us": [
+      "2026-12-08",
+      "2026-12-09"
+    ],
+    "no_fomc_in_next_week": true,
+    "calendar": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  "treasury": {
+    "session": "2026-10-29",
+    "two_year_pct": 4.61,
+    "ten_year_pct": 4.98,
+    "two_year_change_bp": -6,
+    "ten_year_change_bp": -7,
+    "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "raw_rows": "treasury_rows.json",
+    "basis": "official nominal par yield curve; reference rates, not broker executable quotes"
+  },
+  "vix": {
+    "asof_date": "2026-10-29",
+    "value": 17.2,
+    "change": 0.29,
+    "change_pct": 1.71,
+    "source": "https://www.cboe.com/tradable-products/vix/",
+    "timestamp_limit": "Cboe date-labelled spot17.20; separate page module says8:15PM10/29, later than capture if interpreted EDT and timezone unspecified. Do not treat module time as synchronized close."
+  },
+  "amazon": {
+    "release_date_us": "2026-10-29",
+    "quarter": "2026Q3",
+    "units": "USD billions unless otherwise stated",
+    "sales": 201.944,
+    "aws_sales": 45.984,
+    "aws_sales_yoy_pct_computed": 39.32012361388839,
+    "aws_operating_income": 17.773,
+    "aws_operating_margin_pct": 38.7,
+    "aws_operating_margin_prior_quarter_pct": 39.4,
+    "ttm_operating_cashflow": 168.3,
+    "ttm_pp_and_e_net": 210.657,
+    "ttm_fcf": -42.357,
+    "ttm_fcf_prior_year": 14.788,
+    "cash_capex_2026_guidance": 220,
+    "cash_capex_guidance_change": "unchanged",
+    "net_income_q3": 20.7,
+    "gaap_diluted_eps": 1.89,
+    "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+    "timing": "Release after10/29 regular close; not reflected in same-day close as released outcome",
+    "full_call_audio_reviewed": false,
+    "limits": [
+      "FCF is TTM, not Q3; definition OCF less net PP&E purchases",
+      "No complete financed-capex or valuation reconstruction in this macro task",
+      "Management2027/2028AWSgrowth forecasts not realized results"
+    ]
+  },
+  "events": [
+    {
+      "name": "Q3 Employment Cost Index",
+      "us_eastern": "2026-10-30T08:30:00-04:00",
+      "beijing": "2026-10-30T20:30:00+08:00",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "condition": "工资成本是否持续抬高服务通胀",
+      "status": "scheduled_officially_verified"
+    },
+    {
+      "name": "September JOLTS",
+      "us_eastern": "2026-11-03T10:00:00-05:00",
+      "beijing": "2026-11-03T23:00:00+08:00",
+      "source": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "condition": "职位空缺、招聘与离职变化",
+      "status": "scheduled_officially_verified"
+    },
+    {
+      "name": "RRX Q3 call",
+      "us_eastern": "2026-11-03T10:00:00-05:00",
+      "beijing": "2026-11-03T23:00:00+08:00",
+      "source": "https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/Regal-Rexnord-Corporation-to-Host-Third-Quarter-2026-Earnings-Conference-Call-on-Tuesday-November-3rd-2026/default.aspx",
+      "condition": "去退税盈利、现金转化与去杠杆；财报同日盘前，精确发布时间未披露",
+      "status": "scheduled_officially_verified"
+    },
+    {
+      "name": "Q3 Productivity and Costs preliminary",
+      "us_eastern": "2026-11-05T08:30:00-05:00",
+      "beijing": "2026-11-05T21:30:00+08:00",
+      "source": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "condition": "单位劳动成本与生产率",
+      "status": "scheduled_officially_verified"
+    },
+    {
+      "name": "CGNX Q3 call",
+      "us_eastern": "2026-11-05T08:30:00-05:00",
+      "beijing": "2026-11-05T21:30:00+08:00",
+      "source": "https://investor.cognex.com/news/news-details/2026/Cognex-Announces-Third-Quarter-2026-Earnings-Release-and-Conference-Call-Dates/default.aspx",
+      "condition": "RealSense现金支出、留任和稀释；财报11/4盘后，精确发布时间未披露",
+      "status": "scheduled_officially_verified"
+    },
+    {
+      "name": "October Employment Situation",
+      "us_eastern": "2026-11-06T08:30:00-05:00",
+      "beijing": "2026-11-06T21:30:00+08:00",
+      "source": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "condition": "非农、失业率及工资增长",
+      "status": "scheduled_officially_verified"
+    }
+  ],
+  "other_calendar_notes": {
+    "cgnx_release": "2026-11-04 after regular close (EST), Beijing11/5 early morning; exact time not asserted",
+    "rrx_release": "2026-11-03 before regular open (EST); exact time not asserted",
+    "cpi_next": "2026-11-10T08:30:00-05:00",
+    "dst": "America/New_York returns to EST on2026-11-01; Nov08:30ET becomes21:30Beijing,10:00ET becomes23:00Beijing",
+    "apple": "Official latest earnings date/results not obtained in this pass; third-partyNov2date not adopted as verified"
+  },
+  "sources": {
+    "gdp": "https://bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+    "pce": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+    "treasury": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "amazon": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+    "amazon_blog": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+    "fed": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "fed_calendar": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "bls_oct": "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "bls_nov": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "rrx": "https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/Regal-Rexnord-Corporation-to-Host-Third-Quarter-2026-Earnings-Conference-Call-on-Tuesday-November-3rd-2026/default.aspx",
+    "cgnx": "https://investor.cognex.com/news/news-details/2026/Cognex-Announces-Third-Quarter-2026-Earnings-Release-and-Conference-Call-Dates/default.aspx",
+    "vix": "https://www.cboe.com/tradable-products/vix/"
+  },
+  "read_gaps": [
+    "Official Apple earnings page inaccessible; no official new result inferred",
+    "CNBC related originals inaccessible; no bypass",
+    "CLI archive of Amazon release failed, web tool body read successfully",
+    "FiNews web root cache stale10/28; live publicHTML10/29 archived separately"
+  ],
+  "not_traded": true,
+  "sgov": {
+    "yield_date": "2026-10-28",
+    "yield_30_day_sec_pct": 3.79,
+    "source": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+    "basis": "annualized income reference, not promised total return"
+  }
+}

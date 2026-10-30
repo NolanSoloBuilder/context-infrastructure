@@ -1,0 +1,16 @@
+{
+  "report_date_beijing": "2026-10-29",
+  "market_session": null,
+  "generated_at_utc": "2026-10-29T09:08:20.830Z",
+  "source_markdown_sha256": "1a30d9ab4ed02720bdf88c5a968b75752b3e2bec0447727f15424ab401de276c",
+  "html_sha256": "30cbd5ddeebcbfe7b701e7d54f10db1bc95da05908ab7e378aa8dfedc9ff683a",
+  "html_bytes": 32480,
+  "embedded_chart_files": [],
+  "embedded_appendices": [],
+  "downloadable_evidence": [
+    "call_sources.json",
+    "analysis_checks.json",
+    "archive_manifest.json"
+  ],
+  "content_policy": "Reviewed report is the content source; no fetching or price recomputation; images and linked local evidence embedded for offline use."
+}

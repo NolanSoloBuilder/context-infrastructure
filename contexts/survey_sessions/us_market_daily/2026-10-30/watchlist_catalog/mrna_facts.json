@@ -1,0 +1,66 @@
+{
+  "symbol": "MRNA",
+  "name": "Moderna",
+  "type": "个股／mRNA生物制药",
+  "quarter": "2026Q2",
+  "published_date": "2026-07-31",
+  "next_earnings": {
+    "date": "2026-11-06",
+    "time_et": "08:00 EST",
+    "time_beijing": "2026-11-06 21:00",
+    "source_url": "https://investors.modernatx.com/events-presentations"
+  },
+  "financials": {
+    "revenue_usd_m": 145,
+    "net_loss_usd_m": 782,
+    "eps_gaap": -1.97,
+    "cash_equivalents_investments_usd_m": 6910,
+    "cash_date": "2026-06-30",
+    "six_month_operating_cash_outflow_usd_m": 1156,
+    "q2_net_product_sales_usd_m": 94
+  },
+  "notes": [
+    "mRNA平台公司：已商业化呼吸道疫苗与肿瘤管线。个股无ETF成分持仓，这里展示经营构成。",
+    "Q2收入1.45亿美元、净亏7.82亿美元、GAAP EPS−1.97；6/30现金及投资69.10亿美元。现金为历史余额。",
+    "7月支付9.5亿美元和解款；9/1完成30亿美元零息可转债，2032年到期，初始转股价约210.58美元；不能把6月现金或7月现金展望当成今日余额。",
+    "10/22公布intismeran+Keytruda三期黑色素瘤结果：复发或死亡风险比0.58；总体生存数据尚未成熟，尚不能把临床结果直接折成销售利润。"
+  ],
+  "risks": [
+    "持续现金消耗与融资稀释、呼吸道疫苗季节性、肿瘤产品审批/定价/个性化制造成本与上市执行。",
+    "单一生物科技事件风险较高；与希望控制约20%组合回撤的目标有张力。"
+  ],
+  "status": "研究候选／完整估值待完成，不据AI医疗叙事认定低估",
+  "next": "11/6核Q3收入、融资后现金/负债和消耗速度；补肿瘤产品成功率、利润分成、制造成本与分情景估值。",
+  "gaps": [
+    "Q3财报尚未公布；未建立风险调整管线估值或验证安全边际。",
+    "2026年末47–52亿美元现金展望来自7月财报，早于可转债融资；不作为当前余额或新展望。"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+      "title": "Moderna Q2 2026业绩／SEC 8-K附录",
+      "asof": "2026-07-31"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000150/mrna-20260630.htm",
+      "title": "Moderna Q2 2026完整10-Q",
+      "asof": "2026-07-31"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm",
+      "title": "Moderna 30亿美元可转债完成／SEC 8-K",
+      "asof": "2026-09-01"
+    },
+    {
+      "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/",
+      "title": "Merck/Moderna INTerpath-001三期结果",
+      "asof": "2026-10-22"
+    },
+    {
+      "url": "https://investors.modernatx.com/events-presentations",
+      "title": "Moderna官方事件日历",
+      "asof": "2026-10-30读取"
+    }
+  ],
+  "capture_note": "SEC与Merck原文已通过web工具成功读取，curl本地原始HTML抓取被站点拒绝；raw中的对应HTML是拒绝页，不能当完整原文。官方IR/events网页抓取成功。raw/mrna_web_evidence.json保存所读事实摘录与URL。"
+}

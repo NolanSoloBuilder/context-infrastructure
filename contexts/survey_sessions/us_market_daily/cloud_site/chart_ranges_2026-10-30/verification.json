@@ -1,0 +1,529 @@
+[
+  {
+    "symbol": "VOO",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "QQQM",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "SPMO",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "MAGS",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "RRX",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "CGNX",
+    "session": "2026-10-29",
+    "annual_return_difference": -0.000010125319981568737,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "ATS",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "GOOGL",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "NVDA",
+    "session": "2026-10-29",
+    "annual_return_difference": 0.00001528422035601551,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "SMH",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "VGT",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "SOXX",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "DRAM",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2026-04-02",
+        "end": "2026-10-29",
+        "complete": false,
+        "observations": 146,
+        "points": 146,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2026-04-02",
+        "end": "2026-10-29",
+        "complete": false,
+        "observations": 146,
+        "points": 146,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2026-04-02",
+        "end": "2026-10-29",
+        "complete": false,
+        "observations": 146,
+        "points": 146,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "MRNA",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "outlier_cross_source_price_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "outlier_cross_source_price_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "outlier_cross_source_price_checked"
+      }
+    }
+  },
+  {
+    "symbol": "SOFI",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "BRK-B",
+    "session": "2026-10-29",
+    "annual_return_difference": 0,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  },
+  {
+    "symbol": "SGOV",
+    "session": "2026-10-29",
+    "annual_return_difference": -0.000008153718455972125,
+    "ranges": {
+      "1y": {
+        "start": "2025-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 252,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "2y": {
+        "start": "2024-10-29",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 502,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      },
+      "3y": {
+        "start": "2023-10-27",
+        "end": "2026-10-29",
+        "complete": true,
+        "observations": 754,
+        "points": 200,
+        "quality": "provider_series_calculation_checked"
+      }
+    }
+  }
+]

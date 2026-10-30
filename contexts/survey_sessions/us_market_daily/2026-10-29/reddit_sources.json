@@ -1,0 +1,135 @@
+{
+  "collection_at_utc": "2026-10-28T23:32:34.025399+00:00",
+  "preferred_window_hours": 24,
+  "expanded_target_hours": 72,
+  "exact_window_verified": false,
+  "complete_reddit_scan": false,
+  "status": "partial_public_read_with_stale_feed_and_timestamp_gaps",
+  "feeds_attempted": [
+    {
+      "url": "https://www.reddit.com/r/stocks/new/",
+      "result": "public cached feed read; current date/freshness insufficient"
+    },
+    {
+      "url": "https://www.reddit.com/r/investing/new/",
+      "result": "public cached feed read; current date/freshness insufficient"
+    },
+    {
+      "url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "result": "public cached feed read; current date/freshness insufficient"
+    },
+    {
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "result": "public cached feed read; current date/freshness insufficient"
+    },
+    {
+      "url": "https://www.reddit.com/r/Bogleheads/new/",
+      "result": "public cached feed read; current date/freshness insufficient"
+    },
+    {
+      "url": "https://www.reddit.com/r/ETFs/new/",
+      "result": "public cached feed read; current date/freshness insufficient"
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "result": "cached two weeks; not treated as current ranking"
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/new/.rss",
+      "result": "network-policy Blocked page; no retries/bypass"
+    }
+  ],
+  "not_found": "No verified latest24hGoogleearnings or robotics-specific new thread with reliable time; this is a coverage gap, not evidence of no discussion.",
+  "already_reported_not_repeated": [
+    "AVGO residual value support",
+    "NVIDIA investment inMetaoffering",
+    "HubbellQ3",
+    "BWXTfuel framework"
+  ],
+  "items": [
+    {
+      "item_id": "msft_fy27q1_cash_return_recheck_2026_10_28",
+      "post_id": "1xg87kw",
+      "post_url": "https://www.reddit.com/r/MSFT/comments/1xg87kw/microsoft_msft_monetizing_massive_ai_investments/",
+      "source_url": "https://www.reddit.com/r/MSFT/comments/1xg87kw/microsoft_msft_monetizing_massive_ai_investments/",
+      "community": "r/MSFT",
+      "post_title": "Microsoft (MSFT): Monetizing Massive AI Investments — How to Analyze Earnings, Cash Flow, and Long-Term Returns",
+      "post_calendar_date_displayed": "2026-10-26",
+      "post_time_beijing": null,
+      "timestamp_note": "Search indexed original post with calendar date Monday October26; exact clock time/timezone unavailable, cannot convert to Beijing timestamp. Relative16h in cached body not used.",
+      "event_date": "2026-10-28",
+      "collected_at_utc": "2026-10-28T23:32:34.025399+00:00",
+      "read_scope": "Public original article body including research checklist and source links; comments section returned no substantive comments.",
+      "classification": "verified_primary_financial_results_plus_forum_research_question",
+      "freshness_status": "older_post_oct26_with_new_primary_event_oct28_exact72h_unverified",
+      "claim_keys": [
+        "Microsoft FY27Q1 operating cash flow58.000b and cash additions to PP&E39.367b yield simple cash free cash flow18.633b versus25.663b prior-year quarter.",
+        "FY27Q1 Azure revenue33.165b and48% growth do not by themselves establish expanding post-investment owner cash flow."
+      ],
+      "facts": {
+        "revenue_usd_bn": 92.279,
+        "operating_income_usd_bn": 45.915,
+        "azure_revenue_usd_bn": 33.165,
+        "azure_yoy_pct": 48,
+        "operating_cash_flow_usd_bn": 58,
+        "cash_property_equipment_additions_usd_bn": 39.367,
+        "derived_simple_cash_fcf_usd_bn": 18.633,
+        "prior_simple_cash_fcf_usd_bn": 25.663,
+        "derived_cash_fcf_yoy_pct": -27.39352375014613
+      },
+      "primary_verification": [
+        {
+          "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+          "scope": "Official October28FY27Q1 release, cash-flow statement and Azure product revenues",
+          "read_via": "web open; direct curl403 not bypassed"
+        }
+      ],
+      "counterargument": "Investment-period cash flow can be depressed while future profitable capacity expands; simple OFC-minus-cash-PP&E measure excludes financing leases and is not an all-in economic return measure. Working capital and receivables seasonality also affect quarterly OFC.",
+      "relevance": "QQQM already exposes user to this large-cap risk; use earnings/cash divergence to limit initial entry concentration, not to add another speculative stock.",
+      "next_check": "Compare company call full capex including leases, cash collections, depreciation and future quarters free cash flow per diluted share; no completed standalone MSFT valuation.",
+      "comment_status": "no_substantive_comments_returned",
+      "discussion_heat": null
+    },
+    {
+      "item_id": "costco_multiple_compression_3to5yr_2026_10_27",
+      "post_id": "1xgfw9k",
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xgfw9k/costco_valuation_how_much_eps_growth_offsets_a/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xgfw9k/costco_valuation_how_much_eps_growth_offsets_a/",
+      "community": "r/stocks",
+      "post_title": "Costco valuation: how much EPS growth offsets a fall from50×to35×earnings?",
+      "post_calendar_date_displayed": "2026-10-27",
+      "post_time_beijing": null,
+      "timestamp_note": "Search result explicitly displays TuesdayOctober27; no exact clock/timezone. Cached relative7h/10h not used.",
+      "event_date": "2026-09-24",
+      "collected_at_utc": "2026-10-28T23:32:34.025399+00:00",
+      "read_scope": "Original body and visible substantive pro/con comments on operating-growth justification, stable earnings premium,35x exit not a floor,28x alternative and12%growth calculation.",
+      "classification": "verified_historical_company_facts_and_derived_scenario_not_current_valuation",
+      "freshness_status": "expanded_calendar_oct26to28_exact72h_not_verified",
+      "claim_keys": [
+        "At hypothetical50xentry,12%annualEPSgrowth for5years and28xexit gives about-0.33%annualized price return before dividends, taxes and costs; neither multiple is a current quote or forecast.",
+        "Costco FY2026EPS20.76 includes0.15per-share non-recurring tariff refund benefit."
+      ],
+      "facts": {
+        "reported_fy2026_eps": 20.76,
+        "non_recurring_tariff_eps": 0.15,
+        "hypothetical_entry_pe": 50,
+        "hypothetical_exit_pe": 28,
+        "hypothetical_eps_growth_pct": 12,
+        "years": 5,
+        "scenario_annualized_price_return_pct": -0.26315451421436986
+      },
+      "primary_verification": [
+        {
+          "url": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Operating-Results/default.aspx",
+          "scope": "Official September24release: FY26EPS20.76 and0.15non-recurring tariff benefit. Year-endAugust30.",
+          "read_via": "web open; direct curl403 not bypassed"
+        }
+      ],
+      "counterargument": "Durable membership economics and earnings stability could support a sustained premium; 28x and35xare assumptions, and this scenario omits dividends. Strong future operations can also offset multiple contraction.",
+      "relevance": "User horizon3–5years: when assessingGoogle/robotics, require return under conservative exit valuation rather than treating quality or a15%drop as sufficient. COST is not a newly recommended or fully valued candidate.",
+      "next_check": "Apply conservative exit valuation and normalizedEPS/FCF to existing shortlist; do not importCOSTmultiples toGoogle or industrial suppliers.",
+      "comment_status": "substantive_support_and_counterarguments_read",
+      "discussion_heat": null
+    }
+  ]
+}

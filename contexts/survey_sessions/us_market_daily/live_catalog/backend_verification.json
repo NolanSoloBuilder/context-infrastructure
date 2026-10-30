@@ -1,0 +1,27 @@
+{
+  "verified_at_utc": "2026-10-30T02:13:40.874445+00:00",
+  "loopback_url": "http://127.0.0.1:8789/",
+  "pid": 19488,
+  "actual_refresh_job": "20261030T020540857417Z",
+  "actual_refresh_status": "complete",
+  "actual_completed_tasks": 34,
+  "symbols": 17,
+  "regular_session": "2026-10-29",
+  "api_security_checks": {
+    "bad_host": 403,
+    "bad_origin": 403,
+    "missing_custom_header": 403,
+    "options": 403,
+    "private_path": 404,
+    "duplicate_running": 409
+  },
+  "targeted_tests_passed": 6,
+  "server_import_reads_private_position_file": false,
+  "login_autostart": false,
+  "persistence": "detached process; survives this task, restart needed after OS restart",
+  "browser_validation": "not attempted; no alternate browser route used",
+  "new_reviewed_source_facts_update_preserves_live_quotes": true,
+  "all_stale_history_retains_last_good_version": true,
+  "live_root_compact_cards": 17,
+  "live_refresh_hover_dialog_controls_present": true
+}

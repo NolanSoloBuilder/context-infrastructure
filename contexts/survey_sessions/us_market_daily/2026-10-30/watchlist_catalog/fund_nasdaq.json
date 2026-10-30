@@ -1,0 +1,103 @@
+{
+  "QQQ": {
+    "symbol": "QQQ",
+    "name": "Invesco QQQ ETF",
+    "type": "纳斯达克100指数ETF",
+    "strategy": "跟踪纳斯达克100，覆盖纳斯达克上市的大型非金融公司；跨行业，但偏向大型科技成长。",
+    "expense_pct": 0.18,
+    "holdings_date": "2026-10-16",
+    "holdings": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA",
+        "weight_pct": 8.15
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple",
+        "weight_pct": 7.92
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft",
+        "weight_pct": 6.21
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron",
+        "weight_pct": 4.33
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon",
+        "weight_pct": 4.26
+      },
+      {
+        "symbol": "AMD",
+        "name": "AMD",
+        "weight_pct": 3.76
+      },
+      {
+        "symbol": "META",
+        "name": "Meta",
+        "weight_pct": 3.33
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet A",
+        "weight_pct": 3.16
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla",
+        "weight_pct": 2.94
+      },
+      {
+        "symbol": "GOOG",
+        "name": "Alphabet C",
+        "weight_pct": 2.94
+      }
+    ],
+    "notes": [
+      "QQQ与QQQM跟踪同一指数，组合预算应合并考虑，避免当作两份独立分散。",
+      "QQQ更适合比较成交流动性/期权；QQQM较低费率更利于长期持有。费率不含交易价差。"
+    ],
+    "risks": [
+      "大型成长、科技及半导体集中；增持Google或NVDA会叠加已有间接持仓。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-qqq-trust-series-1.html",
+        "title": "QQQ官方基金页",
+        "asof": "QQQ持仓2026-10-16；费率2026-10-30核验"
+      }
+    ],
+    "gaps": []
+  },
+  "QQQM": {
+    "symbol": "QQQM",
+    "name": "Invesco NASDAQ 100 ETF",
+    "type": "纳斯达克100指数ETF",
+    "strategy": "跟踪纳斯达克100，覆盖纳斯达克上市的大型非金融公司；跨行业，但偏向大型科技成长。",
+    "expense_pct": 0.15,
+    "holdings_date": null,
+    "holdings": [],
+    "notes": [
+      "QQQ与QQQM跟踪同一指数，组合预算应合并考虑，避免当作两份独立分散。",
+      "QQQ更适合比较成交流动性/期权；QQQM较低费率更利于长期持有。费率不含交易价差。"
+    ],
+    "risks": [
+      "大型成长、科技及半导体集中；增持Google或NVDA会叠加已有间接持仓。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html",
+        "title": "QQQM官方基金页",
+        "asof": "2026-10-30核验费率/策略"
+      }
+    ],
+    "gaps": [
+      "本次未从发行人读取到有明确日期的QQQM最新持仓权重；同指数QQQ持仓只作经济暴露参考，不复制为QQQM精确权重。"
+    ]
+  }
+}

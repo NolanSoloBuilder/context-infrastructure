@@ -1,0 +1,34 @@
+{
+  "report_date_beijing": "2026-10-25",
+  "automation_id": "automation-3",
+  "heartbeat_utc": "2026-10-24T23:32:50.002Z",
+  "report_type": "weekend_brief",
+  "latest_completed_session": "2026-10-23",
+  "next_regular_session": "2026-10-26",
+  "next_regular_open_beijing": "2026-10-26T21:30:00+08:00",
+  "new_session": false,
+  "charts_generated": false,
+  "new_price_recommendation": false,
+  "alert_state_updated": false,
+  "alert_state_sha256": "cb33b7f1c7d40b94659f59aff02fb9531805b074a0ffec846da3c633165092e2",
+  "sources": [
+    {
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "observed": "No October 26 exchange holiday; regular session opens 09:30 ET."
+    },
+    {
+      "url": "https://stockanalysis.com/etf/qqqm/history/",
+      "observed": "Latest regular close is October 23, 2026 at 16:00 EDT; after-hours quote excluded."
+    },
+    {
+      "url": "https://www.berkshirehathaway.com/news/2026news.html",
+      "observed": "Company news-release list latest entry remains September 18. Limited scope; not a complete SEC/news audit."
+    }
+  ],
+  "news_scan_note": "Targeted weekend search did not establish a new verified material development to add; no claim of exhaustive news coverage.",
+  "profile_context": {
+    "investment_horizon": "3-5 years",
+    "priority": "limit drawdown",
+    "staged_entry_plan_accepted": false
+  }
+}

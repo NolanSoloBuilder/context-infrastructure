@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "report_date": "2026-10-30",
+  "market_asof": "2026-10-29",
+  "star": 4.8,
+  "previous_star": 4.7,
+  "threshold_triggered": false,
+  "low_rows": 21,
+  "chart_count": 2,
+  "fold_closed": true,
+  "anchors_valid": true,
+  "fallback_provenance_verified": true,
+  "etf_missing_intervals_not_imputed": true,
+  "visual_check": "原文与两张作者原图已查看；日报HTML仅作静态结构与SVG核验"
+}

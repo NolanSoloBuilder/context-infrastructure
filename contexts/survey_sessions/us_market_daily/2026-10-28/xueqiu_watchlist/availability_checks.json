@@ -1,0 +1,83 @@
+[
+  {
+    "query": "Galbot",
+    "visible_security_results": [],
+    "empty_result_messages": [
+      "暂无搜索结果，换个词试试"
+    ],
+    "scope": "雪球股票搜索当次可见界面；仅按确切公司和证券匹配，不将品牌ETF替代公司股票"
+  },
+  {
+    "query": "Samsung",
+    "visible_security_results": [
+      {
+        "name": "三星高息房托",
+        "code": "03187",
+        "tags": [
+          "香港基金"
+        ]
+      },
+      {
+        "name": "三星环球半导体",
+        "code": "03132",
+        "tags": [
+          "香港基金"
+        ]
+      },
+      {
+        "name": "三星高息房托-U",
+        "code": "09187",
+        "tags": [
+          "香港基金"
+        ]
+      },
+      {
+        "name": "A三星亚太元宇宙",
+        "code": "03172",
+        "tags": [
+          "香港基金"
+        ]
+      },
+      {
+        "name": "三星FANG-U",
+        "code": "09814",
+        "tags": [
+          "香港基金"
+        ]
+      },
+      {
+        "name": "三星中国龙网-U",
+        "code": "09812",
+        "tags": [
+          "香港基金"
+        ]
+      }
+    ],
+    "empty_result_messages": [],
+    "scope": "雪球股票搜索当次可见界面；仅按确切公司和证券匹配，不将品牌ETF替代公司股票"
+  },
+  {
+    "query": "005930",
+    "visible_security_results": [],
+    "empty_result_messages": [
+      "暂无搜索结果，换个词试试"
+    ],
+    "scope": "雪球股票搜索当次可见界面；仅按确切公司和证券匹配，不将品牌ETF替代公司股票"
+  },
+  {
+    "query": "SKHynix",
+    "visible_security_results": [],
+    "empty_result_messages": [
+      "暂无搜索结果，换个词试试"
+    ],
+    "scope": "雪球股票搜索当次可见界面；仅按确切公司和证券匹配，不将品牌ETF替代公司股票"
+  },
+  {
+    "query": "000660",
+    "visible_security_results": [],
+    "empty_result_messages": [
+      "暂无搜索结果，换个词试试"
+    ],
+    "scope": "雪球股票搜索当次可见界面；仅按确切公司和证券匹配，不将品牌ETF替代公司股票"
+  }
+]

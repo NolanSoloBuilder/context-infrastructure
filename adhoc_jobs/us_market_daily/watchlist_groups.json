@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "groups": [
+    {
+      "id": "indices",
+      "label": "宽基与风格ETF",
+      "assets": [
+        {
+          "symbol": "VOO",
+          "name": "标普500"
+        },
+        {
+          "symbol": "QQQM",
+          "name": "纳斯达克100"
+        },
+        {
+          "symbol": "SPMO",
+          "name": "标普500动量因子"
+        },
+        {
+          "symbol": "MAGS",
+          "name": "七巨头集中组合"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "label": "机器人相关",
+      "assets": [
+        {
+          "symbol": "RRX",
+          "name": "运动控制与电机",
+          "industry_id": "automation",
+          "industry": "工业自动化与机器人"
+        },
+        {
+          "symbol": "CGNX",
+          "name": "机器视觉",
+          "industry_id": "automation",
+          "industry": "工业自动化与机器人"
+        },
+        {
+          "symbol": "ATS",
+          "name": "自动化系统",
+          "industry_id": "automation",
+          "industry": "工业自动化与机器人"
+        }
+      ]
+    },
+    {
+      "id": "ai_semiconductors",
+      "label": "科技与AI／半导体",
+      "assets": [
+        {
+          "symbol": "GOOGL",
+          "name": "Google／AI云",
+          "industry_id": "internet_ai",
+          "industry": "互联网与AI服务"
+        },
+        {
+          "symbol": "NVDA",
+          "name": "AI芯片与算力",
+          "industry_id": "semiconductors",
+          "industry": "半导体与算力"
+        },
+        {
+          "symbol": "SMH",
+          "name": "半导体ETF"
+        },
+        {
+          "symbol": "VGT",
+          "name": "美国信息技术行业ETF"
+        },
+        {
+          "symbol": "SOXX",
+          "name": "半导体行业ETF"
+        },
+        {
+          "symbol": "DRAM",
+          "name": "存储芯片主题ETF",
+          "inception_date": "2026-04-02",
+          "allow_short_history": true
+        }
+      ]
+    },
+    {
+      "id": "healthcare",
+      "label": "医疗与生物科技",
+      "assets": [
+        {
+          "symbol": "MRNA",
+          "name": "Moderna／mRNA药物与疫苗",
+          "industry_id": "biotech",
+          "industry": "医疗与生物科技"
+        }
+      ]
+    },
+    {
+      "id": "fintech",
+      "label": "金融科技",
+      "assets": [
+        {
+          "symbol": "SOFI",
+          "name": "数字银行与金融平台",
+          "industry_id": "fintech",
+          "industry": "金融科技"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "价值与综合经营",
+      "assets": [
+        {
+          "symbol": "BRK-B",
+          "name": "伯克希尔B",
+          "industry_id": "conglomerate",
+          "industry": "保险与综合经营"
+        }
+      ]
+    },
+    {
+      "id": "cash",
+      "label": "现金管理",
+      "assets": [
+        {
+          "symbol": "SGOV",
+          "name": "0–3个月美债ETF"
+        }
+      ]
+    }
+  ]
+}

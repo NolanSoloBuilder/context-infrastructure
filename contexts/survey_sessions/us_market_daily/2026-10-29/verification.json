@@ -1,0 +1,140 @@
+{
+  "status": "passed_with_disclosed_gaps",
+  "session": "2026-10-28",
+  "verified_at_utc": "2026-10-28T23:32:38.489732+00:00",
+  "watchlist_and_google_closes": [
+    {
+      "symbol": "QQQ",
+      "regular_session": "2026-10-28",
+      "primary_close_usd": 725.61,
+      "second_close_usd": 725.61,
+      "source_url": "https://stockanalysis.com/etf/qqq/history/",
+      "read_via": "web public body and dated table; CLI raw copy failed",
+      "volume_primary": 28955146,
+      "volume_secondary": 30274641,
+      "volume_difference_pct": -4.3584166695816435
+    },
+    {
+      "symbol": "QQQM",
+      "regular_session": "2026-10-28",
+      "primary_close_usd": 298.71,
+      "second_close_usd": 298.71,
+      "source_url": "https://stockanalysis.com/etf/qqqm/history/",
+      "read_via": "web public body and dated table; CLI raw copy failed",
+      "volume_primary": 2394043,
+      "volume_secondary": 2425566,
+      "volume_difference_pct": -1.2996141931408967
+    },
+    {
+      "symbol": "VOO",
+      "regular_session": "2026-10-28",
+      "primary_close_usd": 709.9,
+      "second_close_usd": 709.9,
+      "source_url": "https://stockanalysis.com/etf/voo/history/",
+      "read_via": "web public body and dated table; CLI raw copy failed",
+      "volume_primary": 4770870,
+      "volume_secondary": 4773489,
+      "volume_difference_pct": -0.05486552917582932
+    },
+    {
+      "symbol": "BRK-B",
+      "regular_session": "2026-10-28",
+      "primary_close_usd": 540.34,
+      "second_close_usd": 540.34,
+      "source_url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "read_via": "web public body and dated table; CLI raw copy failed",
+      "volume_primary": 3289124,
+      "volume_secondary": 3291100,
+      "volume_difference_pct": -0.06004071587006887
+    },
+    {
+      "symbol": "GOOGL",
+      "regular_session": "2026-10-28",
+      "primary_close_usd": 324.89,
+      "second_close_usd": 324.89,
+      "source_url": "https://stockanalysis.com/stocks/googl/history/",
+      "read_via": "web public body and dated table; CLI raw copy failed",
+      "volume_primary": 54011739,
+      "volume_secondary": 62012606,
+      "volume_difference_pct": -12.902000925424739
+    }
+  ],
+  "highs": [
+    {
+      "symbol": "QQQ",
+      "primary_high": 762.86,
+      "second_high": 762.86,
+      "date": "2026-10-06",
+      "secondary_high_date_matched_in_dated_history": true,
+      "difference_disclosed": false
+    },
+    {
+      "symbol": "QQQM",
+      "primary_high": 314.11,
+      "second_high": 314.12,
+      "date": "2026-10-06",
+      "secondary_high_date_matched_in_dated_history": true,
+      "difference_disclosed": true
+    },
+    {
+      "symbol": "VOO",
+      "primary_high": 718.47,
+      "second_high": 718.47,
+      "date": "2026-10-06",
+      "secondary_high_date_matched_in_dated_history": true,
+      "difference_disclosed": false
+    },
+    {
+      "symbol": "BRK-B",
+      "primary_high": 549.96,
+      "second_high": 549.96,
+      "date": "2026-10-22",
+      "secondary_high_date_matched_in_dated_history": true,
+      "difference_disclosed": false
+    }
+  ],
+  "historical_drawdown_points_recomputed_without_lookahead": 180,
+  "normalized_last_values": {
+    "QQQM": 101.137628,
+    "VOO": 100.325049,
+    "BRK-B": 104.141862
+  },
+  "chart_images_read_visually": true,
+  "chart_readability": "Chinese labels, signed values, dates and axes readable; two images checked",
+  "original_watch_contract_only": [
+    "QQQ",
+    "QQQM",
+    "VOO",
+    "BRK.B"
+  ],
+  "indices_second_source": {
+    "SP500": {
+      "close": 7743.98,
+      "url": "https://apnews.com/article/7864eac2e13db75f07758ed9c39ad96b"
+    },
+    "IXIC": {
+      "close": 26549.85,
+      "url": "https://apnews.com/article/7864eac2e13db75f07758ed9c39ad96b"
+    },
+    "NDX": {
+      "close": 29813.16,
+      "url": "https://ca.investing.com/indices/nq-100-historical-data"
+    }
+  },
+  "gaps": [
+    "Stock Analysis and Yahoo volume counts differ, especially GOOGL ~13%; volume interpretations downgraded; OHLC calculations use one Yahoo series",
+    "QQQM high differs by one cent; dates and four close quotes consistent",
+    "aggregate index earnings/valuation and constituent market breadth not fully validated",
+    "latest Google10Q asset/lease bridge incomplete; no new completed DCF or approved entry orders"
+  ],
+  "html_validation": {
+    "date_prices_sources_verified": true,
+    "template_changed": false,
+    "new_daily_charts": 2,
+    "archived_model_chart_in_explicitly_dated_appendix": 1,
+    "no_remote_script_or_style": true,
+    "validated_at_utc": "2026-10-28T23:36:11.579361+00:00",
+    "bytes_before_final_conversion": 1443512,
+    "browser_full_layout_not_repeated": "unchanged accepted template; two current PNGs visually inspected"
+  }
+}

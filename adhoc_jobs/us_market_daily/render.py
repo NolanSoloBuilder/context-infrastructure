@@ -115,7 +115,7 @@ def main():
     ax.set_xticks(positions, ticks)
     ax.set_yticks([0, -5, -10, -15, -20, -25], ["0%", "−5%", "−10%", "−15%", "−20%", "−25%"])
     fig.text(.075, .066, "数据：Yahoo Finance 日线；最新收盘已与 Stock Analysis 交叉核对。", fontsize=10, color="#68768D")
-    fig.text(.075, .041, "QQQ / QQQM 跟踪相同指数，曲线展示 QQQM。回撤以盘中高点计算；所有指标截至标注日期。", fontsize=10, color="#68768D")
+    fig.text(.075, .041, "纳斯达克100保留 QQQM。回撤以盘中高点计算；所有指标截至标注日期。", fontsize=10, color="#68768D")
     save(fig, out, "watchlist_curves")
 
     fig = plt.figure(figsize=(13.4, 7.4), facecolor=BG)

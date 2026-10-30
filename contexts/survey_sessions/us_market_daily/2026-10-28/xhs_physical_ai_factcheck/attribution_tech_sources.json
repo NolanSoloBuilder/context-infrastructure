@@ -1,0 +1,220 @@
+{
+  "checked_date_beijing": "2026-10-28",
+  "recorded_at_utc": "2026-10-28T07:05:03.353121+00:00",
+  "source_images_viewed": [
+    "source_images/page_01.webp",
+    "source_images/page_02.webp",
+    "source_images/page_03.webp"
+  ],
+  "screenshot_attribution": {
+    "display_name": "稳见舵手",
+    "handle": "@wenjianduoshou",
+    "footer_display": "4:40 PM · Jul 14, 2026",
+    "timezone": "未给，不转换为北京时间",
+    "direct_X_article_url": "未提供/本次未定位",
+    "authenticity": "只核对本地公开截图的可见信息，未验证原X帖真伪"
+  },
+  "claims": [
+    {
+      "id": "sun_june2_quote",
+      "claim": "孙宇晨6月2日下午说普通AI接近尾声、未来十年风口在物理AI",
+      "status": "未核验本人原始出处与日期",
+      "evidence": [
+        "earlier_text",
+        "secondary_sun"
+      ],
+      "reason": "找到雪球高度同文和5月22日自媒体转述，日期与三年/十年措辞不同，均未提供本次读到的本人原帖/完整原声。没有原始出处不能给精确引语背书；也不能据此断言伪造。"
+    },
+    {
+      "id": "sun_invested_1b",
+      "claim": "孙宇晨已经个人投入10亿美元物理AI",
+      "status": "证据不足；不能由已确认机构基金公告推出",
+      "evidence": [
+        "fund_official",
+        "fund_commissioned"
+      ],
+      "reason": "2026-03-23公告可确认的是TRON DAO AI Fund由100M扩为1B的规模与计划，投向agentic economy基础设施。基金规模、承诺投资和实际部署，机构与个人、代理经济与物理机器人投资是不同口径。未核验个人项目清单与已支付金额。"
+    },
+    {
+      "id": "sun_2016_advice",
+      "claim": "十年前推荐年轻人不买房而买NVDA和BTC",
+      "status": "原始2016荐股记录未核验",
+      "evidence": [
+        "earlier_text",
+        "secondary_sun"
+      ],
+      "reason": "检索到喜马拉雅课程和后来的访谈/自媒体叙述线索，但未取得包含原始发布时间、完整语境与可回溯2016版本的本人录音/文字。后验收益不能替代当时荐股证据。"
+    },
+    {
+      "id": "ces_17_mentions",
+      "claim": "黄仁勋CES2026演讲17次提物理AI",
+      "status": "未核验精确次数",
+      "evidence": [
+        "ces_event",
+        "ces_video"
+      ],
+      "reason": "确认官方活动及相关视频，但没有取得可完整逐字统计的官方演讲稿并界定词形/视频旁白口径；不能把精确数字当已确认。"
+    },
+    {
+      "id": "jensen_genai_past",
+      "claim": "黄仁勋原话生成式AI已成为过去，未来是代理AI和物理AI",
+      "status": "原句归属未核验；替代式解读与已读官方材料不符",
+      "evidence": [
+        "ces_genai",
+        "cosmos3"
+      ],
+      "reason": "未在已读官方原始材料找到该逐字引语。NVIDIA CES材料同时推进生成式AI广泛采用，Cosmos 3又结合世界生成与动作预测；这些材料支持技术扩展/结合，不能推出生成式AI商业红利结束。"
+    },
+    {
+      "id": "cosmos3_launch",
+      "claim": "6月2日英伟达发布开放物理AI模型Cosmos3",
+      "status": "产品与大体技术用途已确认；官方日期为6月1日",
+      "evidence": [
+        "cosmos3"
+      ],
+      "reason": "官方2026-06-01台北GTC公告支持开放世界基础模型、合成数据和策略开发。6月2日可能涉及转载/时区，但本次未确认，不能直接当官方首发日。训练周期和基准优势仍是厂商性能主张，不等于所有真实工厂落地效果。"
+    },
+    {
+      "id": "physical_chatgpt_moment",
+      "claim": "黄仁勋在GTC Taipei说物理AI ChatGPT时刻已到来",
+      "status": "同类表述官方已确认；具体台北逐字归属未完成核验",
+      "evidence": [
+        "ces_alpamayo",
+        "ces_video",
+        "gtc_taipei",
+        "cosmos3"
+      ],
+      "reason": "官方CES Alpamayo稿已出现is here，2026-01-06官方视频描述却用nearly here；需区分材料和语气，不能说6月台北为首次提出。台北On-Demand页未返回完整转录，尚不能逐字确认台北版本。"
+    },
+    {
+      "id": "genai_ceiling",
+      "claim": "GPT5惊艳下降证明大模型能力接近极限，虚拟AI只能信息不能生产",
+      "status": "观点和过强推论，证据不足",
+      "evidence": [
+        "cosmos3",
+        "ces_genai",
+        "physical_ai_glossary"
+      ],
+      "reason": "原文没有固定任务、基准或能力上限检验。官方物理AI工作流结合语言/视觉/世界生成模型和仿真，不能把数字模型与物理部署当互斥类别。"
+    },
+    {
+      "id": "repost_freshness",
+      "claim": "小红书2天前意味着内容与事件最新",
+      "status": "不成立；时间层级应分开",
+      "evidence": [
+        "earlier_text"
+      ],
+      "reason": "本次截图底部显示Jul14 2026 4:40PM，时区未给；雪球可读页显示修改于2026-06-19 16:02且高度同文。只说明更早标注日期的传播文本，未证明谁原创或截图真伪。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "cosmos3",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Cosmos-3-the-Open-Frontier-Foundation-Model-for-Physical-AI/default.aspx",
+      "type": "NVIDIA官方新闻稿",
+      "date": "2026-06-01",
+      "read_scope": "已实际读取正文日期、模型用途与官方前瞻表述",
+      "quote": "combines vision reasoning, world generation and action prediction",
+      "limits": "厂商性能/落地期望不是独立生产验证"
+    },
+    {
+      "id": "ces_alpamayo",
+      "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/695c328f3d63321944e355d9/",
+      "type": "NVIDIA官方新闻稿PDF",
+      "date": "CES 2026，活动2026-01-05；PDF正文未单列发布日期",
+      "read_scope": "已读PDF第1页引语及后文限制；页首注明2026-09改名编辑",
+      "quote": "The ChatGPT moment for physical AI is here",
+      "limits": "这是新闻稿引语；不自动代表舞台逐字原话，更不证明全部商业化完成"
+    },
+    {
+      "id": "ces_video",
+      "url": "https://www.youtube.com/watch?v=iWs-2TD5Dcc",
+      "type": "NVIDIA官方认证YouTube",
+      "date": "2026-01-06",
+      "read_scope": "官方视频标题、发布日和描述；未完整观看逐字统计",
+      "quote": "The ChatGPT moment for physical AI is nearly here",
+      "limits": "不能据视频描述核验17次词频"
+    },
+    {
+      "id": "ces_genai",
+      "url": "https://www.nvidia.com/en-us/geforce/news/gfecnt/20261/rtx-ai-garage-ces-2026-open-models-video-generation/",
+      "type": "NVIDIA官方CES产品材料",
+      "date": "页面写CES this week /2026，未显示独立日戳",
+      "read_scope": "已读页面正文，生成式AI PC采用与工具更新",
+      "quote": "paving the way for generative AI to gain widespread adoption",
+      "limits": "支持NVIDIA继续投入GenAI；不是证明黄仁勋从未说过某句话"
+    },
+    {
+      "id": "ces_event",
+      "url": "https://www.nvidia.com/en-us/events/ces/",
+      "type": "NVIDIA官方活动页",
+      "date": "2026-01-05至09",
+      "read_scope": "主旨演讲日为1月5日、官方观看入口",
+      "quote": null,
+      "limits": "未取得完整官方转录"
+    },
+    {
+      "id": "gtc_taipei",
+      "url": "https://www.nvidia.com/en-us/on-demand/session/gtctaipei26-stw61044/?playlistId=playList-0836f7fb-6451-4447-933d-4b573fb79910",
+      "type": "NVIDIA官方On-Demand",
+      "date": "GTC Taipei 2026",
+      "read_scope": "已打开活动页，但返回文本无完整演讲转录",
+      "quote": null,
+      "limits": "精确台北引语待核验"
+    },
+    {
+      "id": "physical_ai_glossary",
+      "url": "https://www.nvidia.com/en-sg/glossary/generative-physical-ai/",
+      "type": "NVIDIA官方术语说明",
+      "date": "无明确单独发布日期",
+      "read_scope": "可见定义、模型/仿真/现实数据结合的流程",
+      "quote": null,
+      "limits": "公司定义，不代表资本回报或可交易低估机会"
+    },
+    {
+      "id": "fund_official",
+      "url": "https://trondao.org/news/tron-dao-scales-ai-fund-to-1-billion-expanding-its-2023-agentic-economy-thesis",
+      "type": "TRON官方公告搜索索引",
+      "date": "2026-03-23",
+      "read_scope": "搜索索引标题、日期；实际打开无尾斜线与有尾斜线均404",
+      "quote": null,
+      "limits": "没有将搜索索引包装成已读官网全文"
+    },
+    {
+      "id": "fund_commissioned",
+      "url": "https://ct.com/press-releases/tron-dao-scales-ai-fund-to-1-billion-expanding-its-2023-agentic-economy-thesis",
+      "type": "明确Commissioned by TRON的公司发布稿",
+      "date": "2026-03-23",
+      "read_scope": "已实际读取日期、机构、基金规模、目标用途",
+      "quote": "from $100 million to $1 billion",
+      "limits": "机构发布的规模与计划；不是个人物理AI投资已交割凭证"
+    },
+    {
+      "id": "earlier_text",
+      "url": "https://xueqiu.com/1908946815/393298579",
+      "type": "雪球传播文本",
+      "date": "页面显示修改于2026-06-19 16:02",
+      "read_scope": "已读与截图高度同文的前半及核心技术段，核对日期和来源缺口",
+      "quote": null,
+      "limits": "未证明原创作者、最初发布时间或孙本人发言真实性"
+    },
+    {
+      "id": "secondary_sun",
+      "url": "https://finance.sina.com.cn/wm/2026-05-22/doc-inhytyyn8527014.shtml",
+      "type": "新浪自媒体转载，来源洪泰智造",
+      "date": "2026-05-22 08:03",
+      "read_scope": "检索与正文可见的5月16日/未来三年/基金叙述",
+      "quote": null,
+      "limits": "未带本次可核验本人原帖；和6月2日/未来十年的文章措辞不一致"
+    }
+  ],
+  "search_scope": {
+    "sun_accounts": [
+      "@justinsuntron",
+      "@sunyuchentron"
+    ],
+    "queries": "物理AI/physical AI、6月2日、10亿美元、2016 NVDA/BTC/喜马拉雅等定向检索",
+    "negative_finding_scope": "有限公开检索未定位本人原始出处，不等于声明不存在或伪造"
+  },
+  "financial_implication": "技术方向存在且有官方模型发布，但本文不足以证明生成式AI商业价值见顶、个人资金已投入或所提产业股票低估；不得作为已核验入场触发。"
+}

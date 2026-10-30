@@ -1,0 +1,25 @@
+{
+  "call_us": "2026-10-28T16:30:00-04:00",
+  "call_beijing": "2026-10-29T04:30:00+08:00",
+  "units": "USD billions unless stated",
+  "q3_ocf": 42.29,
+  "q3_cash_capex": 51.355,
+  "q3_fcf": -9.064999999999998,
+  "ec_fine_cash_payment": 5.2,
+  "fine_only_cash_adjustment": -3.8649999999999975,
+  "fine_adjustment_status": "own arithmetic, not company adjusted FCF or sustainable run rate",
+  "cloud_revenue": 30.709,
+  "cloud_operating_income": 11.121,
+  "cloud_segment_margin_pct": 36.21413917743984,
+  "capex_2026_guidance": [
+    195,
+    205
+  ],
+  "capex_2026_change_this_call": "unchanged",
+  "capex_2027": "significantly higher; no exact range provided",
+  "q3_tpu_inventory_cash_impact": "not separately quantified",
+  "tpu_product_margin": "not separately disclosed",
+  "cloud_growth_ex_tpu_pct": "not quantified",
+  "quote_policy": "No current price used; this is a call analysis, not a live market snapshot",
+  "model_policy": "Old Google entry bands remain suspended; 217.36 partial sensitivity is not a full updated fair value; review working-capital intensity as well as capital bridge"
+}

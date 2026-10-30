@@ -1,0 +1,59 @@
+{
+  "research_date_beijing": "2026-10-28",
+  "quote_session_us": "2026-10-27",
+  "status": "研究草案，用户未确认采用或买入",
+  "recompute_on": "任何新财报、重大融资、业务改变；不把本次阈值当永久价格",
+  "google": {
+    "baseline_dcf": 207.2353210913642,
+    "bear": 66.05311235222023,
+    "bull": 384.39120880109317,
+    "entry_research_ranges_usd": [
+      [
+        180,
+        195
+      ],
+      [
+        160,
+        175
+      ],
+      [
+        140,
+        155
+      ]
+    ],
+    "proposed_slices_of_separate_google_budget_pct": [
+      20,
+      30,
+      30
+    ],
+    "reserve_pct": 20,
+    "model": "2026-10-28/equity_valuation/google_valuation_model.json"
+  },
+  "robotics": {
+    "RRX": {
+      "base": 165.07,
+      "entry_usd": [
+        130,
+        140
+      ],
+      "conditions": "去退税、恢复SBC、检查去杠杆和现金转化"
+    },
+    "CGNX": {
+      "base": 46.39609576066672,
+      "entry_usd": [
+        39,
+        40
+      ],
+      "conditions": "RealSense现金支出/留任/稀释受控，增长兑现"
+    },
+    "ATS": {
+      "base": 20.970907102621357,
+      "entry_usd": [
+        16,
+        17
+      ],
+      "conditions": "订单与回款改善，杠杆可控；高风险候选"
+    }
+  },
+  "not_an_extension_of_four_symbol_drawdown_alerts": true
+}

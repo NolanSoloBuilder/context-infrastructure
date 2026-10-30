@@ -1,0 +1,65 @@
+{
+  "checked_date_beijing": "2026-10-28",
+  "saved_at_utc": "2026-10-28T07:34:27.373352+00:00",
+  "method": "X原生网页：账号、搜索、帖子详情和公开附图；未使用Grok摘要作为证明。",
+  "queries": [
+    {
+      "query": "\"孙宇晨\" \"物理\"",
+      "scope": "热门可见结果"
+    },
+    {
+      "query": "from:sunyuchentron 物理",
+      "scope": "热门可见结果"
+    },
+    {
+      "query": "from:justinsuntron (physical OR 物理)",
+      "scope": "热门可见结果"
+    },
+    {
+      "query": "\"孙宇晨最新预言\"",
+      "scope": "热门可见结果"
+    },
+    {
+      "query": "(from:sunyuchentron OR from:justinsuntron) since:2026-06-02 until:2026-06-04",
+      "scope": "热门和最新首屏，非穷尽"
+    },
+    {
+      "query": "稳见舵手",
+      "scope": "最新及用户搜索"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/wenjianduoshou",
+      "read_scope": "主页状态",
+      "result": "此账号不存在",
+      "limit": "无法据此判定截图真伪或账号历史状态"
+    },
+    {
+      "url": "https://x.com/Krystal_Eth/status/2059781581796225212",
+      "post_date_displayed": "2026-05-28",
+      "read_scope": "帖子详情正文、可见回复和附图",
+      "assessment": "二手转述，未链接本人原发，期限三年与图片十年有差异"
+    },
+    {
+      "url": "https://x.com/trondaoCN/status/2080207275197935896",
+      "post_date_displayed": "2026-07-23",
+      "read_scope": "详情正文、链接及可见回复；孙宇晨中文账号搜索结果显示转发",
+      "assessment": "TRON官方方向性表述，非本人完整引语和个人资金/供应商背书",
+      "directions": [
+        "具身智能",
+        "AI无人机",
+        "太空探索",
+        "空间计算"
+      ]
+    },
+    {
+      "url": "https://x.com/Wanghuhuhu123/status/2115073532304515524",
+      "post_date_displayed": "2026-10-27",
+      "read_scope": "详情正文及所含链接",
+      "assessment": "与截图开头高度相同的后续传播，没有目标本人原始链接"
+    }
+  ],
+  "conclusion": "相关传播链已部分定位；目标截图原发和孙宇晨完整原话仍未认证。未检出不等于未发生。",
+  "time_limit": "保留原页面日期；未假定浏览器显示时间必为北京时间。"
+}

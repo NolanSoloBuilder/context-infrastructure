@@ -1,0 +1,49 @@
+{
+  "collected_at_utc": "2026-10-26T23:38:51.360142+00:00",
+  "summary": {
+    "symbol": "RSP",
+    "label": "RSP",
+    "session": "2026-10-26",
+    "close": 217.29,
+    "day_pct": 0.34635634213258104,
+    "five_session_pct": 1.822867619919144,
+    "twenty_one_session_pct": 2.927380350487385,
+    "high_52w": 223.44,
+    "high_date": "2026-08-19",
+    "drawdown_pct": -2.752420823521151,
+    "level_15": 189.92,
+    "level_25": 167.58,
+    "additional_drop_to_15_pct": -12.594225254957458,
+    "ma50": 215.2433987426758,
+    "ma200": 207.37810020446778,
+    "vs_ma50_pct": 0.9508280186114826,
+    "vs_ma200_pct": 4.779623823292933,
+    "volume": 7649999,
+    "volume_vs_prior20": 0.8803676830215604,
+    "bars": 500,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RSP?range=2y&interval=1d&events=div%2Csplits"
+  },
+  "source": {
+    "symbol": "RSP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RSP?range=2y&interval=1d&events=div%2Csplits",
+    "raw_file": "RSP.json",
+    "sha256": "286d2b889ab83429628e57b68a9e6e5be13e3080deedb09bea263fd444f2301c",
+    "file_saved_utc": "2026-10-26T23:38:51.306924+00:00",
+    "first_session": "2024-10-28",
+    "last_session": "2026-10-26",
+    "bars": 500,
+    "currency": "USD",
+    "splits": {}
+  },
+  "basis": "price return from October 6 close, no dividend reinvestment; RSP is an equal-weight ETF proxy, not proof of stock-count breadth",
+  "comparison": {
+    "2026-10-23": {
+      "RSP": 1.9827586416029552,
+      "VOO": -2.4602059228719386
+    },
+    "2026-10-26": {
+      "RSP": 2.335982394033609,
+      "VOO": -1.785819443165504
+    }
+  }
+}

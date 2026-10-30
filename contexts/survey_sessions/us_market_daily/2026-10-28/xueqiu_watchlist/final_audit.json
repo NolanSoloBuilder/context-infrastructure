@@ -1,0 +1,46 @@
+{
+  "机器人": {
+    "codes_read_back": [
+      "TSLA",
+      "SZ002472",
+      "SH601689",
+      "SH688322",
+      "SH688836"
+    ],
+    "screenshot": "group_1.png",
+    "verified": true
+  },
+  "智能驾驶": {
+    "codes_read_back": [
+      "XPEV",
+      "09660"
+    ],
+    "screenshot": "group_2.png",
+    "verified": true
+  },
+  "仿真感知": {
+    "codes_read_back": [
+      "SH603501",
+      "SZ002415",
+      "SH688507",
+      "00068",
+      "06651"
+    ],
+    "screenshot": "group_3.png",
+    "verified": true
+  },
+  "能源存储": {
+    "codes_read_back": [
+      "SNDK"
+    ],
+    "screenshot": "group_4.png",
+    "verified": true
+  },
+  "算力平台": {
+    "codes_read_back": [
+      "NVDA"
+    ],
+    "screenshot": "group_5.png",
+    "verified": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "source": {
+    "url": "https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/holdings/",
+    "title": "VanEck SMH官方每日持仓与产品页",
+    "asof": "2026-10-28"
+  },
+  "holdings": [
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "weight_pct": 19.56
+    },
+    {
+      "symbol": "TSM",
+      "name": "台积电",
+      "weight_pct": 9.54
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "weight_pct": 5.64
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "weight_pct": 5.58
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "weight_pct": 5.4
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron",
+      "weight_pct": 4.86
+    },
+    {
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "weight_pct": 4.68
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell",
+      "weight_pct": 4.56
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML",
+      "weight_pct": 4.39
+    },
+    {
+      "symbol": "SKHY",
+      "name": "SK hynix",
+      "weight_pct": 4.21
+    }
+  ],
+  "type": "web tool parsed readback; direct network download timed out",
+  "collected_at": "2026-10-30T01:28:36.207135+00:00"
+}

@@ -1,0 +1,151 @@
+{
+  "report_date_beijing": "2026-10-28",
+  "read_at_utc": "2026-10-28T06:29:26.356285+00:00",
+  "quotes": {
+    "AMBA": 67.12,
+    "ATS": 19.0,
+    "STM": 48.68,
+    "RRX": 158.21
+  },
+  "fx": {
+    "usd_cad": 1.4012600183486938,
+    "provider_day": "2026-10-27",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CAD%3DX?range=5d&interval=1d",
+    "raw": "value_quotes/cad_fx_raw.json",
+    "limits": "日线参考，非美股16:00同步可成交汇率"
+  },
+  "models": {
+    "RRX": {
+      "core_adjusted_eps": 10.03,
+      "scenarios": {
+        "保守": 119.0,
+        "基准": 170.51,
+        "乐观": 207.0
+      },
+      "basis": "equity EPS multiples, interest already deducted, no extra net-debt subtraction"
+    },
+    "ATS": {
+      "company_ttm_fcf_cad_million": 206.29999999999998,
+      "share_count_million": 97.02,
+      "net_debt_cad_million": 1192,
+      "scenarios": {
+        "保守": 11.827856408633862,
+        "基准": 20.970907102621357,
+        "乐观": 27.642465412715207
+      },
+      "formula": "(normalized EBITDA_CAD * EVmultiple - net debt_CAD)/shares/USD_CAD",
+      "limits": "经营企业价值/同口径含租赁净债务；不是DCF；倍数均研究假设"
+    }
+  },
+  "sources": [
+    {
+      "id": "rrx_q2",
+      "url": "https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/REGAL-REXNORD-REPORTS-SECOND-QUARTER-2026-FINANCIAL-RESULTS/default.aspx",
+      "published": "2026-08-05",
+      "period": "2026-06-30",
+      "facts": {
+        "adjusted_eps_guidance": [
+          10.35,
+          10.85
+        ],
+        "tariff_refund_eps": 0.57,
+        "net_debt_usd_million": 4170.2,
+        "h1_fcf_usd_million": 151.7,
+        "amc_revenue_usd_million": 477.7,
+        "group_revenue_usd_million": 1558.4
+      },
+      "excerpt": "Inclusive Of IEEPA Tariff Refund Benefits Worth $0.57 Per Share"
+    },
+    {
+      "id": "kollmorgen_robotics",
+      "url": "https://www.kollmorgen.com/en-us/solutions/robotics/humanoid-robots",
+      "status": "manufacturer_product_relationship_confirmed",
+      "limits": "机器人销售占集团收入未披露；案例不证明全行业量产规模"
+    },
+    {
+      "id": "ats_q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1394832/000139483226000023/ats-pressreleasexfy27q1.htm",
+      "published": "2026-08-06",
+      "period": "2026-06-28",
+      "currency": "CAD",
+      "facts": {
+        "revenue_million": 693.7,
+        "bookings_million": 656,
+        "backlog_million": 1889,
+        "fcf_million": -25.9,
+        "net_debt_including_leases_million": 1192,
+        "ttm_adjusted_ebitda_million": 404.3
+      },
+      "excerpt": "Free cash flow is defined as cash provided by operating activities less property, plant and equipment and intangible asset expenditures."
+    },
+    {
+      "id": "ats_fy26",
+      "url": "https://investors.atsautomation.com/financials/quarterly-results/default.aspx",
+      "period": "2026-03-31",
+      "facts": {
+        "fy26_fcf_cad_million": 371.7,
+        "fy26_q1_fcf_cad_million": 139.5
+      },
+      "status": "search-index full quarterly content read; direct rendered page sparse"
+    },
+    {
+      "id": "amba_q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526381923/d88952dex991.htm",
+      "published": "2026-09-03",
+      "period": "2026-07-31",
+      "facts": {
+        "revenue_usd_million": 108.1,
+        "gaap_net_loss_usd_million": 6.689,
+        "sbc_usd_million": 22.7
+      }
+    },
+    {
+      "id": "stm_robotics",
+      "url": "https://newsroom.st.com/media-center/press-item.html/t4765.html",
+      "published": "2026-03-16",
+      "status": "product/module claim, no separate robotics sales verified"
+    },
+    {
+      "id": "stm_q3_schedule",
+      "url": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-announces-timing-for-third-quarter-2026-earnings-release-and-conference-call-c3413.html",
+      "event_date": "2026-10-29",
+      "status": "issuer schedule, Q3 not yet included"
+    },
+    {
+      "id": "rrx_quote_stats",
+      "url": "https://stockanalysis.com/stocks/rrx/statistics/",
+      "price_session": "2026-10-27",
+      "close_usd": 158.21,
+      "cross_check": "value_quotes/raw/RRX.json",
+      "status": "quote matched Yahoo daily",
+      "limits": "预测倍数是第三方预测；各公司债务口径需与官方区分"
+    },
+    {
+      "id": "ats_quote_stats",
+      "url": "https://stockanalysis.com/stocks/ats/statistics/",
+      "price_session": "2026-10-27",
+      "close_usd": 19.0,
+      "cross_check": "value_quotes/raw/ATS.json",
+      "status": "quote matched Yahoo daily",
+      "limits": "预测倍数是第三方预测；各公司债务口径需与官方区分"
+    },
+    {
+      "id": "amba_quote_stats",
+      "url": "https://stockanalysis.com/stocks/amba/statistics/",
+      "price_session": "2026-10-27",
+      "close_usd": 67.12,
+      "cross_check": "value_quotes/raw/AMBA.json",
+      "status": "quote matched Yahoo daily",
+      "limits": "预测倍数是第三方预测；各公司债务口径需与官方区分"
+    },
+    {
+      "id": "stm_quote_stats",
+      "url": "https://stockanalysis.com/stocks/stm/statistics/",
+      "price_session": "2026-10-27",
+      "close_usd": 48.68,
+      "cross_check": "value_quotes/raw/STM.json",
+      "status": "quote matched Yahoo daily",
+      "limits": "预测倍数是第三方预测；各公司债务口径需与官方区分"
+    }
+  ]
+}

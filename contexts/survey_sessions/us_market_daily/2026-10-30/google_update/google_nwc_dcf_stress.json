@@ -1,0 +1,37 @@
+{
+  "status": "Q3_FINANCIAL_FACTS_UPDATED_DCF_SCENARIOS_NOT_APPROVED_ENTRY_BANDS",
+  "nwc_scenarios": [
+    {
+      "incremental_nwc_ratio": 0.02,
+      "price_sensitivity_usd": 216.2809582074652,
+      "enterprise_value_B": 2539.3333002025774,
+      "first_year_nwc_B": 1.6959636,
+      "terminal_note": "Model capex year10 adjusts to preserve terminal growth/ROIC total reinvestment; no arbitrary extra terminal WC double count."
+    },
+    {
+      "incremental_nwc_ratio": 0.05,
+      "price_sensitivity_usd": 214.80072183003165,
+      "enterprise_value_B": 2521.135274178409,
+      "first_year_nwc_B": 4.239909,
+      "terminal_note": "Model capex year10 adjusts to preserve terminal growth/ROIC total reinvestment; no arbitrary extra terminal WC double count."
+    },
+    {
+      "incremental_nwc_ratio": 0.1,
+      "price_sensitivity_usd": 212.33366120097563,
+      "enterprise_value_B": 2490.8052308047945,
+      "first_year_nwc_B": 8.479818,
+      "terminal_note": "Model capex year10 adjusts to preserve terminal growth/ROIC total reinvestment; no arbitrary extra terminal WC double count."
+    }
+  ],
+  "contingent_guarantee": {
+    "maximum_gross_payment_B": 6.6,
+    "company_fair_value": "not material",
+    "company_economic_incentive_view": "unlikely to exercise because repurchase is discounted and requires hardware returned working",
+    "gross_maximum_per_share_USD": 0.536847242557345,
+    "base_DCF_without_gross_deduction_USD": 216.2809582074652,
+    "hypothetical_100pct_today_no_asset_recovery_lower_value_USD": 215.74411096490786,
+    "note": "Not probability-weighted expected loss, not forecast, time-distributed and returned assets omitted deliberately for stress bound. Baseline keeps disclosure separate."
+  },
+  "bridge_change_contribution_vs_Oct29_partial_per_share_USD": -1.077354807223036,
+  "not_fair_value_precision_or_buy_instruction": true
+}

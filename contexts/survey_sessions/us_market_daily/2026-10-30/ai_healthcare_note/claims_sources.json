@@ -1,0 +1,143 @@
+{
+  "checked_at_utc": "2026-10-30T01:11:51.523982+00:00",
+  "sources": [
+    {
+      "id": "note",
+      "url": "https://xhslink.cn/o/8KgDdPGJA8R",
+      "kind": "original_social_post",
+      "read_scope": "Public HTML embedded body/title/date plus sole attached cover; comments not read",
+      "published_beijing": "2026-07-04T18:21:25+08:00",
+      "read_date_beijing": "2026-10-30",
+      "status": "read_and_archived"
+    },
+    {
+      "id": "FDA_devices",
+      "url": "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/list-artificial-intelligence-enabled-medical-devices",
+      "kind": "primary_regulator",
+      "read_scope": "List scope/limits, premarket authorization and recent entries",
+      "finding": "AI-enabled medical devices already marketed; list is not comprehensive and not a commercial-revenue/profit ranking"
+    },
+    {
+      "id": "FDA_EMA",
+      "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/4045c84",
+      "kind": "primary_regulator",
+      "publication_date": "2026-01-14",
+      "read_scope": "Joint release of10 guiding principles",
+      "finding": "Supports evidence standards and development potential, not universal approval relaxation or guaranteed profitability"
+    },
+    {
+      "id": "CMS_prices",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/medicare-drug-price-negotiation-program-negotiated-prices-initial-price-applicability-year-2026",
+      "kind": "primary_payor_regulator",
+      "read_scope": "First10PartDselected drugs and effective date",
+      "finding": "Negotiated prices effectiveJan1,2026; policy clarity is not equivalent to favorable manufacturer margins"
+    },
+    {
+      "id": "ISRG",
+      "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6",
+      "kind": "primary_company_release",
+      "publication_date": "2026-10-20",
+      "quarter": "2026Q3",
+      "read_scope": "Revenue/procedures/consumables/GAAP and adjusted profit/litigation",
+      "facts": {
+        "revenue_USD_B": 3.05,
+        "revenue_yoy_pct": 22,
+        "daVinci_procedure_yoy_pct": 14,
+        "instruments_accessories_revenue_USD_B": 1.8,
+        "GAAP_net_income_USD_M": 523,
+        "GAAP_EPS_USD": 1.49,
+        "adjusted_EPS_USD": 3.0,
+        "litigation_pretax_expense_USD_M": 450
+      },
+      "limits": "Robotic-assisted procedures are not automatically autonomous AI surgery; no current valuation completed"
+    },
+    {
+      "id": "TEM",
+      "url": "https://www.tempus.com/news/pr/tempus-reports-second-quarter-2026-results/",
+      "kind": "primary_company_release",
+      "publication_date": "2026-07-30",
+      "quarter": "2026Q2",
+      "read_scope": "Segment revenue, GAAP profit and equity gains, acquisition/guidance limits",
+      "facts": {
+        "revenue_USD_M": 382.5,
+        "diagnostics_revenue_USD_M": 289.3,
+        "data_applications_revenue_USD_M": 93.2,
+        "GAAP_net_income_USD_M": 5.6,
+        "unrealized_market_security_gains_USD_M": 98.5,
+        "SBC_and_related_payroll_tax_USD_M": 55.6
+      },
+      "limits": "Do not call all revenue AI software or subtract pretax equity gain from net income as a fully normalized after-tax profit"
+    },
+    {
+      "id": "NTRA",
+      "url": "https://investor.natera.com/news/news-details/2026/Natera-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "kind": "primary_company_release",
+      "quarter": "2026Q2",
+      "read_scope": "Test-volume andSignatera/MRDcommercial/coverage discussions",
+      "finding": "Illustrative MRD operator; not an original article pick and not all revenue attributable toAI"
+    },
+    {
+      "id": "XLV",
+      "url": "https://stockanalysis.com/etf/xlv/history/",
+      "kind": "third_party_cross_check",
+      "session": "2026-10-29",
+      "read_scope": "Dated daily table and prior21session close",
+      "facts": {
+        "close_USD": 184.04,
+        "day_pct": 2.4,
+        "Sept30_close": 168.42,
+        "Oct29_intraday_high": 184.8
+      },
+      "local_calculation_source": "../metrics.json andraw/XLV.json",
+      "local_yahoo_high_52w": 184.83,
+      "local_yahoo_high_date": "2026-10-29",
+      "high_difference_USD": 0.03,
+      "notes": "Keep Yahoo rolling52week source consistent; disclosure rather than treating high differences as signals"
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "AI医疗可产生真实产品与商业价值",
+      "status": "direction_supported_but_company_economics_separate",
+      "sources": [
+        "FDA_devices",
+        "FDA_EMA",
+        "ISRG",
+        "TEM"
+      ]
+    },
+    {
+      "claim": "医疗是华尔街确定的下一轮主线",
+      "status": "unverified_market_forecast",
+      "reason": "No falsifiable timing, flows or positioning evidence"
+    },
+    {
+      "claim": "机构已在低位吸筹",
+      "status": "unverified",
+      "reason": "Article supplies no primary positions/flows; currentXLVnearhigh does not establish every constituent valuation"
+    },
+    {
+      "claim": "2026FDA环境支持整个医疗板块",
+      "status": "partially_supported_narrow_AI_guidance_only",
+      "sources": [
+        "FDA_EMA"
+      ],
+      "reason": "Technical evidence guidance does not quantify overall approval rates or company profits"
+    },
+    {
+      "claim": "药价改革清晰所以医疗利润改善",
+      "status": "not_established",
+      "sources": [
+        "CMS_prices"
+      ],
+      "reason": "Negotiated prices may improve access while constraining manufacturer revenue; effects differ by business"
+    },
+    {
+      "claim": "M&A活动回升",
+      "status": "not_verified_in_this_review",
+      "reason": "Article gives no comparable deal count/value/time window; no inference of premiums for all stocks"
+    }
+  ],
+  "scope": "article interpretation and initial primary checks; not full sector or company valuations",
+  "portfolio_action": "none; no watchlist or automation changes"
+}

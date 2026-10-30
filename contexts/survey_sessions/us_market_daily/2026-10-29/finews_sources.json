@@ -1,0 +1,52 @@
+{
+  "collected_at_utc": "2026-10-28T23:32:34.025399+00:00",
+  "url": "https://finews.fyi/",
+  "page_session_date": "2026-10-28",
+  "page_update_at_utc": "2026-10-28T22:08:46Z",
+  "page_update_beijing": "2026-10-29T06:08:46+08:00",
+  "read_scope": "Full publicHTMLnews summary and16article links, calendar, valuation temperatureandquotes; HTMLsaved. Datearchive/2026-10-28notaccessible inwebtool; rootcurrentpage verified.",
+  "saved_html": "social_raw/finews.html",
+  "saved_html_sha256": "c44d3ddd2994000261fbe9185fc6d769a66d33ac5fed543a072b973e7d2bce29",
+  "role": "discovery_only_primary_recheck",
+  "items": [
+    {
+      "key": "google_q3_new_release",
+      "aggregation_url": "https://finews.fyi/",
+      "original_url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "original_timestamp_at_utc": "2026-10-28T22:07:17Z",
+      "original_read": "restricted_not_bypassed",
+      "primary_verification": "DelegatedGoogleQ3primaryreviewbyparentteam; do not treat CNBC summaryasindependentcorroboration",
+      "status": "aggregation_lead_only_in_this_file"
+    },
+    {
+      "key": "msft_q1_cash_recheck",
+      "aggregation_url": "https://finews.fyi/",
+      "original_url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+      "original_timestamp_at_utc": "2026-10-28T22:07:06Z",
+      "original_read": "restricted_not_bypassed",
+      "primary_url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+      "status": "company_reported_results_verified_via_web",
+      "counterevidence": "CashFCFdown27.4%underOFCminusPP&E; fullleasecapexnotverified"
+    },
+    {
+      "key": "oracle_fy30targets_funding",
+      "aggregation_url": "https://finews.fyi/",
+      "original_url": "https://www.cnbc.com/2026/10/28/oracle-forecast-growth-2030.html",
+      "original_timestamp_at_utc": "2026-10-28T20:00:44Z",
+      "original_read": "restricted_not_bypassed",
+      "primary_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx",
+      "status": "company_forward_targets_verified_not_realized_results",
+      "claims": [
+        "FY30revenue225b+; FY29FCF30b+; targetFCFpositiveFY28H2.",
+        "Additionalcapitalmarketfunding20bthroughFY30excludingrefinancing, expected10bequity10bgrossdebt; inadditionto20bATMcompletedFY27Q1."
+      ],
+      "counterevidence": "Execution, customercollections,vendorfinancingandfuturecapacity; forecastsnotcashinhand"
+    }
+  ],
+  "limitations": [
+    "FiNewspricesnotusedasindependentquotecheckbecauseunderlyingYahoosameascollect",
+    "ValuationtemperatureandFearGreedunverifiednotentrytriggers",
+    "Do notinterpretpricegainsasfundnetinflows",
+    "FiNewscalendarrequiresofficialverificationandDSTconversionbyparent"
+  ]
+}

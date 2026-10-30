@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-29T09:02:28.221881+00:00",
+  "latest_call": {
+    "quarter": "2026Q3",
+    "call_time_et": "2026-10-28T16:30:00-04:00",
+    "call_time_beijing": "2026-10-29T04:30:00+08:00"
+  },
+  "official_webcast": {
+    "url": "https://www.youtube.com/watch?v=X9mmCagxJTo",
+    "title": "Alphabet 2026 Q3 Earnings Call",
+    "authenticated_by": "Company original SEC Exhibit99.1 Webcast and Conference Call Information links to this exact video",
+    "authentication_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+    "read_scope": "SEC webcast paragraph and YouTube public title; YouTube page body returned footer only",
+    "audio_listened": false,
+    "captions_obtained": false
+  },
+  "official_edited_ceo": {
+    "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
+    "publication_date": "2026-10-28",
+    "scope": "Edited CEO prepared remarks, not CFO or Q&A transcript",
+    "verified_topics": [
+      "Cloud+103%, strong TPU system demand",
+      "Search query year-on-year growth highest in five years",
+      "AI Mode queries longer and multimodal; prioritizing experience before monetization",
+      "Gemini4 model progress and agentic rollout"
+    ]
+  },
+  "full_official_pdf": {
+    "status": "not_obtained",
+    "public_IR_pages_read": [
+      "https://abc.xyz/investor/events/",
+      "https://abc.xyz/investor/earnings/"
+    ],
+    "result": "Parsed dynamic public bodies had no full transcript link; targeted official-domain searches did not locate2026Q3PDF. This does not prove none exists.",
+    "one_pattern_based_candidate": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Oct/28/2026_Q3_Earnings_Transcript.pdf",
+    "candidate_result": "not accessible via web tool; not treated as a source"
+  },
+  "third_party_cfo_and_qa": [
+    {
+      "url": "https://stockanalysis.com/stocks/googl/transcripts/712854-q3-2026/",
+      "scope": "CFO prepared remarks outlook and initial Q&A passages actually read",
+      "status": "third-party transcript; not upgraded to official verbatim",
+      "topics": [
+        "2026cashCapEx195–205B unchanged;2027increase significant with detail onQ4call",
+        "third-partycompute only lateQ3;Q4ramp adds near-term Cloud margin pressure",
+        "561BCloudbacklog with just over55%recognized over24months; forecast, not cash guarantee",
+        "management expectsROICabove cost of capital, no disclosed numerical return proved"
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/",
+      "scope": "TimestampedQ&A48:12–54:00 passage read",
+      "status": "third-party transcript useful timestamps; product margins not quantified",
+      "topics": [
+        "48:49–49:41:TPUsystems contract enters backlog, inventory outflow precedes delivery/billing cash",
+        "53:55:procurement only against signed contracts; no individual product margin disclosure"
+      ],
+      "quote_warning": "Page general takeaway/EPS labels and share prices may differ; use SECfinancials for financial facts, not generic page summary"
+    }
+  ],
+  "analysis_boundaries": [
+    "No official completeCFO/Q&Atext obtained; cite full-call details as third-party transcript statements",
+    "Do not claim original audio listened to or official transcript verified",
+    "Keep issuer forecasts separate from actual results; do not treat backlog as guaranteed cash",
+    "TPUsystems inventory affects operating working capital, not a second subtraction of same cash capex"
+  ]
+}

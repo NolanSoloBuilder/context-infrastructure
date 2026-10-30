@@ -1,0 +1,90 @@
+{
+  "collected_at": "2026-10-28T12:05:02.318059+08:00",
+  "profile": "nandong-feishu",
+  "identity_verified": "南冬",
+  "chat_name": "陈老师星球内容分享",
+  "morning_window": [
+    "2026-10-25T09:00:00+08:00",
+    "2026-10-28T09:00:00+08:00"
+  ],
+  "morning_messages": 26,
+  "supplement_messages": 5,
+  "supplement_collected_at": "2026-10-28T12:02:47+08:00",
+  "interactive_cards": 23,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b613c046df4a8df6c78de2f1fe65",
+      "source_time": "2026-10-27 19:00+08:00",
+      "sync_create_time": "1793098922467",
+      "sync_update_time": "1793098922467",
+      "window": "盘前",
+      "title": "反弹尚无确定性",
+      "summary": "作者认为近期技术反弹尚未形成资金共识，仍需为失败情形留余地。",
+      "raw_body_sha256": "8cfbf14b72326c78da99fad2e0d15f448dca7ea5fc91bb3f0cbb654bbbe28bde",
+      "provenance": "私群机器人同步标注的作者回答/新动态，非原星球直读",
+      "member_questions_retained": false
+    },
+    {
+      "message_id": "om_x100b613c26bd2ca4c014f74d93c5663",
+      "source_time": "2026-10-27 19:09+08:00",
+      "sync_create_time": "1793099399475",
+      "sync_update_time": "1793099399475",
+      "window": "盘前",
+      "title": "技术乖离不能代替买点",
+      "summary": "作者解释较大均线乖离可能引发反弹交易，但反弹高度和持续性仍不确定。",
+      "raw_body_sha256": "d3dcb4c0923c78cd08727b99d98ec8c7d2576ce0671a0a807c52dc0f21f1f481",
+      "provenance": "私群机器人同步标注的作者回答/新动态，非原星球直读",
+      "member_questions_retained": false
+    },
+    {
+      "message_id": "om_x100b613d16bfb4a8dfce0ebb70cfb15",
+      "source_time": "2026-10-27 20:13+08:00",
+      "sync_create_time": "1793103239544",
+      "sync_update_time": "1793103239544",
+      "window": "盘前",
+      "title": "不熟悉反弹交易时等待",
+      "summary": "作者建议不熟悉短线反弹的人等待更充分的市场调整，不参与抢反弹。用户的投资经验尚未确认。",
+      "raw_body_sha256": "b47c71ac4231d9b5fca15ad12e75f606f814c84b19e29e2b5c3a145aec64a272",
+      "provenance": "私群机器人同步标注的作者回答/新动态，非原星球直读",
+      "member_questions_retained": false
+    },
+    {
+      "message_id": "om_x100b613f675c9c80b4b29335389409c",
+      "source_time": "2026-10-27 22:15+08:00",
+      "sync_create_time": "1793110681460",
+      "sync_update_time": "1793110681460",
+      "window": "盘前",
+      "title": "科创与创业的趋势纪律",
+      "summary": "作者将60日线规则用于其所称趋势中的科创50和创业板；并非把所有宽基跌破均线都视为卖出条件。",
+      "raw_body_sha256": "a4af75dc72690988d27b54b5980e2f52d4ae082ba9a8e6f1e09e0ec45b85339a",
+      "provenance": "私群机器人同步标注的作者回答/新动态，非原星球直读",
+      "member_questions_retained": false
+    },
+    {
+      "message_id": "om_x100b6120d13104a8b09e5cabd88e759",
+      "source_time": "2026-10-28 09:01+08:00",
+      "sync_create_time": "1793149440183",
+      "sync_update_time": "1793149440183",
+      "window": "09:00后补充",
+      "title": "盘后补充：科技反弹风险",
+      "summary": "作者再次区分下行趋势中的反弹与趋势恢复，认为不能确定本次反弹成功；不熟悉交易决策者可选择不参与。",
+      "raw_body_sha256": "00eb9b3f74f04e8e39d16c15dad8b49fdb61ff525b7e705683161a603817e3d2",
+      "provenance": "私群机器人同步标注的作者回答/新动态，非原星球直读",
+      "member_questions_retained": false
+    },
+    {
+      "message_id": "om_x100b6122e3d02d1ccfd96c1daa312f7",
+      "source_time": "2026-10-28 11:22+08:00",
+      "sync_create_time": "1793157842262",
+      "sync_update_time": "1793157842262",
+      "window": "09:00后补充",
+      "title": "盘后补充：盈利支撑不等于不跌",
+      "summary": "作者认为有盈利支撑的成分股仍可能随指数赎回承压，盈利可能影响后续承接。",
+      "raw_body_sha256": "d5021314da3bfeb3c8d792ba3d7e1190ef42388484b8faea078a7c220c9de810",
+      "provenance": "私群机器人同步标注的作者回答/新动态，非原星球直读",
+      "member_questions_retained": false
+    }
+  ],
+  "source_completeness": "API范围分页完毕，但群同步有故障提示，不保证原星球内容完整；1张截图未用于本期A股判断",
+  "excluded": "成员提问/评论、5条系统记录、2条管理员运维提示、1张图片及无关话题；没有归档无关成员内容"
+}

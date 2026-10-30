@@ -1,0 +1,61 @@
+{
+  "date_beijing": "2026-10-29",
+  "status": "proposal_not_adopted_or_executed",
+  "confirmed_user_inputs": {
+    "budget_usd": 30000,
+    "horizon_years": [
+      3,
+      5
+    ],
+    "tolerable_temporary_loss_usd": 6000,
+    "tolerable_temporary_loss_pct": 20,
+    "offshore_emergency_cash_needed": false
+  },
+  "weights": {
+    "VOO": 0.3,
+    "QQQM": 0.1,
+    "individual_stocks_budget": 0.05,
+    "SGOV": 0.55,
+    "idle_cash": 0
+  },
+  "equity_target": 0.45,
+  "individual_name_initial_target_cap_pct": 2,
+  "speculative_name_initial_target_cap_pct": 1,
+  "first_index_budget": {
+    "VOO": 2250,
+    "QQQM": 750
+  },
+  "six_monthly_index_budgets": {
+    "VOO": 1125,
+    "QQQM": 375
+  },
+  "unfilled_equity_budget_parked_in": "short_Treasuries",
+  "no_automatic_trade": true,
+  "original_drawdown_alert_thresholds_unchanged": true,
+  "scenarios": [
+    {
+      "VOO": -0.2,
+      "QQQM": -0.3,
+      "stocks": -0.4,
+      "defensive_return": 0,
+      "portfolio_pct": -11.0,
+      "loss_usd": 3300.0
+    },
+    {
+      "VOO": -0.35,
+      "QQQM": -0.5,
+      "stocks": -0.6,
+      "defensive_return": 0,
+      "portfolio_pct": -18.5,
+      "loss_usd": 5550.0
+    },
+    {
+      "VOO": -0.5,
+      "QQQM": -0.65,
+      "stocks": -0.8,
+      "defensive_return": 0,
+      "portfolio_pct": -25.5,
+      "loss_usd": 7650.0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-30",
+  "static_checks": {
+    "unique_ids": true,
+    "two_embedded_pngs": true,
+    "no_remote_runtime_assets": true,
+    "fragment_links_resolve": true,
+    "no_file_URL": true,
+    "date_and_key_values": true
+  },
+  "unique_ids": 29,
+  "embedded_png_count": 2,
+  "html_sha256": "d7a4a6f11068438a57ebcb307943333f84e7e5256ddc448345dab0eb1a1c36de",
+  "visual_browser_check": "not performed; unchanged template and local URL policy boundary respected"
+}

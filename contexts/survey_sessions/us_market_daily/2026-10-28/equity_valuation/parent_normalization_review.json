@@ -1,0 +1,14 @@
+{
+  "RRX": {
+    "core_eps_after_refund_and_sbc": 9.709999999999999,
+    "baseline_value": 165.07,
+    "close": 158.21,
+    "discount_to_base_pct": 4.155812685527338,
+    "research_entry_usd": [
+      130,
+      140
+    ],
+    "caveat": "Additional restructuring/amortization adjustments may still represent economic cost; baseline PE17 is an assumption, not historical fact."
+  },
+  "google_terminal_revision": "Fade years6–10 growth to terminal g and match actual year10 investment to actual growth/ROIC; final outputs replace initial pre-review model."
+}

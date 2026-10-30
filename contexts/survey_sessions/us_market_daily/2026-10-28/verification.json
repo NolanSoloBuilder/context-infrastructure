@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-27T23:35:19.631602+00:00",
+  "asof_session": "2026-10-27",
+  "report_date_beijing": "2026-10-28",
+  "checks": {
+    "all_symbols_session_and_ohlc": true,
+    "price_returns_ma_volume_recomputed": true,
+    "source_sha256": true,
+    "trailing_52week_no_lookahead_points": 180,
+    "normalized_60_points_per_symbol": 60,
+    "main_four_closes_cross_checked": true,
+    "threshold_decimal_cents": true,
+    "sector_daily_matches_table_and_image": true
+  },
+  "cross_check_provider": "Stock Analysis third-party history pages, read this run",
+  "cross_checks": {
+    "QQQ": {
+      "close": 721.25,
+      "high": 762.86,
+      "high_date": "2026-10-06",
+      "volume": 30818078,
+      "primary_close": 721.25,
+      "primary_high": 762.86,
+      "primary_volume": 30099074,
+      "primary_volume_difference_pct": -2.333059186883746,
+      "url": "https://stockanalysis.com/etf/qqq/history/",
+      "high_matches_except_known_cent_difference": true
+    },
+    "QQQM": {
+      "close": 296.96,
+      "high": 314.12,
+      "high_date": "2026-10-06",
+      "volume": 2151869,
+      "primary_close": 296.96,
+      "primary_high": 314.11,
+      "primary_volume": 2141412,
+      "primary_volume_difference_pct": -0.48594965585729843,
+      "url": "https://stockanalysis.com/etf/qqqm/history/",
+      "high_matches_except_known_cent_difference": true
+    },
+    "VOO": {
+      "close": 707.52,
+      "high": 718.47,
+      "high_date": "2026-10-06",
+      "volume": 5369039,
+      "primary_close": 707.52,
+      "primary_high": 718.47,
+      "primary_volume": 5355210,
+      "primary_volume_difference_pct": -0.25756937135305025,
+      "url": "https://stockanalysis.com/etf/voo/history/",
+      "high_matches_except_known_cent_difference": true
+    },
+    "BRK-B": {
+      "close": 542.99,
+      "high": 549.96,
+      "high_date": "2026-10-22",
+      "volume": 3070027,
+      "primary_close": 542.99,
+      "primary_high": 549.96,
+      "primary_volume": 3072197,
+      "primary_volume_difference_pct": 0.07068341744225215,
+      "url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "high_matches_except_known_cent_difference": true
+    }
+  },
+  "index_cross_checks": {
+    "SP500": {
+      "value": 7722.6,
+      "source": "AP current search result; full article not independently opened",
+      "url": "https://apnews.com/article/eae2932c0c253be1039e1545909656a8"
+    },
+    "NasdaqComposite": {
+      "value": 26477.81,
+      "source": "AP current search result; full article not independently opened",
+      "url": "https://apnews.com/article/eae2932c0c253be1039e1545909656a8"
+    },
+    "Nasdaq100": {
+      "value": 29651.44,
+      "source": "Investing.com historical table Oct 27 row, opened and matches Yahoo close",
+      "url": "https://ca.investing.com/indices/nq-100-historical-data"
+    }
+  },
+  "curve_period": [
+    "2026-08-04",
+    "2026-10-27"
+  ],
+  "curve_endpoints": {
+    "QQQM": {
+      "normalized": 99.640973,
+      "drawdown_pct": -5.461375392017032,
+      "period_price_change_pct": -0.35902699999999754
+    },
+    "VOO": {
+      "normalized": 99.794076,
+      "drawdown_pct": -1.5240652523248688,
+      "period_price_change_pct": -0.205923999999996
+    },
+    "BRK-B": {
+      "normalized": 104.98241,
+      "drawdown_pct": -1.267370619646202,
+      "period_price_change_pct": 4.982410000000002
+    }
+  },
+  "sector_breadth_excluding_SMH": {
+    "up": 5,
+    "down": 6,
+    "flat": 0
+  },
+  "sector_image_values": [
+    {
+      "symbol": "SMH",
+      "day_pct": 3.020565248523144
+    },
+    {
+      "symbol": "XLK",
+      "day_pct": 1.7013729306210035
+    },
+    {
+      "symbol": "XLY",
+      "day_pct": 1.041479773992049
+    },
+    {
+      "symbol": "XLB",
+      "day_pct": 0.778508569222014
+    },
+    {
+      "symbol": "XLU",
+      "day_pct": 0.7050510985656011
+    },
+    {
+      "symbol": "XLI",
+      "day_pct": 0.5749828800158951
+    },
+    {
+      "symbol": "XLV",
+      "day_pct": -0.05578207507617172
+    },
+    {
+      "symbol": "XLF",
+      "day_pct": -0.24990965459558145
+    },
+    {
+      "symbol": "XLC",
+      "day_pct": -0.25998714206403317
+    },
+    {
+      "symbol": "XLRE",
+      "day_pct": -0.8411229363757489
+    },
+    {
+      "symbol": "XLP",
+      "day_pct": -0.9208703581452538
+    },
+    {
+      "symbol": "XLE",
+      "day_pct": -2.05341803232173
+    }
+  ],
+  "images": [
+    {
+      "file": "watchlist_curves.png",
+      "size": [
+        2144,
+        1664
+      ],
+      "visual_inspection": "passed: dates, Chinese labels, endpoints, legends, signed bars readable"
+    },
+    {
+      "file": "sector_daily.png",
+      "size": [
+        2144,
+        1184
+      ],
+      "visual_inspection": "passed: dates, Chinese labels, endpoints, legends, signed bars readable"
+    }
+  ],
+  "limitations": [
+    "Yahoo and Stock Analysis prices are third-party data.",
+    "QQQM high differs by one displayed cent; unchanged primary series and thresholds.",
+    "Volume feeds differ, particularly QQQ; do not treat ETF volume alone as confirmation of index-wide buying.",
+    "Valuation and full constituent-level breadth not verified."
+  ]
+}

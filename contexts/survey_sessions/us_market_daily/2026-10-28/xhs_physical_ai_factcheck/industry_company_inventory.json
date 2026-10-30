@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-28",
+  "scope": "最初小红书8图正文；模型名与研究机构不计入产业公司；未加入后来X附图中的其他公司",
+  "companies": [
+    {
+      "sector": "人形机器人整机",
+      "name": "特斯拉",
+      "identifier": "TSLA，美股",
+      "image_page": 4
+    },
+    {
+      "sector": "人形机器人整机",
+      "name": "宇树科技",
+      "identifier": "688836，A股",
+      "image_page": 4
+    },
+    {
+      "sector": "人形机器人整机",
+      "name": "银河通用",
+      "identifier": "本次未确认可交易股票代码",
+      "image_page": 4
+    },
+    {
+      "sector": "机器人核心零部件",
+      "name": "奥比中光",
+      "identifier": "688322，A股",
+      "image_page": 4
+    },
+    {
+      "sector": "机器人核心零部件",
+      "name": "拓普集团",
+      "identifier": "601689，A股",
+      "image_page": 4
+    },
+    {
+      "sector": "机器人核心零部件",
+      "name": "双环传动",
+      "identifier": "002472，A股",
+      "image_page": 4
+    },
+    {
+      "sector": "智能驾驶",
+      "name": "小鹏（文中称小鹏汽车）",
+      "identifier": "XPEV，美股；09868，港股",
+      "image_page": 4
+    },
+    {
+      "sector": "智能驾驶",
+      "name": "地平线机器人",
+      "identifier": "09660，港股",
+      "image_page": 4
+    },
+    {
+      "sector": "工业仿真与空间智能",
+      "name": "五一视界（51WORLD）",
+      "identifier": "06651，港股；51Sim为其业务品牌",
+      "image_page": 5
+    },
+    {
+      "sector": "工业仿真与空间智能",
+      "name": "索辰科技",
+      "identifier": "688507，A股",
+      "image_page": 5
+    },
+    {
+      "sector": "工业仿真与空间智能",
+      "name": "群核科技（Manycore）",
+      "identifier": "00068，港股",
+      "image_page": 5
+    },
+    {
+      "sector": "视觉与感知",
+      "name": "海康威视",
+      "identifier": "002415，A股",
+      "image_page": 5
+    },
+    {
+      "sector": "视觉与感知",
+      "name": "韦尔股份（现简称豪威集团）",
+      "identifier": "603501，A股",
+      "image_page": 5
+    },
+    {
+      "sector": "存储与半导体",
+      "name": "三星电子",
+      "identifier": "005930，韩国普通股",
+      "image_page": 6
+    },
+    {
+      "sector": "存储与半导体",
+      "name": "SK海力士",
+      "identifier": "000660，韩国股票",
+      "image_page": 6
+    },
+    {
+      "sector": "存储与半导体",
+      "name": "闪迪（SanDisk）",
+      "identifier": "SNDK，美股",
+      "image_page": 1
+    },
+    {
+      "sector": "算力与物理AI平台",
+      "name": "英伟达",
+      "identifier": "NVDA，美股",
+      "image_page": 2
+    }
+  ],
+  "limits": "股票代码只是识别信息；精确供应关系、市场份额与低估判断的核验状态见report.md。"
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-02",
+  "reason": "Remove unrelated third-party map configuration flagged by GitHub push protection; research content is unchanged. Archived HTML is redacted, not byte-identical to the original fetch.",
+  "files": [
+    {
+      "file": "mrna_events.html",
+      "removed_configuration": "common.mapbox.token",
+      "redactions": 1,
+      "original_bytes": 226907,
+      "archived_bytes": 226850,
+      "original_sha256": "271aea0667a211f033b823295dda52355d98dfe06533ab2241bc2772a884976b",
+      "archived_sha256": "398d501b92415e412d1382117c8ebb2d9b0b0a4497a8db44b75bdf61dd60931c"
+    },
+    {
+      "file": "mrna_ir.html",
+      "removed_configuration": "common.mapbox.token",
+      "redactions": 1,
+      "original_bytes": 247385,
+      "archived_bytes": 247328,
+      "original_sha256": "8f7ebb823bc86582d69ff52c7cdb194a8f926b69f518cbac8ae3765db46ee1ae",
+      "archived_sha256": "0c3c704b12c15d79b607644c167dadcf70272cf59865aee61636cbed79d3297c"
+    }
+  ]
+}

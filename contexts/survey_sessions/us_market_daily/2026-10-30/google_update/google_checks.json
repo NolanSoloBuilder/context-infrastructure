@@ -1,0 +1,18 @@
+{
+  "status": "passed_targeted_arithmetic",
+  "checked_at_utc": "2026-10-29T23:41:37.673074+00:00",
+  "checks": [
+    "official submissions new Q3 accession and raw10Q hash retained",
+    "common cover shares5888+827+5579=12294M",
+    "nonEquity265.098-90.384=174.714B",
+    "financialdebt125.102+1.016=126.118B;financeleases3.705separate",
+    "preferred385M*50=19.25B, no if-converted share double deduction",
+    "NCI6.9 includes redeemable0.825; no duplicate",
+    "inventoryQ3=-10.959-(-7.739)=-3.220B; all-company not TPU",
+    "selected coreWC=-3.917-3.220-.165+2.551=-4.751B",
+    "basebridge119.6248B, historical132.8698B decrease13.245B",
+    "NWC sensitivity monotonically reduces explicitFCFF",
+    "no automatic trades or old entry threshold activation"
+  ],
+  "model_sha256": "86922b00cdd3223b74b259523e4f09c7fbf4403daa119bf92bf7b8436d057d27"
+}

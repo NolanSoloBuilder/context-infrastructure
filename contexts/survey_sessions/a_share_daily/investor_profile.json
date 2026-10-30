@@ -1,0 +1,20 @@
+{
+  "confirmed_on": "2026-10-28",
+  "market": "A股/ETF",
+  "position_status": "空仓",
+  "planned_budget_cny": 500000,
+  "drawdown_tolerance_pct": 30,
+  "drawdown_input": "回撤30，按30%理解",
+  "watch_rule": {
+    "provider": "银行螺丝钉",
+    "metric": "整体星级",
+    "threshold": 5.0,
+    "purpose": "重点观察线，不是自动交易指令",
+    "confirmed": true
+  },
+  "holding_horizon": null,
+  "monthly_contribution_cny": null,
+  "drawdown_scope": null,
+  "allocation_plan_approved": false,
+  "source": "用户在本聊天直接确认：空仓 50w 回撤30；整体5星作为重点观察线"
+}

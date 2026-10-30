@@ -1,0 +1,104 @@
+[
+  {
+    "symbol": "VOO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.085012+00:00"
+  },
+  {
+    "symbol": "QQQM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:48.435115+00:00"
+  },
+  {
+    "symbol": "SPMO",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:48.457156+00:00"
+  },
+  {
+    "symbol": "MAGS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 893,
+    "captured_at_utc": "2026-10-30T03:01:48.409789+00:00"
+  },
+  {
+    "symbol": "RRX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RRX?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:48.933910+00:00"
+  },
+  {
+    "symbol": "CGNX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:48.888950+00:00"
+  },
+  {
+    "symbol": "ATS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATS?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:48.911251+00:00"
+  },
+  {
+    "symbol": "GOOGL",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.351222+00:00"
+  },
+  {
+    "symbol": "NVDA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.392407+00:00"
+  },
+  {
+    "symbol": "SMH",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.403803+00:00"
+  },
+  {
+    "symbol": "VGT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.549092+00:00"
+  },
+  {
+    "symbol": "SOXX",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.798534+00:00"
+  },
+  {
+    "symbol": "DRAM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 146,
+    "captured_at_utc": "2026-10-30T03:01:49.690806+00:00"
+  },
+  {
+    "symbol": "MRNA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.856442+00:00"
+  },
+  {
+    "symbol": "SOFI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:49.975230+00:00"
+  },
+  {
+    "symbol": "BRK-B",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:50.159809+00:00"
+  },
+  {
+    "symbol": "SGOV",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "observations": 1254,
+    "captured_at_utc": "2026-10-30T03:01:50.236776+00:00"
+  }
+]

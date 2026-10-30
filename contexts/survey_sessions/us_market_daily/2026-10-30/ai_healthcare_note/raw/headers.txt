@@ -1,0 +1,24 @@
+HTTP/2 302 
+date: Fri, 30 Oct 2026 01:06:58 GMT
+content-type: text/html; charset=utf-8
+content-length: 451
+server: nginx
+cat-msg-id: karen-gateway-default-0ad461b8.55819-498144-5302313
+location: https://www.xiaohongshu.com/discovery/item/6a48dea5000000000d00bc01?app_platform=ios&app_version=9.49.4&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBT0yG6qJ69dILqtsujvNJHlYuQDbfmJQMvcbRMI_y9XM=&author_share=1&xhsshare=CopyLink&shareRedId=OD04QURKOUA2NzUyOTgwNjc7OThHPTZN&apptime=1793322371&share_id=b629c46d273d43a487ab95e9d352ec10&track_code=8KgDdPGJA8R
+request-id: 6f98e2756e4e47c2a04f50c574b68b12
+
+HTTP/2 200 
+date: Fri, 30 Oct 2026 01:06:58 GMT
+content-type: text/html; charset=utf-8
+content-length: 71866
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-27=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, h3-Q039=":443"; ma=2592000, quic=":443"; ma=2592000; v="39,43,46"
+server: openresty
+set-cookie: acw_tc=0a00d58e17933224180866746e2a1905a13fe4e041aa9b5c42f36e625d585c;path=/;HttpOnly;Max-Age=1800
+set-cookie: abRequestId=642ab1b4-6094-57b4-ab6f-c501bd372a08; path=/; expires=Sat, 30 Oct 2027 01:06:58 GMT; domain=xiaohongshu.com
+access-control-allow-origin: 0
+access-control-allow-credentials: true
+access-control-allow-methods: GET,OPTIONS
+access-control-max-age: 86400
+xhs-request-time: 0.117
+xhs-real-ip: 101.52.223.3
+

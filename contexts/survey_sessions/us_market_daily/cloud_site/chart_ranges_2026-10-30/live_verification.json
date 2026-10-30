@@ -1,0 +1,424 @@
+{
+  "checked_at_utc": "2026-10-30T03:07:10.461277+00:00",
+  "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+  "source_commit": "e2b99a580436d258edba2794f93f5a4d49887eb5",
+  "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_c66a840846988191a199f64abc9e8288",
+  "deployment_id": "appgdep_6ae4093c76e881919ae4e849c3ea7214",
+  "deploy_status": "succeeded",
+  "refresh_status": {
+    "status": "complete",
+    "phase": "done",
+    "job_id": "b18f0c19-fc4a-4c0b-8ec5-7ae4b5b7c9a9",
+    "started_at_utc": "2026-10-30T03:05:23.172Z",
+    "last_success_at_utc": "2026-10-30T03:05:37.567Z",
+    "completed": 17,
+    "total": 17,
+    "message": "行情与历史指标已更新；研究文字和发行人持仓保留各自披露日期。",
+    "regular_session": "2026-10-29",
+    "finished_at_utc": "2026-10-30T03:05:37.567Z",
+    "successful_history_symbols": 17,
+    "symbol_count": 17,
+    "errors": []
+  },
+  "state_version": "2026-10-30T03:05:23.172Z-adk91w",
+  "range_windows": {
+    "ATS": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "BRK-B": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "CGNX": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "DRAM": {
+      "1y": {
+        "period_start": "2026-04-02",
+        "period_end": "2026-10-29",
+        "complete_period": false,
+        "observations_count": 146,
+        "points_count": 146
+      },
+      "2y": {
+        "period_start": "2026-04-02",
+        "period_end": "2026-10-29",
+        "complete_period": false,
+        "observations_count": 146,
+        "points_count": 146
+      },
+      "3y": {
+        "period_start": "2026-04-02",
+        "period_end": "2026-10-29",
+        "complete_period": false,
+        "observations_count": 146,
+        "points_count": 146
+      }
+    },
+    "GOOGL": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "MAGS": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "MRNA": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "NVDA": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "QQQM": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "RRX": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "SGOV": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "SMH": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "SOFI": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "SOXX": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "SPMO": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "VGT": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    },
+    "VOO": {
+      "1y": {
+        "period_start": "2025-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 252,
+        "points_count": 200
+      },
+      "2y": {
+        "period_start": "2024-10-29",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 502,
+        "points_count": 200
+      },
+      "3y": {
+        "period_start": "2023-10-27",
+        "period_end": "2026-10-29",
+        "complete_period": true,
+        "observations_count": 754,
+        "points_count": 200
+      }
+    }
+  },
+  "browser_checks": [
+    "one/two/three-year selected state and real bounds",
+    "VOO detail synced to3y while annual metrics remain1y",
+    "DRAM since-inception partial3y label",
+    "automatic refresh completed and retained3y selection"
+  ],
+  "screenshot": "three_year_preview.jpg"
+}

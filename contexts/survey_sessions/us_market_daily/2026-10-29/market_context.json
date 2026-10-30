@@ -1,0 +1,50 @@
+{
+  "report_date_beijing": "2026-10-29",
+  "session": "2026-10-28",
+  "updated_at_utc": "2026-10-28T23:35:11.799017+00:00",
+  "calendar_check": {
+    "source": "https://www.nyse.com/trade/hours-calendars",
+    "read_via": "web",
+    "session_open": true,
+    "next_session": "2026-10-29"
+  },
+  "fed": {
+    "publication_date": "2026-10-28",
+    "target_pct": [
+      3.75,
+      4.0
+    ],
+    "vote": "10-2",
+    "dissent": "preferred raise25bp",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  "treasury": {
+    "session": "2026-10-28",
+    "two_year_pct": 4.67,
+    "ten_year_pct": 5.05,
+    "two_year_change_bp": -3,
+    "ten_year_change_bp": 6,
+    "raw_rows": "treasury_rows.json"
+  },
+  "vix": {
+    "asof_date": "2026-10-28",
+    "value": 16.91,
+    "change": -0.61,
+    "source": "https://www.cboe.com/tradable-products/vix/"
+  },
+  "sgov": {
+    "yield_date": "2026-10-27",
+    "yield_30_day_sec_pct": 3.78,
+    "basis": "after fund fees before investor tax; annualized income reference, not total return",
+    "source": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf"
+  },
+  "primary_calendar_sources": [
+    "https://www.bea.gov/news/schedule",
+    "https://www.bls.gov/schedule/2026/10_sched.htm",
+    "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+  ],
+  "read_failures_and_web_fallbacks": "context_source_manifest.json",
+  "not_traded": true,
+  "news_cutoff_recorded_at_utc": "2026-10-28T23:36:11.579361+00:00"
+}

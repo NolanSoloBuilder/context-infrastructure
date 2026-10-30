@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "report_date_beijing": "2026-10-26",
+  "run_type": "manual_trial_requested_by_user",
+  "collection_started_at_utc": "2026-10-26T08:52:32Z",
+  "collection_cutoff_at_utc": "2026-10-26T09:04:00Z",
+  "collection_cutoff_at_beijing": "2026-10-26T17:04:00+08:00",
+  "coverage_status": "completed_selected_items_with_timestamp_gaps",
+  "coverage_note": "Public feed, search, original posts and selected substantive comments were read. This is a sample, not a complete Reddit scan. Date-only search labels have unspecified timezone. Relative ages on cached pages were not converted to exact creation times.",
+  "candidate_communities": ["investing", "stocks", "SecurityAnalysis", "ValueInvesting", "Bogleheads", "ETFs"],
+  "access_limits": {
+    "public_json_http_status": 403,
+    "retried": false,
+    "fallback": "public_web_pages_and_search_to_locate_originals",
+    "exact_created_utc_available": false
+  },
+  "items": [
+    {
+      "item_id": "bkd_occupancy_profit_quality_2026q3",
+      "post_id": "1xe494e",
+      "comment_id": "19rn0nzsc444h",
+      "community": "stocks",
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xe494e/rstocks_weekend_discussion_saturday_oct_24_2026/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xe494e/comment/19rn0nzsc444h/",
+      "post_date_displayed": "2026-10-24",
+      "comment_date_displayed": "2026-10-25",
+      "date_evidence": "Post title; date shown with the BKD comment in the search result, corroborated by original comment text. Display timezone unknown.",
+      "created_at_utc": null,
+      "created_at_beijing": null,
+      "freshness_status": "recent_date_only_not_exact_24h_verified",
+      "read_scope": "Original weekend thread, sort=new view and direct comment permalink. No substantive direct bearish reply visible.",
+      "author_disclosed_position": "long BKD, per author's self-report; not independently verified",
+      "classification": "verified_company_metrics_with_unverified_industry_claim",
+      "claims": [
+        {"claim": "Q2 occupancy 82.4%", "status": "verified", "source_id": "bkd_q2"},
+        {"claim": "Q3 average occupancy 83.1%, up 0.7 percentage points sequentially", "status": "verified", "source_id": "bkd_q3_occupancy"},
+        {"claim": "Q2 net income about USD23m included USD45.4m gain on sale of communities", "status": "verified", "source_id": "bkd_q2"},
+        {"claim": "Industry construction starts down 67% since 2021", "status": "unverified_excluded_from_conclusion"}
+      ],
+      "counterpoint": "Asset-sale gains are not recurring operating earnings; cash flow, capital expenditure, debt and lease coverage and valuation still require review.",
+      "watchlist_relevance": "Potential additional industry research, not an authorized holding or a new buy instruction.",
+      "next_check": "Q3 financial release: cash generation after capital expenditure and ability to meet debt/lease payments. Release date not verified in this run.",
+      "primary_sources": [
+        {"id": "bkd_q2", "publication_date": "2026-08-10", "event_period": "2026-Q2", "url": "https://brookdaleinvestors.com/news/news-details/2026/Brookdale-Announces-Second-Quarter-2026-Results/default.aspx"},
+        {"id": "bkd_q3_occupancy", "publication_date": "2026-10-08", "event_period": "2026-Q3", "url": "https://brookdaleinvestors.com/news/news-details/2026/Brookdale-Reports-September-2026-Occupancy/default.aspx"}
+      ]
+    },
+    {
+      "item_id": "rddt_q3_2026_users_monetization_event",
+      "post_id": "1xf2nmj",
+      "community": "stocks",
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xf2nmj/reddit_will_post_its_earnings_thursday_after/",
+      "post_date_displayed": null,
+      "created_at_utc": null,
+      "created_at_beijing": null,
+      "date_evidence": "Cached original showed only 58m ago. Absolute date was not independently established.",
+      "freshness_status": "unknown_post_time_current_verified_event",
+      "read_scope": "Original post and substantive bullish and bearish comments about U.S. daily users, advertising, traffic and stock-based compensation.",
+      "classification": "verified_earnings_event_and_historical_metrics; forward_comment_predictions_unverified",
+      "claims": [
+        {"claim": "Q2 2026 U.S. revenue grew 56% YoY, U.S. DAUq grew 6% YoY", "status": "verified", "source_id": "rddt_q2"},
+        {"claim": "Q3 release after regular-market close on October29,2026; call 16:30 America/New_York / October30 04:30 Asia/Shanghai", "status": "verified", "source_id": "rddt_q3_date"},
+        {"claim": "Google AI referrals or upcoming U.S. DAU growth will determine a favorable earnings reaction", "status": "forum_opinion_not_verified"}
+      ],
+      "correction": "OP referred to Q2; the upcoming October29 event is Q3.",
+      "counterpoint": "Improving monetization is not proof of sustainable user growth, cheap valuation or a positive earnings-day return. Future user and earnings numbers have not yet been reported.",
+      "watchlist_relevance": "Advertising and AI-traffic research context; no broad-index entry trigger inferred and no RDDT trade proposed.",
+      "next_check": "Reported Q3 U.S. DAUq and ARPU, stock-based compensation, share count and cash generation.",
+      "primary_sources": [
+        {"id": "rddt_q2", "publication_date": "2026-07-30", "event_period": "2026-Q2", "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Second-Quarter-2026-Results/"},
+        {"id": "rddt_q3_date", "publication_date": "2026-10-15", "event_date_us": "2026-10-29", "call_at_beijing": "2026-10-30T04:30:00+08:00", "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-to-Announce-Third-Quarter-Results-on-Thursday-October-29-2026/default.aspx"}
+      ]
+    },
+    {
+      "item_id": "staged_entry_not_drawdown_protection",
+      "post_id": "1xe2jx7",
+      "community": "ValueInvesting",
+      "post_url": "https://www.reddit.com/r/ValueInvesting/comments/1xe2jx7/difficult_time_to_invest/",
+      "post_date_displayed": "2026-10-24",
+      "created_at_utc": null,
+      "created_at_beijing": null,
+      "date_evidence": "Original-post date shown in public search result. Cached original had relative times; exact timezone unavailable.",
+      "freshness_status": "expanded_72h_date_only",
+      "read_scope": "Original macro-risk/holding discussion and comments advocating regular purchases. Nuance about paycheck investing also appeared in search; not relied on as a verified direct comment quotation.",
+      "classification": "forum_strategy_opinions_with_primary_method_reference",
+      "claims": [
+        {"claim": "Spreading purchases can distribute entry timing, but can lag lump-sum investing in rising markets and does not guarantee gains or prevent losses", "status": "verified_method_boundary", "source_id": "vanguard_dca"}
+      ],
+      "counterpoint": "Longer uninvested periods create opportunity cost; once equity exposure is established, staging alone does not cap portfolio drawdown.",
+      "watchlist_relevance": "Directly relevant to user's QQQM/VOO entry concern and 3–5-year drawdown-control preference. No new allocation approved.",
+      "next_check": "Clarify equity budget, maximum acceptable loss and spending needs before proposing executable purchase amounts or schedule.",
+      "primary_sources": [
+        {"id": "vanguard_dca", "publication_date": null, "event_period": "evergreen_method_reference", "url": "https://investor.vanguard.com/investor-resources-education/online-trading/dollar-cost-averaging-vs-lump-sum"}
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {"post_id": "1xe5ipq", "url": "https://www.reddit.com/r/stocks/comments/1xe5ipq/spacexs_13_gw_target_implies_125b_of_capex_a/", "reason": "Author's capex arithmetic not independently reconciled with a current primary company filing; excluded from main conclusions."},
+    {"post_id": "1x92arq", "url": "https://www.reddit.com/r/SecurityAnalysis/comments/1x92arq/what_tsmc_and_asml_told_us_about_the_ai_build/", "reason": "Cached older discussion; freshness not sufficient for current digest."},
+    {"post_id": "1xe494e", "claim": "Weekend/overnight market percentage moves", "reason": "No primary quote/date/session cross-check; not reported as verified market data."}
+  ],
+  "price_alert_state_updated": false,
+  "new_trading_authorization": false
+}

@@ -1,0 +1,34 @@
+{
+  "collected_at": "2026-10-29T09:09:01.541565+08:00",
+  "window_start": "2026-10-28T09:00:00+08:00",
+  "window_end": "2026-10-29T09:00:00+08:00",
+  "message_count": 12,
+  "candidate_count": 10,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b61234832c0a8ce8b9a790e52923",
+      "source_time": "2026-10-28 11:46+08:00",
+      "sync_create_time": "1793159280408",
+      "content_sha256": "691ce4fd13cb9f7a1b9add04f46c8b217dc68e2318c495e9aa554edc7fc00334",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为恒科成分股调整使其此前基于头部中概股的评估需要重新对照；当时未见业绩提振。保守者可继续等待更低估值或右侧条件，担心踏空者才考虑估值下行中定投。此判断针对港股科技，不能直接推广至科创50。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6122b93d2cacce4e86308681b78",
+      "source_time": "2026-10-28 11:41+08:00",
+      "sync_create_time": "1793159039302",
+      "content_sha256": "fe0de9ca9cb32f5d1e3e8be8cb6ba32c6d02219c2071ab2840be233ab02ba0b3",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者强调估值需要结合业绩与PE/PB，并区分价值、成长、周期；认为中概低估值也可能伴随盈利欠佳，修复依赖盈利或预期改善。属于作者判断，非本报独立基本面验证。",
+      "member_content_retained": false
+    }
+  ],
+  "previously_reported_not_repeated": [
+    "om_x100b6122e3d02d1ccfd96c1daa312f7",
+    "om_x100b6120d13104a8b09e5cabd88e759"
+  ],
+  "excluded": "成员回复、非投资内容、北交所申购及重复材料；没有保存无关个人资料",
+  "coverage": "群同步资料，非原星球直读；未检出新增A股明确交易条件不等于作者没有发布"
+}

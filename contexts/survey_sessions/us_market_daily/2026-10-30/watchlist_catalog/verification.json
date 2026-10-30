@@ -1,0 +1,38 @@
+{
+  "assets": 17,
+  "etfs_together": 9,
+  "individual_stocks": 8,
+  "industry_groups": {
+    "industry-internet_ai": [
+      "GOOGL"
+    ],
+    "industry-semiconductors": [
+      "NVDA"
+    ],
+    "industry-automation": [
+      "RRX",
+      "CGNX",
+      "ATS"
+    ],
+    "industry-fintech": [
+      "SOFI"
+    ],
+    "industry-biotech": [
+      "MRNA"
+    ],
+    "industry-conglomerate": [
+      "BRK-B"
+    ]
+  },
+  "QQQ_removed_from_current_cards_collection_alerts": true,
+  "price_metrics_unchanged": true,
+  "visual_browser_check": "Not rerun: previous exact local URL blocked by Browser Use URL policy; no bypass",
+  "interaction_logic_checks": [
+    "ETF9 hides stock root",
+    "stock8 shows6 industries",
+    "industry search returns3",
+    "empty groups hide",
+    "navigation reset",
+    "all17"
+  ]
+}

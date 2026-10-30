@@ -1,0 +1,27 @@
+{
+  "report_date_beijing": "2026-10-28",
+  "market_session": null,
+  "generated_at_utc": "2026-10-28T06:50:30.488Z",
+  "source_markdown_sha256": "b2f156b2fb5b5c32f39cc43d6c30a3cdd43adf9138cb2e7d58217bcbbd82fbee",
+  "html_sha256": "a1421c41becdd58c8712435a0a181a90cea0b7cc835882b39334e0a4ca3b2007",
+  "html_bytes": 577093,
+  "embedded_chart_files": [
+    "google_valuation_scenarios.png"
+  ],
+  "embedded_appendices": [
+    "robotics_value_screen.md",
+    "robotics_quality_screen.md",
+    "google_capital_audit.md"
+  ],
+  "downloadable_evidence": [
+    "google_forecast.csv",
+    "google_model_inputs.json",
+    "google_valuation_model.json",
+    "robotics_value_sources.json",
+    "robotics_quality_sources.json",
+    "google_capital_sources.json",
+    "parent_normalization_review.json",
+    "valuation_checks.json"
+  ],
+  "content_policy": "Reviewed report is the content source; no fetching or price recomputation; images and linked local evidence embedded for offline use."
+}

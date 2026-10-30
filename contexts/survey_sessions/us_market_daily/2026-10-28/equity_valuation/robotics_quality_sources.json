@@ -1,0 +1,367 @@
+{
+  "report_date_beijing": "2026-10-28",
+  "asof_price_session_us": "2026-10-27",
+  "collected_at_utc": "2026-10-28T06:29:29.931971+00:00",
+  "selection_scope": [
+    "CGNX",
+    "NOVT",
+    "ZBRA",
+    "ROK",
+    "TER"
+  ],
+  "conclusion": "No clear present-price bargain in this screened quality subset; robotics operating exposure and valuation must both qualify.",
+  "prices": {
+    "CGNX": 58.22,
+    "NOVT": 149.35,
+    "ZBRA": 381.67,
+    "ROK": 439.2,
+    "TER": 323.68
+  },
+  "models": {
+    "CGNX": {
+      "method": "5-year terminal earnings exit-value discount + constant cash dividends; model assumptions, not issuer forecast",
+      "eps0_company_2026_adjusted_guidance_midpoint": 1.66,
+      "annual_cash_dividend_assumption": 0.34,
+      "required_return_assumption": 0.11,
+      "scenarios": [
+        {
+          "name": "bear",
+          "annual_eps_growth_assumption": 0.08,
+          "terminal_pe_assumption": 22,
+          "eps_year5": 2.4390846074880006,
+          "dividend_pv": 1.256604986000818,
+          "present_value_usd": 33.10112097634154
+        },
+        {
+          "name": "base",
+          "annual_eps_growth_assumption": 0.12,
+          "terminal_pe_assumption": 26,
+          "eps_year5": 2.925487194112001,
+          "dividend_pv": 1.256604986000818,
+          "present_value_usd": 46.39609576066672
+        },
+        {
+          "name": "bull",
+          "annual_eps_growth_assumption": 0.18,
+          "terminal_pe_assumption": 30,
+          "eps_year5": 3.7976778762879992,
+          "dividend_pv": 1.256604986000818,
+          "present_value_usd": 68.86871436265241
+        }
+      ],
+      "base_less_15pct_margin": 39.43668139656671,
+      "price_over_2026_guidance_eps": 35.07228915662651,
+      "limits": "Non-GAAP EPS; cyclical and acquisition adjustments may remain real economic cost. No net cash added. Not a full DCF or loss bound."
+    },
+    "NOVT": {
+      "method": "5-year terminal earnings exit-value discount + constant cash dividends; model assumptions, not issuer forecast",
+      "eps0_company_2026_adjusted_guidance_midpoint": 3.71,
+      "annual_cash_dividend_assumption": 0,
+      "required_return_assumption": 0.12,
+      "scenarios": [
+        {
+          "name": "bear",
+          "annual_eps_growth_assumption": 0.06,
+          "terminal_pe_assumption": 22,
+          "eps_year5": 4.964816892896001,
+          "dividend_pv": 0.0,
+          "present_value_usd": 61.97774965260038
+        },
+        {
+          "name": "base",
+          "annual_eps_growth_assumption": 0.1,
+          "terminal_pe_assumption": 26,
+          "eps_year5": 5.974992100000002,
+          "dividend_pv": 0.0,
+          "present_value_usd": 88.14964548640825
+        },
+        {
+          "name": "bull",
+          "annual_eps_growth_assumption": 0.14,
+          "terminal_pe_assumption": 30,
+          "eps_year5": 7.143288100704004,
+          "dividend_pv": 0.0,
+          "present_value_usd": 121.59880519423673
+        }
+      ],
+      "base_less_15pct_margin": 74.927198663447,
+      "price_over_2026_guidance_eps": 40.25606469002695,
+      "limits": "Non-GAAP EPS; cyclical and acquisition adjustments may remain real economic cost. No net cash added. Not a full DCF or loss bound."
+    },
+    "ROK": {
+      "method": "5-year terminal earnings exit-value discount + constant cash dividends; model assumptions, not issuer forecast",
+      "eps0_company_2026_adjusted_guidance_midpoint": 13.15,
+      "annual_cash_dividend_assumption": 5.52,
+      "required_return_assumption": 0.1,
+      "scenarios": [
+        {
+          "name": "bear",
+          "annual_eps_growth_assumption": 0.05,
+          "terminal_pe_assumption": 20,
+          "eps_year5": 16.783102546875003,
+          "dividend_pv": 20.92514296713463,
+          "present_value_usd": 229.34486773599664
+        },
+        {
+          "name": "base",
+          "annual_eps_growth_assumption": 0.08,
+          "terminal_pe_assumption": 23,
+          "eps_year5": 19.32166420992001,
+          "dividend_pv": 20.92514296713463,
+          "present_value_usd": 296.8615089804844
+        },
+        {
+          "name": "bull",
+          "annual_eps_growth_assumption": 0.12,
+          "terminal_pe_assumption": 26,
+          "eps_year5": 23.17479313408001,
+          "dividend_pv": 20.92514296713463,
+          "present_value_usd": 395.05794654244926
+        }
+      ],
+      "base_less_15pct_margin": 252.33228263341175,
+      "price_over_2026_guidance_eps": 33.39923954372623,
+      "limits": "Non-GAAP EPS; cyclical and acquisition adjustments may remain real economic cost. No net cash added. Not a full DCF or loss bound."
+    }
+  },
+  "sources": [
+    {
+      "id": "cgnx_q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000061/a07052026-xex991xq22026ear.htm",
+      "publication_date": "2026-08-05",
+      "period_end": "2026-07-05",
+      "scope": "issuer EX99.1 results, cash flow, full-year guidance",
+      "facts": {
+        "2026_adjusted_eps_guidance": [
+          1.64,
+          1.68
+        ],
+        "q2_fcf_usd_millions": 67.621,
+        "cash_and_investments_usd_millions": 755.013,
+        "quarter_dividend_usd": 0.085
+      },
+      "excerpt": "Adj. EPS (diluted) $1.64 - $1.68",
+      "limits": "Cash predates announced RealSense purchase."
+    },
+    {
+      "id": "cgnx_realsense",
+      "url": "https://investor.cognex.com/news/news-details/2026/Cognex-to-Acquire-RealSense-Expanding-Machine-Vision-Leadership-into-High-Growth-Robotic-Perception-Market/default.aspx",
+      "publication_date": "2026-09-22",
+      "scope": "issuer acquisition announcement",
+      "facts": {
+        "cash_purchase_price_approx_usd_millions": 500,
+        "three_year_retention_target_usd_millions": 56.5,
+        "rsu_grant_value_approx_usd_millions": 50,
+        "expected_close": "2026-Q4"
+      },
+      "limits": "Announced conditional transaction; no assumed realized synergies."
+    },
+    {
+      "id": "cgnx_products",
+      "url": "https://docs.cognex.com/isvs_2610/web/EN/InSight_Sheet/Content/Topics/HowTo/vision-guided-robotics.htm",
+      "scope": "actual vision-guided robotics product documentation",
+      "limits": "Does not establish revenue percentage or returns."
+    },
+    {
+      "id": "cgnx_calendar",
+      "url": "https://investor.cognex.com/news/news-details/2026/Cognex-Announces-Third-Quarter-2026-Earnings-Release-and-Conference-Call-Dates/default.aspx",
+      "publication_date": "2026-10-15",
+      "facts": {
+        "release": "2026-11-04 after US regular close",
+        "call": "2026-11-05 08:30 EST"
+      }
+    },
+    {
+      "id": "novt_q2",
+      "url": "https://investors.novanta.com/news/news-details/2026/Novanta-Announces-Financial-Results-for-the-Second-Quarter-2026/default.aspx",
+      "publication_date": "2026-08-05",
+      "period_end": "2026-07-03",
+      "facts": {
+        "2026_adjusted_eps_guidance": [
+          3.68,
+          3.74
+        ],
+        "weighted_diluted_shares_millions": 41.2,
+        "cash_usd_millions": 718.65,
+        "gross_debt_usd_millions": 238.775
+      },
+      "limits": "Balance sheet predates July Riverpoint close; common vs diluted shares not bridged; no static EV conclusion."
+    },
+    {
+      "id": "novt_products",
+      "url": "https://novanta.com/capabilities/robotics-automation/",
+      "scope": "precision motion and robotics capability page",
+      "excerpt": "Over a third of Novanta’s business",
+      "limits": "Broad applications share is not disclosed humanoid robot revenue share."
+    },
+    {
+      "id": "novt_riverpoint",
+      "url": "https://investors.novanta.com/news/news-details/2026/Novanta-Completes-Acquisition-of-Riverpoint-Medical/default.aspx",
+      "publication_date": "2026-07-27",
+      "facts": {
+        "expected_medical_end_market_revenue_exposure_pct": 60
+      },
+      "limits": "Forward-looking mix; closing debt not inferred from older balance sheet."
+    },
+    {
+      "id": "rok_q3",
+      "url": "https://www.rockwellautomation.com/en-se/company/news/press-releases/Rockwell-Automation-Reports-Third-Quarter-2026-Results.html",
+      "publication_date": "2026-08-04",
+      "period_end": "2026-06-30",
+      "facts": {
+        "fy2026_adjusted_eps_guidance": [
+          13.0,
+          13.3
+        ],
+        "q3_fcf_usd_millions": 654,
+        "q3_organic_sales_yoy_pct": 10
+      }
+    },
+    {
+      "id": "rok_otto",
+      "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-completes-acquisition-of-autonomous-robotics-leader-Clearpath-Robotics-and-its-industrial-offering-OTTO-Motors.html",
+      "scope": "completed acquisition, actual AMR business",
+      "limits": "No separate 2026 robotics revenue percentage disclosed here."
+    },
+    {
+      "id": "zbra_q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052158/zbraex99120260704.htm",
+      "publication_date": "2026-08-04",
+      "period_end": "2026-07-04",
+      "facts": {
+        "2026_adjusted_eps_guidance": [
+          20.75,
+          21.25
+        ],
+        "2026_fcf_guidance_usd_millions_greater_than": 1000,
+        "q2_tariff_recoveries_recorded_usd_millions": 73,
+        "q2_tariff_cash_received_usd_millions": 14,
+        "cash_usd_millions": 157,
+        "total_debt_usd_millions": 2776,
+        "h1_fcf_usd_millions": 361
+      },
+      "limits": "Adjusted earnings include tariff effect; normalized EPS19-20 is analyst scenario assumption, not company guidance."
+    },
+    {
+      "id": "zbra_exit",
+      "url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2026/skild-ai-acquires-zebra-technologies--robotics-automation-busine.html",
+      "publication_date": "2026-04-15",
+      "scope": "issuer confirms Skild AI acquired Robotics Automation business",
+      "excerpt": "Skild AI has acquired Zebra’s Robotics Automation business.",
+      "limits": "Retained equity stake does not retain ownership of operating robotics business."
+    },
+    {
+      "id": "ter_q3",
+      "url": "https://investors.teradyne.com/news-events/press-releases/detail/455/teradyne-reports-third-quarter-2026-results",
+      "publication_date": "2026-10-27",
+      "facts": {
+        "q3_revenue_usd_millions_rounded": 1306,
+        "q3_robotics_revenue_usd_millions_rounded": 96,
+        "robotics_revenue_share_pct_calculated": 7.3506891271056665
+      },
+      "limits": "Release after regular close; does not establish cheapness."
+    },
+    {
+      "id": "cgnx_price_and_ratios",
+      "url": "https://stockanalysis.com/stocks/cgnx/statistics/",
+      "scope": "Oct27 regular close; valuation statistics inspected Oct28",
+      "facts": {
+        "close_usd": 58.22,
+        "ttm_pe": 55.99,
+        "forward_pe": 32.45,
+        "p_fcf": 36.5
+      },
+      "price_cross_check": {
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=2y&interval=1d&events=div%2Csplits",
+        "session": "2026-10-27",
+        "same_close_to_cents": true
+      },
+      "limits": "Third-party forward expectations are not issuer guidance. Underlying reporting periods differ; not all balance-sheet fields independently reconciled."
+    },
+    {
+      "id": "novt_price_and_ratios",
+      "url": "https://stockanalysis.com/stocks/novt/statistics/",
+      "scope": "Oct27 regular close; valuation statistics inspected Oct28",
+      "facts": {
+        "close_usd": 149.35,
+        "ttm_pe": 94.41,
+        "forward_pe": 37.43,
+        "p_fcf": 49.42
+      },
+      "price_cross_check": {
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOVT?range=2y&interval=1d&events=div%2Csplits",
+        "session": "2026-10-27",
+        "same_close_to_cents": true
+      },
+      "limits": "Third-party forward expectations are not issuer guidance. Underlying reporting periods differ; not all balance-sheet fields independently reconciled."
+    },
+    {
+      "id": "zbra_price_and_ratios",
+      "url": "https://stockanalysis.com/stocks/zbra/statistics/",
+      "scope": "Oct27 regular close; valuation statistics inspected Oct28",
+      "facts": {
+        "close_usd": 381.67,
+        "ttm_pe": 35.3,
+        "forward_pe": 18.18,
+        "p_fcf": 19.97
+      },
+      "price_cross_check": {
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ZBRA?range=2y&interval=1d&events=div%2Csplits",
+        "session": "2026-10-27",
+        "same_close_to_cents": true
+      },
+      "limits": "Third-party forward expectations are not issuer guidance. Underlying reporting periods differ; not all balance-sheet fields independently reconciled."
+    },
+    {
+      "id": "rok_price_and_ratios",
+      "url": "https://stockanalysis.com/stocks/rok/statistics/",
+      "scope": "Oct27 regular close; valuation statistics inspected Oct28",
+      "facts": {
+        "close_usd": 439.2,
+        "ttm_pe": 41.16,
+        "forward_pe": 30.27,
+        "p_fcf": 32.43
+      },
+      "price_cross_check": {
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ROK?range=2y&interval=1d&events=div%2Csplits",
+        "session": "2026-10-27",
+        "same_close_to_cents": true
+      },
+      "limits": "Third-party forward expectations are not issuer guidance. Underlying reporting periods differ; not all balance-sheet fields independently reconciled."
+    },
+    {
+      "id": "ter_price_and_ratios",
+      "url": "https://stockanalysis.com/stocks/ter/statistics/",
+      "scope": "Oct27 regular close; valuation statistics inspected Oct28",
+      "facts": {
+        "close_usd": 323.68,
+        "ttm_pe": 37.15,
+        "forward_pe": 31.24,
+        "p_fcf": 49.38
+      },
+      "price_cross_check": {
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TER?range=2y&interval=1d&events=div%2Csplits",
+        "session": "2026-10-27",
+        "same_close_to_cents": true
+      },
+      "limits": "Third-party forward expectations are not issuer guidance. Underlying reporting periods differ; not all balance-sheet fields independently reconciled."
+    }
+  ],
+  "zbra_scenario": {
+    "normalized_eps_assumption": [
+      19,
+      20
+    ],
+    "fair_pe_assumption": [
+      18,
+      20
+    ],
+    "scenario_value_usd": [
+      342,
+      400
+    ],
+    "guide_midpoint_pe": 18.174761904761905,
+    "classification": "adjacent automation, not former Fetch AMR exposure"
+  },
+  "access_note": "Initial Yahoo short-window requests failed; standard public daily chart requests with ordinary UA succeeded. No login/access-limit bypass."
+}

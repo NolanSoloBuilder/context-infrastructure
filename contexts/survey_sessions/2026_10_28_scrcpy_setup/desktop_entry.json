@@ -1,0 +1,7 @@
+{
+  "app_path": "/Users/xuhao/Applications/Android投屏.app",
+  "binary_source": "/opt/homebrew/Cellar/scrcpy/5.0.1/bin/scrcpy",
+  "binary_sha256": "ffca37e955508372b72d4ab767ed0558baafd82a40a5eeb909f5ab0704955367",
+  "bundle_identifier": "local.xuhao.scrcpy",
+  "wrapper": "Locally created launcher wrapping the Homebrew scrcpy binary; no additional downloads"
+}

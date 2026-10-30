@@ -1,0 +1,1800 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-10-30",
+  "generated_at_beijing": "2026-10-30T09:44:47.195226+08:00",
+  "regular_session": "2026-10-29",
+  "groups": [
+    {
+      "id": "indices",
+      "label": "宽基与风格ETF",
+      "assets": [
+        {
+          "symbol": "VOO",
+          "name": "标普500",
+          "kind": "fund",
+          "facts": {
+            "name": "Vanguard S&P 500 ETF",
+            "type": "美国大盘宽基指数ETF",
+            "strategy": "被动复制标普500指数，覆盖美国主要行业的大型公司。",
+            "expense_pct": 0.03,
+            "holdings_count": 505,
+            "holdings_date": "2026-09-30",
+            "holdings": [
+              {
+                "symbol": "NVDA",
+                "name": "NVIDIA",
+                "weight_pct": 8.4
+              },
+              {
+                "symbol": "AAPL",
+                "name": "Apple",
+                "weight_pct": 7.4
+              },
+              {
+                "symbol": "MSFT",
+                "name": "Microsoft",
+                "weight_pct": 5.8
+              },
+              {
+                "symbol": "GOOGL/GOOG",
+                "name": "Alphabet（类别合并）",
+                "weight_pct": 5.5
+              },
+              {
+                "symbol": "AMZN",
+                "name": "Amazon",
+                "weight_pct": 3.7
+              },
+              {
+                "symbol": "AVGO",
+                "name": "Broadcom",
+                "weight_pct": 2.5
+              },
+              {
+                "symbol": "META",
+                "name": "Meta",
+                "weight_pct": 2.4
+              },
+              {
+                "symbol": "MU",
+                "name": "Micron",
+                "weight_pct": 1.8
+              },
+              {
+                "symbol": "TSLA",
+                "name": "Tesla",
+                "weight_pct": 1.5
+              },
+              {
+                "symbol": "AMD",
+                "name": "AMD",
+                "weight_pct": 1.5
+              }
+            ],
+            "notes": [
+              "前十大公司合计40.6%；Alphabet为A/C类合并口径，不能再把GOOGL与GOOG重复相加。",
+              "信息技术39.7%，仍有明显科技权重；与QQQM、VGT、MAGS及单独GOOGL/NVDA会重叠。",
+              "在本观察池中可作为较广泛的股票核心研究对象；全股票ETF仍可能出现超过20%的阶段性跌幅。",
+              "发行人披露P/E 24.7倍、P/B 5.3倍（2026-09-30）；未统一核验各基金分母口径，只作背景，不直接横比认定低估。"
+            ],
+            "risks": [
+              "美国大盘整体估值与盈利风险；宽基覆盖并不限制最大回撤。"
+            ],
+            "sources": [
+              {
+                "url": "https://fund-docs.vanguard.com/F0968.pdf",
+                "title": "Vanguard VOO官方月末事实表",
+                "asof": "2026-09-30"
+              }
+            ],
+            "gaps": [
+              "使用9/30官方月末披露，不把它写成10/29最新持仓。"
+            ],
+            "metrics": {
+              "pe": 24.7,
+              "pb": 5.3,
+              "metrics_date": "2026-09-30",
+              "fund_etf_assets_usd": 1032260000000,
+              "distribution": "季度"
+            }
+          },
+          "kind_label": "美国大盘宽基指数ETF",
+          "new": false,
+          "role": "已持有 · 股票核心",
+          "personal_note": "你已持有VOO。后续评估总股票仓位和分批额度，仍需连同QQQM及GOOG的间接暴露一起控制集中度。宽基并不限制最大回撤。",
+          "quote": {
+            "symbol": "VOO",
+            "label": "VOO",
+            "session": "2026-10-29",
+            "close": 707.32,
+            "day_pct": -0.36343386408153044,
+            "five_session_pct": 0.7147970409377091,
+            "twenty_one_session_pct": 0.921727892542723,
+            "high_52w": 718.47,
+            "high_date": "2026-10-06",
+            "drawdown_pct": -1.5519038837481847,
+            "level_15": 610.7,
+            "level_25": 538.85,
+            "additional_drop_to_15_pct": -13.660087545392162,
+            "ma50": 705.8242028808594,
+            "ma200": 669.9015008544922,
+            "vs_ma50_pct": 0.2119230875413658,
+            "vs_ma200_pct": 5.585672882057646,
+            "volume": 5070399,
+            "volume_vs_prior20": 0.9229092835183557,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "按最新私人持仓基线研究后续额度，不假定从零建仓或已采用旧草案。",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 703.2,
+            "price_raw": 703.2,
+            "bar_start_unix": 1793316874,
+            "bar_start_et": "2026-10-29T19:34:34-04:00",
+            "bar_start_beijing": "2026-10-30T07:34:34+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 707.32,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -0.5824813772213777,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          }
+        },
+        {
+          "symbol": "QQQM",
+          "name": "纳斯达克100",
+          "kind": "fund",
+          "facts": {
+            "symbol": "QQQM",
+            "name": "Invesco NASDAQ 100 ETF",
+            "type": "纳斯达克100指数ETF",
+            "strategy": "跟踪纳斯达克100，覆盖纳斯达克上市的大型非金融公司；跨行业，但偏向大型科技成长。",
+            "expense_pct": 0.15,
+            "holdings_date": null,
+            "holdings": [],
+            "notes": [
+              "跟踪纳斯达克100；本清单保留QQQM作为该指数的观察工具。",
+              "年费率0.15%不含交易价差；具体权重以自身发行人披露为准。"
+            ],
+            "risks": [
+              "大型成长、科技及半导体集中；增持Google或NVDA会叠加已有间接持仓。"
+            ],
+            "sources": [
+              {
+                "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html",
+                "title": "QQQM官方基金页",
+                "asof": "2026-10-30核验费率/策略"
+              }
+            ],
+            "gaps": [
+              "本次未从发行人读取到有明确日期的QQQM最新持仓权重；同指数QQQ持仓只作经济暴露参考，不复制为QQQM精确权重。"
+            ]
+          },
+          "kind_label": "纳斯达克100指数ETF",
+          "new": false,
+          "role": "已持有 · 成长指数",
+          "personal_note": "你已持有QQQM。它与VOO、GOOG的成长和头部公司风险有重叠；增加科技或芯片ETF前，应先核总敞口。",
+          "quote": {
+            "symbol": "QQQM",
+            "label": "QQQM",
+            "session": "2026-10-29",
+            "close": 294.53,
+            "day_pct": -1.399348128738398,
+            "five_session_pct": 1.5165594121371972,
+            "twenty_one_session_pct": -3.3186762680561976,
+            "high_52w": 314.11,
+            "high_date": "2026-10-06",
+            "drawdown_pct": -6.2349751091041234,
+            "level_15": 266.99,
+            "level_25": 235.58,
+            "additional_drop_to_15_pct": -9.347861743858953,
+            "ma50": 298.69560302734374,
+            "ma200": 279.6379013824463,
+            "vs_ma50_pct": -1.3945984493335617,
+            "vs_ma200_pct": 5.3254931907400715,
+            "volume": 2450178,
+            "volume_vs_prior20": 0.8252911466166363,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "结合既有仓位、估值和重大事件研究后续分批。",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 290.17,
+            "price_raw": 290.17,
+            "bar_start_unix": 1793316937,
+            "bar_start_et": "2026-10-29T19:35:37-04:00",
+            "bar_start_beijing": "2026-10-30T07:35:37+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 294.53,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -1.4803241768444497,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          }
+        },
+        {
+          "symbol": "SPMO",
+          "name": "标普500动量因子",
+          "kind": "fund",
+          "facts": {
+            "name": "Invesco S&P 500 Momentum ETF",
+            "type": "被动指数／动量因子ETF",
+            "strategy": "跟踪S&P 500 Momentum Index，至少90%资产投向指数证券；按市值和动量分数赋权，每年3月及9月第三个星期五重构并再平衡。",
+            "expense_pct": 0.13,
+            "inception_date": "2015-10-09",
+            "holdings_date": "2026-10-28",
+            "holdings": [
+              {
+                "name": "Apple Inc",
+                "symbol": "AAPL",
+                "weight_pct": 9.703
+              },
+              {
+                "name": "Micron Technology Inc",
+                "symbol": "MU",
+                "weight_pct": 9.1713
+              },
+              {
+                "name": "Advanced Micro Devices Inc",
+                "symbol": "AMD",
+                "weight_pct": 5.5646
+              },
+              {
+                "name": "Johnson & Johnson",
+                "symbol": "JNJ",
+                "weight_pct": 4.8256
+              },
+              {
+                "name": "Alphabet Inc",
+                "symbol": "GOOGL",
+                "weight_pct": 4.7489
+              },
+              {
+                "name": "Intel Corp",
+                "symbol": "INTC",
+                "weight_pct": 4.6138
+              },
+              {
+                "name": "Alphabet Inc",
+                "symbol": "GOOG",
+                "weight_pct": 3.8209
+              },
+              {
+                "name": "ExxonMobil Holdings Corp",
+                "symbol": "XOM",
+                "weight_pct": 3.5551
+              },
+              {
+                "name": "Cisco Systems Inc",
+                "symbol": "CSCO",
+                "weight_pct": 2.4611
+              },
+              {
+                "name": "Lam Research Corp",
+                "symbol": "LRCX",
+                "weight_pct": 2.4167
+              }
+            ],
+            "holdings_count": 103,
+            "top10_weight_pct": 50.881,
+            "notes": [
+              "股票来自标普500但权重与VOO明显不同。",
+              "动量策略追随近期强势，与低估筛选是不同逻辑。GOOG与GOOGL应合并评估Alphabet公司暴露。"
+            ],
+            "risks": [
+              "趋势快速反转时可能落后；半年调整造成滞后；阶段性行业或个股集中。"
+            ],
+            "sources": [
+              {
+                "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-momentum-etf.html",
+                "title": "Invesco SPMO官方产品页",
+                "asof": "2026-10-30采集"
+              },
+              {
+                "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138E339/holdings/fund?idType=cusip&productType=ETF",
+                "title": "Invesco官方持仓API",
+                "asof": "2026-10-28"
+              }
+            ],
+            "gaps": [
+              "持仓API最新有效日为10/28，与10/29行情基准相差一个交易日，勿冒称同日。"
+            ]
+          },
+          "kind_label": "被动指数／动量因子ETF",
+          "new": true,
+          "role": "动量因子",
+          "personal_note": "从标普500中筛选动量较强的股票，可能在趋势反转时快速回撤。它增加风格倾向，并不自动筛出低估公司。",
+          "quote": {
+            "symbol": "SPMO",
+            "session": "2026-10-29",
+            "close": 142.4,
+            "day_pct": -1.725,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=2y&interval=1d&events=div%2Csplits",
+            "crosscheck_url": "https://stockanalysis.com/etf/spmo/",
+            "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+            "gaps": [
+              "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+            ],
+            "daily_bar_session": "2026-10-28",
+            "daily_bar_close": 144.9,
+            "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+            "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+          },
+          "next": "核验估值、盈利周期、成分重叠及交易价差，再考虑是否从既定风险预算中划分。"
+        },
+        {
+          "symbol": "MAGS",
+          "name": "七巨头集中组合",
+          "kind": "fund",
+          "facts": {
+            "name": "Roundhill Magnificent Seven ETF",
+            "type": "主动管理股票ETF（含总回报互换）",
+            "strategy": "七巨头等权敞口，每季度再平衡",
+            "expense_pct": 0.3,
+            "inception_date": "2023-04-11",
+            "holdings_date": "2026-10-29",
+            "raw_csv_date": "2026-10-30",
+            "holdings_date_method": "官网app.js的Co函数对CSV Date减一日后展示；文件名10292026和所用美股价格均对应10/29。",
+            "holdings": [
+              {
+                "name": "Tesla",
+                "symbol": "TSLA",
+                "weight_pct": 16.89,
+                "direct_weight_pct": 6.26,
+                "swap_weight_pct": 10.63
+              },
+              {
+                "name": "Apple",
+                "symbol": "AAPL",
+                "weight_pct": 15.36,
+                "direct_weight_pct": 5.69,
+                "swap_weight_pct": 9.67
+              },
+              {
+                "name": "Microsoft",
+                "symbol": "MSFT",
+                "weight_pct": 15.13,
+                "direct_weight_pct": 4.11,
+                "swap_weight_pct": 11.02
+              },
+              {
+                "name": "Amazon",
+                "symbol": "AMZN",
+                "weight_pct": 14.41,
+                "direct_weight_pct": 5.34,
+                "swap_weight_pct": 9.07
+              },
+              {
+                "name": "NVIDIA",
+                "symbol": "NVDA",
+                "weight_pct": 13.72,
+                "direct_weight_pct": 5.08,
+                "swap_weight_pct": 8.64
+              },
+              {
+                "name": "Meta Platforms",
+                "symbol": "META",
+                "weight_pct": 12.6,
+                "direct_weight_pct": 4.67,
+                "swap_weight_pct": 7.93
+              },
+              {
+                "name": "Alphabet",
+                "symbol": "GOOGL",
+                "weight_pct": 12.03,
+                "direct_weight_pct": 4.46,
+                "swap_weight_pct": 7.57
+              }
+            ],
+            "holdings_basis": "同一公司直接股票权重与总回报互换名义敞口权重之和。按披露四舍五入值汇总，非互换公允价值权重。",
+            "holdings_exposure_total_pct": 100.14,
+            "collateral_and_other": [
+              {
+                "symbol": "912797VA2",
+                "name": "United States Treasury Bill 12/03/2026",
+                "weight_pct": 18.55
+              },
+              {
+                "symbol": "912797VP9",
+                "name": "United States Treasury Bill 11/03/2026",
+                "weight_pct": 9.31
+              },
+              {
+                "symbol": "912797WN3",
+                "name": "United States Treasury Bill 01/05/2027",
+                "weight_pct": 9.24
+              },
+              {
+                "symbol": "FGXXX",
+                "name": "First American Government Obligations Fund 12/01/2031",
+                "weight_pct": 14.43
+              },
+              {
+                "symbol": "XBOX",
+                "name": "Roundhill Box Spread ETF",
+                "weight_pct": 5.8
+              },
+              {
+                "symbol": "Cash&Other",
+                "name": "Cash & Other",
+                "weight_pct": -57.47
+              }
+            ],
+            "net_assets_usd": 5370141700.0,
+            "notes": [
+              "表内持仓指基金持仓，非用户已持有。",
+              "以股票及互换合并经济敞口理解集中度；国债/货基等担保或现金管理资产不能当作低风险股票替代仓位。",
+              "原始CSV含互换名义敞口及负Cash & Other，不宜把所有行正权重相加作净资产配置。"
+            ],
+            "risks": [
+              "少数公司集中、科技盈利和估值共振、互换对手方及融资风险"
+            ],
+            "sources": [
+              {
+                "url": "https://www.roundhillinvestments.com/etf/mags/",
+                "title": "Roundhill MAGS官方产品页",
+                "asof": "2026-10-30采集（费率和策略）"
+              },
+              {
+                "url": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_10292026.csv",
+                "title": "Roundhill官方每日全基金持仓CSV",
+                "asof": "2026-10-29展示口径"
+              },
+              {
+                "url": "https://www.roundhillinvestments.com/assets/js/app.js",
+                "title": "官网持仓渲染及日期处理代码",
+                "asof": "2026-10-30采集"
+              }
+            ],
+            "gaps": [
+              "未核基金最新每股NAV或买卖价差；本文件不提供实时行情。"
+            ]
+          },
+          "kind_label": "主动管理股票ETF（含总回报互换）",
+          "new": true,
+          "role": "高集中卫星候选",
+          "personal_note": "七家公司的集中组合，会叠加QQQM及GOOGL/NVDA持股。若以后研究小额参与，应从同一股票预算中划分。",
+          "quote": {
+            "symbol": "MAGS",
+            "session": "2026-10-29",
+            "close": 69.7,
+            "day_pct": -2.189,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=2y&interval=1d&events=div%2Csplits",
+            "crosscheck_url": "https://stockanalysis.com/etf/mags/",
+            "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+            "gaps": [
+              "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+            ],
+            "daily_bar_session": "2026-10-28",
+            "daily_bar_close": 71.26,
+            "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+            "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+          },
+          "next": "核验估值、盈利周期、成分重叠及交易价差，再考虑是否从既定风险预算中划分。"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "label": "机器人相关",
+      "assets": [
+        {
+          "symbol": "RRX",
+          "name": "运动控制与电机",
+          "kind": "stock",
+          "facts": {
+            "name": "Regal Rexnord",
+            "strategy": "电机、传动与运动控制等工业产品。",
+            "business": "多元工业与运动控制业务。尚无已核验人形机器人独立收入占比。",
+            "fact_lines": [
+              "2026Q2资料：调整EPS指引中点10.60美元，经退税和股权薪酬修正后的研究分母9.71美元，仍包含收购摊销调整。"
+            ],
+            "sources": [
+              {
+                "url": "https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/REGAL-REXNORD-REPORTS-SECOND-QUARTER-2026-FINANCIAL-RESULTS/default.aspx",
+                "title": "Regal Rexnord Q2业绩与调整表",
+                "asof": "2026-08-05"
+              }
+            ],
+            "risks": [
+              "工业周期、债务、收购摊销的经济成本；研究倍数有主观性。"
+            ],
+            "notes": [
+              "9.71是研究调整值，不是公司GAAP EPS。下一财报观察11/3。"
+            ],
+            "gaps": []
+          },
+          "kind_label": "个股",
+          "new": false,
+          "role": "机器人供应链",
+          "personal_note": "机器人只是运动控制业务的一部分。现有条件估值尚未显示足够安全边际，不能为全部业务加上人形机器人溢价。",
+          "quote": {
+            "symbol": "RRX",
+            "label": "RRX",
+            "session": "2026-10-29",
+            "close": 163.62,
+            "day_pct": 1.5705499018015656,
+            "five_session_pct": 10.026217288799266,
+            "twenty_one_session_pct": 5.4864254228286,
+            "high_52w": 247.8,
+            "high_date": "2026-07-01",
+            "drawdown_pct": -33.970947093567105,
+            "level_15": 210.63,
+            "level_25": 185.85,
+            "additional_drop_to_15_pct": 28.73121188100345,
+            "ma50": 157.97439849853515,
+            "ma200": 189.7901998901367,
+            "vs_ma50_pct": 3.573741487425064,
+            "vs_ma200_pct": -13.789017972528761,
+            "volume": 921622,
+            "volume_vs_prior20": 0.854596033122224,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RRX?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "11/3现金流、持续调整与去杠杆",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 162.0,
+            "price_raw": 162.0,
+            "bar_start_unix": 1793308605,
+            "bar_start_et": "2026-10-29T17:16:45-04:00",
+            "bar_start_beijing": "2026-10-30T05:16:45+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 163.62,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -0.9900960569103279,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          },
+          "industry_id": "automation",
+          "industry": "工业自动化与机器人"
+        },
+        {
+          "symbol": "CGNX",
+          "name": "机器视觉",
+          "kind": "stock",
+          "facts": {
+            "name": "Cognex",
+            "strategy": "工业机器视觉与自动化感知。",
+            "business": "以机器视觉产品和相关技术为核心，核RealSense整合成本、利润及稀释。",
+            "sources": [
+              {
+                "url": "https://investor.cognex.com/",
+                "title": "Cognex投资者关系入口",
+                "asof": "延伸核查入口"
+              }
+            ],
+            "risks": [
+              "制造与物流需求周期、并购整合和盈利估值。"
+            ],
+            "notes": [
+              "沿用10/30研究候选状态；关注11/4业绩。"
+            ],
+            "gaps": [
+              "未取得足够证据给出低估结论；机器人收入占比未独立确认。"
+            ]
+          },
+          "kind_label": "个股",
+          "new": false,
+          "role": "机器视觉候选",
+          "personal_note": "观察视觉产品需求和并购整合，先验证盈利、现金及股数；未完成保守估值前保留候选状态。",
+          "quote": {
+            "symbol": "CGNX",
+            "label": "CGNX",
+            "session": "2026-10-29",
+            "close": 58.97,
+            "day_pct": 0.9241843448690057,
+            "five_session_pct": 8.003668257707531,
+            "twenty_one_session_pct": -2.769992189462578,
+            "high_52w": 72.88,
+            "high_date": "2026-06-30",
+            "drawdown_pct": -19.086164320708022,
+            "level_15": 61.95,
+            "level_25": 54.66,
+            "additional_drop_to_15_pct": 5.0500193031310925,
+            "ma50": 59.94080009460449,
+            "ma200": 57.80469985961914,
+            "vs_ma50_pct": -1.6195961221224242,
+            "vs_ma200_pct": 2.015928400136935,
+            "volume": 1461312,
+            "volume_vs_prior20": 0.7916314093014437,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "11/4财报与RealSense成本、稀释",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 57.18,
+            "price_raw": 57.18,
+            "bar_start_unix": 1793314474,
+            "bar_start_et": "2026-10-29T18:54:34-04:00",
+            "bar_start_beijing": "2026-10-30T06:54:34+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 58.97,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -3.0354437560922265,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          },
+          "industry_id": "automation",
+          "industry": "工业自动化与机器人"
+        },
+        {
+          "symbol": "ATS",
+          "name": "自动化系统",
+          "kind": "stock",
+          "facts": {
+            "name": "ATS Corporation",
+            "strategy": "自动化系统、集成与项目交付。",
+            "business": "为多行业客户提供自动化解决方案；订单、交付与回款需分开。",
+            "sources": [
+              {
+                "url": "https://investors.atsautomation.com/",
+                "title": "ATS投资者关系入口",
+                "asof": "延伸核查入口"
+              }
+            ],
+            "risks": [
+              "项目延期、订单周期、营运资金与杠杆；美股流动性需要单独考察。"
+            ],
+            "gaps": [
+              "本次不补写未经核验机器人收入占比或低估价。"
+            ],
+            "notes": []
+          },
+          "kind_label": "个股",
+          "new": false,
+          "role": "自动化系统候选",
+          "personal_note": "自动化订单能否交付并收回现金比机器人题材更重要。周期、杠杆与回款风险较高。",
+          "quote": {
+            "symbol": "ATS",
+            "label": "ATS",
+            "session": "2026-10-29",
+            "close": 19.09,
+            "day_pct": -0.41731832753085785,
+            "five_session_pct": -0.0523572182309362,
+            "twenty_one_session_pct": 5.761778168898735,
+            "high_52w": 35.82,
+            "high_date": "2026-05-27",
+            "drawdown_pct": -46.70575009707137,
+            "level_15": 30.45,
+            "level_25": 26.87,
+            "additional_drop_to_15_pct": 59.49187793208639,
+            "ma50": 18.827800102233887,
+            "ma200": 26.68640007019043,
+            "vs_ma50_pct": 1.3926218088691877,
+            "vs_ma200_pct": -28.46543519404089,
+            "volume": 167524,
+            "volume_vs_prior20": 0.7191877562410114,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ATS?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "订单、回款及杠杆验证",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 19.06,
+            "price_raw": 19.059195,
+            "bar_start_unix": 1793308270,
+            "bar_start_et": "2026-10-29T17:11:10-04:00",
+            "bar_start_beijing": "2026-10-30T05:11:10+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 19.09,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -0.1613679924460487,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          },
+          "industry_id": "automation",
+          "industry": "工业自动化与机器人"
+        }
+      ]
+    },
+    {
+      "id": "ai_semiconductors",
+      "label": "科技与AI／半导体",
+      "assets": [
+        {
+          "symbol": "GOOGL",
+          "name": "Google／AI云",
+          "kind": "stock",
+          "facts": {
+            "name": "Alphabet / Google",
+            "strategy": "搜索广告、云与AI平台；同时关注投入和股东现金回报。",
+            "business": "Google Services、Google Cloud及Other Bets。GOOG/GOOGL按同一公司风险合并。",
+            "fact_lines": [
+              "2026Q3：经营现金流422.90亿美元，现金资本开支513.55亿美元，自由现金流−90.65亿美元（现金流差额口径）。",
+              "Q3包含52亿美元罚款付款与库存现金影响，不能把全部负现金流当作永久消耗。"
+            ],
+            "sources": [
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+                "title": "Alphabet 2026Q3完整10-Q",
+                "asof": "季度截至2026-09-30，10/29申报"
+              }
+            ],
+            "risks": [
+              "AI投入、搜索变现、外部算力成本、反垄断与资本回报。"
+            ],
+            "notes": [
+              "本页沿用10/30已完成的Q3核验，条件DCF仍有较宽情景差异；旧价位保持暂停。"
+            ],
+            "gaps": []
+          },
+          "kind_label": "个股",
+          "new": false,
+          "role": "Google公司研究对照",
+          "personal_note": "你的实际持仓是GOOG C类，本卡为GOOGL A类公司研究对照。两者合并评估公司风险，报价与成本分别计算；旧入场价位仍暂停。",
+          "quote": {
+            "symbol": "GOOGL",
+            "label": "GOOGL",
+            "session": "2026-10-29",
+            "close": 283.82,
+            "day_pct": -12.641203321887406,
+            "five_session_pct": -12.46067292097235,
+            "twenty_one_session_pct": -17.51336363627495,
+            "high_52w": 408.61,
+            "high_date": "2026-05-18",
+            "drawdown_pct": -30.540119551893994,
+            "level_15": 347.32,
+            "level_25": 306.46,
+            "additional_drop_to_15_pct": 22.37279916354613,
+            "ma50": 340.2883996582031,
+            "ma200": 340.9350993347168,
+            "vs_ma50_pct": -16.594274853536906,
+            "vs_ma200_pct": -16.752482253059163,
+            "volume": 138462344,
+            "volume_vs_prior20": 5.411784404662983,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "Q3资本桥已更新；核TPU周转与2027投入",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 280.64,
+            "price_raw": 280.64,
+            "bar_start_unix": 1793316943,
+            "bar_start_et": "2026-10-29T19:35:43-04:00",
+            "bar_start_beijing": "2026-10-30T07:35:43+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 283.82,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -1.1204309907633214,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          },
+          "industry_id": "internet_ai",
+          "industry": "互联网与AI服务"
+        },
+        {
+          "symbol": "NVDA",
+          "name": "AI芯片与算力",
+          "kind": "stock",
+          "facts": {
+            "name": "NVIDIA",
+            "strategy": "AI计算、GPU及相关网络与软件平台。",
+            "business": "数据中心与加速计算、游戏及其他业务；本页不把机器人潜在市场当作已实现收入。",
+            "sources": [
+              {
+                "url": "https://investor.nvidia.com/financial-info/financial-reports-and-sec-filings/default.aspx",
+                "title": "NVIDIA财务披露入口",
+                "asof": "延伸核查入口，本页未完成新财报估值"
+              }
+            ],
+            "risks": [
+              "客户AI投入兑现、竞争、供应和出口限制、估值及收入集中。"
+            ],
+            "gaps": [
+              "本次以关注清单为范围，未重新完成最新财务分母和保守情景估值。"
+            ],
+            "notes": []
+          },
+          "kind_label": "个股",
+          "new": false,
+          "role": "AI龙头研究",
+          "personal_note": "AI基础设施核心公司，也已存在于多只ETF中。直接买入会进一步增加AI资本开支及单一公司风险。",
+          "quote": {
+            "symbol": "NVDA",
+            "label": "NVDA",
+            "session": "2026-10-29",
+            "close": 213.66,
+            "day_pct": -0.7985890898456249,
+            "five_session_pct": 0.6832839651135236,
+            "twenty_one_session_pct": -6.445398417543746,
+            "high_52w": 243.37,
+            "high_date": "2026-10-06",
+            "drawdown_pct": -12.207746251041407,
+            "level_15": 206.86,
+            "level_25": 182.53,
+            "additional_drop_to_15_pct": -3.180524055052769,
+            "ma50": 221.9928009033203,
+            "ma200": 204.27705017089843,
+            "vs_ma50_pct": -3.7536339950230757,
+            "vs_ma200_pct": 4.593248964267471,
+            "volume": 75456091,
+            "volume_vs_prior20": 0.7511126270405197,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "客户资本回报、融资及盈利分母",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 209.73,
+            "price_raw": 209.73,
+            "bar_start_unix": 1793316937,
+            "bar_start_et": "2026-10-29T19:35:37-04:00",
+            "bar_start_beijing": "2026-10-30T07:35:37+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 213.66,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -1.839372644706061,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          },
+          "industry_id": "semiconductors",
+          "industry": "半导体与算力"
+        },
+        {
+          "symbol": "SMH",
+          "name": "半导体ETF",
+          "kind": "fund",
+          "facts": {
+            "name": "VanEck Semiconductor ETF",
+            "type": "半导体行业指数ETF",
+            "strategy": "跟踪MVIS US Listed Semiconductor 25 Index，覆盖芯片生产和设备；可纳入美国上市的外国企业。",
+            "expense_pct": 0.35,
+            "holdings_count": 26,
+            "holdings_date": "2026-10-28",
+            "holdings": [
+              {
+                "symbol": "NVDA",
+                "name": "NVIDIA",
+                "weight_pct": 19.56
+              },
+              {
+                "symbol": "TSM",
+                "name": "台积电",
+                "weight_pct": 9.54
+              },
+              {
+                "symbol": "AMD",
+                "name": "AMD",
+                "weight_pct": 5.64
+              },
+              {
+                "symbol": "AVGO",
+                "name": "Broadcom",
+                "weight_pct": 5.58
+              },
+              {
+                "symbol": "TXN",
+                "name": "Texas Instruments",
+                "weight_pct": 5.4
+              },
+              {
+                "symbol": "MU",
+                "name": "Micron",
+                "weight_pct": 4.86
+              },
+              {
+                "symbol": "ADI",
+                "name": "Analog Devices",
+                "weight_pct": 4.68
+              },
+              {
+                "symbol": "MRVL",
+                "name": "Marvell",
+                "weight_pct": 4.56
+              },
+              {
+                "symbol": "ASML",
+                "name": "ASML",
+                "weight_pct": 4.39
+              },
+              {
+                "symbol": "SKHY",
+                "name": "SK hynix",
+                "weight_pct": 4.21
+              }
+            ],
+            "notes": [
+              "26项为官网总持仓口径，含现金；指数名中的25指目标股票组合，不应写成26家芯片公司。",
+              "同为10/28持仓：SMH的NVDA19.56%、TSM9.54%；SOXX分别7.59%、3.15%，SMH对这两家公司更集中。",
+              "前十68.42%（根据披露权重相加）；SMH/SOXX一起买主要改变权重，并未增加行业之间的分散。"
+            ],
+            "risks": [
+              "芯片周期、AI资本开支、地缘与出口限制；对NVDA及台积电依赖明显。"
+            ],
+            "sources": [
+              {
+                "url": "https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/holdings/",
+                "title": "VanEck SMH官方每日持仓与产品页",
+                "asof": "2026-10-28"
+              }
+            ],
+            "gaps": [
+              "本次官网最新可读持仓停留10/28，未当作10/29持仓。"
+            ],
+            "metrics": {
+              "distribution": "年度"
+            }
+          },
+          "kind_label": "半导体行业指数ETF",
+          "new": false,
+          "role": "芯片行业比较",
+          "personal_note": "偏重头部芯片公司，与你关注的NVDA存在额外叠加。与SOXX比较后再研究额度，无须为了分散同时堆叠。",
+          "quote": {
+            "symbol": "SMH",
+            "label": "半导体",
+            "session": "2026-10-29",
+            "close": 561.67,
+            "day_pct": -1.056952134273692,
+            "five_session_pct": 7.322061548071357,
+            "twenty_one_session_pct": -7.771759784867616,
+            "high_52w": 671.83,
+            "high_date": "2026-06-22",
+            "drawdown_pct": -16.39700986521354,
+            "level_15": 571.06,
+            "level_25": 503.87,
+            "additional_drop_to_15_pct": 1.6710046649781818,
+            "ma50": 573.4188000488281,
+            "ma200": 518.8302505493164,
+            "vs_ma50_pct": -2.0489068613849692,
+            "vs_ma200_pct": 8.256984305653514,
+            "volume": 5883746,
+            "volume_vs_prior20": 0.6699344269388118,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "盈利周期与盘后价格差异",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 542.99,
+            "price_raw": 542.99,
+            "bar_start_unix": 1793316881,
+            "bar_start_et": "2026-10-29T19:34:41-04:00",
+            "bar_start_beijing": "2026-10-30T07:34:41+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 561.67,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -3.325793344557859,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          }
+        },
+        {
+          "symbol": "VGT",
+          "name": "美国信息技术行业ETF",
+          "kind": "fund",
+          "facts": {
+            "name": "Vanguard Information Technology ETF",
+            "type": "信息技术行业指数ETF",
+            "strategy": "跟踪 MSCI US Investable Market Information Technology 25/50 Index，覆盖美国大中小市值信息技术公司。",
+            "expense_pct": 0.09,
+            "holdings_count": 318,
+            "holdings_date": "2026-09-30",
+            "holdings": [
+              {
+                "symbol": "NVDA",
+                "name": "NVIDIA",
+                "weight_pct": 17.6
+              },
+              {
+                "symbol": "AAPL",
+                "name": "Apple",
+                "weight_pct": 15.9
+              },
+              {
+                "symbol": "MSFT",
+                "name": "Microsoft",
+                "weight_pct": 11.2
+              },
+              {
+                "symbol": "MU",
+                "name": "Micron",
+                "weight_pct": 4.5
+              },
+              {
+                "symbol": "AVGO",
+                "name": "Broadcom",
+                "weight_pct": 4.1
+              },
+              {
+                "symbol": "AMD",
+                "name": "AMD",
+                "weight_pct": 3.7
+              },
+              {
+                "symbol": "INTC",
+                "name": "Intel",
+                "weight_pct": 2.0
+              },
+              {
+                "symbol": "CSCO",
+                "name": "Cisco",
+                "weight_pct": 1.6
+              },
+              {
+                "symbol": "LRCX",
+                "name": "Lam Research",
+                "weight_pct": 1.6
+              },
+              {
+                "symbol": "PLTR",
+                "name": "Palantir",
+                "weight_pct": 1.6
+              }
+            ],
+            "notes": [
+              "前十合计63.7%；前三44.7%，股票数量多并不代表权重平均。",
+              "GICS信息技术行业范围与纳指100不同；Alphabet、Meta归通信服务，Amazon、Tesla归可选消费，不能把VGT当作涵盖所有科技巨头的组合。",
+              "半导体38.1%＋半导体材料及设备5.5%=43.6%（9/30），因此与SMH、SOXX和NVDA存在较多共同风险。",
+              "发行人披露P/E 32.8倍、P/B 11.0倍（2026-09-30）；未统一核验各基金分母口径，只作背景，不直接横比认定低估。"
+            ],
+            "risks": [
+              "行业集中、估值与利率敏感；增加VGT会提高科技与半导体敞口。"
+            ],
+            "sources": [
+              {
+                "url": "https://fund-docs.vanguard.com/F0958.pdf",
+                "title": "Vanguard VGT官方月末事实表",
+                "asof": "2026-09-30"
+              }
+            ],
+            "gaps": [
+              "动态网页未能提供完整可读持仓，使用最新可读取9/30官方PDF，非10/29即时持仓。"
+            ],
+            "metrics": {
+              "pe": 32.8,
+              "pb": 11.0,
+              "metrics_date": "2026-09-30",
+              "fund_etf_assets_usd": 154542000000,
+              "distribution": "季度"
+            }
+          },
+          "kind_label": "信息技术行业指数ETF",
+          "new": true,
+          "role": "科技行业卫星候选",
+          "personal_note": "按信息技术行业筛选，与你的QQQM和半导体候选重叠。318只股票仍可能由少数权重股主导。",
+          "quote": {
+            "symbol": "VGT",
+            "session": "2026-10-29",
+            "close": 122.24,
+            "day_pct": -1.092,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=2y&interval=1d&events=div%2Csplits",
+            "crosscheck_url": "https://stockanalysis.com/etf/vgt/",
+            "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+            "gaps": [
+              "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+            ],
+            "daily_bar_session": "2026-10-28",
+            "daily_bar_close": 123.59,
+            "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+            "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+          },
+          "next": "核验估值、盈利周期、成分重叠及交易价差，再考虑是否从既定风险预算中划分。"
+        },
+        {
+          "symbol": "SOXX",
+          "name": "半导体行业ETF",
+          "kind": "fund",
+          "facts": {
+            "name": "iShares Semiconductor ETF",
+            "type": "半导体行业指数ETF",
+            "strategy": "跟踪NYSE Semiconductor Index，覆盖30只美国上市半导体产业链股票。",
+            "expense_pct": 0.33,
+            "holdings_count": 30,
+            "holdings_date": "2026-10-28",
+            "holdings": [
+              {
+                "symbol": "AMD",
+                "name": "ADVANCED MICRO DEVICES",
+                "weight_pct": 9.56
+              },
+              {
+                "symbol": "INTC",
+                "name": "INTEL CORPORATION",
+                "weight_pct": 8.31
+              },
+              {
+                "symbol": "MU",
+                "name": "MICRON TECHNOLOGY",
+                "weight_pct": 7.98
+              },
+              {
+                "symbol": "NVDA",
+                "name": "NVIDIA",
+                "weight_pct": 7.59
+              },
+              {
+                "symbol": "AVGO",
+                "name": "BROADCOM INC",
+                "weight_pct": 7.39
+              },
+              {
+                "symbol": "MRVL",
+                "name": "MARVELL TECHNOLOGY",
+                "weight_pct": 4.63
+              },
+              {
+                "symbol": "TXN",
+                "name": "TEXAS INSTRUMENT",
+                "weight_pct": 4.62
+              },
+              {
+                "symbol": "ADI",
+                "name": "ANALOG DEVICES",
+                "weight_pct": 4.6
+              },
+              {
+                "symbol": "QCOM",
+                "name": "QUALCOMM",
+                "weight_pct": 4.18
+              },
+              {
+                "symbol": "AMAT",
+                "name": "APPLIED MATERIAL INC",
+                "weight_pct": 3.53
+              }
+            ],
+            "notes": [
+              "当日半导体84.25%、设备15.71%；与SMH共同覆盖芯片产业，但头部权重不同。",
+              "官方产品页当前费率为0.33%，不能继续引用旧0.35%或0.34%。",
+              "官方公告：2026-11-03为拆股登记日、11/04收盘后实施，11/05起拆股调整交易；该页未显示比例，本资料不猜比例。",
+              "发行人披露P/E 44.7倍、P/B 10倍（2026-10-28）；未统一核验各基金分母口径，只作背景，不直接横比认定低估。"
+            ],
+            "risks": [
+              "行业风险、信用与估值周期高度相关；较低单股权重仍不能保证低回撤。"
+            ],
+            "sources": [
+              {
+                "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf",
+                "title": "iShares SOXX官方产品页",
+                "asof": "2026-10-28/29"
+              },
+              {
+                "url": "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv",
+                "title": "iShares SOXX官方持仓CSV",
+                "asof": "2026-10-28"
+              }
+            ],
+            "gaps": [
+              "产品页各字段更新日不同：NAV和资产为10/29，股票持仓/估值/量能为10/28。"
+            ],
+            "metrics": {
+              "pe": 44.7,
+              "pb": 10,
+              "metrics_date": "2026-10-28",
+              "distribution": "季度",
+              "median_spread_30d_pct": 0.02,
+              "avg_volume_30d": 8521560,
+              "volume_metrics_date": "2026-10-28"
+            }
+          },
+          "kind_label": "半导体行业指数ETF",
+          "new": true,
+          "role": "芯片行业比较",
+          "personal_note": "用于与SMH比较芯片公司权重和费率；暂未验证行业估值安全边际，不因股价单价或名称认定便宜。",
+          "quote": {
+            "symbol": "SOXX",
+            "session": "2026-10-29",
+            "close": 513.86,
+            "day_pct": -1.548,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=2y&interval=1d&events=div%2Csplits",
+            "crosscheck_url": "https://stockanalysis.com/etf/soxx/",
+            "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+            "gaps": [
+              "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+            ],
+            "daily_bar_session": "2026-10-28",
+            "daily_bar_close": 521.94,
+            "quote_timestamp_utc": "2026-10-29T20:00:00+00:00",
+            "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+          },
+          "next": "核验估值、盈利周期、成分重叠及交易价差，再考虑是否从既定风险预算中划分。"
+        },
+        {
+          "symbol": "DRAM",
+          "name": "存储芯片主题ETF",
+          "inception_date": "2026-04-02",
+          "allow_short_history": true,
+          "kind": "fund",
+          "facts": {
+            "name": "Roundhill Memory ETF",
+            "type": "主动管理股票ETF（含总回报互换）",
+            "strategy": "全球存储芯片与存储设备主题；覆盖HBM、DRAM、NAND等，通常季度再平衡",
+            "expense_pct": 0.65,
+            "inception_date": "2026-04-02",
+            "holdings_date": "2026-10-29",
+            "raw_csv_date": "2026-10-30",
+            "holdings_date_method": "官网app.js的Co函数对CSV Date减一日后展示；文件名10292026和所用美股价格均对应10/29。",
+            "holdings": [
+              {
+                "name": "Micron Technology",
+                "symbol": "MU",
+                "weight_pct": 27.1,
+                "direct_weight_pct": 2.92,
+                "swap_weight_pct": 24.18
+              },
+              {
+                "name": "Samsung Electronics",
+                "symbol": "005930/005935 KS",
+                "weight_pct": 25.36,
+                "direct_weight_pct": 18.56,
+                "swap_weight_pct": 6.8
+              },
+              {
+                "name": "SK hynix",
+                "symbol": "000660 KS / SKHY",
+                "weight_pct": 22.91,
+                "direct_weight_pct": 16.85,
+                "swap_weight_pct": 6.06
+              },
+              {
+                "name": "CXMT",
+                "symbol": "CXMT",
+                "weight_pct": 4.65,
+                "direct_weight_pct": 0,
+                "swap_weight_pct": 4.65
+              },
+              {
+                "name": "Sandisk",
+                "symbol": "SNDK",
+                "weight_pct": 4.22,
+                "direct_weight_pct": 4.22,
+                "swap_weight_pct": 0
+              },
+              {
+                "name": "Seagate Technology",
+                "symbol": "STX",
+                "weight_pct": 4.22,
+                "direct_weight_pct": 4.22,
+                "swap_weight_pct": 0
+              },
+              {
+                "name": "Western Digital",
+                "symbol": "WDC",
+                "weight_pct": 3.69,
+                "direct_weight_pct": 3.69,
+                "swap_weight_pct": 0
+              },
+              {
+                "name": "Kioxia Holdings",
+                "symbol": "285A JP",
+                "weight_pct": 3.02,
+                "direct_weight_pct": 3.02,
+                "swap_weight_pct": 0
+              },
+              {
+                "name": "Nanya Technology",
+                "symbol": "2408 TT",
+                "weight_pct": 2.6,
+                "direct_weight_pct": 2.6,
+                "swap_weight_pct": 0
+              },
+              {
+                "name": "Winbond Electronics",
+                "symbol": "2344 TT",
+                "weight_pct": 1.24,
+                "direct_weight_pct": 1.24,
+                "swap_weight_pct": 0
+              },
+              {
+                "name": "GigaDevice Semiconductor",
+                "symbol": "603986 C1",
+                "weight_pct": 0.86,
+                "direct_weight_pct": 0.86,
+                "swap_weight_pct": 0
+              }
+            ],
+            "holdings_basis": "同一公司直接股票权重与总回报互换名义敞口权重之和。按披露四舍五入值汇总，非互换公允价值权重。",
+            "holdings_exposure_total_pct": 99.87,
+            "collateral_and_other": [
+              {
+                "symbol": "912797VA2",
+                "name": "United States Treasury Bill 12/03/2026",
+                "weight_pct": 4.95
+              },
+              {
+                "symbol": "912797VP9",
+                "name": "United States Treasury Bill 11/03/2026",
+                "weight_pct": 14.89
+              },
+              {
+                "symbol": "912797WN3",
+                "name": "United States Treasury Bill 01/05/2027",
+                "weight_pct": 9.86
+              },
+              {
+                "symbol": "CNY",
+                "name": "CHINESE YUAN",
+                "weight_pct": 0.0
+              },
+              {
+                "symbol": "FGXXX",
+                "name": "First American Government Obligations Fund 12/01/2031",
+                "weight_pct": 15.75
+              },
+              {
+                "symbol": "KRW",
+                "name": "SOUTH KOREA WON",
+                "weight_pct": 0.04
+              },
+              {
+                "symbol": "TWD",
+                "name": "NEW TAIWAN DOLLAR",
+                "weight_pct": 0.0
+              },
+              {
+                "symbol": "Cash&Other",
+                "name": "Cash & Other",
+                "weight_pct": -45.4
+              }
+            ],
+            "net_assets_usd": 20135560512.0,
+            "notes": [
+              "表内持仓指基金持仓，非用户已持有。",
+              "以股票及互换合并经济敞口理解集中度；国债/货基等担保或现金管理资产不能当作低风险股票替代仓位。",
+              "原始CSV含互换名义敞口及负Cash & Other，不宜把所有行正权重相加作净资产配置。"
+            ],
+            "risks": [
+              "存储供需和价格强周期；韩股、汇率及地缘风险；互换对手方风险；成立未满一年，缺完整52周和长期实盘记录"
+            ],
+            "sources": [
+              {
+                "url": "https://www.roundhillinvestments.com/etf/dram/",
+                "title": "Roundhill DRAM官方产品页",
+                "asof": "2026-10-30采集（费率和策略）"
+              },
+              {
+                "url": "https://www.roundhillinvestments.com/assets/data/FilepointRoundhill.40RU.RU_Holdings_10292026.csv",
+                "title": "Roundhill官方每日全基金持仓CSV",
+                "asof": "2026-10-29展示口径"
+              },
+              {
+                "url": "https://www.roundhillinvestments.com/assets/js/app.js",
+                "title": "官网持仓渲染及日期处理代码",
+                "asof": "2026-10-30采集"
+              }
+            ],
+            "gaps": [
+              "未核基金最新每股NAV或买卖价差；本文件不提供实时行情。"
+            ]
+          },
+          "kind_label": "主动管理股票ETF（含总回报互换）",
+          "new": true,
+          "role": "高集中存储主题",
+          "personal_note": "前三家公司占约75%，比广泛芯片ETF更集中。与AI需求相关，也受到存储价格及扩产周期影响，不宜当作低风险核心。",
+          "quote": {
+            "symbol": "DRAM",
+            "session": "2026-10-29",
+            "close": 51.75,
+            "day_pct": -4.379,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=2y&interval=1d&events=div%2Csplits",
+            "crosscheck_url": "https://stockinvest.us/stock-price/DRAM",
+            "crosscheck_status": "与Macroaxis及Stockinvest明确2026-10-29收盘51.75一致；StockAnalysis抓取页为盘中，未用作收盘核验",
+            "gaps": [
+              "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+            ],
+            "daily_bar_session": "2026-10-28",
+            "daily_bar_close": 54.12,
+            "quote_timestamp_utc": "2026-10-29T20:00:01+00:00",
+            "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+          },
+          "next": "核验估值、盈利周期、成分重叠及交易价差，再考虑是否从既定风险预算中划分。"
+        }
+      ]
+    },
+    {
+      "id": "healthcare",
+      "label": "医疗与生物科技",
+      "assets": [
+        {
+          "symbol": "MRNA",
+          "name": "Moderna／mRNA药物与疫苗",
+          "kind": "stock",
+          "facts": {
+            "symbol": "MRNA",
+            "name": "Moderna",
+            "type": "个股／mRNA生物制药",
+            "quarter": "2026Q2",
+            "published_date": "2026-07-31",
+            "next_earnings": {
+              "date": "2026-11-06",
+              "time_et": "08:00 EST",
+              "time_beijing": "2026-11-06 21:00",
+              "source_url": "https://investors.modernatx.com/events-presentations"
+            },
+            "financials": {
+              "revenue_usd_m": 145,
+              "net_loss_usd_m": 782,
+              "eps_gaap": -1.97,
+              "cash_equivalents_investments_usd_m": 6910,
+              "cash_date": "2026-06-30",
+              "six_month_operating_cash_outflow_usd_m": 1156,
+              "q2_net_product_sales_usd_m": 94
+            },
+            "notes": [
+              "mRNA平台公司：已商业化呼吸道疫苗与肿瘤管线。个股无ETF成分持仓，这里展示经营构成。",
+              "Q2收入1.45亿美元、净亏7.82亿美元、GAAP EPS−1.97；6/30现金及投资69.10亿美元。现金为历史余额。",
+              "7月支付9.5亿美元和解款；9/1完成30亿美元零息可转债，2032年到期，初始转股价约210.58美元；不能把6月现金或7月现金展望当成今日余额。",
+              "10/22公布intismeran+Keytruda三期黑色素瘤结果：复发或死亡风险比0.58；总体生存数据尚未成熟，尚不能把临床结果直接折成销售利润。"
+            ],
+            "risks": [
+              "持续现金消耗与融资稀释、呼吸道疫苗季节性、肿瘤产品审批/定价/个性化制造成本与上市执行。",
+              "单一生物科技事件风险较高；与希望控制约20%组合回撤的目标有张力。"
+            ],
+            "status": "研究候选／完整估值待完成，不据AI医疗叙事认定低估",
+            "next": "11/6核Q3收入、融资后现金/负债和消耗速度；补肿瘤产品成功率、利润分成、制造成本与分情景估值。",
+            "gaps": [
+              "Q3财报尚未公布；未建立风险调整管线估值或验证安全边际。",
+              "2026年末47–52亿美元现金展望来自7月财报，早于可转债融资；不作为当前余额或新展望。"
+            ],
+            "sources": [
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000147/exhibit9912026q2pressrelea.htm",
+                "title": "Moderna Q2 2026业绩／SEC 8-K附录",
+                "asof": "2026-07-31"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000150/mrna-20260630.htm",
+                "title": "Moderna Q2 2026完整10-Q",
+                "asof": "2026-07-31"
+              },
+              {
+                "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312526378505/d108896d8k.htm",
+                "title": "Moderna 30亿美元可转债完成／SEC 8-K",
+                "asof": "2026-09-01"
+              },
+              {
+                "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/",
+                "title": "Merck/Moderna INTerpath-001三期结果",
+                "asof": "2026-10-22"
+              },
+              {
+                "url": "https://investors.modernatx.com/events-presentations",
+                "title": "Moderna官方事件日历",
+                "asof": "2026-10-30读取"
+              }
+            ],
+            "capture_note": "SEC与Merck原文已通过web工具成功读取，curl本地原始HTML抓取被站点拒绝；raw中的对应HTML是拒绝页，不能当完整原文。官方IR/events网页抓取成功。raw/mrna_web_evidence.json保存所读事实摘录与URL。",
+            "strategy": "mRNA生物制药：呼吸道疫苗与肿瘤管线。",
+            "business": "商业化疫苗及研发管线；个股没有ETF成分持仓。临床结果、获批、上市销售与盈利是不同阶段。",
+            "fact_lines": [
+              "Q2收入1.45亿美元、净亏7.82亿美元、GAAP EPS−1.97；6/30现金及投资69.10亿美元。现金为历史余额。",
+              "7月支付9.5亿美元和解款；9/1完成30亿美元零息可转债，2032年到期，初始转股价约210.58美元；不能把6月现金或7月现金展望当成今日余额。",
+              "10/22公布intismeran+Keytruda三期黑色素瘤结果：复发或死亡风险比0.58；总体生存数据尚未成熟，尚不能把临床结果直接折成销售利润。"
+            ]
+          },
+          "kind_label": "个股／mRNA生物制药",
+          "new": true,
+          "role": "生物科技事件研究",
+          "personal_note": "加入医疗观察，但mRNA平台不等于已验证的AI商业化。临床、融资与现金消耗风险较高，完整估值尚未完成。",
+          "quote": {
+            "symbol": "MRNA",
+            "session": "2026-10-29",
+            "close": 222.76,
+            "day_pct": 4.013,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=2y&interval=1d&events=div%2Csplits",
+            "crosscheck_url": "https://stockanalysis.com/stocks/mrna/",
+            "crosscheck_status": "StockAnalysis明确2026-10-29常规收盘价格一致；百分比允许0.01个百分点显示差异",
+            "gaps": [
+              "Yahoo daily OHLC series ends2026-10-28; use dated regular-session close snapshot only"
+            ],
+            "daily_bar_session": "2026-10-28",
+            "daily_bar_close": 214.16,
+            "quote_timestamp_utc": "2026-10-29T20:00:01+00:00",
+            "basis": "Yahoo dated regularMarketPrice snapshot at 16:00:01 EDT; historical daily bar ends previous session, so no synthetic OHLC was created"
+          },
+          "next": "11/6核Q3收入、融资后现金/负债和消耗速度；补肿瘤产品成功率、利润分成、制造成本与分情景估值。",
+          "industry_id": "biotech",
+          "industry": "医疗与生物科技"
+        }
+      ]
+    },
+    {
+      "id": "fintech",
+      "label": "金融科技",
+      "assets": [
+        {
+          "symbol": "SOFI",
+          "name": "数字银行与金融平台",
+          "kind": "stock",
+          "facts": {
+            "name": "SoFi Technologies",
+            "strategy": "数字银行、贷款、金融服务与技术平台。",
+            "business": "贷款、Financial Services与Technology Platform。银行存款属于经营资金。",
+            "fact_lines": [
+              "2026Q3：净收入13.851亿美元、GAAP净利润2.410亿美元、GAAP EPS 0.18美元。",
+              "9/30有形每股净资产7.48美元；以10/29的17.61美元为分子，P/TBV约2.35倍。"
+            ],
+            "sources": [
+              {
+                "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Reports-Third-Quarter-2026-with-Record-Net-Revenue-of-1-4-Billion-Net-Income-of-241-Million-and-Raises-Full-Year-Guidance/default.aspx",
+                "title": "SoFi Q3官方业绩",
+                "asof": "2026-10-27"
+              }
+            ],
+            "risks": [
+              "消费信贷、贷款公允价值、监管资本、股权薪酬及稀释。"
+            ],
+            "notes": [
+              "2027调整EPS指引与GAAP历史EPS不同；资本回报压力检验不等于完整估值。"
+            ],
+            "gaps": []
+          },
+          "kind_label": "个股",
+          "new": false,
+          "role": "金融科技候选",
+          "personal_note": "分析数字银行信用、资金成本与资本回报。股价十几美元不代表估值低，也不能把存款当普通工业公司的净现金。",
+          "quote": {
+            "symbol": "SOFI",
+            "label": "SOFI",
+            "session": "2026-10-29",
+            "close": 17.61,
+            "day_pct": 2.7421309068831112,
+            "five_session_pct": 19.22816563688783,
+            "twenty_one_session_pct": 12.022902743117946,
+            "high_52w": 32.73,
+            "high_date": "2025-11-12",
+            "drawdown_pct": -46.19614770349511,
+            "level_15": 27.82,
+            "level_25": 24.55,
+            "additional_drop_to_15_pct": 57.9812529622932,
+            "ma50": 16.599099864959715,
+            "ma200": 17.835249967575074,
+            "vs_ma50_pct": 6.090093761805915,
+            "vs_ma200_pct": -1.262944773036656,
+            "volume": 64103243,
+            "volume_vs_prior20": 1.212057738299342,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "高增长过渡、正常化ROTCE与信用风险",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 17.1,
+            "price_raw": 17.0999,
+            "bar_start_unix": 1793316924,
+            "bar_start_et": "2026-10-29T19:35:24-04:00",
+            "bar_start_beijing": "2026-10-30T07:35:24+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 17.61,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -2.89665299449412,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          },
+          "industry_id": "fintech",
+          "industry": "金融科技"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "价值与综合经营",
+      "assets": [
+        {
+          "symbol": "BRK-B",
+          "name": "伯克希尔B",
+          "kind": "stock",
+          "facts": {
+            "name": "Berkshire Hathaway B",
+            "strategy": "保险、综合经营与投资资产的公司股权。",
+            "business": "保险、BNSF铁路、能源和其他经营业务，并持有上市公司及短期美债等投资。此处描述资产类型，不提供未核验的最新投资权重。",
+            "sources": [
+              {
+                "url": "https://www.berkshirehathaway.com/reports.html",
+                "title": "伯克希尔官方报告入口",
+                "asof": "延伸核查入口"
+              }
+            ],
+            "risks": [
+              "保险赔付、经营周期、资产估值及资本配置。"
+            ],
+            "gaps": [
+              "本页未重新核验最新13F逐项权重，不把历史重仓名单冒充当前持仓。"
+            ],
+            "notes": []
+          },
+          "kind_label": "个股",
+          "new": false,
+          "role": "综合经营研究",
+          "personal_note": "保险、铁路、能源及投资资产共同构成价值。它是单一公司普通股，不能视作标普500指数或低风险替代品。",
+          "quote": {
+            "symbol": "BRK-B",
+            "label": "BRK.B",
+            "session": "2026-10-29",
+            "close": 541.96,
+            "day_pct": 0.2998103114098649,
+            "five_session_pct": -0.9159458469042647,
+            "twenty_one_session_pct": 8.838238515260265,
+            "high_52w": 549.96,
+            "high_date": "2026-10-22",
+            "drawdown_pct": -1.4546511892454927,
+            "level_15": 467.47,
+            "level_25": 412.47,
+            "additional_drop_to_15_pct": -13.745294906578353,
+            "ma50": 514.1994000244141,
+            "ma200": 495.4968997192383,
+            "vs_ma50_pct": 5.39880481130941,
+            "vs_ma200_pct": 9.377076280345076,
+            "volume": 4148843,
+            "volume_vs_prior20": 0.966572428695404,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "经营利润、保险与投资原披露",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 545.24,
+            "price_raw": 545.24,
+            "bar_start_unix": 1793316791,
+            "bar_start_et": "2026-10-29T19:33:11-04:00",
+            "bar_start_beijing": "2026-10-30T07:33:11+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 541.96,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": 0.6052066383194665,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          },
+          "industry_id": "conglomerate",
+          "industry": "保险与综合经营"
+        }
+      ]
+    },
+    {
+      "id": "cash",
+      "label": "现金管理",
+      "assets": [
+        {
+          "symbol": "SGOV",
+          "name": "0–3个月美债ETF",
+          "kind": "fund",
+          "facts": {
+            "name": "iShares 0–3 Month Treasury Bond ETF",
+            "type": "短期美债指数ETF",
+            "strategy": "跟踪ICE 0–3 Month US Treasury Securities Index，持有超短美国国债，按月分配。",
+            "expense_pct": 0.09,
+            "holdings_date": "2026-10-28",
+            "holdings": [
+              {
+                "name": "美国国库券·2026-12-08到期",
+                "weight_pct": 8.53
+              },
+              {
+                "name": "美国国库券·2026-12-15到期",
+                "weight_pct": 8.19
+              },
+              {
+                "name": "美国国库券·2026-11-17到期",
+                "weight_pct": 7.63
+              },
+              {
+                "name": "美国国库券·2026-12-22到期",
+                "weight_pct": 6.87
+              },
+              {
+                "name": "美国国库券·2026-11-24到期",
+                "weight_pct": 6.8
+              }
+            ],
+            "notes": [
+              "30日SEC收益率3.79%（2026-10-28），是标准化近期收益率，未来会随短期利率变化。",
+              "官方有效久期0.11年（10/28）；当期债券收益计入净值，月度除息使价格下调。",
+              "持仓展示为前五笔国库券，不是完整资产分配；官方CSV同时有货币基金及负现金结算项。"
+            ],
+            "risks": [
+              "适合美元防守与暂存候选；不等于银行存款或保证本金。",
+              "快进快出仍有买卖价差、税务与结算影响；除息前卖出的期间收益主要体现在成交价格。"
+            ],
+            "sources": [
+              {
+                "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+                "title": "iShares SGOV官方基金页",
+                "asof": "2026-10-28/29，不同指标分别注明"
+              },
+              {
+                "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf/latest-holdings.csv",
+                "title": "SGOV官方逐笔持仓CSV",
+                "asof": "2026-10-28"
+              }
+            ],
+            "gaps": []
+          },
+          "kind_label": "短期美债指数ETF",
+          "new": false,
+          "role": "美元防守候选",
+          "personal_note": "资金无需急用时仍可用于控制组合波动或等待分批。它是资产配置选择，当前未确认持有或采用配置。",
+          "quote": {
+            "symbol": "SGOV",
+            "label": "SGOV",
+            "session": "2026-10-29",
+            "close": 100.71,
+            "day_pct": 0.009932608275664556,
+            "five_session_pct": 0.08944179629699622,
+            "twenty_one_session_pct": 0.029796165282025555,
+            "high_52w": 100.73,
+            "high_date": "2025-10-31",
+            "drawdown_pct": -0.01985929891221705,
+            "level_15": 85.62,
+            "level_25": 75.55,
+            "additional_drop_to_15_pct": -14.98311624292884,
+            "ma50": 100.5720001220703,
+            "ma200": 100.54530002593994,
+            "vs_ma50_pct": 0.1372140975965941,
+            "vs_ma200_pct": 0.16380582532473653,
+            "volume": 20615972,
+            "volume_vs_prior20": 0.956286212733152,
+            "bars": 501,
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?range=2y&interval=1d&events=div%2Csplits"
+          },
+          "next": "SEC收益率、交易价差与结算",
+          "post_snapshot": {
+            "status": "available",
+            "session": "2026-10-29",
+            "segment": "post",
+            "price_usd": 100.7,
+            "price_raw": 100.7033,
+            "bar_start_unix": 1793316908,
+            "bar_start_et": "2026-10-29T19:35:08-04:00",
+            "bar_start_beijing": "2026-10-30T07:35:08+08:00",
+            "minute_volume": 0,
+            "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+            "bar_has_positive_volume": false,
+            "session_window_ended_at_capture": false,
+            "reference_close_usd": 100.71,
+            "reference_session": "2026-10-29",
+            "change_vs_reference_pct": -0.006651851912620188,
+            "capture_beijing": "2026-10-30T07:35:43.396310+08:00"
+          }
+        }
+      ]
+    }
+  ],
+  "holdings_are_user_positions": false,
+  "approved_trades": false,
+  "version": 3
+}

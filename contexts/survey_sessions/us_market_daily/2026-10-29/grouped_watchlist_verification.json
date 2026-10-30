@@ -1,0 +1,50 @@
+{
+  "status": "content_checked",
+  "updated_at_utc": "2026-10-29T03:05:04.628266+00:00",
+  "rows": 12,
+  "groups": [
+    "重点指数ETF",
+    "机器人相关",
+    "AI／半导体",
+    "金融科技",
+    "价值与综合经营",
+    "现金管理"
+  ],
+  "unique_primary_category_per_symbol": true,
+  "original_alert_contract_preserved": [
+    "QQQ",
+    "QQQM",
+    "VOO",
+    "BRK.B"
+  ],
+  "new_regular_closes_cross_checked": {
+    "RRX": 161.09,
+    "CGNX": 58.43,
+    "ATS": 19.17,
+    "NVDA": 215.38
+  },
+  "secondary_source_urls": {
+    "RRX": "https://stockanalysis.com/stocks/rrx/history/",
+    "CGNX": "https://stockanalysis.com/stocks/cgnx/history/",
+    "ATS": "https://stockanalysis.com/stocks/ats/history/",
+    "NVDA": "https://stockanalysis.com/stocks/nvda/history/"
+  },
+  "price_session": "2026-10-28",
+  "price_unit": "USD",
+  "not_a_new_investment_recommendation": true,
+  "ui_visual_recheck": "blocked by previously observed Browser Use file URL policy; no bypass",
+  "report_markdown_sha256": "4d3e6e0953b5034cb59ff9998be00630e5d24c614e8c2027d2a4df3a1bc180c6",
+  "checks": {
+    "one_unique_row_per_symbol": true,
+    "group_order_correct": true,
+    "universe_collectors_consistent": true,
+    "original_alert_scope_unchanged": true,
+    "no_boundary_bar_as_post": true,
+    "old_scattered_overview_tables_removed": true,
+    "company_details_folded": true,
+    "unified_table_before_company_details": true,
+    "html_hash_valid": true,
+    "automation_07_30_readback": true,
+    "browser_ui_check": "not repeated: explicit local-file URL policy restriction already observed"
+  }
+}

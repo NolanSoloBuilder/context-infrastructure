@@ -1,0 +1,66 @@
+{
+  "report_date_beijing": "2026-10-29",
+  "collected_at_utc": "2026-10-29T02:14:07.484619+00:00",
+  "status": "research_candidate_valuation_incomplete",
+  "sources": [
+    {
+      "url": "https://investors.sofi.com/news/news-details/2026/SoFi-Reports-Third-Quarter-2026-with-Record-Net-Revenue-of-1-4-Billion-Net-Income-of-241-Million-and-Raises-Full-Year-Guidance/default.aspx",
+      "type": "official_company_earnings_release",
+      "publication_date_us": "2026-10-27",
+      "period": "2026Q3",
+      "read_scope": "public full body; GAAP and non-GAAP tables, credit quality, loans fair value assumptions, share-based expense, tangible book and diluted EPS guidance",
+      "facts": {
+        "gaap_net_revenue_usd_m": 1385.099,
+        "gaap_net_income_usd_m": 240.989,
+        "gaap_diluted_eps_usd": 0.18,
+        "deposits_usd_b": 51.3,
+        "deposit_rate_advantage_vs_warehouse_bp": 145,
+        "personal_loan_annualized_chargeoff_pct": 2.26,
+        "company_estimate_excluding_late_stage_delinquent_sales_including_recoveries_chargeoff_pct": 3.4,
+        "personal_loan_model_annual_default_assumption_pct": 5.1,
+        "prior_quarter_model_assumption_pct": 4.77,
+        "quarter_share_based_expense_usd_m": 70.884,
+        "period_end_common_shares_m": 1296.617,
+        "prior_year_same_date_common_shares_m": 1204.57,
+        "tangible_book_per_share_usd": 7.48,
+        "fy2026_management_adjusted_eps_outlook": 0.61,
+        "fy2027_management_adjusted_eps_outlook": 0.9
+      },
+      "basis_notes": [
+        "Guidance is non-GAAP and not reconciled prospectively to GAAP; not forecasted GAAP EPS",
+        "Accounting chargeoffs affected by sales/new originations;3.4% is company estimate, not independently reconstructed",
+        "Annual default assumption in fair value model is not realized portfolio default rate",
+        "GAAP net income already includes share-based expense",
+        "Period-end share counts differ from quarter weighted diluted shares"
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/sofi/history/",
+      "type": "third_party_dated_history_and_extended_quote",
+      "regular_session": "2026-10-28",
+      "close_usd": 17.14,
+      "day_pct": 4.51,
+      "after_hours_price_usd": 16.87,
+      "after_hours_change_from_regular_close_pct": -1.58,
+      "after_hours_timestamp_us": "2026-10-28T19:59:00-04:00",
+      "after_hours_timestamp_beijing": "2026-10-29T07:59:00+08:00",
+      "independent_quote_validation": "pending_parent"
+    }
+  ],
+  "calculations": {
+    "price_div_management_fy26_adjusted_eps": 28.098360655737707,
+    "price_div_management_fy27_adjusted_eps": 19.044444444444444,
+    "price_div_tangible_book": 2.2914438502673797,
+    "period_end_common_shares_yoy_growth_pct": 7.641482022630486
+  },
+  "gaps": [
+    "Q3 full10Q not obtained; IR SEC list dynamic body did not return detailed filings",
+    "No bank capital adequacy reconciliation/credit-cycle-normalized valuation completed",
+    "Absolute average deposit cost not independently rebuilt; relative funding spread only",
+    "No verified next-quarter earnings release announcement",
+    "Extended quotes are snapshots not execution guarantees"
+  ],
+  "next_check": "Q3 full10Q loan fair value sensitivity, credit retention after loan sales, bank regulatory capital and normalized per-share earnings/ROTE; company-specific risk budget before any entry",
+  "not_in_four_symbol_alert_contract": true,
+  "not_traded": true
+}

@@ -1,0 +1,21 @@
+{
+  "compact_cards": 17,
+  "etfs": 9,
+  "stocks": 8,
+  "inert_detail_templates": 17,
+  "responsive_css_columns": "desktop3/4,tablet2,phone1",
+  "DOM_model_checks": [
+    "filter industry",
+    "hover delay",
+    "pointer enter panel keeps open",
+    "pin to modal",
+    "close returns focus",
+    "keyboard opens",
+    "offline no network"
+  ],
+  "live_root_http": 200,
+  "actual_refresh_tasks": 34,
+  "actual_refresh_status": "complete",
+  "visual_browser_verification": "not performed: prior exact local file URL policy block; did not route browser through live service to bypass it",
+  "screenshots": []
+}

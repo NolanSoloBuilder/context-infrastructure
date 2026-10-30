@@ -1,0 +1,39 @@
+{
+  "report_date_beijing": "2026-10-28",
+  "market_session": "2026-10-27",
+  "generated_at_utc": "2026-10-28T06:50:30.691Z",
+  "source_markdown_sha256": "efacb571976c4fc57c3bdc7c5eeee169a6365452a3017c0051ba51ed0034f79d",
+  "html_sha256": "15b57754e4a067a77f6d61d2f76a9b5da4a56689be85dc0068e3390d8327fb3a",
+  "html_bytes": 1398871,
+  "embedded_chart_files": [
+    "watchlist_curves.png",
+    "sector_daily.png",
+    "equity_valuation/google_valuation_scenarios.png"
+  ],
+  "embedded_appendices": [
+    "equity_valuation/report.md",
+    "focus_update.md",
+    "reddit_digest.md",
+    "../2026-10-27/staged_entry_plan_draft.md",
+    "equity_valuation/robotics_value_screen.md",
+    "equity_valuation/robotics_quality_screen.md",
+    "equity_valuation/google_capital_audit.md"
+  ],
+  "downloadable_evidence": [
+    "reddit_sources.json",
+    "manifest.json",
+    "verification.json",
+    "market_context.json",
+    "metrics.json",
+    "equity_valuation/google_forecast.csv",
+    "equity_valuation/google_model_inputs.json",
+    "equity_valuation/google_valuation_model.json",
+    "equity_valuation/robotics_value_sources.json",
+    "equity_valuation/robotics_quality_sources.json",
+    "equity_valuation/google_capital_sources.json",
+    "equity_valuation/parent_normalization_review.json",
+    "equity_valuation/valuation_checks.json",
+    "../2026-10-27/staged_entry_plan_scenarios.json"
+  ],
+  "content_policy": "Reviewed report is the content source; no fetching or price recomputation; images and linked local evidence embedded for offline use."
+}

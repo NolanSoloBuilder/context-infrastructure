@@ -1,0 +1,30 @@
+{
+  "source_url": "https://closelook.io/indices/stock/mrna/price-history/",
+  "access_method": "web.open + web.find actual full-page content, not search snippet",
+  "read_at_utc": "2026-10-30T01:45:06.255525+00:00",
+  "read_rows": [
+    {
+      "date": "2026-08-18",
+      "open": 63.04,
+      "high": 64.46,
+      "low": 62.13,
+      "close": 62.96,
+      "change_pct": -2.33,
+      "volume": 4305000
+    },
+    {
+      "date": "2026-08-19",
+      "open": 116.02,
+      "high": 176.66,
+      "low": 114.46,
+      "close": 174.38,
+      "change_pct": 176.97,
+      "volume": 199252300
+    }
+  ],
+  "earlier_attempt": {
+    "url": "https://www.financecharts.com/stocks/MRNA/summary/price",
+    "status": "captcha; not bypassed; search snippet not treated as fully read"
+  },
+  "not_claimed": "No independent underlying exchange-feed audit or causal explanation established."
+}

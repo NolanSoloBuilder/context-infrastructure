@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "report_date_beijing": "2026-10-30",
+  "collected_at_utc": "2026-10-29T23:38:39.626327+00:00",
+  "collected_at_beijing": "2026-10-30T07:38:39.626327+08:00",
+  "intended_window_hours": [
+    24,
+    72
+  ],
+  "coverage_status": "partial_original_read_with_feed_and_absolute_timestamp_gaps",
+  "complete_reddit_scan": false,
+  "all_scans_successfully_current": false,
+  "selected_items": [
+    {
+      "item_id": "google_q3_revenue_mix_vs_cash_returns_2026_10_29",
+      "classification": "verified_financial_mix_and_call_guidance_plus_unverified_forum_valuation_views",
+      "title": "搜索收入占比低于一半，不等于现金回报已经分散",
+      "post_ids": [
+        "1xikhvm",
+        "1xiof6z",
+        "1xif965"
+      ],
+      "community": "r/stocks",
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xikhvm/in_q4_2019_google_search_was_60_of_googles/",
+      "source_urls": [
+        "https://www.reddit.com/r/stocks/comments/1xikhvm/in_q4_2019_google_search_was_60_of_googles/",
+        "https://www.reddit.com/r/stocks/comments/1xiof6z/goog_upgrade_from_sell_to_hold_pt_of_290/",
+        "https://www.reddit.com/r/stocks/comments/1xif965/rstocks_daily_discussion_options_trading_thursday/",
+        "https://www.reddit.com/r/stocks/comments/1xikhvm/comment/19ru34gfrf3ts/",
+        "https://www.reddit.com/r/stocks/comments/1xikhvm/comment/19ru0hrx04l5x/"
+      ],
+      "post_published_at_utc": null,
+      "post_published_at_beijing": null,
+      "post_time_status": "Original pages only expose relative ages; cannot establish exact24h/72h window or convert to Beijing absolute post time. Daily-thread title explicitly identifies October29,2026; no exact comment timestamps.",
+      "event_date_us": "2026-10-28",
+      "event_time_beijing": null,
+      "event_time_basis": "SEC release identifiesOctober28USpublication date; this read did not verify exact publication time, so no exact Beijing time is asserted.",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00",
+      "retrieved_at_beijing": "2026-10-30T07:38:39.626327+08:00",
+      "read_scope": "Original bull and bear post bodies, visible supporting and contrary comments, daily discussion Google/AI cash-flow comments; linked key comment permalinks read. Not every collapsed reply.",
+      "key_claims": [
+        {
+          "claim": "Q3 Google Search & other revenue63.350B / consolidated revenue127.577B =49.6563%; ad revenue82.012B /127.577B=64.2843%.",
+          "status": "verified_primary_and_own_arithmetic",
+          "primary_source": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+        },
+        {
+          "claim": "Revenue diversification means lower stock risk or undervaluation after earnings fall.",
+          "status": "unverified_opinion_not_an_entry_signal"
+        },
+        {
+          "claim": "Forum comment says Google increased annual CapEx220B to300B.",
+          "status": "unsupported_for_2026; contradictory_to_management_2026_guidance",
+          "check": "CFO2026 capex195–205B unchanged;2027 significantly higher without exact range",
+          "check_source": "https://www.benzinga.com/news/26/10/62679903/alphabet-q3-2026-earnings-call-transcript"
+        },
+        {
+          "claim": "Post author values GOOG at290.",
+          "status": "unverified_valuation; no complete model inputs reviewed; not adopted"
+        }
+      ],
+      "counterarguments": [
+        {
+          "source_url": "https://www.reddit.com/r/stocks/comments/1xikhvm/comment/19ru34gfrf3ts/",
+          "argument": "Visible contrary comment emphasizes profit mix matters as much as revenue mix; Cloud/subscriptions cannot automatically replace Search economics.",
+          "status": "forum_view_with_directionally_relevant_primary_segment_data"
+        },
+        {
+          "argument": "Primary release Cloud revenue includes meaningful TPU systems sales; Cloud segment margin36.2% differs from Services40.7%, and group AI R&D is outside these segments. Services is not Search alone, so Search standalone margin cannot be inferred.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+          "status": "primary_data_plus_own_caution"
+        },
+        {
+          "argument": "Strong demand can eventually produce attractive cash returns; lower Search mix alone does not prove either thesis.",
+          "status": "research_counterfactual_not_forecast"
+        }
+      ],
+      "why_relevant": "User is considering Google alongside QQQM/VOO with30000USD,3–5years and20% temporary-loss tolerance. Avoid converting price falls, a forum PT, or revenue-mix slogans into concentrated first buys.",
+      "next_check": "Separate recurring cloud versus TPU growth and cash cycle; Q4 margin after external compute; normalized per-share FCF and latest capital bridge.",
+      "dedup_status": "Newly read discussion and new revenue-share/capex-rumor correction; no repetition of previously reported Reddit item IDs. Management/SEC facts themselves were already known in other research.",
+      "quote_or_heat_policy": "No vote/comment counts used; anonymous-author identity not assessed.",
+      "reporting_status": "included_in_main_report_2026-10-30",
+      "event_date_beijing": "2026-10-29"
+    }
+  ],
+  "scanned_sources": [
+    {
+      "url": "https://www.reddit.com/r/stocks/new/",
+      "status": "read_current_event_bodies_and_linked_originals; relative_times_not_absolute",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00"
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "status": "read_but_crawled_two_weeks_ago; not_latest_day_proof",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00"
+    },
+    {
+      "url": "https://www.reddit.com/r/investing/new/",
+      "status": "read_but_contains_Oct19_daily_thread_and_last_week_crawl; freshness_gap",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00"
+    },
+    {
+      "url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "status": "read_but_crawled_three_days_ago; relative_times_not_24h_proof",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00"
+    },
+    {
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "status": "read_but_last_week_crawl; no_selected_new_verified_item",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00"
+    },
+    {
+      "url": "https://www.reddit.com/r/Bogleheads/top/?t=day",
+      "status": "read_but_last_week_crawl; no_selected_new_verified_item",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00"
+    },
+    {
+      "url": "https://www.reddit.com/r/ETFs/new/",
+      "status": "read_but_two_weeks_old_crawl; excluded_stale_SGOV_and_CLO_threads",
+      "retrieved_at_utc": "2026-10-29T23:38:39.626327+00:00"
+    }
+  ],
+  "search_scope": [
+    "Google/AlphabetOct28–29,2026",
+    "r/investingOct29,2026",
+    "SOFIOct28–29,2026",
+    "ValueInvestingTPU",
+    "ETFdate-targeted"
+  ],
+  "excluded_items": [
+    {
+      "url": "https://www.reddit.com/r/sofistock/",
+      "reason": "Search returned2024Oct29earnings discussion; not2026news; excluded"
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1xikh3k/oracle_jumped_11_after_putting_a_date_on_positive/",
+      "reason": "Body read; same Oracle investor-day/FCF claim chain covered in prior FiNews research, no demonstrated material increment; not counted as independent corroboration"
+    },
+    {
+      "url": "https://www.reddit.com/r/ValueInvesting/comments/1wyf5gh/google_a_screaming_buy/",
+      "reason": "Original datedOct5,2026 outside72h; not included as latest"
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/rstocks_daily_discussion_technicals_tuesday_oct/",
+      "reason": "OldOct27thread, previously reported claims; not re-reported"
+    }
+  ],
+  "access_boundaries": [
+    "Web tool returned readable public original bodies and visible comments.",
+    "CLI original-page archive attempts returned JavaScript challenge pages withHTTP200, not article bodies; no challenge solved, no bypass or retry.",
+    "Previously restricted RSS route was not retried as a workaround."
+  ],
+  "primary_checks": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "event_date": "2026-10-28",
+      "read_scope": "Revenue/segment operating result tables, Q3 cash-flow columns"
+    },
+    {
+      "url": "https://www.benzinga.com/news/26/10/62679903/alphabet-q3-2026-earnings-call-transcript",
+      "kind": "third_party_transcription_of_management_call",
+      "event_date": "2026-10-28",
+      "read_scope": "CFO2026/2027CapExoutlook, external compute margin pressure"
+    }
+  ],
+  "own_calculations": {
+    "search_revenue_share_pct": 49.656286007665955,
+    "ads_revenue_share_pct": 64.28431457080822,
+    "services_operating_margin_pct": 40.66063010114016,
+    "cloud_operating_margin_pct": 36.21413917743983
+  },
+  "state_update": "not performed; parent only after report persisted"
+}

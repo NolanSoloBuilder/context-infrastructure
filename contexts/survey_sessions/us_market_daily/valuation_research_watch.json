@@ -1,0 +1,88 @@
+{
+  "research_date_beijing": "2026-10-30",
+  "quote_session_us": "2026-10-29",
+  "status": "研究草案，用户未确认采用或买入",
+  "recompute_on": "任何新财报、重大融资、业务改变；不把本次阈值当永久价格",
+  "google": {
+    "baseline_dcf": 216.2809582074652,
+    "bear": 68.25373277386849,
+    "bull": 402.1114754622396,
+    "entry_research_ranges_usd": [
+      [
+        180,
+        195
+      ],
+      [
+        160,
+        175
+      ],
+      [
+        140,
+        155
+      ]
+    ],
+    "proposed_slices_of_separate_google_budget_pct": [
+      20,
+      30,
+      30
+    ],
+    "reserve_pct": 20,
+    "model": "2026-10-30/google_update/google_valuation_model.json",
+    "entry_ranges_validity": "SUSPENDED_OLD_RANGES_PENDING_NEW_ENTRY_PLAN",
+    "latest_event_date_us": "2026-10-28",
+    "latest_quote_session_us": "2026-10-29",
+    "latest_regular_close_usd": 283.82,
+    "new_complete_dcf_available": true,
+    "latest_update_file": "2026-10-30/google_update/google_update.md",
+    "note": "Old entry ranges are archived and remain suspended. Complete ten-year model rerun using latest major Q3 facts, with forward TPU/Cloud economics and capital spending still conditional; do not use price decline or model point estimate as automatic entry.",
+    "latest_call_review": "2026-10-29/google_call_analysis/report.md",
+    "latest_call_findings": {
+      "source_scope": "Official CEO remarks plus third-party full CFO/Q&A transcript; Q3 10-Q now read and archived",
+      "valuation_gaps": [
+        "Forward TPU versus service economics",
+        "Working-capital and cash conversion path",
+        "Q4 margin after external compute ramp",
+        "2027 spending and dilution scenarios"
+      ],
+      "entry_price_policy": "No new entry bands approved or activated",
+      "cashflow_correction": "Q3 inventoryCFO -3.220B is total company, not TPU-only; working-capital and capex kept separate"
+    },
+    "archived_2026_10_28_model": {
+      "baseline_dcf": 207.2353210913642,
+      "bear": 66.05311235222023,
+      "bull": 384.39120880109317,
+      "model": "2026-10-28/equity_valuation/google_valuation_model.json"
+    },
+    "latest_model_status": "Q3 financial facts and major capital bridge updated; future forecasts retain prior analyst assumptions; not approved price targets or allocation"
+  },
+  "robotics": {
+    "RRX": {
+      "base": 165.07,
+      "entry_usd": [
+        130,
+        140
+      ],
+      "conditions": "去退税、恢复SBC、检查去杠杆和现金转化",
+      "latest_review": "2026-10-29/robotics_update.md",
+      "new_findings": "9.71 reference EPS still adds back3.92/share acquisition amortization;17x value148.41/131.75 if25%/50% restored, assumptions not validated. RRX current close cross-source has gaps; no entry alert."
+    },
+    "CGNX": {
+      "base": 46.39609576066672,
+      "entry_usd": [
+        39,
+        40
+      ],
+      "conditions": "RealSense现金支出/留任/稀释受控，增长兑现"
+    },
+    "ATS": {
+      "base": 20.970907102621357,
+      "entry_usd": [
+        16,
+        17
+      ],
+      "conditions": "订单与回款改善，杠杆可控；高风险候选"
+    }
+  },
+  "not_an_extension_of_four_symbol_drawdown_alerts": true,
+  "latest_review_date_beijing": "2026-10-30"
+}

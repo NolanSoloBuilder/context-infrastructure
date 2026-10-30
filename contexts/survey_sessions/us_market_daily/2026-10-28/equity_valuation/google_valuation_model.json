@@ -1,0 +1,992 @@
+{
+  "inputs": {
+    "valuation_date_beijing": "2026-10-28",
+    "quote_session_us": "2026-10-27",
+    "financial_basis": "Latest available Q2 balance sheet/TTM through June 30; no Q3 results used. Forecast periods are future years 1–10, not purported reported calendar years.",
+    "units": "USD billions and billion current common shares; per-share prices USD",
+    "facts": {
+      "close_usd": 320.58,
+      "ttm_revenue_B": 445.87,
+      "ttm_ebit_B": 147.628,
+      "non_equity_cash_and_bonds_B": 155.411,
+      "market_equity_B": 101.189,
+      "private_investments_B": 131.461,
+      "interest_debt_B": 100.164,
+      "finance_lease_B": 2.59,
+      "preferred_claim_B": 19.25,
+      "nci_proxy_B": 7.1,
+      "current_common_shares_B": 12.23
+    },
+    "source_basis": [
+      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/d36818d8k.htm",
+      "https://stockanalysis.com/stocks/googl/statistics/"
+    ],
+    "accounting_policy": {
+      "sbc": "Retained in EBIT as an economic operating cost; never added back. Hold current share count, with an extra 10% dilution sensitivity separately.",
+      "leases": "Operating rental cash cost retained in EBIT; operating lease debt is not separately deducted. Forecast capex includes cash and future financed asset purchases; finance lease debt deducted, principal is not an extra operating outflow.",
+      "preferred": "Deduct liquidation preference as claim-value proxy, exclude conversion shares; not both claim and if-converted share count. Future preferred coupons included in this claim-value approximation, not separately deducted again.",
+      "investments": "Investment income excluded from EBIT; mark-date/tax/liquidity haircut applied to investment assets, without another full deferred-tax subtraction.",
+      "working_capital": "2% of incremental revenue; excludes separately reserved 20–40B operating cash.",
+      "terminal": "Years6–10 revenue growth fades linearly from growth_next5 to terminal_growth. FCFF11=NOPAT10*(1+g)*(1-g/ROIC). Capex year10 uses actual year10 growth, which now equals terminal growth; no terminal reinvestment discontinuity.",
+      "assumptions": "All growth, margins, taxes, capex, D&A, discount/terminal rates, reserve, retention factors and scenario bands below are analyst assumptions, not management guidance or probability estimates."
+    },
+    "scenarios": [
+      {
+        "name": "保守压力",
+        "growth_first5": 0.1,
+        "growth_next5": 0.05,
+        "mature_ebit_margin": 0.28,
+        "tax_rate": 0.21,
+        "wacc": 0.11,
+        "terminal_growth": 0.025,
+        "terminal_roic": 0.12,
+        "capex_revenue_ratios": [
+          0.43,
+          0.45,
+          0.42,
+          0.36,
+          0.32,
+          0.28,
+          0.24,
+          0.21,
+          0.19,
+          null
+        ],
+        "da_revenue_ratios": [
+          0.08,
+          0.1,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "incremental_nwc_ratio": 0.02,
+        "operating_cash_reserve_B": 40,
+        "market_equity_retention": 0.5,
+        "private_investments_retention": 0.25
+      },
+      {
+        "name": "基准",
+        "growth_first5": 0.18,
+        "growth_next5": 0.09,
+        "mature_ebit_margin": 0.36,
+        "tax_rate": 0.21,
+        "wacc": 0.1,
+        "terminal_growth": 0.03,
+        "terminal_roic": 0.15,
+        "capex_revenue_ratios": [
+          0.44,
+          0.45,
+          0.38,
+          0.32,
+          0.27,
+          0.235,
+          0.21,
+          0.19,
+          0.18,
+          null
+        ],
+        "da_revenue_ratios": [
+          0.08,
+          0.1,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "incremental_nwc_ratio": 0.02,
+        "operating_cash_reserve_B": 30,
+        "market_equity_retention": 0.7,
+        "private_investments_retention": 0.5
+      },
+      {
+        "name": "乐观兑现",
+        "growth_first5": 0.22,
+        "growth_next5": 0.12,
+        "mature_ebit_margin": 0.38,
+        "tax_rate": 0.21,
+        "wacc": 0.09,
+        "terminal_growth": 0.035,
+        "terminal_roic": 0.18,
+        "capex_revenue_ratios": [
+          0.4,
+          0.4,
+          0.33,
+          0.28,
+          0.24,
+          0.21,
+          0.19,
+          0.18,
+          0.17,
+          null
+        ],
+        "da_revenue_ratios": [
+          0.08,
+          0.1,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "incremental_nwc_ratio": 0.02,
+        "operating_cash_reserve_B": 20,
+        "market_equity_retention": 0.9,
+        "private_investments_retention": 0.75
+      }
+    ]
+  },
+  "scenarios": [
+    {
+      "name": "保守压力",
+      "price_usd": 66.05311235222023,
+      "relative_to_close_pct": -79.39574759741087,
+      "enterprise_value_B": 738.0628140676533,
+      "asset_bridge_B": 69.76674999999999,
+      "equity_value_B": 807.8295640676533,
+      "pv_explicit_fcff_B": 96.20913994205735,
+      "pv_terminal_B": 641.853674125596,
+      "terminal_share_enterprise_pct": 86.96464066360096,
+      "terminal_fcff_B": 154.91188734530633,
+      "extra_10pct_share_dilution_price_usd": 60.048283956563836,
+      "forecast": [
+        {
+          "year": 1,
+          "revenue_growth": 0.1,
+          "revenue_B": 490.45700000000005,
+          "ebit_margin": 0.3208807948505169,
+          "ebit_B": 157.378232,
+          "nopat_B": 124.32880328,
+          "da_B": 39.236560000000004,
+          "capex_B": 210.89651,
+          "nwc_change_B": 0.891740000000001,
+          "fcff_B": -48.22288671999999,
+          "pv_fcff_B": -43.44404209009008
+        },
+        {
+          "year": 2,
+          "revenue_growth": 0.1,
+          "revenue_B": 539.5027000000001,
+          "ebit_margin": 0.3106605961378877,
+          "ebit_B": 167.60223040000002,
+          "nopat_B": 132.405762016,
+          "da_B": 53.95027000000002,
+          "capex_B": 242.77621500000006,
+          "nwc_change_B": 0.9809140000000014,
+          "fcff_B": -57.401096984000034,
+          "pv_fcff_B": -46.588018005032076
+        },
+        {
+          "year": 3,
+          "revenue_growth": 0.1,
+          "revenue_B": 593.4529700000002,
+          "ebit_margin": 0.30044039742525847,
+          "ebit_B": 178.29724616000004,
+          "nopat_B": 140.85482446640003,
+          "da_B": 71.21435640000001,
+          "capex_B": 249.25024740000006,
+          "nwc_change_B": 1.079005400000001,
+          "fcff_B": -38.26007193360002,
+          "pv_fcff_B": -27.975434845802713
+        },
+        {
+          "year": 4,
+          "revenue_growth": 0.1,
+          "revenue_B": 652.7982670000002,
+          "ebit_margin": 0.2902201987126293,
+          "ebit_B": 189.4552427680001,
+          "nopat_B": 149.6696417867201,
+          "da_B": 78.33579204000003,
+          "capex_B": 235.0073761200001,
+          "nwc_change_B": 1.1869059400000015,
+          "fcff_B": -8.188848233279968,
+          "pv_fcff_B": -5.3942479738340765
+        },
+        {
+          "year": 5,
+          "revenue_growth": 0.1,
+          "revenue_B": 718.0780937000003,
+          "ebit_margin": 0.28,
+          "ebit_B": 201.0618662360001,
+          "nopat_B": 158.83887432644008,
+          "da_B": 86.16937124400003,
+          "capex_B": 229.7849899840001,
+          "nwc_change_B": 1.305596534000001,
+          "fcff_B": 13.917659052440017,
+          "pv_fcff_B": 8.259453248136747
+        },
+        {
+          "year": 6,
+          "revenue_growth": 0.05,
+          "revenue_B": 753.9819983850003,
+          "ebit_margin": 0.28,
+          "ebit_B": 211.1149595478001,
+          "nopat_B": 166.7808180427621,
+          "da_B": 90.47783980620004,
+          "capex_B": 211.1149595478001,
+          "nwc_change_B": 0.7180780937000009,
+          "fcff_B": 45.425620207462,
+          "pv_fcff_B": 24.286391567569385
+        },
+        {
+          "year": 7,
+          "revenue_growth": 0.043750000000000004,
+          "revenue_B": 786.968710814344,
+          "ebit_margin": 0.28,
+          "ebit_B": 220.35123902801635,
+          "nopat_B": 174.07747883213293,
+          "da_B": 94.43624529772129,
+          "capex_B": 188.87249059544257,
+          "nwc_change_B": 0.6597342485868739,
+          "fcff_B": 78.98149928582477,
+          "pv_fcff_B": 38.04210343578345
+        },
+        {
+          "year": 8,
+          "revenue_growth": 0.037500000000000006,
+          "revenue_B": 816.4800374698821,
+          "ebit_margin": 0.28,
+          "ebit_B": 228.61441049156699,
+          "nopat_B": 180.60538428833792,
+          "da_B": 97.97760449638585,
+          "capex_B": 171.46080786867523,
+          "nwc_change_B": 0.5902265331107606,
+          "fcff_B": 106.53195438293774,
+          "pv_fcff_B": 46.227037709168755
+        },
+        {
+          "year": 9,
+          "revenue_growth": 0.03125,
+          "revenue_B": 841.9950386408159,
+          "ebit_margin": 0.28,
+          "ebit_B": 235.75861081942847,
+          "nopat_B": 186.2493025473485,
+          "da_B": 101.0394046368979,
+          "capex_B": 159.979057341755,
+          "nwc_change_B": 0.5103000234186765,
+          "fcff_B": 126.7993498190727,
+          "pv_fcff_B": 49.569006846718274
+        },
+        {
+          "year": 10,
+          "revenue_growth": 0.025,
+          "revenue_B": 863.0449146068362,
+          "ebit_margin": 0.28,
+          "ebit_B": 241.65257608991416,
+          "nopat_B": 190.9055351110322,
+          "da_B": 103.56538975282034,
+          "capex_B": 142.91637871496496,
+          "nwc_change_B": 0.4209975193204059,
+          "fcff_B": 151.13354862956717,
+          "pv_fcff_B": 53.22689004943966
+        }
+      ],
+      "assumptions": {
+        "name": "保守压力",
+        "growth_first5": 0.1,
+        "growth_next5": 0.05,
+        "mature_ebit_margin": 0.28,
+        "tax_rate": 0.21,
+        "wacc": 0.11,
+        "terminal_growth": 0.025,
+        "terminal_roic": 0.12,
+        "capex_revenue_ratios": [
+          0.43,
+          0.45,
+          0.42,
+          0.36,
+          0.32,
+          0.28,
+          0.24,
+          0.21,
+          0.19,
+          null
+        ],
+        "da_revenue_ratios": [
+          0.08,
+          0.1,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "incremental_nwc_ratio": 0.02,
+        "operating_cash_reserve_B": 40,
+        "market_equity_retention": 0.5,
+        "private_investments_retention": 0.25
+      }
+    },
+    {
+      "name": "基准",
+      "price_usd": 207.2353210913642,
+      "relative_to_close_pct": -35.35612917481933,
+      "enterprise_value_B": 2401.618176947384,
+      "asset_bridge_B": 132.8698,
+      "equity_value_B": 2534.487976947384,
+      "pv_explicit_fcff_B": 641.4889944839075,
+      "pv_terminal_B": 1760.1291824634766,
+      "terminal_share_enterprise_pct": 73.28930132851998,
+      "terminal_fcff_B": 319.57252570716366,
+      "extra_10pct_share_dilution_price_usd": 188.39574644669472,
+      "forecast": [
+        {
+          "year": 1,
+          "revenue_growth": 0.18,
+          "revenue_B": 526.1265999999999,
+          "ebit_margin": 0.3368807948505169,
+          "ebit_B": 177.24194719999994,
+          "nopat_B": 140.02113828799995,
+          "da_B": 42.09012799999999,
+          "capex_B": 231.49570399999996,
+          "nwc_change_B": 1.6051319999999987,
+          "fcff_B": -50.98956971200002,
+          "pv_fcff_B": -46.354154283636376
+        },
+        {
+          "year": 2,
+          "revenue_growth": 0.18,
+          "revenue_B": 620.8293879999999,
+          "ebit_margin": 0.3426605961378877,
+          "ebit_B": 212.73376819199993,
+          "nopat_B": 168.05967687167995,
+          "da_B": 62.082938799999994,
+          "capex_B": 279.37322459999996,
+          "nwc_change_B": 1.8940557599999988,
+          "fcff_B": -51.12466468832001,
+          "pv_fcff_B": -42.25178899861157
+        },
+        {
+          "year": 3,
+          "revenue_growth": 0.18,
+          "revenue_B": 732.5786778399998,
+          "ebit_margin": 0.34844039742525845,
+          "ebit_B": 255.26000565183992,
+          "nopat_B": 201.65540446495353,
+          "da_B": 87.90944134079997,
+          "capex_B": 278.37989757919996,
+          "nwc_change_B": 2.2349857967999993,
+          "fcff_B": 8.949962429753558,
+          "pv_fcff_B": 6.724239240986893
+        },
+        {
+          "year": 4,
+          "revenue_growth": 0.18,
+          "revenue_B": 864.4428398511998,
+          "ebit_margin": 0.3542201987126292,
+          "ebit_B": 306.2031145078015,
+          "nopat_B": 241.9004604611632,
+          "da_B": 103.73314078214396,
+          "capex_B": 276.62170875238394,
+          "nwc_change_B": 2.637283240223999,
+          "fcff_B": 66.37460925069924,
+          "pv_fcff_B": 45.33475121282646
+        },
+        {
+          "year": 5,
+          "revenue_growth": 0.18,
+          "revenue_B": 1020.0425510244157,
+          "ebit_margin": 0.36,
+          "ebit_B": 367.21531836878967,
+          "nopat_B": 290.10010151134384,
+          "da_B": 122.40510612292988,
+          "capex_B": 275.41148877659225,
+          "nwc_change_B": 3.111994223464319,
+          "fcff_B": 133.98172463421713,
+          "pv_fcff_B": 83.19210972562547
+        },
+        {
+          "year": 6,
+          "revenue_growth": 0.09,
+          "revenue_B": 1111.8463806166133,
+          "ebit_margin": 0.36,
+          "ebit_B": 400.26469702198074,
+          "nopat_B": 316.2091106473648,
+          "da_B": 133.4215656739936,
+          "capex_B": 261.2838994449041,
+          "nwc_change_B": 1.8360765918439506,
+          "fcff_B": 186.51070028461038,
+          "pv_fcff_B": 105.28042798673616
+        },
+        {
+          "year": 7,
+          "revenue_growth": 0.075,
+          "revenue_B": 1195.2348591628593,
+          "ebit_margin": 0.36,
+          "ebit_B": 430.2845492986293,
+          "nopat_B": 339.9247939459172,
+          "da_B": 143.4281830995431,
+          "capex_B": 250.99932042420045,
+          "nwc_change_B": 1.66776957092492,
+          "fcff_B": 230.68588705033494,
+          "pv_fcff_B": 118.37833570113116
+        },
+        {
+          "year": 8,
+          "revenue_growth": 0.06,
+          "revenue_B": 1266.948950712631,
+          "ebit_margin": 0.36,
+          "ebit_B": 456.1016222565471,
+          "nopat_B": 360.32028158267224,
+          "da_B": 152.0338740855157,
+          "capex_B": 240.72030063539987,
+          "nwc_change_B": 1.4342818309954328,
+          "fcff_B": 270.1995732017926,
+          "pv_fcff_B": 126.05009502815626
+        },
+        {
+          "year": 9,
+          "revenue_growth": 0.045,
+          "revenue_B": 1323.9616534946992,
+          "ebit_margin": 0.36,
+          "ebit_B": 476.6261952580917,
+          "nopat_B": 376.53469425389244,
+          "da_B": 158.8753984193639,
+          "capex_B": 238.31309762904584,
+          "nwc_change_B": 1.140254055641367,
+          "fcff_B": 295.95674098856915,
+          "pv_fcff_B": 125.51454899453447
+        },
+        {
+          "year": 10,
+          "revenue_growth": 0.03,
+          "revenue_B": 1363.6805030995404,
+          "ebit_margin": 0.36,
+          "ebit_B": 490.9249811158345,
+          "nopat_B": 387.83073508150926,
+          "da_B": 163.64166037194485,
+          "capex_B": 240.41343039614986,
+          "nwc_change_B": 0.7943769920968226,
+          "fcff_B": 310.26458806520736,
+          "pv_fcff_B": 119.62042987615858
+        }
+      ],
+      "assumptions": {
+        "name": "基准",
+        "growth_first5": 0.18,
+        "growth_next5": 0.09,
+        "mature_ebit_margin": 0.36,
+        "tax_rate": 0.21,
+        "wacc": 0.1,
+        "terminal_growth": 0.03,
+        "terminal_roic": 0.15,
+        "capex_revenue_ratios": [
+          0.44,
+          0.45,
+          0.38,
+          0.32,
+          0.27,
+          0.235,
+          0.21,
+          0.19,
+          0.18,
+          null
+        ],
+        "da_revenue_ratios": [
+          0.08,
+          0.1,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "incremental_nwc_ratio": 0.02,
+        "operating_cash_reserve_B": 30,
+        "market_equity_retention": 0.7,
+        "private_investments_retention": 0.5
+      }
+    },
+    {
+      "name": "乐观兑现",
+      "price_usd": 384.39120880109317,
+      "relative_to_close_pct": 19.90492507364563,
+      "enterprise_value_B": 4505.131633637369,
+      "asset_bridge_B": 195.97285000000005,
+      "equity_value_B": 4701.104483637369,
+      "pv_explicit_fcff_B": 1147.2333783880167,
+      "pv_terminal_B": 3357.8982552493526,
+      "terminal_share_enterprise_pct": 74.53496430998268,
+      "terminal_fcff_B": 437.21514938494647,
+      "extra_10pct_share_dilution_price_usd": 349.44655345553923,
+      "forecast": [
+        {
+          "year": 1,
+          "revenue_growth": 0.22,
+          "revenue_B": 543.9614,
+          "ebit_margin": 0.3408807948505169,
+          "ebit_B": 185.42599439999998,
+          "nopat_B": 146.486535576,
+          "da_B": 43.516912000000005,
+          "capex_B": 217.58456,
+          "nwc_change_B": 1.9618280000000006,
+          "fcff_B": -29.542940424000026,
+          "pv_fcff_B": -27.10361506788993
+        },
+        {
+          "year": 2,
+          "revenue_growth": 0.22,
+          "revenue_B": 663.632908,
+          "ebit_margin": 0.3506605961378877,
+          "ebit_B": 232.709911136,
+          "nopat_B": 183.84082979744,
+          "da_B": 66.3632908,
+          "capex_B": 265.4531632,
+          "nwc_change_B": 2.3934301600000003,
+          "fcff_B": -17.642472762559997,
+          "pv_fcff_B": -14.849316355996965
+        },
+        {
+          "year": 3,
+          "revenue_growth": 0.22,
+          "revenue_B": 809.6321477600001,
+          "ebit_margin": 0.36044039742525846,
+          "ebit_B": 291.82413310688,
+          "nopat_B": 230.54106515443524,
+          "da_B": 97.1558577312,
+          "capex_B": 267.17860876080005,
+          "nwc_change_B": 2.9199847952000004,
+          "fcff_B": 57.59832932963517,
+          "pv_fcff_B": 44.47647838746094
+        },
+        {
+          "year": 4,
+          "revenue_growth": 0.22,
+          "revenue_B": 987.7512202672001,
+          "ebit_margin": 0.37022019871262923,
+          "ebit_B": 365.68545304596483,
+          "nopat_B": 288.89150790631226,
+          "da_B": 118.530146432064,
+          "capex_B": 276.57034167481606,
+          "nwc_change_B": 3.5623814501440005,
+          "fcff_B": 127.28893121341618,
+          "pv_fcff_B": 90.17468796112762
+        },
+        {
+          "year": 5,
+          "revenue_growth": 0.22,
+          "revenue_B": 1205.056488725984,
+          "ebit_margin": 0.38,
+          "ebit_B": 457.921465715874,
+          "nopat_B": 361.7579579155405,
+          "da_B": 144.6067786471181,
+          "capex_B": 289.2135572942362,
+          "nwc_change_B": 4.34610536917568,
+          "fcff_B": 212.80507389924668,
+          "pv_fcff_B": 138.30869669065922
+        },
+        {
+          "year": 6,
+          "revenue_growth": 0.12,
+          "revenue_B": 1349.6632673731024,
+          "ebit_margin": 0.38,
+          "ebit_B": 512.872041601779,
+          "nopat_B": 405.1689128654054,
+          "da_B": 161.95959208477228,
+          "capex_B": 283.4292861483515,
+          "nwc_change_B": 2.8921355729423657,
+          "fcff_B": 280.8070832288838,
+          "pv_fcff_B": 167.43608888563602
+        },
+        {
+          "year": 7,
+          "revenue_growth": 0.09875,
+          "revenue_B": 1482.9425150261961,
+          "ebit_margin": 0.38,
+          "ebit_B": 563.5181557099545,
+          "nopat_B": 445.1793430108641,
+          "da_B": 177.95310180314354,
+          "capex_B": 281.75907785497725,
+          "nwc_change_B": 2.665584953061875,
+          "fcff_B": 338.7077820059685,
+          "pv_fcff_B": 185.28475575218988
+        },
+        {
+          "year": 8,
+          "revenue_growth": 0.0775,
+          "revenue_B": 1597.8705599407263,
+          "ebit_margin": 0.38,
+          "ebit_B": 607.190812777476,
+          "nopat_B": 479.6807420942061,
+          "da_B": 191.74446719288716,
+          "capex_B": 287.6167007893307,
+          "nwc_change_B": 2.2985608982906025,
+          "fcff_B": 381.50994759947196,
+          "pv_fcff_B": 191.46697805989965
+        },
+        {
+          "year": 9,
+          "revenue_growth": 0.056249999999999994,
+          "revenue_B": 1687.750778937392,
+          "ebit_margin": 0.38,
+          "ebit_B": 641.345295996209,
+          "nopat_B": 506.6627838370051,
+          "da_B": 202.53009347248704,
+          "capex_B": 286.91763241935666,
+          "nwc_change_B": 1.797604379933314,
+          "fcff_B": 420.47764051020215,
+          "pv_fcff_B": 193.5995863563658
+        },
+        {
+          "year": 10,
+          "revenue_growth": 0.035,
+          "revenue_B": 1746.8220562002004,
+          "ebit_margin": 0.38,
+          "ebit_B": 663.7923813560761,
+          "nopat_B": 524.3959812713001,
+          "da_B": 209.61864674402403,
+          "capex_B": 310.4031064459652,
+          "nwc_change_B": 1.1814255452561702,
+          "fcff_B": 422.43009602410285,
+          "pv_fcff_B": 178.4390377185646
+        }
+      ],
+      "assumptions": {
+        "name": "乐观兑现",
+        "growth_first5": 0.22,
+        "growth_next5": 0.12,
+        "mature_ebit_margin": 0.38,
+        "tax_rate": 0.21,
+        "wacc": 0.09,
+        "terminal_growth": 0.035,
+        "terminal_roic": 0.18,
+        "capex_revenue_ratios": [
+          0.4,
+          0.4,
+          0.33,
+          0.28,
+          0.24,
+          0.21,
+          0.19,
+          0.18,
+          0.17,
+          null
+        ],
+        "da_revenue_ratios": [
+          0.08,
+          0.1,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "incremental_nwc_ratio": 0.02,
+        "operating_cash_reserve_B": 20,
+        "market_equity_retention": 0.9,
+        "private_investments_retention": 0.75
+      }
+    }
+  ],
+  "faster_execution_check": {
+    "name": "较快兑现检查",
+    "price_usd": 229.39987751802374,
+    "relative_to_close_pct": -28.442236721559755,
+    "enterprise_value_B": 2672.6907020454305,
+    "asset_bridge_B": 132.8698,
+    "equity_value_B": 2805.5605020454304,
+    "pv_explicit_fcff_B": 713.3595258395503,
+    "pv_terminal_B": 1959.3311762058802,
+    "terminal_share_enterprise_pct": 73.30931239841517,
+    "terminal_fcff_B": 355.740032558601,
+    "extra_10pct_share_dilution_price_usd": 208.5453431982034,
+    "forecast": [
+      {
+        "year": 1,
+        "revenue_growth": 0.2,
+        "revenue_B": 535.044,
+        "ebit_margin": 0.3368807948505169,
+        "ebit_B": 180.24604799999997,
+        "nopat_B": 142.39437791999998,
+        "da_B": 42.80352,
+        "capex_B": 235.41935999999998,
+        "nwc_change_B": 1.7834799999999995,
+        "fcff_B": -52.004942080000006,
+        "pv_fcff_B": -47.277220072727275
+      },
+      {
+        "year": 2,
+        "revenue_growth": 0.2,
+        "revenue_B": 642.0527999999999,
+        "ebit_margin": 0.3426605961378877,
+        "ebit_B": 220.00619519999995,
+        "nopat_B": 173.80489420799998,
+        "da_B": 64.20528,
+        "capex_B": 288.92375999999996,
+        "nwc_change_B": 2.140175999999999,
+        "fcff_B": -53.05376179199999,
+        "pv_fcff_B": -43.84608412561982
+      },
+      {
+        "year": 3,
+        "revenue_growth": 0.2,
+        "revenue_B": 770.4633599999999,
+        "ebit_margin": 0.34844039742525845,
+        "ebit_B": 268.46055935999993,
+        "nopat_B": 212.08384189439997,
+        "da_B": 92.45560319999998,
+        "capex_B": 292.77607679999994,
+        "nwc_change_B": 2.5682111999999986,
+        "fcff_B": 9.19515709440004,
+        "pv_fcff_B": 6.908457621637894
+      },
+      {
+        "year": 4,
+        "revenue_growth": 0.2,
+        "revenue_B": 924.5560319999997,
+        "ebit_margin": 0.3542201987126292,
+        "ebit_B": 327.4964213759999,
+        "nopat_B": 258.7221728870399,
+        "da_B": 110.94672383999996,
+        "capex_B": 295.8579302399999,
+        "nwc_change_B": 3.0818534399999975,
+        "fcff_B": 70.72911304703993,
+        "pv_fcff_B": 48.30893589716543
+      },
+      {
+        "year": 5,
+        "revenue_growth": 0.2,
+        "revenue_B": 1109.4672383999996,
+        "ebit_margin": 0.36,
+        "ebit_B": 399.4082058239998,
+        "nopat_B": 315.5324826009599,
+        "da_B": 133.13606860799996,
+        "capex_B": 299.5561543679999,
+        "nwc_change_B": 3.698224127999997,
+        "fcff_B": 145.41417271295995,
+        "pv_fcff_B": 90.29076051248356
+      },
+      {
+        "year": 6,
+        "revenue_growth": 0.1,
+        "revenue_B": 1220.4139622399996,
+        "ebit_margin": 0.36,
+        "ebit_B": 439.34902640639984,
+        "nopat_B": 347.0857308610559,
+        "da_B": 146.44967546879994,
+        "capex_B": 286.79728112639987,
+        "nwc_change_B": 2.2189344768000003,
+        "fcff_B": 204.51919072665598,
+        "pv_fcff_B": 115.44575136089352
+      },
+      {
+        "year": 7,
+        "revenue_growth": 0.0825,
+        "revenue_B": 1321.0981141247996,
+        "ebit_margin": 0.36,
+        "ebit_B": 475.59532108492783,
+        "nopat_B": 375.720303657093,
+        "da_B": 158.53177369497595,
+        "capex_B": 277.4306039662079,
+        "nwc_change_B": 2.0136830376960004,
+        "fcff_B": 254.80779034816499,
+        "pv_fcff_B": 130.7566862055887
+      },
+      {
+        "year": 8,
+        "revenue_growth": 0.065,
+        "revenue_B": 1406.9694915429116,
+        "ebit_margin": 0.36,
+        "ebit_B": 506.50901695544815,
+        "nopat_B": 400.14212339480406,
+        "da_B": 168.83633898514938,
+        "capex_B": 267.3242033931532,
+        "nwc_change_B": 1.7174275483622388,
+        "fcff_B": 299.93683143843805,
+        "pv_fcff_B": 139.92274546275405
+      },
+      {
+        "year": 9,
+        "revenue_growth": 0.0475,
+        "revenue_B": 1473.8005423912,
+        "ebit_margin": 0.36,
+        "ebit_B": 530.568195260832,
+        "nopat_B": 419.1488742560573,
+        "da_B": 176.856065086944,
+        "capex_B": 265.284097630416,
+        "nwc_change_B": 1.3366210169657688,
+        "fcff_B": 329.38422069561955,
+        "pv_fcff_B": 139.6910635264891
+      },
+      {
+        "year": 10,
+        "revenue_growth": 0.03,
+        "revenue_B": 1518.014558662936,
+        "ebit_margin": 0.36,
+        "ebit_B": 546.485241118657,
+        "nopat_B": 431.72334048373904,
+        "da_B": 182.16174703955232,
+        "capex_B": 267.62213481086536,
+        "nwc_change_B": 0.88428032543472,
+        "fcff_B": 345.37867238699124,
+        "pv_fcff_B": 133.15842945088508
+      }
+    ],
+    "assumptions": {
+      "name": "较快兑现检查",
+      "growth_first5": 0.2,
+      "growth_next5": 0.1,
+      "mature_ebit_margin": 0.36,
+      "tax_rate": 0.21,
+      "wacc": 0.1,
+      "terminal_growth": 0.03,
+      "terminal_roic": 0.15,
+      "capex_revenue_ratios": [
+        0.44,
+        0.45,
+        0.38,
+        0.32,
+        0.27,
+        0.235,
+        0.21,
+        0.19,
+        0.18,
+        null
+      ],
+      "da_revenue_ratios": [
+        0.08,
+        0.1,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "incremental_nwc_ratio": 0.02,
+      "operating_cash_reserve_B": 30,
+      "market_equity_retention": 0.7,
+      "private_investments_retention": 0.5
+    }
+  },
+  "sensitivity": [
+    {
+      "wacc": 0.09,
+      "terminal_growth": 0.02,
+      "price_usd": 232.92863884918512
+    },
+    {
+      "wacc": 0.09,
+      "terminal_growth": 0.025,
+      "price_usd": 241.52875838294185
+    },
+    {
+      "wacc": 0.09,
+      "terminal_growth": 0.03,
+      "price_usd": 251.3697866455616
+    },
+    {
+      "wacc": 0.09,
+      "terminal_growth": 0.035,
+      "price_usd": 262.7875195844458
+    },
+    {
+      "wacc": 0.095,
+      "terminal_growth": 0.02,
+      "price_usd": 212.916821657723
+    },
+    {
+      "wacc": 0.095,
+      "terminal_growth": 0.025,
+      "price_usd": 219.7825878780676
+    },
+    {
+      "wacc": 0.095,
+      "terminal_growth": 0.03,
+      "price_usd": 227.53414138694222
+    },
+    {
+      "wacc": 0.095,
+      "terminal_growth": 0.035,
+      "price_usd": 236.3906121851302
+    },
+    {
+      "wacc": 0.1,
+      "terminal_growth": 0.02,
+      "price_usd": 195.54530317174667
+    },
+    {
+      "wacc": 0.1,
+      "terminal_growth": 0.025,
+      "price_usd": 201.07155849379043
+    },
+    {
+      "wacc": 0.1,
+      "terminal_growth": 0.03,
+      "price_usd": 207.2353210913642
+    },
+    {
+      "wacc": 0.1,
+      "terminal_growth": 0.035,
+      "price_usd": 214.1816553267196
+    },
+    {
+      "wacc": 0.105,
+      "terminal_growth": 0.02,
+      "price_usd": 180.34345211985666
+    },
+    {
+      "wacc": 0.105,
+      "terminal_growth": 0.025,
+      "price_usd": 184.82214665772983
+    },
+    {
+      "wacc": 0.105,
+      "terminal_growth": 0.03,
+      "price_usd": 189.7618361301153
+    },
+    {
+      "wacc": 0.105,
+      "terminal_growth": 0.035,
+      "price_usd": 195.25947530879048
+    },
+    {
+      "wacc": 0.11,
+      "terminal_growth": 0.02,
+      "price_usd": 166.94541083737852
+    },
+    {
+      "wacc": 0.11,
+      "terminal_growth": 0.025,
+      "price_usd": 170.59594825112816
+    },
+    {
+      "wacc": 0.11,
+      "terminal_growth": 0.03,
+      "price_usd": 174.58022317313285
+    },
+    {
+      "wacc": 0.11,
+      "terminal_growth": 0.035,
+      "price_usd": 178.96334323266723
+    }
+  ],
+  "reverse_dcf": {
+    "required_first5_revenue_cagr": 0.2909189349594469,
+    "all_other_parameters": "Hold baseline margin, capex ratios, year6 growth/taper to terminal, WACC, terminal ROIC and asset bridge fixed."
+  }
+}

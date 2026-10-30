@@ -13,13 +13,28 @@ from urllib.parse import quote
 
 import pandas as pd
 
-WATCH = ["QQQ", "QQQM", "VOO", "BRK-B"]
+WATCH = ["QQQM", "VOO", "BRK-B"]
 SECTORS = {
     "XLK": "科技", "XLC": "通信服务", "XLY": "可选消费", "XLP": "必需消费",
     "XLV": "医疗", "XLF": "金融", "XLI": "工业", "XLE": "能源",
     "XLU": "公用事业", "XLB": "原材料", "XLRE": "房地产", "SMH": "半导体",
 }
 INDICES = {"^GSPC": "标普500", "^IXIC": "纳斯达克综合", "^NDX": "纳斯达克100", "^VIX": "VIX"}
+OBSERVATION_GROUPS = json.loads(Path(__file__).with_name("watchlist_groups.json").read_text())["groups"]
+OBSERVATION_SYMBOLS = [asset["symbol"] for group in OBSERVATION_GROUPS for asset in group["assets"]]
+ASSET_METADATA = {asset["symbol"]: asset for group in OBSERVATION_GROUPS for asset in group["assets"]}
+if len(OBSERVATION_SYMBOLS) != len(set(OBSERVATION_SYMBOLS)):
+    raise ValueError("Each observation symbol must have one primary display group")
+# Display and research coverage never extends the active alert contract.
+RESEARCH = [s for s in OBSERVATION_SYMBOLS if s not in WATCH and s not in SECTORS and s != "SGOV"]
+# Actual held share classes can differ from the research ticker (GOOG/GOOGL).
+# Read only symbols from the local, Git-excluded snapshot. This never logs in
+# to the broker or imports quantities/costs into public quote manifests.
+PORTFOLIO_PATH = Path(__file__).resolve().parents[2] / "contexts/survey_sessions/us_market_daily/portfolio_private/latest.json"
+PORTFOLIO_SYMBOLS = []
+if PORTFOLIO_PATH.exists():
+    portfolio = json.loads(PORTFOLIO_PATH.read_text())
+    PORTFOLIO_SYMBOLS = list(dict.fromkeys(p["symbol"] for p in portfolio["positions"] if p["quantity"] > 0))
 
 
 def money(value: float, factor: str = "1") -> float:
@@ -50,8 +65,14 @@ def collect(ticker: str, out: Path, asof: pd.Timestamp, refresh: bool):
     df = df.loc[df.index <= asof, ["open", "high", "low", "close", "volume"]].dropna(subset=["open", "high", "low", "close"])
     if df.index.has_duplicates or not df.index.is_monotonic_increasing:
         raise ValueError(f"{ticker}: duplicate or unordered dates")
-    if len(df) < 320 or df.index[-1] != asof:
+    metadata = ASSET_METADATA.get(ticker, {})
+    inception = pd.Timestamp(metadata["inception_date"]) if metadata.get("inception_date") else None
+    inception_limited = bool(metadata.get("allow_short_history") and inception is not None and asof - inception < pd.Timedelta(days=730))
+    young_fund = bool(inception_limited and asof - inception < pd.Timedelta(days=364))
+    if len(df) < (2 if inception_limited else 320) or df.index[-1] != asof:
         raise ValueError(f"{ticker}: incomplete history ({len(df)} bars, latest {df.index[-1]})")
+    if inception_limited and (df.index[0] < inception or df.index[0] > inception + pd.Timedelta(days=7)):
+        raise ValueError(f"{ticker}: short history does not cover declared inception")
     valid_ohlc = (df.high >= df[["open", "close", "low"]].max(axis=1) - 0.001) & (df.low <= df[["open", "close", "high"]].min(axis=1) + 0.001) & (df.low > 0)
     if not valid_ohlc.all():
         raise ValueError(f"{ticker}: inconsistent OHLC")
@@ -69,8 +90,8 @@ def collect(ticker: str, out: Path, asof: pd.Timestamp, refresh: bool):
         "symbol": ticker, "label": "BRK.B" if ticker == "BRK-B" else INDICES.get(ticker, SECTORS.get(ticker, ticker)),
         "session": str(asof.date()), "close": money(latest.close),
         "day_pct": float((latest.close / df.close.iloc[-2] - 1) * 100),
-        "five_session_pct": float((latest.close / df.close.iloc[-6] - 1) * 100),
-        "twenty_one_session_pct": float((latest.close / df.close.iloc[-22] - 1) * 100),
+        "five_session_pct": float((latest.close / df.close.iloc[-6] - 1) * 100) if len(df) >= 6 else None,
+        "twenty_one_session_pct": float((latest.close / df.close.iloc[-22] - 1) * 100) if len(df) >= 22 else None,
         "high_52w": money(hi), "high_date": str(window.high.idxmax().date()),
         "drawdown_pct": float(latest.drawdown_pct), "level_15": money(hi, ".85"), "level_25": money(hi, ".75"),
         "additional_drop_to_15_pct": float((hi * .85 / latest.close - 1) * 100),
@@ -84,6 +105,17 @@ def collect(ticker: str, out: Path, asof: pd.Timestamp, refresh: bool):
               "file_saved_utc": datetime.fromtimestamp(raw.stat().st_mtime, timezone.utc).isoformat(),
               "first_session": str(df.index[0].date()), "last_session": str(df.index[-1].date()),
               "bars": len(df), "currency": result["meta"].get("currency"), "splits": result.get("events", {}).get("splits", {})}
+    summary["history_scope"] = "since_inception_less_than_52_weeks" if young_fund else "rolling_52_weeks"
+    if young_fund:
+        summary["available_history_high"] = summary["high_52w"]
+        summary["available_history_drawdown_pct"] = summary["drawdown_pct"]
+        # A young fund has no complete 52-week history. Keep the available
+        # history separately; never present it as a verified 52-week signal.
+        for key in ["high_52w", "high_date", "drawdown_pct", "level_15", "level_25", "additional_drop_to_15_pct"]:
+            summary[key] = None
+    for key, value in summary.items():
+        if isinstance(value, float) and pd.isna(value):
+            summary[key] = None
     return summary, source
 
 
@@ -97,7 +129,8 @@ def main():
     asof = pd.Timestamp(args.asof)
     summaries, sources, errors = [], [], []
     with ThreadPoolExecutor(max_workers=4) as pool:
-        jobs = {pool.submit(collect, ticker, args.out, asof, args.refresh): ticker for ticker in WATCH + list(SECTORS) + list(INDICES) + ["SGOV"]}
+        symbols = list(dict.fromkeys(WATCH + RESEARCH + PORTFOLIO_SYMBOLS + list(SECTORS) + list(INDICES) + ["SGOV"]))
+        jobs = {pool.submit(collect, ticker, args.out, asof, args.refresh): ticker for ticker in symbols}
         for job in as_completed(jobs):
             ticker = jobs[job]
             try:

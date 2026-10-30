@@ -1,0 +1,65 @@
+{
+  "collected_at_utc": "2026-10-29T23:36:13.153814+00:00",
+  "url": "https://finews.fyi/",
+  "page_session_date": "2026-10-29",
+  "page_update_at_utc": "2026-10-29T22:09:48Z",
+  "page_update_beijing": "2026-10-30T06:09:48+08:00",
+  "read_scope": "Public liveHTML:8summary points,21news titles/summaries/links,calendar andmarketwidgets. Web toolrootreturnedstale10/28;CLIrootreturned10/29.",
+  "saved_html": "macro_raw/finews.html",
+  "saved_html_sha256": "5ce31c02c535708286601ecd417c575deb2b27f8ce83d778830346304b734238",
+  "news_metadata_index": "macro_raw/finews_news_index.json",
+  "role": "discovery_only_primary_recheck",
+  "items": [
+    {
+      "key": "amazon_q3_cash_return",
+      "aggregation_url": "https://finews.fyi/",
+      "original_url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+      "original_timestamp_at_utc": "2026-10-29T22:05:59Z",
+      "original_read": "not_accessible_not_bypassed",
+      "primary_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "status": "company_results_verified_from_original_release",
+      "claims": [
+        "AWSQ3revenue45.984B+39.3%",
+        "TTMFCFminus42.357B",
+        "2026cashcapex220Bmaintained"
+      ],
+      "counterevidence": "AWSoperatingincomeandcashfromoperationsgrowing; investmentreturntimingnotyetsettled"
+    },
+    {
+      "key": "gdp_pce_actual",
+      "aggregation_url": "https://finews.fyi/",
+      "original_url": "https://www.nytimes.com/2026/10/29/business/economy/us-economy-gdp.html",
+      "original_timestamp_at_utc": "2026-10-29T21:10:37Z",
+      "original_read": "not_read_primary_substituted",
+      "primary_urls": [
+        "https://bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+        "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+      ],
+      "status": "official_actuals_verified_no_consensus_checked",
+      "counterevidence": "quarterpricegrowthslowedwhilemonthlyheadlineaccelerated; differentwindows"
+    },
+    {
+      "key": "google_capital_return",
+      "aggregation_url": "https://finews.fyi/",
+      "original_url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+      "original_timestamp_at_utc": "2026-10-29T20:15:19Z",
+      "original_read": "not_accessible_not_bypassed",
+      "primary_verification": "Googleprimaryreviewhandledseparatelybyparentteam; notclaimedindependentverificationinthisfile",
+      "status": "lead_only_in_this_file"
+    },
+    {
+      "key": "link_quality_gap",
+      "example_original_url": "https://finance.yahoo.com/markets/stocks/articles/why-the-market-dipped-but-medtronic-mdt-gained-today-205003819.html?.tsrc=rss",
+      "aggregation_title": "Apple、Meta等少数科技股逆势上涨，资金寻找防守型成长",
+      "status": "title_URL_subject_mismatch_flag_body_inaccessible_not_proven_false",
+      "handling": "Do notusethisitemasfact;notinferfundflowsfromstockprice"
+    }
+  ],
+  "limitations": [
+    "FiNewsquoteunderlyingYahooisnotanindependentcrosscheck",
+    "Calendarrequiresofficialrecheck,DSTcorrection",
+    "ValuationtemperatureandFearGreednotverifiedorusedasentrytriggers",
+    "SomeaggregatedtitlesandURLsubjectsappearmismatched; originalsnotaccessibledonotupgradeclaim",
+    "Noassertioncapitalflowbasedonprices"
+  ]
+}

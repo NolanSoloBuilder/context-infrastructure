@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "reported_items": {
+    "bkd_occupancy_profit_quality_2026q3": {
+      "post_id": "1xe494e",
+      "comment_id": "19rn0nzsc444h",
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xe494e/rstocks_weekend_discussion_saturday_oct_24_2026/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xe494e/comment/19rn0nzsc444h/",
+      "first_report_date_beijing": "2026-10-26",
+      "last_report_date_beijing": "2026-10-26",
+      "reported_in_digest_at_utc": "2026-10-26T09:08:16.174162Z",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-26/reddit_digest.md",
+      "freshness_status": "recent_date_only_not_exact_24h_verified",
+      "claim_keys": [
+        "Q2 occupancy 82.4%",
+        "Q3 average occupancy 83.1%, up 0.7 percentage points sequentially",
+        "Q2 net income about USD23m included USD45.4m gain on sale of communities",
+        "Industry construction starts down 67% since 2021"
+      ],
+      "classification": "verified_company_metrics_with_unverified_industry_claim",
+      "next_check": "Q3 financial release: cash generation after capital expenditure and ability to meet debt/lease payments. Release date not verified in this run."
+    },
+    "rddt_q3_2026_users_monetization_event": {
+      "post_id": "1xf2nmj",
+      "comment_id": null,
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xf2nmj/reddit_will_post_its_earnings_thursday_after/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xf2nmj/reddit_will_post_its_earnings_thursday_after/",
+      "first_report_date_beijing": "2026-10-26",
+      "last_report_date_beijing": "2026-10-26",
+      "reported_in_digest_at_utc": "2026-10-26T09:08:16.174162Z",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-26/reddit_digest.md",
+      "freshness_status": "unknown_post_time_current_verified_event",
+      "claim_keys": [
+        "Q2 2026 U.S. revenue grew 56% YoY, U.S. DAUq grew 6% YoY",
+        "Q3 release after regular-market close on October29,2026; call 16:30 America/New_York / October30 04:30 Asia/Shanghai",
+        "Google AI referrals or upcoming U.S. DAU growth will determine a favorable earnings reaction"
+      ],
+      "classification": "verified_earnings_event_and_historical_metrics; forward_comment_predictions_unverified",
+      "next_check": "Reported Q3 U.S. DAUq and ARPU, stock-based compensation, share count and cash generation."
+    },
+    "staged_entry_not_drawdown_protection": {
+      "post_id": "1xe2jx7",
+      "comment_id": null,
+      "post_url": "https://www.reddit.com/r/ValueInvesting/comments/1xe2jx7/difficult_time_to_invest/",
+      "source_url": "https://www.reddit.com/r/ValueInvesting/comments/1xe2jx7/difficult_time_to_invest/",
+      "first_report_date_beijing": "2026-10-26",
+      "last_report_date_beijing": "2026-10-26",
+      "reported_in_digest_at_utc": "2026-10-26T09:08:16.174162Z",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-26/reddit_digest.md",
+      "freshness_status": "expanded_72h_date_only",
+      "claim_keys": [
+        "Spreading purchases can distribute entry timing, but can lag lump-sum investing in rising markets and does not guarantee gains or prevent losses"
+      ],
+      "classification": "forum_strategy_opinions_with_primary_method_reference",
+      "next_check": "Clarify equity budget, maximum acceptable loss and spending needs before proposing executable purchase amounts or schedule."
+    },
+    "equal_weight_cap_weight_divergence_2026_10_26": {
+      "post_id": "1xfpwel",
+      "comment_id": null,
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xfpwel/sp_500_is_down_25_since_oct_6_yet_70_of_its/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xfpwel/sp_500_is_down_25_since_oct_6_yet_70_of_its/",
+      "first_report_date_beijing": "2026-10-27",
+      "last_report_date_beijing": "2026-10-27",
+      "reported_in_digest_at_utc": "2026-10-26T23:48:03.289407+00:00",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-27/reddit_digest.md",
+      "freshness_status": "exact_24h_or_72h_window_not_verified",
+      "claim_keys": [
+        "RSP price return Oct6 to Oct26 +2.335982%; VOO -1.785819%; through Oct23 +1.982759% / -2.460206%."
+      ],
+      "classification": "verified_ETF_price_comparison_with_unverified_constituent_breadth",
+      "next_check": "Maintain same-date RSP/VOO comparison; verify constituent counts using a dated membership list."
+    },
+    "ai_cash_returns_calendar_2026_10_28_29": {
+      "post_id": "1xfspoa",
+      "comment_id": null,
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xfspoa/fed_pce_and_big_tech_earnings_the_week_that_could/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xfspoa/fed_pce_and_big_tech_earnings_the_week_that_could/",
+      "first_report_date_beijing": "2026-10-27",
+      "last_report_date_beijing": "2026-10-27",
+      "reported_in_digest_at_utc": "2026-10-26T23:48:03.289407+00:00",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-27/reddit_digest.md",
+      "freshness_status": "exact_24h_or_72h_window_not_verified",
+      "claim_keys": [
+        "Fed Oct27-28, MSFT Oct28 after regular close, GDP/PCE Oct29 08:30ET, AMZN Oct29 17:00ET call.",
+        "AI revenue growth should be evaluated against capital expenditure, cash generation and return on investment."
+      ],
+      "classification": "verified_calendar_plus_research_questions_not_earnings_predictions",
+      "next_check": "Read actual company releases and cash-flow statements when published."
+    },
+    "neocloud_consolidation_forecast_scope_2026_10_14": {
+      "post_id": "1xftfdv",
+      "comment_id": null,
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xftfdv/elon_musk_warns_200_ai_startups_face_guppylevel/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xftfdv/elon_musk_warns_200_ai_startups_face_guppylevel/",
+      "first_report_date_beijing": "2026-10-27",
+      "last_report_date_beijing": "2026-10-27",
+      "reported_in_digest_at_utc": "2026-10-26T23:48:03.289407+00:00",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-27/reddit_digest.md",
+      "freshness_status": "exact_24h_or_72h_window_not_verified",
+      "claim_keys": [
+        "Gartner Oct14 predicts over80% of neocloud providers cease independent operations by2030. Forecast, not realized bankruptcies."
+      ],
+      "classification": "verified_existence_and_scope_of_forecast_other_claims_unverified",
+      "next_check": "Company-level liquidity, maturity schedule, interest costs, contract cash collection and capex obligations."
+    },
+    "avgo_residual_backstop_disclosure_2026_10_27": {
+      "post_id": "1xgriwj",
+      "comment_id": null,
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xgriwj/broadcom_ceo_intervened_to_seal_63_billion/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xgriwj/broadcom_ceo_intervened_to_seal_63_billion/",
+      "first_report_date_beijing": "2026-10-28",
+      "last_report_date_beijing": "2026-10-28",
+      "reported_in_digest_at_utc": "2026-10-27T23:40:41.039992+00:00",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-28/reddit_digest.md",
+      "freshness_status": "recent_calendar_date_only_exact_window_not_verified",
+      "claim_keys": [
+        "Broadcom arranged financial partners to take on part of AI rack purchase and customer lease arrangements and provided SPV residual value support; maximum potential liability on an undiscounted basis upon deployment is approximately USD43b.",
+        "Contingent liability increases with deployment and declines with customer lease payments. Following lease default, remedies and equipment value may reduce exposure; disclosed shortfall calculation references72.5%of outstanding lease amounts and proceeds from equipment sale."
+      ],
+      "classification": "verified_primary_contingent_liability_disclosure_with_unverified_media_deal_details",
+      "next_check": "Actual contingent exposure in subsequent filings, deployment/lease collections, customer payment performance and equipment residual values."
+    },
+    "nvda_meta_equity_forward_settlement_2026_10_27": {
+      "post_id": "1xgptmy",
+      "comment_id": null,
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xgptmy/nvidia_to_invest_3_billion_in_meta_as_tech_giants/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xgptmy/nvidia_to_invest_3_billion_in_meta_as_tech_giants/",
+      "first_report_date_beijing": "2026-10-28",
+      "last_report_date_beijing": "2026-10-28",
+      "reported_in_digest_at_utc": "2026-10-27T23:40:41.039992+00:00",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-28/reddit_digest.md",
+      "freshness_status": "recent_calendar_date_only_exact_window_not_verified",
+      "claim_keys": [
+        "NVIDIA announced it will invest USD3b in Meta equity offering.",
+        "Meta pricing release upsizes common stock forward offering toUSD25b fromUSD22.5b; Meta expects no initial proceeds from shares sold by forward purchasers, and expects future settlement on or beforeNovember19,2027. Offerings expected to closeOctober29,2026 subject to conditions."
+      ],
+      "classification": "verified_primary_planned_investment_and_forward_offering_terms",
+      "next_check": "ExpectedOctober29 closing, actual forward settlements, share count and operating/free cash flow."
+    },
+    "hubbell_q3_2026_organic_growth_cashflow": {
+      "post_id": "1xgnw3d",
+      "comment_id": "19rqhpdvaxjq9",
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/rstocks_daily_discussion_technicals_tuesday_oct/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/comment/19rqhpdvaxjq9/",
+      "first_report_date_beijing": "2026-10-28",
+      "last_report_date_beijing": "2026-10-28",
+      "reported_in_digest_at_utc": "2026-10-27T23:40:41.039992+00:00",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-28/reddit_digest.md",
+      "freshness_status": "current_dated_daily_thread_exact_comment_time_not_verified",
+      "claim_keys": [
+        "Q3 net sales+25%year-over-year; company lists organic+11%and acquisitions+13%; Electrical Solutions organic sales+22%.",
+        "Operating cash flowUSD323m versusUSD284m; free cash flowUSD280m versusUSD254m prior-year quarter."
+      ],
+      "classification": "verified_company_financial_metrics_with_valuation_not_assessed",
+      "next_check": "Organic orders, capacity-expansion cash returns, integration performance and financing cost."
+    },
+    "bwxt_antares_fuel_framework_2026_10_27": {
+      "post_id": "1xgnw3d",
+      "comment_id": "19rqdcgluoysj",
+      "post_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/rstocks_daily_discussion_technicals_tuesday_oct/",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xgnw3d/comment/19rqdcgluoysj/",
+      "first_report_date_beijing": "2026-10-28",
+      "last_report_date_beijing": "2026-10-28",
+      "reported_in_digest_at_utc": "2026-10-27T23:40:41.039992+00:00",
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-28/reddit_digest.md",
+      "freshness_status": "current_dated_daily_thread_exact_comment_time_not_verified",
+      "claim_keys": [
+        "Multi-year commercial TRISO fuel framework includes terms for an initial1MTU(metric ton uranium)allocation.",
+        "Future task orders define specific quantities, delivery schedules and technical requirements; release does not disclose a contract dollar value."
+      ],
+      "classification": "verified_commercial_framework_with_unquantified_financial_impact",
+      "next_check": "Firm task orders, schedules, deliveries, revenue recognition and cash receipts."
+    }
+  },
+  "runs": [
+    {
+      "run_id": "2026-10-26-manual-reddit-trial",
+      "type": "user_requested_manual_run",
+      "collection_cutoff_at_utc": "2026-10-26T09:04:00Z",
+      "artifact_saved_at_utc": "2026-10-26T09:08:16.174162Z",
+      "coverage_status": "completed_selected_items_with_timestamp_gaps",
+      "complete_reddit_scan": false,
+      "reported_item_ids": [
+        "bkd_occupancy_profit_quality_2026q3",
+        "rddt_q3_2026_users_monetization_event",
+        "staged_entry_not_drawdown_protection"
+      ],
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-26/reddit_digest.md",
+      "source_record_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-26/reddit_sources.json",
+      "digest_sha256": "4b0be2ee6206f804060f0a166a94fe041981c1080098be1fa52bf138f2486496"
+    },
+    {
+      "run_id": "2026-10-27-daily",
+      "type": "daily_heartbeat",
+      "collection_cutoff_at_utc": "2026-10-26T23:45:07Z",
+      "artifact_saved_at_utc": "2026-10-26T23:48:03.289407+00:00",
+      "coverage_status": "completed_selected_items_with_timestamp_and_coverage_gaps",
+      "complete_reddit_scan": false,
+      "reported_item_ids": [
+        "equal_weight_cap_weight_divergence_2026_10_26",
+        "ai_cash_returns_calendar_2026_10_28_29",
+        "neocloud_consolidation_forecast_scope_2026_10_14"
+      ],
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-27/reddit_digest.md",
+      "source_record_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-27/reddit_sources.json",
+      "digest_sha256": "57c630c84685be50ef7342688bc5e2de0c02bb2028927198cd7a1a5305da23c6"
+    },
+    {
+      "run_id": "2026-10-28-daily",
+      "type": "daily_heartbeat",
+      "collection_cutoff_at_utc": "2026-10-27T23:34:55Z",
+      "artifact_saved_at_utc": "2026-10-27T23:40:41.039992+00:00",
+      "coverage_status": "completed_selected_items_with_timestamp_and_coverage_gaps",
+      "complete_reddit_scan": false,
+      "reported_item_ids": [
+        "avgo_residual_backstop_disclosure_2026_10_27",
+        "nvda_meta_equity_forward_settlement_2026_10_27",
+        "hubbell_q3_2026_organic_growth_cashflow",
+        "bwxt_antares_fuel_framework_2026_10_27"
+      ],
+      "digest_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-28/reddit_digest.md",
+      "source_record_path": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-10-28/reddit_sources.json",
+      "digest_sha256": "7eabb77671ed6d0ff2631dbac55e7a760bd5514e17debe71504b985e6ec2d27f"
+    }
+  ],
+  "last_successful_check_at_utc": "2026-10-27T23:34:55Z",
+  "last_successful_check_scope": "selected public bodies and visible comments, official disclosures checked; exact Reddit post times and complete feed coverage unavailable",
+  "last_run_id": "2026-10-28-daily",
+  "dedup_note": "Deduplicate reported claim keys, not all comments under a daily thread. Report material new facts or corrections even when the post ID is unchanged."
+}

@@ -1,0 +1,145 @@
+{
+  "as_of_beijing": "2026-10-28",
+  "financial_period_end": "2026-06-30",
+  "known_common_share_date": "2026-07-15",
+  "quote_session": "2026-10-27",
+  "quote_context_USD": 320.58,
+  "recorded_at_utc": "2026-10-28T06:29:55.252918+00:00",
+  "units": "USD billions unless explicitly rate or shares; figures are dated, not marked to October market values",
+  "sources": [
+    {
+      "id": "q2_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "filing_date": "2026-07-23",
+      "accepted_at_SEC": "2026-07-22 21:15:54 ET",
+      "scope": "Cover, balance sheet, notes 3/4/6/7/11/12/14, cash flows, MD&A",
+      "supporting_mirror_read": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001652044/513183d2-787c-48f5-8da7-8a897b1649e0.html",
+      "quote": "Includes $80.0 billion of Space Exploration Technologies Corp. (SpaceX) shares",
+      "notes": "Short and long restrictions; loan and lease breakdown; convertible preferred shares and capped calls verified in primary filing."
+    },
+    {
+      "id": "preferred_8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526259830/d36818d8k.htm",
+      "filing_date": "2026-06-05",
+      "scope": "385M depositary shares, 1/20 underlying; conversion ranges and timing",
+      "quote": "between 2.2520 and 2.8160 shares of Class A Common Stock"
+    },
+    {
+      "id": "2025_10k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "scope": "2025 operating income for TTM reconstruction",
+      "secondary_primary_table": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/R42.htm",
+      "quote": "Total income from operations"
+    }
+  ],
+  "figures": {
+    "cash_and_cash_equivalents": 55.911,
+    "current_market_equity": 87.063,
+    "current_marketable_debt": 99.5,
+    "cash_equivalents_and_current_marketable_total": 242.474,
+    "non_equity_cash_and_marketable_debt": 155.411,
+    "noncurrent_market_equity": 14.126,
+    "all_market_equity": 101.189,
+    "nonmarketable_securities": 131.461,
+    "nonmarketable_measurement_alternative_cost": 47.642,
+    "nonmarketable_measurement_alternative_carry": 124.259,
+    "spaceX_short_restricted": 80.0,
+    "spaceX_long_restricted": 14.126,
+    "debt_noncurrent": 98.165,
+    "debt_current": 1.999,
+    "pure_debt_carry": 100.164,
+    "debt_face": 101.085,
+    "operating_lease_liabilities": 18.037,
+    "finance_lease_liabilities": 2.59,
+    "sum_pure_debt_and_all_leases": 120.791,
+    "preferred_liquidation_claim": 19.25,
+    "preferred_net_proceeds_rounded": 19.0,
+    "preferred_balance_APIC": 18.023,
+    "capped_call_cost_rounded": 1.0,
+    "preferred_annual_coupon_rate": 0.0625,
+    "common_shares_billions": 12.23,
+    "common_A_shares_billions": 5.868,
+    "common_B_shares_billions": 0.835,
+    "common_C_shares_billions": 5.527,
+    "preferred_max_additional_common_shares_billions": 0.05445824999999999,
+    "preferred_min_additional_common_shares_billions": 0.04356275,
+    "q2_sbc_incremental_treasury_shares_billions": 0.142,
+    "q2_weighted_diluted_shares_billions": 12.309,
+    "deferred_tax_liabilities": 22.819,
+    "deferred_tax_assets": 1.448,
+    "NCI_including_redeemable_rounded": 7.1,
+    "q2_OI_and_E": 97.983,
+    "q2_equity_securities_net_gains": 99.031,
+    "q2_nonmarketable_unrealized_net_gain": 77.354,
+    "q2_marketable_other_equity_unrealized_net_gain": 21.399,
+    "q2_pretax_income": 138.753,
+    "q2_tax_provision": 26.56,
+    "q2_operating_cash_flow": 39.069,
+    "q2_cash_capex": 44.924,
+    "q2_free_cash_flow": -5.855,
+    "annual_2025_EBIT": 129.039,
+    "H1_2026_EBIT": 80.466,
+    "H1_2025_EBIT": 61.877,
+    "ttm_EBIT_reconstructed": 147.628
+  },
+  "bridge_assumptions": {
+    "interpretation": "Market/private retention factors combine mark-date, liquidity, valuation and tax uncertainty. They are model assumptions, not tax estimates. Do not additionally subtract all 22.819B DTL.",
+    "preferred_treatment": "Deduct 19.25B liquidation value as conservative claim-value proxy; denominator excludes preferred conversion shares. No extra preferred dividend deduction in FCFF. Alternatively model conversion shares and preferred coupon PV, without also deducting principal.",
+    "leases": "Operating lease expense remains in EBIT/FCFF; do not subtract 18.037B operating lease liability. Finance leases may be debt-like only if FCFF includes future finance-lease asset investments but excludes debt principal.",
+    "NCI": "7.1B book-value proxy, not verified fair value. Deduct only when enterprise CF includes full consolidated subsidiary CF.",
+    "SBC": "Do not add SBC back to cash flow and also ignore dilution. If treated as ongoing economic expense, current-share denominator is a coherent base; future issuance is scenario risk.",
+    "operating_cash_reserve": "20–40B arbitrary operating liquidity assumption. Avoid double count if another model already includes required cash in operating working capital.",
+    "commitments": "Do not deduct nominal 811B purchase commitments or 85.2B uncommenced leases in full if capex/rent forecasts already reflect their economic cash uses.",
+    "deferred_tax": "Q2 gain-specific tax basis not fully separated. Whole company 19.1% ETR is not a valid exact tax rate for removing the gain."
+  },
+  "bridge_scenarios": [
+    {
+      "name": "保守",
+      "operating_cash_reserve_B": 40,
+      "market_equity_retention_factor": 0.5,
+      "private_investments_retention_factor": 0.25,
+      "bridge_B": 69.76674999999999,
+      "bridge_per_current_share_USD": 5.704558462796401,
+      "TTM_EV_EBIT_crosscheck_USD": {
+        "18": 222.9820727718724,
+        "22": 271.26596484055597,
+        "26": 319.5498569092395
+      },
+      "implied_EV_EBIT_at_320_58": 26.08534051805891
+    },
+    {
+      "name": "基准",
+      "operating_cash_reserve_B": 30,
+      "market_equity_retention_factor": 0.7,
+      "private_investments_retention_factor": 0.5,
+      "bridge_B": 132.8698,
+      "bridge_per_current_share_USD": 10.864251839738348,
+      "TTM_EV_EBIT_crosscheck_USD": {
+        "18": 228.14176614881436,
+        "22": 276.4256582174979,
+        "26": 324.70955028618147
+      },
+      "implied_EV_EBIT_at_320_58": 25.6578941664183
+    },
+    {
+      "name": "乐观",
+      "operating_cash_reserve_B": 20,
+      "market_equity_retention_factor": 0.9,
+      "private_investments_retention_factor": 0.75,
+      "bridge_B": 195.97285000000005,
+      "bridge_per_current_share_USD": 16.023945216680296,
+      "TTM_EV_EBIT_crosscheck_USD": {
+        "18": 233.30145952575631,
+        "22": 281.5853515944399,
+        "26": 329.8692436631234
+      },
+      "implied_EV_EBIT_at_320_58": 25.230447814777687
+    }
+  ],
+  "limitations": [
+    "Financial assets have not been marked from June30 to Oct27; haircut spans uncertainty rather than pretending known current market values.",
+    "Q3 disclosure must replace June30 inputs once released.",
+    "TTM EV/EBIT multiple grid is a cross-check, not an intrinsic DCF or a 3–5 year return forecast.",
+    "No automatic buy or approved allocation."
+  ]
+}

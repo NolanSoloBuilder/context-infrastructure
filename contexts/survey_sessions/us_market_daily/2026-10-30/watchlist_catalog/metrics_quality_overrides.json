@@ -1,0 +1,23 @@
+{
+  "MRNA": {
+    "crosschecked_jump_dates": [
+      "2026-08-19"
+    ],
+    "checked_at_utc": "2026-10-30T01:45:06.253926+00:00",
+    "sources": [
+      {
+        "url": "https://closelook.io/indices/stock/mrna/price-history/",
+        "title": "Closelook MRNA日价格历史",
+        "scope": "实际打开正文并find核对8/18收盘62.96与8/19收盘174.38、+176.97%；与Yahoo chart一致。不同网站可能共享行情供应商。",
+        "dates": [
+          "2026-08-18",
+          "2026-08-19"
+        ],
+        "close_usd": [
+          62.96,
+          174.38
+        ]
+      }
+    ]
+  }
+}

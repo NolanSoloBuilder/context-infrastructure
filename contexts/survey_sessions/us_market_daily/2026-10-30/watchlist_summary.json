@@ -1,0 +1,113 @@
+{
+  "date_beijing": "2026-10-30",
+  "scope": "12 fixed observations plus3 newly discussed medical candidates",
+  "confirmed_holdings": null,
+  "fixed_watchlist_modified": false,
+  "rows": [
+    {
+      "category": "重点指数",
+      "symbol": "VOO",
+      "type": "ETF",
+      "role": "标普500；核心指数配置",
+      "research_status": "可研究小额时间分批"
+    },
+    {
+      "category": "重点指数",
+      "symbol": "QQQM",
+      "type": "ETF",
+      "role": "纳斯达克100；成长配置",
+      "research_status": "可研究小额时间分批，暂不加速"
+    },
+    {
+      "category": "重点指数",
+      "symbol": "QQQ",
+      "type": "ETF",
+      "role": "纳斯达克100；与QQQM对照",
+      "research_status": "同一指数额度，不重复配置"
+    },
+    {
+      "category": "机器人",
+      "symbol": "RRX",
+      "type": "个股",
+      "role": "Regal Rexnord；电机、运动控制",
+      "research_status": "当前安全边际不足"
+    },
+    {
+      "category": "机器人",
+      "symbol": "CGNX",
+      "type": "个股",
+      "role": "Cognex；机器视觉",
+      "research_status": "估值候选，核RealSense整合与稀释"
+    },
+    {
+      "category": "机器人",
+      "symbol": "ATS",
+      "type": "个股",
+      "role": "ATS；自动化系统",
+      "research_status": "高风险候选，核订单、回款与杠杆"
+    },
+    {
+      "category": "AI／半导体",
+      "symbol": "GOOGL",
+      "type": "个股",
+      "role": "Alphabet／Google；搜索、AI与云",
+      "research_status": "Q3重估已更新，暂缓大额首笔"
+    },
+    {
+      "category": "AI／半导体",
+      "symbol": "NVDA",
+      "type": "个股",
+      "role": "NVIDIA；AI芯片与算力",
+      "research_status": "估值待完成"
+    },
+    {
+      "category": "AI／半导体",
+      "symbol": "SMH",
+      "type": "ETF",
+      "role": "半导体行业组合",
+      "research_status": "行业比较，仍需核估值与盈利周期"
+    },
+    {
+      "category": "金融科技",
+      "symbol": "SOFI",
+      "type": "个股",
+      "role": "SoFi；数字银行与金融平台",
+      "research_status": "核信用风险、资本回报和稀释"
+    },
+    {
+      "category": "价值",
+      "symbol": "BRK.B",
+      "type": "个股",
+      "role": "伯克希尔B；保险与综合经营",
+      "research_status": "继续研究，非指数基金"
+    },
+    {
+      "category": "防守资产",
+      "symbol": "SGOV",
+      "type": "ETF",
+      "role": "0–3个月美国国债",
+      "research_status": "防守与暂存候选"
+    },
+    {
+      "category": "医疗新候选",
+      "symbol": "ISRG",
+      "type": "个股",
+      "role": "Intuitive Surgical；手术机器人",
+      "research_status": "已讨论，尚未纳入固定日报名单"
+    },
+    {
+      "category": "医疗新候选",
+      "symbol": "TEM",
+      "type": "个股",
+      "role": "Tempus AI；诊断、医疗数据与应用",
+      "research_status": "已讨论，需核经营盈利与估值"
+    },
+    {
+      "category": "医疗新候选",
+      "symbol": "NTRA",
+      "type": "个股",
+      "role": "Natera；基因检测与MRD监测",
+      "research_status": "已讨论，需核支付、回款与估值"
+    }
+  ]
+}

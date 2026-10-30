@@ -1,0 +1,53 @@
+{
+  "SGOV": {
+    "name": "iShares 0–3 Month Treasury Bond ETF",
+    "type": "短期美债指数ETF",
+    "strategy": "跟踪ICE 0–3 Month US Treasury Securities Index，持有超短美国国债，按月分配。",
+    "expense_pct": 0.09,
+    "holdings_date": "2026-10-28",
+    "holdings": [
+      {
+        "name": "美国国库券·2026-12-08到期",
+        "weight_pct": 8.53
+      },
+      {
+        "name": "美国国库券·2026-12-15到期",
+        "weight_pct": 8.19
+      },
+      {
+        "name": "美国国库券·2026-11-17到期",
+        "weight_pct": 7.63
+      },
+      {
+        "name": "美国国库券·2026-12-22到期",
+        "weight_pct": 6.87
+      },
+      {
+        "name": "美国国库券·2026-11-24到期",
+        "weight_pct": 6.8
+      }
+    ],
+    "notes": [
+      "30日SEC收益率3.79%（2026-10-28），是标准化近期收益率，未来会随短期利率变化。",
+      "官方有效久期0.11年（10/28）；当期债券收益计入净值，月度除息使价格下调。",
+      "持仓展示为前五笔国库券，不是完整资产分配；官方CSV同时有货币基金及负现金结算项。"
+    ],
+    "risks": [
+      "适合美元防守与暂存候选；不等于银行存款或保证本金。",
+      "快进快出仍有买卖价差、税务与结算影响；除息前卖出的期间收益主要体现在成交价格。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+        "title": "iShares SGOV官方基金页",
+        "asof": "2026-10-28/29，不同指标分别注明"
+      },
+      {
+        "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf/latest-holdings.csv",
+        "title": "SGOV官方逐笔持仓CSV",
+        "asof": "2026-10-28"
+      }
+    ],
+    "gaps": []
+  }
+}

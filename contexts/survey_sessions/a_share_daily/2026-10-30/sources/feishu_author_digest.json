@@ -1,0 +1,38 @@
+{
+  "collected_at": "2026-10-30T09:06:34.440969+08:00",
+  "window_start": "2026-10-29T09:00:00+08:00",
+  "window_end": "2026-10-30T09:00:00+08:00",
+  "message_count": 14,
+  "candidate_count": 13,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b6107cfcc40a0df4787425a0569a",
+      "source_time": "2026-10-29 20:10+08:00",
+      "sync_create_time": "1793275920470",
+      "content_sha256": "411f540c979396217683e9d81ee1d7f848738e0df6e6d69cd2ef61497568d33b",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者将A股科技调整的根本因素归于估值偏高，并提醒业绩变化可能放大风险；该跨市场估值比较是其定性判断，未提供可同口径复算的数据。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6118633c0ca4df25e7e039dfa1d",
+      "source_time": "2026-10-29 11:45+08:00",
+      "sync_create_time": "1793245919460",
+      "content_sha256": "1650fcd321d45c9b9f411e4a19e582eba7baf081d97114e7e04742a5d3439642",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为上证再到3000点较难，并由其点差假设推演创业板1600点也较难；这是情景判断，不是底部保证或本报买入阈值。此条比11:41重复条多出盈利消化估值限定，保留较完整版本。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b611fb7be30b8dc13021dd1c2309",
+      "source_time": "2026-10-29 11:37+08:00",
+      "sync_create_time": "1793245079620",
+      "content_sha256": "09fc9682343e5d2d401cfa392446ae26d528031f51086bbf0d79c3c88818a366",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者提醒60日均线会下移，接近均线的反弹不能固定成未来点位；对缺乏经验者倾向研究宽基而非行业ETF或个股。其关于未来回本的表述未独立验证，本报不承诺宽基一定解套。",
+      "member_content_retained": false
+    }
+  ],
+  "coverage": "群同步作者信息，非原星球全文；14条消息/13作者候选已审核，去除重复、用户回复及无关话题；只保存必要投资摘要"
+}

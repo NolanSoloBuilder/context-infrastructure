@@ -1,0 +1,149 @@
+{
+  "report_date_beijing": "2026-10-28",
+  "market_session": "2026-10-27",
+  "captured_at_utc": "2026-10-27T23:36:10.229379+00:00",
+  "session_check": {
+    "source_url": "https://www.nyse.com/trade/hours-calendars",
+    "recent_session": "2026-10-27",
+    "regular_hours_et": "09:30-16:00",
+    "close_beijing": "2026-10-28T04:00:00+08:00",
+    "next_session": "2026-10-28",
+    "next_open_beijing": "2026-10-28T21:30:00+08:00",
+    "result": "normal weekday, not listed holiday; new regular-session OHLC received and cross-checked"
+  },
+  "vix": {
+    "date": "2026-10-27",
+    "value": 17.52,
+    "previous": 18.39,
+    "change": -0.87,
+    "day_pct": -4.73,
+    "source_url": "https://www.cboe.com/tradable-products/vix/",
+    "scope": "Cboe page Trade Data as of October 27; market-data block labels 8:15 PM 10/27 without clear timezone; not asserted identical to equities 16:00 timestamp",
+    "yahoo_daily_matches": true
+  },
+  "treasury": {
+    "date": "2026-10-27",
+    "two_year_pct": 4.7,
+    "ten_year_pct": 4.99,
+    "previous_date": "2026-10-26",
+    "two_year_change_bp": 2,
+    "ten_year_change_bp": -1,
+    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+    "basis": "official daily nominal par yield curve; 2 Yr and 10 Yr columns verified; reference rates, not executable Schwab security quotes"
+  },
+  "sgov": {
+    "source_url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+    "asof": "2026-10-26",
+    "sec_30_day_yield_pct": 3.77,
+    "basis": "variable annualized 30-day SEC yield, before personal tax; not guaranteed future total return or payout rate",
+    "holding_confirmed": false
+  },
+  "upcoming_events": [
+    {
+      "name": "FOMC 决策",
+      "us_eastern": "2026-10-28T14:00:00-04:00",
+      "beijing": "2026-10-29T02:00:00+08:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "政策及后续利率指引"
+    },
+    {
+      "name": "FOMC 记者会",
+      "us_eastern": "2026-10-28T14:30:00-04:00",
+      "beijing": "2026-10-29T02:30:00+08:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "政策及后续利率指引"
+    },
+    {
+      "name": "Microsoft FY27 Q1 earnings",
+      "us_date": "2026-10-28",
+      "us_window": "after regular market close",
+      "beijing_date": "2026-10-29",
+      "beijing_window": "early morning after 04:00; exact release time not verified",
+      "source_url": "https://www.microsoft.com/en-us/investor/faq",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "云增长、资本支出、经营现金流"
+    },
+    {
+      "name": "Q3 GDP 初值、9月个人收入与支出/PCE",
+      "us_eastern": "2026-10-29T08:30:00-04:00",
+      "beijing": "2026-10-29T20:30:00+08:00",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "增长与通胀组合"
+    },
+    {
+      "name": "Amazon Q3 业绩电话会",
+      "us_eastern": "2026-10-29T17:00:00-04:00",
+      "beijing": "2026-10-30T05:00:00+08:00",
+      "source_url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "AWS增长、资本支出、利润率"
+    },
+    {
+      "name": "Q3 雇佣成本指数 ECI",
+      "us_eastern": "2026-10-30T08:30:00-04:00",
+      "beijing": "2026-10-30T20:30:00+08:00",
+      "source_url": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "工资与雇佣成本"
+    },
+    {
+      "name": "9月 JOLTS 职位空缺及劳动力流动",
+      "us_eastern": "2026-11-03T10:00:00-05:00",
+      "beijing": "2026-11-03T23:00:00+08:00",
+      "source_url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "招聘需求及离职率"
+    }
+  ],
+  "later_events": [
+    {
+      "name": "10月非农就业报告",
+      "us_eastern": "2026-11-06T08:30:00-05:00",
+      "beijing": "2026-11-06T21:30:00+08:00",
+      "source_url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "超出未来一周窗口"
+    },
+    {
+      "name": "10月CPI",
+      "us_eastern": "2026-11-10T08:30:00-05:00",
+      "beijing": "2026-11-10T21:30:00+08:00",
+      "source_url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "status": "officially_scheduled_not_yet_occurred",
+      "focus": "超出未来一周窗口"
+    }
+  ],
+  "calendar_gaps": [
+    {
+      "company": "Alphabet",
+      "url": "https://abc.xyz/investor/",
+      "status": "dynamic page did not expose verifiable upcoming event date; not placed in confirmed calendar"
+    },
+    {
+      "company": "Apple",
+      "url": "https://investor.apple.com/investor-relations/",
+      "status": "official search index mentions Nov 2 2026 2 PM; direct page lacks event detail, timezone and exact schedule not independently verified; excluded from confirmed calendar"
+    }
+  ],
+  "berkshire": {
+    "source_url": "https://www.berkshirehathaway.com/news/2026news.html",
+    "latest_visible_release": "2026-09-18",
+    "scope": "2026 news menu only, not full SEC review",
+    "conclusion": "no newly visible Oct27 company release in reviewed menu; no causal attribution for Oct27 underperformance"
+  },
+  "strategy_status": {
+    "confirmed_horizon": "3-5 years",
+    "confirmed_preference": "control drawdown",
+    "positions": "no confirmed holdings; empty-position observation",
+    "allocation_draft_path": "../2026-10-27/staged_entry_plan_draft.md",
+    "allocation_draft_status": "unapproved proposal, not actual holdings or trade instructions",
+    "observation_levels_pct": [
+      15,
+      25
+    ],
+    "newly_added_trade_rules": false
+  }
+}
