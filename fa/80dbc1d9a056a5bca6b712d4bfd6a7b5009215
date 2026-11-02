@@ -1,0 +1,19 @@
+rules/skills/INDEX.md
+  s_c18f28b1f1daea::t_104e679615ec08 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "fa80dbc1d9a056a5bca6b712d4bfd6a7b5009215",
+  "prompts": {},
+  "sessions": {
+    "s_c18f28b1f1daea": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5115-f0fa-73f0-8d01-f0b3d2727974",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "XuHao <xuhao2@xiaohongshu.com>"
+    }
+  }
+}

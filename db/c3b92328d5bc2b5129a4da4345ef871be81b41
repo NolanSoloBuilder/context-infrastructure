@@ -1,0 +1,21 @@
+rules/skills/strongvpn-node-optimizer/scripts/strongvpn-node-optimizer.mjs
+  s_c18f28b1f1daea::t_7792e73c35a3b1 216-282
+rules/skills/strongvpn-node-optimizer/scripts/strongvpn-node-optimizer.test.mjs
+  s_c18f28b1f1daea::t_25b12c4a89faa3 11-12,157-181
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "dbc3b92328d5bc2b5129a4da4345ef871be81b41",
+  "prompts": {},
+  "sessions": {
+    "s_c18f28b1f1daea": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5115-f0fa-73f0-8d01-f0b3d2727974",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "XuHao <xuhao2@xiaohongshu.com>"
+    }
+  }
+}

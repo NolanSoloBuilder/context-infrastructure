@@ -1,0 +1,27 @@
+rules/skills/strongvpn-node-optimizer/SKILL.md
+  s_c18f28b1f1daea::t_35f028ec654d5f 1-85
+rules/skills/strongvpn-node-optimizer/agents/openai.yaml
+  s_c18f28b1f1daea::t_35f028ec654d5f 1-4
+rules/skills/strongvpn-node-optimizer/scripts/strongvpn-node-optimizer.mjs
+  s_c18f28b1f1daea::t_56dec3a7e3c363 1-50,56-58,61-89
+  s_c18f28b1f1daea::t_5d5c4a52a2d202 51-55,59-60
+rules/skills/strongvpn-node-optimizer/scripts/strongvpn-node-optimizer.test.mjs
+  s_c18f28b1f1daea::t_ab82374b866af6 1-50
+  s_c18f28b1f1daea::t_f33fd785c2a284 51-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.12",
+  "base_commit_sha": "6b2e0fd867cae42c9fd3f9073c045bcf43b4b981",
+  "prompts": {},
+  "sessions": {
+    "s_c18f28b1f1daea": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5115-f0fa-73f0-8d01-f0b3d2727974",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "XuHao <xuhao2@xiaohongshu.com>"
+    }
+  }
+}
