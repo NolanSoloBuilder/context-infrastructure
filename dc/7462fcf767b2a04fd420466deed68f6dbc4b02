@@ -1,0 +1,2710 @@
+AGENTS.md
+  h_6821a68d97f74e 1,3,5-7,9-19,21,23-26,28,30-33,35,37-39
+adhoc_jobs/a_share_daily/README.md
+  h_6821a68d97f74e 12,14,16,26,38-139
+adhoc_jobs/a_share_daily/check_mobile.py
+  h_6821a68d97f74e 1-48
+adhoc_jobs/a_share_daily/check_refresh.py
+  h_6821a68d97f74e 1-30
+adhoc_jobs/a_share_daily/check_trends.py
+  h_6821a68d97f74e 1-37
+adhoc_jobs/a_share_daily/check_valuation.py
+  h_6821a68d97f74e 1-21
+adhoc_jobs/a_share_daily/china_watchlist.json
+  h_6821a68d97f74e 1-9
+adhoc_jobs/a_share_daily/collect_china_trends.py
+  h_6821a68d97f74e 1-51
+adhoc_jobs/a_share_daily/collect_market.py
+  h_6821a68d97f74e 6,41,59-61
+adhoc_jobs/a_share_daily/collect_trends.py
+  h_6821a68d97f74e 1-30
+adhoc_jobs/a_share_daily/market_chart.py
+  h_6821a68d97f74e 1-33
+adhoc_jobs/a_share_daily/render_html.mjs
+  h_6821a68d97f74e 3-4,24,38,40,43,96,109-111,113-121,124,141-151,153-154,156,158-161,169-170,173,184,186-187,192-194,196-200,216-221
+adhoc_jobs/a_share_daily/report_mobile.css
+  h_6821a68d97f74e 1-142
+adhoc_jobs/a_share_daily/report_refresh.js
+  h_6821a68d97f74e 1-15
+adhoc_jobs/a_share_daily/trend_client.js
+  h_6821a68d97f74e 1-27
+adhoc_jobs/a_share_daily/trend_view.mjs
+  h_6821a68d97f74e 1-55
+adhoc_jobs/a_share_daily/trend_view.test.mjs
+  h_6821a68d97f74e 1-9
+adhoc_jobs/a_share_daily/valuation_filter.js
+  h_6821a68d97f74e 1-11
+adhoc_jobs/a_share_daily/valuation_labels.mjs
+  h_6821a68d97f74e 1-15
+adhoc_jobs/a_share_daily/valuation_modal.js
+  h_6821a68d97f74e 1-8
+adhoc_jobs/a_share_daily/write_valuation_overview.py
+  h_6821a68d97f74e 1-57
+adhoc_jobs/us_market_daily/render.py
+  h_6821a68d97f74e 62
+adhoc_jobs/us_market_daily/watchlist_groups.json
+  h_6821a68d97f74e 2-3,6-7,11-14,18-21,25-28,32-163,168-169,174,181,188,195-196,201,205-219,223,228-237,240-246,249-258,263,269,282,289-290,295,302-303,306-468
+contexts/survey_sessions/2026_11_02_advanced_agent_freelance_opportunities.md
+  h_6821a68d97f74e 1-73
+contexts/survey_sessions/2026_11_02_product_direction_distribution_first.md
+  h_6821a68d97f74e 1-87
+contexts/survey_sessions/2026_11_02_upwork_ai_first_mcp_application_draft.md
+  h_6821a68d97f74e 1-80
+contexts/survey_sessions/2026_11_02_us_midterm_strategy_factcheck/factcheck.md
+  h_6821a68d97f74e 1-66
+contexts/survey_sessions/2026_11_02_us_midterm_strategy_factcheck/yahoo_monthly_snapshot.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/html_manifest.json
+  h_6821a68d97f74e 1-30
+contexts/survey_sessions/a_share_daily/2026-10-31/market.json
+  h_6821a68d97f74e 1-1260
+contexts/survey_sessions/a_share_daily/2026-10-31/market.svg
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/report.html
+  h_6821a68d97f74e 1-464
+contexts/survey_sessions/a_share_daily/2026-10-31/report.md
+  h_6821a68d97f74e 1-116
+contexts/survey_sessions/a_share_daily/2026-10-31/sh000001_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sh000016_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sh000300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sh000688_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sh510050_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sh510300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sh588000_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sources/feishu_author_digest.json
+  h_6821a68d97f74e 1-48
+contexts/survey_sessions/a_share_daily/2026-10-31/sources/finews.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-10-31/sources/source_audit.json
+  h_6821a68d97f74e 1-17
+contexts/survey_sessions/a_share_daily/2026-10-31/sources/valuation_dashboard_stale.json
+  h_6821a68d97f74e 1-5839
+contexts/survey_sessions/a_share_daily/2026-10-31/trend_metrics.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-10-31/validation.json
+  h_6821a68d97f74e 1-18
+contexts/survey_sessions/a_share_daily/2026-10-31/valuation_cheap.json
+  h_6821a68d97f74e 1-196
+contexts/survey_sessions/a_share_daily/2026-10-31/valuation_focus.svg
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-01/html_manifest.json
+  h_6821a68d97f74e 1-25
+contexts/survey_sessions/a_share_daily/2026-11-01/market.json
+  h_6821a68d97f74e 1-1263
+contexts/survey_sessions/a_share_daily/2026-11-01/report.html
+  h_6821a68d97f74e 1-284
+contexts/survey_sessions/a_share_daily/2026-11-01/report.md
+  h_6821a68d97f74e 1-65
+contexts/survey_sessions/a_share_daily/2026-11-01/sources/feishu_author_digest.json
+  h_6821a68d97f74e 1-48
+contexts/survey_sessions/a_share_daily/2026-11-01/sources/source_audit.json
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/a_share_daily/2026-11-01/validation.json
+  h_6821a68d97f74e 1-12
+contexts/survey_sessions/a_share_daily/2026-11-02/html_manifest.json
+  h_6821a68d97f74e 1-37
+contexts/survey_sessions/a_share_daily/2026-11-02/market.json
+  h_6821a68d97f74e 1-1263
+contexts/survey_sessions/a_share_daily/2026-11-02/market.svg
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/report-meta.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/report.html
+  h_6821a68d97f74e 1-957
+contexts/survey_sessions/a_share_daily/2026-11-02/report.md
+  h_6821a68d97f74e 1-103
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/all_valuation_live_review/valuation_validation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/all_valuation_mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/all_valuation_mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/all_valuation_review/valuation_validation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/chart_layout_review.json
+  h_6821a68d97f74e 1-14
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_live_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-173
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_metrics_validation.json
+  h_6821a68d97f74e 1-17
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-2182
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-2182
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_audit.json
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_history/sh513050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_history/usBABA_N.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_history/usBIDU_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_history/usJD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_history/usKWEB_AM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_history/usNTES_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_history/usPDD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/china_trend_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-173
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/compact_layout_validation.json
+  h_6821a68d97f74e 1-13
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/compact_mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1997
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/compact_mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1997
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/compact_trend_live_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-173
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/compact_trend_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-173
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/feishu_author_digest.json
+  h_6821a68d97f74e 1-30
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-558
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-558
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/refresh_live_review/refresh_validation.json
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/refresh_review/refresh_validation.json
+  h_6821a68d97f74e 1-14
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/source_audit.json
+  h_6821a68d97f74e 1-17
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/structure_mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1997
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/structure_mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1997
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/structure_review.json
+  h_6821a68d97f74e 1-28
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/structure_trend_live_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-173
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/structure_trend_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-173
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_history/sh000001.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_history/sh000016.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_history/sh000300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_history/sh000688.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_history/sh510050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_history/sh510300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_history/sh588000.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_live_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-143
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_metrics_validation.json
+  h_6821a68d97f74e 1-12
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1398
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1398
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/trend_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-143
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/us_pattern_live_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-193
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/us_pattern_mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/us_pattern_mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/us_pattern_refresh_live_review/refresh_validation.json
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/us_pattern_refresh_review/refresh_validation.json
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/us_pattern_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-193
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/us_pattern_valuation_review/valuation_validation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/valuation_color_mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1997
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/valuation_color_mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1997
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/valuation_color_validation.json
+  h_6821a68d97f74e 1-19
+contexts/survey_sessions/a_share_daily/2026-11-02/sources/valuation_corrections.json
+  h_6821a68d97f74e 1-12
+contexts/survey_sessions/a_share_daily/2026-11-02/trends.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-02/validation.json
+  h_6821a68d97f74e 1-12
+contexts/survey_sessions/a_share_daily/2026-11-02/valuation_all.json
+  h_6821a68d97f74e 1-572
+contexts/survey_sessions/a_share_daily/2026-11-02/valuation_cheap.json
+  h_6821a68d97f74e 1-168
+contexts/survey_sessions/a_share_daily/2026-11-03/html_manifest.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-11-03/market.json
+  h_6821a68d97f74e 1-1260
+contexts/survey_sessions/a_share_daily/2026-11-03/market.svg
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/report.html
+  h_6821a68d97f74e 1-960
+contexts/survey_sessions/a_share_daily/2026-11-03/report.md
+  h_6821a68d97f74e 1-108
+contexts/survey_sessions/a_share_daily/2026-11-03/sh000001_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sh000016_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sh000300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sh000688_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sh510050_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sh510300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sh588000_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/3005_article.html
+  h_6821a68d97f74e 1-1372
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/3005_article.txt
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/author_list.html
+  h_6821a68d97f74e 1-3385
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_audit.json
+  h_6821a68d97f74e 1-45
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_history/sh513050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_history/usBABA_N.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_history/usBIDU_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_history/usJD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_history/usKWEB_AM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_history/usNTES_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/china_trend_history/usPDD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/csrc_1102.html
+  h_6821a68d97f74e 1-274
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/feishu_author_digest.json
+  h_6821a68d97f74e 1-30
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/finews_latest.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/mobile_live_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/quote_crosscheck.json
+  h_6821a68d97f74e 1-26
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/site_publication.json
+  h_6821a68d97f74e 1-37
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/site_readback.json
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/source_audit.json
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_history/sh000001.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_history/sh000016.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_history/sh000300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_history/sh000688.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_history/sh510050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_history/sh510300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_history/sh588000.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/trend_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-193
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/valuation_audit.json
+  h_6821a68d97f74e 1-25
+contexts/survey_sessions/a_share_daily/2026-11-03/sources/valuation_review/valuation_validation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/a_share_daily/2026-11-03/trend_metrics.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-11-03/trends.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-03/valuation_all.json
+  h_6821a68d97f74e 1-572
+contexts/survey_sessions/a_share_daily/2026-11-03/valuation_cheap.json
+  h_6821a68d97f74e 1-154
+contexts/survey_sessions/a_share_daily/2026-11-04/html_manifest.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-11-04/market.json
+  h_6821a68d97f74e 1-1260
+contexts/survey_sessions/a_share_daily/2026-11-04/market.svg
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/report.html
+  h_6821a68d97f74e 1-966
+contexts/survey_sessions/a_share_daily/2026-11-04/report.md
+  h_6821a68d97f74e 1-110
+contexts/survey_sessions/a_share_daily/2026-11-04/sh000001_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sh000016_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sh000300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sh000688_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sh510050_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sh510300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sh588000_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/site_report-meta.json
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-04/site_report.html
+  h_6821a68d97f74e 1-969
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/3006_article.html
+  h_6821a68d97f74e 1-1442
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/3006_article.txt
+  h_6821a68d97f74e 1-9
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/author_list.html
+  h_6821a68d97f74e 1-3385
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_audit.json
+  h_6821a68d97f74e 1-51
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_history/sh513050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_history/usBABA_N.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_history/usBIDU_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_history/usJD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_history/usKWEB_AM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_history/usNTES_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/china_trend_history/usPDD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/feishu_author_digest.json
+  h_6821a68d97f74e 1-57
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/finews_latest.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/mobile_site_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-3117
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/quote_crosscheck.json
+  h_6821a68d97f74e 1-70
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/sfisf_official_account.html
+  h_6821a68d97f74e 1-23
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/site_build_audit.json
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/site_publication.json
+  h_6821a68d97f74e 1-37
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/site_readback.json
+  h_6821a68d97f74e 1-10
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/source_audit.json
+  h_6821a68d97f74e 1-28
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/tencent_spot_gb18030.txt
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_history/sh000001.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_history/sh000016.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_history/sh000300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_history/sh000688.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_history/sh510050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_history/sh510300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_history/sh588000.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/trend_site_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-233
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/valuation_audit.json
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/a_share_daily/2026-11-04/sources/valuation_site_review/valuation_validation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/a_share_daily/2026-11-04/trend_metrics.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-11-04/trends.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-04/valuation_all.json
+  h_6821a68d97f74e 1-572
+contexts/survey_sessions/a_share_daily/2026-11-04/valuation_cheap.json
+  h_6821a68d97f74e 1-161
+contexts/survey_sessions/a_share_daily/2026-11-05/html_manifest.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-11-05/market.json
+  h_6821a68d97f74e 1-1260
+contexts/survey_sessions/a_share_daily/2026-11-05/market.svg
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/report.html
+  h_6821a68d97f74e 1-966
+contexts/survey_sessions/a_share_daily/2026-11-05/report.md
+  h_6821a68d97f74e 1-110
+contexts/survey_sessions/a_share_daily/2026-11-05/sh000001_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sh000016_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sh000300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sh000688_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sh510050_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sh510300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sh588000_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/site_report-meta.json
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-05/site_report.html
+  h_6821a68d97f74e 1-1006
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/3007_article.html
+  h_6821a68d97f74e 1-1373
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/3007_article.txt
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/author_list.html
+  h_6821a68d97f74e 1-3385
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_audit.json
+  h_6821a68d97f74e 1-51
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_history/sh513050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_history/usBABA_N.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_history/usBIDU_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_history/usJD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_history/usKWEB_AM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_history/usNTES_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/china_trend_history/usPDD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/feishu_author_digest.json
+  h_6821a68d97f74e 1-57
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/finews_latest.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/mobile_site_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-4405
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/pbc_notice_media.html
+  h_6821a68d97f74e 1-624
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/quote_crosscheck.json
+  h_6821a68d97f74e 1-70
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/retained_research_smoke.json
+  h_6821a68d97f74e 1-6
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/retained_valuation_smoke.json
+  h_6821a68d97f74e 1-13
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/site_build_audit.json
+  h_6821a68d97f74e 1-9
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/site_publication.json
+  h_6821a68d97f74e 1-37
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/site_readback.json
+  h_6821a68d97f74e 1-10
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/source_audit.json
+  h_6821a68d97f74e 1-26
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/tencent_spot_gb18030.txt
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_history/sh000001.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_history/sh000016.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_history/sh000300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_history/sh000688.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_history/sh510050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_history/sh510300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_history/sh588000.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/trend_site_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-233
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/valuation_audit.json
+  h_6821a68d97f74e 1-42
+contexts/survey_sessions/a_share_daily/2026-11-05/sources/valuation_site_review/valuation_validation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/a_share_daily/2026-11-05/trend_metrics.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-11-05/trends.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-05/valuation_all.json
+  h_6821a68d97f74e 1-578
+contexts/survey_sessions/a_share_daily/2026-11-05/valuation_cheap.json
+  h_6821a68d97f74e 1-140
+contexts/survey_sessions/a_share_daily/2026-11-06/html_manifest.json
+  h_6821a68d97f74e 1-39
+contexts/survey_sessions/a_share_daily/2026-11-06/market.json
+  h_6821a68d97f74e 1-1260
+contexts/survey_sessions/a_share_daily/2026-11-06/market.svg
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/report.html
+  h_6821a68d97f74e 1-958
+contexts/survey_sessions/a_share_daily/2026-11-06/report.md
+  h_6821a68d97f74e 1-105
+contexts/survey_sessions/a_share_daily/2026-11-06/sh000001_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sh000016_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sh000300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sh000688_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sh510050_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sh510300_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sh588000_raw.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/site_report-meta.json
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-06/site_report.html
+  h_6821a68d97f74e 1-998
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/3008_article.html
+  h_6821a68d97f74e 1-1153
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/3008_article.txt
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/author_list.html
+  h_6821a68d97f74e 1-3385
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_audit.json
+  h_6821a68d97f74e 1-51
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_history/sh513050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_history/usBABA_N.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_history/usBIDU_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_history/usJD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_history/usKWEB_AM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_history/usNTES_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/china_trend_history/usPDD_OQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/events_capture.json
+  h_6821a68d97f74e 1-14
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/feishu_author_digest.json
+  h_6821a68d97f74e 1-48
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/finews_latest.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/mobile_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-1927
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/mobile_site_review/mobile_layout_validation.json
+  h_6821a68d97f74e 1-4405
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/quote_crosscheck.json
+  h_6821a68d97f74e 1-65
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/site_build_audit.json
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/site_publication.json
+  h_6821a68d97f74e 1-37
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/site_readback.json
+  h_6821a68d97f74e 1-10
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/source_audit.json
+  h_6821a68d97f74e 1-33
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/tencent_spot_gb18030.txt
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_history/sh000001.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_history/sh000016.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_history/sh000300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_history/sh000688.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_history/sh510050.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_history/sh510300.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_history/sh588000.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/trend_site_review/trend_interaction_validation.json
+  h_6821a68d97f74e 1-233
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/valuation_audit.json
+  h_6821a68d97f74e 1-29
+contexts/survey_sessions/a_share_daily/2026-11-06/sources/valuation_site_review/valuation_validation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/a_share_daily/2026-11-06/trend_metrics.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/a_share_daily/2026-11-06/trends.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/a_share_daily/2026-11-06/valuation_all.json
+  h_6821a68d97f74e 1-572
+contexts/survey_sessions/a_share_daily/2026-11-06/valuation_cheap.json
+  h_6821a68d97f74e 1-133
+contexts/survey_sessions/a_share_daily/cloud_site/README.md
+  h_6821a68d97f74e 1-37
+contexts/survey_sessions/a_share_daily/cloud_site/deployment.json
+  h_6821a68d97f74e 1-55
+contexts/survey_sessions/a_share_daily/cloud_site/public_access_verification.json
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/a_share_daily/decision_state.json
+  h_6821a68d97f74e 2-3,5,8-9,11-18
+contexts/survey_sessions/a_share_daily/source_state.json
+  h_6821a68d97f74e 2,33-71,82-83,96-122,124-125,132-137
+contexts/survey_sessions/us_market_daily/2026-10-31/ATS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/BRK-B_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/CGNX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/DRAM_daily.csv
+  h_6821a68d97f74e 1-148
+contexts/survey_sessions/us_market_daily/2026-10-31/GOOGL_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/GOOG_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/MAGS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/MRNA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/NVDA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/QQQM_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/RRX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/SGOV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/SMH_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/SOFI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/SOXX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/SPMO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/VGT_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/VOO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLB_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLF_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLK_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLP_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLRE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLU_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/XLY_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/build_report.py
+  h_6821a68d97f74e 1-126
+contexts/survey_sessions/us_market_daily/2026-10-31/crosscheck_quotes.py
+  h_6821a68d97f74e 1-40
+contexts/survey_sessions/us_market_daily/2026-10-31/crosscheck_web.txt
+  h_6821a68d97f74e 1-1879
+contexts/survey_sessions/us_market_daily/2026-10-31/crosscheck_web_extra.txt
+  h_6821a68d97f74e 1-490
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_detail.md
+  h_6821a68d97f74e 1-47
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_quotes.json
+  h_6821a68d97f74e 1-855
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_raw/20261030T232930Z/snapshot.json
+  h_6821a68d97f74e 1-855
+contexts/survey_sessions/us_market_daily/2026-10-31/extended_verification.json
+  h_6821a68d97f74e 1-205
+contexts/survey_sessions/us_market_daily/2026-10-31/finews_digest.md
+  h_6821a68d97f74e 1-14
+contexts/survey_sessions/us_market_daily/2026-10-31/finews_sources.json
+  h_6821a68d97f74e 1-60
+contexts/survey_sessions/us_market_daily/2026-10-31/html_manifest.json
+  h_6821a68d97f74e 1-49
+contexts/survey_sessions/us_market_daily/2026-10-31/index_GSPC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/index_IXIC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/index_NDX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-10-31/index_VIX_daily.csv
+  h_6821a68d97f74e 1-505
+contexts/survey_sessions/us_market_daily/2026-10-31/macro_research.md
+  h_6821a68d97f74e 1-46
+contexts/survey_sessions/us_market_daily/2026-10-31/macro_sources.json
+  h_6821a68d97f74e 1-1848
+contexts/survey_sessions/us_market_daily/2026-10-31/manifest.json
+  h_6821a68d97f74e 1-451
+contexts/survey_sessions/us_market_daily/2026-10-31/metrics.csv
+  h_6821a68d97f74e 1-34
+contexts/survey_sessions/us_market_daily/2026-10-31/metrics.json
+  h_6821a68d97f74e 1-796
+contexts/survey_sessions/us_market_daily/2026-10-31/normalized_60_sessions.csv
+  h_6821a68d97f74e 1-61
+contexts/survey_sessions/us_market_daily/2026-10-31/prepare_evidence.py
+  h_6821a68d97f74e 1-33
+contexts/survey_sessions/us_market_daily/2026-10-31/quote_http_attempts.json
+  h_6821a68d97f74e 1-150
+contexts/survey_sessions/us_market_daily/2026-10-31/quote_verification.json
+  h_6821a68d97f74e 1-385
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLF.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLP.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLRE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/XLY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/index_GSPC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/index_IXIC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/index_NDX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw/index_VIX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/bls_nov.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/brk_submissions.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/cboe.txt
+  h_6821a68d97f74e 1-1271
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/eci.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/fetch_manifest_extra.json
+  h_6821a68d97f74e 1-44
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/goog_form4_oct30.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/goog_submissions.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/nyse.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/sofi_submissions.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/treasury.txt
+  h_6821a68d97f74e 1-8181
+contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/vix_csv.txt
+  h_6821a68d97f74e 1-9306
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_digest.md
+  h_6821a68d97f74e 1-13
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/Bogleheads_new.txt
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/ETFs_new.txt
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/SecurityAnalysis_new.txt
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/ValueInvesting_new.txt
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/access_log.json
+  h_6821a68d97f74e 1-58
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/finews_latest.txt
+  h_6821a68d97f74e 1-1723
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/investing_top.txt
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_raw/stocks_new.txt
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-10-31/reddit_sources.json
+  h_6821a68d97f74e 1-118
+contexts/survey_sessions/us_market_daily/2026-10-31/report.html
+  h_6821a68d97f74e 1-1460
+contexts/survey_sessions/us_market_daily/2026-10-31/report.md
+  h_6821a68d97f74e 1-176
+contexts/survey_sessions/us_market_daily/2026-10-31/sector_daily.svg
+  h_6821a68d97f74e 1-5864
+contexts/survey_sessions/us_market_daily/2026-10-31/verification.json
+  h_6821a68d97f74e 1-56
+contexts/survey_sessions/us_market_daily/2026-10-31/verify_report.py
+  h_6821a68d97f74e 1-23
+contexts/survey_sessions/us_market_daily/2026-10-31/watchlist_curves.svg
+  h_6821a68d97f74e 1-7119
+contexts/survey_sessions/us_market_daily/2026-10-31/watchlist_research.json
+  h_6821a68d97f74e 1-19
+contexts/survey_sessions/us_market_daily/2026-10-31/watchlist_table.json
+  h_6821a68d97f74e 1-829
+contexts/survey_sessions/us_market_daily/2026-10-31/watchlist_table.md
+  h_6821a68d97f74e 1-28
+contexts/survey_sessions/us_market_daily/2026-11-01/finews_digest.md
+  h_6821a68d97f74e 1-5
+contexts/survey_sessions/us_market_daily/2026-11-01/finews_sources.json
+  h_6821a68d97f74e 1-13
+contexts/survey_sessions/us_market_daily/2026-11-01/html_manifest.json
+  h_6821a68d97f74e 1-19
+contexts/survey_sessions/us_market_daily/2026-11-01/raw/calendar_probe.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-01/raw/public_source_reads.txt
+  h_6821a68d97f74e 1-1025
+contexts/survey_sessions/us_market_daily/2026-11-01/raw/reddit_investing.rss
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-01/reddit_digest.md
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/us_market_daily/2026-11-01/reddit_sources.json
+  h_6821a68d97f74e 1-92
+contexts/survey_sessions/us_market_daily/2026-11-01/report.html
+  h_6821a68d97f74e 1-192
+contexts/survey_sessions/us_market_daily/2026-11-01/report.md
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/us_market_daily/2026-11-01/rss_access.json
+  h_6821a68d97f74e 1-50
+contexts/survey_sessions/us_market_daily/2026-11-01/verification.json
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/us_market_daily/2026-11-02/finews_digest.md
+  h_6821a68d97f74e 1-5
+contexts/survey_sessions/us_market_daily/2026-11-02/finews_sources.json
+  h_6821a68d97f74e 1-9
+contexts/survey_sessions/us_market_daily/2026-11-02/html_manifest.json
+  h_6821a68d97f74e 1-19
+contexts/survey_sessions/us_market_daily/2026-11-02/raw/calendar_probe.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-02/raw/public_source_reads.txt
+  h_6821a68d97f74e 1-1236
+contexts/survey_sessions/us_market_daily/2026-11-02/raw/reddit_stocks.rss
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-02/reddit_digest.md
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/us_market_daily/2026-11-02/reddit_sources.json
+  h_6821a68d97f74e 1-89
+contexts/survey_sessions/us_market_daily/2026-11-02/report.html
+  h_6821a68d97f74e 1-192
+contexts/survey_sessions/us_market_daily/2026-11-02/report.md
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/us_market_daily/2026-11-02/rss_access.json
+  h_6821a68d97f74e 1-44
+contexts/survey_sessions/us_market_daily/2026-11-02/verification.json
+  h_6821a68d97f74e 1-20
+contexts/survey_sessions/us_market_daily/2026-11-03/ATS_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/BRK-B_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/CGNX_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/DRAM_daily.csv
+  h_6821a68d97f74e 1-149
+contexts/survey_sessions/us_market_daily/2026-11-03/GOOGL_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/GOOG_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/MAGS_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/MRNA_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/NVDA_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/QQQM_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/RRX_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/SGOV_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/SMH_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/SOFI_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/SOXX_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/SPMO_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/VGT_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/VOO_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLB_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLC_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLE_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLF_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLI_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLK_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLP_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLRE_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLU_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLV_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/XLY_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/build_report.py
+  h_6821a68d97f74e 1-118
+contexts/survey_sessions/us_market_daily/2026-11-03/company_research.md
+  h_6821a68d97f74e 1-48
+contexts/survey_sessions/us_market_daily/2026-11-03/company_sources.json
+  h_6821a68d97f74e 1-194
+contexts/survey_sessions/us_market_daily/2026-11-03/crosscheck_web.txt
+  h_6821a68d97f74e 1-655
+contexts/survey_sessions/us_market_daily/2026-11-03/crosscheck_web_extra.txt
+  h_6821a68d97f74e 1-858
+contexts/survey_sessions/us_market_daily/2026-11-03/crosscheck_web_last.txt
+  h_6821a68d97f74e 1-652
+contexts/survey_sessions/us_market_daily/2026-11-03/crosscheck_web_more.txt
+  h_6821a68d97f74e 1-645
+contexts/survey_sessions/us_market_daily/2026-11-03/delivery_verification.json
+  h_6821a68d97f74e 1-67
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_detail.md
+  h_6821a68d97f74e 1-46
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_quotes.json
+  h_6821a68d97f74e 1-867
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_raw/20261102T233135Z/snapshot.json
+  h_6821a68d97f74e 1-867
+contexts/survey_sessions/us_market_daily/2026-11-03/extended_verification.json
+  h_6821a68d97f74e 1-194
+contexts/survey_sessions/us_market_daily/2026-11-03/finews_digest.md
+  h_6821a68d97f74e 1-5
+contexts/survey_sessions/us_market_daily/2026-11-03/finews_sources.json
+  h_6821a68d97f74e 1-18
+contexts/survey_sessions/us_market_daily/2026-11-03/html_manifest.json
+  h_6821a68d97f74e 1-43
+contexts/survey_sessions/us_market_daily/2026-11-03/index_GSPC_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/index_IXIC_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/index_NDX_daily.csv
+  h_6821a68d97f74e 1-501
+contexts/survey_sessions/us_market_daily/2026-11-03/index_VIX_daily.csv
+  h_6821a68d97f74e 1-503
+contexts/survey_sessions/us_market_daily/2026-11-03/macro_research.md
+  h_6821a68d97f74e 1-27
+contexts/survey_sessions/us_market_daily/2026-11-03/macro_sources.json
+  h_6821a68d97f74e 1-150
+contexts/survey_sessions/us_market_daily/2026-11-03/manifest.json
+  h_6821a68d97f74e 1-451
+contexts/survey_sessions/us_market_daily/2026-11-03/metrics.csv
+  h_6821a68d97f74e 1-34
+contexts/survey_sessions/us_market_daily/2026-11-03/metrics.json
+  h_6821a68d97f74e 1-796
+contexts/survey_sessions/us_market_daily/2026-11-03/normalized_60_sessions.csv
+  h_6821a68d97f74e 1-61
+contexts/survey_sessions/us_market_daily/2026-11-03/prepare_evidence.py
+  h_6821a68d97f74e 1-33
+contexts/survey_sessions/us_market_daily/2026-11-03/quote_verification.json
+  h_6821a68d97f74e 1-387
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLF.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLP.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLRE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/XLY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/index_GSPC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/index_IXIC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/index_NDX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw/index_VIX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/brk_news.html
+  h_6821a68d97f74e 1-97
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/brk_news.txt
+  h_6821a68d97f74e 1-59
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/brk_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/brk_submissions_response.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/calculations.json
+  h_6821a68d97f74e 1-60
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/cgnx_calendar.html
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/cgnx_calendar.txt
+  h_6821a68d97f74e 1-2
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/cgnx_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/cgnx_submissions_response.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/goog_424b5.html
+  h_6821a68d97f74e 1-4760
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/goog_424b5.txt
+  h_6821a68d97f74e 1-2758
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/goog_fwp.html
+  h_6821a68d97f74e 1-665
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/goog_fwp.txt
+  h_6821a68d97f74e 1-360
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/goog_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/goog_submissions_response.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/mrna_events.html
+  h_6821a68d97f74e 1-5251
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/mrna_events.txt
+  h_6821a68d97f74e 1-112
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/rrx_calendar.html
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/rrx_calendar.txt
+  h_6821a68d97f74e 1-2
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/rrx_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/rrx_submissions_response.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/sofi_results.html
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/sofi_results.txt
+  h_6821a68d97f74e 1-2
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/sofi_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_company/sofi_submissions_response.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/bls_nov.raw
+  h_6821a68d97f74e 1-29
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/fed_calendar.raw
+  h_6821a68d97f74e 1-3684
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/fetch_manifest.json
+  h_6821a68d97f74e 1-66
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/finews_home.raw
+  h_6821a68d97f74e 1-2228
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/reddit_investing_new_rss.raw
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/sgov.raw
+  h_6821a68d97f74e 1-1653
+contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/treasury.raw
+  h_6821a68d97f74e 1-8210
+contexts/survey_sessions/us_market_daily/2026-11-03/reddit_digest.md
+  h_6821a68d97f74e 1-9
+contexts/survey_sessions/us_market_daily/2026-11-03/reddit_sources.json
+  h_6821a68d97f74e 1-101
+contexts/survey_sessions/us_market_daily/2026-11-03/report.html
+  h_6821a68d97f74e 1-1438
+contexts/survey_sessions/us_market_daily/2026-11-03/report.md
+  h_6821a68d97f74e 1-170
+contexts/survey_sessions/us_market_daily/2026-11-03/sector_daily.svg
+  h_6821a68d97f74e 1-5804
+contexts/survey_sessions/us_market_daily/2026-11-03/verification.json
+  h_6821a68d97f74e 1-58
+contexts/survey_sessions/us_market_daily/2026-11-03/verify_report.py
+  h_6821a68d97f74e 1-23
+contexts/survey_sessions/us_market_daily/2026-11-03/watchlist_curves.svg
+  h_6821a68d97f74e 1-7074
+contexts/survey_sessions/us_market_daily/2026-11-03/watchlist_research.json
+  h_6821a68d97f74e 1-70
+contexts/survey_sessions/us_market_daily/2026-11-03/watchlist_table.json
+  h_6821a68d97f74e 1-829
+contexts/survey_sessions/us_market_daily/2026-11-03/watchlist_table.md
+  h_6821a68d97f74e 1-28
+contexts/survey_sessions/us_market_daily/2026-11-04/ATS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/BRK-B_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/CGNX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/DRAM_daily.csv
+  h_6821a68d97f74e 1-150
+contexts/survey_sessions/us_market_daily/2026-11-04/GOOGL_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/GOOG_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/MAGS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/MRNA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/NVDA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/QQQM_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/RRX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/SGOV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/SMH_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/SOFI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/SOXX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/SPMO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/VGT_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/VOO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLB_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLF_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLK_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLP_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLRE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLU_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/XLY_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/amd_cashflows_web.txt
+  h_6821a68d97f74e 1-229
+contexts/survey_sessions/us_market_daily/2026-11-04/calendar_web.txt
+  h_6821a68d97f74e 1-302
+contexts/survey_sessions/us_market_daily/2026-11-04/company_macro_web.txt
+  h_6821a68d97f74e 1-363
+contexts/survey_sessions/us_market_daily/2026-11-04/crosscheck_web_first.txt
+  h_6821a68d97f74e 1-548
+contexts/survey_sessions/us_market_daily/2026-11-04/crosscheck_web_other.txt
+  h_6821a68d97f74e 1-521
+contexts/survey_sessions/us_market_daily/2026-11-04/daily-brief.json
+  h_6821a68d97f74e 1-209
+contexts/survey_sessions/us_market_daily/2026-11-04/delivery_verification.json
+  h_6821a68d97f74e 1-27
+contexts/survey_sessions/us_market_daily/2026-11-04/deployment.json
+  h_6821a68d97f74e 1-46
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_quotes.json
+  h_6821a68d97f74e 1-855
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/extended_raw/20261103T233416Z/snapshot.json
+  h_6821a68d97f74e 1-855
+contexts/survey_sessions/us_market_daily/2026-11-04/fetch_manifest.json
+  h_6821a68d97f74e 1-132
+contexts/survey_sessions/us_market_daily/2026-11-04/highs_calendar_web.txt
+  h_6821a68d97f74e 1-366
+contexts/survey_sessions/us_market_daily/2026-11-04/index_GSPC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/index_IXIC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/index_NDX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-04/index_VIX_daily.csv
+  h_6821a68d97f74e 1-504
+contexts/survey_sessions/us_market_daily/2026-11-04/initial_sources_web.txt
+  h_6821a68d97f74e 1-547
+contexts/survey_sessions/us_market_daily/2026-11-04/manifest.json
+  h_6821a68d97f74e 1-451
+contexts/survey_sessions/us_market_daily/2026-11-04/metrics.csv
+  h_6821a68d97f74e 1-34
+contexts/survey_sessions/us_market_daily/2026-11-04/metrics.json
+  h_6821a68d97f74e 1-796
+contexts/survey_sessions/us_market_daily/2026-11-04/normalized_60_sessions.csv
+  h_6821a68d97f74e 1-61
+contexts/survey_sessions/us_market_daily/2026-11-04/portfolio_note.md
+  h_6821a68d97f74e 1-3
+contexts/survey_sessions/us_market_daily/2026-11-04/primary_second_web.txt
+  h_6821a68d97f74e 1-548
+contexts/survey_sessions/us_market_daily/2026-11-04/primary_third_web.txt
+  h_6821a68d97f74e 1-266
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLF.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLP.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLRE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/XLY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/index_GSPC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/index_IXIC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/index_NDX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw/index_VIX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/raw_sources/amd_results.html
+  h_6821a68d97f74e 1-4211
+contexts/survey_sessions/us_market_daily/2026-11-04/raw_sources/amd_results.txt
+  h_6821a68d97f74e 1-4126
+contexts/survey_sessions/us_market_daily/2026-11-04/raw_sources/finews.html
+  h_6821a68d97f74e 1-2190
+contexts/survey_sessions/us_market_daily/2026-11-04/raw_sources/finews.txt
+  h_6821a68d97f74e 1-2179
+contexts/survey_sessions/us_market_daily/2026-11-04/raw_sources/rrx_wire.html
+  h_6821a68d97f74e 1-1722
+contexts/survey_sessions/us_market_daily/2026-11-04/raw_sources/rrx_wire.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-04/reddit_details_web.txt
+  h_6821a68d97f74e 1-332
+contexts/survey_sessions/us_market_daily/2026-11-04/reddit_digest.md
+  h_6821a68d97f74e 1-7
+contexts/survey_sessions/us_market_daily/2026-11-04/reddit_more_web.txt
+  h_6821a68d97f74e 1-330
+contexts/survey_sessions/us_market_daily/2026-11-04/reddit_scan_web.txt
+  h_6821a68d97f74e 1-420
+contexts/survey_sessions/us_market_daily/2026-11-04/reddit_sources.json
+  h_6821a68d97f74e 1-33
+contexts/survey_sessions/us_market_daily/2026-11-04/research_draft.md
+  h_6821a68d97f74e 1-175
+contexts/survey_sessions/us_market_daily/2026-11-04/research_sources.json
+  h_6821a68d97f74e 1-46
+contexts/survey_sessions/us_market_daily/2026-11-04/rrx_amd_quote_web.txt
+  h_6821a68d97f74e 1-353
+contexts/survey_sessions/us_market_daily/2026-11-04/rrx_official_web.txt
+  h_6821a68d97f74e 1-227
+contexts/survey_sessions/us_market_daily/2026-11-04/rrx_wire_reddit_web.txt
+  h_6821a68d97f74e 1-696
+contexts/survey_sessions/us_market_daily/2026-11-04/sector_daily.svg
+  h_6821a68d97f74e 1-5835
+contexts/survey_sessions/us_market_daily/2026-11-04/source_notes.md
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/us_market_daily/2026-11-04/treasury_web.txt
+  h_6821a68d97f74e 1-32
+contexts/survey_sessions/us_market_daily/2026-11-04/verification.json
+  h_6821a68d97f74e 1-773
+contexts/survey_sessions/us_market_daily/2026-11-04/watchlist_curves.svg
+  h_6821a68d97f74e 1-7108
+contexts/survey_sessions/us_market_daily/2026-11-05/ATS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/BRK-B_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/CGNX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/DRAM_daily.csv
+  h_6821a68d97f74e 1-151
+contexts/survey_sessions/us_market_daily/2026-11-05/GOOGL_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/GOOG_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/MAGS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/MRNA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/NVDA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/QQQM_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/RRX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/SGOV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/SMH_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/SOFI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/SOXX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/SPMO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/VGT_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/VOO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLB_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLF_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLK_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLP_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLRE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLU_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/XLY_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_thesis/deployment_receipt.json
+  h_6821a68d97f74e 1-40
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_thesis/live_verification.json
+  h_6821a68d97f74e 1-47
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_thesis/published_brief.json
+  h_6821a68d97f74e 1-437
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_thesis/research.json
+  h_6821a68d97f74e 1-176
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/fresh_extended.json
+  h_6821a68d97f74e 1-78
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/fresh_quotes.json
+  h_6821a68d97f74e 1-118
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/model.py
+  h_6821a68d97f74e 1-75
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/CGNX_extended.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/CGNX_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/CRM_extended.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/CRM_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/GEHC_extended.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/GEHC_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/NOW_extended.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/NOW_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/q3_release.html
+  h_6821a68d97f74e 1-1745
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/raw/sec_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/cgnx/valuation.json
+  h_6821a68d97f74e 1-253
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/comparison.json
+  h_6821a68d97f74e 1-30
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/fde/report.md
+  h_6821a68d97f74e 1-73
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/fde/sources.json
+  h_6821a68d97f74e 1-349
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/model.py
+  h_6821a68d97f74e 1-157
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/quotes.json
+  h_6821a68d97f74e 1-48
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/calendar.html
+  h_6821a68d97f74e 1-445
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/investing.html
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/q3_10q_ir.html
+  h_6821a68d97f74e 1-10
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/q3_release.html
+  h_6821a68d97f74e 1-10
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/quarterly.html
+  h_6821a68d97f74e 1-10
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/stockanalysis.html
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/web_review_evidence.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/web_review_sources.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/yahoo_daily.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/yahoo_extended.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/report.md
+  h_6821a68d97f74e 1-111
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/source_fetch.json
+  h_6821a68d97f74e 1-74
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/sources.json
+  h_6821a68d97f74e 1-262
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/validation.json
+  h_6821a68d97f74e 1-18
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/valuation_model.json
+  h_6821a68d97f74e 1-332
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/valuation_scenarios.csv
+  h_6821a68d97f74e 1-4
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/yahoo_daily_2026-11-04.json
+  h_6821a68d97f74e 1-12
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/yahoo_extended_2026-11-04.json
+  h_6821a68d97f74e 1-4112
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/now_crm/price_verification.json
+  h_6821a68d97f74e 1-98
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/now_crm/valuation.md
+  h_6821a68d97f74e 1-92
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/now_crm/valuation_inputs_and_results.json
+  h_6821a68d97f74e 1-775
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/now_crm/valuation_model.py
+  h_6821a68d97f74e 1-85
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/brief_before.json
+  h_6821a68d97f74e 1-437
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/deployment_receipt.json
+  h_6821a68d97f74e 1-40
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/live_archive.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/live_history_after_refresh.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/live_index.html
+  h_6821a68d97f74e 1-124
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/live_state.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/live_status.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/live_verification.json
+  h_6821a68d97f74e 1-33
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/published_brief.json
+  h_6821a68d97f74e 1-761
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/sections.py
+  h_6821a68d97f74e 1-81
+contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/update_brief.py
+  h_6821a68d97f74e 1-70
+contexts/survey_sessions/us_market_daily/2026-11-05/category_filter/deployment.json
+  h_6821a68d97f74e 1-55
+contexts/survey_sessions/us_market_daily/2026-11-05/cgnx_and_quotes_web.txt
+  h_6821a68d97f74e 1-222
+contexts/survey_sessions/us_market_daily/2026-11-05/cgnx_guidance_web.txt
+  h_6821a68d97f74e 1-480
+contexts/survey_sessions/us_market_daily/2026-11-05/cgnx_original_web.txt
+  h_6821a68d97f74e 1-595
+contexts/survey_sessions/us_market_daily/2026-11-05/cgnx_valuation_sensitivity.json
+  h_6821a68d97f74e 1-32
+contexts/survey_sessions/us_market_daily/2026-11-05/cloud_archive_nov3.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/cloud_archive_nov4.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/cloud_history.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/cloud_home.html
+  h_6821a68d97f74e 1-124
+contexts/survey_sessions/us_market_daily/2026-11-05/cloud_refresh_start.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/cloud_refresh_status.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/cloud_state.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/crosscheck_web_first.txt
+  h_6821a68d97f74e 1-574
+contexts/survey_sessions/us_market_daily/2026-11-05/crosscheck_web_other.txt
+  h_6821a68d97f74e 1-524
+contexts/survey_sessions/us_market_daily/2026-11-05/daily-brief.json
+  h_6821a68d97f74e 1-267
+contexts/survey_sessions/us_market_daily/2026-11-05/delivery_verification.json
+  h_6821a68d97f74e 1-69
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_quotes.json
+  h_6821a68d97f74e 1-867
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/extended_raw/20261104T232821Z/snapshot.json
+  h_6821a68d97f74e 1-867
+contexts/survey_sessions/us_market_daily/2026-11-05/fetch_manifest.json
+  h_6821a68d97f74e 1-106
+contexts/survey_sessions/us_market_daily/2026-11-05/google_reverse_dcf.json
+  h_6821a68d97f74e 1-183
+contexts/survey_sessions/us_market_daily/2026-11-05/index_GSPC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/index_IXIC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/index_NDX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-05/index_VIX_daily.csv
+  h_6821a68d97f74e 1-505
+contexts/survey_sessions/us_market_daily/2026-11-05/initial_sources_web.txt
+  h_6821a68d97f74e 1-263
+contexts/survey_sessions/us_market_daily/2026-11-05/macro_realsense_web.txt
+  h_6821a68d97f74e 1-277
+contexts/survey_sessions/us_market_daily/2026-11-05/macro_reddit_web.txt
+  h_6821a68d97f74e 1-669
+contexts/survey_sessions/us_market_daily/2026-11-05/manifest.json
+  h_6821a68d97f74e 1-451
+contexts/survey_sessions/us_market_daily/2026-11-05/metrics.csv
+  h_6821a68d97f74e 1-34
+contexts/survey_sessions/us_market_daily/2026-11-05/metrics.json
+  h_6821a68d97f74e 1-796
+contexts/survey_sessions/us_market_daily/2026-11-05/normalized_60_sessions.csv
+  h_6821a68d97f74e 1-61
+contexts/survey_sessions/us_market_daily/2026-11-05/nov5_bls_dates.txt
+  h_6821a68d97f74e 1-306
+contexts/survey_sessions/us_market_daily/2026-11-05/nov5_deployment.json
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/us_market_daily/2026-11-05/nov5_final_calendar.txt
+  h_6821a68d97f74e 1-684
+contexts/survey_sessions/us_market_daily/2026-11-05/nov5_original_more.txt
+  h_6821a68d97f74e 1-202
+contexts/survey_sessions/us_market_daily/2026-11-05/nov5_saved.json
+  h_6821a68d97f74e 1-17
+contexts/survey_sessions/us_market_daily/2026-11-05/portfolio_note.md
+  h_6821a68d97f74e 1-3
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLF.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLP.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLRE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/XLY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/index_GSPC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/index_IXIC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/index_NDX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw/index_VIX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw_sources/cgnx_release.html
+  h_6821a68d97f74e 1-1745
+contexts/survey_sessions/us_market_daily/2026-11-05/raw_sources/cgnx_release.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/raw_sources/finews.html
+  h_6821a68d97f74e 1-2188
+contexts/survey_sessions/us_market_daily/2026-11-05/raw_sources/finews.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/reddit_digest.md
+  h_6821a68d97f74e 1-5
+contexts/survey_sessions/us_market_daily/2026-11-05/reddit_sources.json
+  h_6821a68d97f74e 1-22
+contexts/survey_sessions/us_market_daily/2026-11-05/reddit_split_web.txt
+  h_6821a68d97f74e 1-241
+contexts/survey_sessions/us_market_daily/2026-11-05/sector_daily.svg
+  h_6821a68d97f74e 1-5795
+contexts/survey_sessions/us_market_daily/2026-11-05/source_notes.md
+  h_6821a68d97f74e 1-70
+contexts/survey_sessions/us_market_daily/2026-11-05/verification.json
+  h_6821a68d97f74e 1-266
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_catalog/catalog.json
+  h_6821a68d97f74e 1-4202
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_curves.svg
+  h_6821a68d97f74e 1-7616
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/classify_catalog.py
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/fetch_histories.py
+  h_6821a68d97f74e 1-18
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/integration_manifest.json
+  h_6821a68d97f74e 1-69
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_collection.json
+  h_6821a68d97f74e 1-377
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/AAPL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/ACN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/AIQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/AMZN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/BA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/BOTZ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/CRM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/EPAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/GEHC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/GLOB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/IGV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/IHI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/INTC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/ISRG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/KORU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/MSFT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/NOW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/PLTR.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SKHY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SNDK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SOXL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SOXS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SPCX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/TEM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/TSLA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/XSW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/market_raw/^GSPC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/merge_catalog.py
+  h_6821a68d97f74e 1-35
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/metrics_summary.json
+  h_6821a68d97f74e 1-323
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/new_assets.json
+  h_6821a68d97f74e 1-1443
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/new_assets_manifest.json
+  h_6821a68d97f74e 1-44
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/phone_screen2_verification.json
+  h_6821a68d97f74e 1-108
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/phone_screen2_yahoo_identity.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/phone_screen3_verification.json
+  h_6821a68d97f74e 1-289
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/phone_screen3_yahoo_identity.json
+  h_6821a68d97f74e 1-135
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/preview.mjs
+  h_6821a68d97f74e 1-12
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/deployment.json
+  h_6821a68d97f74e 1-40
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/final-ui-tests.txt
+  h_6821a68d97f74e 1-29
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/production-history.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/production-home.html
+  h_6821a68d97f74e 1-136
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/production-refresh-status.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/production-snapshot.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/production-state.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/test-results.txt
+  h_6821a68d97f74e 1-83
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/verification.json
+  h_6821a68d97f74e 1-48
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/AAPL_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/AMZN_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/BABA_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/BA_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/DDL_faq.html
+  h_6821a68d97f74e 1-30
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/DDL_faq.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/DDL_profile.html
+  h_6821a68d97f74e 1-20
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/DDL_profile.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/DDL_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/INTC_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/KORU_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/MSFT_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/NVDA_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/PDD_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/SKHY_nasdaq.html
+  h_6821a68d97f74e 1-1139
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/SKHY_nasdaq.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/SKHY_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/SNDK_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/SOXL_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/SOXS_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/SPCX_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/raw/TSLA_yahoo.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/refresh_seed.mjs
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/symbol_verification.json
+  h_6821a68d97f74e 1-585
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/symbol_verification.md
+  h_6821a68d97f74e 1-130
+contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/yahoo_identity.json
+  h_6821a68d97f74e 1-164
+contexts/survey_sessions/us_market_daily/2026-11-06/AAPL_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/ACN_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/AIQ_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/AMZN_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/ATS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/BA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/BOTZ_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/BRK-B_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/CGNX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/CRM_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/DRAM_daily.csv
+  h_6821a68d97f74e 1-152
+contexts/survey_sessions/us_market_daily/2026-11-06/EPAM_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/GEHC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/GLOB_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/GOOGL_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/GOOG_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/IGV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/IHI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/INTC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/ISRG_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/KORU_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/MAGS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/MRNA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/MSFT_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/NOW_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/NVDA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/PLTR_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/QQQM_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/RRX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/SGOV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/SKHY_daily.csv
+  h_6821a68d97f74e 1-85
+contexts/survey_sessions/us_market_daily/2026-11-06/SMH_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/SNDK_daily.csv
+  h_6821a68d97f74e 1-436
+contexts/survey_sessions/us_market_daily/2026-11-06/SOFI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/SOXL_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/SOXS_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/SOXX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/SPCX_daily.csv
+  h_6821a68d97f74e 1-103
+contexts/survey_sessions/us_market_daily/2026-11-06/SPMO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/TEM_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/TSLA_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/VGT_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/VOO_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLB_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLF_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLI_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLK_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLP_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLRE_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLU_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLV_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/XLY_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/alert_state_after.json
+  h_6821a68d97f74e 1-165
+contexts/survey_sessions/us_market_daily/2026-11-06/chart_validation.json
+  h_6821a68d97f74e 1-258
+contexts/survey_sessions/us_market_daily/2026-11-06/company_sources.json
+  h_6821a68d97f74e 1-324
+contexts/survey_sessions/us_market_daily/2026-11-06/company_update.md
+  h_6821a68d97f74e 1-30
+contexts/survey_sessions/us_market_daily/2026-11-06/crosscheck_raw/nasdaq_qqqm.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/crosscheck_raw/nasdaq_qqqm_iso.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/daily-brief.json
+  h_6821a68d97f74e 1-935
+contexts/survey_sessions/us_market_daily/2026-11-06/data_quality_manifest.json
+  h_6821a68d97f74e 1-9
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_quotes.json
+  h_6821a68d97f74e 1-2076
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/AAPL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/ACN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/AIQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/AMZN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/BA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/BOTZ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/CRM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/EPAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/GEHC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/GLOB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/IGV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/IHI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/INTC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/ISRG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/KORU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/MSFT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/NOW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/PLTR.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SKHY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SNDK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SOXL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SOXS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SPCX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/TEM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/TSLA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/XSW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/extended_raw/20261105T232950Z/snapshot.json
+  h_6821a68d97f74e 1-2076
+contexts/survey_sessions/us_market_daily/2026-11-06/finews_digest.md
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/us_market_daily/2026-11-06/finews_sources.json
+  h_6821a68d97f74e 1-69
+contexts/survey_sessions/us_market_daily/2026-11-06/index_GSPC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/index_IXIC_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/index_NDX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/index_VIX_daily.csv
+  h_6821a68d97f74e 1-502
+contexts/survey_sessions/us_market_daily/2026-11-06/live_state_before.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/macro_calendar.md
+  h_6821a68d97f74e 1-43
+contexts/survey_sessions/us_market_daily/2026-11-06/macro_sources.json
+  h_6821a68d97f74e 1-328
+contexts/survey_sessions/us_market_daily/2026-11-06/manifest.json
+  h_6821a68d97f74e 1-796
+contexts/survey_sessions/us_market_daily/2026-11-06/market_sections.json
+  h_6821a68d97f74e 1-176
+contexts/survey_sessions/us_market_daily/2026-11-06/metrics.csv
+  h_6821a68d97f74e 1-59
+contexts/survey_sessions/us_market_daily/2026-11-06/metrics.json
+  h_6821a68d97f74e 1-1400
+contexts/survey_sessions/us_market_daily/2026-11-06/normalized_60_sessions.csv
+  h_6821a68d97f74e 1-61
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/acceptance.json
+  h_6821a68d97f74e 1-33
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/brief_before.json
+  h_6821a68d97f74e 1-731
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/deployment_receipt.json
+  h_6821a68d97f74e 1-38
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/fetch_histories.py
+  h_6821a68d97f74e 1-18
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/history_2026-11-04.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/history_2026-11-05.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/history_after.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/homepage.html
+  h_6821a68d97f74e 1-140
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/homepage_final.html
+  h_6821a68d97f74e 1-140
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_collection.json
+  h_6821a68d97f74e 1-398
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/AAPL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/ACN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/AIQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/AMZN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/BA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/BOTZ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/CRM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/EPAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/GEHC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/GLOB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/IGV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/IHI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/INTC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/ISRG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/KORU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/MSFT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/NOW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/PLTR.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SKHY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SNDK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SOXL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SOXS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SPCX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/TEM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/TSLA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/XSW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/market_raw/^GSPC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/metrics_summary.json
+  h_6821a68d97f74e 1-336
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/refresh_seed.mjs
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/refresh_start.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/refresh_status.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/state_after_refresh.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/publish/update_research.py
+  h_6821a68d97f74e 1-120
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/AAPL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/ACN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/AIQ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/AMZN.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/ATS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/BA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/BOTZ.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/BRK-B.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/CGNX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/CRM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/DRAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/EPAM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/GEHC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/GLOB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/GOOG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/GOOGL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/IGV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/IHI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/INTC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/ISRG.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/KORU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/MAGS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/MRNA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/MSFT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/NOW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/NVDA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/PLTR.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/QQQM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/RRX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SGOV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SKHY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SMH.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SNDK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SOFI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SOXL.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SOXS.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SOXX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SPCX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/SPMO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/TEM.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/TSLA.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/VGT.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/VOO.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLB.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLF.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLI.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLK.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLP.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLRE.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLU.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLV.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XLY.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/XSW.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/index_GSPC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/index_IXIC.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/index_NDX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw/index_VIX.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/CGNX_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/EPAM_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/GOOGL_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/SOFI_submissions.json
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/cgnx_10q.html
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/cgnx_10q.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/epam_8k.html
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/epam_q3_release.html
+  h_6821a68d97f74e 1-12
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/epam_q3_release.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/fetch_manifest.json
+  h_6821a68d97f74e 1-59
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/goog_424b2.html
+  h_6821a68d97f74e 1-5785
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/goog_424b2.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/goog_8k.html
+  h_6821a68d97f74e 1-406
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/goog_8k.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/mrna_events.html
+  h_6821a68d97f74e 1-5283
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/mrna_events.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/sec_scan.json
+  h_6821a68d97f74e 1-623
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/sofi_10q.html
+  h_6821a68d97f74e 1-8
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/sofi_10q.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/soxx_497.html
+  h_6821a68d97f74e 1-32
+contexts/survey_sessions/us_market_daily/2026-11-06/raw_company/soxx_497.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/reddit_digest.md
+  h_6821a68d97f74e 1-27
+contexts/survey_sessions/us_market_daily/2026-11-06/reddit_sources.json
+  h_6821a68d97f74e 1-243
+contexts/survey_sessions/us_market_daily/2026-11-06/reddit_state_after.json
+  h_6821a68d97f74e 1-442
+contexts/survey_sessions/us_market_daily/2026-11-06/reddit_state_before.json
+  h_6821a68d97f74e 1-353
+contexts/survey_sessions/us_market_daily/2026-11-06/reddit_state_update_proposal.json
+  h_6821a68d97f74e 1-26
+contexts/survey_sessions/us_market_daily/2026-11-06/render_audit.py
+  h_6821a68d97f74e 1-154
+contexts/survey_sessions/us_market_daily/2026-11-06/sector_daily.svg
+  h_6821a68d97f74e 1-5788
+contexts/survey_sessions/us_market_daily/2026-11-06/sector_summary.csv
+  h_6821a68d97f74e 1-13
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/finews_home.html
+  h_6821a68d97f74e 1-2189
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/finews_home.txt
+  h_6821a68d97f74e 1-520
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/finews_links.json
+  h_6821a68d97f74e 1-186
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/http_attempts.json
+  h_6821a68d97f74e 1-61
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/investing_entries.json
+  h_6821a68d97f74e 1-202
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/investing_rss.html
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/investing_rss.txt
+  h_6821a68d97f74e 1-179
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/reddit_post.html
+  h_6821a68d97f74e 1-94
+contexts/survey_sessions/us_market_daily/2026-11-06/source_scan_raw/reddit_post.txt
+  h_6821a68d97f74e 1
+contexts/survey_sessions/us_market_daily/2026-11-06/valuation_update.json
+  h_6821a68d97f74e 1-24
+contexts/survey_sessions/us_market_daily/2026-11-06/verification.json
+  h_6821a68d97f74e 1-189
+contexts/survey_sessions/us_market_daily/2026-11-06/watchlist_curves.svg
+  h_6821a68d97f74e 1-6997
+contexts/survey_sessions/us_market_daily/alert_state.json
+  h_6821a68d97f74e 4-6,15-27,32-33,36,43-44,51-52,55,62-63,70-74,79-82,118-164
+contexts/survey_sessions/us_market_daily/cloud_site/daily_archive_2026-11-02/api_verification.json
+  h_6821a68d97f74e 1-14
+contexts/survey_sessions/us_market_daily/cloud_site/daily_archive_2026-11-02/deployment.json
+  h_6821a68d97f74e 1-41
+contexts/survey_sessions/us_market_daily/cloud_site/daily_archive_2026-11-02/entries.json
+  h_6821a68d97f74e 1-13
+contexts/survey_sessions/us_market_daily/cloud_site/history_2026-11-02/api_verification.json
+  h_6821a68d97f74e 1-13
+contexts/survey_sessions/us_market_daily/cloud_site/history_2026-11-02/deployment.json
+  h_6821a68d97f74e 1-44
+contexts/survey_sessions/us_market_daily/cloud_site/history_2026-11-02/final_entries.json
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/us_market_daily/cloud_site/history_2026-11-02/initial_dates.json
+  h_6821a68d97f74e 1-6
+contexts/survey_sessions/us_market_daily/cloud_site/history_2026-11-02/initial_entries.json
+  h_6821a68d97f74e 1-21
+contexts/survey_sessions/us_market_daily/cloud_site/history_2026-11-02/refresh_result.json
+  h_6821a68d97f74e 1-15
+contexts/survey_sessions/us_market_daily/cloud_site/session_archive_2026-11-02/api_verification.json
+  h_6821a68d97f74e 1-17
+contexts/survey_sessions/us_market_daily/cloud_site/session_archive_2026-11-02/dedup_verification.json
+  h_6821a68d97f74e 1-16
+contexts/survey_sessions/us_market_daily/cloud_site/session_archive_2026-11-02/deployment.json
+  h_6821a68d97f74e 1-42
+contexts/survey_sessions/us_market_daily/cloud_site/session_archive_2026-11-02/entries.json
+  h_6821a68d97f74e 1-14
+contexts/survey_sessions/us_market_daily/cloud_site/session_archive_2026-11-02/pre_precision_dedup_observation.json
+  h_6821a68d97f74e 1-11
+contexts/survey_sessions/us_market_daily/cloud_site/session_archive_2026-11-02/session_schema_deployment.json
+  h_6821a68d97f74e 1-41
+contexts/survey_sessions/us_market_daily/cloud_site/site_delivery_2026-11-03/deployment.json
+  h_6821a68d97f74e 1-68
+contexts/survey_sessions/us_market_daily/reddit_state.json
+  h_6821a68d97f74e 238-317,398-414,419-441
+contexts/survey_sessions/us_market_daily/research_policy.md
+  h_6821a68d97f74e 166-209
+contexts/survey_sessions/us_market_daily/valuation_research_watch.json
+  h_6821a68d97f74e 60-77,80-93
+contexts/thought_review/2026_11_02_agent_workflow_burden_audit.md
+  h_6821a68d97f74e 1-54
+contexts/thought_review/codex_execution_experience/engineering_delivery.md
+  h_6821a68d97f74e 14-15
+contexts/thought_review/codex_execution_experience/product_ui_and_collaboration.md
+  h_6821a68d97f74e 19,32-33,37
+contexts/thought_review/codex_execution_experience/review_maintenance.md
+  h_6821a68d97f74e 53-55
+contexts/thought_review/codex_execution_experience_review.md
+  h_6821a68d97f74e 1,3,5,7-12,14,16,18-25,27
+rules/COMMUNICATION.md
+  h_6821a68d97f74e 1,3,5,7-10,12,14-18,20,22-23
+rules/SOUL.md
+  h_6821a68d97f74e 1,3,5-10
+rules/USER.md
+  h_6821a68d97f74e 1,3-5,9-10,12
+rules/WORKSPACE.md
+  h_6821a68d97f74e 63-64
+rules/skills/INDEX.md
+  h_6821a68d97f74e 3,5,35,75,77
+rules/skills/skill_scope_management.md
+  h_6821a68d97f74e 19-28
+rules/skills/workflow_parallel_subagents.md
+  h_6821a68d97f74e 3,5,7-10,12,14-18,20,22-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "dc7462fcf767b2a04fd420466deed68f6dbc4b02",
+  "prompts": {},
+  "humans": {
+    "h_6821a68d97f74e": {
+      "author": "XuHao <xuhao2@xiaohongshu.com>"
+    }
+  }
+}
