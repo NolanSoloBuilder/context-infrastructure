@@ -1,0 +1,57 @@
+{
+  "collected_at": "2026-11-05T09:05:09.294735+08:00",
+  "window_start": "2026-11-04T09:00:00+08:00",
+  "window_end": "2026-11-05T09:00:00+08:00",
+  "message_count": 17,
+  "candidate_count": 14,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b618747fbaca0cfb42eb4524d3f8",
+      "source_time": "2026-11-04 21:16+08:00",
+      "sync_create_time": "1793798291658",
+      "content_sha256": "1cd29e9ee8318ed0e5545878ce8d809c48b55389c8bcab1433d444f4fa75336f",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者倾向将上涨判断为反弹而非反转，结构性观察科创50、创业板的60日均线第一阻力；称下行市不再公开个人操作，以免不同仓位与风控者误用。其对美国科技现金流、资本开支及机构买卖动机的解释为判断，未获本报独立验证。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6186c7798108dd66fc94798c7cf",
+      "source_time": "2026-11-04 20:44+08:00",
+      "sync_create_time": "1793796251697",
+      "content_sha256": "764230b6b53fa6e4bcef1bdf1c08c55913835987ff79a86a7b459f94b28be148",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者将大阳线和放量视为资金在3600附近做多科技、尝试形成反弹合力，仍用价值方向是否补跌讨论3600/3400情景。反弹形成与持续均是概率判断，不保证兑现，不是本报自动买入线。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6186617880a0deae5067b7205bf",
+      "source_time": "2026-11-04 20:19+08:00",
+      "sync_create_time": "1793794811590",
+      "content_sha256": "d2c17b2a68a6e44c83ad97dedc0f5927e36c5d2bd14a091dc5bf4a95116c0ffa",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者说明既有支撑位仅在其设定的牛尾反弹发生前适用，反弹之后应重新评估；个股看业绩与估值，板块看相对性价比。不是永久有效点位，也不是本报核验的历史规律。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61866e78ccacce8e7bae7c60fcf",
+      "source_time": "2026-11-04 20:15+08:00",
+      "sync_create_time": "1793794571590",
+      "content_sha256": "300d5920faedd734867b038a74bf55eb89ea1c63bbfee8cad6b13e22ee0c262b",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者再次区分新手配置思路和短线止盈止损，反弹未必发生；不搏反弹者可等待后续熊市配置。没有针对用户50万元给具体首笔金额或比例。原卡片有引用旧回答的截断提示，仅摘要本次可读完整作者表述。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6185887e50a0dfb2bfba2c9c190",
+      "source_time": "2026-11-04 19:51+08:00",
+      "sync_create_time": "1793793131511",
+      "content_sha256": "d957bf6e39effc7744a067dc5002eb2679a405f07568a085e41112694c93cdd5",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者比较未来底部配置：倾向沪深300的确定性、科创50的弹性，认为中概属低估值博反转、配置比例宜低于300。是未来情景下的偏好和作者盈利评价，不能据此证明当前已到底，也没有可照搬的数字仓位。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "成员回复、私人楼市教育职业内容、与ETF观察无关的存单/申购内容；同主题重复论述未重复报道",
+  "coverage": "群同步作者观点，非原知识星球全文；旧回答引用截断内容未补写"
+}

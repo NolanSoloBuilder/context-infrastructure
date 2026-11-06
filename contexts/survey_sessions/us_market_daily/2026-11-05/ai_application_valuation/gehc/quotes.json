@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "symbol": "GEHC",
+  "currency": "USD",
+  "market_session": "2026-11-04",
+  "next_regular_session": "2026-11-05",
+  "valuation_price": 85.81,
+  "valuation_price_session": "regular_close",
+  "regular_close": {
+    "price": 85.81,
+    "previous_close": 80.66,
+    "change_pct": 6.384825192164656,
+    "time_et": "2026-11-04T16:00:00-05:00",
+    "time_beijing": "2026-11-05T05:00:00+08:00",
+    "sources": [
+      "yahoo_daily",
+      "stockanalysis_quote",
+      "investing_daily"
+    ],
+    "status": "three third-party pages agree; exchange quote unavailable; common vendor dependence not excluded"
+  },
+  "afterhours": {
+    "ended_at_collection": true,
+    "cross_source_verified": false,
+    "references": [
+      {
+        "source": "yahoo_extended",
+        "price": 85.75,
+        "time_et": "2026-11-04T19:59:12-05:00",
+        "time_beijing": "2026-11-05T08:59:12+08:00",
+        "volume": 0,
+        "change_vs_same_day_close_pct": -0.0699219205220869,
+        "collected_at_utc": "2026-11-05T02:49:15.203126+00:00",
+        "warning": "Zero-volume reference is not proof of a new executed trade."
+      },
+      {
+        "source": "stockanalysis_quote",
+        "price": 86.4,
+        "time_et": "2026-11-04T19:59:00-05:00",
+        "time_beijing": "2026-11-05T08:59:00+08:00",
+        "change_vs_same_day_close_pct": 0.6875655518004953,
+        "collection_date_utc": "2026-11-05",
+        "exact_collection_time": null
+      }
+    ],
+    "warning": "Difference retained; neither is treated as verified final afterhours close; excluded from valuation."
+  }
+}

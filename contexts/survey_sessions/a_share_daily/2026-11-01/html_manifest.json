@@ -1,0 +1,25 @@
+{
+  "report_date_beijing": "2026-11-01",
+  "market_session": "2026-10-30",
+  "generated_at_utc": "2026-11-01T01:06:34.418Z",
+  "source_markdown_sha256": "769297f45017062530c6c2a43b2411beec2a50bc5a1ebb9d8e602f6379b9ee4d",
+  "html_sha256": "80a989beaf56f005aab9f83dff6cc0996558896ed71832b402ba44735aefb125",
+  "html_bytes": 2396247,
+  "embedded_chart_files": [
+    "../2026-10-31/sources/3004_valuation.jpg"
+  ],
+  "embedded_appendices": [],
+  "downloadable_evidence": [
+    "sources/feishu_author_digest.json",
+    "../2026-10-31/sources/3004_valuation.jpg",
+    "../2026-10-31/valuation_cheap.json",
+    "../2026-10-31/trend_metrics.json",
+    "sources/source_audit.json",
+    "market.json"
+  ],
+  "content_policy": "Reviewed report is the content source; no fetching or price recomputation; images and linked local evidence embedded for offline use.",
+  "shared_style": "../us_market_daily/report.css",
+  "shared_interactions": "../us_market_daily/report_interactions.js",
+  "shared_style_sha256": "b666acafe04dc7589bc699b718a6cae307ffad248995642af0282e5f9bbda2fc",
+  "shared_interactions_sha256": "830aaee3dd18ec06738a5d2e462db8f9f0310a4b2eb987d63376ce565c4efb5f"
+}

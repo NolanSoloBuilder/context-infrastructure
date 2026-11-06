@@ -1,0 +1,19 @@
+{
+  "labels": [
+    "低估",
+    "正常",
+    "高估"
+  ],
+  "current_rows": {
+    "low": 2,
+    "normal": 2,
+    "high": 0,
+    "missing": 1
+  },
+  "contrast_ratios": {
+    "low": 6.446960278847657,
+    "normal": 6.813623243237837,
+    "high": 5.613216208871577
+  },
+  "classification_values_unchanged": true
+}

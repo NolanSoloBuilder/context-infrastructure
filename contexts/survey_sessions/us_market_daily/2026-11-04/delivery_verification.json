@@ -1,0 +1,27 @@
+{
+  "status": "published_and_read_back",
+  "checked_at_utc": "2026-11-03T23:46:49.343073+00:00",
+  "site_url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site/",
+  "report_date": "2026-11-04",
+  "market_session": "2026-11-03",
+  "regular_closes_checked": 18,
+  "site_assets_updated": 17,
+  "chart_points_checked": 180,
+  "research_items": 3,
+  "history_dates": [
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "highlights": [],
+  "BRK_high_resolved": true,
+  "homepage_sha256": "7f4d8b40e45242e2a8374cf1469be6163745c131e05b5966ec9de05d52426454",
+  "brief_sha256": "cc6963487989fc02c76aa3349b48b6de93ac0b7e092a2fde5b0ea16f8cbb7b46",
+  "limits": [
+    "All price comparisons are third party, not official tick audit",
+    "QQQM cross-source volume differs; trend volume uses Yahoo prior20 only",
+    "SEC recent submission feeds blocked this run; no inference of no new filings",
+    "Reddit dates not all verifiable; no complete last24h scan claim"
+  ],
+  "browser_visual_acceptance": "not repeated; data-only update, unchanged renderer; local plots visually inspected"
+}

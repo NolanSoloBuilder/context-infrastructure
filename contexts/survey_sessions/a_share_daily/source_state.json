@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T09:07:22.431817+08:00",
+  "checked_at": "2026-11-06T09:03:02.752871+08:00",
   "articles": [
     {
       "issue": "3001",
@@ -30,6 +30,45 @@
       "scope": "本人雪球正文与常规/红利原图分日期查看",
       "status": "read",
       "reported_in": "2026-10-30/report.html"
+    },
+    {
+      "issue": "3004",
+      "url": "https://www.sina.cn/news/detail/5359838227598095.html",
+      "scope": "正文和10月30日常规原图，港股原图为10月29日单列",
+      "status": "read",
+      "reported_in": "2026-10-31/report.html"
+    },
+    {
+      "issue": "3005",
+      "url": "https://www.sina.cn/news/detail/5360919636870780.html",
+      "content_sha256": "f7833e5a779397872086832184828d443a0b27dd5b028b4dde2e00dd0695dc27",
+      "scope": "11月2日作者同步正文及同日完整常规原图50项",
+      "status": "read",
+      "reported_in": "2026-11-03/report.html"
+    },
+    {
+      "issue": "3006",
+      "url": "https://www.sina.cn/news/detail/5361286709248135.html",
+      "content_sha256": "e0043423f8c70e6c87724cf3e7b6e6d3b2073ba3b511c9eb1a66c796f7bd9f53",
+      "scope": "作者正文、11月3日常规原图50项；11月2日养老表及账户长图不混入",
+      "status": "read",
+      "reported_in": "2026-11-04/report.html"
+    },
+    {
+      "issue": "3007",
+      "url": "https://www.sina.cn/news/detail/5361648355511216.html",
+      "content_sha256": "491a69c1e7b91d6d47f9c2238cef4b2c2cc2745680e0ed7bd8022d49d0a52a89",
+      "scope": "作者正文区间星级与11月4日常规原图50项；未补精度",
+      "status": "read",
+      "reported_in": "2026-11-05/report.html"
+    },
+    {
+      "issue": "3008",
+      "url": "https://www.sina.cn/news/detail/5362011796147214.html",
+      "content_sha256": "328bf9dce01bb7ea5896eb164bd098ed3cf6f5a149733644113d229c7fdfff5f",
+      "scope": "11月5日常规原图50项及正文4.7星；11月4日红利专题独立",
+      "status": "read",
+      "reported_in": "2026-11-06/report.html"
     }
   ],
   "valuation_images": {
@@ -40,8 +79,8 @@
   "feishu": {
     "profile": "nandong-feishu",
     "chat_id": "oc_694dac14c6045bae8f0167003c127188",
-    "last_successful_read_at": "2026-10-30T09:06:34.440969+08:00",
-    "morning_window_end": "2026-10-30T09:00:00+08:00",
+    "last_successful_read_at": "2026-11-06T09:03:02.752871+08:00",
+    "morning_window_end": "2026-11-06T09:00:00+08:00",
     "supplement_window_end": "2026-10-28T12:02:47+08:00",
     "reported_message_ids": [
       "om_x100b613c046df4a8df6c78de2f1fe65",
@@ -54,15 +93,47 @@
       "om_x100b6122b93d2cacce4e86308681b78",
       "om_x100b6107cfcc40a0df4787425a0569a",
       "om_x100b6118633c0ca4df25e7e039dfa1d",
-      "om_x100b611fb7be30b8dc13021dd1c2309"
+      "om_x100b611fb7be30b8dc13021dd1c2309",
+      "om_x100b617e0a46e0a0de4cd4aebb8d239",
+      "om_x100b617d2dbdcca4de6d2e705b993e6",
+      "om_x100b617d1539f4b0dd3674accc689bb",
+      "om_x100b617d6ecf9ca0ddbed3022705a45",
+      "om_x100b616aaabdfca4b4f586861c78de0",
+      "om_x100b616989bdf0a0c1fa87782c7efe9",
+      "om_x100b6162353c00b4cf41dd5bdd52cc7",
+      "om_x100b61622bb9b4b0cfdebcc4c9be902",
+      "om_x100b614269bdd8acc3c411d01304fa5",
+      "om_x100b615f99bc5ca0dfde0f186bfbe5d",
+      "om_x100b61bd1679c0a0c0e2641fa5ed897",
+      "om_x100b61b38d791d34c1b42064a665fcf",
+      "om_x100b61aa6b3e00a0ce5e5ce6ad33b71",
+      "om_x100b61a8953984acc45b52e81d44626",
+      "om_x100b61a8e1cd80acb0f8f30c7a9a9ba",
+      "om_x100b61a8cf3b20a4c0a0d378301407e",
+      "om_x100b61aea23aa0b0df1bb3cacccacc9",
+      "om_x100b618747fbaca0cfb42eb4524d3f8",
+      "om_x100b6186c7798108dd66fc94798c7cf",
+      "om_x100b6186617880a0deae5067b7205bf",
+      "om_x100b61866e78ccacce8e7bae7c60fcf",
+      "om_x100b6185887e50a0dfb2bfba2c9c190",
+      "om_x100b61fd787850a8cfde75592b2190c",
+      "om_x100b61fd567ec0a0b05ce26822acfa9",
+      "om_x100b61f3e7f944acdc01a5a2c7faa82",
+      "om_x100b61f59a78ecb8de3f5556fcc6551"
     ],
-    "report": "2026-10-30/report.html",
-    "evidence": "2026-10-30/sources/feishu_author_digest.json",
+    "report": "2026-11-06/report.html",
+    "evidence": "2026-11-06/sources/feishu_author_digest.json",
     "coverage_warning": "机器人曾有故障，非原星球完整记录"
   },
   "etf_world": {
     "enabled": false,
     "removed_on": "2026-10-28",
     "reason": "用户要求停止相关订阅并移除日报内容"
+  },
+  "latest_author_list_check": {
+    "checked_on": "2026-11-06",
+    "latest_visible_issue": "3008",
+    "new_issue_verified": true,
+    "working_url": "https://www.sina.cn/media/5546795997/"
   }
 }

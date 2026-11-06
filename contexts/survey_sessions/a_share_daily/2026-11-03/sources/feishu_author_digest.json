@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-11-03T09:05:35.907669+08:00",
+  "window_start": "2026-11-02T09:00:00+08:00",
+  "window_end": "2026-11-03T09:00:00+08:00",
+  "message_count": 15,
+  "candidate_count": 9,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b61bd1679c0a0c0e2641fa5ed897",
+      "source_time": "2026-11-02 21:51+08:00",
+      "sync_create_time": "1793627531646",
+      "content_sha256": "111e4d3934e1a961ade47b1a915c8c3087a637cdc61c212d3247cb2b1bfd6d41",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者回答先观察3600、3400两个支撑位置能否支撑反弹。本条未明确点名对应指数，不能把点位直接登记成上证指数机械买入或止损线；没有提供作者当前仓位或适用于用户的比例。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61b38d791d34c1b42064a665fcf",
+      "source_time": "2026-11-02 20:03+08:00",
+      "sync_create_time": "1793621051697",
+      "content_sha256": "f24deefb124cb7a3c34c66d73e430a064abd70a3fb45ce84d5c5582ef691e378",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者发出沪深300、中证500三季度营收与利润统计动态。群同步正文在介绍统计范围后已截断，未读到具体增长率或完整结论；只记录更新存在，不依据成员评论还原作者结论。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "成员评论/点赞名单、无关楼市/教育等话题、重复动态；未将截断财报统计拼成完整结论",
+  "coverage": "群同步作者观点，非原知识星球全文；营收利润动态存在正文截断缺口"
+}

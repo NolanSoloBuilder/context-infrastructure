@@ -1,0 +1,61 @@
+[
+  {
+    "name": "finews_home",
+    "url": "https://finews.fyi/",
+    "status": 200,
+    "captured_at_utc": "2026-11-05T23:27:48.718407+00:00",
+    "bytes": 128192,
+    "metadata": [
+      "datePublished\":\"2026-11-05\",\"dateModified\":\"2026-11-05 23:14:30\",\"url\":\"https://finews.fyi/\",\"image\":[\"https://fi"
+    ],
+    "text_start": "FiNews 美股日报｜今日美股行情、美股指数盘后总结\nFiNews\n美股日报 · 更新\n2026-11-05 23:14:30 UTC\n2026-11-05\n‹\n›\n日\n一\n二\n三\n四\n五\n六\n2026年11月5日 美股盘后日报\n头部个股热力图\n美股头部个股热力图 2026-11-05\n2026 年 11 月 5 日\n−3.44%\n道指\n−5.52%\n纳指\n−4.36%\n标普 500\n科技\nApple −1.53%\nAAPL\n−1.53%\nNvidia −9.26%\nNVDA\n−9.26%\nMicrosoft −3.58%\nMSFT\n−3.58%\nBroadcom −10.43%\nAVGO\n−10.43%\nMicron −17.46%\nMU\n−17.46%\nAMD −17.26%\nAMD\n−17.26%\nCisco −7.62%\nCSCO\n−7.62%\nPalantir −9.73%\nPLTR\n−9.73%\nOracle −6.93%\nORCL\n−6.93%\nIntel −10.33%\nINTC\n−10.33%\nTexas Instruments −10.70%\nTXN\n−10.70%\nIBM −2.84%\nIBM\n−2.84%\nPalo Alto Networks −9.59%\nPANW\n−9.59%\nSalesforce −2.07%\nCRM\n−2.07%\nArista Networks −10.82%\nANET\n−10.82%\nQualcomm −9.49%\nQCOM\n−9.49%\nServiceNow −5.93%\nNOW\n−5.93%\nAdobe −0.82%\nADBE\n−0.82%\nIntuit −0.50%\nINTU\nAmphenol −9.33%\nCrowdStrike −9.88%\nKLA −13.35%\n通信服务\nAlphabet −2.20%\nGOOGL\n−2.20%\nMeta Platforms −3.96%\nMETA\n−3.96%\nNetflix −1.25%\nNFLX\n−1.25%\nDisney −1.45%\nDIS\n−1.45%\nVerizon −0.11%\nVZ\nT-Mobile US +0.89%\nTMUS\n+0.89%\nAT&T −0.05%\nT\nComcast +0.40%\n金融\nBerkshire Hathaway −1.1"
+  },
+  {
+    "name": "reddit_post",
+    "url": "https://www.reddit.com/r/stocks/comments/1xocf5g/the_era_of_massive_big_tech_stock_buybacks_is_over/",
+    "status": 200,
+    "captured_at_utc": "2026-11-05T23:27:48.718765+00:00",
+    "bytes": 8483,
+    "metadata": [],
+    "text_start": "Reddit"
+  },
+  {
+    "name": "stocks_rss",
+    "url": "https://www.reddit.com/r/stocks/new/.rss",
+    "captured_at_utc": "2026-11-05T23:27:48.718844+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "investing_rss",
+    "url": "https://www.reddit.com/r/investing/new/.rss",
+    "status": 200,
+    "captured_at_utc": "2026-11-05T23:27:48.718905+00:00",
+    "bytes": 52647,
+    "metadata": [],
+    "text_start": "2026-11-05T23:27:50+00:00\nhttps://www.redditstatic.com/icon.png/\n/r/investing/new/.rss\nnewest submissions : investing\n/u/alphapod-Ai\nhttps://www.reddit.com/user/alphapod-Ai\n<!-- SC_OFF --><div class=\"md\"><p>Everyone is debating whether the midterm results will derail AI. I think investors are overlooking a more important risk: how much announced AI infrastructure will actually get built and energized?Consider two findings:</p> <p><strong>1. Local opposition is becoming a real development constraint.</strong></p> <p>By my count of <a href=\"https://ballotpedia.org/Data_center-related_ballot_measures,_2026?_sp=435b2694-2351-4f4f-ba35-5c8814cd60e1.1793914301664\">Ballotpedia’s </a>list, 40 of the 41 local data-center measures decided on November 3 went against development: bans, MW caps, moratoria and rejected rezonings. Nine were advisory, so not all are binding, but the direction is striking.</p> <p><strong>2. Utility filings reveal demand long before the public announcements.</strong></p"
+  },
+  {
+    "name": "SecurityAnalysis_rss",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+    "captured_at_utc": "2026-11-05T23:27:49.122064+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "ValueInvesting_rss",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+    "captured_at_utc": "2026-11-05T23:27:49.476668+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "Bogleheads_rss",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+    "captured_at_utc": "2026-11-05T23:27:49.783212+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "ETFs_rss",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss",
+    "captured_at_utc": "2026-11-05T23:27:49.991227+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

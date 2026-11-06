@@ -1,0 +1,58 @@
+[
+  {
+    "label": "stocks_new",
+    "url": "https://www.reddit.com/r/stocks/new/.rss",
+    "status": "403",
+    "bytes": 1522,
+    "captured_at_utc": "2026-10-30T23:29:12.533784+00:00",
+    "error": ""
+  },
+  {
+    "label": "investing_top",
+    "url": "https://www.reddit.com/r/investing/top/.rss?t=day",
+    "status": "403",
+    "bytes": 1522,
+    "captured_at_utc": "2026-10-30T23:29:12.537850+00:00",
+    "error": ""
+  },
+  {
+    "label": "SecurityAnalysis_new",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+    "status": "403",
+    "bytes": 1522,
+    "captured_at_utc": "2026-10-30T23:29:12.543329+00:00",
+    "error": ""
+  },
+  {
+    "label": "ValueInvesting_new",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+    "status": "403",
+    "bytes": 1522,
+    "captured_at_utc": "2026-10-30T23:29:12.551386+00:00",
+    "error": ""
+  },
+  {
+    "label": "Bogleheads_new",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+    "status": "403",
+    "bytes": 1522,
+    "captured_at_utc": "2026-10-30T23:29:12.765700+00:00",
+    "error": ""
+  },
+  {
+    "label": "ETFs_new",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss",
+    "status": "403",
+    "bytes": 1522,
+    "captured_at_utc": "2026-10-30T23:29:12.794073+00:00",
+    "error": ""
+  },
+  {
+    "label": "finews_latest",
+    "url": "https://finews.fyi/",
+    "status": "200",
+    "bytes": 71849,
+    "captured_at_utc": "2026-10-30T23:29:13.961687+00:00",
+    "error": ""
+  }
+]

@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "symbol": "GEHC",
+  "research_date_beijing": "2026-11-05",
+  "market_session": "2026-11-04",
+  "manifest_written_at_utc": "2026-11-05T03:02:15.899218+00:00",
+  "units": "Financial statement values USD millions except EPS, prices and shares; shares in millions where specified.",
+  "evidence_note": "Only the named page sections were actually read. Source dates are distinct from evidence collection times. Financial reports are primary sources; price sources remain third-party. Full original SEC filing was not downloaded locally.",
+  "sources": [
+    {
+      "id": "gehc_10q_q3_2026",
+      "kind": "primary_SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1932393/000193239326000059/gehc-20260930.htm",
+      "mirror_url": "https://investor.gehealthcare.com/node/12596/html",
+      "published": "2026-10-28",
+      "period_end": "2026-09-30",
+      "read_scope": [
+        "financial statements",
+        "acquisitions",
+        "borrowings",
+        "pension",
+        "tariffs",
+        "shares",
+        "supplemental cash flow",
+        "subsequent events",
+        "non-GAAP reconciliation"
+      ],
+      "supports": [
+        "revenue, GAAP/adjusted earnings and shares",
+        "CFO, capex, SBC, financing expenses and interest paid",
+        "restricted/unrestricted cash, debt principal and book carrying values",
+        "NCI and lease liabilities",
+        "tariff cash versus P&L refund distinction",
+        "Intelerad completed purchase and SOFIE pending purchase"
+      ],
+      "access": "Read SEC and IR content via web tool; direct IR archive fetch returned 403. No claim of complete local 10-Q archival."
+    },
+    {
+      "id": "gehc_release_q3_2026",
+      "kind": "primary_IR",
+      "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results",
+      "published": "2026-10-28",
+      "period_end": "2026-09-30",
+      "read_scope": [
+        "Q3/9M results",
+        "FY2026 outlook",
+        "segments",
+        "orders"
+      ],
+      "supports": [
+        "adjusted EPS guidance 4.95–5.05 USD",
+        "FCF outlook 1600m+ is a floor not a precise forecast",
+        "organic orders +4%, book-to-bill 1.03, backlog 23700m"
+      ],
+      "access": "Read via web tool; direct archive fetch returned 403."
+    },
+    {
+      "id": "gehc_presentation_q3_2026",
+      "kind": "primary_IR",
+      "url": "https://investor.gehealthcare.com/static-files/fa35652b-c643-4281-9178-78d7dd096a09",
+      "published": "2026-10-28",
+      "read_scope": [
+        "margin bridge slide 6",
+        "cash flows",
+        "outlook",
+        "events"
+      ],
+      "supports": [
+        "Q3 adjusted EBIT margin +180bp includes approximately +90bp tariff effect",
+        "December 1 RSNA investor forum"
+      ],
+      "access": "Read PDF via web tool."
+    },
+    {
+      "id": "gehc_release_fy2025",
+      "kind": "primary_IR",
+      "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-fourth-quarter-and-full-year-2025",
+      "published": "2026-02-04",
+      "period_end": "2025-12-31",
+      "read_scope": [
+        "FY2025 financial statements",
+        "cash flow and non-GAAP tables"
+      ],
+      "supports": [
+        "TTM bridge inputs CFO 1987m, capex 482m, SBC 130m, net financing expense 440m, cash interest 522m"
+      ],
+      "access": "Read via web tool."
+    },
+    {
+      "id": "sofie_announcement",
+      "kind": "primary_IR",
+      "url": "https://gehealthcare.gcs-web.com/news-releases/news-release-details/ge-healthcare-acquire-sofie-biosciences-establishing-final-mile",
+      "published": "2026-10-05",
+      "read_scope": [
+        "deal price",
+        "closing conditions",
+        "business and expected financial effect"
+      ],
+      "supports": [
+        "945m cash purchase; expected H1 2027 closing, still pending",
+        "No standalone acquired cash-flow model disclosed"
+      ],
+      "access": "Read via web tool."
+    },
+    {
+      "id": "vscan_ai_nov2026",
+      "kind": "primary_company",
+      "url": "https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments",
+      "mirror_url": "https://gehealthcare.gcs-web.com/news-releases/news-release-details/ge-healthcare-reinforces-leadership-ai-lung-guidance-and-autoas",
+      "published": "2026-11-03",
+      "read_scope": [
+        "Lung Guidance",
+        "AutoAS",
+        "purchase and update availability",
+        "regulatory and usage qualifications"
+      ],
+      "supports": [
+        "Innovation Packages subscription/license payment path",
+        "Existing valid subscribers/licensees expected to receive update by end-November",
+        "Only specified Vscan Air SL use; aid to clinician rather than standalone final diagnosis"
+      ],
+      "limitations": [
+        "Company regulatory claims not independently checked against device-level FDA record",
+        "No separate AI revenue, paid attachment, renewal or independent clinical ROI disclosure read"
+      ],
+      "access": "Company text returned in web search; original open timeout; official IR mirror text accessible."
+    },
+    {
+      "id": "hca_10q_q3_2026",
+      "kind": "primary_SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/860730/000119312526437871/hca-20260930.htm",
+      "period_end": "2026-09-30",
+      "read_scope": [
+        "capital expenditure and construction commitments"
+      ],
+      "supports": [
+        "9M capex excluding acquisitions 3707m versus 3455m",
+        "2026 planned capex 5000–5500m"
+      ],
+      "limitations": [
+        "Hospital operator sample, not GEHC customer order identification or AI spending allocation"
+      ],
+      "access": "Read via web tool."
+    },
+    {
+      "id": "hca_release_q3_2026",
+      "kind": "primary_IR",
+      "url": "https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Reports-Third-Quarter-2026-Results/default.aspx",
+      "published": "2026-10-27",
+      "period_end": "2026-09-30",
+      "read_scope": [
+        "payer mix effect",
+        "capital expenditure"
+      ],
+      "supports": [
+        "Q3 estimated adverse pretax payer-mix effect approximately 400m",
+        "Q3 capex 1357m"
+      ],
+      "access": "Read via web tool."
+    },
+    {
+      "id": "nyse_calendar",
+      "kind": "primary_exchange",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "read_scope": [
+        "2026 holidays and core trading hours"
+      ],
+      "supports": [
+        "November 4 and November 5 ordinary trading sessions",
+        "Core 09:30–16:00 America/New_York"
+      ],
+      "access": "Web read and full raw HTTP 200 copy."
+    },
+    {
+      "id": "yahoo_daily",
+      "kind": "third_party_market",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=1y&interval=1d",
+      "collected_at_utc": "2026-11-05T02:49:14.715234+00:00",
+      "read_scope": [
+        "GEHC daily prices",
+        "regular market metadata"
+      ],
+      "supports": [
+        "2026-11-04 close 85.81 USD, previous 80.66 USD"
+      ],
+      "access": "HTTP 200 raw response archived."
+    },
+    {
+      "id": "yahoo_extended",
+      "kind": "third_party_market",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=5d&interval=1m&includePrePost=true",
+      "collected_at_utc": "2026-11-05T02:49:15.203126+00:00",
+      "read_scope": [
+        "GEHC pre/post minute bars"
+      ],
+      "supports": [
+        "Last post-market reference 85.75 USD at 2026-11-04 19:59:12 EST, zero volume"
+      ],
+      "limitations": [
+        "Zero volume may be carried quotation, not proof of a new executed trade",
+        "Differs from StockAnalysis 86.40 USD"
+      ],
+      "access": "HTTP 200 raw response archived."
+    },
+    {
+      "id": "stockanalysis_quote",
+      "kind": "third_party_market",
+      "url": "https://stockanalysis.com/stocks/gehc/statistics/",
+      "reviewed_on_utc": "2026-11-05",
+      "exact_web_tool_collection_time_recorded": false,
+      "read_scope": [
+        "dated regular and afterhours quote block"
+      ],
+      "supports": [
+        "2026-11-04 16:00 EST close 85.81 USD",
+        "2026-11-04 19:59 EST afterhours 86.40 USD"
+      ],
+      "limitations": [
+        "Direct request 403; successful web page read is separate",
+        "Third-party pages may share underlying vendors; not exchange-level independence"
+      ],
+      "access": "Read dated text via web tool."
+    },
+    {
+      "id": "investing_daily",
+      "kind": "third_party_market",
+      "url": "https://www.investing.com/equities/ge-healthcare-holding-llc-historical-data",
+      "reviewed_on_utc": "2026-11-05",
+      "exact_web_tool_collection_time_recorded": false,
+      "read_scope": [
+        "November 4 and November 3 daily rows"
+      ],
+      "supports": [
+        "Nov4 close85.81/open82.97/high87.56/low82.89; Nov3 close80.66"
+      ],
+      "limitations": [
+        "Volume 9.48m differs from Yahoo9.6038m; volume not used in valuation"
+      ],
+      "access": "Read via web tool; direct HTTP fetch 403."
+    },
+    {
+      "id": "nasdaq_quote_unavailable",
+      "kind": "primary_exchange",
+      "url": "https://www.nasdaq.com/market-activity/stocks/gehc/after-hours",
+      "read_scope": [
+        "quote availability"
+      ],
+      "supports": [],
+      "access": "Redirected regular symbol page; quote data unavailable. Not used to validate price."
+    },
+    {
+      "id": "public_quote_rejected",
+      "kind": "third_party_market",
+      "url": "https://public.com/stocks/gehc/after-hours",
+      "read_scope": [
+        "dated price block"
+      ],
+      "supports": [],
+      "access": "Read but excluded: afterhours80.66 and regular86.76 inconsistent with regular close validated at85.81."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-11-04T23:41:49.106671+00:00",
+  "site_url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+  "audience": "public",
+  "deployment": {
+    "id": "appgdep_6aebc24a52408191a10eb0542d6d698f",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5f3d3a8637ec8191ba1d8b1bbe1afbd8",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-04T23:40:17.458264+00:00"
+  },
+  "saved_version": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5f3d3a8637ec8191ba1d8b1bbe1afbd8",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 18,
+    "source": {
+      "commit_sha": "1a72f2e39d2e822d4539559cab5820517adf9da0"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000dddc82078898af6e44ad7609",
+      "content_hash": "sha256:7802c3df169f1e32eb83381c1d67ef126d34f565860354f4c083161bb63e7758",
+      "size_bytes": 3266560,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "report_date": "2026-11-05",
+  "regular_session": "2026-11-04",
+  "refresh_status": {
+    "status": "complete",
+    "phase": "done",
+    "job_id": "a3385c4b-93e6-4d56-a937-a9f600b39ae4",
+    "started_at_utc": "2026-11-04T23:40:39.986Z",
+    "last_success_at_utc": "2026-11-04T23:40:47.313Z",
+    "completed": 17,
+    "total": 17,
+    "message": "行情与历史指标已更新；研究文字和发行人持仓保留各自披露日期。",
+    "regular_session": "2026-11-04",
+    "finished_at_utc": "2026-11-04T23:40:47.313Z",
+    "successful_history_symbols": 17,
+    "symbol_count": 17,
+    "errors": []
+  },
+  "cloud_closes_match_fresh_local_yahoo": 17,
+  "cross_source_price_agreement": false,
+  "alert_states": "all three retained Nov3 with deferred Nov4 checks",
+  "chart_ranges_version": 2,
+  "history_dates": [
+    "2026-11-04",
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "same_session_archive_has_current_research": true,
+  "past_archive_not_backfilled": true,
+  "private_content_uploaded": false,
+  "validation_scope": "data-only update; JSON/schema/artifact and live anonymous HTTP readbacks; no new visual browser acceptance claimed",
+  "homepage_current_research_and_quotes_checked": true
+}

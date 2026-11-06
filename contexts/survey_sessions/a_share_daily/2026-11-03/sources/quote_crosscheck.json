@@ -1,0 +1,26 @@
+{
+  "asof": "2026-11-02",
+  "primary": "腾讯财经",
+  "secondary": "FiNews引用东方财富，未独立回读其上游",
+  "checks": [
+    {
+      "symbol": "sh000001",
+      "close": 3638.03,
+      "rounded_daily": 1.08,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4016.92,
+      "rounded_daily": 0.79,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1196.94,
+      "rounded_daily": 3.11,
+      "consistent": true
+    }
+  ],
+  "coverage": "上证、沪深300、科创50跨站一致；上证50及ETF为单提供方，未声称独立交叉核验"
+}

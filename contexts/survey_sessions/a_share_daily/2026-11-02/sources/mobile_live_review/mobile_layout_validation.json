@@ -1,0 +1,558 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "width": 320,
+      "pageWidth": 320,
+      "charts": [
+        {
+          "left": 24,
+          "right": 296
+        }
+      ],
+      "tables": [
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 0,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 0,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        }
+      ],
+      "expanded": false,
+      "tableScrolling": true
+    },
+    {
+      "width": 320,
+      "pageWidth": 320,
+      "charts": [
+        {
+          "left": 24,
+          "right": 296
+        }
+      ],
+      "tables": [
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        },
+        {
+          "width": 272,
+          "scrollWidth": 650,
+          "right": 296
+        }
+      ],
+      "expanded": true,
+      "tableScrolling": true
+    },
+    {
+      "width": 360,
+      "pageWidth": 360,
+      "charts": [
+        {
+          "left": 24,
+          "right": 336
+        }
+      ],
+      "tables": [
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        }
+      ],
+      "expanded": false,
+      "tableScrolling": true
+    },
+    {
+      "width": 360,
+      "pageWidth": 360,
+      "charts": [
+        {
+          "left": 24,
+          "right": 336
+        }
+      ],
+      "tables": [
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        },
+        {
+          "width": 312,
+          "scrollWidth": 650,
+          "right": 336
+        }
+      ],
+      "expanded": true,
+      "tableScrolling": true
+    },
+    {
+      "width": 375,
+      "pageWidth": 375,
+      "charts": [
+        {
+          "left": 24,
+          "right": 351
+        }
+      ],
+      "tables": [
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        }
+      ],
+      "expanded": false,
+      "tableScrolling": true
+    },
+    {
+      "width": 375,
+      "pageWidth": 375,
+      "charts": [
+        {
+          "left": 24,
+          "right": 351
+        }
+      ],
+      "tables": [
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        },
+        {
+          "width": 327,
+          "scrollWidth": 650,
+          "right": 351
+        }
+      ],
+      "expanded": true,
+      "tableScrolling": true
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "charts": [
+        {
+          "left": 24,
+          "right": 366
+        }
+      ],
+      "tables": [
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        }
+      ],
+      "expanded": false,
+      "tableScrolling": true
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "charts": [
+        {
+          "left": 24,
+          "right": 366
+        }
+      ],
+      "tables": [
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        },
+        {
+          "width": 342,
+          "scrollWidth": 650,
+          "right": 366
+        }
+      ],
+      "expanded": true,
+      "tableScrolling": true
+    },
+    {
+      "width": 430,
+      "pageWidth": 430,
+      "charts": [
+        {
+          "left": 24,
+          "right": 406
+        }
+      ],
+      "tables": [
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        }
+      ],
+      "expanded": false,
+      "tableScrolling": true
+    },
+    {
+      "width": 430,
+      "pageWidth": 430,
+      "charts": [
+        {
+          "left": 24,
+          "right": 406
+        }
+      ],
+      "tables": [
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        },
+        {
+          "width": 382,
+          "scrollWidth": 650,
+          "right": 406
+        }
+      ],
+      "expanded": true,
+      "tableScrolling": true
+    },
+    {
+      "width": 768,
+      "pageWidth": 768,
+      "charts": [
+        {
+          "left": 30,
+          "right": 738
+        }
+      ],
+      "tables": [
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        }
+      ],
+      "expanded": false,
+      "tableScrolling": true
+    },
+    {
+      "width": 768,
+      "pageWidth": 768,
+      "charts": [
+        {
+          "left": 30,
+          "right": 738
+        }
+      ],
+      "tables": [
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        },
+        {
+          "width": 708,
+          "scrollWidth": 708,
+          "right": 738
+        }
+      ],
+      "expanded": true,
+      "tableScrolling": true
+    },
+    {
+      "width": 1280,
+      "pageWidth": 1280,
+      "charts": [
+        {
+          "left": 112,
+          "right": 1168
+        }
+      ],
+      "tables": [
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        }
+      ],
+      "expanded": false,
+      "tableScrolling": true
+    },
+    {
+      "width": 1280,
+      "pageWidth": 1280,
+      "charts": [
+        {
+          "left": 112,
+          "right": 1168
+        }
+      ],
+      "tables": [
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        },
+        {
+          "width": 1056,
+          "scrollWidth": 1056,
+          "right": 1168
+        }
+      ],
+      "expanded": true,
+      "tableScrolling": true
+    }
+  ],
+  "modal": {
+    "open": true,
+    "width": 374.390625,
+    "pageWidth": 390,
+    "zoomScrollable": true
+  },
+  "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site"
+}

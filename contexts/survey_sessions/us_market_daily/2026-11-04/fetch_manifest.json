@@ -1,0 +1,132 @@
+[
+  {
+    "id": "goog_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "captured_at_utc": "2026-11-03T23:36:37.270901+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://data.sec.gov/submissions/CIK0001652044.json']' returned non-zero exit status 56."
+  },
+  {
+    "id": "sofi_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+    "captured_at_utc": "2026-11-03T23:36:37.271444+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://data.sec.gov/submissions/CIK0001818874.json']' returned non-zero exit status 56."
+  },
+  {
+    "id": "rrx_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000082811.json",
+    "captured_at_utc": "2026-11-03T23:36:37.271586+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://data.sec.gov/submissions/CIK0000082811.json']' returned non-zero exit status 56."
+  },
+  {
+    "id": "brk_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+    "captured_at_utc": "2026-11-03T23:36:37.272780+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://data.sec.gov/submissions/CIK0001067983.json']' returned non-zero exit status 56."
+  },
+  {
+    "id": "rrx_release",
+    "url": "https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/REGAL-REXNORD-REPORTS-THIRD-QUARTER-2026-FINANCIAL-RESULTS/default.aspx",
+    "captured_at_utc": "2026-11-03T23:36:37.876000+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/REGAL-REXNORD-REPORTS-THIRD-QUARTER-2026-FINANCIAL-RESULTS/default.aspx']' returned non-zero exit status 56."
+  },
+  {
+    "id": "amd_results",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "captured_at_utc": "2026-11-03T23:36:37.876386+00:00",
+    "status": "read",
+    "bytes": 291584,
+    "sha256": "261f8ef66a083ee5364fe80f83331566967456f341c3903ad10f4d8a01be8ad6",
+    "file": "raw_sources/amd_results.html"
+  },
+  {
+    "id": "amd_quote",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=5d&interval=1m&includePrePost=true",
+    "captured_at_utc": "2026-11-03T23:36:37.876450+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://query1.finance.yahoo.com/v8/finance/chart/AMD?range=5d&interval=1m&includePrePost=true']' returned non-zero exit status 56."
+  },
+  {
+    "id": "treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "captured_at_utc": "2026-11-03T23:36:37.878854+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026']' returned non-zero exit status 28."
+  },
+  {
+    "id": "jolts",
+    "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
+    "captured_at_utc": "2026-11-03T23:36:38.118790+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.bls.gov/news.release/jolts.nr0.htm']' returned non-zero exit status 56."
+  },
+  {
+    "id": "cgnx_calendar",
+    "url": "https://investor.cognex.com/news/news-details/2026/Cognex-Announces-Third-Quarter-2026-Earnings-Release-and-Conference-Call-Dates/default.aspx",
+    "captured_at_utc": "2026-11-03T23:36:38.122121+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://investor.cognex.com/news/news-details/2026/Cognex-Announces-Third-Quarter-2026-Earnings-Release-and-Conference-Call-Dates/default.aspx']' returned non-zero exit status 56."
+  },
+  {
+    "id": "bls_calendar",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "captured_at_utc": "2026-11-03T23:36:38.372784+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.bls.gov/schedule/2026/11_sched.htm']' returned non-zero exit status 56."
+  },
+  {
+    "id": "finews",
+    "url": "https://finews.fyi/",
+    "captured_at_utc": "2026-11-03T23:36:38.601580+00:00",
+    "status": "read",
+    "bytes": 134592,
+    "sha256": "ac5ee31df4b3f36df52e08d55fa4d91c0eeebbaa242dc0d319c24946c4caa4fc",
+    "file": "raw_sources/finews.html"
+  },
+  {
+    "id": "reddit_investing",
+    "url": "https://www.reddit.com/r/investing/new/.rss",
+    "captured_at_utc": "2026-11-03T23:36:38.676454+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/investing/new/.rss']' returned non-zero exit status 56."
+  },
+  {
+    "id": "reddit_stocks",
+    "url": "https://www.reddit.com/r/stocks/new/.rss",
+    "captured_at_utc": "2026-11-03T23:36:38.983071+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/stocks/new/.rss']' returned non-zero exit status 56."
+  },
+  {
+    "id": "reddit_SecurityAnalysis",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+    "captured_at_utc": "2026-11-03T23:36:39.379832+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/SecurityAnalysis/new/.rss']' returned non-zero exit status 56."
+  },
+  {
+    "id": "reddit_ValueInvesting",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+    "captured_at_utc": "2026-11-03T23:36:39.492990+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/ValueInvesting/new/.rss']' returned non-zero exit status 56."
+  },
+  {
+    "id": "reddit_Bogleheads",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+    "captured_at_utc": "2026-11-03T23:36:39.598170+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/Bogleheads/new/.rss']' returned non-zero exit status 56."
+  },
+  {
+    "id": "reddit_ETFs",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss",
+    "captured_at_utc": "2026-11-03T23:36:39.845361+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/ETFs/new/.rss']' returned non-zero exit status 56."
+  }
+]

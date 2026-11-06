@@ -1,0 +1,33 @@
+{
+  "publication": "verified",
+  "report_date": "2026-11-06",
+  "market_session": "2026-11-05",
+  "assets": 43,
+  "updated": 41,
+  "retained_previous_session": [
+    "SOXX",
+    "XSW"
+  ],
+  "history_sessions": [
+    "2026-11-05",
+    "2026-11-04",
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "today_history_saved": true,
+  "prior_history_not_overlaid": true,
+  "homepage_content_verified": true,
+  "private_data_in_public_artifact": false,
+  "checks": [
+    "validate-brief",
+    "engine 27 tests",
+    "render and daily-brief 19 tests",
+    "artifact ESM default.fetch",
+    "public homepage and state HTTP200",
+    "live refresh 41/43 expected partial",
+    "history date and old research separation",
+    "charts endpoints and readability"
+  ],
+  "source_commit": "7c5f2084a919d4a5982cdb177ca525d39a1542fd"
+}

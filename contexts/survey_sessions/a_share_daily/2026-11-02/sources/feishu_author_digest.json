@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-11-02T09:08:13.359022+08:00",
+  "window_start": "2026-11-01T09:00:00+08:00",
+  "window_end": "2026-11-02T09:00:00+08:00",
+  "message_count": 12,
+  "candidate_count": 11,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b614269bdd8acc3c411d01304fa5",
+      "source_time": "2026-11-02 00:01+08:00",
+      "sync_create_time": "1793548919368",
+      "content_sha256": "b6ed50f42387d4c29193a32621e5678e08631fb121bfc9b618997e3a8bc93f76",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者讨论科创小额配置情景：前提是能承受浮亏、未来还有资金加仓，选择配置还是止损需个人决定。其对未来低点、摊低成本和盈利的判断是预测，不保证兑现；没有提供适用于用户的金额或比例。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b615f99bc5ca0dfde0f186bfbe5d",
+      "source_time": "2026-11-01 12:17+08:00",
+      "sync_create_time": "1793506679471",
+      "content_sha256": "a6f465debdac3b490d1b123cc61e75abebd4176b6bc89c96018a2c49168fc28e",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者仍将潜在反弹称为牛市末段反弹，并提出不参与者可等待后续熊市机会。这是周期判断，未验证反弹必然发生，也没有给出当前个人仓位。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "成员回复、无关房产与个人话题、重复内容；未审核原文仅留本机临时文件",
+  "coverage": "群同步作者观点，非原知识星球全文，不能保证完整覆盖"
+}

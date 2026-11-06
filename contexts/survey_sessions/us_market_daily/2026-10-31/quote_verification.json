@@ -1,0 +1,385 @@
+{
+  "session": "2026-10-30",
+  "regular_closes": [
+    {
+      "symbol": "SMH",
+      "url": "https://stockanalysis.com/etf/smh/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "532.58",
+        "535.32",
+        "511.63",
+        "522.49",
+        "522.49",
+        "-6.98%",
+        "17,582,468"
+      ],
+      "close_usd": 522.49,
+      "yahoo_close_usd": 522.49,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "VOO",
+      "url": "https://stockanalysis.com/etf/voo/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "699.92",
+        "700.01",
+        "689.75",
+        "694.81",
+        "694.81",
+        "-1.77%",
+        "9,970,229"
+      ],
+      "close_usd": 694.81,
+      "yahoo_close_usd": 694.81,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00",
+      "high_check": {
+        "yahoo_high": 718.47,
+        "date": "2026-10-06",
+        "second_source_high": null,
+        "entire52week_secondary_scan": false
+      }
+    },
+    {
+      "symbol": "QQQM",
+      "url": "https://stockanalysis.com/etf/qqqm/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "287.06",
+        "287.65",
+        "281.42",
+        "284.34",
+        "284.34",
+        "-3.46%",
+        "8,501,496"
+      ],
+      "close_usd": 284.34,
+      "yahoo_close_usd": 284.34,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00",
+      "high_check": {
+        "yahoo_high": 314.11,
+        "date": "2026-10-06",
+        "second_source_high": null,
+        "entire52week_secondary_scan": false
+      }
+    },
+    {
+      "symbol": "SPMO",
+      "url": "https://stockanalysis.com/etf/spmo/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "137.81",
+        "138.47",
+        "134.72",
+        "136.27",
+        "136.27",
+        "-4.30%",
+        "3,033,617"
+      ],
+      "close_usd": 136.27,
+      "yahoo_close_usd": 136.27,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "MAGS",
+      "url": "https://stockanalysis.com/etf/mags/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "68.30",
+        "69.08",
+        "67.84",
+        "68.48",
+        "68.48",
+        "-1.75%",
+        "8,333,119"
+      ],
+      "close_usd": 68.48,
+      "yahoo_close_usd": 68.48,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "VGT",
+      "url": "https://stockanalysis.com/etf/vgt/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "118.45",
+        "118.63",
+        "115.28",
+        "116.96",
+        "116.96",
+        "-4.32%",
+        "8,557,267"
+      ],
+      "close_usd": 116.96,
+      "yahoo_close_usd": 116.96,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "SOXX",
+      "url": "https://stockanalysis.com/etf/soxx/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "479.38",
+        "483.39",
+        "460.10",
+        "471.51",
+        "471.51",
+        "-8.24%",
+        "18,783,626"
+      ],
+      "close_usd": 471.51,
+      "yahoo_close_usd": 471.51,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "DRAM",
+      "url": "https://stockanalysis.com/etf/dram/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "48.45",
+        "49.31",
+        "46.96",
+        "48.01",
+        "48.01",
+        "-7.23%",
+        "46,004,630"
+      ],
+      "close_usd": 48.01,
+      "yahoo_close_usd": 48.01,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "SGOV",
+      "url": "https://stockanalysis.com/etf/sgov/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "100.74",
+        "100.74",
+        "100.73",
+        "100.73",
+        "100.73",
+        "0.02%",
+        "37,253,843"
+      ],
+      "close_usd": 100.73,
+      "yahoo_close_usd": 100.73,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "RRX",
+      "url": "https://stockanalysis.com/stocks/rrx/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "157.11",
+        "160.24",
+        "153.31",
+        "157.24",
+        "157.24",
+        "-3.90%",
+        "1,312,918"
+      ],
+      "close_usd": 157.24,
+      "yahoo_close_usd": 157.24,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "CGNX",
+      "url": "https://stockanalysis.com/stocks/cgnx/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "56.43",
+        "57.10",
+        "54.95",
+        "56.15",
+        "56.15",
+        "-4.78%",
+        "1,523,269"
+      ],
+      "close_usd": 56.15,
+      "yahoo_close_usd": 56.15,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "ATS",
+      "url": "https://stockanalysis.com/stocks/ats/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "18.81",
+        "19.05",
+        "18.15",
+        "18.39",
+        "18.39",
+        "-3.67%",
+        "213,948"
+      ],
+      "close_usd": 18.39,
+      "yahoo_close_usd": 18.39,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "MRNA",
+      "url": "https://stockanalysis.com/stocks/mrna/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "220.53",
+        "227.81",
+        "217.22",
+        "221.72",
+        "221.72",
+        "-0.47%",
+        "9,025,344"
+      ],
+      "close_usd": 221.72,
+      "yahoo_close_usd": 221.72,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "BRK-B",
+      "url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "549.88",
+        "550.47",
+        "542.32",
+        "542.49",
+        "542.49",
+        "0.10%",
+        "4,487,039"
+      ],
+      "close_usd": 542.49,
+      "yahoo_close_usd": 542.49,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00",
+      "high_check": {
+        "yahoo_high": 550.3,
+        "date": "2026-10-30",
+        "second_source_high": 550.47,
+        "entire52week_secondary_scan": false
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "url": "https://stockanalysis.com/stocks/googl/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "281.12",
+        "283.14",
+        "276.92",
+        "279.84",
+        "279.84",
+        "-1.40%",
+        "65,608,512"
+      ],
+      "close_usd": 279.84,
+      "yahoo_close_usd": 279.84,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "NVDA",
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "208.94",
+        "209.06",
+        "200.92",
+        "204.64",
+        "204.64",
+        "-4.22%",
+        "168,235,920"
+      ],
+      "close_usd": 204.64,
+      "yahoo_close_usd": 204.64,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "SOFI",
+      "url": "https://stockanalysis.com/stocks/sofi/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "17.07",
+        "17.32",
+        "16.44",
+        "16.76",
+        "16.76",
+        "-4.83%",
+        "64,233,378"
+      ],
+      "close_usd": 16.76,
+      "yahoo_close_usd": 16.76,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    },
+    {
+      "symbol": "GOOG",
+      "url": "https://stockanalysis.com/stocks/goog/history/",
+      "method": "web reader public page text; direct HTTP403 retained separately, no login or bypass",
+      "session": "2026-10-30",
+      "row": [
+        "Oct 30, 2026",
+        "279.69",
+        "281.86",
+        "275.35",
+        "278.22",
+        "278.22",
+        "-1.45%",
+        "45,366,667"
+      ],
+      "close_usd": 278.22,
+      "yahoo_close_usd": 278.22,
+      "close_match": true,
+      "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+    }
+  ],
+  "sources": "YahooOHLC and third-party StockAnalysis; common upstream possible; not an official exchange audit",
+  "highs_warning": "QQQM314.11 vs314.12; BRK.B550.30 vs550.47; unverified BRK new high not committed to persistent alert state"
+}

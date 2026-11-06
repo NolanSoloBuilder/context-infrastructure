@@ -1,0 +1,60 @@
+{
+  "new_financing": {
+    "principal_eur": 6000000000.0,
+    "fixed_tranches": [
+      {
+        "principal_eur": 750000000.0,
+        "coupon": 0.037
+      },
+      {
+        "principal_eur": 1250000000.0,
+        "coupon": 0.0405
+      },
+      {
+        "principal_eur": 750000000.0,
+        "coupon": 0.0425
+      },
+      {
+        "principal_eur": 750000000.0,
+        "coupon": 0.045
+      },
+      {
+        "principal_eur": 750000000.0,
+        "coupon": 0.04875
+      },
+      {
+        "principal_eur": 1000000000.0,
+        "coupon": 0.0525
+      }
+    ],
+    "fixed_coupon_annual_eur": 233062500.0,
+    "floating_principal_eur": 750000000.0,
+    "floating_spread": 0.005,
+    "euribor_not_fetched": true,
+    "net_before_other_expenses_eur": 5975507500,
+    "expected_settlement": "2026-11-05",
+    "not_recorded_as_received_cash": true,
+    "specific_AI_earmark": false
+  },
+  "tpu_cycle_illustration": {
+    "status": "HYPOTHETICAL_NOT_COMPANY_GUIDANCE",
+    "units": "USD billions",
+    "annual_hardware_sales": 10,
+    "gross_margin": 0.3,
+    "DIO": 90,
+    "DSO": 45,
+    "DPO": 45,
+    "net_contract_advance_balances": [
+      0,
+      1,
+      2
+    ],
+    "formula": "COGS*(DIO-DPO)/365 + revenue*DSO/365 - net contract advance balance",
+    "results": [
+      2.095890410958904,
+      1.095890410958904,
+      0.09589041095890405
+    ],
+    "caveat": "不宣称这些是Google实际硬件销售、毛利或账期；不能用全公司递延收入代替实际硬件预收现金；不是DCF重算"
+  }
+}

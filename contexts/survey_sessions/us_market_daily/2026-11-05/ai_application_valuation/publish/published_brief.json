@@ -1,0 +1,761 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-05",
+  "market_session": "2026-11-04",
+  "reviewed_at": "2026-11-05T03:05:49.483828+00:00",
+  "summary": "🔎AI落地估值专题已更新：四家公司当前均未达到本次基准估值八折。优先继续核验CRM的资本配置与GEHC的现金转化；NOW、CGNX需要更强增长来支撑现价。FDE已有六家上市样本，但属于交付模式，不是已单列财务的新行业。",
+  "items": [
+    {
+      "title": "四股重估：现价均未给出基准八折",
+      "fact": "11/4常规收盘：NOW108.81、CRM227.11、GEHC85.81、CGNX53.06美元；已逐项核对本次第三方行情与最新财报。",
+      "implication": "SBC、投资浮盈、借债回购和并购资本支出改变了股东真正得到的利润。AI落地业务成立，不等于现价便宜。",
+      "judgment": "条件基准DCF：NOW约83、CRM约184、GEHC约69、CGNX约32美元；对应基准八折约67、147、55、26美元。均为研究条件价，详细精确值和假设见下方。",
+      "counter": "更快增长、利润率提升、更低资金成本或收购兑现会提高价值；宽情景区间表明不确定性高，不能用保守模型断言必跌。",
+      "next": "优先核CRM最新资本桥、GEHC现金转化；NOW看扣SBC每股现金，CGNX看今晚21:30电话会和RealSense条款。本次不改变原提醒阈值。",
+      "sources": [
+        {
+          "title": "NOW Q3 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+        },
+        {
+          "title": "CRM FY27 Q2 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm"
+        },
+        {
+          "title": "GEHC完整Q3 10-Q（IR镜像）",
+          "url": "https://investor.gehealthcare.com/node/12596/html"
+        },
+        {
+          "title": "Cognex 11/4 Q3财报与现金流",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        }
+      ]
+    },
+    {
+      "title": "容易误判的便宜：CRM的13.6倍与GEHC的17.2倍",
+      "fact": "CRM管理层调整EPS含口径差异，保留SBC并剔已知浮盈后，前瞻盈利代理约9.53、现价约23.8倍。GEHC全年调整EPS指引中点5.00、现价约17.2倍。",
+      "implication": "CRM不是简单的低PE软件股；GEHC盈利基准约90美元，而现金流基准约69美元，两法尚未收敛。",
+      "judgment": "CRM与GEHC值得优先继续核验估值修复，但当前均不确认低估。GEHC约72美元仅有盈利法八折，现金法要约55美元；不把两法平均出一个看似确定的买点。",
+      "counter": "持续整合费用可能下降、营运资金会回流、战略投资有价值，因此保守扣减也可能低估；这些需用新现金流与资产证据验证。",
+      "next": "CRM新10-Q、ASR最终分母与收购资金；GEHC库存/合同资产回款、剔退款现金流及2027指引。报价和模型只按本次研究日期有效。",
+      "sources": [
+        {
+          "title": "CRM Q2官方财报及指引",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "title": "Fin完成收购",
+          "url": "https://www.salesforce.com/news/press-releases/2026/09/10/salesforce-completes-acquisition-of-fin/"
+        },
+        {
+          "title": "10/20拟收购Braze",
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+        },
+        {
+          "title": "GEHC Q3财报与全年指引",
+          "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "GEHC完整Q3 10-Q（IR镜像）",
+          "url": "https://investor.gehealthcare.com/node/12596/html"
+        }
+      ]
+    },
+    {
+      "title": "FDE已有上市公司：交付模式决定利润归谁",
+      "fact": "已核PLTR、NOW、CRM、ACN、EPAM、GLOB的官方FDE岗位、产品或合作证据；本次所读财报均未单列FDE收入/利润。",
+      "implication": "前三家更多以工程交付带动自有平台，后三家更多跨平台工程实施。客户愿意付费不等于服务商能获得软件利润率。",
+      "judgment": "先看工程师离场后谁仍持续收费：平台复用、续费和每股现金改善，比FDE招聘数量更有投资意义。FDE名单是研究候选，不是低估名单。",
+      "counter": "EPAM Q2约78%收入仍按工时；GLOB AI ARR增长与公司毛利率下降同时存在；NOW专业服务当季成本高于收入。",
+      "next": "核收入/员工、实施周期、固定价项目毛利、续费及ARR转收入；EPAM今晚北京21:00进入Q3发布/电话会窗口，本次不提前引用结果。",
+      "sources": [
+        {
+          "title": "PLTR官方FDSE职责",
+          "url": "https://jobs.lever.co/palantir/7ea66860-ae93-4139-9388-b7284cb33f37"
+        },
+        {
+          "title": "NOW与ACN联合FDE公告",
+          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Accenture-launch-forward-deployed-engineering-program-to-scale-agentic-AI-across-the-enterprise/default.aspx"
+        },
+        {
+          "title": "CRM官方FDE伙伴网络",
+          "url": "https://www.salesforce.com/news/stories/salesforce-launches-forward-deployed-engineer-partner-network-announcement/"
+        },
+        {
+          "title": "EPAM合同收费结构10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000046/epam-20260630.htm"
+        },
+        {
+          "title": "GLOB Q2官方财报",
+          "url": "https://investors.globant.com/2026-08-13-Globant-Reports-2026-Second-Quarter-Financial-Results"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "估值总览与口径｜合理价值、基准折扣、保守压力值分开",
+      "paragraphs": [
+        "同日常规收盘 → 基准现金流价值 → 基准价值八折研究价（美元）：NOW108.81 → 83.30 → 66.64；CRM227.11 → 183.93 → 147.14；GEHC85.81 → 68.68 → 54.94；CGNX53.06 → 31.98 → 25.58。当前四家均没有达到本模型基准价值八折，不能认定已低估。",
+        "两条优先研究线：GEHC在盈利法下接近合理，但需证实利润能变为现金；CRM现有现金生成较强，但需要剔浮盈、核借债回购与并购后的每股价值。NOW商业增长更快，当前需更高现金增长兑现；CGNX现价接近本次乐观现金情景。这个顺序是核验价值与风险的顺序，不是收益预测或仓位分配。",
+        "‘20%安全边际’在本专题只定义为研究估值×0.8，不是最大亏损保证，也不是对52周高点回撤20%。若要求保守情景仍打八折，条件价分别NOW30.91、CRM78.93、GEHC27.99、CGNX16.25美元；这些严苛压力结果不等于会跌到或应该无限等待。任何基本面变坏都会改变估值本身。",
+        "主要现金流模型把SBC视为股东成本，只扣一次；以现金净利息代理还原经营现金流后再处理净债务，不把含债务利息的现金流与全额债务简单双扣。模型保留了现金利息、税项和收购数据缺口，不能把小数精度误认为估值精度。折现率、终值增速及PE均为明示研究假设，尚未以完整同业/历史分位校准。",
+        "本次完成四家条件估值及FDE业务梳理；不把新公司自动加入现有17项行情清单，15%/25%提醒仍只适用于QQQM、VOO、BRK.B。本专题研究价格不会自动触发交易或替换提醒合同。"
+      ],
+      "sources": [
+        {
+          "title": "NOW Q3 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+        },
+        {
+          "title": "CRM FY27 Q2 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm"
+        },
+        {
+          "title": "GEHC完整Q3 10-Q（IR镜像）",
+          "url": "https://investor.gehealthcare.com/node/12596/html"
+        },
+        {
+          "title": "Cognex 11/4 Q3财报与现金流",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        }
+      ]
+    },
+    {
+      "title": "四股估值①｜NOW：业务增长快，扣除SBC后价格要求仍高",
+      "paragraphs": [
+        "营业范围：IT服务、客户服务、员工服务与跨部门流程订阅，AI智能体嵌入已有流程。2026-11-04常规收盘108.81美元，Yahoo与第二来源一致；股价、EPS和10.43011亿Q3稀释股统一为2025年12月一拆五之后口径。",
+        "最新2026Q3截至9/30、10/28发布：总收入41.06亿美元，GAAP营业利润3.85亿（按未四舍五入收入复算约9.38%），调整营业利润13.38亿（约32.59%）。差额包括SBC6.33亿、并购摊销1.98亿、并购相关0.35亿、遣散0.87亿；GAAP净利2.77亿、EPS0.27。不能用调整利润率直接推导股东能拿走同额现金。",
+        "前三季标准FCF＝CFO30.96亿−现金capex3.46亿＝27.50亿；公司展示的31.21亿FCF还加回3.71亿并购现金成本。过去12个月按全年＋本年累计−去年同期复算：CFO53.34亿、capex5.84亿，标准FCF47.50亿；减SBC23.23亿后24.27亿。报告FCF收益率约4.19%，扣SBC后的股东现金代理约2.14%，这比只看非GAAP利润更能暴露定价要求。",
+        "DCF资本桥：TTM已付利息0.50亿、利息收入3.32亿，用23.5%假设税率剔除净投资利息，独立经营现金流锚22.1127亿美元。基准再加回50%的税后并购现金成本，锚23.6542亿；保守不加回，乐观全部加回，锚分别22.1127/25.1957亿。现金及有价证券69.61亿、有息本金约76亿，净债务约6.39亿。战略投资账面20.50亿不计基准；若可按全部账面实现，价格敏感性约+1.97美元/股，不是认定它们毫无价值。",
+        "十年DCF假设：前五年现金流增速12%/20%/24%，后五年6%/10%/12%，折现率11.5%/10%/9%，永续2.5%/3%/3.5%；首年＝上述起始现金流×(1+增速)，第10年计算终值。经营价值减净债务，再除稀释股，保守/基准/乐观约38.64/83.30/141.66美元。终值占企业价值约49%/61%/70%，均不是官方目标价。利息收入是现金利息代理、精确税效及租赁拆分未完全核定，结果存在模型误差。",
+        "判断：108.81高于基准，未确认低估。基准价值八折66.64美元，严格保守八折30.91美元；后者是严苛压力条件，不预测必然出现。维持基准其他假设，现价需要前五年扣SBC后的经营现金流年增约26.97%，高于基准20%，不是要求收入本身必须以同速增长。若更快增长、利润率提升或更低资本成本成立，现价仍可被支持。",
+        "证伪与下次条件：AI ACV目标/使用量不等于收入；检查有机订阅增长、续费、扣SBC后每股现金、并购整合费是否下降。若现金流增长持续低于保守12%、SBC占比不降或GAAP成本恶化，原折扣价要重估；若明显经营杠杆兑现，则上调模型而非机械等待旧价。"
+      ],
+      "sources": [
+        {
+          "title": "NOW Q3 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+        },
+        {
+          "title": "NOW 2025 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm"
+        },
+        {
+          "title": "NOW Q3官方财报",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "NOW第二行情",
+          "url": "https://stockanalysis.com/stocks/now/history/"
+        }
+      ]
+    },
+    {
+      "title": "四股估值②｜CRM：表面13.6倍PE，剔浮盈并保留SBC后约23.8倍",
+      "paragraphs": [
+        "营业范围：销售/客服CRM、营销、电商、Slack和数据整合，Agentforce在这些流程中执行任务。11/4常规收盘227.11美元，Yahoo与第二来源一致。最新完整财务为FY2027Q2截至7/31、8/26发布；截至10/31季度完整财报本次尚未取得，不能把7月底余额称为今日资产负债表。",
+        "Q2收入113.45亿美元，包含Informatica约4.56亿；不能把全部总增长称为同口径AI增长。GAAP营业利润23.31亿＋SBC9.04亿＋并购摊销5.22亿＋重组/收购1.15亿＝调整营业利润38.72亿。GAAP EPS4.29与调整EPS5.90都包含投资收益影响；上半年投资净收益31.71亿不是Agentforce收入。",
+        "盈利纠偏：管理层FY27（截至2027/1/31）调整EPS指引中点16.69对应13.61倍PE。但从GAAP指引10.23减已知投资浮盈税后额，再加回并购摊销/重组并保留SBC经济成本，得到前瞻正常化代理9.53美元：10.23−31.71亿×76.5%÷8.38亿股＋(2.45+0.42)×76.5%。对应约23.83倍；仍是研究者对展望的修正，不是已实现EPS，整合费持续性和未来利息仍有不确定性。",
+        "TTM现金桥：CFO157.50亿−现金capex5.96亿＝标准FCF151.54亿；减SBC36.65亿与持续融资义务本金6.12亿，得到108.77亿股东现金代理（约5.79%市值收益率，标准FCF约8.07%）。再以现金付息4.01亿、利息收入4.26亿和23.5%税率作现金净利息调整，得108.57875亿近似FCFF；相关融资/租赁债务不再加进净债务重复扣。",
+        "回购与净债务：7/31现金及证券114.03亿、有息本金395亿，历史净债务280.97亿。250亿美元债务融资ASR已经体现在这份债务和初始股份中，不能再扣一次现金。基准分母采用管理层下一季稀释股指引8.27亿（前季实际8.21亿），ASR最终股数仍待核。回购提升EPS不等于经营利润按同比例改善。",
+        "并购要同时记付款和取得价值：Fin 9/10、Contentful 9/1已完成，已披露现金约36亿/15亿。资本桥暂预留合计51亿现金，将净债务代理推至331.97亿；这是模型预留，不是最新已核余额。另单列所取得业务价值25.5/51/76.5亿（成本0.5/1/1.5倍），不把它重复塞进原业务增长。目标现金流不全，购买成本只是敏感性占位，绝非独立估值。若目标价值只计0/25.5/51亿，基准每股约177.76/180.85/183.93。",
+        "其他资本缺口：Loops 11/2完成但价格未核；10/20拟购Braze的56.6亿美元是企业价值，预计FY28完成，不当成已支付现金。新的经营现金、分红、目标现金、购买价分配及其他承诺尚待完整新10-Q。战略投资账面113.24亿未计基准，按账面全加回的机械敏感性约+13.69美元/股，未证明税后可变现价值。",
+        "十年DCF：起始owner FCFF95/104.2356/120亿美元；基准从TTM代理保留4%现金税/营运资金缓冲，乐观起点要求未来兑现。前五年增长3%/7%/10%，后五年2%/4%/6%，折现率11%/10%/9%，永续2%/2.5%/3%。先算经营价值，再扣模型净债务、加上述已购业务价值并除8.27亿股。增长均指扣SBC后的经营现金流，不是收入。",
+        "结果：保守/基准/乐观约98.66/183.93/340.35美元；基准八折147.14美元，严格保守八折78.93美元。当前227.11尚无基准折扣。基准值若另加战略投资全部账面约197.62美元，仍不能消除目前估值与并购核验缺口；把乐观情景当目标价会过度乐观。",
+        "最强正证是客户基础、工作流与存量现金生成能力；反证是Agentforce口径扩展/收购贡献、席位收入被替代、持续并购和更高债务负担。先核ASR最终分母、新10-Q净债务与付费消费回款；若有机增速、每股扣SBC现金流未改善，或额外资本承诺显著增加，条件价必须下修。原业务与新增收购业务价值拆开后再更新，不能只看价格跌幅。"
+      ],
+      "sources": [
+        {
+          "title": "CRM FY27 Q2 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm"
+        },
+        {
+          "title": "CRM FY26 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+        },
+        {
+          "title": "CRM Q2官方财报及指引",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "title": "Fin完成收购",
+          "url": "https://www.salesforce.com/news/press-releases/2026/09/10/salesforce-completes-acquisition-of-fin/"
+        },
+        {
+          "title": "Contentful交易及完成更新",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-contentful/"
+        },
+        {
+          "title": "10/20拟收购Braze",
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+        },
+        {
+          "title": "CRM第二行情",
+          "url": "https://stockanalysis.com/stocks/crm/history/"
+        },
+        {
+          "title": "Loops交易更新",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/"
+        }
+      ]
+    },
+    {
+      "title": "四股估值③｜GEHC：盈利法约90，现金流基准约69，不能平均成便宜",
+      "paragraphs": [
+        "营业范围：MRI/CT、超声、患者监护、影像软件、维护服务与诊断药物。AI能通过设备功能、软件订阅和临床流程产生收费，但公司没有单列AI收入，不能给全部业务纯软件估值。行情为2026-11-04常规收盘85.81美元、+6.38%，Yahoo与第二来源一致；估值不混用盘后。",
+        "最新已公布2026Q3（截至9/30，10/28发布）：收入55.13亿美元、同比+7.2%，有机+6.2%；GAAP EPS1.36、调整EPS1.34。Q3调整EPS+25%，但前三季调整EPS3.46只约+10%；Q3调整EBIT率改善180基点，其中官方桥图约90基点来自关税影响，不能全归功于AI。",
+        "2026管理层调整EPS指引4.95–5.05美元，FCF为16亿美元以上的下限式指引，不能当精确预测。前三季CFO13.65亿−capex3.92亿＝FCF9.73亿；现金关税退款1.62亿、SBC1.16亿。以前年度关税利润收益已从调整EPS扣除，不再把现金退款从EPS重复扣。库存及合同/递延资产前三季合计占用约6.95亿现金。",
+        "盈利倍数法：从5.00指引中点扣持续整合/重组及已知当年关税收益，得到约4.61正常化盈利锚（仍非GAAP）。未来年度EPS假设4.40/5.00/5.40×主观P/E14/18/21＝保守61.60/基准90.00/乐观113.40美元。2027官方指引未公布；基准需盈利较该锚再增长约8.6%。倍数非已核同行均值或历史分位。EPS已扣利息，价格不再减净债务。",
+        "现金流交叉检验：截至Q3的TTM CFO24.15亿−capex5.26亿＝FCF18.89亿；扣现金退款1.62亿和SBC1.52亿后剩15.75亿，按当日市值现金流收益率约4.06%。再回补净融资费用4.37亿×(1−20.5%)，约19.22亿企业现金流锚；这是研究者FCFF代理，现金净利息未完整拆分，存在误差。",
+        "五年DCF假设（均为研究情景）：未来12个月FCFF16.5/20/24亿美元，随后四年增长4%/7%/10%，WACC9.5%/8.5%/8%，永续2%/2.5%/3%。终值＝第5年FCFF×(1+永续增长)/(WACC−永续增长)，逐年折现后减本金净债务73.36亿、少数权益2.51亿、已披露融资租赁0.52亿，再除4.53亿稀释股。结果约35/69/117美元，终值占企业价值71%/77%/81%，对假设敏感。养老金及经营租金已在现金流，不再重复扣负债。",
+        "资本桥：不受限现金28.26亿；借款账面99.73亿，本金101.62亿，模型用本金。Intelerad已完成收购反映在报表；SOFIE拟9.45亿现金交易预计2027上半年完成，主模型既不扣未来付款也不加未披露协同，只付现金不产生价值的压力影响约−2.09美元/股。",
+        "安全边际：盈利基准90打八折为72美元，现金流基准68.68打八折为54.94美元。55–60只能叫基准DCF约13%–20%折扣研究区；72只有盈利法支持，不能说两法都便宜。更严格的保守DCF八折约28美元，仅为压力条件，不是下跌预测。当前85.81尚无现金流确认的20%折扣；维持基准增长/折现假设，要支持现价首年FCFF需约24亿，接近乐观首年水平。",
+        "证伪与更新条件：如果回款改善、剔除退款的FCF持续提升，DCF可能过于保守；如果连续两季有机订单转负、订单收入比低于1，或库存/合同资产继续快于收入增长，应下调估值。AI付费附加率/续费、SOFIE资本桥、2027指引仍待核，不因获批直接提高估值。"
+      ],
+      "sources": [
+        {
+          "title": "GEHC Q3财报与全年指引",
+          "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "GEHC完整Q3 10-Q（IR镜像）",
+          "url": "https://investor.gehealthcare.com/node/12596/html"
+        },
+        {
+          "title": "2025年报业绩公告",
+          "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-fourth-quarter-and-full-year-2025"
+        },
+        {
+          "title": "拟收购SOFIE公告",
+          "url": "https://gehealthcare.gcs-web.com/news-releases/news-release-details/ge-healthcare-acquire-sofie-biosciences-establishing-final-mile"
+        },
+        {
+          "title": "GEHC带时刻第二行情",
+          "url": "https://stockanalysis.com/stocks/gehc/statistics/"
+        }
+      ]
+    },
+    {
+      "title": "四股估值④｜CGNX：53美元已接近乐观现金流情景",
+      "paragraphs": [
+        "营业范围：机器视觉、传感器、工业读码及检测软件，面向制造与物流的识别、定位、质检和自动化。2026-11-04常规收盘53.06美元、当日−8.69%；该收盘在16:30美东财报发布之前。Yahoo与本次重新打开的StockAnalysis历史页收盘一致，早晨第二源53.09的旧快照已被本次读数替代。",
+        "Q3截至10/4：收入3.134亿美元、同比+13%；GAAP EPS0.50、调整EPS0.53。上年税率异常高，GAAP EPS跳升不能当可持续增速。2026全年调整EPS指引1.68–1.72，中点1.70对应收盘约31.21倍；这是管理层展望，不是TTM盈利。Cognex调整EPS保留常规SBC，倍数法不能重复扣股权激励。",
+        "现金流锚：前三季CFO2.20661亿−capex0.06928亿＝FCF2.13733亿美元；减SBC0.34291亿，再减投资收益0.13285亿×80%税后代理，乘4/3得到约2.251亿独立主营股东现金流锚。9个月年化仅用于正常化参照，不是公司全年预测；税率20%是假设，投资收益与现金回款时间仍有误差。常规SBC作为成本扣除后，不再机械追加同等未来稀释。",
+        "十年独立主营DCF：起始正常化现金流2.05/2.25/2.50亿美元；前五年增长6%/10%/15%，后五年4%/5%/8%，折现率11%/10%/9.5%，永续2.5%/3%/3.5%。首年＝起始现金流×(1+前五年增速)，终值按第10年现金流计算并折现。主营现金流不含RealSense未来利润。",
+        "RealSense资本桥单列：10/4现金及投资8.45984亿、无有息债务；拟收购价5亿，另有三年目标现金留任0.565亿及约0.50亿RSU。为避免把收购当无偿损失，另对取得业务设2.5/5/7.5亿价值敏感性（购买价0.5/1/1.5倍），而非声称已完成其独立估值；该目标价值假设尚未扣下述员工激励，未来若独立目标DCF已含这些费用，不能再次扣除。保守一次扣足留任与RSU经济成本；RSU不再同时加股数。交割未确认、目标利润未披露，因此该项高度不确定。",
+        "主营DCF加上述资本桥，除Q3稀释股1.71027亿，得到保守约20.31/基准31.98/乐观53.30美元。终值占主营价值约48%/56%/63%。这组结果比早晨仅按EPS×终值PE的敏感性更谨慎：扣了SBC、保留收购代价，且没有把机器人增长无限外推；此前31.59/45.68/67.53美元不是完成估值或已批准买价，本次专题取代其作为主要研究口径。",
+        "判断：当前53.06不能确认低估，接近乐观DCF；财报后约51美元也仍需要较好长期增长。基准价值八折约25.58美元，严格保守八折约16.25美元；均为模型条件价，不能改写成必然会到或触发即买。下一步看电话会/完整10-Q、RealSense交割与独立利润、扣SBC后现金流；若主营增长长期低于6%或收购兑现弱，原条件价也要下调。",
+        "截至本次SEC近期清单，Q3财报已经发布，完整Q3 10-Q尚未列出；最新完整10-Q仍是Q2。11/5美东08:30电话会对应北京21:30，尚未发生。不得把财报未发布、电话会已听完或目标收入预测当事实。"
+      ],
+      "sources": [
+        {
+          "title": "Cognex 11/4 Q3财报与现金流",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        },
+        {
+          "title": "9/22 RealSense交易条款",
+          "url": "https://investor.cognex.com/news/news-details/2026/Cognex-to-Acquire-RealSense-Expanding-Machine-Vision-Leadership-into-High-Growth-Robotic-Perception-Market/default.aspx"
+        },
+        {
+          "title": "SEC近期申报清单",
+          "url": "https://data.sec.gov/submissions/CIK0000851205.json"
+        },
+        {
+          "title": "CGNX第二行情与时间",
+          "url": "https://stockanalysis.com/stocks/cgnx/history/"
+        }
+      ]
+    },
+    {
+      "title": "FDE上市公司地图｜谁靠软件复用，谁仍靠工程师工时",
+      "paragraphs": [
+        "这里FDE指Forward Deployed Engineering：工程师进入客户场景，把模型接到数据、权限、旧系统和工作流程，完成生产部署与迭代。它首先是交付模式，而非财报已独立可比的新行业。以下六家有官方产品/合作/岗位证据，但本次读取的财报均没有单列FDE收入或利润；招聘不能证明财务规模。",
+        "PLTR（Palantir）｜Foundry/Ontology/AIP连接数据与业务动作，Gotham服务政府、Apollo负责部署。官方FDSE岗位明确数据整合、客户应用与端到端交付；收入来自平台订阅、期限许可、维护及专业服务。是‘自有平台＋FDE’最直接的样本。2026Q3总收入23.134亿美元、美国商业收入9.84亿不是全部FDE/AIP收入；试点成本可能在销售费用，高毛利不证明每个项目赚钱。本次未完成PLTR估值，业务贴合不等于股票便宜。",
+        "NOW（ServiceNow）｜IT、客服、员工等企业流程订阅；5/6与ACN启动联合FDE，含300多项预构建技能/工作流。Q3订阅收入39.88亿、占总收入约97.1%，说明收费主体是平台；但专业服务及其他收入1.18亿、成本1.57亿，实施可能是带动订阅的成本中心。须核AI增购、续约、交付补贴，不能将全部订阅视为AI。",
+        "CRM（Salesforce）｜销售/客服CRM、Data 360、Slack与Agentforce。4/15推出含30家公司的FDE伙伴网络，实施后继续推动生产采用；客户支付软件订阅/消费、实施另依合同。最新Agentforce ARR超15亿，但口径已扩展，不是同口径新增消费或当期收入。要看新收费能否超过旧席位减少与打包折扣。",
+        "ACN（Accenture）｜战略咨询、系统集成、行业转型与托管运营，已推出Microsoft、ServiceNow、Workday的FDE项目，属于跨平台落地。合同含工时、固定价、交易量和奖罚，不把所有固定价都叫结果付费。FY2026收入742亿美元、Q4毛利率32%；最新单列advanced AI收入仍是FY2026Q1旧季度11亿，此后不再单列，不冒充最新AI规模。",
+        "EPAM（EPAM Systems）｜软件工程、数据/云、应用现代化与测试。Q2官方提出建设下一代FDE组织，但该季收入14.1477亿美元中78.03%按工时材料收费，固定价21.59%，许可及其他仅0.38%。这直接反证‘叫FDE就自动变成软件公司’。Q3官方电话会11/5美东08:00/北京21:00，本次仍用已发布Q2；观察单员工收入、项目毛利及按工时比例。",
+        "GLOB（Globant）｜数字产品、设计、营销、ERP/数据与AI工程。官方FDE岗位要求在客户现场交付并沉淀可复用工具（所读岗位专注国防，不外推所有客户）；AI Pods尝试按输出/消费订阅。Q2 Glob.AI ARR5280万美元、环比+61%，同时公司收入6.144亿美元基本持平、毛利率由35.4%降至33.9%。ARR非营业收入，不把ARR除季度收入算占比；需验证续费、真实收入与交付利润。",
+        "研究分组：平台型优先看PLTR、NOW、CRM；跨平台工程型看ACN、EPAM；GLOB看从工时转向输出订阅能否兑现。最重要的证伪问题是：工程师离开后谁继续收费？如果项目越多，人头与云成本同比例上升，或效率提升让客户减少购买工时，FDE可能只是更好的服务生意，并没有软件式经营杠杆。这是业务研究排序，不是股票收益或买入排序。"
+      ],
+      "sources": [
+        {
+          "title": "PLTR官方FDSE职责",
+          "url": "https://jobs.lever.co/palantir/7ea66860-ae93-4139-9388-b7284cb33f37"
+        },
+        {
+          "title": "PLTR最新Q3 SEC附件",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "title": "NOW与ACN联合FDE公告",
+          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Accenture-launch-forward-deployed-engineering-program-to-scale-agentic-AI-across-the-enterprise/default.aspx"
+        },
+        {
+          "title": "CRM官方FDE伙伴网络",
+          "url": "https://www.salesforce.com/news/stories/salesforce-launches-forward-deployed-engineer-partner-network-announcement/"
+        },
+        {
+          "title": "ACN Microsoft FDE",
+          "url": "https://newsroom.accenture.com/news/2026/accenture-launches-microsoft-forward-deployed-engineering-practice-to-help-organizations-scale-ai-across-the-enterprise"
+        },
+        {
+          "title": "ACN年度财报",
+          "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/q4fy26earnings8-kexhibit.htm"
+        },
+        {
+          "title": "EPAM Q2官方转型与财报",
+          "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Second-Quarter-2026/default.aspx"
+        },
+        {
+          "title": "EPAM合同收费结构10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000046/epam-20260630.htm"
+        },
+        {
+          "title": "GLOB官方FDE岗位",
+          "url": "https://career.globant.com/job/ForwardDeployedEngineeringManagerspecializedinDefenseProjects/79206"
+        },
+        {
+          "title": "GLOB Q2官方财报",
+          "url": "https://investors.globant.com/2026-08-13-Globant-Reports-2026-Second-Quarter-Financial-Results"
+        }
+      ]
+    },
+    {
+      "title": "估值报价核验｜11/4常规收盘与盘后分开，美元",
+      "paragraphs": [
+        "四股估值统一使用2026-11-04美国常规收盘，16:00 EST对应北京11/5 05:00：NOW108.81、CRM227.11、GEHC85.81、CGNX53.06美元。本次Yahoo完整日线与分别重新读取的StockAnalysis页面收盘精确到美分一致；GEHC另核Investing。均为第三方，可能共用底层供应商，不冒称交易所独立审计。Yahoo首次本次日线采集11/5 02:48:56 UTC，分钟数据02:52:16 UTC。",
+        "盘后参考与常规分栏口径：NOW Yahoo108.50，11/4 19:57:31 EST（北京11/5 08:57:31）；第二源108.50，19:59 EST（北京08:59）。CRM Yahoo226.12，19:57:16 EST（北京08:57:16）；第二源227.68，19:59 EST（北京08:59），存在差异。",
+        "GEHC Yahoo85.75，11/4 19:59:12 EST（北京11/5 08:59:12）；第二源86.40，19:59 EST（北京08:59），存在差异。CGNX Yahoo50.99，19:13:19 EST（北京08:13:19）；第二源50.60，19:56 EST（北京08:56），时点不同，不能说完全一致。两者较自身常规53.06分别约−3.90%和−4.64%。",
+        "上述Yahoo分钟柱均为零成交量延续参考，不声称该时刻有新成交。采集时盘后时段已结束，也不能称这些值是最终盘后成交；四股估值均不用盘后价。11/5美国下一交易日盘前在本次复核时尚未开始。未含券商20:00–04:00夜盘。"
+      ],
+      "sources": [
+        {
+          "title": "NOW Yahoo日线",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=5d&interval=1d"
+        },
+        {
+          "title": "CRM Yahoo日线",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=5d&interval=1d"
+        },
+        {
+          "title": "GEHC Yahoo日线",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=5d&interval=1d"
+        },
+        {
+          "title": "CGNX Yahoo日线",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=5d&interval=1d"
+        },
+        {
+          "title": "NOW第二行情",
+          "url": "https://stockanalysis.com/stocks/now/history/"
+        },
+        {
+          "title": "CRM第二行情",
+          "url": "https://stockanalysis.com/stocks/crm/history/"
+        },
+        {
+          "title": "GEHC带时刻第二行情",
+          "url": "https://stockanalysis.com/stocks/gehc/statistics/"
+        },
+        {
+          "title": "CGNX第二行情与时间",
+          "url": "https://stockanalysis.com/stocks/cgnx/history/"
+        }
+      ]
+    },
+    {
+      "title": "今日早间研究续存｜Google：价格对应怎样的增长要求",
+      "paragraphs": [
+        "以下保留11/5早间原复核口径，本专题未重新核验这些证券行情；不是新的报价或触发。",
+        "事实：11/4公司研究GOOGL常规Yahoo 288.93美元、+3.18%；第二源289.02。GOOG C类为287.30／287.41美元，分开报价。已取得的Q3 10-Q继续作为模型基线；本次SEC近期列表403，不能推断没有新申报。",
+        "影响：本次推进反向DCF：沿10/30已核资本桥与基准经营假设，令模型值等于288.93美元，需要前五年收入年复合增长约25.22%。这是价格隐含的条件，不是已验证增长预测，也不是当前完整合理价。",
+        "判断：暂缓恢复旧研究买价。增长、云利润率与AI投入回收必须一起验证；营运资金占新增收入比例从2%升至5%／10%时，所需增长约25.42%／25.77%，仍须另建TPU库存、应收与付款模型。",
+        "反证：更高利润率、更低资本成本或更快投资回收可以支持现价；反向模型对这些假设敏感。软件式低营运资金比例可能低估硬件扩张压力，不能靠该敏感性确认风险有限。",
+        "下次：核60亿欧元债券拟11/5交割的后续文件、TPU交付回款与2027投入。当前仍是美东11/4晚间，不宣称融资已到账；GOOGL与ETF已有公司敞口的叠加需合并看集中度，未核实时权重。"
+      ],
+      "sources": [
+        {
+          "title": "已核Q3 10-Q；本次原址访问受限",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+        },
+        {
+          "title": "此前已核融资定价文件",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526443857/d134038dfwp.htm"
+        },
+        {
+          "title": "GOOGL第二行情",
+          "url": "https://stockanalysis.com/stocks/googl/history/"
+        },
+        {
+          "title": "GOOG第二行情",
+          "url": "https://stockanalysis.com/stocks/goog/history/"
+        }
+      ]
+    },
+    {
+      "title": "今日早间研究续存｜QQQM反弹，半导体仍弱；提醒数据待定",
+      "paragraphs": [
+        "以下保留11/5早间原复核口径，本专题未重新核验这些证券行情；不是新的报价或触发。",
+        "事实：11/4统一Yahoo日线：标普500+1.58%，纳斯达克综合+1.44%，纳斯达克100+0.91%；QQQM 284.92美元、+0.95%。11行业8涨3跌，SMH另跌2.75%，SOXX跌3.14%。",
+        "影响：QQQM仍低于MA50约4.37%，高于MA200约1.68%，当日量约前20日均量1.51倍（单源）。大盘上涨与芯片下跌并存，广度改善尚不能证明科技链同步修复。",
+        "判断：后续按时间分批可继续研究，等待11/6就业结果，暂不加快或叠加多个科技ETF。QQQM统一口径参考回撤9.29%，尚不在13%接近区；因收盘源差异，本次不推进正式提醒状态。",
+        "反证：若盈利、回款和广度持续改善，等待会有机会成本；均线不保证支撑，15%／25%观察条件也不是保证买点。",
+        "下次：⚠️先核收盘定义：QQQM Yahoo284.92／第二源284.84，VOO704.78／704.74，BRK.B579.09／579.92美元。差异原因未定，保留三项11/3最后有效记录；盘后报价不更新收盘提醒。"
+      ],
+      "sources": [
+        {
+          "title": "QQQM第二行情",
+          "url": "https://stockanalysis.com/etf/qqqm/history/"
+        },
+        {
+          "title": "统一历史日线",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d"
+        },
+        {
+          "title": "VOO第二行情",
+          "url": "https://stockanalysis.com/etf/voo/history/"
+        },
+        {
+          "title": "BRK.B第二行情",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题①｜先证伪：应用加速，不等于基础设施让位",
+      "paragraphs": [
+        "研究截至北京时间2026-11-05。判断：应用落地值得提高研究优先级，但“基础设施竞争加剧→利润转移到应用公司→应用股回报更好”不是已被证明的完整链条。本专题是业务与商业化初筛，不是已低估名单；没有新增持仓、价格提醒或正式观察标的。",
+        "支持证据：模型能力变得更便宜，有助于扩大可落地任务。Stanford AI Index 2025记录的是2022年11月至2024年10月、达到GPT-3.5级别表现的推理成本下降逾280倍。它是历史能力基准，不能当作2026年所有前沿模型或企业完整部署成本的降幅。",
+        "第一项反证：基础设施并非同时进入价格战。GPU、内存、网络、电力、云服务和基础模型的瓶颈不同。微软10月28日管理层仍称需求超过可用供给，并称当季token定价高于此前预期。这是公司自身披露，不能证明整个行业都供不应求，但足以反对“infra已普遍过剩”的强判断。推理变便宜也可能带来更高调用量，而不是算力收入必然下降。",
+        "第二项反证：利润可能继续被现有平台获得。微软在同一套客户关系中销售云、数据平台、Copilot和企业软件，结合席位与使用量计费。基础设施商和应用商经常是同一家公司；独立应用的分销、采购入口和价格能力可能被平台捆绑挤压。",
+        "第三项反证：客户效率提升不等于软件商利润提高。QJE于2025年发表的5172名客服员工研究发现，每小时解决问题数平均提高15%，不同员工差异很大。这支持特定任务的经济价值，却不证明供应商能拿走这15%；节省可能主要留在客户，也可能抵不过实施、人工复核和模型调用成本。",
+        "更可检验的投资命题：优先找已经掌握客户、业务流程、合规数据与执行权限，能够对实际结果收费，并把收入转成每股现金流的企业。仅包装第三方模型的产品门槛可能随模型进步继续降低。即使每股盈利翻倍，若买入后的估值倍数减半，股价仍可能没有增长（暂不计分红）。"
+      ],
+      "sources": [
+        {
+          "title": "Stanford AI Index 2025：历史推理成本口径",
+          "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report"
+        },
+        {
+          "title": "Microsoft：2026-10-28 FY2027 Q1官方电话会",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+        },
+        {
+          "title": "QJE 2025：Generative AI at Work（5172名客服员工）",
+          "url": "https://doi.org/10.1093/QJE/QJAE044"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题②｜企业流程与决策：NOW、CRM、PLTR实际卖什么",
+      "paragraphs": [
+        "研究优先级第一：企业业务流程、客户服务与数据驱动决策。选择理由是已有采购预算、可衡量的处理时长与人力成本，以及可以先从有限权限的任务开始部署。需要分清辅助员工、独立执行任务和客户实际付费，不能把演示或调用量当盈利。",
+        "ServiceNow（NOW）｜主营IT服务管理、员工服务、客户服务及跨部门流程软件。AI可做工单分类、摘要、问题处理和流程执行；收入主要来自企业订阅，商业优势是既有工作流和客户关系。2026 Q3订阅收入39.88亿美元，同比增长21%；管理层17亿美元AI ACV是全年目标，不是当季确认收入。",
+        "NOW最强反证｜同季GAAP订阅毛利率从80%降至73.5%，GAAP经营利润从5.72亿美元降至3.85亿美元。并购摊销、SBC等口径影响明显，不能把下降全部归因于AI推理成本。下一核查：剔除并购影响的增长、AI续约与增购，以及扣除稀释后的每股现金流。成熟销售渠道不等于当前价格便宜。",
+        "Salesforce（CRM）｜主营销售CRM、客服、营销、电商、Slack协作及数据整合。Agentforce把模型接入客户信息和业务动作，收费包括使用量与用户许可。最新已公布FY2027 Q2（截至2026-07-31）Agentforce ARR超过15亿美元，但当季定义扩展到Slackbot与Headless 360；ARR是年化经常性合同指标，不是GAAP当期收入。公司总收入增长还包含Informatica并购贡献。",
+        "CRM最强反证｜新增AI消费可能被传统席位减少、打包折扣或实施成本抵消。下一核查：同口径有机增长、付费消费及续约、客户总账单、并购后的现金流与资本配置，不能只看ARR同比百分比。",
+        "Palantir（PLTR）｜Foundry连接企业数据、业务对象和权限，AIP把模型嵌入分析及执行工作流，Gotham服务政府等场景。公司2026 Q3美国商业收入9.84亿美元，同比增长148%，说明商业业务确实快速扩张；这不是单独AIP收入，也不能把全部增量归因于生成式AI。下一核查：可持续获客与续约、项目交付成本、政府与商业结构、SBC及当前价格隐含增长。作为跨行业应用平台参照，尚未完成低估估值。"
+      ],
+      "sources": [
+        {
+          "title": "ServiceNow：2026 Q3财报与GAAP对照",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Salesforce：FY2027 Q2财报及Agentforce ARR定义",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "title": "Salesforce Agentforce：官方计费方式",
+          "url": "https://www.salesforce.com/agentforce/pricing/"
+        },
+        {
+          "title": "Palantir：2026 Q3 Business Update",
+          "url": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf"
+        },
+        {
+          "title": "Palantir：Foundry／AIP等平台的功能定位",
+          "url": "https://www.palantir.com/docs/foundry/architecture-center/platforms"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题③｜医疗：先看GEHC的收费路径，再看TEM的数据业务",
+      "paragraphs": [
+        "研究优先级第二：医疗影像、临床工作流和医疗数据。先寻找能减少医生操作、提升设备使用率、帮助药企研究且有明确付款方的产品。获监管许可、医院采购、改善临床结果和股东盈利是四件不同的事；医疗行业受益不等于全部医疗股票都受益。",
+        "GE HealthCare（GEHC）｜经营MRI、CT、超声、患者监护、影像软件和药物诊断等，向医院销售设备、服务与软件。2026 Q3收入55.13亿美元，同比增长7.2%。11月3日发布的Vscan Air肺部引导和AutoAS功能通过Innovation Packages等软件订阅／许可路径提供，公告预计11月底向相关已有付费客户更新；不能提前说这些新增功能已经全部交付或形成收入。",
+        "GEHC判断与反证｜已有设备装机与临床渠道，收费路径较可辨识，适合作为医疗落地的优先研究对象。但公司未单列AI收入：AI可能只是维持设备竞争力，并未创造额外定价权。下一核查是软件付费附加率、续费、设备订单与医院实际收益；同时检查医院资本预算和公司债务。Q3总收入不能全部算作AI收入。",
+        "Tempus AI（TEM）｜主营肿瘤等分子诊断、向药企提供临床／分子数据和应用服务，并开发临床辅助工具。2026 Q3收入4.115亿美元，同比增长23%；Data & Applications收入1.081亿美元，同比增长33%，约占26.3%，其余主要是诊断检测。数据与应用板块本身也不等于纯AI收入。",
+        "TEM判断与反证｜临床数据与药企客户关系具有研究价值，但不能按纯软件给整家公司估值。Q3 GAAP净亏损1490万美元包含4280万美元证券未实现收益，不能把净亏损缩小全部解读为经营改善。下一核查：数据合同续约和回款、诊断毛利、经营现金流、SBC与实际股数。商业化证据在增加，估值仍待完成。",
+        "边界提醒｜Intuitive Surgical（ISRG）可作为成熟医疗机器人商业模式的参照，但da Vinci由医生操作，不是无人自主手术AI。Moderna（MRNA）首先是药物研发与商业化公司；使用AI辅助研发不会自动消除临床、审批、销量与现金消耗的不确定性，不宜仅凭“AI医疗”标签提升判断。"
+      ],
+      "sources": [
+        {
+          "title": "GE HealthCare：2026 Q3财报",
+          "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "GE HealthCare：2026-11-03 Vscan Air新增AI功能及交付安排",
+          "url": "https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments"
+        },
+        {
+          "title": "Tempus：2026 Q3业务拆分与损益",
+          "url": "https://investors.tempus.com/news/news-details/2026/Tempus-Reports-Third-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "title": "Intuitive：da Vinci由医生控制的工作方式",
+          "url": "https://www.davincisurgery.com/en-us/how-davinci-works"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题④｜工业：CGNX与机器视觉，比泛机器人叙事更可核查",
+      "paragraphs": [
+        "研究优先级第三：工业机器视觉、质检与机器人感知。工厂购买的是更高良率、更低报废和更快吞吐，而不是模型参数。与纯软件相比，现场集成、可靠性验证、设备改造及客户资本开支会影响落地速度。",
+        "Cognex（CGNX）｜销售机器视觉系统、传感器、工业读码和检测软件，用于工厂与物流的定位、识别、缺陷检测和自动化。11月4日披露的2026 Q3（截至10月4日）收入3.134亿美元，同比增长13%。这证明现有业务增长，不证明所有收入来自生成式AI，也不等于人形机器人已贡献规模收入。",
+        "公司9月22日公告拟以5亿美元现金收购RealSense，并预计第四季度完成；本专题未将交易当作已经交割，公告中的目标公司2026收入预期也不是已实现收入。下一核查：交割、保留人才与股权激励成本、收购后的净现金及订单兑现。CGNX值得跟踪真实工业回报，当前是否便宜仍应沿用财报后的估值与现金流核验，不能只依据股价回落。"
+      ],
+      "sources": [
+        {
+          "title": "Cognex：2026-11-04发布的Q3公司财报",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        },
+        {
+          "title": "Cognex：2026-09-22拟收购RealSense公告",
+          "url": "https://investor.cognex.com/news/news-details/2026/Cognex-to-Acquire-RealSense-Expanding-Machine-Vision-Leadership-into-High-Growth-Robotic-Perception-Market/default.aspx"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题⑤｜行业ETF：IGV、XSW、IHI、BOTZ，以及AIQ的偏差",
+      "paragraphs": [
+        "基金资料于2026-11-05核验；下列持仓权重采用发行人可读的2026-11-03披露，费率为年度费用率。各ETF都不是“纯模型应用基金”，持仓分散也不能消除行业回撤。名单是投资工具比较，不是配置方案。",
+        "IGV｜iShares Expanded Tech-Software Sector ETF，年度费用率0.38%。跟踪北美扩展科技软件指数，覆盖软件及部分互动媒体与服务。11月3日MSFT 8.95%、PANW 8.82%、PLTR 8.74%、CRWD 8.49%，前四约35%；另有CRM和NOW。适合研究软件、企业平台与安全行业的整体机会；其中既有应用，也有云平台和安全，不能全算AI应用收入。",
+        "XSW｜State Street SPDR S&P Software & Services ETF，年度费用率0.35%。采用修正等权的软件与服务指数，覆盖不同规模企业；当日应用软件约67.49%，系统软件约21.82%，IT咨询约8.69%，持仓例子包括Braze、PTC和Accenture。较少依赖单一巨头，同时承担更多中小软件公司的竞争、亏损和融资风险；模型进步也可能削弱部分软件产品。",
+        "IHI｜iShares U.S. Medical Devices ETF，年度费用率0.37%。覆盖美国医疗设备制造和分销企业；11月3日ABT 17.94%、ISRG 14.75%、MDT 11.47%、GEHC 4.65%。适合表达医疗设备长期发展与部分数字化升级，前三合计约44.16%，并不低集中，也不等同于医疗AI或创新药基金。",
+        "BOTZ｜Global X Robotics & Artificial Intelligence ETF，年度费用率0.68%。覆盖全球机器人、自动化及相关AI；11月3日ISRG 10.14%、FANUC 8.45%、Keyence 8.25%、ABB 7.93%、NVDA 7.88%，CGNX约2.69%。适合表达实体自动化趋势；同时包含芯片和传统工业设备，受资本开支周期与海外市场影响，并非单独押注大模型应用。",
+        "AIQ｜Global X Artificial Intelligence & Technology ETF，年度费用率0.68%。覆盖AI开发、软件、平台、半导体及硬件；11月3日持有PLTR、MSFT、AMZN、ORCL、NVDA等。若研究目的就是降低对infra的依赖，它并不精确：换成带AI名称的基金，仍可能保留不少相同的上游与巨头敞口。",
+        "工具选择判断｜表达企业应用时先比较IGV与XSW；表达医疗设备升级时研究IHI；表达实体自动化时研究BOTZ。选择前应穿透现有宽基和科技基金的重叠；本次没有计算精确组合重叠，也没有完成各基金当前估值、风险区间和买入价格比较。"
+      ],
+      "sources": [
+        {
+          "title": "IGV：发行人费率、策略与持仓入口",
+          "url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf"
+        },
+        {
+          "title": "XSW：发行人费率、修正等权策略与持仓",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-software-services-etf-xsw"
+        },
+        {
+          "title": "IHI：发行人费率、策略与持仓入口",
+          "url": "https://www.ishares.com/us/products/239516/ishares-us-medical-devices-etf"
+        },
+        {
+          "title": "BOTZ：发行人机器人与自动化策略",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "AIQ：发行人全产业链策略与持仓",
+          "url": "https://www.globalxetfs.com/funds/aiq"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题⑥｜未来如何推翻判断：研究门槛，不是交易阈值",
+      "paragraphs": [
+        "提出未来3—4个财报季度的研究检验窗口，属于研究方法建议，不改变任何既有价格提醒或交易规则。先看NOW／CRM的企业付费，GEHC的临床收费，CGNX的工业订单；PLTR和TEM用于对比更快增长能否转成可持续的每股现金流。研究优先级不等于仓位或收益排序。",
+        "若试点和调用量增加，而同口径付费续约、有机增长与客户总账单不增加，应下调“应用商有定价权”的判断。若增长主要来自并购、ARR定义扩大或打包重分类，也不能算原命题被验证。",
+        "若新增AI收入被模型调用、人工复核、现场实施、折扣及SBC稀释抵消，应下调“应用商盈利改善”的判断。对医疗还要查实际交付与付款，对工业要查验收、回款和收购整合。",
+        "若基础设施价格／利用率／投资回报继续强劲，说明应用扩张与上游增长可以共存，不能继续坚持固定的产业接力顺序。即使应用商业化成功，当前股价若已经要求远超保守情景的增长，也不满足低估条件。当前结论是值得深入研究上述行业，并未确认任何候选已经便宜。"
+      ],
+      "sources": [
+        {
+          "title": "ServiceNow：2026 Q3财报与GAAP对照",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Salesforce：FY2027 Q2财报及Agentforce ARR定义",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "title": "GE HealthCare：2026 Q3财报",
+          "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "Cognex：2026-11-04发布的Q3公司财报",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        },
+        {
+          "title": "Microsoft：2026-10-28 FY2027 Q1官方电话会",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+        }
+      ]
+    },
+    {
+      "title": "Google：反向DCF假设与尚未完成的核验",
+      "paragraphs": [
+        "基线事实截至9/30：TTM收入4711.01亿美元、EBIT1569.76亿美元；普通股122.94亿股。资本桥含非股权现金债券1747.14亿美元、上市投资903.84亿美元、私募投资1352.30亿美元；有息债务1261.18亿美元、融资租赁37.05亿美元、优先权益192.50亿美元及少数权益代理69亿美元。沿10/30模型保留，不冒充11/4重新核定资产负债。",
+        "其余固定：前5年后增速9%渐降至终值3%，成熟EBIT率36%、税21%、WACC10%、终值ROIC15%；资本开支/收入前5年44%、45%、38%、32%、27%，随后23.5%、21%、19%、18%，末年与终值再投资衔接；折旧比前3年8%、10%、12%，此后12%。经营现金保留300亿美元，上市投资保留70%、私募50%。",
+        "本次只反推前5年增长，未把拟交割融资无依据加入现金、亦未把原旧情景价恢复为有效入场线。已核财报不等于完整重估已完成。需要单独核TPU营运资金和融资后的资本桥，不能无限沿用旧倍数或用距高点跌幅代替安全边际。"
+      ],
+      "sources": [
+        {
+          "title": "模型原始财报",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+        }
+      ]
+    },
+    {
+      "title": "行业：统一日／周／月与相对标普",
+      "paragraphs": [
+        "科技 XLK：日-0.01%／5交易日-7.59%／21交易日-12.62%；月相对标普-10.96个百分点。",
+        "通信服务 XLC：日+3.47%／5交易日+1.76%／21交易日-5.99%；月相对标普-4.33个百分点。",
+        "可选消费 XLY：日+4.26%／5交易日+6.07%／21交易日+9.50%；月相对标普+11.16个百分点。",
+        "必需消费 XLP：日+3.36%／5交易日+5.87%／21交易日+12.40%；月相对标普+14.06个百分点。",
+        "医疗 XLV：日+3.06%／5交易日+5.53%／21交易日+13.51%；月相对标普+15.17个百分点。",
+        "金融 XLF：日+3.51%／5交易日+5.47%／21交易日+9.61%；月相对标普+11.28个百分点。",
+        "工业 XLI：日-1.09%／5交易日+0.58%／21交易日-1.24%；月相对标普+0.43个百分点。",
+        "能源 XLE：日-4.74%／5交易日-7.20%／21交易日-0.36%；月相对标普+1.31个百分点。",
+        "公用事业 XLU：日+0.44%／5交易日+2.64%／21交易日+5.95%；月相对标普+7.62个百分点。",
+        "原材料 XLB：日+2.49%／5交易日+3.93%／21交易日+8.39%；月相对标普+10.05个百分点。",
+        "房地产 XLRE：日+3.32%／5交易日+7.10%／21交易日+9.78%；月相对标普+11.45个百分点。",
+        "半导体 SMH：日-2.75%／5交易日-11.17%／21交易日-20.27%；月相对标普-18.61个百分点。",
+        "优先观察通信服务的盈利兑现、半导体的库存回款和医疗的现金消耗。XLC+3.47%与SMH-2.75%显示AI链内部差异；XLV+3.06%不能直接证明AI医疗已商业化。行业价格不代表资金净流入，单日领涨不构成买点。"
+      ],
+      "sources": [
+        {
+          "title": "统一Yahoo日线口径",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=2y&interval=1d"
+        }
+      ]
+    },
+    {
+      "title": "宏观、交易日与未来一周事件",
+      "paragraphs": [
+        "NYSE日历核11/4及下一11/5为常规交易日。冬令时常规09:30–16:00 EST，对应北京22:30–次日05:00；下一盘前11/5尚未开始。11/4盘后至20:00 EST仍在进行，不含20:00–04:00券商夜盘。",
+        "美国财政部11/4参考曲线2年4.58%、10年4.90%，较11/3分别-3／-5基点；VIX Yahoo16.61、-20.26%为单源日线。利率回落可以缓解估值压力，但不能单凭一天确定利率路径。",
+        "11/4实际发布10月ISM服务业PMI54.5，9月54.9；就业51.4、价格73.0。解释：服务业仍扩张且成本压力未消失，不把分项当作CPI。",
+        "📅11/5 08:30 EST（北京21:30）Q3生产率初值及Cognex电话会；11/6 Moderna电话会08:00 EST（北京21:00），就业数据08:30（21:30）；CPI为11/10 08:30（21:30）。本次未取得更完整的下周科技财报官方排期，未补猜日期。"
+      ],
+      "sources": [
+        {
+          "title": "NYSE交易与休市时段",
+          "url": "https://www.nyse.com/trade/hours-calendars"
+        },
+        {
+          "title": "财政部2026收益率曲线",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+        },
+        {
+          "title": "ISM 2026年10月服务业原文",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/"
+        },
+        {
+          "title": "BLS更新日历",
+          "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+        },
+        {
+          "title": "Moderna官方事件页",
+          "url": "https://investors.modernatx.com/events-presentations"
+        },
+        {
+          "title": "Cognex电话会安排",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        }
+      ]
+    },
+    {
+      "title": "SOXX拆股与其他公司更新",
+      "paragraphs": [
+        "iShares公告：SOXX拆股11/3登记、11/4收盘后生效，11/5起按拆股后基准交易。本次已读页面未列比例，不能猜测。今日11/4常规历史仍按同一旧股单位比较；下一刷新须统一拆股后的价格、历史和均线，机械价格下调不是亏损。",
+        "Moderna常规Yahoo258.38美元、+13.11%；第二源258.48、+13.15%，价格差异保留。临近11/6业绩与现金消耗核查，尚未核实当天涨幅的原始事件原因，不以AI医疗叙事或上涨确认低估。8/19历史异常跳涨仍主导长区间收益/波动，原因核验未完成，不能当预期收益。",
+        "SOFI本次近期申报列表403，未核定是否有新10-Q；继续按银行口径核存款成本、信用、资本、GAAP与调整盈利及稀释，不把存款视为工业公司净现金。RRX拟售AMS仍待范围与对价，原买价暂停。BRK.B高点两源均580.65美元，但常规收盘差0.83，且本次SEC列表失败，不能凭上涨补造新回购或投资披露。",
+        "SGOV未新增官方SEC收益率核验，保持原披露日期；日价格变化不等于含分红总回报。DRAM历史不足一年/200交易日，不补造MA200或完整52周指标。"
+      ],
+      "sources": [
+        {
+          "title": "iShares SOXX拆股公告页",
+          "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf?qt=SOXX"
+        },
+        {
+          "title": "MRNA第二行情",
+          "url": "https://stockanalysis.com/stocks/mrna/history/"
+        },
+        {
+          "title": "Moderna事件页",
+          "url": "https://investors.modernatx.com/events-presentations"
+        },
+        {
+          "title": "SoFi IR",
+          "url": "https://investors.sofi.com/financials/quarterly-results/default.aspx"
+        },
+        {
+          "title": "RRX Q3原文",
+          "url": "https://www.prnewswire.com/news-releases/regal-rexnord-reports-third-quarter-2026-financial-results-302927042.html"
+        }
+      ]
+    },
+    {
+      "title": "Reddit／FiNews：实际读取范围与缺口",
+      "paragraphs": [
+        "实际尝试六社区New／Top及RSS。RSS全为403/429，公开页面部分为旧缓存。打开r/investing题为11/4的日讨论原帖，读到正文，但只有相对发布时间、未取得可读实质评论；不推算北京时间，不称已完成24小时多空共识核验。",
+        "本次没有足够日期及原始证据可列为新增精选，不等于社区没有新信息；未将泛泛日讨论或旧帖子重复记为已报道。FiNews最新可读页为11/3，更新2026-11-03 23:12:49 UTC，尚未取得11/4版本；聚合摘要只作线索，未作为新的财务事实。"
+      ],
+      "sources": [
+        {
+          "title": "实际打开的11/4日讨论",
+          "url": "https://www.reddit.com/r/investing/comments/1xnjh9b/daily_general_discussion_and_advice_thread/"
+        },
+        {
+          "title": "FiNews实际最新可读页",
+          "url": "https://finews.fyi/"
+        }
+      ]
+    },
+    {
+      "title": "三项提醒与全部报价差异、口径缺口",
+      "paragraphs": [
+        "以下行情、指标及两张本地留证图统一取11/4 Yahoo常规序列；来源差异尚未解决，不声称收盘交叉一致。滚动高点按当日及此前364日可见盘中高点，均线用拆股调整收盘、含分红收益另计。已完成33项日线均线复算及180个历史回撤点无未来数据核验。",
+        "QQQM参考：收284.92美元，高314.11（2026-10-06），回撤9.29%；15%／25%观察价266.99／235.58美元。距15%差5.71个百分点，从现价到15%目标价需变动-6.29%。这是待核参考，正式提醒保留11/3。",
+        "VOO参考：收704.78美元，高718.47（2026-10-06），回撤1.91%；15%／25%观察价610.70／538.85美元。距15%差13.09个百分点，从现价到15%目标价需变动-13.35%。这是待核参考，正式提醒保留11/3。",
+        "BRK-B参考：收579.09美元，高580.65（2026-11-04），回撤0.27%；15%／25%观察价493.55／435.49美元。距15%差14.73个百分点，从现价到15%目标价需变动-14.77%。这是待核参考，正式提醒保留11/3。",
+        "GOOG 11/4常规美元：Yahoo 287.30／StockAnalysis 287.41，前者减后者-0.11；读取范围为带日期历史行。",
+        "SOFI 11/4常规美元：Yahoo 17.38／StockAnalysis 17.38，前者减后者+0.00；读取范围为带日期历史行。",
+        "NVDA 11/4常规美元：Yahoo 200.13／StockAnalysis 200.24，前者减后者-0.11；读取范围为带日期历史行。",
+        "SMH 11/4常规美元：Yahoo 504.27／StockAnalysis 504.30，前者减后者-0.03；读取范围为带日期历史行。",
+        "SOXX 11/4常规美元：Yahoo 450.41／StockAnalysis 451.06，前者减后者-0.65；读取范围为带日期历史行。",
+        "VGT 11/4常规美元：Yahoo 115.55／StockAnalysis 115.57，前者减后者-0.02；读取范围为带日期历史行。",
+        "DRAM 11/4常规美元：Yahoo 45.11／StockAnalysis 45.13，前者减后者-0.02；读取范围为带日期历史行。",
+        "SPMO 11/4常规美元：Yahoo 132.03／StockAnalysis 132.00，前者减后者+0.03；读取范围为带日期历史行。",
+        "MAGS 11/4常规美元：Yahoo 70.28／StockAnalysis 70.31，前者减后者-0.03；读取范围为带日期历史行。",
+        "SGOV 11/4常规美元：Yahoo 100.45／StockAnalysis 100.45，前者减后者+0.00；读取范围为带日期历史行。",
+        "MRNA 11/4常规美元：Yahoo 258.38／StockAnalysis 258.48，前者减后者-0.10；读取范围为带日期历史行。",
+        "RRX 11/4常规美元：Yahoo 173.38／StockAnalysis 173.48，前者减后者-0.10；读取范围为带日期历史行。",
+        "ATS 11/4常规美元：Yahoo 17.57／StockAnalysis 17.60，前者减后者-0.03；读取范围为带日期历史行。",
+        "CGNX 11/4常规美元：Yahoo 53.06／StockAnalysis 53.09，前者减后者-0.03；读取范围为带日期历史行。",
+        "QQQM 11/4常规美元：Yahoo 284.92／StockAnalysis 284.84，前者减后者+0.08；读取范围为带日期历史行。",
+        "GOOGL 11/4常规美元：Yahoo 288.93／StockAnalysis 289.02，前者减后者-0.09；读取范围为带日期报价页头。",
+        "VOO 11/4常规美元：Yahoo 704.78／StockAnalysis 704.74，前者减后者+0.04；读取范围为带日期历史行。",
+        "BRK-B 11/4常规美元：Yahoo 579.09／StockAnalysis 579.92，前者减后者-0.83；读取范围为带日期历史行。",
+        "18项扩展时段采集2026-11-04 23:28:21 UTC＝北京11/5 07:28:21＝美东11/4 18:28:21 EST；此时盘后未结束。Yahoo分钟柱零成交量仅延续参考，第二源不同时间并列；下一11/5盘前尚未开始，不把昨日盘前当今天。",
+        "官方行情未成功提供可比收盘；两第三方可能共享上游。日期明确仍不代表同一成交定义；本次不强行解释差异。自动行情仍是Yahoo单源，价格刷新不等于再次跨源核验。"
+      ],
+      "sources": [
+        {
+          "title": "统一Yahoo报价",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d"
+        },
+        {
+          "title": "第二来源QQQM",
+          "url": "https://stockanalysis.com/etf/qqqm/history/"
+        },
+        {
+          "title": "第二来源BRK.B",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ]
+    }
+  ]
+}

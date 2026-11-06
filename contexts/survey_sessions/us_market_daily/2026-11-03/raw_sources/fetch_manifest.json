@@ -1,0 +1,66 @@
+[
+  {
+    "source": "finews_home",
+    "url": "https://finews.fyi/",
+    "http_status": "200",
+    "exit_code": 0,
+    "captured_at_utc": "2026-11-02T23:31:35.905749+00:00",
+    "raw_file": "contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/finews_home.raw"
+  },
+  {
+    "source": "treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "http_status": "200",
+    "exit_code": 0,
+    "captured_at_utc": "2026-11-02T23:31:37.480922+00:00",
+    "raw_file": "contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/treasury.raw"
+  },
+  {
+    "source": "sgov",
+    "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+    "http_status": "200",
+    "exit_code": 0,
+    "captured_at_utc": "2026-11-02T23:31:38.815413+00:00",
+    "raw_file": "contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/sgov.raw"
+  },
+  {
+    "source": "nyse",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "http_status": "000",
+    "exit_code": 28,
+    "captured_at_utc": "2026-11-02T23:32:00.299314+00:00",
+    "raw_file": "contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/nyse.raw"
+  },
+  {
+    "source": "bls_nov",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "http_status": "403",
+    "exit_code": 0,
+    "captured_at_utc": "2026-11-02T23:31:38.978624+00:00",
+    "raw_file": "contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/bls_nov.raw"
+  },
+  {
+    "source": "fed_calendar",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "http_status": "200",
+    "exit_code": 0,
+    "captured_at_utc": "2026-11-02T23:31:38.128041+00:00",
+    "raw_file": "contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/fed_calendar.raw"
+  },
+  {
+    "source": "reddit_investing_new_rss",
+    "url": "https://www.reddit.com/r/investing/new/.rss",
+    "http_status": "403",
+    "exit_code": 0,
+    "captured_at_utc": "2026-11-02T23:31:38.567466+00:00",
+    "raw_file": "contexts/survey_sessions/us_market_daily/2026-11-03/raw_sources/reddit_investing_new_rss.raw"
+  },
+  {
+    "name": "ism_oct",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+    "collected_at_utc": "2026-11-02T23:35:57.879748+00:00",
+    "http_status": "000",
+    "curl_exit": 28,
+    "bytes": 0
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "asof": "2026-11-05",
+  "issue": "3008",
+  "counts": {
+    "低估": 18,
+    "正常": 32,
+    "高估": 0
+  },
+  "classification_changes": [
+    {
+      "name": "中证500",
+      "previous": "低估",
+      "current": "正常"
+    }
+  ],
+  "previous_star_range": [
+    4.7,
+    4.8
+  ],
+  "current_star": 4.7,
+  "gap_to_five": 0.3,
+  "threshold_triggered": false,
+  "dividend_supplement": {
+    "asof": "2026-11-04",
+    "dividend_star": 4.0,
+    "image": "3008_dividend.jpg",
+    "excluded_from_main": true
+  }
+}

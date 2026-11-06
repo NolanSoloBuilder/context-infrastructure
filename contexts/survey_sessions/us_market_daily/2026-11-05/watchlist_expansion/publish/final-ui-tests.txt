@@ -1,0 +1,29 @@
+✔ USD price curve uses actual close, optional50/200MA and closing extrema, with real dates (1.107625ms)
+✔ range statistics expose cumulative return vs annual volatility and actual dates (0.243375ms)
+✔ hostile chart metadata never becomes HTML (0.112291ms)
+✔ range changes update cards, statistics and cloned details; overlays and preference survive redraw (135.106292ms)
+✔ keyboard inspection uses exact daily date and USD prices rather than normalized return units (0.978583ms)
+✔ reviewed public brief is dated and requires counterarguments and next checks (2.637875ms)
+✔ brief text is escaped and untrusted source schemes fail closed (0.710875ms)
+✔ missing historical research stays missing rather than using the current brief (0.065917ms)
+✔ judgments lead and supporting research stays inside three collapsed library groups (0.472208ms)
+✔ conclusion grid reports its actual item count for one, two or three decisions (1.639583ms)
+✔ reviewed seventeen-symbol layout keeps ETF9 together and stocks in six industries (21.22825ms)
+✔ numbers preserve absent values and DRAM incomplete history (7.632958ms)
+✔ all source-supplied text, attributes and runtime JSON are escaped (8.301416ms)
+✔ pending quality and failed refresh retain explicit uncertainty (7.422042ms)
+✔ public renderer does not disclose owner position status or personal budget (6.437334ms)
+✔ daily date picker and historical exports use one record per US session (7.620958ms)
+✔ conclusions precede monitoring cards, with the research library after the complete list (6.840125ms)
+✔ card research prices preserve their dated assumptions and do not invent absent values (12.684542ms)
+✔ disabled market identities suppress stale prices and chart data rather than inventing zero metrics (7.737583ms)
+✔ ETF categories retain one ETF root and place daily leveraged tools last (8.147958ms)
+✔ search hides empty ETF categories and their parent without duplicate counts (0.885167ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 246.480208

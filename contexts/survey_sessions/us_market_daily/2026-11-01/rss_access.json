@@ -1,0 +1,50 @@
+[
+  {
+    "subreddit": "investing",
+    "url": "https://www.reddit.com/r/investing/new/.rss",
+    "status": "403",
+    "error": "",
+    "collected_at_utc": "2026-10-31T23:27:35.525841+00:00",
+    "read_scope": "HTTP publicRSS response; no bypass"
+  },
+  {
+    "subreddit": "stocks",
+    "url": "https://www.reddit.com/r/stocks/new/.rss",
+    "status": "429",
+    "error": "",
+    "collected_at_utc": "2026-10-31T23:27:35.292696+00:00",
+    "read_scope": "HTTP publicRSS response; no bypass"
+  },
+  {
+    "subreddit": "SecurityAnalysis",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+    "status": "429",
+    "error": "",
+    "collected_at_utc": "2026-10-31T23:27:35.730552+00:00",
+    "read_scope": "HTTP publicRSS response; no bypass"
+  },
+  {
+    "subreddit": "ValueInvesting",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+    "status": "429",
+    "error": "",
+    "collected_at_utc": "2026-10-31T23:27:36.261832+00:00",
+    "read_scope": "HTTP publicRSS response; no bypass"
+  },
+  {
+    "subreddit": "Bogleheads",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+    "status": "429",
+    "error": "",
+    "collected_at_utc": "2026-10-31T23:27:36.512479+00:00",
+    "read_scope": "HTTP publicRSS response; no bypass"
+  },
+  {
+    "subreddit": "ETFs",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss",
+    "status": "429",
+    "error": "",
+    "collected_at_utc": "2026-10-31T23:27:36.713676+00:00",
+    "read_scope": "HTTP publicRSS response; no bypass"
+  }
+]

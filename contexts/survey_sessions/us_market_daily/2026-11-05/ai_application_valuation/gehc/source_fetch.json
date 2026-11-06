@@ -1,0 +1,74 @@
+[
+  {
+    "id": "q3_release",
+    "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results",
+    "collected_at_utc": "2026-11-05T02:49:14.710992+00:00",
+    "status": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/q3_release.html",
+    "bytes": 520
+  },
+  {
+    "id": "q3_10q_ir",
+    "url": "https://investor.gehealthcare.com/node/12596/html",
+    "collected_at_utc": "2026-11-05T02:49:14.712293+00:00",
+    "status": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/q3_10q_ir.html",
+    "bytes": 402
+  },
+  {
+    "id": "quarterly",
+    "url": "https://investor.gehealthcare.com/financial-information/quarterly-results",
+    "collected_at_utc": "2026-11-05T02:49:14.712499+00:00",
+    "status": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/quarterly.html",
+    "bytes": 430
+  },
+  {
+    "id": "yahoo_daily",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=1y&interval=1d",
+    "collected_at_utc": "2026-11-05T02:49:14.715234+00:00",
+    "status": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/yahoo_daily.json",
+    "bytes": 27491
+  },
+  {
+    "id": "yahoo_extended",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=5d&interval=1m&includePrePost=true",
+    "collected_at_utc": "2026-11-05T02:49:15.203126+00:00",
+    "status": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/yahoo_extended.json",
+    "bytes": 171512
+  },
+  {
+    "id": "stockanalysis",
+    "url": "https://stockanalysis.com/stocks/gehc/statistics/",
+    "collected_at_utc": "2026-11-05T02:49:15.725907+00:00",
+    "status": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/stockanalysis.html",
+    "bytes": 5466
+  },
+  {
+    "id": "investing",
+    "url": "https://www.investing.com/equities/ge-healthcare-holding-llc-historical-data",
+    "collected_at_utc": "2026-11-05T02:49:15.743153+00:00",
+    "status": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/investing.html",
+    "bytes": 3
+  },
+  {
+    "id": "calendar",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "collected_at_utc": "2026-11-05T02:49:15.794328+00:00",
+    "status": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/gehc/raw/calendar.html",
+    "bytes": 134492
+  }
+]

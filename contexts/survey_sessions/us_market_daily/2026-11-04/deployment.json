@@ -1,0 +1,46 @@
+{
+  "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+  "source": {
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "checkout_path": "/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/us_market_site",
+    "commit_sha": "5ddad129b87aaed566289b1e9841349a96cc9e0b",
+    "archive": "/tmp/nolan-market-watch-daily-20261104.tar.gz"
+  },
+  "version": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_8082104dd1f48191943de7ae7ee065b9",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 17,
+    "source": {
+      "commit_sha": "5ddad129b87aaed566289b1e9841349a96cc9e0b"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000d8cc82078eefd8570dde775f",
+      "content_hash": "sha256:46ab606c02d71ad771b3acd43ba385e59aa6c28c7e951d87d822d28a8eb0900a",
+      "size_bytes": 3256320,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aea71dfa43881919050f75fba6b646a",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_8082104dd1f48191943de7ae7ee065b9",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-03T23:44:55.346081+00:00"
+  },
+  "audience": "public",
+  "report_date": "2026-11-04",
+  "market_session": "2026-11-03",
+  "privacy": "Only reviewed public brief and issuer facts uploaded. No broker access, private portfolio files or trades.",
+  "automation_id": "automation-3"
+}

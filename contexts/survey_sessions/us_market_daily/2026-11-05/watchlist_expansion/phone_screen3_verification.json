@@ -1,0 +1,289 @@
+{
+  "reviewed_at": "2026-11-05T03:37:53.755748+00:00",
+  "source_scope": "用户手机后续3图识别；仅添加已核代码。MSFT截图名称明确，代码由官方确认。",
+  "securities": [
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "identity_status": "verified_primary_and_yahoo_match",
+      "market": "Nasdaq",
+      "currency": "USD",
+      "business": "Azure云平台、Microsoft 365及企业AI、Windows、搜索广告与游戏；同时参与AI基础设施和应用变现。",
+      "sources": [
+        {
+          "title": "微软FY2027Q1官方财报",
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+          "asof": "2026-10-28",
+          "read_scope": "已打开完整正文；身份、产品、分部变更及GAAP/调整口径"
+        }
+      ],
+      "yahoo": {
+        "requested": "MSFT",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "captured_at": "2026-11-05T03:34:00.455835+00:00",
+        "symbol": "MSFT",
+        "shortName": "Microsoft Corporation",
+        "longName": "Microsoft Corporation",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 511108200,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 555.8,
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254,
+        "split_events": {},
+        "regular_market_time_et": "2026-11-04T16:00:01-05:00"
+      },
+      "limitations": [
+        "Yahoo报价与历史为本次新采集单源，不宣称收盘价已二源交叉核验。",
+        "本次核验身份与业务，尚未完成独立估值或验证安全边际。"
+      ],
+      "history_start_guard": null,
+      "pending_split_event": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "identity_status": "verified_primary_and_yahoo_match",
+      "market": "Nasdaq",
+      "currency": "USD",
+      "business": "开发和销售闪存与先进存储产品，服务企业及消费存储需求；NAND供需周期与产品组合决定盈利。",
+      "sources": [
+        {
+          "title": "闪迪分拆上市公告",
+          "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-celebrates-nasdaq-listing-after-completing-separation",
+          "asof": "2025-02-24",
+          "read_scope": "发行人身份、独立上市与业务"
+        },
+        {
+          "title": "BOX/OCC分拆交易备忘录",
+          "url": "https://boxexchange.com/assets/BOXOnnMemo206984.pdf",
+          "asof": "2025-02-21",
+          "read_scope": "第1页：2/13 SNDKV when-issued起点"
+        },
+        {
+          "title": "闪迪8-K：8:1拆股",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndk-20261029.htm",
+          "asof": "2026-10-29",
+          "read_scope": "身份与Item 8.01；预计11/20拆股后交易"
+        }
+      ],
+      "yahoo": {
+        "requested": "SNDK",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "captured_at": "2026-11-05T03:34:00.125124+00:00",
+        "symbol": "SNDK",
+        "shortName": "Sandisk Corporation",
+        "longName": "Sandisk Corporation",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 1739457000,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 1037.4,
+        "first_bar_unix": 1739457000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 434,
+        "split_events": {},
+        "regular_market_time_et": "2026-11-04T16:00:01-05:00"
+      },
+      "limitations": [
+        "Yahoo报价与历史为本次新采集单源，不宣称收盘价已二源交叉核验。",
+        "本次核验身份与业务，尚未完成独立估值或验证安全边际。"
+      ],
+      "history_start_guard": "2025-02-13",
+      "pending_split_event": {
+        "ratio": "8:1",
+        "announced_date": "2026-10-29",
+        "record_date": "2026-11-09",
+        "expected_effective_trading_date": "2026-11-20",
+        "status": "announced_not_effective_as_of_2026-11-05",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndk-20261029.htm"
+      }
+    },
+    {
+      "symbol": "KORU",
+      "name": "Direxion Daily MSCI South Korea Bull 3X ETF",
+      "identity_status": "verified_primary_and_yahoo_match",
+      "market": "NYSE Arca",
+      "currency": "USD",
+      "business": "通过衍生品等工具追求MSCI Korea 25/50 Index日涨跌的+300%，每日重置；持有多日的累计回报不等于指数累计回报乘以3。",
+      "sources": [
+        {
+          "title": "Direxion官方目标、费用与风险",
+          "url": "https://www.direxion.com/product/daily-msci-south-korea-bull-3x-etf",
+          "asof": "2026-11-05",
+          "read_scope": "已读产品目标、gross/net费用、成立日、交易所、衍生品及每日复利风险；官网行情截至11/3未当11/4报价"
+        }
+      ],
+      "yahoo": {
+        "requested": "KORU",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "captured_at": "2026-11-05T03:34:01.179277+00:00",
+        "symbol": "KORU",
+        "shortName": "Direxion Daily South Korea Bull",
+        "longName": "Direxion Daily South Korea Bull 3X Shares",
+        "instrumentType": "ETF",
+        "currency": "USD",
+        "exchangeName": "PCX",
+        "fullExchangeName": "NYSEArca",
+        "firstTradeDate": 1365600600,
+        "regularMarketTime": 1793826000,
+        "regularMarketPrice": 10.43,
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254,
+        "split_events": {
+          "1739197800": {
+            "date": 1739197800,
+            "numerator": 1.0,
+            "denominator": 10.0,
+            "splitRatio": "1:10"
+          },
+          "1784122200": {
+            "date": 1784122200,
+            "numerator": 20.0,
+            "denominator": 1.0,
+            "splitRatio": "20:1"
+          }
+        },
+        "regular_market_time_et": "2026-11-04T16:00:00-05:00"
+      },
+      "limitations": [
+        "Yahoo报价与历史为本次新采集单源，不宣称收盘价已二源交叉核验。",
+        "本次未重建每日衍生品名义敞口和完整持仓；不把官网指数成分权重冒充基金持仓。"
+      ],
+      "history_start_guard": null,
+      "pending_split_event": null
+    },
+    {
+      "symbol": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X ETF",
+      "identity_status": "verified_primary_and_yahoo_match",
+      "market": "NYSE Arca",
+      "currency": "USD",
+      "business": "通过衍生品等工具追求NYSE Semiconductor Index (ICESEMIT)日涨跌的+300%，每日重置；持有多日的累计回报不等于指数累计回报乘以3。",
+      "sources": [
+        {
+          "title": "Direxion官方目标、费用与风险",
+          "url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs",
+          "asof": "2026-11-05",
+          "read_scope": "已读产品目标、gross/net费用、成立日、交易所、衍生品及每日复利风险；官网行情截至11/3未当11/4报价"
+        }
+      ],
+      "yahoo": {
+        "requested": "SOXL",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "captured_at": "2026-11-05T03:34:00.654526+00:00",
+        "symbol": "SOXL",
+        "shortName": "Direxion Daily Semiconductor Bu",
+        "longName": "Direxion Daily Semiconductor Bull 3X Shares",
+        "instrumentType": "ETF",
+        "currency": "USD",
+        "exchangeName": "PCX",
+        "fullExchangeName": "NYSEArca",
+        "firstTradeDate": 1268317800,
+        "regularMarketTime": 1793826000,
+        "regularMarketPrice": 66.68,
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254,
+        "split_events": {},
+        "regular_market_time_et": "2026-11-04T16:00:00-05:00"
+      },
+      "limitations": [
+        "Yahoo报价与历史为本次新采集单源，不宣称收盘价已二源交叉核验。",
+        "本次未重建每日衍生品名义敞口和完整持仓；不把官网指数成分权重冒充基金持仓。"
+      ],
+      "history_start_guard": null,
+      "pending_split_event": null
+    },
+    {
+      "symbol": "SOXS",
+      "name": "Direxion Daily Semiconductor Bear 3X ETF",
+      "identity_status": "verified_primary_and_yahoo_match",
+      "market": "NYSE Arca",
+      "currency": "USD",
+      "business": "通过衍生品等工具追求NYSE Semiconductor Index (ICESEMIT)日涨跌的-300%，每日重置；持有多日的累计回报不等于指数累计回报乘以-3。",
+      "sources": [
+        {
+          "title": "Direxion官方目标、费用与风险",
+          "url": "https://www.direxion.com/product/daily-semiconductor-bull-bear-3x-etfs",
+          "asof": "2026-11-05",
+          "read_scope": "已读产品目标、gross/net费用、成立日、交易所、衍生品及每日复利风险；官网行情截至11/3未当11/4报价"
+        }
+      ],
+      "yahoo": {
+        "requested": "SOXS",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXS?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "captured_at": "2026-11-05T03:34:00.582944+00:00",
+        "symbol": "SOXS",
+        "shortName": "Direxion Daily Semiconductor Be",
+        "longName": "Direxion Daily Semiconductor Bear 3X Shares",
+        "instrumentType": "ETF",
+        "currency": "USD",
+        "exchangeName": "PCX",
+        "fullExchangeName": "NYSEArca",
+        "firstTradeDate": 1268317800,
+        "regularMarketTime": 1793826000,
+        "regularMarketPrice": 58.34,
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254,
+        "split_events": {
+          "1648474200": {
+            "date": 1648474200,
+            "numerator": 1.0,
+            "denominator": 10.0,
+            "splitRatio": "1:10"
+          },
+          "1713187800": {
+            "date": 1713187800,
+            "numerator": 1.0,
+            "denominator": 10.0,
+            "splitRatio": "1:10"
+          },
+          "1772721000": {
+            "date": 1772721000,
+            "numerator": 1.0,
+            "denominator": 20.0,
+            "splitRatio": "1:20"
+          },
+          "1784122200": {
+            "date": 1784122200,
+            "numerator": 1.0,
+            "denominator": 10.0,
+            "splitRatio": "1:10"
+          }
+        },
+        "regular_market_time_et": "2026-11-04T16:00:00-05:00"
+      },
+      "limitations": [
+        "Yahoo报价与历史为本次新采集单源，不宣称收盘价已二源交叉核验。",
+        "本次未重建每日衍生品名义敞口和完整持仓；不把官网指数成分权重冒充基金持仓。"
+      ],
+      "history_start_guard": null,
+      "pending_split_event": null
+    }
+  ],
+  "excluded": [
+    {
+      "symbol": "XPEV",
+      "reason": "用户排除中概股"
+    },
+    {
+      "symbol": "TCEHY",
+      "reason": "用户排除中概股"
+    }
+  ],
+  "price_basis": "USD；Yahoo regularMarketPrice有11/4美东16:00附近时间戳，单源参考；每日技术指标仍需按日线完成时段生成。",
+  "critical_notes": [
+    "SNDK 8:1拆股预计11/20才生效；不提前调整。",
+    "SNDK历史只能从2025/2/13 when-issued开始，不能拼接旧上市实体。",
+    "KORU/SOXL/SOXS为每日3倍工具，正负方向与目标指数已由官网核定。"
+  ]
+}

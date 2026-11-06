@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>美股观察 · 2026-11-02</title>
+<style>:root{--paper:#fff;--page:#f5f6f8;--ink:#17242d;--muted:#5f6d78;--line:#dfe5e9;--teal:#176f65;--positive:#087258;--negative:#b33e3e;--soft:#f0f5f4;--accent:#a87324}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--page);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-decoration:none;text-underline-offset:4px}
+a:hover{text-decoration:underline}
+button,summary,a{-webkit-tap-highlight-color:transparent}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid #84bcb3;outline-offset:4px}
+.page{max-width:1160px;margin:0 auto;background:var(--paper);min-height:100vh;padding:0 52px}
+.masthead{display:flex;justify-content:space-between;align-items:center;padding:40px 0 27px;border-bottom:2px solid var(--ink);gap:24px}
+.eyebrow{margin:0 0 7px;font-size:12px;color:var(--muted);letter-spacing:2px}
+h1{margin:0;font-size:32px;line-height:1.3;letter-spacing:1px;font-weight:650}
+.edition{text-align:right;display:flex;flex-direction:column;gap:2px}
+.edition time{font-size:22px;font-variant-numeric:tabular-nums;letter-spacing:1px}
+.edition span{font-size:12px;color:var(--muted)}
+.navigation{position:sticky;top:0;z-index:5;display:flex;gap:24px;align-items:center;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);padding:15px 0;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}
+.navigation a{color:var(--muted);font-size:13px;text-decoration:none;transition:color .15s}
+.navigation a:hover,.navigation a[aria-current]{color:var(--ink);font-weight:600}
+.navigation button{margin-left:auto;border:0;background:none;padding:0;color:var(--muted);font-size:12px;white-space:nowrap}
+.introduction{padding:23px 0 20px}
+.introduction p:first-child{color:var(--muted);font-size:13px;margin:0 0 20px}
+.introduction p:not(:first-child){padding:22px 26px;border-left:3px solid var(--teal);background:var(--soft);margin:0;font-size:15px;line-height:1.9}
+.introduction p:not(:first-child)>strong:first-child{display:block;font-size:20px;line-height:1.6;margin-bottom:10px;color:var(--ink);font-weight:650}
+.market-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:19px 0}
+.ticker{padding:0 20px;border-left:1px solid var(--line)}
+.ticker:first-child{padding-left:0;border-left:0}
+.ticker-label{font-size:12px;color:var(--muted)}
+.ticker-values{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;font-size:21px;line-height:1.5;font-variant-numeric:tabular-nums;margin-top:5px}
+.change{font-size:13px;font-weight:600}
+.positive{color:var(--positive)}.negative{color:var(--negative)}.neutral{color:var(--muted)}
+.strip-note{font-size:11px;color:var(--muted);margin:8px 0 0}
+.report-section{padding:33px 0;border-bottom:1px solid var(--line);scroll-margin-top:80px}
+h2{font-size:21px;font-weight:650;line-height:1.5;margin:0 0 18px}
+h3{font-size:18px;line-height:1.6}
+p{margin:0 0 17px}
+p:last-child{margin-bottom:0}
+strong{font-weight:600}
+ul,ol{padding-left:24px;margin:16px 0 20px}
+li{padding-left:4px;margin:0 0 14px}
+li::marker{color:var(--muted)}
+.table-scroll{overflow-x:auto;max-width:100%;margin:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);scrollbar-width:thin}
+table{border-collapse:collapse;width:100%;min-width:650px;font-size:13px;line-height:1.6;font-variant-numeric:tabular-nums}
+th{background:#f4f6f7;color:var(--muted);font-weight:500;text-align:right;padding:12px 14px;vertical-align:bottom}
+td{padding:15px 14px;border-top:1px solid #e9edf0;text-align:right;vertical-align:top}
+th:first-child,td:first-child{text-align:left}
+tbody tr:nth-child(even){background:#fafbfc}
+#watchlist table{font-size:13px;min-width:1180px}
+#watchlist td:first-child{font-weight:650;letter-spacing:.3px}
+#watchlist th{font-size:12px;white-space:nowrap}
+#watchlist td:nth-child(n+2){white-space:nowrap}
+#watchlist td:nth-child(2),#watchlist th:nth-child(2),#watchlist td:last-child,#watchlist th:last-child{text-align:left}
+#watchlist td:last-child{white-space:normal;min-width:190px;max-width:260px}
+#watchlist tbody tr:has(td:first-child strong){border-top:2px solid #cdd8e2;background:#eef3f7}
+#calendar table{font-size:13px;min-width:730px}
+#calendar th,#calendar td{text-align:left}
+figure{margin:28px 0 0}
+.chart-button{display:block;width:100%;padding:0;background:transparent;border:1px solid #e9edf2;border-radius:5px;overflow:hidden;cursor:zoom-in;line-height:0}
+.chart-button img{width:100%;height:auto;display:block}
+figcaption{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:12px;margin-top:9px}
+figcaption span{white-space:nowrap}
+#reddit ol{list-style:none;counter-reset:research;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0}
+#reddit ol>li{counter-increment:research;position:relative;padding:20px 22px 20px 24px;margin:0;background:#f7f8fa;border-top:2px solid #d5ddd9;font-size:14px;line-height:1.95}
+#reddit ol>li::before{content:"0" counter(research);display:block;color:var(--muted);font-size:11px;letter-spacing:2px;margin-bottom:7px}
+#reddit li>strong:first-child{display:block;font-size:16px;line-height:1.65;margin:0 0 10px}
+#reddit li a{font-size:12px}
+.folded{padding:0}
+summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;font-weight:600;font-size:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"＋";color:var(--muted);font-weight:400;margin-left:auto}
+details[open]>summary::after{content:"－"}
+.expand-label{margin-left:auto;font-size:12px;color:var(--muted);font-weight:400}
+.folded summary::after{margin-left:0}
+details[open] .expand-label{font-size:0}
+details[open] .expand-label::after{content:"收起";font-size:12px}
+.section-content{padding:0 0 26px}
+.reference{border-top:1px solid var(--line)}
+.reference summary{font-size:14px}
+.reference .section-content{font-size:14px}
+.reference-section{padding-bottom:10px}
+footer{padding:26px 0 38px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:12px}
+code{font-size:.92em;background:#f1f3f5;border-radius:3px;padding:2px 5px;overflow-wrap:anywhere}
+pre{overflow:auto;padding:16px;background:#f5f6f8;border-radius:5px}
+pre code{background:transparent;padding:0}
+.skip-link{position:absolute;left:24px;top:-100px;z-index:10;background:white;padding:8px 14px}
+.skip-link:focus{top:12px}
+dialog{width:min(1440px,96vw);max-width:none;max-height:94vh;padding:0;border:0;border-radius:8px;color:var(--ink);background:#fff;box-shadow:0 20px 90px #0004}
+dialog::backdrop{background:rgba(17,28,38,.68)}
+.dialog-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 20px;border-bottom:1px solid var(--line);font-size:14px}
+.dialog-toolbar button{border:0;background:#eef1f3;padding:5px 12px;border-radius:4px;font-size:13px}
+.zoom-scroll{overflow:auto;max-height:calc(94vh - 60px)}
+.zoom-scroll img{display:block;width:100%;min-width:950px;height:auto}
+@media(max-width:900px){.page{padding:0 30px}.navigation{gap:20px}.ticker{padding:0 15px}.ticker-values{font-size:19px;gap:6px}.market-strip{gap:0}.change{font-size:12px}}
+@media(max-width:640px){.page{padding:0 24px}.masthead{padding:27px 0 22px}.eyebrow{font-size:10px;letter-spacing:1px}h1{font-size:27px}.edition time{font-size:17px}.edition span{font-size:11px}.navigation{gap:21px;padding:13px 0}.navigation button{display:none}.introduction{padding:19px 0}.introduction p:first-child{font-size:12px}.introduction p:not(:first-child){padding:17px 18px;font-size:14px}.introduction p:not(:first-child)>strong:first-child{font-size:18px}.market-strip{grid-template-columns:1fr 1fr;row-gap:17px;padding:17px 0}.ticker{padding-left:15px}.ticker:nth-child(3){padding-left:0;border-left:0}.ticker-values{font-size:20px;display:block}.change{margin-left:9px}.strip-note{font-size:11px;line-height:1.7}.report-section{padding:26px 0}h2{font-size:20px}body{font-size:14px;line-height:1.9}#reddit ol{grid-template-columns:1fr;gap:14px}#reddit ol>li{padding:18px 19px}#reddit li>strong:first-child{font-size:16px}.folded{padding:0}summary{font-size:15px;padding:20px 0}figcaption{font-size:11px;gap:12px}footer{font-size:11px;flex-wrap:wrap}.table-scroll{margin:18px 0}th,td{padding:12px}.dialog-toolbar{padding:10px 13px}.dialog-toolbar span{font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{@page{size:A4;margin:15mm 12mm}body{background:#fff;font-size:10pt;line-height:1.65}.page{max-width:none;padding:0}.navigation,.skip-link,footer a,figcaption span,dialog{display:none!important}.masthead{padding-top:0}.market-strip{break-inside:avoid}.report-section{padding:20px 0}.table-scroll{overflow:visible}table,#watchlist table,#calendar table{min-width:0;font-size:8pt}th,td{padding:7px}thead{display:table-header-group}tr,figure,.ticker{break-inside:avoid}#reddit ol{display:block}#reddit ol>li{break-inside:avoid;margin-bottom:12px}.chart-button{border:0}.introduction p:not(:first-child){padding:14px 18px}a{color:inherit;text-decoration:none}h2,summary{break-after:avoid}footer{padding-bottom:0}}
+</style>
+</head>
+<body id="top">
+<a class="skip-link" href="#main">跳转到日报正文</a>
+<div class="page">
+<header class="masthead">
+  <div><p class="eyebrow">投资研究 · 数据与情景</p><h1>美股观察</h1></div>
+  <div class="edition"><time datetime="2026-11-02">2026.11.02</time><span>北京时间</span></div>
+</header>
+<nav class="navigation" aria-label="日报目录"><a href="#priorities">重点机会</a><a href="#reddit">Reddit</a><button type="button" id="print-report">打印 / 保存 PDF</button></nav>
+<main id="main">
+  <section class="introduction" aria-label="今日判断"><p><strong>开盘前简报：尚无新的已完成美股常规交易日。</strong> 最近完整交易日仍是美东<strong>10/30（周五）</strong>；下一次常规交易将于<strong>今天11/2（周一）北京时间22:30</strong>开始，11/3 05:00结束。冬令时现已生效，对应美东09:30—16:00。<a href="https://www.nyse.com/trade/hours-calendars" target="_blank" rel="noopener noreferrer">NYSE交易时段</a></p>
+</section>
+  
+  <section id="priorities" class="report-section"><h2>今天对你最重要的事</h2><p>今晚开盘时间为<strong>22:30</strong>。北京时间07:30时，11/2美东盘前尚未开始；券商夜盘如有报价，也不作为本日报的盘前或已完成收盘行情。本次不重复10/30价格、旧图或旧回撤提醒。</p>
+<p>你已有GOOG、QQQM和VOO，数量仍沿用10/30授权核验的本地基线，本次未登录券商。本次可读来源没有新增足以调整后续分批研究判断的已核实线索，不据周末旧价格加速加仓；等待新的常规时段数据后再更新风险判断。BRK.B高点来源差异继续保留为待核，不推进提醒状态。</p>
+</section>
+<details id="reddit" class="report-section folded"><summary><span>Reddit 信息观察</span><span class="expand-label">展开</span></summary><div class="section-content"><p><strong>未核实可新增的24小时线索，扫描覆盖受限。</strong> 公开RSS受限，New／Top缓存陈旧；定向检索命中较早帖子，不能当成最新信息。已报道Google与Oracle讨论未重发；本结论不等于Reddit没有新内容。<a href="#reference-b355f2cfa4">本次读取范围与限制</a></p>
+<p>FiNews仍为10/30交易日报，更新时间UTC22:10:49，与昨天相同；本次没有新增可核验条目。<a href="#reference-57417f0b8b">FiNews检查</a></p>
+</div></details>
+<details id="method" class="report-section folded"><summary><span>数据口径与核验缺口</span><span class="expand-label">展开</span></summary><div class="section-content"><p>本次重新读取公开指数实际日线，最后完整日期仍为10/30，结合NYSE日历及America/New_York时区换算核对今晚开盘。未生成新行情曲线、未更新盈亏或观察阈值、未改变alert_state.json，Reddit成功检查游标也未推进。没有新建定时任务、发布站点或执行交易。</p>
+<p><a href="data:application/json;base64,ewogICJzdGF0dXMiOiAibm9fbmV3X2NvbXBsZXRlZF9zZXNzaW9uX2JyaWVmX3dpdGhfYWNjZXNzX2dhcHMiLAogICJjaGVja2VkX2F0X3V0YyI6ICIyMDI2LTExLTAxVDIzOjMxOjE5LjIxODQwNyswMDowMCIsCiAgInJlcG9ydF9kYXRlX2JlaWppbmciOiAiMjAyNi0xMS0wMiIsCiAgImxhdGVzdF9jb21wbGV0ZWRfcmVndWxhcl9zZXNzaW9uIjogIjIwMjYtMTAtMzAiLAogICJuZXh0X3JlZ3VsYXJfc2Vzc2lvbiI6ICIyMDI2LTExLTAyIiwKICAibmV4dF9vcGVuX2JlaWppbmciOiAiMjAyNi0xMS0wMlQyMjozMDowMCswODowMCIsCiAgIm5leHRfY2xvc2VfYmVpamluZyI6ICIyMDI2LTExLTAzVDA1OjAwOjAwKzA4OjAwIiwKICAibmV3X3JlZ3VsYXJfc2Vzc2lvbiI6IGZhbHNlLAogICJjaGFydHNfZ2VuZXJhdGVkIjogMCwKICAiY2FsZW5kYXJfc291cmNlIjogImh0dHBzOi8vd3d3Lm55c2UuY29tL3RyYWRlL2hvdXJzLWNhbGVuZGFycyIsCiAgInByb2JlIjogInJhdy9jYWxlbmRhcl9wcm9iZS5qc29uIiwKICAiYWxlcnRfc3RhdGVfc2hhMjU2IjogIjI3YWY5MTY1MzAyNmFiNzM0NTRmOTIzYWVlYTgxZDJiMmI3NGYxYmQ1MmM0ZWE2MTlhNDk4NDcxYjE0Mzk1NDMiLAogICJhbGVydF9zdGF0ZV91bmNoYW5nZWQiOiB0cnVlLAogICJyZWRkaXRfZnVsbF9zY2FuIjogZmFsc2UsCiAgInJlZGRpdF9uZXdfdmVyaWZpZWRfaXRlbXMiOiAwLAogICJmaW5ld3NfY2hhbmdlZCI6IGZhbHNlLAogICJob2xkaW5nc19iYXNlbGluZSI6ICIyMDI2LTEwLTMwIiwKICAibm9fYWNjb3VudF9hY3Rpb25zIjogdHJ1ZQp9Cg==" download="verification.json">本次核验记录</a> · <a href="https://nolan-market-watch.choice-calf-0415.chatgpt.site/" target="_blank" rel="noopener noreferrer">固定在线观察台</a></p>
+</div></details>
+  <section id="references" class="report-section reference-section"><h2>延伸阅读与研究依据</h2><details class="reference" id="reference-b355f2cfa4"><summary>本次读取范围与限制</summary><div class="section-content"><h3>Reddit观察｜2026-11-02</h3>
+<p>本次未核实可新增的24小时投资线索，扫描不完整。公开RSS受限，可读New／Top缓存落后多日；针对Google、SOFI、QQQM与机器人方向的日期检索也命中较早帖子，未将检索时间或相对时间当成原帖发布时间。</p>
+<p>已报道Google／Oracle主张未重复，不新增未验证帖子或热度。访问受限与“没有新讨论”分别处理，成功扫描游标保持不变。</p>
+<p><a href="data:application/json;base64,ewogICJyZXBvcnRfZGF0ZV9iZWlqaW5nIjogIjIwMjYtMTEtMDIiLAogICJjb2xsZWN0ZWRfYXRfdXRjIjogIjIwMjYtMTEtMDFUMjM6MzE6MTkuMjE4NDA3KzAwOjAwIiwKICAiY29tcGxldGVfcmVkZGl0X3NjYW4iOiBmYWxzZSwKICAiY292ZXJhZ2Vfc3RhdHVzIjogImluY29tcGxldGVfYWNjZXNzX3Jlc3RyaWN0aW9uc19zdGFsZV9mZWVkc19hbmRfc2VhcmNoIiwKICAiaXRlbXMiOiBbXSwKICAibmV3X3ZlcmlmaWVkX2l0ZW1zIjogMCwKICAicnNzX2F0dGVtcHRzIjogWwogICAgewogICAgICAic3VicmVkZGl0IjogImludmVzdGluZyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2ludmVzdGluZy9uZXcvLnJzcyIsCiAgICAgICJodHRwX3N0YXR1cyI6ICI0MjkiLAogICAgICAiZXJyb3IiOiAiIiwKICAgICAgImNvbGxlY3RlZF9hdF91dGMiOiAiMjAyNi0xMS0wMVQyMzozMDozMS4yNDI2NTUrMDA6MDAiCiAgICB9LAogICAgewogICAgICAic3VicmVkZGl0IjogInN0b2NrcyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3N0b2Nrcy9uZXcvLnJzcyIsCiAgICAgICJodHRwX3N0YXR1cyI6ICI0MDMiLAogICAgICAiZXJyb3IiOiAiIiwKICAgICAgImNvbGxlY3RlZF9hdF91dGMiOiAiMjAyNi0xMS0wMVQyMzozMDozMC45MzYxNzcrMDA6MDAiCiAgICB9LAogICAgewogICAgICAic3VicmVkZGl0IjogIlNlY3VyaXR5QW5hbHlzaXMiLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LnJlZGRpdC5jb20vci9TZWN1cml0eUFuYWx5c2lzL25ldy8ucnNzIiwKICAgICAgImh0dHBfc3RhdHVzIjogIjQyOSIsCiAgICAgICJlcnJvciI6ICIiLAogICAgICAiY29sbGVjdGVkX2F0X3V0YyI6ICIyMDI2LTExLTAxVDIzOjMwOjMwLjgwMDg0MCswMDowMCIKICAgIH0sCiAgICB7CiAgICAgICJzdWJyZWRkaXQiOiAiVmFsdWVJbnZlc3RpbmciLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LnJlZGRpdC5jb20vci9WYWx1ZUludmVzdGluZy9uZXcvLnJzcyIsCiAgICAgICJodHRwX3N0YXR1cyI6ICI0MjkiLAogICAgICAiZXJyb3IiOiAiIiwKICAgICAgImNvbGxlY3RlZF9hdF91dGMiOiAiMjAyNi0xMS0wMVQyMzozMDozMS4yNjMwNDYrMDA6MDAiCiAgICB9LAogICAgewogICAgICAic3VicmVkZGl0IjogIkJvZ2xlaGVhZHMiLAogICAgICAidXJsIjogImh0dHBzOi8vd3d3LnJlZGRpdC5jb20vci9Cb2dsZWhlYWRzL25ldy8ucnNzIiwKICAgICAgImh0dHBfc3RhdHVzIjogIjQyOSIsCiAgICAgICJlcnJvciI6ICIiLAogICAgICAiY29sbGVjdGVkX2F0X3V0YyI6ICIyMDI2LTExLTAxVDIzOjMwOjMxLjQxOTI3OCswMDowMCIKICAgIH0sCiAgICB7CiAgICAgICJzdWJyZWRkaXQiOiAiRVRGcyIsCiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0VURnMvbmV3Ly5yc3MiLAogICAgICAiaHR0cF9zdGF0dXMiOiAiNDI5IiwKICAgICAgImVycm9yIjogIiIsCiAgICAgICJjb2xsZWN0ZWRfYXRfdXRjIjogIjIwMjYtMTEtMDFUMjM6MzA6MzEuNzEwMjExKzAwOjAwIgogICAgfQogIF0sCiAgInB1YmxpY19wYWdlcyI6IFsKICAgIHsKICAgICAgInVybCI6ICJodHRwczovL3d3dy5yZWRkaXQuY29tL3Ivc3RvY2tzL25ldy8iLAogICAgICAic2NvcGUiOiAiT2xkIEdvb2dsZS9PcmFjbGUgZmVlZCBjb250ZW50OyByZWxhdGl2ZSB0aW1lIG5vdCB0cmVhdGVkIGFzIG5ldyIKICAgIH0sCiAgICB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2ludmVzdGluZy9uZXcvIiwKICAgICAgInNjb3BlIjogIk5vIGxhdGVzdDI0aG91ciBvcmlnaW5hbCBwb3N0IGVzdGFibGlzaGVkIgogICAgfSwKICAgIHsKICAgICAgInVybCI6ICJodHRwczovL3d3dy5yZWRkaXQuY29tL3IvU2VjdXJpdHlBbmFseXNpcy9uZXcvIiwKICAgICAgInNjb3BlIjogIjJ3ZWVrIGNhY2hlZGZlZWQ7IGV4Y2x1ZGVkZnJvbWZyZXNobmVzcyIKICAgIH0sCiAgICB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1ZhbHVlSW52ZXN0aW5nL25ldy8iLAogICAgICAic2NvcGUiOiAiNmRheSBjYWNoZWRmZWVkOyBleGNsdWRlZGZyb21mcmVzaG5lc3MiCiAgICB9LAogICAgewogICAgICAidXJsIjogImh0dHBzOi8vd3d3LnJlZGRpdC5jb20vci9Cb2dsZWhlYWRzL25ldy8iLAogICAgICAic2NvcGUiOiAiNWRheSBjYWNoZWRmZWVkOyBleGNsdWRlZGZyb21mcmVzaG5lc3MiCiAgICB9LAogICAgewogICAgICAidXJsIjogImh0dHBzOi8vd3d3LnJlZGRpdC5jb20vci9FVEZzL25ldy8iLAogICAgICAic2NvcGUiOiAiMndlZWsgY2FjaGVkZmVlZDsgZXhjbHVkZWRmcm9tZnJlc2huZXNzIgogICAgfSwKICAgIHsKICAgICAgInVybCI6ICJodHRwczovL3d3dy5yZWRkaXQuY29tL3Ivc3RvY2tzL3RvcC8/dD1kYXkiLAogICAgICAic2NvcGUiOiAiM3dlZWsgY2FjaGU7IGV4Y2x1ZGVkZnJvbWZyZXNobmVzcyIKICAgIH0sCiAgICB7CiAgICAgICJ1cmwiOiAiaHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2ludmVzdGluZy90b3AvP3Q9ZGF5IiwKICAgICAgInNjb3BlIjogIjJ3ZWVrIGNhY2hlOyBleGNsdWRlZGZyb21mcmVzaG5lc3MiCiAgICB9CiAgXSwKICAic2VhcmNoIjogIlRhcmdldGVkTm92MXF1ZXJpZXMgcmV0dXJuZWQgb2xkZXJPY3QyNi8yNyBvciBtb250aHMtb2xkIHBvc3RzOyBubyBsYXRlc3QyNGggb3JpZ2luYWwgb3Igc3Vic3RhbnRpYWwgdXBkYXRlIHZlcmlmaWVkIiwKICAiaW50ZXJwcmV0YXRpb24iOiAiTm8gbmV3IHZlcmlmaWVkIGl0ZW0gZnJvbSBhY2Nlc3NpYmxlIHJlYWRzOyBub3QgYSBjbGFpbSBvZiBubyBuZXcgZGlzY3Vzc2lvbiIsCiAgInN1Y2Nlc3NmdWxfY3Vyc29yX2FkdmFuY2VkIjogZmFsc2UKfQo=" download="reddit_sources.json">本次读取范围与访问状态</a></p>
+</div></details>
+<details class="reference" id="reference-57417f0b8b"><summary>FiNews检查</summary><div class="section-content"><h3>FiNews观察｜2026-11-02</h3>
+<p>本次<a href="https://finews.fyi/" target="_blank" rel="noopener noreferrer">首页</a>仍为10/30交易日报，更新时间2026-10-30 22:10:49 UTC，与昨日相同。未重复旧市场数字、Meta展望调整或Okta指数维护；未把旧日历直接用于新的冬令时换算。</p>
+<p><a href="data:application/json;base64,ewogICJ1cmwiOiAiaHR0cHM6Ly9maW5ld3MuZnlpLyIsCiAgInJlYWRfYXRfdXRjIjogIjIwMjYtMTEtMDFUMjM6MzE6MTkuMjE4NDA3KzAwOjAwIiwKICAic2Vzc2lvbiI6ICIyMDI2LTEwLTMwIiwKICAicGFnZV91cGRhdGVkX2F0X3V0YyI6ICIyMDI2LTEwLTMwVDIyOjEwOjQ5WiIsCiAgInNjb3BlIjogImhvbWVwYWdlIHJlcG9ydCBkYXRlL3VwZGF0ZSB0aW1lc3RhbXAgYW5kIG5ld3Mgc3VtbWFyeSIsCiAgIm5ld192ZXJpZmllZF9pdGVtcyI6IDAsCiAgImNvbXBhcmVkX3dpdGhfcHJpb3IiOiAidW5jaGFuZ2VkIHZlcnN1c05vdjE7IG5vIG9sZCBuZXdzIHJlLXJlcG9ydGVkIgp9Cg==" download="finews_sources.json">本次读取记录</a></p>
+</div></details></section>
+</main>
+<footer><span>美股观察 · 2026-11-02 · 已保存的研究</span><a href="#top">回到顶部 ↑</a></footer>
+</div>
+<dialog id="chart-dialog" aria-label="放大图表"><div class="dialog-toolbar"><span id="chart-title">图表</span><button type="button" id="close-chart" aria-label="关闭图表">关闭 ✕</button></div><div class="zoom-scroll"><img id="zoom-image" alt=""></div></dialog>
+<script>(() => {
+  const dialog = document.getElementById('chart-dialog');
+  const enlarged = document.getElementById('zoom-image');
+  let chartTrigger;
+  document.querySelectorAll('.chart-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const image = button.querySelector('img');
+      enlarged.src = image.src;
+      enlarged.alt = image.alt;
+      document.getElementById('chart-title').textContent = image.alt;
+      chartTrigger = button;
+      dialog.showModal();
+    });
+  });
+  document.getElementById('close-chart').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', () => { enlarged.removeAttribute('src'); chartTrigger?.focus(); });
+  document.getElementById('print-report').addEventListener('click', () => window.print());
+  function revealHash() {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    if (target.matches('details')) target.open = true;
+    for (let node = target.parentElement; node; node = node.parentElement) {
+      if (node.matches('details')) node.open = true;
+    }
+    target.scrollIntoView({ block: 'start' });
+  }
+  window.addEventListener('hashchange', revealHash);
+  revealHash();
+  document.querySelectorAll('#watchlist tbody tr').forEach(row => {
+    const change = row.cells[2];
+    if (change) change.classList.add(change.textContent.trim().startsWith('-') ? 'negative' : 'positive');
+  });
+  const links = [...document.querySelectorAll('.navigation a')];
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      entries.filter(entry => entry.isIntersecting).forEach(entry => {
+        links.forEach(link => {
+          if (link.hash === `#${entry.target.id}`) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        });
+      });
+    }, { rootMargin: '-80px 0px -65% 0px', threshold: 0 });
+    links.forEach(link => { const target = document.querySelector(link.hash); if (target) observer.observe(target); });
+  }
+})();
+</script>
+</body>
+</html>

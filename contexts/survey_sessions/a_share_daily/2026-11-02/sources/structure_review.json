@@ -1,0 +1,28 @@
+{
+  "before_chars": 6486,
+  "after_chars": 4696,
+  "merged_overview_rows": 5,
+  "valuation_list_count": 23,
+  "removed": [
+    "重复指数横栏",
+    "单独估值主表",
+    "重复首页三条摘要",
+    "重复个人等待结论",
+    "重复作者摘要表",
+    "重复静态图展示"
+  ],
+  "preserved": [
+    "整体星级定义/日期/变化/距观察线",
+    "全部低估名单折叠",
+    "全部原始行情与估值数值",
+    "两位作者依据和来源",
+    "14标的交互趋势图",
+    "资金约束/触发规则"
+  ],
+  "browser_verified": true,
+  "merged_table_rows": 5,
+  "author_tables": 1,
+  "removed_ticker_strip": true,
+  "undervalued_folded_count": 23,
+  "trend_cards": 14
+}

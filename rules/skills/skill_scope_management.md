@@ -16,6 +16,16 @@
 
 Codex 从当前目录到 Git 根目录读取 `.agents/skills`，支持技能目录软链接。公司仓库与私人仓库混放时，应在各 Git 根登记，避免安装到共享父目录。[官方加载规则](https://developers.openai.com/codex/skills/)
 
+## 外部来源登记与升级
+
+仅在本项目安装、迁移或升级 Skill 时执行；普通任务无需读取注册表或重做核验。
+
+- 外部来源安装后更新 `rules/skills/external_skills_registry.json`，执行 `node tools/external_skills_registry.mjs sync` 与 `node tools/external_skills_registry.mjs verify`。
+- `skills-lock.json` 记录 Skills CLI 来源、路径和内容哈希；`external_skills_registry.json` 记录上游 revision、许可证及安全备注；`global_skill_snapshots.json` 记录全局精选快照；`EXTERNAL_SKILLS.md` 是生成索引。这些文件保持一致，生成文件不手工维护。
+- 上游更新先用只读 `node tools/external_skills_registry.mjs check-updates`。不要把 `npx skills check` 当成 dry-run；确认升级后才执行 `npx -y skills update --project -y`。
+- 从全局精选到项目，只使用 `rules/skills/project_global_skill_selection.json` 的显式白名单及 `node tools/vendor_global_codex_skills.mjs sync`。只选本项目相关的 Agent、检索、Cloudflare、浏览器验证与 workspace 运维能力；排除公司/内部业务、Mindspace/Expo/Fedith/Hi、纯代码生成、Cursor-only、Codex `.system` 和插件缓存内容。
+- 快照仅写入本仓 `.agents/skills`，不反向安装到用户全局目录；公司 Skill 内容、来源链接和账号环境配置不提交到私人仓库，CLI 与认证缓存保留原位置。
+
 ## 本机来源与项目入口
 
 - 来源目录：`~/.local/share/agent-skill-scopes/skills/`。该目录不属于用户级 Skill 扫描入口。

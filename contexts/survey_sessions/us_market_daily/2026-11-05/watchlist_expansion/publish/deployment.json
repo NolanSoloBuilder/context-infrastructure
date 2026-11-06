@@ -1,0 +1,40 @@
+{
+  "pushed": {
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "checkout_path": "/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/us_market_site",
+    "commit_sha": "d8701db5401d2ed58dc77f6559f6ea86068b497d",
+    "archive": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-05/watchlist_expansion/publish/site.tar"
+  },
+  "saved": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_4115eb1d9f788191a0aa5b11288feca5",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 21,
+    "source": {
+      "commit_sha": "d8701db5401d2ed58dc77f6559f6ea86068b497d"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000102c8211bbc10de46a4de3cf",
+      "content_hash": "sha256:b49456a164825d266cbee43d3417fd3a5debcd4f12f13670e84dce86bb2b8958",
+      "size_bytes": 7864320,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployed": {
+    "id": "appgdep_6aebfbf09db48191b9b2dd36c869b467",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_4115eb1d9f788191a0aa5b11288feca5",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-05T03:46:16.653669+00:00"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "assets": 7,
+  "ranges": 28,
+  "cutoff": "2026-11-02T09:00:00+08:00",
+  "asof_per_market": {
+    "sh513050": "2026-10-30",
+    "usKWEB.AM": "2026-10-30",
+    "usBABA.N": "2026-10-30",
+    "usPDD.OQ": "2026-10-30",
+    "usJD.OQ": "2026-10-30",
+    "usBIDU.OQ": "2026-10-30",
+    "usNTES.OQ": "2026-10-30"
+  },
+  "currency_explicit": true,
+  "price_return_not_total_return": true
+}

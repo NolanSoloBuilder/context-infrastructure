@@ -1,0 +1,57 @@
+{
+  "collected_at": "2026-11-04T09:04:36.981417+08:00",
+  "window_start": "2026-11-03T09:00:00+08:00",
+  "window_end": "2026-11-04T09:00:00+08:00",
+  "message_count": 26,
+  "candidate_count": 21,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b61aa6b3e00a0ce5e5ce6ad33b71",
+      "source_time": "2026-11-03 21:31+08:00",
+      "sync_create_time": "1793712735489",
+      "content_sha256": "c77a030d6aa0e6faef3175bb84fc9d34b379c7ae23f09ecab8ec56b85c6c5bba",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者明确将下跌市反弹定位为技术交易，供有经验者参考；不确定是否参与者倾向不做，初学者可等待。本条回顾创业板跌破60日线的减仓纪律，不能机械泛化所有指数；仍看3400、3600支撑，本条未明确点名指数。没有提供当前完整仓位。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61a8953984acc45b52e81d44626",
+      "source_time": "2026-11-03 20:02+08:00",
+      "sync_create_time": "1793707455520",
+      "content_sha256": "55d7d3e8924da382ca6deed17f05580dfd30b46c2fb69a97f26ff684ef9ea55f",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者强调创业板与上证点位差只体现相对性价比，上证继续下跌时，即使差值不变，创业板仍有下跌空间。不能由相对差值推断绝对便宜或安全。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61a8e1cd80acb0f8f30c7a9a9ba",
+      "source_time": "2026-11-03 19:52+08:00",
+      "sync_create_time": "1793706736269",
+      "content_sha256": "c0161a5ae92d80f54ae4b23822d2001b7522a9a67775428dd8c9cbeaf35b2400",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为定投前须评估浮亏承受能力，可在较低位置考虑；用上一轮熊市低点作极端情景参考是其假设，不构成未来最低点或最大亏损保证。没有适用于用户50万元预算的金额、分批比例。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61a8cf3b20a4c0a0d378301407e",
+      "source_time": "2026-11-03 19:38+08:00",
+      "sync_create_time": "1793706015694",
+      "content_sha256": "48f52a12236965ac107a44c7912ee0a3a74ef85b0b263ee8af98ca06355b761c",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者未给统一仓位标准，强调依个人风险偏好保留未来低位可用现金。这是资金纪律的概括，不代表其当前现金或股票比例。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61aea23aa0b0df1bb3cacccacc9",
+      "source_time": "2026-11-03 17:50+08:00",
+      "sync_create_time": "1793699535729",
+      "content_sha256": "6e5e0d0c7ab080c181ffd576844d10f1952cb3f8c66141c523b03c6ea2dfec9a",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为SFISF不是决定性力量，关注M2企稳及科技巨头现金流、资本开支对AI链盈利预期的传导。这是作者宏观与产业判断，本报未独立验证其对所有科技巨头的概括，不当作已确认经营事实。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "成员评论、点赞、无关楼市教育职业和私人话题；20:56与21:31近重复回答只保留后者；新股申购与ETF主观察无关未纳入",
+  "coverage": "群同步作者观点，非原知识星球全文；不保证原星球覆盖完整"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "sameVersionKept": true,
+  "realMetadataChecked": true,
+  "disabledPaused": true,
+  "timerPolled": true,
+  "hiddenPaused": true,
+  "failureRetainedReport": true,
+  "updateReloaded": true,
+  "restoredPeriod": true,
+  "restoredCard": true,
+  "restoredChina": true,
+  "requests": 5,
+  "test_mode": "Browser-local mocked version responses and virtual clock; no hosted data was modified"
+}

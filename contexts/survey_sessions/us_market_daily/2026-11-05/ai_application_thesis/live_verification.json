@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-05T02:43:12.301315+00:00",
+  "source_matches_deployed_brief": true,
+  "homepage_contains_all_topic_sections": true,
+  "topic_sections": [
+    "AI应用专题①｜先证伪：应用加速，不等于基础设施让位",
+    "AI应用专题②｜企业流程与决策：NOW、CRM、PLTR实际卖什么",
+    "AI应用专题③｜医疗：先看GEHC的收费路径，再看TEM的数据业务",
+    "AI应用专题④｜工业：CGNX与机器视觉，比泛机器人叙事更可核查",
+    "AI应用专题⑤｜行业ETF：IGV、XSW、IHI、BOTZ，以及AIQ的偏差",
+    "AI应用专题⑥｜未来如何推翻判断：研究门槛，不是交易阈值"
+  ],
+  "report_date": "2026-11-05",
+  "market_session": "2026-11-04",
+  "reviewed_at": "2026-11-05T02:38:36.067495+00:00",
+  "regular_session": "2026-11-04",
+  "api_status": 200,
+  "homepage_status": 200,
+  "history_status": 200,
+  "history": {
+    "dates": [
+      "2026-11-04",
+      "2026-11-03",
+      "2026-11-02",
+      "2026-10-30"
+    ],
+    "cursor": null
+  },
+  "verification_limit": "内容与线上HTTP/API回读；未新增浏览器视觉验收。urllib曾返回403，系统curl匿名读取成功。",
+  "same_session_archive_topic_sections": 6,
+  "history_after_refresh": {
+    "dates": [
+      "2026-11-04",
+      "2026-11-03",
+      "2026-11-02",
+      "2026-10-30"
+    ],
+    "cursor": null
+  },
+  "refresh_result": {
+    "status": "complete",
+    "successful_history_symbols": 17,
+    "errors": [],
+    "job_id": "cbe3f26f-184f-49fd-850a-d6d59527af8f",
+    "finished_at_utc": "2026-11-05T02:44:12.610Z"
+  }
+}

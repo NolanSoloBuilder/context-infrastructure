@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-06",
+  "cutoff_utc": "2026-11-05T23:26:00+00:00",
+  "reviewed_at_utc": "2026-11-05T23:33:39.550544+00:00",
+  "target_window_hours": 24,
+  "primary_window_start_utc": "2026-11-04T23:26:00+00:00",
+  "extended_window_hours": 72,
+  "full_scan_complete": false,
+  "coverage_status": "partial_access_with_three_selected_new_items",
+  "dedup_baseline": "../reddit_state.json and ../2026-11-05/reddit_sources.json; selected IDs/claims not previously recorded",
+  "selected_new_items": [
+    {
+      "id": "1xox8vh",
+      "community": "investing",
+      "url": "https://www.reddit.com/r/investing/comments/1xox8vh/ai_demand_can_boom_while_datacenter_stocks/",
+      "title": "AI demand can boom while data-center stocks disappoint. The midterms highlighted why.",
+      "post_time_utc": "2026-11-05T23:09:55+00:00",
+      "post_time_beijing": "2026-11-06T07:09:55+08:00",
+      "post_updated_utc": "2026-11-05T23:09:55+00:00",
+      "captured_at_utc": "2026-11-05T23:27:48.718905+00:00",
+      "time_evidence": "actual public Atom RSS published and updated fields; original page body separately opened",
+      "votes_and_comment_count": null,
+      "claim_key": "ai_datacenter_requested_contracted_energized_capacity_new_discussion_2026_11_05",
+      "classification": "已核验旧项目事实／新增研究观点",
+      "event_dates": [
+        "2026-07-22",
+        "2026-08-26"
+      ],
+      "read_scope": "RSS full original body and absolute timestamp; public original page full body; comments not obtained",
+      "comments_status": "not_obtained_no_claim_about_total_count",
+      "claim": "AI demand growth does not itself establish the economics or on-time energization of an announced data-center project. Track requested, contracted and actually energized capacity separately.",
+      "verified_facts": "Georgia Power and OpenAI July/August disclosures support the 25-year 3.2 GW project contract, flexible demand and customer cost allocation. OpenAI describes phased 2028–2032 development, not operating capacity.",
+      "unsupported_claims_excluded": [
+        "author count that 40 of 41 Nov3 local measures opposed development, including nine advisory measures: count and legal effects not verified",
+        "May15 utility filing and unnamed April customer were not inspected; cannot identify it as the July OpenAI project",
+        "no new contract or new 3.2 GW order was disclosed today by the sources read"
+      ],
+      "opposition": "Approval of this particular contract is counterevidence to blanket claims that every AI project is blocked. Existing sites, power contracts, project financing and permitted capacity differ; one project cannot determine industry returns.",
+      "next_check": "Read actual permits, interconnection terms, customer prepayments and construction milestones; reconcile announced capacity with energized capacity and collected cash. For applications, watch whether infrastructure cost savings reach product margins.",
+      "relation_to_watchlist": "GOOGL/NVDA/SMH/DRAM and the AI infrastructure-to-application thesis; it is not an automatic buy/sell signal.",
+      "verification_sources": [
+        {
+          "url": "https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html",
+          "date": "2026-07-22",
+          "level": "issuer_primary",
+          "read_scope": "company release full text",
+          "supports": "25-year contract; 3,200 MW expected demand; up to 1,000 MW flexible demand response; customer pays full infrastructure and service cost"
+        },
+        {
+          "url": "https://www.georgiapower.com/news-hub/press-releases/contract-openai-approved-part-portfolio-delivering-950-million-annual-savings.html",
+          "date": "2026-08-26",
+          "level": "issuer_primary",
+          "read_scope": "company release full text",
+          "supports": "company disclosure that contract was approved; PSC order itself not read"
+        },
+        {
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/",
+          "date": "2026-07-22",
+          "level": "issuer_primary",
+          "read_scope": "company announcement full text",
+          "supports": "3.2 GW intended buildout in phases 2028–2032; design, financing and operating model still require work; not completed operating capacity"
+        }
+      ],
+      "status": "selected_new_discussion_with_primary_fact_checks"
+    },
+    {
+      "id": "1xomi9p",
+      "community": "investing",
+      "url": "https://www.reddit.com/r/investing/comments/1xomi9p/nasdaq_down_6_coreweave_down_55_in_a_month_is_the/",
+      "title": "Nasdaq down 6%, CoreWeave down 55% in a month. Is the AI trade breaking or is this a midterm overreaction?",
+      "post_time_utc": "2026-11-05T16:06:23+00:00",
+      "post_time_beijing": "2026-11-06T00:06:23+08:00",
+      "post_updated_utc": "2026-11-05T16:06:23+00:00",
+      "captured_at_utc": "2026-11-05T23:27:48.718905+00:00",
+      "time_evidence": "actual public Atom RSS published and updated fields; original page body separately opened",
+      "votes_and_comment_count": null,
+      "claim_key": "ai_selloff_policy_vs_valuation_sentiment_2026_11_05",
+      "classification": "仅情绪观察／待核验政策观点",
+      "event_dates": [
+        "2026-11-03",
+        "2026-11-05"
+      ],
+      "read_scope": "RSS full body and absolute time; public original page body and substantive comments; related original post body and one visible comment also read",
+      "comments_status": "substantive opposing comments actually read; no claim of representative consensus",
+      "related_posts": [
+        {
+          "id": "1xovbku",
+          "community": "investing",
+          "url": "https://www.reddit.com/r/investing/comments/1xovbku/why_the_postmidterm_ai_selloff_is_a_massive/",
+          "title": "Why the post-midterm AI sell-off is a massive overreaction (Congressional stock disclosures inside)",
+          "post_time_utc": "2026-11-05T21:47:11+00:00",
+          "post_time_beijing": "2026-11-06T05:47:11+08:00",
+          "post_updated_utc": "2026-11-05T21:47:11+00:00",
+          "captured_at_utc": "2026-11-05T23:27:48.718905+00:00",
+          "time_evidence": "actual public Atom RSS published and updated fields; original page body separately opened",
+          "votes_and_comment_count": null
+        }
+      ],
+      "claim": "Debate over whether the technology/AI selloff reflects policy uncertainty or an earlier valuation and financing problem.",
+      "verified_facts": "Only the presence and timing of these public discussions are verified here. Intraday price percentages in titles are not used as verified closing prices.",
+      "opposition": "One commenter suggests watching actual hyperscaler capex instead of political headlines; others distinguish booked revenue from profit and funding commitments, and question post-hoc market narratives. The related bullish post relies partly on politicians holding technology stocks, which is neither independently verified nor a valid guarantee against adverse policy.",
+      "unsupported_claims_excluded": [
+        "nationwide ban or enacted restrictions inferred from election results",
+        "specific lawmakers holdings and motives",
+        "title price drawdowns as latest verified closing data",
+        "Gartner future adoption forecasts as achieved current usage"
+      ],
+      "next_check": "Inspect enacted rule or bill text and local permitting decisions, then actual issuer capex, backlog conversion, contract cancellation and financing disclosures. No stock-level margin of safety is established by this debate.",
+      "relation_to_watchlist": "GOOGL/NOW/CRM/CGNX/GEHC and existing broad-market ETF research; evaluate actual earnings/cash flow rather than a uniform application-versus-infrastructure rotation.",
+      "verification_sources": [],
+      "status": "selected_new_sentiment_only_not_entry_evidence"
+    },
+    {
+      "id": "1xows2i",
+      "community": "investing",
+      "url": "https://www.reddit.com/r/investing/comments/1xows2i/the_argument_for_vgt_in_a_boglehead_portfolio/",
+      "title": "The Argument for VGT in a Boglehead Portfolio",
+      "post_time_utc": "2026-11-05T22:49:05+00:00",
+      "post_time_beijing": "2026-11-06T06:49:05+08:00",
+      "post_updated_utc": "2026-11-05T22:49:05+00:00",
+      "captured_at_utc": "2026-11-05T23:27:48.718905+00:00",
+      "time_evidence": "actual public Atom RSS published and updated fields; original page body separately opened",
+      "votes_and_comment_count": null,
+      "claim_key": "vgt_sector_bet_vs_broad_market_core_new_discussion_2026_11_05",
+      "classification": "已核验基金范围／待核验配置观点",
+      "event_dates": [
+        "2026-09-30",
+        "2026-11-05"
+      ],
+      "read_scope": "RSS full body and absolute time; original public page body and substantive opposing comments; official Vanguard two-page fact sheet text",
+      "comments_status": "opposing comments read: sector concentration, AI profitability uncertainty and sector classification limits; no fabricated consensus",
+      "claim": "A post proposes replacing a broad-market base with VGT. This is a concentration decision, not proof of a better diversified core or a pure AI-application exposure.",
+      "verified_facts": "Vanguard fact sheet as of 2026-09-30 says VGT tracks the MSCI US Investable Market Information Technology 25/50 Index, covering software/services, hardware/equipment and semiconductors/equipment. Sector and non-diversification risk can make fluctuations more extreme than the overall market.",
+      "opposition": "Sector concentration can outperform if underlying cash flows exceed expectations, but past returns or a good AI story do not establish a fair purchase price. Software, hardware and semiconductors remain mixed exposures.",
+      "next_check": "Use dated issuer holdings to look through overlap with broad-market and Nasdaq-100 ETFs; then test AI-attributable revenue, margins and owner cash flow instead of treating the ticker as a pure application basket.",
+      "relation_to_watchlist": "Directly relevant to VGT, VOO, QQQM and semiconductor ETFs; no proposed allocation is adopted.",
+      "verification_sources": [
+        {
+          "url": "https://fund-docs.vanguard.com/F0958.pdf",
+          "date": "2026-09-30",
+          "level": "issuer_primary",
+          "read_scope": "both PDF pages text; page-two screenshot tool also requested",
+          "supports": "index mandate and industry scope; sector/concentration risk. This digest does not present quarter-end holdings as current Nov5 weights."
+        }
+      ],
+      "status": "selected_new_discussion_with_primary_fund_scope_check"
+    }
+  ],
+  "read_but_excluded": [
+    {
+      "id": "1xocf5g",
+      "community": "stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xocf5g/the_era_of_massive_big_tech_stock_buybacks_is_over/",
+      "read_scope": "public original body and opposing comments via web; ordinary HTTP gave only interstitial shell",
+      "reason": "absolute post time not recovered; sweeping financial claim not verified; comments challenge selection bias; not selected as a dated new fact"
+    },
+    {
+      "topic": "Oracle financing/customer prepayments",
+      "reason": "overlaps previously reported Oct31 Oracle financing claim; no separately verified incremental operating disclosure in this pass"
+    },
+    {
+      "topic": "AppLovin earnings claims",
+      "reason": "original operating claims not verified in this task; excluded from verified selection"
+    }
+  ],
+  "coverage": {
+    "investing_new_rss": {
+      "status": 200,
+      "count": 25,
+      "oldest_post_utc": "2026-11-04T17:09:29+00:00",
+      "latest_post_utc": "2026-11-05T23:09:55+00:00",
+      "scope": "first 25 entries span the primary 24-hour window for this community only",
+      "raw": "source_scan_raw/investing_rss.html",
+      "parsed": "source_scan_raw/investing_entries.json"
+    },
+    "other_new_rss": "stocks, SecurityAnalysis, ValueInvesting, Bogleheads and ETFs returned 429; stopped without bypass",
+    "top_and_search": "public New/Top pages and targeted searches inspected; several cached pages weeks old or missing absolute time, so not treated as a fresh complete daily scan",
+    "comments": "actual visible comments read for items 2 and 3; item 1 comments unavailable"
+  },
+  "http_attempts": [
+    {
+      "name": "finews_home",
+      "url": "https://finews.fyi/",
+      "status": 200,
+      "captured_at_utc": "2026-11-05T23:27:48.718407+00:00",
+      "bytes": 128192,
+      "metadata": [
+        "datePublished\":\"2026-11-05\",\"dateModified\":\"2026-11-05 23:14:30\",\"url\":\"https://finews.fyi/\",\"image\":[\"https://fi"
+      ],
+      "text_start": "FiNews 美股日报｜今日美股行情、美股指数盘后总结\nFiNews\n美股日报 · 更新\n2026-11-05 23:14:30 UTC\n2026-11-05\n‹\n›\n日\n一\n二\n三\n四\n五\n六\n2026年11月5日 美股盘后日报\n头部个股热力图\n美股头部个股热力图 2026-11-05\n2026 年 11 月 5 日\n−3.44%\n道指\n−5.52%\n纳指\n−4.36%\n标普 500\n科技\nApple −1.53%\nAAPL\n−1.53%\nNvidia −9.26%\nNVDA\n−9.26%\nMicrosoft −3.58%\nMSFT\n−3.58%\nBroadcom −10.43%\nAVGO\n−10.43%\nMicron −17.46%\nMU\n−17.46%\nAMD −17.26%\nAMD\n−17.26%\nCisco −7.62%\nCSCO\n−7.62%\nPalantir −9.73%\nPLTR\n−9.73%\nOracle −6.93%\nORCL\n−6.93%\nIntel −10.33%\nINTC\n−10.33%\nTexas Instruments −10.70%\nTXN\n−10.70%\nIBM −2.84%\nIBM\n−2.84%\nPalo Alto Networks −9.59%\nPANW\n−9.59%\nSalesforce −2.07%\nCRM\n−2.07%\nArista Networks −10.82%\nANET\n−10.82%\nQualcomm −9.49%\nQCOM\n−9.49%\nServiceNow −5.93%\nNOW\n−5.93%\nAdobe −0.82%\nADBE\n−0.82%\nIntuit −0.50%\nINTU\nAmphenol −9.33%\nCrowdStrike −9.88%\nKLA −13.35%\n通信服务\nAlphabet −2.20%\nGOOGL\n−2.20%\nMeta Platforms −3.96%\nMETA\n−3.96%\nNetflix −1.25%\nNFLX\n−1.25%\nDisney −1.45%\nDIS\n−1.45%\nVerizon −0.11%\nVZ\nT-Mobile US +0.89%\nTMUS\n+0.89%\nAT&T −0.05%\nT\nComcast +0.40%\n金融\nBerkshire Hathaway −1.1"
+    },
+    {
+      "name": "reddit_post",
+      "url": "https://www.reddit.com/r/stocks/comments/1xocf5g/the_era_of_massive_big_tech_stock_buybacks_is_over/",
+      "status": 200,
+      "captured_at_utc": "2026-11-05T23:27:48.718765+00:00",
+      "bytes": 8483,
+      "metadata": [],
+      "text_start": "Reddit"
+    },
+    {
+      "name": "stocks_rss",
+      "url": "https://www.reddit.com/r/stocks/new/.rss",
+      "captured_at_utc": "2026-11-05T23:27:48.718844+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "investing_rss",
+      "url": "https://www.reddit.com/r/investing/new/.rss",
+      "status": 200,
+      "captured_at_utc": "2026-11-05T23:27:48.718905+00:00",
+      "bytes": 52647,
+      "metadata": [],
+      "text_start": "2026-11-05T23:27:50+00:00\nhttps://www.redditstatic.com/icon.png/\n/r/investing/new/.rss\nnewest submissions : investing\n/u/alphapod-Ai\nhttps://www.reddit.com/user/alphapod-Ai\n<!-- SC_OFF --><div class=\"md\"><p>Everyone is debating whether the midterm results will derail AI. I think investors are overlooking a more important risk: how much announced AI infrastructure will actually get built and energized?Consider two findings:</p> <p><strong>1. Local opposition is becoming a real development constraint.</strong></p> <p>By my count of <a href=\"https://ballotpedia.org/Data_center-related_ballot_measures,_2026?_sp=435b2694-2351-4f4f-ba35-5c8814cd60e1.1793914301664\">Ballotpedia’s </a>list, 40 of the 41 local data-center measures decided on November 3 went against development: bans, MW caps, moratoria and rejected rezonings. Nine were advisory, so not all are binding, but the direction is striking.</p> <p><strong>2. Utility filings reveal demand long before the public announcements.</strong></p"
+    },
+    {
+      "name": "SecurityAnalysis_rss",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+      "captured_at_utc": "2026-11-05T23:27:49.122064+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ValueInvesting_rss",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+      "captured_at_utc": "2026-11-05T23:27:49.476668+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "Bogleheads_rss",
+      "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+      "captured_at_utc": "2026-11-05T23:27:49.783212+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ETFs_rss",
+      "url": "https://www.reddit.com/r/ETFs/new/.rss",
+      "captured_at_utc": "2026-11-05T23:27:49.991227+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "state_mutation": "reddit_state.json not changed; parent should mark only published selected claims as reported after inclusion in daily brief, with partial-coverage metadata. Do not advance full-scan-success as if all communities were read."
+}

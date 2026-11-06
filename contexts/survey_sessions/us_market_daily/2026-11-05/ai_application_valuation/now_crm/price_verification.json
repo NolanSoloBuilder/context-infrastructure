@@ -1,0 +1,98 @@
+{
+  "captured_at": "2026-11-05T03:03:52.301963+00:00",
+  "regular_session": "2026-11-04",
+  "regular_close_et": "2026-11-04T16:00:00-05:00",
+  "regular_close_beijing": "2026-11-05T05:00:00+08:00",
+  "currency": "USD",
+  "primary": [
+    {
+      "symbol": "NOW",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=5d&interval=1d&events=div%2Csplits",
+      "captured_at": "2026-11-05T02:48:56.373744+00:00",
+      "bars": [
+        {
+          "date": "2026-10-29T09:30:00-04:00",
+          "close": 109.66999816894531
+        },
+        {
+          "date": "2026-10-30T09:30:00-04:00",
+          "close": 105.12000274658203
+        },
+        {
+          "date": "2026-11-02T09:30:00-05:00",
+          "close": 106.01000213623047
+        },
+        {
+          "date": "2026-11-03T09:30:00-05:00",
+          "close": 109.16000366210938
+        },
+        {
+          "date": "2026-11-04T09:30:00-05:00",
+          "close": 108.80999755859375
+        }
+      ],
+      "regular_market_time": 1793826003,
+      "regular_market_price": 108.81
+    },
+    {
+      "symbol": "CRM",
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=5d&interval=1d&events=div%2Csplits",
+      "captured_at": "2026-11-05T02:48:56.373381+00:00",
+      "bars": [
+        {
+          "date": "2026-10-29T09:30:00-04:00",
+          "close": 230.89999389648438
+        },
+        {
+          "date": "2026-10-30T09:30:00-04:00",
+          "close": 229.1699981689453
+        },
+        {
+          "date": "2026-11-02T09:30:00-05:00",
+          "close": 226.17999267578125
+        },
+        {
+          "date": "2026-11-03T09:30:00-05:00",
+          "close": 222.1999969482422
+        },
+        {
+          "date": "2026-11-04T09:30:00-05:00",
+          "close": 227.11000061035156
+        }
+      ],
+      "regular_market_time": 1793826002,
+      "regular_market_price": 227.11
+    }
+  ],
+  "second_source": {
+    "NOW": {
+      "url": "https://stockanalysis.com/stocks/now/history/",
+      "regular_price": 108.81,
+      "timestamp_et": "2026-11-04 16:00 EST",
+      "price_difference_usd_to_rounded_yahoo": 0,
+      "after_hours": {
+        "price": 108.5,
+        "timestamp_et": "2026-11-04 19:59 EST",
+        "timestamp_beijing": "2026-11-05 08:59 CST",
+        "cross_verified": false
+      }
+    },
+    "CRM": {
+      "url": "https://stockanalysis.com/stocks/crm/history/",
+      "regular_price": 227.11,
+      "timestamp_et": "2026-11-04 16:00 EST",
+      "price_difference_usd_to_rounded_yahoo": 0,
+      "after_hours": {
+        "price": 227.68,
+        "timestamp_et": "2026-11-04 19:59 EST",
+        "timestamp_beijing": "2026-11-05 08:59 CST",
+        "cross_verified": false
+      }
+    }
+  },
+  "notes": [
+    "Both regular sources are third-party; match to USD0.01.",
+    "Yahoo daily bar timestamp is session open, not the close execution timestamp; regular quote and completed-session close independently matched.",
+    "After-hours quotes are single-source references, excluded from valuations; session has ended but quotes are not asserted as official final closes."
+  ]
+}

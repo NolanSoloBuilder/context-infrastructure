@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-06",
+  "market_session": "2026-11-05",
+  "next_session": "2026-11-06",
+  "reviewed_at": "2026-11-05T23:30:51.728477+00:00",
+  "timezone": "America/New_York",
+  "timezone_offset": "UTC-05:00",
+  "beijing_offset_hours": 13,
+  "calendar_window_et": [
+    "2026-11-06",
+    "2026-11-12"
+  ],
+  "market": {
+    "vix": {
+      "date": "2026-11-05",
+      "value": 28.18,
+      "previous": 16.61,
+      "change_points": 11.57,
+      "change_pct": 69.65683323299218,
+      "unit": "index_points",
+      "status": "closed",
+      "quote_time_et": "2026-11-05T16:15:01-05:00",
+      "quote_time_source": "yahoo_vix",
+      "sources": [
+        "cboe",
+        "yahoo_vix",
+        "reuters_vix"
+      ],
+      "gap": "Official historical CSV still only through November4; official headline already confirms November5 value."
+    },
+    "us2y": {
+      "date": "2026-11-05",
+      "yield_pct": 4.46,
+      "previous_yield_pct": 4.58,
+      "change_bp": -12,
+      "source": "treasury",
+      "definition": "par CMT yield derived near15:30ET indicative bid quotes"
+    },
+    "us10y": {
+      "date": "2026-11-05",
+      "yield_pct": 4.84,
+      "previous_yield_pct": 4.9,
+      "change_bp": -6,
+      "source": "treasury",
+      "definition": "par CMT yield derived near15:30ET indicative bid quotes"
+    },
+    "sgov": {
+      "asof": "2026-11-04",
+      "sec_30day_yield_pct": 3.83,
+      "trailing_12m_yield_pct": 3.63,
+      "expense_ratio_pct": 0.09,
+      "effective_duration_years": 0.11,
+      "source": "sgov",
+      "status": "latest_readable_official_snapshot_not_same_day_market_quote",
+      "not_total_return": true
+    }
+  },
+  "events": [
+    {
+      "id": "mrna_q3",
+      "title": "Moderna Q3电话会",
+      "reference_period": "2026Q3",
+      "time_et": "2026-11-06T08:00:00-05:00",
+      "time_beijing": "2026-11-06T21:00:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "mrna"
+    },
+    {
+      "id": "jobs_oct",
+      "title": "美国就业报告",
+      "reference_period": "2026-10",
+      "time_et": "2026-11-06T08:30:00-05:00",
+      "time_beijing": "2026-11-06T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "bls_nov"
+    },
+    {
+      "id": "cpi_oct",
+      "title": "美国CPI",
+      "reference_period": "2026-10",
+      "time_et": "2026-11-10T08:30:00-05:00",
+      "time_beijing": "2026-11-10T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "bls_cpi"
+    },
+    {
+      "id": "claims",
+      "title": "首次申请失业救济",
+      "reference_period": null,
+      "time_et": "2026-11-12T08:30:00-05:00",
+      "time_beijing": "2026-11-12T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "dol_claims"
+    },
+    {
+      "id": "cisco_q1",
+      "title": "Cisco FY2027Q1电话会",
+      "reference_period": "FY2027Q1",
+      "time_et": "2026-11-12T16:30:00-05:00",
+      "time_beijing": "2026-11-13T05:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "cisco"
+    },
+    {
+      "id": "amat_q4",
+      "title": "Applied Materials FY2026Q4电话会",
+      "reference_period": "FY2026Q4",
+      "time_et": "2026-11-12T16:30:00-05:00",
+      "time_beijing": "2026-11-13T05:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "amat"
+    }
+  ],
+  "outside_window": [
+    {
+      "id": "ppi_oct",
+      "title": "美国PPI",
+      "reference_period": "2026-10",
+      "time_et": "2026-11-13T08:30:00-05:00",
+      "time_beijing": "2026-11-13T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "bls_nov"
+    },
+    {
+      "id": "nvda_release",
+      "title": "NVDA FY2027Q3预计业绩发布",
+      "reference_period": "FY2027Q3",
+      "time_et": "2026-11-17T16:20:00-05:00",
+      "time_beijing": "2026-11-18T05:20:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "nvda"
+    },
+    {
+      "id": "nvda_call",
+      "title": "NVDA电话会",
+      "reference_period": "FY2027Q3",
+      "time_et": "2026-11-17T17:00:00-05:00",
+      "time_beijing": "2026-11-18T06:00:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "nvda"
+    },
+    {
+      "id": "fomc_minutes",
+      "title": "10月FOMC纪要",
+      "reference_period": null,
+      "time_et": "2026-11-18T14:00:00-05:00",
+      "time_beijing": "2026-11-19T03:00:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "fed_nov"
+    }
+  ],
+  "next_fomc_meeting": [
+    "2026-12-08",
+    "2026-12-09"
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "type": "official_exchange",
+      "read_scope": "2026 holiday table and core/extended hours",
+      "findings": "11/5 and 11/6 not holidays; normal 09:30–16:00 ET; November11 not a stock-exchange closure",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "bls_nov",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "type": "official_government",
+      "read_scope": "November calendar, updated November3 2026",
+      "findings": "Employment Situation October: November6 08:30 ET; CPI October: November10 08:30 ET; PPI October: November13 08:30 ET",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "bls_cpi",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "type": "official_government",
+      "read_scope": "release-specific schedule",
+      "findings": "October2026 CPI November10 08:30 ET corroborates monthly calendar",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "fomc_calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "type": "official_government",
+      "read_scope": "2026 meeting calendar",
+      "findings": "Most recent October27–28; next December8–9; no scheduled November6–12 meeting",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "fomc_statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "type": "official_government",
+      "read_scope": "October28 policy statement",
+      "findings": "Target3.75–4.00% held; released October28 14:00 EDT; already occurred",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "fed_nov",
+      "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "type": "official_government",
+      "read_scope": "November2026 calendar meetings and statistical-release holiday note",
+      "findings": "October27–28 minutes scheduled November18 14:00 ET; VeteransDay daily/weekly statistical releases deferred to November12; page footer unusually says November3 2025",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "dol_claims",
+      "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "type": "official_government",
+      "read_scope": "publication schedule and explicit holiday exceptions; updated September11 2026",
+      "findings": "Thursday08:30 EST schedule, November25 exception; November12 next date derived from this explicit published rule",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve",
+      "type": "official_government",
+      "read_scope": "November2–5 rows and curve methodology",
+      "findings": "November5 2yr4.46%,10yr4.84%; November4 4.58%,4.90%; indicative bid quotes near15:30 ET, not an executed bond trade",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "fred2",
+      "url": "https://fred.stlouisfed.org/series/DGS2",
+      "type": "official_republisher",
+      "read_scope": "latest observation block",
+      "findings": "November4 4.58%; observation update November5; not yet November5 observation",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "fred10",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "type": "official_republisher",
+      "read_scope": "latest observation block",
+      "findings": "November4 4.90%; not yet November5 observation",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "cboe",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "type": "official_index_provider",
+      "read_scope": "dated spot/change and market-data block",
+      "findings": "November5 28.18, +11.57/+69.66%; raw display9:15PM lacks timezone, not used as ET timestamp",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "cboe_csv",
+      "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "type": "official_index_provider",
+      "read_scope": "HTTP200 CSV latest seven rows",
+      "findings": "Last available row November4 close16.61; November5 not yet in CSV",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "yahoo_vix",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=1d",
+      "type": "third_party_market",
+      "read_scope": "HTTP200 five-day bars and metadata",
+      "findings": "November5 close28.180000305; metadata28.18 timestamp1793913301=16:15:01EST",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "reuters_vix",
+      "url": "https://new.streetinsider.com/Reuters/Wall%2BStreet%2Bfear%2Bgauge%2Bsoars%2Band%2Bretail%2Btraders%2Bbolt%2Bas%2Bmarkets%2Bin%2Btailspin%C2%A0/27298625.html",
+      "type": "newswire_republication",
+      "read_scope": "Reuters article dated November5; body closing paragraph",
+      "findings": "VIX close28.18; header13:32EST predates close and body appears updated without explicit update time; use close claim, not header time as quote time",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "sgov",
+      "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+      "type": "official_fund",
+      "read_scope": "dated headline/portfolio characteristics/expense ratio",
+      "findings": "30daySEC3.83% at November4;12m trailing3.63%;expense ratio0.09%;effective duration0.11yr; 0 holdings display not treated as factual inventory",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "mrna",
+      "url": "https://www.nasdaq.com/press-release/moderna-report-third-quarter-2026-financial-results-friday-november-6-2026-2026-10-13",
+      "type": "company_release_republication",
+      "read_scope": "Moderna October13 announcement distributed via ACCESS Newswire, full body",
+      "findings": "November6 08:00ET Q3 conference call; not yet occurred",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "mrna_ir",
+      "url": "https://investors.modernatx.com/events-presentations",
+      "type": "official_company",
+      "read_scope": "search-returned official event text; direct open upcoming block empty",
+      "findings": "November6 08:00ET call, corroborates company distributed release; dynamic render gap",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "cisco",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html?source=rss",
+      "type": "official_company",
+      "read_scope": "November3 scheduling announcement",
+      "findings": "November12 after market close results;16:30EST conference call",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "amat",
+      "url": "https://investor.appliedmaterials.com/events/event-details/q4-2026-applied-materials-earnings-conference-call",
+      "type": "official_company",
+      "read_scope": "event-specific time",
+      "findings": "November12 16:30EST FY2026Q4 conference call",
+      "reviewed_on_beijing": "2026-11-06"
+    },
+    {
+      "id": "nvda",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+      "type": "official_company",
+      "read_scope": "October28 scheduling announcement",
+      "findings": "November17 approx13:20PT=16:20EST results;17:00EST call; outside next seven calendar days",
+      "reviewed_on_beijing": "2026-11-06"
+    }
+  ],
+  "access_issues": [
+    "Old Treasury resource-center-data-chart-center path returned404; resolved using canonical current page linked from Treasury site.",
+    "Treasury homepage search returnedNovember5 but opened version showedMarch27; homepage not used for final rates.",
+    "Cboe initial search response reflected morning16.88; later official open/find gave28.18. Do not use early intraday figure as close.",
+    "Yahoo webpage headline percent69.78 conflicts with arithmetic/API and official69.66; recomputed from16.61 to28.18.",
+    "Cboe raw time9:15PM has no timezone; not labeled EST.",
+    "Moderna dynamic IR event block empty on direct open; official indexed text corroborated company release on Nasdaq.",
+    "SGOV displayed0holdings is a missing/render issue; not used."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "not_applied": true,
+  "publish_prerequisite": "Mark reported only after actual inclusion in the published daily brief, not merely local artifact creation.",
+  "report_date": "2026-11-06",
+  "partial_check_at_utc": "2026-11-05T23:27:48.718905+00:00",
+  "full_scan_complete": false,
+  "proposed_reported_posts": [
+    {
+      "id": "1xox8vh",
+      "claim_key": "ai_datacenter_requested_contracted_energized_capacity_new_discussion_2026_11_05"
+    },
+    {
+      "id": "1xomi9p",
+      "claim_key": "ai_selloff_policy_vs_valuation_sentiment_2026_11_05"
+    },
+    {
+      "id": "1xows2i",
+      "claim_key": "vgt_sector_bet_vs_broad_market_core_new_discussion_2026_11_05"
+    },
+    {
+      "id": "1xovbku",
+      "claim_key": "ai_selloff_policy_vs_valuation_sentiment_2026_11_05",
+      "relation": "merged supporting/opposing thread, do not push separately"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "series": 7,
+  "ranges_each": 4,
+  "independent_python_checks": [
+    "interval return",
+    "sample annualized volatility",
+    "peak-to-trough close drawdown",
+    "MA60 with warm-up"
+  ],
+  "asof": "2026-10-30"
+}

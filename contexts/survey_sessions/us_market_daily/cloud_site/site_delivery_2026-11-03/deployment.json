@@ -1,0 +1,68 @@
+{
+  "source": {
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "checkout_path": "/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/us_market_site",
+    "commit_sha": "234374ed03be90dff6a889641f28593b2b00d017",
+    "archive": "/tmp/nolan-market-watch-daily-final-20261103.tar.gz"
+  },
+  "version": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5b91e6e0101c8191a71975d7715d15f4",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 16,
+    "source": {
+      "commit_sha": "234374ed03be90dff6a889641f28593b2b00d017"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000382082119157a74db6b5b06a",
+      "content_hash": "sha256:03d294eade28501447568ee5f0bd240d36faba81e5073c597ed5bbbd7c8ded92",
+      "size_bytes": 3246080,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ae952b10e1c8191bae9db8dea451795",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5b91e6e0101c8191a71975d7715d15f4",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-03T03:19:37.570353+00:00"
+  },
+  "previous_deployment": {
+    "id": "appgdep_6ae951e035108191b26bb2b2448d7cfb",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_ad6179b413708191a16c1e3a7f00573d",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-03T03:16:07.659131+00:00"
+  },
+  "automation_id": "automation-3",
+  "delivery": "existing public site; local evidence only",
+  "checks": {
+    "research_date": "2026-11-03",
+    "market_session": "2026-11-02",
+    "refreshed": 17,
+    "total": 17,
+    "archive_dates": [
+      "2026-11-02",
+      "2026-10-30"
+    ],
+    "targeted_checks": "research schema/privacy/XSS, renderer, history, router, auto-refresh and historical navigation; no new visual browser acceptance claimed"
+  }
+}

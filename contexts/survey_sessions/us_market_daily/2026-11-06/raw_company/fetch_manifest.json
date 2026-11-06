@@ -1,0 +1,59 @@
+[
+  {
+    "id": "cgnx_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000082/cgnx-20261004.htm",
+    "captured_at": "2026-11-05T23:28:12.587587+00:00",
+    "bytes": 1310336,
+    "status": "read"
+  },
+  {
+    "id": "sofi_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000070/sofi-20260930.htm",
+    "captured_at": "2026-11-05T23:28:12.588192+00:00",
+    "bytes": 5660271,
+    "status": "read"
+  },
+  {
+    "id": "goog_8k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+    "captured_at": "2026-11-05T23:28:12.588281+00:00",
+    "bytes": 74678,
+    "status": "read"
+  },
+  {
+    "id": "soxx_497",
+    "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526430480/d156277d497.htm",
+    "captured_at": "2026-11-05T23:28:12.588352+00:00",
+    "bytes": 2861,
+    "status": "read"
+  },
+  {
+    "id": "mrna_events",
+    "url": "https://investors.modernatx.com/events-presentations",
+    "captured_at": "2026-11-05T23:28:13.284400+00:00",
+    "bytes": 223125,
+    "status": "read"
+  },
+  {
+    "id": "epam_q3_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000048/exhibit99_q3x2026.htm",
+    "captured_at": "2026-11-05T23:31:47.098216+00:00",
+    "status": "read",
+    "bytes": 284187
+  },
+  {
+    "id": "goog_424b2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
+    "captured_at": "2026-11-05T23:32:23.561487+00:00",
+    "status": "read",
+    "bytes": 601344
+  },
+  {
+    "id": "epam_ir_failed",
+    "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Third-Quarter-2026/default.aspx",
+    "status": "http_403",
+    "captured_at": "2026-11-05T23:31:00+00:00",
+    "capture_time_precision": "minute_approximate",
+    "fallback": "Same release fully read from SEC exhibit99_q3x2026.htm; no inaccessible body relied upon"
+  }
+]

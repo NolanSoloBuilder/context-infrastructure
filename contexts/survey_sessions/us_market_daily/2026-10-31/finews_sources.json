@@ -1,0 +1,60 @@
+{
+  "report_date_beijing": "2026-10-31",
+  "collected_at_utc": "2026-10-30T23:31:34.566216+00:00",
+  "source": "https://finews.fyi/",
+  "page_trade_date": "2026-10-30",
+  "page_updated_at_utc": "2026-10-30T22:10:49Z",
+  "page_updated_at_beijing": "2026-10-31T06:10:49+08:00",
+  "read_scope": "Entire rendered text of latest root page: afterhours summary,calendar,16mainnewslinks,valuationtemperature,majorquotes,treasuryreference. First web open initially staleOct29,second root read andcurl actualOct30.",
+  "raw_file": "reddit_raw/finews_latest.txt",
+  "raw_sha256": "e7aa95f271d32c60419755bdbddab6293bb2dc4f35f8a6d8b1e1f20400f0c73f",
+  "archived_day_url_status": "web tool could not access /2026-10-30; root canonical actually read",
+  "items": [
+    {
+      "id": "meta_credit_outlook_negative_2026_10_30",
+      "aggregator_claim": "Meta outlook revised to negative amid capex/cashflow concerns",
+      "event_time_et": "2026-10-30T17:01:00-04:00",
+      "event_time_beijing": "2026-10-31T05:01:00+08:00",
+      "status": "rating_action_verified_primary;reason_only_secondary",
+      "primary_sources": [
+        {
+          "url": "https://www.spglobal.com/ratings/en/regulatory/ratings-actions?tz=hkt",
+          "read_scope": "Rows101-134 Meta local/foreign LT;AA- unchanged,Stable toNegative,Revised,17:01EDT"
+        }
+      ],
+      "secondary_sources": [
+        {
+          "url": "https://www.streetinsider.com/Reuters/S%26P%2BGlobal%2Brevises%2Boutlook%2Bon%2BMeta%2Bto%2Bnegative%2Bon%2Bcashflow%2Bconcerns/27267040.html",
+          "read_scope": "Reuters17:14EDT report referring to capex/FOCF uncertainty;not the fullS&P rationale"
+        }
+      ],
+      "claim": "AA- rating affirmed; outlook revisedStable toNegative. Not rating downgrade or change toAlphabet.",
+      "relevance": "MAGS andQQQM mega-cap AI funding risk;no actual dated holding weights asserted",
+      "strongest_counterargument": "Meta may fund commitments and monetizeAI;credit outlook does not mechanically set stock fair value or imply all hyperscalers samebalance sheet.",
+      "next_check": "Fullratingrationale,leasefunding,actualfuturecashconversion;keep credit adjustedFOCF distinct from issuerFCF."
+    },
+    {
+      "id": "okta_sp500_addition_2026_11_04",
+      "status": "verified_primary_announcement",
+      "event_date": "2026-10-30",
+      "effective_date": "2026-11-04 before marketopen",
+      "primary_sources": [
+        {
+          "url": "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600",
+          "read_scope": "Official announcement and index change table;OKTA replacesKVUE"
+        }
+      ],
+      "claim": "Okta will replaceKenvue inSP500 beforeNov4open.",
+      "relevance": "VOO index maintenance;not evidenceVOO suddenly cheaper norreason to chase individual stock.",
+      "next_check": "Effective index holdings and issuer official implementation;not current weight estimate."
+    }
+  ],
+  "excluded_or_unverified": [
+    "FiNews calendar timing not adopted;nonfarm22:30Beijing likely conflicts withEST08:30=>21:30,delegateBLSverification.",
+    "META FOCF39B/71B are reportedS&P forecasts,not issuer guidance,not reproduced as verifiedcompanyoutlook.",
+    "Marketdrops,pricechanges andtreasuryreferences not used as newprimarypriceverification.",
+    "Intelweakoutlook headline not checkedagainstIR inthissubtask.",
+    "SameYahoo markettable reusedacrossmultiplebulletpoints isnot independentcorroboration.",
+    "Notfinancialadviceorbuytrigger;no watchlistorbudgetexpansion."
+  ]
+}

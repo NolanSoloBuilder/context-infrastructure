@@ -1,0 +1,118 @@
+{
+  "report_date_beijing": "2026-10-31",
+  "collected_at_utc": "2026-10-30T23:30:50.819217+00:00",
+  "coverage_status": "partial_original_read_with_feed_access_and_absolute_timestamp_gaps",
+  "complete_reddit_scan": false,
+  "fresh24h_verified_items": 0,
+  "candidate72h_research_updates": 1,
+  "state_not_updated": true,
+  "items": [
+    {
+      "item_id": "oracle_customer_prefunding_vs_economic_returns_2026_10_28",
+      "canonical_url": "https://www.reddit.com/r/stocks/comments/1xikh3k/oracle_jumped_11_after_putting_a_date_on_positive/",
+      "post_id": "1xikh3k",
+      "subreddit": "stocks",
+      "original_title": "Oracle jumped 11% after putting a date on positive free cash flow. It is still56% below its record",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "event_date": "2026-10-28",
+      "collected_at_utc": "2026-10-30T23:30:50.819217+00:00",
+      "freshness_status": "event_within72h_but_absolute_post_timestamp_unverified;cached_relative_times_not_used",
+      "read_scope": [
+        "original post title and complete body via publicly readable indexed original",
+        "one substantive contrary comment about unchanged capex despite FCF timeline"
+      ],
+      "comment_scope_limit": "Only one substantive contrary comment read; no claim of representative multi/bear consensus; no absolute comment timestamp",
+      "heat": null,
+      "classification": "verified_management_forward_guidance_plus_unverified_forum_price_and_valuation_interpretation",
+      "key_claims": [
+        "Oracle targets positive free cash flow in H2FY28 and at least30BUSD inFY29.",
+        "Additional capital raising cap20BUSD throughFY30 excludes refinancing and is additional to20BUSD equity already raised inQ1FY27.",
+        "Customer prepayments/customer hardware/vendor finance expected to reduce upfront cash needs."
+      ],
+      "counterargument": "A future FCF date is conditional; prepayment and vendor finance change timing and counterparties, not automatically project lifetime return, dilution or total obligations.",
+      "verification_sources": [
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx",
+          "type": "company_IR",
+          "event_date": "2026-10-28",
+          "read_scope": "Official guidance, funding paragraph and forward-looking qualifier",
+          "status": "verified_company_targets_not_actual_results"
+        }
+      ],
+      "relevance": "Research comparison for GOOG/QQQM AI spending; not addingORCL to watchlist or determining buy trigger",
+      "next_check": "Actual customer prepayments, future obligations, collections and share count; compare lifetime project cash return rather than headline FCF turning positive."
+    }
+  ],
+  "deduplication": {
+    "state_file": "../reddit_state.json",
+    "old_claims_excluded": [
+      "google_q3_revenue_mix_vs_cash_returns_2026_10_29"
+    ],
+    "method": "Previously reported Google diversification and PT290 discussion not repeated as new."
+  },
+  "access_failures": [
+    {
+      "label": "stocks_new",
+      "url": "https://www.reddit.com/r/stocks/new/.rss",
+      "status": "403",
+      "bytes": 1522,
+      "captured_at_utc": "2026-10-30T23:29:12.533784+00:00",
+      "error": ""
+    },
+    {
+      "label": "investing_top",
+      "url": "https://www.reddit.com/r/investing/top/.rss?t=day",
+      "status": "403",
+      "bytes": 1522,
+      "captured_at_utc": "2026-10-30T23:29:12.537850+00:00",
+      "error": ""
+    },
+    {
+      "label": "SecurityAnalysis_new",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+      "status": "403",
+      "bytes": 1522,
+      "captured_at_utc": "2026-10-30T23:29:12.543329+00:00",
+      "error": ""
+    },
+    {
+      "label": "ValueInvesting_new",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+      "status": "403",
+      "bytes": 1522,
+      "captured_at_utc": "2026-10-30T23:29:12.551386+00:00",
+      "error": ""
+    },
+    {
+      "label": "Bogleheads_new",
+      "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+      "status": "403",
+      "bytes": 1522,
+      "captured_at_utc": "2026-10-30T23:29:12.765700+00:00",
+      "error": ""
+    },
+    {
+      "label": "ETFs_new",
+      "url": "https://www.reddit.com/r/ETFs/new/.rss",
+      "status": "403",
+      "bytes": 1522,
+      "captured_at_utc": "2026-10-30T23:29:12.794073+00:00",
+      "error": ""
+    },
+    {
+      "label": "finews_latest",
+      "url": "https://finews.fyi/",
+      "status": "200",
+      "bytes": 71849,
+      "captured_at_utc": "2026-10-30T23:29:13.961687+00:00",
+      "error": ""
+    }
+  ],
+  "feed_notes": [
+    "Web stocksNew still showedOct29 daily thread and prior Google posts; relative6m/3h ignored.",
+    "Web investingTop cache was2weeks old; cannot represent todayTop.",
+    "All six public RSS requests returned403; stopped, no login, no bypass.",
+    "Focused searches did not produce a datedOct30 relevant original; this is incomplete coverage, not proof that none exists."
+  ]
+}

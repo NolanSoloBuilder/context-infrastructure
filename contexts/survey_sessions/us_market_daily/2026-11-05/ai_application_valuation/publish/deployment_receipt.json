@@ -1,0 +1,40 @@
+{
+  "saved": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5c1d087026b8819185258c81a5967f58",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 20,
+    "source": {
+      "commit_sha": "2dd5bc0dea78eb9d7a4876e2d885a4a2ab161eb2"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000808882119cfe00bd7d5fbb34",
+      "content_hash": "sha256:ab55477e96955c3c592a06a8c065752cac7e01bffab8b60aa7bbb9514efcec52",
+      "size_bytes": 3338240,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6aebf2f372f48191bffa2f57406eb51f",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5c1d087026b8819185258c81a5967f58",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-05T03:07:54.604968+00:00"
+  },
+  "source": {
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "checkout_path": "/Users/xuhao/Documents/Other/context-infrastructure/adhoc_jobs/us_market_site",
+    "commit_sha": "2dd5bc0dea78eb9d7a4876e2d885a4a2ab161eb2",
+    "archive": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-05/ai_application_valuation/publish/site-artifact.tar.gz"
+  }
+}

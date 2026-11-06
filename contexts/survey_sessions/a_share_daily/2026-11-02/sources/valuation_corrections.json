@@ -1,0 +1,12 @@
+{
+  "source_image": "../2026-10-31/sources/3004_valuation.jpg",
+  "corrections": [
+    {
+      "name": "上证指数",
+      "previous": "本期未提供对应指标",
+      "corrected": "PE16.05倍、PB1.39倍，正常",
+      "reason": "前版漏读了原图正常区上证指数行"
+    }
+  ],
+  "overall_star_unchanged": true
+}

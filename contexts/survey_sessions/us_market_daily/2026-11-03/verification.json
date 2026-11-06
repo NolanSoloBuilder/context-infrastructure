@@ -1,0 +1,58 @@
+{
+  "status": "passed_with_disclosed_gaps",
+  "session": "2026-11-02",
+  "report_date_beijing": "2026-11-03",
+  "checked_at_utc": "2026-11-02T23:37:28.835028+00:00",
+  "regular_closes_crosschecked": 18,
+  "regular_metrics_count": 33,
+  "watchlist_count": 17,
+  "chart_checks": [
+    {
+      "symbol": "QQQM",
+      "daily_points": 60,
+      "start": "2026-08-10",
+      "end": "2026-11-02",
+      "normalized_end": 94.488794,
+      "drawdown_end_pct": -10.704678555745117,
+      "no_lookahead": true
+    },
+    {
+      "symbol": "VOO",
+      "daily_points": 60,
+      "start": "2026-08-10",
+      "end": "2026-11-02",
+      "normalized_end": 97.279953,
+      "drawdown_end_pct": -3.7788584750920284,
+      "no_lookahead": true
+    },
+    {
+      "symbol": "BRK-B",
+      "daily_points": 60,
+      "start": "2026-08-10",
+      "end": "2026-11-02",
+      "normalized_end": 105.041367,
+      "drawdown_end_pct": -0.2332193278916539,
+      "no_lookahead": true
+    }
+  ],
+  "chart_visual_check": "both PNGs opened; date/signs/Chinese/terminal values readable",
+  "alerts": "QQQM andVOO eligible for update, no new tier; BRK.B high discrepancy deferred and last valid state preserved",
+  "high_discrepancies": {
+    "QQQM": "314.11 Yahoo /314.12 StockAnalysis, disclosed",
+    "BRK.B": "557.41 Yahoo /557.59 StockAnalysis, defer persistent high/threshold update"
+  },
+  "holdings": "2026-11-02 authorized local baseline; no broker login or quantity refresh; actualGOOG distinct from researchGOOGL",
+  "gaps": [
+    "BRK.B exact high unresolved",
+    "Reddit24hour scan incomplete; RSS403; original absolute timestamp missing",
+    "index valuation denominator and full constituent breadth unverified",
+    "SoFiQ3full10Q not yet in currentSEC list",
+    "GoogleTPU standalone margins/real prepayment cash absent; EUR bond not settled",
+    "automatic quote sources may share upstream; not official exchange tick audit"
+  ],
+  "report_sha256": "836ca573459db7d96ce46e7b40b5d3c1ca403f96963339738c5d5c555beedeb4",
+  "no_orders": true,
+  "public_site_untouched": true,
+  "new_company_fact": "GoogleEUR6bn notes pricing11/2; expected settlement11/5",
+  "sgov_ex_dividend": "11/2 exdate0.328581; SEC3.79asof10/30"
+}

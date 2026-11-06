@@ -1,0 +1,9 @@
+{
+  "market_session": "2026-11-05",
+  "regular_daily_metrics_invalid": {
+    "SOXX": "3:1 split mixed units; raw collect metrics must not be consumed as valid return or trend. Site rejects series and retains 2026-11-04.",
+    "XSW": "2026-11-05 open 211.65 exceeds high 209.00; source OHLC invalid. Site retains 2026-11-04."
+  },
+  "raw_preserved": true,
+  "authoritative_public_metrics": "published seed / live state with per-symbol market date; invalid local raw-derived values excluded"
+}

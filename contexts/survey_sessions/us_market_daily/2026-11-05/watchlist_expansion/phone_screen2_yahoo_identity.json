@@ -1,0 +1,38 @@
+[
+  {
+    "requested": "AMZN",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=5y&interval=1d",
+    "captured_at": "2026-11-05T03:27:24.358101+00:00",
+    "symbol": "AMZN",
+    "shortName": "Amazon.com, Inc.",
+    "longName": "Amazon.com, Inc.",
+    "instrumentType": "EQUITY",
+    "currency": "USD",
+    "exchangeName": "NMS",
+    "fullExchangeName": "NasdaqGS",
+    "firstTradeDate": 863703000,
+    "regularMarketTime": 1793826001,
+    "regularMarketPrice": 266.03,
+    "first_bar_unix": 1636119000,
+    "last_bar_unix": 1793802600,
+    "bar_count": 1254
+  },
+  {
+    "requested": "INTC",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=5y&interval=1d",
+    "captured_at": "2026-11-05T03:27:24.629981+00:00",
+    "symbol": "INTC",
+    "shortName": "Intel Corporation",
+    "longName": "Intel Corporation",
+    "instrumentType": "EQUITY",
+    "currency": "USD",
+    "exchangeName": "NMS",
+    "fullExchangeName": "NasdaqGS",
+    "firstTradeDate": 322151400,
+    "regularMarketTime": 1793826001,
+    "regularMarketPrice": 58.27,
+    "first_bar_unix": 1636119000,
+    "last_bar_unix": 1793802600,
+    "bar_count": 1254
+  }
+]

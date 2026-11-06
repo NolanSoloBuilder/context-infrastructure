@@ -1,0 +1,25 @@
+{
+  "asof": "2026-11-02",
+  "issue": "3005",
+  "counts": {
+    "低估": 21,
+    "正常": 29,
+    "高估": 0
+  },
+  "review": "逐行读取已归档作者完整常规原图，数值及基金代码逐项复核；整体4.8星采用文章正文",
+  "classification_changes": [
+    {
+      "name": "中证价值",
+      "previous": "低估",
+      "current": "正常"
+    },
+    {
+      "name": "北证50",
+      "previous": "低估",
+      "current": "正常"
+    }
+  ],
+  "previous_issue": "3004",
+  "previous_star": 4.9,
+  "current_star": 4.8
+}

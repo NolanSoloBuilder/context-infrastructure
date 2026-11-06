@@ -1,0 +1,775 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-05",
+  "reviewed_at": "2026-11-05T03:03:52.301963+00:00",
+  "financial_units": "USD million; shares million; price USD/share",
+  "market_session": "2026-11-04",
+  "sources": {
+    "now_q3": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm",
+    "now_fy25": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
+    "now_release": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+    "crm_q2": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
+    "crm_fy26": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+    "crm_release": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
+    "crm_fin": "https://www.salesforce.com/news/press-releases/2026/09/10/salesforce-completes-acquisition-of-fin/",
+    "crm_contentful": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-contentful/",
+    "crm_m3ter": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-m3ter/",
+    "crm_loops": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/",
+    "crm_braze": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/?bc=DB",
+    "now_price": "https://stockanalysis.com/stocks/now/history/",
+    "crm_price": "https://stockanalysis.com/stocks/crm/history/"
+  },
+  "formulas": {
+    "ttm": "FY + current YTD - comparable prior YTD",
+    "owner_levered_cash_proxy": "CFO - cash capex - SBC cashflow addback - recurring financing-obligation principal",
+    "owner_fcff_proxy": "owner_levered_cash_proxy + (cash interest paid - reported interest income proxy) * (1 - 0.235)",
+    "enterprise_value": "sum(Ft/(1+r)^t, t=1..10) + F10*(1+gT)/(r-gT)/(1+r)^10",
+    "equity_value": "legacy enterprise_value - interest-bearing principal + cash and marketable securities - post-balance completed acquisition reserve + post-balance acquired-business value placeholder; strategic investments excluded in base",
+    "margin_price": "0.8 * base intrinsic value; research margin, not approved buy order",
+    "sbc_rule": "Economic SBC deducted once; no additional future share dilution or cash buyback cost assumed for the same compensation. Current diluted-share claims remain in denominator."
+  },
+  "companies": {
+    "NOW": {
+      "inputs": {
+        "financial_asof": "2026-09-30",
+        "release_date": "2026-10-28",
+        "price": 108.81,
+        "diluted_shares": 1043.011,
+        "share_basis": "Q3 2026 weighted diluted shares; 5-for-1 Dec 17 2025 split restated; no further dilution forecast after expensing SBC",
+        "periods": {
+          "fy": {
+            "cfo": 5444,
+            "capex": 868,
+            "sbc_cashflow": 1955,
+            "cash_interest_paid": 22,
+            "interest_income": 451,
+            "acquisition_cash_cost": 60,
+            "financing_obligation_principal": 0
+          },
+          "ytd": {
+            "cfo": 3096,
+            "capex": 346,
+            "sbc_cashflow": 1829,
+            "cash_interest_paid": 50,
+            "interest_income": 227,
+            "acquisition_cash_cost": 371,
+            "financing_obligation_principal": 0
+          },
+          "prior_ytd": {
+            "cfo": 3206,
+            "capex": 630,
+            "sbc_cashflow": 1461,
+            "cash_interest_paid": 22,
+            "interest_income": 346,
+            "acquisition_cash_cost": 28,
+            "financing_obligation_principal": 0
+          }
+        },
+        "balance": {
+          "cash": 2393,
+          "short_securities": 2214,
+          "long_securities": 2354,
+          "debt_principal_approx": 7600,
+          "debt_carrying": 7524,
+          "strategic_investments_excluded": 2050,
+          "post_balance_completed_acquisition_reserve": 0
+        },
+        "quarter": {
+          "revenue": 4106,
+          "gaap_operating_income": 385,
+          "sbc_pl": 633,
+          "acquisition_amortization": 198,
+          "acquisition_related_cost": 35,
+          "severance": 87,
+          "non_gaap_operating_income": 1338,
+          "gaap_net_income": 277,
+          "non_gaap_net_income": 1039,
+          "gaap_diluted_eps": 0.27,
+          "cash_flow_cfo": 839,
+          "capex": 91,
+          "company_fcf": 822
+        },
+        "assumption_notes": [
+          "Debt principal 7,600 is rounded: senior notes 5,500 + commercial paper approximately 2,100; fair-value sensitivity versus carrying debt is about $0.07/share.",
+          "TTM cash interest paid is used rather than accrued interest expense because CFO is cash based. Interest received is approximated with reported interest income; exact timing/tax and finance lease interest separation remain a model limitation.",
+          "Base reverses 50% of after-tax acquisition cash costs; bear zero, bull 100%. This is analyst normalization, not management guidance.",
+          "Strategic investments are excluded from base equity bridge; full reported book-value inclusion sensitivity is disclosed, not an assertion of zero value."
+        ]
+      },
+      "ttm": {
+        "cfo": 5334,
+        "capex": 584,
+        "sbc_cashflow": 2323,
+        "cash_interest_paid": 50,
+        "interest_income": 332,
+        "acquisition_cash_cost": 403,
+        "financing_obligation_principal": 0,
+        "standard_fcf": 4750,
+        "owner_levered_cash_proxy": 2427,
+        "net_interest_tax_adjustment": -215.73,
+        "owner_fcff_proxy": 2211.27
+      },
+      "liquid_assets": 6961,
+      "historical_net_debt": 639,
+      "model_net_debt": 639,
+      "scenarios": {
+        "bear": {
+          "f0": 2211.27,
+          "growth_years_1_5": 0.12,
+          "growth_years_6_10": 0.06,
+          "discount_rate": 0.115,
+          "terminal_growth": 0.025,
+          "annual_cashflows": [
+            {
+              "year": 1,
+              "owner_fcff": 2476.6224,
+              "discounted_owner_fcff": 2221.18600896861
+            },
+            {
+              "year": 2,
+              "owner_fcff": 2773.8170880000007,
+              "discounted_owner_fcff": 2231.1464843451513
+            },
+            {
+              "year": 3,
+              "owner_fcff": 3106.675138560001,
+              "discounted_owner_fcff": 2241.1516255305555
+            },
+            {
+              "year": 4,
+              "owner_fcff": 3479.4761551872016,
+              "discounted_owner_fcff": 2251.2016328199306
+            },
+            {
+              "year": 5,
+              "owner_fcff": 3897.0132938096663,
+              "discounted_owner_fcff": 2261.2967074065673
+            },
+            {
+              "year": 6,
+              "owner_fcff": 4130.834091438246,
+              "discounted_owner_fcff": 2149.7529236331493
+            },
+            {
+              "year": 7,
+              "owner_fcff": 4378.684136924541,
+              "discounted_owner_fcff": 2043.7112995974337
+            },
+            {
+              "year": 8,
+              "owner_fcff": 4641.405185140014,
+              "discounted_owner_fcff": 1942.9004283168429
+            },
+            {
+              "year": 9,
+              "owner_fcff": 4919.889496248415,
+              "discounted_owner_fcff": 1847.062290597178
+            },
+            {
+              "year": 10,
+              "owner_fcff": 5215.08286602332,
+              "discounted_owner_fcff": 1755.9515946484382
+            }
+          ],
+          "pv_explicit_cashflows": 20945.360995863855,
+          "pv_terminal": 19998.337605718323,
+          "terminal_share_of_ev": 0.4884350532256393,
+          "enterprise_value": 40943.698601582175,
+          "net_debt_deduction": 639,
+          "acquired_business_value_placeholder": 0,
+          "equity_value": 40304.698601582175,
+          "diluted_shares": 1043.011,
+          "fair_value_per_share": 38.64264001202497,
+          "price_vs_value_pct": 181.58014039967267,
+          "value_vs_price_pct": -64.48613177830624
+        },
+        "base": {
+          "f0": 2365.4175,
+          "growth_years_1_5": 0.2,
+          "growth_years_6_10": 0.1,
+          "discount_rate": 0.1,
+          "terminal_growth": 0.03,
+          "annual_cashflows": [
+            {
+              "year": 1,
+              "owner_fcff": 2838.5009999999997,
+              "discounted_owner_fcff": 2580.455454545454
+            },
+            {
+              "year": 2,
+              "owner_fcff": 3406.2011999999995,
+              "discounted_owner_fcff": 2815.042314049586
+            },
+            {
+              "year": 3,
+              "owner_fcff": 4087.441439999999,
+              "discounted_owner_fcff": 3070.955251690457
+            },
+            {
+              "year": 4,
+              "owner_fcff": 4904.929727999999,
+              "discounted_owner_fcff": 3350.133001844135
+            },
+            {
+              "year": 5,
+              "owner_fcff": 5885.915673599999,
+              "discounted_owner_fcff": 3654.6905474663286
+            },
+            {
+              "year": 6,
+              "owner_fcff": 6474.507240959999,
+              "discounted_owner_fcff": 3654.690547466328
+            },
+            {
+              "year": 7,
+              "owner_fcff": 7121.957965055999,
+              "discounted_owner_fcff": 3654.6905474663276
+            },
+            {
+              "year": 8,
+              "owner_fcff": 7834.1537615616,
+              "discounted_owner_fcff": 3654.6905474663276
+            },
+            {
+              "year": 9,
+              "owner_fcff": 8617.56913771776,
+              "discounted_owner_fcff": 3654.690547466328
+            },
+            {
+              "year": 10,
+              "owner_fcff": 9479.326051489537,
+              "discounted_owner_fcff": 3654.6905474663276
+            }
+          ],
+          "pv_explicit_cashflows": 33744.7293069276,
+          "pv_terminal": 53776.16091271882,
+          "terminal_share_of_ev": 0.6144380019188529,
+          "enterprise_value": 87520.89021964642,
+          "net_debt_deduction": 639,
+          "acquired_business_value_placeholder": 0,
+          "equity_value": 86881.89021964642,
+          "diluted_shares": 1043.011,
+          "fair_value_per_share": 83.29911210873752,
+          "price_vs_value_pct": 30.6256420332079,
+          "value_vs_price_pct": -23.445352349290026
+        },
+        "bull": {
+          "f0": 2519.565,
+          "growth_years_1_5": 0.24,
+          "growth_years_6_10": 0.12,
+          "discount_rate": 0.09,
+          "terminal_growth": 0.035,
+          "annual_cashflows": [
+            {
+              "year": 1,
+              "owner_fcff": 3124.2606,
+              "discounted_owner_fcff": 2866.294128440367
+            },
+            {
+              "year": 2,
+              "owner_fcff": 3874.083144,
+              "discounted_owner_fcff": 3260.7382745560135
+            },
+            {
+              "year": 3,
+              "owner_fcff": 4803.86309856,
+              "discounted_owner_fcff": 3709.4637251829877
+            },
+            {
+              "year": 4,
+              "owner_fcff": 5956.790242214401,
+              "discounted_owner_fcff": 4219.940384611838
+            },
+            {
+              "year": 5,
+              "owner_fcff": 7386.419900345857,
+              "discounted_owner_fcff": 4800.6661256134685
+            },
+            {
+              "year": 6,
+              "owner_fcff": 8272.790288387361,
+              "discounted_owner_fcff": 4932.794551089069
+            },
+            {
+              "year": 7,
+              "owner_fcff": 9265.525122993846,
+              "discounted_owner_fcff": 5068.559538733723
+            },
+            {
+              "year": 8,
+              "owner_fcff": 10377.388137753109,
+              "discounted_owner_fcff": 5208.061177414467
+            },
+            {
+              "year": 9,
+              "owner_fcff": 11622.674714283483,
+              "discounted_owner_fcff": 5351.402310737801
+            },
+            {
+              "year": 10,
+              "owner_fcff": 13017.395679997502,
+              "discounted_owner_fcff": 5498.688612868199
+            }
+          ],
+          "pv_explicit_cashflows": 44916.60882924793,
+          "pv_terminal": 103475.32207851975,
+          "terminal_share_of_ev": 0.6973109753712576,
+          "enterprise_value": 148391.93090776767,
+          "net_debt_deduction": 639,
+          "acquired_business_value_placeholder": 0,
+          "equity_value": 147752.93090776767,
+          "diluted_shares": 1043.011,
+          "fair_value_per_share": 141.65999295095418,
+          "price_vs_value_pct": -23.189322734420557,
+          "value_vs_price_pct": 30.19023338935225
+        }
+      },
+      "base_20pct_margin_price": 66.63928968699001,
+      "price_to_base_owner_cashflow": 47.97885654857969,
+      "standard_fcf_yield_pct": 4.185389790916915,
+      "owner_cash_yield_pct": 2.1385138994853374,
+      "reverse_dcf_first_5yr_growth": 0.2697320757853344,
+      "strategic_portfolio_full_book_per_share_sensitivity": 1.9654634514880476,
+      "sensitivity": [
+        {
+          "discount_rate": 0.09,
+          "terminal_growth": 0.02,
+          "fair_value_per_share": 89.44789084568447
+        },
+        {
+          "discount_rate": 0.09,
+          "terminal_growth": 0.025,
+          "fair_value_per_share": 94.04631152041543
+        },
+        {
+          "discount_rate": 0.09,
+          "terminal_growth": 0.03,
+          "fair_value_per_share": 99.4111356409349
+        },
+        {
+          "discount_rate": 0.1,
+          "terminal_growth": 0.02,
+          "fair_value_per_share": 76.41629262502819
+        },
+        {
+          "discount_rate": 0.1,
+          "terminal_growth": 0.025,
+          "fair_value_per_share": 79.6282750507592
+        },
+        {
+          "discount_rate": 0.1,
+          "terminal_growth": 0.03,
+          "fair_value_per_share": 83.29911210873752
+        },
+        {
+          "discount_rate": 0.11,
+          "terminal_growth": 0.02,
+          "fair_value_per_share": 66.3752634697274
+        },
+        {
+          "discount_rate": 0.11,
+          "terminal_growth": 0.025,
+          "fair_value_per_share": 68.69741380798641
+        },
+        {
+          "discount_rate": 0.11,
+          "terminal_growth": 0.03,
+          "fair_value_per_share": 71.3098329385278
+        }
+      ]
+    },
+    "CRM": {
+      "inputs": {
+        "financial_asof": "2026-07-31",
+        "release_date": "2026-08-26",
+        "price": 227.11,
+        "diluted_shares": 827,
+        "share_basis": "Management Q3 FY27 diluted-share guidance, provisional after large ASR; Q2 actual weighted diluted 821m and Aug20 outstanding 823m. Final ASR settlement shares not verified.",
+        "periods": {
+          "fy": {
+            "cfo": 14996,
+            "capex": 594,
+            "sbc_cashflow": 3509,
+            "cash_interest_paid": 276,
+            "interest_income": 539,
+            "acquisition_cash_cost": 0,
+            "financing_obligation_principal": 584
+          },
+          "ytd": {
+            "cfo": 7970,
+            "capex": 316,
+            "sbc_cashflow": 1763,
+            "cash_interest_paid": 240,
+            "interest_income": 206,
+            "acquisition_cash_cost": 0,
+            "financing_obligation_principal": 306
+          },
+          "prior_ytd": {
+            "cfo": 7216,
+            "capex": 314,
+            "sbc_cashflow": 1607,
+            "cash_interest_paid": 115,
+            "interest_income": 319,
+            "acquisition_cash_cost": 0,
+            "financing_obligation_principal": 278
+          }
+        },
+        "balance": {
+          "cash": 8310,
+          "short_securities": 3093,
+          "long_securities": 0,
+          "debt_principal_approx": 39500,
+          "debt_carrying": 39288,
+          "strategic_investments_excluded": 11324,
+          "post_balance_completed_acquisition_reserve": 5100
+        },
+        "quarter": {
+          "revenue": 11345,
+          "informatica_revenue": 456,
+          "prior_revenue": 10236,
+          "gaap_operating_income": 2331,
+          "sbc_pl_ex_restructuring": 904,
+          "acquisition_amortization": 522,
+          "restructuring_acquisition_cost": 115,
+          "non_gaap_operating_income": 3872,
+          "gaap_net_income": 3526,
+          "non_gaap_net_income": 4844,
+          "gaap_diluted_eps": 4.29,
+          "non_gaap_diluted_eps": 5.9,
+          "six_month_investment_gains": 3171,
+          "six_month_gaap_eps": 6.67,
+          "cash_flow_cfo": 1269,
+          "capex": 171
+        },
+        "guidance": {
+          "fiscal_year": "FY2027 ending January 31 2027",
+          "revenue_midpoint": 46250,
+          "gaap_eps_midpoint": 10.23,
+          "non_gaap_eps_midpoint": 16.69,
+          "weighted_shares": 838,
+          "amortization_eps_addback": 2.45,
+          "restructuring_acquisition_eps_addback": 0.42,
+          "sbc_eps_addback": 4.96,
+          "tax_rate_assumption": 0.235,
+          "status": "management forecast, not actual"
+        },
+        "assumption_notes": [
+          "Base adds 5,100 post-July cash acquisition reserve (Fin 3,600 + Contentful 1,500) to historical net debt. This is a model bridge, NOT observed November net debt; Q3 operating cashflow, dividends, target cash and final purchase accounting unknown.",
+          "Loops closed November 2; undisclosed consideration is a gap, not assumed zero economic cost. Pending Braze 5,660 enterprise value is not yet cash paid and not subtracted in base. Other pending deal prices not fully reconciled.",
+          "The March 25,000 ASR funding is already in July debt/cash and initial shares; not deducted again. Informatica 6,000 refinancing is not incremental debt twice.",
+          "Recurring financing-obligation principal is deducted from owner cashflow; related financing/lease liabilities are NOT also added to debt. CFO already bears lease interest. Cash-interest adjustment lacks an exact current finance-lease split, flagged below.",
+          "Base has an additional 4% normalized cashflow reserve for cash-tax/working-capital timing, not a reported impairment. Bull requires 12,000 owner FCFF rather than assuming current actual cashflow equals this amount.",
+          "SBC cashflow addback differs from P&L expense; use cashflow figure to reverse the actual cashflow addback, not both.",
+          "Strategic investment marks are excluded from recurring cash earnings; portfolio excluded from base value but sensitivity disclosed."
+        ]
+      },
+      "ttm": {
+        "cfo": 15750,
+        "capex": 596,
+        "sbc_cashflow": 3665,
+        "cash_interest_paid": 401,
+        "interest_income": 426,
+        "acquisition_cash_cost": 0,
+        "financing_obligation_principal": 612,
+        "standard_fcf": 15154,
+        "owner_levered_cash_proxy": 10877,
+        "net_interest_tax_adjustment": -19.125,
+        "owner_fcff_proxy": 10857.875
+      },
+      "liquid_assets": 11403,
+      "historical_net_debt": 28097,
+      "model_net_debt": 33197,
+      "scenarios": {
+        "bear": {
+          "f0": 9500,
+          "growth_years_1_5": 0.03,
+          "growth_years_6_10": 0.02,
+          "discount_rate": 0.11,
+          "terminal_growth": 0.02,
+          "annual_cashflows": [
+            {
+              "year": 1,
+              "owner_fcff": 9785.0,
+              "discounted_owner_fcff": 8815.315315315314
+            },
+            {
+              "year": 2,
+              "owner_fcff": 10078.550000000001,
+              "discounted_owner_fcff": 8179.977274571869
+            },
+            {
+              "year": 3,
+              "owner_fcff": 10380.906500000001,
+              "discounted_owner_fcff": 7590.429362891013
+            },
+            {
+              "year": 4,
+              "owner_fcff": 10692.333695000001,
+              "discounted_owner_fcff": 7043.3713907907595
+            },
+            {
+              "year": 5,
+              "owner_fcff": 11013.103705850002,
+              "discounted_owner_fcff": 6535.741020283317
+            },
+            {
+              "year": 6,
+              "owner_fcff": 11233.365779967002,
+              "discounted_owner_fcff": 6005.816072692777
+            },
+            {
+              "year": 7,
+              "owner_fcff": 11458.033095566341,
+              "discounted_owner_fcff": 5518.858012744713
+            },
+            {
+              "year": 8,
+              "owner_fcff": 11687.193757477668,
+              "discounted_owner_fcff": 5071.383038738385
+            },
+            {
+              "year": 9,
+              "owner_fcff": 11920.937632627221,
+              "discounted_owner_fcff": 4660.1898193812185
+            },
+            {
+              "year": 10,
+              "owner_fcff": 12159.356385279765,
+              "discounted_owner_fcff": 4282.33659078274
+            }
+          ],
+          "pv_explicit_cashflows": 63703.41789819211,
+          "pv_terminal": 48533.14802887106,
+          "terminal_share_of_ev": 0.4324183266655742,
+          "enterprise_value": 112236.56592706317,
+          "net_debt_deduction": 33197,
+          "acquired_business_value_placeholder": 2550.0,
+          "equity_value": 81589.56592706317,
+          "diluted_shares": 827,
+          "fair_value_per_share": 98.65727439789984,
+          "price_vs_value_pct": 130.20096732454897,
+          "value_vs_price_pct": -56.55969600726527
+        },
+        "base": {
+          "f0": 10423.56,
+          "growth_years_1_5": 0.07,
+          "growth_years_6_10": 0.04,
+          "discount_rate": 0.1,
+          "terminal_growth": 0.025,
+          "annual_cashflows": [
+            {
+              "year": 1,
+              "owner_fcff": 11153.2092,
+              "discounted_owner_fcff": 10139.28109090909
+            },
+            {
+              "year": 2,
+              "owner_fcff": 11933.933844,
+              "discounted_owner_fcff": 9862.755242975205
+            },
+            {
+              "year": 3,
+              "owner_fcff": 12769.30921308,
+              "discounted_owner_fcff": 9593.77100907588
+            },
+            {
+              "year": 4,
+              "owner_fcff": 13663.160857995601,
+              "discounted_owner_fcff": 9332.122708828358
+            },
+            {
+              "year": 5,
+              "owner_fcff": 14619.582118055294,
+              "discounted_owner_fcff": 9077.610271314856
+            },
+            {
+              "year": 6,
+              "owner_fcff": 15204.365402777506,
+              "discounted_owner_fcff": 8582.4678928795
+            },
+            {
+              "year": 7,
+              "owner_fcff": 15812.540018888607,
+              "discounted_owner_fcff": 8114.333280540617
+            },
+            {
+              "year": 8,
+              "owner_fcff": 16445.04161964415,
+              "discounted_owner_fcff": 7671.733283420219
+            },
+            {
+              "year": 9,
+              "owner_fcff": 17102.843284429917,
+              "discounted_owner_fcff": 7253.27510432457
+            },
+            {
+              "year": 10,
+              "owner_fcff": 17786.957015807115,
+              "discounted_owner_fcff": 6857.641916815956
+            }
+          ],
+          "pv_explicit_cashflows": 86484.99180108425,
+          "pv_terminal": 93721.10619648472,
+          "terminal_share_of_ev": 0.5200773294461382,
+          "enterprise_value": 180206.09799756896,
+          "net_debt_deduction": 33197,
+          "acquired_business_value_placeholder": 5100,
+          "equity_value": 152109.09799756896,
+          "diluted_shares": 827,
+          "fair_value_per_share": 183.92877629693947,
+          "price_vs_value_pct": 23.477144018697558,
+          "value_vs_price_pct": -19.01335198937103
+        },
+        "bull": {
+          "f0": 12000,
+          "growth_years_1_5": 0.1,
+          "growth_years_6_10": 0.06,
+          "discount_rate": 0.09,
+          "terminal_growth": 0.03,
+          "annual_cashflows": [
+            {
+              "year": 1,
+              "owner_fcff": 13200.000000000002,
+              "discounted_owner_fcff": 12110.091743119267
+            },
+            {
+              "year": 2,
+              "owner_fcff": 14520.000000000004,
+              "discounted_owner_fcff": 12221.193502230453
+            },
+            {
+              "year": 3,
+              "owner_fcff": 15972.000000000005,
+              "discounted_owner_fcff": 12333.31454353532
+            },
+            {
+              "year": 4,
+              "owner_fcff": 17569.200000000008,
+              "discounted_owner_fcff": 12446.464218246652
+            },
+            {
+              "year": 5,
+              "owner_fcff": 19326.12000000001,
+              "discounted_owner_fcff": 12560.651963368184
+            },
+            {
+              "year": 6,
+              "owner_fcff": 20485.68720000001,
+              "discounted_owner_fcff": 12214.945946027774
+            },
+            {
+              "year": 7,
+              "owner_fcff": 21714.828432000013,
+              "discounted_owner_fcff": 11878.75477320132
+            },
+            {
+              "year": 8,
+              "owner_fcff": 23017.718137920016,
+              "discounted_owner_fcff": 11551.816568434311
+            },
+            {
+              "year": 9,
+              "owner_fcff": 24398.781226195217,
+              "discounted_owner_fcff": 11233.876662881072
+            },
+            {
+              "year": 10,
+              "owner_fcff": 25862.708099766933,
+              "discounted_owner_fcff": 10924.687396930218
+            }
+          ],
+          "pv_explicit_cashflows": 119475.79731797457,
+          "pv_terminal": 187540.4669806354,
+          "terminal_share_of_ev": 0.6108486382930837,
+          "enterprise_value": 307016.26429861,
+          "net_debt_deduction": 33197,
+          "acquired_business_value_placeholder": 7650.0,
+          "equity_value": 281469.26429861,
+          "diluted_shares": 827,
+          "fair_value_per_share": 340.34977545176537,
+          "price_vs_value_pct": -33.2715881188568,
+          "value_vs_price_pct": 49.86120181927936
+        }
+      },
+      "base_20pct_margin_price": 147.1430210375516,
+      "price_to_base_owner_cashflow": 18.018793003541976,
+      "standard_fcf_yield_pct": 8.068364615328179,
+      "owner_cash_yield_pct": 5.791183972609516,
+      "reverse_dcf_first_5yr_growth": 0.11407312006279013,
+      "strategic_portfolio_full_book_per_share_sensitivity": 13.692865779927448,
+      "sensitivity": [
+        {
+          "discount_rate": 0.09,
+          "terminal_growth": 0.02,
+          "fair_value_per_share": 208.05233029263417
+        },
+        {
+          "discount_rate": 0.09,
+          "terminal_growth": 0.025,
+          "fair_value_per_share": 218.93451948850952
+        },
+        {
+          "discount_rate": 0.09,
+          "terminal_growth": 0.03,
+          "fair_value_per_share": 231.6304068836976
+        },
+        {
+          "discount_rate": 0.1,
+          "terminal_growth": 0.02,
+          "fair_value_per_share": 176.32760125814715
+        },
+        {
+          "discount_rate": 0.1,
+          "terminal_growth": 0.025,
+          "fair_value_per_share": 183.92877629693947
+        },
+        {
+          "discount_rate": 0.1,
+          "terminal_growth": 0.03,
+          "fair_value_per_share": 192.61583348413083
+        },
+        {
+          "discount_rate": 0.11,
+          "terminal_growth": 0.02,
+          "fair_value_per_share": 151.7249238766938
+        },
+        {
+          "discount_rate": 0.11,
+          "terminal_growth": 0.025,
+          "fair_value_per_share": 157.22030611978948
+        },
+        {
+          "discount_rate": 0.11,
+          "terminal_growth": 0.03,
+          "fair_value_per_share": 163.40261114327217
+        }
+      ],
+      "acquired_business_value_sensitivity": [
+        {
+          "target_value": 0,
+          "fair_value_per_share": 177.76190809863235
+        },
+        {
+          "target_value": 2550,
+          "fair_value_per_share": 180.84534219778593
+        },
+        {
+          "target_value": 5100,
+          "fair_value_per_share": 183.92877629693947
+        },
+        {
+          "target_value": 7650,
+          "fair_value_per_share": 187.01221039609305
+        }
+      ],
+      "acquired_business_value_note": "Fin/Contentful post-July target cashflow is not in July TTM. Legacy growth assumptions exclude these target businesses; add target standalone value at 0.5x/1x/1.5x known cash cost across bear/base/bull as an explicit placeholder, not independently verified fair value. No incremental synergies included. Loops undisclosed price remains unquantified.",
+      "normalized_eps_crosscheck": {
+        "formula": "10.23 - 3171 * 0.765 / 838 + (2.45 + 0.42) * 0.765",
+        "normalized_eps_guidance_proxy": 9.530782696897376,
+        "price_multiple": 23.829102731922823,
+        "headline_adjusted_guidance_pe": 13.607549430796885,
+        "notes": "Forward proxy, not actual; retains SBC, strips known investment gains, reverses amortization and restructuring/acquisition at tax assumption; recurring restructuring and future interest remain uncertainties."
+      }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "asof": "2026-11-05",
+  "scope": "public_research_only",
+  "sections": [
+    {
+      "title": "AI应用专题①｜先证伪：应用加速，不等于基础设施让位",
+      "paragraphs": [
+        "研究截至北京时间2026-11-05。判断：应用落地值得提高研究优先级，但“基础设施竞争加剧→利润转移到应用公司→应用股回报更好”不是已被证明的完整链条。本专题是业务与商业化初筛，不是已低估名单；没有新增持仓、价格提醒或正式观察标的。",
+        "支持证据：模型能力变得更便宜，有助于扩大可落地任务。Stanford AI Index 2025记录的是2022年11月至2024年10月、达到GPT-3.5级别表现的推理成本下降逾280倍。它是历史能力基准，不能当作2026年所有前沿模型或企业完整部署成本的降幅。",
+        "第一项反证：基础设施并非同时进入价格战。GPU、内存、网络、电力、云服务和基础模型的瓶颈不同。微软10月28日管理层仍称需求超过可用供给，并称当季token定价高于此前预期。这是公司自身披露，不能证明整个行业都供不应求，但足以反对“infra已普遍过剩”的强判断。推理变便宜也可能带来更高调用量，而不是算力收入必然下降。",
+        "第二项反证：利润可能继续被现有平台获得。微软在同一套客户关系中销售云、数据平台、Copilot和企业软件，结合席位与使用量计费。基础设施商和应用商经常是同一家公司；独立应用的分销、采购入口和价格能力可能被平台捆绑挤压。",
+        "第三项反证：客户效率提升不等于软件商利润提高。QJE于2025年发表的5172名客服员工研究发现，每小时解决问题数平均提高15%，不同员工差异很大。这支持特定任务的经济价值，却不证明供应商能拿走这15%；节省可能主要留在客户，也可能抵不过实施、人工复核和模型调用成本。",
+        "更可检验的投资命题：优先找已经掌握客户、业务流程、合规数据与执行权限，能够对实际结果收费，并把收入转成每股现金流的企业。仅包装第三方模型的产品门槛可能随模型进步继续降低。即使每股盈利翻倍，若买入后的估值倍数减半，股价仍可能没有增长（暂不计分红）。"
+      ],
+      "sources": [
+        {
+          "title": "Stanford AI Index 2025：历史推理成本口径",
+          "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report"
+        },
+        {
+          "title": "Microsoft：2026-10-28 FY2027 Q1官方电话会",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+        },
+        {
+          "title": "QJE 2025：Generative AI at Work（5172名客服员工）",
+          "url": "https://doi.org/10.1093/QJE/QJAE044"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题②｜企业流程与决策：NOW、CRM、PLTR实际卖什么",
+      "paragraphs": [
+        "研究优先级第一：企业业务流程、客户服务与数据驱动决策。选择理由是已有采购预算、可衡量的处理时长与人力成本，以及可以先从有限权限的任务开始部署。需要分清辅助员工、独立执行任务和客户实际付费，不能把演示或调用量当盈利。",
+        "ServiceNow（NOW）｜主营IT服务管理、员工服务、客户服务及跨部门流程软件。AI可做工单分类、摘要、问题处理和流程执行；收入主要来自企业订阅，商业优势是既有工作流和客户关系。2026 Q3订阅收入39.88亿美元，同比增长21%；管理层17亿美元AI ACV是全年目标，不是当季确认收入。",
+        "NOW最强反证｜同季GAAP订阅毛利率从80%降至73.5%，GAAP经营利润从5.72亿美元降至3.85亿美元。并购摊销、SBC等口径影响明显，不能把下降全部归因于AI推理成本。下一核查：剔除并购影响的增长、AI续约与增购，以及扣除稀释后的每股现金流。成熟销售渠道不等于当前价格便宜。",
+        "Salesforce（CRM）｜主营销售CRM、客服、营销、电商、Slack协作及数据整合。Agentforce把模型接入客户信息和业务动作，收费包括使用量与用户许可。最新已公布FY2027 Q2（截至2026-07-31）Agentforce ARR超过15亿美元，但当季定义扩展到Slackbot与Headless 360；ARR是年化经常性合同指标，不是GAAP当期收入。公司总收入增长还包含Informatica并购贡献。",
+        "CRM最强反证｜新增AI消费可能被传统席位减少、打包折扣或实施成本抵消。下一核查：同口径有机增长、付费消费及续约、客户总账单、并购后的现金流与资本配置，不能只看ARR同比百分比。",
+        "Palantir（PLTR）｜Foundry连接企业数据、业务对象和权限，AIP把模型嵌入分析及执行工作流，Gotham服务政府等场景。公司2026 Q3美国商业收入9.84亿美元，同比增长148%，说明商业业务确实快速扩张；这不是单独AIP收入，也不能把全部增量归因于生成式AI。下一核查：可持续获客与续约、项目交付成本、政府与商业结构、SBC及当前价格隐含增长。作为跨行业应用平台参照，尚未完成低估估值。"
+      ],
+      "sources": [
+        {
+          "title": "ServiceNow：2026 Q3财报与GAAP对照",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Salesforce：FY2027 Q2财报及Agentforce ARR定义",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "title": "Salesforce Agentforce：官方计费方式",
+          "url": "https://www.salesforce.com/agentforce/pricing/"
+        },
+        {
+          "title": "Palantir：2026 Q3 Business Update",
+          "url": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf"
+        },
+        {
+          "title": "Palantir：Foundry／AIP等平台的功能定位",
+          "url": "https://www.palantir.com/docs/foundry/architecture-center/platforms"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题③｜医疗：先看GEHC的收费路径，再看TEM的数据业务",
+      "paragraphs": [
+        "研究优先级第二：医疗影像、临床工作流和医疗数据。先寻找能减少医生操作、提升设备使用率、帮助药企研究且有明确付款方的产品。获监管许可、医院采购、改善临床结果和股东盈利是四件不同的事；医疗行业受益不等于全部医疗股票都受益。",
+        "GE HealthCare（GEHC）｜经营MRI、CT、超声、患者监护、影像软件和药物诊断等，向医院销售设备、服务与软件。2026 Q3收入55.13亿美元，同比增长7.2%。11月3日发布的Vscan Air肺部引导和AutoAS功能通过Innovation Packages等软件订阅／许可路径提供，公告预计11月底向相关已有付费客户更新；不能提前说这些新增功能已经全部交付或形成收入。",
+        "GEHC判断与反证｜已有设备装机与临床渠道，收费路径较可辨识，适合作为医疗落地的优先研究对象。但公司未单列AI收入：AI可能只是维持设备竞争力，并未创造额外定价权。下一核查是软件付费附加率、续费、设备订单与医院实际收益；同时检查医院资本预算和公司债务。Q3总收入不能全部算作AI收入。",
+        "Tempus AI（TEM）｜主营肿瘤等分子诊断、向药企提供临床／分子数据和应用服务，并开发临床辅助工具。2026 Q3收入4.115亿美元，同比增长23%；Data & Applications收入1.081亿美元，同比增长33%，约占26.3%，其余主要是诊断检测。数据与应用板块本身也不等于纯AI收入。",
+        "TEM判断与反证｜临床数据与药企客户关系具有研究价值，但不能按纯软件给整家公司估值。Q3 GAAP净亏损1490万美元包含4280万美元证券未实现收益，不能把净亏损缩小全部解读为经营改善。下一核查：数据合同续约和回款、诊断毛利、经营现金流、SBC与实际股数。商业化证据在增加，估值仍待完成。",
+        "边界提醒｜Intuitive Surgical（ISRG）可作为成熟医疗机器人商业模式的参照，但da Vinci由医生操作，不是无人自主手术AI。Moderna（MRNA）首先是药物研发与商业化公司；使用AI辅助研发不会自动消除临床、审批、销量与现金消耗的不确定性，不宜仅凭“AI医疗”标签提升判断。"
+      ],
+      "sources": [
+        {
+          "title": "GE HealthCare：2026 Q3财报",
+          "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "GE HealthCare：2026-11-03 Vscan Air新增AI功能及交付安排",
+          "url": "https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments"
+        },
+        {
+          "title": "Tempus：2026 Q3业务拆分与损益",
+          "url": "https://investors.tempus.com/news/news-details/2026/Tempus-Reports-Third-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "title": "Intuitive：da Vinci由医生控制的工作方式",
+          "url": "https://www.davincisurgery.com/en-us/how-davinci-works"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题④｜工业：CGNX与机器视觉，比泛机器人叙事更可核查",
+      "paragraphs": [
+        "研究优先级第三：工业机器视觉、质检与机器人感知。工厂购买的是更高良率、更低报废和更快吞吐，而不是模型参数。与纯软件相比，现场集成、可靠性验证、设备改造及客户资本开支会影响落地速度。",
+        "Cognex（CGNX）｜销售机器视觉系统、传感器、工业读码和检测软件，用于工厂与物流的定位、识别、缺陷检测和自动化。11月4日披露的2026 Q3（截至10月4日）收入3.134亿美元，同比增长13%。这证明现有业务增长，不证明所有收入来自生成式AI，也不等于人形机器人已贡献规模收入。",
+        "公司9月22日公告拟以5亿美元现金收购RealSense，并预计第四季度完成；本专题未将交易当作已经交割，公告中的目标公司2026收入预期也不是已实现收入。下一核查：交割、保留人才与股权激励成本、收购后的净现金及订单兑现。CGNX值得跟踪真实工业回报，当前是否便宜仍应沿用财报后的估值与现金流核验，不能只依据股价回落。"
+      ],
+      "sources": [
+        {
+          "title": "Cognex：2026-11-04发布的Q3公司财报",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        },
+        {
+          "title": "Cognex：2026-09-22拟收购RealSense公告",
+          "url": "https://investor.cognex.com/news/news-details/2026/Cognex-to-Acquire-RealSense-Expanding-Machine-Vision-Leadership-into-High-Growth-Robotic-Perception-Market/default.aspx"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题⑤｜行业ETF：IGV、XSW、IHI、BOTZ，以及AIQ的偏差",
+      "paragraphs": [
+        "基金资料于2026-11-05核验；下列持仓权重采用发行人可读的2026-11-03披露，费率为年度费用率。各ETF都不是“纯模型应用基金”，持仓分散也不能消除行业回撤。名单是投资工具比较，不是配置方案。",
+        "IGV｜iShares Expanded Tech-Software Sector ETF，年度费用率0.38%。跟踪北美扩展科技软件指数，覆盖软件及部分互动媒体与服务。11月3日MSFT 8.95%、PANW 8.82%、PLTR 8.74%、CRWD 8.49%，前四约35%；另有CRM和NOW。适合研究软件、企业平台与安全行业的整体机会；其中既有应用，也有云平台和安全，不能全算AI应用收入。",
+        "XSW｜State Street SPDR S&P Software & Services ETF，年度费用率0.35%。采用修正等权的软件与服务指数，覆盖不同规模企业；当日应用软件约67.49%，系统软件约21.82%，IT咨询约8.69%，持仓例子包括Braze、PTC和Accenture。较少依赖单一巨头，同时承担更多中小软件公司的竞争、亏损和融资风险；模型进步也可能削弱部分软件产品。",
+        "IHI｜iShares U.S. Medical Devices ETF，年度费用率0.37%。覆盖美国医疗设备制造和分销企业；11月3日ABT 17.94%、ISRG 14.75%、MDT 11.47%、GEHC 4.65%。适合表达医疗设备长期发展与部分数字化升级，前三合计约44.16%，并不低集中，也不等同于医疗AI或创新药基金。",
+        "BOTZ｜Global X Robotics & Artificial Intelligence ETF，年度费用率0.68%。覆盖全球机器人、自动化及相关AI；11月3日ISRG 10.14%、FANUC 8.45%、Keyence 8.25%、ABB 7.93%、NVDA 7.88%，CGNX约2.69%。适合表达实体自动化趋势；同时包含芯片和传统工业设备，受资本开支周期与海外市场影响，并非单独押注大模型应用。",
+        "AIQ｜Global X Artificial Intelligence & Technology ETF，年度费用率0.68%。覆盖AI开发、软件、平台、半导体及硬件；11月3日持有PLTR、MSFT、AMZN、ORCL、NVDA等。若研究目的就是降低对infra的依赖，它并不精确：换成带AI名称的基金，仍可能保留不少相同的上游与巨头敞口。",
+        "工具选择判断｜表达企业应用时先比较IGV与XSW；表达医疗设备升级时研究IHI；表达实体自动化时研究BOTZ。选择前应穿透现有宽基和科技基金的重叠；本次没有计算精确组合重叠，也没有完成各基金当前估值、风险区间和买入价格比较。"
+      ],
+      "sources": [
+        {
+          "title": "IGV：发行人费率、策略与持仓入口",
+          "url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf"
+        },
+        {
+          "title": "XSW：发行人费率、修正等权策略与持仓",
+          "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-software-services-etf-xsw"
+        },
+        {
+          "title": "IHI：发行人费率、策略与持仓入口",
+          "url": "https://www.ishares.com/us/products/239516/ishares-us-medical-devices-etf"
+        },
+        {
+          "title": "BOTZ：发行人机器人与自动化策略",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "AIQ：发行人全产业链策略与持仓",
+          "url": "https://www.globalxetfs.com/funds/aiq"
+        }
+      ]
+    },
+    {
+      "title": "AI应用专题⑥｜未来如何推翻判断：研究门槛，不是交易阈值",
+      "paragraphs": [
+        "提出未来3—4个财报季度的研究检验窗口，属于研究方法建议，不改变任何既有价格提醒或交易规则。先看NOW／CRM的企业付费，GEHC的临床收费，CGNX的工业订单；PLTR和TEM用于对比更快增长能否转成可持续的每股现金流。研究优先级不等于仓位或收益排序。",
+        "若试点和调用量增加，而同口径付费续约、有机增长与客户总账单不增加，应下调“应用商有定价权”的判断。若增长主要来自并购、ARR定义扩大或打包重分类，也不能算原命题被验证。",
+        "若新增AI收入被模型调用、人工复核、现场实施、折扣及SBC稀释抵消，应下调“应用商盈利改善”的判断。对医疗还要查实际交付与付款，对工业要查验收、回款和收购整合。",
+        "若基础设施价格／利用率／投资回报继续强劲，说明应用扩张与上游增长可以共存，不能继续坚持固定的产业接力顺序。即使应用商业化成功，当前股价若已经要求远超保守情景的增长，也不满足低估条件。当前结论是值得深入研究上述行业，并未确认任何候选已经便宜。"
+      ],
+      "sources": [
+        {
+          "title": "ServiceNow：2026 Q3财报与GAAP对照",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "Salesforce：FY2027 Q2财报及Agentforce ARR定义",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "title": "GE HealthCare：2026 Q3财报",
+          "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "Cognex：2026-11-04发布的Q3公司财报",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        },
+        {
+          "title": "Microsoft：2026-10-28 FY2027 Q1官方电话会",
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+        }
+      ]
+    }
+  ]
+}

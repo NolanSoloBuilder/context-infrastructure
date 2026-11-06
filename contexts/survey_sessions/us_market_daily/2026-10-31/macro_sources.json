@@ -1,0 +1,1848 @@
+{
+  "captured_at_utc": "2026-10-30T23:31:31.697490+00:00",
+  "source_count": 16,
+  "sources": [
+    {
+      "name": "NYSE",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "官方交易时段及2026假日表",
+      "facts": "10/30正常交易；无11/2休市；下一常规开盘11/2 09:30 EST=北京22:30",
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/nyse.txt",
+      "sha256": "d621c1a1449c172b92cf95c035c43ecb9bd5715e25f84ceac7bb3b951b58a0b4"
+    },
+    {
+      "name": "NIST DST",
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "正文2026切换日期",
+      "facts": "11/1当地02:00夏令时结束",
+      "raw_file": null,
+      "sha256": null
+    },
+    {
+      "name": "ECI",
+      "url": "https://www.bls.gov/news.release/eci.nr0.htm",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "10/30 08:30ET官方摘要",
+      "facts": "Q3民用总薪酬SA环比0.8%，工资0.7%，福利0.9%；NSA同比3.4%、3.1%、3.9%",
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/eci.txt",
+      "sha256": "dd11db406ba29c9af00e1a02accacebcf7c5a2654b4162ef12e709fec8e5688a"
+    },
+    {
+      "name": "Treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "表头+10/29和10/30行",
+      "facts": "10/30 2y4.56%，10y4.94%；比10/29 -5/-4bp；每日参考曲线非成交报价",
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/treasury.txt",
+      "sha256": "754be4585dede3775e15fde350eb02b92fee2613aac40a55e3bfe06c4de37973"
+    },
+    {
+      "name": "Cboe VIX",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "dated_reference_time_ambiguous",
+      "read_scope": "日期摘要模块和单独行情模块",
+      "facts": "10/30日期摘要19.42、+2.22、+12.91%；另一模块8:15PM时区不明，不当16:00同步报价",
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/cboe.txt",
+      "sha256": "da6bd4ce3de12c6d28e6301dea14c89ffccad06880bfb1da403859d0984c10a3"
+    },
+    {
+      "name": "Cboe CSV",
+      "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "lagged",
+      "read_scope": "本次下载末行",
+      "facts": "末行仍10/29 17.20，不能充当10/30最终官方收盘",
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/vix_csv.txt",
+      "sha256": "50c16d5033bbe65dfd8724bec51d535cdb3114d6492615ccf5e42a773df4e3e2"
+    },
+    {
+      "name": "goog submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "recent列表最新80项",
+      "facts": [
+        {
+          "filingDate": "2026-10-30",
+          "reportDate": "2026-10-29",
+          "form": "4",
+          "accessionNumber": "0001193125-26-442116",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-29",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001921094-26-001121",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-10-29",
+          "reportDate": "2026-09-30",
+          "form": "10-Q",
+          "accessionNumber": "0001652044-26-000084",
+          "primaryDocument": "goog-20260930.htm"
+        },
+        {
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-28",
+          "form": "8-K",
+          "accessionNumber": "0001652044-26-000080",
+          "primaryDocument": "goog-20261028.htm"
+        },
+        {
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-434846",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-434841",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-434840",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-434839",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-434837",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-434831",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-15",
+          "reportDate": "2026-10-13",
+          "form": "4",
+          "accessionNumber": "0001193125-26-423187",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-02",
+          "reportDate": "2026-09-30",
+          "form": "4",
+          "accessionNumber": "0001193125-26-412669",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-30",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001921094-26-001058",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-29",
+          "reportDate": "2026-09-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-408019",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-29",
+          "reportDate": "2026-09-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-408016",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-29",
+          "reportDate": "2026-09-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-408014",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-29",
+          "reportDate": "2026-09-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-408009",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-29",
+          "reportDate": "2026-09-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-408007",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-29",
+          "reportDate": "2026-09-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-408004",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393517",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393515",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393513",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393511",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393509",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393506",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393503",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393500",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393497",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393494",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393491",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393485",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-393483",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-03",
+          "reportDate": "2026-09-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-382332",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-03",
+          "reportDate": "2026-09-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-382328",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-31",
+          "reportDate": "2026-08-28",
+          "form": "4",
+          "accessionNumber": "0001193125-26-377149",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-28",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001921094-26-000964",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-28",
+          "reportDate": "2026-06-30",
+          "form": "N-PX",
+          "accessionNumber": "0001193125-26-374341",
+          "primaryDocument": "xslN-PX_X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-27",
+          "reportDate": "2026-08-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-371799",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-27",
+          "reportDate": "2026-08-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-371797",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-27",
+          "reportDate": "2026-08-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-371794",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-27",
+          "reportDate": "2026-08-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-371788",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-27",
+          "reportDate": "2026-08-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-371785",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-27",
+          "reportDate": "2026-08-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-371778",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-11",
+          "reportDate": "2026-08-07",
+          "form": "4",
+          "accessionNumber": "0001193125-26-345383",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-10",
+          "reportDate": "2026-08-10",
+          "form": "8-K",
+          "accessionNumber": "0001193125-26-342390",
+          "primaryDocument": "d171253d8k.htm"
+        },
+        {
+          "filingDate": "2026-08-07",
+          "reportDate": "",
+          "form": "424B2",
+          "accessionNumber": "0001193125-26-340264",
+          "primaryDocument": "d32286d424b2.htm"
+        },
+        {
+          "filingDate": "2026-08-07",
+          "reportDate": "",
+          "form": "FWP",
+          "accessionNumber": "0001193125-26-338750",
+          "primaryDocument": "d159970dfwp.htm"
+        },
+        {
+          "filingDate": "2026-08-07",
+          "reportDate": "2026-06-30",
+          "form": "13F-HR",
+          "accessionNumber": "0001652044-26-000073",
+          "primaryDocument": "xslForm13F_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-06",
+          "reportDate": "2026-08-05",
+          "form": "4",
+          "accessionNumber": "0001193125-26-338824",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-06",
+          "reportDate": "",
+          "form": "424B5",
+          "accessionNumber": "0001193125-26-336853",
+          "primaryDocument": "d140593d424b5.htm"
+        },
+        {
+          "filingDate": "2026-08-06",
+          "reportDate": "",
+          "form": "424B5",
+          "accessionNumber": "0001193125-26-336798",
+          "primaryDocument": "d32286d424b5.htm"
+        },
+        {
+          "filingDate": "2026-07-30",
+          "reportDate": "2026-07-30",
+          "form": "4",
+          "accessionNumber": "0001193125-26-326284",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-30",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001921094-26-000772",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-07-29",
+          "reportDate": "2026-07-27",
+          "form": "4",
+          "accessionNumber": "0001168404-26-000041",
+          "primaryDocument": "xslF345X06/form4-07292026_110704.xml"
+        },
+        {
+          "filingDate": "2026-07-29",
+          "reportDate": "2026-07-29",
+          "form": "4",
+          "accessionNumber": "0001193125-26-324312",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-29",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001950047-26-007407",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-07-28",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-321684",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-28",
+          "reportDate": "2026-07-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-321683",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-28",
+          "reportDate": "2026-07-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-321678",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-28",
+          "reportDate": "2026-07-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-321676",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-28",
+          "reportDate": "2026-07-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-321674",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-28",
+          "reportDate": "2026-07-25",
+          "form": "4",
+          "accessionNumber": "0001193125-26-321672",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-23",
+          "form": "4",
+          "accessionNumber": "0001168404-26-000039",
+          "primaryDocument": "xslF345X06/form4-07272026_100703.xml"
+        },
+        {
+          "filingDate": "2026-07-23",
+          "reportDate": "2026-07-21",
+          "form": "4",
+          "accessionNumber": "0001168404-26-000036",
+          "primaryDocument": "xslF345X06/form4-07232026_080714.xml"
+        },
+        {
+          "filingDate": "2026-07-23",
+          "reportDate": "",
+          "form": "S-8",
+          "accessionNumber": "0001193125-26-312805",
+          "primaryDocument": "d60612ds8.htm"
+        },
+        {
+          "filingDate": "2026-07-23",
+          "reportDate": "2026-06-30",
+          "form": "10-Q",
+          "accessionNumber": "0001652044-26-000071",
+          "primaryDocument": "goog-20260630.htm"
+        },
+        {
+          "filingDate": "2026-07-22",
+          "reportDate": "2026-07-22",
+          "form": "8-K",
+          "accessionNumber": "0001652044-26-000066",
+          "primaryDocument": "goog-20260722.htm"
+        },
+        {
+          "filingDate": "2026-07-21",
+          "reportDate": "2026-07-17",
+          "form": "4",
+          "accessionNumber": "0001168404-26-000031",
+          "primaryDocument": "xslF345X06/form4-07212026_090748.xml"
+        },
+        {
+          "filingDate": "2026-07-17",
+          "reportDate": "2026-07-15",
+          "form": "4",
+          "accessionNumber": "0001168404-26-000029",
+          "primaryDocument": "xslF345X06/form4-07182026_120730.xml"
+        },
+        {
+          "filingDate": "2026-07-09",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001968582-26-000714",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-07-09",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001968582-26-000713",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-07-09",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001968582-26-000712",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-07-06",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-296465",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-06",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-296453",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-06",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-296382",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-06",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-296351",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-06",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-296327",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-06",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-296291",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-06",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-296243",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-01",
+          "reportDate": "2026-06-29",
+          "form": "4",
+          "accessionNumber": "0001193125-26-292904",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        }
+      ],
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/goog_submissions.txt",
+      "sha256": "f511541380630b90a80ec59dd6a4c7f2e37b9c32ff1f6cfa60ec022fdbadbf11"
+    },
+    {
+      "name": "sofi submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "recent列表最新80项",
+      "facts": [
+        {
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-27",
+          "form": "8-K",
+          "accessionNumber": "0001818874-26-000065",
+          "primaryDocument": "sofi-20261027.htm"
+        },
+        {
+          "filingDate": "2026-10-22",
+          "reportDate": "2026-10-20",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000030",
+          "primaryDocument": "xslF345X06/wk-form4_1792713041.xml"
+        },
+        {
+          "filingDate": "2026-09-23",
+          "reportDate": "2026-09-21",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000028",
+          "primaryDocument": "xslF345X06/wk-form4_1790208724.xml"
+        },
+        {
+          "filingDate": "2026-09-23",
+          "reportDate": "2026-09-21",
+          "form": "4",
+          "accessionNumber": "0001934200-26-000011",
+          "primaryDocument": "xslF345X06/wk-form4_1790208644.xml"
+        },
+        {
+          "filingDate": "2026-09-21",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001968582-26-000998",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-21",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-007049",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000026",
+          "primaryDocument": "xslF345X06/wk-form4_1789602326.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001864508-26-000008",
+          "primaryDocument": "xslF345X06/wk-form4_1789602297.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001351119-26-000019",
+          "primaryDocument": "xslF345X06/wk-form4_1789602272.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001613438-26-000022",
+          "primaryDocument": "xslF345X06/wk-form4_1789602225.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0002012135-26-000023",
+          "primaryDocument": "xslF345X06/wk-form4_1789602201.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0001934200-26-000009",
+          "primaryDocument": "xslF345X06/wk-form4_1789602178.xml"
+        },
+        {
+          "filingDate": "2026-09-16",
+          "reportDate": "2026-09-14",
+          "form": "4",
+          "accessionNumber": "0002034857-26-000014",
+          "primaryDocument": "xslF345X06/wk-form4_1789602153.xml"
+        },
+        {
+          "filingDate": "2026-09-15",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-006994",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-15",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-006993",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-15",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-006992",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-15",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-006991",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-15",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-006990",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-24",
+          "reportDate": "2026-08-20",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000024",
+          "primaryDocument": "xslF345X06/wk-form4_1787610387.xml"
+        },
+        {
+          "filingDate": "2026-08-19",
+          "reportDate": "2026-08-17",
+          "form": "4",
+          "accessionNumber": "0002034857-26-000012",
+          "primaryDocument": "xslF345X06/wk-form4_1787182314.xml"
+        },
+        {
+          "filingDate": "2026-08-19",
+          "reportDate": "2026-08-17",
+          "form": "4",
+          "accessionNumber": "0002012135-26-000021",
+          "primaryDocument": "xslF345X06/wk-form4_1787182188.xml"
+        },
+        {
+          "filingDate": "2026-08-18",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-006159",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-18",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-006157",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-06",
+          "reportDate": "2026-06-30",
+          "form": "10-Q",
+          "accessionNumber": "0001818874-26-000054",
+          "primaryDocument": "sofi-20260630.htm"
+        },
+        {
+          "filingDate": "2026-07-29",
+          "reportDate": "2026-07-29",
+          "form": "8-K",
+          "accessionNumber": "0001818874-26-000050",
+          "primaryDocument": "sofi-20260729.htm"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001196460-26-000004",
+          "primaryDocument": "xslF345X06/wk-form4_1785193365.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001866161-26-000004",
+          "primaryDocument": "xslF345X06/wk-form4_1785193327.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001892579-26-000006",
+          "primaryDocument": "xslF345X06/wk-form4_1785193302.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001460835-26-000002",
+          "primaryDocument": "xslF345X06/wk-form4_1785193272.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001887601-26-000006",
+          "primaryDocument": "xslF345X06/wk-form4_1785193222.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0002011525-26-000002",
+          "primaryDocument": "xslF345X06/wk-form4_1785193179.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001338913-26-000008",
+          "primaryDocument": "xslF345X06/wk-form4_1785193145.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001863185-26-000004",
+          "primaryDocument": "xslF345X06/wk-form4_1785193110.xml"
+        },
+        {
+          "filingDate": "2026-07-27",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001225481-26-000006",
+          "primaryDocument": "xslF345X06/wk-form4_1785193078.xml"
+        },
+        {
+          "filingDate": "2026-07-21",
+          "reportDate": "2026-07-20",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000022",
+          "primaryDocument": "xslF345X06/wk-form4_1784672955.xml"
+        },
+        {
+          "filingDate": "2026-06-29",
+          "reportDate": "2026-06-26",
+          "form": "4",
+          "accessionNumber": "0001892579-26-000004",
+          "primaryDocument": "xslF345X06/wk-form4_1782779330.xml"
+        },
+        {
+          "filingDate": "2026-06-23",
+          "reportDate": "2026-06-22",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000020",
+          "primaryDocument": "xslF345X06/wk-form4_1782260879.xml"
+        },
+        {
+          "filingDate": "2026-06-22",
+          "reportDate": "2026-06-17",
+          "form": "4",
+          "accessionNumber": "0001887601-26-000004",
+          "primaryDocument": "xslF345X06/wk-form4_1782168242.xml"
+        },
+        {
+          "filingDate": "2026-06-22",
+          "reportDate": "2026-06-17",
+          "form": "4",
+          "accessionNumber": "0001351119-26-000017",
+          "primaryDocument": "xslF345X06/wk-form4_1782168216.xml"
+        },
+        {
+          "filingDate": "2026-06-22",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001968582-26-000647",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-18",
+          "reportDate": "2026-06-17",
+          "form": "8-K",
+          "accessionNumber": "0001818874-26-000043",
+          "primaryDocument": "sofi-20260617.htm"
+        },
+        {
+          "filingDate": "2026-06-18",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004770",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-15",
+          "form": "4",
+          "accessionNumber": "0001225481-26-000004",
+          "primaryDocument": "xslF345X06/wk-form4_1781744840.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-15",
+          "form": "4",
+          "accessionNumber": "0001864508-26-000006",
+          "primaryDocument": "xslF345X06/wk-form4_1781740955.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-15",
+          "form": "4",
+          "accessionNumber": "0001613438-26-000018",
+          "primaryDocument": "xslF345X06/wk-form4_1781740901.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-15",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000018",
+          "primaryDocument": "xslF345X06/wk-form4_1781740760.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-15",
+          "form": "4",
+          "accessionNumber": "0001351119-26-000015",
+          "primaryDocument": "xslF345X06/wk-form4_1781740655.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-15",
+          "form": "4",
+          "accessionNumber": "0002012135-26-000019",
+          "primaryDocument": "xslF345X06/wk-form4_1781740521.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-15",
+          "form": "4",
+          "accessionNumber": "0002034857-26-000010",
+          "primaryDocument": "xslF345X06/wk-form4_1781740471.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "2026-06-08",
+          "form": "4",
+          "accessionNumber": "0001934200-26-000007",
+          "primaryDocument": "xslF345X06/wk-form4_1781740295.xml"
+        },
+        {
+          "filingDate": "2026-06-17",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004729",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-16",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004723",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-16",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004722",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-16",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004720",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-16",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004718",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-16",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004714",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-16",
+          "reportDate": "2026-06-16",
+          "form": "4",
+          "accessionNumber": "0001613438-26-000016",
+          "primaryDocument": "xslF345X06/wk-form4_1781640941.xml"
+        },
+        {
+          "filingDate": "2026-06-11",
+          "reportDate": "2026-06-09",
+          "form": "4",
+          "accessionNumber": "0001225481-26-000002",
+          "primaryDocument": "xslF345X06/wk-form4_1781224841.xml"
+        },
+        {
+          "filingDate": "2026-06-11",
+          "reportDate": "2026-06-09",
+          "form": "4",
+          "accessionNumber": "0001866161-26-000002",
+          "primaryDocument": "xslF345X06/wk-form4_1781224753.xml"
+        },
+        {
+          "filingDate": "2026-06-11",
+          "reportDate": "2026-06-09",
+          "form": "4",
+          "accessionNumber": "0001338913-26-000006",
+          "primaryDocument": "xslF345X06/wk-form4_1781224724.xml"
+        },
+        {
+          "filingDate": "2026-06-11",
+          "reportDate": "2026-06-09",
+          "form": "4",
+          "accessionNumber": "0001196460-26-000002",
+          "primaryDocument": "xslF345X06/wk-form4_1781224690.xml"
+        },
+        {
+          "filingDate": "2026-06-11",
+          "reportDate": "2026-06-09",
+          "form": "4",
+          "accessionNumber": "0001863185-26-000002",
+          "primaryDocument": "xslF345X06/wk-form4_1781224658.xml"
+        },
+        {
+          "filingDate": "2026-06-11",
+          "reportDate": "2026-06-09",
+          "form": "4",
+          "accessionNumber": "0001887601-26-000002",
+          "primaryDocument": "xslF345X06/wk-form4_1781224588.xml"
+        },
+        {
+          "filingDate": "2026-06-11",
+          "reportDate": "2026-06-09",
+          "form": "4",
+          "accessionNumber": "0001351119-26-000013",
+          "primaryDocument": "xslF345X06/wk-form4_1781224331.xml"
+        },
+        {
+          "filingDate": "2026-06-10",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-004538",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-22",
+          "reportDate": "2026-05-20",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000016",
+          "primaryDocument": "xslF345X06/wk-form4_1779487303.xml"
+        },
+        {
+          "filingDate": "2026-05-18",
+          "reportDate": "2026-05-14",
+          "form": "4",
+          "accessionNumber": "0002034857-26-000008",
+          "primaryDocument": "xslF345X06/wk-form4_1779142358.xml"
+        },
+        {
+          "filingDate": "2026-05-18",
+          "reportDate": "2026-05-14",
+          "form": "4",
+          "accessionNumber": "0002012135-26-000017",
+          "primaryDocument": "xslF345X06/wk-form4_1779142342.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-003655",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "144",
+          "accessionNumber": "0001959173-26-003652",
+          "primaryDocument": "xsl144X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-11",
+          "reportDate": "2026-05-11",
+          "form": "4",
+          "accessionNumber": "0001613438-26-000012",
+          "primaryDocument": "xslF345X06/wk-form4_1778525889.xml"
+        },
+        {
+          "filingDate": "2026-05-08",
+          "reportDate": "2026-05-08",
+          "form": "4",
+          "accessionNumber": "0001613438-26-000010",
+          "primaryDocument": "xslF345X06/wk-form4_1778270533.xml"
+        },
+        {
+          "filingDate": "2026-05-07",
+          "reportDate": "2026-03-31",
+          "form": "10-Q",
+          "accessionNumber": "0001818874-26-000037",
+          "primaryDocument": "sofi-20260331.htm"
+        },
+        {
+          "filingDate": "2026-04-30",
+          "reportDate": "2025-12-31",
+          "form": "ARS",
+          "accessionNumber": "0001818874-26-000034",
+          "primaryDocument": "sofitech2025ars.pdf"
+        },
+        {
+          "filingDate": "2026-04-30",
+          "reportDate": "",
+          "form": "DEFA14A",
+          "accessionNumber": "0001818874-26-000033",
+          "primaryDocument": "sofitech2026notice.htm"
+        },
+        {
+          "filingDate": "2026-04-30",
+          "reportDate": "2026-04-30",
+          "form": "DEF 14A",
+          "accessionNumber": "0001818874-26-000032",
+          "primaryDocument": "sofi-20260430.htm"
+        },
+        {
+          "filingDate": "2026-04-30",
+          "reportDate": "",
+          "form": "SCHEDULE 13G",
+          "accessionNumber": "0002100119-26-000989",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-04-29",
+          "reportDate": "2026-04-29",
+          "form": "8-K",
+          "accessionNumber": "0001818874-26-000020",
+          "primaryDocument": "sofi-20260429.htm"
+        },
+        {
+          "filingDate": "2026-04-27",
+          "reportDate": "",
+          "form": "SCHEDULE 13G",
+          "accessionNumber": "0002012383-26-001719",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-04-23",
+          "reportDate": "2026-04-21",
+          "form": "4",
+          "accessionNumber": "0002032458-26-000014",
+          "primaryDocument": "xslF345X06/wk-form4_1776979211.xml"
+        }
+      ],
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/sofi_submissions.txt",
+      "sha256": "ffb1f3ee0e17010864704479afa95652acc7f5f926ed06aeae4cc85ff7f042ef"
+    },
+    {
+      "name": "brk submissions",
+      "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "recent列表最新80项",
+      "facts": [
+        {
+          "filingDate": "2026-10-29",
+          "reportDate": "2026-10-27",
+          "form": "4",
+          "accessionNumber": "0001193125-26-438090",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-10-23",
+          "reportDate": "2026-10-21",
+          "form": "4",
+          "accessionNumber": "0001728451-26-000005",
+          "primaryDocument": "xslF345X06/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-10-07",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-417254",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-10-05",
+          "reportDate": "2026-10-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-414744",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-30",
+          "reportDate": "2026-09-28",
+          "form": "4",
+          "accessionNumber": "0001193125-26-409451",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-29",
+          "reportDate": "2026-09-28",
+          "form": "4",
+          "accessionNumber": "0001728451-26-000004",
+          "primaryDocument": "xslF345X06/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-09-25",
+          "reportDate": "2026-09-23",
+          "form": "4",
+          "accessionNumber": "0001193125-26-403089",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-25",
+          "reportDate": "",
+          "form": "SD",
+          "accessionNumber": "0001193125-26-402798",
+          "primaryDocument": "d44118dsd.htm"
+        },
+        {
+          "filingDate": "2026-09-21",
+          "reportDate": "2026-09-17",
+          "form": "4",
+          "accessionNumber": "0001193125-26-397059",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-21",
+          "reportDate": "2026-09-17",
+          "form": "3",
+          "accessionNumber": "0001193125-26-397052",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-09-04",
+          "reportDate": "2026-09-03",
+          "form": "4",
+          "accessionNumber": "0001728451-26-000003",
+          "primaryDocument": "xslF345X06/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-14",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-352910",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-14",
+          "reportDate": "",
+          "form": "SCHEDULE 13G",
+          "accessionNumber": "0001193125-26-352904",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-14",
+          "reportDate": "2026-06-30",
+          "form": "13F-HR",
+          "accessionNumber": "0001193125-26-352200",
+          "primaryDocument": "xslForm13F_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-08-13",
+          "reportDate": "2026-08-12",
+          "form": "4",
+          "accessionNumber": "0001193125-26-349574",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-13",
+          "reportDate": "2026-08-12",
+          "form": "4",
+          "accessionNumber": "0001193125-26-349555",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-08-11",
+          "reportDate": "2026-08-08",
+          "form": "8-K",
+          "accessionNumber": "0001193125-26-344495",
+          "primaryDocument": "d159922d8k.htm"
+        },
+        {
+          "filingDate": "2026-08-10",
+          "reportDate": "2026-06-30",
+          "form": "10-Q",
+          "accessionNumber": "0001193125-26-341032",
+          "primaryDocument": "brka-20260630.htm"
+        },
+        {
+          "filingDate": "2026-08-04",
+          "reportDate": "2026-07-31",
+          "form": "4",
+          "accessionNumber": "0001193125-26-333151",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-15",
+          "reportDate": "2026-07-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-304843",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-07-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13D/A",
+          "accessionNumber": "0001193125-26-304838",
+          "primaryDocument": "xslSCHEDULE_13D_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-07-02",
+          "reportDate": "2026-07-01",
+          "form": "4",
+          "accessionNumber": "0001728451-26-000002",
+          "primaryDocument": "xslF345X06/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-06-25",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-282257",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-06-22",
+          "reportDate": "",
+          "form": "S-8 POS",
+          "accessionNumber": "0001193125-26-277638",
+          "primaryDocument": "d22632ds8pos.htm"
+        },
+        {
+          "filingDate": "2026-06-22",
+          "reportDate": "",
+          "form": "S-8 POS",
+          "accessionNumber": "0001193125-26-277630",
+          "primaryDocument": "d21990ds8pos.htm"
+        },
+        {
+          "filingDate": "2026-06-22",
+          "reportDate": "",
+          "form": "S-8 POS",
+          "accessionNumber": "0001193125-26-277626",
+          "primaryDocument": "d22043ds8pos.htm"
+        },
+        {
+          "filingDate": "2026-06-18",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-276128",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-06-16",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-271365",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-06-15",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-270598",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-06-12",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-269302",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-06-12",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-269301",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-06-12",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-268028",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-06-10",
+          "reportDate": "2026-06-01",
+          "form": "3",
+          "accessionNumber": "0001193125-26-265894",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-05-29",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-248294",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-05-28",
+          "reportDate": "2025-12-31",
+          "form": "11-K",
+          "accessionNumber": "0001193125-26-242804",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-05-26",
+          "reportDate": "2026-05-22",
+          "form": "4",
+          "accessionNumber": "0001193125-26-239886",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-05-22",
+          "reportDate": "",
+          "form": "SD",
+          "accessionNumber": "0001193125-26-236936",
+          "primaryDocument": "d26136dsd.htm"
+        },
+        {
+          "filingDate": "2026-05-20",
+          "reportDate": "2026-05-18",
+          "form": "4",
+          "accessionNumber": "0001193125-26-232543",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-05-18",
+          "reportDate": "2026-05-14",
+          "form": "4",
+          "accessionNumber": "0001193125-26-229218",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-227203",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13G",
+          "accessionNumber": "0001193125-26-227126",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-227122",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-227107",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-227102",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-227100",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "",
+          "form": "SCHEDULE 13G",
+          "accessionNumber": "0001193125-26-227087",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-15",
+          "reportDate": "2026-03-31",
+          "form": "13F-HR",
+          "accessionNumber": "0001193125-26-226661",
+          "primaryDocument": "xslForm13F_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-05-07",
+          "reportDate": "2026-05-02",
+          "form": "8-K",
+          "accessionNumber": "0001193125-26-212148",
+          "primaryDocument": "d74313d8k.htm"
+        },
+        {
+          "filingDate": "2026-05-06",
+          "reportDate": "2026-05-06",
+          "form": "4",
+          "accessionNumber": "0001193125-26-209661",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-05-05",
+          "reportDate": "2026-05-01",
+          "form": "4",
+          "accessionNumber": "0001193125-26-207021",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-05-05",
+          "reportDate": "2026-05-03",
+          "form": "3",
+          "accessionNumber": "0001193125-26-206348",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-05-04",
+          "reportDate": "2026-03-31",
+          "form": "10-Q",
+          "accessionNumber": "0001193125-26-202243",
+          "primaryDocument": "brka-20260331.htm"
+        },
+        {
+          "filingDate": "2026-04-29",
+          "reportDate": "",
+          "form": "SCHEDULE 13G",
+          "accessionNumber": "0002100119-26-000227",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-04-16",
+          "reportDate": "2026-04-16",
+          "form": "8-K",
+          "accessionNumber": "0001193125-26-159326",
+          "primaryDocument": "d903301d8k.htm"
+        },
+        {
+          "filingDate": "2026-04-14",
+          "reportDate": "",
+          "form": "424B5",
+          "accessionNumber": "0001193125-26-154274",
+          "primaryDocument": "d81172d424b5.htm"
+        },
+        {
+          "filingDate": "2026-04-10",
+          "reportDate": "",
+          "form": "FWP",
+          "accessionNumber": "0001193125-26-151103",
+          "primaryDocument": "d81172dfwp.htm"
+        },
+        {
+          "filingDate": "2026-04-02",
+          "reportDate": "",
+          "form": "424B5",
+          "accessionNumber": "0001193125-26-138654",
+          "primaryDocument": "d81172d424b5.htm"
+        },
+        {
+          "filingDate": "2026-03-27",
+          "reportDate": "2026-03-27",
+          "form": "4",
+          "accessionNumber": "0001728451-26-000001",
+          "primaryDocument": "xslF345X06/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-03-26",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0000102909-26-000775",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-03-19",
+          "reportDate": "2026-03-17",
+          "form": "4",
+          "accessionNumber": "0001193125-26-116315",
+          "primaryDocument": "xslF345X06/ownership.xml"
+        },
+        {
+          "filingDate": "2026-03-13",
+          "reportDate": "2025-12-31",
+          "form": "ARS",
+          "accessionNumber": "0001193125-26-106284",
+          "primaryDocument": "d948018dars.pdf"
+        },
+        {
+          "filingDate": "2026-03-13",
+          "reportDate": "",
+          "form": "DEFA14A",
+          "accessionNumber": "0001193125-26-106273",
+          "primaryDocument": "d97126ddefa14a.htm"
+        },
+        {
+          "filingDate": "2026-03-13",
+          "reportDate": "",
+          "form": "DEFA14A",
+          "accessionNumber": "0001193125-26-106263",
+          "primaryDocument": "d942071ddefa14a.htm"
+        },
+        {
+          "filingDate": "2026-03-13",
+          "reportDate": "2026-05-02",
+          "form": "DEF 14A",
+          "accessionNumber": "0001193125-26-106253",
+          "primaryDocument": "d882687ddef14a.htm"
+        },
+        {
+          "filingDate": "2026-03-05",
+          "reportDate": "2026-03-04",
+          "form": "8-K",
+          "accessionNumber": "0001193125-26-092557",
+          "primaryDocument": "d82599d8k.htm"
+        },
+        {
+          "filingDate": "2026-03-05",
+          "reportDate": "2026-03-04",
+          "form": "4",
+          "accessionNumber": "0001193125-26-092556",
+          "primaryDocument": "xslF345X05/ownership.xml"
+        },
+        {
+          "filingDate": "2026-03-02",
+          "reportDate": "2026-02-28",
+          "form": "8-K",
+          "accessionNumber": "0001193125-26-085801",
+          "primaryDocument": "d117283d8k.htm"
+        },
+        {
+          "filingDate": "2026-03-02",
+          "reportDate": "2025-12-31",
+          "form": "10-K",
+          "accessionNumber": "0001193125-26-083899",
+          "primaryDocument": "brka-20251231.htm"
+        },
+        {
+          "filingDate": "2026-02-17",
+          "reportDate": "2026-01-06",
+          "form": "4",
+          "accessionNumber": "0001193125-26-054947",
+          "primaryDocument": "xslF345X05/ownership.xml"
+        },
+        {
+          "filingDate": "2026-02-17",
+          "reportDate": "2025-12-15",
+          "form": "3",
+          "accessionNumber": "0001193125-26-054931",
+          "primaryDocument": "xslF345X02/ownership.xml"
+        },
+        {
+          "filingDate": "2026-02-17",
+          "reportDate": "",
+          "form": "SCHEDULE 13G",
+          "accessionNumber": "0001193125-26-054685",
+          "primaryDocument": "xslSCHEDULE_13G_X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-02-17",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-054609",
+          "primaryDocument": "xslSCHEDULE_13G_X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-02-17",
+          "reportDate": "2025-12-31",
+          "form": "13F-HR",
+          "accessionNumber": "0001193125-26-054580",
+          "primaryDocument": "xslForm13F_X02/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-02-17",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0001193125-26-054571",
+          "primaryDocument": "xslSCHEDULE_13G_X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-02-05",
+          "reportDate": "",
+          "form": "SCHEDULE 13G/A",
+          "accessionNumber": "0000315066-26-000368",
+          "primaryDocument": "xslSCHEDULE_13G_X01/primary_doc.xml"
+        },
+        {
+          "filingDate": "2026-02-02",
+          "reportDate": "2026-01-29",
+          "form": "4",
+          "accessionNumber": "0001193125-26-033900",
+          "primaryDocument": "xslF345X05/ownership.xml"
+        },
+        {
+          "filingDate": "2026-01-06",
+          "reportDate": "2025-05-03",
+          "form": "8-K/A",
+          "accessionNumber": "0001193125-26-004727",
+          "primaryDocument": "d32284d8ka.htm"
+        },
+        {
+          "filingDate": "2025-12-23",
+          "reportDate": "",
+          "form": "S-8 POS",
+          "accessionNumber": "0001193125-25-331138",
+          "primaryDocument": "d47679ds8pos.htm"
+        },
+        {
+          "filingDate": "2025-12-11",
+          "reportDate": "2025-12-08",
+          "form": "8-K",
+          "accessionNumber": "0001193125-25-314935",
+          "primaryDocument": "d10933d8k.htm"
+        },
+        {
+          "filingDate": "2025-11-21",
+          "reportDate": "2025-11-20",
+          "form": "8-K",
+          "accessionNumber": "0001193125-25-290864",
+          "primaryDocument": "d45429d8k.htm"
+        }
+      ],
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/brk_submissions.txt",
+      "sha256": "db47454ac805a156e17ade1897b59959c8917377fa526936960a7ef89119ca00"
+    },
+    {
+      "name": "Google latest Form4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442116/ownership.xml",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "access_failed",
+      "read_scope": "仅SEC recent元数据可读，正文403",
+      "facts": "10/30登记Form4；未读内容，不推断买卖意图或量",
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/goog_form4_oct30.txt",
+      "sha256": "dd11db406ba29c9af00e1a02accacebcf7c5a2654b4162ef12e709fec8e5688a"
+    },
+    {
+      "name": "Google Q3 contract recognition",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "prior_original_filing_reread",
+      "read_scope": "本次复读本地已存官方10-Q Note1 RevenueRecognition及Financial Guarantees；不是10/30新披露",
+      "facts": "TPU硬件/软件控制权转移时确认净退回估计后的收入；安装支持保修按履约期间确认；多年度预设回购权通常为退货权，客户转让设备仍保留回购权时为金融担保。6.6b为条件最大毛义务，公允价值不重大。",
+      "raw_file": null,
+      "sha256": null
+    },
+    {
+      "name": "BLS calendar",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "11/2至11/6日历",
+      "facts": "11/3 JOLTS10:00；11/5生产率08:30；11/6就业08:30，均EST",
+      "raw_file": "contexts/survey_sessions/us_market_daily/2026-10-31/raw_macro/bls_nov.txt",
+      "sha256": "dd11db406ba29c9af00e1a02accacebcf7c5a2654b4162ef12e709fec8e5688a"
+    },
+    {
+      "name": "AMD call",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "verified",
+      "read_scope": "公告正文",
+      "facts": "11/3盘后财报，17:00EST电话会",
+      "raw_file": null,
+      "sha256": null
+    },
+    {
+      "name": "PLTR call",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Webcast/",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "search_index_only",
+      "read_scope": "官方搜索索引正文可读，打开仅壳页面",
+      "facts": "公告索引11/2盘后、17:00EST电话会；暂列次级日历，直接正文未完整读",
+      "raw_file": null,
+      "sha256": null
+    },
+    {
+      "name": "MRNA call",
+      "url": "https://investors.modernatx.com/events-presentations",
+      "retrieved_at_utc": "2026-10-30T23:31:31.697490+00:00",
+      "status": "official_index_event_direct_page_dynamic",
+      "read_scope": "官方搜索索引事件+打开后动态壳",
+      "facts": "11/6 08:00EST电话会；具体财报发布时间未精确披露",
+      "raw_file": null,
+      "sha256": null
+    },
+    {
+      "name": "Bending Spoons official newsroom date check",
+      "url": "https://bendingspoons.com/investors",
+      "retrieved_at_utc": "2026-10-30T23:32:17.343746+00:00",
+      "status": "official_index_title_and_date_verified_body_404",
+      "read_scope": "官方目录10/29完成与10/14宣布两条标题；10/29正文404",
+      "facts": "同一笔3.30亿美元10/14宣布、10/29完成；10/30再报道不重复算另一笔",
+      "body_url": "https://bendingspoons.com/newsroom/berkshire-completes-bending-spoons-investment"
+    }
+  ]
+}

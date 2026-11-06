@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-05T03:02:15.899218+00:00",
+  "result": "passed",
+  "scope": [
+    "cash flow arithmetic",
+    "debt and equity bridge",
+    "scenario results",
+    "20% valuation discount prices",
+    "report key values",
+    "unique source IDs"
+  ],
+  "not_verified": [
+    "independent clinical ROI",
+    "AI revenue segment",
+    "afterhours single price",
+    "full cash net-interest unlevering bridge"
+  ]
+}

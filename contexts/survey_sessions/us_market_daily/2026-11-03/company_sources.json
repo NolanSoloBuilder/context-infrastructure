@@ -1,0 +1,194 @@
+{
+  "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+  "sources": [
+    {
+      "id": "goog_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "read_scope": "CLI完整JSON；recent列表全部字段",
+      "status": "read",
+      "local": "raw_company/goog_submissions.json",
+      "finding": "11/2 FWP与424B5；最新10-Q仍为10/29",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "aa8bec440784d2376ed8d5a2ab325630d9e3956fbe3a4122766258a39d945501"
+    },
+    {
+      "id": "goog_fwp",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526443857/d134038dfwp.htm",
+      "event_date": "2026-11-02",
+      "read_scope": "CLI完整原文；七档principal/coupon/netproceeds、预计结算日期",
+      "status": "read",
+      "local": "raw_company/goog_fwp.html",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "39d7a198379a463bc3dd029745ba38629a12f2aa110be1873487ef55e8925d40"
+    },
+    {
+      "id": "goog_424b5",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442515/d125079d424b5.htm",
+      "event_date": "2026-11-02",
+      "read_scope": "CLI完整原文；Use of Proceeds",
+      "status": "read",
+      "local": "raw_company/goog_424b5.html",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "25b2bee3e236691a66821c9ad5e3d7810975e2d76b7cab25da553198db8a08ba"
+    },
+    {
+      "id": "goog_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "event_date": "2026-10-29",
+      "read_scope": "复读10/30已下载官方Note1/2/10、库存、现金流及MD&A；非11/2新业绩",
+      "status": "existing_official_archive_reread",
+      "local": "../2026-10-30/google_update/raw/goog_20260930.txt",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "96458e9a3e7da5f1f3bfef66c862633c1af31f0dda745b659517f15e5098a15a"
+    },
+    {
+      "id": "sofi_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+      "read_scope": "CLI完整JSON；recent最新8-K10/27，10-Q8/6",
+      "status": "read",
+      "local": "raw_company/sofi_submissions.json",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "6b6cd106f4fefea0e5cc511f1e2dd0195d6c6ca6ec78333a49486bb360b5b760"
+    },
+    {
+      "id": "sofi_results",
+      "url": "https://investors.sofi.com/financials/quarterly-results/",
+      "event_date": "2026-10-27",
+      "read_scope": "本次直接open及CLI为壳；官方搜索索引可见Q3标题及2027.90展望，未将索引算完整正文",
+      "status": "direct_body_dynamic_missing",
+      "local": "raw_company/sofi_results.html",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "2033ad0000c21a763e8c9888de016967983bba888d5d0f860646e5c907e2cca0"
+    },
+    {
+      "id": "rrx_calendar",
+      "url": "https://investors.regalrexnord.com/investors/ir-news/press-release-details/2026/Regal-Rexnord-Corporation-to-Host-Third-Quarter-2026-Earnings-Conference-Call-on-Tuesday-November-3rd-2026/default.aspx",
+      "event_date": "2026-10-05",
+      "read_scope": "web打开完整官方公告正文；CLI挑战页未绕过",
+      "status": "web_read",
+      "finding": "11/3盘前发布，11/3 10:00EST电话会",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00"
+    },
+    {
+      "id": "cgnx_calendar",
+      "url": "https://investor.cognex.com/news/news-details/2026/Cognex-Announces-Third-Quarter-2026-Earnings-Release-and-Conference-Call-Dates/default.aspx",
+      "event_date": "2026-10-15",
+      "read_scope": "官方搜索索引完整公告；直接open页面正文动态缺失",
+      "status": "official_index_text_read",
+      "finding": "11/4盘后发布；11/5 08:30EST电话会",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00"
+    },
+    {
+      "id": "mrna_calendar",
+      "url": "https://investors.modernatx.com/events-presentations",
+      "read_scope": "官方搜索索引明确11/6 08:00ET；直接open动态壳",
+      "status": "official_index_text_read",
+      "finding": "11/6 21:00BJT电话会，未猜临床跳涨驱动",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00"
+    },
+    {
+      "id": "brk_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "read_scope": "CLI完整JSON；recent尚无Q3披露",
+      "status": "read",
+      "local": "raw_company/brk_submissions.json",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "7acace8dfa5d4be494afb7844b50da54ef14b933536d5c1fb5bb078666c0563d"
+    },
+    {
+      "id": "brk_news",
+      "url": "https://www.berkshirehathaway.com/news/2026news.html",
+      "read_scope": "官方完整新闻目录，最新列9/18",
+      "status": "read",
+      "local": "raw_company/brk_news.html",
+      "finding": "未见11/2 Q3新公告；不解释涨幅原因",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "ad0e809e75addc408cd3de7d1120d5c45608d29f226d54cb707d97a63ff53bfd"
+    },
+    {
+      "id": "rrx_recent",
+      "url": "https://data.sec.gov/submissions/CIK0000082811.json",
+      "read_scope": "CLI完整JSON；最新10-Q8/5",
+      "status": "read",
+      "local": "raw_company/rrx_submissions.json",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "d9b34b46394ef517b3ca129fb5487c675ada6dc696c42ccfdda55063ff878a7d"
+    },
+    {
+      "id": "cgnx_recent",
+      "url": "https://data.sec.gov/submissions/CIK0000851205.json",
+      "read_scope": "CLI完整JSON；最新8-K9/22",
+      "status": "read",
+      "local": "raw_company/cgnx_submissions.json",
+      "checked_at_utc": "2026-11-02T23:34:44.226058+00:00",
+      "sha256": "4daad4f27a0c3d4c0a0a45e9da76182717c5e13d537d122928ccd83d157ede9e"
+    }
+  ],
+  "calculations": {
+    "new_financing": {
+      "principal_eur": 6000000000.0,
+      "fixed_tranches": [
+        {
+          "principal_eur": 750000000.0,
+          "coupon": 0.037
+        },
+        {
+          "principal_eur": 1250000000.0,
+          "coupon": 0.0405
+        },
+        {
+          "principal_eur": 750000000.0,
+          "coupon": 0.0425
+        },
+        {
+          "principal_eur": 750000000.0,
+          "coupon": 0.045
+        },
+        {
+          "principal_eur": 750000000.0,
+          "coupon": 0.04875
+        },
+        {
+          "principal_eur": 1000000000.0,
+          "coupon": 0.0525
+        }
+      ],
+      "fixed_coupon_annual_eur": 233062500.0,
+      "floating_principal_eur": 750000000.0,
+      "floating_spread": 0.005,
+      "euribor_not_fetched": true,
+      "net_before_other_expenses_eur": 5975507500,
+      "expected_settlement": "2026-11-05",
+      "not_recorded_as_received_cash": true,
+      "specific_AI_earmark": false
+    },
+    "tpu_cycle_illustration": {
+      "status": "HYPOTHETICAL_NOT_COMPANY_GUIDANCE",
+      "units": "USD billions",
+      "annual_hardware_sales": 10,
+      "gross_margin": 0.3,
+      "DIO": 90,
+      "DSO": 45,
+      "DPO": 45,
+      "net_contract_advance_balances": [
+        0,
+        1,
+        2
+      ],
+      "formula": "COGS*(DIO-DPO)/365 + revenue*DSO/365 - net contract advance balance",
+      "results": [
+        2.095890410958904,
+        1.095890410958904,
+        0.09589041095890405
+      ],
+      "caveat": "不宣称这些是Google实际硬件销售、毛利或账期；不能用全公司递延收入代替实际硬件预收现金；不是DCF重算"
+    }
+  },
+  "limitations": [
+    "本次无私人股数成本",
+    "GoogleIR/SOFIIR动态缺口不当无新闻证据",
+    "未做所有子公司与全球新闻全量扫描",
+    "RRX/CGNX未发布的业绩不预测成事实",
+    "未修改模型或alert_state"
+  ]
+}

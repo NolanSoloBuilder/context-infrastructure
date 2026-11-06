@@ -59,7 +59,7 @@ def main():
     fig = plt.figure(figsize=(13.4, 10.4), facecolor=BG)
     fig.text(.075, .951, "美股观察日报", fontsize=25, weight="bold")
     fig.text(.925, .953, args.report_date, fontsize=18, ha="right", color="#68768D")
-    fig.text(.075, .914, f"美东 {asof} 常规收盘  /  空仓观察  /  价格数据不含分红再投资", fontsize=12, color="#68768D")
+    fig.text(.075, .914, f"美东 {asof} 常规收盘  /  研究观察  /  价格数据不含分红再投资", fontsize=12, color="#68768D")
     fig.text(.075, .866, "01   近 60 个交易日走势", fontsize=17, weight="bold")
     fig.text(.075, .835, f"{dates[0]:%Y/%m/%d} — {dates[-1]:%Y/%m/%d}  ·  首日价格统一为 100", fontsize=11, color="#68768D")
     ax = fig.add_axes([.085, .537, .82, .272])

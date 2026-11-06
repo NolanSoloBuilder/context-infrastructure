@@ -1,0 +1,9 @@
+[
+ {"symbol":"sh513050","name":"中概互联网ETF · 513050","code":"513050","market":"上海 · QDII-ETF","unit":"元","timezone":"Asia/Shanghai","endpoint":"fqkline","product_source":"https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-06-13/513050_20240613_N75D.pdf"},
+ {"symbol":"usKWEB.AM","name":"中概互联网ETF · KWEB","code":"KWEB","market":"美股 · ETF","unit":"美元","timezone":"America/New_York","endpoint":"usfqkline","product_source":"https://kraneshares.com/etf/kweb/"},
+ {"symbol":"usBABA.N","name":"阿里巴巴","code":"BABA","market":"美股 · ADR","unit":"美元","timezone":"America/New_York","endpoint":"usfqkline"},
+ {"symbol":"usPDD.OQ","name":"拼多多","code":"PDD","market":"美股 · ADS","unit":"美元","timezone":"America/New_York","endpoint":"usfqkline"},
+ {"symbol":"usJD.OQ","name":"京东","code":"JD","market":"美股 · ADS","unit":"美元","timezone":"America/New_York","endpoint":"usfqkline"},
+ {"symbol":"usBIDU.OQ","name":"百度","code":"BIDU","market":"美股 · ADS","unit":"美元","timezone":"America/New_York","endpoint":"usfqkline"},
+ {"symbol":"usNTES.OQ","name":"网易","code":"NTES","market":"美股 · ADS","unit":"美元","timezone":"America/New_York","endpoint":"usfqkline"}
+]

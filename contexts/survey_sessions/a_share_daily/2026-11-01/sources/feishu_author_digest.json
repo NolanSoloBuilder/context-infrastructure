@@ -1,0 +1,48 @@
+{
+  "collected_at": "2026-11-01T09:06:34.041474+08:00",
+  "window_start": "2026-10-31T09:00:00+08:00",
+  "window_end": "2026-11-01T09:00:00+08:00",
+  "message_count": 20,
+  "candidate_count": 19,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b616aaabdfca4b4f586861c78de0",
+      "source_time": "2026-10-31 21:32+08:00",
+      "sync_create_time": "1793453639400",
+      "content_sha256": "6a9296e2c6369a8a57d2cf6b4da18e2696af0920ab4bae8e3fd0d62a7aa3898a",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者澄清历史极值不是买入建议，历史可能被突破；不熟悉指标时可先观察和复盘，不必立即交易。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b616989bdf0a0c1fa87782c7efe9",
+      "source_time": "2026-10-31 20:17+08:00",
+      "sync_create_time": "1793449079392",
+      "content_sha256": "65e028d3077d029366d9d8f89303d622086ce458b02c11278f77a84e8b5e7238",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者表示此前点位判断依赖M2约7%企稳的假设，准备在11月中旬新数据后再调整，并将3000点视为长期建仓参考；本报不把该条件预测当实际M2数据、底部保证或用户买入线。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6162353c00b4cf41dd5bdd52cc7",
+      "source_time": "2026-10-31 11:59+08:00",
+      "sync_create_time": "1793419199442",
+      "content_sha256": "e71e327387686830ce14c0a0e48230da6a9d978ed8fca21fea3d51e4be6c4827",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者按是否能承受浮亏区分等待与部分持仓的选择，同时提醒空仓可能踏空；没有统一仓位答案或当前准确持仓比例。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61622bb9b4b0cfdebcc4c9be902",
+      "source_time": "2026-10-31 11:53+08:00",
+      "sync_create_time": "1793418839620",
+      "content_sha256": "85a5cb8417efc4968c35074a7ec370a844da28389b665e0ea2ae85206485fa0f",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者仍将科技处于60日线下方视作下行趋势，认为未来向上突破才可确认其所述中线趋势变化；同时将盈利与货币预期纳入判断。这是作者方法，非普遍有效的保证。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "成员回复、重复维持判断、无关话题及非A股内容；候选原文只在私有临时文件",
+  "coverage": "群同步作者内容，非原星球直读，不保证完整覆盖"
+}

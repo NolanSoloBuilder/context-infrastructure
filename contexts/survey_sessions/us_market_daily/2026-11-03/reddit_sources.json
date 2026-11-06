@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "report_date_bjt": "2026-11-03",
+  "collected_at_utc": "2026-11-02T23:34:16Z",
+  "requested_window_hours": 24,
+  "fallback_window_hours": 72,
+  "status": "partial_access_latest_window_unverified",
+  "last_success_cursor_read_only": true,
+  "cursor_advanced": false,
+  "reported_new_ids": [],
+  "verified_new_items": [],
+  "feeds": [
+    {
+      "subreddit": "investing",
+      "url": "https://www.reddit.com/r/investing/new/",
+      "read_scope": "可访问公开列表缓存；不是完整最新New/Top覆盖",
+      "freshness": "两周前缓存",
+      "status": "read_but_latest_window_unverified",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "subreddit": "stocks",
+      "url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "read_scope": "可访问公开列表缓存；不是完整最新New/Top覆盖",
+      "freshness": "三周前缓存",
+      "status": "read_but_latest_window_unverified",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "subreddit": "ValueInvesting",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "read_scope": "可访问公开列表缓存；不是完整最新New/Top覆盖",
+      "freshness": "显示今日抓取但相对帖子日期不足以确认24小时",
+      "status": "read_but_latest_window_unverified",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "subreddit": "SecurityAnalysis",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "read_scope": "可访问公开列表缓存；不是完整最新New/Top覆盖",
+      "freshness": "两周前缓存",
+      "status": "read_but_latest_window_unverified",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "subreddit": "Bogleheads",
+      "url": "https://www.reddit.com/r/Bogleheads/top/?t=day",
+      "read_scope": "可访问公开列表缓存；不是完整最新New/Top覆盖",
+      "freshness": "上周缓存",
+      "status": "read_but_latest_window_unverified",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "subreddit": "ETFs",
+      "url": "https://www.reddit.com/r/ETFs/new/",
+      "read_scope": "可访问公开列表缓存；不是完整最新New/Top覆盖",
+      "freshness": "两周前缓存",
+      "status": "read_but_latest_window_unverified",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    }
+  ],
+  "direct_access": [
+    {
+      "url": "https://www.reddit.com/r/investing/new/.rss",
+      "status": "http403",
+      "action": "停止进一步直接RSS/API请求；未绕过限制",
+      "raw_path": "raw_sources/reddit_investing_new_rss.raw",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    }
+  ],
+  "candidate_details": [
+    {
+      "canonical_url": "https://www.reddit.com/r/ValueInvesting/comments/1xlbrsz/fcf_capex_debt_and_dilution_matter/",
+      "post_id": "1xlbrsz",
+      "subreddit": "ValueInvesting",
+      "title": "Fcf, capex, debt, and dilution matter",
+      "post_time_bjt": null,
+      "post_time_absolute_verified": false,
+      "visible_relative_time": "1d ago",
+      "event_time": null,
+      "read_scope": "原帖正文与实质支持/反对评论；未确认绝对发布日期、未记录票数或评论总量",
+      "classification": "待核验观点；日期不明，不列为过去24/72小时最新精选",
+      "claims": [
+        "讨论资本开支、自由现金流、负债和稀释对于估值的重要性；将Google季度现金流与股价联系。"
+      ],
+      "counter_arguments": [
+        "评论指出单季度与长期现金流不能混同，资本开支可能产生未来回报。",
+        "股权融资同时改变资产与股数，不能仅凭持股比例判断每股价值受损。"
+      ],
+      "primary_fact_status": "本次未将匿名评论中的财务数值视为官方核验事实；与既有Google现金回报议题重复，不能当新催化剂。",
+      "eligible_for_cursor": false,
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    }
+  ],
+  "search_scope": "另做日期定向搜索；结果多为聚合站，未以聚合摘要替代可核日期的原帖。",
+  "limitations": [
+    "未完成可靠的24/72小时全量扫描，不得表述为Reddit没有新讨论。",
+    "缓存相对时间不推算绝对时间，不编造社区多空共识。",
+    "仅供研究问题，不构成入场触发。"
+  ]
+}

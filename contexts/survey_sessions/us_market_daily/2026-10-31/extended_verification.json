@@ -1,0 +1,205 @@
+{
+  "quote_session_us": "2026-10-30",
+  "comparisons": [
+    {
+      "symbol": "SMH",
+      "regular_close_usd": 522.49,
+      "stockanalysis_price_usd": 524.4,
+      "stockanalysis_time_et": "2026-10-30T19:04:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:04:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/smh/history/",
+      "yahoo_price_usd": 525.35,
+      "yahoo_time_beijing": "2026-10-31T07:26:17+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "VOO",
+      "regular_close_usd": 694.81,
+      "stockanalysis_price_usd": 695.57,
+      "stockanalysis_time_et": "2026-10-30T19:11:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:11:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/voo/history/",
+      "yahoo_price_usd": 695.6,
+      "yahoo_time_beijing": "2026-10-31T07:28:40+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "QQQM",
+      "regular_close_usd": 284.34,
+      "stockanalysis_price_usd": 285.29,
+      "stockanalysis_time_et": "2026-10-30T19:15:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:15:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/qqqm/history/",
+      "yahoo_price_usd": 285.2,
+      "yahoo_time_beijing": "2026-10-31T07:26:42+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "SPMO",
+      "regular_close_usd": 136.27,
+      "stockanalysis_price_usd": 136.6,
+      "stockanalysis_time_et": "2026-10-30T18:48:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T06:48:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/spmo/history/",
+      "yahoo_price_usd": 136.62,
+      "yahoo_time_beijing": "2026-10-31T07:25:36+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "MAGS",
+      "regular_close_usd": 68.48,
+      "stockanalysis_price_usd": 68.62,
+      "stockanalysis_time_et": "2026-10-30T19:06:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:06:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/mags/history/",
+      "yahoo_price_usd": 68.68,
+      "yahoo_time_beijing": "2026-10-31T06:47:00+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "VGT",
+      "regular_close_usd": 116.96,
+      "stockanalysis_price_usd": 117.2,
+      "stockanalysis_time_et": "2026-10-30T19:03:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:03:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/vgt/history/",
+      "yahoo_price_usd": 117.39,
+      "yahoo_time_beijing": "2026-10-31T07:27:46+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "SOXX",
+      "regular_close_usd": 471.51,
+      "stockanalysis_price_usd": 472.3,
+      "stockanalysis_time_et": "2026-10-30T18:57:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T06:57:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/soxx/history/",
+      "yahoo_price_usd": 474.18,
+      "yahoo_time_beijing": "2026-10-31T07:28:24+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "DRAM",
+      "regular_close_usd": 48.01,
+      "stockanalysis_price_usd": 48.19,
+      "stockanalysis_time_et": "2026-10-30T19:03:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:03:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/dram/history/",
+      "yahoo_price_usd": 48.34,
+      "yahoo_time_beijing": "2026-10-31T07:26:29+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "SGOV",
+      "regular_close_usd": 100.73,
+      "stockanalysis_price_usd": 100.73,
+      "stockanalysis_time_et": "2026-10-30T19:04:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:04:00+08:00",
+      "source_url": "https://stockanalysis.com/etf/sgov/history/",
+      "yahoo_price_usd": 100.73,
+      "yahoo_time_beijing": "2026-10-31T07:27:38+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "RRX",
+      "regular_close_usd": 157.24,
+      "stockanalysis_price_usd": 157.25,
+      "stockanalysis_time_et": "2026-10-30T18:41:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T06:41:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/rrx/history/",
+      "yahoo_price_usd": 157.24,
+      "yahoo_time_beijing": "2026-10-31T05:50:43+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "CGNX",
+      "regular_close_usd": 56.15,
+      "stockanalysis_price_usd": 58.06,
+      "stockanalysis_time_et": "2026-10-30T19:05:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:05:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/cgnx/history/",
+      "yahoo_price_usd": 58.99,
+      "yahoo_time_beijing": "2026-10-31T04:09:38+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "ATS",
+      "regular_close_usd": 18.39,
+      "stockanalysis_price_usd": 18.39,
+      "stockanalysis_time_et": "2026-10-30T18:30:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T06:30:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/ats/history/",
+      "yahoo_price_usd": 18.34,
+      "yahoo_time_beijing": "2026-10-31T05:10:33+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "MRNA",
+      "regular_close_usd": 221.72,
+      "stockanalysis_price_usd": 221.2,
+      "stockanalysis_time_et": "2026-10-30T19:15:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:15:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/mrna/history/",
+      "yahoo_price_usd": 221.01,
+      "yahoo_time_beijing": "2026-10-31T07:08:00+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "BRK-B",
+      "regular_close_usd": 542.49,
+      "stockanalysis_price_usd": 543.26,
+      "stockanalysis_time_et": "2026-10-30T19:02:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:02:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "yahoo_price_usd": 543.6,
+      "yahoo_time_beijing": "2026-10-31T07:21:26+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "GOOGL",
+      "regular_close_usd": 279.84,
+      "stockanalysis_price_usd": 281.49,
+      "stockanalysis_time_et": "2026-10-30T19:24:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:24:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/googl/history/",
+      "yahoo_price_usd": 281.65,
+      "yahoo_time_beijing": "2026-10-31T07:29:23+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "NVDA",
+      "regular_close_usd": 204.64,
+      "stockanalysis_price_usd": 205.04,
+      "stockanalysis_time_et": "2026-10-30T19:11:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:11:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/nvda/history/",
+      "yahoo_price_usd": 205.19,
+      "yahoo_time_beijing": "2026-10-31T07:29:22+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "SOFI",
+      "regular_close_usd": 16.76,
+      "stockanalysis_price_usd": 16.75,
+      "stockanalysis_time_et": "2026-10-30T18:59:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T06:59:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/sofi/history/",
+      "yahoo_price_usd": 16.75,
+      "yahoo_time_beijing": "2026-10-31T07:29:00+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    },
+    {
+      "symbol": "GOOG",
+      "regular_close_usd": 278.22,
+      "stockanalysis_price_usd": 279.67,
+      "stockanalysis_time_et": "2026-10-30T19:16:00-04:00",
+      "stockanalysis_time_beijing": "2026-10-31T07:16:00+08:00",
+      "source_url": "https://stockanalysis.com/stocks/goog/history/",
+      "yahoo_price_usd": 279.88,
+      "yahoo_time_beijing": "2026-10-31T07:29:25+08:00",
+      "note": "Different quote timestamps; no assertion of same trade or executable price; Yahoo zero-volume minute reference"
+    }
+  ],
+  "display": "retain Yahoo same-source references, show dated source differences; no override",
+  "captured_at_utc": "2026-10-30T23:33:14.740272+00:00"
+}

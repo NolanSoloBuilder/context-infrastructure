@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-05T02:54:32Z",
+  "scope": "FDE listed-company business evidence; no valuation, portfolio or site changes",
+  "conclusion": "FDE is a deployment/engineering go-to-market model, not a separately disclosed financial industry.",
+  "sources": [
+    {
+      "id": "pltr_fde",
+      "symbol": "PLTR",
+      "published_at": null,
+      "accessed_date": "2026-11-05",
+      "url": "https://jobs.lever.co/palantir/7ea66860-ae93-4139-9388-b7284cb33f37",
+      "type": "official_company_job",
+      "read_scope": "Full role description",
+      "claims": [
+        "Embedded customer engineering on Palantir platforms, data integration, custom applications and end-to-end deployment"
+      ],
+      "limit": "Role proves operating model, not separate FDE revenue."
+    },
+    {
+      "id": "pltr_10k",
+      "symbol": "PLTR",
+      "published_at": "2026-02-17",
+      "period_end": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+      "type": "SEC_10K",
+      "read_scope": "Business; revenue recognition; cost of revenue; segment disclosures",
+      "claims": [
+        "Hosted subscriptions; on-premise term licenses plus maintenance; professional services",
+        "Professional services include support, UI configuration, training and data/ontology modeling",
+        "Some pilot personnel and cloud costs appear in sales and marketing"
+      ],
+      "limit": "No product-reuse hours or FDE-specific revenue/margin; policies are from annual filing."
+    },
+    {
+      "id": "pltr_q3",
+      "symbol": "PLTR",
+      "published_at": "2026-11-02",
+      "period_end": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "type": "SEC_earnings_exhibit",
+      "read_scope": "Q3 financial release and financial tables",
+      "facts": {
+        "revenue_usd_m": 2313.411,
+        "revenue_yoy_pct": 96,
+        "us_commercial_revenue_usd_m": 984,
+        "us_commercial_yoy_pct": 148,
+        "gross_profit_usd_m": 1930.125,
+        "calculated_gross_margin_pct": 83.43199716781842
+      },
+      "limit": "Company revenue is not all AI or FDE revenue."
+    },
+    {
+      "id": "now_acn_fde",
+      "symbols": [
+        "NOW",
+        "ACN"
+      ],
+      "published_at": "2026-05-06",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Accenture-launch-forward-deployed-engineering-program-to-scale-agentic-AI-across-the-enterprise/default.aspx",
+      "type": "official_joint_announcement",
+      "read_scope": "Full announcement",
+      "claims": [
+        "Joint FDE pods work in customer environments",
+        "More than 300 prebuilt agent skills/workflows"
+      ],
+      "limit": "Program and reusable assets confirmed; customer ROI claims are company assertions, not independently audited results."
+    },
+    {
+      "id": "now_pricing",
+      "symbol": "NOW",
+      "effective_date": "2026-08-24",
+      "url": "https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf",
+      "type": "official_legal_terms",
+      "read_scope": "Assist metering, entitlements and overage provisions",
+      "claims": [
+        "Assists meter Now Assist skills/actions; entitlements and charges are contract-dependent"
+      ],
+      "limit": "No universal dollar price or standalone FDE fee verified."
+    },
+    {
+      "id": "now_q3",
+      "symbol": "NOW",
+      "published_at": "2026-10-28",
+      "period_end": "2026-09-30",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+      "type": "official_earnings",
+      "read_scope": "Q3 financial release and tables",
+      "facts": {
+        "total_revenue_usd_m": 4106,
+        "subscription_revenue_usd_m": 3988,
+        "professional_services_other_revenue_usd_m": 118,
+        "professional_services_other_cost_usd_m": 157,
+        "calculated_subscription_share_pct": 97.12615684364346,
+        "ai_year_end_acv_target_usd_m": 1700
+      },
+      "limit": "AI ACV is management guidance; subscription share is not AI revenue or code reuse share. Rounded segment cost/revenue imply approximately USD39m gross loss; do not use them to override reported precise margin."
+    },
+    {
+      "id": "crm_fde",
+      "symbol": "CRM",
+      "published_at": "2026-04-15",
+      "url": "https://www.salesforce.com/news/stories/salesforce-launches-forward-deployed-engineer-partner-network-announcement/",
+      "type": "official_program_announcement",
+      "read_scope": "Full announcement",
+      "claims": [
+        "Salesforce FDE Partner Network including Accenture, Deloitte and 30 firms",
+        "Production implementation, product-team collaboration and post-launch adoption"
+      ],
+      "limit": "Partner network is a delivery channel, not separate disclosed revenue."
+    },
+    {
+      "id": "crm_pricing",
+      "symbol": "CRM",
+      "published_at": null,
+      "accessed_date": "2026-11-05",
+      "url": "https://www.salesforce.com/agentforce/pricing/",
+      "type": "official_pricing",
+      "read_scope": "Agentforce public pricing examples",
+      "facts": {
+        "flex_credits_price_usd": 500,
+        "flex_credits_quantity": 100000,
+        "conversation_price_usd": 2
+      },
+      "limit": "List examples only, not negotiated total project cost, FDE fee or all underlying subscription/data charges."
+    },
+    {
+      "id": "crm_q2",
+      "symbol": "CRM",
+      "published_at": "2026-08-26",
+      "period_end": "2026-07-31",
+      "fiscal_period": "FY2027Q2",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/",
+      "type": "official_earnings",
+      "read_scope": "Financial results and Agentforce ARR definitions",
+      "facts": {
+        "rounded_total_revenue_usd_b": 11.3,
+        "rounded_subscription_support_revenue_usd_b": 10.8,
+        "agentforce_arr_usd_b_lower_bound": 1.5
+      },
+      "claims": [
+        "Agentforce ARR definition expanded this quarter to include related AI offerings, Slackbot and Headless360"
+      ],
+      "limit": "ARR is not quarterly recognized revenue; prior-period comparison may not share definition."
+    },
+    {
+      "id": "acn_microsoft_fde",
+      "symbol": "ACN",
+      "published_at": "2026-03-18",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-launches-microsoft-forward-deployed-engineering-practice-to-help-organizations-scale-ai-across-the-enterprise",
+      "type": "official_program_announcement",
+      "read_scope": "Official search-index text of announcement",
+      "claims": [
+        "Microsoft forward-deployed engineering practice for scaling enterprise AI"
+      ],
+      "limit": "Do not derive FDE revenue from staffing/program announcement."
+    },
+    {
+      "id": "acn_workday_fde",
+      "symbol": "ACN",
+      "published_at": "2026-10-13",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-launches-forward-deployed-engineering-program-with-workday-to-reinvent-work-for-the-agentic-ai-era",
+      "type": "official_program_announcement",
+      "read_scope": "Official search-index text of announcement",
+      "claims": [
+        "Workday joint FDE program in finance and HR workflows"
+      ],
+      "limit": "Program proof, not paid project amount."
+    },
+    {
+      "id": "acn_10k",
+      "symbol": "ACN",
+      "published_at": null,
+      "period_end": "2026-08-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm",
+      "type": "SEC_10K",
+      "read_scope": "Revenue recognition, contract pricing and operational discussion",
+      "claims": [
+        "Time-and-materials, fixed-price, fee-per-transaction and hybrid contracts; some include incentive/penalty clauses",
+        "Contract-estimation and delivery-overrun risks"
+      ],
+      "limit": "Exact filing date not independently recorded; no FDE or reusable-code share."
+    },
+    {
+      "id": "acn_last_ai_revenue",
+      "symbol": "ACN",
+      "published_at": "2025-12-18",
+      "period_end": "2025-11-30",
+      "fiscal_period": "FY2026Q1",
+      "url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/first-quarter-fiscal-2026-earnings-presentation.pdf",
+      "type": "official_earnings_presentation",
+      "read_scope": "Slides 6 and 8, AI metrics and pricing",
+      "facts": {
+        "advanced_ai_revenue_usd_b": 1.1,
+        "advanced_ai_bookings_usd_b": 2.2
+      },
+      "claims": [
+        "Company said this would be the last quarter separately reporting AI bookings/revenue because AI was embedded broadly"
+      ],
+      "limit": "Historical AI metric, not current-quarter FDE revenue; bookings not revenue."
+    },
+    {
+      "id": "acn_q4",
+      "symbol": "ACN",
+      "published_at": "2026-10-01",
+      "period_end": "2026-08-31",
+      "fiscal_period": "FY2026Q4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/q4fy26earnings8-kexhibit.htm",
+      "type": "SEC_earnings_exhibit",
+      "read_scope": "Annual and Q4 results",
+      "facts": {
+        "annual_revenue_usd_b": 74.2,
+        "q4_revenue_usd_b": 18.68,
+        "q4_consulting_revenue_usd_b": 9.28,
+        "q4_managed_services_revenue_usd_b": 9.4,
+        "q4_gross_margin_pct": 32
+      },
+      "limit": "All-company segments, not FDE-only economics."
+    },
+    {
+      "id": "epam_q2",
+      "symbol": "EPAM",
+      "published_at": "2026-08-06",
+      "period_end": "2026-06-30",
+      "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Second-Quarter-2026/default.aspx",
+      "type": "official_earnings",
+      "read_scope": "CEO statement and financial results",
+      "facts": {
+        "revenue_usd_m": 1414.767,
+        "revenue_yoy_pct": 4.5,
+        "gaap_operating_margin_pct": 10.8
+      },
+      "claims": [
+        "CEO describes building a next-generation forward-deployed engineering organization"
+      ],
+      "limit": "Direction is confirmed, transformation completion and FDE revenue are not disclosed."
+    },
+    {
+      "id": "epam_contracts",
+      "symbol": "EPAM",
+      "published_at": "2026-08-06",
+      "period_end": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000046/epam-20260630.htm",
+      "type": "SEC_10Q",
+      "read_scope": "Revenue disaggregation by contract type and segments",
+      "facts": {
+        "total_revenue_usd_thousand": 1414767,
+        "time_material_revenue_usd_thousand": 1103908,
+        "fixed_price_revenue_usd_thousand": 305492,
+        "licensing_other_revenue_usd_thousand": 5367,
+        "time_material_share_pct": 78.02754799906981,
+        "fixed_price_share_pct": 21.593096248357504,
+        "licensing_other_share_pct": 0.3793557525726851
+      },
+      "limit": "Billing categories are not product reuse percentages or AI/non-AI categories; FDE not standalone."
+    },
+    {
+      "id": "epam_q3_schedule",
+      "symbol": "EPAM",
+      "published_at": "2026-10-02",
+      "url": "https://investors.epam.com/news/news-details/2026/EPAM-Announces-Date-for-Third-Quarter-Earnings-Release-and-Conference-Call/default.aspx",
+      "type": "official_schedule",
+      "read_scope": "Release/conference-call schedule",
+      "facts": {
+        "conference_call_time": "2026-11-05T08:00:00-05:00",
+        "beijing_time": "2026-11-05T21:00:00+08:00"
+      },
+      "limit": "Review at 10:54 Beijing precedes release window; use Q2 as latest verified."
+    },
+    {
+      "id": "glob_fde",
+      "symbol": "GLOB",
+      "published_at": null,
+      "accessed_date": "2026-11-05",
+      "url": "https://career.globant.com/job/ForwardDeployedEngineeringManagerspecializedinDefenseProjects/79206",
+      "type": "official_company_job",
+      "read_scope": "Full role description",
+      "claims": [
+        "Embedded strategic-customer engineering and production systems",
+        "Reusable patterns/tooling fed back to core engineering"
+      ],
+      "limit": "Role focuses on defense projects; not proof all company work is FDE or AI."
+    },
+    {
+      "id": "glob_20f",
+      "symbol": "GLOB",
+      "published_at": null,
+      "period_end": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1557860/000162828026012910/glob-20251231.htm",
+      "type": "SEC_20F",
+      "read_scope": "Business model and contract-revenue descriptions",
+      "claims": [
+        "Substantial majority historically time-and-materials; lesser fixed-price and limited licenses",
+        "AI Pods introduced alongside traditional digital-engineering services"
+      ],
+      "limit": "No exact 2026 time-and-materials share or standalone FDE profit."
+    },
+    {
+      "id": "glob_q2",
+      "symbol": "GLOB",
+      "published_at": "2026-08-13",
+      "period_end": "2026-06-30",
+      "url": "https://investors.globant.com/2026-08-13-Globant-Reports-2026-Second-Quarter-Financial-Results",
+      "type": "official_earnings",
+      "read_scope": "Q2 financial results, Glob.AI/AI Pods disclosures",
+      "facts": {
+        "revenue_usd_m": 614.4,
+        "glob_ai_arr_usd_m": 52.8,
+        "arr_qoq_pct": 61,
+        "ifrs_gross_margin_pct": 33.9,
+        "prior_year_ifrs_gross_margin_pct": 35.4
+      },
+      "claims": [
+        "AI Pods subscription priced on output or consumption",
+        "Total quarterly revenue essentially flat year on year"
+      ],
+      "limit": "ARR not recognized quarterly revenue; do not divide ARR by quarter revenue to calculate revenue share. AI Pods margin claims are management assertions without a separate audited profit statement."
+    }
+  ],
+  "gaps": [
+    {
+      "symbol": "PLTR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "status": "full_document_access_failed",
+      "treatment": "Latest Q3 amounts from SEC earnings exhibit; accounting policies from 2025 annual filing."
+    },
+    {
+      "symbol": "EPAM",
+      "status": "primary_ai_native_amount_not_verified",
+      "treatment": "Third-party transcript AI-native revenue amounts omitted from core evidence; no official transcript/audio reconciliation completed."
+    },
+    {
+      "symbols": [
+        "PLTR",
+        "NOW",
+        "CRM",
+        "ACN",
+        "EPAM",
+        "GLOB"
+      ],
+      "status": "not_separately_disclosed",
+      "items": [
+        "FDE revenue/profit",
+        "Reusable code vs custom engineering labor ratio",
+        "Comparable independently audited customer ROI"
+      ]
+    }
+  ]
+}

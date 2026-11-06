@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-06",
+  "market_session": "2026-11-05",
+  "reviewed_at": "2026-11-05T23:34:24.662180+00:00",
+  "scope": "Public primary-source company event verification only; no quote refresh or valuation recalculation",
+  "sources": [
+    {
+      "id": "goog_8k",
+      "symbol": "GOOG/GOOGL",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+      "source_type": "SEC_primary_filing",
+      "document_date": "2026-11-05",
+      "accepted_at_utc": "2026-11-05T21:10:44Z",
+      "captured_at_utc": "2026-11-05T23:28:12.588281+00:00",
+      "read_method": "Direct public HTTP; document saved and text inspected",
+      "read_scope": "Item 8.01 and seven note tranches",
+      "raw_html": "raw_company/goog_8k.html",
+      "raw_text": "raw_company/goog_8k.txt",
+      "status": "read",
+      "claims": [
+        {
+          "fact": "Alphabet 于 11/5 完成欧元计价优先票据发行。",
+          "amount": 6000000000,
+          "currency": "EUR",
+          "basis": "aggregate principal; closed, not proposed"
+        },
+        {
+          "fact": "七档到期日跨 2028—2045，含一档浮息和六档固定息。"
+        }
+      ],
+      "gaps": [
+        "该 8-K 不给实际净到账、美元入账汇率或发行人对冲。"
+      ],
+      "novelty_vs_previous_report": "由前一日报尚未确认交割，推进为已完成融资。"
+    },
+    {
+      "id": "goog_424b2",
+      "symbol": "GOOG/GOOGL",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526447343/d125079d424b2.htm",
+      "source_type": "SEC_primary_filing",
+      "document_date": "2026-11-04",
+      "accepted_at_utc": "2026-11-04T21:21:20Z",
+      "captured_at_utc": "2026-11-05T23:32:23.561487+00:00",
+      "read_method": "Direct public HTTP; document saved and text inspected",
+      "read_scope": "Use of Proceeds, page S-14; financing terms",
+      "raw_html": "raw_company/goog_424b2.html",
+      "raw_text": "raw_company/goog_424b2.txt",
+      "status": "read",
+      "claims": [
+        {
+          "fact": "扣承销折扣及估计发行费用后的预计净募资约 59.7 亿欧元。",
+          "amount": 5970000000,
+          "currency": "EUR",
+          "basis": "estimated net proceeds, not confirmed actual cash receipt"
+        },
+        {
+          "fact": "资金用于一般公司用途，可包括偿还未偿债务。"
+        }
+      ],
+      "gaps": [
+        "不能把承销商自有风险对冲段落当作 Alphabet 发行人对冲披露。"
+      ],
+      "novelty_vs_previous_report": "补核已于 11/4 披露的预计净额；属于本次研究推进，不包装为 11/5 新公告。"
+    },
+    {
+      "id": "sofi_10q",
+      "symbol": "SOFI",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000070/sofi-20260930.htm",
+      "source_type": "SEC_primary_filing",
+      "document_date": "2026-11-05",
+      "accepted_at_utc": "2026-11-05T21:08:44Z",
+      "captured_at_utc": "2026-11-05T23:28:12.588192+00:00",
+      "read_method": "Direct public HTTP; document saved and text inspected",
+      "read_scope": "Notes 9, 12 and 18; regulatory capital and charge-off MD&A",
+      "raw_html": "raw_company/sofi_10q.html",
+      "raw_text": "raw_company/sofi_10q.txt",
+      "status": "read",
+      "claims": [
+        {
+          "fact": "2026 可转债于 10/15 到期，4.28 亿美元本金全现金偿还，未为该次结算发行普通股。",
+          "amount": 428000000,
+          "currency": "USD",
+          "event_date": "2026-10-15"
+        },
+        {
+          "fact": "SoFi Bank 9/30 CET1 资本比率 14.9%，对比 2025 年末 16.4%。",
+          "basis": "9/30 ratios estimated; bank, not holding company"
+        },
+        {
+          "fact": "Q3 总净核销率 1.62%，同比降 28bp；净核销金额 2.125 亿美元，同比增 4920 万美元。",
+          "currency": "USD",
+          "basis": "quarter ended 2026-09-30"
+        },
+        {
+          "fact": "公司披露各监管资本比率满足要求，银行达到 well-capitalized 标准。"
+        }
+      ],
+      "gaps": [
+        "前一日报 SEC 列表 403 缺口本次已解决；并非表示之前没有公布业绩。",
+        "只消除该批到期债务的股票结算，不能扩大为 SBC 或其他可转债不存在稀释。"
+      ],
+      "novelty_vs_previous_report": "新增完整 10-Q 核验；10/27 已有利润公告，不重复称为今天首次发布 Q3。"
+    },
+    {
+      "id": "soxx_497",
+      "symbol": "SOXX",
+      "url": "https://www.sec.gov/Archives/edgar/data/1100663/000119312526430480/d156277d497.htm",
+      "source_type": "SEC_primary_filing",
+      "document_date": "2026-10-23",
+      "accepted_at_utc": null,
+      "captured_at_utc": "2026-11-05T23:28:12.588352+00:00",
+      "read_method": "Direct public HTTP; document saved and text inspected",
+      "read_scope": "Complete prospectus supplement",
+      "raw_html": "raw_company/soxx_497.html",
+      "raw_text": "raw_company/soxx_497.txt",
+      "status": "read",
+      "claims": [
+        {
+          "fact": "SOXX 三比一正向拆股（1 股变 3 股）。",
+          "split_numerator": 3,
+          "split_denominator": 1
+        },
+        {
+          "fact": "登记日 11/3，分配日 11/4，纳斯达克从 11/5 开始拆股后交易。",
+          "record_date": "2026-11-03",
+          "distribution_date": "2026-11-04",
+          "split_adjusted_trading_date": "2026-11-05"
+        }
+      ],
+      "gaps": [
+        "此文件证明事件和倍率，不证明 Yahoo 全部历史已经统一调整。",
+        "最新完整报价与技术指标需主任务按各日拆股口径另行核验。"
+      ],
+      "novelty_vs_previous_report": "官方旧公告今日实际生效；补齐前一日报尚未核清的比例。"
+    },
+    {
+      "id": "epam_q3_release",
+      "symbol": "EPAM",
+      "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000048/exhibit99_q3x2026.htm",
+      "source_type": "SEC_primary_filing",
+      "document_date": "2026-11-05",
+      "accepted_at_utc": "2026-11-04T23:55:57Z",
+      "captured_at_utc": "2026-11-05T23:31:47.098216+00:00",
+      "read_method": "Direct public HTTP; document saved and text inspected",
+      "read_scope": "Complete official earnings release as SEC Exhibit 99; highlights, capital allocation, guidance and statements",
+      "raw_html": "raw_company/epam_q3_release.html",
+      "raw_text": "raw_company/epam_q3_release.txt",
+      "status": "read",
+      "claims": [
+        {
+          "fact": "Q3 收入 14.2643 亿美元，同比 +2.3%，有机恒定汇率 +2.5%。",
+          "revenue_usd": 1426430000,
+          "period": "2026Q3"
+        },
+        {
+          "fact": "GAAP 经营利润 1.75928 亿美元，经营利润率 12.3%；GAAP 稀释 EPS 2.53 美元，调整 EPS 3.51 美元。",
+          "gaap_operating_income_usd": 175928000,
+          "gaap_diluted_eps_usd": 2.53,
+          "non_gaap_diluted_eps_usd": 3.51
+        },
+        {
+          "fact": "管理层称持续扩大 forward-deployed engineering 网络及推出 Frontier AI Services；未单列 FDE 营收或利润。"
+        },
+        {
+          "fact": "Q4 收入指引 14.05—14.20 亿美元，同比 −0.2%—+0.9%；全年 GAAP EPS 指引 8.41—8.49 美元，调整 EPS 13.23—13.31 美元。",
+          "basis": "management forecast"
+        },
+        {
+          "fact": "前九个月经营现金流 2.501 亿美元，低于上年同期 3.720 亿美元。",
+          "currency": "USD"
+        },
+        {
+          "fact": "计划 11/9 当周进入 5 亿美元 ASR，以现有现金及信贷额度融资；尚非已实施回购。",
+          "currency": "USD",
+          "basis": "forward-looking intention"
+        }
+      ],
+      "gaps": [
+        "IR 页面直接读取 403；通过 SEC 同一业绩附件完整读取。",
+        "SEC recent acceptanceDateTime 为 11/4 23:55:57Z、filingDate 11/5；正文发布日期 11/5，分别记录，不把元数据推定成发布精确时刻。",
+        "本次未完成新股价估值，FDE 业务无单独盈利披露。"
+      ],
+      "novelty_vs_previous_report": "上一日报未来事件已发生，必须用实际业绩替换。"
+    },
+    {
+      "id": "cgnx_10q",
+      "symbol": "CGNX",
+      "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000082/cgnx-20261004.htm",
+      "source_type": "SEC_primary_filing",
+      "document_date": "2026-11-05",
+      "accepted_at_utc": "2026-11-05T11:32:38Z",
+      "captured_at_utc": "2026-11-05T23:28:12.587587+00:00",
+      "read_method": "Direct public HTTP; document saved and text inspected",
+      "read_scope": "Revenue footnote; subsequent events; selected geographic MD&A; liquidity and acquisition risk factors",
+      "raw_html": "raw_company/cgnx_10q.html",
+      "raw_text": "raw_company/cgnx_10q.txt",
+      "status": "read",
+      "claims": [
+        {
+          "fact": "11/5 10-Q 已提交；11/4 已公布的季度利润不作为第二次新事实。"
+        },
+        {
+          "fact": "RealSense 收购仍预计 Q4 交割，条件包括先将 Facial Authentication 产品线分拆为独立公司。",
+          "basis": "pending, management expectation"
+        },
+        {
+          "fact": "官方 10-Q 记载 2025Q3 医疗实验室自动化合作的一次性收入约 1300 万美元。",
+          "amount": 13000000,
+          "currency": "USD",
+          "period": "2025Q3",
+          "basis": "historical comparison base; not current-quarter recurring revenue"
+        },
+        {
+          "fact": "RealSense 三年现金留任计划目标约 5650 万美元、绩效调整后最高 6900 万美元；另预计授予约 5000 万美元 RSU，取决于授予日股价。",
+          "currency": "USD",
+          "basis": "pending acquisition commitments; use maximum as sensitivity, not completed cash payment"
+        }
+      ],
+      "gaps": [
+        "未听官方电话会音频；本次不以第三方转录替代 10-Q 数字。",
+        "不能把收购协议签署等于已交割，也不将留任费用遗漏后直接恢复旧安全边际。"
+      ],
+      "novelty_vs_previous_report": "新增 10-Q 覆盖和交割条件核查；原发布中的收入利润和收购价不重复呈现。"
+    },
+    {
+      "id": "mrna_events",
+      "symbol": "MRNA",
+      "url": "https://investors.modernatx.com/events-presentations",
+      "source_type": "company_IR",
+      "document_date": null,
+      "accepted_at_utc": null,
+      "captured_at_utc": "2026-11-05T23:28:13.284400+00:00",
+      "read_method": "Direct public HTTP; document saved and text inspected",
+      "read_scope": "Official events page HTML embedded event array, next Q3 call",
+      "raw_html": "raw_company/mrna_events.html",
+      "raw_text": "raw_company/mrna_events.txt",
+      "status": "read",
+      "claims": [
+        {
+          "fact": "Moderna Q3 2026 电话会定于 11/6 08:00 美国东部时间。",
+          "event_at_et": "2026-11-06T08:00:00-05:00",
+          "event_at_beijing": "2026-11-06T21:00:00+08:00"
+        },
+        {
+          "fact": "截至采集，该条目附演示稿/新闻稿/申报/逐字稿字段为空；日历仅能确认会议安排。"
+        }
+      ],
+      "gaps": [
+        "日历字段为空不证明全网没有财报；当前仍在会议前，不能将其写成已公布财务结果。"
+      ],
+      "novelty_vs_previous_report": "例行重新核验时间，无新增财务数据。"
+    }
+  ],
+  "priority_updates": [
+    {
+      "id": "alphabet_financing_closed",
+      "symbols": [
+        "GOOG",
+        "GOOGL"
+      ],
+      "priority": "high",
+      "new_fact": "€60 亿融资正式交割，预计净募资 €59.7 亿。",
+      "impact": "资本桥应同时记录新增现金和负债；利息与生产性投资回报待核。",
+      "judgment": "旧安全边际仍不自动恢复，推进融资后的资本桥。",
+      "strongest_counterargument": "融资延长期限、提高流动性，不单独证明业务变差或股权便宜。",
+      "next": "核实际到账、偿债用途、汇率和对冲，再与 TPU 营运资金模型合并。",
+      "source_ids": [
+        "goog_8k",
+        "goog_424b2"
+      ]
+    },
+    {
+      "id": "sofi_10q_capital_credit",
+      "symbols": [
+        "SOFI"
+      ],
+      "priority": "high",
+      "new_fact": "完整 10-Q 可读；现金偿还可转债，银行 CET1 比率下降且核销金额上升。",
+      "impact": "债务现金支出、银行扩表和资本缓冲必须联合分析。",
+      "judgment": "继续银行口径估值，不以低表面 PE 或核销率下降认定便宜。",
+      "strongest_counterargument": "银行仍满足监管资本要求；核销金额上涨部分来自贷款规模增长，不能单凭绝对值认定信用恶化。",
+      "next": "正常化 EPS/有形净资产/ROTE；新贷款 vintage、出售/留存及公允价值假设。",
+      "source_ids": [
+        "sofi_10q"
+      ]
+    },
+    {
+      "id": "soxx_split_effective",
+      "symbols": [
+        "SOXX"
+      ],
+      "priority": "data_quality",
+      "new_fact": "11/5 按 3:1 拆股后单位交易。",
+      "impact": "未经统一复权的历史会伪造巨额下跌、均线破位和波动。",
+      "judgment": "只在统一单位并交叉核验后展示回报、MA、回撤。",
+      "strongest_counterargument": "拆股本身不改变经济持仓价值；单位变化不能解释拆股以外的实际市场跌幅。",
+      "next": "核 Yahoo 日线及第二源同一股数单位，必要时单项指标缺失而非猜算。",
+      "source_ids": [
+        "soxx_497"
+      ]
+    },
+    {
+      "id": "epam_fde_results",
+      "symbols": [
+        "EPAM"
+      ],
+      "priority": "research",
+      "new_fact": "Q3 正式发布并确认 FDE 网络扩展，营收增长仍低个位数。",
+      "impact": "利润率改善与 AI 部署叙事不能替代新订单、收入和现金兑现。",
+      "judgment": "列为真实 FDE 服务商，尚无证据足以认定低估。",
+      "strongest_counterargument": "Q4 近零增长指引和九个月经营现金流同比下降；回购可能使用债务。",
+      "next": "拆出 FDE/AI 收入、签单转化及现金回款，再更新正常化盈利估值。",
+      "source_ids": [
+        "epam_q3_release"
+      ]
+    }
+  ],
+  "coverage_notes": [
+    "Google、SoFi、Cognex、EPAM SEC recent submissions 已实际读取并保存。",
+    "来源失败不等于无新消息；EPAM IR 403 已由 SEC 同份附件补齐。",
+    "本文件没有个人预算、股数、成本、账号或持仓标签；未修改站点和私账。"
+  ]
+}

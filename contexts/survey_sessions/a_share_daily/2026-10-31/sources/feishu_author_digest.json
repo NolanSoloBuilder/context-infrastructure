@@ -1,0 +1,48 @@
+{
+  "collected_at": "2026-10-31T09:07:23.205461+08:00",
+  "window_start": "2026-10-30T09:00:00+08:00",
+  "window_end": "2026-10-31T09:00:00+08:00",
+  "message_count": 29,
+  "candidate_count": 25,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b617e0a46e0a0de4cd4aebb8d239",
+      "source_time": "2026-10-30 22:04+08:00",
+      "sync_create_time": "1793369161115",
+      "content_sha256": "47fb0f57c154b42fefcf0cd92f3f6a8be7901b84f90df2944d0a760b1d35752b",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者继续认为技术反弹只适合有经验者，需对失败留容错；强调根据投资依据而非自身浮亏决策。保留22:04较完整版本，21:55重复版本不重复报道。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b617d2dbdcca4de6d2e705b993e6",
+      "source_time": "2026-10-30 21:05+08:00",
+      "sync_create_time": "1793365559381",
+      "content_sha256": "143341c3498f6ae328889c3b3a3a8da2f6488a79c1dae5cf71cf9c482ceb695a",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者称自身通常极少完全清仓、会留部分仓位，具体取决于风险偏好；没有给出当前准确总仓位。回答中对70%减仓的评价不当作作者本人仓位记录。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b617d1539f4b0dd3674accc689bb",
+      "source_time": "2026-10-30 21:03+08:00",
+      "sync_create_time": "1793365439635",
+      "content_sha256": "9976a88c0fcff45636ae9c68bc3d1336f7bd7c9b8a299940ac2789ae998904bd",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者回顾其谨慎、悲观方式管理科技风险，并表示接受与判断相反的上涨、接受踏空；属于作者自述，未核验历史交易。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b617d6ecf9ca0ddbed3022705a45",
+      "source_time": "2026-10-30 20:47+08:00",
+      "sync_create_time": "1793364480495",
+      "content_sha256": "ff51c2e4a309e5f6903d6524f02b5c219f7e3c6372722f634cb34befafff8702",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者强调估值需要当前与未来业绩支持，不能把历史高增长期平均PE机械套用至低增长阶段。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "非投资内容、成员回复、重复回答、申购个股材料与无关个人资料；原文候选未归档",
+  "coverage": "群同步作者内容，不保证原知识星球完整覆盖"
+}

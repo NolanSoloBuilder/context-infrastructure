@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "reason": "Remove the value of the third-party Mapbox configuration flagged by GitHub push protection. The research content and all other bytes are unchanged. The archive differs from the original capture.",
+  "files": [
+    {
+      "file": "mrna_events.html",
+      "removed_configuration": "common.mapbox.token",
+      "redactions": 1,
+      "original_bytes": 222638,
+      "archived_bytes": 222556,
+      "original_sha256": "b8d225f06b376bb2b85130052030690f9c0bed69d45064524854cf74b7e7523f",
+      "archived_sha256": "3801ef2cb5ef6da5e74d51aa26ec518d6d372cd2db2542cdf0e390d465c03de4"
+    }
+  ]
+}

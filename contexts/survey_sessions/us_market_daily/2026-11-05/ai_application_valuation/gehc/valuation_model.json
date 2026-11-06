@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "facts": {
+    "asof_session": "2026-11-04",
+    "currency": "USD",
+    "price": 85.81,
+    "previous_close": 80.66,
+    "actual_shares_m_oct21": 452.137831,
+    "diluted_shares_m_q3": 453,
+    "diluted_shares_m_9m": 455,
+    "revenue_q3": 5513,
+    "revenue_q3_2025": 5143,
+    "revenue_9m": 15939,
+    "revenue_9m_2025": 14927,
+    "gaap_eps_q3": 1.36,
+    "adjusted_eps_q3": 1.34,
+    "gaap_eps_9m": 3.44,
+    "adjusted_eps_9m": 3.46,
+    "gaap_eps_fy2025": 4.55,
+    "gaap_eps_9m2025": 3.26,
+    "adjusted_eps_fy2025": 4.59,
+    "adjusted_eps_9m2025": 3.15,
+    "guidance_adjusted_eps_low": 4.95,
+    "guidance_adjusted_eps_high": 5.05,
+    "guidance_fcf_floor": 1600,
+    "guidance_fcf_is_floor_not_point_estimate": true,
+    "cfo_q3": 907,
+    "capex_q3": 114,
+    "cfo_9m": 1365,
+    "capex_9m": 392,
+    "cfo_9m2025": 937,
+    "capex_9m2025": 348,
+    "cfo_fy2025": 1987,
+    "capex_fy2025": 482,
+    "sbc_9m": 116,
+    "sbc_9m2025": 94,
+    "sbc_fy2025": 130,
+    "net_interest_9m": 332,
+    "net_interest_9m2025": 335,
+    "net_interest_fy2025": 440,
+    "cash_interest_9m": 364,
+    "cash_interest_9m2025": 327,
+    "cash_interest_fy2025": 522,
+    "cash_tariff_refunds_q3": 55,
+    "cash_tariff_refunds_9m": 162,
+    "pnl_prior_year_tariff_refund_q3": 9,
+    "pnl_prior_year_tariff_refund_9m": 115,
+    "pnl_current_year_tariff_refund_q3": 4,
+    "pnl_current_year_tariff_refund_9m": 27,
+    "restructuring_9m": 92,
+    "acquisition_costs_9m": 57,
+    "unrestricted_cash_sep30": 2826,
+    "short_restricted_cash_sep30": 28,
+    "long_restricted_cash_sep30": 3,
+    "borrowing_book_sep30": 9973,
+    "borrowing_principal_sep30": 10162,
+    "redeemable_nci_book": 234,
+    "nci_book": 17,
+    "known_noncurrent_finance_lease": 52,
+    "operating_lease_liabilities": 382,
+    "pension_cash_9m": 243,
+    "pension_cash_2026_expected": 350,
+    "pending_sofie_cash_price": 945,
+    "intelerad_cash_acquisition_mar18": 2293,
+    "inventories_cf_9m": -430,
+    "contract_deferred_assets_cf_9m": -265
+  },
+  "assumptions": {
+    "normalized_tax": 0.205,
+    "restructuring_integration_recurring_fraction": 1.0,
+    "normalization_sbc_treated_as_owner_cost": true,
+    "refund_cash_deduction_is_gross_conservative_proxy": true,
+    "debt_for_dcf": "principal (not book fair-value-hedge carrying amount)",
+    "nci_value_proxy": "book amount, fair value not separately disclosed",
+    "finance_lease_deduction": 52,
+    "scenarios": [
+      {
+        "id": "conservative",
+        "label": "保守",
+        "eps_forward": 4.4,
+        "pe": 14,
+        "fcff_year1": 1650,
+        "fcff_growth_years2_5": 0.04,
+        "wacc": 0.095,
+        "terminal_growth": 0.02
+      },
+      {
+        "id": "base",
+        "label": "基准",
+        "eps_forward": 5.0,
+        "pe": 18,
+        "fcff_year1": 2000,
+        "fcff_growth_years2_5": 0.07,
+        "wacc": 0.085,
+        "terminal_growth": 0.025
+      },
+      {
+        "id": "optimistic",
+        "label": "乐观",
+        "eps_forward": 5.4,
+        "pe": 21,
+        "fcff_year1": 2400,
+        "fcff_growth_years2_5": 0.1,
+        "wacc": 0.08,
+        "terminal_growth": 0.03
+      }
+    ],
+    "dcf_year1_definition": "next 12 months from 2026-11-04; later years are consecutive 12-month periods",
+    "eps_definition": "forward normalized annual earning power around 2027, not official 2027 guidance",
+    "cash_interest_limitation": "Net financing expense is used as an unlevering proxy; cash net interest is not separately reconciled. See sensitivity.",
+    "no_scheduled_debt_repayment_or_cash_balance_double_count": true,
+    "pension_and_operating_lease_cash_costs_remain_in_fcff": true,
+    "pending_sofie_excluded_from_both_price_and_cashflows": true
+  },
+  "derived": {
+    "day_change_pct": 6.384825192164656,
+    "market_cap": 38797.947278110005,
+    "net_debt_book": 7147,
+    "net_debt_principal": 7336,
+    "enterprise_to_equity_deduction": 7639,
+    "ttm_cfo": 2415,
+    "ttm_capex": 526,
+    "ttm_fcf": 1889,
+    "ttm_sbc": 152,
+    "ttm_net_financial_expense": 437,
+    "ttm_cash_interest_gross": 559,
+    "owner_fcf_after_refunds_and_sbc": 1575,
+    "normalized_fcff_anchor_proxy": 1922.415,
+    "reported_ttm_fcf_yield_pct": 4.868814286640838,
+    "normalized_owner_fcf_yield_pct": 4.059493118824415,
+    "fy_guidance_fcf_floor_yield_pct": 4.123929517535913,
+    "adjusted_2026_pe_at_guidance_mid": 17.162,
+    "gaap_ttm_eps_sum_proxy": 4.73,
+    "adjusted_ttm_eps_sum_proxy": 4.9,
+    "normalization_eps_restructuring_integration_haircut": 0.34712087912087913,
+    "normalization_eps_current_refund_haircut": 0.04717582417582417,
+    "normalized_2026_eps_anchor": 4.605703296703297,
+    "pending_sofie_cash_only_downside_per_share": 2.0860927152317883,
+    "required_year1_fcff_at_price_base_assumptions": 2400.5849407327614,
+    "dcf_value_change_for_100m_year1_fcff": 4.277004863093759
+  },
+  "scenarios": [
+    {
+      "id": "conservative",
+      "label": "保守",
+      "eps_forward": 4.4,
+      "pe": 14,
+      "fcff_year1": 1650,
+      "fcff_growth_years2_5": 0.04,
+      "wacc": 0.095,
+      "terminal_growth": 0.02,
+      "eps_multiple_value": 61.60000000000001,
+      "eps_value_upside_pct": -28.213494930660755,
+      "dcf": {
+        "fcff": [
+          1650.0,
+          1716.0,
+          1784.64,
+          1856.0256000000002,
+          1930.2666240000003
+        ],
+        "fcff_pv": [
+          1506.8493150684933,
+          1431.1628197910802,
+          1359.277929299291,
+          1291.003695407546,
+          1226.1587609350208
+        ],
+        "terminal_value": 26251.626086400007,
+        "terminal_value_pv": 16675.759148716286,
+        "enterprise_value": 23490.21166921772,
+        "equity_value": 15851.211669217719,
+        "value_per_share": 34.99163723889121,
+        "terminal_pv_share_of_ev": 0.7099024642067702
+      },
+      "dcf_value_upside_pct": -59.22195870074442,
+      "eps_20pct_value_discount": 49.28000000000001,
+      "dcf_20pct_value_discount": 27.993309791112967
+    },
+    {
+      "id": "base",
+      "label": "基准",
+      "eps_forward": 5.0,
+      "pe": 18,
+      "fcff_year1": 2000,
+      "fcff_growth_years2_5": 0.07,
+      "wacc": 0.085,
+      "terminal_growth": 0.025,
+      "eps_multiple_value": 90.0,
+      "eps_value_upside_pct": 4.882880783125509,
+      "dcf": {
+        "fcff": [
+          2000.0,
+          2140.0,
+          2289.8,
+          2450.0860000000002,
+          2621.5920200000005
+        ],
+        "fcff_pv": [
+          1843.3179723502305,
+          1817.8343137463103,
+          1792.7029637866842,
+          1767.9190518449327,
+          1743.477774630487
+        ],
+        "terminal_value": 44785.530341666665,
+        "terminal_value_pv": 29784.411983270813,
+        "enterprise_value": 38749.66405962946,
+        "equity_value": 31110.66405962946,
+        "value_per_share": 68.67696260403855,
+        "terminal_pv_share_of_ev": 0.7686366503058562
+      },
+      "dcf_value_upside_pct": -19.9662479850384,
+      "eps_20pct_value_discount": 72.0,
+      "dcf_20pct_value_discount": 54.94157008323084
+    },
+    {
+      "id": "optimistic",
+      "label": "乐观",
+      "eps_forward": 5.4,
+      "pe": 21,
+      "fcff_year1": 2400,
+      "fcff_growth_years2_5": 0.1,
+      "wacc": 0.08,
+      "terminal_growth": 0.03,
+      "eps_multiple_value": 113.4,
+      "eps_value_upside_pct": 32.15242978673813,
+      "dcf": {
+        "fcff": [
+          2400.0,
+          2640.0,
+          2904.0000000000005,
+          3194.400000000001,
+          3513.840000000001
+        ],
+        "fcff_pv": [
+          2222.222222222222,
+          2263.3744855967075,
+          2305.2888279225726,
+          2347.979361772991,
+          2391.460461065083
+        ],
+        "terminal_value": 72385.10400000002,
+        "terminal_value_pv": 49264.08549794071,
+        "enterprise_value": 60794.410856520284,
+        "equity_value": 53155.410856520284,
+        "value_per_share": 117.34086281792557,
+        "terminal_pv_share_of_ev": 0.8103390559077532
+      },
+      "dcf_value_upside_pct": 36.74497473246192,
+      "eps_20pct_value_discount": 90.72000000000001,
+      "dcf_20pct_value_discount": 93.87269025434045
+    }
+  ],
+  "dcf_sensitivity": [
+    {
+      "wacc": 0.075,
+      "terminal_growth": 0.02,
+      "price": 78.24042005477965
+    },
+    {
+      "wacc": 0.075,
+      "terminal_growth": 0.025,
+      "price": 86.11940658270868
+    },
+    {
+      "wacc": 0.075,
+      "terminal_growth": 0.03,
+      "price": 95.74927900573304
+    },
+    {
+      "wacc": 0.08,
+      "terminal_growth": 0.02,
+      "price": 70.15886744794757
+    },
+    {
+      "wacc": 0.08,
+      "terminal_growth": 0.025,
+      "price": 76.60394202334712
+    },
+    {
+      "wacc": 0.08,
+      "terminal_growth": 0.03,
+      "price": 84.33803151382658
+    },
+    {
+      "wacc": 0.085,
+      "terminal_growth": 0.02,
+      "price": 63.32327101668903
+    },
+    {
+      "wacc": 0.085,
+      "terminal_growth": 0.025,
+      "price": 68.67696260403855
+    },
+    {
+      "wacc": 0.085,
+      "terminal_growth": 0.03,
+      "price": 75.00405266181525
+    },
+    {
+      "wacc": 0.09,
+      "terminal_growth": 0.02,
+      "price": 57.466581512509066
+    },
+    {
+      "wacc": 0.09,
+      "terminal_growth": 0.025,
+      "price": 61.97183799577163
+    },
+    {
+      "wacc": 0.09,
+      "terminal_growth": 0.03,
+      "price": 67.227970559578
+    },
+    {
+      "wacc": 0.095,
+      "terminal_growth": 0.02,
+      "price": 52.39296440830944
+    },
+    {
+      "wacc": 0.095,
+      "terminal_growth": 0.025,
+      "price": 56.22669092384363
+    },
+    {
+      "wacc": 0.095,
+      "terminal_growth": 0.03,
+      "price": 60.650221518690806
+    }
+  ]
+}

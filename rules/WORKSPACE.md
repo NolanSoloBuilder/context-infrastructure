@@ -60,3 +60,5 @@
 - `StrongVPN订阅更新` / `重新下载节点并更新订阅` → `rules/skills/strongvpn-node-optimizer/references/subscription_workflow.md`（节点下载、Clash YAML 转换、验证、VPS 原子发布与客户端刷新；当前为一份完整统一订阅）
 
 - 美股在线观察台 / `us-market-site` → `adhoc_jobs/us_market_site/`（独立Sites源码Git；固定公网地址与发布证据见 `contexts/survey_sessions/us_market_daily/cloud_site/`；仅公开行情研究，私账仍本地）
+
+- A股晨报在线站点 / `a-share-site` → `adhoc_jobs/a_share_site/`（独立Sites源码Git；固定地址与发布证据见`contexts/survey_sessions/a_share_daily/cloud_site/`）

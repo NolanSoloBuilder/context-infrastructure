@@ -1,0 +1,89 @@
+{
+  "report_date_beijing": "2026-11-02",
+  "collected_at_utc": "2026-11-01T23:31:19.218407+00:00",
+  "complete_reddit_scan": false,
+  "coverage_status": "incomplete_access_restrictions_stale_feeds_and_search",
+  "items": [],
+  "new_verified_items": 0,
+  "rss_attempts": [
+    {
+      "subreddit": "investing",
+      "url": "https://www.reddit.com/r/investing/new/.rss",
+      "http_status": "429",
+      "error": "",
+      "collected_at_utc": "2026-11-01T23:30:31.242655+00:00"
+    },
+    {
+      "subreddit": "stocks",
+      "url": "https://www.reddit.com/r/stocks/new/.rss",
+      "http_status": "403",
+      "error": "",
+      "collected_at_utc": "2026-11-01T23:30:30.936177+00:00"
+    },
+    {
+      "subreddit": "SecurityAnalysis",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+      "http_status": "429",
+      "error": "",
+      "collected_at_utc": "2026-11-01T23:30:30.800840+00:00"
+    },
+    {
+      "subreddit": "ValueInvesting",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+      "http_status": "429",
+      "error": "",
+      "collected_at_utc": "2026-11-01T23:30:31.263046+00:00"
+    },
+    {
+      "subreddit": "Bogleheads",
+      "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+      "http_status": "429",
+      "error": "",
+      "collected_at_utc": "2026-11-01T23:30:31.419278+00:00"
+    },
+    {
+      "subreddit": "ETFs",
+      "url": "https://www.reddit.com/r/ETFs/new/.rss",
+      "http_status": "429",
+      "error": "",
+      "collected_at_utc": "2026-11-01T23:30:31.710211+00:00"
+    }
+  ],
+  "public_pages": [
+    {
+      "url": "https://www.reddit.com/r/stocks/new/",
+      "scope": "Old Google/Oracle feed content; relative time not treated as new"
+    },
+    {
+      "url": "https://www.reddit.com/r/investing/new/",
+      "scope": "No latest24hour original post established"
+    },
+    {
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "scope": "2week cachedfeed; excludedfromfreshness"
+    },
+    {
+      "url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "scope": "6day cachedfeed; excludedfromfreshness"
+    },
+    {
+      "url": "https://www.reddit.com/r/Bogleheads/new/",
+      "scope": "5day cachedfeed; excludedfromfreshness"
+    },
+    {
+      "url": "https://www.reddit.com/r/ETFs/new/",
+      "scope": "2week cachedfeed; excludedfromfreshness"
+    },
+    {
+      "url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "scope": "3week cache; excludedfromfreshness"
+    },
+    {
+      "url": "https://www.reddit.com/r/investing/top/?t=day",
+      "scope": "2week cache; excludedfromfreshness"
+    }
+  ],
+  "search": "TargetedNov1queries returned olderOct26/27 or months-old posts; no latest24h original or substantial update verified",
+  "interpretation": "No new verified item from accessible reads; not a claim of no new discussion",
+  "successful_cursor_advanced": false
+}

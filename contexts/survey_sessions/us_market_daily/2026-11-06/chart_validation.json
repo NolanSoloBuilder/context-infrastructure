@@ -1,0 +1,258 @@
+{
+  "checked_at_utc": "2026-11-05T23:36:59.533810+00:00",
+  "session": "2026-11-05",
+  "return_basis": "Yahoo split-adjusted Close; price return excluding dividend reinvestment; 1/5/21 closing intervals",
+  "sector_benchmark": "^GSPC price index; arithmetic percentage-point differences",
+  "cross_source_caveat": "QQQM closing sources straddle 15% threshold; chart single-source only; alert not updated by this task",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "symbol": "^GSPC",
+      "session": "2026-11-05",
+      "csv_sha256": "8f0d4946c774c50cf351ec701a4324387df917d717bc5340b45c964d4796c40a",
+      "returns_pct": {
+        "1_session_pct": -4.355659814317825,
+        "5_session_pct": -4.749243882198096,
+        "21_session_pct": -5.7427998766745425
+      },
+      "close_csv": 7353.72998047
+    },
+    {
+      "symbol": "^IXIC",
+      "session": "2026-11-05",
+      "csv_sha256": "bf667e3cb284f2a43e90f9cd61f82d9b8f26dc48c2a487da847632ebc3c42eb2",
+      "returns_pct": {
+        "1_session_pct": -5.523327489568619,
+        "5_session_pct": -7.14051021371872,
+        "21_session_pct": -11.706045096037688
+      },
+      "close_csv": 24314.99804688
+    },
+    {
+      "symbol": "^NDX",
+      "session": "2026-11-05",
+      "csv_sha256": "9ffd537cd2bcbc8680f9965faea7c4a358ed3e44fba12f78cbffbb5fbee2610f",
+      "returns_pct": {
+        "1_session_pct": -6.355630089404174,
+        "5_session_pct": -9.430151350930204,
+        "21_session_pct": -14.538702959082151
+      },
+      "close_csv": 26629.80859375
+    },
+    {
+      "symbol": "XLK",
+      "session": "2026-11-05",
+      "csv_sha256": "b69d4c66936eeb9a9ddab20f8e78c062a560ee3bed0d2bd6d268cb3cf42ec36f",
+      "returns_pct": {
+        "1_session_pct": -7.999997235127476,
+        "5_session_pct": -13.96630276743137,
+        "21_session_pct": -19.370373220199255
+      },
+      "close_csv": 162.38000488
+    },
+    {
+      "symbol": "XLC",
+      "session": "2026-11-05",
+      "csv_sha256": "c9e7897fa6d13bddd5a254733cbd73487b63eef170efedf676c363008fe9fefc",
+      "returns_pct": {
+        "1_session_pct": -0.5907038352081506,
+        "5_session_pct": 3.092577105475458,
+        "21_session_pct": -6.219670741415639
+      },
+      "close_csv": 104.33999634
+    },
+    {
+      "symbol": "XLY",
+      "session": "2026-11-05",
+      "csv_sha256": "eb3a288f580c9ea7dd9c5fdb2a3cfd6b8298d25ecc0023dadcb4e2c9eb4073f7",
+      "returns_pct": {
+        "1_session_pct": -3.833893868911753,
+        "5_session_pct": 1.239244817381202,
+        "21_session_pct": 5.6393666896550565
+      },
+      "close_csv": 117.63999939
+    },
+    {
+      "symbol": "XLP",
+      "session": "2026-11-05",
+      "csv_sha256": "d3ada281172e10a122833629a17d269eb4642aa9c5ff0e1c0ecd396277dcd8d9",
+      "returns_pct": {
+        "1_session_pct": -0.7504920836284512,
+        "5_session_pct": 3.4815147189921847,
+        "21_session_pct": 11.689110656692625
+      },
+      "close_csv": 91.25
+    },
+    {
+      "symbol": "XLV",
+      "session": "2026-11-05",
+      "csv_sha256": "ef57e24a57eeb99753e43232bb41e22de0906ab2d1b93a78138c43a7501daa77",
+      "returns_pct": {
+        "1_session_pct": -2.5044816557713623,
+        "5_session_pct": 0.4727289728972517,
+        "21_session_pct": 9.537353434459694
+      },
+      "close_csv": 184.91000366
+    },
+    {
+      "symbol": "XLF",
+      "session": "2026-11-05",
+      "csv_sha256": "e815545081862fe95188689a6822e0045aa748888c31fceed4d5073196c04f45",
+      "returns_pct": {
+        "1_session_pct": -2.8716228685399803,
+        "5_session_pct": 0.9834938241550129,
+        "21_session_pct": 6.976744186046502
+      },
+      "close_csv": 57.5
+    },
+    {
+      "symbol": "XLI",
+      "session": "2026-11-05",
+      "csv_sha256": "c58af65b60ce4791463a2804cf2179b27c41f9af3a4534aeac929a270977c835",
+      "returns_pct": {
+        "1_session_pct": -4.124870301676619,
+        "5_session_pct": -4.502441333263308,
+        "21_session_pct": -3.1994728533726757
+      },
+      "close_csv": 162.47000122
+    },
+    {
+      "symbol": "XLE",
+      "session": "2026-11-05",
+      "csv_sha256": "5f1bf2dfe8eafe82907d2e4afba4fc16795d50049453a2f118de7ea6b019f75f",
+      "returns_pct": {
+        "1_session_pct": -2.9754398241703006,
+        "5_session_pct": -10.304174217433282,
+        "21_session_pct": -2.730428540631924
+      },
+      "close_csv": 61.63000107
+    },
+    {
+      "symbol": "XLU",
+      "session": "2026-11-05",
+      "csv_sha256": "5b8bb093656230bd9efe0fe40b8739c6f121780b7ee52dcbe131959cf37da548",
+      "returns_pct": {
+        "1_session_pct": -0.7108492677455169,
+        "5_session_pct": 0.3708851466444063,
+        "21_session_pct": 5.224781604036077
+      },
+      "close_csv": 43.29999924
+    },
+    {
+      "symbol": "XLB",
+      "session": "2026-11-05",
+      "csv_sha256": "c969b109ec6d027bc06dfabc1e91d9204194852543f0a7ba8b2132991e9f0ec8",
+      "returns_pct": {
+        "1_session_pct": -2.912800844961305,
+        "5_session_pct": -0.38072902083551297,
+        "21_session_pct": 6.83953107689228
+      },
+      "close_csv": 52.33000183
+    },
+    {
+      "symbol": "XLRE",
+      "session": "2026-11-05",
+      "csv_sha256": "12bf65e9422f4adedd5b4690ecd6d541185ad161afb13cab8440e4712123fe1f",
+      "returns_pct": {
+        "1_session_pct": -1.8173752425663103,
+        "5_session_pct": 2.8796977021554593,
+        "21_session_pct": 9.193984664780253
+      },
+      "close_csv": 44.29999924
+    },
+    {
+      "symbol": "SMH",
+      "session": "2026-11-05",
+      "csv_sha256": "4393c3d85f020a148cb73f845ff90da8ec1ff41644eaabe5750db74d0d329634",
+      "returns_pct": {
+        "1_session_pct": -11.212243292725244,
+        "5_session_pct": -20.285928639034534,
+        "21_session_pct": -28.36664000105187
+      },
+      "close_csv": 447.73001099
+    },
+    {
+      "symbol": "QQQM",
+      "session": "2026-11-05",
+      "csv_sha256": "8dc94a0a786b55330a142e373817871736d3cde24df51640f42cff5cf1401246",
+      "returns_pct": {
+        "1_session_pct": -6.3421333982351165,
+        "5_session_pct": -9.39802152400635,
+        "21_session_pct": -14.454701541099347
+      },
+      "close_csv": 266.8500061
+    },
+    {
+      "symbol": "VOO",
+      "session": "2026-11-05",
+      "csv_sha256": "61b194d3a9bc6a3039a821b22f39de7f9f6903ca552224be85be4425ac6eb274",
+      "returns_pct": {
+        "1_session_pct": -4.3715850789076915,
+        "5_session_pct": -4.7149856182298056,
+        "21_session_pct": -5.651378145146547
+      },
+      "close_csv": 673.9699707
+    },
+    {
+      "symbol": "BRK-B",
+      "session": "2026-11-05",
+      "csv_sha256": "0f96a23a61b27339ce4c9459c807f31c62e406776d7906a0139068b913251c15",
+      "returns_pct": {
+        "1_session_pct": -1.1673504043326122,
+        "5_session_pct": 5.603733465359029,
+        "21_session_pct": 13.052842881975302
+      },
+      "close_csv": 572.33001709
+    },
+    {
+      "symbol": "QQQM",
+      "chart_start": "2026-08-13",
+      "chart_end": "2026-11-05",
+      "observations": 60,
+      "normalized_end": 88.53389166240653,
+      "drawdown_end_pct": -15.04703233,
+      "rolling_high_max_abs_error": 0.0,
+      "drawdown_max_abs_error_pp": 7.64371543837683e-09
+    },
+    {
+      "symbol": "VOO",
+      "chart_start": "2026-08-13",
+      "chart_end": "2026-11-05",
+      "observations": 60,
+      "normalized_end": 94.2681249303954,
+      "drawdown_end_pct": -6.19371746,
+      "rolling_high_max_abs_error": 0.0,
+      "drawdown_max_abs_error_pp": 6.2835426861695964e-09
+    },
+    {
+      "symbol": "BRK-B",
+      "chart_start": "2026-08-13",
+      "chart_end": "2026-11-05",
+      "observations": 60,
+      "normalized_end": 112.901194514897,
+      "drawdown_end_pct": -2.38273426,
+      "rolling_high_max_abs_error": 0.0,
+      "drawdown_max_abs_error_pp": 6.3562097807334794e-09
+    }
+  ],
+  "rendered_normalized_end_checks_passed": true,
+  "images": [
+    {
+      "path": "watchlist_curves.png",
+      "bytes": 301285
+    },
+    {
+      "path": "watchlist_curves.svg",
+      "bytes": 149479
+    },
+    {
+      "path": "sector_daily.png",
+      "bytes": 146557
+    },
+    {
+      "path": "sector_daily.svg",
+      "bytes": 116230
+    }
+  ],
+  "font_note": "Arial Unicode MS available; requested bold weight falls back to regular, no missing glyph warnings."
+}

@@ -1,0 +1,45 @@
+{
+  "cutoff": "2026-11-03T09:00:00+08:00",
+  "count": 7,
+  "expected": 7,
+  "failures": [],
+  "provider": "腾讯财经海外日线；各标的独立日期；单一提供方",
+  "stale_histories": [
+    {
+      "symbol": "usKWEB.AM",
+      "history_asof": "2026-10-30",
+      "missing_session": "2026-11-02",
+      "reason": "提供方已完成报价日期较历史末日更新"
+    },
+    {
+      "symbol": "usBABA.N",
+      "history_asof": "2026-10-30",
+      "missing_session": "2026-11-02",
+      "reason": "提供方已完成报价日期较历史末日更新"
+    },
+    {
+      "symbol": "usPDD.OQ",
+      "history_asof": "2026-10-30",
+      "missing_session": "2026-11-02",
+      "reason": "提供方已完成报价日期较历史末日更新"
+    },
+    {
+      "symbol": "usJD.OQ",
+      "history_asof": "2026-10-30",
+      "missing_session": "2026-11-02",
+      "reason": "提供方已完成报价日期较历史末日更新"
+    },
+    {
+      "symbol": "usBIDU.OQ",
+      "history_asof": "2026-10-30",
+      "missing_session": "2026-11-02",
+      "reason": "提供方已完成报价日期较历史末日更新"
+    },
+    {
+      "symbol": "usNTES.OQ",
+      "history_asof": "2026-10-30",
+      "missing_session": "2026-11-02",
+      "reason": "提供方已完成报价日期较历史末日更新"
+    }
+  ]
+}

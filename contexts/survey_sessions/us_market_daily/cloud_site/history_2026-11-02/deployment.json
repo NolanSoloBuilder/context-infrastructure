@@ -1,0 +1,44 @@
+{
+  "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+  "source_commit": "519c6b8320696e5d30688d1070c7e2f1a47f2c58",
+  "saved_version": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_2660fe19e5d48191b5bbe8ed78ffdd72",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 9,
+    "source": {
+      "commit_sha": "519c6b8320696e5d30688d1070c7e2f1a47f2c58"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000054f4821195ea6df980ddcf31",
+      "content_hash": "sha256:8c9e1af23017b2a43277a2d6b345d2abcb04ac37fd078c9e91fc4e0855d678ee",
+      "size_bytes": 3225600,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ae84966fbfc8191adc8c49a10492e00",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_2660fe19e5d48191b5bbe8ed78ffdd72",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-02T08:27:41.349722+00:00"
+  },
+  "checks": {
+    "tests_passed": 49,
+    "artifact_esm": "passed",
+    "local_browser": "date switch between real seed and current public cache; preserves search and two-year chart range; history pause",
+    "production_api": "17/17 complete; two R2 snapshots; old catalog/risk data exact match pre-deploy public cache",
+    "production_browser": "old/new saved times selected; snapshot-specific JSON export; no relevant console errors",
+    "mobile_viewport": "not separately tested"
+  }
+}

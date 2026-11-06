@@ -1,5 +1,7 @@
 /** Build a portable HTML edition from the reviewed Markdown and saved evidence. */
 import fs from 'node:fs';
+import { trendSection } from './trend_view.mjs';
+import { colorValuationCells, valuationLegend, valuationControls } from './valuation_labels.mjs';
 import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
@@ -19,6 +21,7 @@ const sourceFile = path.join(out, 'report.md');
 const source = fs.readFileSync(sourceFile, 'utf8');
 if (!source.includes(reportDate)) throw new Error('Report date and reviewed Markdown do not match');
 const allowedRoot = path.dirname(out);
+if (source.includes('## 主观察表：行情、估值与星级') && /^## (市场与 ETF|当日估值表)$/m.test(source)) throw new Error('Merged overview must not coexist with duplicate market/valuation sections');
 let markedModule;
 try { markedModule = require.resolve('marked'); } catch {
   markedModule = path.join(os.homedir(), '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/marked/lib/marked.esm.js');
@@ -32,11 +35,12 @@ const exports = new Map();
 const sections = [
   ['今天对你最重要的事', 'priorities', '今天对你最重要的事', false],
   ['市场与 ETF', 'watchlist', '主观察表', false],
+  ['主观察表：行情、估值与星级', 'watchlist', '主观察表 · 行情、估值与星级', false],
   ['当日估值表', 'valuation', '指数估值与星级', false],
-  ['我的状态与下一步动作', 'entry', '对你当前状态的建议', false],
+  ['我的状态与下一步动作', 'entry', '下一步：补齐资金条件', false],
   ['5星触发后如何行动', 'levels', '5星观察线与分批评估', true],
   ['银行螺丝钉：最新核验观点', 'lsd', '银行螺丝钉：完整观点', true],
-  ['群内作者更新：已通过南冬CLI读取', 'authors', '重远投资观：要点与螺丝钉对照', true],
+  ['群内作者更新：已通过南冬CLI读取', 'authors', '作者对照：依据、条件与仓位', true],
   ['FiNews补充：只保留影响你决策的信息', 'finews', 'FiNews线索与核验', true],
   ['ETF事件与下一项观察', 'calendar', '事件与下次观察', true],
   ['每日交付与来源状态', 'method', '数据口径与交付说明', true],
@@ -89,7 +93,7 @@ function markdown(text, base = out) {
       },
     },
   });
-  return md.parse(text)
+  return colorValuationCells(md.parse(text))
     .replace(/<p>(<figure>[\s\S]*?<\/figure>)<\/p>/g, '$1')
     .replace(/<table>/g, '<div class="table-scroll" role="region" aria-label="数据表，可横向滚动" tabindex="0"><table>')
     .replace(/<\/table>/g, '</table></div>');
@@ -102,13 +106,22 @@ for (let i = 1; i < chunks.length; i += 2) {
   const heading = chunks[i].trim();
   const [, id, label, folded] = sectionMap.get(heading) || [heading, `section-${i}`, heading, false];
   const body = chunks[i + 1] || '';
-  const fullList = id === 'valuation' ? /^### (全部低估品种[^\n]*)$/m.exec(body) : null;
-  const content = fullList
-    ? markdown(body.slice(0, fullList.index)) + `<details class="reference" id="undervalued"><summary><span>${escape(fullList[1])}</span></summary><div class="section-content">${markdown(body.slice(fullList.index + fullList[0].length))}</div></details>`
+  const fullList = ['valuation','watchlist'].includes(id) ? /^### ((?:全部低估品种|原始估值与核验资料)[^\n]*)$/m.exec(body) : null;
+  let content = fullList
+    ? markdown(body.slice(0, fullList.index)) + `<details class="reference" id="${fullList[1].startsWith('全部低估') ? 'undervalued' : 'valuation-sources'}"><summary><span>${escape(fullList[1])}</span></summary><div class="section-content">${markdown(body.slice(fullList.index + fullList[0].length))}</div></details>`
     : markdown(body);
+  if (heading === '主观察表：行情、估值与星级') content = content.replace('<div class="table-scroll"', valuationLegend() + '<div class="table-scroll"');
+  if (heading === '主观察表：行情、估值与星级' && fs.existsSync(path.join(out, 'valuation_all.json'))) content = content.replace('<div class="table-scroll"', valuationControls() + '<div class="table-scroll"') + '<p class="valuation-empty" hidden>本期没有符合条件的指数。</p>';
+  if (heading === '主观察表：行情、估值与星级' && fs.existsSync(path.join(out, 'valuation_all.json'))) {
+    const valuation=JSON.parse(fs.readFileSync(path.join(out, 'valuation_all.json'), 'utf8'));
+    const original=localFile(valuation.source_image,out);
+    const title=`螺丝钉估值原图 · 第${valuation.issue}期 · ${valuation.asof}`;
+    const quickView=`<button type="button" class="valuation-image-button" aria-haspopup="dialog" aria-controls="chart-dialog" data-image-title="${escape(title)}"><span>查看螺丝钉估值原图</span><small>第${escape(valuation.issue)}期 · ${escape(valuation.asof)}</small><img src="${dataUrl(original, 'image/jpeg')}" alt="" hidden></button>`;
+    content=content.replace('<p class="valuation-legend"',quickView+'<p class="valuation-legend"');
+  }
   rendered.push(folded
     ? `<details id="${id}" class="report-section folded"><summary><span>${escape(label)}</span><span class="expand-label">展开</span></summary><div class="section-content">${content}</div></details>`
-    : `<section id="${id}" class="report-section"><h2>${escape(label)}</h2>${content}</section>`);
+    : `<section id="${id}" class="report-section${heading === '主观察表：行情、估值与星级' ? ' merged-overview' : ''}"><h2>${escape(label)}</h2>${content}</section>`);
 }
 const appendixHtml = [];
 for (const item of appendices.values()) {
@@ -125,11 +138,27 @@ const tickerHtml = ['sh000001', 'sh000016', 'sh000300', 'sh000688'].map(symbol =
   const delta = `${item.daily_pct >= 0 ? '+' : ''}${item.daily_pct.toFixed(2)}%`;
   return `<div class="ticker"><a class="ticker-label" href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">${escape(item.name)}</a><div class="ticker-values"><span>${Number(item.close).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</span><span class="change ${item.daily_pct >= 0 ? 'positive' : 'negative'}">${delta}</span></div></div>`;
 }).join('');
+const trendFile = path.join(out, 'trends.json');
+const trendData = fs.existsSync(trendFile) ? JSON.parse(fs.readFileSync(trendFile, 'utf8')) : null;
+if (trendData && (trendData.asof !== market.asof || Object.values(trendData.assets).some(a => a.group !== 'china' && a.asof !== market.asof))) throw new Error('Trend snapshot date mismatch');
+if (trendData && Object.values(trendData.assets).some(a => a.group === 'china' && (a.asof >= reportDate || a.points.at(-1)?.date !== a.asof))) throw new Error('Overseas curve is not a completed pre-report session');
+if (trendData && fs.existsSync(path.join(out, 'valuation_all.json'))) {
+  const valuation=JSON.parse(fs.readFileSync(path.join(out, 'valuation_all.json'), 'utf8'));
+  const related={sh000001:'上证指数',sh000016:'上证50',sh000300:'沪深300',sh000688:'科创50',sh510050:'上证50',sh510300:'沪深300',sh588000:'科创50'};
+  for(const [symbol,name] of Object.entries(related)){const asset=trendData.assets[symbol],row=valuation.items.find(x=>x.name===name);if(asset && row)asset.valuation={...row,index_name:row.name,asof:valuation.asof,source_url:valuation.source_url};}
+}
+const trendsHtml = trendData ? trendSection(trendData) : '';
+const trendScript = trendData ? fs.readFileSync(new URL('./trend_view.mjs', import.meta.url), 'utf8').replace(/^export /gm, '') + '\n' + fs.readFileSync(new URL('./trend_client.js', import.meta.url), 'utf8') : '';
 const [year, month, day] = reportDate.split('-');
-const navItems = [['priorities', '今日重点'], ['watchlist', '观察名单'], ['valuation', '估值星级'], ['entry', '入场研究'], ['authors', '作者对照'], ['calendar', '事件观察'], ['method', '数据口径']];
-const navigation = navItems.filter(([id]) => rendered.some(section => section.includes(`id="${id}"`))).map(([id, label]) => `<a href="#${id}">${label}</a>`).join('');
+const navItems = [['priorities', '今日重点'], ['watchlist', '主观察表'], ['trends', '趋势图'], ['china-stocks', '中概股'], ['valuation', '估值星级'], ['entry', '资金条件'], ['authors', '作者对照'], ['calendar', '事件观察'], ['method', '数据口径']];
+const navigation = navItems.filter(([id]) => (id === 'trends' ? !!trendData : id === 'china-stocks' ? Object.values(trendData?.assets || {}).some(a => a.group === 'china') : rendered.some(section => section.includes(`id="${id}"`)))).map(([id, label]) => `<a href="#${id}">${label}</a>`).join('');
 const css = fs.readFileSync(new URL('../us_market_daily/report.css', import.meta.url), 'utf8');
+const mobileCss = fs.readFileSync(new URL('./report_mobile.css', import.meta.url), 'utf8');
 const script = fs.readFileSync(new URL('../us_market_daily/report_interactions.js', import.meta.url), 'utf8');
+const valuationModalScript = fs.readFileSync(new URL('./valuation_modal.js', import.meta.url), 'utf8');
+const valuationFilterScript = fs.readFileSync(new URL('./valuation_filter.js', import.meta.url), 'utf8');
+const refreshScript = fs.readFileSync(new URL('./report_refresh.js', import.meta.url), 'utf8');
+const contentRevision = sha(fs.readFileSync(new URL('./valuation_labels.mjs', import.meta.url), 'utf8') + valuationFilterScript + valuationModalScript + source + css + mobileCss + script + trendScript + refreshScript + JSON.stringify(trendData) + [...assets.values()].join('') + fs.readFileSync(new URL(import.meta.url), 'utf8'));
 const html = `<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -137,9 +166,11 @@ const html = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="report-revision" content="${contentRevision}">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'">
 <title>A股观察 · ${reportDate}</title>
 <style>${css}</style>
+<style data-a-share-mobile>${mobileCss}</style>
 </head>
 <body id="top">
 <a class="skip-link" href="#main">跳转到日报正文</a>
@@ -150,15 +181,23 @@ const html = `<!doctype html>
 </header>
 <nav class="navigation" aria-label="日报目录">${navigation}<button type="button" id="print-report">打印 / 保存 PDF</button></nav>
 <main id="main">
+<div class="report-refresh" id="report-refresh"><label><input type="checkbox" checked>自动检查新版</label><button type="button">立即检查</button><span role="status" aria-live="polite">默认每5分钟检查最新已发布晨报</span></div>
   <section class="introduction" aria-label="今日判断">${introduction}</section>
-  ${tickerHtml ? `<div class="market-strip" aria-label="指数与波动率，收盘点位及当日变化">${tickerHtml}</div><p class="strip-note">指数单位为点，ETF报价为人民币元；行情截至${market.asof}收盘。</p>` : ''}
-  ${rendered.join('\n')}
+  ${tickerHtml && !source.includes('## 主观察表：行情、估值与星级') ? `<div class="market-strip" aria-label="指数与波动率，收盘点位及当日变化">${tickerHtml}</div><p class="strip-note">指数单位为点，ETF报价为人民币元；行情截至${market.asof}收盘。</p>` : ''}
+  ${rendered.map(section => section.includes('id="watchlist"') ? section + trendsHtml : section).join('\n')}${trendsHtml && !rendered.some(section => section.includes('id="watchlist"')) ? trendsHtml : ''}
   ${appendixHtml.length ? `<section id="references" class="report-section reference-section"><h2>延伸阅读与研究依据</h2>${appendixHtml.join('\n')}</section>` : ''}
 </main>
 <footer><span>A股观察 · ${reportDate} · 已保存的收盘研究</span><a href="#top">回到顶部 ↑</a></footer>
 </div>
-<dialog id="chart-dialog" aria-label="放大图表"><div class="dialog-toolbar"><span id="chart-title">图表</span><button type="button" id="close-chart" aria-label="关闭图表">关闭 ✕</button></div><div class="zoom-scroll"><img id="zoom-image" alt=""></div></dialog>
+<aside id="trend-hover-panel" class="trend-hover-panel" role="dialog" aria-modal="false" aria-label="标的数据预览" hidden></aside>
+<dialog id="trend-dialog" aria-label="标的完整数据"><div class="trend-detail-toolbar"><span id="trend-dialog-title">标的详情</span><div class="trend-dialog-periods" role="group" aria-label="详情曲线区间">${[['20d','20日'],['1y','一年'],['2y','两年'],['3y','三年']].map(([key,label])=>`<button type="button" data-detail-period="${key}" aria-pressed="${key==='3y'}">${label}</button>`).join('')}</div><button type="button" id="close-trend-detail">关闭</button></div><div id="trend-dialog-body" class="trend-panel-body"></div></dialog>
+<dialog id="chart-dialog" aria-label="放大图表"><div class="dialog-toolbar"><span id="chart-title">图表</span><div id="valuation-zoom-controls" class="valuation-zoom-controls" role="group" aria-label="估值图缩放" hidden><button type="button" data-valuation-zoom="out" aria-label="缩小估值图">−</button><output aria-live="polite">100%</output><button type="button" data-valuation-zoom="in" aria-label="放大估值图">＋</button><button type="button" data-valuation-zoom="fit">适应宽度</button></div><button type="button" id="close-chart" aria-label="关闭图表">关闭 ✕</button></div><div class="zoom-scroll"><img id="zoom-image" alt=""></div></dialog>
 <script>${script}</script>
+<script>${refreshScript}</script>
+<script>${valuationFilterScript}</script>
+<script>${valuationModalScript}</script>
+<script>document.querySelectorAll('#watchlist tbody tr').forEach(row=>{const cell=row.cells[2];if(cell && (row.closest('#undervalued') || cell.textContent.trim()==='—')){cell.classList.remove('positive','negative');cell.classList.add('neutral');}});</script>
+${trendData ? `<script id="trend-data" type="application/json">${JSON.stringify(trendData).replaceAll('<', '\\u003c')}</script><script>${trendScript}</script>` : ''}
 </body>
 </html>`;
 const outputFile = path.join(out, 'report.html');
@@ -174,6 +213,12 @@ const receipt = {
   shared_style: '../us_market_daily/report.css',
   shared_interactions: '../us_market_daily/report_interactions.js',
   shared_style_sha256: sha(css),
+  content_revision: contentRevision,
+  refresh_script_sha256: sha(refreshScript),
+  trend_asof: trendData?.asof || null,
+  trend_script_sha256: sha(trendScript),
+  mobile_style: 'report_mobile.css',
+  mobile_style_sha256: sha(mobileCss),
   shared_interactions_sha256: sha(script),
 };
 fs.writeFileSync(path.join(out, 'html_manifest.json'), JSON.stringify(receipt, null, 2) + '\n');

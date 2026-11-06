@@ -1,0 +1,42 @@
+{
+  "source_commit": "fc00561bffbe4d8e23b96e31b0226705a9f98f7f",
+  "saved_version": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5ac89ec1f0d08191be2a993200b56949",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 12,
+    "source": {
+      "commit_sha": "fc00561bffbe4d8e23b96e31b0226705a9f98f7f"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000aef88211934505be40e20af3",
+      "content_hash": "sha256:4fdd629a5597e5afe5bade705931eb886f4430975eefd049d630a630b0acc77e",
+      "size_bytes": 3225600,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ae85153f3648191bf9d43143d7fa48e",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_5ac89ec1f0d08191be2a993200b56949",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-02T09:01:31.920132+00:00"
+  },
+  "validation": {
+    "tests_passed": 58,
+    "real_feed_float_noise": "Two actual production snapshots now have equal material digest; original values untouched",
+    "session_dates": "Only verified completed US regular sessions; legacy Beijing-date duplicates canonicalized",
+    "production_native_status": "succeeded",
+    "visual_browser": "not repeated; client flow model and HTTP HTML/API checks"
+  }
+}

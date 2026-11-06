@@ -1,0 +1,30 @@
+[
+  {
+    "symbol": "NOW",
+    "close": 108.81,
+    "base": 83.29911210873752,
+    "base_discount20": 66.63928968699001,
+    "change_from_close_to_discount20_pct": -38.75628187943203
+  },
+  {
+    "symbol": "CRM",
+    "close": 227.11,
+    "base": 183.92877629693947,
+    "base_discount20": 147.1430210375516,
+    "change_from_close_to_discount20_pct": -35.210681591496815
+  },
+  {
+    "symbol": "GEHC",
+    "close": 85.81,
+    "base": 68.67696260403855,
+    "base_discount20": 54.94157008323084,
+    "change_from_close_to_discount20_pct": -35.97299838803072
+  },
+  {
+    "symbol": "CGNX",
+    "close": 53.06,
+    "base": 31.97567859360827,
+    "base_discount20": 25.580542874886618,
+    "change_from_close_to_discount20_pct": -51.789402798932116
+  }
+]

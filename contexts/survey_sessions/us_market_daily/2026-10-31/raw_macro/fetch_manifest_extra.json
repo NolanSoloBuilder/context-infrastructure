@@ -1,0 +1,44 @@
+[
+  {
+    "name": "goog_form4_oct30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442116/ownership.xml",
+    "ok": false,
+    "size": 0,
+    "captured_at_utc": "2026-10-30T23:29:34.833505+00:00"
+  },
+  {
+    "name": "eci",
+    "url": "https://www.bls.gov/news.release/eci.nr0.htm",
+    "ok": false,
+    "size": 0,
+    "captured_at_utc": "2026-10-30T23:29:35.220263+00:00"
+  },
+  {
+    "name": "bls_nov",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "ok": false,
+    "size": 0,
+    "captured_at_utc": "2026-10-30T23:29:35.537214+00:00"
+  },
+  {
+    "name": "treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "ok": true,
+    "size": 1340414,
+    "captured_at_utc": "2026-10-30T23:29:37.057890+00:00"
+  },
+  {
+    "name": "nyse",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "ok": false,
+    "size": 0,
+    "captured_at_utc": "2026-10-30T23:30:02.097171+00:00"
+  },
+  {
+    "name": "cboe",
+    "url": "https://www.cboe.com/tradable-products/vix/",
+    "ok": true,
+    "size": 601326,
+    "captured_at_utc": "2026-10-30T23:30:04.165162+00:00"
+  }
+]

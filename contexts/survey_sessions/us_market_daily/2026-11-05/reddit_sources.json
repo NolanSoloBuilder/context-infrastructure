@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-04T23:38:43.978893+00:00",
+  "target_window_hours": 24,
+  "full_scan_complete": false,
+  "selected_new_items": [],
+  "read_but_excluded": [
+    {
+      "id": "1xnjh9b",
+      "community": "investing",
+      "url": "https://www.reddit.com/r/investing/comments/1xnjh9b/daily_general_discussion_and_advice_thread/",
+      "post_time_beijing": null,
+      "event_date": null,
+      "captured_at_utc": "2026-11-04T23:38:43.978893+00:00",
+      "read_scope": "original general daily thread body; absolute timestamp and substantive comments unavailable",
+      "claim": "general advice questions; no selected financial claim",
+      "opposition": null,
+      "verification_sources": [],
+      "status": "excluded_generic_thread_and_incomplete_date_comments"
+    }
+  ],
+  "rss_status": "all six 403/429; no bypass"
+}

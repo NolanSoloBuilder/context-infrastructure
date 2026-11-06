@@ -1,0 +1,150 @@
+{
+  "session": "2026-10-30",
+  "regular_closes": [
+    {
+      "symbol": "VOO",
+      "url": "https://stockanalysis.com/etf/voo/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.117541+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "QQQM",
+      "url": "https://stockanalysis.com/etf/qqqm/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.126454+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "SPMO",
+      "url": "https://stockanalysis.com/etf/spmo/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.123176+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "MAGS",
+      "url": "https://stockanalysis.com/etf/mags/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.125983+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "RRX",
+      "url": "https://stockanalysis.com/stocks/rrx/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.368025+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "CGNX",
+      "url": "https://stockanalysis.com/stocks/cgnx/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.367601+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "ATS",
+      "url": "https://stockanalysis.com/stocks/ats/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.358656+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "GOOGL",
+      "url": "https://stockanalysis.com/stocks/googl/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.354505+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "NVDA",
+      "url": "https://stockanalysis.com/stocks/nvda/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.611637+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "SMH",
+      "url": "https://stockanalysis.com/etf/smh/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.600711+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "VGT",
+      "url": "https://stockanalysis.com/etf/vgt/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.609591+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "SOXX",
+      "url": "https://stockanalysis.com/etf/soxx/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.604355+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "DRAM",
+      "url": "https://stockanalysis.com/etf/dram/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.827397+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "MRNA",
+      "url": "https://stockanalysis.com/stocks/mrna/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.838656+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "SOFI",
+      "url": "https://stockanalysis.com/stocks/sofi/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.855351+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "BRK-B",
+      "url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "captured_at_utc": "2026-10-30T23:30:37.846502+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "SGOV",
+      "url": "https://stockanalysis.com/etf/sgov/history/",
+      "captured_at_utc": "2026-10-30T23:30:38.081505+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "symbol": "GOOG",
+      "url": "https://stockanalysis.com/stocks/goog/history/",
+      "captured_at_utc": "2026-10-30T23:30:38.100492+00:00",
+      "provider": "Stock Analysis (third-party; may share upstream data)",
+      "status": "unavailable",
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    }
+  ],
+  "method": "Yahoo daily OHLC compared with dated Stock Analysis historical table; third-party, possibly common upstream; never imply official exchange close audit"
+}

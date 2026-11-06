@@ -1,31 +1,8 @@
 # Skills Index
 
-本索引指向可复用的 Skills（技能）—— AI 可以调用的工具、流程和最佳实践。
+本索引按需查阅，不是启动必读。已找到当前可用 Skill 时直接使用，不重复查目录。
 
-- **想使用某个能力** → 浏览下方分类，找到对应的 skill 文件
-- **想添加新 skill** → 参考现有文件格式，添加到对应分类
-
----
-
-## 组件状态
-
-### Tier 1: 核心（clone 后即可开始）
-- ✅ Rules 框架（SOUL/USER/COMMUNICATION/WORKSPACE）— 填写即用
-- ✅ Skills 框架（本目录）— 填写即用
-- ✅ 三层记忆系统 — 需配置 OpenCode + cron
-
-### Tier 2: 扩展（需要额外配置）
-- ⚙️ Semantic Search — 需要 LLM Studio 或 OpenAI API
-- ⚙️ Share Report — 需要 SSH 服务器或 GitHub Pages
-- ⚙️ Google Docs — 需要 Google OAuth
-- ⚙️ Send Email — 需要 Gmail App Password
-- ⚙️ Delayed Execution — 适配你自己的工具路径
-
-### 说明
-✅ = 最多 15 分钟即可使用
-⚙️ = 需要额外配置，不配不影响核心功能
-
----
+新增 Skill 时补充条目；安装、迁移、升级规则见 [Skill 作用域治理](./skill_scope_management.md)。⚙️ 表示需要额外环境或认证，实际能力以当前可用工具为准。
 
 ## 分类索引
 
@@ -55,10 +32,7 @@
 
 - [Build in Public 内容工作流](../../.agents/skills/build-in-public/SKILL.md) ✅ — 将开发进度、产品判断、失败记录和阶段成果整理为同一事实真源，并分别生成小红书与 X 的平台原生草稿；默认不执行公开发布。
 - [并行 Subagent 工作流](./workflow_parallel_subagents.md) ✅ — 调用后台 agent、并行执行多个 subagent
-  - **必读**：初次使用并行 subagent 前，必须先读此 skill
-  - **禁止轮询**：agent 运行期间不要反复调用 `background_output`，系统会自动通知
-  - 判断标准：任务可拆分为 ≥2 个子任务，每个 ≥5 tool calls
-  - 核心参数：并行度 ≤5，调研 overlap 30-50%，代码 overlap 0-20%
+  - 准备委派时读取；按独立性、工作量与收益判断，使用当前运行环境的工具、并发限制和等待方式。
 - [StrongVPN 节点到 VPS 统一订阅](./strongvpn-node-optimizer/references/subscription_workflow.md) ⚙️ — 下载/复用 WireGuard 配置、转换并验证 Clash YAML、MetaCubeX 国内及 UU 远程直连、保留原链接原子更新阿里云 VPS、刷新客户端；触发“更新 StrongVPN 订阅”或“重新下载节点并更新订阅”
 - [深度调研工作流](./workflow_deep_research_survey.md) ✅ — 多 Agent 并行 + 交叉验证（Phase 1-3 信息采集）
 - [分析写作工作流](./workflow_analytical_writing.md) ✅ — 将调研素材转化为有判断力的分析文章。包含 Thesis Catalog（核心分析视角 L1-L6）和判断合成步骤。**做深度调研并写 external 文章时，两个 skill 都要读**
@@ -98,29 +72,6 @@
 
 ---
 
-## 如何添加你自己的 Skill
+## 新增本地流程
 
-1. 参考现有 skill 文件的格式（元数据、核心说明、使用步骤、示例）
-2. 以 `<category>_<name>.md` 命名（例如 `workflow_my_process.md`、`bestpractice_my_insight.md`）
-3. 在 INDEX.md 对应分类下添加一行
-
-Skill 格式参考（最简版）：
-```markdown
-# Skill: 名称
-
-## When to Use
-什么情况下触发这个 skill
-
-## Prerequisites
-需要什么工具/配置
-
-## 步骤
-1. 步骤一
-2. 步骤二
-```
-
-## Progressive Disclosure
-
-Skills 采用渐进式披露原则：
-- **INDEX.md** 提供概览，快速定位
-- **具体 skill 文件** 包含完整的操作步骤和示例
+按现有分类与 `<category>_<name>.md` 命名，写明适用场景、前置条件、步骤和完成标准，再补充索引。外部 Skill 另按作用域治理登记。

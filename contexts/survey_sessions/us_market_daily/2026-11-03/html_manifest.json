@@ -1,0 +1,43 @@
+{
+  "report_date_beijing": "2026-11-03",
+  "market_session": "2026-11-02",
+  "generated_at_utc": "2026-11-02T23:37:29.356Z",
+  "source_markdown_sha256": "836ca573459db7d96ce46e7b40b5d3c1ca403f96963339738c5d5c555beedeb4",
+  "html_sha256": "ec1a69e8fbbbaf4fb27ab8302b691b3ef2f76f50b1bbb0520478f37d8a6e1205",
+  "html_bytes": 1021520,
+  "embedded_chart_files": [
+    "watchlist_curves.png",
+    "sector_daily.png"
+  ],
+  "embedded_appendices": [
+    "company_research.md",
+    "macro_research.md",
+    "extended_detail.md",
+    "../2026-10-30/google_update/google_update.md",
+    "../2026-10-30/sofi_research.md",
+    "reddit_digest.md",
+    "finews_digest.md",
+    "../2026-10-29/google_call_analysis/report.md"
+  ],
+  "downloadable_evidence": [
+    "watchlist_table.json",
+    "extended_verification.json",
+    "reddit_sources.json",
+    "quote_verification.json",
+    "metrics.json",
+    "manifest.json",
+    "verification.json",
+    "../2026-10-30/google_update/google_model_inputs.json",
+    "../2026-10-30/google_update/google_valuation_model.json",
+    "../2026-10-30/google_update/google_forecast.csv",
+    "../2026-10-30/google_update/google_bridge_nwc_scenarios.json",
+    "../2026-10-30/google_update/google_nwc_dcf_stress.json",
+    "../2026-10-30/google_update/google_sources.json",
+    "../2026-10-30/google_update/google_checks.json",
+    "../2026-10-30/sofi_sources.json",
+    "../2026-10-29/google_call_analysis/call_sources.json",
+    "../2026-10-29/google_call_analysis/analysis_checks.json",
+    "../2026-10-29/google_call_analysis/archive_manifest.json"
+  ],
+  "content_policy": "Reviewed report is the content source; no fetching or price recomputation; images and linked local evidence embedded for offline use."
+}

@@ -1,0 +1,70 @@
+{
+  "asof": "2026-11-03",
+  "primary": "腾讯财经备用代理日线",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3608.1,
+      "quote_time": "20261103161500",
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "close": 2768.27,
+      "quote_time": "20261103161500",
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4008.87,
+      "quote_time": "20261103161412",
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1151.28,
+      "quote_time": "20261103161412",
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "close": 2.884,
+      "quote_time": "20261103161444",
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "close": 4.092,
+      "quote_time": "20261103161436",
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "close": 1.215,
+      "quote_time": "20261103161450",
+      "consistent": true
+    }
+  ],
+  "secondary": "FiNews引用东方财富，未独立回读其上游",
+  "checks": [
+    {
+      "symbol": "sh000001",
+      "close": 3608.1,
+      "rounded_daily": -0.82,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4008.87,
+      "rounded_daily": -0.2,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1151.28,
+      "rounded_daily": -3.81,
+      "consistent": true
+    }
+  ],
+  "coverage": "7标的历史与腾讯同日收盘点价和前收一致；3指数与FiNews跨站一致；同提供方不同入口不算独立数据源"
+}

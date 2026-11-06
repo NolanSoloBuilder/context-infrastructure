@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "report_date_bjt": "2026-11-03",
+  "collected_at_utc": "2026-11-02T23:34:16Z",
+  "latest_completed_us_session": "2026-11-02",
+  "next_us_session": "2026-11-03",
+  "scope": "公开原始来源增量；无私人持仓数量、成本、账号；不操作账户；非交易指令",
+  "sources": [
+    {
+      "id": "sgov_official",
+      "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+      "publisher": "iShares",
+      "status": "success",
+      "read_scope": "基金关键事实及Distributions表；可读收益率字段截至10/30",
+      "data": {
+        "ex_date": "2026-11-02",
+        "record_date": "2026-11-02",
+        "payable_date": "2026-11-05",
+        "distribution_per_share_usd": 0.328581,
+        "income_usd": 0.328581,
+        "capital_gains_usd": 0,
+        "return_of_capital_usd": 0,
+        "sec_30_day_yield_pct": 3.79,
+        "yield_as_of": "2026-10-30"
+      },
+      "limits": "SEC收益率并非11/2新值，不是保证回报。",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "id": "treasury_curve",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "publisher": "US Treasury",
+      "status": "success",
+      "read_scope": "2026年表头及10/30、11/2曲线行",
+      "data": {
+        "2026-11-02": {
+          "2y_pct": 4.59,
+          "10y_pct": 4.91
+        },
+        "2026-10-30": {
+          "2y_pct": 4.56,
+          "10y_pct": 4.94
+        },
+        "change_bp": {
+          "2y": 3,
+          "10y": -3
+        }
+      },
+      "limits": "每日参考收益率，非券商可成交报价。",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "id": "ism_oct",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+      "publisher": "Institute for Supply Management",
+      "status": "success_web_read_direct_timeout",
+      "release_date_et": "2026-11-02",
+      "reference_period": "2026-10",
+      "read_scope": "PMI报告正文、分项表和受访者描述",
+      "data": {
+        "manufacturing_pmi": 55.5,
+        "prior": 54.5,
+        "production": 59,
+        "new_orders": 55.5,
+        "prices": 75.2,
+        "prior_prices": 77.9,
+        "employment": 52.4
+      },
+      "limits": "价格指数下降不代表价格水平下降；受访者描述不等于具体公司订单或整日行情归因。",
+      "collected_at_utc": "2026-11-02T23:34:16Z",
+      "raw_backup_note": "web工具实际读取官方正文及分项；CLI备份20秒超时、空文件，失败已写fetch_manifest.json，不把空raw当正文证据。"
+    },
+    {
+      "id": "bls_nov",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "publisher": "BLS",
+      "status": "success_web_read_direct_http403",
+      "read_scope": "11月发布日历；JOLTS、生产率、就业、CPI行",
+      "events": [
+        {
+          "name": "JOLTS September",
+          "time_et": "2026-11-03T10:00:00-05:00",
+          "time_bjt": "2026-11-03T23:00:00+08:00"
+        },
+        {
+          "name": "Productivity and Costs Q3 preliminary",
+          "time_et": "2026-11-05T08:30:00-05:00",
+          "time_bjt": "2026-11-05T21:30:00+08:00"
+        },
+        {
+          "name": "Employment Situation October",
+          "time_et": "2026-11-06T08:30:00-05:00",
+          "time_bjt": "2026-11-06T21:30:00+08:00"
+        },
+        {
+          "name": "CPI October",
+          "time_et": "2026-11-10T08:30:00-05:00",
+          "time_bjt": "2026-11-10T21:30:00+08:00"
+        }
+      ],
+      "limits": "未来事件，仅日程，无实际值。",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "id": "fed_calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "publisher": "Federal Reserve",
+      "status": "success",
+      "read_scope": "2026 FOMC日历",
+      "data": {
+        "previous_meeting": [
+          "2026-10-27",
+          "2026-10-28"
+        ],
+        "next_meeting": [
+          "2026-12-08",
+          "2026-12-09"
+        ]
+      },
+      "limits": "本周无FOMC议息会议，不将未来结果写成已发生。",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    },
+    {
+      "id": "nyse_calendar",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "publisher": "NYSE",
+      "status": "success_web_read_direct_timeout",
+      "read_scope": "2026休市安排及09:30至16:00 ET常规交易时间",
+      "data": {
+        "completed_session": "2026-11-02",
+        "next_session": "2026-11-03",
+        "timezone": "America/New_York",
+        "utc_offset_at_session": "-05:00"
+      },
+      "limits": "11/2和11/3不在所列休市日；常规时段换算北京时间22:30至次日05:00。",
+      "collected_at_utc": "2026-11-02T23:34:16Z"
+    }
+  ],
+  "market_causality_gap": "仅核实11/2上午的二级新闻不能解释11/2收盘/全天行业跌幅；未查得足够一手证据认定唯一收盘催化剂。",
+  "sgov_illustration": {
+    "input_prices_from_parent_market_agent": {
+      "previous_close": 100.73,
+      "close": 100.43,
+      "trade_date": "2026-11-02"
+    },
+    "gross_price_plus_entitled_distribution_return_pct": 0.028373870743569896,
+    "classification": "计算示例，非iShares公布总回报或个人实际收益",
+    "assumptions": "上一常规收盘持有并享有本次分配；忽略税、交易费用和再投资。"
+  }
+}

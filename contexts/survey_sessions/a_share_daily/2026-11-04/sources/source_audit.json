@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-04T09:05:58.772602+08:00",
+  "report_date": "2026-11-04",
+  "cutoff": "2026-11-04T09:00:00+08:00",
+  "market_session": "2026-11-03",
+  "market_carried_forward": false,
+  "latest_verified_issue": 3006,
+  "latest_verified_star": 4.9,
+  "previous_star": 4.8,
+  "valuation_asof": "2026-11-03",
+  "new_star_verified": true,
+  "threshold_triggered": false,
+  "author_list": "https://www.sina.cn/media/5546795997",
+  "article": "https://www.sina.cn/news/detail/5361286709248135.html",
+  "article_access": "curl读取本人同步正文及实际配图；核验主文章边界，排除推荐流",
+  "author_list_sha256": "96a9de9cb5d3317315db821dd59c1453a485c23bb208dd682d9405ebf89dfa58",
+  "finews_report_date": "2026-11-03",
+  "group_reviewed_count": 5,
+  "history_route": "主入口501；备用proxy.finance.qq.com同提供方完整历史成功，不算新增独立信源",
+  "china_history_gap": "6项美元资产未覆盖11月3日完成日线，保留11月2日",
+  "official_event": {
+    "url": "https://www.thepaper.cn/newsDetail_forward_34394828",
+    "identity": "央行微播：中国人民银行办公厅官方澎湃号；页面authorInfo与正文核验",
+    "operation_cny": 100000000000,
+    "fee_bp": 10
+  },
+  "retained_stock_research_date": "2026-11-03"
+}

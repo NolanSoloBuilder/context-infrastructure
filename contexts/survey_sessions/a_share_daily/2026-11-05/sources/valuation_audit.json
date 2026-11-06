@@ -1,0 +1,42 @@
+{
+  "asof": "2026-11-04",
+  "issue": "3007",
+  "counts": {
+    "低估": 19,
+    "正常": 31,
+    "高估": 0
+  },
+  "review": "完整常规原图50项逐行转录核对；正文星级保留区间精度",
+  "classification_changes": [
+    {
+      "name": "MSCI A50",
+      "previous": "低估",
+      "current": "正常"
+    },
+    {
+      "name": "中证A100",
+      "previous": "低估",
+      "current": "正常"
+    },
+    {
+      "name": "北证50",
+      "previous": "低估",
+      "current": "正常"
+    }
+  ],
+  "previous_issue": "3006",
+  "previous_star": 4.9,
+  "current_star_range": [
+    4.7,
+    4.8
+  ],
+  "gap_to_five_range": [
+    0.2,
+    0.3
+  ],
+  "change_from_previous_range": [
+    -0.2,
+    -0.1
+  ],
+  "threshold_triggered": false
+}

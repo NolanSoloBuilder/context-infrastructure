@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "amd",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "local_file": "raw_sources/amd_results.html",
+      "read_scope": "Full original press release incl quarterly reconciliation and cashflows; did not listen to call",
+      "sha256": "261f8ef66a083ee5364fe80f83331566967456f341c3903ad10f4d8a01be8ad6",
+      "captured_at_utc": "2026-11-03T23:43:25.632101+00:00"
+    },
+    {
+      "id": "rrx",
+      "url": "https://www.prnewswire.com/news-releases/regal-rexnord-reports-third-quarter-2026-financial-results-302927042.html",
+      "local_file": "raw_sources/rrx_wire.html",
+      "read_scope": "Full company-authored wire release incl EPS guidance bridge, AMS review and cashflows",
+      "sha256": "19bf22b299a6140bd9537ab71af5a2ed08aeab862addae86d347c31b15000a46",
+      "captured_at_utc": "2026-11-03T23:43:25.633920+00:00"
+    },
+    {
+      "id": "jolts",
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
+      "local_file": "primary_second_web.txt",
+      "read_scope": "Original BLS release text with release and data month separated",
+      "sha256": "f1ae04fbac43e7caac68f919577ff0301f4389cb872c7ae7a588840ade5157ae",
+      "captured_at_utc": "2026-11-03T23:43:25.634505+00:00"
+    },
+    {
+      "id": "treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "local_file": "treasury_web.txt",
+      "read_scope": "Official Nov3 table row and yield-curve definitions",
+      "sha256": "11f8b0cc904c2c725fe4ade6d342a7d5a60acc517203b54322cf96f5ce37a012",
+      "captured_at_utc": "2026-11-03T23:43:25.635154+00:00"
+    },
+    {
+      "id": "finews",
+      "url": "https://finews.fyi/",
+      "local_file": "raw_sources/finews.html",
+      "read_scope": "Full public page re-read; dated Nov2 update, no Nov3 report verified",
+      "sha256": "ac5ee31df4b3f36df52e08d55fa4d91c0eeebbaa242dc0d319c24946c4caa4fc",
+      "captured_at_utc": "2026-11-03T23:43:25.661286+00:00"
+    }
+  ],
+  "retrieval_failures": "fetch_manifest.json",
+  "market_checks": "verification.json"
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "symbol": "NOW",
+    "captured_at": "2026-11-05T02:52:16.345569+00:00",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=5d&interval=1m&includePrePost=true",
+    "post": {
+      "status": "available",
+      "session": "2026-11-04",
+      "segment": "post",
+      "price_usd": 108.5,
+      "price_raw": 108.5001,
+      "bar_start_unix": 1793840251,
+      "bar_start_et": "2026-11-04T19:57:31-05:00",
+      "bar_start_beijing": "2026-11-05T08:57:31+08:00",
+      "minute_volume": 0,
+      "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+      "bar_has_positive_volume": false,
+      "session_window_ended_at_capture": true
+    }
+  },
+  {
+    "symbol": "CRM",
+    "captured_at": "2026-11-05T02:52:16.345569+00:00",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=5d&interval=1m&includePrePost=true",
+    "post": {
+      "status": "available",
+      "session": "2026-11-04",
+      "segment": "post",
+      "price_usd": 226.12,
+      "price_raw": 226.116,
+      "bar_start_unix": 1793840236,
+      "bar_start_et": "2026-11-04T19:57:16-05:00",
+      "bar_start_beijing": "2026-11-05T08:57:16+08:00",
+      "minute_volume": 0,
+      "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+      "bar_has_positive_volume": false,
+      "session_window_ended_at_capture": true
+    }
+  },
+  {
+    "symbol": "GEHC",
+    "captured_at": "2026-11-05T02:52:16.345569+00:00",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=5d&interval=1m&includePrePost=true",
+    "post": {
+      "status": "available",
+      "session": "2026-11-04",
+      "segment": "post",
+      "price_usd": 85.75,
+      "price_raw": 85.75,
+      "bar_start_unix": 1793840352,
+      "bar_start_et": "2026-11-04T19:59:12-05:00",
+      "bar_start_beijing": "2026-11-05T08:59:12+08:00",
+      "minute_volume": 0,
+      "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+      "bar_has_positive_volume": false,
+      "session_window_ended_at_capture": true
+    }
+  },
+  {
+    "symbol": "CGNX",
+    "captured_at": "2026-11-05T02:52:16.345569+00:00",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=5d&interval=1m&includePrePost=true",
+    "post": {
+      "status": "available",
+      "session": "2026-11-04",
+      "segment": "post",
+      "price_usd": 50.99,
+      "price_raw": 50.99,
+      "bar_start_unix": 1793837599,
+      "bar_start_et": "2026-11-04T19:13:19-05:00",
+      "bar_start_beijing": "2026-11-05T08:13:19+08:00",
+      "minute_volume": 0,
+      "sampling": "latest positive close in provider 1-minute bars; indicative when volume is zero or missing",
+      "bar_has_positive_volume": false,
+      "session_window_ended_at_capture": true
+    }
+  }
+]

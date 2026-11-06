@@ -1,95 +1,272 @@
 {
-  "version": 3,
+  "version": 4,
+  "updated_at": "2026-11-05",
   "groups": [
     {
-      "id": "indices",
-      "label": "宽基与风格ETF",
+      "id": "funds",
+      "label": "ETF基金",
       "assets": [
         {
           "symbol": "VOO",
-          "name": "标普500"
+          "name": "标普500",
+          "kind": "fund",
+          "etf_category_id": "core",
+          "etf_category": "宽基与成长"
         },
         {
           "symbol": "QQQM",
-          "name": "纳斯达克100"
+          "name": "纳斯达克100",
+          "kind": "fund",
+          "etf_category_id": "core",
+          "etf_category": "宽基与成长"
         },
         {
           "symbol": "SPMO",
-          "name": "标普500动量因子"
+          "name": "标普500动量因子",
+          "kind": "fund",
+          "etf_category_id": "style",
+          "etf_category": "风格与集中"
         },
         {
           "symbol": "MAGS",
-          "name": "七巨头集中组合"
+          "name": "七巨头集中组合",
+          "kind": "fund",
+          "etf_category_id": "style",
+          "etf_category": "风格与集中"
+        },
+        {
+          "symbol": "SMH",
+          "name": "半导体ETF",
+          "kind": "fund",
+          "etf_category_id": "technology",
+          "etf_category": "科技与半导体"
+        },
+        {
+          "symbol": "VGT",
+          "name": "美国信息技术行业ETF",
+          "kind": "fund",
+          "etf_category_id": "technology",
+          "etf_category": "科技与半导体"
+        },
+        {
+          "symbol": "SOXX",
+          "name": "半导体行业ETF",
+          "kind": "fund",
+          "etf_category_id": "technology",
+          "etf_category": "科技与半导体"
+        },
+        {
+          "symbol": "DRAM",
+          "name": "存储芯片主题ETF",
+          "kind": "fund",
+          "inception_date": "2026-04-02",
+          "allow_short_history": true,
+          "etf_category_id": "technology",
+          "etf_category": "科技与半导体"
+        },
+        {
+          "symbol": "SGOV",
+          "name": "0–3个月美债ETF",
+          "kind": "fund",
+          "etf_category_id": "cash",
+          "etf_category": "现金管理"
+        },
+        {
+          "symbol": "IGV",
+          "name": "北美软件行业ETF",
+          "kind": "fund",
+          "industry_id": "software",
+          "industry": "软件与服务",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "software",
+          "etf_category": "软件与AI应用"
+        },
+        {
+          "symbol": "XSW",
+          "name": "软件与服务等权ETF",
+          "kind": "fund",
+          "industry_id": "software",
+          "industry": "软件与服务",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "software",
+          "etf_category": "软件与AI应用"
+        },
+        {
+          "symbol": "IHI",
+          "name": "美国医疗设备ETF",
+          "kind": "fund",
+          "industry_id": "medical_devices",
+          "industry": "医疗设备",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "healthcare",
+          "etf_category": "医疗设备"
+        },
+        {
+          "symbol": "BOTZ",
+          "name": "机器人与自动化ETF",
+          "kind": "fund",
+          "industry_id": "robotics",
+          "industry": "机器人与自动化",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "automation",
+          "etf_category": "机器人与自动化"
+        },
+        {
+          "symbol": "AIQ",
+          "name": "AI与科技全产业链ETF",
+          "kind": "fund",
+          "industry_id": "ai_technology",
+          "industry": "AI全产业链",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "technology",
+          "etf_category": "科技与半导体"
+        },
+        {
+          "symbol": "KORU",
+          "name": "韩国股票每日3倍做多",
+          "kind": "fund",
+          "industry_id": "leveraged_tools",
+          "industry": "杠杆与反向工具",
+          "inception_date": "2013-04-10",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "leveraged",
+          "etf_category": "每日杠杆与反向工具"
+        },
+        {
+          "symbol": "SOXL",
+          "name": "半导体每日3倍做多",
+          "kind": "fund",
+          "industry_id": "leveraged_tools",
+          "industry": "杠杆与反向工具",
+          "inception_date": "2010-03-11",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "leveraged",
+          "etf_category": "每日杠杆与反向工具"
+        },
+        {
+          "symbol": "SOXS",
+          "name": "半导体每日3倍做空",
+          "kind": "fund",
+          "industry_id": "leveraged_tools",
+          "industry": "杠杆与反向工具",
+          "inception_date": "2010-03-11",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "etf_category_id": "leveraged",
+          "etf_category": "每日杠杆与反向工具"
         }
       ]
     },
     {
-      "id": "robotics",
-      "label": "机器人相关",
+      "id": "automation",
+      "label": "工业自动化与机器人",
       "assets": [
         {
           "symbol": "RRX",
           "name": "运动控制与电机",
+          "kind": "stock",
           "industry_id": "automation",
           "industry": "工业自动化与机器人"
         },
         {
           "symbol": "CGNX",
           "name": "机器视觉",
+          "kind": "stock",
           "industry_id": "automation",
           "industry": "工业自动化与机器人"
         },
         {
           "symbol": "ATS",
           "name": "自动化系统",
+          "kind": "stock",
           "industry_id": "automation",
           "industry": "工业自动化与机器人"
         }
       ]
     },
     {
-      "id": "ai_semiconductors",
-      "label": "科技与AI／半导体",
+      "id": "internet_ai",
+      "label": "互联网与AI服务",
       "assets": [
         {
           "symbol": "GOOGL",
           "name": "Google／AI云",
+          "kind": "stock",
           "industry_id": "internet_ai",
           "industry": "互联网与AI服务"
         },
         {
-          "symbol": "NVDA",
-          "name": "AI芯片与算力",
-          "industry_id": "semiconductors",
-          "industry": "半导体与算力"
-        },
-        {
-          "symbol": "SMH",
-          "name": "半导体ETF"
-        },
-        {
-          "symbol": "VGT",
-          "name": "美国信息技术行业ETF"
-        },
-        {
-          "symbol": "SOXX",
-          "name": "半导体行业ETF"
-        },
-        {
-          "symbol": "DRAM",
-          "name": "存储芯片主题ETF",
-          "inception_date": "2026-04-02",
-          "allow_short_history": true
+          "symbol": "AMZN",
+          "name": "Amazon／电商、广告与AWS",
+          "kind": "stock",
+          "industry_id": "internet_ai",
+          "industry": "互联网与AI服务",
+          "market_data_enabled": true,
+          "currency": "USD"
         }
       ]
     },
     {
-      "id": "healthcare",
+      "id": "semiconductors",
+      "label": "半导体与算力",
+      "assets": [
+        {
+          "symbol": "NVDA",
+          "name": "AI芯片与算力",
+          "kind": "stock",
+          "industry_id": "semiconductors",
+          "industry": "半导体与算力"
+        },
+        {
+          "symbol": "SKHY",
+          "name": "SK海力士 ADR",
+          "kind": "stock",
+          "industry_id": "semiconductors",
+          "industry": "半导体与算力",
+          "inception_date": "2026-07-10",
+          "allow_short_history": true,
+          "history_start_guard": "2026-07-10",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel／CPU与晶圆制造",
+          "kind": "stock",
+          "industry_id": "semiconductors",
+          "industry": "半导体与算力",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "SNDK",
+          "name": "闪迪／NAND闪存与存储",
+          "kind": "stock",
+          "industry_id": "semiconductors",
+          "industry": "半导体与算力",
+          "inception_date": "2025-02-13",
+          "allow_short_history": true,
+          "history_start_guard": "2025-02-13",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "biotech",
       "label": "医疗与生物科技",
       "assets": [
         {
           "symbol": "MRNA",
           "name": "Moderna／mRNA药物与疫苗",
+          "kind": "stock",
           "industry_id": "biotech",
           "industry": "医疗与生物科技"
         }
@@ -102,30 +279,193 @@
         {
           "symbol": "SOFI",
           "name": "数字银行与金融平台",
+          "kind": "stock",
           "industry_id": "fintech",
           "industry": "金融科技"
         }
       ]
     },
     {
-      "id": "value",
-      "label": "价值与综合经营",
+      "id": "conglomerate",
+      "label": "保险与综合经营",
       "assets": [
         {
           "symbol": "BRK-B",
           "name": "伯克希尔B",
+          "kind": "stock",
           "industry_id": "conglomerate",
           "industry": "保险与综合经营"
         }
       ]
     },
     {
-      "id": "cash",
-      "label": "现金管理",
+      "id": "enterprise_software",
+      "label": "企业软件与AI应用",
       "assets": [
         {
-          "symbol": "SGOV",
-          "name": "0–3个月美债ETF"
+          "symbol": "NOW",
+          "name": "ServiceNow／企业工作流",
+          "kind": "stock",
+          "industry_id": "enterprise_software",
+          "industry": "企业软件与AI应用",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "CRM",
+          "name": "Salesforce／客户关系与Agentforce",
+          "kind": "stock",
+          "industry_id": "enterprise_software",
+          "industry": "企业软件与AI应用",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "PLTR",
+          "name": "Palantir／数据决策与AIP",
+          "kind": "stock",
+          "industry_id": "enterprise_software",
+          "industry": "企业软件与AI应用",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "MSFT",
+          "name": "微软／云与企业AI",
+          "kind": "stock",
+          "industry_id": "enterprise_software",
+          "industry": "企业软件与AI应用",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "medical_devices",
+      "label": "医疗设备与临床应用",
+      "assets": [
+        {
+          "symbol": "GEHC",
+          "name": "GE HealthCare／医疗影像与工作流",
+          "kind": "stock",
+          "industry_id": "medical_devices",
+          "industry": "医疗设备与临床应用",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "ISRG",
+          "name": "Intuitive Surgical／医疗机器人",
+          "kind": "stock",
+          "industry_id": "medical_devices",
+          "industry": "医疗设备与临床应用",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "it_services",
+      "label": "IT服务与AI交付",
+      "assets": [
+        {
+          "symbol": "ACN",
+          "name": "Accenture／企业AI实施",
+          "kind": "stock",
+          "industry_id": "it_services",
+          "industry": "IT服务与AI交付",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "EPAM",
+          "name": "EPAM／数字工程与AI交付",
+          "kind": "stock",
+          "industry_id": "it_services",
+          "industry": "IT服务与AI交付",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "GLOB",
+          "name": "Globant／数字工程与AI Pods",
+          "kind": "stock",
+          "industry_id": "it_services",
+          "industry": "IT服务与AI交付",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "healthcare_data",
+      "label": "医疗数据与诊断",
+      "assets": [
+        {
+          "symbol": "TEM",
+          "name": "Tempus AI／临床数据与诊断",
+          "kind": "stock",
+          "industry_id": "healthcare_data",
+          "industry": "医疗数据与诊断",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "aerospace",
+      "label": "航空航天与卫星通信",
+      "assets": [
+        {
+          "symbol": "SPCX",
+          "name": "SpaceX",
+          "kind": "stock",
+          "industry_id": "aerospace",
+          "industry": "航空航天与卫星通信",
+          "inception_date": "2026-06-12",
+          "allow_short_history": true,
+          "history_start_guard": "2026-06-12",
+          "market_data_enabled": true,
+          "currency": "USD"
+        },
+        {
+          "symbol": "BA",
+          "name": "波音",
+          "kind": "stock",
+          "industry_id": "aerospace",
+          "industry": "航空航天与卫星通信",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "autos_energy",
+      "label": "汽车、能源与机器人",
+      "assets": [
+        {
+          "symbol": "TSLA",
+          "name": "特斯拉",
+          "kind": "stock",
+          "industry_id": "autos_energy",
+          "industry": "汽车、能源与机器人",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "consumer_technology",
+      "label": "消费电子与软件服务",
+      "assets": [
+        {
+          "symbol": "AAPL",
+          "name": "苹果",
+          "kind": "stock",
+          "industry_id": "consumer_technology",
+          "industry": "消费电子与软件服务",
+          "market_data_enabled": true,
+          "currency": "USD"
         }
       ]
     }

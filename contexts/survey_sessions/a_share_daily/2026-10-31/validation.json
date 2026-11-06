@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "report_date": "2026-10-31",
+  "market_asof": "2026-10-30",
+  "star": 4.9,
+  "previous_star": 4.8,
+  "threshold_triggered": false,
+  "original_low_rows": 23,
+  "new_low_rows": [
+    "MSCI A50",
+    "北证50"
+  ],
+  "chart_count": 2,
+  "fold_closed": true,
+  "anchors_valid": true,
+  "auxiliary_stale_excluded": true,
+  "visual_check": "作者两张原图已查看；日报仅作静态/SVG核验"
+}

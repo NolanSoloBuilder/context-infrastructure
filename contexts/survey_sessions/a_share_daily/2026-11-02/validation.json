@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "report_date": "2026-11-02",
+  "market_asof": "2026-10-30",
+  "decision_state_unchanged": true,
+  "cheap_rows": 23,
+  "fold_default_closed": true,
+  "anchors_valid": true,
+  "shared_assets_match": true,
+  "reviewed_author_summaries": 2,
+  "visual_check": "沿用已生成趋势图及共享样式；本次完成HTML与数据静态核验，未新增浏览器视觉验收"
+}

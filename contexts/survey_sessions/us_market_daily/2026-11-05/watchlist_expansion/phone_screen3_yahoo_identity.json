@@ -1,0 +1,135 @@
+[
+  {
+    "requested": "MSFT",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-05T03:34:00.455835+00:00",
+    "symbol": "MSFT",
+    "shortName": "Microsoft Corporation",
+    "longName": "Microsoft Corporation",
+    "instrumentType": "EQUITY",
+    "currency": "USD",
+    "exchangeName": "NMS",
+    "fullExchangeName": "NasdaqGS",
+    "firstTradeDate": 511108200,
+    "regularMarketTime": 1793826001,
+    "regularMarketPrice": 555.8,
+    "first_bar_unix": 1636119000,
+    "last_bar_unix": 1793802600,
+    "bar_count": 1254,
+    "split_events": {}
+  },
+  {
+    "requested": "SNDK",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-05T03:34:00.125124+00:00",
+    "symbol": "SNDK",
+    "shortName": "Sandisk Corporation",
+    "longName": "Sandisk Corporation",
+    "instrumentType": "EQUITY",
+    "currency": "USD",
+    "exchangeName": "NMS",
+    "fullExchangeName": "NasdaqGS",
+    "firstTradeDate": 1739457000,
+    "regularMarketTime": 1793826001,
+    "regularMarketPrice": 1037.4,
+    "first_bar_unix": 1739457000,
+    "last_bar_unix": 1793802600,
+    "bar_count": 434,
+    "split_events": {}
+  },
+  {
+    "requested": "KORU",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-05T03:34:01.179277+00:00",
+    "symbol": "KORU",
+    "shortName": "Direxion Daily South Korea Bull",
+    "longName": "Direxion Daily South Korea Bull 3X Shares",
+    "instrumentType": "ETF",
+    "currency": "USD",
+    "exchangeName": "PCX",
+    "fullExchangeName": "NYSEArca",
+    "firstTradeDate": 1365600600,
+    "regularMarketTime": 1793826000,
+    "regularMarketPrice": 10.43,
+    "first_bar_unix": 1636119000,
+    "last_bar_unix": 1793802600,
+    "bar_count": 1254,
+    "split_events": {
+      "1739197800": {
+        "date": 1739197800,
+        "numerator": 1.0,
+        "denominator": 10.0,
+        "splitRatio": "1:10"
+      },
+      "1784122200": {
+        "date": 1784122200,
+        "numerator": 20.0,
+        "denominator": 1.0,
+        "splitRatio": "20:1"
+      }
+    }
+  },
+  {
+    "requested": "SOXL",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-05T03:34:00.654526+00:00",
+    "symbol": "SOXL",
+    "shortName": "Direxion Daily Semiconductor Bu",
+    "longName": "Direxion Daily Semiconductor Bull 3X Shares",
+    "instrumentType": "ETF",
+    "currency": "USD",
+    "exchangeName": "PCX",
+    "fullExchangeName": "NYSEArca",
+    "firstTradeDate": 1268317800,
+    "regularMarketTime": 1793826000,
+    "regularMarketPrice": 66.68,
+    "first_bar_unix": 1636119000,
+    "last_bar_unix": 1793802600,
+    "bar_count": 1254,
+    "split_events": {}
+  },
+  {
+    "requested": "SOXS",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXS?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-05T03:34:00.582944+00:00",
+    "symbol": "SOXS",
+    "shortName": "Direxion Daily Semiconductor Be",
+    "longName": "Direxion Daily Semiconductor Bear 3X Shares",
+    "instrumentType": "ETF",
+    "currency": "USD",
+    "exchangeName": "PCX",
+    "fullExchangeName": "NYSEArca",
+    "firstTradeDate": 1268317800,
+    "regularMarketTime": 1793826000,
+    "regularMarketPrice": 58.34,
+    "first_bar_unix": 1636119000,
+    "last_bar_unix": 1793802600,
+    "bar_count": 1254,
+    "split_events": {
+      "1648474200": {
+        "date": 1648474200,
+        "numerator": 1.0,
+        "denominator": 10.0,
+        "splitRatio": "1:10"
+      },
+      "1713187800": {
+        "date": 1713187800,
+        "numerator": 1.0,
+        "denominator": 10.0,
+        "splitRatio": "1:10"
+      },
+      "1772721000": {
+        "date": 1772721000,
+        "numerator": 1.0,
+        "denominator": 20.0,
+        "splitRatio": "1:20"
+      },
+      "1784122200": {
+        "date": 1784122200,
+        "numerator": 1.0,
+        "denominator": 10.0,
+        "splitRatio": "1:10"
+      }
+    }
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "source_commit": "34ddf6cb8c51c06c152e3a9b756a8333d40db888",
+  "saved_version": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_f4148c638fc88191a9fe2b1dbe25b029",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 10,
+    "source": {
+      "commit_sha": "34ddf6cb8c51c06c152e3a9b756a8333d40db888"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000abec821199fe33ddb5c15ea2",
+      "content_hash": "sha256:f7d6b056512006f31d5bceb0447fac4c60898e434c1ea196db895c11026e2c3d",
+      "size_bytes": 3225600,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ae84bdb499c8191847e980d4f36af40",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_f4148c638fc88191a9fe2b1dbe25b029",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-02T08:38:10.456881+00:00"
+  },
+  "archive_contract": "One latest successful public record per Beijing date. Same-day refresh overwrites daily.json using conditional ETag; legacy time snapshots stay read-only.",
+  "validation": {
+    "unit_and_router_tests_passed": 53,
+    "esm_artifact": "passed",
+    "browser_visual": "not repeated; verified HTTP HTML date-only controls and client interaction model"
+  }
+}

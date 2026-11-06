@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-11-03T23:42:27.626412+00:00",
+  "window_hours_target": 24,
+  "full_scan_complete": false,
+  "selected_new_items": [],
+  "read_but_excluded": [
+    {
+      "id": "1xlyuja",
+      "community": "stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xlyuja/anthropic_reports_1127_revenue_surge_895_billion/",
+      "original_post_time_beijing": null,
+      "event_date": null,
+      "read_scope": "original body and selected comments incl liquidity concerns and support for demand growth",
+      "claim": "AI revenue growth and purchase commitments; not factchecked against original filing",
+      "opposition": "IPO exit liquidity and uncertainty of future commitments",
+      "status": "excluded_from_current_digest_absolute_time_and_original_financials_unverified",
+      "captured_at_utc": "2026-11-03T23:42:27.626412+00:00"
+    },
+    {
+      "id": "1xm16ps",
+      "community": "ValueInvesting",
+      "url": "https://www.reddit.com/r/ValueInvesting/comments/1xm16ps/oracles_default_insurance_jumps_over_a_full_point/",
+      "original_post_time_beijing": null,
+      "event_date": null,
+      "read_scope": "original body, selected comments",
+      "claim": "Oracle debt insurance spread allegedly widened; no primary market quote verified",
+      "opposition": "no dated auditable CDS term/tenor, cannot infer default certainty",
+      "status": "excluded_from_current_digest_absolute_time_and_credit_claim_unverified",
+      "captured_at_utc": "2026-11-03T23:42:27.626412+00:00"
+    }
+  ],
+  "rss_status": "six feed requests failed; no restriction bypass"
+}

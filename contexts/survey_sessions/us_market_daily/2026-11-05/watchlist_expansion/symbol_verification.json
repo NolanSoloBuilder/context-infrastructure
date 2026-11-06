@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-11-05T03:23:01.328558+00:00",
+  "scope": "仅用户所附手机截图可见的9项；截图未显示的手机自选仍须继续读取，不声称已导入全部。",
+  "items": [
+    {
+      "symbol": "PDD",
+      "display_name": "拼多多 / PDD Holdings",
+      "official_name": "PDD Holdings Inc.",
+      "security_type": "ADS",
+      "exchange": "Nasdaq Global Select Market",
+      "industry": "电商与消费互联网",
+      "business": "经营拼多多与 Temu 平台，向商户提供交易服务、线上营销及其他服务。",
+      "sources": [
+        {
+          "title": "PDD 投资者 FAQ",
+          "url": "https://investor.pddholdings.com/information-investors",
+          "published_at": null,
+          "read_scope": "正文核对 Nasdaq PDD、2018-07-26上市及每ADS对应4股A类普通股",
+          "source_type": "primary"
+        },
+        {
+          "title": "PDD 2025 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465926050727/pdd-20251231x20f.htm",
+          "published_at": "2026-04-29",
+          "read_scope": "业务与平台说明",
+          "source_type": "primary"
+        }
+      ],
+      "risks": [
+        "中国及跨境电商监管、关税、竞争和商户补贴可能影响利润。"
+      ],
+      "gaps": [
+        "本次未进行估值或安全边际判断。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "PDD",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "PDD",
+        "shortName": "PDD Holdings Inc.",
+        "longName": "PDD Holdings Inc.",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 1532611800,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 82.15,
+        "requested": "PDD",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/PDD?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.360029+00:00",
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 82.15,
+      "regular_change_pct": 2.4698,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "watchlist_action": "excluded_by_user"
+    },
+    {
+      "symbol": "SKHY",
+      "display_name": "SK海力士 ADR",
+      "official_name": "SK hynix Inc.",
+      "security_type": "ADR",
+      "exchange": "Nasdaq Global Select Market",
+      "industry": "半导体与存储",
+      "business": "生产 DRAM、NAND 闪存和 HBM 等存储产品，业务包含面向 AI 加速器及数据中心的高带宽存储。",
+      "sources": [
+        {
+          "title": "Nasdaq SKHY 上市及代码转换通知 DTN2026-11",
+          "url": "https://www.nasdaqtrader.com/TraderNews.aspx?id=DTN2026-11",
+          "published_at": "2026-07-10",
+          "read_scope": "全文；SKHYV于7/10 when-issued上市，7/13转SKHY，历史需承接",
+          "source_type": "primary"
+        },
+        {
+          "title": "SK hynix 官方 ADR 上市公告",
+          "url": "https://news.skhynix.com/en/skhynix-lists-adrs-on-nasdaq/",
+          "published_at": "2026-07-10",
+          "read_scope": "正文；Nasdaq ADR上市与公司业务",
+          "source_type": "primary"
+        }
+      ],
+      "history_start_guard": "2026-07-10",
+      "regular_way_symbol_start": "2026-07-13",
+      "risks": [
+        "ADR新上市历史较短，不能拿韩国000660韩元股价补齐美元股价序列。",
+        "存储行业供需周期与扩产可能造成盈利剧烈波动。"
+      ],
+      "gaps": [
+        "本次未从官方招股书核对ADR换股比例，页面暂不展示比例。",
+        "不足1年和200交易日，不能显示完整一年/52周/MA200指标。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "SKHY",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "SKHY",
+        "shortName": "SK hynix Inc.",
+        "longName": "SK hynix Inc.",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 1783690200,
+        "regularMarketTime": 1793826000,
+        "regularMarketPrice": 143.07,
+        "requested": "SKHY",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SKHY?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.360891+00:00",
+        "first_bar_unix": 1783690200,
+        "last_bar_unix": 1793802600,
+        "bar_count": 83
+      },
+      "historical_first_date": "2026-07-10",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 83,
+      "regular_close_usd": 143.07,
+      "regular_change_pct": -5.1197,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "short_history": true,
+      "historical_data_before_listing": false,
+      "ma200_available": false,
+      "full_52_week_available": false,
+      "watchlist_action": "eligible_to_add"
+    },
+    {
+      "symbol": "SPCX",
+      "display_name": "SpaceX",
+      "official_name": "Space Exploration Technologies Corp.",
+      "security_type": "Class A common stock",
+      "exchange": "Nasdaq Global Select Market / Nasdaq Texas",
+      "industry": "航天、卫星通信与AI",
+      "business": "三大分部为 Space（可复用火箭及发射）、Connectivity（Starlink卫星连接）、SI（原AI；Grok、Cursor、X及相关API和云服务）。",
+      "sources": [
+        {
+          "title": "SpaceX 官方投资者 FAQ",
+          "url": "https://ir.spacex.com/faqs-and-contact/",
+          "published_at": null,
+          "read_scope": "正文；2026-06-12 IPO与SPCX代码",
+          "source_type": "primary"
+        },
+        {
+          "title": "SpaceX 2026Q3 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+          "published_at": null,
+          "read_scope": "2026-09-30季度；封面Class A/SPCX/Nasdaq+Nasdaq Texas；业务分部与SI收入说明",
+          "source_type": "primary"
+        }
+      ],
+      "history_start_guard": "2026-06-12",
+      "risks": [
+        "新上市短历史与高资本投入；发射、卫星扩张和AI业务需分别分析。",
+        "必须以当前发行人身份校验数据，不能混入历史同代码产品。"
+      ],
+      "gaps": [
+        "不足1年和200交易日，不能显示完整一年/52周/MA200指标。",
+        "本次仅核验身份与业务，未得出低估结论。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "SPCX",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "SPCX",
+        "shortName": "Space Exploration Technologies ",
+        "longName": "Space Exploration Technologies Corp.",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 1781271000,
+        "regularMarketTime": 1793826000,
+        "regularMarketPrice": 135.92,
+        "requested": "SPCX",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPCX?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.361016+00:00",
+        "first_bar_unix": 1781271000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 101
+      },
+      "historical_first_date": "2026-06-12",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 101,
+      "regular_close_usd": 135.92,
+      "regular_change_pct": -3.8143,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "short_history": true,
+      "historical_data_before_listing": false,
+      "ma200_available": false,
+      "full_52_week_available": false,
+      "watchlist_action": "eligible_to_add"
+    },
+    {
+      "symbol": "NVDA",
+      "display_name": "英伟达",
+      "official_name": "NVIDIA Corporation",
+      "security_type": "Common stock",
+      "exchange": "Nasdaq Global Select Market",
+      "industry": "半导体与算力",
+      "business": "提供加速计算、数据中心AI计算与网络平台及相关软硬件。",
+      "sources": [
+        {
+          "title": "NVIDIA 2027财年第二季度财报",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "published_at": "2026-08-26",
+          "read_scope": "正文；NASDAQ NVDA与Data Center业务、财年口径",
+          "source_type": "primary"
+        }
+      ],
+      "risks": [
+        "AI资本开支集中、出口限制、竞争和高估值预期。"
+      ],
+      "gaps": [
+        "名单中已存在，合并去重；本次不重做估值。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "NVDA",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "NVDA",
+        "shortName": "NVIDIA Corporation",
+        "longName": "NVIDIA Corporation",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 917015400,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 200.13,
+        "requested": "NVDA",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.361121+00:00",
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 200.13,
+      "regular_change_pct": -3.1738,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "watchlist_action": "already_present_deduplicate"
+    },
+    {
+      "symbol": "DDL",
+      "display_name": "叮咚买菜",
+      "official_name": "Dingdong (Cayman) Limited",
+      "security_type": "ADS",
+      "exchange": "New York Stock Exchange",
+      "industry": "生鲜电商与资产处置",
+      "business": "原核心为中国生鲜与食品即时电商；2026年已签约出售中国业务给美团，最新已读Q2公告将中国业务列为终止经营，需按交易及剩余业务核验。",
+      "sources": [
+        {
+          "title": "Dingdong 官方投资者FAQ",
+          "url": "https://ir.100.me/Investor-FAQs",
+          "published_at": null,
+          "read_scope": "正文；NYSE DDL、ADS与主营",
+          "source_type": "primary"
+        },
+        {
+          "title": "Dingdong 2026Q2结果",
+          "url": "https://dingdong.investorroom.com/2026-08-20-Dingdong-Cayman-Limited-Announces-Second-Quarter-2026-Financial-Results",
+          "published_at": "2026-08-20",
+          "read_scope": "正文；交易仍待SAMR审批、终止经营与持续经营区分",
+          "source_type": "primary"
+        },
+        {
+          "title": "Dingdong 中国业务出售协议",
+          "url": "https://dingdong.investorroom.com/2026-02-05-Dingdong-Announces-Entry-into-Definitive-Agreement-to-Sell-its-China-Business-to-Meituan?pagetemplate=widgetpopup",
+          "published_at": "2026-02-05",
+          "read_scope": "正文；签约非交割，交割条件与监管审批",
+          "source_type": "primary"
+        }
+      ],
+      "risks": [
+        "交割、反垄断审批、税费及回款/分配有不确定性，不能将交易对价直接当作股东可得现金。",
+        "旧中国业务利润不能直接作为持续经营估值分母。"
+      ],
+      "gaps": [
+        "截至本次核验未取得比2026-08-20更晚的官方交割完成公告，不能声称交易已经完成或当前仍确定待批。",
+        "需继续核验交易进度、剩余海外业务及现金分配。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "DDL",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "DDL",
+        "shortName": "Dingdong (Cayman) Limited",
+        "longName": "Dingdong (Cayman) Limited",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NYQ",
+        "fullExchangeName": "NYSE",
+        "firstTradeDate": 1624973400,
+        "regularMarketTime": 1793826002,
+        "regularMarketPrice": 1.89,
+        "requested": "DDL",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DDL?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.765864+00:00",
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 1.89,
+      "regular_change_pct": 1.0695,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "watchlist_action": "excluded_by_user"
+    },
+    {
+      "symbol": "TSLA",
+      "display_name": "特斯拉",
+      "official_name": "Tesla, Inc.",
+      "security_type": "Common stock",
+      "exchange": "Nasdaq Global Select Market",
+      "industry": "汽车、能源与机器人",
+      "business": "生产销售电动车和能源发电/储能系统，并推进自动驾驶、Robotaxi及Optimus机器人商业化。",
+      "sources": [
+        {
+          "title": "Tesla 2026Q3 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+          "published_at": null,
+          "read_scope": "2026-09-30季度；封面TSLA/Nasdaq；经营分部与MD&A",
+          "source_type": "primary"
+        }
+      ],
+      "risks": [
+        "汽车利润、储能兑现与自动驾驶/机器人预期需分开估值；监管和资本投入存在风险。"
+      ],
+      "gaps": [
+        "本次未进行估值或安全边际判断。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "TSLA",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "TSLA",
+        "shortName": "Tesla, Inc.",
+        "longName": "Tesla, Inc.",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 1277818200,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 385.19,
+        "requested": "TSLA",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.821629+00:00",
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 385.19,
+      "regular_change_pct": -3.34,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "watchlist_action": "eligible_to_add"
+    },
+    {
+      "symbol": "AAPL",
+      "display_name": "苹果",
+      "official_name": "Apple Inc.",
+      "security_type": "Common stock",
+      "exchange": "Nasdaq Stock Market",
+      "industry": "消费电子与软件服务",
+      "business": "提供iPhone、Mac、iPad、可穿戴设备等硬件及相关软件与服务。",
+      "sources": [
+        {
+          "title": "Apple 官方股票FAQ",
+          "url": "https://investor.apple.com/faq/default.aspx",
+          "published_at": null,
+          "read_scope": "正文；Nasdaq AAPL",
+          "source_type": "primary"
+        },
+        {
+          "title": "Apple 2026财年Q4业绩",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+          "published_at": "2026-11-02",
+          "read_scope": "正文；硬件和服务业务",
+          "source_type": "primary"
+        }
+      ],
+      "risks": [
+        "硬件换机周期、服务监管、供应链及AI商业化节奏。"
+      ],
+      "gaps": [
+        "本次未进行估值或安全边际判断。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "AAPL",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "AAPL",
+        "shortName": "Apple Inc.",
+        "longName": "Apple Inc.",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 345479400,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 349.51,
+        "requested": "AAPL",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.948151+00:00",
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 349.51,
+      "regular_change_pct": 5.3058,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "watchlist_action": "eligible_to_add"
+    },
+    {
+      "symbol": "BABA",
+      "display_name": "阿里巴巴 ADS",
+      "official_name": "Alibaba Group Holding Limited",
+      "security_type": "ADS",
+      "exchange": "New York Stock Exchange",
+      "industry": "电商、云与AI",
+      "business": "经营国内及国际电商、云计算与AI等业务；美国BABA为美元ADS，不能与港股普通股价格直接混用。",
+      "sources": [
+        {
+          "title": "Alibaba 2026年6月季度业绩",
+          "url": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+          "published_at": "2026-08-20",
+          "read_scope": "官方PDF；NYSE BABA、云和电商业务、每ADS=8普通股",
+          "source_type": "primary"
+        }
+      ],
+      "risks": [
+        "国内竞争、即时零售投入和AI资本开支影响现金流；中美监管及ADS结构。"
+      ],
+      "gaps": [
+        "本次未进行估值或安全边际判断。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "BABA",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "BABA",
+        "shortName": "Alibaba Group Holding Limited",
+        "longName": "Alibaba Group Holding Limited",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NYQ",
+        "fullExchangeName": "NYSE",
+        "firstTradeDate": 1411133400,
+        "regularMarketTime": 1793826202,
+        "regularMarketPrice": 105.29,
+        "requested": "BABA",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BABA?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:00.958117+00:00",
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 105.29,
+      "regular_change_pct": 4.9123,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "watchlist_action": "excluded_by_user"
+    },
+    {
+      "symbol": "BA",
+      "display_name": "波音",
+      "official_name": "The Boeing Company",
+      "security_type": "Common stock",
+      "exchange": "New York Stock Exchange",
+      "industry": "航空航天与国防",
+      "business": "三大经营板块为商用飞机、国防航天安全和全球服务，收入来自飞机/防务交付及维护服务。",
+      "sources": [
+        {
+          "title": "Boeing 2026Q3业绩",
+          "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx",
+          "published_at": null,
+          "read_scope": "2026-09-30季度；NYSE BA和三大分部数据",
+          "source_type": "primary"
+        }
+      ],
+      "risks": [
+        "飞机认证、交付、供应链、项目亏损和负债；订单不能当现金回款。"
+      ],
+      "gaps": [
+        "本次未进行估值或安全边际判断。"
+      ],
+      "currency": "USD",
+      "yahoo_symbol": "BA",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "symbol": "BA",
+        "shortName": "Boeing Company (The)",
+        "longName": "The Boeing Company",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NYQ",
+        "fullExchangeName": "NYSE",
+        "firstTradeDate": -252322200,
+        "regularMarketTime": 1793826002,
+        "regularMarketPrice": 177.0,
+        "requested": "BA",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BA?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:18:01.229080+00:00",
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 177.0,
+      "regular_change_pct": 2.1291,
+      "quote_scope": "Yahoo单一数据源新采集的2026-11-04常规日线；手机截图未独立提供报价日期，未作为第二来源价格验证。",
+      "watchlist_action": "eligible_to_add"
+    }
+  ],
+  "summary": {
+    "symbols": [
+      "PDD",
+      "SKHY",
+      "SPCX",
+      "NVDA",
+      "DDL",
+      "TSLA",
+      "AAPL",
+      "BABA",
+      "BA"
+    ],
+    "all_yahoo_meta_match": true,
+    "new_short_history_symbols": [
+      "SKHY",
+      "SPCX"
+    ],
+    "business_change_attention": [
+      "DDL"
+    ],
+    "original_watch_contract_unchanged": [
+      "QQQM",
+      "VOO",
+      "BRK.B"
+    ],
+    "eligible_to_add": [
+      "SKHY",
+      "SPCX",
+      "TSLA",
+      "AAPL",
+      "BA"
+    ],
+    "already_present": [
+      "NVDA"
+    ],
+    "excluded_by_user": [
+      "PDD",
+      "DDL",
+      "BABA"
+    ]
+  },
+  "user_exclusion_update": "用户最新明确排除中概股；PDD、DDL、BABA不加入。只保留已取得核验证据。"
+}

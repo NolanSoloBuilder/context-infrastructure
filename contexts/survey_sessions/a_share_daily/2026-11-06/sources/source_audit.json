@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-06T09:00:57.929312+08:00",
+  "report_date": "2026-11-06",
+  "cutoff": "2026-11-06T09:00:00+08:00",
+  "market_session": "2026-11-05",
+  "market_carried_forward": false,
+  "latest_verified_issue": 3008,
+  "latest_verified_star": 4.7,
+  "previous_star_range": [
+    4.7,
+    4.8
+  ],
+  "valuation_asof": "2026-11-05",
+  "threshold_triggered": false,
+  "author_list": "https://www.sina.cn/media/5546795997/",
+  "article": "https://www.sina.cn/news/detail/5362011796147214.html",
+  "author_body_sha256": "328bf9dce01bb7ea5896eb164bd098ed3cf6f5a149733644113d229c7fdfff5f",
+  "dividend_supplement_asof": "2026-11-04",
+  "finews_report_date": "2026-11-05",
+  "group_reviewed_count": 4,
+  "china_history_gap": "6项美元历史只到11月4日，未拼接11月5日点价",
+  "events": [
+    {
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "beijing_time": "2026-11-06T21:30:00+08:00",
+      "status": "官方排期，未发布"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500669_c.pdf",
+      "status": "11月5日港交所披露，采用香港财务报告准则及美元口径，华力微并表且可比期重列"
+    }
+  ]
+}

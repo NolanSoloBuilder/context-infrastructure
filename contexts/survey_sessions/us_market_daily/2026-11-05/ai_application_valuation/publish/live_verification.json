@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-05T03:09:19.897306+00:00",
+  "production_brief_matches": true,
+  "anonymous_homepage": 200,
+  "anonymous_api": 200,
+  "daily_brief_report_date": "2026-11-05",
+  "market_session": "2026-11-04",
+  "reviewed_at": "2026-11-05T03:05:49.483828+00:00",
+  "archive_matches": true,
+  "history_dates": [
+    "2026-11-04",
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "no_duplicate_session": true,
+  "refresh": {
+    "status": "complete",
+    "phase": "done",
+    "job_id": "7215f366-67de-4b92-b790-c7147c7f7b3d",
+    "started_at_utc": "2026-11-05T03:08:31.220Z",
+    "last_success_at_utc": "2026-11-05T03:08:38.633Z",
+    "completed": 17,
+    "total": 17,
+    "message": "行情与历史指标已更新；研究文字和发行人持仓保留各自披露日期。",
+    "regular_session": "2026-11-04",
+    "finished_at_utc": "2026-11-05T03:08:38.633Z",
+    "successful_history_symbols": 17,
+    "symbol_count": 17,
+    "errors": []
+  },
+  "content_only_change": "No template change; content/HTTP/API verified, not a new visual browser acceptance."
+}

@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "id": "2026-11-02/20261102T082831213Z_d940ef8dd37c7a0c7b06905aa1429d4d",
+      "captured_at_utc": "2026-11-02T08:28:31.213Z",
+      "archived_at_utc": "2026-11-02T08:28:31.213Z",
+      "regular_session": "2026-10-30",
+      "source": "refresh",
+      "status": "complete"
+    },
+    {
+      "id": "2026-11-02/20261102T082111801Z_f8e68fc25f24e0b032e596bf81b31fe1",
+      "captured_at_utc": "2026-11-02T08:21:11.801Z",
+      "archived_at_utc": "2026-11-02T08:28:19.517Z",
+      "regular_session": "2026-10-30",
+      "source": "existing_cache",
+      "status": "complete"
+    }
+  ],
+  "cursor": null
+}

@@ -1,0 +1,323 @@
+{
+  "session": "2026-11-04",
+  "status": {
+    "total": 43,
+    "eligible_symbol_count": 43,
+    "skipped_symbol_count": 0,
+    "status": "complete",
+    "phase": "done",
+    "completed": 43,
+    "started_at_utc": "2026-11-05T03:24:16.492Z",
+    "finished_at_utc": "2026-11-05T03:39:05.259Z",
+    "last_success_at_utc": "2026-11-05T03:39:05.259Z",
+    "regular_session": "2026-11-04",
+    "successful_history_symbols": 43,
+    "symbol_count": 43,
+    "skipped_symbols": [],
+    "errors": [],
+    "message": "已更新43个标的；研究文字和发行人持仓保留各自披露日期。"
+  },
+  "assets": [
+    {
+      "symbol": "VOO",
+      "close": 704.78,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 671.1697506713867
+    },
+    {
+      "symbol": "QQQM",
+      "close": 284.92,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 280.2118514251709
+    },
+    {
+      "symbol": "SPMO",
+      "close": 132.03,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 138.18839981079103
+    },
+    {
+      "symbol": "MAGS",
+      "close": 70.28,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 66.41057504653931
+    },
+    {
+      "symbol": "SMH",
+      "close": 504.27,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 521.2205003356934
+    },
+    {
+      "symbol": "VGT",
+      "close": 115.55,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 109.69836860656739
+    },
+    {
+      "symbol": "SOXX",
+      "close": 450.41,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 478.12670181274416
+    },
+    {
+      "symbol": "DRAM",
+      "close": 45.11,
+      "session": "2026-11-04",
+      "period": "成立以来（不足一年）",
+      "ma200": null
+    },
+    {
+      "symbol": "SGOV",
+      "close": 100.45,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 100.54480007171631
+    },
+    {
+      "symbol": "IGV",
+      "close": 103.56,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 94.03139987945556
+    },
+    {
+      "symbol": "XSW",
+      "close": 211,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 174.39369956970214
+    },
+    {
+      "symbol": "IHI",
+      "close": 60.22,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 53.48329990386963
+    },
+    {
+      "symbol": "BOTZ",
+      "close": 32.81,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 36.50762515068054
+    },
+    {
+      "symbol": "AIQ",
+      "close": 59.87,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 58.70657512664795
+    },
+    {
+      "symbol": "KORU",
+      "close": 10.43,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 24.39287006378174
+    },
+    {
+      "symbol": "SOXL",
+      "close": 66.68,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 124.40484987258911
+    },
+    {
+      "symbol": "SOXS",
+      "close": 58.34,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 150.7779500770569
+    },
+    {
+      "symbol": "RRX",
+      "close": 173.38,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 190.01849990844727
+    },
+    {
+      "symbol": "CGNX",
+      "close": 53.06,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 58.12089988708496
+    },
+    {
+      "symbol": "ATS",
+      "close": 17.57,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 26.459500064849852
+    },
+    {
+      "symbol": "GOOGL",
+      "close": 288.93,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 339.97094924926756
+    },
+    {
+      "symbol": "AMZN",
+      "close": 266.03,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 243.67085006713867
+    },
+    {
+      "symbol": "NVDA",
+      "close": 200.13,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 204.67220016479493
+    },
+    {
+      "symbol": "SKHY",
+      "close": 143.07,
+      "session": "2026-11-04",
+      "period": "上市以来（不足一年）",
+      "ma200": null
+    },
+    {
+      "symbol": "INTC",
+      "close": 58.27,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 87.0397499847412
+    },
+    {
+      "symbol": "SNDK",
+      "close": 1037.4,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 1268.9817224121093
+    },
+    {
+      "symbol": "MRNA",
+      "close": 258.38,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 89.49720035552978
+    },
+    {
+      "symbol": "SOFI",
+      "close": 17.38,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 17.6491499710083
+    },
+    {
+      "symbol": "BRK-B",
+      "close": 579.09,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 496.84844970703125
+    },
+    {
+      "symbol": "NOW",
+      "close": 108.81,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 114.68760013580322
+    },
+    {
+      "symbol": "CRM",
+      "close": 227.11,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 198.28480003356933
+    },
+    {
+      "symbol": "PLTR",
+      "close": 171.7,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 153.61207447052
+    },
+    {
+      "symbol": "MSFT",
+      "close": 555.8,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 438.9908993530273
+    },
+    {
+      "symbol": "GEHC",
+      "close": 85.81,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 69.83349998474121
+    },
+    {
+      "symbol": "ISRG",
+      "close": 482.1,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 431.8406991577148
+    },
+    {
+      "symbol": "ACN",
+      "close": 264.27,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 191.04694931030272
+    },
+    {
+      "symbol": "EPAM",
+      "close": 137.36,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 120.87139972686768
+    },
+    {
+      "symbol": "GLOB",
+      "close": 48.04,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 41.836150045394895
+    },
+    {
+      "symbol": "TEM",
+      "close": 75.61,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 57.06749994277954
+    },
+    {
+      "symbol": "SPCX",
+      "close": 135.92,
+      "session": "2026-11-04",
+      "period": "上市以来（不足一年）",
+      "ma200": null
+    },
+    {
+      "symbol": "BA",
+      "close": 177,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 215.89485000610352
+    },
+    {
+      "symbol": "TSLA",
+      "close": 385.19,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 384.7595489501953
+    },
+    {
+      "symbol": "AAPL",
+      "close": 349.51,
+      "session": "2026-11-04",
+      "period": "近一年",
+      "ma200": 297.85250007629395
+    }
+  ]
+}

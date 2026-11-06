@@ -1,0 +1,118 @@
+[
+  {
+    "symbol": "NOW",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=5d&interval=1d&events=div%2Csplits",
+    "captured_at": "2026-11-05T02:48:56.373744+00:00",
+    "bars": [
+      {
+        "date": "2026-10-29T09:30:00-04:00",
+        "close": 109.66999816894531
+      },
+      {
+        "date": "2026-10-30T09:30:00-04:00",
+        "close": 105.12000274658203
+      },
+      {
+        "date": "2026-11-02T09:30:00-05:00",
+        "close": 106.01000213623047
+      },
+      {
+        "date": "2026-11-03T09:30:00-05:00",
+        "close": 109.16000366210938
+      },
+      {
+        "date": "2026-11-04T09:30:00-05:00",
+        "close": 108.80999755859375
+      }
+    ],
+    "regular_market_time": 1793826003,
+    "regular_market_price": 108.81
+  },
+  {
+    "symbol": "CRM",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=5d&interval=1d&events=div%2Csplits",
+    "captured_at": "2026-11-05T02:48:56.373381+00:00",
+    "bars": [
+      {
+        "date": "2026-10-29T09:30:00-04:00",
+        "close": 230.89999389648438
+      },
+      {
+        "date": "2026-10-30T09:30:00-04:00",
+        "close": 229.1699981689453
+      },
+      {
+        "date": "2026-11-02T09:30:00-05:00",
+        "close": 226.17999267578125
+      },
+      {
+        "date": "2026-11-03T09:30:00-05:00",
+        "close": 222.1999969482422
+      },
+      {
+        "date": "2026-11-04T09:30:00-05:00",
+        "close": 227.11000061035156
+      }
+    ],
+    "regular_market_time": 1793826002,
+    "regular_market_price": 227.11
+  },
+  {
+    "symbol": "GEHC",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=5d&interval=1d&events=div%2Csplits",
+    "captured_at": "2026-11-05T02:48:56.373827+00:00",
+    "bars": [
+      {
+        "date": "2026-10-29T09:30:00-04:00",
+        "close": 76.41999816894531
+      },
+      {
+        "date": "2026-10-30T09:30:00-04:00",
+        "close": 76.56999969482422
+      },
+      {
+        "date": "2026-11-02T09:30:00-05:00",
+        "close": 79.55000305175781
+      },
+      {
+        "date": "2026-11-03T09:30:00-05:00",
+        "close": 80.66000366210938
+      },
+      {
+        "date": "2026-11-04T09:30:00-05:00",
+        "close": 85.80999755859375
+      }
+    ],
+    "regular_market_time": 1793826001,
+    "regular_market_price": 85.81
+  },
+  {
+    "symbol": "CGNX",
+    "source": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=5d&interval=1d&events=div%2Csplits",
+    "captured_at": "2026-11-05T02:48:56.394701+00:00",
+    "bars": [
+      {
+        "date": "2026-10-29T09:30:00-04:00",
+        "close": 58.970001220703125
+      },
+      {
+        "date": "2026-10-30T09:30:00-04:00",
+        "close": 56.150001525878906
+      },
+      {
+        "date": "2026-11-02T09:30:00-05:00",
+        "close": 56.40999984741211
+      },
+      {
+        "date": "2026-11-03T09:30:00-05:00",
+        "close": 58.11000061035156
+      },
+      {
+        "date": "2026-11-04T09:30:00-05:00",
+        "close": 53.060001373291016
+      }
+    ],
+    "regular_market_time": 1793826001,
+    "regular_market_price": 53.06
+  }
+]

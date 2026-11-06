@@ -1,0 +1,829 @@
+{
+  "schema_version": 1,
+  "report_date_beijing": "2026-10-31",
+  "regular_session": "2026-10-30",
+  "premarket_session": "2026-11-02",
+  "premarket_status": "not_started",
+  "generated_at_utc": "2026-10-30T23:34:09.813768+00:00",
+  "rows": [
+    {
+      "group_id": "indices",
+      "group": "宽基与风格ETF",
+      "symbol": "VOO",
+      "name": "标普500",
+      "regular_metrics": {
+        "symbol": "VOO",
+        "label": "VOO",
+        "session": "2026-10-30",
+        "close": 694.81,
+        "day_pct": -1.7686492162083955,
+        "five_session_pct": -0.539668962612927,
+        "twenty_one_session_pct": -1.0735357427831493,
+        "high_52w": 718.47,
+        "high_date": "2026-10-06",
+        "drawdown_pct": -3.293105364080362,
+        "level_15": 610.7,
+        "level_25": 538.85,
+        "additional_drop_to_15_pct": -12.105542919140921,
+        "ma50": 705.7002026367187,
+        "ma200": 670.2008508300781,
+        "vs_ma50_pct": -1.5431772638629937,
+        "vs_ma200_pct": 3.6719062200586405,
+        "volume": 9939777,
+        "volume_vs_prior20": 1.8652429327005626,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 695.6,
+        "change_pct": 0.11370049981638264,
+        "time_beijing": "2026-10-31T07:28:40+08:00",
+        "time_et": "2026-10-30T19:28:40-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": true,
+      "reviewed_research": {
+        "status": "已有仓位，后续分批不加速",
+        "next": "先确认股票目标与单笔额度；ETF与个股共用风险预算"
+      }
+    },
+    {
+      "group_id": "indices",
+      "group": "宽基与风格ETF",
+      "symbol": "QQQM",
+      "name": "纳斯达克100",
+      "regular_metrics": {
+        "symbol": "QQQM",
+        "label": "QQQM",
+        "session": "2026-10-30",
+        "close": 284.34,
+        "day_pct": -3.45975027455252,
+        "five_session_pct": -1.9720062293483442,
+        "twenty_one_session_pct": -6.9476749934434645,
+        "high_52w": 314.11,
+        "high_date": "2026-10-06",
+        "drawdown_pct": -9.479010815201129,
+        "level_15": 266.99,
+        "level_25": 235.58,
+        "additional_drop_to_15_pct": -6.099125997759214,
+        "ma50": 298.52660278320315,
+        "ma200": 279.784051361084,
+        "vs_ma50_pct": -4.752208450787599,
+        "vs_ma200_pct": 1.628379085456455,
+        "volume": 8459290,
+        "volume_vs_prior20": 2.8928611122035295,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 285.2,
+        "change_pct": 0.3024560987092473,
+        "time_beijing": "2026-10-31T07:26:42+08:00",
+        "time_et": "2026-10-30T19:26:42-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": true,
+      "reviewed_research": {
+        "status": "已有仓位，回撤9.48%，未近13%档",
+        "next": "量能放大下继续观察盈利与融资风险，不因跌幅临时扩大仓位"
+      }
+    },
+    {
+      "group_id": "indices",
+      "group": "宽基与风格ETF",
+      "symbol": "SPMO",
+      "name": "标普500动量因子",
+      "regular_metrics": {
+        "symbol": "SPMO",
+        "label": "SPMO",
+        "session": "2026-10-30",
+        "close": 136.27,
+        "day_pct": -4.304768178908446,
+        "five_session_pct": -1.7236400739411906,
+        "twenty_one_session_pct": -10.788867906735888,
+        "high_52w": 162.3,
+        "high_date": "2026-06-22",
+        "drawdown_pct": -16.038199808903176,
+        "level_15": 137.96,
+        "level_25": 121.73,
+        "additional_drop_to_15_pct": 1.2365144703189168,
+        "ma50": 147.35379974365233,
+        "ma200": 137.98369983673095,
+        "vs_ma50_pct": -7.521893219227183,
+        "vs_ma200_pct": -1.2419550760689457,
+        "volume": 3037640,
+        "volume_vs_prior20": 1.631030844526298,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 136.62,
+        "change_pct": 0.2568398906824365,
+        "time_beijing": "2026-10-31T07:25:36+08:00",
+        "time_et": "2026-10-30T19:25:36-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "动量因子研究观察",
+        "next": "前期强势行业回撤与再平衡风险，不当成全市场分散"
+      }
+    },
+    {
+      "group_id": "indices",
+      "group": "宽基与风格ETF",
+      "symbol": "MAGS",
+      "name": "七巨头集中组合",
+      "regular_metrics": {
+        "symbol": "MAGS",
+        "label": "MAGS",
+        "session": "2026-10-30",
+        "close": 68.48,
+        "day_pct": -1.7503495620158183,
+        "five_session_pct": -2.2691541955409344,
+        "twenty_one_session_pct": -4.143335642940926,
+        "high_52w": 74.78,
+        "high_date": "2026-10-13",
+        "drawdown_pct": -8.418586480090774,
+        "level_15": 63.56,
+        "level_25": 56.09,
+        "additional_drop_to_15_pct": -7.186407445522203,
+        "ma50": 70.89919982910156,
+        "ma200": 66.33917503356933,
+        "vs_ma50_pct": -3.4121632938020507,
+        "vs_ma200_pct": 3.22709518513149,
+        "volume": 8324924,
+        "volume_vs_prior20": 1.9924523063593915,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 68.68,
+        "change_pct": 0.29205115389470127,
+        "time_beijing": "2026-10-31T06:47:00+08:00",
+        "time_et": "2026-10-30T18:47:00-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "七巨头集中，避免重复叠加",
+        "next": "Meta展望负面与AI现金流；未核实时穿透权重"
+      }
+    },
+    {
+      "group_id": "robotics",
+      "group": "机器人相关",
+      "symbol": "RRX",
+      "name": "运动控制与电机",
+      "regular_metrics": {
+        "symbol": "RRX",
+        "label": "RRX",
+        "session": "2026-10-30",
+        "close": 157.24,
+        "day_pct": -3.89927259162548,
+        "five_session_pct": 6.3007081122148145,
+        "twenty_one_session_pct": 0.42792242294393823,
+        "high_52w": 247.8,
+        "high_date": "2026-07-01",
+        "drawdown_pct": -36.54559985605753,
+        "level_15": 210.63,
+        "level_25": 185.85,
+        "additional_drop_to_15_pct": 33.954461482864275,
+        "ma50": 157.80219848632814,
+        "ma200": 189.79994995117187,
+        "vs_ma50_pct": -0.35626436041876763,
+        "vs_ma200_pct": -17.154875154806003,
+        "volume": 1274113,
+        "volume_vs_prior20": 1.1789592027463427,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RRX?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 157.24,
+        "change_pct": -3.491477862382908e-06,
+        "time_beijing": "2026-10-31T05:50:43+08:00",
+        "time_et": "2026-10-30T17:50:43-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RRX?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "价格下跌尚未形成保守安全边际",
+        "next": "11/3财报，现金转化、调整项目和去杠杆"
+      }
+    },
+    {
+      "group_id": "robotics",
+      "group": "机器人相关",
+      "symbol": "CGNX",
+      "name": "机器视觉",
+      "regular_metrics": {
+        "symbol": "CGNX",
+        "label": "CGNX",
+        "session": "2026-10-30",
+        "close": 56.15,
+        "day_pct": -4.782091972950775,
+        "five_session_pct": 1.0801121459207197,
+        "twenty_one_session_pct": -9.75570487903572,
+        "high_52w": 72.88,
+        "high_date": "2026-06-30",
+        "drawdown_pct": -22.955538361734018,
+        "level_15": 61.95,
+        "level_25": 54.66,
+        "additional_drop_to_15_pct": 10.325905577854954,
+        "ma50": 59.86920013427734,
+        "ma200": 57.88514986038208,
+        "vs_ma50_pct": -6.212206944567244,
+        "vs_ma200_pct": -2.9975707736583868,
+        "volume": 1518836,
+        "volume_vs_prior20": 0.8262986094487846,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 58.99,
+        "change_pct": 5.059302569176616,
+        "time_beijing": "2026-10-31T04:09:38+08:00",
+        "time_et": "2026-10-30T16:09:38-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "有条件研究候选",
+        "next": "11/4盘后业绩，RealSense整合成本与稀释"
+      }
+    },
+    {
+      "group_id": "robotics",
+      "group": "机器人相关",
+      "symbol": "ATS",
+      "name": "自动化系统",
+      "regular_metrics": {
+        "symbol": "ATS",
+        "label": "ATS",
+        "session": "2026-10-30",
+        "close": 18.39,
+        "day_pct": -3.6668452453865408,
+        "five_session_pct": -2.9039130353780918,
+        "twenty_one_session_pct": 1.9966649433883488,
+        "high_52w": 35.82,
+        "high_date": "2026-05-27",
+        "drawdown_pct": -48.65996776570134,
+        "level_15": 30.45,
+        "level_25": 26.87,
+        "additional_drop_to_15_pct": 65.56280995712768,
+        "ma50": 18.810000076293946,
+        "ma200": 26.62765007019043,
+        "vs_ma50_pct": -2.2328585058052797,
+        "vs_ma200_pct": -30.93645386967142,
+        "volume": 213949,
+        "volume_vs_prior20": 0.9268883353189645,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ATS?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 18.34,
+        "change_pct": -0.25819136256099995,
+        "time_beijing": "2026-10-31T05:10:33+08:00",
+        "time_et": "2026-10-30T17:10:33-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/ATS?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "高风险研究候选",
+        "next": "订单回款与杠杆；不依据46%高点回撤认定低估"
+      }
+    },
+    {
+      "group_id": "ai_semiconductors",
+      "group": "科技与AI／半导体",
+      "symbol": "GOOGL",
+      "name": "Google／AI云",
+      "regular_metrics": {
+        "symbol": "GOOGL",
+        "label": "GOOGL",
+        "session": "2026-10-30",
+        "close": 279.84,
+        "day_pct": -1.4023010653303247,
+        "five_session_pct": -12.607350237180516,
+        "twenty_one_session_pct": -17.265845430050287,
+        "high_52w": 408.61,
+        "high_date": "2026-05-18",
+        "drawdown_pct": -31.51415619539496,
+        "level_15": 347.32,
+        "level_25": 306.46,
+        "additional_drop_to_15_pct": 24.113240456686214,
+        "ma50": 339.07179931640627,
+        "ma200": 340.6550993347168,
+        "vs_ma50_pct": -17.468808405161184,
+        "vs_ma200_pct": -17.852397664263698,
+        "volume": 65326584,
+        "volume_vs_prior20": 2.113527705225601,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 281.65,
+        "change_pct": 0.6467994867327187,
+        "time_beijing": "2026-10-31T07:29:23+08:00",
+        "time_et": "2026-10-30T19:29:23-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "同公司研究对照，实际代码GOOG",
+        "next": "TPU硬件／服务分开估值，旧入场档继续暂停"
+      }
+    },
+    {
+      "group_id": "ai_semiconductors",
+      "group": "科技与AI／半导体",
+      "symbol": "NVDA",
+      "name": "AI芯片与算力",
+      "regular_metrics": {
+        "symbol": "NVDA",
+        "label": "NVDA",
+        "session": "2026-10-30",
+        "close": 204.64,
+        "day_pct": -4.221662509528712,
+        "five_session_pct": -2.9958319696068325,
+        "twenty_one_session_pct": -11.357533202539305,
+        "high_52w": 243.37,
+        "high_date": "2026-10-06",
+        "drawdown_pct": -15.914038913831508,
+        "level_15": 206.86,
+        "level_25": 182.53,
+        "additional_drop_to_15_pct": 1.0870291568586987,
+        "ma50": 221.74860076904298,
+        "ma200": 204.38455017089845,
+        "vs_ma50_pct": -7.715314243273896,
+        "vs_ma200_pct": 0.12498460306142878,
+        "volume": 165923799,
+        "volume_vs_prior20": 1.6691204348144275,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 205.19,
+        "change_pct": 0.2687649587761243,
+        "time_beijing": "2026-10-31T07:29:22+08:00",
+        "time_et": "2026-10-30T19:29:22-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "估值待完成",
+        "next": "订单、实际回款与客户投入回报，避免以跌幅替代估值"
+      }
+    },
+    {
+      "group_id": "ai_semiconductors",
+      "group": "科技与AI／半导体",
+      "symbol": "SMH",
+      "name": "半导体ETF",
+      "regular_metrics": {
+        "symbol": "SMH",
+        "label": "半导体",
+        "session": "2026-10-30",
+        "close": 522.49,
+        "day_pct": -6.975625165649701,
+        "five_session_pct": -0.8934032366460953,
+        "twenty_one_session_pct": -15.428692915442587,
+        "high_52w": 671.83,
+        "high_date": "2026-06-22",
+        "drawdown_pct": -22.22884108429134,
+        "level_15": 571.06,
+        "level_25": 503.87,
+        "additional_drop_to_15_pct": 9.295015253824657,
+        "ma50": 572.6155993652344,
+        "ma200": 519.5009504699707,
+        "vs_ma50_pct": -8.753797344400937,
+        "vs_ma200_pct": 0.5753675256417345,
+        "volume": 17300090,
+        "volume_vs_prior20": 1.9596406739996115,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 525.35,
+        "change_pct": 0.5473999164540944,
+        "time_beijing": "2026-10-31T07:26:17+08:00",
+        "time_et": "2026-10-30T19:26:17-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "回撤22.23%，仅行业研究",
+        "next": "不套QQQM15%／25%档位；盈利与客户现金回报"
+      }
+    },
+    {
+      "group_id": "ai_semiconductors",
+      "group": "科技与AI／半导体",
+      "symbol": "VGT",
+      "name": "美国信息技术行业ETF",
+      "regular_metrics": {
+        "symbol": "VGT",
+        "label": "VGT",
+        "session": "2026-10-30",
+        "close": 116.96,
+        "day_pct": -4.319370804620903,
+        "five_session_pct": -1.8544928408403383,
+        "twenty_one_session_pct": -7.912765044266523,
+        "high_52w": 130.66,
+        "high_date": "2026-10-06",
+        "drawdown_pct": -10.48523204780044,
+        "level_15": 111.06,
+        "level_25": 98.0,
+        "additional_drop_to_15_pct": -5.043601246456264,
+        "ma50": 122.47699966430665,
+        "ma200": 109.38568733215332,
+        "vs_ma50_pct": -4.504519701621823,
+        "vs_ma200_pct": 6.924408427694639,
+        "volume": 8531087,
+        "volume_vs_prior20": 1.9003135229172445,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 117.39,
+        "change_pct": 0.3655958647088564,
+        "time_beijing": "2026-10-31T07:27:46+08:00",
+        "time_et": "2026-10-30T19:27:46-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "科技行业敞口研究",
+        "next": "与QQQM／个股重叠；估值待完成"
+      }
+    },
+    {
+      "group_id": "ai_semiconductors",
+      "group": "科技与AI／半导体",
+      "symbol": "SOXX",
+      "name": "半导体行业ETF",
+      "regular_metrics": {
+        "symbol": "SOXX",
+        "label": "SOXX",
+        "session": "2026-10-30",
+        "close": 471.51,
+        "day_pct": -8.241539873349613,
+        "five_session_pct": -1.3989967107131518,
+        "twenty_one_session_pct": -18.18749747818157,
+        "high_52w": 655.95,
+        "high_date": "2026-06-22",
+        "drawdown_pct": -28.117996647463006,
+        "level_15": 557.56,
+        "level_25": 491.96,
+        "additional_drop_to_15_pct": 18.24934759139545,
+        "ma50": 529.1156030273437,
+        "ma200": 476.3666018676758,
+        "vs_ma50_pct": -10.887146954678206,
+        "vs_ma200_pct": -1.0195072624759383,
+        "volume": 18730584,
+        "volume_vs_prior20": 2.1016071239230723,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 474.18,
+        "change_pct": 0.5662637430120299,
+        "time_beijing": "2026-10-31T07:28:24+08:00",
+        "time_et": "2026-10-30T19:28:24-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "单日-8.24%，暂缓追跌",
+        "next": "行业盈利周期与11/5拆股统一口径；无独立仓位规则"
+      }
+    },
+    {
+      "group_id": "ai_semiconductors",
+      "group": "科技与AI／半导体",
+      "symbol": "DRAM",
+      "name": "存储芯片主题ETF",
+      "regular_metrics": {
+        "symbol": "DRAM",
+        "label": "DRAM",
+        "session": "2026-10-30",
+        "close": 48.01,
+        "day_pct": -7.227056383510721,
+        "five_session_pct": 2.018692988779547,
+        "twenty_one_session_pct": -22.601967973023697,
+        "high_52w": null,
+        "high_date": null,
+        "drawdown_pct": null,
+        "level_15": null,
+        "level_25": null,
+        "additional_drop_to_15_pct": null,
+        "ma50": 55.9668002319336,
+        "ma200": null,
+        "vs_ma50_pct": -14.217003433153918,
+        "vs_ma200_pct": null,
+        "volume": 45874234,
+        "volume_vs_prior20": 1.3972457883948233,
+        "bars": 147,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "since_inception_less_than_52_weeks",
+        "available_history_high": 81.34,
+        "available_history_drawdown_pct": -40.97614890207624
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 48.34,
+        "change_pct": 0.6856940044150273,
+        "time_beijing": "2026-10-31T07:26:29+08:00",
+        "time_et": "2026-10-30T19:26:29-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "存储主题，高波动短历史",
+        "next": "仅成立以来数据；缺完整52周与MA200，估值待完成"
+      }
+    },
+    {
+      "group_id": "healthcare",
+      "group": "医疗与生物科技",
+      "symbol": "MRNA",
+      "name": "Moderna／mRNA药物与疫苗",
+      "regular_metrics": {
+        "symbol": "MRNA",
+        "label": "MRNA",
+        "session": "2026-10-30",
+        "close": 221.72,
+        "day_pct": -0.4668671717447448,
+        "five_session_pct": 10.804594931397983,
+        "twenty_one_session_pct": 17.349422227017563,
+        "high_52w": 254.48,
+        "high_date": "2026-10-21",
+        "drawdown_pct": -12.873308337332212,
+        "level_15": 216.31,
+        "level_25": 190.86,
+        "additional_drop_to_15_pct": -2.4409186462649113,
+        "ma50": 182.48650115966797,
+        "ma200": 86.57990032196045,
+        "vs_ma50_pct": 21.49939848247049,
+        "vs_ma200_pct": 156.08715232542863,
+        "volume": 8988811,
+        "volume_vs_prior20": 0.45886811003775313,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 221.01,
+        "change_pct": -0.3202242540561451,
+        "time_beijing": "2026-10-31T07:08:00+08:00",
+        "time_et": "2026-10-30T19:08:00-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "医疗生物科技，估值待完成",
+        "next": "11/6业绩，现金消耗、融资与临床兑现；历史极端跳变不作预期"
+      }
+    },
+    {
+      "group_id": "fintech",
+      "group": "金融科技",
+      "symbol": "SOFI",
+      "name": "数字银行与金融平台",
+      "regular_metrics": {
+        "symbol": "SOFI",
+        "label": "SOFI",
+        "session": "2026-10-30",
+        "close": 16.76,
+        "day_pct": -4.82680495178448,
+        "five_session_pct": 14.676705380472011,
+        "twenty_one_session_pct": 5.808081233784823,
+        "high_52w": 32.73,
+        "high_date": "2025-11-12",
+        "drawdown_pct": -48.793154710393615,
+        "level_15": 27.82,
+        "level_25": 24.55,
+        "additional_drop_to_15_pct": 65.99343216570443,
+        "ma50": 16.575899868011476,
+        "ma200": 17.78569996833801,
+        "vs_ma50_pct": 1.1106507781555752,
+        "vs_ma200_pct": -5.766991129289933,
+        "volume": 64103556,
+        "volume_vs_prior20": 1.1807382722907704,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 16.75,
+        "change_pct": -0.05847392521187711,
+        "time_beijing": "2026-10-31T07:29:00+08:00",
+        "time_et": "2026-10-30T19:29:00-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "估值待完成",
+        "next": "Q3完整10-Q仍未见，信用风险与资本回报模型待核"
+      }
+    },
+    {
+      "group_id": "value",
+      "group": "价值与综合经营",
+      "symbol": "BRK-B",
+      "name": "伯克希尔B",
+      "regular_metrics": {
+        "symbol": "BRK-B",
+        "label": "BRK.B",
+        "session": "2026-10-30",
+        "close": 542.49,
+        "day_pct": 0.09778733490151126,
+        "five_session_pct": 0.05532890529480472,
+        "twenty_one_session_pct": 8.389608438436568,
+        "high_52w": 550.3,
+        "high_date": "2026-10-30",
+        "drawdown_pct": -1.4192254646263947,
+        "level_15": 467.76,
+        "level_25": 412.73,
+        "additional_drop_to_15_pct": -13.776291167706777,
+        "ma50": 515.1120001220703,
+        "ma200": 495.74359970092775,
+        "vs_ma50_pct": 5.31495870913834,
+        "vs_ma200_pct": 9.429549985445785,
+        "volume": 4480941,
+        "volume_vs_prior20": 1.0492925787506673,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 543.6,
+        "change_pct": 0.20461387122174823,
+        "time_beijing": "2026-10-31T07:21:26+08:00",
+        "time_et": "2026-10-30T19:21:26-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": true,
+      "reviewed_research": {
+        "status": "继续研究，新高来源有差异",
+        "next": "Yahoo550.30／第二源550.47；提醒状态暂保留最后有效高点"
+      }
+    },
+    {
+      "group_id": "cash",
+      "group": "现金管理",
+      "symbol": "SGOV",
+      "name": "0–3个月美债ETF",
+      "regular_metrics": {
+        "symbol": "SGOV",
+        "label": "SGOV",
+        "session": "2026-10-30",
+        "close": 100.73,
+        "day_pct": 0.019863243613138515,
+        "five_session_pct": 0.06954072350244811,
+        "twenty_one_session_pct": 0.3186930416824385,
+        "high_52w": 100.74,
+        "high_date": "2026-10-30",
+        "drawdown_pct": -0.00992109097466276,
+        "level_15": 85.63,
+        "level_25": 75.56,
+        "additional_drop_to_15_pct": -14.991566235950138,
+        "ma50": 100.57480026245118,
+        "ma200": 100.54640003204345,
+        "vs_ma50_pct": 0.15431608521956353,
+        "vs_ma200_pct": 0.18260556800804295,
+        "volume": 36864759,
+        "volume_vs_prior20": 1.7900784381421035,
+        "bars": 501,
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?range=2y&interval=1d&events=div%2Csplits",
+        "history_scope": "rolling_52_weeks"
+      },
+      "pre": {
+        "status": "not_started",
+        "session": "2026-11-02"
+      },
+      "post": {
+        "price_usd": 100.73,
+        "change_pct": 0.0001952149244921486,
+        "time_beijing": "2026-10-31T07:27:38+08:00",
+        "time_et": "2026-10-30T19:27:38-04:00",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?range=5d&interval=1m&includePrePost=true",
+        "source": "Yahoo minute reference, single-source",
+        "zero_or_missing_volume": true
+      },
+      "has_original_drawdown_alert": false,
+      "reviewed_research": {
+        "status": "短期美债研究；基线未显示持有",
+        "next": "SEC收益率按10/28核验值3.79%留作历史，不作本次新收益报价"
+      }
+    }
+  ],
+  "group_registry": "adhoc_jobs/us_market_daily/watchlist_groups.json"
+}

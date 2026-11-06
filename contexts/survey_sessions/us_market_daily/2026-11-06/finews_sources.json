@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-06",
+  "cutoff_utc": "2026-11-05T23:26:00+00:00",
+  "reviewed_at_utc": "2026-11-05T23:33:39.550544+00:00",
+  "url": "https://finews.fyi/",
+  "market_session": "2026-11-05",
+  "page_updated_at_utc": "2026-11-05T23:14:30+00:00",
+  "captured_at_utc": "2026-11-05T23:27:48.718407+00:00",
+  "http_status": 200,
+  "read_scope": "actual latest home full rendered text parsed from HTTP HTML: heatmap, eight summary paragraphs, event calendar, 21 news summaries, temperature and index/stock tables",
+  "raw": "source_scan_raw/finews_home.html",
+  "text": "source_scan_raw/finews_home.txt",
+  "links": "source_scan_raw/finews_links.json",
+  "cache_discrepancy": "web tool home cache showed Nov4 while ordinary public HTTP returned Nov5 updated 23:14:30; latest conclusion uses the actual downloaded HTML",
+  "dedup_baseline": "Nov5 local raw FiNews file contains Nov4 page; its prose digest date was stale. This pass uses raw page metadata, not that stale sentence.",
+  "status": "fresh_aggregation_read_original_news_incomplete",
+  "selected_verified_items": [
+    {
+      "topic": "upcoming official macro calendar",
+      "source": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "level": "government_primary",
+      "read_scope": "full November calendar; last modified Nov3",
+      "facts": [
+        {
+          "event": "Employment Situation, October 2026",
+          "release_et": "2026-11-06T08:30:00-05:00",
+          "release_beijing": "2026-11-06T21:30:00+08:00"
+        },
+        {
+          "event": "CPI, October 2026",
+          "release_et": "2026-11-10T08:30:00-05:00",
+          "release_beijing": "2026-11-10T21:30:00+08:00"
+        }
+      ],
+      "limitation": "calendar is verified; no actual future release result or consensus forecast represented as official fact"
+    }
+  ],
+  "aggregation_leads": [
+    {
+      "topic": "technology/AI selloff and policy interpretation",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-enters-correction-territory-dow-223339396.html?.tsrc=rss",
+      "original_status": "web open inaccessible",
+      "status": "aggregation_only; quotes require separate main-collector verification; causal interpretation unverified"
+    },
+    {
+      "topic": "data-center restrictions after elections",
+      "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+      "original_status": "web open inaccessible",
+      "status": "aggregation_only; do not infer enacted nationwide prohibition"
+    },
+    {
+      "topic": "October employment preview",
+      "url": "https://www.cnbc.com/2026/11/05/the-october-jobs-report-is-out-friday-heres-everything-to-expect.html",
+      "original_status": "web open inaccessible",
+      "status": "only official BLS date independently verified; forecast numbers not used"
+    }
+  ],
+  "dedup_notes": [
+    "Multiple AI decline headlines share one event and are not independent operating evidence.",
+    "Rates and dollar paragraphs point to the same Yahoo URL https://finance.yahoo.com/markets/world-indices/articles/bc-select-stock-indices-223014285.html?.tsrc=rss; do not count as independent corroboration.",
+    "An item labeled CPI preview links to https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html; headline/link mismatch is retained as a gap, use BLS for release dates."
+  ],
+  "limitations": [
+    "Aggregation price changes, flows, valuation temperature and emotion measures are not independently confirmed by this scan.",
+    "No new issuer financial fact for NOW/CRM/CGNX/GEHC/GOOGL/SOFI independently established by the accessible aggregation articles in this pass. This is incomplete coverage, not proof no disclosure occurred.",
+    "No financial or trading conclusion follows from an inaccessible article."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "fy_adjusted_eps_guidance": [
+    1.68,
+    1.72
+  ],
+  "eps_midpoint": 1.7,
+  "regular_yahoo_close": 53.06,
+  "secondary_close": 53.09,
+  "pe": 31.211764705882356,
+  "post_secondary": 50,
+  "post_pe": 29.411764705882355,
+  "horizon_years": 4,
+  "discount_rate": 0.1,
+  "scenarios": [
+    {
+      "growth": 0.08,
+      "terminal_pe": 20,
+      "conditional_present_value": 31.59389702889147
+    },
+    {
+      "growth": 0.12,
+      "terminal_pe": 25,
+      "conditional_present_value": 45.67623304419097
+    },
+    {
+      "growth": 0.18,
+      "terminal_pe": 30,
+      "conditional_present_value": 67.5347761491701
+    }
+  ],
+  "limits": "Analyst assumptions, dividends ignored. No acquisition synergies, retention or dilution separately modeled. Not entry bands; do not add pre-deal cash to P/E-derived equity value."
+}

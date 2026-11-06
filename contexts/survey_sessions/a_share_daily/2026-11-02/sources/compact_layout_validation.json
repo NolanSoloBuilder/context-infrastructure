@@ -1,0 +1,13 @@
+{
+  "default_period": "3y",
+  "default_open_cards": 0,
+  "china_default_folded": true,
+  "cards": 14,
+  "refresh_default_enabled": true,
+  "refresh_interval_seconds": 300,
+  "refresh_scope": "latest published report only; not live quotes",
+  "failure_keeps_current_report": true,
+  "visibility_pause": true,
+  "state_restore": true,
+  "unit_tests_passed": 5
+}

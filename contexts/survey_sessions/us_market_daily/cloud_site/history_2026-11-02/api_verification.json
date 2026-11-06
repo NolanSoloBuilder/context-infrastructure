@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "archive_count": 2,
+  "replayed_snapshot_id": "2026-11-02/20261102T082111801Z_f8e68fc25f24e0b032e596bf81b31fe1",
+  "old_version": "2026-11-02T08:21:05.391Z-0aa6zt",
+  "latest_version": "2026-11-02T08:28:24.365Z-f6duen",
+  "latest_status": "complete",
+  "successful_history_symbols": 17,
+  "original_cache_exact_match": true,
+  "private_marker_check": "passed",
+  "manual_probe": "POST got cooldown429 after page auto refresh had already succeeded; no retry write",
+  "python_urllib_probe": "403; standard curl and anonymous browser200"
+}

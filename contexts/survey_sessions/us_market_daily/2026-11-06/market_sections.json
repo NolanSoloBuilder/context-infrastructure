@@ -1,0 +1,176 @@
+[
+  {
+    "title": "指数与趋势｜11月5日常规收盘，纳指100跌幅更大",
+    "paragraphs": [
+      "标普500 7,353.73点；日 -4.36%／5交易日 -4.75%／21交易日 -5.74%。",
+      "纳斯达克综合（环境参考） 24,315.00点；日 -5.52%／5交易日 -7.14%／21交易日 -11.71%。",
+      "纳斯达克100 26,629.81点；日 -6.36%／5交易日 -9.43%／21交易日 -14.54%。",
+      "截至美国2026-11-05常规收盘。日／5／21交易日分别以11月4日／10月29日／10月7日收盘为比较起点；这是拆股调整价格表现，未计入分红再投资。指数单位为点，ETF股价单位为美元；纳斯达克综合仅供环境参考，QQQM对应纳斯达克100。",
+      "Yahoo同一日线计算：QQQM低于MA50 10.28%、低于MA200 4.79%，当日成交量为此前20日均量 4.67 倍；VOO低于MA50 4.36%，仍高于MA200 0.38%。这是价格与量能转弱的观测，不证明下跌已结束，也不能把均线当硬性止损保证。",
+      "研究判断：本次单日大跌需先核实报价差异与事件冲击，再评估后续分批；不能仅因为回撤接近某档就跳过趋势与基本面。最强反证是利空迅速消化、价格收复200日均线且行业广度改善；下一条件是关键收盘跨源口径统一，以及随后交易日是否出现缩量企稳与更广泛恢复。"
+    ],
+    "sources": [
+      {
+        "title": "Yahoo Finance ^GSPC 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance ^IXIC 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance ^NDX 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance QQQM 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance VOO 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=2y&interval=1d&events=div%2Csplits"
+      }
+    ]
+  },
+  {
+    "title": "行业广度｜12项全跌，科技与半导体承压最重",
+    "paragraphs": [
+      "11个行业ETF和SMH全部下跌。SMH −11.21%、XLK −8.00%，日相对标普500分别落后6.86和3.64个百分点；21交易日分别 −28.37%和−19.37%，弱势并非只出现一天。SMH与XLK存在成分重叠，不能相加当作独立市场损失。",
+      "XLP必需消费日 −0.75%、21交易日 +11.69%，XLV医疗日 −2.50%、21交易日 +9.54%，显示防御领域在本窗口相对抗跌。医疗行业价格强弱不能直接证明AI医疗收入加速或相关个股已经便宜；需继续核订单、使用量、付费与现金流。",
+      "XLC通信服务日 −0.59%、5交易日 +3.09%，本日最抗跌，但21交易日仍 −6.22%。通信ETF并非纯AI应用基金，成分公司差异很大，不能据单日排名统一上调估值。",
+      "上述价格分化不能推断净资金流入。关注顺序是科技／半导体风险是否收敛、防御行业盈利能否兑现，以及通信服务是否恢复持续相对强度；单日领涨或跌得较少都不构成买点。"
+    ],
+    "sources": [
+      {
+        "title": "Yahoo Finance SMH 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLK 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLP 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLV 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLC 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance ^GSPC 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d&events=div%2Csplits"
+      }
+    ]
+  },
+  {
+    "title": "行业完整比较｜日、5交易日、21交易日及相对标普百分点差",
+    "paragraphs": [
+      "比较基准为标普500价格指数（^GSPC），不是VOO总回报；各行业ETF使用同日拆股调整收盘价，未计分红。相对强弱=行业收益率−标普500同窗口收益率，单位为百分点。",
+      "XLC 通信服务：日 -0.59%／5交易日 +3.09%／21交易日 -6.22%；相对标普500分别 +3.76／+7.84／-0.48 个百分点。",
+      "XLU 公用事业：日 -0.71%／5交易日 +0.37%／21交易日 +5.22%；相对标普500分别 +3.64／+5.12／+10.97 个百分点。",
+      "XLP 必需消费：日 -0.75%／5交易日 +3.48%／21交易日 +11.69%；相对标普500分别 +3.61／+8.23／+17.43 个百分点。",
+      "XLRE 房地产：日 -1.82%／5交易日 +2.88%／21交易日 +9.19%；相对标普500分别 +2.54／+7.63／+14.94 个百分点。",
+      "XLV 医疗：日 -2.50%／5交易日 +0.47%／21交易日 +9.54%；相对标普500分别 +1.85／+5.22／+15.28 个百分点。",
+      "XLF 金融：日 -2.87%／5交易日 +0.98%／21交易日 +6.98%；相对标普500分别 +1.48／+5.73／+12.72 个百分点。",
+      "XLB 材料：日 -2.91%／5交易日 -0.38%／21交易日 +6.84%；相对标普500分别 +1.44／+4.37／+12.58 个百分点。",
+      "XLE 能源：日 -2.98%／5交易日 -10.30%／21交易日 -2.73%；相对标普500分别 +1.38／-5.55／+3.01 个百分点。",
+      "XLY 可选消费：日 -3.83%／5交易日 +1.24%／21交易日 +5.64%；相对标普500分别 +0.52／+5.99／+11.38 个百分点。",
+      "XLI 工业：日 -4.12%／5交易日 -4.50%／21交易日 -3.20%；相对标普500分别 +0.23／+0.25／+2.54 个百分点。",
+      "XLK 科技：日 -8.00%／5交易日 -13.97%／21交易日 -19.37%；相对标普500分别 -3.64／-9.22／-13.63 个百分点。",
+      "SMH 半导体：日 -11.21%／5交易日 -20.29%／21交易日 -28.37%；相对标普500分别 -6.86／-15.54／-22.62 个百分点。"
+    ],
+    "sources": [
+      {
+        "title": "Yahoo Finance XLK 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLC 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLY 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLP 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLV 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLF 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLI 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLI?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLE 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLU 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLB 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLB?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance XLRE 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLRE?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance SMH 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance ^GSPC 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d&events=div%2Csplits"
+      }
+    ]
+  },
+  {
+    "title": "行情口径与审计图｜QQQM跨档仍待报价核定",
+    "paragraphs": [
+      "QQQM 11月5日常规收盘存在跨源差异：Yahoo 266.85美元，StockAnalysis 267.02美元；Yahoo日线对应距滚动52周盘中高点回撤15.047%。两家收盘位于15%观察线两侧，因此单源曲线标注的15.05%不构成已确认跨档，正式提醒暂保留此前有效状态。",
+      "VOO Yahoo收盘673.97美元、StockAnalysis 673.90美元；BRK.B分别572.33与571.97美元。此处图表与收益统一采用Yahoo日线，不混用不同来源价格计算，不能标为收盘完全核同。",
+      "本地两张审计图保留真实近60交易日走势／逐日滚动回撤及行业当日表现；在线1／2／3年交互区间和固定MA50／200另按既有口径展示。滚动回撤仅使用当日及之前的52周盘中高点，不能把今天高点回填历史。"
+    ],
+    "sources": [
+      {
+        "title": "Yahoo Finance QQQM 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance VOO 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "Yahoo Finance BRK-B 本次采集日线（截至2026-11-05）",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis QQQM历史价格",
+        "url": "https://stockanalysis.com/etf/qqqm/history/"
+      },
+      {
+        "title": "StockAnalysis VOO历史价格",
+        "url": "https://stockanalysis.com/etf/voo/history/"
+      },
+      {
+        "title": "StockAnalysis BRK.B历史价格",
+        "url": "https://stockanalysis.com/stocks/brk.b/history/"
+      }
+    ]
+  }
+]

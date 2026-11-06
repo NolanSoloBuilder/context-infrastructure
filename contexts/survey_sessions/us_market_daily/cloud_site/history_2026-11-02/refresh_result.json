@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "phase": "done",
+  "job_id": "d8bcf555-97db-4aba-8de4-140856d8e192",
+  "started_at_utc": "2026-11-02T08:28:24.365Z",
+  "last_success_at_utc": "2026-11-02T08:28:31.213Z",
+  "completed": 17,
+  "total": 17,
+  "message": "行情与历史指标已更新；研究文字和发行人持仓保留各自披露日期。",
+  "regular_session": "2026-10-30",
+  "finished_at_utc": "2026-11-02T08:28:31.213Z",
+  "successful_history_symbols": 17,
+  "symbol_count": 17,
+  "errors": []
+}

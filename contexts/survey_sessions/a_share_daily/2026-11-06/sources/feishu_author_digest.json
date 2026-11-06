@@ -1,0 +1,48 @@
+{
+  "collected_at": "2026-11-06T09:00:57.929312+08:00",
+  "window_start": "2026-11-05T09:00:00+08:00",
+  "window_end": "2026-11-06T09:00:00+08:00",
+  "message_count": 30,
+  "candidate_count": 27,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b61fd787850a8cfde75592b2190c",
+      "source_time": "2026-11-05 22:30+08:00",
+      "sync_create_time": "1793889131643",
+      "content_sha256": "b2654a2ca0b4f075178eccbdd1676b99cd0e7f0ff875c9cf5b70c66b811e2273",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者倾向等估值底部再买；若采用定投，需要先设持续规则，避免只在高位投入、下跌时停掉。属于作者方法，不提供当前可验证的底部点位或适用于用户的定投金额。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61fd567ec0a0b05ce26822acfa9",
+      "source_time": "2026-11-05 22:23+08:00",
+      "sync_create_time": "1793888651470",
+      "content_sha256": "7a62a9e4c902d2ed814fcbc0b3965f747650e2fb09370db834580941ebd35515",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者建议参考牛转熊过程的反弹情景，观察创业板和科创50的MA60阻力；每笔交易预先设后续情景，不追求精准预测，没有通用的仓位答案。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61f3e7f944acdc01a5a2c7faa82",
+      "source_time": "2026-11-05 20:45+08:00",
+      "sync_create_time": "1793882771567",
+      "content_sha256": "cbd2915c6526cd196c11e49c7d14127448257c8df30a56b7ce26d03afadbb239",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者继续把上涨视为结构性反弹，科创50和创业板MA60是该情景的第一道阻力；上证指数不是其这轮结构性反弹的首要判断指标，不等于否定上证作为市场基准。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61f59a78ecb8de3f5556fcc6551",
+      "source_time": "2026-11-05 14:07+08:00",
+      "sync_create_time": "1793858891632",
+      "content_sha256": "926bb1d085a53419220c7217731b363f0220eb2c90b4cfc286d25526e6818ebd",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者在其周期框架下提出确认熊市底部后提高至满仓，随后按牛市阶段择机减仓。这是其条件性策略表述，不是当前仓位披露、当前底部证明或收益保证，也不是用户已批准的资金方案。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "过滤成员回复、营销、无关私人话题、无核验的极端点位确定性表述及重复卡片",
+  "coverage": "群同步作者观点，非原知识星球全文"
+}

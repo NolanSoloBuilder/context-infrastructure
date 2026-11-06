@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "report_date_bjt": "2026-11-03",
+  "collected_at_utc": "2026-11-02T23:34:16Z",
+  "url": "https://finews.fyi/",
+  "status": "success_but_stale",
+  "read_scope": "实际首页正文、行情日期、更新时间、事件与新闻摘要",
+  "latest_visible_trade_date": "2026-10-30",
+  "visible_updated_at_utc": "2026-10-30T22:10:49Z",
+  "new_verified_items": [],
+  "limitations": [
+    "最新可读首页不是11/2交易日，不复用其旧行情。",
+    "META展望、OKTA等此前已处理，不能当新消息重复。",
+    "页内11/6就业时间写北京时间22:30，与BLS 08:30 EST对应21:30不符，采用BLS。",
+    "聚合摘要不作为独立原始证据；本次无可纳入的最新增量。"
+  ],
+  "raw_path": "raw_sources/finews_home.raw"
+}

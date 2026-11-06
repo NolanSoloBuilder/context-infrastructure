@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "source_files": [
+    "/tmp/session-stored-current.json",
+    "/tmp/session-stored-followup.json"
+  ],
+  "original_derived_field_differences": 13381,
+  "material_digests": [
+    "01ac679b6578149b08e73a729075f005023f25d89962723ac9c5bc94ba8ea8f8",
+    "01ac679b6578149b08e73a729075f005023f25d89962723ac9c5bc94ba8ea8f8"
+  ],
+  "equivalent_at_display_precision": true,
+  "source_values_not_modified": true,
+  "targeted_history_tests": 14,
+  "total_tests": 58
+}

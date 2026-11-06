@@ -1,0 +1,21 @@
+{
+  "status": "weekend_brief_with_source_access_gaps",
+  "report_date_beijing": "2026-11-01",
+  "checked_at_utc": "2026-10-31T23:28:54.331908+00:00",
+  "latest_completed_regular_session": "2026-10-30",
+  "next_regular_session": "2026-11-02",
+  "next_regular_open_beijing": "2026-11-02T22:30:00+08:00",
+  "next_regular_close_beijing": "2026-11-03T05:00:00+08:00",
+  "nyse_source": "https://www.nyse.com/trade/hours-calendars",
+  "nist_source": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+  "session_probe_file": "raw/calendar_probe.json",
+  "new_regular_session": false,
+  "charts_generated": 0,
+  "alert_state_sha256": "27af91653026ab73454f923aeea81d2b2b74f1bd52c4ea619a498471b1439543",
+  "alert_state_unchanged": true,
+  "reddit_full_scan": false,
+  "reddit_reported_new_items": 0,
+  "finews_new_session": false,
+  "private_baseline_date": "2026-10-30",
+  "no_account_actions": true
+}

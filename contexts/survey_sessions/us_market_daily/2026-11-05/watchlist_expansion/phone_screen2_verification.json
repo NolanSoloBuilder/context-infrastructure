@@ -1,0 +1,108 @@
+{
+  "verified_at": "2026-11-05T03:28:11.582601+00:00",
+  "scope": "主任务从第二屏明确读出的AMZN与INTC；KWEB按用户排除中概主题不加入；已有DRAM/SMH/SOXX/MAGS/QQQM去重。",
+  "items": [
+    {
+      "symbol": "AMZN",
+      "display_name": "Amazon／电商、广告与AWS",
+      "official_name": "Amazon.com, Inc.",
+      "exchange": "Nasdaq Global Select Market",
+      "currency": "USD",
+      "security_type": "Common stock",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "requested": "AMZN",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:27:24.358101+00:00",
+        "symbol": "AMZN",
+        "shortName": "Amazon.com, Inc.",
+        "longName": "Amazon.com, Inc.",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 863703000,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 266.03,
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "business": "在线及实体零售、第三方商户服务、广告、订阅与AWS云计算；同时拥有AI基础设施和应用分发能力。",
+      "sources": [
+        {
+          "title": "Amazon官方2026Q3财报",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+          "asof": "2026-10-29",
+          "read_scope": "已打开官方正文；ticker/市场、业务及经营分部"
+        }
+      ],
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 266.03,
+      "regular_change_pct": 6.1191,
+      "quote_note": "11/4常规历史新采集，Yahoo单源，不将截图作为独立日期报价核验。"
+    },
+    {
+      "symbol": "INTC",
+      "display_name": "Intel／CPU与晶圆制造",
+      "official_name": "Intel Corporation",
+      "exchange": "Nasdaq Global Select Market",
+      "currency": "USD",
+      "security_type": "Common stock",
+      "identity_status": "verified_primary_and_yahoo_meta",
+      "yahoo_meta_match": true,
+      "yahoo_meta": {
+        "requested": "INTC",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=5y&interval=1d",
+        "captured_at": "2026-11-05T03:27:24.629981+00:00",
+        "symbol": "INTC",
+        "shortName": "Intel Corporation",
+        "longName": "Intel Corporation",
+        "instrumentType": "EQUITY",
+        "currency": "USD",
+        "exchangeName": "NMS",
+        "fullExchangeName": "NasdaqGS",
+        "firstTradeDate": 322151400,
+        "regularMarketTime": 1793826001,
+        "regularMarketPrice": 58.27,
+        "first_bar_unix": 1636119000,
+        "last_bar_unix": 1793802600,
+        "bar_count": 1254
+      },
+      "business": "设计和销售CPU及相关半导体产品；Intel Foundry提供制程、制造、封装测试与设计支持，目前仍以内部Intel产品制造为主。",
+      "sources": [
+        {
+          "title": "Intel 2026Q3 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+          "asof": "2026-10-30",
+          "read_scope": "已打开官方正文；ticker/市场、业务及经营分部"
+        },
+        {
+          "title": "Intel Q3财报SEC附录",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",
+          "asof": "2026-10-29",
+          "read_scope": "官方财报与GAAP口径"
+        }
+      ],
+      "historical_first_date": "2021-11-05",
+      "historical_last_date": "2026-11-04",
+      "historical_bar_count": 1254,
+      "regular_close_usd": 58.27,
+      "regular_change_pct": -3.7655,
+      "quote_note": "11/4常规历史新采集，Yahoo单源，不将截图作为独立日期报价核验。"
+    }
+  ],
+  "excluded": [
+    "KWEB"
+  ],
+  "already_present": [
+    "DRAM",
+    "SMH",
+    "SOXX",
+    "MAGS",
+    "QQQM"
+  ]
+}

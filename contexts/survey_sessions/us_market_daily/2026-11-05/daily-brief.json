@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-05",
+  "market_session": "2026-11-04",
+  "reviewed_at": "2026-11-04T23:38:43.978893+00:00",
+  "summary": "⏳继续观察，暂不加快科技主题追加。标普与纳指上涨，但半导体、工业走弱；Cognex现金流改善仍需消化收购与估值。⚠️常规收盘存在跨源差异，三项提醒保留11/3最后有效状态，本次不确认新触发。",
+  "items": [
+    {
+      "title": "Cognex：盈利改善，盘后下跌仍不等于便宜",
+      "fact": "11/4美东16:30发布Q3：收入3.134亿美元、同比约+13%，GAAP EPS 0.50美元，调整EPS 0.53美元；自由现金流1.038亿美元。全年调整EPS指引上调至1.68–1.72美元。",
+      "implication": "收入增长扣除上年一次性医疗实验室自动化渠道事项后约+19%，不等于人形机器人收入增长。9/22宣布的约5亿美元RealSense现金收购预计Q4完成，尚未确认交割；10/4账上8.46亿美元现金及投资不能全部当永久安全垫。",
+      "judgment": "研究候选，暂缓确认低估。以Yahoo常规53.06美元／指引中点1.70计约31.21倍预期调整盈利；盘后约50美元仍约29.41倍。需把收购、留任付款和股份稀释纳入利润与回款模型。",
+      "counter": "毛利与运营效率改善、RealSense需求兑现可能支撑增长；目前缺收购后完整盈利和正常化资本回报，简单P/E不能证明高估或低估。GAAP EPS同比跳增也受上年高税率影响。",
+      "next": "📅11/5美东08:30电话会（北京21:30）。盘后Yahoo 49.99美元，11/4 18:28:14 EST（北京11/5 07:28:14），较同源常规-5.79%；第二源50.00，17:59 EST、较其常规53.09跌5.81%。时点不同，盘后未结束，Yahoo零量柱仅参考，不保证次日开盘幅度。",
+      "sources": [
+        {
+          "title": "公司Q3完整公告与现金流表",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        },
+        {
+          "title": "公司9/22 RealSense交易条款",
+          "url": "https://investor.cognex.com/news/news-details/2026/Cognex-to-Acquire-RealSense-Expanding-Machine-Vision-Leadership-into-High-Growth-Robotic-Perception-Market/default.aspx"
+        },
+        {
+          "title": "CGNX带时点的第二行情",
+          "url": "https://stockanalysis.com/stocks/cgnx/history/"
+        }
+      ]
+    },
+    {
+      "title": "Google：价格对应怎样的增长要求",
+      "fact": "11/4公司研究GOOGL常规Yahoo 288.93美元、+3.18%；第二源289.02。GOOG C类为287.30／287.41美元，分开报价。已取得的Q3 10-Q继续作为模型基线；本次SEC近期列表403，不能推断没有新申报。",
+      "implication": "本次推进反向DCF：沿10/30已核资本桥与基准经营假设，令模型值等于288.93美元，需要前五年收入年复合增长约25.22%。这是价格隐含的条件，不是已验证增长预测，也不是当前完整合理价。",
+      "judgment": "暂缓恢复旧研究买价。增长、云利润率与AI投入回收必须一起验证；营运资金占新增收入比例从2%升至5%／10%时，所需增长约25.42%／25.77%，仍须另建TPU库存、应收与付款模型。",
+      "counter": "更高利润率、更低资本成本或更快投资回收可以支持现价；反向模型对这些假设敏感。软件式低营运资金比例可能低估硬件扩张压力，不能靠该敏感性确认风险有限。",
+      "next": "核60亿欧元债券拟11/5交割的后续文件、TPU交付回款与2027投入。当前仍是美东11/4晚间，不宣称融资已到账；GOOGL与ETF已有公司敞口的叠加需合并看集中度，未核实时权重。",
+      "sources": [
+        {
+          "title": "已核Q3 10-Q；本次原址访问受限",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+        },
+        {
+          "title": "此前已核融资定价文件",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526443857/d134038dfwp.htm"
+        },
+        {
+          "title": "GOOGL第二行情",
+          "url": "https://stockanalysis.com/stocks/googl/history/"
+        },
+        {
+          "title": "GOOG第二行情",
+          "url": "https://stockanalysis.com/stocks/goog/history/"
+        }
+      ]
+    },
+    {
+      "title": "QQQM反弹，半导体仍弱；提醒数据待定",
+      "fact": "11/4统一Yahoo日线：标普500+1.58%，纳斯达克综合+1.44%，纳斯达克100+0.91%；QQQM 284.92美元、+0.95%。11行业8涨3跌，SMH另跌2.75%，SOXX跌3.14%。",
+      "implication": "QQQM仍低于MA50约4.37%，高于MA200约1.68%，当日量约前20日均量1.51倍（单源）。大盘上涨与芯片下跌并存，广度改善尚不能证明科技链同步修复。",
+      "judgment": "后续按时间分批可继续研究，等待11/6就业结果，暂不加快或叠加多个科技ETF。QQQM统一口径参考回撤9.29%，尚不在13%接近区；因收盘源差异，本次不推进正式提醒状态。",
+      "counter": "若盈利、回款和广度持续改善，等待会有机会成本；均线不保证支撑，15%／25%观察条件也不是保证买点。",
+      "next": "⚠️先核收盘定义：QQQM Yahoo284.92／第二源284.84，VOO704.78／704.74，BRK.B579.09／579.92美元。差异原因未定，保留三项11/3最后有效记录；盘后报价不更新收盘提醒。",
+      "sources": [
+        {
+          "title": "QQQM第二行情",
+          "url": "https://stockanalysis.com/etf/qqqm/history/"
+        },
+        {
+          "title": "统一历史日线",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d"
+        },
+        {
+          "title": "VOO第二行情",
+          "url": "https://stockanalysis.com/etf/voo/history/"
+        },
+        {
+          "title": "BRK.B第二行情",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Cognex：估值敏感性、税项与收购资金",
+      "paragraphs": [
+        "Q3税前利润1.033亿美元，税费1847万美元，税率约17.88%；上年税前6286万美元、税费4520万美元，约71.90%。GAAP EPS由0.10至0.50不能直接外推为正常化增长；调整EPS亦非GAAP或TTM。Q3经营现金流1.064亿美元减资本开支264万美元得到FCF约1.038亿美元，前三季度约2.137亿美元。",
+        "四年持有期敏感性，均以管理层全年调整EPS中点1.70起步、忽略分红，按10%要求回报折现：研究增长8%／终值20倍约31.59美元，12%／25倍约45.68，18%／30倍约67.53。增长与倍数均为研究假设，并非公司展望或入场价，未完整计入收购协同、留任与稀释；不能因此认定现价低估。",
+        "RealSense 2026预计收入8000万–9000万美元、增长超过50%属于管理层展望。交易另含3年目标现金留任5650万美元及约5000万美元RSU，不能只看5亿美元购买价。8.46亿减5亿约3.46亿美元只是忽略费用、其他变动的机械现金差；收购取得业务价值，不能当作无偿损失或再从P/E价值重复扣现金。"
+      ],
+      "sources": [
+        {
+          "title": "完整Q3财务与调整桥",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        },
+        {
+          "title": "9/22交易原文",
+          "url": "https://investor.cognex.com/news/news-details/2026/Cognex-to-Acquire-RealSense-Expanding-Machine-Vision-Leadership-into-High-Growth-Robotic-Perception-Market/default.aspx"
+        }
+      ]
+    },
+    {
+      "title": "Google：反向DCF假设与尚未完成的核验",
+      "paragraphs": [
+        "基线事实截至9/30：TTM收入4711.01亿美元、EBIT1569.76亿美元；普通股122.94亿股。资本桥含非股权现金债券1747.14亿美元、上市投资903.84亿美元、私募投资1352.30亿美元；有息债务1261.18亿美元、融资租赁37.05亿美元、优先权益192.50亿美元及少数权益代理69亿美元。沿10/30模型保留，不冒充11/4重新核定资产负债。",
+        "其余固定：前5年后增速9%渐降至终值3%，成熟EBIT率36%、税21%、WACC10%、终值ROIC15%；资本开支/收入前5年44%、45%、38%、32%、27%，随后23.5%、21%、19%、18%，末年与终值再投资衔接；折旧比前3年8%、10%、12%，此后12%。经营现金保留300亿美元，上市投资保留70%、私募50%。",
+        "本次只反推前5年增长，未把拟交割融资无依据加入现金、亦未把原旧情景价恢复为有效入场线。已核财报不等于完整重估已完成。需要单独核TPU营运资金和融资后的资本桥，不能无限沿用旧倍数或用距高点跌幅代替安全边际。"
+      ],
+      "sources": [
+        {
+          "title": "模型原始财报",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+        }
+      ]
+    },
+    {
+      "title": "行业：统一日／周／月与相对标普",
+      "paragraphs": [
+        "科技 XLK：日-0.01%／5交易日-7.59%／21交易日-12.62%；月相对标普-10.96个百分点。",
+        "通信服务 XLC：日+3.47%／5交易日+1.76%／21交易日-5.99%；月相对标普-4.33个百分点。",
+        "可选消费 XLY：日+4.26%／5交易日+6.07%／21交易日+9.50%；月相对标普+11.16个百分点。",
+        "必需消费 XLP：日+3.36%／5交易日+5.87%／21交易日+12.40%；月相对标普+14.06个百分点。",
+        "医疗 XLV：日+3.06%／5交易日+5.53%／21交易日+13.51%；月相对标普+15.17个百分点。",
+        "金融 XLF：日+3.51%／5交易日+5.47%／21交易日+9.61%；月相对标普+11.28个百分点。",
+        "工业 XLI：日-1.09%／5交易日+0.58%／21交易日-1.24%；月相对标普+0.43个百分点。",
+        "能源 XLE：日-4.74%／5交易日-7.20%／21交易日-0.36%；月相对标普+1.31个百分点。",
+        "公用事业 XLU：日+0.44%／5交易日+2.64%／21交易日+5.95%；月相对标普+7.62个百分点。",
+        "原材料 XLB：日+2.49%／5交易日+3.93%／21交易日+8.39%；月相对标普+10.05个百分点。",
+        "房地产 XLRE：日+3.32%／5交易日+7.10%／21交易日+9.78%；月相对标普+11.45个百分点。",
+        "半导体 SMH：日-2.75%／5交易日-11.17%／21交易日-20.27%；月相对标普-18.61个百分点。",
+        "优先观察通信服务的盈利兑现、半导体的库存回款和医疗的现金消耗。XLC+3.47%与SMH-2.75%显示AI链内部差异；XLV+3.06%不能直接证明AI医疗已商业化。行业价格不代表资金净流入，单日领涨不构成买点。"
+      ],
+      "sources": [
+        {
+          "title": "统一Yahoo日线口径",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=2y&interval=1d"
+        }
+      ]
+    },
+    {
+      "title": "宏观、交易日与未来一周事件",
+      "paragraphs": [
+        "NYSE日历核11/4及下一11/5为常规交易日。冬令时常规09:30–16:00 EST，对应北京22:30–次日05:00；下一盘前11/5尚未开始。11/4盘后至20:00 EST仍在进行，不含20:00–04:00券商夜盘。",
+        "美国财政部11/4参考曲线2年4.58%、10年4.90%，较11/3分别-3／-5基点；VIX Yahoo16.61、-20.26%为单源日线。利率回落可以缓解估值压力，但不能单凭一天确定利率路径。",
+        "11/4实际发布10月ISM服务业PMI54.5，9月54.9；就业51.4、价格73.0。解释：服务业仍扩张且成本压力未消失，不把分项当作CPI。",
+        "📅11/5 08:30 EST（北京21:30）Q3生产率初值及Cognex电话会；11/6 Moderna电话会08:00 EST（北京21:00），就业数据08:30（21:30）；CPI为11/10 08:30（21:30）。本次未取得更完整的下周科技财报官方排期，未补猜日期。"
+      ],
+      "sources": [
+        {
+          "title": "NYSE交易与休市时段",
+          "url": "https://www.nyse.com/trade/hours-calendars"
+        },
+        {
+          "title": "财政部2026收益率曲线",
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+        },
+        {
+          "title": "ISM 2026年10月服务业原文",
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/october/"
+        },
+        {
+          "title": "BLS更新日历",
+          "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+        },
+        {
+          "title": "Moderna官方事件页",
+          "url": "https://investors.modernatx.com/events-presentations"
+        },
+        {
+          "title": "Cognex电话会安排",
+          "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+        }
+      ]
+    },
+    {
+      "title": "SOXX拆股与其他公司更新",
+      "paragraphs": [
+        "iShares公告：SOXX拆股11/3登记、11/4收盘后生效，11/5起按拆股后基准交易。本次已读页面未列比例，不能猜测。今日11/4常规历史仍按同一旧股单位比较；下一刷新须统一拆股后的价格、历史和均线，机械价格下调不是亏损。",
+        "Moderna常规Yahoo258.38美元、+13.11%；第二源258.48、+13.15%，价格差异保留。临近11/6业绩与现金消耗核查，尚未核实当天涨幅的原始事件原因，不以AI医疗叙事或上涨确认低估。8/19历史异常跳涨仍主导长区间收益/波动，原因核验未完成，不能当预期收益。",
+        "SOFI本次近期申报列表403，未核定是否有新10-Q；继续按银行口径核存款成本、信用、资本、GAAP与调整盈利及稀释，不把存款视为工业公司净现金。RRX拟售AMS仍待范围与对价，原买价暂停。BRK.B高点两源均580.65美元，但常规收盘差0.83，且本次SEC列表失败，不能凭上涨补造新回购或投资披露。",
+        "SGOV未新增官方SEC收益率核验，保持原披露日期；日价格变化不等于含分红总回报。DRAM历史不足一年/200交易日，不补造MA200或完整52周指标。"
+      ],
+      "sources": [
+        {
+          "title": "iShares SOXX拆股公告页",
+          "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf?qt=SOXX"
+        },
+        {
+          "title": "MRNA第二行情",
+          "url": "https://stockanalysis.com/stocks/mrna/history/"
+        },
+        {
+          "title": "Moderna事件页",
+          "url": "https://investors.modernatx.com/events-presentations"
+        },
+        {
+          "title": "SoFi IR",
+          "url": "https://investors.sofi.com/financials/quarterly-results/default.aspx"
+        },
+        {
+          "title": "RRX Q3原文",
+          "url": "https://www.prnewswire.com/news-releases/regal-rexnord-reports-third-quarter-2026-financial-results-302927042.html"
+        }
+      ]
+    },
+    {
+      "title": "Reddit／FiNews：实际读取范围与缺口",
+      "paragraphs": [
+        "实际尝试六社区New／Top及RSS。RSS全为403/429，公开页面部分为旧缓存。打开r/investing题为11/4的日讨论原帖，读到正文，但只有相对发布时间、未取得可读实质评论；不推算北京时间，不称已完成24小时多空共识核验。",
+        "本次没有足够日期及原始证据可列为新增精选，不等于社区没有新信息；未将泛泛日讨论或旧帖子重复记为已报道。FiNews最新可读页为11/3，更新2026-11-03 23:12:49 UTC，尚未取得11/4版本；聚合摘要只作线索，未作为新的财务事实。"
+      ],
+      "sources": [
+        {
+          "title": "实际打开的11/4日讨论",
+          "url": "https://www.reddit.com/r/investing/comments/1xnjh9b/daily_general_discussion_and_advice_thread/"
+        },
+        {
+          "title": "FiNews实际最新可读页",
+          "url": "https://finews.fyi/"
+        }
+      ]
+    },
+    {
+      "title": "三项提醒与全部报价差异、口径缺口",
+      "paragraphs": [
+        "以下行情、指标及两张本地留证图统一取11/4 Yahoo常规序列；来源差异尚未解决，不声称收盘交叉一致。滚动高点按当日及此前364日可见盘中高点，均线用拆股调整收盘、含分红收益另计。已完成33项日线均线复算及180个历史回撤点无未来数据核验。",
+        "QQQM参考：收284.92美元，高314.11（2026-10-06），回撤9.29%；15%／25%观察价266.99／235.58美元。距15%差5.71个百分点，从现价到15%目标价需变动-6.29%。这是待核参考，正式提醒保留11/3。",
+        "VOO参考：收704.78美元，高718.47（2026-10-06），回撤1.91%；15%／25%观察价610.70／538.85美元。距15%差13.09个百分点，从现价到15%目标价需变动-13.35%。这是待核参考，正式提醒保留11/3。",
+        "BRK-B参考：收579.09美元，高580.65（2026-11-04），回撤0.27%；15%／25%观察价493.55／435.49美元。距15%差14.73个百分点，从现价到15%目标价需变动-14.77%。这是待核参考，正式提醒保留11/3。",
+        "GOOG 11/4常规美元：Yahoo 287.30／StockAnalysis 287.41，前者减后者-0.11；读取范围为带日期历史行。",
+        "SOFI 11/4常规美元：Yahoo 17.38／StockAnalysis 17.38，前者减后者+0.00；读取范围为带日期历史行。",
+        "NVDA 11/4常规美元：Yahoo 200.13／StockAnalysis 200.24，前者减后者-0.11；读取范围为带日期历史行。",
+        "SMH 11/4常规美元：Yahoo 504.27／StockAnalysis 504.30，前者减后者-0.03；读取范围为带日期历史行。",
+        "SOXX 11/4常规美元：Yahoo 450.41／StockAnalysis 451.06，前者减后者-0.65；读取范围为带日期历史行。",
+        "VGT 11/4常规美元：Yahoo 115.55／StockAnalysis 115.57，前者减后者-0.02；读取范围为带日期历史行。",
+        "DRAM 11/4常规美元：Yahoo 45.11／StockAnalysis 45.13，前者减后者-0.02；读取范围为带日期历史行。",
+        "SPMO 11/4常规美元：Yahoo 132.03／StockAnalysis 132.00，前者减后者+0.03；读取范围为带日期历史行。",
+        "MAGS 11/4常规美元：Yahoo 70.28／StockAnalysis 70.31，前者减后者-0.03；读取范围为带日期历史行。",
+        "SGOV 11/4常规美元：Yahoo 100.45／StockAnalysis 100.45，前者减后者+0.00；读取范围为带日期历史行。",
+        "MRNA 11/4常规美元：Yahoo 258.38／StockAnalysis 258.48，前者减后者-0.10；读取范围为带日期历史行。",
+        "RRX 11/4常规美元：Yahoo 173.38／StockAnalysis 173.48，前者减后者-0.10；读取范围为带日期历史行。",
+        "ATS 11/4常规美元：Yahoo 17.57／StockAnalysis 17.60，前者减后者-0.03；读取范围为带日期历史行。",
+        "CGNX 11/4常规美元：Yahoo 53.06／StockAnalysis 53.09，前者减后者-0.03；读取范围为带日期历史行。",
+        "QQQM 11/4常规美元：Yahoo 284.92／StockAnalysis 284.84，前者减后者+0.08；读取范围为带日期历史行。",
+        "GOOGL 11/4常规美元：Yahoo 288.93／StockAnalysis 289.02，前者减后者-0.09；读取范围为带日期报价页头。",
+        "VOO 11/4常规美元：Yahoo 704.78／StockAnalysis 704.74，前者减后者+0.04；读取范围为带日期历史行。",
+        "BRK-B 11/4常规美元：Yahoo 579.09／StockAnalysis 579.92，前者减后者-0.83；读取范围为带日期历史行。",
+        "18项扩展时段采集2026-11-04 23:28:21 UTC＝北京11/5 07:28:21＝美东11/4 18:28:21 EST；此时盘后未结束。Yahoo分钟柱零成交量仅延续参考，第二源不同时间并列；下一11/5盘前尚未开始，不把昨日盘前当今天。",
+        "官方行情未成功提供可比收盘；两第三方可能共享上游。日期明确仍不代表同一成交定义；本次不强行解释差异。自动行情仍是Yahoo单源，价格刷新不等于再次跨源核验。"
+      ],
+      "sources": [
+        {
+          "title": "统一Yahoo报价",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d"
+        },
+        {
+          "title": "第二来源QQQM",
+          "url": "https://stockanalysis.com/etf/qqqm/history/"
+        },
+        {
+          "title": "第二来源BRK.B",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "cgnx_release",
+    "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html",
+    "captured_at_utc": "2026-11-04T23:30:00.333031+00:00",
+    "status": "read",
+    "file": "raw_sources/cgnx_release.html",
+    "sha256": "083b3cc87ed047251bf09a4aba0c6e43db027e1e93f88d190d496f6a7a43ab78"
+  },
+  {
+    "id": "cgnx_quarterly",
+    "url": "https://investor.cognex.com/financials/quarterly-results/",
+    "captured_at_utc": "2026-11-04T23:30:00.334449+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://investor.cognex.com/financials/quarterly-results/']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "goog_recent",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "captured_at_utc": "2026-11-04T23:30:00.334707+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://data.sec.gov/submissions/CIK0001652044.json']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "sofi_recent",
+    "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+    "captured_at_utc": "2026-11-04T23:30:00.337919+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://data.sec.gov/submissions/CIK0001818874.json']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "brk_recent",
+    "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+    "captured_at_utc": "2026-11-04T23:30:00.960030+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://data.sec.gov/submissions/CIK0001067983.json']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "finews",
+    "url": "https://finews.fyi/",
+    "captured_at_utc": "2026-11-04T23:30:01.043322+00:00",
+    "status": "read",
+    "file": "raw_sources/finews.html",
+    "sha256": "cf3e8fd6ec50eb029bf8e7adeee2ac363f491d057b85985bb6945a308cb0c5df"
+  },
+  {
+    "id": "goog_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "captured_at_utc": "2026-11-04T23:30:01.063851+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "reddit_investing",
+    "url": "https://www.reddit.com/r/investing/new/.rss",
+    "captured_at_utc": "2026-11-04T23:30:01.259314+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/investing/new/.rss']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 429\n"
+  },
+  {
+    "id": "reddit_stocks",
+    "url": "https://www.reddit.com/r/stocks/new/.rss",
+    "captured_at_utc": "2026-11-04T23:30:01.321588+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/stocks/new/.rss']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "reddit_SecurityAnalysis",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+    "captured_at_utc": "2026-11-04T23:30:01.848315+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/SecurityAnalysis/new/.rss']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 429\n"
+  },
+  {
+    "id": "reddit_ValueInvesting",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+    "captured_at_utc": "2026-11-04T23:30:01.891634+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/ValueInvesting/new/.rss']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 429\n"
+  },
+  {
+    "id": "reddit_Bogleheads",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+    "captured_at_utc": "2026-11-04T23:30:01.913567+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/Bogleheads/new/.rss']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 429\n"
+  },
+  {
+    "id": "reddit_ETFs",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss",
+    "captured_at_utc": "2026-11-04T23:30:02.329986+00:00",
+    "status": "failed",
+    "error": "Command '['curl', '--fail', '--silent', '--show-error', '--max-time', '18', 'https://www.reddit.com/r/ETFs/new/.rss']' returned non-zero exit status 56.",
+    "detail": "curl: (56) The requested URL returned error: 429\n"
+  }
+]

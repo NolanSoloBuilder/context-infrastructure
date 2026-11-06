@@ -57,22 +57,40 @@
   },
   "robotics": {
     "RRX": {
-      "base": 165.07,
-      "entry_usd": [
-        130,
-        140
-      ],
-      "conditions": "去退税、恢复SBC、检查去杠杆和现金转化",
-      "latest_review": "2026-10-29/robotics_update.md",
-      "new_findings": "9.71 reference EPS still adds back3.92/share acquisition amortization;17x value148.41/131.75 if25%/50% restored, assumptions not validated. RRX current close cross-source has gaps; no entry alert."
+      "base": null,
+      "entry_usd": [],
+      "conditions": "新Q3调整桥及AMS拟售范围改变旧模型；完成剩余业务、摊销经济成本及现金转化估值后才设置新研究价。",
+      "latest_review": "2026-11-04/source_notes.md",
+      "new_findings": "2026调整EPS中点10.75，扣退款0.58及SBC加回0.32后研究分母9.85；收盘179.93对应18.27倍。非GAAP、非TTM，仍有摊销等加回；AMS拟售未成交。旧130–140研究价及165.07基准暂停，不能视为当前买价。",
+      "previous_2026_10_29": {
+        "base": 165.07,
+        "entry_usd": [
+          130,
+          140
+        ],
+        "conditions": "去退税、恢复SBC、检查去杠杆和现金转化",
+        "latest_review": "2026-10-29/robotics_update.md",
+        "new_findings": "9.71 reference EPS still adds back3.92/share acquisition amortization;17x value148.41/131.75 if25%/50% restored, assumptions not validated. RRX current close cross-source has gaps; no entry alert."
+      },
+      "status": "paused_pending_Q3_and_AMS_remaining_business_valuation",
+      "updated_report_date": "2026-11-04",
+      "source_url": "https://www.prnewswire.com/news-releases/regal-rexnord-reports-third-quarter-2026-financial-results-302927042.html"
     },
     "CGNX": {
-      "base": 46.39609576066672,
-      "entry_usd": [
-        39,
-        40
-      ],
-      "conditions": "RealSense现金支出/留任/稀释受控，增长兑现"
+      "base": null,
+      "entry_usd": [],
+      "conditions": "Q3新指引与RealSense留任、现金交割和稀释纳入完整模型后再恢复入场线；本次敏感性不是买价",
+      "previous_pre_Q3_review": {
+        "base": 46.39609576066672,
+        "entry_usd": [
+          39,
+          40
+        ],
+        "conditions": "RealSense现金支出/留任/稀释受控，增长兑现"
+      },
+      "status": "paused_after_Q3_pending_acquisition_cash_dilution_and_normalized_earnings",
+      "latest_review": "2026-11-05",
+      "sensitivity_file": "2026-11-05/cgnx_valuation_sensitivity.json"
     },
     "ATS": {
       "base": 20.970907102621357,

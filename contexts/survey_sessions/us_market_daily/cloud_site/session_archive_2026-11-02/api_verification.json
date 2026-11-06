@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "actual_completed_us_session": "2026-10-30",
+  "dates": [
+    "2026-10-30"
+  ],
+  "entries_after_refresh": 1,
+  "old_beijing_dates_hidden": true,
+  "old_beijing_link_canonical_session": "2026-10-30",
+  "history_date_select_only": true,
+  "refresh_http": 202,
+  "refresh_status": "complete",
+  "capture_before": "2026-11-02T08:49:57.589Z",
+  "capture_after": "2026-11-02T08:51:43.664Z",
+  "unchanged_capture_skipped_write": false,
+  "tests_passed": 55
+}

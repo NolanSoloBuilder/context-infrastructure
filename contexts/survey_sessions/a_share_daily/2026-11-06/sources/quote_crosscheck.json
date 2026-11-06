@@ -1,0 +1,65 @@
+{
+  "asof": "2026-11-05",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3689.91,
+      "quote_time": "20261105161400",
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "close": 2811.16,
+      "quote_time": "20261105161400",
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4113.41,
+      "quote_time": "20261105161412",
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1286.68,
+      "quote_time": "20261105161412",
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "close": 2.93,
+      "quote_time": "20261105161454",
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "close": 4.195,
+      "quote_time": "20261105161455",
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "close": 1.358,
+      "quote_time": "20261105161454",
+      "consistent": true
+    }
+  ],
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3689.91,
+      "daily_pct": 0.1
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4113.41,
+      "daily_pct": 0.29
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1286.68,
+      "daily_pct": 1.68
+    }
+  ],
+  "note": "腾讯点价与日线为同提供方；FiNews引用东方财富为跨站比较"
+}
