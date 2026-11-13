@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-09",
+  "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+  "market_session": "2026-11-06",
+  "next_session": "2026-11-09",
+  "scope": "Only SGOV yield and public official event-calendar recheck; no full market recollection, private accounts, site or alert mutations.",
+  "calendar_window_et": [
+    "2026-11-09",
+    "2026-11-15"
+  ],
+  "timezone": "America/New_York",
+  "beijing_offset_hours": 13,
+  "sgov": {
+    "sec_30day_yield_pct": 3.83,
+    "asof": "2026-11-05",
+    "trailing_12m_yield_pct": 3.63,
+    "expense_ratio_pct": 0.09,
+    "source": "sgov",
+    "previous_valid_record": "2026-11-07/macro_sources.json",
+    "previous_reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+    "previous_sec_30day_yield_pct": 3.83,
+    "previous_asof": "2026-11-05",
+    "yield_change_bp": 0.0,
+    "asof_advanced": false,
+    "previous_review_age_days": 1.9931094784837964,
+    "previous_check_within_7_days": true,
+    "change_classification": "rechecked_identical_value_and_data_date",
+    "interpretation": "SEC标准化30日收益率，非保证收益、12个月派息率或总回报；NAV11/6不能替换收益率11/5日期。"
+  },
+  "events": [
+    {
+      "id": "cpi_oct",
+      "title": "美国10月CPI",
+      "time_et": "2026-11-10T08:30:00-05:00",
+      "time_beijing": "2026-11-10T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "change_classification": "rechecked_unchanged",
+      "kind": "macro",
+      "sources": [
+        "cpi",
+        "bls_nov"
+      ]
+    },
+    {
+      "id": "real_earnings_oct",
+      "title": "美国10月实际收入",
+      "time_et": "2026-11-10T08:30:00-05:00",
+      "time_beijing": "2026-11-10T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "change_classification": "existing_published_schedule_first_added_to_this_check",
+      "kind": "macro",
+      "sources": [
+        "bls_nov"
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "初请失业金",
+      "time_et": "2026-11-12T08:30:00-05:00",
+      "time_beijing": "2026-11-12T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "change_classification": "rechecked_unchanged",
+      "kind": "macro",
+      "sources": [
+        "claims"
+      ],
+      "note": "由DOL已公布周四时刻及休假例外表确定；无本周改期。"
+    },
+    {
+      "id": "mrna_analyst",
+      "title": "Moderna分析师日（非季度财报）",
+      "time_et": "2026-11-12T09:00:00-05:00",
+      "time_beijing": "2026-11-12T22:00:00+08:00",
+      "status": "date_confirmed_exact_time_official_index_only",
+      "change_classification": "rechecked_unchanged",
+      "kind": "company",
+      "sources": [
+        "mrna_sec",
+        "mrna_events",
+        "mrna_days"
+      ],
+      "note": "日期由SEC11/6原始公告确认；09:00EST仅官方搜索索引可读，直接动态事件内容缺失。"
+    },
+    {
+      "id": "csco_call",
+      "title": "Cisco FY27Q1业绩电话会",
+      "time_et": "2026-11-12T16:30:00-05:00",
+      "time_beijing": "2026-11-13T05:30:00+08:00",
+      "status": "scheduled_not_released",
+      "change_classification": "rechecked_unchanged",
+      "kind": "related_technology",
+      "sources": [
+        "csco"
+      ],
+      "note": "业绩公告为同日常规收盘后，不能把电话会16:30当作公告精确时刻；CSCO作为相关科技行业事件。"
+    },
+    {
+      "id": "amat_call",
+      "title": "AMAT FY26Q4/全年业绩电话会",
+      "time_et": "2026-11-12T16:30:00-05:00",
+      "time_beijing": "2026-11-13T05:30:00+08:00",
+      "status": "scheduled_not_released",
+      "change_classification": "rechecked_unchanged",
+      "kind": "related_semiconductor",
+      "sources": [
+        "amat",
+        "amat_event"
+      ],
+      "note": "电话会时刻已核；AMAT作为SMH/SOXX相关行业公司，本条不声称实时基金权重。"
+    },
+    {
+      "id": "ppi_oct",
+      "title": "美国10月PPI",
+      "time_et": "2026-11-13T08:30:00-05:00",
+      "time_beijing": "2026-11-13T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "change_classification": "rechecked_unchanged",
+      "kind": "macro",
+      "sources": [
+        "bls_nov"
+      ]
+    }
+  ],
+  "outside_window": [
+    {
+      "id": "fomc_next",
+      "dates_et": [
+        "2026-12-08",
+        "2026-12-09"
+      ],
+      "no_scheduled_meeting_in_window": true,
+      "source": "fomc"
+    },
+    {
+      "id": "jobs_next",
+      "date_et": "2026-12-04",
+      "time_et": "08:30 EST",
+      "time_beijing": "21:30",
+      "reference_month": "2026-11",
+      "no_monthly_release_in_window": true,
+      "source": "jobs"
+    },
+    {
+      "id": "glob_q3",
+      "release_date_et": "2026-11-19",
+      "release_session": "after_regular_close",
+      "call_time_et": "16:30 EST",
+      "call_time_beijing": "2026-11-20 05:30",
+      "source": "glob",
+      "change_classification": "existing_11_5_announcement_not_weekend_new"
+    }
+  ],
+  "already_released_dates": {
+    "Moderna_Q3": "2026-11-06",
+    "EPAM_Q3": "2026-11-05",
+    "Tempus_Q3": "2026-11-02",
+    "Berkshire_Q3": "2026-11-07"
+  },
+  "comparison": {
+    "baseline": "2026-11-07/macro_sources.json; 2026-11-08 daily brief calendar already had11/10CPI",
+    "material_new_change_found": false,
+    "weekend_republish_warranted_by_this_scope": false,
+    "reason": "SGOV收益率数值和日期完全相同；CPI/FOMC/就业及已排CSCO/AMAT/MRNA时刻没有核实到变动。新增读到的GLOB11/19来自11/5既有公告、且在本周窗口外。研究覆盖和时间缺口如实留档，不以重新读取当新事实。"
+  },
+  "coverage_gaps": [
+    "This is a targeted high-impact calendar check, not proof of zero events for all43watchlist items.",
+    "MRNA exact09:00EST time only official-domain indexed content; date independently confirmed SEC.",
+    "NVDA dynamic events not populated; no newly verified exact call date/time entered.",
+    "CSCO andAMAT calltime is not identical to exactpressrelease timestamp."
+  ],
+  "sources": [
+    {
+      "id": "sgov",
+      "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+      "read_scope": "Headline and Portfolio Characteristics dated yield; prospectus fee line",
+      "findings": "30-day SEC yield 3.83% and 12m trailing yield 3.63%, both as of 2026-11-05; expense ratio 0.09%. NAV date11/6 does not change yield as-of date.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-11-05",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "cpi",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "read_scope": "October2026 reference-month release row",
+      "findings": "November10 2026 08:30 Eastern; not yet released.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "official_page_opened"
+    },
+    {
+      "id": "bls_nov",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "read_scope": "November9–15 cells and last-modified footer",
+      "findings": "CPI and Real Earnings11/10 08:30ET; PPI11/13 08:30ET; VeteransDay11/11 government holiday. Lastmodified11/3.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-11-03",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "fomc",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "read_scope": "2026 meeting entries",
+      "findings": "No scheduled meeting11/9–15; nextDecember8–9; priorOctober27–28.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "official_page_opened"
+    },
+    {
+      "id": "jobs",
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "read_scope": "October and November2026 release rows",
+      "findings": "October employment11/6 already elapsed; nextNovember employment12/4 08:30ET; no monthly payroll release11/9–15.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "official_page_opened"
+    },
+    {
+      "id": "claims",
+      "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "read_scope": "Publication schedule and holiday exceptions",
+      "findings": "Official schedule Thursday08:30EST; 2026November exception is11/25, not11/12. Next11/12 follows explicit agency schedule, not generic market convention.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "official_page_opened"
+    },
+    {
+      "id": "nyse",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "read_scope": "2026 holiday table and core trading hours",
+      "findings": "11/9 next ordinary session after11/6; core09:30–16ET;11/11 is not listed equity-market holiday.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "official_page_opened"
+    },
+    {
+      "id": "mrna_sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm",
+      "read_scope": "11/6 release heading and Key2026InvestorAndAnalystEventDates",
+      "findings": "Q3 already released11/6. AnalystDay scheduledNovember12; release does not give time.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-11-06",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "mrna_events",
+      "url": "https://investors.modernatx.com/events-presentations",
+      "read_scope": "Direct page and official-domain search-index event block",
+      "findings": "Official index showsNovember12 09:00EST AnalystDay; direct opened dynamic UpcomingEvents has no populated event text.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "direct_page_partial_plus_official_search_index",
+      "gap": "Date independently corroborated by SEC11/6 release; exact09:00EST time only official search index, not directly rendered event body."
+    },
+    {
+      "id": "mrna_days",
+      "url": "https://investors.modernatx.com/investor-days",
+      "read_scope": "Direct page and official-domain search-index block",
+      "findings": "SameNovember12 09:00EST index listing; directUpcomingEvents block empty.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "direct_page_partial_plus_official_search_index",
+      "gap": "Do not describe full live event page confirmation."
+    },
+    {
+      "id": "csco",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html?source=rss",
+      "read_scope": "November3 official scheduling announcement",
+      "findings": "FY27Q1 resultsNov12 after regularmarket close; conference call16:30ET.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-11-03",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "amat",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+      "read_scope": "October22 official scheduling announcement",
+      "findings": "FY26Q4/full-year callNov12 16:30ET. Exact earnings-release minute not stated.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-10-22",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "amat_event",
+      "url": "https://investor.appliedmaterials.com/events/event-details/q4-2026-applied-materials-earnings-conference-call",
+      "read_scope": "Event title and datetime",
+      "findings": "Nov12 2026 16:30EST.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "official_page_opened"
+    },
+    {
+      "id": "glob",
+      "url": "https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th",
+      "read_scope": "November5 official press release",
+      "findings": "Q3 releaseNov19 aftermarket; call16:30ET, outside next7day window.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-11-05",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "epam",
+      "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Third-Quarter-2026/default.aspx",
+      "read_scope": "November5 release title/date and conference-call paragraph",
+      "findings": "Q3 results already released11/5; not a coming-week earnings event.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-11-05",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "tem",
+      "url": "https://investors.tempus.com/news/news-details/2026/Tempus-Reports-Third-Quarter-2026-Results/default.aspx",
+      "read_scope": "November2 earnings title/date",
+      "findings": "Q3 results already released11/2; not a coming-week earnings event.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": "2026-11-02",
+      "access": "official_page_opened"
+    },
+    {
+      "id": "nvda_events",
+      "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+      "read_scope": "Directevents landing page",
+      "findings": "Dynamic page did not return future event detail; no specific upcoming call time certified in this run.",
+      "reviewed_at": "2026-11-08T23:29:42.796167+00:00",
+      "published_or_data_date": null,
+      "access": "partial_page",
+      "gap": "Search returned older FY26 material and FY27Q2 transcript index; not enough for an exact current-event entry. No guessed11/18."
+    }
+  ],
+  "already_released_date_basis": {
+    "Moderna_Q3": "SEC original release read this run",
+    "EPAM_Q3": "Official IR release read this run",
+    "Tempus_Q3": "Official IR release read this run",
+    "Berkshire_Q3": "Prior official review recorded in2026-11-08/brk_update.md; not re-collected asnew"
+  }
+}

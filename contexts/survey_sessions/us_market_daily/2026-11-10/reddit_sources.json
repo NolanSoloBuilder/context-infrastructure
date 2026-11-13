@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-10",
+  "reviewed_at_utc": "2026-11-09T23:45:10.415388+00:00",
+  "window_hours": 24,
+  "window_start_utc": "2026-11-08T23:38:42Z",
+  "window_end_utc": "2026-11-09T23:38:42Z",
+  "status": "partial",
+  "full_scan_complete": false,
+  "coverage": [
+    {
+      "community": "r/investing",
+      "new_url": "https://www.reddit.com/r/investing/new/",
+      "top_day_url": "https://www.reddit.com/r/investing/top/?t=day",
+      "new_read": "公开 New 页面可读，直接 RSS 取得 25 条并核绝对日期，近 24 小时 6 条（含日常讨论）。",
+      "top_day_read": "3 周前缓存",
+      "fresh_top_window_verified": false,
+      "rss_http_status": 200,
+      "status": "partial"
+    },
+    {
+      "community": "r/stocks",
+      "new_url": "https://www.reddit.com/r/stocks/new/",
+      "top_day_url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "new_read": "公开 New 页面可读，但原帖日期未逐项核定；直接 RSS 单次返回 429。",
+      "top_day_read": "6 天前缓存",
+      "fresh_top_window_verified": false,
+      "rss_http_status": 429,
+      "status": "partial"
+    },
+    {
+      "community": "r/SecurityAnalysis",
+      "new_url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "top_day_url": "https://www.reddit.com/r/SecurityAnalysis/top/?t=day",
+      "new_read": "New 页面为旧缓存（昨日），直接 RSS 单次返回 429。",
+      "top_day_read": "3 周前缓存；空列表不能解释为今日无内容",
+      "fresh_top_window_verified": false,
+      "rss_http_status": 429,
+      "status": "partial"
+    },
+    {
+      "community": "r/ValueInvesting",
+      "new_url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "top_day_url": "https://www.reddit.com/r/ValueInvesting/top/?t=day",
+      "new_read": "公开 New 页面可读，相关主帖无可核绝对时间；直接 RSS 单次返回 429。",
+      "top_day_read": "上周缓存",
+      "fresh_top_window_verified": false,
+      "rss_http_status": 429,
+      "status": "partial"
+    },
+    {
+      "community": "r/Bogleheads",
+      "new_url": "https://www.reddit.com/r/Bogleheads/new/",
+      "top_day_url": "https://www.reddit.com/r/Bogleheads/top/?t=day",
+      "new_read": "公开 New 页面可读，直接 RSS 单次返回 429；未把缓存列表称为完整最新覆盖。",
+      "top_day_read": "2 周前缓存",
+      "fresh_top_window_verified": false,
+      "rss_http_status": 429,
+      "status": "partial"
+    },
+    {
+      "community": "r/ETFs",
+      "new_url": "https://www.reddit.com/r/ETFs/new/",
+      "top_day_url": "https://www.reddit.com/r/ETFs/top/?t=day",
+      "new_read": "New 页面为旧缓存（昨日），直接 RSS 单次返回 429。",
+      "top_day_read": "上周缓存",
+      "fresh_top_window_verified": false,
+      "rss_http_status": 429,
+      "status": "partial"
+    }
+  ],
+  "selected_items": [
+    {
+      "id": "1xrp3ik",
+      "canonical_url": "https://www.reddit.com/r/investing/comments/1xrp3ik/atlassian_grew_revenue_24_last_quarter_guided/",
+      "community": "r/investing",
+      "post_title": "Atlassian grew revenue 24% last quarter, guided about 13.75% for the full year...",
+      "post_time_utc": "2026-11-09T11:17:14Z",
+      "post_time_beijing": "2026-11-09T19:17:14+08:00",
+      "event_dates": [
+        "2026-11-05"
+      ],
+      "event_period": "FY2027 Q1 ended 2026-09-30",
+      "collected_at_utc": "2026-11-09T23:38:42.025858+00:00",
+      "reviewed_at_utc": "2026-11-09T23:45:10.415388+00:00",
+      "timestamp_evidence": "直接 RSS published/updated 绝对时间；不是列表相对时间",
+      "read_scope": [
+        "RSS 原帖完整正文",
+        "公开原帖正文与实质评论",
+        "SEC 财报新闻稿财务表",
+        "公司官方 Q1 股东信",
+        "官方 Data Center end-of-life 页面"
+      ],
+      "claim_key": "team_fde_cloud_migration_and_sbc_cash_quality_new_discussion_2026_11_09",
+      "classification": "已核验历史披露 / 新增讨论；估值未完成",
+      "reported": false,
+      "core": "TEAM 官方表示本季度扩大 FDE 项目，把系统连接、定制 Rovo agents 与自动化、跨团队流程落地结合；AI 应用增长须分开云迁移、收入确认时点和新增付费需求。",
+      "verified_facts": [
+        "11/5 官方股东信称本季度扩大 Forward Deployed Engineering program；此为落地服务模式的直接证据，没有单列该项目收入或利润。",
+        "FY27Q1 收入 17.72150 亿美元，同比增长约 24%；云收入 13.02462 亿美元，同比增长 30.5%；GAAP 营业利润 1.88793 亿美元，利润率 10.7%。",
+        "FY27 云收入增长指引 26%，其中迁移贡献为中到高个位数百分点。不能把全部云增长当 AI 原生增量。",
+        "FY27Q1 经营现金流 4.68530 亿美元，购置设备资产支出 0.05976 亿美元，自由现金流 4.62554 亿美元；SBC 3.56487 亿美元。",
+        "FY27 更多现金薪酬替代股权预计令 non-GAAP 营业利润率下降约 3 个百分点；FY26 Data Center 确认时点对 non-GAAP 利润率有约 4 个百分点有利影响。",
+        "部分 Data Center 产品计划 2029-03-28 终止支持；Bitbucket、Bamboo 例外，Jira Align 不在本次范围。"
+      ],
+      "calculation": {
+        "unit": "USD million",
+        "cfo": 468.53,
+        "capex": 5.976,
+        "fcf": 462.554,
+        "sbc": 356.487,
+        "fcf_minus_sbc_sensitivity": 106.067,
+        "formula": "468.530 - 5.976 - 356.487 = 106.067",
+        "limitation": "FCF 减 SBC 是自定义保守敏感性代理，非公司报告指标、非完整正常化股东收益，不作单季年化；回购、股份变化与现金工资替代需联动分析。"
+      },
+      "comments_read_summary": [
+        "支持方强调 DC 上年加速签单及前置确认，使同比放缓不等同客户流失，真实迁移收入不应被扣成不存在。",
+        "反方强调 SBC 的股东成本、现金薪酬替代、回购和股数，不能只用表面 FCF 估值。",
+        "讨论提出云收入应同时展示含迁移与迁移外增长；未把评论中的股价或估值倍数当已核数据。"
+      ],
+      "strongest_counterargument": "云收入和现金流是真实增长，GAAP 已盈利；不能因迁移贡献或 SBC 就否认整个经营改善。但当前并无 FDE / Rovo 的独立付费 ARR、利润率和完整正常化估值。",
+      "relevance": "为 AI 应用和 FDE 上市公司方向补一条可复核经营证据，并为 NOW / CRM 的落地增长与现金质量比较提供口径；未自动新增监测标的或认定低估。",
+      "next_check": "核 FDE / Rovo 付费增量与续费、迁移外云增长、现金薪酬变化、净股数和正常化现金流；如进一步估值，再取同日双源价格与保守 / 基准分母。",
+      "verification_sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/ex991q1fy27.htm",
+          "type": "SEC 财报新闻稿",
+          "status": "read",
+          "local_raw": "source_scan_raw/team_release.html"
+        },
+        {
+          "url": "https://s206.q4cdn.com/270053503/files/content_files/index-4.html",
+          "type": "公司官方股东信",
+          "status": "read",
+          "local_raw": "source_scan_raw/team_shareholder_letter.html"
+        },
+        {
+          "url": "https://www.atlassian.com/licensing/data-center-end-of-life",
+          "type": "公司产品支持政策",
+          "status": "read",
+          "local_raw": "source_scan_raw/team_eol.html"
+        }
+      ],
+      "not_adopted": [
+        "原帖和评论的当日股价、跌幅及估值倍数未经本任务独立核价，不作已核结论。",
+        "不将披露日期 11/5 写成 11/9 新财报。",
+        "不把 TEAM 自动纳入现有监测清单。"
+      ]
+    },
+    {
+      "id": "1xrqkig",
+      "canonical_url": "https://www.reddit.com/r/investing/comments/1xrqkig/aluminium_supply_faces_growing_competition_for/",
+      "community": "r/investing",
+      "post_title": "Aluminium Supply Faces Growing Competition for Power",
+      "post_time_utc": "2026-11-09T12:36:26Z",
+      "post_time_beijing": "2026-11-09T20:36:26+08:00",
+      "event_dates": [
+        "2026-11-04"
+      ],
+      "collected_at_utc": "2026-11-09T23:38:42.025858+00:00",
+      "reviewed_at_utc": "2026-11-09T23:45:10.415388+00:00",
+      "timestamp_evidence": "直接 RSS published/updated 绝对时间",
+      "read_scope": [
+        "RSS 原帖完整正文",
+        "公开原帖实质评论",
+        "Google 官方马来西亚投资公告"
+      ],
+      "claim_key": "google_malaysia_power_capex_new_discussion_2026_11_09",
+      "classification": "已核验历史投资计划 / 新增跨行业讨论；挤出效应仍待核验",
+      "reported": false,
+      "core": "应用增长与基础设施现金投入可同时发生；Google 的马来西亚新增建设与电力承诺应继续进入资本桥核查，不能由应用主题直接推导硬件投入见顶。",
+      "verified_facts": [
+        "Google 11/4 公告计划 2027–2028 年在马来西亚投资 150 亿美元；这是未来两年计划，不是已发生支出。",
+        "公告拟推动超过 1GW 新清洁发电容量，并支付自身全部用电及直接电网接入基础设施成本；1GW 发电装机不等于全天候稳定电力或其数据中心负荷。",
+        "公告未给出分年资本支出、项目回报、对应 Cloud 订单 / 收入，也不能证明集团已披露资本开支指引额外增加 150 亿美元。"
+      ],
+      "comments_read_summary": [
+        "评论强调全周期现金回收及电力合同期限，而非周期高点利润。",
+        "电价合同是否市场联动与到期重签影响盈利；未据此推断具体铝厂已经被数据中心挤出。"
+      ],
+      "strongest_counterargument": "原帖也承认马来西亚半岛数据中心与砂拉越铝业涉及不同电网，不能声称当下争夺同一度电；供电投资可能增加供给，云需求与回款也可能覆盖投入。",
+      "relevance": "Google 正常化自由现金流与资本桥；AI 应用 / FDE 成长不自动降低上游建设和电力投入。",
+      "next_check": "资本开支是否已包含在集团指引、分年付款承诺、合同收入回款、在建工程转固和折旧；若研究铝业另核地区电网与各厂供电合同。",
+      "verification_sources": [
+        {
+          "url": "https://blog.google/intl/en-my/company-news/inside-google/google-investment-malaysia-digital-infrastructure-november-2026/",
+          "type": "Google 官方公告",
+          "status": "read",
+          "local_raw": "source_scan_raw/google_malaysia.html"
+        }
+      ],
+      "not_adopted": [
+        "帖内铝供需预测、各铝厂出售交易、产能上限和电价数据未逐项核原始来源，本日报不采用。",
+        "未声称市场未定价或铝价有确定上涨机会。"
+      ]
+    }
+  ],
+  "prior_claims_not_repeated": [
+    "nvda_board_independent_investigation_official_statement_2026_11_08"
+  ],
+  "excluded_items": [
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1xrqsxp/nvidia_is_now_flat_for_2026_but_if_you_only_held/",
+      "reason": "正文和反方评论已读，但未核绝对发帖时间，隔夜 / 盘中回报未重算，不将交易时段收益分解包装为可执行套利。"
+    },
+    {
+      "url": "https://www.reddit.com/r/ValueInvesting/comments/1xs4x3k/ai_bubble_or_not_there_will_be_winners_and_losers/",
+      "reason": "正文和反方评论已读，但无可核绝对时间；主观打分无客观阈值，不当估值结论。"
+    }
+  ],
+  "access_limitations": [
+    "六社区 Top 日窗均返回陈旧缓存，未完成真实当日 Top 覆盖。",
+    "六社区 RSS 仅 r/investing 成功，其余五个单次 429 后停止，没有重试或绕过访问限制。",
+    "r/SecurityAnalysis 与 r/ETFs New 页面旧缓存；无法声称其他社区无新增。",
+    "TEAM 普通 IR 目录 403，但 SEC 财报与官方股东信正常读取。"
+  ],
+  "dedup_state_updated": false,
+  "publication_required_before_mark_reported": true,
+  "local_raw_dir": "source_scan_raw",
+  "sources_include_private_data": false
+}

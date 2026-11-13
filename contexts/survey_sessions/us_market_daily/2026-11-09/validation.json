@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-08T23:32:40.983364+00:00",
+  "brief_validation": "passed",
+  "targeted_tests": {
+    "passed": 19,
+    "failed": 0,
+    "files": [
+      "worker/daily-brief.test.mjs",
+      "worker/render.test.mjs"
+    ]
+  },
+  "root_official_statement_review": "read full NVIDIA board statement and CEO support statement; no private allegations summarized",
+  "new_visual_qa": false,
+  "reason": "content-only; layout unchanged"
+}

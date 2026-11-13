@@ -1,0 +1,89 @@
+{
+  "symbol": "NVDA",
+  "name": "AI芯片与算力",
+  "kind": "stock",
+  "facts": {
+    "name": "NVIDIA",
+    "strategy": "AI计算、GPU及相关网络与软件平台。",
+    "business": "数据中心与加速计算、游戏及其他业务；本页不把机器人潜在市场当作已实现收入。",
+    "sources": [
+      {
+        "url": "https://investor.nvidia.com/financial-info/financial-reports-and-sec-filings/default.aspx",
+        "title": "NVIDIA财务披露入口",
+        "asof": "延伸核查入口，本页未完成新财报估值"
+      },
+      {
+        "title": "NVIDIA董事会11/8声明",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+        "asof": "2026-11-08公告；2026-11-09复核"
+      },
+      {
+        "title": "NVIDIA同日员工信",
+        "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+        "asof": "2026-11-08公告；2026-11-09复核"
+      }
+    ],
+    "risks": [
+      "新增治理与关键人物不确定性；客户AI投入兑现、竞争、供应和出口限制、估值及收入集中。"
+    ],
+    "gaps": [
+      "调查结果、潜在监管后果及最终经营影响未定；最新财务分母与保守情景估值尚未完成，本次治理复核不等于重估。"
+    ],
+    "notes": [],
+    "governance_event": {
+      "event": "independent_board_investigation",
+      "published_date": "2026-11-08",
+      "reviewed_date": "2026-11-09",
+      "reviewed_at": "2026-11-08T23:29:38Z",
+      "confirmed": "独立董事委员会监督调查，外部独立法律顾问协助；CEO表示配合。",
+      "board_position": "董事会称目前没有理由认为国家安全或公司机密已受损，仍支持CEO及领导团队。",
+      "financial_impact": "两份官方声明未量化订单、收入、利润或现金损失，未宣布指引调整。",
+      "unknown": "调查结论、监管后果及最终经营影响尚未确定。"
+    },
+    "fact_lines": [
+      "治理事项：11/8公告、11/9复核。董事会宣布独立调查，由独立董事委员会监督、外部独立法律顾问协助；CEO表示配合。",
+      "董事会表示目前没有理由认为国家安全或公司机密已受损，仍信任领导团队；这是当时声明，调查结论尚未形成。",
+      "两份官方声明未量化订单、收入、利润或现金损失，也未宣布业绩指引调整。11/6报价早于此事件，不能作为公告后的市场反应。"
+    ]
+  },
+  "kind_label": "个股",
+  "new": false,
+  "role": "AI龙头研究",
+  "personal_note": "AI基础设施公司；多只指数及半导体ETF中已有相关暴露，需评估客户资本回报与集中度。",
+  "quote": {
+    "symbol": "NVDA",
+    "session": "2026-11-06",
+    "close": 186.64,
+    "day_pct": 2.7753266061345316,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at_utc": "2026-11-06T23:37:20.585478+00:00",
+    "crosscheck_status": "本次Yahoo完整日线新采集；自动行情为单一提供方，未声称逐项跨源核验。"
+  },
+  "next": "核董事会/监管或SEC更新、管理职责和客户订单；11/17财报后再核经营指引，未取得量化证据不重写盈利模型。",
+  "industry_id": "semiconductors",
+  "industry": "半导体与算力",
+  "extended": {
+    "status": "available",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at_utc": "2026-11-06T23:37:20.585478+00:00",
+    "pre": {
+      "status": "unavailable"
+    },
+    "post": {
+      "status": "unavailable"
+    },
+    "latest_regular": {
+      "price_usd": 186.64,
+      "session": "2026-11-06",
+      "segment": "regular_close_reference",
+      "time_et": "2026-11-06T16:00:00-05:00",
+      "time_beijing": "2026-11-07T05:00:00+08:00",
+      "captured_at_utc": "2026-11-06T23:37:17.921Z",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "single_source": true,
+      "note": "有明确时间戳的提供方参考；非经跨源核验的逐笔成交，不用于年度指标"
+    }
+  },
+  "last_refresh_attempt_at_utc": "2026-11-06T23:37:17.921Z",
+  "research_status": "11/8新增治理风险，调查结论与财务影响待核；估值未完成"
+}

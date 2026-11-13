@@ -1,0 +1,28 @@
+{
+  "subtitle_options" : [
+    {
+      "displayName" : "Chinese",
+      "language" : "zh",
+      "locale" : "zh",
+      "playable" : "true"
+    },
+    {
+      "displayName" : "Chinese Forced",
+      "language" : "zh",
+      "locale" : "zh",
+      "playable" : "true"
+    },
+    {
+      "displayName" : "English",
+      "language" : "en",
+      "locale" : "en",
+      "playable" : "true"
+    },
+    {
+      "displayName" : "English Forced",
+      "language" : "en",
+      "locale" : "en",
+      "playable" : "true"
+    }
+  ]
+}

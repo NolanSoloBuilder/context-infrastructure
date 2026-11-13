@@ -1,0 +1,715 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Bilingual,Heiti SC,42,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2.5,0.6,2,70,70,38,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.34,0:00:31.38,Bilingual,,0,0,0,,{\fs42}这将成为\N{\fs32}This is going to be
+Dialogue: 0,0:00:31.38,0:00:34.97,Bilingual,,0,0,0,,{\fs42}人类历史上最有前景的技术。\N{\fs32}the most promising technology in human history.
+Dialogue: 0,0:00:35.13,0:00:40.47,Bilingual,,0,0,0,,{\fs42}AI 正在掌握认知的本质。2024 年到 2025 年，\N{\fs32}AI is capturing the essence of cognition. In 2024 and 2025,
+Dialogue: 0,0:00:40.60,0:00:44.48,Bilingual,,0,0,0,,{\fs42}AI 开始能够编程；如今，我们逐渐发现，\N{\fs32}coding became possible, and now we're starting to find that agents
+Dialogue: 0,0:00:44.48,0:00:48.94,Bilingual,,0,0,0,,{\fs42}智能体也能够在其他知识工作领域完成端到端的任务。\N{\fs32}that do things end to end in other areas of knowledge work are possible.
+Dialogue: 0,0:00:49.06,0:00:53.49,Bilingual,,0,0,0,,{\fs42}而最近，我们开始看到，AI 有望在\N{\fs32}And even more recently, we're starting to see that fundamental discoveries
+Dialogue: 0,0:00:53.49,0:00:58.49,Bilingual,,0,0,0,,{\fs42}生物学、数学和物理学等领域取得基础性发现。\N{\fs32}in areas like biology and mathematics and physics are becoming possible.
+Dialogue: 0,0:00:58.70,0:01:03.20,Bilingual,,0,0,0,,{\fs42}如果人类能用 AI 治愈癌症，心怀恶意的人\N{\fs32}If humans can use AI to cure cancer, an evil
+Dialogue: 0,0:01:03.20,0:01:07.08,Bilingual,,0,0,0,,{\fs42}也能用 AI 制造生物武器或发起网络攻击。\N{\fs32}human can use AI to make a bioweapon or do a cyber attack,
+Dialogue: 0,0:01:07.54,0:01:11.00,Bilingual,,0,0,0,,{\fs42}如果不应对这些风险，我们就无法成功。\N{\fs32}we cannot succeed if we don't address these risks.
+Dialogue: 0,0:01:11.09,0:01:15.92,Bilingual,,0,0,0,,{\fs42}我们决心把这件事做好，因为这正是我，\N{\fs32}And we are determined to get this right, because this is why I and this is why
+Dialogue: 0,0:01:15.97,0:01:19.51,Bilingual,,0,0,0,,{\fs42}以及许多 Anthropic 同事投身这项技术的原因。\N{\fs32}many people who work at Anthropic, this is why we work on this technology.
+Dialogue: 0,0:01:26.94,0:01:29.86,Bilingual,,0,0,0,,{\fs42}如今，智能已经成为人类能够构建的东西。\N{\fs32}Intelligence is now something humans can build.
+Dialogue: 0,0:01:29.86,0:01:32.82,Bilingual,,0,0,0,,{\fs42}这具有深远的意义。\N{\fs32}The implications of this are profound.
+Dialogue: 0,0:01:32.82,0:01:36.65,Bilingual,,0,0,0,,{\fs42}我们相信，它会大幅提升每个人的能力，扩大世界\N{\fs32}We believe it will make every person far more capable and expand the world's
+Dialogue: 0,0:01:36.65,0:01:41.32,Bilingual,,0,0,0,,{\fs42}从事认知工作的能力，改变每个行业、每门学科。\N{\fs32}capacity for cognitive work, transforming every industry and every discipline.
+Dialogue: 0,0:01:41.32,0:01:45.25,Bilingual,,0,0,0,,{\fs42}这种巨大的经济影响，始于前沿智能，\N{\fs32}This enormous economic impact begins with frontier intelligence,
+Dialogue: 0,0:01:45.50,0:01:48.92,Bilingual,,0,0,0,,{\fs42}始于 Claude 能做到什么。2024 年，\N{\fs32}with what Claude can do. In 2024,
+Dialogue: 0,0:01:49.00,0:01:53.50,Bilingual,,0,0,0,,{\fs42}Claude 能回答问题、检索信息或总结文档。\N{\fs32}Claude could answer a question, retrieve information, or summarize a document.
+Dialogue: 0,0:01:53.55,0:01:55.42,Bilingual,,0,0,0,,{\fs42}到 2025 年底，\N{\fs32}By the end of 2025,
+Dialogue: 0,0:01:55.42,0:01:58.18,Bilingual,,0,0,0,,{\fs42}Claude 已经能够开展深度研究、执行多步骤项目，\N{\fs32}Claude could do deep research and multi-step projects
+Dialogue: 0,0:01:58.18,0:02:00.60,Bilingual,,0,0,0,,{\fs42}例如重构整个代码库。\N{\fs32}like refactoring an entire code base.
+Dialogue: 0,0:02:00.60,0:02:06.10,Bilingual,,0,0,0,,{\fs42}这些任务过去需要人类工作数小时甚至数天。如今，\N{\fs32}The type of task that required hours or even days of human work. Today,
+Dialogue: 0,0:02:06.31,0:02:09.69,Bilingual,,0,0,0,,{\fs42}Claude 能承担复杂、开放式的项目，\N{\fs32}Claude can take on complex, open ended projects
+Dialogue: 0,0:02:09.69,0:02:13.48,Bilingual,,0,0,0,,{\fs42}这些项目过去需要多人花费数月甚至数年，进行研究、分析\N{\fs32}that once took months or years of research, analysis
+Dialogue: 0,0:02:13.48,0:02:17.57,Bilingual,,0,0,0,,{\fs42}和执行，现在几天就能完成。\N{\fs32}and execution by many people and complete them in days.
+Dialogue: 0,0:02:17.90,0:02:21.95,Bilingual,,0,0,0,,{\fs42}在不远的未来，我们认为前沿 AI 有潜力推动\N{\fs32}In the near future, we see potential for frontier AI to drive
+Dialogue: 0,0:02:21.95,0:02:26.83,Bilingual,,0,0,0,,{\fs42}人类一些最重大的突破，并开辟全新的市场。\N{\fs32}some of humanity's greatest breakthroughs and open entirely new markets.
+Dialogue: 0,0:02:27.16,0:02:31.21,Bilingual,,0,0,0,,{\fs42}我们迄今取得的成功，源于五项核心优势：\N{\fs32}Our success thus far emerges from five core advantages.
+Dialogue: 0,0:02:31.54,0:02:34.96,Bilingual,,0,0,0,,{\fs42}使命与专注、人才与文化、\N{\fs32}These are our mission and focus, talent and culture,
+Dialogue: 0,0:02:35.67,0:02:38.05,Bilingual,,0,0,0,,{\fs42}前沿研究与安全工作、\N{\fs32}frontier research and safety work,
+Dialogue: 0,0:02:38.05,0:02:41.01,Bilingual,,0,0,0,,{\fs42}算力策略，以及企业客户战略。\N{\fs32}our approach to compute and our enterprise strategy.
+Dialogue: 0,0:02:41.01,0:02:43.35,Bilingual,,0,0,0,,{\fs42}这一切都始于我们的使命：\N{\fs32}All of this begins with our mission.
+Dialogue: 0,0:02:43.35,0:02:46.43,Bilingual,,0,0,0,,{\fs42}负责任地开发和维护先进 AI，\N{\fs32}The responsible development and maintenance of advanced
+Dialogue: 0,0:02:46.43,0:02:49.44,Bilingual,,0,0,0,,{\fs42}为人类带来长远福祉。\N{\fs32}AI for the long term benefit of humanity.
+Dialogue: 0,0:02:49.68,0:02:53.69,Bilingual,,0,0,0,,{\fs42}使命凝聚着整个组织，也是我们专注执行的关键。\N{\fs32}It's an organizing force and key to our focused execution.
+Dialogue: 0,0:02:53.77,0:02:58.90,Bilingual,,0,0,0,,{\fs42}我们管理的资源都是有限的：算力、人才和研究能力。\N{\fs32}We manage a universe of finite resources: compute, talent, and research capacity.
+Dialogue: 0,0:02:59.15,0:03:03.12,Bilingual,,0,0,0,,{\fs42}使命帮助团队明确方向，并把这些资源\N{\fs32}The mission is how we create clarity for the team and deploy those resources
+Dialogue: 0,0:03:03.12,0:03:07.74,Bilingual,,0,0,0,,{\fs42}用在最能发挥价值的地方。在需要艰难抉择的时刻，\N{\fs32}to maximum effect. At challenging moments that call for hard choices,
+Dialogue: 0,0:03:08.08,0:03:10.41,Bilingual,,0,0,0,,{\fs42}使命让我们的决策更加明确。\N{\fs32}our mission sharpens our decision making.
+Dialogue: 0,0:03:10.41,0:03:14.38,Bilingual,,0,0,0,,{\fs42}正因如此，我们将 Mythos 等模型仅向网络防御者开放。\N{\fs32}It led us to deploy models like Mythos exclusively to cyber defenders.
+Dialogue: 0,0:03:14.54,0:03:18.26,Bilingual,,0,0,0,,{\fs42}也正因如此，我们承诺不在 Claude 中投放广告。\N{\fs32}It also led us to commit to keep Claude free of advertising.
+Dialogue: 0,0:03:18.59,0:03:23.01,Bilingual,,0,0,0,,{\fs42}这种使命感和专注，持续吸引着业内最优秀的人才。\N{\fs32}This mission and focus continue to attract the very best talent in the industry.
+Dialogue: 0,0:03:23.30,0:03:25.22,Bilingual,,0,0,0,,{\fs42}公司创立以来，一直如此。\N{\fs32}That's been true since our founding.
+Dialogue: 0,0:03:25.22,0:03:28.27,Bilingual,,0,0,0,,{\fs42}我们的七位联合创始人中，有些人提出的原创理念，\N{\fs32}Our seven co-founders include the originators of ideas
+Dialogue: 0,0:03:28.27,0:03:31.48,Bilingual,,0,0,0,,{\fs42}如今已成为 AI 行业的基础。\N{\fs32}that now make up the foundation of the AI industry.
+Dialogue: 0,0:03:31.73,0:03:36.61,Bilingual,,0,0,0,,{\fs42}这种顶尖人才的汇聚，遍及组织的各个层级。\N{\fs32}This concentration of top talent extends to all levels of the organization,
+Dialogue: 0,0:03:36.82,0:03:40.82,Bilingual,,0,0,0,,{\fs42}在吸引和留住本领域最杰出人才方面，\N{\fs32}and we lead the industry in attracting and retaining the brightest
+Dialogue: 0,0:03:40.82,0:03:41.82,Bilingual,,0,0,0,,{\fs42}我们处于行业领先地位。\N{\fs32}minds in the field.
+Dialogue: 0,0:03:48.87,0:03:51.08,Bilingual,,0,0,0,,{\fs42}我为什么在 Anthropic 工作？\N{\fs32}Why do I work at Anthropic?
+Dialogue: 0,0:03:51.08,0:03:53.87,Bilingual,,0,0,0,,{\fs42}为什么？我为什么在 Anthropic 工作？为什么选择 Anthropic？\N{\fs32}Why do I? Why do I work at Anthropic? Why do I work at Anthropic?
+Dialogue: 0,0:03:53.87,0:03:56.75,Bilingual,,0,0,0,,{\fs42}我为什么在 Anthropic 工作？\N{\fs32}Why do I work at Anthropic?
+Dialogue: 0,0:03:56.75,0:03:59.46,Bilingual,,0,0,0,,{\fs42}因为我是个乐观的人。\N{\fs32}Because I'm an optimist.
+Dialogue: 0,0:03:59.46,0:04:01.80,Bilingual,,0,0,0,,{\fs42}我希望为家人，\N{\fs32}I want a safer, better world for my family
+Dialogue: 0,0:04:01.80,0:04:04.80,Bilingual,,0,0,0,,{\fs42}也为全人类，创造一个更安全、更美好的世界。\N{\fs32}and for humanity.
+Dialogue: 0,0:04:05.68,0:04:06.39,Bilingual,,0,0,0,,{\fs42}三年前，\N{\fs32}Three years
+Dialogue: 0,0:04:06.39,0:04:09.43,Bilingual,,0,0,0,,{\fs42}我哥哥因脑肿瘤去世，\N{\fs32}ago, my older brother died of a brain tumor
+Dialogue: 0,0:04:09.43,0:04:12.81,Bilingual,,0,0,0,,{\fs42}年仅 42 岁，和我现在一样大。\N{\fs32}at the age of 42, which is the age that I am now.
+Dialogue: 0,0:04:13.23,0:04:17.82,Bilingual,,0,0,0,,{\fs42}我深信，通过我们的使命和这项技术，\N{\fs32}And I believe deeply that through our mission and this technology,
+Dialogue: 0,0:04:17.82,0:04:21.15,Bilingual,,0,0,0,,{\fs42}未来，像我哥哥这样的人\N{\fs32}there will be a situation where people like my brother
+Dialogue: 0,0:04:21.19,0:04:24.15,Bilingual,,0,0,0,,{\fs42}就不必死去。\N{\fs32}don't have to die.
+Dialogue: 0,0:04:24.15,0:04:26.57,Bilingual,,0,0,0,,{\fs42}必须有人承担起把这件事做好的重任。\N{\fs32}Somebody has to carry the weight of getting this right.
+Dialogue: 0,0:04:26.57,0:04:29.58,Bilingual,,0,0,0,,{\fs42}而我真的不想只在一旁观望。\N{\fs32}And I really didn't want to watch from the sidelines.
+Dialogue: 0,0:04:30.91,0:04:34.37,Bilingual,,0,0,0,,{\fs42}这里的人会先问：这样做对吗？\N{\fs32}People here ask, is this the right thing to do?
+Dialogue: 0,0:04:34.62,0:04:36.88,Bilingual,,0,0,0,,{\fs42}然后才问：我们能做到吗？\N{\fs32}Before they ask, can we do it?
+Dialogue: 0,0:04:38.71,0:04:39.50,Bilingual,,0,0,0,,{\fs42}这是一种难得的组合：\N{\fs32}It's a rare
+Dialogue: 0,0:04:39.50,0:04:44.09,Bilingual,,0,0,0,,{\fs42}一群人既真正在意 AI 能否走向好的结果，\N{\fs32}combination of a group of people who care deeply about making AI go well,
+Dialogue: 0,0:04:44.09,0:04:47.51,Bilingual,,0,0,0,,{\fs42}也同样重视能力、\N{\fs32}and also care deeply about competence,
+Dialogue: 0,0:04:47.68,0:04:50.64,Bilingual,,0,0,0,,{\fs42}协同一致与诚信——这些品质\N{\fs32}coherence, integrity, qualities
+Dialogue: 0,0:04:50.64,0:04:53.93,Bilingual,,0,0,0,,{\fs42}才能真正让一个组织有效运作。\N{\fs32}that actually make an organization effective.
+Dialogue: 0,0:04:54.52,0:04:58.56,Bilingual,,0,0,0,,{\fs42}这些益处与风险，这些光明与阴影，\N{\fs32}These benefits and these risks, this light and this shade
+Dialogue: 0,0:04:58.73,0:05:01.73,Bilingual,,0,0,0,,{\fs42}恰恰是我选择来 Anthropic 工作的原因。\N{\fs32}was precisely why I chose to come work at Anthropic.
+Dialogue: 0,0:05:06.61,0:05:08.66,Bilingual,,0,0,0,,{\fs42}我们为提升模型安全性\N{\fs32}The work we do to make our models safe
+Dialogue: 0,0:05:08.66,0:05:12.16,Bilingual,,0,0,0,,{\fs42}和可靠性所做的工作，也在提升模型的能力。\N{\fs32}and reliable is the same work that makes them more capable.
+Dialogue: 0,0:05:12.33,0:05:16.71,Bilingual,,0,0,0,,{\fs42}我们关注有用的智能：模型处理现实任务\N{\fs32}We care about useful intelligence, how effectively a model handles
+Dialogue: 0,0:05:16.71,0:05:20.59,Bilingual,,0,0,0,,{\fs42}到底有多有效，以及能为客户带来什么价值。\N{\fs32}a real world task, and the value this delivers to customers.
+Dialogue: 0,0:05:20.80,0:05:24.59,Bilingual,,0,0,0,,{\fs42}我们始终专注于回答这个问题：Claude 能为我做到什么，\N{\fs32}We're relentlessly focused on answering the question, what can Claude
+Dialogue: 0,0:05:24.63,0:05:27.64,Bilingual,,0,0,0,,{\fs42}是其他模型做不到的？\N{\fs32}do for me that other models can't?
+Dialogue: 0,0:05:27.72,0:05:31.06,Bilingual,,0,0,0,,{\fs42}算力是支撑这些工作的关键基础设施。\N{\fs32}Compute is the critical infrastructure that enables this work.
+Dialogue: 0,0:05:31.43,0:05:34.93,Bilingual,,0,0,0,,{\fs42}我们在这里建立了独特优势，不仅体现在如何建设\N{\fs32}We've built a differentiated advantage here, not just in how we build
+Dialogue: 0,0:05:34.93,0:05:36.14,Bilingual,,0,0,0,,{\fs42}算力容量，\N{\fs32}our compute capacity,
+Dialogue: 0,0:05:36.14,0:05:38.35,Bilingual,,0,0,0,,{\fs42}还体现在如何充分利用这些算力，\N{\fs32}but in how we make the most of this capacity
+Dialogue: 0,0:05:38.35,0:05:41.02,Bilingual,,0,0,0,,{\fs42}找到能成倍提升算力效用的方法。\N{\fs32}through the discovery of compute multipliers.
+Dialogue: 0,0:05:41.02,0:05:42.02,Bilingual,,0,0,0,,{\fs42}作为领先的 AI 实验室，\N{\fs32}We are the leading
+Dialogue: 0,0:05:42.02,0:05:45.65,Bilingual,,0,0,0,,{\fs42}我们从第一天起就专注于为企业构建产品。\N{\fs32}AI lab that has been focused on building for the enterprise from day one.
+Dialogue: 0,0:05:45.78,0:05:48.74,Bilingual,,0,0,0,,{\fs42}我们训练前沿模型来解决知识工作中的任务。\N{\fs32}We train our frontier models to address knowledge work.
+Dialogue: 0,0:05:48.74,0:05:52.95,Bilingual,,0,0,0,,{\fs42}因此，客户可以同时获得出色的能力和价值。\N{\fs32}As a result, our customers get the best of both capability and value.
+Dialogue: 0,0:05:53.58,0:05:56.20,Bilingual,,0,0,0,,{\fs42}这些客户推动了我们前所未有的增长，\N{\fs32}These customers have enabled our historic growth
+Dialogue: 0,0:05:56.20,0:06:00.42,Bilingual,,0,0,0,,{\fs42}他们遍及金融服务、科技、\N{\fs32}and they span industries across financial services, technology,
+Dialogue: 0,0:06:00.67,0:06:04.84,Bilingual,,0,0,0,,{\fs42}制药、医疗、政府、制造等众多领域。\N{\fs32}pharma, healthcare, government, manufacturing, and more.
+Dialogue: 0,0:06:05.30,0:06:08.80,Bilingual,,0,0,0,,{\fs42}在这里，我们的公共利益使命与对安全的重视，\N{\fs32}And this is also where our public benefit mission and safety focus
+Dialogue: 0,0:06:08.80,0:06:12.01,Bilingual,,0,0,0,,{\fs42}也自然契合了客户需求。企业和我们一样，关心前沿 AI\N{\fs32}find natural alignment. Enterprises care that the frontier
+Dialogue: 0,0:06:12.01,0:06:15.43,Bilingual,,0,0,0,,{\fs42}是否安全、可信、实用。\N{\fs32}is safe, trustworthy and useful as much as we do.
+Dialogue: 0,0:06:15.60,0:06:18.14,Bilingual,,0,0,0,,{\fs42}随着前沿智能的能力不断提升，\N{\fs32}As frontier intelligence grows more capable,
+Dialogue: 0,0:06:18.14,0:06:22.31,Bilingual,,0,0,0,,{\fs42}我们对安全研究的持续专注也变得更加重要。\N{\fs32}our dedicated focus on safety research becomes that much more important.
+Dialogue: 0,0:06:22.56,0:06:26.40,Bilingual,,0,0,0,,{\fs42}这对客户至关重要，也是充分释放\N{\fs32}It's critically important to our customers and necessary for realizing
+Dialogue: 0,0:06:26.44,0:06:28.28,Bilingual,,0,0,0,,{\fs42}AI 潜力的必要条件。\N{\fs32}AI's full potential.
+Dialogue: 0,0:06:28.28,0:06:31.45,Bilingual,,0,0,0,,{\fs42}Anthropic 全力以赴，力求把这项工作做到最好。\N{\fs32}And Anthropic is fully committed to doing this work with excellence.
+Dialogue: 0,0:06:31.62,0:06:34.49,Bilingual,,0,0,0,,{\fs42}公共利益使命引领我们走到今天，\N{\fs32}Our public benefit mission is what brought us to this point,
+Dialogue: 0,0:06:34.49,0:06:37.79,Bilingual,,0,0,0,,{\fs42}也将继续塑造我们的工作，包括公司治理。\N{\fs32}and it will continue to shape our work, including at the governance level.
+Dialogue: 0,0:06:38.00,0:06:41.96,Bilingual,,0,0,0,,{\fs42}除了管理层和董事会，Anthropic\N{\fs32}In addition to our executive leadership and our board of directors, Anthropic
+Dialogue: 0,0:06:41.96,0:06:45.21,Bilingual,,0,0,0,,{\fs42}还接受长期利益信托的指导。这是一个独立、\N{\fs32}is advised by the Long-Term Benefit Trust, an independent,
+Dialogue: 0,0:06:45.21,0:06:48.42,Bilingual,,0,0,0,,{\fs42}没有财务利益关系的机构，负责选任董事会的多数成员。\N{\fs32}financially disinterested body that selects a majority of our board.
+Dialogue: 0,0:06:48.80,0:06:52.39,Bilingual,,0,0,0,,{\fs42}长期利益信托的职责，是帮助 Anthropic 在发展过程中，\N{\fs32}The LTBT's role is to help Anthropic plan for and fulfill
+Dialogue: 0,0:06:52.43,0:06:54.43,Bilingual,,0,0,0,,{\fs42}规划并履行我们的公共利益使命。\N{\fs32}our public benefit mission as we grow.
+Dialogue: 0,0:06:54.43,0:06:58.64,Bilingual,,0,0,0,,{\fs42}我们相信，AI 的未来应由民主社会塑造和引领。\N{\fs32}We believe AI's future should be shaped and led by democratic societies.
+Dialogue: 0,0:06:58.85,0:07:01.40,Bilingual,,0,0,0,,{\fs42}我们希望成为政府的可靠伙伴，帮助它们\N{\fs32}We want to be good partners in helping governments
+Dialogue: 0,0:07:01.40,0:07:04.65,Bilingual,,0,0,0,,{\fs42}适应 AI 能力不断提升所带来的变化。\N{\fs32}adapt to the changes that come with AI's rising capability.
+Dialogue: 0,0:07:04.90,0:07:08.19,Bilingual,,0,0,0,,{\fs42}为此，我们的管理层和政策团队都在行动，\N{\fs32}We do this at the executive level, through the work of our policy team
+Dialogue: 0,0:07:08.24,0:07:11.24,Bilingual,,0,0,0,,{\fs42}也通过 Anthropic Institute 等举措，分享\N{\fs32}and through efforts like the Anthropic Institute, which shares
+Dialogue: 0,0:07:11.24,0:07:14.45,Bilingual,,0,0,0,,{\fs42}前沿 AI 如何改变人们生活的研究。\N{\fs32}research on how frontier AI shapes how we live our lives.
+Dialogue: 0,0:07:15.03,0:07:18.91,Bilingual,,0,0,0,,{\fs42}我们相信，这将是现代以来人类生活最重大的变革，\N{\fs32}We are still early in what we believe will be the biggest transformation of the
+Dialogue: 0,0:07:18.91,0:07:23.29,Bilingual,,0,0,0,,{\fs42}而我们仍处于早期。它不仅蕴含巨大的经济潜力，\N{\fs32}human experience in the modern age, not just the profound economic potential,
+Dialogue: 0,0:07:23.58,0:07:27.71,Bilingual,,0,0,0,,{\fs42}我们也相信，AI 能以各种方式增进人类福祉：\N{\fs32}but in all the ways in which we believe AI can help humanity flourish.
+Dialogue: 0,0:07:28.26,0:07:30.80,Bilingual,,0,0,0,,{\fs42}从治愈疾病、加速经济增长，\N{\fs32}From curing diseases to accelerating growth,
+Dialogue: 0,0:07:30.80,0:07:33.76,Bilingual,,0,0,0,,{\fs42}到帮助人们过上更充实、更富足的生活。\N{\fs32}to helping people live more fulfilled and abundant lives.
+Dialogue: 0,0:07:36.14,0:07:38.60,Bilingual,,0,0,0,,{\fs42}谈到 Claude 模型家族，\N{\fs32}So if you think about our Claude model family,
+Dialogue: 0,0:07:38.60,0:07:42.31,Bilingual,,0,0,0,,{\fs42}它的设计目标，是为你的不同需求创造价值。\N{\fs32}it's designed to deliver value across all the goals you might have.
+Dialogue: 0,0:07:42.48,0:07:45.61,Bilingual,,0,0,0,,{\fs42}无论你优先考虑的是成本、速度，\N{\fs32}Whether you're optimizing for cost or speed
+Dialogue: 0,0:07:45.61,0:07:48.61,Bilingual,,0,0,0,,{\fs42}还是智能水平。在能力最高的一端，\N{\fs32}or intelligence. At the top end,
+Dialogue: 0,0:07:48.73,0:07:51.74,Bilingual,,0,0,0,,{\fs42}Mythos 和 Fable 不断推进技术前沿。\N{\fs32}Mythos and Fable push the frontier forward.
+Dialogue: 0,0:07:51.78,0:07:55.32,Bilingual,,0,0,0,,{\fs42}客户用它们加固网络基础设施，\N{\fs32}We see customers use it to harden cyber infrastructure
+Dialogue: 0,0:07:55.37,0:07:58.79,Bilingual,,0,0,0,,{\fs42}或取得新的科学发现。在另一端，\N{\fs32}or make new scientific discoveries. At the other end,
+Dialogue: 0,0:07:58.91,0:08:02.96,Bilingual,,0,0,0,,{\fs42}我们提供能力出色、性价比极高的模型，\N{\fs32}we have models that are extremely capable and highly cost effective,
+Dialogue: 0,0:08:03.12,0:08:07.67,Bilingual,,0,0,0,,{\fs42}企业可以依靠它们，大规模处理定义明确的常规任务。\N{\fs32}and businesses can rely on them at scale for well-defined, routine tasks.
+Dialogue: 0,0:08:07.96,0:08:10.84,Bilingual,,0,0,0,,{\fs42}我们重点思考的是，怎样让每个人\N{\fs32}A key thing we think about is how everyone
+Dialogue: 0,0:08:10.84,0:08:13.80,Bilingual,,0,0,0,,{\fs42}都能受益于这一整套模型。\N{\fs32}can get the benefit of that whole spectrum of models.
+Dialogue: 0,0:08:13.84,0:08:17.68,Bilingual,,0,0,0,,{\fs42}因为即使模型能力呈指数增长，\N{\fs32}Because even as model capability increases exponentially,
+Dialogue: 0,0:08:17.89,0:08:21.60,Bilingual,,0,0,0,,{\fs42}多数人使用模型的方式，也不会改变得那么快。\N{\fs32}what most people do with the models doesn't change that fast.
+Dialogue: 0,0:08:22.18,0:08:25.19,Bilingual,,0,0,0,,{\fs42}在构建产品时，我们遵循三项原则。\N{\fs32}We think about three principles as we build.
+Dialogue: 0,0:08:25.48,0:08:28.44,Bilingual,,0,0,0,,{\fs42}第一，让产品融入客户现有的工作环境。\N{\fs32}The first is meeting customers where they are.
+Dialogue: 0,0:08:29.11,0:08:31.24,Bilingual,,0,0,0,,{\fs42}使用 Claude 有几种方式。\N{\fs32}There's a few ways to use Claude.
+Dialogue: 0,0:08:31.24,0:08:34.28,Bilingual,,0,0,0,,{\fs42}首先是通过我们自己的应用，例如 Claude Code，\N{\fs32}First is through our own applications, like Claude Code
+Dialogue: 0,0:08:34.28,0:08:36.32,Bilingual,,0,0,0,,{\fs42}或 Claude 桌面端、移动端应用。\N{\fs32}or the Claude desktop or mobile app.
+Dialogue: 0,0:08:36.32,0:08:40.24,Bilingual,,0,0,0,,{\fs42}此外，Claude 也可以在 Word、Excel 等企业应用中使用。\N{\fs32}But Claude is also available on enterprise applications like Word and Excel.
+Dialogue: 0,0:08:40.66,0:08:43.66,Bilingual,,0,0,0,,{\fs42}我们深入各个垂直领域，努力理解：\N{\fs32}We go deep into verticals and try to understand
+Dialogue: 0,0:08:43.87,0:08:48.75,Bilingual,,0,0,0,,{\fs42}这个领域的专家，需要什么才能立刻高效开展工作？\N{\fs32}what does an expert in this domain need to be successful immediately?
+Dialogue: 0,0:08:49.21,0:08:52.88,Bilingual,,0,0,0,,{\fs42}比如，面向律师，我们有 Claude for Legal 套件，\N{\fs32}For instance, if you're a lawyer, we have a Claude for Legal bundle,
+Dialogue: 0,0:08:52.88,0:08:55.88,Bilingual,,0,0,0,,{\fs42}可以直接连接他们需要的工具。\N{\fs32}which connects directly to the tools you need.
+Dialogue: 0,0:08:56.05,0:08:59.89,Bilingual,,0,0,0,,{\fs42}我们在每个领域都会这样思考。\N{\fs32}This is something we think about for every domain.
+Dialogue: 0,0:09:00.26,0:09:02.93,Bilingual,,0,0,0,,{\fs42}我们也提供面向医疗、金融\N{\fs32}We have bundles for healthcare, financial
+Dialogue: 0,0:09:02.93,0:09:05.94,Bilingual,,0,0,0,,{\fs42}服务、生命科学等领域的套件。\N{\fs32}services, life sciences, and more.
+Dialogue: 0,0:09:06.02,0:09:10.69,Bilingual,,0,0,0,,{\fs42}第二项原则是，模型与产品同步开发。\N{\fs32}Our second principle is that we build models and products side by side.
+Dialogue: 0,0:09:10.82,0:09:14.78,Bilingual,,0,0,0,,{\fs42}我们为未来的模型开发产品，而不仅服务于今天的模型。\N{\fs32}We develop products for tomorrow's models, not just today's.
+Dialogue: 0,0:09:15.20,0:09:18.91,Bilingual,,0,0,0,,{\fs42}Claude Code 就很好地说明了，这为什么重要。\N{\fs32}Claude Code is a great illustration of why that matters.
+Dialogue: 0,0:09:19.33,0:09:22.83,Bilingual,,0,0,0,,{\fs42}几年前，我们发现尚未发布的\N{\fs32}A couple of years ago, we could see that our prerelease
+Dialogue: 0,0:09:22.83,0:09:25.83,Bilingual,,0,0,0,,{\fs42}模型越来越擅长理解代码。\N{\fs32}models were getting better at understanding code.
+Dialogue: 0,0:09:25.87,0:09:28.96,Bilingual,,0,0,0,,{\fs42}当时还不能包办一切，但我们已经看到了趋势。\N{\fs32}Couldn't quite do it all yet, but we could see the trend line.
+Dialogue: 0,0:09:29.34,0:09:32.21,Bilingual,,0,0,0,,{\fs42}我们围绕这一判断开发产品，\N{\fs32}We built a product around that thinking
+Dialogue: 0,0:09:32.21,0:09:35.09,Bilingual,,0,0,0,,{\fs42}仅仅几个月后，Claude Code 就发布了。\N{\fs32}and Claude Code was launched just a few months later.
+Dialogue: 0,0:09:35.09,0:09:39.05,Bilingual,,0,0,0,,{\fs42}它让人们接触到一种全新的编程方式，\N{\fs32}That introduced people to an entirely new way of coding,
+Dialogue: 0,0:09:39.39,0:09:42.06,Bilingual,,0,0,0,,{\fs42}也重新认识了 AI 能做到什么。\N{\fs32}and of understanding what AI can do.
+Dialogue: 0,0:09:42.06,0:09:47.19,Bilingual,,0,0,0,,{\fs42}模型与产品的这种相互促进，是我们持续开发的长期优势。\N{\fs32}This flywheel between model and product is a durable advantage in how we build.
+Dialogue: 0,0:09:47.39,0:09:48.85,Bilingual,,0,0,0,,{\fs42}模型能力提高，\N{\fs32}The model gets better.
+Dialogue: 0,0:09:48.85,0:09:51.48,Bilingual,,0,0,0,,{\fs42}我们就利用这些进步开发新功能。\N{\fs32}We develop new features powered by those advancements.
+Dialogue: 0,0:09:51.48,0:09:53.65,Bilingual,,0,0,0,,{\fs42}然后继续训练模型，让它更擅长\N{\fs32}Then we train the models to get even better
+Dialogue: 0,0:09:53.65,0:09:57.28,Bilingual,,0,0,0,,{\fs42}完成人们想做的事，从而增强整个系统。\N{\fs32}at what people are trying to do, which reinforces the whole system.
+Dialogue: 0,0:09:57.66,0:10:00.20,Bilingual,,0,0,0,,{\fs42}编程如此，其他领域也是如此。\N{\fs32}And we do that in coding and beyond.
+Dialogue: 0,0:10:00.20,0:10:01.95,Bilingual,,0,0,0,,{\fs42}第三项原则是，\N{\fs32}Our third principle is that we
+Dialogue: 0,0:10:01.95,0:10:05.37,Bilingual,,0,0,0,,{\fs42}缩小前沿能力与客户日常使用之间的差距。\N{\fs32}close the gap between the frontier and customers day to day.
+Dialogue: 0,0:10:05.87,0:10:09.96,Bilingual,,0,0,0,,{\fs42}多数人仍将 AI 工具视为搜索的替代品，\N{\fs32}Most people still think about their AI tools as a replacement for search
+Dialogue: 0,0:10:09.96,0:10:13.17,Bilingual,,0,0,0,,{\fs42}或简单的问答工具。它当然能做这些，\N{\fs32}or a simple Q&A tool, and it can be those things.
+Dialogue: 0,0:10:13.50,0:10:17.05,Bilingual,,0,0,0,,{\fs42}但人们真正能用这种智能做到的事，\N{\fs32}But that understates the power of what people can really do
+Dialogue: 0,0:10:17.09,0:10:18.76,Bilingual,,0,0,0,,{\fs42}远不止于此。\N{\fs32}with this intelligence.
+Dialogue: 0,0:10:18.76,0:10:23.64,Bilingual,,0,0,0,,{\fs42}正是在这里，产品成为重要的竞争差异。\N{\fs32}This is where product becomes a meaningful competitive differentiator.
+Dialogue: 0,0:10:23.68,0:10:27.77,Bilingual,,0,0,0,,{\fs42}如果没有优秀的产品，不断提升的智能水平\N{\fs32}Without a strong product, the difference between growing intelligence
+Dialogue: 0,0:10:27.77,0:10:30.81,Bilingual,,0,0,0,,{\fs42}与用户实际使用水平之间的差距，只会越积越大。\N{\fs32}and where users are just keeps compounding.
+Dialogue: 0,0:10:31.06,0:10:35.19,Bilingual,,0,0,0,,{\fs42}我们认为，未来要让使用 Claude 尽可能简单、\N{\fs32}We think the future will involve making Claude feel as simple
+Dialogue: 0,0:10:35.19,0:10:40.03,Bilingual,,0,0,0,,{\fs42}自然，让任何地方的人都能像对待同事一样\N{\fs32}and natural as possible, so people everywhere can just treat Claude
+Dialogue: 0,0:10:40.07,0:10:44.62,Bilingual,,0,0,0,,{\fs42}与 Claude 协作，每次都获得高质量的结果。\N{\fs32}the same way you treat a colleague and get high quality output every time.
+Dialogue: 0,0:10:44.91,0:10:50.37,Bilingual,,0,0,0,,{\fs42}我们相信，这三项原则能让前沿智能惠及每个人。\N{\fs32}We think these three principles are how we bring frontier intelligence to everyone.
+Dialogue: 0,0:10:50.71,0:10:54.71,Bilingual,,0,0,0,,{\fs42}这就是我们所说的：赋予人们超能力。\N{\fs32}This is what we mean when we say we want to give people superpowers.
+Dialogue: 0,0:10:54.92,0:10:59.84,Bilingual,,0,0,0,,{\fs42}Claude 首先帮助你，把原本要做的事做得更好、更快。\N{\fs32}Claude starts by helping you do what you need to better and faster.
+Dialogue: 0,0:11:00.01,0:11:01.22,Bilingual,,0,0,0,,{\fs42}随后，它会承担起\N{\fs32}Then it takes on
+Dialogue: 0,0:11:01.22,0:11:05.06,Bilingual,,0,0,0,,{\fs42}那些你过去因为太难、根本不敢尝试的事。\N{\fs32}the things you never would have tried because they were just too hard.
+Dialogue: 0,0:11:05.26,0:11:09.85,Bilingual,,0,0,0,,{\fs42}未来，这意味着我们每个人都能做到过去不可能的事，\N{\fs32}And in the future, that means all of us doing what used to be impossible
+Dialogue: 0,0:11:10.23,0:11:13.44,Bilingual,,0,0,0,,{\fs42}从而过上更美好、更充实的生活。\N{\fs32}so we can all live better, fuller lives.
+Dialogue: 0,0:11:16.94,0:11:19.24,Bilingual,,0,0,0,,{\fs42}当我们发现 AI 的规模定律时，\N{\fs32}When we discovered scaling laws in AI,
+Dialogue: 0,0:11:19.24,0:11:22.91,Bilingual,,0,0,0,,{\fs42}我们意识到，AI 能力可以进步得非常快。\N{\fs32}we realized that AI capabilities could improve very fast.
+Dialogue: 0,0:11:23.16,0:11:26.99,Bilingual,,0,0,0,,{\fs42}所以我们创立了 Anthropic：确保 AI 如果成为\N{\fs32}That's why we founded Anthropic to ensure that if AI became
+Dialogue: 0,0:11:26.99,0:11:30.79,Bilingual,,0,0,0,,{\fs42}一项变革性技术，也能安全地造福人类。\N{\fs32}a transformational technology, it would be safe and beneficial.
+Dialogue: 0,0:11:30.87,0:11:35.25,Bilingual,,0,0,0,,{\fs42}我们的核心判断是，AI 将在这十年取得巨大进步。\N{\fs32}Our fundamental bet is that AI would make tremendous progress this decade.
+Dialogue: 0,0:11:35.38,0:11:38.46,Bilingual,,0,0,0,,{\fs42}这些变革性的能力，正是研究\N{\fs32}These transformational capabilities are why research
+Dialogue: 0,0:11:38.46,0:11:41.47,Bilingual,,0,0,0,,{\fs42}与安全必须同步推进的原因。\N{\fs32}and safety must advance together.
+Dialogue: 0,0:11:41.47,0:11:44.80,Bilingual,,0,0,0,,{\fs42}唯有如此，我们才能获得这项技术的益处。\N{\fs32}It's the only way we'll realize the benefits of the technology.
+Dialogue: 0,0:11:45.01,0:11:49.85,Bilingual,,0,0,0,,{\fs42}我们从三个维度评估模型：能力、效率，\N{\fs32}We assess our models across three dimensions: capability, efficiency,
+Dialogue: 0,0:11:50.10,0:11:51.48,Bilingual,,0,0,0,,{\fs42}以及安全性。\N{\fs32}and safety.
+Dialogue: 0,0:11:51.48,0:11:55.19,Bilingual,,0,0,0,,{\fs42}我们优化模型，让它能够准确地规划并完成复杂工作，\N{\fs32}We optimize our models to be able to plan and complete complex work
+Dialogue: 0,0:11:55.23,0:11:58.52,Bilingual,,0,0,0,,{\fs42}持续数小时，甚至数天。\N{\fs32}accurately, across hours and even days.
+Dialogue: 0,0:11:59.07,0:12:01.74,Bilingual,,0,0,0,,{\fs42}Opus 5.5 就是个很好的例子。\N{\fs32}A good example is Opus 5.5.
+Dialogue: 0,0:12:01.74,0:12:05.95,Bilingual,,0,0,0,,{\fs42}一位用户完成了涉及 68 万行代码的迁移，\N{\fs32}One of our users was able to complete a 680K-line code migration
+Dialogue: 0,0:12:05.95,0:12:06.95,Bilingual,,0,0,0,,{\fs42}用时不到一天。\N{\fs32}in less than a day.
+Dialogue: 0,0:12:06.95,0:12:10.29,Bilingual,,0,0,0,,{\fs42}而就在几年前，这需要一个工程团队花上数周。\N{\fs32}This would have taken an engineering team weeks just a few years ago.
+Dialogue: 0,0:12:10.45,0:12:14.71,Bilingual,,0,0,0,,{\fs42}我们认为，在这种高度重视准确性的长时间任务上，\N{\fs32}We think our models are the very best at this long horizon work where accuracy
+Dialogue: 0,0:12:14.71,0:12:15.96,Bilingual,,0,0,0,,{\fs42}我们的模型表现最为出色。\N{\fs32}really matters.
+Dialogue: 0,0:12:15.96,0:12:18.96,Bilingual,,0,0,0,,{\fs42}这种能力始于模型训练过程。\N{\fs32}The capability begins in the model training process.
+Dialogue: 0,0:12:19.13,0:12:23.34,Bilingual,,0,0,0,,{\fs42}在预训练阶段，模型从人类知识的总和中学习：\N{\fs32}In the pre-training phase, a model learns from the totality of human knowledge.
+Dialogue: 0,0:12:23.42,0:12:24.05,Bilingual,,0,0,0,,{\fs42}文本、\N{\fs32}Text.
+Dialogue: 0,0:12:24.05,0:12:27.05,Bilingual,,0,0,0,,{\fs42}图像、科学论文、代码。\N{\fs32}Images, scientific papers, code.
+Dialogue: 0,0:12:27.30,0:12:29.81,Bilingual,,0,0,0,,{\fs42}在这个阶段，它开始理解——\N{\fs32}This phase is where it comes to understand
+Dialogue: 0,0:12:29.81,0:12:32.81,Bilingual,,0,0,0,,{\fs42}人类的基本概念和思想。\N{\fs32}fundamental human concepts and ideas.
+Dialogue: 0,0:12:33.18,0:12:35.69,Bilingual,,0,0,0,,{\fs42}第二个阶段是强化学习。\N{\fs32}The second phase is reinforcement learning.
+Dialogue: 0,0:12:35.69,0:12:38.69,Bilingual,,0,0,0,,{\fs42}在这一阶段，Claude 学会做到有益、诚实、无害。\N{\fs32}This is where Claude learns to be helpful, honest, and harmless.
+Dialogue: 0,0:12:38.86,0:12:41.82,Bilingual,,0,0,0,,{\fs42}我们在这个阶段激发出它在编程、\N{\fs32}It's where we draw out useful capabilities
+Dialogue: 0,0:12:41.82,0:12:44.74,Bilingual,,0,0,0,,{\fs42}知识工作和科学研究中的实用能力。\N{\fs32}in coding, knowledge work, and science.
+Dialogue: 0,0:12:44.74,0:12:48.20,Bilingual,,0,0,0,,{\fs42}随着模型从对话助手发展为自主智能体，\N{\fs32}As models have moved from conversational assistance to autonomous agents,
+Dialogue: 0,0:12:48.24,0:12:49.83,Bilingual,,0,0,0,,{\fs42}强化学习已经成为\N{\fs32}reinforcement learning has evolved
+Dialogue: 0,0:12:49.83,0:12:52.91,Bilingual,,0,0,0,,{\fs42}我们研究投入最大的领域之一。\N{\fs32}into one of the largest areas of research investment.
+Dialogue: 0,0:12:53.08,0:12:55.46,Bilingual,,0,0,0,,{\fs42}这个领域对客户确实很重要。\N{\fs32}One that really matters to our customers.
+Dialogue: 0,0:12:55.46,0:12:58.13,Bilingual,,0,0,0,,{\fs42}2021 年，我写过一份内部备忘录，\N{\fs32}In 2021, I wrote an internal memo
+Dialogue: 0,0:12:58.13,0:13:03.22,Bilingual,,0,0,0,,{\fs42}提出我们最有可能做出的产品，是一个与人类意图对齐的 AI 程序员。\N{\fs32}outlining how our most likely product might be an aligned AI programmer.
+Dialogue: 0,0:13:03.34,0:13:07.01,Bilingual,,0,0,0,,{\fs42}我还写了很多其他设想，但这一条后来证明相当准确。\N{\fs32}I wrote a lot of other things too, but this one turned out to be pretty accurate.
+Dialogue: 0,0:13:07.09,0:13:10.35,Bilingual,,0,0,0,,{\fs42}Claude 的训练过程是 Anthropic 使命不可或缺的一部分。\N{\fs32}Claude's training process is integral to Anthropic's mission.
+Dialogue: 0,0:13:10.51,0:13:13.43,Bilingual,,0,0,0,,{\fs42}我们需要理解如何训练前沿智能，\N{\fs32}We need to understand how to train frontier intelligence
+Dialogue: 0,0:13:13.43,0:13:14.77,Bilingual,,0,0,0,,{\fs42}以及如何确保它的安全。\N{\fs32}and how to make it safe.
+Dialogue: 0,0:13:14.77,0:13:17.27,Bilingual,,0,0,0,,{\fs42}这也是我们实现 AI 价值的方式。\N{\fs32}And this is how we deliver the benefits of AI.
+Dialogue: 0,0:13:24.36,0:13:25.49,Bilingual,,0,0,0,,{\fs42}我们认为，AI\N{\fs32}We think that AI
+Dialogue: 0,0:13:25.49,0:13:29.62,Bilingual,,0,0,0,,{\fs42}能帮助我们将临床试验所需的时间缩短 20% 到 30%。\N{\fs32}will help us reduce the time to do a clinical trial by 20 to 30%.
+Dialogue: 0,0:13:29.66,0:13:33.79,Bilingual,,0,0,0,,{\fs42}如果一种药物能提前两三年上市，\N{\fs32}If you get a drug to market 2 or 3 years sooner, those are either cures
+Dialogue: 0,0:13:33.87,0:13:37.67,Bilingual,,0,0,0,,{\fs42}那些目前还没有治疗方案的患者，就能更早获得治疗，甚至治愈。\N{\fs32}or treatments that patients that actually don't have solutions can have sooner.
+Dialogue: 0,0:13:37.75,0:13:40.13,Bilingual,,0,0,0,,{\fs42}所以我们认为，这对患者来说意义重大。\N{\fs32}So we think it's actually a huge win for patients.
+Dialogue: 0,0:13:40.13,0:13:43.13,Bilingual,,0,0,0,,{\fs42}对百时美施贵宝（BMS）来说也是如此。\N{\fs32}And it's also a huge win for BMS.
+Dialogue: 0,0:13:43.38,0:13:45.34,Bilingual,,0,0,0,,{\fs42}我们选择 Anthropic 有几个原因。\N{\fs32}We chose Anthropic for a couple of reasons.
+Dialogue: 0,0:13:45.34,0:13:48.18,Bilingual,,0,0,0,,{\fs42}首先，它具备最成熟的企业级能力。\N{\fs32}One is they had the most mature enterprise capabilities.
+Dialogue: 0,0:13:48.18,0:13:51.18,Bilingual,,0,0,0,,{\fs42}拥有一个可以使用的聊天机器人是一回事，\N{\fs32}So it's one thing to have a chatbot that you can use.
+Dialogue: 0,0:13:51.18,0:13:54.10,Bilingual,,0,0,0,,{\fs42}但把它真正部署到企业环境中，\N{\fs32}It's a whole different thing to actually put it in an environment
+Dialogue: 0,0:13:54.10,0:13:56.14,Bilingual,,0,0,0,,{\fs42}让它能够访问公司一些\N{\fs32}where you're giving it access to some of the company's
+Dialogue: 0,0:13:56.14,0:14:00.40,Bilingual,,0,0,0,,{\fs42}最机密的信息，同时提供可观测能力、\N{\fs32}most confidential information, and you're able to do observability,
+Dialogue: 0,0:14:00.73,0:14:04.90,Bilingual,,0,0,0,,{\fs42}管理安全，并精细控制授予用户的权限，则完全是另一回事。\N{\fs32}manage the security, manage what the fine tune controls of what you give users.
+Dialogue: 0,0:14:04.90,0:14:07.36,Bilingual,,0,0,0,,{\fs42}这些企业级管控能力，\N{\fs32}So there's like the enterprise controls that you'd often
+Dialogue: 0,0:14:07.36,0:14:10.36,Bilingual,,0,0,0,,{\fs42}通常正是 IT 部门非常看重的。\N{\fs32}see that IT organizations really value a lot.
+Dialogue: 0,0:14:10.45,0:14:13.45,Bilingual,,0,0,0,,{\fs42}我们已向全体 3 万名员工推广使用。\N{\fs32}We rolled it out across all 30,000 of our employees.
+Dialogue: 0,0:14:13.74,0:14:14.95,Bilingual,,0,0,0,,{\fs42}在我们历来部署的 AI 工具中，\N{\fs32}This is the fastest,
+Dialogue: 0,0:14:14.95,0:14:19.25,Bilingual,,0,0,0,,{\fs42}它的普及速度最快，接受程度也最高。\N{\fs32}most well adopted AI tool in the history of what we rolled out.
+Dialogue: 0,0:14:19.33,0:14:22.38,Bilingual,,0,0,0,,{\fs42}现在，你可以提出一个非常复杂的问题，\N{\fs32}So now you can ask a very, very complicated question
+Dialogue: 0,0:14:22.54,0:14:23.54,Bilingual,,0,0,0,,{\fs42}它会逐步处理。\N{\fs32}and it will go through.
+Dialogue: 0,0:14:23.54,0:14:27.13,Bilingual,,0,0,0,,{\fs42}它会判断需要查询哪个或哪些数据库，\N{\fs32}It will figure out which database or databases, because it can actually
+Dialogue: 0,0:14:27.13,0:14:30.14,Bilingual,,0,0,0,,{\fs42}因为它实际上能跨数据库查询。\N{\fs32}cross those databases, can be queried.
+Dialogue: 0,0:14:30.22,0:14:31.55,Bilingual,,0,0,0,,{\fs42}然后，它会生成一份报告，\N{\fs32}And then it will produce a report
+Dialogue: 0,0:14:31.55,0:14:34.89,Bilingual,,0,0,0,,{\fs42}其中已经融入了流行病学方面的背景信息。\N{\fs32}that actually has the context of the epidemiology built right into it.
+Dialogue: 0,0:14:35.02,0:14:39.35,Bilingual,,0,0,0,,{\fs42}过去，回答一个简单问题通常需要一两个月，\N{\fs32}So that takes you from what would have typically taken 1 to 2 months
+Dialogue: 0,0:14:39.35,0:14:44.07,Bilingual,,0,0,0,,{\fs42}如今只要四五分钟就能得到答案。\N{\fs32}to get a simple question answered, to being able to get it in 4 to 5 minutes.
+Dialogue: 0,0:14:44.40,0:14:48.65,Bilingual,,0,0,0,,{\fs42}现在，借助高通量计算\N{\fs32}And we're now finally at a stage both with high throughput computation,
+Dialogue: 0,0:14:48.65,0:14:51.74,Bilingual,,0,0,0,,{\fs42}和大语言模型，我们终于能够扩大\N{\fs32}but also large language models where you're able to scale up
+Dialogue: 0,0:14:51.74,0:14:55.20,Bilingual,,0,0,0,,{\fs42}计算和分析的规模，以匹配更大规模的生物学研究，\N{\fs32}your computation, your analytics to match the better scale of biology
+Dialogue: 0,0:14:55.20,0:14:58.41,Bilingual,,0,0,0,,{\fs42}从而帮助我们制定决策，改善诊疗标准。\N{\fs32}that can help the way that you inform and change the standard of care.
+Dialogue: 0,0:15:02.00,0:15:02.75,Bilingual,,0,0,0,,{\fs42}想一想，\N{\fs32}Consider all the
+Dialogue: 0,0:15:02.75,0:15:05.75,Bilingual,,0,0,0,,{\fs42}前沿 AI 实验室为什么需要高效利用算力。\N{\fs32}reasons a frontier AI lab needs to use compute efficiently.
+Dialogue: 0,0:15:05.80,0:15:09.26,Bilingual,,0,0,0,,{\fs42}研究和模型训练的每个阶段都离不开算力。\N{\fs32}We use it at every stage of the research and model training process.
+Dialogue: 0,0:15:09.47,0:15:13.47,Bilingual,,0,0,0,,{\fs42}为客户提供模型服务，以及内部大规模使用 Claude，也都依赖算力。\N{\fs32}It's how we serve models to customers and how we use Claude at scale internally.
+Dialogue: 0,0:15:13.68,0:15:16.60,Bilingual,,0,0,0,,{\fs42}通过训练我们认为最高效的模型，\N{\fs32}By training what we believe to be the most efficient models,
+Dialogue: 0,0:15:16.60,0:15:19.48,Bilingual,,0,0,0,,{\fs42}就能用同样的算力，在这些方面完成更多工作。\N{\fs32}we can do more of all these things with the same amount of compute.
+Dialogue: 0,0:15:19.48,0:15:21.48,Bilingual,,0,0,0,,{\fs42}这也是我们降低成本的方式，\N{\fs32}It's also how we drive down costs,
+Dialogue: 0,0:15:21.48,0:15:24.73,Bilingual,,0,0,0,,{\fs42}既降低客户的成本，也降低我们自身的底层成本。\N{\fs32}both for customers as well as our own underlying costs.
+Dialogue: 0,0:15:24.98,0:15:28.32,Bilingual,,0,0,0,,{\fs42}我们正通过研究不断加快效率提升。\N{\fs32}We're accelerating these efficiency gains through our research process.
+Dialogue: 0,0:15:28.69,0:15:32.11,Bilingual,,0,0,0,,{\fs42}我们取得新发现的速度越来越快，而这种加速很大程度上\N{\fs32}Our pace of discovery is speeding up, and a lot of that acceleration
+Dialogue: 0,0:15:32.11,0:15:33.95,Bilingual,,0,0,0,,{\fs42}来自 Claude 本身。\N{\fs32}comes from Claude itself.
+Dialogue: 0,0:15:33.95,0:15:36.74,Bilingual,,0,0,0,,{\fs42}部署前沿模型时，安全至关重要。\N{\fs32}When you deploy frontier models, safety is critical.
+Dialogue: 0,0:15:36.74,0:15:38.16,Bilingual,,0,0,0,,{\fs42}正是这一理念让各位联合创始人\N{\fs32}This idea brought the co-founders
+Dialogue: 0,0:15:38.16,0:15:41.37,Bilingual,,0,0,0,,{\fs42}走到一起，也从一开始就成为 Anthropic 的根基。\N{\fs32}together, and it's been at the foundation of Anthropic from the beginning.
+Dialogue: 0,0:15:41.62,0:15:45.04,Bilingual,,0,0,0,,{\fs42}出色的安全能力，是管理组织风险和系统性风险的关键。\N{\fs32}Excellence in safety is how you manage organizational and systemic risk.
+Dialogue: 0,0:15:45.17,0:15:47.30,Bilingual,,0,0,0,,{\fs42}它让我们能够安全地将前沿能力应用于\N{\fs32}It's how you safely enable frontier capabilities
+Dialogue: 0,0:15:47.30,0:15:50.97,Bilingual,,0,0,0,,{\fs42}编程、医学等领域，也深受客户重视。\N{\fs32}in fields like coding and medicine, and it's valued by our customers.
+Dialogue: 0,0:15:51.17,0:15:54.05,Bilingual,,0,0,0,,{\fs42}它让客户有足够的信心，把重要工作交给 AI。\N{\fs32}It gives them the trust they need to point AI at important work.
+Dialogue: 0,0:15:54.05,0:15:56.51,Bilingual,,0,0,0,,{\fs42}我们将安全融入每一个阶段。\N{\fs32}We build safety in at every stage.
+Dialogue: 0,0:15:56.51,0:15:59.22,Bilingual,,0,0,0,,{\fs42}通过对齐训练，我们让模型学会遵循用户意图，\N{\fs32}Through alignment training, we train models to follow user intent
+Dialogue: 0,0:15:59.22,0:16:01.06,Bilingual,,0,0,0,,{\fs42}避免采取有害行动。\N{\fs32}and avoid taking harmful actions.
+Dialogue: 0,0:16:01.06,0:16:04.06,Bilingual,,0,0,0,,{\fs42}我们也内置适当的防护措施，以防止滥用。\N{\fs32}And we build in the right safeguards aimed at preventing misuse.
+Dialogue: 0,0:16:04.48,0:16:06.65,Bilingual,,0,0,0,,{\fs42}我们还在可解释性等领域开展开创性研究，\N{\fs32}We also pioneer fields like interpretability,
+Dialogue: 0,0:16:06.65,0:16:09.65,Bilingual,,0,0,0,,{\fs42}帮助我们理解模型的“大脑”内部究竟发生了什么。\N{\fs32}which gives us insight into what's happening inside the model's brain.
+Dialogue: 0,0:16:09.78,0:16:10.90,Bilingual,,0,0,0,,{\fs42}在 Anthropic 内部，\N{\fs32}Within Anthropic,
+Dialogue: 0,0:16:10.90,0:16:14.53,Bilingual,,0,0,0,,{\fs42}我们越来越多地利用前沿模型改进自身流程。\N{\fs32}we increasingly turn frontier models back on improving our own processes.
+Dialogue: 0,0:16:14.66,0:16:16.70,Bilingual,,0,0,0,,{\fs42}我们称之为形成闭环，\N{\fs32}We call this closing the loop,
+Dialogue: 0,0:16:16.70,0:16:19.49,Bilingual,,0,0,0,,{\fs42}它推动着我们的三项研究重点共同向前发展。\N{\fs32}and it drives forward all three of our research priorities.
+Dialogue: 0,0:16:19.49,0:16:22.20,Bilingual,,0,0,0,,{\fs42}在这些工作中，Claude 越来越像一个与我们平等的合作伙伴。\N{\fs32}Claude is increasingly our equal partner here.
+Dialogue: 0,0:16:22.20,0:16:25.21,Bilingual,,0,0,0,,{\fs42}Claude 越强，就越能帮助我们完成各项工作。\N{\fs32}The better Claude gets, the more it helps us with all of our work.
+Dialogue: 0,0:16:25.25,0:16:26.67,Bilingual,,0,0,0,,{\fs42}它能提升我们的安全防护能力，\N{\fs32}It improves our security.
+Dialogue: 0,0:16:26.67,0:16:28.71,Bilingual,,0,0,0,,{\fs42}让训练和推理更高效，\N{\fs32}It makes training and inference more efficient.
+Dialogue: 0,0:16:28.71,0:16:30.26,Bilingual,,0,0,0,,{\fs42}推进 AI 安全研究，\N{\fs32}It drives safety work.
+Dialogue: 0,0:16:30.26,0:16:33.05,Bilingual,,0,0,0,,{\fs42}帮助我们更快地尝试更多研究思路，\N{\fs32}It helps us try out more research ideas more quickly,
+Dialogue: 0,0:16:33.05,0:16:35.47,Bilingual,,0,0,0,,{\fs42}也让整个组织更加高效。\N{\fs32}and it makes the whole organization more effective.
+Dialogue: 0,0:16:35.47,0:16:38.14,Bilingual,,0,0,0,,{\fs42}我们最重要的工作还在前方。\N{\fs32}Our most important work is still ahead
+Dialogue: 0,0:16:38.14,0:16:40.72,Bilingual,,0,0,0,,{\fs42}只要持续推动研究与安全齐头并进，\N{\fs32}if we keep research and safety advancing together.
+Dialogue: 0,0:16:40.72,0:16:43.60,Bilingual,,0,0,0,,{\fs42}我们相信，就能帮助实现\N{\fs32}We believe that we can help bring about some of the most significant
+Dialogue: 0,0:16:43.60,0:16:45.10,Bilingual,,0,0,0,,{\fs42}人类历史上一些最重大的突破。\N{\fs32}breakthroughs in human history.
+Dialogue: 0,0:16:51.61,0:16:54.86,Bilingual,,0,0,0,,{\fs42}取一个数，让它翻倍，再翻倍。\N{\fs32}Take a number and double it and double that.
+Dialogue: 0,0:16:54.86,0:16:56.78,Bilingual,,0,0,0,,{\fs42}然后继续翻倍。\N{\fs32}Then double that.
+Dialogue: 0,0:16:56.78,0:17:00.58,Bilingual,,0,0,0,,{\fs42}这条曲线，正是 Anthropic 所做工作的核心。\N{\fs32}That curve is really at the heart of what we do at Anthropic.
+Dialogue: 0,0:17:01.87,0:17:05.83,Bilingual,,0,0,0,,{\fs42}我们很早就注意到，模型性能似乎会随着算力增加，\N{\fs32}We noticed early on that performance seemed to scale very smoothly
+Dialogue: 0,0:17:05.83,0:17:08.84,Bilingual,,0,0,0,,{\fs42}呈现非常平滑的提升。\N{\fs32}with compute.
+Dialogue: 0,0:17:10.42,0:17:11.13,Bilingual,,0,0,0,,{\fs42}我们当时的判断是，\N{\fs32}Our bet
+Dialogue: 0,0:17:11.13,0:17:14.47,Bilingual,,0,0,0,,{\fs42}既然有整个互联网那么丰富的信息，\N{\fs32}was there is a whole internet's worth of context.
+Dialogue: 0,0:17:15.01,0:17:18.97,Bilingual,,0,0,0,,{\fs42}如果模型规模不再构成限制，会怎么样？\N{\fs32}What if the limiting factor of model size just went away?
+Dialogue: 0,0:17:20.64,0:17:23.97,Bilingual,,0,0,0,,{\fs42}到了 2022 年、2023 年，我们有了聊天机器人。\N{\fs32}So in 2022 or 23, we had chatbots.
+Dialogue: 0,0:17:25.44,0:17:27.77,Bilingual,,0,0,0,,{\fs42}你可以请它介绍日本武士的历史，\N{\fs32}You could ask them for a history of the samurai, and
+Dialogue: 0,0:17:27.77,0:17:30.77,Bilingual,,0,0,0,,{\fs42}它会给你一篇短文。\N{\fs32}it would come back with a little essay.
+Dialogue: 0,0:17:31.69,0:17:33.03,Bilingual,,0,0,0,,{\fs42}到了 2024 年，\N{\fs32}In 2024,
+Dialogue: 0,0:17:33.03,0:17:37.66,Bilingual,,0,0,0,,{\fs42}模型可以编程了，但 Claude 处理难题时仍然吃力。\N{\fs32}coding becomes possible, but Claude still struggles on hard problems.
+Dialogue: 0,0:17:38.78,0:17:43.49,Bilingual,,0,0,0,,{\fs42}到了 2025 年，模型开始能完成一些令人意想不到的事情。\N{\fs32}In 2025, the models start to be able to do surprising things.
+Dialogue: 0,0:17:43.91,0:17:46.04,Bilingual,,0,0,0,,{\fs42}编程能力大幅提升。\N{\fs32}Coding gets much better.
+Dialogue: 0,0:17:46.04,0:17:49.71,Bilingual,,0,0,0,,{\fs42}Claude 甚至能玩电子游戏，虽然玩得很差。\N{\fs32}Claude can even play video games quite badly.
+Dialogue: 0,0:17:50.92,0:17:52.84,Bilingual,,0,0,0,,{\fs42}同一年，它在 OpenBSD 中发现了一个漏洞，\N{\fs32}This same year, it found a flaw
+Dialogue: 0,0:17:52.84,0:17:56.72,Bilingual,,0,0,0,,{\fs42}这个漏洞此前 27 年都无人察觉。\N{\fs32}in OpenBSD that had gone unnoticed for 27 years.
+Dialogue: 0,0:17:59.64,0:18:02.64,Bilingual,,0,0,0,,{\fs42}突然之间，它能够执行多步骤流程了，\N{\fs32}Suddenly it can do multi-step processes.
+Dialogue: 0,0:18:03.22,0:18:05.98,Bilingual,,0,0,0,,{\fs42}能够从事知识工作了。\N{\fs32}Knowledge work.
+Dialogue: 0,0:18:05.98,0:18:10.23,Bilingual,,0,0,0,,{\fs42}它为一家量子计算公司构建了激光锁定控制器，\N{\fs32}It builds a controller for laser locks at a quantum computer company,
+Dialogue: 0,0:18:10.48,0:18:14.73,Bilingual,,0,0,0,,{\fs42}这项任务过去需要一组博士花一周时间才能完成。\N{\fs32}a task that used to take a team of people with PhDs a week.
+Dialogue: 0,0:18:15.07,0:18:17.82,Bilingual,,0,0,0,,{\fs42}而它无需人工介入，\N{\fs32}And it does this without human intervention
+Dialogue: 0,0:18:17.82,0:18:20.82,Bilingual,,0,0,0,,{\fs42}一夜之间就完成了。\N{\fs32}overnight.
+Dialogue: 0,0:18:20.87,0:18:21.82,Bilingual,,0,0,0,,{\fs42}我们开始看到\N{\fs32}We start to see
+Dialogue: 0,0:18:21.82,0:18:24.83,Bilingual,,0,0,0,,{\fs42}Claude 在数学上作出基础性发现，\N{\fs32}Claude making fundamental discoveries in math,
+Dialogue: 0,0:18:25.04,0:18:28.04,Bilingual,,0,0,0,,{\fs42}投身生命科学的前沿研究。\N{\fs32}working at the frontier of life science.
+Dialogue: 0,0:18:28.54,0:18:31.54,Bilingual,,0,0,0,,{\fs42}这样的加速可能令人应接不暇，\N{\fs32}This acceleration can be disorienting,
+Dialogue: 0,0:18:32.21,0:18:35.76,Bilingual,,0,0,0,,{\fs42}但我们仍然觉得，自己才刚刚起步。\N{\fs32}but there's still this sense that we're just setting out.
+Dialogue: 0,0:18:35.84,0:18:39.26,Bilingual,,0,0,0,,{\fs42}这条指数曲线正向前上方延伸，\N{\fs32}That exponential curve stretches up ahead of us,
+Dialogue: 0,0:18:39.76,0:18:42.76,Bilingual,,0,0,0,,{\fs42}而这一切才刚刚开始。\N{\fs32}and it's only just begun.
+Dialogue: 0,0:18:46.60,0:18:48.60,Bilingual,,0,0,0,,{\fs42}要实现 Anthropic 的使命，\N{\fs32}Achieving Anthropic's mission requires
+Dialogue: 0,0:18:48.60,0:18:52.19,Bilingual,,0,0,0,,{\fs42}我们就必须保持在前沿，而保持前沿地位离不开算力。\N{\fs32}staying at the frontier and staying at the frontier depends on compute.
+Dialogue: 0,0:18:52.23,0:18:54.69,Bilingual,,0,0,0,,{\fs42}我们在这方面的思路，源于我\N{\fs32}Our approach here goes back to research that I did
+Dialogue: 0,0:18:54.69,0:18:57.49,Bilingual,,0,0,0,,{\fs42}和另外几位联合创始人对规模定律的研究。\N{\fs32}with several of my other co-founders on scaling laws.
+Dialogue: 0,0:18:57.49,0:18:59.40,Bilingual,,0,0,0,,{\fs42}我们发现，只要方法正确，\N{\fs32}We found that with the right recipe,
+Dialogue: 0,0:18:59.40,0:19:03.20,Bilingual,,0,0,0,,{\fs42}增加算力就能可靠且可预测地提升智能水平。\N{\fs32}more compute reliably and predictably yields more intelligence.
+Dialogue: 0,0:19:03.24,0:19:06.87,Bilingual,,0,0,0,,{\fs42}后来，我们发现还可以持续改进这套方法，\N{\fs32}Later, we found that it was possible to improve this recipe over time
+Dialogue: 0,0:19:06.95,0:19:10.54,Bilingual,,0,0,0,,{\fs42}用同样的物理算力获得更高的智能水平。\N{\fs32}to achieve more intelligence with the same amount of physical compute.
+Dialogue: 0,0:19:10.66,0:19:14.42,Bilingual,,0,0,0,,{\fs42}因此，2021 年创立 Anthropic 时，我们已经明确了两点：\N{\fs32}So by the time we started Anthropic in 2021, we knew two things:
+Dialogue: 0,0:19:14.63,0:19:18.51,Bilingual,,0,0,0,,{\fs42}第一，算力是业务的基础；第二，充分发挥\N{\fs32}one, compute is the foundation of the business, and two, getting the most
+Dialogue: 0,0:19:18.51,0:19:22.55,Bilingual,,0,0,0,,{\fs42}每一单位算力的价值，是打造越来越智能的模型的关键。\N{\fs32}out of every unit of compute is key to making increasingly intelligent models.
+Dialogue: 0,0:19:22.59,0:19:26.10,Bilingual,,0,0,0,,{\fs42}这就是我们如此重视效率的原因。我们也因此相信，\N{\fs32}That's why we're so focused on efficiency, and it's why we believe a dollar
+Dialogue: 0,0:19:26.10,0:19:30.18,Bilingual,,0,0,0,,{\fs42}在 Anthropic 投入一美元算力，比在其他任何前沿实验室都更有效。\N{\fs32}of compute at Anthropic goes further than a dollar at any other frontier lab.
+Dialogue: 0,0:19:30.27,0:19:32.52,Bilingual,,0,0,0,,{\fs42}我们通过两种方式建立了这一优势。\N{\fs32}We've achieved that advantage in two ways.
+Dialogue: 0,0:19:32.52,0:19:33.94,Bilingual,,0,0,0,,{\fs42}先说第一种：\N{\fs32}I'll start with the first.
+Dialogue: 0,0:19:33.94,0:19:37.36,Bilingual,,0,0,0,,{\fs42}我们拥有一套自主研发的芯片适配和部署方法。\N{\fs32}Our proprietary approach to bringing up and deploying silicon.
+Dialogue: 0,0:19:37.65,0:19:41.61,Bilingual,,0,0,0,,{\fs42}如今，我们在四大类芯片上训练 Claude 并提供服务。\N{\fs32}We train and serve Claude now across all four major chip families.
+Dialogue: 0,0:19:41.82,0:19:45.49,Bilingual,,0,0,0,,{\fs42}之所以能做到，是因为我们很早就做出了一个非主流的选择：\N{\fs32}That's only possible because early on, we made an unconventional bet
+Dialogue: 0,0:19:45.53,0:19:47.58,Bilingual,,0,0,0,,{\fs42}采用多芯片策略。\N{\fs32}on a multi chip strategy.
+Dialogue: 0,0:19:47.58,0:19:51.21,Bilingual,,0,0,0,,{\fs42}当时，很多人认为，让 AI 模型在不同芯片上运行，\N{\fs32}At the time, many people thought that running AI models on different chips
+Dialogue: 0,0:19:51.21,0:19:52.75,Bilingual,,0,0,0,,{\fs42}并不值得投入那么多精力。\N{\fs32}wasn't worth the effort.
+Dialogue: 0,0:19:52.75,0:19:56.04,Bilingual,,0,0,0,,{\fs42}每一种芯片都需要专门适配的软件栈和推理栈，\N{\fs32}Each chip needs its own tailored software stack and inference
+Dialogue: 0,0:19:56.04,0:19:59.05,Bilingual,,0,0,0,,{\fs42}而构建这些系统既昂贵又困难。\N{\fs32}stack, which is expensive and difficult to build.
+Dialogue: 0,0:19:59.09,0:20:02.55,Bilingual,,0,0,0,,{\fs42}如今，我们已经积累了多年经验，并且非常擅长这项工作。\N{\fs32}We've now been doing it for years, and we've gotten incredibly good at it.
+Dialogue: 0,0:20:02.84,0:20:06.85,Bilingual,,0,0,0,,{\fs42}这带来了两项关键优势。在算力供应紧张的市场中，\N{\fs32}This comes with two key advantages. In a supply-constrained compute market,
+Dialogue: 0,0:20:06.85,0:20:08.47,Bilingual,,0,0,0,,{\fs42}多芯片策略\N{\fs32}our multi-silicon strategy
+Dialogue: 0,0:20:08.47,0:20:12.31,Bilingual,,0,0,0,,{\fs42}让我们能够专注于最佳性价比，而不受供应商限制。\N{\fs32}allows us to focus on the best price performance regardless of the provider.
+Dialogue: 0,0:20:12.44,0:20:15.44,Bilingual,,0,0,0,,{\fs42}我们可以把每种芯片用在它最擅长的任务上。\N{\fs32}We can match each chip to the job that it's best at.
+Dialogue: 0,0:20:15.69,0:20:18.44,Bilingual,,0,0,0,,{\fs42}有的更适合训练，有的更适合推理。\N{\fs32}Some are better at training, some are better at inference.
+Dialogue: 0,0:20:18.44,0:20:22.44,Bilingual,,0,0,0,,{\fs42}借助多芯片策略，我们可以把来自不同\N{\fs32}Our multi-silicon chip strategy means we can treat all of our chips across
+Dialogue: 0,0:20:22.44,0:20:27.41,Bilingual,,0,0,0,,{\fs42}供应商、架构和地点的所有芯片，视为一个可灵活调配的算力池。\N{\fs32}providers, architectures and locations as one fungible pool of compute.
+Dialogue: 0,0:20:27.78,0:20:30.79,Bilingual,,0,0,0,,{\fs42}这也让我们非常擅长适配新芯片。\N{\fs32}This has also made us really good at bringing up new chips.
+Dialogue: 0,0:20:30.79,0:20:32.25,Bilingual,,0,0,0,,{\fs42}举个例子，今年\N{\fs32}As an example, this year
+Dialogue: 0,0:20:32.25,0:20:36.29,Bilingual,,0,0,0,,{\fs42}我们首次开始使用 AMD GPU。过去，\N{\fs32}we started working with AMD GPUs for the first time. In the past,
+Dialogue: 0,0:20:36.33,0:20:40.09,Bilingual,,0,0,0,,{\fs42}适配一个新的芯片平台，需要数十位工程师工作数月。\N{\fs32}bringing on a new chip platform took dozens of engineers months of work.
+Dialogue: 0,0:20:40.51,0:20:42.72,Bilingual,,0,0,0,,{\fs42}这一次，我们让 Mythos 来试一试。\N{\fs32}This time we had Mythos try it out.
+Dialogue: 0,0:20:42.72,0:20:46.30,Bilingual,,0,0,0,,{\fs42}结果只用了三天，它就让 Claude 在 AMD 芯片上运行起来，\N{\fs32}It got Claude running on AMD in just three days with basically
+Dialogue: 0,0:20:46.30,0:20:47.85,Bilingual,,0,0,0,,{\fs42}而且基本没有人工介入。\N{\fs32}no human intervention.
+Dialogue: 0,0:20:47.85,0:20:50.97,Bilingual,,0,0,0,,{\fs42}几乎 100% 的计算内核都由 Claude 移植或编写。\N{\fs32}Claude ported or wrote almost 100% of the kernels.
+Dialogue: 0,0:20:51.27,0:20:54.60,Bilingual,,0,0,0,,{\fs42}对于承载这些芯片的数据中心，我们也有独特的策略。\N{\fs32}We also have a distinct approach to the data centers that house our chips.
+Dialogue: 0,0:20:54.94,0:20:57.77,Bilingual,,0,0,0,,{\fs42}过去，我们以云服务的形式购买算力。\N{\fs32}Historically, we bought compute as a cloud service.
+Dialogue: 0,0:20:57.77,0:21:00.44,Bilingual,,0,0,0,,{\fs42}如今，我们增加了第二种方式：租用芯片，\N{\fs32}We've now added a second approach where we lease chips
+Dialogue: 0,0:21:00.44,0:21:03.44,Bilingual,,0,0,0,,{\fs42}并在专门为我们设计和建造的数据中心里运行。\N{\fs32}and run them in purpose built data centers designed for us.
+Dialogue: 0,0:21:03.57,0:21:05.90,Bilingual,,0,0,0,,{\fs42}我们称之为 Anthropic Direct。\N{\fs32}We call this Anthropic Direct.
+Dialogue: 0,0:21:05.90,0:21:08.20,Bilingual,,0,0,0,,{\fs42}这种方式给我们带来了几个优势。\N{\fs32}That approach has a couple advantages for us.
+Dialogue: 0,0:21:08.20,0:21:11.12,Bilingual,,0,0,0,,{\fs42}它有助于降低算力的总拥有成本，\N{\fs32}It helps to lower the total cost of ownership of compute,
+Dialogue: 0,0:21:11.12,0:21:14.87,Bilingual,,0,0,0,,{\fs42}也让我们可以将数据中心和芯片的投入承诺分开安排。\N{\fs32}and allows us to separate the commitment to data centers from the chips.
+Dialogue: 0,0:21:15.29,0:21:18.63,Bilingual,,0,0,0,,{\fs42}我们算力优势的第二个来源，是发现\N{\fs32}The second driver of our compute advantage is our rate of discovery
+Dialogue: 0,0:21:18.63,0:21:20.09,Bilingual,,0,0,0,,{\fs42}算力增效方法的速度。\N{\fs32}of compute multipliers.
+Dialogue: 0,0:21:20.09,0:21:24.09,Bilingual,,0,0,0,,{\fs42}我们关注的是总有效算力，它等于\N{\fs32}We focus on total effective compute, which is the multiplicative product
+Dialogue: 0,0:21:24.09,0:21:27.84,Bilingual,,0,0,0,,{\fs42}物理算力容量，乘以我们发现的算力增效倍数。\N{\fs32}of physical capacity, times the compute multipliers that we discover.
+Dialogue: 0,0:21:28.09,0:21:32.31,Bilingual,,0,0,0,,{\fs42}每发现一种增效方法，我们的总有效算力池就会扩大。\N{\fs32}Each one we discover makes our pool of total effective compute bigger.
+Dialogue: 0,0:21:32.47,0:21:33.31,Bilingual,,0,0,0,,{\fs42}例如，\N{\fs32}For example,
+Dialogue: 0,0:21:33.31,0:21:37.02,Bilingual,,0,0,0,,{\fs42}假设训练一个达到特定智能水平的模型，需要 100 单位算力。\N{\fs32}say you need 100 units of compute to train a model of a certain intelligence.
+Dialogue: 0,0:21:37.27,0:21:40.82,Bilingual,,0,0,0,,{\fs42}一种能让有效算力达到原来 4 倍的方法，意味着只需 25 单位算力，\N{\fs32}A 4x compute multiplier means you can use 25 units of compute
+Dialogue: 0,0:21:40.82,0:21:42.44,Bilingual,,0,0,0,,{\fs42}就能训练出完全相同的模型。\N{\fs32}to train the exact same model.
+Dialogue: 0,0:21:42.44,0:21:46.61,Bilingual,,0,0,0,,{\fs42}或者，你可以用这 100 单位物理算力，训练出一个更智能的模型，\N{\fs32}Or you can use those 100 physical units to train an even more intelligent model
+Dialogue: 0,0:21:46.70,0:21:49.70,Bilingual,,0,0,0,,{\fs42}而过去训练这个模型需要 400 单位算力。\N{\fs32}that would have previously required 400 units.
+Dialogue: 0,0:21:49.70,0:21:53.54,Bilingual,,0,0,0,,{\fs42}这些算力增效方法为我们创造了难以复制的竞争优势。\N{\fs32}Compute multipliers create a competitive advantage for us that's hard to replicate.
+Dialogue: 0,0:21:53.54,0:21:54.79,Bilingual,,0,0,0,,{\fs42}它们能在彼此的基础上不断积累。\N{\fs32}They build on each other.
+Dialogue: 0,0:21:54.79,0:21:56.00,Bilingual,,0,0,0,,{\fs42}我们发现的每一种新的增效方法，\N{\fs32}Each new multiplier we
+Dialogue: 0,0:21:56.00,0:21:59.92,Bilingual,,0,0,0,,{\fs42}都会对之前的方法产生正面作用，它们可以叠加。\N{\fs32}discover has a positive effect on the multipliers before it. They stack.
+Dialogue: 0,0:21:59.96,0:22:01.59,Bilingual,,0,0,0,,{\fs42}我们相信，随着逐步接近递归式自我改进，\N{\fs32}We believe that this can accelerate
+Dialogue: 0,0:22:01.59,0:22:04.59,Bilingual,,0,0,0,,{\fs42}这一过程还能进一步加速。\N{\fs32}even further as we approach recursive self-improvement.
+Dialogue: 0,0:22:04.63,0:22:08.18,Bilingual,,0,0,0,,{\fs42}Claude 将能够完全自主地发现算力增效方法，\N{\fs32}Claude will be able to discover compute multipliers entirely by itself,
+Dialogue: 0,0:22:08.38,0:22:11.89,Bilingual,,0,0,0,,{\fs42}让这类方法的数量增长得越来越快。\N{\fs32}allowing the number of compute multipliers to grow faster and faster.
+Dialogue: 0,0:22:12.18,0:22:14.56,Bilingual,,0,0,0,,{\fs42}我们相信，明智的投资、\N{\fs32}We believe this combination of smart investments,
+Dialogue: 0,0:22:14.56,0:22:17.56,Bilingual,,0,0,0,,{\fs42}突破性的研究，以及 Claude 不断提升的能力相结合，\N{\fs32}breakthrough research, and the improving capabilities of Claude
+Dialogue: 0,0:22:17.60,0:22:20.98,Bilingual,,0,0,0,,{\fs42}已使 Anthropic 在前沿实验室中处于领先地位。\N{\fs32}have put Anthropic in a leading position among the frontier labs.
+Dialogue: 0,0:22:26.32,0:22:27.24,Bilingual,,0,0,0,,{\fs42}AI 是\N{\fs32}AI is
+Dialogue: 0,0:22:27.24,0:22:31.20,Bilingual,,0,0,0,,{\fs42}一项突破性创新，但唯有重塑业务，\N{\fs32}a breakthrough innovation, but only reinvention
+Dialogue: 0,0:22:31.20,0:22:34.87,Bilingual,,0,0,0,,{\fs42}才能实现 AI 所承诺的价值。\N{\fs32}is going to get the value that AI promises.
+Dialogue: 0,0:22:35.08,0:22:38.66,Bilingual,,0,0,0,,{\fs42}在埃森哲，我们的工作就是架起一座桥梁，将技术\N{\fs32}At Accenture, our job is to be the bridge between technology
+Dialogue: 0,0:22:38.66,0:22:41.67,Bilingual,,0,0,0,,{\fs42}转化为客户切实的成果。\N{\fs32}and real outcomes for our clients.
+Dialogue: 0,0:22:42.13,0:22:45.46,Bilingual,,0,0,0,,{\fs42}我很喜欢别人问我们是否在用 Claude，\N{\fs32}I love the question about, you know, are we using Claude
+Dialogue: 0,0:22:45.46,0:22:49.76,Bilingual,,0,0,0,,{\fs42}因为我们每天都有数万名工程师在使用它。\N{\fs32}because we have tens of thousands of engineers using it every day?
+Dialogue: 0,0:22:49.88,0:22:53.22,Bilingual,,0,0,0,,{\fs42}我们在整个软件开发生命周期中使用它，\N{\fs32}We use it across our entire software development lifecycle,
+Dialogue: 0,0:22:53.30,0:22:54.72,Bilingual,,0,0,0,,{\fs42}它让我们腾出了更多时间。\N{\fs32}and it frees up time.
+Dialogue: 0,0:22:54.72,0:22:56.56,Bilingual,,0,0,0,,{\fs42}它让我们推进得更快，\N{\fs32}It makes us go faster and
+Dialogue: 0,0:22:56.56,0:23:00.77,Bilingual,,0,0,0,,{\fs42}也让工程师有更多时间专注于解决客户的\N{\fs32}allows our engineers to spend more time focusing on solving our clients'
+Dialogue: 0,0:23:00.77,0:23:04.57,Bilingual,,0,0,0,,{\fs42}难题、主导决策和制定战略。\N{\fs32}challenges, leading decision making, and setting strategy.
+Dialogue: 0,0:23:05.32,0:23:10.20,Bilingual,,0,0,0,,{\fs42}我们为数千家客户抵御网络攻击，\N{\fs32}We defend thousands of our clients from cyber attacks,
+Dialogue: 0,0:23:10.20,0:23:15.08,Bilingual,,0,0,0,,{\fs42}并将 Claude Code 和 Claude 智能体软件开发工具包，\N{\fs32}and we've paired Claude Code and Claude's agent software development kit with
+Dialogue: 0,0:23:15.28,0:23:20.00,Bilingual,,0,0,0,,{\fs42}与用于保护客户的前沿平台 Cyber.AI 结合起来。\N{\fs32}Cyber.AI, our cutting-edge platform that we use to help protect our clients.
+Dialogue: 0,0:23:20.04,0:23:21.96,Bilingual,,0,0,0,,{\fs42}使用这套方案带来的成果之一是，\N{\fs32}Just one result of using this
+Dialogue: 0,0:23:21.96,0:23:25.67,Bilingual,,0,0,0,,{\fs42}过去需要数天的扫描，如今不到一小时就能完成。\N{\fs32}is that we can now do scans that used to take days in under an hour.
+Dialogue: 0,0:23:25.84,0:23:30.84,Bilingual,,0,0,0,,{\fs42}我们重视客户的成功与安全，也相信\N{\fs32}We are focused on our clients' success and safety, and our mindset
+Dialogue: 0,0:23:30.88,0:23:35.80,Bilingual,,0,0,0,,{\fs42}双方的合作能让客户更快获得实际价值。\N{\fs32}is that because of our partnership, our clients can get to value faster.
+Dialogue: 0,0:23:40.68,0:23:43.06,Bilingual,,0,0,0,,{\fs42}我们最初的判断是，智能\N{\fs32}The early bet we made was that intelligence
+Dialogue: 0,0:23:43.06,0:23:46.11,Bilingual,,0,0,0,,{\fs42}是企业能从 AI 中获得的最有价值的资产。\N{\fs32}was the highest value asset that a business could get from AI.
+Dialogue: 0,0:23:46.52,0:23:49.90,Bilingual,,0,0,0,,{\fs42}我们相信，前沿智能能解决最棘手的问题，\N{\fs32}We believe frontier intelligence solves the toughest problems,
+Dialogue: 0,0:23:49.94,0:23:53.62,Bilingual,,0,0,0,,{\fs42}因此也能带来最大的影响。\N{\fs32}and for that reason it drives the biggest impact.
+Dialogue: 0,0:23:53.91,0:23:56.58,Bilingual,,0,0,0,,{\fs42}AI 能力的提升并不是渐进的。\N{\fs32}AI capability doesn't improve gradually.
+Dialogue: 0,0:23:56.58,0:24:00.62,Bilingual,,0,0,0,,{\fs42}当模型跨过某个门槛，就会发生跃升，\N{\fs32}When models cross a certain threshold, there is a step change
+Dialogue: 0,0:24:00.75,0:24:04.08,Bilingual,,0,0,0,,{\fs42}让整类工作的完成方式都发生变化。\N{\fs32}and an entire category of work is done differently.
+Dialogue: 0,0:24:04.83,0:24:07.71,Bilingual,,0,0,0,,{\fs42}编程是我们最熟悉的例子。\N{\fs32}Coding is the example we're most familiar with.
+Dialogue: 0,0:24:07.71,0:24:10.01,Bilingual,,0,0,0,,{\fs42}这种变化的速度令人惊叹。\N{\fs32}The speed of the change is remarkable.
+Dialogue: 0,0:24:10.01,0:24:13.26,Bilingual,,0,0,0,,{\fs42}仅用一年，我们就从自动补全几行代码，\N{\fs32}We went from autocomplete a few lines of code
+Dialogue: 0,0:24:13.34,0:24:17.22,Bilingual,,0,0,0,,{\fs42}发展到让大批智能体全天候工作。\N{\fs32}to fleets of agents working around the clock in just a year.
+Dialogue: 0,0:24:17.35,0:24:20.35,Bilingual,,0,0,0,,{\fs42}对乐天这样的企业来说，这意味着\N{\fs32}For a company like Rakuten, this means they're shipping
+Dialogue: 0,0:24:20.35,0:24:24.23,Bilingual,,0,0,0,,{\fs42}他们推出新功能的速度是竞争对手的四到五倍。\N{\fs32}new features 4 to 5 times faster than their competitors.
+Dialogue: 0,0:24:24.69,0:24:30.19,Bilingual,,0,0,0,,{\fs42}编程之后是网络安全。借助 Mythos 和 Glasswing 项目，Claude 帮助\N{\fs32}After coding came cyber, and with Mythos and Project Glasswing, Claude has helped
+Dialogue: 0,0:24:30.19,0:24:34.74,Bilingual,,0,0,0,,{\fs42}网络防御人员在全社会范围内发现并修补漏洞。\N{\fs32}cyber defenders identify and patch vulnerabilities at a societal scale.
+Dialogue: 0,0:24:35.20,0:24:37.41,Bilingual,,0,0,0,,{\fs42}以 Mozilla 为例。\N{\fs32}Consider a company like Mozilla.
+Dialogue: 0,0:24:37.41,0:24:41.12,Bilingual,,0,0,0,,{\fs42}过去，他们每次发布新版时会修复二十多个安全漏洞，\N{\fs32}In the past, they used to fix over 20 security bugs per release,
+Dialogue: 0,0:24:41.37,0:24:46.17,Bilingual,,0,0,0,,{\fs42}而借助 Mythos Preview，他们发现并修复了 271 个。\N{\fs32}and with Mythos Preview, they identified and fixed 271.
+Dialogue: 0,0:24:46.58,0:24:48.96,Bilingual,,0,0,0,,{\fs42}知识工作也在沿着类似的轨迹发展。\N{\fs32}Knowledge work is on a similar curve.
+Dialogue: 0,0:24:48.96,0:24:52.17,Bilingual,,0,0,0,,{\fs42}科学研究、投资分析、保险核保，\N{\fs32}Scientific research, investment analysis, underwriting
+Dialogue: 0,0:24:52.17,0:24:55.38,Bilingual,,0,0,0,,{\fs42}都是我们在各行各业观察到的典型例子。\N{\fs32}all great examples of what we're seeing across industries.
+Dialogue: 0,0:24:55.72,0:25:00.81,Bilingual,,0,0,0,,{\fs42}Claude 帮助 AIG 这样的保险公司将报价耗时缩短了 55%。\N{\fs32}Claude helped an insurer like AIG cut down time to quote by 55%.
+Dialogue: 0,0:25:00.93,0:25:03.02,Bilingual,,0,0,0,,{\fs42}在每个领域，我们先看到进步，\N{\fs32}In each domain, we see an improvement.
+Dialogue: 0,0:25:03.02,0:25:07.86,Bilingual,,0,0,0,,{\fs42}随后出现能力跃升，接着整类工作的速度都加快了。\N{\fs32}Then a step change, and then a whole category of work moves fast.
+Dialogue: 0,0:25:13.15,0:25:15.28,Bilingual,,0,0,0,,{\fs42}令人难以想象的是，\N{\fs32}It's hard to imagine
+Dialogue: 0,0:25:15.28,0:25:18.24,Bilingual,,0,0,0,,{\fs42}Anthropic 如此迅速地\N{\fs32}the speed with which that Anthropic
+Dialogue: 0,0:25:18.24,0:25:21.24,Bilingual,,0,0,0,,{\fs42}融入了 AIG 的内部业务。\N{\fs32}has become embedded inside of AIG.
+Dialogue: 0,0:25:21.54,0:25:23.62,Bilingual,,0,0,0,,{\fs42}它帮助我们的核保人员做得更好。\N{\fs32}It's helped us create better underwriters.
+Dialogue: 0,0:25:23.62,0:25:27.92,Bilingual,,0,0,0,,{\fs42}他们现在能更充分地发挥专业能力，因为我们可以\N{\fs32}We were able to use their skill set more frequently because we're able
+Dialogue: 0,0:25:27.92,0:25:30.92,Bilingual,,0,0,0,,{\fs42}提取投保申请信息，并将其整理成便于\N{\fs32}to pull the submission information, get it in a format where they can
+Dialogue: 0,0:25:30.96,0:25:31.92,Bilingual,,0,0,0,,{\fs42}开展核保的格式。\N{\fs32}then underwrite.
+Dialogue: 0,0:25:31.92,0:25:36.09,Bilingual,,0,0,0,,{\fs42}我们看到，他们做出决策的速度显著提升，\N{\fs32}We've seen a significant uptick in the speed with which they can make decisions,
+Dialogue: 0,0:25:36.18,0:25:37.38,Bilingual,,0,0,0,,{\fs42}这实际上意味着，\N{\fs32}which really means
+Dialogue: 0,0:25:37.38,0:25:41.01,Bilingual,,0,0,0,,{\fs42}我们能以更一致的方式处理更多投保申请。\N{\fs32}we're able to get to more submissions in a more consistent way.
+Dialogue: 0,0:25:41.18,0:25:44.18,Bilingual,,0,0,0,,{\fs42}对客户而言，我们能更快地作出回应。\N{\fs32}And for clients, we're able to respond faster.
+Dialogue: 0,0:25:45.39,0:25:47.48,Bilingual,,0,0,0,,{\fs42}我认为，Anthropic 和 Claude\N{\fs32}I think Anthropic and Claude together
+Dialogue: 0,0:25:47.48,0:25:51.52,Bilingual,,0,0,0,,{\fs42}与我们希望提供的价值非常一致，体现在安全性、\N{\fs32}have a very similar value proposition that we try and bring in terms of safety
+Dialogue: 0,0:25:51.52,0:25:55.40,Bilingual,,0,0,0,,{\fs42}韧性和技术能力上。我们也与监管机构密切沟通，\N{\fs32}and resilience and technical capability, and we communicate pretty closely
+Dialogue: 0,0:25:55.40,0:26:00.16,Bilingual,,0,0,0,,{\fs42}说明我们如何使用 AI，以及人的参与\N{\fs32}with the regulators on how we're using AI and how the human element
+Dialogue: 0,0:26:00.16,0:26:02.87,Bilingual,,0,0,0,,{\fs42}和人工监督为何如此重要。这对我们\N{\fs32}and the human oversight is obviously very important to us
+Dialogue: 0,0:26:02.87,0:26:05.58,Bilingual,,0,0,0,,{\fs42}和监管机构都很重要，也已融入整个流程。\N{\fs32}and to our regulators and is embedded in the process.
+Dialogue: 0,0:26:08.62,0:26:10.42,Bilingual,,0,0,0,,{\fs42}Anthropic 所做的一切，\N{\fs32}Everything Anthropic does,
+Dialogue: 0,0:26:10.42,0:26:13.46,Bilingual,,0,0,0,,{\fs42}从研究到产品，再到市场拓展，\N{\fs32}from research to product to go-to-market,
+Dialogue: 0,0:26:13.50,0:26:16.80,Bilingual,,0,0,0,,{\fs42}最终都体现在我们如何服务客户上。\N{\fs32}it all comes together in how we serve the customer.
+Dialogue: 0,0:26:17.09,0:26:22.76,Bilingual,,0,0,0,,{\fs42}如今，我们与《财富》美国 500 强中的众多企业，\N以及前十强全部企业，都有深度合作。\N{\fs32}Today, we have deep engagements across the Fortune 500 and all of the Fortune 10.
+Dialogue: 0,0:26:23.10,0:26:27.73,Bilingual,,0,0,0,,{\fs42}超过一半的《财富》美国 500 强企业在我们这里的支出超过十万美元。\N{\fs32}More than 50% of the Fortune 500 spends more than $100K with us.
+Dialogue: 0,0:26:28.02,0:26:31.65,Bilingual,,0,0,0,,{\fs42}全球 2000 强中，也有超过 30% 的企业达到这一水平。\N{\fs32}And that's true for more than 30% of the Global 2000.
+Dialogue: 0,0:26:32.19,0:26:35.11,Bilingual,,0,0,0,,{\fs42}对于所有这些客户，我们相信自己仍处于\N{\fs32}With all of these customers, we believe we are still
+Dialogue: 0,0:26:35.11,0:26:38.28,Bilingual,,0,0,0,,{\fs42}一场将持续数十年的转型的早期阶段。\N{\fs32}in the early stages of a multi-decade transformation.
+Dialogue: 0,0:26:38.66,0:26:41.87,Bilingual,,0,0,0,,{\fs42}这些《财富》美国 500 强客户在我们这里的支出，\N{\fs32}On average, spending from these Fortune 500 customers
+Dialogue: 0,0:26:41.87,0:26:44.91,Bilingual,,0,0,0,,{\fs42}平均还不到其总支出的 0.1%。\N{\fs32}is less than 0.1% of their total expenses.
+Dialogue: 0,0:26:45.20,0:26:49.96,Bilingual,,0,0,0,,{\fs42}即便是前十名，也仍不到其总支出的 1%。\N{\fs32}Even among the top ten, it's still less than 1% of their total expense line.
+Dialogue: 0,0:26:50.33,0:26:51.00,Bilingual,,0,0,0,,{\fs42}我们来仔细看看\N{\fs32}Let's zoom
+Dialogue: 0,0:26:51.00,0:26:55.55,Bilingual,,0,0,0,,{\fs42}一个典型客户的发展过程，通常从单个应用场景开始。\N{\fs32}in on the journey of a typical customer, and it starts with a single use case.
+Dialogue: 0,0:26:55.84,0:26:57.26,Bilingual,,0,0,0,,{\fs42}往往是开发者和工程师\N{\fs32}Often that's Claude Code
+Dialogue: 0,0:26:57.26,0:27:01.09,Bilingual,,0,0,0,,{\fs42}先使用 Claude Code，然后很快扩展到相关岗位。\N{\fs32}for developers and engineers, and it soon expands to adjacent roles.
+Dialogue: 0,0:27:01.18,0:27:04.64,Bilingual,,0,0,0,,{\fs42}知识工作者开始用 Claude 完成价值最高的工作。\N{\fs32}Knowledge workers start using Claude for their highest value work.
+Dialogue: 0,0:27:04.64,0:27:07.60,Bilingual,,0,0,0,,{\fs42}接着，各个团队将更多业务流程自动化，\N{\fs32}Then teams automate more business processes
+Dialogue: 0,0:27:07.60,0:27:10.35,Bilingual,,0,0,0,,{\fs42}并把 AI 融入核心基础设施。\N{\fs32}and build AI into core infrastructure.
+Dialogue: 0,0:27:10.35,0:27:15.07,Bilingual,,0,0,0,,{\fs42}最终，他们将 Claude 融入全新的产品和服务。\N{\fs32}And ultimately they embed Claude into entirely new products and services.
+Dialogue: 0,0:27:15.23,0:27:18.90,Bilingual,,0,0,0,,{\fs42}这个过程发展得很快，因此我们的\N{\fs32}The process happens quickly, and that's why we see an unprecedented
+Dialogue: 0,0:27:18.90,0:27:22.78,Bilingual,,0,0,0,,{\fs42}净收入留存率达到了前所未有的约 900%。\N{\fs32}net revenue retention rate of approximately 900%.
+Dialogue: 0,0:27:23.07,0:27:25.83,Bilingual,,0,0,0,,{\fs42}让我兴奋的是，最有意思、\N{\fs32}What excites me is that the most interesting
+Dialogue: 0,0:27:25.83,0:27:28.83,Bilingual,,0,0,0,,{\fs42}最具变革性的应用场景还在前方。\N{\fs32}and transformative use cases are still ahead of us.
+Dialogue: 0,0:27:29.00,0:27:33.08,Bilingual,,0,0,0,,{\fs42}我们在编程和网络安全领域看到的一切，如今正开始出现在\N{\fs32}Everything we've seen in coding and cyber, we're now starting to see across
+Dialogue: 0,0:27:33.08,0:27:37.67,Bilingual,,0,0,0,,{\fs42}几乎每一种职能、每一家企业和每一个行业中。\N{\fs32}virtually every function, every company and every industry.
+Dialogue: 0,0:27:37.71,0:27:41.68,Bilingual,,0,0,0,,{\fs42}他们希望与 Anthropic 合作，因为他们相信我们会帮助他们\N{\fs32}And they want to partner with Anthropic because they trust we will help them
+Dialogue: 0,0:27:41.72,0:27:45.22,Bilingual,,0,0,0,,{\fs42}率先看见未来，让他们始终站在前沿，\N{\fs32}see the future first, that we will keep them on the frontier,
+Dialogue: 0,0:27:45.30,0:27:47.60,Bilingual,,0,0,0,,{\fs42}并帮助他们完成转型、取得成功。\N{\fs32}and that we will help them transform and win.
+Dialogue: 0,0:27:53.94,0:27:54.65,Bilingual,,0,0,0,,{\fs42}当 Claude 促成的发现\N{\fs32}Something
+Dialogue: 0,0:27:54.65,0:27:59.99,Bilingual,,0,0,0,,{\fs42}走进我们的现实世界，\N{\fs32}exciting happens when the discoveries unlocked by Claude move into our world,
+Dialogue: 0,0:28:00.40,0:28:03.36,Bilingual,,0,0,0,,{\fs42}甚至走向地球之外时，激动人心的事情就发生了。\N{\fs32}or even beyond it.
+Dialogue: 0,0:28:03.36,0:28:05.07,Bilingual,,0,0,0,,{\fs42}2025 年 12 月，\N{\fs32}In December 2025,
+Dialogue: 0,0:28:05.07,0:28:08.29,Bilingual,,0,0,0,,{\fs42}Claude 帮助规划了“毅力号”火星车的行驶路线。\N{\fs32}Claude helped plan the Perseverance rover's route on Mars.
+Dialogue: 0,0:28:09.41,0:28:12.46,Bilingual,,0,0,0,,{\fs42}它用火星车专用的标记语言编写了代码。\N{\fs32}It wrote the code in the rover's own markup language.
+Dialogue: 0,0:28:13.21,0:28:16.50,Bilingual,,0,0,0,,{\fs42}工程师在发送指令前检查了所有内容。\N{\fs32}Engineers checked everything before the commands went out.
+Dialogue: 0,0:28:17.04,0:28:19.42,Bilingual,,0,0,0,,{\fs42}行驶四百米。\N{\fs32}400m driven.
+Dialogue: 0,0:28:19.42,0:28:22.42,Bilingual,,0,0,0,,{\fs42}任务完成。\N{\fs32}Mission accomplished.
+Dialogue: 0,0:28:22.88,0:28:25.72,Bilingual,,0,0,0,,{\fs42}Claude 处理海量数据的能力，\N{\fs32}Claude's ability to process vast amounts of data
+Dialogue: 0,0:28:25.72,0:28:28.93,Bilingual,,0,0,0,,{\fs42}在 2026 年夏天再次得到展现。\N{\fs32}came to the fore again in the summer of 2026.
+Dialogue: 0,0:28:29.52,0:28:33.31,Bilingual,,0,0,0,,{\fs42}约 950 个 Claude 智能体花了 21 小时，\N{\fs32}About 950 Claude agents spent 21 hours
+Dialogue: 0,0:28:33.44,0:28:36.77,Bilingual,,0,0,0,,{\fs42}筛查了 19 亿个蛋白质簇。\N{\fs32}sifting 1.9 billion protein clusters.
+Dialogue: 0,0:28:36.98,0:28:41.69,Bilingual,,0,0,0,,{\fs42}其中一个发现了异常模式：一个含有类似 CRISPR 重复序列阵列的系统。\N{\fs32}One spotted an unusual pattern: a system with a CRISPR-like repeat array.
+Dialogue: 0,0:28:42.15,0:28:45.41,Bilingual,,0,0,0,,{\fs42}我们的科学家随后在实验室验证了 Claude 的发现。\N{\fs32}Our scientists were able to check Claude's findings in the lab.
+Dialogue: 0,0:28:45.66,0:28:49.08,Bilingual,,0,0,0,,{\fs42}这个新阵列此前从未被发表过。这是一次真正的\N{\fs32}The new array had never been published before. A genuine
+Dialogue: 0,0:28:49.08,0:28:52.08,Bilingual,,0,0,0,,{\fs42}新发现。\N{\fs32}discovery.
+Dialogue: 0,0:28:54.46,0:28:55.21,Bilingual,,0,0,0,,{\fs42}快速理解新信息的能力，\N{\fs32}The ability
+Dialogue: 0,0:28:55.21,0:28:59.88,Bilingual,,0,0,0,,{\fs42}在资源紧缺的地方尤为重要。\N{\fs32}to quickly understand new information really matters where resources are thin.
+Dialogue: 0,0:29:02.05,0:29:03.13,Bilingual,,0,0,0,,{\fs42}2026 年 9 月，\N{\fs32}In September
+Dialogue: 0,0:29:03.13,0:29:07.55,Bilingual,,0,0,0,,{\fs42}刚果东部应对埃博拉疫情的团队，\N{\fs32}2026, teams responding to an Ebola outbreak in eastern Congo
+Dialogue: 0,0:29:07.68,0:29:12.52,Bilingual,,0,0,0,,{\fs42}能在不到一小时内处理完各地区的日报，\N{\fs32}were able to process each region's daily reports in under an hour,
+Dialogue: 0,0:29:13.23,0:29:15.77,Bilingual,,0,0,0,,{\fs42}从而更全面地掌握疫情，\N{\fs32}creating a better picture of the epidemic
+Dialogue: 0,0:29:15.77,0:29:18.77,Bilingual,,0,0,0,,{\fs42}并腾出更多时间照顾患者。\N{\fs32}and freeing up time for patient care.
+Dialogue: 0,0:29:20.07,0:29:21.36,Bilingual,,0,0,0,,{\fs42}影响现实世界的能力，\N{\fs32}The power to affect
+Dialogue: 0,0:29:21.36,0:29:24.32,Bilingual,,0,0,0,,{\fs42}让安全变得更加重要。\N{\fs32}the real world makes safety even more important.
+Dialogue: 0,0:29:24.90,0:29:27.57,Bilingual,,0,0,0,,{\fs42}因此，Claude 的完整生物学能力\N{\fs32}It's why Claude's full biology capabilities
+Dialogue: 0,0:29:27.57,0:29:30.58,Bilingual,,0,0,0,,{\fs42}只向经过我们核验的组织开放。\N{\fs32}go only to organizations we've verified.
+Dialogue: 0,0:29:32.54,0:29:35.54,Bilingual,,0,0,0,,{\fs42}这也是 Claude 拥有一套“宪法”的原因。\N{\fs32}And why Claude has a constitution.
+Dialogue: 0,0:29:36.04,0:29:40.34,Bilingual,,0,0,0,,{\fs42}它让 Claude 能在从未遇到过的情境中\N{\fs32}It equips it to make judgment calls in situations it has never encountered
+Dialogue: 0,0:29:40.34,0:29:42.38,Bilingual,,0,0,0,,{\fs42}作出判断。\N{\fs32}before.
+Dialogue: 0,0:29:42.38,0:29:47.14,Bilingual,,0,0,0,,{\fs42}也因此，我们在可解释性和对齐研究上投入了大量精力。\N{\fs32}And it's why we put so much energy into interpretability and alignment.
+Dialogue: 0,0:29:47.34,0:29:51.68,Bilingual,,0,0,0,,{\fs42}让 Claude 在人们反复依赖它的场景中，\N{\fs32}To keep Claude accountable in situations where people will rely on it
+Dialogue: 0,0:29:52.81,0:29:53.81,Bilingual,,0,0,0,,{\fs42}始终能够被监督和问责。\N{\fs32}again and again.
+Dialogue: 0,0:29:53.81,0:29:56.44,Bilingual,,0,0,0,,{\fs42}我们发现，安全并没有拖慢我们的脚步。\N{\fs32}We're finding safety doesn't hold us back.
+Dialogue: 0,0:29:56.44,0:29:59.48,Bilingual,,0,0,0,,{\fs42}事实上，正因为我们可以信任 Claude 的工作，\N{\fs32}In fact, it's because we can trust Claude's work
+Dialogue: 0,0:29:59.56,0:30:03.11,Bilingual,,0,0,0,,{\fs42}才得以将它的发现应用于现实世界，\N{\fs32}that we can take its discoveries and apply them in the real world
+Dialogue: 0,0:30:04.24,0:30:07.24,Bilingual,,0,0,0,,{\fs42}让所有人从中受益。\N{\fs32}in ways that will benefit everyone.
+Dialogue: 0,0:30:11.32,0:30:14.37,Bilingual,,0,0,0,,{\fs42}我们相信，AI 对全球经济的变革\N{\fs32}We believe the transformation of the global economy through
+Dialogue: 0,0:30:14.41,0:30:17.54,Bilingual,,0,0,0,,{\fs42}是历史上最大的经济机遇。\N{\fs32}AI is the greatest economic opportunity in history.
+Dialogue: 0,0:30:17.66,0:30:20.38,Bilingual,,0,0,0,,{\fs42}而 Anthropic 具备把握这一机遇的独特优势。\N{\fs32}And Anthropic is uniquely positioned to capture it.
+Dialogue: 0,0:30:20.38,0:30:23.46,Bilingual,,0,0,0,,{\fs42}我们在 AI 前沿领域占据领先地位，预计价值\N{\fs32}We have leadership at the frontier of AI, where we expect value
+Dialogue: 0,0:30:23.50,0:30:26.51,Bilingual,,0,0,0,,{\fs42}将更多地向这里集中。同时，我们强大的商业模式\N{\fs32}will differentially accrue, and the strength of our business model
+Dialogue: 0,0:30:26.55,0:30:29.51,Bilingual,,0,0,0,,{\fs42}使我们能够持续投入，推动技术前沿，\N{\fs32}allows us to keep investing to advance the frontier
+Dialogue: 0,0:30:29.51,0:30:33.64,Bilingual,,0,0,0,,{\fs42}并为客户创造更多价值，为股东带来优异回报。\N{\fs32}while delivering more value to customers and superior returns for our shareholders.
+Dialogue: 0,0:30:33.64,0:30:36.64,Bilingual,,0,0,0,,{\fs42}财务业绩是最有力的证明。\N{\fs32}The clearest evidence of that is our financial results.
+Dialogue: 0,0:30:36.68,0:30:39.90,Bilingual,,0,0,0,,{\fs42}第三季度，我们实现了近 170 亿美元\N{\fs32}In Q3, we earned nearly $17 billion
+Dialogue: 0,0:30:39.90,0:30:43.06,Bilingual,,0,0,0,,{\fs42}的营收，达到去年同期的十二倍。今年以来，\N{\fs32}of revenue, up 12 times year over year. And year to date,
+Dialogue: 0,0:30:43.11,0:30:46.03,Bilingual,,0,0,0,,{\fs42}我们的算力利润率达到 43%，\N{\fs32}we've delivered a compute margin of 43%,
+Dialogue: 0,0:30:46.03,0:30:48.07,Bilingual,,0,0,0,,{\fs42}毛利率达到 85%，\N{\fs32}gross margin of 85%,
+Dialogue: 0,0:30:48.07,0:30:51.95,Bilingual,,0,0,0,,{\fs42}调整后营业利润率达到 12%，自由现金流也为正。\N{\fs32}adjusted operating margin of 12% and positive free cash flow.
+Dialogue: 0,0:30:52.49,0:30:55.33,Bilingual,,0,0,0,,{\fs42}这些业绩来自我们在前沿领域的领先地位，\N{\fs32}These results come from our frontier leadership,
+Dialogue: 0,0:30:55.33,0:30:58.46,Bilingual,,0,0,0,,{\fs42}也使我们有能力大力投入，进一步扩大优势。\N{\fs32}and they give us the capacity to invest heavily to extend it.
+Dialogue: 0,0:30:58.46,0:31:02.42,Bilingual,,0,0,0,,{\fs42}因此，尽管我们的盈利能力强劲，我们仍在积极投资，\N{\fs32}So while our profitability is strong, we are in an aggressive investment
+Dialogue: 0,0:31:02.42,0:31:05.55,Bilingual,,0,0,0,,{\fs42}着眼于这项业务的长期发展。\N{\fs32}mode as we focus on building this business for the long term.
+Dialogue: 0,0:31:05.76,0:31:09.13,Bilingual,,0,0,0,,{\fs42}Anthropic 的商业模式有五个独特之处。\N{\fs32}There are five elements that differentiate Anthropic's business model.
+Dialogue: 0,0:31:09.18,0:31:13.22,Bilingual,,0,0,0,,{\fs42}第一，我们构建的模型能提供最有用的智能。\N{\fs32}First, we build models that deliver the most useful intelligence
+Dialogue: 0,0:31:13.35,0:31:14.68,Bilingual,,0,0,0,,{\fs42}随着我们不断推动技术前沿，\N{\fs32}as we've pushed the frontier.
+Dialogue: 0,0:31:14.68,0:31:17.52,Bilingual,,0,0,0,,{\fs42}客户找到了更多值得交给 Claude 的高价值工作，\N{\fs32}Our customers have found more valuable work for Claude.
+Dialogue: 0,0:31:17.52,0:31:19.48,Bilingual,,0,0,0,,{\fs42}我们的营收也随之增长。\N{\fs32}And our revenue growth has followed.
+Dialogue: 0,0:31:19.48,0:31:21.48,Bilingual,,0,0,0,,{\fs42}我们称之为“模型驱动的增长”。\N{\fs32}We call this model led growth.
+Dialogue: 0,0:31:21.48,0:31:23.98,Bilingual,,0,0,0,,{\fs42}业务的发展轨迹印证了这一点。\N{\fs32}The trajectory of our business demonstrates this.
+Dialogue: 0,0:31:23.98,0:31:28.69,Bilingual,,0,0,0,,{\fs42}季度营收从 2025 年第一季度的 3.76 亿美元，\N{\fs32}Quarterly revenue grew from $376 million in Q1 2025
+Dialogue: 0,0:31:29.07,0:31:32.49,Bilingual,,0,0,0,,{\fs42}增长至 2026 年第三季度的近 170 亿美元。\N{\fs32}to nearly $17 billion in Q3 of 2026.
+Dialogue: 0,0:31:32.86,0:31:36.41,Bilingual,,0,0,0,,{\fs42}与此同时，我们的模型在编程工作流\N{\fs32}This tracks significant increases in the capabilities of our models
+Dialogue: 0,0:31:36.41,0:31:40.41,Bilingual,,0,0,0,,{\fs42}和现实任务中的能力也大幅提升。\N{\fs32}in coding workflows and real world tasks.
+Dialogue: 0,0:31:40.75,0:31:44.54,Bilingual,,0,0,0,,{\fs42}站在技术前沿，能解锁新的应用场景和能力。\N{\fs32}Being at the frontier unlocks new use cases and capabilities.
+Dialogue: 0,0:31:44.58,0:31:48.67,Bilingual,,0,0,0,,{\fs42}这也让我们在大多数客户工作负载上逐步形成帕累托优势，\N{\fs32}It also moves us towards Pareto dominance across most customer workloads,
+Dialogue: 0,0:31:48.80,0:31:52.97,Bilingual,,0,0,0,,{\fs42}即在相同成本下，提供能力最强的模型。\N{\fs32}enabling us to deliver the most capable models at a given cost.
+Dialogue: 0,0:31:53.09,0:31:56.06,Bilingual,,0,0,0,,{\fs42}这是因为，更智能的模型效率也更高。\N{\fs32}That is because smarter models are more efficient.
+Dialogue: 0,0:31:56.06,0:32:00.48,Bilingual,,0,0,0,,{\fs42}它们完成任务所需的推理强度更低，因此消耗的 token 更少。\N{\fs32}They can complete tasks at lower effort levels, which use fewer tokens.
+Dialogue: 0,0:32:00.64,0:32:04.81,Bilingual,,0,0,0,,{\fs42}我们还将大型模型的前沿智能\N{\fs32}We also cascade the frontier intelligence from our larger models
+Dialogue: 0,0:32:04.90,0:32:06.48,Bilingual,,0,0,0,,{\fs42}传递给小型模型。\N{\fs32}into our smaller models.
+Dialogue: 0,0:32:06.48,0:32:10.70,Bilingual,,0,0,0,,{\fs42}因此，我们能全面满足成本、能力和速度方面的需求。\N{\fs32}So we address the full range of cost, capability and speed.
+Dialogue: 0,0:32:11.07,0:32:13.78,Bilingual,,0,0,0,,{\fs42}每一代模型都进一步推进了这一点。\N{\fs32}Each generation has pushed that further.
+Dialogue: 0,0:32:13.78,0:32:16.70,Bilingual,,0,0,0,,{\fs42}我们最近推出的 Claude 5.5 模型系列，\N{\fs32}Our recent Claude 5.5 family of models are a
+Dialogue: 0,0:32:16.70,0:32:20.16,Bilingual,,0,0,0,,{\fs42}能力显著超越了 Claude 5 系列，\N{\fs32}significant step up in capability from the Claude 5 family
+Dialogue: 0,0:32:20.20,0:32:22.12,Bilingual,,0,0,0,,{\fs42}而 Claude 5 系列才在几个月前发布。\N{\fs32}we released just a few months prior.
+Dialogue: 0,0:32:22.12,0:32:25.33,Bilingual,,0,0,0,,{\fs42}同时，完成每项任务的成本也大幅降低。\N{\fs32}They're also significantly cheaper on a cost per task basis.
+Dialogue: 0,0:32:25.46,0:32:28.34,Bilingual,,0,0,0,,{\fs42}这就是始终在技术前沿进行研发的力量。\N{\fs32}That is the power of building at the frontier.
+Dialogue: 0,0:32:28.34,0:32:32.01,Bilingual,,0,0,0,,{\fs42}我们相信，我们能以最低的成本提供价值最高的智能，\N{\fs32}We believe we deliver the highest value intelligence at the lowest cost,
+Dialogue: 0,0:32:32.13,0:32:34.97,Bilingual,,0,0,0,,{\fs42}从而高效服务整个市场。\N{\fs32}which means we can serve the entire market efficiently.
+Dialogue: 0,0:32:34.97,0:32:38.93,Bilingual,,0,0,0,,{\fs42}虽然我们在大多数基准测试中领先，但衡量成功的真正标准\N{\fs32}While we lead across most benchmarks, the true measure of our success
+Dialogue: 0,0:32:39.43,0:32:40.60,Bilingual,,0,0,0,,{\fs42}是我们的客户。\N{\fs32}is our customers.
+Dialogue: 0,0:32:40.60,0:32:43.60,Bilingual,,0,0,0,,{\fs42}这就引出了我们的第二项差异化优势。\N{\fs32}And that leads me to our second differentiator.
+Dialogue: 0,0:32:44.02,0:32:46.98,Bilingual,,0,0,0,,{\fs42}我们打造领先的平台和产品，\N{\fs32}We build the leading platform and products to make
+Dialogue: 0,0:32:46.98,0:32:49.98,Bilingual,,0,0,0,,{\fs42}让客户能够用上最前沿的智能。\N{\fs32}frontier intelligence accessible to our customers.
+Dialogue: 0,0:32:50.15,0:32:53.65,Bilingual,,0,0,0,,{\fs42}平台解决方案是我们业务的基础，\N{\fs32}Our platform solutions are the foundation of our business,
+Dialogue: 0,0:32:53.99,0:32:57.70,Bilingual,,0,0,0,,{\fs42}客户可以在我们的 API 和 SDK 之上开发产品、\N{\fs32}and there is significant opportunity for customers to build products
+Dialogue: 0,0:32:57.70,0:33:01.41,Bilingual,,0,0,0,,{\fs42}重新设计业务流程，这其中蕴藏着巨大的机会。\N{\fs32}and reimagine processes on top of our APIs and SDK.
+Dialogue: 0,0:33:01.83,0:33:06.04,Bilingual,,0,0,0,,{\fs42}与此同时，我们自己的产品已成为推动技术普及的重要力量。\N{\fs32}At the same time, our own products have become a key driver of diffusion.
+Dialogue: 0,0:33:06.21,0:33:07.17,Bilingual,,0,0,0,,{\fs42}例如，\N{\fs32}For example,
+Dialogue: 0,0:33:07.17,0:33:11.71,Bilingual,,0,0,0,,{\fs42}Claude Code 本质上是对模型能力指数级进步的一次押注。\N{\fs32}Claude Code was fundamentally a bet on the exponential in model progress.
+Dialogue: 0,0:33:11.84,0:33:15.76,Bilingual,,0,0,0,,{\fs42}将它交到客户手中，让我们能够抓住\N{\fs32}Getting it into the hands of our customers put us in a position to capitalize
+Dialogue: 0,0:33:15.76,0:33:19.22,Bilingual,,0,0,0,,{\fs42}智能体编程能力大幅提升带来的机会。\N{\fs32}on agentic coding capabilities as they dramatically improved.
+Dialogue: 0,0:33:19.43,0:33:23.31,Bilingual,,0,0,0,,{\fs42}我们在 Claude Cowork 上沿用了同样的做法；自去年发布研究预览版以来，\N{\fs32}We followed that same playbook with Claude Cowork, and its adoption
+Dialogue: 0,0:33:23.31,0:33:26.31,Bilingual,,0,0,0,,{\fs42}它的普及速度已经超过了\N{\fs32}has exceeded that of Claude Code at the equivalent point,
+Dialogue: 0,0:33:26.31,0:33:28.52,Bilingual,,0,0,0,,{\fs42}Claude Code 在发布后相同阶段的水平。\N{\fs32}following its own research preview last year.
+Dialogue: 0,0:33:28.52,0:33:33.32,Bilingual,,0,0,0,,{\fs42}我们的产品与平台相互配合，共同满足客户需求。\N{\fs32}Together, our products and platform enable us to serve the needs of our customers.
+Dialogue: 0,0:33:33.49,0:33:37.66,Bilingual,,0,0,0,,{\fs42}如今，大多数企业客户既使用我们的平台，\N{\fs32}Today, the majority of enterprise customers use both our platform
+Dialogue: 0,0:33:37.70,0:33:42.54,Bilingual,,0,0,0,,{\fs42}也使用至少一款产品；2025 年第四季度，这一比例还只有 30%。\N{\fs32}and at least one of our products, up from 30% in the fourth quarter of 2025.
+Dialogue: 0,0:33:42.70,0:33:47.38,Bilingual,,0,0,0,,{\fs42}随着内部使用 Claude 的范围扩大，我们的产品迭代也在加速。\N{\fs32}Our product velocity is also accelerating as we expand our internal use of Claude.
+Dialogue: 0,0:33:47.46,0:33:51.30,Bilingual,,0,0,0,,{\fs42}每位工程师日均贡献的代码量，\N{\fs32}The average daily volume of code contributed per engineer is up
+Dialogue: 0,0:33:51.30,0:33:54.42,Bilingual,,0,0,0,,{\fs42}已达到 2024 年平均水平的 45 倍，\N{\fs32}45x relative to the 2024 average,
+Dialogue: 0,0:33:54.42,0:33:58.47,Bilingual,,0,0,0,,{\fs42}这也体现在我们的发布成果中。2026 年前九个月，\N{\fs32}and that's showing up in our launches. In the first nine months of 2026,
+Dialogue: 0,0:33:58.59,0:34:02.06,Bilingual,,0,0,0,,{\fs42}我们推出了 250 项模型、产品和功能。\N{\fs32}we shipped 250 models, products and features.
+Dialogue: 0,0:34:02.35,0:34:06.31,Bilingual,,0,0,0,,{\fs42}Claude 提升效率的作用也不局限于工程团队，而是遍及整个公司。\N{\fs32}And Claude isn't just accelerating our engineering teams across the company.
+Dialogue: 0,0:34:06.44,0:34:10.27,Bilingual,,0,0,0,,{\fs42}2026 年 1 月至 9 月，员工对 Claude 的使用量\N{\fs32}Our employees' use of Claude grew more than 250 times
+Dialogue: 0,0:34:10.31,0:34:13.32,Bilingual,,0,0,0,,{\fs42}增长到原来的 250 多倍。\N{\fs32}between January and September of 2026.
+Dialogue: 0,0:34:13.36,0:34:17.24,Bilingual,,0,0,0,,{\fs42}这些因素共同解释了为何我们的人均营收\N{\fs32}Together, these help explain why our revenue per employee has grown
+Dialogue: 0,0:34:17.24,0:34:22.08,Bilingual,,0,0,0,,{\fs42}从 2025 年第三季度的 140 万美元增长到原来的 4.5 倍以上，\N{\fs32}more than 4.5x from $1.4 million in Q3 of 2025
+Dialogue: 0,0:34:22.20,0:34:25.96,Bilingual,,0,0,0,,{\fs42}在 2026 年第三季度达到逾 660 万美元。\N{\fs32}to over $6.6 million as of Q3 2026.
+Dialogue: 0,0:34:26.00,0:34:30.67,Bilingual,,0,0,0,,{\fs42}Anthropic 的第三项差异化优势，是极高的算力使用效率。\N{\fs32}Anthropic's third differentiator is that we are extremely efficient users of compute.
+Dialogue: 0,0:34:30.75,0:34:34.76,Bilingual,,0,0,0,,{\fs42}我们将所有算力视为一个可灵活调配的资源池，既服务客户，\N{\fs32}We treat our compute as one fungible pool that serves customers,
+Dialogue: 0,0:34:34.84,0:34:38.09,Bilingual,,0,0,0,,{\fs42}也用于训练模型，以及支持我们内部使用 Claude。\N{\fs32}trains our models and powers our own use of Claude.
+Dialogue: 0,0:34:38.22,0:34:41.39,Bilingual,,0,0,0,,{\fs42}我们专注于让每一单位算力发挥最大的价值。\N{\fs32}We are focused on getting the most out of every unit of compute.
+Dialogue: 0,0:34:42.14,0:34:45.56,Bilingual,,0,0,0,,{\fs42}这让我们在服务成本和再投资能力上拥有优势。\N{\fs32}This gives us a cost to serve and a reinvestment advantage.
+Dialogue: 0,0:34:45.85,0:34:49.19,Bilingual,,0,0,0,,{\fs42}正如 Tom 所说，这种效率来自两个方面。\N{\fs32}As Tom described, there are two drivers of this efficiency.
+Dialogue: 0,0:34:49.73,0:34:53.11,Bilingual,,0,0,0,,{\fs42}首先是多种芯片并用的策略，\N{\fs32}The first is our multi-silicon strategy, which lets us
+Dialogue: 0,0:34:53.11,0:34:57.11,Bilingual,,0,0,0,,{\fs42}让我们能够购买性价比最高的芯片，并将它们作为统一资源池灵活调配。\N{\fs32}buy the most price-performant chips and run them as a single fungible pool.
+Dialogue: 0,0:34:57.19,0:35:01.82,Bilingual,,0,0,0,,{\fs42}其次是持续叠加的算力增效，使我们的有效总算力\N{\fs32}The second is compounding compute multipliers, which have scaled our total
+Dialogue: 0,0:35:01.82,0:35:05.74,Bilingual,,0,0,0,,{\fs42}增长速度远超实际硬件容量的增长速度。\N{\fs32}effective compute significantly faster than our physical capacity.
+Dialogue: 0,0:35:06.29,0:35:09.92,Bilingual,,0,0,0,,{\fs42}过去六个季度的财务表现体现了这一点。\N{\fs32}You can see this in our financial results over the last six quarters.
+Dialogue: 0,0:35:10.00,0:35:14.09,Bilingual,,0,0,0,,{\fs42}营收增长到原来的 45 倍以上，而计算基础设施成本\N{\fs32}We grew revenue by more than 45x, while computing infrastructure costs
+Dialogue: 0,0:35:14.09,0:35:17.42,Bilingual,,0,0,0,,{\fs42}仅增长到原来的 10 倍，也就是说，\N{\fs32}grew only 10x, a more than 4x improvement
+Dialogue: 0,0:35:17.42,0:35:20.43,Bilingual,,0,0,0,,{\fs42}每一美元算力投入带来的营收提高到原来的 4 倍以上。今年以来，\N{\fs32}in revenue per dollar of compute. And year to date,
+Dialogue: 0,0:35:20.55,0:35:23.68,Bilingual,,0,0,0,,{\fs42}我们的毛利率已提升至 85% 以上，\N{\fs32}our gross margin has improved to over 85%,
+Dialogue: 0,0:35:23.93,0:35:27.27,Bilingual,,0,0,0,,{\fs42}而 2025 年同期为 29%。\N{\fs32}up from 29% in the same period of 2025.
+Dialogue: 0,0:35:27.35,0:35:31.27,Bilingual,,0,0,0,,{\fs42}我们把效率提升带来的收益视为可以调配的资本。\N{\fs32}We think of these efficiency gains as capital that we get to allocate.
+Dialogue: 0,0:35:31.48,0:35:35.36,Bilingual,,0,0,0,,{\fs42}有时，我们通过降价将这些收益让给客户，\N{\fs32}In some cases, we pass them along to customers by lowering prices,
+Dialogue: 0,0:35:35.40,0:35:38.53,Bilingual,,0,0,0,,{\fs42}推动 Claude 在客户组织中得到更广泛的应用。\N{\fs32}which drives diffusion of Claude across those customers.
+Dialogue: 0,0:35:38.74,0:35:42.07,Bilingual,,0,0,0,,{\fs42}有时，我们保留这部分利润，并将它重新投入\N{\fs32}In other cases, we retain the margin and reinvest it
+Dialogue: 0,0:35:42.07,0:35:45.78,Bilingual,,0,0,0,,{\fs42}更多算力，让这一优势不断累积。\N{\fs32}in additional compute, which is what makes this advantage compound.
+Dialogue: 0,0:35:45.91,0:35:50.46,Bilingual,,0,0,0,,{\fs42}下一项差异化优势，是我们始终专注于服务企业。\N{\fs32}The next differentiator is our relentless focus on building for enterprises.
+Dialogue: 0,0:35:50.75,0:35:54.71,Bilingual,,0,0,0,,{\fs42}我们很早就意识到，企业将成为 AI 最大、最优质的\N{\fs32}We had the early insight that enterprises would be the largest and best customers
+Dialogue: 0,0:35:54.71,0:35:55.67,Bilingual,,0,0,0,,{\fs42}客户群体。\N{\fs32}for AI.
+Dialogue: 0,0:35:55.67,0:35:59.30,Bilingual,,0,0,0,,{\fs42}自 2023 年第一季度开始商业化以来，\N{\fs32}We have focused on serving that market since our commercial launch
+Dialogue: 0,0:35:59.30,0:36:02.89,Bilingual,,0,0,0,,{\fs42}我们一直专注于服务这个市场，\N{\fs32}in the first quarter of 2023, and have seen rapid adoption
+Dialogue: 0,0:36:02.89,0:36:05.89,Bilingual,,0,0,0,,{\fs42}并看到了快速的普及。截至 2026 年第三季度，\N{\fs32}since. As of Q3 2026,
+Dialogue: 0,0:36:05.93,0:36:09.72,Bilingual,,0,0,0,,{\fs42}我们拥有超过 11,900 家企业客户，\N{\fs32}we had more than 11,900 enterprise customers, up
+Dialogue: 0,0:36:09.72,0:36:11.81,Bilingual,,0,0,0,,{\fs42}达到年初的近 8 倍。\N{\fs32}nearly 8x from the start of the year.
+Dialogue: 0,0:36:11.81,0:36:15.10,Bilingual,,0,0,0,,{\fs42}作为首家入驻三大云平台的前沿 AI 实验室，\N{\fs32}As the first frontier lab available on all three major clouds,
+Dialogue: 0,0:36:15.40,0:36:18.36,Bilingual,,0,0,0,,{\fs42}我们让企业能够在自己现有的环境中\N{\fs32}we allow enterprises to deploy Claude within the environments
+Dialogue: 0,0:36:18.36,0:36:19.61,Bilingual,,0,0,0,,{\fs42}部署 Claude，\N{\fs32}they already operate in,
+Dialogue: 0,0:36:19.61,0:36:22.53,Bilingual,,0,0,0,,{\fs42}同时，我们保持与最终客户的直接关系，\N{\fs32}and we maintain the direct relationship with the end customer,
+Dialogue: 0,0:36:22.53,0:36:24.41,Bilingual,,0,0,0,,{\fs42}包括掌握定价权。\N{\fs32}including control over pricing.
+Dialogue: 0,0:36:24.41,0:36:27.54,Bilingual,,0,0,0,,{\fs42}我们相信，这些合作使我们的市场拓展效率\N{\fs32}We believe these partnerships enable us to be far more efficient
+Dialogue: 0,0:36:27.54,0:36:30.16,Bilingual,,0,0,0,,{\fs42}远高于行业其他公司。\N{\fs32}in our go-to-market efforts than the rest of the industry.
+Dialogue: 0,0:36:30.16,0:36:33.87,Bilingual,,0,0,0,,{\fs42}事实上，我们所有非算力开支，包括销售、\N{\fs32}In fact, our entire non-compute expense base, including sales
+Dialogue: 0,0:36:33.87,0:36:37.63,Bilingual,,0,0,0,,{\fs42}营销人员及其他运营开支，\N{\fs32}and marketing personnel and other operating expenses, represents
+Dialogue: 0,0:36:37.63,0:36:40.59,Bilingual,,0,0,0,,{\fs42}占营收的比例，还低于企业软件公司\N{\fs32}a lower percentage of revenue than the median enterprise
+Dialogue: 0,0:36:40.59,0:36:43.59,Bilingual,,0,0,0,,{\fs42}仅销售与营销开支占营收比例的中位数。\N{\fs32}software company spends on sales and marketing alone.
+Dialogue: 0,0:36:43.59,0:36:47.05,Bilingual,,0,0,0,,{\fs42}我们预计将大力投入市场拓展，以支持业务增长，\N{\fs32}We expect to invest meaningfully in go-to-market to support our growth,
+Dialogue: 0,0:36:47.39,0:36:51.27,Bilingual,,0,0,0,,{\fs42}同时保持高效获客，并与客户共同成长。\N{\fs32}while remaining highly efficient in how we sell to and grow with our customers.
+Dialogue: 0,0:36:51.35,0:36:54.52,Bilingual,,0,0,0,,{\fs42}最后一项差异化优势，是不断扩大的市场机会。\N{\fs32}Our final differentiator is our expanding market opportunity.
+Dialogue: 0,0:36:55.23,0:36:58.57,Bilingual,,0,0,0,,{\fs42}我们相信，每个行业的每家公司，\N{\fs32}We believe every company, across every industry
+Dialogue: 0,0:36:58.77,0:37:01.32,Bilingual,,0,0,0,,{\fs42}都会被强大的 AI 所改变。\N{\fs32}will be transformed by powerful AI.
+Dialogue: 0,0:37:01.32,0:37:03.74,Bilingual,,0,0,0,,{\fs42}这一变革始于编程，正扩展至知识工作，\N{\fs32}It started with coding and is spreading to knowledge
+Dialogue: 0,0:37:03.74,0:37:07.91,Bilingual,,0,0,0,,{\fs42}这是一个规模达 40 万亿美元、我们才刚刚开始进入的市场。\N{\fs32}work, a $40 trillion market that we have just begun to penetrate.
+Dialogue: 0,0:37:08.32,0:37:12.83,Bilingual,,0,0,0,,{\fs42}我们的客户包括许多全球规模最大、业务最复杂的企业，\N{\fs32}We count many of the world's largest and most complex businesses as our customers,
+Dialogue: 0,0:37:13.04,0:37:18.00,Bilingual,,0,0,0,,{\fs42}其中有超过半数的《财富》美国 500 强，以及逾 30% 的福布斯全球企业 2000 强。\N{\fs32}including over 50% of the Fortune 500 and over 30% of the Global 2000.
+Dialogue: 0,0:37:18.04,0:37:23.46,Bilingual,,0,0,0,,{\fs42}正如 Paul 所说，我们的《财富》美国 500 强客户在 Claude 上的支出\N{\fs32}And as Paul described, our Fortune 500 customers spend less than 0.1%
+Dialogue: 0,0:37:23.55,0:37:27.76,Bilingual,,0,0,0,,{\fs42}还不到其总支出的 0.1%。随着 AI 技术前沿不断推进，\N{\fs32}of their total expenses on Claude. As the frontier of AI advances,
+Dialogue: 0,0:37:28.01,0:37:31.18,Bilingual,,0,0,0,,{\fs42}我们预计它将开辟全新的业务领域。\N{\fs32}we expect it will open up entirely new lines of business.
+Dialogue: 0,0:37:31.35,0:37:34.64,Bilingual,,0,0,0,,{\fs42}这一进程已在网络安全领域开始，我们预计，\N{\fs32}This has started already with cybersecurity, and we expect it
+Dialogue: 0,0:37:34.64,0:37:37.98,Bilingual,,0,0,0,,{\fs42}未来几年还会扩展至生命科学和机器人领域。\N{\fs32}will extend to life sciences and robotics in the coming years.
+Dialogue: 0,0:37:38.23,0:37:42.53,Bilingual,,0,0,0,,{\fs42}鉴于我们看到的巨大机遇，以及业务的实力，\N{\fs32}Given the size of the opportunity we see and the strength of our business,
+Dialogue: 0,0:37:43.15,0:37:46.74,Bilingual,,0,0,0,,{\fs42}我们正在大力投资三个领域：算力、\N{\fs32}we are investing aggressively in three areas: compute,
+Dialogue: 0,0:37:47.32,0:37:50.33,Bilingual,,0,0,0,,{\fs42}客户价值，以及安全与对齐。\N{\fs32}customer value and safety and alignment.
+Dialogue: 0,0:37:50.49,0:37:53.50,Bilingual,,0,0,0,,{\fs42}算力是支撑增长的关键。\N{\fs32}Compute is a critical enabler of our growth.
+Dialogue: 0,0:37:53.54,0:37:57.71,Bilingual,,0,0,0,,{\fs42}它为研发提供动力，也让我们能够满足不断增长的客户需求。\N{\fs32}It powers our R&D and enables us to meet expanding customer demand.
+Dialogue: 0,0:37:57.96,0:38:01.38,Bilingual,,0,0,0,,{\fs42}考虑到我们看到的可观回报，未来几年，\N{\fs32}We plan to make significant investments in compute over the coming years,
+Dialogue: 0,0:38:01.46,0:38:05.09,Bilingual,,0,0,0,,{\fs42}我们计划对算力进行大量投资，其中既包括短期\N{\fs32}given the compelling returns we see. That includes both short-term
+Dialogue: 0,0:38:05.09,0:38:09.59,Bilingual,,0,0,0,,{\fs42}及多年期云服务协议，也包括直接租赁的数据中心和芯片。\N{\fs32}and multi-year cloud deals as well as data centers and chips we lease directly.
+Dialogue: 0,0:38:09.64,0:38:12.93,Bilingual,,0,0,0,,{\fs42}我们将后者称为 Anthropic Direct，预计未来几年，\N{\fs32}We call this last piece Anthropic Direct, and we expect
+Dialogue: 0,0:38:12.93,0:38:16.23,Bilingual,,0,0,0,,{\fs42}它在我们整体算力中的占比将不断提高。\N{\fs32}it will make up a growing share of our compute base over the coming years.
+Dialogue: 0,0:38:16.68,0:38:19.69,Bilingual,,0,0,0,,{\fs42}第二个投资领域是客户价值。\N{\fs32}Our second investment area is customer value.
+Dialogue: 0,0:38:19.81,0:38:22.86,Bilingual,,0,0,0,,{\fs42}我们始终全力确保客户\N{\fs32}We are maniacally focused on ensuring customers
+Dialogue: 0,0:38:22.86,0:38:25.86,Bilingual,,0,0,0,,{\fs42}从 Claude 的投入中获得最大的回报。\N{\fs32}get the strongest return from their spend on Claude.
+Dialogue: 0,0:38:25.99,0:38:30.78,Bilingual,,0,0,0,,{\fs42}为此，我们开发能力最强、充分对齐且实用的模型，\N{\fs32}We do this through developing the most capable, aligned and useful models
+Dialogue: 0,0:38:30.95,0:38:34.58,Bilingual,,0,0,0,,{\fs42}并在提高模型效率的同时，降低客户成本。\N{\fs32}and through reducing customer costs as we make our models more efficient.
+Dialogue: 0,0:38:34.66,0:38:39.12,Bilingual,,0,0,0,,{\fs42}例如，9 月推出的 Opus 5.5 在大幅提升\N{\fs32}For example, our Opus 5.5 model in September delivered substantial gains
+Dialogue: 0,0:38:39.12,0:38:42.80,Bilingual,,0,0,0,,{\fs42}模型能力的同时，将客户成本降低了 40%。\N{\fs32}in model capability and 40% lower customer costs.
+Dialogue: 0,0:38:42.88,0:38:46.59,Bilingual,,0,0,0,,{\fs42}此次降价没有影响我们的利润率，因为 Opus 5.5\N{\fs32}This reduction was margin neutral to us because Opus 5.5
+Dialogue: 0,0:38:46.63,0:38:48.59,Bilingual,,0,0,0,,{\fs42}的服务成本也大幅降低了。\N{\fs32}is significantly cheaper to serve.
+Dialogue: 0,0:38:48.59,0:38:52.22,Bilingual,,0,0,0,,{\fs42}虽然降低客户成本会让我们牺牲部分短期营收，\N{\fs32}While we sacrifice some near-term revenue when we reduce customer costs,
+Dialogue: 0,0:38:52.43,0:38:55.81,Bilingual,,0,0,0,,{\fs42}但根据我们的经验，很快就会出现营收增长的助力，\N{\fs32}in our experience, we quickly see a tailwind to revenue
+Dialogue: 0,0:38:55.89,0:39:00.02,Bilingual,,0,0,0,,{\fs42}因为智能成本下降，会推动 Claude 的使用量和普及范围进一步扩大。\N{\fs32}as the lower cost of intelligence drives greater usage and diffusion of Claude.
+Dialogue: 0,0:39:00.40,0:39:03.23,Bilingual,,0,0,0,,{\fs42}第三个领域是安全与对齐。\N{\fs32}The third area is safety and alignment.
+Dialogue: 0,0:39:03.23,0:39:06.07,Bilingual,,0,0,0,,{\fs42}安全是 Anthropic 运营的核心，\N{\fs32}Safety is core to how we operate at Anthropic,
+Dialogue: 0,0:39:06.07,0:39:09.11,Bilingual,,0,0,0,,{\fs42}从公司成立之初，我们就一直在这一领域投入。\N{\fs32}and we've been investing here since the inception of the company.
+Dialogue: 0,0:39:09.20,0:39:11.61,Bilingual,,0,0,0,,{\fs42}随着模型能力快速提升，\N{\fs32}As model capabilities advance rapidly,
+Dialogue: 0,0:39:11.61,0:39:14.74,Bilingual,,0,0,0,,{\fs42}我们正进一步增加人员、流程建设\N{\fs32}we're investing even more in people, processes
+Dialogue: 0,0:39:14.74,0:39:17.75,Bilingual,,0,0,0,,{\fs42}和算力方面的投入，以支持安全与对齐工作。\N{\fs32}and compute to support our safety and alignment work.
+Dialogue: 0,0:39:17.83,0:39:22.71,Bilingual,,0,0,0,,{\fs42}总体而言，我们预计对安全的重视将持续带来商业优势，\N{\fs32}Taken together, we expect our focus on safety to remain a commercial advantage
+Dialogue: 0,0:39:22.88,0:39:26.46,Bilingual,,0,0,0,,{\fs42}因为客户和开发者需要值得信赖的模型与产品。\N{\fs32}because customers and developers want models and products they can trust.
+Dialogue: 0,0:39:26.59,0:39:30.97,Bilingual,,0,0,0,,{\fs42}我们在算力、客户价值以及安全与对齐方面的投资，\N{\fs32}The investments we're making in compute, customer value and safety and alignment
+Dialogue: 0,0:39:30.97,0:39:35.10,Bilingual,,0,0,0,,{\fs42}将长期增强业务实力、拓展发展机会。\N{\fs32}will strengthen our business and broaden our opportunity over the long term.
+Dialogue: 0,0:39:35.35,0:39:40.10,Bilingual,,0,0,0,,{\fs42}我们相信，Anthropic 能够实现超过 35% 的调整后营业利润率。\N{\fs32}We believe Anthropic can deliver adjusted operating margins of more than 35%,
+Dialogue: 0,0:39:40.14,0:39:43.69,Bilingual,,0,0,0,,{\fs42}随着效率持续提升、Anthropic Direct\N{\fs32}with continued efficiency gains, a greater share of Anthropic
+Dialogue: 0,0:39:43.69,0:39:47.36,Bilingual,,0,0,0,,{\fs42}算力占比提高，以及更多算力转向推理，\N{\fs32}Direct capacity, and more of our compute shifting towards inference.
+Dialogue: 0,0:39:47.40,0:39:50.40,Bilingual,,0,0,0,,{\fs42}我们认为，算力与基础设施开支占营收的比例\N{\fs32}We see a path for compute and infrastructure expenses
+Dialogue: 0,0:39:50.40,0:39:53.78,Bilingual,,0,0,0,,{\fs42}有望逐步降至约 45% 至 50%。\N{\fs32}to trend towards approximately 45 to 50% of revenue.
+Dialogue: 0,0:39:54.37,0:39:57.62,Bilingual,,0,0,0,,{\fs42}其次，我们预计销售、营销及合作伙伴费用\N{\fs32}Second, we expect sales, marketing and partnership costs
+Dialogue: 0,0:39:57.62,0:40:00.04,Bilingual,,0,0,0,,{\fs42}将逐步达到营收的 7% 至 10%，\N{\fs32}to trend towards 7 to 10% of revenue,
+Dialogue: 0,0:40:00.04,0:40:03.21,Bilingual,,0,0,0,,{\fs42}因为随着规模扩大，支付给合作伙伴的费用占营收的比例会下降。\N{\fs32}as partner fees become a smaller share of revenue as we scale.
+Dialogue: 0,0:40:03.62,0:40:07.30,Bilingual,,0,0,0,,{\fs42}第三，我们预计人员及其他运营开支\N{\fs32}And third, we expect personnel and other operating expenses
+Dialogue: 0,0:40:07.30,0:40:10.47,Bilingual,,0,0,0,,{\fs42}合计将逐步达到营收的 7% 至 10%，\N{\fs32}combined to trend towards 7 to 10% of revenue,
+Dialogue: 0,0:40:10.55,0:40:14.80,Bilingual,,0,0,0,,{\fs42}因为 Claude 会提高团队效率，而我们也会高效扩充人员规模。\N{\fs32}as Claude makes our teams more productive and we grow headcount efficiently.
+Dialogue: 0,0:40:14.84,0:40:18.10,Bilingual,,0,0,0,,{\fs42}我们相信，我们拥有最出色的财务模式：领先的算力\N{\fs32}We believe we have the best financial model: leading compute
+Dialogue: 0,0:40:18.10,0:40:21.64,Bilingual,,0,0,0,,{\fs42}效率、高度汇聚的人才，以及一种企业文化，\N{\fs32}efficiency, the greatest concentration of talent, and a culture
+Dialogue: 0,0:40:21.64,0:40:25.52,Bilingual,,0,0,0,,{\fs42}让我们始终专注于最能为企业创造价值的领域。\N{\fs32}that keeps us focused on where we can add the most value to enterprises.
+Dialogue: 0,0:40:25.77,0:40:30.19,Bilingual,,0,0,0,,{\fs42}AI 对全球经济的变革，有望成为历史上最大的\N{\fs32}AI's transformation of the global economy has the potential to be the largest
+Dialogue: 0,0:40:30.19,0:40:34.03,Bilingual,,0,0,0,,{\fs42}经济机遇，而我们今天才刚刚起步。\N{\fs32}economic opportunity in history, and we are at the foothills of it today.
+Dialogue: 0,0:40:38.04,0:40:39.41,Bilingual,,0,0,0,,{\fs42}如果我们看看今天的这些疾病，\N{\fs32}You know, if today we look
+Dialogue: 0,0:40:39.41,0:40:43.83,Bilingual,,0,0,0,,{\fs42}比如癌症、阿尔茨海默病、心脏病，\N{\fs32}at things like cancer, Alzheimer's, heart disease,
+Dialogue: 0,0:40:44.25,0:40:48.88,Bilingual,,0,0,0,,{\fs42}以及精神疾病，我认为它们将成为历史，\N{\fs32}mental illness, these will be relics of the past
+Dialogue: 0,0:40:49.09,0:40:52.05,Bilingual,,0,0,0,,{\fs42}而且用不了十年。\N{\fs32}in, I think, less than a decade.
+Dialogue: 0,0:40:52.05,0:40:55.64,Bilingual,,0,0,0,,{\fs42}我相信，能够妥善应对风险的公司，\N{\fs32}And I believe that the company which gets the risks right
+Dialogue: 0,0:40:55.68,0:40:59.85,Bilingual,,0,0,0,,{\fs42}也将获得社会认可的经营资格，\N{\fs32}will also be the company that has the license to operate
+Dialogue: 0,0:40:59.85,0:41:04.85,Bilingual,,0,0,0,,{\fs42}赢得社会信任，让人们相信它能以正确的方式带来益处。\N{\fs32}that society trusts and society believes can build the benefits in the right way.
+Dialogue: 0,0:41:05.44,0:41:09.73,Bilingual,,0,0,0,,{\fs42}我认为，只要做对了，我们就能开创一个奇迹时代，\N{\fs32}I think if we do this right, we can create an age of miracles
+Dialogue: 0,0:41:09.73,0:41:14.32,Bilingual,,0,0,0,,{\fs42}让人类能够解决那些\N{\fs32}where humanity is able to solve problems
+Dialogue: 0,0:41:14.49,0:41:17.70,Bilingual,,0,0,0,,{\fs42}困扰我们数千年的问题。\N{\fs32}that have eluded us for millennia.
+Dialogue: 0,0:41:17.95,0:41:21.50,Bilingual,,0,0,0,,{\fs42}我们必须确保，对所有风险，\N{\fs32}We have to make sure that all the risks,
+Dialogue: 0,0:41:21.70,0:41:24.71,Bilingual,,0,0,0,,{\fs42}对这项技术所有可能出错的地方，\N{\fs32}all the ways that things can go wrong with this technology,
+Dialogue: 0,0:41:24.71,0:41:27.88,Bilingual,,0,0,0,,{\fs42}都进行十分审慎的处理，\N{\fs32}we very carefully address those risks
+Dialogue: 0,0:41:28.08,0:41:32.00,Bilingual,,0,0,0,,{\fs42}在带来益处的同时，也维持可持续经营的业务。\N{\fs32}as we bring the benefits, and as we have a viable business at the same time.
+Dialogue: 0,0:41:32.09,0:41:36.22,Bilingual,,0,0,0,,{\fs42}我邀请你们加入我们，共同踏上这段旅程的下一个阶段。\N{\fs32}And I invite you to join us on the next phase of this journey.

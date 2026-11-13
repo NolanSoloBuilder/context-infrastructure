@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-08",
+  "market_session": "2026-11-06",
+  "reviewed_at": "2026-11-07T23:36:19Z",
+  "items": [
+    {
+      "title": "伯克希尔Q3：回购加大，保险承压仍需分清汇率干扰",
+      "fact": "11/7已发布完整Q3 10-Q：税后经营利润127.05亿美元、同比−5.8%，Q3回购约96亿；GEICO税前承保利润9.82亿、综合成本率91.4%，去年84.3%。",
+      "implication": "赔付频率、单次赔付及获客支出上升，短期利率下降压低保险投资收入；铁路、能源和制造服务增长抵消部分压力。现金及国库券毛额不等于可自由投资资金。",
+      "judgment": "继续观察／估值核验推进。财报前11/6常规收盘570.89美元，对9/30账面净资产约1.60倍；9m经营利润简单年化对应约24.6倍，尚不能确认低估。",
+      "counter": "经营同比下滑7.80亿中，非美元债汇率由盈利3.31亿转亏3.43亿造成6.74亿摆动；仅剔该项后经营利润同比约−0.81%。回购是资本配置正面信号，但不证明今天价格低估。",
+      "next": "检查后续GEICO赔付率与保费定价、保险投资收益率、回购持续性；11/6盘后行情发生在财报前，不代表11/7业绩反应。",
+      "sources": [
+        {
+          "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+          "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+        },
+        {
+          "title": "Berkshire 11/7官方Q3业绩新闻稿",
+          "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+        },
+        {
+          "title": "StockAnalysis BRK.B历史价格（主线本次读取）",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "BRK.B｜经营利润与保险赔付（Q3／前三季）",
+      "paragraphs": [
+        "以下均为税后经营利润、亿美元：Q3承保13.52（同比−42.9%）、保险投资27.34（−14.1%）、BNSF17.29（+19.3%）、BHE16.12（+8.3%）、制造服务零售40.42（+11.8%）、其他12.36（−10.5%），合计127.05；前三季370.34、同比+8.0%。经营利润为公司非GAAP指标，包含投资利息、股息及权益法利润。",
+        "GAAP Q3归母净利221.12亿美元、同比−28.2%，其中税后投资收益94.07亿；新闻稿按其实现/未实现口径约含77亿未实现收益、17亿已实现收益。10-Q Note6按期初公允价值计量的已出售证券当期变动与税基累计实现收益口径不同，不能混加。不能用GAAP波动直接评价主营改善。",
+        "GEICO税前承保9.82亿美元（去年17.73），并非全保险税后13.52亿。Q3赔付及理赔费用率76.6%、费用率14.8%，合计91.4%；9m人伤索赔频率+4%–6%、严重度+9%–11%，车损频率+2%–4%、严重度0%–3%；每张保单平均保费下降，佣金和广告支出上升。",
+        "公司称9m没有当年发生、单次税前损失超过1.5亿美元的重大灾害事件，不等于没有所有灾害赔款。保险浮存金1785亿美元，年初以来+21亿；承保盈利令当期平均浮存金成本为负，仍属保单相关负债，非股东自由现金。",
+        "前三季非追溯财险及再保险已赔付387.89亿美元（扣再保回收）；往年事故准备金下调23.01亿、去年11.82亿，改善当期税前利润。这是旧赔案估计更新，不能直接当作今后新保单稳定利润率。",
+        "特定汇率敏感性：127.05+3.43=130.48亿，去年134.85−3.31=131.54亿，同比约−0.81%。仅消除Berkshire/BHFC非美元债这一项税后汇兑变动，未调整全部周期、灾害、税率或并购因素，不叫正常化利润。"
+      ],
+      "sources": [
+        {
+          "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+          "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+        },
+        {
+          "title": "Berkshire 11/7官方Q3业绩新闻稿",
+          "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+        }
+      ]
+    },
+    {
+      "title": "BRK.B｜现金、股票净买卖与回购资金桥",
+      "paragraphs": [
+        "9/30集团报表现金及等价物407.00亿美元（保险及其他360.34、铁路能源46.66），另列短期国库券3367.35亿，合计毛额3774.35亿。减尚未结算国库券应付204.89亿后为3569.46亿；再剔铁路能源46.66亿，即保险及其他业务净结算口径3522.80亿。现金等价物已含三个月内国库券，不能重复加。以上均未扣全部债务、保单责任及经营资本，不是可分配净现金。",
+        "纯保险业务持有的现金、等价物及国库券另为2309.41亿美元，含约154亿未结算国库券；它是保险及其他业务中的子集，不能与3522.80亿相加。集团账上受限现金9.58亿列其他资产，亦未加进上述毛额。",
+        "前三季股票买入417.71亿美元、卖出305.72亿=净买111.99亿。用官网半年报的买394.05亿、卖277.80亿差分，Q3买23.66亿、卖27.92亿=净卖4.26亿。自家股票回购是另一笔，不与股票组合买卖混称；10-Q没有完整逐只股票净交易表，等待后续13F且不能由其倒推实时持仓。",
+        "Q3自家股票回购约96亿美元、9m账面144.09亿；9m现金流实际支付137.57亿，部分9月成交10月结算解释口径差异。由月表A/B回购数及均价计算，Q3每B等价加权约502.69美元，不是估值底线，也非11/6仍在该价回购。",
+        "今年OxyChem现金对价约94亿，Taylor Morrison于7/24完成现金对价约68亿；收购企业合计净现金流162.05亿。前三季CFO339.14亿、PP&E及租赁设备投资161.37亿；保险赔付与证券投资结构使简单CFO−资本开支不等于可全额分配给股东的现金。"
+      ],
+      "sources": [
+        {
+          "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+          "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+        },
+        {
+          "title": "Berkshire 11/7官方Q3业绩新闻稿",
+          "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+        },
+        {
+          "title": "Berkshire官网2026Q2 10-Q半年现金流（用于单季差分）",
+          "url": "https://www.berkshirehathaway.com/qtrly/2ndqtr26.pdf"
+        }
+      ]
+    },
+    {
+      "title": "BRK.B｜杠杆与一项可复算估值检验",
+      "paragraphs": [
+        "9/30借款：保险及其他457.67亿美元；铁路能源850.16亿；集团合计1307.83亿，约为归母权益7613.68亿的17.2%。其中母公司约204亿、BHFC约182亿（母公司担保）；BNSF约235亿、BHE约615亿由其业务支撑，伯克希尔不担保。该比率不含浮存金、租赁、递延税等责任，不能单凭低债务/权益认定低风险。",
+        "以11/6财报前常规收盘570.89美元、9/30 A股481584股和B股1405974025股，B等价=2128350025股；归母账面净资产7613.68亿美元÷股数=每B等价357.73美元，P/B=1.596。使用与账面同日股数，参考权益市值约1.215万亿美元；10/28股份继续下降，但此处不冒充精确实时市值。",
+        "9m经营利润370.34亿美元×4/3=493.79亿，仅算术年化、不是TTM或管理层预测；按上述参考权益市值，约24.61倍经营盈利、4.06%经营盈利收益率。若仅作为敏感性假设要求5%经营盈利收益率，需年经营盈利约607.53亿，较该年化值高23.0%。这不是股息收益率、回报保证或获批买卖阈值。",
+        "推断：回购显示管理层在成交当时判断有价值，但570.89美元高于本季回购B等价均价约13.6%；现金雄厚和回购都不足以单独证明该参考价有安全边际。账面价值亦未完整体现非上市业务价值，P/B高于1不能直接证明高估。",
+        "完整分部估值仍待完成：经营利润已含保险投资收入，Other还含Q3税后公司投资收入9.30亿、权益法利润7.89亿。若资本化经营利润后再全额加现金、股票或权益法资产，会重复计价；还须保留保险监管资本、债务/税负、赔付与BHE责任。"
+      ],
+      "sources": [
+        {
+          "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+          "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+        },
+        {
+          "title": "Berkshire 11/7官方Q3业绩新闻稿",
+          "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+        },
+        {
+          "title": "StockAnalysis BRK.B历史价格（主线本次读取）",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ]
+    },
+    {
+      "title": "BRK.B｜本次核验边界",
+      "paragraphs": [
+        "报告日北京11/8，业绩及公司官网完整10-Q发布日11/7，财务截至9/30，常规收盘参考仍为11/6。SEC submissions recent本次未出现新Q3 accession；已从公司官网取得完整PDF，不再说财报未发布，也不编造SEC正式受理时间。",
+        "11/6盘后572.50美元（主线历史采集）发生在这次财报之前，不是财报后价格反应；本次周末不新增常规行情或回撤触发。11/6收盘570.89来自主线本次StockAnalysis读取；Yahoo本次请求受限，未宣称完成新的全量跨源核验。"
+      ],
+      "sources": [
+        {
+          "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+          "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+        },
+        {
+          "title": "Berkshire SEC submissions recent",
+          "url": "https://data.sec.gov/submissions/CIK0001067983.json"
+        },
+        {
+          "title": "StockAnalysis BRK.B历史价格（主线本次读取）",
+          "url": "https://stockanalysis.com/stocks/brk.b/history/"
+        }
+      ]
+    }
+  ],
+  "card_updates": [
+    {
+      "symbol": "BRK-B",
+      "replacement_scope": "Replace stale Q3 not-published/next earnings text and prior current-quarter figures; keep old evidence dated, do not change quotes/history/alerts.",
+      "facts": {
+        "financial_date": "2026-09-30",
+        "quarter": "2026Q3",
+        "published_date": "2026-11-07",
+        "reviewed_date": "2026-11-08",
+        "gaap_net_income_q3_usd_m": 22112,
+        "operating_earnings_q3_usd_m": 12705,
+        "operating_earnings_q3_yoy_pct": -5.7842046719,
+        "after_tax_investment_gain_q3_usd_m": 9407,
+        "operating_earnings_9m_usd_m": 37034,
+        "geico_pretax_underwriting_q3_usd_m": 982,
+        "geico_combined_ratio_q3_pct": 91.4,
+        "float_usd_m": 178500,
+        "group_cash_tbill_gross_usd_m": 377435,
+        "insurance_other_cash_tbill_net_of_settlement_usd_m": 352280,
+        "debt_consolidated_usd_m": 130783,
+        "book_equity_attributable_usd_m": 761368,
+        "repurchase_q3_approx_usd_m": 9600,
+        "repurchase_9m_book_usd_m": 14409,
+        "repurchase_9m_cash_paid_usd_m": 13757,
+        "equity_net_purchase_q3_usd_m": -426,
+        "equity_net_purchase_9m_usd_m": 11199
+      },
+      "research_status": "Q3已核；回购加大、GEICO成本上升；完整分部估值待完成，未确认低估",
+      "next": "后续GEICO赔付率与定价、投资收益率、回购持续性；完成剔除投资收益重复计价后的分部估值",
+      "sources": [
+        {
+          "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+          "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+        },
+        {
+          "title": "Berkshire 11/7官方Q3业绩新闻稿",
+          "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+        },
+        {
+          "title": "Berkshire官网2026Q2 10-Q半年现金流（用于单季差分）",
+          "url": "https://www.berkshirehathaway.com/qtrly/2ndqtr26.pdf"
+        }
+      ]
+    }
+  ]
+}

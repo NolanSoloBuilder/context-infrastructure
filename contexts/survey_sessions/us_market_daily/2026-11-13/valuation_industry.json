@@ -1,0 +1,1101 @@
+{
+  "MRNA": {
+    "judgment": "现金消耗与反向估值已完成；231.35美元主要购买尚待兑现的管线价值，目前不能核成低估，也不给缺分母的完整合理价。",
+    "basis": "9/30现金与投资79.76亿美元，扣36亿美元债务本金后净金融现金43.76亿；两年净烧钱各15亿/25亿美元的基准/压力测试，剩13.76亿/−19.24亿（压力额外计13亿或有诉讼）。11/12收盘对应市值936.1亿美元；扣净现金后隐含经营与管线价值892.3亿美元，以20倍成熟盈利反推需每年44.62亿美元，若5年后兑现并按12%折现则需78.63亿美元。管线定价、患者量、净利润分成与临床成功概率尚不足以完成可靠rNPV；无完整基准价或折扣价。",
+    "next": "先核intismeran申报/批准进度、真实价格与产能成本、Merck分成后归属利润；逐适应证建立患者量×净价格×利润份额×成功概率，避免把阳性试验、批准、收入和利润合为一件事。11/12新贷款条款替代10-Q旧提款时限。",
+    "reviewed_at": "2026-11-13T03:19:15.346072+00:00",
+    "market_session": "2026-11-12",
+    "currency": "USD",
+    "business": "呼吸道疫苗商业化；个体化癌症疗法intismeran与其他管线研发。AI用于研发与制造，并非独立收费软件业务。",
+    "price": {
+      "close": 231.35,
+      "session": "2026-11-12",
+      "segment": "regular_close",
+      "time_et": "2026-11-12T16:00:00-05:00",
+      "time_beijing": "2026-11-13T05:00:00+08:00",
+      "second_source_close": 231.35,
+      "crosscheck": "Yahoo当日完整日线与StockAnalysis同日收盘一致；两者均为第三方，不代表交易所逐笔审计",
+      "after_hours_reference": {
+        "price": 230.82,
+        "time_et": "2026-11-12T19:59:00-05:00",
+        "source": "StockAnalysis",
+        "single_source": true,
+        "used_in_valuation": false
+      }
+    },
+    "sources": [
+      {
+        "title": "Moderna Q3 2026 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/mrna-20260930.htm"
+      },
+      {
+        "title": "Moderna 11/12 Analyst Day公司新闻稿",
+        "url": "https://www.newswire.com/news/moderna-outlines-next-phase-of-growth-at-analyst-day-22888276"
+      },
+      {
+        "title": "Moderna 11/12官方回顾",
+        "url": "https://www.modernatx.com/recapping-2026-analyst-day"
+      },
+      {
+        "title": "Yahoo 11/12日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis 11/12收盘及带时刻盘后参考",
+        "url": "https://stockanalysis.com/stocks/mrna/history/"
+      }
+    ],
+    "model_note": "研究假设用于证伪价格要求，不是公司指引、目标价共识或交易指令。基准价值乘0.8只是估值折扣，不能保证最大亏损20%。",
+    "inputs": {
+      "financial_date": "2026-09-30",
+      "cash_and_investments_usd_m": 7976,
+      "debt_principal_usd_m": 3600,
+      "debt_bridge": "Ares已提款本金600+2032可转债本金3000；账面债务3549不是应偿本金。未提款额度900不计现金。",
+      "common_shares_m": 404.620975,
+      "shares_date": "2026-10-30",
+      "cfo_9m_usd_m": -2715,
+      "ppe_capex_9m_usd_m": 146,
+      "intangibles_cash_9m_usd_m": 74,
+      "litigation_cash_settlement_usd_m": 950,
+      "litigation_cash_in_cfo_usd_m": 876,
+      "sbc_9m_usd_m": 351,
+      "conditional_additional_legal_loss_usd_m": 1300,
+      "analyst_day_cash_cost_guidance_usd_m": {
+        "2027": 4000,
+        "2027_2030_annual_range": [
+          4000,
+          4500
+        ]
+      },
+      "cash_cost_definition": "GAAP费用减SBC和折旧摊销；不含营运资金/资本开支完整桥，不能等同FCF。",
+      "ares_update_11_12": "到期延至2031；剩余900额度可提款期延至2029；已提款利率降75bp。年底约9000总流动性包括现金、投资及未提款额度。"
+    },
+    "liquidity_scenarios": {
+      "base": {
+        "two_year_assumed_net_cash_burn_usd_m": [
+          1500,
+          1500
+        ],
+        "extra_legal_payment_usd_m": 0,
+        "remaining_net_financial_assets_usd_m": 1376,
+        "per_share_usd": 3.4
+      },
+      "stress": {
+        "two_year_assumed_net_cash_burn_usd_m": [
+          2500,
+          2500
+        ],
+        "extra_legal_payment_usd_m": 1300,
+        "remaining_net_financial_assets_usd_m": -1924,
+        "per_share_usd": -4.76
+      },
+      "scope": "净现金余量压力测试，不是清算价值或全公司价值；烧钱为情景假设，1300为未确认或有事项，压力情景才计入。不把负净现金等同股价为负；租赁与其余负债未作清算。"
+    },
+    "reverse_valuation": {
+      "reference_market_cap_usd_m": 93609.063,
+      "implied_operating_and_pipeline_value_usd_m": 89233.063,
+      "required_mature_owner_earnings_at_20x_today_usd_m": 4461.653,
+      "required_year5_earnings_at_20x_and_12pct_discount_usd_m": 7862.957,
+      "assumptions": "以净现金为一次性加项，经营/管线价值用20倍未来成熟可归普通股盈利；后者假设5年前无分配、12%贴现，不是收益预测。"
+    },
+    "limitations": [
+      "intismeran仍待监管批准；总体生存数据尚未成熟。",
+      "2026增收15%–25%在11/6已公布，11/12是重申而非再次上调。",
+      "可转债转换价约210.58美元，当前价超过该价不代表已触发转换或实际新增股份；模型先保留债务本金不再加相同转换股。",
+      "净现金余量不是股价底部，20%折扣不适用于未建立的管线总价值。"
+    ],
+    "valuation_haircut_warning": "八折研究价是模型价值的20%折扣，不是当前价格下跌20%，也不承诺投资损失或标的回撤上限。"
+  },
+  "ISRG": {
+    "judgment": "业务兑现强，但当前价缺少保留SBC后的盈利安全边际；高点回撤不等于便宜。",
+    "basis": "9个月GAAP EPS6.07，加入主要和解影响0.99、去掉关税退款0.14与SBC超额税收益0.29，再乘4/3得8.84美元正常化锚（非全年指引）。保留SBC成本；压力0%增长×25倍=221.00，基准12%×35倍=346.53，乐观20%×40倍=424.32美元。基准八折277.22，是候选复核区。前三季CFO−capex28.68亿美元，扣SBC加回后22.36亿，且和解未支付，现金流没有支持直接用调整EPS3.00×4。",
+    "next": "观察da Vinci手术量14%–15%指引兑现、医院设备预算、租赁回款和耗材单次收入；法院和解支付及SIS诉讼进展改变现金桥时重算。若增长下至个位数或竞争压价，35倍基准应下调。",
+    "reviewed_at": "2026-11-13T03:19:15.346072+00:00",
+    "market_session": "2026-11-12",
+    "currency": "USD",
+    "business": "da Vinci外科手术系统、耗材和维护；Ion肺部活检平台。经常性收入来自手术量、耗材和服务，AI并未单列营收。",
+    "price": {
+      "close": 439.89,
+      "session": "2026-11-12",
+      "segment": "regular_close",
+      "time_et": "2026-11-12T16:00:00-05:00",
+      "time_beijing": "2026-11-13T05:00:00+08:00",
+      "second_source_close": 439.89,
+      "crosscheck": "Yahoo当日完整日线与StockAnalysis同日收盘一致；两者均为第三方，不代表交易所逐笔审计",
+      "after_hours_reference": {
+        "price": 439.98,
+        "time_et": "2026-11-12T19:53:00-05:00",
+        "source": "StockAnalysis",
+        "single_source": true,
+        "used_in_valuation": false
+      }
+    },
+    "sources": [
+      {
+        "title": "Intuitive Q3 2026财报及GAAP桥",
+        "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000067/q326ex-991earningsrelease.htm"
+      },
+      {
+        "title": "Intuitive Q3 2026 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/isrg-20260930.htm"
+      },
+      {
+        "title": "Yahoo 11/12日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/ISRG?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis 11/12收盘及带时刻盘后参考",
+        "url": "https://stockanalysis.com/stocks/isrg/history/"
+      }
+    ],
+    "model_note": "研究假设用于证伪价格要求，不是公司指引、目标价共识或交易指令。基准价值乘0.8只是估值折扣，不能保证最大亏损20%。",
+    "scenarios": {
+      "stress": {
+        "normalized_annual_eps_anchor": 8.840000000000002,
+        "growth_assumption": 0,
+        "forward_eps": 8.840000000000002,
+        "pe_assumption": 25,
+        "value_usd": 221.00000000000003,
+        "formula": "((9m GAAP EPS6.07 +反垄断和解0.99 −关税退款0.14 −超额SBC税收益0.29)*4/3)*(1+growth)*PE"
+      },
+      "base": {
+        "normalized_annual_eps_anchor": 8.840000000000002,
+        "growth_assumption": 0.12,
+        "forward_eps": 9.900800000000002,
+        "pe_assumption": 35,
+        "value_usd": 346.5280000000001,
+        "formula": "((9m GAAP EPS6.07 +反垄断和解0.99 −关税退款0.14 −超额SBC税收益0.29)*4/3)*(1+growth)*PE"
+      },
+      "optimistic": {
+        "normalized_annual_eps_anchor": 8.840000000000002,
+        "growth_assumption": 0.2,
+        "forward_eps": 10.608000000000002,
+        "pe_assumption": 40,
+        "value_usd": 424.3200000000001,
+        "formula": "((9m GAAP EPS6.07 +反垄断和解0.99 −关税退款0.14 −超额SBC税收益0.29)*4/3)*(1+growth)*PE"
+      }
+    },
+    "base_value": 346.53,
+    "discount_price": 277.22,
+    "stress_discount_price": 176.8,
+    "price_vs_base_pct": 26.94,
+    "inputs": {
+      "financial_date": "2026-09-30",
+      "quarter_revenue_usd_m": 3048.7,
+      "quarter_gaap_eps": 1.49,
+      "quarter_adjusted_eps": 3.0,
+      "gaap_eps_9m": 6.07,
+      "nine_month_diluted_shares_m": 356.2,
+      "cash_and_investments_usd_m": 6800.4,
+      "cfo_9m_usd_m": 3197,
+      "ppe_capex_9m_usd_m": 329,
+      "sbc_cashflow_addback_usd_m": 632,
+      "simple_fcf_usd_m": 2868,
+      "fcf_less_sbc_proxy_usd_m": 2236,
+      "antitrust_charge_pretax_usd_m": 450,
+      "settlement_status": "已计提、待法院最终批准；9个月CFO存在尚未支付诉讼费用的加回。"
+    },
+    "limitations": [
+      "25/35/40倍为显式情景要求，不是已核同业分位；高倍数仍依赖多年增长。",
+      "EPS已含利息收入；不再把全部68亿美元现金额外加到股权价值，避免重复计价。",
+      "GAAP每股调整项四舍五入；主要和解0.99为季度披露，直接用于9个月EPS为近似，股数差影响较小但非精确正常化GAAP。"
+    ],
+    "valuation_haircut_warning": "八折研究价是模型价值的20%折扣，不是当前价格下跌20%，也不承诺投资损失或标的回撤上限。"
+  },
+  "TEM": {
+    "judgment": "成长真实，但估值已经预付较强增长与利润转化；独立公司基准DCF不支持现价安全边际。",
+    "basis": "以2026收入指引中点16.025亿美元为起点，基准未来5年收入每年+25%，FCFF率由0%升至20%，折现11%、终值增长3%；扣债务/应计利息、加现金及打五折证券资产，得44.55美元。压力15%增长、终值利润率10%得7.14；乐观35%增长、终值25%得116.93。基准八折35.64。FCFF率已包含SBC的经济成本和税/营运资金/再投资，未再假设SBC免费；前三季现金流扣软硬件资本化后−1.075亿美元。",
+    "next": "先验证增长能否转成扣SBC与资本化软件后的现金流；核Personalis 11/30投票、最终股票/现金比例与业务抵销后再做合并模型；监管清除不等于交易已完成。",
+    "reviewed_at": "2026-11-13T03:19:15.346072+00:00",
+    "market_session": "2026-11-12",
+    "currency": "USD",
+    "business": "诊断检测（肿瘤/遗传检测）与数据及应用；后者含数据授权和服务，不等于纯软件订阅。",
+    "price": {
+      "close": 75.89,
+      "session": "2026-11-12",
+      "segment": "regular_close",
+      "time_et": "2026-11-12T16:00:00-05:00",
+      "time_beijing": "2026-11-13T05:00:00+08:00",
+      "second_source_close": 75.89,
+      "crosscheck": "Yahoo当日完整日线与StockAnalysis同日收盘一致；两者均为第三方，不代表交易所逐笔审计",
+      "after_hours_reference": {
+        "price": 76.5,
+        "time_et": "2026-11-12T19:59:00-05:00",
+        "source": "StockAnalysis",
+        "single_source": true,
+        "used_in_valuation": false
+      }
+    },
+    "sources": [
+      {
+        "title": "Tempus Q3 2026正式业绩",
+        "url": "https://investors.tempus.com/news/news-details/2026/Tempus-Reports-Third-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "title": "Tempus 2026Q3股东信",
+        "url": "https://investors.tempus.com/files/doc_financials/2026/q3/Q3-2026_Letter-to-Shareholders_vF_11-2-26.pdf"
+      },
+      {
+        "title": "Yahoo 11/12日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEM?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis 11/12收盘及带时刻盘后参考",
+        "url": "https://stockanalysis.com/stocks/tem/history/"
+      }
+    ],
+    "model_note": "研究假设用于证伪价格要求，不是公司指引、目标价共识或交易指令。基准价值乘0.8只是估值折扣，不能保证最大亏损20%。",
+    "scenarios": {
+      "stress": {
+        "revenue_growth_assumption": 0.15,
+        "discount_rate": 0.13,
+        "terminal_growth": 0.025,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 1842.875,
+            "owner_fcff_margin": -0.05,
+            "owner_fcff_usd_m": -92.1437,
+            "pv_usd_m": -81.5431
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 2119.3062,
+            "owner_fcff_margin": 0,
+            "owner_fcff_usd_m": 0.0,
+            "pv_usd_m": 0.0
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 2437.2022,
+            "owner_fcff_margin": 0.03,
+            "owner_fcff_usd_m": 73.1161,
+            "pv_usd_m": 50.6731
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 2802.7825,
+            "owner_fcff_margin": 0.06,
+            "owner_fcff_usd_m": 168.167,
+            "pv_usd_m": 103.1399
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 3223.1999,
+            "owner_fcff_margin": 0.1,
+            "owner_fcff_usd_m": 322.32,
+            "pv_usd_m": 174.9424
+          }
+        ],
+        "pv_terminal_usd_m": 1707.7708,
+        "enterprise_value_usd_m": 1954.9831,
+        "equity_bridge_usd_m": -653.2909999999998,
+        "shares_m": 182.225851,
+        "value_usd": 7.143290118442222,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 87.35
+      },
+      "base": {
+        "revenue_growth_assumption": 0.25,
+        "discount_rate": 0.11,
+        "terminal_growth": 0.03,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 2003.125,
+            "owner_fcff_margin": 0,
+            "owner_fcff_usd_m": 0.0,
+            "pv_usd_m": 0.0
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 2503.9062,
+            "owner_fcff_margin": 0.05,
+            "owner_fcff_usd_m": 125.1953,
+            "pv_usd_m": 101.6113
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 3129.8828,
+            "owner_fcff_margin": 0.1,
+            "owner_fcff_usd_m": 312.9883,
+            "pv_usd_m": 228.8543
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 3912.3535,
+            "owner_fcff_margin": 0.15,
+            "owner_fcff_usd_m": 586.853,
+            "pv_usd_m": 386.5783
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 4890.4419,
+            "owner_fcff_margin": 0.2,
+            "owner_fcff_usd_m": 978.0884,
+            "pv_usd_m": 580.4478
+          }
+        ],
+        "pv_terminal_usd_m": 7473.266,
+        "enterprise_value_usd_m": 8770.7577,
+        "equity_bridge_usd_m": -653.2909999999998,
+        "shares_m": 182.225851,
+        "value_usd": 44.546186454849746,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 85.21
+      },
+      "optimistic": {
+        "revenue_growth_assumption": 0.35,
+        "discount_rate": 0.1,
+        "terminal_growth": 0.04,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 2163.375,
+            "owner_fcff_margin": 0.05,
+            "owner_fcff_usd_m": 108.1688,
+            "pv_usd_m": 98.3352
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 2920.5563,
+            "owner_fcff_margin": 0.1,
+            "owner_fcff_usd_m": 292.0556,
+            "pv_usd_m": 241.3683
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 3942.7509,
+            "owner_fcff_margin": 0.15,
+            "owner_fcff_usd_m": 591.4126,
+            "pv_usd_m": 444.3371
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 5322.7138,
+            "owner_fcff_margin": 0.2,
+            "owner_fcff_usd_m": 1064.5428,
+            "pv_usd_m": 727.097
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 7185.6636,
+            "owner_fcff_margin": 0.25,
+            "owner_fcff_usd_m": 1796.4159,
+            "pv_usd_m": 1115.4329
+          }
+        ],
+        "pv_terminal_usd_m": 19334.1709,
+        "enterprise_value_usd_m": 21960.7414,
+        "equity_bridge_usd_m": -653.2909999999998,
+        "shares_m": 182.225851,
+        "value_usd": 116.92880155988271,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 88.04
+      }
+    },
+    "base_value": 44.55,
+    "discount_price": 35.64,
+    "stress_discount_price": 5.71,
+    "price_vs_base_pct": 70.35,
+    "inputs": {
+      "financial_date": "2026-09-30",
+      "fy2026_revenue_guide_mid_usd_m": 1602.5,
+      "fy2026_adjusted_ebitda_guide_usd_m": 65,
+      "q3_revenue_usd_m": 411.537,
+      "q3_diagnostics_revenue_usd_m": 303.5,
+      "q3_data_applications_revenue_usd_m": 108.1,
+      "q3_operating_loss_usd_m": 56.864,
+      "q3_net_loss_usd_m": 14.851,
+      "q3_unrealized_equity_gain_usd_m": 42.8,
+      "cfo_9m_usd_m": -71.586,
+      "ppe_capex_9m_usd_m": 23.665,
+      "capitalized_software_9m_usd_m": 12.252,
+      "sbc_9m_usd_m": 154.901,
+      "fcf_including_capitalized_software_usd_m": -107.503,
+      "fcf_less_sbc_proxy_usd_m": -262.404,
+      "debt_plus_accrued_interest_usd_m": 1373.345,
+      "cash_usd_m": 590.479,
+      "marketable_equity_usd_m": 259.15,
+      "marketable_equity_haircut": 0.5,
+      "shares_m": 182.225851
+    },
+    "limitations": [
+      "本模型是未收购Personalis的独立公司情景；不把目标公司的收入、协同、付款和新股只取有利一边。",
+      "FCFF率是经济成本扣除后、利息前指标；现金流现状仅作校验，不能把CFO当FCFF直接资本化。",
+      "模型按9/30已发行股份，SBC作为现金等价成本压在FCFF率中；不同时再加一次同额未来SBC稀释。可转债按账面债务先扣，转换触发需另做股本桥。",
+      "终值占比高，增长率/利润率均非公司指引；基准折扣价尚需现金流改善确认，非即时买点。"
+    ],
+    "valuation_haircut_warning": "八折研究价是模型价值的20%折扣，不是当前价格下跌20%，也不承诺投资损失或标的回撤上限。"
+  },
+  "BA": {
+    "judgment": "仍是生产与现金流修复投资；171.55美元要求接近较强复苏情景，不能凭订单积压或高点回撤认定便宜。",
+    "basis": "前三季收入709.65亿美元、自由现金流−3.59亿。以2029年收入1100亿×8%经营利润率×18倍EV/EBIT，按10%折回并加中间FCFF现值，再扣净债252.06亿、优先股57.50亿和养老金/退休医疗等，基准106.52美元；弱复苏压力2.95、强复苏209.49。基准八折85.22。利润率/倍数均为假设，不是管理层预测；高杠杆使弱复苏剩余股权很薄。",
+    "next": "核737交付与提产、777X认证/交付和防务固定价合同费用；连续数季正FCF且库存兑现才支持提高复苏权重。若新增项目计提或预付款反转，先下调利润与FCFF假设。",
+    "reviewed_at": "2026-11-13T03:19:15.346072+00:00",
+    "market_session": "2026-11-12",
+    "currency": "USD",
+    "business": "商用飞机制造、国防航天系统和全球服务；主要价值取决于交付、生产质量和合同现金流，非独立AI收入。",
+    "price": {
+      "close": 171.55,
+      "session": "2026-11-12",
+      "segment": "regular_close",
+      "time_et": "2026-11-12T16:00:00-05:00",
+      "time_beijing": "2026-11-13T05:00:00+08:00",
+      "second_source_close": 171.55,
+      "crosscheck": "Yahoo当日完整日线与StockAnalysis同日收盘一致；两者均为第三方，不代表交易所逐笔审计",
+      "after_hours_reference": {
+        "price": 171.9,
+        "time_et": "2026-11-12T19:59:00-05:00",
+        "source": "StockAnalysis",
+        "single_source": true,
+        "used_in_valuation": false
+      }
+    },
+    "sources": [
+      {
+        "title": "Boeing Q3 2026官方业绩和完整报表",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx"
+      },
+      {
+        "title": "Yahoo 11/12日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BA?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis 11/12收盘及带时刻盘后参考",
+        "url": "https://stockanalysis.com/stocks/ba/history/"
+      }
+    ],
+    "model_note": "研究假设用于证伪价格要求，不是公司指引、目标价共识或交易指令。基准价值乘0.8只是估值折扣，不能保证最大亏损20%。",
+    "scenarios": {
+      "stress": {
+        "2029_revenue_usd_m": 100000,
+        "normalized_ebit_margin": 0.04,
+        "ev_ebit_multiple": 14,
+        "discount_rate": 0.12,
+        "interim_fcff_usd_m": [
+          -1000,
+          0,
+          500
+        ],
+        "pv_interim_fcff_usd_m": -536.9670189504374,
+        "enterprise_value_usd_m": 39322.72685860057,
+        "senior_claims_less_cash_usd_m": 36984,
+        "shares_m": 791.896311,
+        "value_usd": 2.953324603377988,
+        "formula": "(2029 revenue*EBIT margin*EV/EBIT / (1+r)^3 + PV(2027–29FCFF) − net debt − preferred liquidation preference − pension deficit − retiree health liability − NCI)/9/30 common shares"
+      },
+      "base": {
+        "2029_revenue_usd_m": 110000,
+        "normalized_ebit_margin": 0.08,
+        "ev_ebit_multiple": 18,
+        "discount_rate": 0.1,
+        "interim_fcff_usd_m": [
+          0,
+          1000,
+          2000
+        ],
+        "pv_interim_fcff_usd_m": 2329.0758827948903,
+        "enterprise_value_usd_m": 121337.34034560477,
+        "senior_claims_less_cash_usd_m": 36984,
+        "shares_m": 791.896311,
+        "value_usd": 106.52068859758178,
+        "formula": "(2029 revenue*EBIT margin*EV/EBIT / (1+r)^3 + PV(2027–29FCFF) − net debt − preferred liquidation preference − pension deficit − retiree health liability − NCI)/9/30 common shares"
+      },
+      "optimistic": {
+        "2029_revenue_usd_m": 125000,
+        "normalized_ebit_margin": 0.1,
+        "ev_ebit_multiple": 20,
+        "discount_rate": 0.09,
+        "interim_fcff_usd_m": [
+          2000,
+          4000,
+          6000
+        ],
+        "pv_interim_fcff_usd_m": 9834.683238753725,
+        "enterprise_value_usd_m": 202880.55325401976,
+        "senior_claims_less_cash_usd_m": 36984,
+        "shares_m": 791.896311,
+        "value_usd": 209.49277190662372,
+        "formula": "(2029 revenue*EBIT margin*EV/EBIT / (1+r)^3 + PV(2027–29FCFF) − net debt − preferred liquidation preference − pension deficit − retiree health liability − NCI)/9/30 common shares"
+      }
+    },
+    "base_value": 106.52,
+    "discount_price": 85.22,
+    "stress_discount_price": 2.36,
+    "price_vs_base_pct": 61.05,
+    "inputs": {
+      "financial_date": "2026-09-30",
+      "q3_revenue_usd_m": 24188,
+      "q3_operating_income_usd_m": 354,
+      "q3_common_share_loss_usd_m": 203,
+      "q3_simple_fcf_usd_m": 464,
+      "nine_month_simple_fcf_usd_m": -359,
+      "cash_plus_investments_usd_m": 20714,
+      "debt_usd_m": 45920,
+      "preferred_liquidation_preference_usd_m": 5750,
+      "net_pension_liability_usd_m": 4018,
+      "retiree_health_liability_usd_m": 1995,
+      "nci_usd_m": 15,
+      "shares_m": 791.896311,
+      "backlog_usd_m": 745000
+    },
+    "limitations": [
+      "这是2029恢复期企业价值折现；终值倍数未用分析师目标价。中间FCFF含利息前现金流及必要再投资。",
+      "净债只扣一次；优先股按当前优先索偿权扣除，未同时加转换股。转换后须改为新增股数、取消同一优先索偿权，不能双扣。",
+      "模型单独扣存量养老金及退休医疗欠额，中间FCFF假设排除对同一欠额的额外偿付，避免双扣；正常服务成本仍在经营利润率内。",
+      "未把7450亿美元积压订单直接当收入/利润或金融资产；压力值不是股价预测或损失下限。"
+    ],
+    "valuation_haircut_warning": "八折研究价是模型价值的20%折扣，不是当前价格下跌20%，也不承诺投资损失或标的回撤上限。"
+  },
+  "TSLA": {
+    "judgment": "现价主要依赖未来规模与利润率大幅跃升；在把SBC视作真实成本的基准模型下无安全边际。",
+    "basis": "以9个月收入算术年化1048.92亿美元为锚（不是全年预测）。基准未来5年每年增长15%，经济FCFF率3%逐年升至12%，折现10%、终值3%，加净金融资产并扣少数权益得87.84美元；压力24.43、乐观25%增长且20%终值FCFF率得261.23。基准八折70.27。前三季FCF18.83亿美元小于SBC33.46亿，当前价397.45需要更强兑现或更低资金回报要求。",
+    "next": "核Robotaxi每车收费里程/净收入/保险与人工干预成本、FSD续订、储能现金回报及资本开支；增长若仅由应付/预收拉动，不能提高利润率。潜在SpaceX交易有明确条款后再单列资本桥。",
+    "reviewed_at": "2026-11-13T03:19:15.346072+00:00",
+    "market_session": "2026-11-12",
+    "currency": "USD",
+    "business": "电动车、储能及能源、充电/服务、FSD软件与Robotaxi/机器人研发商业化。FSD已含汽车业务收入，不能在整车估值外全额再加一次。",
+    "price": {
+      "close": 397.45,
+      "session": "2026-11-12",
+      "segment": "regular_close",
+      "time_et": "2026-11-12T16:00:00-05:00",
+      "time_beijing": "2026-11-13T05:00:00+08:00",
+      "second_source_close": 397.45,
+      "crosscheck": "Yahoo当日完整日线与StockAnalysis同日收盘一致；两者均为第三方，不代表交易所逐笔审计",
+      "after_hours_reference": {
+        "price": 399.88,
+        "time_et": "2026-11-12T19:59:00-05:00",
+        "source": "StockAnalysis",
+        "single_source": true,
+        "used_in_valuation": false
+      }
+    },
+    "sources": [
+      {
+        "title": "Tesla 2026Q3官方更新",
+        "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf"
+      },
+      {
+        "title": "Tesla 2026Q3 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+      },
+      {
+        "title": "Yahoo 11/12日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis 11/12收盘及带时刻盘后参考",
+        "url": "https://stockanalysis.com/stocks/tsla/history/"
+      }
+    ],
+    "model_note": "研究假设用于证伪价格要求，不是公司指引、目标价共识或交易指令。基准价值乘0.8只是估值折扣，不能保证最大亏损20%。",
+    "scenarios": {
+      "stress": {
+        "revenue_growth_assumption": 0.05,
+        "discount_rate": 0.12,
+        "terminal_growth": 0.02,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 110136.6,
+            "owner_fcff_margin": 0.01,
+            "owner_fcff_usd_m": 1101.366,
+            "pv_usd_m": 983.3625
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 115643.43,
+            "owner_fcff_margin": 0.02,
+            "owner_fcff_usd_m": 2312.8686,
+            "pv_usd_m": 1843.8047
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 121425.6015,
+            "owner_fcff_margin": 0.03,
+            "owner_fcff_usd_m": 3642.768,
+            "pv_usd_m": 2592.8503
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 127496.8816,
+            "owner_fcff_margin": 0.04,
+            "owner_fcff_usd_m": 5099.8753,
+            "pv_usd_m": 3241.0629
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 133871.7257,
+            "owner_fcff_margin": 0.05,
+            "owner_fcff_usd_m": 6693.5863,
+            "pv_usd_m": 3798.1206
+          }
+        ],
+        "pv_terminal_usd_m": 38740.8303,
+        "enterprise_value_usd_m": 51200.0313,
+        "equity_bridge_usd_m": 35324,
+        "shares_m": 3541,
+        "value_usd": 24.434914233899594,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 75.67
+      },
+      "base": {
+        "revenue_growth_assumption": 0.15,
+        "discount_rate": 0.1,
+        "terminal_growth": 0.03,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 120625.8,
+            "owner_fcff_margin": 0.03,
+            "owner_fcff_usd_m": 3618.774,
+            "pv_usd_m": 3289.7945
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 138719.67,
+            "owner_fcff_margin": 0.05,
+            "owner_fcff_usd_m": 6935.9835,
+            "pv_usd_m": 5732.2178
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 159527.6205,
+            "owner_fcff_margin": 0.07,
+            "owner_fcff_usd_m": 11166.9334,
+            "pv_usd_m": 8389.8824
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 183456.7636,
+            "owner_fcff_margin": 0.09,
+            "owner_fcff_usd_m": 16511.1087,
+            "pv_usd_m": 11277.3094
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 210975.2781,
+            "owner_fcff_margin": 0.12,
+            "owner_fcff_usd_m": 25317.0334,
+            "pv_usd_m": 15719.8859
+          }
+        ],
+        "pv_terminal_usd_m": 231306.8919,
+        "enterprise_value_usd_m": 275715.9819,
+        "equity_bridge_usd_m": 35324,
+        "shares_m": 3541,
+        "value_usd": 87.83958822712167,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 83.89
+      },
+      "optimistic": {
+        "revenue_growth_assumption": 0.25,
+        "discount_rate": 0.09,
+        "terminal_growth": 0.035,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 131115.0,
+            "owner_fcff_margin": 0.05,
+            "owner_fcff_usd_m": 6555.75,
+            "pv_usd_m": 6014.4495
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 163893.75,
+            "owner_fcff_margin": 0.08,
+            "owner_fcff_usd_m": 13111.5,
+            "pv_usd_m": 11035.6872
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 204867.1875,
+            "owner_fcff_margin": 0.12,
+            "owner_fcff_usd_m": 24584.0625,
+            "pv_usd_m": 18983.4069
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 256083.9844,
+            "owner_fcff_margin": 0.16,
+            "owner_fcff_usd_m": 40973.4375,
+            "pv_usd_m": 29026.6161
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 320104.9805,
+            "owner_fcff_margin": 0.2,
+            "owner_fcff_usd_m": 64020.9961,
+            "pv_usd_m": 41609.2547
+          }
+        ],
+        "pv_terminal_usd_m": 783010.5211,
+        "enterprise_value_usd_m": 889679.9355,
+        "equity_bridge_usd_m": 35324,
+        "shares_m": 3541,
+        "value_usd": 261.22675387759654,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 88.01
+      }
+    },
+    "base_value": 87.84,
+    "discount_price": 70.27,
+    "stress_discount_price": 19.55,
+    "price_vs_base_pct": 352.47,
+    "inputs": {
+      "financial_date": "2026-09-30",
+      "annualized_9m_revenue_anchor_usd_m": 104892.0,
+      "is_management_forecast": false,
+      "q3_revenue_usd_m": 28046,
+      "q3_operating_income_usd_m": 718,
+      "q3_net_income_attributable_usd_m": 787,
+      "q3_gaap_eps": 0.22,
+      "q3_adjusted_eps": 0.48,
+      "cfo_9m_usd_m": 14897,
+      "capex_9m_usd_m": 13014,
+      "simple_fcf_9m_usd_m": 1883,
+      "sbc_9m_usd_m": 3346,
+      "fcf_less_sbc_proxy_usd_m": -1463,
+      "cash_and_short_investments_usd_m": 45447,
+      "debt_finance_lease_usd_m": 9523,
+      "nci_and_redeemable_nci_usd_m": 600,
+      "q3_diluted_weighted_shares_m": 3541,
+      "fsd_subscriptions_m": 1.74,
+      "fsd_metric": "包含一次性付费及月订阅、排除免费试用；FSD Supervised仍要求驾驶员监督。"
+    },
+    "limitations": [
+      "全公司FCFF含FSD/Robotaxi/机器人成长假设，不再额外叠加机器人故事估值；未计未达成的合并协同。",
+      "FCFF率包含税、SBC经济成本、研发、营运资金和扩张资本开支。未来SBC按现金等价成本处理，股本采用当季已稀释份额；不重复加同一SBC未来股份。",
+      "SpaceX股权和数字资产等未单独加入，净现金桥只包括现金短期投资、债务及少数权益；对高度乐观情景的估值也非价格上限。"
+    ],
+    "valuation_haircut_warning": "八折研究价是模型价值的20%折扣，不是当前价格下跌20%，也不承诺投资损失或标的回撤上限。"
+  },
+  "SPCX": {
+    "judgment": "已完成高投入现金流情景；不是轻资产AI应用，现价需要极强且持续增长与资本效率改善，基准不支持低估。",
+    "basis": "Q3收入145.75亿美元年化作583亿起点，三分部财务分别核验；前三季CFO130.97亿、PP&E480.69亿，简单FCF−349.72亿。基准未来5年收入每年+40%，经济FCFF率从−30%改善至20%，折现11%、终值3%，加净金融现金510.11亿并按141.12亿近似稀释股计价，得39.97美元；压力4.69、乐观60%增长且终值30%利润率158.99。基准八折31.97。这些增长/利润假设已经很强，非官方指引。",
+    "next": "分别核Starlink订阅/ARPU/卫星替换开支、SI云算力客户收入与现金回收、Cursor并表后净留存；观察资本开支何时低于CFO，复核IPO后奖励稀释、关联融资与任何Tesla交易条款。",
+    "reviewed_at": "2026-11-13T03:19:15.346072+00:00",
+    "market_session": "2026-11-12",
+    "currency": "USD",
+    "business": "Space发射、Connectivity/Starlink连接、SI（云算力、Grok、Cursor、X）。2026-06-12上市的Space Exploration Technologies，非旧同代码SPAC ETF。",
+    "price": {
+      "close": 139.94,
+      "session": "2026-11-12",
+      "segment": "regular_close",
+      "time_et": "2026-11-12T16:00:00-05:00",
+      "time_beijing": "2026-11-13T05:00:00+08:00",
+      "second_source_close": 139.94,
+      "crosscheck": "Yahoo当日完整日线与StockAnalysis同日收盘一致；两者均为第三方，不代表交易所逐笔审计",
+      "after_hours_reference": {
+        "price": 141.96,
+        "time_et": "2026-11-12T19:59:00-05:00",
+        "source": "StockAnalysis",
+        "single_source": true,
+        "used_in_valuation": false
+      }
+    },
+    "sources": [
+      {
+        "title": "SpaceX 2026Q3 10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+      },
+      {
+        "title": "SpaceX投资者FAQ",
+        "url": "https://ir.spacex.com/faqs-and-contact/"
+      },
+      {
+        "title": "Yahoo 11/12日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPCX?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis 11/12收盘及带时刻盘后参考",
+        "url": "https://stockanalysis.com/stocks/spcx/history/"
+      }
+    ],
+    "model_note": "研究假设用于证伪价格要求，不是公司指引、目标价共识或交易指令。基准价值乘0.8只是估值折扣，不能保证最大亏损20%。",
+    "scenarios": {
+      "stress": {
+        "revenue_growth_assumption": 0.25,
+        "discount_rate": 0.13,
+        "terminal_growth": 0.025,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 72875.0,
+            "owner_fcff_margin": -0.6,
+            "owner_fcff_usd_m": -43725.0,
+            "pv_usd_m": -38694.6903
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 91093.75,
+            "owner_fcff_margin": -0.3,
+            "owner_fcff_usd_m": -27328.125,
+            "pv_usd_m": -21401.9305
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 113867.1875,
+            "owner_fcff_margin": -0.1,
+            "owner_fcff_usd_m": -11386.7188,
+            "pv_usd_m": -7891.5673
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 142333.9844,
+            "owner_fcff_margin": 0,
+            "owner_fcff_usd_m": 0.0,
+            "pv_usd_m": 0.0
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 177917.4805,
+            "owner_fcff_margin": 0.08,
+            "owner_fcff_usd_m": 14233.3984,
+            "pv_usd_m": 7725.3184
+          }
+        ],
+        "pv_terminal_usd_m": 75413.8227,
+        "enterprise_value_usd_m": 15150.953,
+        "equity_bridge_usd_m": 51011,
+        "shares_m": 14112,
+        "value_usd": 4.688347011065862,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 497.75
+      },
+      "base": {
+        "revenue_growth_assumption": 0.4,
+        "discount_rate": 0.11,
+        "terminal_growth": 0.03,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 81620.0,
+            "owner_fcff_margin": -0.3,
+            "owner_fcff_usd_m": -24486.0,
+            "pv_usd_m": -22059.4595
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 114268.0,
+            "owner_fcff_margin": -0.1,
+            "owner_fcff_usd_m": -11426.8,
+            "pv_usd_m": -9274.2472
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 159975.2,
+            "owner_fcff_margin": 0.05,
+            "owner_fcff_usd_m": 7998.76,
+            "pv_usd_m": 5848.6244
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 223965.28,
+            "owner_fcff_margin": 0.15,
+            "owner_fcff_usd_m": 33594.792,
+            "pv_usd_m": 22129.9301
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 313551.392,
+            "owner_fcff_margin": 0.2,
+            "owner_fcff_usd_m": 62710.2784,
+            "pv_usd_m": 37215.498
+          }
+        ],
+        "pv_terminal_usd_m": 479149.5367,
+        "enterprise_value_usd_m": 513009.8825,
+        "equity_bridge_usd_m": 51011,
+        "shares_m": 14112,
+        "value_usd": 39.96746616654619,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 93.4
+      },
+      "optimistic": {
+        "revenue_growth_assumption": 0.6,
+        "discount_rate": 0.1,
+        "terminal_growth": 0.04,
+        "cash_flow_rows": [
+          {
+            "year": 2027,
+            "revenue_usd_m": 93280.0,
+            "owner_fcff_margin": -0.1,
+            "owner_fcff_usd_m": -9328.0,
+            "pv_usd_m": -8480.0
+          },
+          {
+            "year": 2028,
+            "revenue_usd_m": 149248.0,
+            "owner_fcff_margin": 0.1,
+            "owner_fcff_usd_m": 14924.8,
+            "pv_usd_m": 12334.5455
+          },
+          {
+            "year": 2029,
+            "revenue_usd_m": 238796.8,
+            "owner_fcff_margin": 0.2,
+            "owner_fcff_usd_m": 47759.36,
+            "pv_usd_m": 35882.314
+          },
+          {
+            "year": 2030,
+            "revenue_usd_m": 382074.88,
+            "owner_fcff_margin": 0.25,
+            "owner_fcff_usd_m": 95518.72,
+            "pv_usd_m": 65240.571
+          },
+          {
+            "year": 2031,
+            "revenue_usd_m": 611319.808,
+            "owner_fcff_margin": 0.3,
+            "owner_fcff_usd_m": 183395.9424,
+            "pv_usd_m": 113874.4512
+          }
+        ],
+        "pv_terminal_usd_m": 1973823.8208,
+        "enterprise_value_usd_m": 2192675.7025,
+        "equity_bridge_usd_m": 51011,
+        "shares_m": 14112,
+        "value_usd": 158.99140465400146,
+        "formula": "EV=sum(Revenue_t*FCFF_margin_t/(1+r)^t)+FCFF_5*(1+g)/(r-g)/(1+r)^5; equity=EV+cash-and-investment-adjustment-debt; per-share=equity/shares",
+        "terminal_share_of_ev_pct": 90.02
+      }
+    },
+    "base_value": 39.97,
+    "discount_price": 31.97,
+    "stress_discount_price": 3.75,
+    "price_vs_base_pct": 250.11,
+    "inputs": {
+      "financial_date": "2026-09-30",
+      "q3_revenue_usd_m": 14575,
+      "q3_segment_revenue_usd_m": {
+        "Space": 1767,
+        "Connectivity": 5248,
+        "SI": 7560
+      },
+      "q3_segment_operating_income_usd_m": {
+        "Space": -7,
+        "Connectivity": 2367,
+        "SI": 431
+      },
+      "nine_month_cfo_usd_m": 13097,
+      "nine_month_ppe_capex_usd_m": 48069,
+      "simple_fcf_usd_m": -34972,
+      "additional_cash_flow_items": "另有资本化利息20、产品返利流入1372、无形资产付款866（百万USD）；简单FCF未包含这些项，不能称全部现金消耗。",
+      "sbc_9m_usd_m": 3833,
+      "cash_and_marketable_securities_usd_m": 89855,
+      "debt_finance_leases_usd_m": 38844,
+      "period_end_class_A_B_shares_m": 13579,
+      "incremental_dilution_allowance_m": 533,
+      "valuation_shares_m": 14112,
+      "dilution_note": "采用9/30 A8240+B5339，加当季稀释增量533（期权457+RSU75+ESPP1）作近似当前稀释分母；不是季均12475直接当当前股数，也不声称是全部未归属奖励完全稀释。",
+      "q3_cursor_revenue_usd_m": 608
+    },
+    "limitations": [
+      "年化Q3仅最新经营规模锚，不当TTM或可持续收入保证；Cursor于8月收购后收入608百万，不算全年有机增长。",
+      "经济FCFF率包含持续卫星/数据中心资本开支、SBC和税；不得再用调整EBITDA假装可分配现金。",
+      "未来增长可改变融资、稀释与费用；模型分母只是当前期末加当季稀释增量代理。潜在合并未达成，不计协同。",
+      "历史不足一年/200交易日规则不变；经营估值不补造市场历史。"
+    ],
+    "valuation_haircut_warning": "八折研究价是模型价值的20%折扣，不是当前价格下跌20%，也不承诺投资损失或标的回撤上限。"
+  },
+  "BRK-B": {
+    "judgment": "盈利和资本配置质量较清楚，但589.83美元在本组假设中偏近乐观情景；低回撤不代表便宜。",
+    "basis": "前三季税后经营利润370.34亿美元，乘4/3为493.79亿算术锚。设压力450亿×16倍、基准500亿×20倍、乐观550亿×24倍，并用9/30的21.2835亿B等价股，分别338.29/469.85/620.20美元；基准八折375.88。经营利润已含现金利息、股息及部分权益法盈利，因此不再另加全部现金/证券组合，也不再扣同一经营利润已承担利息的净债。9/30账面每B股357.73美元，现价约1.65倍。",
+    "next": "核承保盈利与准备金释放、短债收益率、铁路/能源回报和回购后的每股盈利；若降息压利息收入或大额赔付出现，正常化经营利润下调。完整SOTP需先剔除投资收益并处理浮存金/税/监管资本，不能简单现金加总。",
+    "reviewed_at": "2026-11-13T03:19:15.346072+00:00",
+    "market_session": "2026-11-12",
+    "currency": "USD",
+    "business": "保险承保及投资、BNSF铁路、BHE能源，制造/服务/零售与股权投资；单一综合经营公司，不是指数ETF。",
+    "price": {
+      "close": 589.83,
+      "session": "2026-11-12",
+      "segment": "regular_close",
+      "time_et": "2026-11-12T16:00:00-05:00",
+      "time_beijing": "2026-11-13T05:00:00+08:00",
+      "second_source_close": 589.83,
+      "crosscheck": "Yahoo当日完整日线与StockAnalysis同日收盘一致；两者均为第三方，不代表交易所逐笔审计",
+      "after_hours_reference": {
+        "price": 589.63,
+        "time_et": "2026-11-12T19:59:00-05:00",
+        "source": "StockAnalysis",
+        "single_source": true,
+        "used_in_valuation": false
+      }
+    },
+    "sources": [
+      {
+        "title": "Berkshire 2026Q3官方新闻",
+        "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+      },
+      {
+        "title": "Berkshire 2026Q3完整10-Q",
+        "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+      },
+      {
+        "title": "Yahoo 11/12日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "StockAnalysis 11/12收盘及带时刻盘后参考",
+        "url": "https://stockanalysis.com/stocks/brk.b/history/"
+      }
+    ],
+    "model_note": "研究假设用于证伪价格要求，不是公司指引、目标价共识或交易指令。基准价值乘0.8只是估值折扣，不能保证最大亏损20%。",
+    "scenarios": {
+      "stress": {
+        "normalized_annual_after_tax_operating_earnings_usd_m": 45000,
+        "equity_pe": 16,
+        "shares_m": 2128.350025,
+        "value_usd": 338.29022084842455,
+        "formula": "normalized after-tax operating earnings * equity PE / B-equivalent shares; no separate net debt/cash/equity-portfolio addition"
+      },
+      "base": {
+        "normalized_annual_after_tax_operating_earnings_usd_m": 50000,
+        "equity_pe": 20,
+        "shares_m": 2128.350025,
+        "value_usd": 469.8475289561452,
+        "formula": "normalized after-tax operating earnings * equity PE / B-equivalent shares; no separate net debt/cash/equity-portfolio addition"
+      },
+      "optimistic": {
+        "normalized_annual_after_tax_operating_earnings_usd_m": 55000,
+        "equity_pe": 24,
+        "shares_m": 2128.350025,
+        "value_usd": 620.1987382221117,
+        "formula": "normalized after-tax operating earnings * equity PE / B-equivalent shares; no separate net debt/cash/equity-portfolio addition"
+      }
+    },
+    "base_value": 469.85,
+    "discount_price": 375.88,
+    "stress_discount_price": 270.63,
+    "price_vs_base_pct": 25.54,
+    "inputs": {
+      "financial_date": "2026-09-30",
+      "operating_earnings_q3_usd_m": 12705,
+      "operating_earnings_9m_usd_m": 37034,
+      "annualized_9m_operating_earnings_usd_m": 49378.666666666664,
+      "annualization_is_forecast": false,
+      "gaap_q3_earnings_usd_m": 22112,
+      "q3_investment_gains_usd_m": 9407,
+      "attributable_equity_usd_m": 761368,
+      "b_equivalent_shares_m": 2128.350025,
+      "shares_formula": "481584*1500+1405974025 (9/30)",
+      "book_value_per_B": 357.7268734262824,
+      "price_to_book": 1.6488277616681422,
+      "group_cash_tbill_gross_usd_m": 377435,
+      "unsettled_tbill_payable_usd_m": 20489,
+      "group_cash_after_tbill_settlement_usd_m": 356946,
+      "insurance_float_usd_m": 178500
+    },
+    "limitations": [
+      "资本桥统一9/30股数及权益；10/28封面B等价股21.2452亿更少，但期后完整回购权益桥未齐，未混用制造更高BVPS。",
+      "经营利润包含保险投资、公司现金及权益法回报；股权盈利倍数法不重复加现金/股票市值，不重复扣债。",
+      "集团现金/短债先减未结算204.89亿；不是保险子公司2309.41亿再相加；保险浮存金不是股东可自由分配现金。",
+      "16/20/24倍是显式情景估计，未宣称历史最低；不把投资浮盈当可持续EPS。"
+    ],
+    "valuation_haircut_warning": "八折研究价是模型价值的20%折扣，不是当前价格下跌20%，也不承诺投资损失或标的回撤上限。"
+  }
+}

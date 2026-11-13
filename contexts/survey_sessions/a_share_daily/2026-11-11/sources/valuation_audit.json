@@ -1,0 +1,37 @@
+{
+  "issue": 3011,
+  "regular_asof": "2026-11-10",
+  "all_items_read_from_image": true,
+  "items": 50,
+  "counts": {
+    "低估": 19,
+    "正常": 31,
+    "高估": 0
+  },
+  "images": [
+    {
+      "file": "3011_valuation.jpg",
+      "type": "常规估值",
+      "asof": "2026-11-10",
+      "sha256": "07d52a628e32499cf6176b6f39ae1825dcc929c81baf82dcff9c5f447072cd04"
+    },
+    {
+      "file": "3011_pension_2026-11-09.jpg",
+      "type": "养老专题估值",
+      "asof": "2026-11-09",
+      "sha256": "22dde8a53a38488c60cfec15fd85cb5b32d57d7b2a49ecd73309eb4315ed60d6"
+    },
+    {
+      "file": "3011_pension_plan_2026-11-10.jpg",
+      "type": "养老第88期计划及账户记录",
+      "plan_asof": "2026-11-10",
+      "account_asof": "2026-11-09",
+      "plan_cny": {
+        "中证A50": 138,
+        "中证A500": 132,
+        "中证红利": 126
+      },
+      "sha256": "358743c717549f1a5ffe5cdae6ea59d900f60240f5ad828a9f2cd92e22b4a1db"
+    }
+  ]
+}

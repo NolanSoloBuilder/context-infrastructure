@@ -1,0 +1,146 @@
+{
+  "report_date": "2026-11-07",
+  "market_session": "2026-11-06",
+  "reviewed_at": "2026-11-06T23:44:11.380230+00:00",
+  "currency": "USD",
+  "regular_quote_comparisons": [
+    {
+      "symbol": "QQQM",
+      "yahoo_close": 270.22,
+      "stockanalysis_close": 270.15,
+      "difference_usd": 0.07,
+      "source_url": "https://stockanalysis.com/etf/qqqm/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "VOO",
+      "yahoo_close": 675.99,
+      "stockanalysis_close": 676.13,
+      "difference_usd": -0.14,
+      "source_url": "https://stockanalysis.com/etf/voo/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "BRK-B",
+      "yahoo_close": 570.89,
+      "stockanalysis_close": 570.96,
+      "difference_usd": -0.07,
+      "source_url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "NOW",
+      "yahoo_close": 101.97,
+      "stockanalysis_close": 101.98,
+      "difference_usd": -0.01,
+      "source_url": "https://stockanalysis.com/stocks/now/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "CRM",
+      "yahoo_close": 213.65,
+      "stockanalysis_close": 213.65,
+      "difference_usd": 0.0,
+      "source_url": "https://stockanalysis.com/stocks/crm/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "GEHC",
+      "yahoo_close": 82.38,
+      "stockanalysis_close": 82.39,
+      "difference_usd": -0.01,
+      "source_url": "https://stockanalysis.com/stocks/gehc/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "CGNX",
+      "yahoo_close": 47.78,
+      "stockanalysis_close": 47.7,
+      "difference_usd": 0.08,
+      "source_url": "https://stockanalysis.com/stocks/cgnx/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "MRNA",
+      "yahoo_close": 254.19,
+      "stockanalysis_close": 254.15,
+      "difference_usd": 0.04,
+      "source_url": "https://stockanalysis.com/stocks/mrna/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "GOOGL",
+      "yahoo_close": 284.78,
+      "stockanalysis_close": 284.68,
+      "difference_usd": 0.1,
+      "source_url": "https://stockanalysis.com/stocks/googl/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "SOFI",
+      "yahoo_close": 16.21,
+      "stockanalysis_close": 16.2,
+      "difference_usd": 0.01,
+      "source_url": "https://stockanalysis.com/stocks/sofi/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "SOXX",
+      "yahoo_close": 136.53,
+      "stockanalysis_close": 136.43,
+      "difference_usd": 0.1,
+      "source_url": "https://stockanalysis.com/etf/soxx/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    },
+    {
+      "symbol": "XSW",
+      "yahoo_close": 202.67,
+      "stockanalysis_close": 202.17,
+      "difference_usd": 0.5,
+      "source_url": "https://stockanalysis.com/etf/xsw/history/",
+      "read_scope": "dated regular close and historical table; after-hours distinguished"
+    }
+  ],
+  "official_quote_gap": "Nasdaq QQQM historical page opened this run, says Data is currently not available. Third-party cross-checks explicitly identified.",
+  "additional_sources": [
+    {
+      "symbol": "QQQM",
+      "url": "https://ca.investing.com/etfs/qqqm-historical-data",
+      "regular_session": "2026-11-06",
+      "close": 270.22,
+      "high_52w": 314.11,
+      "high_date": "2026-10-06",
+      "prior_2026_11_05_close": 266.85
+    },
+    {
+      "symbol": "VOO",
+      "url": "https://raymondjames.websol.barchart.com/?0=NEWS&1_selected=etfQuote&module=etfDetail&region=US&symbol=VOO",
+      "regular_session": "2026-11-06",
+      "close": 675.99,
+      "high_52w": 718.47,
+      "high_date": "2026-10-06"
+    },
+    {
+      "symbol": "BRK-B",
+      "url": "https://www.marketscreener.com/quote/stock/BERKSHIRE-HATHAWAY-INC-11916/quotes/",
+      "regular_session": "2026-11-06",
+      "close": 570.89,
+      "high_52w": 586.3,
+      "high_date": "2026-11-05"
+    }
+  ],
+  "prior_cross_reconciled": {
+    "session": "2026-11-05",
+    "checked_on": "2026-11-07",
+    "close": 266.85,
+    "high_yahoo_investing": 314.11,
+    "high_stockanalysis": 314.12,
+    "d_yahoo": 15.04568463277196,
+    "d_stockanalysis": 15.048389150643061,
+    "finding": "StockAnalysis historical close now266.85 vs267.02 captured yesterday. Both high variants now yield D>15. Record retrospective confirmation, not a fresh crossing on11/6."
+  },
+  "data_recovery": {
+    "SOXX": "Provider now adjusts 11/4 close to150.13667 and full pre-split history; StockAnalysis150.14 supports. 11/5 close131.90 means -12.15%, not the mixed-unit -70%. No manual adjustment. Current close136.53 vs136.43 remains disclosed.",
+    "XSW": "11/5 high corrected to211.65, now encloses open211.65 and close203.85. Historical OHLC validation passes. Current close202.67 vs StockAnalysis202.17 differs; automatic source retained, exact close unresolved."
+  }
+}

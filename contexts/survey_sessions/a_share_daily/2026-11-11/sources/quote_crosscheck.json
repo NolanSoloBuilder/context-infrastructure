@@ -1,0 +1,69 @@
+{
+  "asof": "2026-11-10",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "quote_time": "20261110161428",
+      "close": 3663.72,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "quote_time": "20261110161428",
+      "close": 2772.96,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "quote_time": "20261110161410",
+      "close": 4059.11,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "quote_time": "20261110161410",
+      "close": 1265.02,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "quote_time": "20261110161447",
+      "close": 2.891,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "quote_time": "20261110161436",
+      "close": 4.135,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "quote_time": "20261110161454",
+      "close": 1.337,
+      "consistent": true
+    }
+  ],
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3663.72,
+      "daily_pct": 0.08
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4059.11,
+      "daily_pct": 0.07
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1265.02,
+      "daily_pct": 0.64
+    }
+  ],
+  "independent_sources": [
+    "https://m.cngold.org/stock/xw10870792.html",
+    "https://www.cnfin.com/yw-lb/detail/20261110/4493456_1.html"
+  ],
+  "note": "腾讯历史和点价为同一提供方。上证/沪深300另核金投，科创50另核同日收盘报道。"
+}

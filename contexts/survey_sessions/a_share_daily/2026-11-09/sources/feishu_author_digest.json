@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-11-09T09:07:37.009598+08:00",
+  "window_start": "2026-11-07T09:00:00+08:00",
+  "window_end": "2026-11-09T09:00:00+08:00",
+  "message_count": 15,
+  "candidate_count": 13,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b6035387ee4a4c0145f93e006c8f",
+      "source_time": "2026-11-08 14:30+08:00",
+      "sync_create_time": "1794119531665",
+      "content_sha256": "2ab98d5eded07f2e8e5ddc7d3d020c6b899c04f31984375917fedd1b8f2e8522",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为长期利率下行可抬升部分低估值高分红资产的估值，但重估收益不能持续重复，也不假定利率一直下降；保险机构关注整体回报。未给具体ETF或目标仓位。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61cf06fe78a0cfd897ae83e249c",
+      "source_time": "2026-11-08 07:29+08:00",
+      "sync_create_time": "1794094211497",
+      "content_sha256": "a8f01ba38167afb65034a8e0834e460f719c0a92a679b53d2f751ef0bacadcd6",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者强调用仓位留出判断出错的余地，提到中枢线下可用定投作为备选，同时要能承受浮亏。相关指数、可执行线位和仓位未在可核验答复中确认。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "合并同主题简短答复；过滤成员内容和无关候选。",
+  "coverage": "群同步作者观点，非原知识星球全文"
+}

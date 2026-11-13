@@ -1,19 +1,15 @@
 {
-  "recorded_on": "2026-11-06",
-  "source_asof": "2026-11-05",
+  "recorded_on": "2026-11-13",
+  "source_asof": "2026-11-12",
   "provider": "银行螺丝钉",
-  "verified_star": 4.7,
+  "verified_star": 4.8,
   "watch_threshold": 5.0,
   "stage": "below_watch_threshold",
-  "evidence": "https://www.sina.cn/news/detail/5362011796147214.html",
-  "interpretation": "本期4.7星为上一有效区间下沿，离5星0.3，未触发",
+  "evidence": "https://www.sina.cn/news/detail/5364542357373355.html",
+  "interpretation": "第3013期4.8星，与上期持平，距5星0.2，未触发",
   "notification_rule": "首次达到/跨过5星、退出后重新达到或作者修正时突出提示；同日重跑和阶段不变不重复称新触发",
-  "previous_verified_star": null,
-  "verified_star_display": "4.7星",
-  "star_precision": "作者正文明确单值4.7星",
-  "previous_verified_star_range": [
-    4.7,
-    4.8
-  ],
-  "gap_to_threshold": 0.3
+  "previous_verified_star": 4.8,
+  "verified_star_display": "4.8星",
+  "star_precision": "正文明确4.8星",
+  "gap_to_threshold": 0.2
 }

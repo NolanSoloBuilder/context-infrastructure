@@ -1,0 +1,2807 @@
+﻿1
+00:00:30,338 --> 00:00:31,381
+This is going to be
+
+2
+00:00:31,381 --> 00:00:34,967
+the most promising technology in human history.
+
+3
+00:00:35,134 --> 00:00:40,473
+AI is capturing the essence of cognition. In 2024 and 2025,
+
+4
+00:00:40,598 --> 00:00:44,477
+coding became possible, and now we're starting to find that agents
+
+5
+00:00:44,477 --> 00:00:48,940
+that do things end to end in other areas of knowledge work are possible.
+
+6
+00:00:49,065 --> 00:00:53,486
+And even more recently, we're starting to see that fundamental discoveries
+
+7
+00:00:53,486 --> 00:00:58,491
+in areas like biology and mathematics and physics are becoming possible.
+
+8
+00:00:58,699 --> 00:01:03,204
+If humans can use AI to cure cancer, an evil
+
+9
+00:01:03,204 --> 00:01:07,083
+human can use AI to make a bioweapon or do a cyber attack,
+
+10
+00:01:07,542 --> 00:01:11,003
+we cannot succeed if we don't address these risks.
+
+11
+00:01:11,087 --> 00:01:15,925
+And we are determined to get this right, because this is why I and this is why
+
+12
+00:01:15,967 --> 00:01:19,512
+many people who work at Anthropic, this is why we work on this technology.
+
+13
+00:01:26,936 --> 00:01:29,856
+Intelligence is now something humans can build.
+
+14
+00:01:29,856 --> 00:01:32,817
+The implications of this are profound.
+
+15
+00:01:32,817 --> 00:01:36,654
+We believe it will make every person far more capable and expand the world's
+
+16
+00:01:36,654 --> 00:01:41,325
+capacity for cognitive work, transforming every industry and every discipline.
+
+17
+00:01:41,325 --> 00:01:45,246
+This enormous economic impact begins with frontier intelligence,
+
+18
+00:01:45,496 --> 00:01:48,916
+with what Claude can do. In 2024,
+
+19
+00:01:49,000 --> 00:01:53,504
+Claude could answer a question, retrieve information, or summarize a document.
+
+20
+00:01:53,546 --> 00:01:55,423
+By the end of 2025,
+
+21
+00:01:55,423 --> 00:01:58,176
+Claude could do deep research and multi-step projects
+
+22
+00:01:58,176 --> 00:02:00,595
+like refactoring an entire code base.
+
+23
+00:02:00,595 --> 00:02:06,100
+The type of task that required hours or even days of human work. Today,
+
+24
+00:02:06,309 --> 00:02:09,687
+Claude can take on complex, open ended projects
+
+25
+00:02:09,687 --> 00:02:13,483
+that once took months or years of research, analysis
+
+26
+00:02:13,483 --> 00:02:17,570
+and execution by many people and complete them in days.
+
+27
+00:02:17,904 --> 00:02:21,949
+In the near future, we see potential for frontier AI to drive
+
+28
+00:02:21,949 --> 00:02:26,829
+some of humanity's greatest breakthroughs and open entirely new markets.
+
+29
+00:02:27,163 --> 00:02:31,209
+Our success thus far emerges from five core advantages.
+
+30
+00:02:31,542 --> 00:02:34,962
+These are our mission and focus, talent and culture,
+
+31
+00:02:35,671 --> 00:02:38,049
+frontier research and safety work,
+
+32
+00:02:38,049 --> 00:02:41,010
+our approach to compute and our enterprise strategy.
+
+33
+00:02:41,010 --> 00:02:43,346
+All of this begins with our mission.
+
+34
+00:02:43,346 --> 00:02:46,432
+The responsible development and maintenance of advanced
+
+35
+00:02:46,432 --> 00:02:49,435
+AI for the long term benefit of humanity.
+
+36
+00:02:49,685 --> 00:02:53,689
+It's an organizing force and key to our focused execution.
+
+37
+00:02:53,773 --> 00:02:58,903
+We manage a universe of finite resources: compute, talent, and research capacity.
+
+38
+00:02:59,153 --> 00:03:03,115
+The mission is how we create clarity for the team and deploy those resources
+
+39
+00:03:03,115 --> 00:03:07,745
+to maximum effect. At challenging moments that call for hard choices,
+
+40
+00:03:08,079 --> 00:03:10,414
+our mission sharpens our decision making.
+
+41
+00:03:10,414 --> 00:03:14,377
+It led us to deploy models like Mythos exclusively to cyber defenders.
+
+42
+00:03:14,544 --> 00:03:18,256
+It also led us to commit to keep Claude free of advertising.
+
+43
+00:03:18,589 --> 00:03:23,010
+This mission and focus continue to attract the very best talent in the industry.
+
+44
+00:03:23,302 --> 00:03:25,221
+That's been true since our founding.
+
+45
+00:03:25,221 --> 00:03:28,266
+Our seven co-founders include the originators of ideas
+
+46
+00:03:28,266 --> 00:03:31,477
+that now make up the foundation of the AI industry.
+
+47
+00:03:31,727 --> 00:03:36,607
+This concentration of top talent extends to all levels of the organization,
+
+48
+00:03:36,816 --> 00:03:40,820
+and we lead the industry in attracting and retaining the brightest
+
+49
+00:03:40,820 --> 00:03:41,821
+minds in the field.
+
+50
+00:03:48,869 --> 00:03:51,080
+Why do I work at Anthropic?
+
+51
+00:03:51,080 --> 00:03:53,874
+Why do I? Why do I work at Anthropic? Why do I work at Anthropic?
+
+52
+00:03:53,874 --> 00:03:56,752
+Why do I work at Anthropic?
+
+53
+00:03:56,752 --> 00:03:59,463
+Because I'm an optimist.
+
+54
+00:03:59,463 --> 00:04:01,799
+I want a safer, better world for my family
+
+55
+00:04:01,799 --> 00:04:04,802
+and for humanity.
+
+56
+00:04:05,678 --> 00:04:06,387
+Three years
+
+57
+00:04:06,387 --> 00:04:09,432
+ago, my older brother died of a brain tumor
+
+58
+00:04:09,432 --> 00:04:12,810
+at the age of 42, which is the age that I am now.
+
+59
+00:04:13,227 --> 00:04:17,815
+And I believe deeply that through our mission and this technology,
+
+60
+00:04:17,815 --> 00:04:21,152
+there will be a situation where people like my brother
+
+61
+00:04:21,193 --> 00:04:24,155
+don't have to die.
+
+62
+00:04:24,155 --> 00:04:26,574
+Somebody has to carry the weight of getting this right.
+
+63
+00:04:26,574 --> 00:04:29,577
+And I really didn't want to watch from the sidelines.
+
+64
+00:04:30,911 --> 00:04:34,373
+People here ask, is this the right thing to do?
+
+65
+00:04:34,624 --> 00:04:36,876
+Before they ask, can we do it?
+
+66
+00:04:38,711 --> 00:04:39,503
+It's a rare
+
+67
+00:04:39,503 --> 00:04:44,091
+combination of a group of people who care deeply about making AI go well,
+
+68
+00:04:44,091 --> 00:04:47,511
+and also care deeply about competence,
+
+69
+00:04:47,678 --> 00:04:50,640
+coherence, integrity, qualities
+
+70
+00:04:50,640 --> 00:04:53,934
+that actually make an organization effective.
+
+71
+00:04:54,518 --> 00:04:58,564
+These benefits and these risks, this light and this shade
+
+72
+00:04:58,731 --> 00:05:01,734
+was precisely why I chose to come work at Anthropic.
+
+73
+00:05:06,614 --> 00:05:08,658
+The work we do to make our models safe
+
+74
+00:05:08,658 --> 00:05:12,161
+and reliable is the same work that makes them more capable.
+
+75
+00:05:12,328 --> 00:05:16,707
+We care about useful intelligence, how effectively a model handles
+
+76
+00:05:16,707 --> 00:05:20,586
+a real world task, and the value this delivers to customers.
+
+77
+00:05:20,795 --> 00:05:24,590
+We're relentlessly focused on answering the question, what can Claude
+
+78
+00:05:24,632 --> 00:05:27,635
+do for me that other models can't?
+
+79
+00:05:27,718 --> 00:05:31,055
+Compute is the critical infrastructure that enables this work.
+
+80
+00:05:31,430 --> 00:05:34,934
+We've built a differentiated advantage here, not just in how we build
+
+81
+00:05:34,934 --> 00:05:36,143
+our compute capacity,
+
+82
+00:05:36,143 --> 00:05:38,354
+but in how we make the most of this capacity
+
+83
+00:05:38,354 --> 00:05:41,023
+through the discovery of compute multipliers.
+
+84
+00:05:41,023 --> 00:05:42,024
+We are the leading
+
+85
+00:05:42,024 --> 00:05:45,653
+AI lab that has been focused on building for the enterprise from day one.
+
+86
+00:05:45,778 --> 00:05:48,739
+We train our frontier models to address knowledge work.
+
+87
+00:05:48,739 --> 00:05:52,952
+As a result, our customers get the best of both capability and value.
+
+88
+00:05:53,577 --> 00:05:56,205
+These customers have enabled our historic growth
+
+89
+00:05:56,205 --> 00:06:00,418
+and they span industries across financial services, technology,
+
+90
+00:06:00,668 --> 00:06:04,839
+pharma, healthcare, government, manufacturing, and more.
+
+91
+00:06:05,297 --> 00:06:08,801
+And this is also where our public benefit mission and safety focus
+
+92
+00:06:08,801 --> 00:06:12,012
+find natural alignment. Enterprises care that the frontier
+
+93
+00:06:12,012 --> 00:06:15,433
+is safe, trustworthy and useful as much as we do.
+
+94
+00:06:15,599 --> 00:06:18,144
+As frontier intelligence grows more capable,
+
+95
+00:06:18,144 --> 00:06:22,314
+our dedicated focus on safety research becomes that much more important.
+
+96
+00:06:22,565 --> 00:06:26,402
+It's critically important to our customers and necessary for realizing
+
+97
+00:06:26,444 --> 00:06:28,279
+AI's full potential.
+
+98
+00:06:28,279 --> 00:06:31,449
+And Anthropic is fully committed to doing this work with excellence.
+
+99
+00:06:31,615 --> 00:06:34,493
+Our public benefit mission is what brought us to this point,
+
+100
+00:06:34,493 --> 00:06:37,788
+and it will continue to shape our work, including at the governance level.
+
+101
+00:06:37,997 --> 00:06:41,959
+In addition to our executive leadership and our board of directors, Anthropic
+
+102
+00:06:41,959 --> 00:06:45,212
+is advised by the Long-Term Benefit Trust, an independent,
+
+103
+00:06:45,212 --> 00:06:48,424
+financially disinterested body that selects a majority of our board.
+
+104
+00:06:48,799 --> 00:06:52,386
+The LTBT's role is to help Anthropic plan for and fulfill
+
+105
+00:06:52,428 --> 00:06:54,430
+our public benefit mission as we grow.
+
+106
+00:06:54,430 --> 00:06:58,642
+We believe AI's future should be shaped and led by democratic societies.
+
+107
+00:06:58,851 --> 00:07:01,395
+We want to be good partners in helping governments
+
+108
+00:07:01,395 --> 00:07:04,648
+adapt to the changes that come with AI's rising capability.
+
+109
+00:07:04,899 --> 00:07:08,194
+We do this at the executive level, through the work of our policy team
+
+110
+00:07:08,235 --> 00:07:11,238
+and through efforts like the Anthropic Institute, which shares
+
+111
+00:07:11,238 --> 00:07:14,450
+research on how frontier AI shapes how we live our lives.
+
+112
+00:07:15,034 --> 00:07:18,913
+We are still early in what we believe will be the biggest transformation of the
+
+113
+00:07:18,913 --> 00:07:23,292
+human experience in the modern age, not just the profound economic potential,
+
+114
+00:07:23,584 --> 00:07:27,713
+but in all the ways in which we believe AI can help humanity flourish.
+
+115
+00:07:28,255 --> 00:07:30,800
+From curing diseases to accelerating growth,
+
+116
+00:07:30,800 --> 00:07:33,761
+to helping people live more fulfilled and abundant lives.
+
+117
+00:07:36,138 --> 00:07:38,599
+So if you think about our Claude model family,
+
+118
+00:07:38,599 --> 00:07:42,311
+it's designed to deliver value across all the goals you might have.
+
+119
+00:07:42,478 --> 00:07:45,606
+Whether you're optimizing for cost or speed
+
+120
+00:07:45,606 --> 00:07:48,609
+or intelligence. At the top end,
+
+121
+00:07:48,734 --> 00:07:51,737
+Mythos and Fable push the frontier forward.
+
+122
+00:07:51,779 --> 00:07:55,324
+We see customers use it to harden cyber infrastructure
+
+123
+00:07:55,366 --> 00:07:58,786
+or make new scientific discoveries. At the other end,
+
+124
+00:07:58,911 --> 00:08:02,957
+we have models that are extremely capable and highly cost effective,
+
+125
+00:08:03,123 --> 00:08:07,670
+and businesses can rely on them at scale for well-defined, routine tasks.
+
+126
+00:08:07,962 --> 00:08:10,840
+A key thing we think about is how everyone
+
+127
+00:08:10,840 --> 00:08:13,801
+can get the benefit of that whole spectrum of models.
+
+128
+00:08:13,843 --> 00:08:17,680
+Because even as model capability increases exponentially,
+
+129
+00:08:17,888 --> 00:08:21,600
+what most people do with the models doesn't change that fast.
+
+130
+00:08:22,184 --> 00:08:25,187
+We think about three principles as we build.
+
+131
+00:08:25,479 --> 00:08:28,440
+The first is meeting customers where they are.
+
+132
+00:08:29,108 --> 00:08:31,235
+There's a few ways to use Claude.
+
+133
+00:08:31,235 --> 00:08:34,280
+First is through our own applications, like Claude Code
+
+134
+00:08:34,280 --> 00:08:36,323
+or the Claude desktop or mobile app.
+
+135
+00:08:36,323 --> 00:08:40,244
+But Claude is also available on enterprise applications like Word and Excel.
+
+136
+00:08:40,661 --> 00:08:43,664
+We go deep into verticals and try to understand
+
+137
+00:08:43,873 --> 00:08:48,752
+what does an expert in this domain need to be successful immediately?
+
+138
+00:08:49,211 --> 00:08:52,882
+For instance, if you're a lawyer, we have a Claude for Legal bundle,
+
+139
+00:08:52,882 --> 00:08:55,885
+which connects directly to the tools you need.
+
+140
+00:08:56,051 --> 00:08:59,889
+This is something we think about for every domain.
+
+141
+00:09:00,264 --> 00:09:02,933
+We have bundles for healthcare, financial
+
+142
+00:09:02,933 --> 00:09:05,936
+services, life sciences, and more.
+
+143
+00:09:06,020 --> 00:09:10,691
+Our second principle is that we build models and products side by side.
+
+144
+00:09:10,816 --> 00:09:14,778
+We develop products for tomorrow's models, not just today's.
+
+145
+00:09:15,195 --> 00:09:18,908
+Claude Code is a great illustration of why that matters.
+
+146
+00:09:19,325 --> 00:09:22,828
+A couple of years ago, we could see that our prerelease
+
+147
+00:09:22,828 --> 00:09:25,831
+models were getting better at understanding code.
+
+148
+00:09:25,873 --> 00:09:28,959
+Couldn't quite do it all yet, but we could see the trend line.
+
+149
+00:09:29,335 --> 00:09:32,212
+We built a product around that thinking
+
+150
+00:09:32,212 --> 00:09:35,090
+and Claude Code was launched just a few months later.
+
+151
+00:09:35,090 --> 00:09:39,053
+That introduced people to an entirely new way of coding,
+
+152
+00:09:39,386 --> 00:09:42,056
+and of understanding what AI can do.
+
+153
+00:09:42,056 --> 00:09:47,186
+This flywheel between model and product is a durable advantage in how we build.
+
+154
+00:09:47,394 --> 00:09:48,854
+The model gets better.
+
+155
+00:09:48,854 --> 00:09:51,482
+We develop new features powered by those advancements.
+
+156
+00:09:51,482 --> 00:09:53,651
+Then we train the models to get even better
+
+157
+00:09:53,651 --> 00:09:57,279
+at what people are trying to do, which reinforces the whole system.
+
+158
+00:09:57,655 --> 00:10:00,199
+And we do that in coding and beyond.
+
+159
+00:10:00,199 --> 00:10:01,951
+Our third principle is that we
+
+160
+00:10:01,951 --> 00:10:05,371
+close the gap between the frontier and customers day to day.
+
+161
+00:10:05,871 --> 00:10:09,959
+Most people still think about their AI tools as a replacement for search
+
+162
+00:10:09,959 --> 00:10:13,170
+or a simple Q&A tool, and it can be those things.
+
+163
+00:10:13,504 --> 00:10:17,049
+But that understates the power of what people can really do
+
+164
+00:10:17,091 --> 00:10:18,759
+with this intelligence.
+
+165
+00:10:18,759 --> 00:10:23,639
+This is where product becomes a meaningful competitive differentiator.
+
+166
+00:10:23,681 --> 00:10:27,768
+Without a strong product, the difference between growing intelligence
+
+167
+00:10:27,768 --> 00:10:30,813
+and where users are just keeps compounding.
+
+168
+00:10:31,063 --> 00:10:35,192
+We think the future will involve making Claude feel as simple
+
+169
+00:10:35,192 --> 00:10:40,030
+and natural as possible, so people everywhere can just treat Claude
+
+170
+00:10:40,072 --> 00:10:44,618
+the same way you treat a colleague and get high quality output every time.
+
+171
+00:10:44,910 --> 00:10:50,374
+We think these three principles are how we bring frontier intelligence to everyone.
+
+172
+00:10:50,708 --> 00:10:54,712
+This is what we mean when we say we want to give people superpowers.
+
+173
+00:10:54,920 --> 00:10:59,842
+Claude starts by helping you do what you need to better and faster.
+
+174
+00:11:00,009 --> 00:11:01,218
+Then it takes on
+
+175
+00:11:01,218 --> 00:11:05,055
+the things you never would have tried because they were just too hard.
+
+176
+00:11:05,264 --> 00:11:09,852
+And in the future, that means all of us doing what used to be impossible
+
+177
+00:11:10,227 --> 00:11:13,439
+so we can all live better, fuller lives.
+
+178
+00:11:16,942 --> 00:11:19,236
+When we discovered scaling laws in AI,
+
+179
+00:11:19,236 --> 00:11:22,906
+we realized that AI capabilities could improve very fast.
+
+180
+00:11:23,157 --> 00:11:26,994
+That's why we founded Anthropic to ensure that if AI became
+
+181
+00:11:26,994 --> 00:11:30,789
+a transformational technology, it would be safe and beneficial.
+
+182
+00:11:30,873 --> 00:11:35,252
+Our fundamental bet is that AI would make tremendous progress this decade.
+
+183
+00:11:35,377 --> 00:11:38,464
+These transformational capabilities are why research
+
+184
+00:11:38,464 --> 00:11:41,467
+and safety must advance together.
+
+185
+00:11:41,467 --> 00:11:44,803
+It's the only way we'll realize the benefits of the technology.
+
+186
+00:11:45,012 --> 00:11:49,850
+We assess our models across three dimensions: capability, efficiency,
+
+187
+00:11:50,100 --> 00:11:51,477
+and safety.
+
+188
+00:11:51,477 --> 00:11:55,189
+We optimize our models to be able to plan and complete complex work
+
+189
+00:11:55,230 --> 00:11:58,525
+accurately, across hours and even days.
+
+190
+00:11:59,068 --> 00:12:01,737
+A good example is Opus 5.5.
+
+191
+00:12:01,737 --> 00:12:05,949
+One of our users was able to complete a 680K-line code migration
+
+192
+00:12:05,949 --> 00:12:06,950
+in less than a day.
+
+193
+00:12:06,950 --> 00:12:10,287
+This would have taken an engineering team weeks just a few years ago.
+
+194
+00:12:10,454 --> 00:12:14,708
+We think our models are the very best at this long horizon work where accuracy
+
+195
+00:12:14,708 --> 00:12:15,959
+really matters.
+
+196
+00:12:15,959 --> 00:12:18,962
+The capability begins in the model training process.
+
+197
+00:12:19,129 --> 00:12:23,342
+In the pre-training phase, a model learns from the totality of human knowledge.
+
+198
+00:12:23,425 --> 00:12:24,051
+Text.
+
+199
+00:12:24,051 --> 00:12:27,054
+Images, scientific papers, code.
+
+200
+00:12:27,304 --> 00:12:29,807
+This phase is where it comes to understand
+
+201
+00:12:29,807 --> 00:12:32,810
+fundamental human concepts and ideas.
+
+202
+00:12:33,185 --> 00:12:35,687
+The second phase is reinforcement learning.
+
+203
+00:12:35,687 --> 00:12:38,690
+This is where Claude learns to be helpful, honest, and harmless.
+
+204
+00:12:38,857 --> 00:12:41,819
+It's where we draw out useful capabilities
+
+205
+00:12:41,819 --> 00:12:44,738
+in coding, knowledge work, and science.
+
+206
+00:12:44,738 --> 00:12:48,200
+As models have moved from conversational assistance to autonomous agents,
+
+207
+00:12:48,242 --> 00:12:49,827
+reinforcement learning has evolved
+
+208
+00:12:49,827 --> 00:12:52,913
+into one of the largest areas of research investment.
+
+209
+00:12:53,080 --> 00:12:55,457
+One that really matters to our customers.
+
+210
+00:12:55,457 --> 00:12:58,127
+In 2021, I wrote an internal memo
+
+211
+00:12:58,127 --> 00:13:03,215
+outlining how our most likely product might be an aligned AI programmer.
+
+212
+00:13:03,340 --> 00:13:07,010
+I wrote a lot of other things too, but this one turned out to be pretty accurate.
+
+213
+00:13:07,094 --> 00:13:10,347
+Claude's training process is integral to Anthropic's mission.
+
+214
+00:13:10,514 --> 00:13:13,433
+We need to understand how to train frontier intelligence
+
+215
+00:13:13,433 --> 00:13:14,768
+and how to make it safe.
+
+216
+00:13:14,768 --> 00:13:17,271
+And this is how we deliver the benefits of AI.
+
+217
+00:13:24,361 --> 00:13:25,487
+We think that AI
+
+218
+00:13:25,487 --> 00:13:29,616
+will help us reduce the time to do a clinical trial by 20 to 30%.
+
+219
+00:13:29,658 --> 00:13:33,787
+If you get a drug to market 2 or 3 years sooner, those are either cures
+
+220
+00:13:33,871 --> 00:13:37,666
+or treatments that patients that actually don't have solutions can have sooner.
+
+221
+00:13:37,749 --> 00:13:40,127
+So we think it's actually a huge win for patients.
+
+222
+00:13:40,127 --> 00:13:43,130
+And it's also a huge win for BMS.
+
+223
+00:13:43,380 --> 00:13:45,340
+We chose Anthropic for a couple of reasons.
+
+224
+00:13:45,340 --> 00:13:48,177
+One is they had the most mature enterprise capabilities.
+
+225
+00:13:48,177 --> 00:13:51,180
+So it's one thing to have a chatbot that you can use.
+
+226
+00:13:51,180 --> 00:13:54,099
+It's a whole different thing to actually put it in an environment
+
+227
+00:13:54,099 --> 00:13:56,143
+where you're giving it access to some of the company's
+
+228
+00:13:56,143 --> 00:14:00,397
+most confidential information, and you're able to do observability,
+
+229
+00:14:00,731 --> 00:14:04,902
+manage the security, manage what the fine tune controls of what you give users.
+
+230
+00:14:04,902 --> 00:14:07,362
+So there's like the enterprise controls that you'd often
+
+231
+00:14:07,362 --> 00:14:10,365
+see that IT organizations really value a lot.
+
+232
+00:14:10,449 --> 00:14:13,452
+We rolled it out across all 30,000 of our employees.
+
+233
+00:14:13,744 --> 00:14:14,953
+This is the fastest,
+
+234
+00:14:14,953 --> 00:14:19,249
+most well adopted AI tool in the history of what we rolled out.
+
+235
+00:14:19,333 --> 00:14:22,377
+So now you can ask a very, very complicated question
+
+236
+00:14:22,544 --> 00:14:23,545
+and it will go through.
+
+237
+00:14:23,545 --> 00:14:27,132
+It will figure out which database or databases, because it can actually
+
+238
+00:14:27,132 --> 00:14:30,135
+cross those databases, can be queried.
+
+239
+00:14:30,219 --> 00:14:31,553
+And then it will produce a report
+
+240
+00:14:31,553 --> 00:14:34,890
+that actually has the context of the epidemiology built right into it.
+
+241
+00:14:35,015 --> 00:14:39,353
+So that takes you from what would have typically taken 1 to 2 months
+
+242
+00:14:39,353 --> 00:14:44,066
+to get a simple question answered, to being able to get it in 4 to 5 minutes.
+
+243
+00:14:44,399 --> 00:14:48,654
+And we're now finally at a stage both with high throughput computation,
+
+244
+00:14:48,654 --> 00:14:51,740
+but also large language models where you're able to scale up
+
+245
+00:14:51,740 --> 00:14:55,202
+your computation, your analytics to match the better scale of biology
+
+246
+00:14:55,202 --> 00:14:58,413
+that can help the way that you inform and change the standard of care.
+
+247
+00:15:02,000 --> 00:15:02,751
+Consider all the
+
+248
+00:15:02,751 --> 00:15:05,754
+reasons a frontier AI lab needs to use compute efficiently.
+
+249
+00:15:05,796 --> 00:15:09,258
+We use it at every stage of the research and model training process.
+
+250
+00:15:09,466 --> 00:15:13,470
+It's how we serve models to customers and how we use Claude at scale internally.
+
+251
+00:15:13,679 --> 00:15:16,598
+By training what we believe to be the most efficient models,
+
+252
+00:15:16,598 --> 00:15:19,476
+we can do more of all these things with the same amount of compute.
+
+253
+00:15:19,476 --> 00:15:21,478
+It's also how we drive down costs,
+
+254
+00:15:21,478 --> 00:15:24,731
+both for customers as well as our own underlying costs.
+
+255
+00:15:24,982 --> 00:15:28,318
+We're accelerating these efficiency gains through our research process.
+
+256
+00:15:28,694 --> 00:15:32,114
+Our pace of discovery is speeding up, and a lot of that acceleration
+
+257
+00:15:32,114 --> 00:15:33,949
+comes from Claude itself.
+
+258
+00:15:33,949 --> 00:15:36,743
+When you deploy frontier models, safety is critical.
+
+259
+00:15:36,743 --> 00:15:38,161
+This idea brought the co-founders
+
+260
+00:15:38,161 --> 00:15:41,373
+together, and it's been at the foundation of Anthropic from the beginning.
+
+261
+00:15:41,623 --> 00:15:45,043
+Excellence in safety is how you manage organizational and systemic risk.
+
+262
+00:15:45,168 --> 00:15:47,296
+It's how you safely enable frontier capabilities
+
+263
+00:15:47,296 --> 00:15:50,966
+in fields like coding and medicine, and it's valued by our customers.
+
+264
+00:15:51,174 --> 00:15:54,052
+It gives them the trust they need to point AI at important work.
+
+265
+00:15:54,052 --> 00:15:56,513
+We build safety in at every stage.
+
+266
+00:15:56,513 --> 00:15:59,224
+Through alignment training, we train models to follow user intent
+
+267
+00:15:59,224 --> 00:16:01,059
+and avoid taking harmful actions.
+
+268
+00:16:01,059 --> 00:16:04,062
+And we build in the right safeguards aimed at preventing misuse.
+
+269
+00:16:04,479 --> 00:16:06,648
+We also pioneer fields like interpretability,
+
+270
+00:16:06,648 --> 00:16:09,651
+which gives us insight into what's happening inside the model's brain.
+
+271
+00:16:09,776 --> 00:16:10,902
+Within Anthropic,
+
+272
+00:16:10,902 --> 00:16:14,531
+we increasingly turn frontier models back on improving our own processes.
+
+273
+00:16:14,656 --> 00:16:16,700
+We call this closing the loop,
+
+274
+00:16:16,700 --> 00:16:19,494
+and it drives forward all three of our research priorities.
+
+275
+00:16:19,494 --> 00:16:22,205
+Claude is increasingly our equal partner here.
+
+276
+00:16:22,205 --> 00:16:25,208
+The better Claude gets, the more it helps us with all of our work.
+
+277
+00:16:25,250 --> 00:16:26,668
+It improves our security.
+
+278
+00:16:26,668 --> 00:16:28,712
+It makes training and inference more efficient.
+
+279
+00:16:28,712 --> 00:16:30,255
+It drives safety work.
+
+280
+00:16:30,255 --> 00:16:33,050
+It helps us try out more research ideas more quickly,
+
+281
+00:16:33,050 --> 00:16:35,469
+and it makes the whole organization more effective.
+
+282
+00:16:35,469 --> 00:16:38,138
+Our most important work is still ahead
+
+283
+00:16:38,138 --> 00:16:40,724
+if we keep research and safety advancing together.
+
+284
+00:16:40,724 --> 00:16:43,602
+We believe that we can help bring about some of the most significant
+
+285
+00:16:43,602 --> 00:16:45,103
+breakthroughs in human history.
+
+286
+00:16:51,610 --> 00:16:54,863
+Take a number and double it and double that.
+
+287
+00:16:54,863 --> 00:16:56,782
+Then double that.
+
+288
+00:16:56,782 --> 00:17:00,577
+That curve is really at the heart of what we do at Anthropic.
+
+289
+00:17:01,870 --> 00:17:05,832
+We noticed early on that performance seemed to scale very smoothly
+
+290
+00:17:05,832 --> 00:17:08,835
+with compute.
+
+291
+00:17:10,420 --> 00:17:11,129
+Our bet
+
+292
+00:17:11,129 --> 00:17:14,466
+was there is a whole internet's worth of context.
+
+293
+00:17:15,008 --> 00:17:18,970
+What if the limiting factor of model size just went away?
+
+294
+00:17:20,639 --> 00:17:23,975
+So in 2022 or 23, we had chatbots.
+
+295
+00:17:25,435 --> 00:17:27,771
+You could ask them for a history of the samurai, and
+
+296
+00:17:27,771 --> 00:17:30,774
+it would come back with a little essay.
+
+297
+00:17:31,691 --> 00:17:33,026
+In 2024,
+
+298
+00:17:33,026 --> 00:17:37,656
+coding becomes possible, but Claude still struggles on hard problems.
+
+299
+00:17:38,782 --> 00:17:43,495
+In 2025, the models start to be able to do surprising things.
+
+300
+00:17:43,912 --> 00:17:46,039
+Coding gets much better.
+
+301
+00:17:46,039 --> 00:17:49,709
+Claude can even play video games quite badly.
+
+302
+00:17:50,919 --> 00:17:52,838
+This same year, it found a flaw
+
+303
+00:17:52,838 --> 00:17:56,716
+in OpenBSD that had gone unnoticed for 27 years.
+
+304
+00:17:59,636 --> 00:18:02,639
+Suddenly it can do multi-step processes.
+
+305
+00:18:03,223 --> 00:18:05,976
+Knowledge work.
+
+306
+00:18:05,976 --> 00:18:10,230
+It builds a controller for laser locks at a quantum computer company,
+
+307
+00:18:10,480 --> 00:18:14,734
+a task that used to take a team of people with PhDs a week.
+
+308
+00:18:15,068 --> 00:18:17,821
+And it does this without human intervention
+
+309
+00:18:17,821 --> 00:18:20,824
+overnight.
+
+310
+00:18:20,866 --> 00:18:21,825
+We start to see
+
+311
+00:18:21,825 --> 00:18:24,828
+Claude making fundamental discoveries in math,
+
+312
+00:18:25,036 --> 00:18:28,039
+working at the frontier of life science.
+
+313
+00:18:28,540 --> 00:18:31,543
+This acceleration can be disorienting,
+
+314
+00:18:32,210 --> 00:18:35,755
+but there's still this sense that we're just setting out.
+
+315
+00:18:35,839 --> 00:18:39,259
+That exponential curve stretches up ahead of us,
+
+316
+00:18:39,759 --> 00:18:42,762
+and it's only just begun.
+
+317
+00:18:46,600 --> 00:18:48,602
+Achieving Anthropic's mission requires
+
+318
+00:18:48,602 --> 00:18:52,189
+staying at the frontier and staying at the frontier depends on compute.
+
+319
+00:18:52,230 --> 00:18:54,691
+Our approach here goes back to research that I did
+
+320
+00:18:54,691 --> 00:18:57,486
+with several of my other co-founders on scaling laws.
+
+321
+00:18:57,486 --> 00:18:59,404
+We found that with the right recipe,
+
+322
+00:18:59,404 --> 00:19:03,200
+more compute reliably and predictably yields more intelligence.
+
+323
+00:19:03,241 --> 00:19:06,870
+Later, we found that it was possible to improve this recipe over time
+
+324
+00:19:06,953 --> 00:19:10,540
+to achieve more intelligence with the same amount of physical compute.
+
+325
+00:19:10,665 --> 00:19:14,419
+So by the time we started Anthropic in 2021, we knew two things:
+
+326
+00:19:14,628 --> 00:19:18,507
+one, compute is the foundation of the business, and two, getting the most
+
+327
+00:19:18,507 --> 00:19:22,552
+out of every unit of compute is key to making increasingly intelligent models.
+
+328
+00:19:22,594 --> 00:19:26,097
+That's why we're so focused on efficiency, and it's why we believe a dollar
+
+329
+00:19:26,097 --> 00:19:30,185
+of compute at Anthropic goes further than a dollar at any other frontier lab.
+
+330
+00:19:30,268 --> 00:19:32,521
+We've achieved that advantage in two ways.
+
+331
+00:19:32,521 --> 00:19:33,939
+I'll start with the first.
+
+332
+00:19:33,939 --> 00:19:37,359
+Our proprietary approach to bringing up and deploying silicon.
+
+333
+00:19:37,651 --> 00:19:41,613
+We train and serve Claude now across all four major chip families.
+
+334
+00:19:41,821 --> 00:19:45,492
+That's only possible because early on, we made an unconventional bet
+
+335
+00:19:45,534 --> 00:19:47,577
+on a multi chip strategy.
+
+336
+00:19:47,577 --> 00:19:51,206
+At the time, many people thought that running AI models on different chips
+
+337
+00:19:51,206 --> 00:19:52,749
+wasn't worth the effort.
+
+338
+00:19:52,749 --> 00:19:56,044
+Each chip needs its own tailored software stack and inference
+
+339
+00:19:56,044 --> 00:19:59,047
+stack, which is expensive and difficult to build.
+
+340
+00:19:59,089 --> 00:20:02,551
+We've now been doing it for years, and we've gotten incredibly good at it.
+
+341
+00:20:02,842 --> 00:20:06,846
+This comes with two key advantages. In a supply-constrained compute market,
+
+342
+00:20:06,846 --> 00:20:08,473
+our multi-silicon strategy
+
+343
+00:20:08,473 --> 00:20:12,310
+allows us to focus on the best price performance regardless of the provider.
+
+344
+00:20:12,435 --> 00:20:15,438
+We can match each chip to the job that it's best at.
+
+345
+00:20:15,689 --> 00:20:18,441
+Some are better at training, some are better at inference.
+
+346
+00:20:18,441 --> 00:20:22,445
+Our multi-silicon chip strategy means we can treat all of our chips across
+
+347
+00:20:22,445 --> 00:20:27,409
+providers, architectures and locations as one fungible pool of compute.
+
+348
+00:20:27,784 --> 00:20:30,787
+This has also made us really good at bringing up new chips.
+
+349
+00:20:30,787 --> 00:20:32,247
+As an example, this year
+
+350
+00:20:32,247 --> 00:20:36,293
+we started working with AMD GPUs for the first time. In the past,
+
+351
+00:20:36,334 --> 00:20:40,088
+bringing on a new chip platform took dozens of engineers months of work.
+
+352
+00:20:40,505 --> 00:20:42,716
+This time we had Mythos try it out.
+
+353
+00:20:42,716 --> 00:20:46,303
+It got Claude running on AMD in just three days with basically
+
+354
+00:20:46,303 --> 00:20:47,846
+no human intervention.
+
+355
+00:20:47,846 --> 00:20:50,974
+Claude ported or wrote almost 100% of the kernels.
+
+356
+00:20:51,266 --> 00:20:54,603
+We also have a distinct approach to the data centers that house our chips.
+
+357
+00:20:54,936 --> 00:20:57,772
+Historically, we bought compute as a cloud service.
+
+358
+00:20:57,772 --> 00:21:00,442
+We've now added a second approach where we lease chips
+
+359
+00:21:00,442 --> 00:21:03,445
+and run them in purpose built data centers designed for us.
+
+360
+00:21:03,570 --> 00:21:05,905
+We call this Anthropic Direct.
+
+361
+00:21:05,905 --> 00:21:08,199
+That approach has a couple advantages for us.
+
+362
+00:21:08,199 --> 00:21:11,119
+It helps to lower the total cost of ownership of compute,
+
+363
+00:21:11,119 --> 00:21:14,873
+and allows us to separate the commitment to data centers from the chips.
+
+364
+00:21:15,290 --> 00:21:18,627
+The second driver of our compute advantage is our rate of discovery
+
+365
+00:21:18,627 --> 00:21:20,086
+of compute multipliers.
+
+366
+00:21:20,086 --> 00:21:24,090
+We focus on total effective compute, which is the multiplicative product
+
+367
+00:21:24,090 --> 00:21:27,844
+of physical capacity, times the compute multipliers that we discover.
+
+368
+00:21:28,094 --> 00:21:32,307
+Each one we discover makes our pool of total effective compute bigger.
+
+369
+00:21:32,474 --> 00:21:33,308
+For example,
+
+370
+00:21:33,308 --> 00:21:37,020
+say you need 100 units of compute to train a model of a certain intelligence.
+
+371
+00:21:37,270 --> 00:21:40,815
+A 4x compute multiplier means you can use 25 units of compute
+
+372
+00:21:40,815 --> 00:21:42,442
+to train the exact same model.
+
+373
+00:21:42,442 --> 00:21:46,613
+Or you can use those 100 physical units to train an even more intelligent model
+
+374
+00:21:46,696 --> 00:21:49,699
+that would have previously required 400 units.
+
+375
+00:21:49,699 --> 00:21:53,536
+Compute multipliers create a competitive advantage for us that's hard to replicate.
+
+376
+00:21:53,536 --> 00:21:54,788
+They build on each other.
+
+377
+00:21:54,788 --> 00:21:55,997
+Each new multiplier we
+
+378
+00:21:55,997 --> 00:21:59,918
+discover has a positive effect on the multipliers before it. They stack.
+
+379
+00:21:59,959 --> 00:22:01,586
+We believe that this can accelerate
+
+380
+00:22:01,586 --> 00:22:04,589
+even further as we approach recursive self-improvement.
+
+381
+00:22:04,631 --> 00:22:08,176
+Claude will be able to discover compute multipliers entirely by itself,
+
+382
+00:22:08,385 --> 00:22:11,888
+allowing the number of compute multipliers to grow faster and faster.
+
+383
+00:22:12,180 --> 00:22:14,557
+We believe this combination of smart investments,
+
+384
+00:22:14,557 --> 00:22:17,560
+breakthrough research, and the improving capabilities of Claude
+
+385
+00:22:17,602 --> 00:22:20,980
+have put Anthropic in a leading position among the frontier labs.
+
+386
+00:22:26,319 --> 00:22:27,237
+AI is
+
+387
+00:22:27,237 --> 00:22:31,199
+a breakthrough innovation, but only reinvention
+
+388
+00:22:31,199 --> 00:22:34,869
+is going to get the value that AI promises.
+
+389
+00:22:35,078 --> 00:22:38,665
+At Accenture, our job is to be the bridge between technology
+
+390
+00:22:38,665 --> 00:22:41,668
+and real outcomes for our clients.
+
+391
+00:22:42,127 --> 00:22:45,463
+I love the question about, you know, are we using Claude
+
+392
+00:22:45,463 --> 00:22:49,759
+because we have tens of thousands of engineers using it every day?
+
+393
+00:22:49,884 --> 00:22:53,221
+We use it across our entire software development lifecycle,
+
+394
+00:22:53,304 --> 00:22:54,723
+and it frees up time.
+
+395
+00:22:54,723 --> 00:22:56,558
+It makes us go faster and
+
+396
+00:22:56,558 --> 00:23:00,770
+allows our engineers to spend more time focusing on solving our clients'
+
+397
+00:23:00,770 --> 00:23:04,566
+challenges, leading decision making, and setting strategy.
+
+398
+00:23:05,316 --> 00:23:10,196
+We defend thousands of our clients from cyber attacks,
+
+399
+00:23:10,196 --> 00:23:15,076
+and we've paired Claude Code and Claude's agent software development kit with
+
+400
+00:23:15,285 --> 00:23:19,998
+Cyber.AI, our cutting-edge platform that we use to help protect our clients.
+
+401
+00:23:20,039 --> 00:23:21,958
+Just one result of using this
+
+402
+00:23:21,958 --> 00:23:25,670
+is that we can now do scans that used to take days in under an hour.
+
+403
+00:23:25,837 --> 00:23:30,842
+We are focused on our clients' success and safety, and our mindset
+
+404
+00:23:30,884 --> 00:23:35,805
+is that because of our partnership, our clients can get to value faster.
+
+405
+00:23:40,685 --> 00:23:43,062
+The early bet we made was that intelligence
+
+406
+00:23:43,062 --> 00:23:46,107
+was the highest value asset that a business could get from AI.
+
+407
+00:23:46,524 --> 00:23:49,903
+We believe frontier intelligence solves the toughest problems,
+
+408
+00:23:49,944 --> 00:23:53,615
+and for that reason it drives the biggest impact.
+
+409
+00:23:53,907 --> 00:23:56,576
+AI capability doesn't improve gradually.
+
+410
+00:23:56,576 --> 00:24:00,622
+When models cross a certain threshold, there is a step change
+
+411
+00:24:00,747 --> 00:24:04,083
+and an entire category of work is done differently.
+
+412
+00:24:04,834 --> 00:24:07,712
+Coding is the example we're most familiar with.
+
+413
+00:24:07,712 --> 00:24:10,006
+The speed of the change is remarkable.
+
+414
+00:24:10,006 --> 00:24:13,259
+We went from autocomplete a few lines of code
+
+415
+00:24:13,343 --> 00:24:17,222
+to fleets of agents working around the clock in just a year.
+
+416
+00:24:17,347 --> 00:24:20,350
+For a company like Rakuten, this means they're shipping
+
+417
+00:24:20,350 --> 00:24:24,229
+new features 4 to 5 times faster than their competitors.
+
+418
+00:24:24,687 --> 00:24:30,193
+After coding came cyber, and with Mythos and Project Glasswing, Claude has helped
+
+419
+00:24:30,193 --> 00:24:34,739
+cyber defenders identify and patch vulnerabilities at a societal scale.
+
+420
+00:24:35,198 --> 00:24:37,408
+Consider a company like Mozilla.
+
+421
+00:24:37,408 --> 00:24:41,120
+In the past, they used to fix over 20 security bugs per release,
+
+422
+00:24:41,371 --> 00:24:46,167
+and with Mythos Preview, they identified and fixed 271.
+
+423
+00:24:46,584 --> 00:24:48,962
+Knowledge work is on a similar curve.
+
+424
+00:24:48,962 --> 00:24:52,173
+Scientific research, investment analysis, underwriting
+
+425
+00:24:52,173 --> 00:24:55,385
+all great examples of what we're seeing across industries.
+
+426
+00:24:55,718 --> 00:25:00,807
+Claude helped an insurer like AIG cut down time to quote by 55%.
+
+427
+00:25:00,932 --> 00:25:03,017
+In each domain, we see an improvement.
+
+428
+00:25:03,017 --> 00:25:07,856
+Then a step change, and then a whole category of work moves fast.
+
+429
+00:25:13,152 --> 00:25:15,280
+It's hard to imagine
+
+430
+00:25:15,280 --> 00:25:18,241
+the speed with which that Anthropic
+
+431
+00:25:18,241 --> 00:25:21,244
+has become embedded inside of AIG.
+
+432
+00:25:21,536 --> 00:25:23,621
+It's helped us create better underwriters.
+
+433
+00:25:23,621 --> 00:25:27,917
+We were able to use their skill set more frequently because we're able
+
+434
+00:25:27,917 --> 00:25:30,920
+to pull the submission information, get it in a format where they can
+
+435
+00:25:30,962 --> 00:25:31,921
+then underwrite.
+
+436
+00:25:31,921 --> 00:25:36,092
+We've seen a significant uptick in the speed with which they can make decisions,
+
+437
+00:25:36,175 --> 00:25:37,385
+which really means
+
+438
+00:25:37,385 --> 00:25:41,014
+we're able to get to more submissions in a more consistent way.
+
+439
+00:25:41,180 --> 00:25:44,183
+And for clients, we're able to respond faster.
+
+440
+00:25:45,393 --> 00:25:47,478
+I think Anthropic and Claude together
+
+441
+00:25:47,478 --> 00:25:51,524
+have a very similar value proposition that we try and bring in terms of safety
+
+442
+00:25:51,524 --> 00:25:55,403
+and resilience and technical capability, and we communicate pretty closely
+
+443
+00:25:55,403 --> 00:26:00,158
+with the regulators on how we're using AI and how the human element
+
+444
+00:26:00,158 --> 00:26:02,869
+and the human oversight is obviously very important to us
+
+445
+00:26:02,869 --> 00:26:05,580
+and to our regulators and is embedded in the process.
+
+446
+00:26:08,625 --> 00:26:10,418
+Everything Anthropic does,
+
+447
+00:26:10,418 --> 00:26:13,463
+from research to product to go-to-market,
+
+448
+00:26:13,504 --> 00:26:16,799
+it all comes together in how we serve the customer.
+
+449
+00:26:17,091 --> 00:26:22,764
+Today, we have deep engagements across the Fortune 500 and all of the Fortune 10.
+
+450
+00:26:23,097 --> 00:26:27,727
+More than 50% of the Fortune 500 spends more than $100K with us.
+
+451
+00:26:28,019 --> 00:26:31,648
+And that's true for more than 30% of the Global 2000.
+
+452
+00:26:32,190 --> 00:26:35,109
+With all of these customers, we believe we are still
+
+453
+00:26:35,109 --> 00:26:38,279
+in the early stages of a multi-decade transformation.
+
+454
+00:26:38,655 --> 00:26:41,866
+On average, spending from these Fortune 500 customers
+
+455
+00:26:41,866 --> 00:26:44,911
+is less than 0.1% of their total expenses.
+
+456
+00:26:45,203 --> 00:26:49,958
+Even among the top ten, it's still less than 1% of their total expense line.
+
+457
+00:26:50,333 --> 00:26:51,000
+Let's zoom
+
+458
+00:26:51,000 --> 00:26:55,546
+in on the journey of a typical customer, and it starts with a single use case.
+
+459
+00:26:55,838 --> 00:26:57,256
+Often that's Claude Code
+
+460
+00:26:57,256 --> 00:27:01,094
+for developers and engineers, and it soon expands to adjacent roles.
+
+461
+00:27:01,177 --> 00:27:04,639
+Knowledge workers start using Claude for their highest value work.
+
+462
+00:27:04,639 --> 00:27:07,600
+Then teams automate more business processes
+
+463
+00:27:07,600 --> 00:27:10,353
+and build AI into core infrastructure.
+
+464
+00:27:10,353 --> 00:27:15,066
+And ultimately they embed Claude into entirely new products and services.
+
+465
+00:27:15,233 --> 00:27:18,903
+The process happens quickly, and that's why we see an unprecedented
+
+466
+00:27:18,903 --> 00:27:22,782
+net revenue retention rate of approximately 900%.
+
+467
+00:27:23,074 --> 00:27:25,827
+What excites me is that the most interesting
+
+468
+00:27:25,827 --> 00:27:28,830
+and transformative use cases are still ahead of us.
+
+469
+00:27:28,997 --> 00:27:33,084
+Everything we've seen in coding and cyber, we're now starting to see across
+
+470
+00:27:33,084 --> 00:27:37,672
+virtually every function, every company and every industry.
+
+471
+00:27:37,714 --> 00:27:41,676
+And they want to partner with Anthropic because they trust we will help them
+
+472
+00:27:41,718 --> 00:27:45,221
+see the future first, that we will keep them on the frontier,
+
+473
+00:27:45,304 --> 00:27:47,598
+and that we will help them transform and win.
+
+474
+00:27:53,938 --> 00:27:54,647
+Something
+
+475
+00:27:54,647 --> 00:27:59,986
+exciting happens when the discoveries unlocked by Claude move into our world,
+
+476
+00:28:00,403 --> 00:28:03,364
+or even beyond it.
+
+477
+00:28:03,364 --> 00:28:05,074
+In December 2025,
+
+478
+00:28:05,074 --> 00:28:08,286
+Claude helped plan the Perseverance rover's route on Mars.
+
+479
+00:28:09,412 --> 00:28:12,457
+It wrote the code in the rover's own markup language.
+
+480
+00:28:13,207 --> 00:28:16,502
+Engineers checked everything before the commands went out.
+
+481
+00:28:17,045 --> 00:28:19,422
+400m driven.
+
+482
+00:28:19,422 --> 00:28:22,425
+Mission accomplished.
+
+483
+00:28:22,884 --> 00:28:25,720
+Claude's ability to process vast amounts of data
+
+484
+00:28:25,720 --> 00:28:28,931
+came to the fore again in the summer of 2026.
+
+485
+00:28:29,515 --> 00:28:33,311
+About 950 Claude agents spent 21 hours
+
+486
+00:28:33,436 --> 00:28:36,773
+sifting 1.9 billion protein clusters.
+
+487
+00:28:36,981 --> 00:28:41,694
+One spotted an unusual pattern: a system with a CRISPR-like repeat array.
+
+488
+00:28:42,153 --> 00:28:45,406
+Our scientists were able to check Claude's findings in the lab.
+
+489
+00:28:45,656 --> 00:28:49,077
+The new array had never been published before. A genuine
+
+490
+00:28:49,077 --> 00:28:52,080
+discovery.
+
+491
+00:28:54,457 --> 00:28:55,208
+The ability
+
+492
+00:28:55,208 --> 00:28:59,879
+to quickly understand new information really matters where resources are thin.
+
+493
+00:29:02,048 --> 00:29:03,132
+In September
+
+494
+00:29:03,132 --> 00:29:07,553
+2026, teams responding to an Ebola outbreak in eastern Congo
+
+495
+00:29:07,678 --> 00:29:12,517
+were able to process each region's daily reports in under an hour,
+
+496
+00:29:13,226 --> 00:29:15,770
+creating a better picture of the epidemic
+
+497
+00:29:15,770 --> 00:29:18,773
+and freeing up time for patient care.
+
+498
+00:29:20,066 --> 00:29:21,359
+The power to affect
+
+499
+00:29:21,359 --> 00:29:24,320
+the real world makes safety even more important.
+
+500
+00:29:24,904 --> 00:29:27,573
+It's why Claude's full biology capabilities
+
+501
+00:29:27,573 --> 00:29:30,576
+go only to organizations we've verified.
+
+502
+00:29:32,537 --> 00:29:35,540
+And why Claude has a constitution.
+
+503
+00:29:36,040 --> 00:29:40,336
+It equips it to make judgment calls in situations it has never encountered
+
+504
+00:29:40,336 --> 00:29:42,380
+before.
+
+505
+00:29:42,380 --> 00:29:47,135
+And it's why we put so much energy into interpretability and alignment.
+
+506
+00:29:47,343 --> 00:29:51,681
+To keep Claude accountable in situations where people will rely on it
+
+507
+00:29:52,807 --> 00:29:53,808
+again and again.
+
+508
+00:29:53,808 --> 00:29:56,435
+We're finding safety doesn't hold us back.
+
+509
+00:29:56,435 --> 00:29:59,480
+In fact, it's because we can trust Claude's work
+
+510
+00:29:59,564 --> 00:30:03,109
+that we can take its discoveries and apply them in the real world
+
+511
+00:30:04,235 --> 00:30:07,238
+in ways that will benefit everyone.
+
+512
+00:30:11,325 --> 00:30:14,370
+We believe the transformation of the global economy through
+
+513
+00:30:14,412 --> 00:30:17,540
+AI is the greatest economic opportunity in history.
+
+514
+00:30:17,665 --> 00:30:20,376
+And Anthropic is uniquely positioned to capture it.
+
+515
+00:30:20,376 --> 00:30:23,462
+We have leadership at the frontier of AI, where we expect value
+
+516
+00:30:23,504 --> 00:30:26,507
+will differentially accrue, and the strength of our business model
+
+517
+00:30:26,549 --> 00:30:29,510
+allows us to keep investing to advance the frontier
+
+518
+00:30:29,510 --> 00:30:33,639
+while delivering more value to customers and superior returns for our shareholders.
+
+519
+00:30:33,639 --> 00:30:36,642
+The clearest evidence of that is our financial results.
+
+520
+00:30:36,684 --> 00:30:39,896
+In Q3, we earned nearly $17 billion
+
+521
+00:30:39,896 --> 00:30:43,065
+of revenue, up 12 times year over year. And year to date,
+
+522
+00:30:43,107 --> 00:30:46,027
+we've delivered a compute margin of 43%,
+
+523
+00:30:46,027 --> 00:30:48,070
+gross margin of 85%,
+
+524
+00:30:48,070 --> 00:30:51,949
+adjusted operating margin of 12% and positive free cash flow.
+
+525
+00:30:52,491 --> 00:30:55,328
+These results come from our frontier leadership,
+
+526
+00:30:55,328 --> 00:30:58,456
+and they give us the capacity to invest heavily to extend it.
+
+527
+00:30:58,456 --> 00:31:02,418
+So while our profitability is strong, we are in an aggressive investment
+
+528
+00:31:02,418 --> 00:31:05,546
+mode as we focus on building this business for the long term.
+
+529
+00:31:05,755 --> 00:31:09,133
+There are five elements that differentiate Anthropic's business model.
+
+530
+00:31:09,175 --> 00:31:13,221
+First, we build models that deliver the most useful intelligence
+
+531
+00:31:13,346 --> 00:31:14,680
+as we've pushed the frontier.
+
+532
+00:31:14,680 --> 00:31:17,516
+Our customers have found more valuable work for Claude.
+
+533
+00:31:17,516 --> 00:31:19,477
+And our revenue growth has followed.
+
+534
+00:31:19,477 --> 00:31:21,479
+We call this model led growth.
+
+535
+00:31:21,479 --> 00:31:23,981
+The trajectory of our business demonstrates this.
+
+536
+00:31:23,981 --> 00:31:28,694
+Quarterly revenue grew from $376 million in Q1 2025
+
+537
+00:31:29,070 --> 00:31:32,490
+to nearly $17 billion in Q3 of 2026.
+
+538
+00:31:32,865 --> 00:31:36,410
+This tracks significant increases in the capabilities of our models
+
+539
+00:31:36,410 --> 00:31:40,414
+in coding workflows and real world tasks.
+
+540
+00:31:40,748 --> 00:31:44,543
+Being at the frontier unlocks new use cases and capabilities.
+
+541
+00:31:44,585 --> 00:31:48,673
+It also moves us towards Pareto dominance across most customer workloads,
+
+542
+00:31:48,798 --> 00:31:52,969
+enabling us to deliver the most capable models at a given cost.
+
+543
+00:31:53,094 --> 00:31:56,055
+That is because smarter models are more efficient.
+
+544
+00:31:56,055 --> 00:32:00,476
+They can complete tasks at lower effort levels, which use fewer tokens.
+
+545
+00:32:00,643 --> 00:32:04,814
+We also cascade the frontier intelligence from our larger models
+
+546
+00:32:04,897 --> 00:32:06,482
+into our smaller models.
+
+547
+00:32:06,482 --> 00:32:10,695
+So we address the full range of cost, capability and speed.
+
+548
+00:32:11,070 --> 00:32:13,781
+Each generation has pushed that further.
+
+549
+00:32:13,781 --> 00:32:16,701
+Our recent Claude 5.5 family of models are a
+
+550
+00:32:16,701 --> 00:32:20,162
+significant step up in capability from the Claude 5 family
+
+551
+00:32:20,204 --> 00:32:22,123
+we released just a few months prior.
+
+552
+00:32:22,123 --> 00:32:25,334
+They're also significantly cheaper on a cost per task basis.
+
+553
+00:32:25,459 --> 00:32:28,337
+That is the power of building at the frontier.
+
+554
+00:32:28,337 --> 00:32:32,008
+We believe we deliver the highest value intelligence at the lowest cost,
+
+555
+00:32:32,133 --> 00:32:34,969
+which means we can serve the entire market efficiently.
+
+556
+00:32:34,969 --> 00:32:38,931
+While we lead across most benchmarks, the true measure of our success
+
+557
+00:32:39,432 --> 00:32:40,599
+is our customers.
+
+558
+00:32:40,599 --> 00:32:43,602
+And that leads me to our second differentiator.
+
+559
+00:32:44,020 --> 00:32:46,981
+We build the leading platform and products to make
+
+560
+00:32:46,981 --> 00:32:49,984
+frontier intelligence accessible to our customers.
+
+561
+00:32:50,151 --> 00:32:53,654
+Our platform solutions are the foundation of our business,
+
+562
+00:32:53,988 --> 00:32:57,700
+and there is significant opportunity for customers to build products
+
+563
+00:32:57,700 --> 00:33:01,412
+and reimagine processes on top of our APIs and SDK.
+
+564
+00:33:01,829 --> 00:33:06,042
+At the same time, our own products have become a key driver of diffusion.
+
+565
+00:33:06,208 --> 00:33:07,168
+For example,
+
+566
+00:33:07,168 --> 00:33:11,714
+Claude Code was fundamentally a bet on the exponential in model progress.
+
+567
+00:33:11,839 --> 00:33:15,760
+Getting it into the hands of our customers put us in a position to capitalize
+
+568
+00:33:15,760 --> 00:33:19,221
+on agentic coding capabilities as they dramatically improved.
+
+569
+00:33:19,430 --> 00:33:23,309
+We followed that same playbook with Claude Cowork, and its adoption
+
+570
+00:33:23,309 --> 00:33:26,312
+has exceeded that of Claude Code at the equivalent point,
+
+571
+00:33:26,312 --> 00:33:28,522
+following its own research preview last year.
+
+572
+00:33:28,522 --> 00:33:33,319
+Together, our products and platform enable us to serve the needs of our customers.
+
+573
+00:33:33,486 --> 00:33:37,656
+Today, the majority of enterprise customers use both our platform
+
+574
+00:33:37,698 --> 00:33:42,536
+and at least one of our products, up from 30% in the fourth quarter of 2025.
+
+575
+00:33:42,703 --> 00:33:47,375
+Our product velocity is also accelerating as we expand our internal use of Claude.
+
+576
+00:33:47,458 --> 00:33:51,295
+The average daily volume of code contributed per engineer is up
+
+577
+00:33:51,295 --> 00:33:54,423
+45x relative to the 2024 average,
+
+578
+00:33:54,423 --> 00:33:58,469
+and that's showing up in our launches. In the first nine months of 2026,
+
+579
+00:33:58,594 --> 00:34:02,056
+we shipped 250 models, products and features.
+
+580
+00:34:02,348 --> 00:34:06,310
+And Claude isn't just accelerating our engineering teams across the company.
+
+581
+00:34:06,435 --> 00:34:10,272
+Our employees' use of Claude grew more than 250 times
+
+582
+00:34:10,314 --> 00:34:13,317
+between January and September of 2026.
+
+583
+00:34:13,359 --> 00:34:17,238
+Together, these help explain why our revenue per employee has grown
+
+584
+00:34:17,238 --> 00:34:22,076
+more than 4.5x from $1.4 million in Q3 of 2025
+
+585
+00:34:22,201 --> 00:34:25,955
+to over $6.6 million as of Q3 2026.
+
+586
+00:34:25,996 --> 00:34:30,668
+Anthropic's third differentiator is that we are extremely efficient users of compute.
+
+587
+00:34:30,751 --> 00:34:34,755
+We treat our compute as one fungible pool that serves customers,
+
+588
+00:34:34,839 --> 00:34:38,092
+trains our models and powers our own use of Claude.
+
+589
+00:34:38,217 --> 00:34:41,387
+We are focused on getting the most out of every unit of compute.
+
+590
+00:34:42,138 --> 00:34:45,558
+This gives us a cost to serve and a reinvestment advantage.
+
+591
+00:34:45,850 --> 00:34:49,186
+As Tom described, there are two drivers of this efficiency.
+
+592
+00:34:49,728 --> 00:34:53,107
+The first is our multi-silicon strategy, which lets us
+
+593
+00:34:53,107 --> 00:34:57,111
+buy the most price-performant chips and run them as a single fungible pool.
+
+594
+00:34:57,194 --> 00:35:01,824
+The second is compounding compute multipliers, which have scaled our total
+
+595
+00:35:01,824 --> 00:35:05,744
+effective compute significantly faster than our physical capacity.
+
+596
+00:35:06,287 --> 00:35:09,915
+You can see this in our financial results over the last six quarters.
+
+597
+00:35:09,999 --> 00:35:14,086
+We grew revenue by more than 45x, while computing infrastructure costs
+
+598
+00:35:14,086 --> 00:35:17,423
+grew only 10x, a more than 4x improvement
+
+599
+00:35:17,423 --> 00:35:20,426
+in revenue per dollar of compute. And year to date,
+
+600
+00:35:20,551 --> 00:35:23,679
+our gross margin has improved to over 85%,
+
+601
+00:35:23,929 --> 00:35:27,266
+up from 29% in the same period of 2025.
+
+602
+00:35:27,349 --> 00:35:31,270
+We think of these efficiency gains as capital that we get to allocate.
+
+603
+00:35:31,479 --> 00:35:35,357
+In some cases, we pass them along to customers by lowering prices,
+
+604
+00:35:35,399 --> 00:35:38,527
+which drives diffusion of Claude across those customers.
+
+605
+00:35:38,736 --> 00:35:42,072
+In other cases, we retain the margin and reinvest it
+
+606
+00:35:42,072 --> 00:35:45,784
+in additional compute, which is what makes this advantage compound.
+
+607
+00:35:45,910 --> 00:35:50,456
+The next differentiator is our relentless focus on building for enterprises.
+
+608
+00:35:50,748 --> 00:35:54,710
+We had the early insight that enterprises would be the largest and best customers
+
+609
+00:35:54,710 --> 00:35:55,669
+for AI.
+
+610
+00:35:55,669 --> 00:35:59,298
+We have focused on serving that market since our commercial launch
+
+611
+00:35:59,298 --> 00:36:02,885
+in the first quarter of 2023, and have seen rapid adoption
+
+612
+00:36:02,885 --> 00:36:05,888
+since. As of Q3 2026,
+
+613
+00:36:05,930 --> 00:36:09,725
+we had more than 11,900 enterprise customers, up
+
+614
+00:36:09,725 --> 00:36:11,810
+nearly 8x from the start of the year.
+
+615
+00:36:11,810 --> 00:36:15,105
+As the first frontier lab available on all three major clouds,
+
+616
+00:36:15,397 --> 00:36:18,359
+we allow enterprises to deploy Claude within the environments
+
+617
+00:36:18,359 --> 00:36:19,610
+they already operate in,
+
+618
+00:36:19,610 --> 00:36:22,530
+and we maintain the direct relationship with the end customer,
+
+619
+00:36:22,530 --> 00:36:24,406
+including control over pricing.
+
+620
+00:36:24,406 --> 00:36:27,535
+We believe these partnerships enable us to be far more efficient
+
+621
+00:36:27,535 --> 00:36:30,162
+in our go-to-market efforts than the rest of the industry.
+
+622
+00:36:30,162 --> 00:36:33,874
+In fact, our entire non-compute expense base, including sales
+
+623
+00:36:33,874 --> 00:36:37,628
+and marketing personnel and other operating expenses, represents
+
+624
+00:36:37,628 --> 00:36:40,589
+a lower percentage of revenue than the median enterprise
+
+625
+00:36:40,589 --> 00:36:43,592
+software company spends on sales and marketing alone.
+
+626
+00:36:43,592 --> 00:36:47,054
+We expect to invest meaningfully in go-to-market to support our growth,
+
+627
+00:36:47,388 --> 00:36:51,267
+while remaining highly efficient in how we sell to and grow with our customers.
+
+628
+00:36:51,350 --> 00:36:54,520
+Our final differentiator is our expanding market opportunity.
+
+629
+00:36:55,229 --> 00:36:58,566
+We believe every company, across every industry
+
+630
+00:36:58,774 --> 00:37:01,318
+will be transformed by powerful AI.
+
+631
+00:37:01,318 --> 00:37:03,737
+It started with coding and is spreading to knowledge
+
+632
+00:37:03,737 --> 00:37:07,908
+work, a $40 trillion market that we have just begun to penetrate.
+
+633
+00:37:08,325 --> 00:37:12,830
+We count many of the world's largest and most complex businesses as our customers,
+
+634
+00:37:13,038 --> 00:37:18,002
+including over 50% of the Fortune 500 and over 30% of the Global 2000.
+
+635
+00:37:18,043 --> 00:37:23,465
+And as Paul described, our Fortune 500 customers spend less than 0.1%
+
+636
+00:37:23,549 --> 00:37:27,761
+of their total expenses on Claude. As the frontier of AI advances,
+
+637
+00:37:28,012 --> 00:37:31,181
+we expect it will open up entirely new lines of business.
+
+638
+00:37:31,348 --> 00:37:34,643
+This has started already with cybersecurity, and we expect it
+
+639
+00:37:34,643 --> 00:37:37,980
+will extend to life sciences and robotics in the coming years.
+
+640
+00:37:38,230 --> 00:37:42,526
+Given the size of the opportunity we see and the strength of our business,
+
+641
+00:37:43,152 --> 00:37:46,739
+we are investing aggressively in three areas: compute,
+
+642
+00:37:47,323 --> 00:37:50,326
+customer value and safety and alignment.
+
+643
+00:37:50,492 --> 00:37:53,495
+Compute is a critical enabler of our growth.
+
+644
+00:37:53,537 --> 00:37:57,708
+It powers our R&D and enables us to meet expanding customer demand.
+
+645
+00:37:57,958 --> 00:38:01,378
+We plan to make significant investments in compute over the coming years,
+
+646
+00:38:01,462 --> 00:38:05,090
+given the compelling returns we see. That includes both short-term
+
+647
+00:38:05,090 --> 00:38:09,595
+and multi-year cloud deals as well as data centers and chips we lease directly.
+
+648
+00:38:09,637 --> 00:38:12,931
+We call this last piece Anthropic Direct, and we expect
+
+649
+00:38:12,931 --> 00:38:16,226
+it will make up a growing share of our compute base over the coming years.
+
+650
+00:38:16,685 --> 00:38:19,688
+Our second investment area is customer value.
+
+651
+00:38:19,813 --> 00:38:22,858
+We are maniacally focused on ensuring customers
+
+652
+00:38:22,858 --> 00:38:25,861
+get the strongest return from their spend on Claude.
+
+653
+00:38:25,986 --> 00:38:30,783
+We do this through developing the most capable, aligned and useful models
+
+654
+00:38:30,949 --> 00:38:34,578
+and through reducing customer costs as we make our models more efficient.
+
+655
+00:38:34,662 --> 00:38:39,124
+For example, our Opus 5.5 model in September delivered substantial gains
+
+656
+00:38:39,124 --> 00:38:42,795
+in model capability and 40% lower customer costs.
+
+657
+00:38:42,878 --> 00:38:46,590
+This reduction was margin neutral to us because Opus 5.5
+
+658
+00:38:46,632 --> 00:38:48,592
+is significantly cheaper to serve.
+
+659
+00:38:48,592 --> 00:38:52,221
+While we sacrifice some near-term revenue when we reduce customer costs,
+
+660
+00:38:52,429 --> 00:38:55,808
+in our experience, we quickly see a tailwind to revenue
+
+661
+00:38:55,891 --> 00:39:00,020
+as the lower cost of intelligence drives greater usage and diffusion of Claude.
+
+662
+00:39:00,396 --> 00:39:03,232
+The third area is safety and alignment.
+
+663
+00:39:03,232 --> 00:39:06,068
+Safety is core to how we operate at Anthropic,
+
+664
+00:39:06,068 --> 00:39:09,113
+and we've been investing here since the inception of the company.
+
+665
+00:39:09,196 --> 00:39:11,615
+As model capabilities advance rapidly,
+
+666
+00:39:11,615 --> 00:39:14,743
+we're investing even more in people, processes
+
+667
+00:39:14,743 --> 00:39:17,746
+and compute to support our safety and alignment work.
+
+668
+00:39:17,830 --> 00:39:22,710
+Taken together, we expect our focus on safety to remain a commercial advantage
+
+669
+00:39:22,876 --> 00:39:26,463
+because customers and developers want models and products they can trust.
+
+670
+00:39:26,588 --> 00:39:30,968
+The investments we're making in compute, customer value and safety and alignment
+
+671
+00:39:30,968 --> 00:39:35,097
+will strengthen our business and broaden our opportunity over the long term.
+
+672
+00:39:35,347 --> 00:39:40,102
+We believe Anthropic can deliver adjusted operating margins of more than 35%,
+
+673
+00:39:40,144 --> 00:39:43,689
+with continued efficiency gains, a greater share of Anthropic
+
+674
+00:39:43,689 --> 00:39:47,359
+Direct capacity, and more of our compute shifting towards inference.
+
+675
+00:39:47,401 --> 00:39:50,404
+We see a path for compute and infrastructure expenses
+
+676
+00:39:50,404 --> 00:39:53,782
+to trend towards approximately 45 to 50% of revenue.
+
+677
+00:39:54,366 --> 00:39:57,619
+Second, we expect sales, marketing and partnership costs
+
+678
+00:39:57,619 --> 00:40:00,038
+to trend towards 7 to 10% of revenue,
+
+679
+00:40:00,038 --> 00:40:03,208
+as partner fees become a smaller share of revenue as we scale.
+
+680
+00:40:03,625 --> 00:40:07,296
+And third, we expect personnel and other operating expenses
+
+681
+00:40:07,296 --> 00:40:10,466
+combined to trend towards 7 to 10% of revenue,
+
+682
+00:40:10,549 --> 00:40:14,803
+as Claude makes our teams more productive and we grow headcount efficiently.
+
+683
+00:40:14,845 --> 00:40:18,098
+We believe we have the best financial model: leading compute
+
+684
+00:40:18,098 --> 00:40:21,643
+efficiency, the greatest concentration of talent, and a culture
+
+685
+00:40:21,643 --> 00:40:25,522
+that keeps us focused on where we can add the most value to enterprises.
+
+686
+00:40:25,773 --> 00:40:30,194
+AI's transformation of the global economy has the potential to be the largest
+
+687
+00:40:30,194 --> 00:40:34,031
+economic opportunity in history, and we are at the foothills of it today.
+
+688
+00:40:38,035 --> 00:40:39,411
+You know, if today we look
+
+689
+00:40:39,411 --> 00:40:43,832
+at things like cancer, Alzheimer's, heart disease,
+
+690
+00:40:44,249 --> 00:40:48,879
+mental illness, these will be relics of the past
+
+691
+00:40:49,087 --> 00:40:52,049
+in, I think, less than a decade.
+
+692
+00:40:52,049 --> 00:40:55,636
+And I believe that the company which gets the risks right
+
+693
+00:40:55,677 --> 00:40:59,848
+will also be the company that has the license to operate
+
+694
+00:40:59,848 --> 00:41:04,853
+that society trusts and society believes can build the benefits in the right way.
+
+695
+00:41:05,437 --> 00:41:09,733
+I think if we do this right, we can create an age of miracles
+
+696
+00:41:09,733 --> 00:41:14,321
+where humanity is able to solve problems
+
+697
+00:41:14,488 --> 00:41:17,699
+that have eluded us for millennia.
+
+698
+00:41:17,950 --> 00:41:21,495
+We have to make sure that all the risks,
+
+699
+00:41:21,703 --> 00:41:24,706
+all the ways that things can go wrong with this technology,
+
+700
+00:41:24,706 --> 00:41:27,876
+we very carefully address those risks
+
+701
+00:41:28,085 --> 00:41:32,005
+as we bring the benefits, and as we have a viable business at the same time.
+
+702
+00:41:32,089 --> 00:41:36,218
+And I invite you to join us on the next phase of this journey.

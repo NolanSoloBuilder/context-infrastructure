@@ -1,0 +1,58 @@
+[
+  {
+    "name": "brk_424b5",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452592/d86634d424b5.htm",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:39:26.192065+00:00",
+    "file": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/brk_424b5.html"
+  },
+  {
+    "name": "now_144",
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000195917326007841/xsl144X01/primary_doc.xml",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:39:25.533307+00:00",
+    "file": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/now_144.html"
+  },
+  {
+    "name": "goog_q3",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:39:26.744536+00:00",
+    "file": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/goog_q3.html"
+  },
+  {
+    "name": "nvda_news",
+    "url": "https://nvidianews.nvidia.com/",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:39:26.591367+00:00",
+    "file": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/nvda_news.html"
+  },
+  {
+    "name": "nvda_investments",
+    "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:39:26.984983+00:00",
+    "file": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/nvda_investments.html"
+  },
+  {
+    "name": "nvda_fusion",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:39:27.396179+00:00",
+    "file": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/nvda_fusion.html"
+  },
+  {
+    "name": "nvda_simulation",
+    "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:39:27.271310+00:00",
+    "file": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/nvda_simulation.html"
+  }
+]

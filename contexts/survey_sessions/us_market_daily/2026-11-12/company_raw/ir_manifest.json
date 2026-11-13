@@ -1,0 +1,92 @@
+[
+  {
+    "key": "coreweave_quarterly",
+    "url": "https://investors.coreweave.com/financials/quarterly-results/",
+    "status": "403",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:55.750825+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/coreweave_quarterly.html",
+    "sha256": "cbcae3fadb9e189a096b52b03fd683f5ff278cbb4dd2f2444d36dccb0cd8d95c",
+    "text_len": 58
+  },
+  {
+    "key": "nvda_news",
+    "url": "https://nvidianews.nvidia.com/",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:56.237676+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/nvda_news.html",
+    "sha256": "b0b4be220b2ab1b664a47270ecaec0722399de5e2494c226b9647cfc38b7b651",
+    "text_len": 6645
+  },
+  {
+    "key": "sofi_news",
+    "url": "https://investors.sofi.com/news/default.aspx",
+    "status": "403",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:56.106348+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/sofi_news.html",
+    "sha256": "88a6e70de9a51d944def9cd481646e9210d24288805da29f0dc9d1070a1d0d8e",
+    "text_len": 58
+  },
+  {
+    "key": "now_news",
+    "url": "https://www.servicenow.com/company/media/press-room.html",
+    "status": "403",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:56.645275+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/now_news.html",
+    "sha256": "4a532ae19f349897124e2dcb5d0240f6c4bcde1d44e1a80479ff4d7b5e4c4d74",
+    "text_len": 239
+  },
+  {
+    "key": "crm_news",
+    "url": "https://investor.salesforce.com/press-releases/default.aspx",
+    "status": "403",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:57.251558+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/crm_news.html",
+    "sha256": "5218f9799b74ff3fb1bc7a8591a18c96ae3f5a3d737cd314f1be8d2408a6775e",
+    "text_len": 58
+  },
+  {
+    "key": "gehc_news",
+    "url": "https://investor.gehealthcare.com/news-releases",
+    "status": "403",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:58.199172+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/gehc_news.html",
+    "sha256": "e3672a3d502094c1c3fda079122e14906ec429cf38ddb3317629841f0924f1be",
+    "text_len": 232
+  },
+  {
+    "key": "cgnx_news",
+    "url": "https://www.cognex.com/company/press-releases",
+    "status": "429",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:57.256219+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/cgnx_news.html",
+    "sha256": "8cf43958a7d5f4e07410a21926747250390e849cb471bc715f7ccd0dbbd1a4f8",
+    "text_len": 276
+  },
+  {
+    "key": "alphabet_ir",
+    "url": "https://abc.xyz/investor/",
+    "status": "403",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:57.921302+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/alphabet_ir.html",
+    "sha256": "c78b0f316a6f349050454a15427412e5c17811b1da0ce5ef440fa252cbf87646",
+    "text_len": 58
+  },
+  {
+    "key": "brk_news",
+    "url": "https://www.berkshirehathaway.com/news/2026news.html",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:29:57.921900+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/brk_news.html",
+    "sha256": "d22a3ba4a54b3ac530b6ac90ce4babe39d61728cb1af81c0a8e41fd137c987d9",
+    "text_len": 1066
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-07T23:42:11.481535+00:00",
+  "live_research_date": "2026-11-08",
+  "regular_session": "2026-11-06",
+  "next_regular_session": "2026-11-09",
+  "anonymous_home_and_api_read": true,
+  "asset_count": 43,
+  "quote_dates": {
+    "2026-11-06": 43
+  },
+  "refresh_completed": 43,
+  "refresh_errors": [],
+  "history_dates": [
+    "2026-11-06",
+    "2026-11-05",
+    "2026-11-04",
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "current_session_archive_count": 1,
+  "current_session_archive_research_date": "2026-11-08",
+  "older_session_archive_research_date": "2026-11-06",
+  "no_weekend_market_archive": true,
+  "alert_state_unchanged_sha256": "b7289b052ce359b8d635ed81b3b56ab9612f81e18e901348d849e3825507500d",
+  "published_version": 25,
+  "new_visual_qa": false
+}

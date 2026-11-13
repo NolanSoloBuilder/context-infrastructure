@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-11-07T23:33:11.314703+00:00",
+  "symbol": "BRK.B",
+  "price_reference_date": "2026-11-06",
+  "regular_close_usd": 570.89,
+  "stockanalysis_regular_time_et": "2026-11-06T16:00:00-05:00",
+  "source": "https://stockanalysis.com/stocks/brk.b/history/",
+  "source_read_scope": "dated close and historical table, 11/6 close570.89 and11/5high586.30; afterhours11/6 19:59EST572.50 predates11/7 earnings",
+  "comparison": "Matches yesterday validated Yahoo regular-close baseline. StockAnalysis previous570.96 value has been revised; no new market session or alert-stage change.",
+  "limitations": [
+    "Official comparable trade-price source not obtained this run.",
+    "This run Yahoo5d HTTP429; stopped, no fabricated response.",
+    "MarketScreener page initially fetched but targeted quote-area retrieval timed out; not counted as a completed fresh second-source verification."
+  ],
+  "valuation_usage": "pre-announcement regular close reference only; not an earnings reaction or actionable live quote"
+}

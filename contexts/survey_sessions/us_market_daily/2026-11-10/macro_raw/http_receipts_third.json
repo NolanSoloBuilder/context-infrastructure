@@ -1,0 +1,34 @@
+[
+  {
+    "id": "vix_official",
+    "url": "https://www.cboe.com/tradable-products/vix",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/vix_official.html",
+    "at": "2026-11-09T23:40:51.467307+00:00"
+  },
+  {
+    "id": "vix_wsj",
+    "url": "https://www.wsj.com/market-data/quotes/index/VIX/historical-prices",
+    "http": "000",
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.wsj.com:443 \n",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/vix_wsj.html",
+    "at": "2026-11-09T23:40:50.077161+00:00"
+  },
+  {
+    "id": "vix_investing",
+    "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data",
+    "http": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/vix_investing.html",
+    "at": "2026-11-09T23:40:50.401770+00:00"
+  },
+  {
+    "id": "nvda_event",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/nvda_event.html",
+    "at": "2026-11-09T23:40:50.795205+00:00"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "name": "investing_new_rss",
+    "url": "https://www.reddit.com/r/investing/new/.rss?limit=25",
+    "collected_at_utc": "2026-11-09T23:38:42.025858+00:00",
+    "http_status": "200",
+    "error": "",
+    "entries": 25,
+    "recent": [
+      {
+        "id": "t3_1xrz1hw",
+        "title": "Hit a milestone today - 20 years old",
+        "published": "2026-11-09T18:11:00+00:00"
+      },
+      {
+        "id": "t3_1xrtwjg",
+        "title": "Apple stocks sell or hold ?",
+        "published": "2026-11-09T15:01:41+00:00"
+      },
+      {
+        "id": "t3_1xrqkig",
+        "title": "Aluminium Supply Faces Growing Competition for Power",
+        "published": "2026-11-09T12:36:26+00:00"
+      },
+      {
+        "id": "t3_1xrp3ik",
+        "title": "Atlassian grew revenue 24% last quarter, guided about 13.75% for the full year, and fell 13% on Friday. The guidance math says more than half of the slowdown comes from Data Center, the product line it stops supporting in 2029",
+        "published": "2026-11-09T11:17:14+00:00"
+      },
+      {
+        "id": "t3_1xrmv9x",
+        "title": "Daily General Discussion and Advice Thread - November 09, 2026",
+        "published": "2026-11-09T09:00:36+00:00"
+      },
+      {
+        "id": "t3_1xrfm6p",
+        "title": "Why is Elon/SpaceX even interested in becoming a telecom carrier?",
+        "published": "2026-11-09T02:07:44+00:00"
+      },
+      {
+        "id": "t3_1xqu3xf",
+        "title": "Daily General Discussion and Advice Thread - November 08, 2026",
+        "published": "2026-11-08T09:01:13+00:00"
+      }
+    ]
+  },
+  {
+    "name": "stocks_new_rss",
+    "url": "https://www.reddit.com/r/stocks/new/.rss?limit=25",
+    "collected_at_utc": "2026-11-09T23:38:42.026359+00:00",
+    "http_status": "429",
+    "error": ""
+  },
+  {
+    "name": "SecurityAnalysis_new_rss",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss?limit=25",
+    "collected_at_utc": "2026-11-09T23:38:42.027590+00:00",
+    "http_status": "429",
+    "error": ""
+  },
+  {
+    "name": "ValueInvesting_new_rss",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss?limit=25",
+    "collected_at_utc": "2026-11-09T23:38:42.578132+00:00",
+    "http_status": "429",
+    "error": ""
+  },
+  {
+    "name": "Bogleheads_new_rss",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss?limit=25",
+    "collected_at_utc": "2026-11-09T23:38:43.053161+00:00",
+    "http_status": "429",
+    "error": ""
+  },
+  {
+    "name": "ETFs_new_rss",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss?limit=25",
+    "collected_at_utc": "2026-11-09T23:38:43.076993+00:00",
+    "http_status": "429",
+    "error": ""
+  },
+  {
+    "name": "finews_home",
+    "url": "https://finews.fyi/",
+    "collected_at_utc": "2026-11-09T23:38:43.332109+00:00",
+    "http_status": "200",
+    "error": ""
+  }
+]

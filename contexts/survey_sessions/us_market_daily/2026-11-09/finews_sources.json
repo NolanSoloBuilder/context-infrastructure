@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-09",
+  "checked_at_utc": "2026-11-08T23:29:50.580320+00:00",
+  "collected_at_utc": "2026-11-08T23:26:22.493181+00:00",
+  "url": "https://finews.fyi/",
+  "market_session": "2026-11-06",
+  "source_updated_at_utc": "2026-11-06T23:15:21+00:00",
+  "status": "success_unchanged",
+  "http_status": 200,
+  "read_scope": "Full actual HTML/text saved and read; summary/calendar/news-item range; compared with November8 saved source.",
+  "current_text_sha256": "83ef48b51b48e6b06ee6ce8cb1b3a26763f3b754ae442869c5e65b3ea8246aab",
+  "previous_text_sha256": "83ef48b51b48e6b06ee6ce8cb1b3a26763f3b754ae442869c5e65b3ea8246aab",
+  "text_identical": true,
+  "new_selected_items": [],
+  "reason": "No new edition or material text change. No duplicate weekend market snapshot or replay of old claims.",
+  "raw_html": "source_scan_raw/finews_home.html",
+  "raw_text": "source_scan_raw/finews_home.txt"
+}

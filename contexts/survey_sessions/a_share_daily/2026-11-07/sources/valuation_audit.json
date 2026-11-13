@@ -1,0 +1,26 @@
+{
+  "asof": "2026-11-06",
+  "issue": "3009",
+  "counts": {
+    "低估": 19,
+    "正常": 31,
+    "高估": 0
+  },
+  "classification_changes": [
+    {
+      "name": "中证500",
+      "previous": "正常",
+      "current": "低估"
+    }
+  ],
+  "previous_star": 4.7,
+  "current_star": 4.8,
+  "gap_to_five": 0.2,
+  "threshold_triggered": false,
+  "hk_supplement": {
+    "asof": "2026-11-05",
+    "star": 4.3,
+    "image": "3009_hk.jpg",
+    "excluded_from_main": true
+  }
+}

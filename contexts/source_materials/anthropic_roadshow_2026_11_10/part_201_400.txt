@@ -1,0 +1,200 @@
+201|fundamental human concepts and ideas.
+202|The second phase is reinforcement learning.
+203|This is where Claude learns to be helpful, honest, and harmless.
+204|It's where we draw out useful capabilities
+205|in coding, knowledge work, and science.
+206|As models have moved from conversational assistance to autonomous agents,
+207|reinforcement learning has evolved
+208|into one of the largest areas of research investment.
+209|One that really matters to our customers.
+210|In 2021, I wrote an internal memo
+211|outlining how our most likely product might be an aligned AI programmer.
+212|I wrote a lot of other things too, but this one turned out to be pretty accurate.
+213|Claude's training process is integral to Anthropic's mission.
+214|We need to understand how to train frontier intelligence
+215|and how to make it safe.
+216|And this is how we deliver the benefits of AI.
+217|We think that AI
+218|will help us reduce the time to do a clinical trial by 20 to 30%.
+219|If you get a drug to market 2 or 3 years sooner, those are either cures
+220|or treatments that patients that actually don't have solutions can have sooner.
+221|So we think it's actually a huge win for patients.
+222|And it's also a huge win for BMS.
+223|We chose Anthropic for a couple of reasons.
+224|One is they had the most mature enterprise capabilities.
+225|So it's one thing to have a chatbot that you can use.
+226|It's a whole different thing to actually put it in an environment
+227|where you're giving it access to some of the company's
+228|most confidential information, and you're able to do observability,
+229|manage the security, manage what the fine tune controls of what you give users.
+230|So there's like the enterprise controls that you'd often
+231|see that IT organizations really value a lot.
+232|We rolled it out across all 30,000 of our employees.
+233|This is the fastest,
+234|most well adopted AI tool in the history of what we rolled out.
+235|So now you can ask a very, very complicated question
+236|and it will go through.
+237|It will figure out which database or databases, because it can actually
+238|cross those databases, can be queried.
+239|And then it will produce a report
+240|that actually has the context of the epidemiology built right into it.
+241|So that takes you from what would have typically taken 1 to 2 months
+242|to get a simple question answered, to being able to get it in 4 to 5 minutes.
+243|And we're now finally at a stage both with high throughput computation,
+244|but also large language models where you're able to scale up
+245|your computation, your analytics to match the better scale of biology
+246|that can help the way that you inform and change the standard of care.
+247|Consider all the
+248|reasons a frontier AI lab needs to use compute efficiently.
+249|We use it at every stage of the research and model training process.
+250|It's how we serve models to customers and how we use Claude at scale internally.
+251|By training what we believe to be the most efficient models,
+252|we can do more of all these things with the same amount of compute.
+253|It's also how we drive down costs,
+254|both for customers as well as our own underlying costs.
+255|We're accelerating these efficiency gains through our research process.
+256|Our pace of discovery is speeding up, and a lot of that acceleration
+257|comes from Claude itself.
+258|When you deploy frontier models, safety is critical.
+259|This idea brought the co-founders
+260|together, and it's been at the foundation of Anthropic from the beginning.
+261|Excellence in safety is how you manage organizational and systemic risk.
+262|It's how you safely enable frontier capabilities
+263|in fields like coding and medicine, and it's valued by our customers.
+264|It gives them the trust they need to point AI at important work.
+265|We build safety in at every stage.
+266|Through alignment training, we train models to follow user intent
+267|and avoid taking harmful actions.
+268|And we build in the right safeguards aimed at preventing misuse.
+269|We also pioneer fields like interpretability,
+270|which gives us insight into what's happening inside the model's brain.
+271|Within Anthropic,
+272|we increasingly turn frontier models back on improving our own processes.
+273|We call this closing the loop,
+274|and it drives forward all three of our research priorities.
+275|Claude is increasingly our equal partner here.
+276|The better Claude gets, the more it helps us with all of our work.
+277|It improves our security.
+278|It makes training and inference more efficient.
+279|It drives safety work.
+280|It helps us try out more research ideas more quickly,
+281|and it makes the whole organization more effective.
+282|Our most important work is still ahead
+283|if we keep research and safety advancing together.
+284|We believe that we can help bring about some of the most significant
+285|breakthroughs in human history.
+286|Take a number and double it and double that.
+287|Then double that.
+288|That curve is really at the heart of what we do at Anthropic.
+289|We noticed early on that performance seemed to scale very smoothly
+290|with compute.
+291|Our bet
+292|was there is a whole internet's worth of context.
+293|What if the limiting factor of model size just went away?
+294|So in 2022 or 23, we had chatbots.
+295|You could ask them for a history of the samurai, and
+296|it would come back with a little essay.
+297|In 2024,
+298|coding becomes possible, but Claude still struggles on hard problems.
+299|In 2025, the models start to be able to do surprising things.
+300|Coding gets much better.
+301|Claude can even play video games quite badly.
+302|This same year, it found a flaw
+303|in OpenBSD that had gone unnoticed for 27 years.
+304|Suddenly it can do multi-step processes.
+305|Knowledge work.
+306|It builds a controller for laser locks at a quantum computer company,
+307|a task that used to take a team of people with PhDs a week.
+308|And it does this without human intervention
+309|overnight.
+310|We start to see
+311|Claude making fundamental discoveries in math,
+312|working at the frontier of life science.
+313|This acceleration can be disorienting,
+314|but there's still this sense that we're just setting out.
+315|That exponential curve stretches up ahead of us,
+316|and it's only just begun.
+317|Achieving Anthropic's mission requires
+318|staying at the frontier and staying at the frontier depends on compute.
+319|Our approach here goes back to research that I did
+320|with several of my other co-founders on scaling laws.
+321|We found that with the right recipe,
+322|more compute reliably and predictably yields more intelligence.
+323|Later, we found that it was possible to improve this recipe over time
+324|to achieve more intelligence with the same amount of physical compute.
+325|So by the time we started Anthropic in 2021, we knew two things:
+326|one, compute is the foundation of the business, and two, getting the most
+327|out of every unit of compute is key to making increasingly intelligent models.
+328|That's why we're so focused on efficiency, and it's why we believe a dollar
+329|of compute at Anthropic goes further than a dollar at any other frontier lab.
+330|We've achieved that advantage in two ways.
+331|I'll start with the first.
+332|Our proprietary approach to bringing up and deploying silicon.
+333|We train and serve Claude now across all four major chip families.
+334|That's only possible because early on, we made an unconventional bet
+335|on a multi chip strategy.
+336|At the time, many people thought that running AI models on different chips
+337|wasn't worth the effort.
+338|Each chip needs its own tailored software stack and inference
+339|stack, which is expensive and difficult to build.
+340|We've now been doing it for years, and we've gotten incredibly good at it.
+341|This comes with two key advantages. In a supply-constrained compute market,
+342|our multi-silicon strategy
+343|allows us to focus on the best price performance regardless of the provider.
+344|We can match each chip to the job that it's best at.
+345|Some are better at training, some are better at inference.
+346|Our multi-silicon chip strategy means we can treat all of our chips across
+347|providers, architectures and locations as one fungible pool of compute.
+348|This has also made us really good at bringing up new chips.
+349|As an example, this year
+350|we started working with AMD GPUs for the first time. In the past,
+351|bringing on a new chip platform took dozens of engineers months of work.
+352|This time we had Mythos try it out.
+353|It got Claude running on AMD in just three days with basically
+354|no human intervention.
+355|Claude ported or wrote almost 100% of the kernels.
+356|We also have a distinct approach to the data centers that house our chips.
+357|Historically, we bought compute as a cloud service.
+358|We've now added a second approach where we lease chips
+359|and run them in purpose built data centers designed for us.
+360|We call this Anthropic Direct.
+361|That approach has a couple advantages for us.
+362|It helps to lower the total cost of ownership of compute,
+363|and allows us to separate the commitment to data centers from the chips.
+364|The second driver of our compute advantage is our rate of discovery
+365|of compute multipliers.
+366|We focus on total effective compute, which is the multiplicative product
+367|of physical capacity, times the compute multipliers that we discover.
+368|Each one we discover makes our pool of total effective compute bigger.
+369|For example,
+370|say you need 100 units of compute to train a model of a certain intelligence.
+371|A 4x compute multiplier means you can use 25 units of compute
+372|to train the exact same model.
+373|Or you can use those 100 physical units to train an even more intelligent model
+374|that would have previously required 400 units.
+375|Compute multipliers create a competitive advantage for us that's hard to replicate.
+376|They build on each other.
+377|Each new multiplier we
+378|discover has a positive effect on the multipliers before it. They stack.
+379|We believe that this can accelerate
+380|even further as we approach recursive self-improvement.
+381|Claude will be able to discover compute multipliers entirely by itself,
+382|allowing the number of compute multipliers to grow faster and faster.
+383|We believe this combination of smart investments,
+384|breakthrough research, and the improving capabilities of Claude
+385|have put Anthropic in a leading position among the frontier labs.
+386|AI is
+387|a breakthrough innovation, but only reinvention
+388|is going to get the value that AI promises.
+389|At Accenture, our job is to be the bridge between technology
+390|and real outcomes for our clients.
+391|I love the question about, you know, are we using Claude
+392|because we have tens of thousands of engineers using it every day?
+393|We use it across our entire software development lifecycle,
+394|and it frees up time.
+395|It makes us go faster and
+396|allows our engineers to spend more time focusing on solving our clients'
+397|challenges, leading decision making, and setting strategy.
+398|We defend thousands of our clients from cyber attacks,
+399|and we've paired Claude Code and Claude's agent software development kit with
+400|Cyber.AI, our cutting-edge platform that we use to help protect our clients.

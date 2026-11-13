@@ -1,0 +1,4218 @@
+{
+  "renderer": "Pillow with STHeiti Medium 44 px; layout reference only, not a player screenshot",
+  "cue_count": 702,
+  "checks": [
+    {
+      "id": 1,
+      "width": 180,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 2,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 3,
+      "width": 899,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 4,
+      "width": 806,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 5,
+      "width": 1060,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 6,
+      "width": 674,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 7,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 8,
+      "width": 817,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 9,
+      "width": 817,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 10,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 11,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 12,
+      "width": 941,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 13,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 14,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 15,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 16,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 17,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 18,
+      "width": 734,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 19,
+      "width": 880,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 20,
+      "width": 298,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 21,
+      "width": 1012,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 22,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 23,
+      "width": 1016,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 24,
+      "width": 748,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 25,
+      "width": 1148,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 26,
+      "width": 576,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 27,
+      "width": 861,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 28,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 29,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 30,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 31,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 32,
+      "width": 620,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 33,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 34,
+      "width": 586,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 35,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 36,
+      "width": 972,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 37,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 38,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 39,
+      "width": 1016,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 40,
+      "width": 576,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 41,
+      "width": 1102,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 42,
+      "width": 979,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 43,
+      "width": 1016,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 44,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 45,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 46,
+      "width": 553,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 47,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 48,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 49,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 50,
+      "width": 589,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 51,
+      "width": 622,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 52,
+      "width": 589,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 53,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 54,
+      "width": 312,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 55,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 56,
+      "width": 180,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 57,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 58,
+      "width": 602,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 59,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 60,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 61,
+      "width": 268,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 62,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 63,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 64,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 65,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 66,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 67,
+      "width": 817,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 68,
+      "width": 356,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 69,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 70,
+      "width": 620,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 71,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 72,
+      "width": 809,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 73,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 74,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 75,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 76,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 77,
+      "width": 1144,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 78,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 79,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 80,
+      "width": 972,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 81,
+      "width": 224,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 82,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 83,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 84,
+      "width": 465,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 85,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 86,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 87,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 88,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 89,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 90,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 91,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 92,
+      "width": 1070,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 93,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 94,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 95,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 96,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 97,
+      "width": 410,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 98,
+      "width": 974,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 99,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 100,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 101,
+      "width": 655,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 102,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 103,
+      "width": 1104,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 104,
+      "width": 1117,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 105,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 106,
+      "width": 938,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 107,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 108,
+      "width": 729,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 109,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 110,
+      "width": 808,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 111,
+      "width": 685,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 112,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 113,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 114,
+      "width": 894,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 115,
+      "width": 576,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 116,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 117,
+      "width": 495,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 118,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 119,
+      "width": 664,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 120,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 121,
+      "width": 748,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 122,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 123,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 124,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 125,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 126,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 127,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 128,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 129,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 130,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 131,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 132,
+      "width": 539,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 133,
+      "width": 1015,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 134,
+      "width": 671,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 135,
+      "width": 1171,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 136,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 137,
+      "width": 1016,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 138,
+      "width": 999,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 139,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 140,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 141,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 142,
+      "width": 620,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 143,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 144,
+      "width": 1104,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 145,
+      "width": 971,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 146,
+      "width": 576,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 147,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 148,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 149,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 150,
+      "width": 839,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 151,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 152,
+      "width": 597,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 153,
+      "width": 1148,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 154,
+      "width": 312,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 155,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 156,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 157,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 158,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 159,
+      "width": 312,
+      "height": 44,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 160,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 161,
+      "width": 773,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 162,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 163,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 164,
+      "width": 268,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 165,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 166,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 167,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 168,
+      "width": 935,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 169,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 170,
+      "width": 891,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 171,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 172,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 173,
+      "width": 1100,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 174,
+      "width": 356,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 175,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 176,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 177,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 178,
+      "width": 597,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 179,
+      "width": 806,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 180,
+      "width": 907,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 181,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 182,
+      "width": 982,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 183,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 184,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 185,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 186,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 187,
+      "width": 268,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 188,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 189,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 190,
+      "width": 594,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 191,
+      "width": 822,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 192,
+      "width": 312,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 193,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 194,
+      "width": 1016,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 195,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 196,
+      "width": 576,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 197,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 198,
+      "width": 136,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 199,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 200,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 201,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 202,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 203,
+      "width": 1012,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 204,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 205,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 206,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 207,
+      "width": 356,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 208,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 209,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 210,
+      "width": 683,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 211,
+      "width": 729,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 212,
+      "width": 1060,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 213,
+      "width": 1157,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 214,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 215,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 216,
+      "width": 641,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 217,
+      "width": 267,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 218,
+      "width": 1037,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 219,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 220,
+      "width": 1280,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 221,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 222,
+      "width": 795,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 223,
+      "width": 677,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 224,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 225,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 226,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 227,
+      "width": 444,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 228,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 229,
+      "width": 1192,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 230,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 231,
+      "width": 583,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 232,
+      "width": 710,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 233,
+      "width": 597,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 234,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 235,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 236,
+      "width": 312,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 237,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 238,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 239,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 240,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 241,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 242,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 243,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 244,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 245,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 246,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 247,
+      "width": 180,
+      "height": 44,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 248,
+      "width": 817,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 249,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 250,
+      "width": 704,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 251,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 252,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 253,
+      "width": 576,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 254,
+      "width": 972,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 255,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 256,
+      "width": 1104,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 257,
+      "width": 407,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 258,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 259,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 260,
+      "width": 985,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 261,
+      "width": 1104,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 262,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 263,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 264,
+      "width": 894,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 265,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 266,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 267,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 268,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 269,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 270,
+      "width": 1016,
+      "height": 49,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 271,
+      "width": 413,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 272,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 273,
+      "width": 444,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 274,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 275,
+      "width": 1232,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 276,
+      "width": 924,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 277,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 278,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 279,
+      "width": 377,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 280,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 281,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 282,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 283,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 284,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 285,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 286,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 287,
+      "width": 312,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 288,
+      "width": 897,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 289,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 290,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 291,
+      "width": 400,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 292,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 293,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 294,
+      "width": 933,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 295,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 296,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 297,
+      "width": 298,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 298,
+      "width": 1023,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 299,
+      "width": 1134,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 300,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 301,
+      "width": 880,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 302,
+      "width": 890,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 303,
+      "width": 646,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 304,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 305,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 306,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 307,
+      "width": 972,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 308,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 309,
+      "width": 400,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 310,
+      "width": 268,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 311,
+      "width": 704,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 312,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 313,
+      "width": 620,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 314,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 315,
+      "width": 620,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 316,
+      "width": 444,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 317,
+      "width": 545,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 318,
+      "width": 1060,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 319,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 320,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 321,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 322,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 323,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 324,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 325,
+      "width": 1136,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 326,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 327,
+      "width": 1104,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 328,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 329,
+      "width": 708,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 330,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 331,
+      "width": 268,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 332,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 333,
+      "width": 1067,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 334,
+      "width": 1192,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 335,
+      "width": 356,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 336,
+      "width": 993,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 337,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 338,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 339,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 340,
+      "width": 1148,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 341,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 342,
+      "width": 224,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 343,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 344,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 345,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 346,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 347,
+      "width": 1280,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 348,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 349,
+      "width": 312,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 350,
+      "width": 753,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 351,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 352,
+      "width": 706,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 353,
+      "width": 1195,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 354,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 355,
+      "width": 975,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 356,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 357,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 358,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 359,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 360,
+      "width": 628,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 361,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 362,
+      "width": 664,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 363,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 364,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 365,
+      "width": 444,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 366,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 367,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 368,
+      "width": 1060,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 369,
+      "width": 136,
+      "height": 44,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 370,
+      "width": 1198,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 371,
+      "width": 734,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 372,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 373,
+      "width": 758,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 374,
+      "width": 802,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 375,
+      "width": 1060,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 376,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 377,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 378,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 379,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 380,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 381,
+      "width": 924,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 382,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 383,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 384,
+      "width": 1067,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 385,
+      "width": 941,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 386,
+      "width": 102,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 387,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 388,
+      "width": 553,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 389,
+      "width": 972,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 390,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 391,
+      "width": 792,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 392,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 393,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 394,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 395,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 396,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 397,
+      "width": 576,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 398,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 399,
+      "width": 1121,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 400,
+      "width": 961,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 401,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 402,
+      "width": 972,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 403,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 404,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 405,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 406,
+      "width": 817,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 407,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 408,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 409,
+      "width": 586,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 410,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 411,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 412,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 413,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 414,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 415,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 416,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 417,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 418,
+      "width": 695,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 419,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 420,
+      "width": 347,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 421,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 422,
+      "width": 1055,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 423,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 424,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 425,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 426,
+      "width": 1164,
+      "height": 48,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 427,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 428,
+      "width": 1016,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 429,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 430,
+      "width": 446,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 431,
+      "width": 503,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 432,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 433,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 434,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 435,
+      "width": 356,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 436,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 437,
+      "width": 356,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 438,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 439,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 440,
+      "width": 618,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 441,
+      "width": 972,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 442,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 443,
+      "width": 718,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 444,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 445,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 446,
+      "width": 490,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 447,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 448,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 449,
+      "width": 978,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 450,
+      "width": 796,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 451,
+      "width": 1062,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 452,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 453,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 454,
+      "width": 978,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 455,
+      "width": 593,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 456,
+      "width": 821,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 457,
+      "width": 312,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 458,
+      "width": 1060,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 459,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 460,
+      "width": 1015,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 461,
+      "width": 979,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 462,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 463,
+      "width": 553,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 464,
+      "width": 935,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 465,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 466,
+      "width": 825,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 467,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 468,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 469,
+      "width": 1148,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 470,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 471,
+      "width": 1161,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 472,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 473,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 474,
+      "width": 451,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 475,
+      "width": 444,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 476,
+      "width": 972,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 477,
+      "width": 313,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 478,
+      "width": 1012,
+      "height": 49,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 479,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 480,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 481,
+      "width": 268,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 482,
+      "width": 224,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 483,
+      "width": 616,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 484,
+      "width": 606,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 485,
+      "width": 791,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 486,
+      "width": 514,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 487,
+      "width": 796,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 488,
+      "width": 1023,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 489,
+      "width": 928,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 490,
+      "width": 180,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 491,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 492,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 493,
+      "width": 289,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 494,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 495,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 496,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 497,
+      "width": 532,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 498,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 499,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 500,
+      "width": 660,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 501,
+      "width": 620,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 502,
+      "width": 847,
+      "height": 49,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 503,
+      "width": 759,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 504,
+      "width": 224,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 505,
+      "width": 1104,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 506,
+      "width": 803,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 507,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 508,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 509,
+      "width": 935,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 510,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 511,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 512,
+      "width": 630,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 513,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 514,
+      "width": 897,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 515,
+      "width": 861,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 516,
+      "width": 972,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 517,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 518,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 519,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 520,
+      "width": 714,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 521,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 522,
+      "width": 581,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 523,
+      "width": 361,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 524,
+      "width": 977,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 525,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 526,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 527,
+      "width": 1060,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 528,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 529,
+      "width": 798,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 530,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 531,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 532,
+      "width": 979,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 533,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 534,
+      "width": 664,
+      "height": 49,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 535,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 536,
+      "width": 888,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 537,
+      "width": 832,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 538,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 539,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 540,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 541,
+      "width": 1148,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 542,
+      "width": 796,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 543,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 544,
+      "width": 1204,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 545,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 546,
+      "width": 356,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 547,
+      "width": 1060,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 548,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 549,
+      "width": 786,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 550,
+      "width": 662,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 551,
+      "width": 750,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 552,
+      "width": 796,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 553,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 554,
+      "width": 1060,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 555,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 556,
+      "width": 1148,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 557,
+      "width": 312,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 558,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 559,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 560,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 561,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 562,
+      "width": 902,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 563,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 564,
+      "width": 1192,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 565,
+      "width": 136,
+      "height": 44,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 566,
+      "width": 1191,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 567,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 568,
+      "width": 752,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 569,
+      "width": 760,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 570,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 571,
+      "width": 839,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 572,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 573,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 574,
+      "width": 1260,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 575,
+      "width": 1243,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 576,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 577,
+      "width": 676,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 578,
+      "width": 991,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 579,
+      "width": 758,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 580,
+      "width": 664,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 581,
+      "width": 914,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 582,
+      "width": 494,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 583,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 584,
+      "width": 1178,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 585,
+      "width": 788,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 586,
+      "width": 1150,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 587,
+      "width": 1192,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 588,
+      "width": 1012,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 589,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 590,
+      "width": 928,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 591,
+      "width": 819,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 592,
+      "width": 576,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 593,
+      "width": 708,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 594,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 595,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 596,
+      "width": 796,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 597,
+      "width": 998,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 598,
+      "width": 690,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 599,
+      "width": 664,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 600,
+      "width": 680,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 601,
+      "width": 479,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 602,
+      "width": 972,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 603,
+      "width": 840,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 604,
+      "width": 935,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 605,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 606,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 607,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 608,
+      "width": 993,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 609,
+      "width": 224,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 610,
+      "width": 738,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 611,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 612,
+      "width": 914,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 613,
+      "width": 686,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 614,
+      "width": 402,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 615,
+      "width": 861,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 616,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 617,
+      "width": 308,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 618,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 619,
+      "width": 356,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 620,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 621,
+      "width": 444,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 622,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 623,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 624,
+      "width": 708,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 625,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 626,
+      "width": 972,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 627,
+      "width": 796,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 628,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 629,
+      "width": 664,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 630,
+      "width": 509,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 631,
+      "width": 796,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 632,
+      "width": 1174,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 633,
+      "width": 1104,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 634,
+      "width": 802,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 635,
+      "width": 734,
+      "height": 95,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 636,
+      "width": 1054,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 637,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 638,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 639,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 640,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 641,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 642,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 643,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 644,
+      "width": 1192,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 645,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 646,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 647,
+      "width": 1148,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 648,
+      "width": 1024,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 649,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 650,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 651,
+      "width": 444,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 652,
+      "width": 759,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 653,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 654,
+      "width": 840,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 655,
+      "width": 772,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 656,
+      "width": 845,
+      "height": 48,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 657,
+      "width": 946,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 658,
+      "width": 532,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 659,
+      "width": 928,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 660,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 661,
+      "width": 704,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 662,
+      "width": 532,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 663,
+      "width": 633,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 664,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 665,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 666,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 667,
+      "width": 884,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 668,
+      "width": 1104,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 669,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 670,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 671,
+      "width": 752,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 672,
+      "width": 710,
+      "height": 96,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 673,
+      "width": 749,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 674,
+      "width": 796,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 675,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 676,
+      "width": 597,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 677,
+      "width": 840,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 678,
+      "width": 617,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 679,
+      "width": 1280,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 680,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 681,
+      "width": 705,
+      "height": 47,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 682,
+      "width": 1243,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 683,
+      "width": 1016,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 684,
+      "width": 884,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 685,
+      "width": 928,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 686,
+      "width": 894,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 687,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 688,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 689,
+      "width": 708,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 690,
+      "width": 796,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 691,
+      "width": 356,
+      "height": 44,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 692,
+      "width": 708,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 693,
+      "width": 620,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 694,
+      "width": 1104,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 695,
+      "width": 1016,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 696,
+      "width": 400,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 697,
+      "width": 488,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 698,
+      "width": 576,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 699,
+      "width": 664,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 700,
+      "width": 488,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 701,
+      "width": 928,
+      "height": 46,
+      "fits_1920x1080_safe_area": true
+    },
+    {
+      "id": 702,
+      "width": 1104,
+      "height": 45,
+      "fits_1920x1080_safe_area": true
+    }
+  ]
+}

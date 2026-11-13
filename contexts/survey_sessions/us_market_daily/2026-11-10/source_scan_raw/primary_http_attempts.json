@@ -1,0 +1,23 @@
+[
+  {
+    "name": "team_release",
+    "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/ex991q1fy27.htm",
+    "http_status": "200",
+    "collected_at_utc": "2026-11-09T23:40:27.871903+00:00",
+    "error": ""
+  },
+  {
+    "name": "team_eol",
+    "url": "https://www.atlassian.com/licensing/data-center-end-of-life",
+    "http_status": "200",
+    "collected_at_utc": "2026-11-09T23:40:28.463472+00:00",
+    "error": ""
+  },
+  {
+    "name": "team_ir",
+    "url": "https://investors.atlassian.com/financials/quarterly-results/default.aspx",
+    "http_status": "403",
+    "collected_at_utc": "2026-11-09T23:40:28.892440+00:00",
+    "error": ""
+  }
+]

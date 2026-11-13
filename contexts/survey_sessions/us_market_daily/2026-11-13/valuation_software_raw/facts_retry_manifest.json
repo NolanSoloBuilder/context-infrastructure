@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "MSFT",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:05:30.872737+00:00",
+    "sha256": "8c1903c041f5c27e86ed15f37debb1f41882b7904bba129ef9edc76478b1e8ea",
+    "error": ""
+  },
+  {
+    "symbol": "AAPL",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:05:30.796633+00:00",
+    "sha256": "f085735b4d08fb116ade18d24247ffabe11df8eb52eae6556b165831f15ef1ad",
+    "error": ""
+  },
+  {
+    "symbol": "EPAM",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001352010.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:05:31.942405+00:00",
+    "sha256": "51517d0bdb018ec962de1d179e143cc460ef3e3b7d9e882d861281dff30548de",
+    "error": ""
+  }
+]

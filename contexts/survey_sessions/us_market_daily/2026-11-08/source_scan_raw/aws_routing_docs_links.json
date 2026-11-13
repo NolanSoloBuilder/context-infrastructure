@@ -1,0 +1,122 @@
+[
+  {
+    "text": "View a markdown version of this page",
+    "url": "prompt-routing.md"
+  },
+  {
+    "text": "",
+    "url": "/pdfs/bedrock/latest/userguide/bedrock-ug.pdf#prompt-routing"
+  },
+  {
+    "text": "Documentation",
+    "url": "/index.html"
+  },
+  {
+    "text": "Amazon Bedrock",
+    "url": "/bedrock/index.html"
+  },
+  {
+    "text": "User Guide",
+    "url": "what-is-bedrock.html"
+  },
+  {
+    "text": "Supported Regions and models",
+    "url": "#prompt-routing-support"
+  },
+  {
+    "text": "Benefits",
+    "url": "#prompt-routing-benefits"
+  },
+  {
+    "text": "Default and configured prompt routers",
+    "url": "#prompt-routing-types"
+  },
+  {
+    "text": "Considerations and limitations",
+    "url": "#prompt-routing-limitations"
+  },
+  {
+    "text": "Prompt router criteria and fallback model",
+    "url": "#prompt-router-criteria"
+  },
+  {
+    "text": "How intelligent prompt routing works",
+    "url": "#prompt-routing-works"
+  },
+  {
+    "text": "How to use intelligent prompt routing",
+    "url": "#prompt-routing-use"
+  },
+  {
+    "text": "Supported Regions and models for intelligent prompt routing",
+    "url": "#prompt-routing-support"
+  },
+  {
+    "text": "Benefits",
+    "url": "#prompt-routing-benefits"
+  },
+  {
+    "text": "Default and configured prompt routers",
+    "url": "#prompt-routing-types"
+  },
+  {
+    "text": "Considerations and limitations",
+    "url": "#prompt-routing-limitations"
+  },
+  {
+    "text": "Prompt router criteria and fallback model",
+    "url": "#prompt-router-criteria"
+  },
+  {
+    "text": "How intelligent prompt routing works",
+    "url": "#prompt-routing-works"
+  },
+  {
+    "text": "How to use intelligent prompt routing",
+    "url": "#prompt-routing-use"
+  },
+  {
+    "text": "Supported foundation models in Amazon Bedrock",
+    "url": "./models-supported.html"
+  },
+  {
+    "text": "Supported Regions and models for inference profiles",
+    "url": "./inference-profiles-support.html"
+  },
+  {
+    "text": "How to use intelligent prompt routing",
+    "url": "#prompt-routing-use"
+  },
+  {
+    "text": "How intelligent prompt routing works",
+    "url": "#prompt-routing-works"
+  },
+  {
+    "text": "Prompt\n\t\t\t\t\t\t\t\t\t\tRouters",
+    "url": "https://console.aws.amazon.com/bedrock/home?region=us-east-1#/prompt-routers"
+  },
+  {
+    "text": "CreatePromptRouter",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_CreatePromptRouter.html"
+  },
+  {
+    "text": "create-prompt-router",
+    "url": "https://docs.aws.amazon.com/cli/latest/reference/bedrock/create-prompt-router.html"
+  },
+  {
+    "text": "GetPromptRouter",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_GetPromptRouter.html"
+  },
+  {
+    "text": "ListPromptRouters",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_ListPromptRouters.html"
+  },
+  {
+    "text": "DeletePromptRouter",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/APIReference/API_DeletePromptRouter.html"
+  },
+  {
+    "text": "Document Conventions",
+    "url": "/general/latest/gr/docconventions.html"
+  }
+]

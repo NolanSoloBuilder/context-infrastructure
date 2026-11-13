@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-08T23:36:20.988996+00:00",
+  "version": 26,
+  "anonymous_home_and_api": true,
+  "research_date": "2026-11-09",
+  "regular_session": "2026-11-06",
+  "next_regular_session": "2026-11-09",
+  "asset_count": 43,
+  "successful_history_symbols": 43,
+  "quote_dates": {
+    "2026-11-06": 43
+  },
+  "history_dates": [
+    "2026-11-06",
+    "2026-11-05",
+    "2026-11-04",
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "current_session_research_date": "2026-11-09",
+  "older_session_research_date": "2026-11-06",
+  "no_new_weekend_market_archive": true,
+  "alert_state_unchanged_sha256": "b7289b052ce359b8d635ed81b3b56ab9612f81e18e901348d849e3825507500d",
+  "new_visual_qa": false,
+  "research_updated_symbols": [
+    "NVDA"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-12",
+  "market_session": "2026-11-11",
+  "collected_at": "2026-11-11T23:34:50.821791+00:00",
+  "target_window": {
+    "primary": "过去24小时",
+    "expanded": "必要时72小时；缺原帖绝对时间不判断已落入窗口",
+    "cutoff_utc": "2026-11-11T23:34:50.821791+00:00"
+  },
+  "status": "partial_read_timestamp_and_access_gaps",
+  "full_scan_complete": false,
+  "coverage": [
+    {
+      "community": "r/investing",
+      "new_url": "https://www.reddit.com/r/investing/new/",
+      "top_day_url": "https://www.reddit.com/r/investing/top/?t=day",
+      "new_web_crawl_label": "yesterday",
+      "top_web_crawl_label": "today",
+      "read_scope": "公开网页返回的首屏/条目摘要；重点页追加定位读取。不是全量社区抓取。",
+      "rss_http_status": 403,
+      "rss_attempts": 1,
+      "live_window_verified": false,
+      "notes": "Crawled标签是搜索缓存时间，不是帖子发布日期；没有从相对时间倒算绝对时间。403未重试、未绕过。"
+    },
+    {
+      "community": "r/stocks",
+      "new_url": "https://www.reddit.com/r/stocks/new/",
+      "top_day_url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "new_web_crawl_label": "today",
+      "top_web_crawl_label": "last week",
+      "read_scope": "公开网页返回的首屏/条目摘要；重点页追加定位读取。不是全量社区抓取。",
+      "rss_http_status": 403,
+      "rss_attempts": 1,
+      "live_window_verified": false,
+      "notes": "Crawled标签是搜索缓存时间，不是帖子发布日期；没有从相对时间倒算绝对时间。403未重试、未绕过。"
+    },
+    {
+      "community": "r/SecurityAnalysis",
+      "new_url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "top_day_url": "https://www.reddit.com/r/SecurityAnalysis/top/?t=day",
+      "new_web_crawl_label": "3 days ago",
+      "top_web_crawl_label": "4 weeks ago",
+      "read_scope": "公开网页返回的首屏/条目摘要；重点页追加定位读取。不是全量社区抓取。",
+      "rss_http_status": 403,
+      "rss_attempts": 1,
+      "live_window_verified": false,
+      "notes": "Crawled标签是搜索缓存时间，不是帖子发布日期；没有从相对时间倒算绝对时间。403未重试、未绕过。"
+    },
+    {
+      "community": "r/ValueInvesting",
+      "new_url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "top_day_url": "https://www.reddit.com/r/ValueInvesting/top/?t=day",
+      "new_web_crawl_label": "yesterday",
+      "top_web_crawl_label": "last week",
+      "read_scope": "公开网页返回的首屏/条目摘要；重点页追加定位读取。不是全量社区抓取。",
+      "rss_http_status": 403,
+      "rss_attempts": 1,
+      "live_window_verified": false,
+      "notes": "Crawled标签是搜索缓存时间，不是帖子发布日期；没有从相对时间倒算绝对时间。403未重试、未绕过。"
+    },
+    {
+      "community": "r/Bogleheads",
+      "new_url": "https://www.reddit.com/r/Bogleheads/new/",
+      "top_day_url": "https://www.reddit.com/r/Bogleheads/top/?t=day",
+      "new_web_crawl_label": "2 days ago",
+      "top_web_crawl_label": "3 weeks ago",
+      "read_scope": "公开网页返回的首屏/条目摘要；重点页追加定位读取。不是全量社区抓取。",
+      "rss_http_status": 403,
+      "rss_attempts": 1,
+      "live_window_verified": false,
+      "notes": "Crawled标签是搜索缓存时间，不是帖子发布日期；没有从相对时间倒算绝对时间。403未重试、未绕过。"
+    },
+    {
+      "community": "r/ETFs",
+      "new_url": "https://www.reddit.com/r/ETFs/new/",
+      "top_day_url": "https://www.reddit.com/r/ETFs/top/?t=day",
+      "new_web_crawl_label": "3 days ago",
+      "top_web_crawl_label": "last week",
+      "read_scope": "公开网页返回的首屏/条目摘要；重点页追加定位读取。不是全量社区抓取。",
+      "rss_http_status": 403,
+      "rss_attempts": 1,
+      "live_window_verified": false,
+      "notes": "Crawled标签是搜索缓存时间，不是帖子发布日期；没有从相对时间倒算绝对时间。403未重试、未绕过。"
+    }
+  ],
+  "original_posts_read": [
+    {
+      "id": "1xthum8",
+      "community": "r/stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xthum8/skorea_will_run_its_own_rebellions_ai_chips_on/",
+      "title": "韩国Rebellions R200接入NVLink Fusion",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "relative_time_shown": "21m ago",
+      "event_date": "2026-11-08",
+      "read_scope": "原帖全文与1条可见实质评论；未展开更多评论。",
+      "claims": [
+        "R200计划用NVLink Fusion和MGX接入NVIDIA平台；SK Telecom计划部署；2028年为预期可部署时点。"
+      ],
+      "supporting_comments": [],
+      "opposing_comments": [
+        "唯一可见实质评论认为这也可能巩固NVIDIA机架/互连生态，且尚无R200可比规格和功耗数据；2028距今较远。"
+      ],
+      "verification_sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+          "date": "2026-11-08",
+          "status": "官方原文已读，合作与计划已核，不是收入/投产证明"
+        }
+      ],
+      "status": "primary_event_verified_post_absolute_date_unknown_not_selected",
+      "next": "核实际系统规格、客户部署/验收、能耗/成本与确认收入，不能把合作意向当订单利润。",
+      "comment_note": "只读到一条实质评论，未声称形成多空共识；GPU/NPU分工效率来自公司计划与正文，不是评论共识。"
+    },
+    {
+      "id": "1xtezjr",
+      "community": "r/stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xtezjr/reddits_revenue_is_up_53_its_stock_is_down_almost/",
+      "title": "Reddit增长与AI导流冲突",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "relative_time_shown": "1h ago",
+      "event_date": "2026-10-29",
+      "read_scope": "原帖全文及多条可见评论至页面L398；未展开折叠回复。",
+      "claims": [
+        "讨论AI摘要能否增加内容价值却减少导流；帖称Q3营收8.95亿美元、同比53%，广告收入同比54%。",
+        "帖称10月每周Google导流减少超过100万；未由已读财报发布稿核实，不采用。"
+      ],
+      "supporting_comments": [
+        "部分评论认为专业小社区原始经验仍有价值；AI平台可能愿意付费授权。"
+      ],
+      "opposing_comments": [
+        "评论指出广告转化/内容质量/机器人占比不明，且把年度收入增长与单月股价变化对比不能证明因果。"
+      ],
+      "verification_sources": [
+        {
+          "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Third-Quarter-2026-Results/",
+          "date": "2026-10-29",
+          "status": "web可读官方财报正文；direct HTTP403停止。营收/广告增长已核，Google每周导流具体数未核"
+        }
+      ],
+      "status": "historical_financials_verified_post_date_and_referral_claim_unknown_not_selected",
+      "next": "先核股东信/逐字稿中的导流口径、登录用户ARPU及授权增量利润，不能把平台增长直接等同AI变现。"
+    },
+    {
+      "id": "1xt9u7e",
+      "community": "r/stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xt9u7e/mu_skhy_and_sndk_are_42_35_and_635_below_their/",
+      "title": "存储低预期PE是否只是周期峰值利润",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "relative_time_shown": "16h ago",
+      "event_date": null,
+      "read_scope": "原帖与可见评论L0–670，未展开其余嵌套回复。",
+      "claims": [
+        "讨论内存股票远离高点和较低预期PE是否意味着周期见顶。具体跌幅、预测EPS及毛利率未经本轮跨源核验，均不采用。"
+      ],
+      "supporting_comments": [
+        "看多认为HBM、长期合同、AI推理和agent需求可能延长供需紧张。"
+      ],
+      "opposing_comments": [
+        "看空认为不能将短缺期间价格/利润率外推，新增产能投放与正常化EPS可能推翻表面低PE。"
+      ],
+      "verification_sources": [],
+      "status": "opinion_only_absolute_date_unknown_numbers_unverified_not_selected",
+      "next": "分别核合约价/位元出货、HBM与普通DRAM/NAND结构、新增产能与资本开支，使用中周期利润估值。"
+    },
+    {
+      "id": "1xskid6",
+      "community": "r/ValueInvesting",
+      "url": "https://www.reddit.com/r/ValueInvesting/comments/1xskid6/zeta_q3_26_earnings_21st_consecutive_beat_raise/",
+      "title": "ZETA Q3业绩讨论",
+      "post_time_utc": null,
+      "post_time_beijing": null,
+      "relative_time_shown": "昨天缓存旧条目，本次没有核定绝对时间",
+      "event_date": null,
+      "read_scope": "New摘要与原帖页面入口；本次未追加读取实质评论或公司IR。",
+      "claims": [
+        "昨日已列未核线索；今天没有取得足以确认实质更新的新证据。"
+      ],
+      "supporting_comments": [],
+      "opposing_comments": [],
+      "verification_sources": [],
+      "status": "previously_seen_unverified_lead_not_republished",
+      "next": "取得公司原财报与现金流/SBC明细后再研究。"
+    }
+  ],
+  "selected_items": [],
+  "dedup_exclusions": [
+    "TEAM FDE和Google马来西亚电力11/10已报道。",
+    "NYSE家庭债务11/10官方报告已在11/11发布。",
+    "NVDA11/10聘独立律所已在11/11站点首页发布（root核对），只重复核原文，不当新增。"
+  ],
+  "summary": "已实际读取六社区New/Top日窗入口并打开4个重点原帖；RSS全部403，网页缓存及原帖绝对时间缺口仍在。本次没有满足最新时间、正文/评论与原始证据的新增精选；不能据此声称六社区无新内容。",
+  "read_only": true,
+  "global_state_modified": false,
+  "published": false,
+  "contains_private_portfolio": false,
+  "raw_evidence": [
+    "source_scan_raw/direct_attempts.json",
+    "source_scan_raw/web_read_notes.json"
+  ]
+}

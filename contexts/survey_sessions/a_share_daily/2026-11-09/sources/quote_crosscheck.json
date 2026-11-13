@@ -1,0 +1,73 @@
+{
+  "asof": "2026-11-06",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3649.18,
+      "quote_time": "20261106161401",
+      "consistent": true,
+      "comparison": "周一重取日线与周五收盘当日点价存档核对"
+    },
+    {
+      "symbol": "sh000016",
+      "close": 2787.41,
+      "quote_time": "20261106161401",
+      "consistent": true,
+      "comparison": "周一重取日线与周五收盘当日点价存档核对"
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4054.28,
+      "quote_time": "20261106161413",
+      "consistent": true,
+      "comparison": "周一重取日线与周五收盘当日点价存档核对"
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1253.2,
+      "quote_time": "20261106161413",
+      "consistent": true,
+      "comparison": "周一重取日线与周五收盘当日点价存档核对"
+    },
+    {
+      "symbol": "sh510050",
+      "close": 2.902,
+      "quote_time": "20261106161451",
+      "consistent": true,
+      "comparison": "周一重取日线与周五收盘当日点价存档核对"
+    },
+    {
+      "symbol": "sh510300",
+      "close": 4.124,
+      "quote_time": "20261106161452",
+      "consistent": true,
+      "comparison": "周一重取日线与周五收盘当日点价存档核对"
+    },
+    {
+      "symbol": "sh588000",
+      "close": 1.326,
+      "quote_time": "20261106161452",
+      "consistent": true,
+      "comparison": "周一重取日线与周五收盘当日点价存档核对"
+    }
+  ],
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3649.18,
+      "daily_pct": -1.1
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4054.28,
+      "daily_pct": -1.44
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1253.2,
+      "daily_pct": -2.6
+    }
+  ],
+  "independent_report": "https://stock.cngold.org/c/2026-11-06/c10864098.html",
+  "note": "腾讯点价与日线为同一提供方；FiNews作跨站比对；另以金投收盘稿交叉核对上证及科创50。"
+}

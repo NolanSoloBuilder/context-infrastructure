@@ -1,0 +1,303 @@
+CoreWeave Launches Database for Production AI Apps
+Announcement
+Webinar
+Podcast
+GTC 2026
+CoreWeave Forge is here: connect your AI loop and compound every improvement.
+Read more
+←  Main menu
+CoreWeave Cloud
+Main menu
+The CoreWeave Cloud Platform
+CoreWeave Cloud Platform →
+The AI cloud purpose-built for training and serving models at scale
+Why CoreWeave
+Why CoreWeave
+What sets our AI cloud apart
+CoreWeave ARENA
+Benchmark and showcase AI workloads on CoreWeave
+CoreWeave Partner Network
+Integrations, solutions, and expertise to accelerate production AI
+Global AI data centers
+Purpose-built AI data centers around the world
+About us
+Our company, mission, and leadership
+CoreWeave Direct-to-Expert
+Work directly with the engineers behind the platform
+Trust Center
+Security on every layer of your compute experience
+Programs and Services
+CoreWeave Ventures
+Backing the next generation of AI companies
+Physical AI Field Engineering
+Embedded engineers, building physical AI with your team
+Academic Research
+Supporting researchers with access to GPU cloud and AI tooling
+Zero Egress Migration (0EM)
+Move your data to CoreWeave with zero egress fees
+Infrastructure
+Main menu
+Infrastructure
+Compute
+GPU compute
+The latest NVIDIA GPUs at cluster scale
+NVIDIA Vera Rubin
+NVIDIA Blackwell
+NVIDIA Hopper
+CPU compute
+General-purpose compute for supporting workloads
+Bare Metal Compute
+Direct hardware access, no virtualization overhead
+Networking
+Networking
+High-bandwidth, low-latency fabric for AI clusters
+Storage
+AI Object Storage
+Object storage tuned for AI training and inference
+Dedicated Storage
+Dedicated VAST clusters for demanding data needs
+Zero Egress Migration (0EM)
+Move your data to CoreWeave with zero egress fees
+Infrastructure Control
+CoreWeave Kubernetes Service (CKS)
+Managed Kubernetes built for AI workloads
+SUNK
+Slurm on Kubernetes for AI training
+Mission Control
+Mission Control
+Fleet health, monitoring, and control in one place
+Fleet Lifecycle Controller
+Automated lifecycle management for your fleet
+Node Lifecycle Controller
+Keep every node healthy and current
+Observability
+Metrics, logs, and traces across your clusters
+Security
+Protection built into every layer of the stack
+Tensorizer
+Load models faster with optimized serialization
+Infrastructure Pricing ›
+Log in
+CoreWeave Forge
+Main menu
+CoreWeave Forge
+CoreWeave Forge →
+Models, agents, training, and inference
+Training
+Weights & Biases Models
+Track, compare, and reproduce every experiment
+Serverless SFT
+Fine-tune open models with nothing to provision
+Serverless RL
+Managed reinforcement learning, no stack to operate
+Model Distillation
+Preview
+A smaller model, scored against the one you run
+Inference
+Serverless Inference
+Open models on one API, billed per token
+Dedicated Inference
+Your weights on GPUs you choose, managed for you
+Agent Development
+Agent Lens
+Preview
+Observability that turns agent traces into fixes
+Sandboxes
+Isolated execution for agent and RL code
+Tools
+ARIA
+A research agent that analyzes your runs
+Registry
+System of record for models, agents, and datasets
+Notebooks
+Reactive Python notebooks, connected to your runs
+Forge Pricing ›
+Log in
+Solutions
+Main menu
+Solutions by use case
+Solutions by use case
+Training
+AI model training
+Train large-scale AI models with purpose-built GPU infrastructure
+Reinforcement learning
+Post-train and optimize agents using reinforcement learning
+Agentic AI and Inference
+Agentic AI
+Close the loop between training and inference to improve agent reliability
+AI inference
+Run low-latency AI inference with high-performance compute
+Agent development
+Develop, evaluate, and refine AI agents with confidence
+Specialized Workloads
+VFX rendering
+Accelerate VFX and rendering with scalable GPU power
+Solutions by industry
+Federal
+Secure AI infrastructure for government missions
+Media and entertainment
+Rendering and AI pipelines for studios
+Physical AI
+Compute for robotics and real-world AI systems
+Resources
+Main menu
+Resources
+Learn
+Resource center
+Explore whitepapers, briefs, videos and more
+Customer stories
+See how leading teams build and scale with CoreWeave
+Webinars and events
+Join live events and watch on-demand sessions
+Blog
+Insights on AI cloud, infrastructure, and innovation
+Topics
+Explore foundational concepts in AI, cloud infrastructure, and emerging technologies
+Newsroom
+Company news, announcements, and press
+For Developers
+Builder resource center
+Guides, samples, and tools for builders
+GitHub library
+Open-source repos, SDKs, and examples
+Support
+Documentation
+Technical documentation and implementation guides
+Status
+Real-time platform availability and system updates
+Direct-to-Expert
+Work directly with the engineers behind the platform
+Log in
+Main menu
+Log in
+CoreWeave Forge
+Models, agents, training, and inference
+CoreWeave Infrastructure
+AI Cloud compute, storage, and observability
+|
+Sign up
+Contact us
+Contact us
+Clear
+Published on
+November 11, 2026
+3
+min read
+CoreWeave Database Launches So AI Teams Can Build, Run, and Scale Production Applications on One Platform
+CoreWeave Database places a fully managed, PostgreSQL-compatible database inside CoreWeave Kubernetes Service clusters, removing the cross-cloud hop between AI applications and the data they depend on
+No items found.
+Copied
+LIVINGSTON, N.J. — November 11, 2026 —
+CoreWeave
+, Inc. (Nasdaq: CRWV), The Essential Cloud for AI®, today announced the general availability of CoreWeave Database, a managed PostgreSQL service that runs inside customers'
+CoreWeave Kubernetes Service
+(CKS) clusters, alongside their training and inference workloads. CoreWeave Database gives AI teams a production-ready relational database on the same platform as their GPUs, with high availability, continuous backups, and point-in-time recovery built-in.
+Nearly every AI stack depends on a relational database for application state, workflow metadata, and experiment tracking. Until now, teams building on CoreWeave either operated PostgreSQL themselves or kept it in another cloud, adding a network hop, an egress path, and a second environment to secure. That distance grows as AI moves into production. Agents read and write state between tool calls, training jobs log experiment metadata, and retrieval-augmented generation (RAG) services query embeddings, all hitting the database on every step. When those calls cross clouds, latency and operational overhead compound. CoreWeave Database closes that distance.
+"AI in production runs on more than GPUs. It runs on the application state, metadata, and embeddings that agents and training pipelines touch on every step," said Corey Sanders, SVP of product, CoreWeave. "CoreWeave Database puts that data in the same cluster as the compute that depends on it, operated by CoreWeave so teams can spend their time on models instead of database operations. It extends The Essential Cloud for AI to the full production stack."
+CoreWeave Database is fully compatible with PostgreSQL, so teams can migrate existing databases from another cloud or a self-managed deployment using native Postgres tools. CoreWeave operates replication, failover, patching, and backups, while customers retain ownership of their data, schemas, queries, and database users. Key capabilities include:
+In-cluster placement:
+Databases run on CPU nodes in the customer's CKS cluster and connect through an in-cluster Kubernetes service, with no cross-cloud link or egress path to manage.
+High availability:
+Each database runs a primary instance and reads replicas spread across hosts, with automatic failover, and stores live data on CoreWeave Distributed File Storage (DFS).
+Built-in data protection:
+Every database is continuously backed up by default, with point-in-time recovery to any moment within the retention window, scheduled and on-demand backups, and full restores to a new cluster for validation.
+Private and encrypted by default:
+Databases stay private to the cluster. Data is encrypted at rest and in transit, CoreWeave manages TLS certificates and security patches, and customers control access through native PostgreSQL roles, Kubernetes network policies, and audit logging.
+Vector search for AI workloads:
+CoreWeave Database supports pgvector, so teams can store embeddings and run vector search for RAG and semantic retrieval in the same database as their application data, with no separate vector store to run.
+“Migrating our biomedical literature database from another cloud to CoreWeave Database was straightforward, and the CoreWeave team helped us get to production quickly,” said Mike Mattacola, CEO, Advaita Bio. “We’ve really appreciated their hands-on support every step of the way. Our managed PostgreSQL now runs alongside the applications that depend on it, and we’re confident our data is encrypted, private, and backed up.”
+CoreWeave Database leverages CloudNativePG (CNPG), the open-source Kubernetes operator for PostgreSQL, which handles primary and replica management and failover. CoreWeave adds the managed service around it, including Console and Kubernetes workflows, DFS, managed backups, monitoring, and ongoing operations. CoreWeave also contributes upstream to the PostgreSQL ecosystem, with recent work including S3 compatibility improvements in Barman, the open-source backup and recovery tool, and connection configuration improvements in pgexporter, a Prometheus exporter for PostgreSQL metrics. The launch extends CoreWeave's platform beyond compute into the services production AI applications depend on, building on its standing as the only AI cloud to earn the top
+Platinum
+ranking in SemiAnalysis ClusterMAX™ three times in a row.
+CoreWeave Database is generally available today. Click
+here
+to get started.
+About CoreWeave
+CoreWeave is The Essential Cloud for AI™️. Built for pioneers by pioneers, CoreWeave delivers a fully integrated platform of technology and teams that enables innovators to move at the pace of innovation, building and scaling AI with confidence. Trusted by 9 of the 10 leading foundation model providers, CoreWeave serves as a force multiplier by combining superior infrastructure performance with deep technical expertise to accelerate human discovery. Established in 2017, CoreWeave completed its public listing on Nasdaq (CRWV) in March 2025.
+Share this article:
+Copied
+Media Contacts
+CoreWeave Media
+[email protected]
+More press releases
+CoreWeave to Power Wayve's AI Driver Training in Multi-Year Agreement
+Wayve will train its end-to-end foundation models on CoreWeave Cloud, expanding training and evaluation as it accelerates commercial deployment for autonomous vehicles
+2
+min read
+CoreWeave Expands Global AI Cloud Platform With New Capacity in Denmark and First Global AI Network Backbone
+Expansion brings additional AI computing capacity online in Europe and extends CoreWeave’s high-performance global network to support customers building and scaling AI worldwide
+3
+min read
+CoreWeave Launches the CoreWeave Zero Trust AI Framework, Keeping Customers in Control of Access to Their Models, Data and Runtime Environments
+Six layers of customer-controlled security, from encryption keys to runtime, designed to keep CoreWeave out of the customer's trust chain
+4
+min read
+CoreWeave Unveils CoreWeave Physical AI Launchables, Taking the Setup Work Out of Robotics and AV Development
+Engineers get tested configurations for the software they already use, so time goes into the work instead of the plumbing
+4
+min read
+CoreWeave Enters India, Expanding AI Cloud Platform With AdaniConneX
+CoreWeave enters India with AdaniConneX, planning a 240 MW deployment in Navi Mumbai to bring its purpose-built AI Cloud closer to customers.
+3
+min read
+Ennoble Care selects CoreWeave to power AI inference across its home-based care network
+The home-based care provider and accountable care organization will run its inference workloads on NVIDIA RTX PRO 6000 GPUs deployed through CoreWeave Kubernetes Service
+3
+min read
+CoreWeave Partner Network Accelerates the Path to AI Innovation
+Brings validated partner integrations into one curated place
+Spans the AI loop, anchored by years-deep collaborations with Reflection, VAST Data, ClickHouse, CrowdStrike and more
+min read
+CoreWeave to Offer NVIDIA Vera, the First CPU Built for AI agents
+CoreWeave expands compute portfolio to meet the needs of AI workloads.
+min read
+CoreWeave Delivers NVIDIA Vera Rubin NVL72 Performance at Production Scale, Starting With Cognition
+CoreWeave maintains industry-leading AI cloud performance across multiple compute generations with its software platform
+3
+min read
+CoreWeave Forge Launches, Turning the AI Loop Production Run Into a Better Model and Agent
+One connected environment for training, inference, evaluation and agent development, open across models, frameworks and other clouds, so every version ships sooner and performs better than the last
+4
+min read
+Contact us
+Login
+Products
+GPU Compute
+CPU Compute
+Storage Services
+Networking Services
+Managed Services
+Bare Metal Servers
+Platform
+Fleet LifeCycle Controller
+Node LifeCycle Controller
+Tensorizer
+Observability
+Solutions
+AI Model Training
+AI Inference
+VFX & Rendering
+Mission Control
+AI Infrastructure
+Why CoreWeave
+Resources
+Customer Stories
+Documentation
+Status
+Pricing
+Resource Center
+Events & Webinars
+About
+About Us
+Careers
+Life at CoreWeave
+Newsroom
+Investors
+Supplier Code of Conduct
+Privacy Policy
+Terms of Service
+Do Not Sell or Share My Personal Information
+© CoreWeave.
+290 W Mt Pleasant Ave
+Suite 4100
+Livingston, NJ 07039

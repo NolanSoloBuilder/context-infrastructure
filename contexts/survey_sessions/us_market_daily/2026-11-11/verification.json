@@ -1,0 +1,104 @@
+{
+  "reviewed_at": "2026-11-10T23:39:33.707766+00:00",
+  "report_date": "2026-11-11",
+  "market_session": "2026-11-10",
+  "currency": "USD",
+  "quote_comparisons": [
+    {
+      "symbol": "QQQM",
+      "yahoo_close_usd": 277.87,
+      "stockanalysis_close_usd": 277.88,
+      "difference_usd": -0.01,
+      "url": "https://stockanalysis.com/etf/qqqm/history/"
+    },
+    {
+      "symbol": "VOO",
+      "yahoo_close_usd": 689.5,
+      "stockanalysis_close_usd": 689.4,
+      "difference_usd": 0.1,
+      "url": "https://stockanalysis.com/etf/voo/history/"
+    },
+    {
+      "symbol": "BRK-B",
+      "yahoo_close_usd": 583.34,
+      "stockanalysis_close_usd": 583.62,
+      "difference_usd": -0.28,
+      "url": "https://stockanalysis.com/stocks/brk.b/history/"
+    },
+    {
+      "symbol": "NVDA",
+      "yahoo_close_usd": 168.89,
+      "stockanalysis_close_usd": 168.78,
+      "difference_usd": 0.11,
+      "url": "https://stockanalysis.com/stocks/nvda/history/"
+    },
+    {
+      "symbol": "GOOGL",
+      "yahoo_close_usd": 287.38,
+      "stockanalysis_close_usd": 287.44,
+      "difference_usd": -0.06,
+      "url": "https://stockanalysis.com/stocks/googl/history/"
+    },
+    {
+      "symbol": "SOFI",
+      "yahoo_close_usd": 16.37,
+      "stockanalysis_close_usd": 16.37,
+      "difference_usd": 0.0,
+      "url": "https://stockanalysis.com/stocks/sofi/history/"
+    },
+    {
+      "symbol": "NOW",
+      "yahoo_close_usd": 99.61,
+      "stockanalysis_close_usd": 99.59,
+      "difference_usd": 0.02,
+      "url": "https://stockanalysis.com/stocks/now/history/"
+    },
+    {
+      "symbol": "CRM",
+      "yahoo_close_usd": 213.48,
+      "stockanalysis_close_usd": 213.48,
+      "difference_usd": 0.0,
+      "url": "https://stockanalysis.com/stocks/crm/history/"
+    },
+    {
+      "symbol": "GEHC",
+      "yahoo_close_usd": 83.65,
+      "stockanalysis_close_usd": 83.68,
+      "difference_usd": -0.03,
+      "url": "https://stockanalysis.com/stocks/gehc/history/"
+    },
+    {
+      "symbol": "CGNX",
+      "yahoo_close_usd": 50.8,
+      "stockanalysis_close_usd": 50.79,
+      "difference_usd": 0.01,
+      "url": "https://stockanalysis.com/stocks/cgnx/history/"
+    }
+  ],
+  "high_comparisons": [
+    {
+      "symbol": "QQQM",
+      "yahoo_high": 314.11,
+      "stockanalysis_high": 314.12,
+      "date_both": "2026-10-06",
+      "drawdown_secondary_pct": 11.536992232267929
+    },
+    {
+      "symbol": "VOO",
+      "yahoo_high": 718.47,
+      "stockanalysis_high": 718.47,
+      "date_both": "2026-10-06",
+      "drawdown_secondary_pct": 4.0460979581610985
+    },
+    {
+      "symbol": "BRK-B",
+      "yahoo_high": 586.41,
+      "stockanalysis_high": 586.45,
+      "date_both": "2026-11-10",
+      "drawdown_secondary_pct": 0.4825645835109582
+    }
+  ],
+  "official_gap": "Nasdaq QQQM historical page: Data is currently not available. Cross-checks are third-party, not official closing-auction certification.",
+  "third_source_attempt": "MarketScreener page fetched but targeted data retrieval timed out; no third-source value used.",
+  "errors": []
+}

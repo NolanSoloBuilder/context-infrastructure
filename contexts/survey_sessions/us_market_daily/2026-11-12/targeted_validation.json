@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-11T23:37:13.266146+00:00",
+  "brief_schema": "passed",
+  "targeted_tests": {
+    "passed": 19,
+    "failed": 0,
+    "suites": [
+      "worker/daily-brief.test.mjs",
+      "worker/render.test.mjs"
+    ]
+  },
+  "root_visual_chart_review": true,
+  "independent_review": {
+    "macro": "60 historical points rolling highs, MAs, volume, 12 sectors, charts and times passed",
+    "social": "headline attribution, price percentages, timezones, old research dates and privacy passed"
+  },
+  "new_browser_visual_qa": false,
+  "changed_ui_template": false,
+  "resource_check": "No other build/test task found; system memory free 64%, no task interrupted",
+  "source_changes": [
+    "worker/daily-brief.json",
+    "worker/seed.json"
+  ]
+}

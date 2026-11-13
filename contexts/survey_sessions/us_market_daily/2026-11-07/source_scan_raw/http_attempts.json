@@ -1,0 +1,50 @@
+[
+  {
+    "name": "finews_home",
+    "url": "https://finews.fyi/",
+    "captured_at_utc": "2026-11-06T23:37:18.269531+00:00",
+    "status": 200,
+    "bytes": 133857,
+    "text_start": "FiNews 美股日报｜今日美股行情、美股指数盘后总结\nFiNews\n美股日报 · 更新\n2026-11-06 23:15:21 UTC\n2026-11-06\n‹\n›\n日\n一\n二\n三\n四\n五\n六\n2026年11月6日 美股盘后日报\n头部个股热力图\n美股头部个股热力图 2026-11-06\n2026 年 11 月 6 日\n−0.46%\n道指\n+1.09%\n纳指\n+0.31%\n标普 500\n科技"
+  },
+  {
+    "name": "investing_new",
+    "url": "https://www.reddit.com/r/investing/new/.rss",
+    "captured_at_utc": "2026-11-06T23:37:18.269837+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "stocks_new",
+    "url": "https://www.reddit.com/r/stocks/new/.rss",
+    "captured_at_utc": "2026-11-06T23:37:18.269913+00:00",
+    "status": 200,
+    "bytes": 86479,
+    "count": 25,
+    "first": "2026-11-06T21:09:06+00:00",
+    "last": "2026-11-05T19:59:13+00:00"
+  },
+  {
+    "name": "SecurityAnalysis_new",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+    "captured_at_utc": "2026-11-06T23:37:18.819074+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "ValueInvesting_new",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+    "captured_at_utc": "2026-11-06T23:37:18.851241+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "Bogleheads_new",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+    "captured_at_utc": "2026-11-06T23:37:19.397149+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "ETFs_new",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss",
+    "captured_at_utc": "2026-11-06T23:37:19.538694+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

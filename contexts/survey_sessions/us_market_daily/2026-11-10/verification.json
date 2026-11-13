@@ -1,0 +1,133 @@
+{
+  "reviewed_at": "2026-11-09T23:43:02.438665+00:00",
+  "report_date": "2026-11-10",
+  "market_session": "2026-11-09",
+  "currency": "USD",
+  "quote_comparisons": [
+    {
+      "symbol": "QQQM",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 279.52,
+      "stockanalysis_close_usd": 279.49,
+      "difference_usd": 0.03,
+      "source_url": "https://stockanalysis.com/etf/qqqm/history/"
+    },
+    {
+      "symbol": "VOO",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 691.87,
+      "stockanalysis_close_usd": 691.83,
+      "difference_usd": 0.04,
+      "source_url": "https://stockanalysis.com/etf/voo/history/"
+    },
+    {
+      "symbol": "BRK-B",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 575.25,
+      "stockanalysis_close_usd": 574.76,
+      "difference_usd": 0.49,
+      "source_url": "https://stockanalysis.com/stocks/brk.b/history/"
+    },
+    {
+      "symbol": "NVDA",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 178.67,
+      "stockanalysis_close_usd": 178.59,
+      "difference_usd": 0.08,
+      "source_url": "https://stockanalysis.com/stocks/nvda/history/"
+    },
+    {
+      "symbol": "GOOGL",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 288.15,
+      "stockanalysis_close_usd": 288.11,
+      "difference_usd": 0.04,
+      "source_url": "https://stockanalysis.com/stocks/googl/history/"
+    },
+    {
+      "symbol": "SOFI",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 16.75,
+      "stockanalysis_close_usd": 16.75,
+      "difference_usd": 0.0,
+      "source_url": "https://stockanalysis.com/stocks/sofi/history/"
+    },
+    {
+      "symbol": "NOW",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 102.76,
+      "stockanalysis_close_usd": 102.75,
+      "difference_usd": 0.01,
+      "source_url": "https://stockanalysis.com/stocks/now/history/"
+    },
+    {
+      "symbol": "CRM",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 214.94,
+      "stockanalysis_close_usd": 214.9,
+      "difference_usd": 0.04,
+      "source_url": "https://stockanalysis.com/stocks/crm/history/"
+    },
+    {
+      "symbol": "GEHC",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 84.03,
+      "stockanalysis_close_usd": 84.09,
+      "difference_usd": -0.06,
+      "source_url": "https://stockanalysis.com/stocks/gehc/history/"
+    },
+    {
+      "symbol": "CGNX",
+      "regular_session": "2026-11-09",
+      "yahoo_close_usd": 50.34,
+      "stockanalysis_close_usd": 50.33,
+      "difference_usd": 0.01,
+      "source_url": "https://stockanalysis.com/stocks/cgnx/history/"
+    }
+  ],
+  "official_gap": "Nasdaq QQQM historical page returned no usable rows. Cross-checks are third-party, not official closing auction certification.",
+  "high_comparisons": [
+    {
+      "symbol": "QQQM",
+      "yahoo": 314.11,
+      "stockanalysis": 314.12,
+      "date_both": "2026-10-06",
+      "drawdown_secondary_pct": 11.024449255061764
+    },
+    {
+      "symbol": "VOO",
+      "yahoo": 718.47,
+      "stockanalysis": 718.47,
+      "date_both": "2026-10-06",
+      "drawdown_secondary_pct": 3.707879243392209
+    },
+    {
+      "symbol": "BRK-B",
+      "yahoo": 586.3,
+      "stockanalysis": 586.3,
+      "date_both": "2026-11-05",
+      "drawdown_secondary_pct": 1.9682756268122104
+    }
+  ],
+  "brkb_third_source": {
+    "url": "https://www.marketscreener.com/quote/stock/BERKSHIRE-HATHAWAY-INC-11916/quotes/",
+    "dated_last": "2026-11-09",
+    "price": 575.25,
+    "high": 586.3,
+    "note": "Dated daily Last matches Yahoo; trades include16:05:01 575.25 and16:00 574.76. Auction/consolidation meaning not confirmed; do not relabel16:05 as afterhours or independently claim official closing price."
+  },
+  "errors": [
+    {
+      "symbol": "XSW",
+      "error": "XSW: inconsistent OHLC"
+    },
+    {
+      "symbol": "ATS",
+      "error": "ATS: inconsistent OHLC"
+    },
+    {
+      "symbol": "XLY",
+      "error": "XLY: inconsistent OHLC"
+    }
+  ]
+}

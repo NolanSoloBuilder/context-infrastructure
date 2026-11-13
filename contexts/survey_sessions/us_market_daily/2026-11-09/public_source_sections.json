@@ -1,0 +1,36 @@
+{
+  "report_date": "2026-11-09",
+  "reviewed_at": "2026-11-08T23:29:50.580320+00:00",
+  "sections": [
+    {
+      "title": "Reddit核验新增｜NVDA董事会启动独立调查",
+      "paragraphs": [
+        "11月9日06:52北京的Reddit新帖引出公司正式声明。NVIDIA董事会11月8日确认启动独立调查，由独立董事委员会监督，外部律师协助；同时表示目前无理由认为国家安全或公司秘密遭泄露，仍支持管理层。",
+        "研究判断：新增治理与关键管理人不确定性，财务影响尚未量化。声明不证明违法或财务损失，论坛对过去抛售的因果猜测不采用；下一步看正式调查更新、监管披露及11月17日财报。",
+        "Reddit仅部分覆盖：investing RSS取得25帖，其他5社区RSS限流，六社区Top日窗为旧缓存。昨日STRL与模型路由不重复；发电采购转述未获原始交易确认，不加入已核事实。"
+      ],
+      "sources": [
+        {
+          "title": "NVIDIA董事会11月8日正式声明",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+        },
+        {
+          "title": "NVIDIA官方财报时间安排",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+        }
+      ]
+    },
+    {
+      "title": "FiNews检查｜读取成功，无新增",
+      "paragraphs": [
+        "本次HTTP200读取的页面仍为11月6日，更新23:15:21 UTC；全文与昨日一致，没有新增日报或实质条目，不重复旧行情。"
+      ],
+      "sources": [
+        {
+          "title": "FiNews最新页",
+          "url": "https://finews.fyi/"
+        }
+      ]
+    }
+  ]
+}

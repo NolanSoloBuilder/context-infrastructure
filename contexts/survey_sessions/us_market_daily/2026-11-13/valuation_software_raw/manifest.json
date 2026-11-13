@@ -1,0 +1,128 @@
+[
+  {
+    "symbol": "AMZN",
+    "type": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:29.649125+00:00",
+    "sha256": "c2c36f85c91b5d57c0808db46c216d089401d3ad0c5b813ac828b8830481fd80",
+    "error": ""
+  },
+  {
+    "symbol": "AMZN",
+    "type": "facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:32.557448+00:00",
+    "sha256": "acddb7c0a6973a1fd08372de3b292298a34eae7f42a7eedc4bdebd3ac659c8fd",
+    "error": ""
+  },
+  {
+    "symbol": "MSFT",
+    "type": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:29.713319+00:00",
+    "sha256": "4d4ff98b1deea7b90123e2b99c059cdac4343de0dccbdfdc9855e788419f893e",
+    "error": ""
+  },
+  {
+    "symbol": "MSFT",
+    "type": "facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:57.663069+00:00",
+    "sha256": "92a883506736947d7eb668f73c1376563e0f326efcffdbbcbc47261f37f39ad1",
+    "error": "curl: (28) Operation timed out after 30005 milliseconds with 2818048 bytes received\n"
+  },
+  {
+    "symbol": "AAPL",
+    "type": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:33.048602+00:00",
+    "sha256": "ecc3321932506974dec32db5b7f475a95a4756ed3839d9b5d57122db0e824e08",
+    "error": ""
+  },
+  {
+    "symbol": "AAPL",
+    "type": "facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:59.735141+00:00",
+    "sha256": "6f7955a66c888851960df72e115d2d2e9701dacc145c589069ec5121d4f3fbda",
+    "error": "curl: (28) Operation timed out after 30000 milliseconds with 2670592 bytes received\n"
+  },
+  {
+    "symbol": "PLTR",
+    "type": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001321655.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:34.274601+00:00",
+    "sha256": "88afcfa6c915ae4cad3e8d1ffd185a3ab07844b8ffd4a07f6fb0afbdaf6bb937",
+    "error": ""
+  },
+  {
+    "symbol": "PLTR",
+    "type": "facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001321655.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:39.593153+00:00",
+    "sha256": "2065b0809667e777bd4d328054beef84f271da4ec2f29481765a63009f19f7f8",
+    "error": ""
+  },
+  {
+    "symbol": "ACN",
+    "type": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001467373.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:35.097821+00:00",
+    "sha256": "d66a5fe63fab304fd04a1ef35fd7805e2a8259a164154f2f86216cba67021d78",
+    "error": ""
+  },
+  {
+    "symbol": "ACN",
+    "type": "facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001467373.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:05:00.729427+00:00",
+    "sha256": "83258e85f0e5ef6d55fe62cb43365d5bb764c3eb0786f05c13c57becd99d5fd8",
+    "error": ""
+  },
+  {
+    "symbol": "EPAM",
+    "type": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001352010.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:40.860432+00:00",
+    "sha256": "39b4f379afd1e58e828aa893753e909a2afd7bc0738e24c73f41f0378f0baaf1",
+    "error": ""
+  },
+  {
+    "symbol": "EPAM",
+    "type": "facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001352010.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:05:10.907895+00:00",
+    "sha256": "15da6fc5ed6cb98ddea4ae0cd01ac23a8697114568e43e2568b3963a69537f28",
+    "error": "curl: (28) Operation timed out after 30005 milliseconds with 906984 bytes received\n"
+  },
+  {
+    "symbol": "GLOB",
+    "type": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001557860.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:04:58.741783+00:00",
+    "sha256": "8b71a76ccf00ac7f1ccc32211b8635f34b81a46011538b0f9d19b2de7f941d74",
+    "error": ""
+  },
+  {
+    "symbol": "GLOB",
+    "type": "facts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001557860.json",
+    "status": "200",
+    "retrieved_at": "2026-11-13T03:05:00.231182+00:00",
+    "sha256": "f38e144fd7f5058b8b9cb554a08ae3435d4ce1c27659398d95e4fd9a5e5e5412",
+    "error": ""
+  }
+]

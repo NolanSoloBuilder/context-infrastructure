@@ -1,0 +1,40 @@
+[
+  {
+    "source": "aapl_q3_ir",
+    "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+    "collected_at": "2026-11-13T03:13:47.787956+00:00",
+    "status": 200,
+    "bytes": 147617,
+    "sha256": "ac21f58232f62146a52e1193976c0c3d12022be228cf42e35bad445d2bd4d4e4"
+  },
+  {
+    "source": "aapl_q4_ir",
+    "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+    "collected_at": "2026-11-13T03:13:47.788666+00:00",
+    "status": 200,
+    "bytes": 140620,
+    "sha256": "90434406ae888b1db21ddf672929f62325713e5aa05132065dcd599307053fab"
+  },
+  {
+    "source": "glob_q2_ir",
+    "url": "https://investors.globant.com/2026-08-13-Globant-Reports-2026-Second-Quarter-Financial-Results",
+    "collected_at": "2026-11-13T03:13:47.788763+00:00",
+    "status": 200,
+    "bytes": 208914,
+    "sha256": "9e8ca0b8c33f059cc1b4ada5feb192a2baa9fdd5dc87be65aad131d5f5c2ec51"
+  },
+  {
+    "source": "glob_q3_schedule",
+    "url": "https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th",
+    "collected_at": "2026-11-13T03:13:47.788823+00:00",
+    "status": 200,
+    "bytes": 93711,
+    "sha256": "d2e0cb662485524380c2ece207230e8c972960af93314e84760f396b2c3c6c91"
+  },
+  {
+    "source": "msft_q1_ir",
+    "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+    "collected_at": "2026-11-13T03:13:47.788895+00:00",
+    "error": "The read operation timed out"
+  }
+]

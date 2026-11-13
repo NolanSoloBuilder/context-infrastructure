@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-11-07T09:01:41.793417+08:00",
+  "window_start": "2026-11-06T09:00:00+08:00",
+  "window_end": "2026-11-07T09:00:00+08:00",
+  "message_count": 12,
+  "candidate_count": 9,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b61e3f07ae8a0c4a53aa6732b6a1",
+      "source_time": "2026-11-06 15:02+08:00",
+      "sync_create_time": "1793948651740",
+      "content_sha256": "7c510862c14c4dae28f12c664d9501295b5ec1f9b9834679ec8def1f46fe25fa",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为，美股较高估值令其更易受政策不确定性冲击。他曾提出美股相对中概可能跑输的情景，并把超预期盈利列为改变判断的条件。属于相对估值观点，未披露实际仓位或当前买入计划。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b61e36ff3c8acc0a3d8e64d9e018",
+      "source_time": "2026-11-06 14:20+08:00",
+      "sync_create_time": "1793946132199",
+      "content_sha256": "d031df05380d428a257dbc12c0a35b592e4b545119eaa0ef950bfa59061151ce",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者从估值与现金流角度偏谨慎看美股中长期表现，短线方向存疑。超预期盈利可能改变判断，未给A股买入条件或仓位变化。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "过滤成员回复、私人话题和无关候选",
+  "coverage": "群同步作者观点，非原知识星球全文"
+}

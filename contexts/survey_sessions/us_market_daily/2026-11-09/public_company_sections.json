@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-09",
+  "market_session": "2026-11-06",
+  "reviewed_at": "2026-11-08T23:29:38Z",
+  "items": [
+    {
+      "title": "英伟达出现新增治理风险，财务影响尚未量化",
+      "fact": "NVIDIA于11/8发布董事会声明，宣布由独立董事委员会监督调查、外部独立法律顾问协助；CEO同日确认支持并配合。",
+      "implication": "推断：新增治理与关键人物不确定性，可能影响风险溢价；公告没有量化营收、利润或现金损失，也没有宣布调整业绩指引。",
+      "judgment": "新增风险观察，等待调查事实及后续官方披露；不能把调查启动写成指控成立，也不据此调整盈利预测或认定买点。",
+      "counter": "董事会表示目前没有理由认为国家安全或公司机密已受损，并维持对CEO及领导团队的信任；调查尚无结论，这也不等于已经证明没有风险。",
+      "next": "核对独立调查范围及结果、董事会/监管或SEC后续披露、管理层与客户订单是否出现可验证变化；11/6报价先于公告，不能当事件后的市场反应。",
+      "sources": [
+        {
+          "title": "NVIDIA董事会11/8声明",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+        },
+        {
+          "title": "NVIDIA同日员工信",
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "NVDA｜治理调查已启动，影响与结论仍待核验",
+      "paragraphs": [
+        "事实：NVIDIA官网11/8董事会声明宣布启动独立调查，由独立董事委员会监督、外部独立法律顾问协助；CEO同日表示配合。两篇网页仅列日期，未列精确发布时刻。",
+        "声明同时表示，董事会目前没有理由认为国家安全或NVIDIA机密已受损，仍信任CEO及领导团队。这是董事会当时表述，不能写成调查已经排除风险，也不能把媒体指控写成已证实事实。",
+        "财务边界：这两份声明没有量化订单、营收、利润或现金损失，也未宣布业绩指引调整。推断为新增治理与关键人物不确定性；暂不凭此擅改盈利预测、现金桥或估值数字。",
+        "后续检查：独立调查范围与结论、董事会及监管/SEC披露、管理职责及客户订单是否出现可验证变化。SEC recent本次最新仍为11/6 Form4，未见11/8新增申报；这不否定已取得的官网声明。",
+        "价格边界：最新常规交易日11/6在声明之前，已有11/6盘后报价也不是本次事件的市场反应；周末不新增同一份常规行情、不根据未经核验的夜盘价格触发既有观察档。",
+        "其他覆盖：GOOGL、SOFI、NOW、CRM、GEHC、CGNX、BRK的SEC近期列表本次均成功取得，过去24小时未见新申报；部分IR动态列表或请求失败，不能据此说全网没有新消息。BRK官网最新仍为11/7Q3，昨天已研究，未改旧估值日期。"
+      ],
+      "sources": [
+        {
+          "title": "NVIDIA董事会11/8声明",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+        },
+        {
+          "title": "NVIDIA同日员工信",
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+        },
+        {
+          "title": "NVIDIA SEC近期申报",
+          "url": "https://data.sec.gov/submissions/CIK0001045810.json"
+        }
+      ]
+    }
+  ],
+  "card_updates": [
+    {
+      "symbol": "NVDA",
+      "update_mode": "append_governance_fact_keep_existing_financials_and_valuation_date",
+      "facts": {
+        "event": "independent_board_investigation",
+        "published_date": "2026-11-08",
+        "reviewed_date": "2026-11-09",
+        "reviewed_at": "2026-11-08T23:29:38Z",
+        "confirmed": "独立董事委员会监督调查，外部独立法律顾问协助；CEO表示配合。",
+        "board_position": "董事会称目前没有理由认为国家安全或公司机密已受损，仍支持CEO及领导团队。",
+        "financial_impact": "两份官方声明未量化订单、收入、利润或现金损失，未宣布指引调整。",
+        "unknown": "调查结论、监管后果及最终经营影响尚未确定。"
+      },
+      "research_status": "新增治理风险观察；不据尚未查明事项改写已核盈利或确认买点",
+      "next": "核独立调查范围与结果、董事会/监管或SEC后续披露、管理职责及客户订单变化；保持原估值日期，待可量化财务证据再重估。",
+      "sources": [
+        {
+          "title": "NVIDIA董事会11/8声明",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+        },
+        {
+          "title": "NVIDIA同日员工信",
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+        }
+      ]
+    }
+  ]
+}

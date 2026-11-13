@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-06T23:39:33Z",
+  "market_session": "2026-11-06",
+  "sources": [
+    {
+      "id": "mrna_q3_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/mrna-20260930.htm",
+      "published_date": "2026-11-06",
+      "retrieved_at_utc": "2026-11-06T23:37:41.321857+00:00",
+      "read_scope": "Statements of operations/balance sheet/cash flows; Notes9/11 litigation and debt; liquidity MD&A; pipeline recent developments",
+      "status": "verified_primary",
+      "local_file": "raw_company/MRNA_q3_10q.html",
+      "sha256": "fcd41f9ce18184ef8d2e8dd4ee4551ccaa3832d010d3e0ae22cfbf8eb2b6040d"
+    },
+    {
+      "id": "mrna_q3_earnings",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm",
+      "published_date": "2026-11-06",
+      "retrieved_at_utc": "2026-11-06T23:38:13.135745+00:00",
+      "read_scope": "Full financial release, tables, cash outlook and business updates",
+      "status": "verified_primary",
+      "local_file": "raw_company/MRNA_q3_release.html",
+      "sha256": "9c2cc824f21b8ea42fe5bdf053214bcf9f2f8bc10a78b09462e08550b5332167"
+    },
+    {
+      "id": "mrna_q3_8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/mrna-20261106.htm",
+      "published_date": "2026-11-06",
+      "retrieved_at_utc": "2026-11-06T23:37:41.751802+00:00",
+      "read_scope": "Item2.02 and exhibit links",
+      "status": "verified_primary",
+      "local_file": "raw_company/MRNA_q3_8k.html",
+      "sha256": "413bf00f6b55ddccce9334e4000b32b25fa5b3ce9341588566011de8347302fa"
+    },
+    {
+      "id": "mrna_official_ir_blog",
+      "url": "https://www.modernatx.com/third-quarter-2026-earnings",
+      "published_date": "2026-11-06",
+      "retrieved_at_utc": "2026-11-06T23:37:46.536236+00:00",
+      "read_scope": "Downloaded official HTML; indexed CFO recap read, not complete video",
+      "status": "partial_primary",
+      "local_file": "raw_company/MRNA_ir_blog.html",
+      "sha256": "ac58b9f7d2077ab53af00a7c53af5e57bca51f6ebc8a60c51541e88de4cb8fc7"
+    },
+    {
+      "id": "goog_13f_cover",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000086/xslForm13F_X02/primary_doc.xml",
+      "published_date": "2026-11-06",
+      "retrieved_at_utc": "2026-11-06T23:37:42.413936+00:00",
+      "read_scope": "Full cover, date, reporting entities and summary. Report date 2026-09-30; filingDate11/6, acceptance11/5 23:21:46UTC",
+      "status": "verified_primary",
+      "local_file": "raw_company/GOOGL_13f.html",
+      "sha256": "f98a7dc9a0d26175b73107d9de8c704b250281b60af1d065814b26280b554226"
+    },
+    {
+      "id": "goog_13f_table",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000086/information_table.xml",
+      "published_date": "2026-11-06",
+      "retrieved_at_utc": "2026-11-06T23:38:13.527139+00:00",
+      "read_scope": "All31 XML entries parsed; no quarter-over-quarter trade/flow claims",
+      "status": "verified_primary",
+      "local_file": "raw_company/GOOGL_13f_table.html",
+      "sha256": "baafae443441508be899eff8fa3638c1de8e6292881efc26abff8fbfd4533fc7"
+    },
+    {
+      "id": "brk_q3_schedule",
+      "url": "https://www.berkshirehathaway.com/news/nov0426.pdf",
+      "published_date": "2026-11-04",
+      "retrieved_at_utc": "2026-11-06T23:37:43.246266+00:00",
+      "read_scope": "Full one-page official announcement: 11/7 07:00Central = Beijing21:00",
+      "status": "verified_primary",
+      "local_file": "raw_company/BRKB_release_schedule.pdf",
+      "sha256": "5409e03cd4a464b719d8a058cedab768d7891399fe9b61d585e76ca0d3bc9023"
+    },
+    {
+      "id": "mrna_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001682852.json",
+      "published_date": null,
+      "retrieved_at_utc": "2026-11-06T23:37:21.336939+00:00",
+      "read_scope": "Recent filings list; checked filingDate>=2026-11-05 with acceptance time retained",
+      "status": "verified_primary",
+      "local_file": "raw_company/MRNA_submissions.json",
+      "sha256": "2a1b3a00b590f4dd0539ebf4101053a3cc9cee17cf2fe37795640c5b93284dd1"
+    },
+    {
+      "id": "googl_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "published_date": null,
+      "retrieved_at_utc": "2026-11-06T23:37:21.909983+00:00",
+      "read_scope": "Recent filings list; checked filingDate>=2026-11-05 with acceptance time retained",
+      "status": "verified_primary",
+      "local_file": "raw_company/GOOGL_submissions.json",
+      "sha256": "09cc95175ff653e49eef6e55408fdf2ab46f14bb7ba00083e5e000f69982eee8"
+    },
+    {
+      "id": "sofi_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+      "published_date": null,
+      "retrieved_at_utc": "2026-11-06T23:37:22.612577+00:00",
+      "read_scope": "Recent filings list; checked filingDate>=2026-11-05 with acceptance time retained",
+      "status": "verified_primary",
+      "local_file": "raw_company/SOFI_submissions.json",
+      "sha256": "f1f8ca683b958553c3bef48b542c6a2a2301724cd9f5afe74fba5ca5a3cd555a"
+    },
+    {
+      "id": "brkb_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "published_date": null,
+      "retrieved_at_utc": "2026-11-06T23:37:23.134050+00:00",
+      "read_scope": "Recent filings list; checked filingDate>=2026-11-05 with acceptance time retained",
+      "status": "verified_primary",
+      "local_file": "raw_company/BRKB_submissions.json",
+      "sha256": "4486ee768583478d98bb56a5cfce9d8ed8f2985c9f0c252c05a4e4898d32dca9"
+    },
+    {
+      "id": "cgnx_recent",
+      "url": "https://data.sec.gov/submissions/CIK0000851205.json",
+      "published_date": null,
+      "retrieved_at_utc": "2026-11-06T23:38:24.726160+00:00",
+      "read_scope": "Recent filings list; checked filingDate>=2026-11-05 with acceptance time retained",
+      "status": "verified_primary",
+      "local_file": "raw_company/CGNX_submissions.json",
+      "sha256": "c264c66273fbb14fe2fb8fd15ffd68f467cedacfa1f4c10bf67d17b0e0e8ea0a"
+    },
+    {
+      "id": "epam_recent",
+      "url": "https://data.sec.gov/submissions/CIK0001352010.json",
+      "published_date": null,
+      "retrieved_at_utc": "2026-11-06T23:38:25.508724+00:00",
+      "read_scope": "Recent filings list; checked filingDate>=2026-11-05 with acceptance time retained",
+      "status": "verified_primary",
+      "local_file": "raw_company/EPAM_submissions.json",
+      "sha256": "1d19fc6957b9b91e47bc03e3469d7e82cad6c55275ab4517c464447f69fc9baa"
+    }
+  ],
+  "sec_recent_checks": [
+    {
+      "symbol": "MRNA",
+      "rows_since_2026_11_05": [
+        {
+          "form": "10-Q",
+          "filingDate": "2026-11-06",
+          "reportDate": "2026-09-30",
+          "acceptanceDateTime": "2026-11-06T21:06:28.000Z",
+          "accessionNumber": "0001682852-26-000197",
+          "primaryDocument": "mrna-20260930.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-11-06",
+          "reportDate": "2026-11-06",
+          "acceptanceDateTime": "2026-11-06T11:47:30.000Z",
+          "accessionNumber": "0001682852-26-000194",
+          "primaryDocument": "mrna-20261106.htm"
+        },
+        {
+          "form": "SCHEDULE 13G/A",
+          "filingDate": "2026-11-05",
+          "reportDate": "",
+          "acceptanceDateTime": "2026-11-05T18:22:27.000Z",
+          "accessionNumber": "0000315066-26-002811",
+          "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml"
+        }
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "rows_since_2026_11_05": [
+        {
+          "form": "13F-HR",
+          "filingDate": "2026-11-06",
+          "reportDate": "2026-09-30",
+          "acceptanceDateTime": "2026-11-05T23:21:46.000Z",
+          "accessionNumber": "0001652044-26-000086",
+          "primaryDocument": "xslForm13F_X02/primary_doc.xml"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-11-05",
+          "acceptanceDateTime": "2026-11-05T21:10:44.000Z",
+          "accessionNumber": "0001193125-26-449835",
+          "primaryDocument": "d174184d8k.htm"
+        }
+      ]
+    },
+    {
+      "symbol": "SOFI",
+      "rows_since_2026_11_05": [
+        {
+          "form": "10-Q",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-09-30",
+          "acceptanceDateTime": "2026-11-05T21:08:44.000Z",
+          "accessionNumber": "0001818874-26-000070",
+          "primaryDocument": "sofi-20260930.htm"
+        }
+      ]
+    },
+    {
+      "symbol": "BRKB",
+      "rows_since_2026_11_05": []
+    },
+    {
+      "symbol": "CGNX",
+      "rows_since_2026_11_05": [
+        {
+          "form": "10-Q",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-10-04",
+          "acceptanceDateTime": "2026-11-05T11:32:38.000Z",
+          "accessionNumber": "0000851205-26-000082",
+          "primaryDocument": "cgnx-20261004.htm"
+        }
+      ]
+    },
+    {
+      "symbol": "EPAM",
+      "rows_since_2026_11_05": [
+        {
+          "form": "S-3ASR",
+          "filingDate": "2026-11-05",
+          "reportDate": "",
+          "acceptanceDateTime": "2026-11-05T21:53:37.000Z",
+          "accessionNumber": "0001140361-26-042127",
+          "primaryDocument": "ny20083715x1_s3asr.htm"
+        },
+        {
+          "form": "10-Q",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-09-30",
+          "acceptanceDateTime": "2026-11-05T21:01:44.000Z",
+          "accessionNumber": "0001352010-26-000052",
+          "primaryDocument": "epam-20260930.htm"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-11-05",
+          "acceptanceDateTime": "2026-11-04T23:55:57.000Z",
+          "accessionNumber": "0001352010-26-000048",
+          "primaryDocument": "epam-20261104.htm"
+        }
+      ]
+    }
+  ],
+  "calculations": {
+    "unit": "USD millions",
+    "cash_investments_start_2025_12_31": 8135,
+    "cash_investments_end_2026_09_30": 7976,
+    "cfo_9m": -2715,
+    "capex_9m": -146,
+    "intangible_cash_payment_9m": -74,
+    "convertible_face_proceeds": 3000,
+    "debt_issue_costs": -43,
+    "capped_calls": -329,
+    "other_financing_net": 148,
+    "convertible_net_cash": 2628,
+    "settlement_total": 950,
+    "settlement_expensed_component": 876,
+    "settlement_capitalized_component": 74,
+    "cfo_less_capex": -2861,
+    "analyst_ex_operating_settlement_cfo_less_capex": -1985,
+    "equivalent_all_settlement_adjustment": -1985,
+    "carrying_debt": 3549,
+    "cash_investments_less_carrying_debt": 4427,
+    "cash_investments_less_face_debt": 4376,
+    "claim": "Cash bridge is a historical reconciliation at reported precision. Adjusted cash burn is not company non-GAAP, annualization, runway or valuation.",
+    "bridge_recomputed_end": 7976
+  },
+  "read_limitations": [
+    "Official SEC web browsing renderer errored; system curl public HTTPS fetch succeeded and raw full documents saved. Initial Python certificate configuration failed; TLS verification was not disabled.",
+    "No complete earnings-call audio listened.",
+    "No comprehensive all-channel no-news claim for SOFI/CGNX/EPAM; absence refers to this SEC recent read only.",
+    "No current market quote, pipeline valuation or portfolio changes performed."
+  ]
+}

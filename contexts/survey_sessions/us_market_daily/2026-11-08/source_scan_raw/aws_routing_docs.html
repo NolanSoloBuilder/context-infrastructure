@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Understanding intelligent prompt routing in Amazon Bedrock - Amazon Bedrock</title><meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="assets_root" content="/assets" /><meta name="target_state" content="prompt-routing" /><meta name="default_state" content="prompt-routing" /><link rel="icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="canonical" href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html" /><link rel="alternate" type="text/markdown" href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.md" title="Markdown version" /><meta name="description" content="Learn about intelligent prompt routing in Amazon Bedrock." /><meta name="deployment_region" content="IAD" /><meta name="product" content="Amazon Bedrock" /><meta name="guide" content="User Guide" /><meta name="abstract" content="User Guide for the Amazon Bedrock service." /><meta name="guide-locale" content="en_us" /><meta name="tocs" content="toc-contents.json" /><link rel="canonical" href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/bedrock/latest/userguide/prompt-routing.html" hreflang="id-id" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/bedrock/latest/userguide/prompt-routing.html" hreflang="id" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/bedrock/latest/userguide/prompt-routing.html" hreflang="de-de" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/bedrock/latest/userguide/prompt-routing.html" hreflang="de" /><link rel="alternate" href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html" hreflang="en-us" /><link rel="alternate" href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html" hreflang="en" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/bedrock/latest/userguide/prompt-routing.html" hreflang="es-es" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/bedrock/latest/userguide/prompt-routing.html" hreflang="es" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/bedrock/latest/userguide/prompt-routing.html" hreflang="fr-fr" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/bedrock/latest/userguide/prompt-routing.html" hreflang="fr" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/bedrock/latest/userguide/prompt-routing.html" hreflang="it-it" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/bedrock/latest/userguide/prompt-routing.html" hreflang="it" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/bedrock/latest/userguide/prompt-routing.html" hreflang="ja-jp" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/bedrock/latest/userguide/prompt-routing.html" hreflang="ja" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/bedrock/latest/userguide/prompt-routing.html" hreflang="ko-kr" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/bedrock/latest/userguide/prompt-routing.html" hreflang="ko" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/bedrock/latest/userguide/prompt-routing.html" hreflang="pt-br" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/bedrock/latest/userguide/prompt-routing.html" hreflang="pt" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_cn/bedrock/latest/userguide/prompt-routing.html" hreflang="zh-cn" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_tw/bedrock/latest/userguide/prompt-routing.html" hreflang="zh-tw" /><link rel="alternate" href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html" hreflang="x-default" /><meta name="feedback-folder" content="2d8c2a09-1dac-41bf-9893-c0333d272b2c" /><meta name="feedback-item" content="Bedrock" /><meta name="this_doc_product" content="Amazon Bedrock" /><meta name="this_doc_guide" content="User Guide" /><head xmlns="http://www.w3.org/1999/xhtml"> <script defer="" src="/assets/r/awsdocs-doc-page.2.0.0.js"></script><link href="/assets/r/awsdocs-doc-page.2.0.0.css" rel="stylesheet"/></head>
+<script defer="" id="awsc-panorama-bundle" type="text/javascript" src="https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js" data-config="{'appEntity':'aws-documentation','region':'us-east-1','service':'bedrock'}"></script><meta id="panorama-serviceSubSection" value="User Guide" /><meta id="panorama-serviceConsolePage" value="Understanding intelligent prompt routing in Amazon Bedrock" /></head><body class="awsdocs awsui"><div class="awsdocs-container"><p><a href="prompt-routing.md">View a markdown version of this page</a></p><awsdocs-header></awsdocs-header><awsui-app-layout id="app-layout" class="awsui-util-no-gutters" ng-controller="ContentController as $ctrl" header-selector="awsdocs-header" navigation-hide="false" navigation-width="$ctrl.navWidth" navigation-open="$ctrl.navOpen" navigation-change="$ctrl.onNavChange($event)" tools-hide="$ctrl.hideTools" tools-width="$ctrl.toolsWidth" tools-open="$ctrl.toolsOpen" tools-change="$ctrl.onToolsChange($event)"><div id="guide-toc" dom-region="navigation"><awsdocs-toc></awsdocs-toc></div><div id="main-column" dom-region="content" tabindex="-1"><awsdocs-view class="awsdocs-view"><div id="awsdocs-content"><head><title>Understanding intelligent prompt routing in Amazon Bedrock - Amazon Bedrock</title><meta name="pdf" content="/pdfs/bedrock/latest/userguide/bedrock-ug.pdf#prompt-routing" /><meta name="rss" content="bedrock-ug.rss" /><meta name="forums" content="https://repost.aws/tags/TAQeKlaPaNRQ2tWB6P7KrMag" /><meta name="feedback" content="https://docs.aws.amazon.com/forms/aws-doc-feedback?feedback_destination_id=2d8c2a09-1dac-41bf-9893-c0333d272b2c&amp;topic_url=https://docs.aws.amazon.com/en_us/bedrock/latest/userguide/prompt-routing.html" /><meta name="feedback-yes" content="feedbackyes.html?topic_url=https://docs.aws.amazon.com/en_us/bedrock/latest/userguide/prompt-routing.html" /><meta name="feedback-no" content="feedbackno.html?topic_url=https://docs.aws.amazon.com/en_us/bedrock/latest/userguide/prompt-routing.html" /><meta name="keywords" content="Amazon Bedrock,bedrock,Additional capabilities,Bedrock features,Prompt Engineering,Intelligent prompt routing,Prompt routing,Model routing,Supported Regions,Supported models,Cost optimization,Response quality,Default prompt router,Custom prompt router,Limitations,Routing criteria,Fallback model,How it works,Getting started" /><script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "BreadcrumbList",
+    "itemListElement" : [
+      {
+        "@type" : "ListItem",
+        "position" : 1,
+        "name" : "AWS",
+        "item" : "https://aws.amazon.com"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 2,
+        "name" : "Amazon Bedrock",
+        "item" : "https://docs.aws.amazon.com/bedrock/index.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 3,
+        "name" : "User Guide",
+        "item" : "https://docs.aws.amazon.com/bedrock/latest/userguide"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 4,
+        "name" : "Additional capabilities",
+        "item" : "https://docs.aws.amazon.com/bedrock/latest/userguide/additional-capabilities.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 5,
+        "name" : "Prompt engineering concepts",
+        "item" : "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 6,
+        "name" : "Understanding intelligent prompt routing in Amazon Bedrock",
+        "item" : "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html"
+      }
+    ]
+}
+</script></head><body><div id="main"><div style="display: none"><a href="/pdfs/bedrock/latest/userguide/bedrock-ug.pdf#prompt-routing" target="_blank" rel="noopener noreferrer" title="Open PDF"></a></div><div id="breadcrumbs" class="breadcrumb"><a href="/index.html">Documentation</a><a href="/bedrock/index.html">Amazon Bedrock</a><a href="what-is-bedrock.html">User Guide</a></div><div id="page-toc-src"><a href="#prompt-routing-support">Supported Regions and models</a><a href="#prompt-routing-benefits">Benefits</a><a href="#prompt-routing-types">Default and configured prompt routers</a><a href="#prompt-routing-limitations">Considerations and limitations</a><a href="#prompt-router-criteria">Prompt router criteria and fallback model</a><a href="#prompt-routing-works">How intelligent prompt routing works</a><a href="#prompt-routing-use">How to use intelligent prompt routing</a></div><div id="main-content" class="awsui-util-container"><div id="main-col-body"><awsdocs-language-banner data-service="$ctrl.pageService"></awsdocs-language-banner><h1 class="topictitle" id="prompt-routing">Understanding intelligent prompt routing in Amazon Bedrock</h1><div class="awsdocs-page-header-container"><awsdocs-page-header></awsdocs-page-header><awsdocs-filter-selector id="awsdocs-filter-selector"></awsdocs-filter-selector></div><p>Amazon Bedrock intelligent prompt routing provides a single serverless endpoint to
+			efficiently route requests between different foundational models within the same model
+			family. It can dynamically predict the response quality of each model for each request, and 
+			then route the request to the model with the best response quality. This helps to optimize
+			for both response quality and cost.</p><div class="highlights" id="inline-topiclist"><h6>Topics</h6><ul><li><p><a href="#prompt-routing-support">Supported Regions and models for intelligent prompt routing</a></p></li><li><p><a href="#prompt-routing-benefits">Benefits</a></p></li><li><p><a href="#prompt-routing-types">Default and configured prompt routers</a></p></li><li><p><a href="#prompt-routing-limitations">Considerations and limitations</a></p></li><li><p><a href="#prompt-router-criteria">Prompt router criteria and fallback model</a></p></li><li><p><a href="#prompt-routing-works">How intelligent prompt routing works</a></p></li><li><p><a href="#prompt-routing-use">How to use intelligent prompt routing</a></p></li></ul></div>
+			<h2 id="prompt-routing-support">Supported Regions and models for intelligent prompt routing</h2>
+		
+
+			<p>Intelligent prompt routing can be used with different types of models. The following list describes support for different types of Amazon Bedrock models:</p>
+			
+			<div class="itemizedlist">
+				 
+				 
+			<ul class="itemizedlist"><li class="listitem"><p><b>Single-region model support</b> – Lists regions that support sending inference requests to a foundation model in one AWS Region. For a full table of models available across Amazon Bedrock, see <a href="./models-supported.html">Supported foundation models in Amazon Bedrock</a>.</p></li><li class="listitem"><p><b>Cross-region inference profile support</b> – Lists regions that support using a cross-region inference profile, which support sending inference requests to a foundation model in multiple AWS regions within a geographical area. An inference profile has a prefix preceding the model ID that indicates its geographical area (for example, <code class="code">us.</code>, <code class="code">apac</code>). For more information for available inference profiles across Amazon Bedrock, see <a href="./inference-profiles-support.html">Supported Regions and models for inference profiles</a>.</p></li></ul></div>
+
+			<p>The following table shows models supported for intelligent prompt routing:</p>
+		
+			<div class="table-container"><div class="table-contents"><table id="d0e1"><thead>
+			<tr>
+				<th>Provider</th>
+				<th>Model</th>
+				<th>Model ID</th>
+				<th>Single-region model support</th>
+				<th>Cross-region inference profile support</th>
+			</tr>
+		</thead>
+			<tr>
+				<td tabindex="-1">Amazon</td>
+				<td tabindex="-1">Nova Lite</td>
+				<td tabindex="-1">amazon.nova-lite-v1:0</td>
+				<td tabindex="-1">
+					<p>us-east-1</p>
+					<p>us-gov-west-1</p>
+				</td>
+				<td tabindex="-1">
+					<p>ap-northeast-1</p>
+					<p>ap-northeast-2</p>
+					<p>ap-south-1</p>
+					<p>ap-southeast-2</p>
+					<p>eu-central-1</p>
+					<p>eu-west-1</p>
+					<p>eu-west-3</p>
+					<p>us-east-1</p>
+					<p>us-east-2</p>
+					<p>us-west-2</p>
+				</td>
+			</tr>
+			<tr>
+				<td tabindex="-1">Amazon</td>
+				<td tabindex="-1">Nova Pro</td>
+				<td tabindex="-1">amazon.nova-pro-v1:0</td>
+				<td tabindex="-1">
+					<p>us-east-1</p>
+					<p>us-gov-west-1</p>
+				</td>
+				<td tabindex="-1">
+					<p>ap-northeast-1</p>
+					<p>ap-northeast-2</p>
+					<p>ap-south-1</p>
+					<p>ap-southeast-2</p>
+					<p>eu-central-1</p>
+					<p>eu-west-1</p>
+					<p>eu-west-3</p>
+					<p>us-east-1</p>
+					<p>us-east-2</p>
+					<p>us-west-2</p>
+				</td>
+			</tr>
+			<tr>
+				<td tabindex="-1">Meta</td>
+				<td tabindex="-1">Llama 3.1 70B Instruct</td>
+				<td tabindex="-1">meta.llama3-1-70b-instruct-v1:0</td>
+				<td tabindex="-1">
+					<p>us-west-2</p>
+				</td>
+				<td tabindex="-1">
+					<p>us-east-1</p>
+					<p>us-east-2</p>
+					<p>us-west-2</p>
+				</td>
+			</tr>
+			<tr>
+				<td tabindex="-1">Meta</td>
+				<td tabindex="-1">Llama 3.1 8B Instruct</td>
+				<td tabindex="-1">meta.llama3-1-8b-instruct-v1:0</td>
+				<td tabindex="-1">
+					<p>us-west-2</p>
+				</td>
+				<td tabindex="-1">
+					<p>us-east-1</p>
+					<p>us-east-2</p>
+					<p>us-west-2</p>
+				</td>
+			</tr>
+			<tr>
+				<td tabindex="-1">Meta</td>
+				<td tabindex="-1">Llama 3.3 70B Instruct</td>
+				<td tabindex="-1">meta.llama3-3-70b-instruct-v1:0</td>
+				<td tabindex="-1">
+					<p>us-east-2</p>
+				</td>
+				<td tabindex="-1">
+					<p>us-east-1</p>
+					<p>us-east-2</p>
+					<p>us-west-2</p>
+				</td>
+			</tr>
+		</table></div></div>
+
+		
+		 
+			<h2 id="prompt-routing-benefits">Benefits</h2>
+			<div class="itemizedlist">
+				 				
+				 
+			<ul class="itemizedlist"><li class="listitem">
+					<p><b>Optimized Response Quality and Cost:</b>
+						Routes prompts to different foundational models to achieve the best
+						response quality at the lowest cost.</p>
+				</li><li class="listitem">
+					<p><b>Simplified Management:</b> Eliminates the
+						need for complex orchestration logic.</p>
+				</li></ul></div>
+		 
+			<h2 id="prompt-routing-types">Default and configured prompt routers</h2>
+			<p>When using intelligent prompt routing, you can either use the default prompt
+				routers provided by Amazon Bedrock, or configure your own prompt routers.</p>
+
+			<p>Default prompt routers are pre-configured routing systems provided by Amazon Bedrock. These
+				routers come with predefined settings and are designed to work out-of-the-box with
+				specific foundational models. They provide a straightforward, ready-to-use solution
+				without needing to configure any routing settings. When starting with intelligent
+				prompt routing, we recommend that you experiment using the default routers provided by Amazon Bedrock. Default
+				routers use select models in the Amazon Nova and Meta Llama
+				families. The default routers that are available depend on the Region.</p>
+
+			<p>Configured prompt routers enable you to define your own routing configurations
+				tailored to specific needs and preferences. They are more suitable when you require
+				more control over how to route your requests and which models to use. Configured
+				routers enable optimization based on response quality metrics and use cases.
+				After you've experimented with default routers, you can configure your own
+				routers that are suitable to your applications, evaluate the response quality in the 
+				playground, and use for production applications if it meets the	requirements.</p>
+		 
+			<h2 id="prompt-routing-limitations">Considerations and limitations</h2>
+			<p>The following are considerations and limitations for intelligent prompt routing in
+				Amazon Bedrock.</p>
+			<div class="itemizedlist">				
+				 
+				 
+				 
+			<ul class="itemizedlist"><li class="listitem">
+					<p>Intelligent prompt routing is only optimized for English prompts.</p>
+				</li><li class="listitem">
+					<p>Intelligent prompt routing can’t adjust routing decisions or responses
+						based on application-specific performance data.</p>
+				</li><li class="listitem">
+					<p>Intelligent prompt routing might not always provide the most optimal
+						routing for unique or specialized use cases. How effective the routing is
+						depends on the initial training data.</p>
+				</li></ul></div>
+		 
+			<h2 id="prompt-router-criteria">Prompt router criteria and fallback model</h2>
+			<p>When configuring your prompt routers, you can specify the routing criteria, which is
+				used to determine which model to select for processing a request based on the
+				response quality difference. Use this criteria to determine how much closer the responses
+				of the fallback model should be to the responses of the other models.</p>			
+
+			 
+				<h3 id="prompt-router-criteria-fallback">Fallback models</h3>
+				<p>Choose a fallback model that works well for your requests. This model serves
+					as a reliable baseline. You can then choose another model to either improve
+					accuracy or reduce costs compared to the fallback model. The fallback model acts
+					as an anchor, and the routing criteria determines when to switch to the other
+					model based on the response quality difference.</p>
+			 
+
+			 
+				<h3 id="prompt-router-criteria-respquality">Response quality difference</h3>
+				<p>The response quality difference measures the disparity between the responses
+					of the fallback model and the other models. A smaller value indicates that the
+					responses are similar. A higher value indicates a significant difference in the 
+					responses between the fallback model and the other models.</p>
+
+				<p>For example, if you set a response quality difference of 10% and choose
+					Amazon Nova Lite as the fallback model, the router switches to the other
+					model in the router, such as Amazon Nova Pro, only if its predicted
+					response quality is more than 10% better than Amazon Nova Lite's.</p>
+			 
+		 
+			<h2 id="prompt-routing-works">How intelligent prompt routing works</h2>
+			<div class="procedure"><ol><li>
+					<h6>Model selection and router configuration</h6>
+					<p>Choose the family of models you want to use for your application. If
+						you're using default prompt routers, you can choose from models in the
+						Amazon Nova or Meta Llama families, depending on the
+						Region. If you're using configured prompt routers, you
+						can choose from additional models and configure the routing criteria. For
+						more information, see <a href="#prompt-routing-use">How to use intelligent prompt routing</a>.</p>
+				</li><li>
+					<h6>Incoming request analysis</h6>
+					<p>For each incoming request, the system analyzes the prompt to understand
+						its content and context.</p>
+				</li><li>
+					<h6>Response quality prediction</h6>
+					<p>Amazon Bedrock predicts the response quality of each specified model in the chosen family
+						based on the prompt. If you configured your prompt router, it takes
+						into account the routing criteria, which is the response quality difference, and 
+						routes requests to your specified fallback model if the criteria is not met.</p>
+				</li><li>
+					<h6>Model selection and request forwarding</h6>
+					<p>Based on the response quality prediction, Amazon Bedrock dynamically chooses the model
+						that offers the best combination of response quality and cost for the
+						specific request. The request is then forwarded to the chosen model for
+						processing.</p>
+				</li><li>
+					<h6>Response handling</h6>
+					<p>The response from the chosen model is retrieved and returned to the user.
+						The response includes information about the model that was used to process
+						the request.</p>
+				</li></ol></div>
+		 
+			<h2 id="prompt-routing-use">How to use intelligent prompt routing</h2>
+			<p>To get started with intelligent prompt routing, use the Amazon Bedrock console, AWS CLI, or
+				AWS SDK.</p>
+			<div class="awsdocs-note"><div class="awsdocs-note-title"><awsui-icon name="status-info" variant="link"></awsui-icon><h6>Note</h6></div><div class="awsdocs-note-text"><p>To best use intelligent prompt routing, you should regularly review
+					performance to take advantage of new models. To optimize your usage, monitor the
+					available performance and cost metrics.</p></div></div>
+			<p>The following sections show you how to use this feature from the console and
+				the CLI. After you configure your prompt router, Amazon Bedrock will perform the
+				steps described in <a href="#prompt-routing-works">How intelligent prompt routing works</a> to generate a response from one of the
+					models in the chosen router.</p>
+			<awsdocs-tabs><dl style="display: none">
+				<dt>console</dt><dd tab-id="console">
+						<p>To use intelligent prompt routing from the AWS Management Console:</p>
+						<div class="procedure"><ol><li>
+								<p>Go to the <a href="https://console.aws.amazon.com/bedrock/home?region=us-east-1#/prompt-routers" rel="noopener noreferrer" target="_blank"><span>Prompt
+										Routers</span><awsui-icon class="awsdocs-link-icon" name="external"></awsui-icon></a> hub in the Amazon Bedrock console. Use your AWS
+									credentials to log in to the console.</p>
+							</li><li>
+								<p>Choose the model family that you want to use. If you're using
+									the feature for the first time, you can experiment with the
+									default prompt routers, which use select models in the Amazon
+									Nova and Meta Llama families, depending on
+									the Region. You can then open the
+									playground and experiment with your prompts.</p>
+								<div class="awsdocs-note"><div class="awsdocs-note-title"><awsui-icon name="status-info" variant="link"></awsui-icon><h6>Note</h6></div><div class="awsdocs-note-text"><p>You must choose exactly two models within the same family.</p></div></div>
+							</li><li>
+								<p>After you've experimented with the default routers, you can
+									configure your router. You must provide a unique name for your
+									router and an optional description.</p>
+							</li><li>
+								<p>Define the routing rules for routing the prompts to different
+									models. Specify the models for routing, the routing criteria,
+									and a fallback model to be used in case the routing criteria is
+									not met.</p>
+							</li><li>
+								<p>You can now open the playground and try different prompts to
+									monitor the performance of your prompt router. By analyzing how
+									prompts are being routed and the performance of each model, you
+									can adjust the routing criteria and models as needed to optimize
+									for performance and cost.</p>
+							</li></ol></div>
+					</dd>
+
+				<dt>API</dt><dd tab-id="api">
+						<p>To use intelligent prompt routing using the AWS CLI:</p>
+						<div class="procedure"><ol><li>
+								<p>After you've experimented with default prompt routers, you can
+									create a router that can handle intelligent prompt routing using
+									the <a href="https://docs.aws.amazon.com/bedrock/latest/APIReference/API_CreatePromptRouter.html"><code class="code">CreatePromptRouter</code></a> API or the
+										<a href="https://docs.aws.amazon.com/cli/latest/reference/bedrock/create-prompt-router.html"><code class="code">create-prompt-router</code></a> CLI
+									command.</p>
+								<p>The following command shows an example of creating the prompt
+									router, where:</p>
+								<div class="itemizedlist">
+									 									
+									 									
+									 
+								<ul class="itemizedlist"><li class="listitem">
+										<p><code class="replaceable">&lt;router-name&gt;</code> is a
+											unique name for your router.</p>
+									</li><li class="listitem">
+										<p><code class="replaceable">&lt;region&gt;</code> is the
+											AWS Region where you want to create the router.</p>
+									</li><li class="listitem">
+										<p><code class="replaceable">&lt;modelA&gt;</code> and
+												<code class="replaceable">&lt;modelB&gt;</code> are the models to
+											choose from for routing. For example, <code class="code">anthropic.claude-sonnet-4-5-20250929-v1:0</code>.</p>
+									</li></ul></div>
+								<pre class="programlisting"><div class="code-btn-container"><div class="btn-copy-code" title="Copy"><awsui-icon name="copy"></awsui-icon></div></div><!--DEBUG: cli ()--><code class="nohighlight">aws bedrock create-prompt-router \
+    --prompt-router-name <code class="replaceable">&lt;router-name&gt;</code> \
+    --models '[<span>{</span>"modelArn": "arn:aws:bedrock:<code class="replaceable">&lt;region&gt;</code>::foundation-model/<code class="replaceable">&lt;modelA&gt;</code>"}]' \ 
+    --fallback-model '[<span>{</span>"modelArn": "arn:aws:bedrock:<code class="replaceable">&lt;region&gt;</code>::foundation-model/<code class="replaceable">&lt;modelB&gt;</code>"}]' \ 
+    --routing-criteria '<span>{</span>"responseQualityDifference": 0.5}'</code></pre>
+							</li><li>
+								<p>Send your prompts to the intelligent prompt router using the
+									AWS CLI. The router will predict the response quality of each model and
+									route the request to the model with the best response quality.</p>
+							</li><li>
+								<p>Review the response to your request. It will contain
+									information about the model that was used and the routing
+									criteria.</p>
+							</li><li>
+								<p>As you work with prompt routers, you can also use these
+									additional API operations:</p>
+								<div class="itemizedlist">
+									 
+									 
+									 
+								<ul class="itemizedlist"><li class="listitem">
+										<p><a href="https://docs.aws.amazon.com/bedrock/latest/APIReference/API_GetPromptRouter.html"><code class="code">GetPromptRouter</code></a></p>
+									</li><li class="listitem">
+										<p><a href="https://docs.aws.amazon.com/bedrock/latest/APIReference/API_ListPromptRouters.html"><code class="code">ListPromptRouters</code></a></p>
+									</li><li class="listitem">
+										<p><a href="https://docs.aws.amazon.com/bedrock/latest/APIReference/API_DeletePromptRouter.html"><code class="code">DeletePromptRouter</code></a></p>
+									</li></ul></div>
+							</li></ol></div>
+					</dd>
+			</dl></awsdocs-tabs>
+		<awsdocs-copyright class="copyright-print"></awsdocs-copyright><awsdocs-thumb-feedback right-edge="{{$ctrl.thumbFeedbackRightEdge}}"></awsdocs-thumb-feedback></div><noscript><div><div><div><div id="js_error_message"><p><img src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png" alt="Warning" /> <strong>Javascript is disabled or is unavailable in your browser.</strong></p><p>To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.</p></div></div></div></div></noscript><div id="main-col-footer" class="awsui-util-font-size-0"><div id="doc-conventions"><a target="_top" href="/general/latest/gr/docconventions.html">Document Conventions</a></div><div class="prev-next"><div id="previous" class="prev-link" accesskey="p" href="./what-is-prompt-engineering.html">What is prompt engineering?</div><div id="next" class="next-link" accesskey="n" href="./design-a-prompt.html">Design a prompt</div></div></div><awsdocs-page-utilities></awsdocs-page-utilities></div><div id="quick-feedback-yes" style="display: none;"><div class="title">Did this page help you? - Yes</div><div class="content"><p>Thanks for letting us know we're doing a good job!</p><p>If you've got a moment, please tell us what we did right so we can do more of it.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?feedback_destination_id=2d8c2a09-1dac-41bf-9893-c0333d272b2c&amp;topic_url=https://docs.aws.amazon.com/en_us/bedrock/latest/userguide/prompt-routing.html"></awsui-button></p></div></div><div id="quick-feedback-no" style="display: none;"><div class="title">Did this page help you? - No</div><div class="content"><p>Thanks for letting us know this page needs work. We're sorry we let you down.</p><p>If you've got a moment, please tell us how we can make the documentation better.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?feedback_destination_id=2d8c2a09-1dac-41bf-9893-c0333d272b2c&amp;topic_url=https://docs.aws.amazon.com/en_us/bedrock/latest/userguide/prompt-routing.html"></awsui-button></p></div></div></div></body></div></awsdocs-view><div class="page-loading-indicator" id="page-loading-indicator"><awsui-spinner size="large"></awsui-spinner></div></div><div id="tools-panel" dom-region="tools"><awsdocs-tools-panel id="awsdocs-tools-panel"></awsdocs-tools-panel></div></awsui-app-layout><awsdocs-cookie-banner class="doc-cookie-banner"></awsdocs-cookie-banner></div></body></html>

@@ -1,0 +1,10 @@
+{
+  "name": "stocks_rss_new",
+  "url": "https://www.reddit.com/r/stocks/new/.rss?limit=25",
+  "collected_at": "2026-11-11T23:30:31.138979+00:00",
+  "http_status": "403",
+  "returncode": 0,
+  "error": "",
+  "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/stocks_rss_new.html",
+  "sha256": "b4647b63a91e0830bd2e8998c4accd5daa01652961cd224804335ab8ebb8749f"
+}

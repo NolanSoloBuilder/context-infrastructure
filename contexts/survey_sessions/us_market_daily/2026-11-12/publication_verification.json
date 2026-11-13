@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-11T23:38:57.418817+00:00",
+  "status": "passed",
+  "report_date": "2026-11-12",
+  "market_session": "2026-11-11",
+  "version": 29,
+  "public_url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+  "home_and_api_brief_match": true,
+  "history_sessions": [
+    "2026-11-11",
+    "2026-11-10",
+    "2026-11-09",
+    "2026-11-06",
+    "2026-11-05",
+    "2026-11-04",
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "new_archive_matches_current": true,
+  "old_archive_content_unchanged": true,
+  "quote_sessions": {
+    "2026-11-11": 43
+  },
+  "quote_differences_disclosed": [
+    {
+      "symbol": "MSFT",
+      "local": 521.12,
+      "cloud": 521.13,
+      "delta_usd": 0.01
+    }
+  ],
+  "alert_highlights": [],
+  "reddit_new_reported_claims": [],
+  "reddit_full_scan_complete": false,
+  "audience": "public",
+  "private_data_published": false
+}

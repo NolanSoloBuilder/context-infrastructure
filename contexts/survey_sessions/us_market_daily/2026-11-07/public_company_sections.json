@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "market_session": "2026-11-06",
+  "reviewed_at": "2026-11-06T23:39:33Z",
+  "items": [
+    {
+      "title": "Moderna季度转盈，融资后的现金仍需拆开看",
+      "fact": "11/6已公布Q3：收入13.13亿美元、同比+29%，GAAP净利润1.62亿、EPS0.38；前九个月仍亏损19.63亿，经营现金流−27.15亿。完整10-Q已取得。",
+      "implication": "9/30现金及投资79.76亿美元包含可转债净融资26.28亿；当季多数销售季末尚未回款，不能把现金余额改善全部归为经营造血。",
+      "judgment": "经营改善、现金回收待验证，维持研究候选／估值待完成；财报后涨跌均不自动证明低估。",
+      "counter": "9m CFO−资本开支为−28.61亿美元；仅剔除和解中经营现金部分8.76亿后仍−19.85亿。该调整不是年度预测或稳定消耗速度。",
+      "next": "检查Q4应收回款、疫苗销售扣减、肿瘤商业化成本和11/12 Analyst Day；2027流动性依赖产品回款及附条件信贷。",
+      "sources": [
+        {
+          "title": "Moderna 11/6官方业绩附件",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm"
+        },
+        {
+          "title": "Moderna完整Q3 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/mrna-20260930.htm"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "MRNA现金桥｜融资、和解和2027流动性",
+      "paragraphs": [
+        "美元口径：9/30现金及投资79.76亿，年末2025为81.35亿。前三季CFO−27.15亿、资本开支−1.46亿、无形资产−0.74亿；可转债30亿减发行费0.43亿及capped-call3.29亿，净融资26.28亿；其他融资净额1.48亿，按披露整数复算闭合。证券买卖不能在现金及投资合计中重复当消耗。",
+        "7月9.50亿Arbutus/Genevant和解中，8.76亿计入成本，0.74亿资本化无形资产并列投资现金流。CFO−PP&E−28.61亿只能加回经营部分8.76亿得到−19.85亿；若先扣无形资产至−29.35亿再加回整笔9.50亿，结果相同。此为研究调整，不是公司非GAAP指标或年度预测。",
+        "9/30贷款账面5.91亿、可转债账面29.58亿，共35.49亿；现金及投资减该账面债务约44.27亿，未扣未来研发、租赁及其他义务，不是股权估值。零息可转债仍有本金、转换与稀释风险。",
+        "年末2026现金及投资81–83亿美元、全年收入增长15%–25%均是管理层展望。10-Q的至少未来12个月资金充足判断还包含预期产品回款及附条件信贷，不能写成2027无条件安全；剩余9亿额度未到账，4亿至2027/11有条件可提，5亿至2028/11还需审批里程碑。",
+        "GSK 10/28交叉许可和解不要求付款，与7月9.5亿不同；Arbutus/Genevant上诉仍可能产生最高13亿额外付款，9/30因损失并非很可能发生未计提。不能自动全扣，也不能忽略。诺如病毒项目本季不再计划增加队列，单项肿瘤成功不能推广到全部管线。"
+      ],
+      "sources": [
+        {
+          "title": "完整10-Q：报表、Note9/11及流动性",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/mrna-20260930.htm"
+        },
+        {
+          "title": "Q3业绩及新指引",
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm"
+        }
+      ]
+    },
+    {
+      "title": "公司增量核验｜Google、SoFi与既有FDE研究",
+      "paragraphs": [
+        "Alphabet本轮读取到filingDate 11/6的13F-HR，报告期为9/30、SEC实际接收11/5 18:21:46 EST。它是证券持有报告，非11/6新增买入或经营现金；不把其市值再次加进净现金。昨日欧元融资完成事实不重复当今日新公告。",
+        "SOFI本次SEC recent没有11/6新增申报；最新仍为昨日已核的11/5 Q3 10-Q。CGNX/EPAM同次检查也未见11/6新申报，不重复旧财报或FDE发布。该结论仅覆盖实际读取的申报列表，不声称全网没有新闻。"
+      ],
+      "sources": [
+        {
+          "title": "Alphabet 13F封面",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000086/xslForm13F_X02/primary_doc.xml"
+        },
+        {
+          "title": "Alphabet 13F投资表",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000086/information_table.xml"
+        },
+        {
+          "title": "SOFI SEC近期申报",
+          "url": "https://data.sec.gov/submissions/CIK0001818874.json"
+        }
+      ]
+    },
+    {
+      "title": "Berkshire Q3｜北京时间11/7今晚21:00",
+      "paragraphs": [
+        "官方计划11/7 07:00 CST＝08:00 EST＝北京21:00发布Q3及10-Q；本次复核仍是美东11/6晚间，未到发布窗口，SEC recent未见新Q3。实际公布后再核经营利润、现金、赔付与回购，不预写结果。"
+      ],
+      "sources": [
+        {
+          "title": "伯克希尔11/4官方时间公告",
+          "url": "https://www.berkshirehathaway.com/news/nov0426.pdf"
+        }
+      ]
+    }
+  ],
+  "card_updates": [
+    {
+      "symbol": "MRNA",
+      "replacement_scope": "Replace stale Q2 current-facts, Q3 not-published gaps, next_earnings and 2026 cash outlook; preserve historical source evidence with dates. No quote or valuation edit.",
+      "facts": {
+        "quarter": "2026Q3",
+        "published_date": "2026-11-06",
+        "reviewed_date": "2026-11-07",
+        "financials": {
+          "revenue_usd_m": 1313,
+          "revenue_yoy_pct": 29,
+          "gaap_net_income_usd_m": 162,
+          "gaap_diluted_eps": 0.38,
+          "net_loss_9m_usd_m": 1963,
+          "cfo_9m_usd_m": -2715,
+          "capex_9m_usd_m": 146,
+          "intangible_purchase_9m_usd_m": 74,
+          "cash_equivalents_investments_usd_m": 7976,
+          "cash_date": "2026-09-30",
+          "convertible_net_cash_after_issuance_fees_and_capped_calls_usd_m": 2628,
+          "loans_carrying_usd_m": 591,
+          "convertible_carrying_usd_m": 2958,
+          "actual_shares_oct30": 404620975,
+          "q3_diluted_weighted_shares_m": 430,
+          "sbc_9m_usd_m": 351
+        },
+        "fact_lines": [
+          "11/6已公布2026Q3：收入13.13亿美元、同比+29%；GAAP净利1.62亿、稀释EPS0.38。",
+          "前九月亏损19.63亿美元、CFO−27.15亿；9/30现金及投资79.76亿，含26.28亿可转债净融资。",
+          "9/30债务账面合计35.49亿美元；年末2026现金81–83亿是新展望，不是2027保证。",
+          "9.50亿和解分为8.76亿经营部分、0.74亿无形资产；CFO减资本开支剔除经营部分后仍−19.85亿，非预测。"
+        ],
+        "notes": [
+          "Q3和完整10-Q均已公布，旧Q2基线仅作历史。",
+          "经营改善但回款、后续现金消耗及风险调整管线估值待验证；临床、获批、商业收入、盈利分开。"
+        ],
+        "risks": [
+          "疫苗季节性与应收回款、后续研发和商业化消耗、融资稀释、附条件信贷、诉讼及临床/监管风险。"
+        ],
+        "gaps": [
+          "电话会完整原音未听；风险调整管线估值与安全边际尚未完成。"
+        ],
+        "sources": [
+          {
+            "title": "Moderna 11/6 Q3业绩",
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm",
+            "asof": "2026-11-06"
+          },
+          {
+            "title": "Moderna Q3完整10-Q",
+            "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/mrna-20260930.htm",
+            "asof": "2026-11-06申报，财务截至9/30"
+          }
+        ]
+      },
+      "next": "核Q4应收回款、成本与肿瘤上市投入，跟踪11/12 Analyst Day；完成风险调整管线估值前不认定低估。",
+      "research_status": "研究候选／完整估值待完成"
+    }
+  ]
+}

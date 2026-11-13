@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "qqqm",
+    "url": "https://stockanalysis.com/etf/qqqm/history/",
+    "fetched_at": "2026-11-09T23:43:53.922645+00:00",
+    "http_success": true,
+    "text_sha256": "e717c472ead845da04923db75ad7591cc1c0c7cdb95fdcc092f58c28fe7586f4",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "voo",
+    "url": "https://stockanalysis.com/etf/voo/history/",
+    "fetched_at": "2026-11-09T23:43:54.087529+00:00",
+    "http_success": true,
+    "text_sha256": "21035a867735220a224aa5c15352326985da97f1c8f44672641b7e0508397a99",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "brk.b",
+    "url": "https://stockanalysis.com/stocks/brk.b/history/",
+    "fetched_at": "2026-11-09T23:43:54.036173+00:00",
+    "http_success": true,
+    "text_sha256": "646e4ad112a82f09d3168ee36ecbd5015a4be6aabf17dd822ea8f4523e287ef3",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "nvda",
+    "url": "https://stockanalysis.com/stocks/nvda/history/",
+    "fetched_at": "2026-11-09T23:43:54.264006+00:00",
+    "http_success": true,
+    "text_sha256": "4b6427bda79bbe4e2810c11a7b1db730375ca90d98659ccefeaefdc16196f95c",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "googl",
+    "url": "https://stockanalysis.com/stocks/googl/history/",
+    "fetched_at": "2026-11-09T23:43:54.883002+00:00",
+    "http_success": true,
+    "text_sha256": "44c03a6e9dd62143be8428b6c14c559a50489c14b0161a0eb30365bbc22dac31",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "sofi",
+    "url": "https://stockanalysis.com/stocks/sofi/history/",
+    "fetched_at": "2026-11-09T23:43:54.400665+00:00",
+    "http_success": true,
+    "text_sha256": "ea793ec813b3097d9a561f30c88b89f83d7d66e0d4c2e5761a5baba310433a36",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "now",
+    "url": "https://stockanalysis.com/stocks/now/history/",
+    "fetched_at": "2026-11-09T23:43:54.624855+00:00",
+    "http_success": true,
+    "text_sha256": "c677a98e80ba091fb8f811e1cf5b1871b982d5009de1aea4d2383483370996a5",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "crm",
+    "url": "https://stockanalysis.com/stocks/crm/history/",
+    "fetched_at": "2026-11-09T23:43:55.069085+00:00",
+    "http_success": true,
+    "text_sha256": "cbc18b4df3769432cbd5c5d9b9530fbef6768f45962af0e550717e6932f6c6a2",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "gehc",
+    "url": "https://stockanalysis.com/stocks/gehc/history/",
+    "fetched_at": "2026-11-09T23:43:55.230651+00:00",
+    "http_success": true,
+    "text_sha256": "dc2d505f70923a3739958bdcafcec9f8eae8327d17881cdd588a27eaa5bad42e",
+    "contains_target_session": true
+  },
+  {
+    "symbol": "cgnx",
+    "url": "https://stockanalysis.com/stocks/cgnx/history/",
+    "fetched_at": "2026-11-09T23:43:55.211269+00:00",
+    "http_success": true,
+    "text_sha256": "6a6820ad06d2967a7d2dc96b1e9ac9a988c5b4fdb316b3b73bd5418718b77623",
+    "contains_target_session": true
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "cutoff_utc": "2026-11-06T23:30:00+00:00",
+  "reviewed_at_utc": "2026-11-06T23:41:07.132245+00:00",
+  "url": "https://finews.fyi/",
+  "market_session": "2026-11-06",
+  "page_updated_at_utc": "2026-11-06T23:15:21+00:00",
+  "captured_at_utc": "2026-11-06T23:37:18.269531+00:00",
+  "http_status": 200,
+  "read_scope": "full latest HTML text: heatmap, seven summary paragraphs, upcoming events, 19 news summaries, valuation/emotion and quote tables",
+  "raw": "source_scan_raw/finews_home.html",
+  "text": "source_scan_raw/finews_home.txt",
+  "links": "source_scan_raw/finews_home_links.json",
+  "status": "fresh_aggregator_read_one_official_macro_release_verified",
+  "cache_discrepancy": "web home cache Nov5; ordinary verified-TLS HTTP delivered Nov6, use actual saved HTML dates",
+  "verified_sources": [
+    {
+      "title": "BLS 10月就业报告（11月6日已公布）",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "source_level": "government_primary",
+      "release_et": "2026-11-06T08:30:00-05:00",
+      "release_beijing": "2026-11-06T21:30:00+08:00",
+      "read_scope": "dated release header, main summary, hours/earnings and revisions paragraphs",
+      "facts": {
+        "payroll_change": 165000,
+        "unemployment_pct": 4.1,
+        "hourly_earnings_mom_pct": 0.4,
+        "hourly_earnings_yoy_pct": 3.1,
+        "prior_two_month_payroll_revision": 84000
+      },
+      "limitation": "facts only; immediate Fed decision or price causality not established"
+    }
+  ],
+  "selected_leads": [
+    {
+      "topic": "Microsoft/Oracle older GPU contract renewal",
+      "status": "same underlying Reddit and media story; deduplicate, no primary company confirmation",
+      "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "original_access": "inaccessible"
+    },
+    {
+      "topic": "OpenAI continued data-center investment",
+      "status": "aggregation attributed executive statement; original not read; not verified new capex commitment",
+      "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+      "original_access": "inaccessible"
+    },
+    {
+      "topic": "employment report and rates reaction",
+      "status": "BLS actual release independently verified; media causality not independently verified",
+      "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-mixed-blowout-214822243.html",
+      "original_access": "inaccessible"
+    }
+  ],
+  "quality_gaps": [
+    "Micron headline text is followed by Chinese body saying 微芯科技, which denotes Microchip: inconsistent entity translation; do not use to attribute a company event.",
+    "CPI preview is timestamped 2026-11-10T13:30:00Z, after this cutoff; treat as calendar entry, not a Nov6 published news fact.",
+    "Price differences do not prove fund flows. Several AI rebound pieces describe the same market event and are not independent corroboration.",
+    "Quotes and temperature remain aggregator data pending main process independent price checks. Nasdaq Composite must not be substituted for Nasdaq-100."
+  ],
+  "dedup_baseline": "Nov6 saved source is Nov5 page updated23:14:30; current Nov6 page is new",
+  "state_mutation": "none",
+  "primary_access_routes": {
+    "web_tool": "EPAM official release and BLS dated latest release readable via web tool; facts extracted from full text",
+    "ordinary_http": [
+      {
+        "name": "epam_q3_release",
+        "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Third-Quarter-2026/default.aspx",
+        "captured_at_utc": "2026-11-06T23:38:54.841828+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "bls_empsit",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+        "captured_at_utc": "2026-11-06T23:38:56.067274+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "interpretation": "403 from direct download does not negate the actually read web-tool content; no access control bypass or repeated direct retries performed."
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "reviewed_at": "2026-11-13T03:10:36.821728+00:00",
+  "methodology": {
+    "name": "三年组合盈利代理/倍数敏感性；不是穿透DCF、公允NAV或发行人目标价",
+    "anchor_date": "2026-11-11",
+    "market_session": "2026-11-12",
+    "horizon_years": 3,
+    "required_return_assumption": 0.1,
+    "formula": "scenario_present_reference = anchor_price * (1+growth)^3 * (exit_multiple / disclosed_PE) * (1-expense_ratio)^3 / (1+required_return)^3",
+    "reverse_formula": "required_growth = (current_close / anchor_price)^(1/3) * (1+required_return) * (disclosed_PE / exit_multiple)^(1/3) / (1-expense_ratio) - 1",
+    "limitations": [
+      "ETF份额没有等同经营公司的每股利润。anchor_price/disclosed_PE只是映射单位，不是可审计ETF EPS；尤其剔除亏损公司的PE不能还原整个基金利润。",
+      "起点市场价与公开倍数统一用11/11；11/12 Yahoo常规收盘仅作今日比较，未把11/11组合估值冒称11/12新披露。",
+      "所有未来盈利增长、退出倍数、10%要求收益和八折缓冲均为研究假设，不是预测、历史估值均值或已批准的交易规则。",
+      "增长按各基金当前披露分母的同口径滚动代理理解。XSW为FY1预期口径，终点也采用未来当时FY1口径，不混为TTM。Global X年份口径未充分核清，情景可信度更低。",
+      "仅作价格回报敏感性，未加分红、税费与买卖价差；未来三年基金费用每年扣一次，未重复扣起点价历史费用。含分红总回报通常不同。",
+      "成分调仓、净亏损权重变化、估值算法改变和汇率都会破坏恒定组合假设。当前合理研究结论可以是无充分安全边际，而不是强造精确价值。",
+      "基准八折只是模型缓冲，不等于最大回撤20%，也不替代用户既定15%/25%观察规则；压力场景不是最坏情况。"
+    ]
+  },
+  "funds": {
+    "IGV": {
+      "price_reference": {
+        "official_anchor": 102.23,
+        "official_anchor_date": "2026-11-11",
+        "latest_close": 101.45,
+        "latest_close_time_utc": "2026-11-12T21:00:01+00:00",
+        "latest_close_source": "Yahoo; 本次单源参照"
+      },
+      "disclosed_PE": 33.05,
+      "disclosed_PE_date": "2026-11-11",
+      "PE_basis": "发行人PE采用各成分最近财政年度EPS，并排除负PE；未披露被排除权重，不能称TTM或全组合GAAP盈利。",
+      "expense_ratio": 0.0038,
+      "holdings_date": "2026-11-11",
+      "holding_count": 105,
+      "top_five_weights": [
+        [
+          "MSFT",
+          8.91
+        ],
+        [
+          "PLTR",
+          8.55
+        ],
+        [
+          "PANW",
+          8.39
+        ],
+        [
+          "CRWD",
+          7.92
+        ],
+        [
+          "ORCL",
+          7.59
+        ]
+      ],
+      "base_assumption_rationale": "基准假设盈利分母代理年增12%、终值28倍，主动测试软件高倍数压缩；AI收费增长仍可能被席位减少、推理成本和SBC抵消。",
+      "scenarios": {
+        "stress": {
+          "growth_assumption": 0,
+          "exit_PE_assumption": 22,
+          "terminal_price_sensitivity": 67.2774,
+          "present_reference": 50.5465,
+          "three_year_price_return_from_latest_close_pct": -33.6842
+        },
+        "base": {
+          "growth_assumption": 0.12,
+          "exit_PE_assumption": 28,
+          "terminal_price_sensitivity": 120.2981,
+          "present_reference": 90.3817,
+          "three_year_price_return_from_latest_close_pct": 18.5787
+        },
+        "bull": {
+          "growth_assumption": 0.15,
+          "exit_PE_assumption": 33.05,
+          "terminal_price_sensitivity": 153.7133,
+          "present_reference": 115.4871,
+          "three_year_price_return_from_latest_close_pct": 51.5163
+        }
+      },
+      "required_growth_at_current_price_pct": 16.397,
+      "sources": [
+        {
+          "title": "IGV 发行人产品页：估值/费率/实际披露日期",
+          "url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf"
+        },
+        {
+          "title": "IGV 官方持仓CSV，2026-11-11",
+          "url": "https://www.ishares.com/us/products/239771/ishares-expanded-tech-software-sector-etf/latest-holdings.csv"
+        },
+        {
+          "title": "IGV 11/12常规收盘（Yahoo，单源参照）",
+          "url": "https://finance.yahoo.com/quote/IGV/history/"
+        }
+      ]
+    },
+    "XSW": {
+      "price_reference": {
+        "official_anchor": 208.41,
+        "official_anchor_date": "2026-11-11",
+        "latest_close": 206.92,
+        "latest_close_time_utc": "2026-11-12T21:00:00+00:00",
+        "latest_close_source": "Yahoo; 本次单源参照"
+      },
+      "disclosed_PE": 18.93,
+      "disclosed_PE_date": "2026-11-11",
+      "PE_basis": "基金FY1 PE18.93为预期下一年EPS的加权调和口径，包含正负极端值；指数另列PE26.87，不能当同一分母。",
+      "expense_ratio": 0.0035,
+      "holdings_date": "2026-11-11",
+      "holding_count": 129,
+      "top_five_weights": [
+        [
+          "BRZE",
+          1.41
+        ],
+        [
+          "GDYN",
+          1.27
+        ],
+        [
+          "VIA",
+          1.19
+        ],
+        [
+          "APPN",
+          1.13
+        ],
+        [
+          "NETSKOPE",
+          1.12
+        ]
+      ],
+      "base_assumption_rationale": "基准把分母代理增速压至10%、终值18倍，低于披露的预测均值；分散降低单一龙头集中，但中小软件及服务企业面临模型替代和融资风险。",
+      "scenarios": {
+        "stress": {
+          "growth_assumption": -0.03,
+          "exit_PE_assumption": 14,
+          "terminal_price_sensitivity": 139.2012,
+          "present_reference": 104.5839,
+          "three_year_price_return_from_latest_close_pct": -32.727
+        },
+        "base": {
+          "growth_assumption": 0.1,
+          "exit_PE_assumption": 18,
+          "terminal_price_sensitivity": 261.006,
+          "present_reference": 196.0976,
+          "three_year_price_return_from_latest_close_pct": 26.1386
+        },
+        "bull": {
+          "growth_assumption": 0.15,
+          "exit_PE_assumption": 20,
+          "terminal_price_sensitivity": 331.3778,
+          "present_reference": 248.969,
+          "three_year_price_return_from_latest_close_pct": 60.1478
+        }
+      },
+      "required_growth_at_current_price_pct": 11.9875,
+      "sources": [
+        {
+          "title": "XSW 发行人产品页：估值/费率/实际披露日期",
+          "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-software-services-etf-xsw"
+        },
+        {
+          "title": "XSW 11/12常规收盘（Yahoo，单源参照）",
+          "url": "https://finance.yahoo.com/quote/XSW/history/"
+        }
+      ]
+    },
+    "IHI": {
+      "price_reference": {
+        "official_anchor": 58.17,
+        "official_anchor_date": "2026-11-11",
+        "latest_close": 57.46,
+        "latest_close_time_utc": "2026-11-12T21:00:00+00:00",
+        "latest_close_source": "Yahoo; 本次单源参照"
+      },
+      "disclosed_PE": 33.6,
+      "disclosed_PE_date": "2026-11-11",
+      "PE_basis": "发行人PE采用各成分最近财政年度EPS并排除负PE；不是可直接比较的全组合TTM PE。",
+      "expense_ratio": 0.0037,
+      "holdings_date": "2026-11-11",
+      "holding_count": 49,
+      "top_five_weights": [
+        [
+          "ABT",
+          17.38
+        ],
+        [
+          "ISRG",
+          14.6
+        ],
+        [
+          "MDT",
+          11.43
+        ],
+        [
+          "IDXX",
+          5.45
+        ],
+        [
+          "EW",
+          4.9
+        ]
+      ],
+      "base_assumption_rationale": "基准分母代理年增8%、终值28倍，给医疗器械增长而不假设AI单独爆发；手术量和耗材复购是支撑，支付压价、产品召回和关税是反证。",
+      "scenarios": {
+        "stress": {
+          "growth_assumption": 0,
+          "exit_PE_assumption": 22,
+          "terminal_price_sensitivity": 37.6663,
+          "present_reference": 28.2992,
+          "three_year_price_return_from_latest_close_pct": -34.4478
+        },
+        "base": {
+          "growth_assumption": 0.08,
+          "exit_PE_assumption": 28,
+          "terminal_price_sensitivity": 60.3892,
+          "present_reference": 45.3713,
+          "three_year_price_return_from_latest_close_pct": 5.0979
+        },
+        "bull": {
+          "growth_assumption": 0.12,
+          "exit_PE_assumption": 33.6,
+          "terminal_price_sensitivity": 80.8209,
+          "present_reference": 60.7219,
+          "three_year_price_return_from_latest_close_pct": 40.6559
+        }
+      },
+      "required_growth_at_current_price_pct": 16.8472,
+      "sources": [
+        {
+          "title": "IHI 发行人产品页：估值/费率/实际披露日期",
+          "url": "https://www.ishares.com/us/products/239516/ishares-us-medical-devices-etf"
+        },
+        {
+          "title": "IHI 官方持仓CSV，2026-11-11",
+          "url": "https://www.ishares.com/us/products/239516/ishares-u-s-medical-devices-etf/latest-holdings.csv"
+        },
+        {
+          "title": "IHI 11/12常规收盘（Yahoo，单源参照）",
+          "url": "https://finance.yahoo.com/quote/IHI/history/"
+        }
+      ]
+    },
+    "BOTZ": {
+      "price_reference": {
+        "official_anchor": 32.23,
+        "official_anchor_date": "2026-11-11",
+        "latest_close": 31.42,
+        "latest_close_time_utc": "2026-11-12T21:00:01+00:00",
+        "latest_close_source": "Yahoo; 本次单源参照"
+      },
+      "disclosed_PE": 30.12,
+      "disclosed_PE_date": "2026-11-11",
+      "PE_basis": "Global X展示AltaVista 2026年份PE30.12（2025栏42.97）；页面未完整说明预期/实现混合、负盈利和聚合算法，不能称GAAP TTM。",
+      "expense_ratio": 0.0068,
+      "holdings_date": "2026-11-11",
+      "holding_count": 81,
+      "top_five_weights": [
+        [
+          "ISRG",
+          10.38
+        ],
+        [
+          "FANUC",
+          8.45
+        ],
+        [
+          "KEYENCE",
+          8.3
+        ],
+        [
+          "ABB",
+          7.66
+        ],
+        [
+          "NVDA",
+          6.65
+        ]
+      ],
+      "base_assumption_rationale": "基准分母代理年增8%、终值25倍，计入工业资本开支周期和估值压缩；机器人需求不等于各设备商都能维持利润。",
+      "scenarios": {
+        "stress": {
+          "growth_assumption": -0.03,
+          "exit_PE_assumption": 20,
+          "terminal_price_sensitivity": 19.1364,
+          "present_reference": 14.3775,
+          "three_year_price_return_from_latest_close_pct": -39.0948
+        },
+        "base": {
+          "growth_assumption": 0.08,
+          "exit_PE_assumption": 25,
+          "terminal_price_sensitivity": 33.0162,
+          "present_reference": 24.8055,
+          "three_year_price_return_from_latest_close_pct": 5.0801
+        },
+        "bull": {
+          "growth_assumption": 0.12,
+          "exit_PE_assumption": 30.12,
+          "terminal_price_sensitivity": 44.3634,
+          "present_reference": 33.3309,
+          "three_year_price_return_from_latest_close_pct": 41.1947
+        }
+      },
+      "required_growth_at_current_price_pct": 16.8538,
+      "sources": [
+        {
+          "title": "BOTZ 发行人产品页：估值/费率/实际披露日期",
+          "url": "https://www.globalxetfs.com/funds/botz"
+        },
+        {
+          "title": "BOTZ 11/12常规收盘（Yahoo，单源参照）",
+          "url": "https://finance.yahoo.com/quote/BOTZ/history/"
+        }
+      ]
+    },
+    "AIQ": {
+      "price_reference": {
+        "official_anchor": 59.91,
+        "official_anchor_date": "2026-11-11",
+        "latest_close": 59.49,
+        "latest_close_time_utc": "2026-11-12T21:00:01+00:00",
+        "latest_close_source": "Yahoo; 本次单源参照"
+      },
+      "disclosed_PE": 18.49,
+      "disclosed_PE_date": "2026-11-11",
+      "PE_basis": "Global X展示AltaVista 2026年份PE18.49（2025栏27.74）；未完整核定会计口径、负盈利处理与预测覆盖，不可据此直接认定低估。",
+      "expense_ratio": 0.0068,
+      "holdings_date": "2026-11-11",
+      "holding_count": 88,
+      "top_five_weights": [
+        [
+          "PLTR",
+          4.1
+        ],
+        [
+          "MSFT",
+          4.01
+        ],
+        [
+          "TSLA",
+          3.59
+        ],
+        [
+          "SPCX",
+          3.47
+        ],
+        [
+          "AMZN",
+          3.34
+        ]
+      ],
+      "base_assumption_rationale": "基准分母代理年增10%、终值18倍，不依赖估值扩张；较低表面PE也可能受周期利润、预测口径与芯片权重影响。",
+      "scenarios": {
+        "stress": {
+          "growth_assumption": -0.03,
+          "exit_PE_assumption": 14,
+          "terminal_price_sensitivity": 40.5617,
+          "present_reference": 30.4746,
+          "three_year_price_return_from_latest_close_pct": -31.8177
+        },
+        "base": {
+          "growth_assumption": 0.1,
+          "exit_PE_assumption": 18,
+          "terminal_price_sensitivity": 76.0542,
+          "present_reference": 57.1406,
+          "three_year_price_return_from_latest_close_pct": 27.8436
+        },
+        "bull": {
+          "growth_assumption": 0.15,
+          "exit_PE_assumption": 20,
+          "terminal_price_sensitivity": 96.5597,
+          "present_reference": 72.5468,
+          "three_year_price_return_from_latest_close_pct": 62.3125
+        }
+      },
+      "required_growth_at_current_price_pct": 11.4874,
+      "sources": [
+        {
+          "title": "AIQ 发行人产品页：估值/费率/实际披露日期",
+          "url": "https://www.globalxetfs.com/funds/aiq"
+        },
+        {
+          "title": "AIQ 11/12常规收盘（Yahoo，单源参照）",
+          "url": "https://finance.yahoo.com/quote/AIQ/history/"
+        }
+      ]
+    }
+  }
+}

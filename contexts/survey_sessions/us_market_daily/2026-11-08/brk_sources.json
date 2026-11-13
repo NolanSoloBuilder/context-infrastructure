@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-11-08",
+  "market_session": "2026-11-06",
+  "reviewed_at": "2026-11-07T23:36:19Z",
+  "sources": [
+    {
+      "id": "brk_q3_10q",
+      "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+      "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf",
+      "document_date": "2026-11-07",
+      "financial_date": "2026-09-30",
+      "read_scope": "完整58页文本；重点印刷页2–7、12–13、21–22、33–38、47–49及51；资产表和回购表图像核对",
+      "raw": "raw_brk/3rdqtr26.pdf",
+      "reviewed_at": "2026-11-07T23:36:19Z",
+      "verification": "official_primary",
+      "sha256": "1371ad3954dea03432d726186276680e701af2751c7ba10389102b2603c483c5"
+    },
+    {
+      "id": "brk_q3_release",
+      "title": "Berkshire 11/7官方Q3业绩新闻稿",
+      "url": "https://www.berkshirehathaway.com/news/nov0726.pdf",
+      "document_date": "2026-11-07",
+      "financial_date": "2026-09-30",
+      "read_scope": "完整2页",
+      "raw": "raw_brk/nov0726.pdf",
+      "reviewed_at": "2026-11-07T23:36:19Z",
+      "verification": "official_primary",
+      "sha256": "733486712614884d27dd4af2ee736039eeb648cde342b7afeaa9d87feae80224"
+    },
+    {
+      "id": "brk_q2_10q",
+      "title": "Berkshire官网2026Q2 10-Q半年现金流（用于单季差分）",
+      "url": "https://www.berkshirehathaway.com/qtrly/2ndqtr26.pdf",
+      "financial_date": "2026-06-30",
+      "document_date": null,
+      "read_scope": "完整文本提取，使用印刷页7股票买卖现金流；原发布日期本次未重核",
+      "raw": "raw_brk/2ndqtr26.pdf",
+      "reviewed_at": "2026-11-07T23:36:19Z",
+      "verification": "official_primary",
+      "sha256": "e643fa68c05b240ce71f398f4da0b40d39e6caf3fdc83f615646a69d0a4f6f1f"
+    },
+    {
+      "id": "brk_sec_recent",
+      "title": "Berkshire SEC submissions recent",
+      "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "read_scope": "本次recent最新条目为11/3 Form4，未见本季10-Q入库；不否定官网已发布完整10-Q",
+      "raw": "raw_brk/submissions.json",
+      "reviewed_at": "2026-11-07T23:36:19Z",
+      "verification": "official_primary",
+      "sha256": "4486ee768583478d98bb56a5cfce9d8ed8f2985c9f0c252c05a4e4898d32dca9"
+    },
+    {
+      "id": "brk_price_context",
+      "title": "StockAnalysis BRK.B历史价格（主线本次读取）",
+      "url": "https://stockanalysis.com/stocks/brk.b/history/",
+      "market_session": "2026-11-06",
+      "price_usd": 570.89,
+      "read_scope": "主agent11/8重新读取确认的11/6常规收盘；本子任务未再重复请求。本次不是多源重新核验。市场价格早于11/7财报",
+      "raw": null,
+      "reviewed_at": "2026-11-07T23:36:19Z",
+      "verification": "third_party_parent_current_read"
+    }
+  ]
+}

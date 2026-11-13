@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "cutoff_utc": "2026-11-06T23:30:00+00:00",
+  "checked_at_utc": "2026-11-06T23:41:07.132245+00:00",
+  "target_window_hours": 24,
+  "primary_window_start_utc": "2026-11-05T23:30:00+00:00",
+  "extended_window_hours": 72,
+  "full_scan_complete": false,
+  "coverage_status": "partial_public_access_three_selected_new_items",
+  "selected_new_items": [
+    {
+      "id": "1xpf1ot",
+      "community": "stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xpf1ot/epam_came_up_with_new_15b_cash_burning/",
+      "title": "Epam came up with new 1.5B cash burning",
+      "post_time_utc": "2026-11-06T15:05:45+00:00",
+      "post_time_beijing": "2026-11-06T23:05:45+08:00",
+      "post_updated_utc": "2026-11-06T15:05:45+00:00",
+      "captured_at_utc": "2026-11-06T23:37:18.269913+00:00",
+      "time_evidence": "this run public New Atom RSS published field, not cached relative age",
+      "votes_and_comment_count": null,
+      "claim_key": "epam_buyback_authorization_vs_spending_cash_conversion_2026_11_06",
+      "classification": "已核验财务口径／新增反方讨论",
+      "event_dates": [
+        "2026-11-05",
+        "2026-09-30"
+      ],
+      "read_scope": "full RSS and original post; visible contrary comment and author reply",
+      "comments_status": "read opposing comment praising earnings/revenue/guidance, and author reply challenging lowered expectation baseline; neither consensus nor accuracy of beat claim assumed",
+      "claim": "Author calls a $1.5bn incremental buyback authorization cash burning and predicts further share losses. Authorization is not completed spending.",
+      "verified_facts": {
+        "new_incremental_authorization_usd_m": 1500,
+        "total_remaining_authorization_usd_m": 1800,
+        "planned_asr_usd_m": 500,
+        "planned_asr_timing": "week of 2026-11-09, intention not execution",
+        "asr_expected_funding": "cash on hand and existing credit facility borrowings",
+        "nine_month_cfo_usd_m": 250.1,
+        "prior_year_nine_month_cfo_usd_m": 372.0,
+        "nine_month_actual_buybacks_usd_m": 489
+      },
+      "judgment": "Capital return must be separated from evidence of FDE/AI demand. Buybacks can help per-share results, but do not prove operating cash conversion or that the shares were purchased below intrinsic value.",
+      "opposition": "An authorization is discretionary, not cash already lost. Conversely, a management claim of AI/FDE momentum or an earnings beat does not remove financing and cash-conversion questions.",
+      "unsupported_claims_excluded": [
+        "author 80% probability forecast",
+        "short-seller motive claims",
+        "buyback equals $1.5bn cash already spent",
+        "stock collapse or index exclusion as proof business deterioration"
+      ],
+      "next": "Verify ASR execution, actual settlement price and net share reduction after SBC; track organic growth, recurring operating cash flow and debt drawdown.",
+      "relation": "EPAM/FDE and AI implementation economics; no adopted allocation or valuation conclusion",
+      "verification_sources": [
+        {
+          "title": "EPAM 2026Q3官方业绩及资本配置（11月5日）",
+          "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Third-Quarter-2026/default.aspx",
+          "source_level": "issuer_primary",
+          "event_date": "2026-11-05",
+          "read_scope": "official full release, operating cash flow and capital allocation sections"
+        }
+      ],
+      "status": "selected_new_discussion_fact_checked_old_release_not_new_earnings"
+    },
+    {
+      "id": "1xpjkkr",
+      "community": "stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xpjkkr/microsoft_corp_is_winding_down_an_arrangement_to/",
+      "title": "Microsoft Corp. is winding down an arrangement to rent AI computing from Oracle.",
+      "post_time_utc": "2026-11-06T18:02:06+00:00",
+      "post_time_beijing": "2026-11-07T02:02:06+08:00",
+      "post_updated_utc": "2026-11-06T18:02:06+00:00",
+      "captured_at_utc": "2026-11-06T23:37:18.269913+00:00",
+      "time_evidence": "this run public New Atom RSS published field, not cached relative age",
+      "votes_and_comment_count": null,
+      "claim_key": "microsoft_oracle_old_gpu_contract_renewal_vs_ai_total_demand_2026_11_06",
+      "classification": "待核验媒体线索／竞争与设备寿命研究",
+      "event_dates": [
+        "2026-11-06"
+      ],
+      "read_scope": "full RSS original body and original public page; substantive contradictory comments read",
+      "comments_status": "read comments doubting old GPU residual value and opposing comments distinguishing a supplier/generation switch from lower demand",
+      "claim": "Post relays unnamed-source reporting that Microsoft is not renewing rented older-generation Oracle compute. This is a reported claim, not a company-confirmed contract change in this scan.",
+      "judgment": "If confirmed, test old-hardware useful life and supplier bargaining power separately from aggregate AI spending. It may imply customer migration or generation replacement rather than a fall in total AI workload.",
+      "opposition": "The post itself quotes Oracle as saying demand remains strong, while commenters argue Microsoft may shift contracts elsewhere. Neither proves destination, cancellation size or revenue impact.",
+      "next": "Obtain Microsoft/Oracle formal disclosure or a directly readable primary report; verify capacity, contract value, remaining obligation, replacement destination and impairment/depreciation impact.",
+      "relation": "NVDA/SMH/DRAM and cloud platform capital returns; application adoption alone cannot establish infra economics",
+      "verification_sources": [],
+      "attempted_external_sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+          "status": "original_open_inaccessible"
+        },
+        {
+          "url": "https://www.streetinsider.com/Reuters/Microsoft%2Bis%2Bwinding%2Bdown%2BOracle%2Bdeal%2Bto%2Brent%2BAI%2Bcloud%2Bcapacity%2C%2BBloomberg%2BNews%2Breports/27306455.html",
+          "status": "search result readable, full open inaccessible; Reuters item itself attributes Bloomberg anonymous sourcing, not independent confirmation"
+        }
+      ],
+      "unsupported_claims_excluded": [
+        "claimed 20% repricing of older GPUs as freshly verified company fact",
+        "industry-wide capex cut or AI demand collapse",
+        "specific contract cancellation value or remaining life change"
+      ],
+      "status": "selected_unverified_lead_not_entry_evidence"
+    },
+    {
+      "id": "1xpbg1b",
+      "community": "stocks",
+      "url": "https://www.reddit.com/r/stocks/comments/1xpbg1b/forward_pe_vs_what_the_price_actually_needs_14/",
+      "title": "Forward P/E vs. what the price actually needs: 14 chip stocks after yesterday's selloff",
+      "post_time_utc": "2026-11-06T12:21:11+00:00",
+      "post_time_beijing": "2026-11-06T20:21:11+08:00",
+      "post_updated_utc": "2026-11-06T12:21:11+00:00",
+      "captured_at_utc": "2026-11-06T23:37:18.269913+00:00",
+      "time_evidence": "this run public New Atom RSS published field, not cached relative age",
+      "votes_and_comment_count": null,
+      "claim_key": "semiconductor_reverse_dcf_cycle_sbc_net_cash_limits_2026_11_06",
+      "classification": "待核验估值方法观点",
+      "event_dates": [
+        "2026-11-05",
+        "2026-11-06"
+      ],
+      "read_scope": "full RSS original text, explicit model assumptions and limitations; public original post separately opened",
+      "comments_status": "comments section has no readable substantive comments; do not assert none exist",
+      "claim": "Post proposes comparing forward P/E with growth implied by a reverse DCF using trailing FCF.",
+      "judgment": "Useful question, incomplete implementation: the author explicitly excludes SBC economic cost and net cash/debt and uses one discount rate across companies. No ticker-specific implied growth, multiple or cheapness conclusion is adopted.",
+      "opposition": "A cyclical peak may inflate trailing cash flow; a rapid grower may have lagging trailing cash flow. A very low forward P/E is not sufficient evidence of a margin of safety. These are model risks, not proof a given stock is expensive.",
+      "next": "Rebuild normalized owner cash flow across the cycle, reconcile SBC and debt/cash without double counting, vary discount rate and terminal growth; then compare against actual price and conservative scenario.",
+      "relation": "DRAM/SOXX/SMH/NVDA and AI applications valuation discipline; avoids equating sector drawdown with cheapness",
+      "verification_sources": [],
+      "unsupported_claims_excluded": [
+        "all 14 numerical P/E and implied FCF growth values",
+        "unverified spot prices and analyst forecasts"
+      ],
+      "status": "selected_methodological_question_no_verified_stock_valuation"
+    }
+  ],
+  "rss": {
+    "successful_community": "stocks",
+    "count": 25,
+    "captured_at_utc": "2026-11-06T23:37:18.269913+00:00",
+    "oldest_post_utc": "2026-11-05T19:59:13+00:00",
+    "latest_post_utc": "2026-11-06T21:09:06+00:00",
+    "scope": "current first page covers primary 24h chronological span for stocks only",
+    "other_five": "HTTP429 after TLS trust-store correction; stopped, no bypass"
+  },
+  "new_top_views": [
+    {
+      "community": "investing",
+      "view": "new",
+      "read_result": "current body, absolute time not obtained for its posts"
+    },
+    {
+      "community": "investing",
+      "view": "top day",
+      "read_result": "three-week-old cache"
+    },
+    {
+      "community": "stocks",
+      "view": "new",
+      "read_result": "yesterday cached HTML; current RSS obtained separately"
+    },
+    {
+      "community": "stocks",
+      "view": "top day",
+      "read_result": "three-day-old cache"
+    },
+    {
+      "community": "SecurityAnalysis",
+      "view": "new",
+      "read_result": "two-week-old cache"
+    },
+    {
+      "community": "SecurityAnalysis",
+      "view": "top day",
+      "read_result": "three-week-old empty cached page; not evidence of no new posts"
+    },
+    {
+      "community": "ValueInvesting",
+      "view": "new",
+      "read_result": "current body, absolute timestamps missing"
+    },
+    {
+      "community": "ValueInvesting",
+      "view": "top day",
+      "read_result": "last-week cache"
+    },
+    {
+      "community": "Bogleheads",
+      "view": "new",
+      "read_result": "current body, absolute timestamps missing"
+    },
+    {
+      "community": "Bogleheads",
+      "view": "top day",
+      "read_result": "two-week cache"
+    },
+    {
+      "community": "ETFs",
+      "view": "new",
+      "read_result": "three-week cache"
+    },
+    {
+      "community": "ETFs",
+      "view": "top day",
+      "read_result": "last-week cache"
+    }
+  ],
+  "http_attempts": [
+    {
+      "name": "finews_home",
+      "url": "https://finews.fyi/",
+      "captured_at_utc": "2026-11-06T23:37:18.269531+00:00",
+      "status": 200,
+      "bytes": 133857,
+      "text_start": "FiNews 美股日报｜今日美股行情、美股指数盘后总结\nFiNews\n美股日报 · 更新\n2026-11-06 23:15:21 UTC\n2026-11-06\n‹\n›\n日\n一\n二\n三\n四\n五\n六\n2026年11月6日 美股盘后日报\n头部个股热力图\n美股头部个股热力图 2026-11-06\n2026 年 11 月 6 日\n−0.46%\n道指\n+1.09%\n纳指\n+0.31%\n标普 500\n科技"
+    },
+    {
+      "name": "investing_new",
+      "url": "https://www.reddit.com/r/investing/new/.rss",
+      "captured_at_utc": "2026-11-06T23:37:18.269837+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "stocks_new",
+      "url": "https://www.reddit.com/r/stocks/new/.rss",
+      "captured_at_utc": "2026-11-06T23:37:18.269913+00:00",
+      "status": 200,
+      "bytes": 86479,
+      "count": 25,
+      "first": "2026-11-06T21:09:06+00:00",
+      "last": "2026-11-05T19:59:13+00:00"
+    },
+    {
+      "name": "SecurityAnalysis_new",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+      "captured_at_utc": "2026-11-06T23:37:18.819074+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ValueInvesting_new",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+      "captured_at_utc": "2026-11-06T23:37:18.851241+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "Bogleheads_new",
+      "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+      "captured_at_utc": "2026-11-06T23:37:19.397149+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ETFs_new",
+      "url": "https://www.reddit.com/r/ETFs/new/.rss",
+      "captured_at_utc": "2026-11-06T23:37:19.538694+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "local_runtime_issue": "initial Python CA bundle was missing local issuer; retried once with macOS /etc/ssl/cert.pem and verification still enabled; did not disable TLS verification",
+  "read_but_excluded": [
+    {
+      "id": "1xpo8oa",
+      "url": "https://www.reddit.com/r/investing/comments/1xpo8oa/how_do_you_record_what_would_disprove_an/",
+      "reason": "generic methodology question, no substantive comments and no absolute time verified; not a new financial fact"
+    },
+    {
+      "id": "1xpct6i",
+      "url": "https://www.reddit.com/r/investing/comments/1xpct6i/chip_stocks_fell_917_today_on_fears_of_a_slower/",
+      "reason": "original body and opposing comments read; absolute timestamp missing, aggregate capex/financing arithmetic not reverified; Google financing already covered in yesterday report"
+    },
+    {
+      "id": "1xp4pe7",
+      "url": "https://www.reddit.com/r/ValueInvesting/comments/1xp4pe7/texas_governor_on_datacenters_regulations_are/",
+      "reason": "public body and comments read; no exact time or original policy transcript; overlap yesterday policy sentiment; not an enacted-rule fact"
+    },
+    {
+      "id": "1xp4qxa",
+      "url": "https://www.reddit.com/r/stocks/comments/1xp4qxa/uber_at_69_a_10b_free_cash_flow_machine_trading/",
+      "reason": "dated cross-post RSS and ValueInvesting original body read; Uber financial/DCF/robotaxi claims not independently verified and no visible substantive comments; not selected as undervaluation"
+    },
+    {
+      "id": "1xpmfh4",
+      "url": "https://www.reddit.com/r/stocks/comments/1xpmfh4/is_this_actually_an_ai_bubble_burst_or_just_macro/",
+      "reason": "broad correction-vs-bubble narrative overlaps yesterday; individual valuation quotes unverified. Official BLS actual data verified separately in FiNews digest."
+    },
+    {
+      "topic": "EPAM/FDE targeted search",
+      "reason": "most search hits are September or older employment/management discussions, not latest dated investing developments; excluded"
+    }
+  ],
+  "dedup_baseline": "reddit_state.json latest reported run 2026-11-06, all 3 selected IDs/claim keys absent; yesterday MW/policy/VGT not re-pushed as new",
+  "state_mutation": "not changed; proposal only, must wait for actual publication before reported markers",
+  "primary_access_routes": {
+    "web_tool": "EPAM official release and BLS dated latest release readable via web tool; facts extracted from full text",
+    "ordinary_http": [
+      {
+        "name": "epam_q3_release",
+        "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Third-Quarter-2026/default.aspx",
+        "captured_at_utc": "2026-11-06T23:38:54.841828+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "bls_empsit",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+        "captured_at_utc": "2026-11-06T23:38:56.067274+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "interpretation": "403 from direct download does not negate the actually read web-tool content; no access control bypass or repeated direct retries performed."
+  }
+}

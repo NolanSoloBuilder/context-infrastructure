@@ -1,0 +1,45 @@
+{
+  "report_date": "2026-11-08",
+  "reviewed_at": "2026-11-07T23:34:38.081678+00:00",
+  "sections": [
+    {
+      "title": "Reddit增量｜订单口径与AI使用成本",
+      "paragraphs": [
+        "本次保留2条24小时内新讨论。r/stocks RSS取得正文与绝对日期；其余5个社区RSS限流，六社区Top日窗均是旧缓存，覆盖不完整。昨天3条已报道线索不重复。",
+        "STRL（11月7日18:42北京）：新帖将近80亿美元称作总积压订单。10月28日官方披露的已签订单41.4亿美元，含未签授标的合计61.4亿美元；近80亿美元还含设计阶段后续工作。已签book-to-burn为0.9x，需核签约转化和回款，不据帖内跌幅或PE认定低估。它属于AI建设链，尚非新增正式观察项。",
+        "模型路由（11月7日13:14北京）：新帖及评论讨论企业控制token费用，反方要求证明质量相当。匿名降本与收入流失说法未核；AWS只验证同家族模型路由机制及其限制。应用价值应核每项成功业务任务的总成本、付费留存与毛利，不能把单位成本下降直接等同模型商总收入下滑。",
+        "BRK原帖覆盖有缺口：社区New缓存2天旧，未取得本周末财报新帖；这不代表没有讨论。公司事实以官方Q3披露的独立核验为准。"
+      ],
+      "sources": [
+        {
+          "title": "STRL新讨论",
+          "url": "https://www.reddit.com/r/stocks/comments/1xq3hs1/sterling_infrastructure_strl/"
+        },
+        {
+          "title": "STRL Q3官方订单定义（10月28日）",
+          "url": "https://www.strlco.com/news/sterling-reports-record-third-quarter-results-and-raises-full-year-2026-guidance/"
+        },
+        {
+          "title": "模型路由新讨论与反方评论",
+          "url": "https://www.reddit.com/r/stocks/comments/1xpy9qs/a_view_on_anthropics_revenue/"
+        },
+        {
+          "title": "AWS路由机制及限制",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html"
+        }
+      ]
+    },
+    {
+      "title": "FiNews周末检查｜读取成功，无新增",
+      "paragraphs": [
+        "本次实际HTTP200读取最新页；仍是11月6日，更新时间23:15:21 UTC，全文与昨日版本一致。没有新增日报或实质条目变化，不重复周五行情和旧摘要。"
+      ],
+      "sources": [
+        {
+          "title": "FiNews最新页",
+          "url": "https://finews.fyi/"
+        }
+      ]
+    }
+  ]
+}

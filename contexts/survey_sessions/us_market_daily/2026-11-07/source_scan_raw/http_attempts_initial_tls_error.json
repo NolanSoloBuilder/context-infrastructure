@@ -1,0 +1,44 @@
+[
+  {
+    "name": "finews_home",
+    "url": "https://finews.fyi/",
+    "captured_at_utc": "2026-11-06T23:36:51.889081+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "investing_new",
+    "url": "https://www.reddit.com/r/investing/new/.rss",
+    "captured_at_utc": "2026-11-06T23:36:51.889679+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "stocks_new",
+    "url": "https://www.reddit.com/r/stocks/new/.rss",
+    "captured_at_utc": "2026-11-06T23:36:51.889808+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "SecurityAnalysis_new",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+    "captured_at_utc": "2026-11-06T23:36:52.138443+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "ValueInvesting_new",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+    "captured_at_utc": "2026-11-06T23:36:52.138578+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "Bogleheads_new",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+    "captured_at_utc": "2026-11-06T23:36:52.282420+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "ETFs_new",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss",
+    "captured_at_utc": "2026-11-06T23:36:52.291333+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-11-10T09:02:59.403104+08:00",
+  "window_start": "2026-11-09T09:00:00+08:00",
+  "window_end": "2026-11-10T09:00:00+08:00",
+  "message_count": 17,
+  "candidate_count": 14,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b6012e57b18a8cd3f387859fe0a1",
+      "source_time": "2026-11-10 08:50+08:00",
+      "sync_create_time": "1794271931678",
+      "content_sha256": "26721bd9a514c6f84cd9cc9e3ed0661a952a1c20b0e5ec222104b20785fc1ff0",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者把上证3600点附近当作本轮反弹情景的观察位，强调先想好反弹失败和继续下跌的应对。谈到能承受浮亏时逐步配置指数的思路，未披露本人仓位或买入指令。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6021bffbe510ce9c50367f1da97",
+      "source_time": "2026-11-09 13:49+08:00",
+      "sync_create_time": "1794203411671",
+      "content_sha256": "6585aa674a6b83784862b187e9f0695eb9036a5a9106d2b739efd7c7fb4ea01f",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者把上证约3600和3400作为两种情景，差别在于前期相对抗跌板块是否补跌。两者均为条件判断。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b602115fadc88b08d92de316d4d1",
+      "source_time": "2026-11-09 13:09+08:00",
+      "sync_create_time": "1794201011729",
+      "content_sha256": "056c1cf3a0eb103338d70a4998da42e5909123d7691cd373b9ccabe8d21be782",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者仍将可能出现的上涨视为波段反弹，明确判断有不确定性，未视为趋势反转。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "合并前一晚同主题答复，过滤成员内容和无关话题。",
+  "coverage": "群同步作者观点，非原知识星球全文。"
+}

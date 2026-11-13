@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-08",
+  "checked_at_utc": "2026-11-07T23:34:38.081678+00:00",
+  "url": "https://finews.fyi/",
+  "market_session": "2026-11-06",
+  "source_updated_at_utc": "2026-11-06T23:15:21+00:00",
+  "status": "success_unchanged",
+  "read_scope": "Actual HTTPS200 full HTML/text saved; read market summary and19 linked news items. Text equals previous successfully collected November7 digest source.",
+  "current_text_sha256": "83ef48b51b48e6b06ee6ce8cb1b3a26763f3b754ae442869c5e65b3ea8246aab",
+  "previous_text_sha256": "83ef48b51b48e6b06ee6ce8cb1b3a26763f3b754ae442869c5e65b3ea8246aab",
+  "text_identical": true,
+  "new_selected_items": [],
+  "reason": "No new FiNews edition or text change; weekend does not turn old quotes or summaries into fresh evidence.",
+  "known_existing_quality_limits": [
+    "Prior Micron headline/body company-name mismatch remains; not recast as a new story.",
+    "CPI calendar entry is a future event, not a released reading.",
+    "Aggregation is not independent validation of underlying articles."
+  ],
+  "raw_html": "source_scan_raw/finews_home.html",
+  "raw_text": "source_scan_raw/finews_home.txt",
+  "http_attempts": "source_scan_raw/http_attempts.json"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "qqqm_official.html",
+    "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-nasdaq-100-etf.html",
+    "retrieved_at_utc": "2026-11-12T02:31:13.396497+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "file": "smh_official.html",
+    "url": "https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/holdings/",
+    "retrieved_at_utc": "2026-11-12T02:31:13.398159+00:00",
+    "http_status": "000",
+    "exit_code": 28,
+    "error": "curl: (28) Failed to connect to www.vaneck.com port 443 after 10002 ms: Timeout was reached\n"
+  },
+  {
+    "file": "soxx_holdings.csv",
+    "url": "https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/latest-holdings.csv",
+    "retrieved_at_utc": "2026-11-12T02:31:13.401106+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "file": "smh_holdings.xlsx",
+    "url": "https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/downloads/holdings/",
+    "retrieved_at_utc": "2026-11-12T02:31:13.404321+00:00",
+    "http_status": "000",
+    "exit_code": 28,
+    "error": "curl: (28) Failed to connect to www.vaneck.com port 443 after 10005 ms: Timeout was reached\n"
+  },
+  {
+    "file": "qqqm_dng.json",
+    "url": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/46138G649/holdings/fund?idType=cusip&productType=ETF",
+    "retrieved_at_utc": "2026-11-12T02:31:14.147971+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  }
+]

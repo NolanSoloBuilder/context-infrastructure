@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-11-11T09:04:28.496502+08:00",
+  "report_date": "2026-11-11",
+  "cutoff": "2026-11-11T09:00:00+08:00",
+  "market_session": "2026-11-10",
+  "valuation_issue": 3011,
+  "valuation_asof": "2026-11-10",
+  "verified_star": 4.8,
+  "previous_verified_star": 4.8,
+  "threshold_triggered": false,
+  "author_list": "https://www.sina.cn/media/5546795997/",
+  "article": "https://www.sina.cn/news/detail/5363821361238031.html",
+  "source_image_sha256": "07d52a628e32499cf6176b6f39ae1825dcc929c81baf82dcff9c5f447072cd04",
+  "valuation_counts": {
+    "低估": 19,
+    "正常": 31,
+    "高估": 0
+  },
+  "pension_table_asof": "2026-11-09",
+  "finews_report_date": "2026-11-10",
+  "group_reviewed_count": 2,
+  "china_history_gap": [
+    {
+      "symbol": "usKWEB.AM",
+      "history_asof": "2026-11-09",
+      "missing_session": "2026-11-10",
+      "quote_time": "2026-11-10T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBABA.N",
+      "history_asof": "2026-11-09",
+      "missing_session": "2026-11-10",
+      "quote_time": "2026-11-10T16:08:16-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usPDD.OQ",
+      "history_asof": "2026-11-09",
+      "missing_session": "2026-11-10",
+      "quote_time": "2026-11-10T16:00:02-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usJD.OQ",
+      "history_asof": "2026-11-09",
+      "missing_session": "2026-11-10",
+      "quote_time": "2026-11-10T16:00:02-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBIDU.OQ",
+      "history_asof": "2026-11-09",
+      "missing_session": "2026-11-10",
+      "quote_time": "2026-11-10T16:00:02-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usNTES.OQ",
+      "history_asof": "2026-11-09",
+      "missing_session": "2026-11-10",
+      "quote_time": "2026-11-10T16:00:02-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "asof_research": "2026-11-12",
+  "reviewed_at": "2026-11-11T23:35:20.406787+00:00",
+  "source_event_date": "2026-11-10",
+  "source": "https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Transcript-_1_.pdf",
+  "units": "USD million; annualized revenue opportunity, not recognized revenue or cash flow",
+  "source_locations": {
+    "renewal_pricing": "PDF page 3",
+    "prepayments": "PDF pages 2, 6, 12",
+    "renewal_backlog_exclusion": "PDF page 12 Q&A",
+    "conditional_capex": "PDF pages 6-7"
+  },
+  "management_inputs": {
+    "2027_gpus_coming_off_contract_more_than": 130000,
+    "2028_additional_gpus_coming_off_contract_approximately": 170000,
+    "2027_renewal_annualized_revenue_opportunity_approximately": 4000,
+    "2027_and_2028_cumulative_renewal_annualized_revenue_opportunity_approximately": 10000,
+    "next_three_months_expected_customer_prepayments_and_deposits_approximately": 9000,
+    "of_which_paid_off_existing_infrastructure_more_than": 3000,
+    "future_cash_not_received_as_of_source": true
+  },
+  "formula": "management opportunity * renewal price relative to management current-price assumption * capacity successfully recontracted relative to assumed opportunity",
+  "illustrative_scenarios_not_forecasts": [
+    {
+      "name": "management current-price reference",
+      "price_factor": 1.0,
+      "recontracting_realization_factor": 1.0,
+      "2027_annualized_revenue_opportunity": 4000.0,
+      "2027_plus_2028_annualized_revenue_opportunity": 10000.0
+    },
+    {
+      "name": "price 25% below reference",
+      "price_factor": 0.75,
+      "recontracting_realization_factor": 1.0,
+      "2027_annualized_revenue_opportunity": 3000.0,
+      "2027_plus_2028_annualized_revenue_opportunity": 7500.0
+    },
+    {
+      "name": "price 25% below reference and 80% realization",
+      "price_factor": 0.75,
+      "recontracting_realization_factor": 0.8,
+      "2027_annualized_revenue_opportunity": 2400.0,
+      "2027_plus_2028_annualized_revenue_opportunity": 6000.0
+    }
+  ],
+  "limitations": [
+    "The CFO states these opportunities are outside currently contracted revenue backlog. They are not signed incremental orders.",
+    "The 2028 figure includes 2027 renewals; do not sum 4000+10000 or treat either as full-calendar-year recognized revenue.",
+    "Use round 4000/10000 solely as approximations to management approaching/nearly statements.",
+    "Recontracting realization factor is a hypothetical fraction of management opportunity, not a disclosed GPU utilization estimate.",
+    "Existing installed equipment does not require purchase capex for this renewal opportunity; service opex, maintenance, replacement and future demand remain unknown.",
+    "Prepayments/deposits are cash timing with future service obligations, not profit or free cash flow.",
+    "No equity price, diluted-share denominator, DCF or margin-of-safety conclusion was calculated.",
+    "Full Q3 10-Q absent from the fresh SEC submissions list; no inference of delayed filing from Nov11 federal filing holiday."
+  ]
+}

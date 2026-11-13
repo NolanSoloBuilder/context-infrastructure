@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-10",
+  "reviewed_at_utc": "2026-11-09T23:45:10.415388+00:00",
+  "source_url": "https://finews.fyi/",
+  "status": "read_with_verification_gaps",
+  "http_status": 200,
+  "collected_at_utc": "2026-11-09T23:38:43.332109+00:00",
+  "displayed_market_date": "2026-11-09",
+  "displayed_updated_at_utc": "2026-11-09T23:16:20Z",
+  "raw_path": "source_scan_raw/finews_home.html",
+  "sha256": "12e52dfdfb13c97fff57efd1347679480cd2ddeb15dcd13619b9bfc6b5cc5866",
+  "read_scope": [
+    "实际完整首页 HTML",
+    "摘要与事件日历",
+    "22 条新闻条目及外链",
+    "91 项热度 / 行情信息"
+  ],
+  "cache_discrepancy": "web.open 结果停留 11/6，直接 HTTP 200 页面为 11/9；采用实际 HTML 的日期与更新时间，未把缓存称为最新。",
+  "calendar_correction": {
+    "aggregate_claim": "11/11 美国银行假日，市场休市",
+    "verified_conclusion": "NYSE 2026 官方休市表未列 11/11，美股常规交易正常；银行假日不能等同股票交易所休市。",
+    "primary_url": "https://www.nyse.com/trade/hours-calendars",
+    "primary_read_scope": "2026 假日日历与常规时段"
+  },
+  "not_adopted_as_facts": [
+    "NVDA 个人行为 / 监管指控的聚合摘要未核原始披露，不重复传播具体指控。",
+    "上涨 / 下跌幅度不能证明资金净流入或净流出。",
+    "PE 温度 / 情绪 / 归因不作为独立估值或买点证据。",
+    "股价、VIX、国债收益率由主任务行情核验，不以聚合页独立确认。"
+  ],
+  "leads_pending_primary_verification": [
+    {
+      "topic": "Anthropic 模型更新",
+      "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+    },
+    {
+      "topic": "Boeing 商用飞机裁员",
+      "url": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html"
+    },
+    {
+      "topic": "Eli Lilly 睡眠呼吸暂停试验",
+      "url": "https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html"
+    }
+  ],
+  "sources_include_private_data": false
+}

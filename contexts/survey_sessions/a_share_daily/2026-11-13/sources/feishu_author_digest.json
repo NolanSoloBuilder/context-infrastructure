@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-11-13T09:06:40.880419+08:00",
+  "window_start": "2026-11-12T09:00:00+08:00",
+  "window_end": "2026-11-13T09:00:00+08:00",
+  "message_count": 12,
+  "candidate_count": 12,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b60629b7950a8b0f15aa6de998ea",
+      "source_time": "2026-11-12 15:40+08:00",
+      "sync_create_time": "1794469211579",
+      "content_sha256": "be8d175599280d646b0ef4d6a7e6529a29cae6392490549a284914509787da3f",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者把沪深300视为配置方向，建议先比较持有费用，再考察规模和跟踪情况。关于规模与跟踪的关系是作者判断，实际跟踪需用基金披露数据核对。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b606fb8fbc0a4ddb2c2749e877b8",
+      "source_time": "2026-11-12 21:29+08:00",
+      "sync_create_time": "1794490211671",
+      "content_sha256": "3b352eca266b7f875486d184d0b500ca6d27ee8164a23cc033456071940bd231",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为沪深300也包含科技，构成相对均衡。参与反弹应提前准备不同走势的应对方案。未披露当期本人仓位。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6063799714a4c4b967a40ed1884",
+      "source_time": "2026-11-12 16:04+08:00",
+      "sync_create_time": "1794470774003",
+      "content_sha256": "926d63bc10245894df5093db8a078afc9972d160cfc876b63e2ec7ccda6c35d8",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者提出参考上一轮低谷的估值做压力情景，并可将更多计划资金留到更低估值时评估。未给当前沪深300可执行点位或具体仓位比例。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "过滤成员内容、无关话题及重复答复。",
+  "coverage": "群同步作者观点，非原知识星球全文。"
+}

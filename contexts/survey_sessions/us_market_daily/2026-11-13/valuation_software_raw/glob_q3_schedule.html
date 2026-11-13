@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+    <head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA=="></script>
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<style type="text/css" wd_script_id="toolbar_style" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA=="></script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+<style type="text/css" wd_script_id="template detail:newsfeed_releases:system style" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+.wd_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.wd_subtitle {
+	font-weight: bold;
+}
+table.wd_extimagetable {
+	border-style: none; 
+	border-spacing:0px;
+	clear: right; 
+	float: right; 
+}
+td.wd_extimagecell {
+	text-align: right; 
+	margin: 0px 0px 5px 5px;
+	padding:0px;
+}
+td.wd_extimagecell img {
+	padding-left:10px;
+	padding-bottom:10px;
+	border-style: none; 
+}
+blockquote.wd_pullquote {
+	font-style: italic;
+	width:200px;
+	margin:0 0 20px 20px;
+	line-height: 1.8em;
+	float: right;
+	clear: right;
+}
+blockquote.wd_pullquote:before {
+	content: "“ ";
+	font-size: xx-large;
+}
+blockquote.wd_pullquote:after {
+	content: " ”";
+	font-size: xx-large;
+	float: right;
+}
+.fullscreen-button {
+	border: 1px solid #d1d1d1;
+	background: #e3e3e3 url(images/webdriver/view_full_screen_button_background.png) no-repeat;
+	padding: 3px 3px 3px 30px;
+	margin: 5px 0px 5px 0px;
+	color: #727272;
+	width: 220px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.wd_contact {
+	margin: 1em 0;
+}
+.wd_release_data {
+	margin: 1em 0;
+}
+.wd_caption {
+	text-align: center;
+	font-size: 0.72em;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+</style>
+<script type="text/javascript" src="js/wd_scriptloader.js" wd_script_id="wd_scriptloader.js" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA=="></script>
+<script type="text/javascript" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">webDriver.push_jQuery();</script>
+<script type="text/javascript" src="js/jquery-ui.js" wd_script_id="jquery-ui.js" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA=="></script>
+<link href="css/wd_modal.css" type="text/css" rel="stylesheet" wd_script_id="wd_modal.css">
+<link href="css/wd_wcag.css" type="text/css" rel="stylesheet" wd_script_id="wd_wcag.css">
+<script type="text/javascript" wd_script_id="wd_modal_script" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+(function($) {
+	webDriver.resizeModal = function() {
+		$(this).find(".wd_modal").wd_modal("resize");
+		return false;
+	}
+	
+	var modals = [];
+		
+	function _value(value, base) {
+		if (typeof value == "string" && value.indexOf("%") > 0) {
+			return  base * parseInt(value, 10) / 100;
+		} else {
+			return parseInt(value, 10);
+		}
+	}
+	
+	var wd_modal = function(element, options) {
+		this.init(element, options);
+	};
+	
+	wd_modal.prototype = {
+		init: function(element, options) {
+			var self = this;
+			
+			this.isOpen = false;
+			this.opener = null;
+			
+			this.$element = $(element);
+			this._options = {
+				autoOpen: false,
+				closeExisting: false,
+				closeOnEscape: true,
+				closeOnOverlayClick: true,
+				fadeDuration: null,
+				margin: "10%",
+				padding: 10
+			};
+			
+			this.options(options);
+			
+			this.$overlay = $("<div>").addClass("wd_modal-overlay").attr("wd_resize","resizeModal").appendTo($("body")).hide();
+			this.$outer = $("<div>").addClass("wd_modal-outer").appendTo(this.$overlay);
+			this.$inner = $("<div>").addClass("wd_modal-inner").appendTo(this.$outer).append(this.$element);
+			// Hack because I can't figure out where the extra few pixels at the bottom of the content are coming from
+			this.$inner.css("overflow-y", "hidden");
+			this.$close = $("<a class=\"wd_modal-close fa fa-times\" href=\"#close\" title=\"Close\"><span class=\"wd_sr-only\">Close Dialog<\/span><\/a>")
+					.on("click", function(event) {self.close(); event.preventDefault();})
+					.appendTo(this.$outer);
+			this.$element.addClass("wd_modal");
+			
+			if (this._options.autoOpen)
+				this.open(this._options.closeExisting);
+		},
+		
+		options: function(options) {
+			if (options) {
+				$.extend(this._options, options);
+
+				this._options.fadeDuration = parseInt(this._options.fadeDuration, 10);
+				if (isNaN(this._options.fadeDuration))
+					this._options.fadeDuration = false;
+				
+				if (!$.isArray(this._options.margin))
+					this._options.margin = [this._options.margin];
+				if (this._options.margin.length < 2)
+					this._options.margin[1] = this._options.margin[0];
+				if (this._options.margin.length < 3)
+					this._options.margin[2] = this._options.margin[0];
+				if (this._options.margin.length < 4)
+					this._options.margin[3] = this._options.margin[1];
+				
+				if (!$.isArray(this._options.padding))
+					this._options.padding = [this._options.padding];
+				if (this._options.padding.length < 2)
+					this._options.padding[1] = this._options.padding[0];
+				if (this._options.padding.length < 3)
+					this._options.padding[2] = this._options.padding[0];
+				if (this._options.padding.length < 4)
+					this._options.padding[3] = this._options.padding[1];
+			} else {
+				return this._options;
+			}
+		},
+		
+		reload: function(options) {
+			if (options) {
+				this.options(options);
+			}
+			
+			this.resize();
+		},
+		
+		open: function(closeExisting, now) {
+			if (this.isOpen)
+				return;
+			
+			var self = this;
+			var myCloseExisting = closeExisting;
+			
+			if (!this.opener)
+				this.opener = document.activeElement;
+
+			if (closeExisting && modals.length > 0) {
+				for (var i = modals.length - 1; i >= 0; --i)
+					modals[i].close(true, true);
+			}
+
+			this.$overlay.addClass("wd_modal-current");
+			$("body").append(this.$overlay);
+
+			if (!now && this._options.fadeDuration) {
+				this.$overlay.fadeIn(this._options.fadeDuration, function() {self.open(myCloseExisting, true);});
+			} else {
+				if (modals.length == 0) {
+					$("body").css("overflow","hidden");
+					$(document).on("keydown.wd_modal", function (event) {
+						var current = modals[modals.length - 1];
+						if ((event.which == 27 || event.keyCode == 27) && current._options.closeOnEscape) {
+							current.close();
+							event.stopImmediatePropagation();
+							event.preventDefault();
+						}
+					});
+				}
+
+				if (this._options.closeOnOverlayClick) {
+					this.$overlay.on("click.wd_modal", function (event) {
+						if (event.target == this) {
+							self.close();
+							event.preventDefault();
+						}
+					});
+				}
+
+				modals.push(this);
+				
+				this.$overlay.show();
+				
+				var $focus = this.$element.find(":focusable");
+				if ($focus.length > 0)
+					$focus[0].focus();
+				
+				this.isOpen = true;
+
+				this.$element.trigger("open");
+			}
+		},
+		
+		close: function(skipCurrent, now) {
+			if (!this.isOpen)
+				return;
+			
+			this.$element.trigger("beforeClose");
+			
+			// TODO: allow closing of lower modals
+			modals.pop();
+			
+			if (modals.length == 0) {
+				$("body").css("overflow","");
+				$(document).off("keydown.wd_modal");
+			}
+			
+			this.$overlay.off("click.wd_modal");
+			
+			if (this.opener) {
+				this.opener.focus();
+				this.opener = null;
+			}
+			
+			this.isOpen = false;
+			this.$overlay.removeClass("wd_modal-current").hide();
+			
+			if (!skipCurrent && modals.length > 0)
+				modals[modals.length-1].$overlay.addClass("wd_modal-current");
+			
+			this.$element.trigger("close");
+		},
+		
+		destroy: function() {
+			this.close(false, true);
+			$("body").append(this.$element);
+			this.$overlay.remove();
+		},
+		
+		resize: function() {
+			if (!this.isOpen)
+				return;
+			
+			var self = this;
+			var winWidth = $(window).width();
+			var winHeight = $(window).height();
+			
+			var margin = this._options.margin;
+			var padding = this._options.padding;
+			
+			var width = winWidth - _value(margin[1], winWidth) - _value(margin[3], winWidth) - _value(padding[1], winWidth) - _value(padding[1], winWidth);
+			var height = winHeight - _value(margin[0], winHeight) - _value(margin[2], winHeight) - _value(padding[0], winHeight) - _value(padding[2], winHeight);
+			
+			this.$inner.css("max-width", width);
+			this.$inner.css("max-height", height);
+			
+			$.each(["Top", "Right", "Bottom", "Left"], function(i, v) {
+				self.$outer.css("padding" + v, _value(padding[i])+"px");
+			});
+			
+			var fixed = this.$element.find("[wd_need_fixed_container]").is(":visible");
+			
+			this.$inner.css("width", width);
+			this.$inner.css("height", height);
+
+			webDriver.doResize(this.$inner);
+			
+			if (!fixed) {
+				this.$inner.css("width", "auto");
+				this.$inner.css("height", "auto");
+				if (this.$element.outerHeight() > height)
+					this.$inner.css("height", height);
+				if (this.$element.outerWidth() > width)
+					this.$inner.css("width", width);
+			}
+		}
+	};
+
+	$.fn.wd_modal = function(options) {
+		if (options == "exists") {
+			return !!$(this).data("wd_modal");
+		} else if (typeof options == "string") {
+            var instance = $(this).data("wd_modal");
+			if (!instance)
+				return null;
+			var args = Array.prototype.slice.call(arguments, 1);
+            return instance[options].apply(instance, args);
+        } else {
+            return this.each(function() {
+                var instance = $(this).data("wd_modal");
+                if (instance) {
+                    instance.reload(options);
+                } else {
+                    $(this).data("wd_modal", new wd_modal(this, options));
+                }
+            });
+        }
+    };
+})(webDriver.jQuery);
+</script>
+<script type="text/javascript" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">webDriver.pop_jQuery();</script>
+<script type="text/javascript" wd_script_id="subscribe_featurebox_script" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+			(function($) {
+				webDriver.subscribeClose = function(data) {
+					$(".wd_subscribe_modal").wd_modal("close");
+				};
+			
+				webDriver.subscribeSubmit = function(form, id) {
+					var $modal = $(".wd_subscribe_modal");
+					if ($modal.length == 0) {
+						$modal = $('<div class="wd_subscribe_modal" style="display:none;"></div>');
+						$modal.wd_modal({
+							autoOpen: false,
+						});
+					}
+
+					var my_form = form;
+					var form_data = $(form).serializeArray();
+
+					$modal.html('<div class="wd_loading">Loading...</div>');
+					$modal.show();
+					$modal.wd_modal("open", true);
+
+					$modal.load(
+						"https://investors.globant.com/alerts?ajax=subscribe&id="+id,
+						form_data,
+						function() {
+							disable_submit(my_form, false);
+						}
+					);
+				};
+			})(webDriver.jQuery);
+		</script>
+<script type="text/javascript" wd_script_id="csrfscript" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+		function fetchCSRFToken() {
+			var currentPageUrl = window.location.href;
+			fetch("verify_token.php", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/x-www-form-urlencoded"
+				},
+				body: "page=" + encodeURIComponent(currentPageUrl)
+			})
+			.then(response => response.text())
+			.then(token => { 
+				PushToken(token,encodeURIComponent(currentPageUrl))
+			});
+		}
+		document.addEventListener("DOMContentLoaded", function() {
+			fetchCSRFToken();
+		});
+		LoadFancyBox();
+		function LoadFancyBox(){
+			setTimeout(function() {
+				if (document.getElementsByClassName("fancybox-content").length > 0) {
+					fetchCSRFToken();
+				}
+			}, 2000);
+		}
+		function PushToken(data){ 
+			const parsedData = (() => { try { return JSON.parse(data); } catch { return null; } })();
+			let token = parsedData ? parsedData.csrf_token : null;
+			let cfid = parsedData ? parsedData.id : null;
+			
+
+			var elements = document.querySelectorAll(".csrf_token");
+
+			elements.forEach(function(element) {
+				element.value = token;
+
+				let existingHiddenInput = element.nextElementSibling; // Check the immediately following sibling
+    			if (cfid) {
+					if (existingHiddenInput && existingHiddenInput.classList.contains("cfid")) {
+						existingHiddenInput.value = cfid;
+					} else {
+						const hiddenInput = document.createElement("input");
+						hiddenInput.type = "hidden";
+						hiddenInput.name = "cfid"; 
+						hiddenInput.className = "cfid"; 
+						hiddenInput.value = cfid; 	
+						element.insertAdjacentElement("afterend", hiddenInput);
+					}
+				}
+			});
+
+		}
+		function set_csrf_loaded() { 
+			var csrfElements = document.getElementsByClassName("csrf_token");
+			var csrfValue = csrfElements[0].value;
+			var token=csrfValue;
+			
+			var tokElements = document.getElementsByClassName("cfid");
+			var tokValue = tokElements[0].value;
+			var cfid=tokValue;
+			
+			if(token!="" && cfid!="") {
+				let verifytok={csrf_token:token,id:cfid};
+				const verifyJson = JSON.stringify(verifytok);
+				PushToken(verifyJson)
+			}
+		
+		}
+	</script>
+<script type="text/javascript" src="js/wd_form.js" wd_script_id="wd_form.js" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA=="></script>
+<link href="css/wd_form.css" type="text/css" rel="stylesheet" wd_script_id="wd_form.css">
+<style type="text/css" wd_script_id="featureboxes_style" nonce="MzQ4M2EzN2UxODc2ZWE4ZmIyOGZiOTdiYWEwZjhkNTljYzFmZTM5NA==">
+		.wd_featurebox_icon {
+			display: inline;
+		}
+		.wd_featurebox_icon img {
+			vertical-align: middle;
+		}
+		div.wd_featurebox_group div.wd_tabs_wrapper {
+			border: none;
+			border-bottom: 1px solid #E1E1E1;
+			padding: 0 0 5px 0;
+		}
+		div.wd_featurebox_group div.wd_featurebox {
+			border: none;
+			padding: 8px 0 0 0;
+		}
+		div.wd_featurebox_group li.wd_tab {
+			float: none;
+			color: #666666;
+		}
+		div.wd_featurebox_group li.wd_tab-active {
+			border: none;
+			background-color: transparent;
+			color: #000000;
+			font-weight: bold;
+		}
+		div.wd_featurebox_group li.wd_tab-inactive {
+			cursor: auto;
+		}
+	</style>
+
+<!-- end spin_special_output(head_start) -->
+
+        <meta charset="utf-8" />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="format-detection" content="telephone=yes" />
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MCN863JD');</script>
+        <!-- End Google Tag Manager -->
+
+        <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="pNYFy1_3t" async></script>
+
+        <!-- <link rel="shortcut icon" href="https://www.globant.com/sites/default/files/FavIcon-Globantwebsite-2x.png" type="image/png" /> -->
+        <link rel="shortcut icon" href="images/Globant_favicon.png" type="image/png" />
+        <title>Globant to Announce Third Quarter 2026 Financial Results on November 19th - Nov 5, 2026</title>
+        
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="Globant to Announce Third Quarter 2026 Financial Results on November 19th" />
+ <meta name="twitter:description" content="Globant (NYSE: GLOB), a digitally native company that helps organizations thrive in a digital and AI-powered future, today announced it will release results for the third quarter ended September..." />
+ <meta name="twitter:image" content="https://mmx.prnewswire.com/media/MS519764/Globant-Logo.jpg?id=OA3060984&amp;p=twitter" />
+ <meta property="og:site_name" content="Globant Investor Relations" />
+ <meta property="og:url" content="https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th" />
+ <meta property="og:title" content="Globant to Announce Third Quarter 2026 Financial Results on November 19th" />
+ <meta property="og:description" content="Globant (NYSE: GLOB), a digitally native company that helps organizations thrive in a digital and AI-powered future, today announced it will release results for the third quarter ended September..." />
+ <meta name="image" property="og:image" content="https://mmx.prnewswire.com/media/MS519764/Globant-Logo.jpg?id=OA3060984&amp;p=facebook" />
+        <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700" rel="stylesheet">
+        <link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+        
+        <link rel="alternate" href="https://investors.globant.com/news?pagetemplate=rss" type="application/rss+xml" title="Globant Investor Relations">        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" media="all" href="css/css_LUB9mZfMiniiuPk4KrQFVi-G-GXqPD9LXHu_teM1AJ0.css" />
+        <!-- <link rel="stylesheet" media="all" href="https://www.globant.com/sites/default/files/css/css_l62vkGbRSEMyFRJjW6kzHaE6ANftEjrqTsfHNfazn-o.css" />
+        <link rel="stylesheet" media="print" href="https://www.globant.com/sites/default/files/css/css_Y4H_4BqmgyCtG7E7YdseTs2qvy9C34c51kBamDdgark.css" />-->
+        <link rel="stylesheet" media="all" href="css/css_KbgRgodl5HRvddFhrrnNaCTF3HEXXxxEMwoSrntv68A.css" /> 
+        <link rel="stylesheet" href="css/globant-styles.css">
+        <!-- <link rel="stylesheet" media="all" href="https://www.globant.com/sites/default/files/css/css_Z8yrEyqntKwAn_brNcmNCeU_nfFLhDY2gOvAtNN93Yg.css" /> -->
+        <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+        <!-- <link rel="stylesheet" media="all" href="https://www.globant.com/sites/default/files/css/css_SGIgeG8A86vgrJv3mDd6L9CLBJ_pqc1t_5_uvORXlTY.css" /> -->
+
+        <!--<script src="js/modernizr.min.js"></script>-->
+
+        <!-- cookies -->
+        <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-version="preview" data-settings-id="pNYFy1_3t" async></script>
+    
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th" />
+<!-- end spin_special_output(head_end) -->
+</header>
+    <body class="wd_pageid_43 wd_item_page wd_item_407 is-ultimenu-canvas is-ultimenu-canvas--hover is-ultimenu-canvas--active layout-no-sidebars page-node-76859 home path-frontpage node--type-current-pages page-home">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCN863JD"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+          Skip to main content
+        </a>
+        <button data-ultimenu-button="#ultimenu-main" class="button button--ultimenu" aria-label="Menu" value="Menu"><span class="bars">Menu</span></button>
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>    
+            <div id="page-wrapper">
+                <div id="page">
+                    <div class="is-ultimenu-canvas-backdrop"></div>
+                    <header id="header" class="header header--min-height" role="banner" aria-label="Site header">
+                        <nav class="navbar nav navbar-expand-xl navbar-light custom-class bg-white">
+                            <div class="globant-main-nav-wrapper globant-no-overlay">
+                                <div class="globant-main-nav container-fluid p-0 no-overlay">
+                                    <div id="block-globant-corp-theme-sitebranding" class="clearfix block block-system block-system-branding-block">
+                                        <a href="https://www.globant.com/" title="Home" rel="home" class="navbar-brand">
+                                            <img src="images/globant-logo-dark.svg" alt="Home" class="logo img-fluid align-top ml-lg-7" />
+                                        </a>
+                                    </div>
+        
+                                    <div role="navigation" style="display: none" class="block block-language block-language-blocklanguage-interface">
+                                        <div class="content">
+                                            <ul>
+                                                <li class="language-switcher-language-url links nav-item menu-item--expanded dropdown language-switch">
+                                                    <a hreflang="en" data-drupal-link-system-path="&lt;front&gt;" class="nav-link dropdown-toggle is-active" aria-expanded="false" aria-haspopup="true" visibility="visible">English (US)</a>
+                                                    <div class="carrot">
+                                                        <div class="over-carrot"></div>
+                                                    </div>
+                                                    <ul class="dropdown-menu">
+                                                        <li hreflang="en" data-drupal-link-system-path="&lt;front&gt;" class="nav-link dropdown-toggle en dropdown-item ln-en active is-active">
+                                                            <a href="https://www.globant.com/" class="language-link is-active" hreflang="en" data-drupal-link-system-path="&lt;front&gt;">English (US)</a>
+                                                        </li>
+                                                        <li hreflang="es" data-drupal-link-system-path="&lt;front&gt;" class="es dropdown-item ln-es">
+                                                            <a href="https://www.globant.com/es" class="language-link" hreflang="es" data-drupal-link-system-path="&lt;front&gt;">Español</a>
+                                                        </li>
+                                                        <li hreflang="pt-br" data-drupal-link-system-path="&lt;front&gt;" class="pt-br dropdown-item ln-pt-br">
+                                                            <a href="https://www.globant.com/pt-br" class="language-link" hreflang="pt-br" data-drupal-link-system-path="&lt;front&gt;">Português</a>
+                                                        </li>
+                                                        <li hreflang="it" data-drupal-link-system-path="&lt;front&gt;" class="it dropdown-item ln-it">
+                                                            <a href="https://www.globant.com/it" class="language-link" hreflang="it" data-drupal-link-system-path="&lt;front&gt;">Italiano</a>
+                                                        </li>
+                                                        <li hreflang="fr" data-drupal-link-system-path="&lt;front&gt;" class="fr dropdown-item ln-fr">
+                                                            <a href="https://www.globant.com/fr" class="language-link" hreflang="fr" data-drupal-link-system-path="&lt;front&gt;">Français</a>
+                                                        </li>
+                                                        <li hreflang="de" data-drupal-link-system-path="&lt;front&gt;" class="de dropdown-item ln-de">
+                                                            <a href="https://www.globant.com/de" class="language-link" hreflang="de" data-drupal-link-system-path="&lt;front&gt;">Deutsch</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+        
+                                    <div class="collapse navbar-collapse" id="CollapsingNavbar">
+                                        <div id="block-ultimenumainnavigation" class="block block-ultimenu block-ultimenu-blockultimenu-main">
+                                            <div class="content">
+                                                <ul id="ultimenu-main" data-ultimenu="main" data-ultiajax class="ultimenu ultimenu--hover ultimenu--main ultimenu--htb ultimenu--horizontal ultimenu--basic">
+                                                    <li class="ultimenu__item uitem uitem--our-services has-ultimenu">
+                                                        <a href="https://www.globant.com/our-services" class="ultimenu__link" title="" data-drupal-link-system-path="node/76862">
+                                                            <small>Augmenting your company, your people, your future, through digital and cognitive transformation</small>Our Services<span class="caret" aria-hidden="true"></span>
+                                                        </a>
+                                                        <section class="ultimenu__flyout is-htb">
+                                                            <section class="ultimenu__region row region region-ultimenu-main-ca856cf6">
+                                                                <div class="ultimenusub ultimenusub--main-our-services">
+                                                                    <ul class="clearfix nav navbar-nav row">
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/our-services#our-service-studio-container" class="hide-sitemap nav-link text-left Studios" data-drupal-link-system-path="node/76862">Studios</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown menu-item--expanded dropdown">
+                                                                            <a
+                                                                                href="https://www.globant.com/our-services#our-service-studio-container"
+                                                                                class="hide-menu nav-link text-left dropdown-toggle Reinventions Studios"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                aria-haspopup="true"
+                                                                                data-drupal-link-system-path="node/76862"
+                                                                            >
+                                                                                Reinventions Studios
+                                                                            </a>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/airlines" class="Airlines" data-drupal-link-system-path="node/77086">Airlines</a></li>
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/studio/bluecap-future-finance" class="Bluecap Future Finance" data-drupal-link-system-path="node/77087">Bluecap Future Finance</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/gaming" class="Gaming" data-drupal-link-system-path="node/76741">Gaming</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/life-sciences" class="Life Sciences" data-drupal-link-system-path="node/76635">Life Sciences</a></li>
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/studio/media-and-entertainment" class="Media and Entertainment" data-drupal-link-system-path="node/76786">Media and Entertainment</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/studio/travel-and-hospitality" class="Travel &amp; Hospitality" data-drupal-link-system-path="node/77085">Travel &amp; Hospitality</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown menu-item--expanded dropdown">
+                                                                            <a
+                                                                                href="https://www.globant.com/our-services#our-service-studio-container"
+                                                                                class="hide-menu nav-link text-left dropdown-toggle Digital Studios"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                aria-haspopup="true"
+                                                                                data-drupal-link-system-path="node/76862"
+                                                                            >
+                                                                                Digital Studios
+                                                                            </a>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/agile-delivery" class="Agile Delivery" data-drupal-link-system-path="node/76661">Agile Delivery</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/blockchain" class="Blockchain" data-drupal-link-system-path="node/76935">Blockchain</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/business-hacking" class="Business Hacking" data-drupal-link-system-path="node/76706">Business Hacking</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/cloud-ops" class="CloudOps" data-drupal-link-system-path="node/76653">CloudOps</a></li>
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/studio/conversational-interfaces" class="Conversational Interfaces" data-drupal-link-system-path="node/76784">Conversational Interfaces</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/cultural-hacking" class="Cultural Hacking" data-drupal-link-system-path="node/76691">Cultural Hacking</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/cybersecurity" class="Cybersecurity" data-drupal-link-system-path="node/76633">Cybersecurity</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/data-and-ai" class="Data &amp; AI" data-drupal-link-system-path="node/76709">Data &amp; AI</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/design" class="Design" data-drupal-link-system-path="node/76941">Design</a></li>
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/studio/digital-experience-platforms" class="Digital Experience Platforms" data-drupal-link-system-path="node/76688">Digital Experience Platforms</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/digital-lending" class="Digital Lending" data-drupal-link-system-path="node/76934">Digital Lending</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/digital-marketing" class="Digital Marketing" data-drupal-link-system-path="node/76634">Digital Marketing</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/digital-sales" class="Digital Sales" data-drupal-link-system-path="node/76783">Digital Sales</a></li>
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/studio/enterprise-applications" class="Enterprise Applications" data-drupal-link-system-path="node/76707">Enterprise Applications</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/studio/future-organizations" class="Future of Organizations" data-drupal-link-system-path="node/76940">Future of Organizations</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/iot" class="IOT" data-drupal-link-system-path="node/76712">IOT</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/metaverse" class="Metaverse" data-drupal-link-system-path="node/77060">Metaverse</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/product-acceleration" class="Product">Product</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/process-optimization" class="Process Optimization" data-drupal-link-system-path="node/76711">Process Optimization</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/quality-engineering" class="Quality Engineering" data-drupal-link-system-path="node/76689">Quality Engineering</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/salesforce" class="Salesforce" data-drupal-link-system-path="node/76713">Salesforce</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/scalable-platforms" class="Scalable Platforms" data-drupal-link-system-path="node/76857">Scalable Platforms</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/smart-venues" class="Smart Venues" data-drupal-link-system-path="node/76785">Smart Venues</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/sustainable-business" class="Sustainable Business" data-drupal-link-system-path="node/76660">Sustainable Business</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/studio/ui-engineering" class="UI Engineering" data-drupal-link-system-path="node/76708">UI Engineering</a></li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown menu-item--expanded dropdown">
+                                                                            <a
+                                                                                href="https://www.globant.com/our-services/augmented-accelerators"
+                                                                                class="hide-submenu nav-link text-left dropdown-toggle Globant X"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                aria-haspopup="true"
+                                                                            >
+                                                                                Globant X
+                                                                            </a>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://augmentedcoding.com/?_ga=2.103603968.1838875081.1620045415-247435272.1618518520" class="Augmented Coding">Augmented Coding</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/our-services/augmented-accelerators/navigate" class="Navigate" data-drupal-link-system-path="node/76986">Navigate</a></li>
+                                                                                <li class="dropdown-item"><a href="https://os.starmeup.com/en.html?uuid_globant=612633186.1616475294" class="StarMeUp">StarMeUp</a></li>
+                                                                                <li class="dropdown-item"><a href="https://fluentlab.ai/" class="Fluent Lab">Fluent Lab</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/our-services/augmented-accelerators/maida" class="hide-sitemap MAIDA" data-drupal-link-system-path="node/76985">MAIDA</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/our-services/agile-pods" class="Agile PODs" data-drupal-link-system-path="node/76964">Agile PODs</a></li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/our-services/partnerships" class="nav-link text-left Partnerships" data-drupal-link-system-path="node/76890">Partnerships</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </section>
+                                                        </section>
+                                                    </li>
+                                                    <li class="ultimenu__item uitem uitem--our-work"><a href="https://www.globant.com/our-work" class="hide-submenu ultimenu__link" data-drupal-link-system-path="node/76861" title="">Our Work</a></li>
+                                                    <li class="ultimenu__item uitem uitem--stay-relevant has-ultimenu">
+                                                        <a href="https://www.globant.com/stay-relevant" class="ultimenu__link" title="" data-drupal-link-system-path="node/76860">
+                                                            <small>We are a digitally native company where innovation, design and engineering meet scale.</small>Stay Relevant<span class="caret" aria-hidden="true"></span>
+                                                        </a>
+                                                        <section class="ultimenu__flyout is-htb">
+                                                            <section class="ultimenu__region row region region-ultimenu-main-5cb818b1">
+                                                                <div class="ultimenusub ultimenusub--main-stay-relevant">
+                                                                    <ul class="clearfix nav navbar-nav row">
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/stay-relevant/insights" class="nav-link text-left Insights" data-drupal-link-system-path="node/76893">Insights</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://reports.globant.com/sentinel-report/" class="nav-link text-left Sentinel Report">Sentinel Report</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/stay-relevant/events" class="nav-link text-left Events" data-drupal-link-system-path="node/76968">Events</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://converge.globant.com/" class="nav-link text-left Converge">Converge</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/stay-relevant/our-books" class="nav-link text-left Books" data-drupal-link-system-path="node/76889">Books</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/stay-relevant/playground" class="nav-link text-left Playground" data-drupal-link-system-path="node/76888">Playground</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown menu-item--expanded dropdown">
+                                                                            <a
+                                                                                href="https://www.globant.com/stay-relevant/podcasts"
+                                                                                class="hide-submenu nav-link text-left dropdown-toggle Podcasts"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                aria-haspopup="true"
+                                                                                data-drupal-link-system-path="node/76887"
+                                                                            >
+                                                                                Podcasts
+                                                                            </a>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li class="dropdown-item">
+                                                                                    <a href="https://www.globant.com/stay-relevant/podcasts/be-one-of-a-kind" class="Be one of a kind" data-drupal-link-system-path="taxonomy/term/436">Be one of a kind</a>
+                                                                                </li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/stay-relevant/podcasts/gamificados" class="Gamificados" data-drupal-link-system-path="taxonomy/term/435">Gamificados</a></li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://stayrelevant.globant.com/en/" class="nav-link text-left Blog">Blog</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/industries" class="nav-link text-left Industries" data-drupal-link-system-path="node/77178">Industries</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </section>
+                                                        </section>
+                                                    </li>
+                                                    <li class="ultimenu__item uitem uitem--about has-ultimenu">
+                                                        <a href="https://www.globant.com/about" title="" data-drupal-link-system-path="node/76868" class="ultimenu__link">
+                                                            <small>We are transforming the world, one step at a time!</small>About<span class="caret" aria-hidden="true"></span>
+                                                        </a>
+                                                        <section class="ultimenu__flyout is-htb">
+                                                            <section class="ultimenu__region row region region-ultimenu-main-98c0abba">
+                                                                <div class="ultimenusub ultimenusub--main-about">
+                                                                    <ul class="clearfix nav navbar-nav row">
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/about#block-aboutuspageourhistory" class="nav-link text-left History" data-drupal-link-system-path="node/76868">History</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/about#block-aboutuspagemanagementteam" class="nav-link text-left Management Team" data-drupal-link-system-path="node/76868">Management Team</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown menu-item--expanded dropdown">
+                                                                            <a
+                                                                                href="https://www.globant.com/be-kind"
+                                                                                class="hide-submenu nav-link text-left dropdown-toggle Be Kind"
+                                                                                title="Be kind"
+                                                                                data-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                aria-haspopup="true"
+                                                                                data-drupal-link-system-path="node/76867"
+                                                                            >
+                                                                                Be Kind
+                                                                            </a>
+                                                                            <ul class="dropdown-menu">
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/be-kind/yourself" class="Be Kind to Yourself" data-drupal-link-system-path="node/76980">Be Kind to Yourself</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/be-kind/peers" class="Be Kind to your Peers" data-drupal-link-system-path="node/76967">Be Kind to your Peers</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/be-kind/our-planet" class="Be Kind to the Planet" data-drupal-link-system-path="node/76886">Be Kind to the Planet</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/be-kind/humanity" class="Be Kind to Humanity" data-drupal-link-system-path="node/76895">Be Kind to Humanity</a></li>
+                                                                                <li class="dropdown-item"><a href="https://www.globant.com/be-kind/peers/woman" class="Women that Build">Women that Build</a></li>
+                                                                            </ul>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/news-room" class="nav-link text-left News Room" data-drupal-link-system-path="node/76864">News Room</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/about#recognitions" class="nav-link text-left Recognitions" data-drupal-link-system-path="node/76868">Recognitions</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globantventures.com/" class="nav-link text-left Globant Ventures">Globant Ventures</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </section>
+                                                        </section>
+                                                    </li>
+                                                    <li class="ultimenu__item uitem uitem--careers has-ultimenu">
+                                                        <a href="https://www.globant.com/careers" title="" data-drupal-link-system-path="node/76866" class="ultimenu__link">
+                                                            <small>Build your Career at Globant</small>Careers<span class="caret" aria-hidden="true"></span>
+                                                        </a>
+                                                        <section class="ultimenu__flyout is-htb">
+                                                            <section class="ultimenu__region row region region-ultimenu-main-4ef1ed8f">
+                                                                <div class="ultimenusub ultimenusub--main-careers">
+                                                                    <ul class="clearfix nav navbar-nav row">
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/careers/work-at-globant" class="nav-link text-left Why Globant?" data-drupal-link-system-path="node/77011">Why Globant?</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/careers/globant-work-culture" class="nav-link text-left Our Talent Manifesto" data-drupal-link-system-path="node/77012">Our Talent Manifesto</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/careers/talent-community" class="nav-link text-left Career Success Stories" data-drupal-link-system-path="node/77010">Career Success Stories</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://alumni.globant.com/" title="Alumni" class="nav-link text-left Alumni">Alumni</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://www.globant.com/careers/globant-benefits" class="nav-link text-left Benefits and perks" data-drupal-link-system-path="node/77013">Benefits and perks</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://career.globant.com/" class="nav-link text-left Work with us">Work with us</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </section>
+                                                        </section>
+                                                    </li>
+                                                    <li class="ultimenu__item uitem uitem--investors has-ultimenu">
+                                                        <a href="https://investors.globant.com/" class="hide-submenu ultimenu__link is-external" title="">Investors<span class="caret" aria-hidden="true"></span></a>
+                                                        <section class="ultimenu__flyout is-htb">
+                                                            <section class="ultimenu__region row region region-ultimenu-main-c23e1bfe">
+                                                                <div class="ultimenusub ultimenusub--main-investors">
+                                                                    <ul class="clearfix nav navbar-nav row">
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://investors.globant.com/index.php?s=45" class="nav-link text-left Overview">Overview</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown"><a href="https://www.globant.com/about/news" class="nav-link text-left News">News</a></li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://investors.globant.com/events" class="nav-link text-left Events">Events</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://investors.globant.com/stock-data" class="nav-link text-left Stock Data">Stock Data</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://investors.globant.com/sec-filings" class="nav-link text-left SEC Filings">SEC Filings</a>
+                                                                        </li>
+                                                                        <li class="nav-item col-md-4 col-lg-4 col-12 text-left pr-0 pl-0 pb-2 link-dropdown">
+                                                                            <a href="https://investors.globant.com/board-of-directors" class="nav-link text-left Governance">Governance</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </section>
+                                                        </section>
+                                                    </li>
+                                                    <li class="ultimenu__item uitem uitem--contact-us"><a href="https://www.globant.com/contact" class="cta-contactus-menu hide-submenu ultimenu__link" data-drupal-link-system-path="node/76865" title="">Contact Us</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- container -->
+                        </nav>
+                    </header>
+                    <div id="main-wrapper" class="layout-main-wrapper clearfix">
+                        <div id="main">
+                            <div class="row row-offcanvas row-offcanvas-left clearfix">
+                                <main class="main-content col" id="content" role="main">
+                                    <div class="section">
+                                        <section class="wd_padding_bottom_lg">
+                                            <button class="mobile-menu-toggle d-md-none d-sm-block"></button>
+                                            <div class="sub-menu-bar justify-content-center align-items-center">                                                
+                                                <div class="mobile_nav_header"><span>Globant</span>Investors</div>
+                                                <ul>
+<li><a href="https://investors.globant.com/overview" target="_self">OVERVIEW</a></li>
+<li><a href="https://investors.globant.com/news" target="_self">NEWS</a></li>
+<li><a href="https://investors.globant.com/events" target="_self">EVENTS</a></li>
+<li><a href="https://investors.globant.com/quarterly-earnings" target="_self">QUARTERLY EARNINGS</a></li>
+<li><a href="https://investors.globant.com/stock-data" target="_self">STOCK DATA</a></li>
+<li><a href="https://investors.globant.com/sec-filings" target="_self">SEC FILINGS</a></li>
+<li><a href="board-of-directors" target="_self">ESG</a></li>
+<li><a href="https://app.quotemedia.com/data/downloadFiling?webmasterId=101533&ref=319827212&type=HTML&symbol=GLOB&cdn=0dc14fb75e847688963c63a89cebd1d3&companyName=Globant+S.A.&formType=20-F&dateFiled=2026-02-27" target="_self">ANNUAL REPORT</a></li>
+<li><a href="https://investors.globant.com/faq" target="_self">FAQS</a></li>
+</ul>
+                                                <div class="justify-content-center wd_mobile_btn"><a class="cta-primary" href="https://investors.globant.com/alerts">Subscribe to news and events</a></div>
+                                            </div>
+											                                            <div class="wd_header_wrapper" style="background-image: url(images/new+bg-hero-1920.svg);">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <h1 class="Globant-Investors"><span class="text-style-1">Globant</span>Investors</h1>
+                                                        </div>
+                                                    </div>
+													                                                </div>  
+                                                <div class="wd_scroll_down"><img src="images/scroll-down-icon.png" alt"scroll down arrow"></div>                                              
+                                            </div>
+																																																																																							
+	                                                    
+											                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-12">     
+												    <div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+<div class="wd_title wd_language_left">Globant to Announce Third Quarter 2026 Financial Results on November 19th</div>
+
+<div class="wd_toolbar wd_toolbar-detail"><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" aria-describedby="newwindow-note" href="#print" title="print"><span class="fa fa-print"></span></a></span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Finvestors.globant.com%2Findex.php%3Fs%3D43%26item%3D407" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <span class="fa fa-facebook"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Finvestors.globant.com%2Findex.php%3Fs%3D43%26item%3D407" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <span class="fa fa-linkedin"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
+                    <a href="https://twitter.com/share?url=https%3A%2F%2Finvestors.globant.com%2Findex.php%3Fs%3D43%26item%3D407" target="_blank" title="Twitter Share" style="background-color:#000;">
+                    <span class="fa fa-twitter"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Globant%20to%20Announce%20Third%20Quarter%202026%20Financial%20Results%20on%20November%2019th%20-%20Nov%205%2C%202026&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="email"><span class="fa fa-envelope"></span></a></span></li><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://investors.globant.com/rss?rsspage=43" title="rss"><span class="fa fa-rss"></span></a></span></li></ul></div>
+
+
+
+			
+		
+
+			
+		
+
+<style type="text/css">
+
+
+/* Style Definitions */
+span.prnews_span
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+a.prnews_a
+{
+color:blue;
+}
+li.prnews_li
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+p.prnews_p
+{
+font-size:0.62em;
+font-family:"Arial";
+color:black;
+margin:0in;
+}
+
+
+					span.prnews_span{
+						font-size:inherit;
+						font-family:inherit;
+					}
+					li.prnews_li{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+					p.prnews_p{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+				
+					div.PRN_ImbeddedAssetReference{
+						display: none;
+					}
+					div[id^="prni_dvprne"]{
+						display: none;
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th?printable=1">
+<p><span class="legendSpanClass">LUXEMBOURG</span>, <span class="legendSpanClass">Nov. 5, 2026</span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- Globant (NYSE: GLOB), a digitally native company that helps organizations thrive in a digital and AI-powered future, today announced it will release results for the third quarter ended September 30th, 2026 on Thursday, November 19th, 2026 after the close of regular market hours.</p>
+    <div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder1">
+                <p>
+                    <img src="https://mmx.prnewswire.com/media/MS519764/Globant-Logo.jpg?id=OA3060984" title="Globant new logo" alt="Globant new logo"/>
+                </p>
+    </div>
+<p>Following the earnings release, Martin Migoya, Globant's Chief Executive Officer & co-founder, Diego Tártara, Chief Technology Officer, Juan Urthiague, Chief Financial Officer, and Fernando Matzkin, Chief Operating Officer, will discuss the results in a video conference call and a live Q&A session beginning at 4:30 p.m. ET. A shareholder letter will also be available on the investor relations section of Globant's website.</p><p>Video conference call access information is:<br/><a href="https://more.globant.com/F3Q26EarningsCall" target="_blank" rel="nofollow">https://more.globant.com/F3Q26EarningsCall</a></p><p><b>About Globant (NYSE: GLOB)<br/></b><a href="https://www.globant.com/" target="_blank" rel="nofollow"><b>Globant</b></a> (NYSE: GLOB) is a global AI-native services company that helps organizations reinvent themselves and drive measurable business results by combining technology, creativity and innovation with AI at its core. Through <a href="https://glob.ai/" target="_blank" rel="nofollow"><b>Glob.AI</b></a>, its AI-native technology services model and its signature AI Pods, agentic service units supervised by experts, the company delivers enterprise-grade technology services tied directly to core business metrics.</p><p>Present across 30+ countries, Globant operates a network of industry-specific AI Studios and partners with global brands including FIFA, Google, Riot Games, the LA Clippers and Santander. Recognized by IDC MarketScape as a Worldwide Leader in Experience Design Services (2025) and a Leader in AI Services (2023), Globant's work is featured as business case studies at Harvard, MIT and Stanford. The company collaborates with leading technology platforms including Anthropic, NVIDIA, AWS and Unity.</p><p>For more information, please visit <a href="http://www.globant.com/" target="_blank" rel="nofollow">www.globant.com</a></p><p>Investor Relations Contact:<br/>Arturo Langa, Globant<br/><a href="mailto:investors@globant.com" target="_blank" rel="nofollow">investors@globant.com</a><br/>+1 (877) 215-5230</p><p>Media Contact:<br/>Gregorio Lascano, Globant<br/><a href="mailto:pr@globant.com" target="_blank" rel="nofollow">pr@globant.com</a><br/>+1 (877) 215-5230</p>
+
+
+
+<p>SOURCE Globant</p></div>
+
+
+
+
+ 
+				
+			
+
+<!-- ITEMDATE: 2026-11-05 16:05:00 EST -->
+
+</div>
+</div>                                                   
+                                                    </div>
+                                                </div>
+                                            </div>
+											                                            
+                                        </section>
+                                        <section class="row region region-content-bottom">
+                                            <div id="block-footerblock2020" class="block__footer_all_pages block block-block-content block-block-contentce9dffb3-2705-4ab1-9459-c53024349dde block-footer footer-subscribe globant-redesign">
+                                                <div class="footer-content p-0">
+                                                    <div class="footer-container row container">
+                                                        <div class="col-12 col-md-4 col-lg-3 col-xl-3 pl-lg-7 logo-cotainer">
+                                                            <a href="https://www.globant.com/"> <img src="https://statics.globant.com/production/public/2020-04/globant-light-bg-color%402x%20%282%29.png" width="240" height="48" alt="Footer logo" loading="lazy" typeof="foaf:Image" /> </a>
+                                                            <p class="rights-content mt-1 mt-lg-3">All rights reserved Globant 2026</p>
+                                                        </div>
+                                                        <div class="col-12 col-md-4 col-lg-2 col-xl-2 contact-us-cotainer">
+                                                            <div class="contact-us-title footer-content-title">Contact Us</div>
+                                                            <p class="email">Drop us a line</p>
+                                                            <p class="email"><a href="mailto:hi@globant.com">hi@globant.com</a></p>
+                                                        </div>
+                                                        <div class="col-12 col-md-4 col-lg-3 col-xl-3 row follow-us-cotainer">
+                                                            <div class="follow-us-title col-12 footer-content-title">Follow Us</div>
+                                                            <div class="Facebook-icon social-media col-6 col-md-6 col-lg-4 col-xl-4">
+                                                                <a class="footer-social Facebook" href="https://www.facebook.com/Globant" id="Facebook" target="_blank" rel="noopener">
+                                                                    <span>Facebook</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="Youtube-icon social-media col-6 col-md-6 col-lg-4 col-xl-4">
+                                                                <a class="footer-social Youtube" href="https://www.youtube.com/user/Globant" id="Youtube" target="_blank" rel="noopener">
+                                                                    <span>Youtube</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="Twitter-icon social-media col-6 col-md-6 col-lg-4 col-xl-4">
+                                                                <a class="footer-social Twitter" href="https://twitter.com/globant" id="Twitter" target="_blank" rel="noopener">
+                                                                    <span>X</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="LinkedIn-icon social-media col-6 col-md-6 col-lg-4 col-xl-4">
+                                                                <a class="footer-social LinkedIn" href="https://www.linkedin.com/company/globant/" id="LinkedIn" target="_blank" rel="noopener">
+                                                                    <span>LinkedIn</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="Instagram-icon social-media col-6 col-md-6 col-lg-4 col-xl-4">
+                                                                <a class="footer-social Instagram" href="https://www.instagram.com/globant/" id="Instagram" target="_blank" rel="noopener">
+                                                                    <span>Instagram</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-7 offset-md-4 col-lg-4 offset-lg-0 col-xl-3 ml-lg-auto subscribe-cotainer d-flex">
+                                                            <div class="ml-lg-auto subscribe-box">
+                                                                                                <h4>Subscribe to receive our news, insights and invitations to events</h4>
+                                                                                                <div class="wd_featureboxes_subscribe wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-subscribe_1" class="wd_featurebox_container wd_featurebox-subscribe"><div class="wd_featurebox_title"></div><div class="wd_featurebox"><div class="wd_subscribe_featurebox">
+ <form method="POST" class="wd_formbuilder" id="subscribe_form_1" name="formbuilderform" action="https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th?submitted=1" enctype="multipart/form-data" onsubmit="disable_submit(this, true);var ok = check_required_fields(this,[&quot;subscribe_1[email]&quot;],[&quot;subscribe_1[email]&quot;],&quot;#ff0000&quot;,&quot;This field is required&quot;,&quot;This field must contain a valid email address&quot;,&quot;Please fill in all required fields highlighted in red.&quot;,&quot;Please provide a valid email address.&quot;); if (!ok) {disable_submit(this,false); return false;} webDriver.subscribeSubmit(this,1); return false;">
+  <div class="wd_form_header">
+   <div class="wd_form_legend">
+* Required Fields
+   </div>
+  </div>
+   <div class="wd_form_field wd_form_field_pos_right">
+    <div class="wd_form_field_label">
+<label for="formbuilderform_subscribe_1[email]">*&nbsp;Email</label>
+    </div>
+    <div class="wd_form_field_input">
+     <input type="text" name="subscribe_1[email]" value="" size="16" id="formbuilderform_subscribe_1[email]" />
+    </div>
+   </div>
+  <div class="wd_form_footer">
+   <div class="wd_form_buttons">
+<input type="submit" class="wd_formbuilder_submit" name="Submit" value="Submit"><input type="hidden" name="csrf_token" class="csrf_token" value=""/>
+   </div>
+  </div>
+ </form>
+</div></div></div></div>
+                                                        </div>
+                                                       </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="home-page-newslatter">
+                                                            <div class="content">
+                                                                <div class="block-newslatter-webform">
+                                                                    <div class="confirmation-modal-subscribe modal modal-gdpr fade subscribe-button">
+                                                                        <div class="confirmation-message-subscribe-wrap">
+                                                                            <img src="/themes/custom/globant_corp_theme/images/tick.svg" alt="Confirmation message" />
+                                                                        </div>
+                                                                        <div id="webform-submission-subscribe-form-block-content-719-form-ajax" class="webform-ajax-form-wrapper" data-effect="fade" data-progress-type="fullscreen"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="block-footer" block="block-footer" class="clearfix block block- footer-class footer-menu-class globant-redesign">
+                                                <!--  -->
+                                                <div class="footerContainer p-0 container">
+                                                    <div class="row footer-info">
+                                                        <div class="footer-info-inner container row text-center col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                            <div class="col-sm-12 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 Privacy-Policy">
+                                                                <a href="https://www.globant.com/privacy-policy">Privacy Policy</a>
+                                                            </div>
+                                                            <div class="col-sm-12 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 Terms-of-Service">
+                                                                <a href="https://www.globant.com/terms-and-conditions">Terms of Service</a>
+                                                            </div>
+                                                            <div class="col-sm-12 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 Site-Map">
+                                                                <a href="https://www.globant.com/sitemap">Site Map</a>
+                                                            </div>
+                                                            <div class="col-sm-12 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 Cookie-Policy">
+                                                                <a href="https://www.globant.com/cookie-policy">Cookie Policy</a>
+                                                            </div>
+                                                            <div class="col-sm-12 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 Cookie-Preferences cookie-preferences-popup">
+                                                                <a href="#" onClick="UC_UI.showSecondLayer();">Cookie Preferences</a>
+                                                            </div>
+                                                            <div class="col-sm-12 col-xl-2 col-lg-2 col-md-2 col-xs-12 col-12 Vulnerability-Disclosure-Policy">
+                                                                <a href="https://www.globant.com/vulnerability-disclosure-policy">Vulnerability Disclosure Policy</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </main>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <script src="js/jquery-webdriver.js"></script>
+        <script src="js/wd_js.js"></script>
+
+<script type="text/javascript">
+function wrapItemLink(item,link) {
+	$(item).each(function(index) {
+		var itemLink = $(this).find(link + ' a').attr('href');
+		$(this).wrap('<a href="'+itemLink+'"></a>');
+	});
+}
+$('#wd_irmobilesubnav_button').click(function(){
+        $('.wd_mobilesubnav').toggleClass('active');
+});
+
+
+$('<div class="wd_category_nav"></div>').insertBefore('.wd_search_basic_fields');
+$('.wd_search_basic_fields select[name="category"] option').each(function(){
+    var optionText = $(this).text();
+    var optionValue = $(this).val();
+    var buttonColor = 'wd_category_zero';
+    var optionSelected = '';
+    if($(this).val() == 1) buttonColor = 'wd_category_one';
+    if($(this).val() == 2) buttonColor = 'wd_category_two';
+    if($(this).attr('selected')) var optionSelected = ' wd_category_selected';
+    $('.wd_category_nav').append('<a href="news?category='+optionValue+'" class="'+buttonColor+optionSelected+'">'+optionText+'</a>');
+});
+//Quarterly Earnings 
+$('.wd_pageid_126 .item').each(function() {
+    $(this).find('.wd_attachment').wrapAll('<div class="wd_attachment_container"></div>');
+});
+$('.wd_pageid_126 .item').click(function() {
+    $(this).find('.wd_attachment_container').slideToggle();
+    $(this).find('.item_name').toggleClass('opened');
+
+});
+
+//Add line of text to Subscribe form
+var subscribeConfirm = `
+<div class="wd_form_field_input">By clicking "Submit" I agree and confirm:</br>
+- To sign up with my email address to receive Globant</br>
+communications with updates, valuable resources and useful tips.</br>
+- That I have read and agree to the <span><a href="https://www.globant.com/privacy-policy" target="_blank">privacy policy</a></span>.</div>
+`;
+$('.wd_pageid_147 form .wd_form_field:nth-child(9)').after('<div class="wd_form_field_pos_right subscribe_confirm_text">' + subscribeConfirm + '</div>');
+    
+</script>
+        <script src="js/mail-pop-up.min.js"></script>
+
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 4, "News Release Feed ID", "202611051605PR_NEWS_USPR_____SP90307", "page"]);
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "News Releases Feed", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "NEWS", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 1856]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=1856&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		<span id="newwindow-note" class="sr-only">(opens in a new window)</span>
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a59a9a470b3ffb86',t:'MTc5NDUzOTYyOA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59a9a470b3ffb86',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

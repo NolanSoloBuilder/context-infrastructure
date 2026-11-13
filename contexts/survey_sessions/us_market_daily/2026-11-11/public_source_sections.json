@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "title": "信用卡债务创纪录，不等于新增违约同步恶化",
+      "fact": "纽约联储11/10公布Q3数据：信用卡余额1.285万亿美元，环比增加220亿美元；新转入90天以上严重逾期的年化余额比例为6.87%，低于上年同期7.05%。",
+      "implication": "对金融平台的判断要分清债务存量、逾期存量与新增逾期流量。当前数据不支持仅凭余额纪录上调所有消费贷款的损失预测。",
+      "judgment": "SOFI继续逐项核其个人贷款客群与批次、净核销、贷款出售和估值假设；全国信用卡均值不能直接替代其贷款组合，也未据此完成新的低估判断。",
+      "counter": "全品类债务处于某种逾期的存量比例仍升至5.0%，季增0.3个百分点；低收入地区压力更大，宏观冲击或新发贷款风险成熟可能使改善逆转。",
+      "next": "核SOFI自身不同放贷批次的逾期与净核销、留存/出售风险、回收及公允价值假设，观察其客群是否与全国数据分化。",
+      "sources": [
+        {
+          "title": "纽约联储11/10 Q3家庭债务与信用报告",
+          "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110"
+        },
+        {
+          "title": "纽约联储同日收入与发卡年份分层研究",
+          "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Reddit｜读取受限，暂无可核日期的新增精选",
+      "paragraphs": [
+        "已尝试六社区New与Top日窗，并定向打开RKLB、ZETA、指数估值与AMD/NVDA比较帖。六社区RSS均单次返回403，未重试或绕过；Top均为旧缓存，部分New页面也滞后。",
+        "RKLB及指数估值帖的正文与实质评论已读，但可见时间仅为相对年龄，无法核定原帖绝对日期；ZETA帖子缺可读实质评论和财报原证。本日不把这些线索包装成已核最新帖，不采用其股价或估值数字。",
+        "TEAM FDE、Google马来西亚电力和NVDA董事会声明已报道，未找到本次能核定的实质讨论更新，不重复。未选入新条目是访问/日期与证据不足，不代表已确认六社区没有新内容。"
+      ],
+      "sources": [
+        {
+          "title": "r/investing New",
+          "url": "https://www.reddit.com/r/investing/new/"
+        },
+        {
+          "title": "r/ValueInvesting New",
+          "url": "https://www.reddit.com/r/ValueInvesting/new/"
+        },
+        {
+          "title": "指数预期PE与CAPE讨论（绝对日期待核）",
+          "url": "https://www.reddit.com/r/ValueInvesting/comments/1xsjcyt/is_this_a_real_dip_forward_pe_says_cheap_cape/"
+        }
+      ]
+    },
+    {
+      "title": "FiNews｜核到信用风险新数据；11/11美股正常交易",
+      "paragraphs": [
+        "实际读取11/10版，页面更新时间11/10 23:17:14 UTC，采集23:33:01 UTC，覆盖摘要、日历、23条新闻与行情/热度；聚合内容只作线索。",
+        "信用卡债务新闻已回查纽约联储11/10原文。Q3信用卡余额上升，但新增早期/严重逾期转入略改善；总体逾期存量仍上升。分层研究提醒，低收入地区压力和不同发卡年份的风险表现差异明显，不能用一条全国平均数代替单家公司贷款质量。",
+        "FiNews仍把11/11银行假日写成“市场休市”。NYSE股票交易所11/11正常交易；银行及债券市场安排不能直接套给美股。其他宏观和公司结论以官方数据与披露为准，涨跌不能证明资金净流向。"
+      ],
+      "sources": [
+        {
+          "title": "FiNews最新页",
+          "url": "https://finews.fyi/"
+        },
+        {
+          "title": "纽约联储Q3报告",
+          "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110"
+        },
+        {
+          "title": "收入/发卡年份分层研究",
+          "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/"
+        },
+        {
+          "title": "NYSE交易日历",
+          "url": "https://www.nyse.com/trade/hours-calendars"
+        }
+      ]
+    }
+  ],
+  "proposed_reported_claim_keys": [],
+  "primary_source_claim_keys": [
+    "nyfed_q3_2026_card_balance_vs_delinquency_flow_2026_11_10"
+  ],
+  "scan_status": "partial_read_timestamp_and_access_gaps",
+  "reviewed_at": "2026-11-10T23:36:41.544381+00:00",
+  "state_updated": false
+}

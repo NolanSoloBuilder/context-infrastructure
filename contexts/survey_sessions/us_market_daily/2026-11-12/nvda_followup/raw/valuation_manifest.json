@@ -1,0 +1,42 @@
+[
+  {
+    "key": "q2_10q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "status": "200",
+    "retrieved_at": "2026-11-12T02:30:07.283494+00:00",
+    "sha256": "3c136cf151d872295d2d7478ee03b053e78ef5ee8720a5b683b4255e37a3a272",
+    "error": ""
+  },
+  {
+    "key": "fy26_10k",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "status": "200",
+    "retrieved_at": "2026-11-12T02:30:07.979184+00:00",
+    "sha256": "e73d877b9beb873f8fd733e3eca68b5bacc3f3b0595db6627958f26e119b82aa",
+    "error": ""
+  },
+  {
+    "key": "q2_release",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+    "status": "200",
+    "retrieved_at": "2026-11-12T02:30:04.166807+00:00",
+    "sha256": "bf338d300e4a9692c121273f1f5cb8fbc84187b7d9e146899c0651603104ca15",
+    "error": ""
+  },
+  {
+    "key": "companyfacts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "status": "200",
+    "retrieved_at": "2026-11-12T02:30:09.614628+00:00",
+    "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+    "error": ""
+  },
+  {
+    "key": "submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "status": "200",
+    "retrieved_at": "2026-11-12T02:30:04.390005+00:00",
+    "sha256": "db787ea656392c0442099ee6498a978e5b0bfba2c14e47a68dda393ddaff0375",
+    "error": ""
+  }
+]

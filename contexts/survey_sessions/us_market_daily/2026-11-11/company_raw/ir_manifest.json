@@ -1,0 +1,38 @@
+[
+  {
+    "key": "nvda_board_1110",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-10T23:35:01.930160+00:00",
+    "sha256": "731721e95cb60d1fff50b01428ec890921299a6454f96adf791497c6e8cb885f",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-11/company_raw/nvda_board_1110.html"
+  },
+  {
+    "key": "epam_8k_1110",
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000057/epam-20261109.htm",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-10T23:35:01.581934+00:00",
+    "sha256": "72a46178bdd4df23dd37dcc73659cf390bb40d7d53b4d5527edb43a81e10320c",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-11/company_raw/epam_8k_1110.html"
+  },
+  {
+    "key": "cgnx_13g_1110",
+    "url": "https://www.sec.gov/Archives/edgar/data/851205/000091420826000396/xslSCHEDULE_13G_X02/primary_doc.xml",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-10T23:35:01.760506+00:00",
+    "sha256": "c85a6b793841c3a1324c9ed586246f984fbbe530f2088e6e00f21a4a16e775b4",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-11/company_raw/cgnx_13g_1110.html"
+  },
+  {
+    "key": "crwv_q3_earnings",
+    "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+    "status": "403",
+    "error": "",
+    "retrieved_at": "2026-11-10T23:35:02.210049+00:00",
+    "sha256": "784baf88ccac3af896c7705ec6fce2a56397366167a529b717c341652ee35298",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-11/company_raw/crwv_q3_earnings.html"
+  }
+]

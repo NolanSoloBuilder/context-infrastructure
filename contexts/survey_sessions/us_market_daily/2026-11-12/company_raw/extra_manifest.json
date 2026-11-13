@@ -1,0 +1,32 @@
+[
+  {
+    "key": "nvda_media_1111",
+    "url": "https://www.axios.com/2026/11/11/nvidia-jensen-huang-affair-shares",
+    "status": "000",
+    "error": "curl: (28) Resolving timed out after 25011 milliseconds\n",
+    "retrieved_at": "2026-11-11T23:31:49.837818+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/nvda_media_1111.html",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_len": 0
+  },
+  {
+    "key": "crwv_database",
+    "url": "https://www.coreweave.com/news/coreweave-database-launches-so-ai-teams-can-build-run-and-scale-production-applications-on-one-platform",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:31:26.562622+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/crwv_database.html",
+    "sha256": "8abbbae3d762167bb1affb9a725f3f79ff2006fab75688315f0660a94b08b9c3",
+    "text_len": 13481
+  },
+  {
+    "key": "sec_calendar",
+    "url": "https://www.sec.gov/submit-filings/filer-support-resources/edgar-calendar",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-11T23:31:25.723920+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-12/company_raw/sec_calendar.html",
+    "sha256": "1e02e03c93cf7f8eaeced0bd14ad71514142c313c33cfa908a28490dd18f1579",
+    "text_len": 5441
+  }
+]

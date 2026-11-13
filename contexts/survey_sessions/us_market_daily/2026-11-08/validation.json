@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-07T23:38:40.692786+00:00",
+  "brief_validation": "passed",
+  "targeted_tests": {
+    "passed": 19,
+    "failed": 0,
+    "files": [
+      "worker/daily-brief.test.mjs",
+      "worker/render.test.mjs"
+    ]
+  },
+  "independent_brk_math_review": "passed; source financial period, FX sensitivity, exact B-equivalent shares, cash subsets and valuation proxies checked",
+  "alert_state_unchanged_sha256": "b7289b052ce359b8d635ed81b3b56ab9612f81e18e901348d849e3825507500d",
+  "new_visual_qa": false,
+  "reason": "content-only update; no layout or interactions changed"
+}

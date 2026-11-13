@@ -1,0 +1,114 @@
+[
+  {
+    "title": "指数与趋势｜反弹仍未修复纳指100长期均线",
+    "paragraphs": [
+      "标普500：7,376.86点；日+0.31%／5交易日-2.68%／21交易日-5.00%。",
+      "纳斯达克综合（环境参考）：24,579.42点；日+1.09%／5交易日-3.37%／21交易日-9.61%。",
+      "纳斯达克100：26,989.99点；日+1.35%／5交易日-4.91%／21交易日-12.16%。",
+      "QQQM MA50/200为296.88/280.35美元，偏离-8.98%/-3.61%；成交量为此前20日均量1.61倍。VOO MA50/200为704.04/671.60，偏离-3.98%/+0.65%。",
+      "11/6较11/5收盘；周/月用5与21个交易日价格表现，未计分红，均线用拆股调整Close。在线1/2/3年累计回报使用含分红复权Adj Close代理，二者不同。趋势与量能为Yahoo单序列，不能据反弹认定见底。"
+    ],
+    "sources": [
+      {
+        "title": "^GSPC Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "^IXIC Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "^NDX Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "QQQM Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "VOO Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=2y&interval=1d&events=div%2Csplits"
+      }
+    ]
+  },
+  {
+    "title": "行业观察｜科技反弹，广度仍窄",
+    "paragraphs": [
+      "11行业加SMH共12项，仅4项上涨。SMH日+3.62%、21日-23.60%；XLK日+1.45%、21日-16.71%。半导体和科技仍需观察能否持续修复，而非一天反弹就上调盈利估值。",
+      "XLC通信服务日+0.43%、21日-6.50%；含广告、内容和平台业务，不能整体当作纯AI应用。XLP日-1.28%、21日+7.98%，防御领域短期也回落。",
+      "价格分化不等于资金净流入。SMH/XLK和头部公司存在经济暴露重叠；研究优先看盈利、交付与现金回收，单日领涨不构成买点。"
+    ],
+    "sources": [
+      {
+        "title": "SMH Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "XLK Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "XLC Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "XLP Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=2y&interval=1d&events=div%2Csplits"
+      }
+    ]
+  },
+  {
+    "title": "行业完整比较｜日／5交易日／21交易日与相对标普",
+    "paragraphs": [
+      "基准为标普500价格指数^GSPC；相对值是收益率差，单位百分点，不是资金流。",
+      "SMH 半导体：日+3.62%／5交易日-11.20%／21交易日-23.60%；相对标普分别+3.31／-8.52／-18.60个百分点。",
+      "XLK 科技：日+1.45%／5交易日-8.23%／21交易日-16.71%；相对标普分别+1.14／-5.55／-11.70个百分点。",
+      "XLC 通信服务：日+0.43%／5交易日+4.89%／21交易日-6.50%；相对标普分别+0.12／+7.58／-1.49个百分点。",
+      "XLI 工业：日+0.12%／5交易日-2.83%／21交易日-3.40%；相对标普分别-0.19／-0.14／+1.60个百分点。",
+      "XLE 能源：日-0.02%／5交易日-12.00%／21交易日-5.55%；相对标普分别-0.33／-9.32／-0.55个百分点。",
+      "XLY 可选消费：日-0.05%／5交易日+1.91%／21交易日+5.25%；相对标普分别-0.37／+4.59／+10.26个百分点。",
+      "XLV 医疗：日-0.06%／5交易日-0.04%／21交易日+9.90%；相对标普分别-0.37／+2.64／+14.90个百分点。",
+      "XLU 公用事业：日-0.39%／5交易日-0.69%／21交易日+5.02%；相对标普分别-0.71／+1.99／+10.02个百分点。",
+      "XLF 金融：日-0.59%／5交易日+1.15%／21交易日+5.40%；相对标普分别-0.91／+3.83／+10.41个百分点。",
+      "XLRE 房地产：日-0.68%／5交易日+1.92%／21交易日+7.71%；相对标普分别-0.99／+4.60／+12.71个百分点。",
+      "XLB 材料：日-0.73%／5交易日-1.50%／21交易日+5.44%；相对标普分别-1.04／+1.18／+10.44个百分点。",
+      "XLP 必需消费：日-1.28%／5交易日+0.74%／21交易日+7.98%；相对标普分别-1.60／+3.42／+12.99个百分点。"
+    ],
+    "sources": [
+      {
+        "title": "^GSPC Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "SMH Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits"
+      }
+    ]
+  },
+  {
+    "title": "数据修正与口径｜SOXX及XSW恢复完整序列",
+    "paragraphs": [
+      "本次43项完整日线均通过既有引擎检查。SOXX提供方已把11/4及以前历史统一到3:1拆股后单位，11/4收盘约150.1367、11/5为131.90；11/5真实价格变化约−12.15%，不使用昨日混合单位导致的−70%假跌幅。MA50/200仍为50/200交易日，未手工猜测复权。",
+      "XSW 11/5最高价已从209.00更正至211.65，与开盘211.65一致，原OHLC矛盾已消除。11/6 Yahoo收202.67、StockAnalysis收202.17，后者盘后16:15为202.67；同日收盘定义差异仍未查明，自动页面保留来源标注，不称精确收盘完全一致。SOXX11/6收136.53/136.43亦有0.10差异。",
+      "本地保留原始序列、关键交叉核验、真实60交易日归一走势/各历史日当时52周盘中高点回撤图、行业图与CSV；线上曲线按1/2/3年交互，旧归档不被今日研究覆盖。MRNA历史收益仍受8/19异常大涨主导，事件原因未核原披露，不当未来收益预期。"
+    ],
+    "sources": [
+      {
+        "title": "SOXX历史",
+        "url": "https://stockanalysis.com/etf/soxx/history/"
+      },
+      {
+        "title": "XSW修正历史",
+        "url": "https://stockanalysis.com/etf/xsw/history/"
+      },
+      {
+        "title": "SOXX Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=2y&interval=1d&events=div%2Csplits"
+      },
+      {
+        "title": "XSW Yahoo本次日线",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XSW?range=2y&interval=1d&events=div%2Csplits"
+      }
+    ]
+  }
+]

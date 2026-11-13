@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cpi_and_discount_rate",
+    "title": "CPI环比放缓但核心仍黏；利率上升时暂不放宽安全边际",
+    "fact": "10月总CPI季调环比+0.4%（9月+0.6%），核心+0.3%连续三月；2年/10年美债平价收益率11/10升至4.73%/4.98%，日升17/10bp。",
+    "impact": "工资、保险和融资成本仍可能挤压利润；远期现金流折现压力上升，AI应用公司的业务增长不能直接抵消估值风险。",
+    "judgment": "继续核现金流兑现与保守估值，不因总CPI放缓或VIX下降上调买入上限；未核一致预期，不判定意外方向。",
+    "counter": "能源月涨幅由5.2%降至0.7%、住房由0.4%降至0.3%，部分压力正在缓和；同日利率变化不能全部归因CPI。",
+    "next": "11/12初请、11/13 PPI和后续价格分项；CPI总/核心同比因2025-10基数缺失未公布，应留空。",
+    "sources": [
+      "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "https://www.bls.gov/news.release/cpi.t01.htm",
+      "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve"
+    ]
+  },
+  {
+    "id": "credit_stock_vs_flow",
+    "title": "家庭逾期存量上升，但信用卡新增严重逾期略改善",
+    "fact": "NY Fed Q3：总债务$19.105万亿，某阶段逾期余额占比5.0%（季升0.3pp）；信用卡新转90天以上逾期年化流量6.87%，低于去年同期7.05%。",
+    "impact": "消费信贷压力值得跟踪，但存量累积与新增违约速度给出的信号不同。",
+    "judgment": "SOFI继续以自身贷款质量、核销与估值为依据，不能把全国信用卡指标直接当作其个人贷款违约率。",
+    "counter": "信用卡新增严重逾期环比略改善，疫情期低质量批次影响正在减弱；借款人和产品结构有差异。",
+    "next": "核SOFI分产品逾期/净核销、出售贷款与留存敞口、公允价值及正常化EPS假设。",
+    "sources": [
+      "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+      "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/"
+    ]
+  }
+]

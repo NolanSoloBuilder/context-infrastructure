@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-08",
+  "cutoff_utc": "2026-11-07T23:30:00+00:00",
+  "window_start_utc": "2026-11-06T23:30:00+00:00",
+  "optional_72h_window_used_for_selected_posts": false,
+  "checked_at_utc": "2026-11-07T23:34:38.081678+00:00",
+  "coverage_status": "partial_public_access_two_selected_new_discussions",
+  "full_scan_complete": false,
+  "access_summary": "r/stocks New RSS: 25 entries, 10 within24h. Other five priority-community RSS attempts HTTP429. All six New and Top day pages read via public web; all Top day snapshots stale. No repeated limited endpoint requests.",
+  "rss_attempts": [
+    {
+      "name": "finews_home",
+      "url": "https://finews.fyi/",
+      "captured_at_utc": "2026-11-07T23:30:39.452198+00:00",
+      "status": 200,
+      "bytes": 133857,
+      "text_start": "FiNews 美股日报｜今日美股行情、美股指数盘后总结\nFiNews\n美股日报 · 更新\n2026-11-06 23:15:21 UTC\n2026-11-06\n‹\n›\n日\n一\n二\n三\n四\n五\n六\n2026年11月6日 美股盘后日报\n头部个股热力图\n美股头部个股热力图 2026-11-06\n2026 年 11 月 6 日\n−0.46%\n道指\n+1.09%\n纳指\n+0.31%\n标普 500\n科技"
+    },
+    {
+      "name": "investing_new",
+      "url": "https://www.reddit.com/r/investing/new/.rss",
+      "captured_at_utc": "2026-11-07T23:30:39.454642+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "stocks_new",
+      "url": "https://www.reddit.com/r/stocks/new/.rss",
+      "captured_at_utc": "2026-11-07T23:30:39.454853+00:00",
+      "status": 200,
+      "bytes": 74756,
+      "count": 25,
+      "first": "2026-11-07T22:49:33+00:00",
+      "last": "2026-11-06T07:12:23+00:00"
+    },
+    {
+      "name": "SecurityAnalysis_new",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+      "captured_at_utc": "2026-11-07T23:30:40.122914+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ValueInvesting_new",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+      "captured_at_utc": "2026-11-07T23:30:40.293580+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "Bogleheads_new",
+      "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+      "captured_at_utc": "2026-11-07T23:30:40.776024+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ETFs_new",
+      "url": "https://www.reddit.com/r/ETFs/new/.rss",
+      "captured_at_utc": "2026-11-07T23:30:40.852099+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "community_page_checks": [
+    {
+      "community": "r/investing",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/investing/new/",
+      "read_result": "public page body read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Page ranking/relative age not treated as verified post publication time."
+    },
+    {
+      "community": "r/investing",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/investing/top/?t=day",
+      "read_result": "public cached page read",
+      "cache_age_reported": "3 weeks old",
+      "freshness_limit": "stale snapshot, excluded from latest24h evidence"
+    },
+    {
+      "community": "r/stocks",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/stocks/new/",
+      "read_result": "public page body read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Page ranking/relative age not treated as verified post publication time."
+    },
+    {
+      "community": "r/stocks",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "read_result": "public cached page read",
+      "cache_age_reported": "4 days old",
+      "freshness_limit": "stale snapshot, excluded from latest24h evidence"
+    },
+    {
+      "community": "r/SecurityAnalysis",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "read_result": "public page body read",
+      "cache_age_reported": "2 weeks old",
+      "freshness_limit": "Page ranking/relative age not treated as verified post publication time."
+    },
+    {
+      "community": "r/SecurityAnalysis",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/top/?t=day",
+      "read_result": "public cached page read",
+      "cache_age_reported": "3 weeks old",
+      "freshness_limit": "stale snapshot, excluded from latest24h evidence"
+    },
+    {
+      "community": "r/ValueInvesting",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "read_result": "public page body read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Page ranking/relative age not treated as verified post publication time."
+    },
+    {
+      "community": "r/ValueInvesting",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/ValueInvesting/top/?t=day",
+      "read_result": "public cached page read",
+      "cache_age_reported": "last week",
+      "freshness_limit": "stale snapshot, excluded from latest24h evidence"
+    },
+    {
+      "community": "r/Bogleheads",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/Bogleheads/new/",
+      "read_result": "public page body read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Page ranking/relative age not treated as verified post publication time."
+    },
+    {
+      "community": "r/Bogleheads",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/Bogleheads/top/?t=day",
+      "read_result": "public cached page read",
+      "cache_age_reported": "2 weeks old",
+      "freshness_limit": "stale snapshot, excluded from latest24h evidence"
+    },
+    {
+      "community": "r/ETFs",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/ETFs/new/",
+      "read_result": "public page body read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Page ranking/relative age not treated as verified post publication time."
+    },
+    {
+      "community": "r/ETFs",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/ETFs/top/?t=day",
+      "read_result": "public cached page read",
+      "cache_age_reported": "last week",
+      "freshness_limit": "stale snapshot, excluded from latest24h evidence"
+    }
+  ],
+  "targeted_checks": [
+    {
+      "topic": "BRK weekend Q3",
+      "urls": [
+        "https://www.reddit.com/r/BerkshireHathaway/new/",
+        "https://www.berkshirehathaway.com/news/2026news.html"
+      ],
+      "result": "BRK New page cache2days old; targeted search returned old posts. Official news index now includes November7 Q3 earnings. No recent original Reddit earnings thread verified; this is an access/discovery gap, not a claim of no discussion. Official results assigned to separate company research."
+    },
+    {
+      "topic": "AI application/FDE",
+      "result": "No separate fresh FDE post with verified substantive new facts selected. Prior EPAM claim deduplicated; model-routing discussion selected only as a new research question."
+    }
+  ],
+  "items": [
+    {
+      "id": "1xq3hs1",
+      "claim_key": "strl_signed_unsigned_design_scope_vs_backlog_new_discussion_2026_11_07",
+      "classification": "已核验历史财务口径／新增讨论",
+      "title": "STRL：近80亿美元工作范围不等于已签订单",
+      "event_date": "2026-10-28",
+      "read_scope": "r/stocks New RSS full original body and absolute timestamp; public original post body and one visible supportive comment; official Q3 release read",
+      "comments_status": "One supportive comment read; no substantive opposing comment obtained. Counterargument below is our analysis, not fabricated forum consensus.",
+      "core_claim": "帖子把近80亿美元称为总积压订单，进而讨论大跌后的估值。官方10月28日材料区分已签41.4亿美元、含未签授标的合计61.4亿美元，近80亿美元还包括在设计阶段的后续工作。",
+      "verified_facts": [
+        "2026-09-30 signed backlog USD4.14B; combined backlog USD6.14B includes USD2.00B unsigned awards.",
+        "Nearly USD8B scoped work includes signed backlog, unsigned awards and next phases in design; not all signed revenue.",
+        "2026Q3 signed backlog book-to-burn 0.9x versus combined backlog 1.4x."
+      ],
+      "uncertainty": "原帖股价/14倍PE、政策归因及长期增长说法未独立验证，不采用为买入依据；仅有正面实质评论可读。",
+      "counterargument": "订单扩张是真实披露，但未签及设计阶段项目有转化和延后风险；已签book-to-burn低于1，不能用全部工作范围证明未来收入无风险。",
+      "relevance": "这是AI建设链的交付/电气服务公司，仍属于基础设施，不等于模型应用收入，也不新增为正式观察标的。",
+      "next_check": "核未来季度已签订单转化、取消/延期、回款和经股权薪酬调整的正常化现金流，再完成估值。",
+      "verification_sources": [
+        {
+          "title": "Sterling 2026Q3官方业绩",
+          "url": "https://www.strlco.com/news/sterling-reports-record-third-quarter-results-and-raises-full-year-2026-guidance/",
+          "published_date": "2026-10-28",
+          "scope": "Backlog definitions and operating figures; forward-looking project scope distinguished from signed contracts"
+        }
+      ],
+      "url": "https://www.reddit.com/r/stocks/comments/1xq3hs1/sterling_infrastructure_strl/",
+      "community": "r/stocks",
+      "post_time_utc": "2026-11-07T10:42:54+00:00",
+      "post_time_beijing": "2026-11-07T18:42:54+08:00",
+      "collected_at_utc": "2026-11-07T23:34:38.081678+00:00",
+      "window": "within24h",
+      "post_time_source": "public Atom RSS published; relative ages on cached HTML not used",
+      "heat_metrics": null
+    },
+    {
+      "id": "1xpy9qs",
+      "claim_key": "model_routing_cost_quality_vs_vendor_revenue_new_discussion_2026_11_07",
+      "classification": "待核验观点／技术机制已核",
+      "title": "模型路由降本：检验应用利润，而非直接推断模型商收入下滑",
+      "event_date": null,
+      "read_scope": "r/stocks New RSS full original body and absolute timestamp; original public page plus visible supportive and contrary comments; AWS documentation",
+      "comments_status": "Read anonymous claimed cost reduction after routing, a reply asking for quantified quality differences, and a contrary comment questioning the no-moat inference. No identity or representative consensus verified.",
+      "core_claim": "发帖人担心企业控制token支出削弱模型商收入，评论有人自述切换路由后成本下降，反方追问质量是否真的相当。",
+      "verified_facts": [
+        "AWS official documentation describes routing requests between models within the same family based on predicted quality/cost.",
+        "AWS docs explicitly warn that routing cannot adapt using application-specific performance data and may be suboptimal for specialized use cases."
+      ],
+      "uncertainty": "匿名公司使用、95%降本、Anthropic收入/IPO估值、微软停止使用等断言未取得官方验证，不采用。AWS页面无明确发布日期，只核技术机制，不当作11月7日新公告。",
+      "counterargument": "单位任务成本下降可能扩大使用量；路由后失败重试、人工复核和业务效果也需计入。个别企业体验不能证明全行业收入或现金回报下降。",
+      "relevance": "对NOW/CRM/EPAM等AI应用或实施服务，观察完成业务任务的总成本与客户付费留存，比token消耗单独增长更有用；不据此改变估值或买入。",
+      "next_check": "核同质量任务成功率、人工复核和重试成本、净留存/续费、AI新增收入及实际毛利；需可比客户或公司正式披露。",
+      "verification_sources": [
+        {
+          "title": "AWS Bedrock智能路由官方机制与限制",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html",
+          "published_date": null,
+          "scope": "Product mechanism only; no validation of anonymous user financial claims"
+        }
+      ],
+      "url": "https://www.reddit.com/r/stocks/comments/1xpy9qs/a_view_on_anthropics_revenue/",
+      "community": "r/stocks",
+      "post_time_utc": "2026-11-07T05:14:18+00:00",
+      "post_time_beijing": "2026-11-07T13:14:18+08:00",
+      "collected_at_utc": "2026-11-07T23:34:38.081678+00:00",
+      "window": "within24h",
+      "post_time_source": "public Atom RSS published; relative ages on cached HTML not used",
+      "heat_metrics": null
+    }
+  ],
+  "excluded": [
+    {
+      "id": "1xq18c3",
+      "url": "https://www.reddit.com/r/stocks/comments/1xq18c3/what_the_market_thinks_a_case_study_from_ai/",
+      "post_time_utc": "2026-11-07T08:13:16+00:00",
+      "read_scope": "RSS body plus original public page; substantive comments not obtained",
+      "reason": "Equal-weight peer baskets, return/PE data and electricity demand source not reproducibly established. Price differences do not uniquely identify market expectations. Not selected as a new investment fact."
+    },
+    {
+      "id": "1xpf1ot",
+      "reason": "Reported 2026-11-07; no verified substantive update."
+    },
+    {
+      "id": "1xpjkkr",
+      "reason": "Reported 2026-11-07; no verified substantive update."
+    },
+    {
+      "id": "1xpbg1b",
+      "reason": "Reported 2026-11-07; no verified substantive update."
+    }
+  ],
+  "dedup_state_read": "../reddit_state.json",
+  "global_state_modified": false,
+  "public_publish_status": "research_artifacts_only_pending_parent_publication"
+}

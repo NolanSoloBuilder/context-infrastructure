@@ -1,0 +1,34 @@
+[
+  {
+    "id": "treasury_correct",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/treasury_correct.html",
+    "at": "2026-11-09T23:39:54.692745+00:00"
+  },
+  {
+    "id": "vix_current_csv",
+    "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/vix_current_csv.csv",
+    "at": "2026-11-09T23:39:53.842708+00:00"
+  },
+  {
+    "id": "csco",
+    "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/csco.html",
+    "at": "2026-11-09T23:39:55.214650+00:00"
+  },
+  {
+    "id": "amat",
+    "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+    "http": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/amat.html",
+    "at": "2026-11-09T23:39:54.472487+00:00"
+  }
+]

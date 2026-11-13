@@ -1,0 +1,45 @@
+[
+  {
+    "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "file": "cboe_vix.csv",
+    "http_status": "200",
+    "error": "",
+    "collected_at": "2026-11-06T23:37:50.058109+00:00",
+    "bytes": 474553,
+    "tail": [
+      "11/02/2026,19.050000,21.770000,18.030000,21.150000",
+      "11/03/2026,21.660000,21.910000,20.290000,20.830000",
+      "11/04/2026,19.200000,19.220000,16.570000,16.610000",
+      "11/05/2026,17.140000,28.360000,16.700000,28.180000"
+    ]
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=1d",
+    "file": "yahoo_vix.json",
+    "http_status": "429",
+    "error": "",
+    "collected_at": "2026-11-06T23:37:49.820494+00:00"
+  },
+  {
+    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "file": "bls_empsit.html",
+    "http_status": "403",
+    "error": "",
+    "collected_at": "2026-11-06T23:37:49.896020+00:00"
+  },
+  {
+    "url": "https://www.bls.gov/news.release/empsit.t01.htm",
+    "file": "bls_a1.html",
+    "http_status": "403",
+    "error": "",
+    "collected_at": "2026-11-06T23:37:50.034266+00:00"
+  },
+  {
+    "url": "https://www.berkshirehathaway.com/news/nov0426.pdf",
+    "file": "berkshire_release_schedule.pdf",
+    "http_status": "200",
+    "error": "",
+    "collected_at": "2026-11-06T23:37:50.020456+00:00",
+    "bytes": 210254
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-12",
+  "url": "https://finews.fyi/",
+  "source_market_date": "2026-11-11",
+  "source_updated_at": "2026-11-11T23:18:04Z",
+  "collected_at": "2026-11-11T23:30:31.878606+00:00",
+  "http_status": 200,
+  "status": "read_success_primary_verification_partial",
+  "sha256": "ec5ac2ca51c7faebbbdbca5e055040c9e511afb2249e9fa676843dc87e146b4c",
+  "raw_path": "source_scan_raw/finews_home.html",
+  "text_path": "source_scan_raw/finews_home.txt",
+  "scope": {
+    "summary_count": 7,
+    "news_count": 21,
+    "heatmap_symbols": 91,
+    "read_sections": [
+      "页面更新时间与交易日",
+      "盘后总结",
+      "未来事件",
+      "全部21条新闻摘要",
+      "市场温度及指数/股票/汇率",
+      "美债栏显示暂无数据"
+    ],
+    "original_news_articles_read": false
+  },
+  "verified_or_rechecked": [
+    {
+      "claim": "NVDA董事会11/10聘请Joon H. Kim及Wachtell, Lipton, Rosen & Katz独立调查",
+      "event_date": "2026-11-10",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "status": "官方原文复核成功；11/11站点已发布，无新事实",
+      "limits": "该声明未宣布CEO更换、调查结论、财务影响或盘后股价原因。"
+    }
+  ],
+  "unverified_leads": [
+    {
+      "claim": "NVDA更换CEO的媒体传闻",
+      "status": "所读官方最新11/10声明不支持任免已发生；不能据此确认盘后跌幅原因。"
+    },
+    {
+      "claim": "CoreWeave财报带动全部AI股上涨",
+      "status": "聚合摘要仅作线索；财报交root公司研究核对，股价相关不等于因果，多个转述不是独立证据。"
+    },
+    {
+      "claim": "Meta基础设施高管2027年离任、Costco特别派息",
+      "status": "本轮未核发行人原文，不作为新增投资判断。"
+    },
+    {
+      "claim": "未来一周事件日期和预期值",
+      "status": "交root官方日历校核；不直接采用聚合日历。"
+    }
+  ],
+  "interpretation_limits": [
+    "价格分化不证明资金净流入/流出。",
+    "温度和情绪指数不等于安全边际。",
+    "美债数据缺失不能用昨日数据冒充今日。"
+  ],
+  "new_verified_primary_claim_keys": []
+}

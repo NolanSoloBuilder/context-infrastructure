@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-11-11T23:34:30.211153+00:00",
+  "provider": "StockAnalysis",
+  "access": "web.run original page read",
+  "url": "https://stockanalysis.com/stocks/nvda/history/",
+  "session": "2026-11-11",
+  "regular_close_usd": 173.73,
+  "post_price_usd": 159.46,
+  "post_time_et": "2026-11-11T18:27:00-05:00",
+  "post_time_beijing": "2026-11-12T07:27:00+08:00",
+  "change_vs_regular_pct": -8.213895124618652,
+  "read_scope": "original page price header and historical table",
+  "earlier_saved_raw": "market_crosscheck_raw/nvda.html",
+  "earlier_post_price_usd": 157.99,
+  "earlier_time_et": "2026-11-11T18:21:00-05:00",
+  "note": "Different timestamps; not synchronized identical trades."
+}

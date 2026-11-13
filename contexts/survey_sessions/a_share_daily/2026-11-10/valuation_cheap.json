@@ -1,0 +1,140 @@
+{
+  "asof": "2026-11-09",
+  "count": 19,
+  "source_image": "./sources/3010_valuation.jpg",
+  "items": [
+    {
+      "name": "中证红利低波",
+      "code": "CSIH30269",
+      "metric": "盈利收益率",
+      "display": "10.82%",
+      "zone": "低估"
+    },
+    {
+      "name": "沪港深红利低波",
+      "code": "CSI931157",
+      "metric": "盈利收益率",
+      "display": "10.21%",
+      "zone": "低估"
+    },
+    {
+      "name": "中证红利",
+      "code": "SH000922",
+      "metric": "盈利收益率",
+      "display": "10.09%",
+      "zone": "低估"
+    },
+    {
+      "name": "优选300",
+      "code": "CSI931069",
+      "metric": "盈利收益率",
+      "display": "10.27%",
+      "zone": "低估"
+    },
+    {
+      "name": "自由现金流",
+      "code": "CSI932365",
+      "metric": "市盈率",
+      "display": "10.88倍",
+      "zone": "低估"
+    },
+    {
+      "name": "沪深300",
+      "code": "SH000300",
+      "metric": "市盈率",
+      "display": "11.81倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证800",
+      "code": "SH000906",
+      "metric": "市盈率",
+      "display": "14.56倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证全指",
+      "code": "CSI000985",
+      "metric": "市盈率",
+      "display": "15.67倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证A50",
+      "code": "CSI930050",
+      "metric": "市盈率",
+      "display": "16.21倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证A500",
+      "code": "CSI000510",
+      "metric": "市盈率",
+      "display": "17.94倍",
+      "zone": "低估"
+    },
+    {
+      "name": "消费50",
+      "code": "CSI931139",
+      "metric": "市盈率",
+      "display": "23.78倍",
+      "zone": "低估"
+    },
+    {
+      "name": "消费龙头",
+      "code": "CSI931068",
+      "metric": "市盈率",
+      "display": "23.76倍",
+      "zone": "低估"
+    },
+    {
+      "name": "医药100",
+      "code": "000978",
+      "metric": "市盈率",
+      "display": "29.75倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证消费",
+      "code": "000932",
+      "metric": "市盈率",
+      "display": "26.43倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证白酒",
+      "code": "399997",
+      "metric": "市盈率",
+      "display": "24.12倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证500",
+      "code": "SH000905",
+      "metric": "市盈率",
+      "display": "24.68倍",
+      "zone": "低估"
+    },
+    {
+      "name": "中证医疗",
+      "code": "399989",
+      "metric": "市盈率",
+      "display": "51.56倍",
+      "zone": "低估"
+    },
+    {
+      "name": "港股科技",
+      "code": "CSI931573",
+      "metric": "市盈率",
+      "display": "33.25倍",
+      "zone": "低估"
+    },
+    {
+      "name": "证券行业",
+      "code": "399975",
+      "metric": "市净率",
+      "display": "1.54倍",
+      "zone": "低估"
+    }
+  ]
+}

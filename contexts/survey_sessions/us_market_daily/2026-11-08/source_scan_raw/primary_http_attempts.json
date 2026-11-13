@@ -1,0 +1,18 @@
+[
+  {
+    "name": "strl_q3_2026",
+    "url": "https://www.strlco.com/news/sterling-reports-record-third-quarter-results-and-raises-full-year-2026-guidance/",
+    "captured_at_utc": "2026-11-07T23:33:06.197233+00:00",
+    "status": 200,
+    "bytes": 900903,
+    "text_start": "Sterling Reports Record Third Quarter Results and Raises Full Year 2026 Guidance - Sterling Infrastructure, Inc.\n- - - - - Sterling to Participate in Upcoming Investor Conferences - - - - - Sterling Reports Record Third Quarter Results and Raises Full Year 2026 Guidance - - - - - Click here for Sterling Infrastructure, Inc. News - - - - -\nWho We Are\nAbout Sterling\nLeadership\nOur Companies\nWhat We Do\nE-Infrastructure Solutions\nTransportation Solutions\nBuilding Solutions\nThe Sterling Way (ESG)\n2026 Sustainability Report\nOverview\nEnvironmental\nSocial\nGovernance\nSafety\nEthics\nInvestor Relations\nOverview\nInvestor Relations Contacts\nLatest News\nEvents & Presentations\nFinancials & Reports\nCorporate Governance"
+  },
+  {
+    "name": "aws_routing_docs",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html",
+    "captured_at_utc": "2026-11-07T23:33:06.197775+00:00",
+    "status": 200,
+    "bytes": 29525,
+    "text_start": "Understanding intelligent prompt routing in Amazon Bedrock - Amazon Bedrock\nView a markdown version of this page\nUnderstanding intelligent prompt routing in Amazon Bedrock - Amazon Bedrock\nDocumentation\nAmazon Bedrock\nUser Guide\nSupported Regions and models\nBenefits\nDefault and configured prompt routers\nConsiderations and limitations\nPrompt router criteria and fallback model\nHow intelligent prompt routing works\nHow to use intelligent prompt routing\nUnderstanding intelligent prompt routing in Amazon Bedrock\nAmazon Bedrock intelligent prompt routing provides a single serverless endpoint to\n\t\t\tefficiently route requests between different foundational models within the same model\n\t\t\tfamily. It can dynamically predict the response quality of each model for each request, and \n\t\t\tthen route the request to the model with the best response quality. This helps to optimize\n\t\t\tfor both response quality and cost.\nTopics\nSupported Regions and models for intelligent prompt routing\nBenefits\nDefault and configured prompt routers\nConsiderations and limitations\nPrompt router criteria and fallback model\nHow intelligent prompt routing works\nHow to use intelligent prompt routing\nSupported Regions and models for intelligent prompt routing\nIntelligent prompt routing can be used with different types of models. The following list describes support for different types of Amazon Bedrock models:"
+  }
+]

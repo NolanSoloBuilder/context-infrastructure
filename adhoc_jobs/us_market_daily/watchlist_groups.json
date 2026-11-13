@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated_at": "2026-11-05",
+  "version": 5,
+  "updated_at": "2026-11-13",
   "groups": [
     {
       "id": "funds",
@@ -19,6 +19,13 @@
           "kind": "fund",
           "etf_category_id": "core",
           "etf_category": "宽基与成长"
+        },
+        {
+          "symbol": "SCHD",
+          "name": "美国红利股票ETF",
+          "kind": "fund",
+          "etf_category_id": "style",
+          "etf_category": "风格与集中"
         },
         {
           "symbol": "SPMO",

@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-07",
+  "market_session": "2026-11-06",
+  "next_session": "2026-11-09",
+  "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+  "timezone": "America/New_York",
+  "beijing_offset_hours": 13,
+  "calendar_window_et": [
+    "2026-11-07",
+    "2026-11-13"
+  ],
+  "jobs": {
+    "reference_month": "2026-10",
+    "released_at_et": "2026-11-06T08:30:00-05:00",
+    "released_at_beijing": "2026-11-06T21:30:00+08:00",
+    "nonfarm_change_thousands": 165,
+    "prior_revisions_thousands": {
+      "August": {
+        "old": 133,
+        "new": 186,
+        "revision": 53
+      },
+      "September": {
+        "old": 29,
+        "new": 60,
+        "revision": 31
+      },
+      "total": 84
+    },
+    "three_month_average_thousands": 137,
+    "household_sa_thousands": {
+      "labor_force": 170683,
+      "labor_force_previous": 170262,
+      "employed": 163615,
+      "employed_previous": 163152,
+      "unemployed": 7068,
+      "unemployed_previous": 7109
+    },
+    "unemployment_rate_pct": 4.1,
+    "unemployment_previous_pct": 4.2,
+    "recomputed_unrounded_unemployment_pct": 4.141009942407855,
+    "participation_pct": 61.9,
+    "participation_previous_pct": 61.8,
+    "wage_mom_pct": 0.4,
+    "wage_yoy_pct": 3.1,
+    "sources": [
+      "bls_jobs",
+      "bls_a1"
+    ]
+  },
+  "market": {
+    "vix": {
+      "date": "2026-11-06",
+      "value": 25.64,
+      "previous": 28.18,
+      "change_points": -2.54,
+      "change_pct": -9.013484740951029,
+      "unit": "index_points",
+      "status": "close_crosschecked_current_official_headline_plus_thirdparty_history",
+      "exact_quote_time_et": null,
+      "sources": [
+        "cboe",
+        "tallac",
+        "portfolio_vix"
+      ],
+      "gap": "OfficialCSV still11/5; quoteheadline timezone not explicit",
+      "crosscheck_note": "Cboe official headline agrees with dated third-party historical figures; Portfolio Terminal republishes Yahoo, not an additional independent underlying vendor."
+    },
+    "us2y": {
+      "date": "2026-11-06",
+      "yield_pct": 4.51,
+      "previous_yield_pct": 4.46,
+      "change_bp": 5,
+      "source": "treasury"
+    },
+    "us10y": {
+      "date": "2026-11-06",
+      "yield_pct": 4.86,
+      "previous_yield_pct": 4.84,
+      "change_bp": 2,
+      "source": "treasury"
+    },
+    "sgov": {
+      "asof": "2026-11-05",
+      "sec_30day_yield_pct": 3.83,
+      "trailing_12m_yield_pct": 3.63,
+      "expense_ratio_pct": 0.09,
+      "source": "sgov",
+      "not_total_return": true
+    }
+  },
+  "events": [
+    {
+      "id": "brk_q3",
+      "title": "Berkshire Q3业绩与10-Q",
+      "time_et": "2026-11-07T08:00:00-05:00",
+      "time_beijing": "2026-11-07T21:00:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "brk_schedule",
+      "note": "approximately; original07:00Central"
+    },
+    {
+      "id": "cpi_oct",
+      "title": "10月CPI",
+      "time_et": "2026-11-10T08:30:00-05:00",
+      "time_beijing": "2026-11-10T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "bls_cpi"
+    },
+    {
+      "id": "claims",
+      "title": "初请失业金",
+      "time_et": "2026-11-12T08:30:00-05:00",
+      "time_beijing": "2026-11-12T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "claims",
+      "note": "date derived from officialweeklyrule"
+    },
+    {
+      "id": "mrna_analyst",
+      "title": "Moderna AnalystDay",
+      "time_et": "2026-11-12T09:00:00-05:00",
+      "time_beijing": "2026-11-12T22:00:00+08:00",
+      "status": "official_index_schedule_direct_dynamic_gap",
+      "source": "mrna_events"
+    },
+    {
+      "id": "csco_q1",
+      "title": "Cisco FY27Q1电话会",
+      "time_et": "2026-11-12T16:30:00-05:00",
+      "time_beijing": "2026-11-13T05:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "cisco"
+    },
+    {
+      "id": "amat_q4",
+      "title": "AMAT FY26Q4电话会",
+      "time_et": "2026-11-12T16:30:00-05:00",
+      "time_beijing": "2026-11-13T05:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "amat"
+    },
+    {
+      "id": "ppi_oct",
+      "title": "10月PPI",
+      "time_et": "2026-11-13T08:30:00-05:00",
+      "time_beijing": "2026-11-13T21:30:00+08:00",
+      "status": "scheduled_not_released",
+      "source": "bls_calendar"
+    }
+  ],
+  "already_released": [
+    {
+      "id": "jobs_oct",
+      "title": "10月就业报告",
+      "time_et": "2026-11-06T08:30:00-05:00",
+      "time_beijing": "2026-11-06T21:30:00+08:00",
+      "status": "released",
+      "source": "bls_jobs"
+    },
+    {
+      "id": "mrna_q3",
+      "title": "Moderna Q3电话会",
+      "time_et": "2026-11-06T08:00:00-05:00",
+      "time_beijing": "2026-11-06T21:00:00+08:00",
+      "status": "results_released_call_scheduled_time_elapsed_not_audio_verified",
+      "source": "mrna_events",
+      "note": "Release occurred confirmed by officialCFO; callaudio notlistened"
+    }
+  ],
+  "next_fomc_meeting": [
+    "2026-12-08",
+    "2026-12-09"
+  ],
+  "sources": [
+    {
+      "id": "nyse",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "read_scope": "2026 holiday table; core and Arca early/late hours",
+      "findings": "11/6 normal session; next11/9; 11/7–8 weekend; 11/11 is not NYSE holiday.09:30–16ET core, Arca04–09:30 and16–20ET extended",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null
+    },
+    {
+      "id": "bls_jobs",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "read_scope": "October2026 employment summary, payroll, wage and revision paragraphs",
+      "findings": "NFP+165k; August133→186k(+53k),September29→60k(+31k),combined+84k; wage+0.4%m/m,+3.1%y/y; economic part-time+339k to4.8m",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-06T08:30:00-05:00"
+    },
+    {
+      "id": "bls_a1",
+      "url": "https://www.bls.gov/news.release/empsit.t01.htm",
+      "read_scope": "A1 total both sexes 16+ seasonally adjusted September/October columns; thousands",
+      "findings": "Labor force170262→170683; employed163152→163615; unemployed7109→7068; participation61.8→61.9%; unemployment4.2→4.1%",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-06",
+      "gap": "October2025 household data missing due to shutdown; do not manufacture y/y household comparison; totals rounded to thousands"
+    },
+    {
+      "id": "bls_cpi",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "read_scope": "October2026 release row",
+      "findings": "October CPI scheduledNovember10 08:30ET",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null
+    },
+    {
+      "id": "bls_calendar",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "read_scope": "November monthly calendar and last modified date",
+      "findings": "CPI11/10 08:30ET; PPI11/13 08:30ET; next jobs12/4 08:30ET",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-03"
+    },
+    {
+      "id": "fomc",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "read_scope": "2026 meeting rows",
+      "findings": "No scheduled FOMC November7–13; latestOctober27–28; nextDecember8–9",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null
+    },
+    {
+      "id": "treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve",
+      "read_scope": "November5/6 Treasury par yield curve rows andmethodology",
+      "findings": "11/6 2Y4.51%,10Y4.86%;11/5 4.46%,4.84%; changes+5,+2bp; spread35bp",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-06"
+    },
+    {
+      "id": "cboe",
+      "url": "https://www.cboe.com/tradable-products/vix/",
+      "read_scope": "Dated headline VIXspot/change andmarketdata block",
+      "findings": "11/6 value25.64,−2.54/−9.01%,previous28.18",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-06",
+      "gap": "Searchindex initially26.41 asof10:14AM; opened currentpage25.64 with9:15PM timezone unstated. Do not call9:15PM ET."
+    },
+    {
+      "id": "cboe_csv",
+      "url": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "read_scope": "HTTP200 currentCSV last4rows",
+      "findings": "LatestCSV11/5 close28.18;11/6 missing",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null,
+      "gap": "OfficialCSV lags headline; not use11/5 as11/6"
+    },
+    {
+      "id": "tallac",
+      "url": "https://www.tallacoptions.com/Indices/VIX",
+      "read_scope": "November6 quote and dated historical OHLC",
+      "findings": "11/6 close25.64;previous28.18; corroborates Cboe headline",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-06"
+    },
+    {
+      "id": "portfolio_vix",
+      "url": "https://portfolio-terminal.com/markets/vix",
+      "read_scope": "Explicit November6 close statement",
+      "findings": "11/6 close25.64,−9.01%",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-06",
+      "underlying_vendor": "Yahoo Finance per page footnote; not independent from Yahoo"
+    },
+    {
+      "id": "sgov",
+      "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+      "read_scope": "Dated headline SEC yield/trailingyield/expense",
+      "findings": "SEC30day3.83% asof11/5;trailing12m3.63%;expense0.09%;nottotalreturn",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-05"
+    },
+    {
+      "id": "brk_schedule",
+      "url": "https://www.berkshirehathaway.com/news/nov0426.pdf",
+      "read_scope": "Onepage official earnings publication announcement",
+      "findings": "Q3 earnings and10Q planned Saturday11/7 approximately07:00Central =08EST =21Beijing",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-04"
+    },
+    {
+      "id": "brk_news",
+      "url": "https://www.berkshirehathaway.com/news/2026news.html",
+      "read_scope": "Latestlisted2026pressreleases",
+      "findings": "Latestentry11/4 Q3releaseinformation; Q3resultsnotlisted atcheck",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null
+    },
+    {
+      "id": "mrna_cfo",
+      "url": "https://www.modernatx.com/third-quarter-2026-earnings",
+      "read_scope": "November6 officialCFO recap, opening andguidance paragraphs",
+      "findings": "Q3alreadyreported11/6; notforthcoming event",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-06"
+    },
+    {
+      "id": "mrna_events",
+      "url": "https://investors.modernatx.com/events-presentations",
+      "read_scope": "Officialsearchindexed event text; directopenedpage upcomingblockempty",
+      "findings": "Q3call11/6 08ET; AnalystDay11/12 09EST",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null,
+      "gap": "Exacttimes visiblein official searchindex only; dynamicdirectpagetextempty. Q3publishedstatus independentlyconfirmed officialCFOarticle."
+    },
+    {
+      "id": "mrna_investor_days",
+      "url": "https://investors.modernatx.com/investor-days",
+      "read_scope": "Officialsearchindexed AnalystDay listing and directopen",
+      "findings": "AnalystDay11/12 09EST",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null,
+      "gap": "Official searchindex confirms09EST;directopenedpage UpcomingEvents empty."
+    },
+    {
+      "id": "claims",
+      "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "read_scope": "Published weeklyschedule andholidayexceptions",
+      "findings": "Thursday08:30EST, next11/12 derivedfromrule;Novemberexception11/25",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-09-11"
+    },
+    {
+      "id": "cisco",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html?source=rss",
+      "read_scope": "November3 officialreleasebody",
+      "findings": "FY27Q1 results11/12 afterclose;call16:30ET",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": "2026-11-03"
+    },
+    {
+      "id": "amat",
+      "url": "https://investor.appliedmaterials.com/events/event-details/q4-2026-applied-materials-earnings-conference-call",
+      "read_scope": "Event-specificofficialrow",
+      "findings": "FY26Q4call11/12 16:30EST",
+      "reviewed_at": "2026-11-06T23:39:38.137226+00:00",
+      "access": "web tool opened full relevant text",
+      "source_published_at": null
+    }
+  ],
+  "access_gaps": [
+    "DirectBLS curl403; relevant currentdata successfullyread throughwebtool.",
+    "YahooVIX curl429; not retried afterrestriction; Yahoosearchindex intraday24.12 not usedasclose.",
+    "SystemPythonSSL issuer error; curl systemtrust obtainedCboeCSV andBerkshirePDF without disablingcertificateverification.",
+    "No liveaccount orpersonal dataaccess; no alertchanges."
+  ]
+}

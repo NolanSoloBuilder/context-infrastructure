@@ -1,0 +1,51 @@
+{
+  "report_date": "2026-11-07",
+  "reviewed_at": "2026-11-06T23:41:07.132245+00:00",
+  "sections": [
+    {
+      "title": "Reddit增量｜回购、旧GPU与周期估值",
+      "paragraphs": [
+        "本次筛出3条新讨论。r/stocks New RSS取得绝对时间与正文；其余5个优先社区RSS限流，部分New/Top页为旧缓存，覆盖不完整。",
+        "EPAM：11月6日23:05北京新帖将15亿美元回购授权称为“烧钱”，但官方披露是新增授权，不是已花现金。拟11月9日当周5亿美元ASR尚待执行；前9月经营现金流2.501亿美元、实际回购4.89亿美元，下一项核查是现金转化、融资及股权薪酬稀释后的实际股数。回购不能替代FDE业务兑现。",
+        "微软—Oracle：11月7日02:02北京新帖转述未续租旧GPU算力，评论分歧在设备残值与迁移替换。未取得公司正式确认或可读原报道，暂为待核线索；不能据此认定总AI需求下降。",
+        "芯片反向DCF：11月6日20:21北京新帖提醒低PE可能对应周期高点，但其模型明确忽略SBC和净现金/债务。只保留研究问题，不采纳帖内个股低估结论。此帖实质评论未取得。"
+      ],
+      "sources": [
+        {
+          "title": "EPAM新讨论（原帖及反方已读）",
+          "url": "https://www.reddit.com/r/stocks/comments/1xpf1ot/epam_came_up_with_new_15b_cash_burning/"
+        },
+        {
+          "title": "EPAM 2026Q3官方业绩及资本配置（11月5日）",
+          "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Third-Quarter-2026/default.aspx"
+        },
+        {
+          "title": "微软Oracle原帖（未获公司确认）",
+          "url": "https://www.reddit.com/r/stocks/comments/1xpjkkr/microsoft_corp_is_winding_down_an_arrangement_to/"
+        },
+        {
+          "title": "半导体反向DCF原帖（估值未核）",
+          "url": "https://www.reddit.com/r/stocks/comments/1xpbg1b/forward_pe_vs_what_the_price_actually_needs_14/"
+        }
+      ]
+    },
+    {
+      "title": "FiNews观察｜最新页与来源缺口",
+      "paragraphs": [
+        "实际读取11月6日交易页，更新23:15:21 UTC；网页工具缓存仍为11月5日，采用本次保存HTML。多个芯片反弹标题合并，不把价格分化称为净资金流。",
+        "就业数据已发生：BLS 11月6日正式发布10月新增非农16.5万人、失业率4.1%、时薪环比+0.4%；前两月合计上修8.4万人。市场因果及利率政策仍是分析判断。",
+        "聚合页Micron标题与“微芯科技”正文存在名称错配；CPI条目列11月10日未来时刻，只作日历。微软合作收缩与OpenAI持续投资的CNBC原文未能取得，不当独立确认或新估值依据。"
+      ],
+      "sources": [
+        {
+          "title": "FiNews最新聚合页",
+          "url": "https://finews.fyi/"
+        },
+        {
+          "title": "BLS 10月就业报告（11月6日已公布）",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+        }
+      ]
+    }
+  ]
+}

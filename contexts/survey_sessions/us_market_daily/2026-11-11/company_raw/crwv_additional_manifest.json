@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001769628.json",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-11/company_raw/CRWV_sec.json",
+    "saved_at": "2026-11-10T23:35:27.375612+00:00",
+    "sha256": "5552127a2795e711a0d37296932351404d42d1a2efd0f8984042e3796e1a2110",
+    "scope": "fresh successful public SEC response"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/crwv-20261110.htm",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-11/company_raw/crwv_8k.html",
+    "saved_at": "2026-11-10T23:35:35.175591+00:00",
+    "sha256": "2280c9318acf035e9d1382f22281d7790f1439624d108548c2b6139eaa6803af",
+    "scope": "fresh successful public SEC response"
+  }
+]

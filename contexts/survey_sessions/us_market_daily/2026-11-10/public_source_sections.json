@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "title": "FDE已有上市公司实证：TEAM扩大项目，先核迁移与现金成本",
+      "fact": "11/9的新讨论引出11/5历史披露补核：Atlassian官方股东信称本季度扩大FDE项目，连接系统、定制Rovo agents和自动化，推动跨团队流程落地；尚未单列该项目收入和利润。",
+      "implication": "FY27Q1云收入增长30.5%；全年云增长指引26%，迁移贡献中到高个位数百分点。因此云增长不能全算AI原生增量。季度FCF为4.62554亿美元，SBC为3.56487亿美元；现金工资替代股权也将影响后续现金质量。",
+      "judgment": "补强AI应用与FDE商业落地证据，可与NOW、CRM比较付费转化和现金质量；当前未完成TEAM同日核价及正常化估值，不认定低估，也不据此扩大监测名单。",
+      "counter": "迁移收入是真实收入，云收入和GAAP盈利也在改善；收入确认时点造成的放缓不等于客户需求坍塌。SBC高也不能单独否定全部经营改善。",
+      "next": "核FDE/Rovo独立付费增量、迁移外云增长、现金薪酬替代、净股数和正常化现金流，再结合保守估值分母判断价格。",
+      "sources": [
+        {
+          "title": "Atlassian 11/5 FY27Q1官方股东信",
+          "url": "https://s206.q4cdn.com/270053503/files/content_files/index-4.html"
+        },
+        {
+          "title": "SEC FY27Q1财报与现金流表",
+          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/ex991q1fy27.htm"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Reddit｜两条新增讨论，六社区仅部分覆盖",
+      "paragraphs": [
+        "主窗口为11/8 23:38至11/9 23:38 UTC。六社区New/Top均尝试读取，但Top日窗全部为旧缓存；仅r/investing直接RSS成功，其余五社区单次429后停止。本次不是完整六社区成功扫描，不能说其余社区无新增。",
+        "TEAM原帖北京时间11/9 19:17:14：正文与实质评论已读，支持方强调迁移和收入确认，反方强调SBC、股数与现金薪酬。官方Q1经营现金流4.68530亿美元减资本支出0.05976亿美元，FCF为4.62554亿美元；再减SBC得到1.06067亿美元，只是自定义保守敏感性代理，非完整正常化收益，不作单季年化。FY27更多现金薪酬替代股权预计使non-GAAP利润率受约3个百分点影响。",
+        "Google/电力原帖北京时间11/9 20:36:26：11/4官方公告计划2027–2028年在马来西亚投资150亿美元、推动超过1GW新清洁发电容量，并承担自身用电和直接电网接入成本。这是未来投资计划，不是已发生支出，也不能直接加在集团既有资本开支指引之外。应用落地与基础设施现金投入可能同时增长。",
+        "反证：原帖承认半岛数据中心与砂拉越铝业涉及不同电网，不能声称当下争夺同一度电；新增电源也可能缓解供给。1GW发电装机不等于全天候稳定供电或数据中心负荷；项目现金回款、分年资本支出和回报仍待核。帖内铝供需预测与交易未逐项核原始来源，未采用。",
+        "两条都是11/9新增讨论与此前官方披露的交叉核验，不是11/9新财报。NVDA董事会11/8声明已报道，本次不重复；隔夜收益分解与主观AI打分帖缺绝对时间或计算复核，未纳入买点。"
+      ],
+      "sources": [
+        {
+          "title": "r/investing：TEAM原帖",
+          "url": "https://www.reddit.com/r/investing/comments/1xrp3ik/atlassian_grew_revenue_24_last_quarter_guided/"
+        },
+        {
+          "title": "TEAM SEC财报",
+          "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/ex991q1fy27.htm"
+        },
+        {
+          "title": "TEAM官方股东信",
+          "url": "https://s206.q4cdn.com/270053503/files/content_files/index-4.html"
+        },
+        {
+          "title": "r/investing：电力与铝业原帖",
+          "url": "https://www.reddit.com/r/investing/comments/1xrqkig/aluminium_supply_faces_growing_competition_for/"
+        },
+        {
+          "title": "Google 11/4马来西亚投资公告",
+          "url": "https://blog.google/intl/en-my/company-news/inside-google/google-investment-malaysia-digital-infrastructure-november-2026/"
+        }
+      ]
+    },
+    {
+      "title": "FiNews｜11/9版已读，11/11休市说法需纠正",
+      "paragraphs": [
+        "实际HTTP页面为11/9版，标注更新于11/9 23:16:20 UTC，采集于23:38:43 UTC；读取摘要、事件日历、22条新闻及行情/热度。web工具缓存仍停留11/6，未把缓存当作最新。",
+        "页面将11/11美国银行假日写为“市场休市”，与NYSE股票交易日历不符：11/11美股正常常规交易，不能把银行假日与股票交易所休市混同。",
+        "市场反弹、模型更新和公司新闻聚合仅作线索；股价涨跌不证明资金净流向，未核的监管或个人行为指控不当事实。行情数字由独立价格来源核验，聚合温度与PE不替代可复算估值。"
+      ],
+      "sources": [
+        {
+          "title": "FiNews实际最新页",
+          "url": "https://finews.fyi/"
+        },
+        {
+          "title": "NYSE官方交易时间与2026假日日历",
+          "url": "https://www.nyse.com/trade/hours-calendars"
+        }
+      ]
+    }
+  ],
+  "proposed_reported_claim_keys": [
+    "team_fde_cloud_migration_and_sbc_cash_quality_new_discussion_2026_11_09",
+    "google_malaysia_power_capex_new_discussion_2026_11_09"
+  ],
+  "scan_status": "partial",
+  "reviewed_at": "2026-11-09T23:45:10.415388+00:00",
+  "state_updated": false
+}

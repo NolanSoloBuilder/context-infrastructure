@@ -1,0 +1,34 @@
+{
+  "report_date": "2026-11-07",
+  "market_session": "2026-11-06",
+  "curve_checks": [
+    {
+      "symbol": "QQQM",
+      "close": 270.22,
+      "raw_close": 270.22000122,
+      "drawdown_pct": -13.97417837,
+      "normalized_end": 89.771101
+    },
+    {
+      "symbol": "VOO",
+      "close": 675.99,
+      "raw_close": 675.98999023,
+      "drawdown_pct": -5.91256172,
+      "normalized_end": 94.728213
+    },
+    {
+      "symbol": "BRK-B",
+      "close": 570.89,
+      "raw_close": 570.89001465,
+      "drawdown_pct": -2.62834274,
+      "normalized_end": 113.265087
+    }
+  ],
+  "all_60_rolling_highs_no_lookahead": true,
+  "sector_count": 12,
+  "all_sector_values_match": true,
+  "public_symbols_current": 43,
+  "chart_ranges_version": 2,
+  "quote_display_rounding": "raw floats compared at the two-decimal displayed USD precision; drawdown retained raw precision",
+  "manual_image_readability": "Both PNGs viewed; drawdown threshold labels moved left to remove overlap."
+}

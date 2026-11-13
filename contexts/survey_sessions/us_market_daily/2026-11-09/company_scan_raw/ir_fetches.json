@@ -1,0 +1,65 @@
+[
+  {
+    "symbol": "GOOGL",
+    "url": "https://abc.xyz/news/",
+    "status": "403",
+    "error": "",
+    "bytes": 5402,
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/GOOGL-ir.html",
+    "fetched_at": "2026-11-08T23:27:50.277715+00:00"
+  },
+  {
+    "symbol": "SOFI",
+    "url": "https://investors.sofi.com/news/Press-Releases/",
+    "status": "403",
+    "error": "",
+    "bytes": 5500,
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/SOFI-ir.html",
+    "fetched_at": "2026-11-08T23:27:51.143201+00:00"
+  },
+  {
+    "symbol": "NOW",
+    "url": "https://newsroom.servicenow.com/overview/default.aspx",
+    "status": "403",
+    "error": "",
+    "bytes": 5529,
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/NOW-ir.html",
+    "fetched_at": "2026-11-08T23:27:51.631614+00:00"
+  },
+  {
+    "symbol": "CRM",
+    "url": "https://investor.salesforce.com/news/default.aspx",
+    "status": "403",
+    "error": "",
+    "bytes": 5517,
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/CRM-ir.html",
+    "fetched_at": "2026-11-08T23:27:51.751524+00:00"
+  },
+  {
+    "symbol": "GEHC",
+    "url": "https://investor.gehealthcare.com/news-releases",
+    "status": "403",
+    "error": "",
+    "bytes": 396,
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/GEHC-ir.html",
+    "fetched_at": "2026-11-08T23:27:52.463334+00:00"
+  },
+  {
+    "symbol": "CGNX",
+    "url": "https://investor.cognex.com/news/default.aspx",
+    "status": "403",
+    "error": "",
+    "bytes": 5492,
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/CGNX-ir.html",
+    "fetched_at": "2026-11-08T23:27:52.297551+00:00"
+  },
+  {
+    "symbol": "BRK-B",
+    "url": "https://www.berkshirehathaway.com/news/2026news.html",
+    "status": "200",
+    "error": "",
+    "bytes": 4640,
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/BRK-B-ir.html",
+    "fetched_at": "2026-11-08T23:27:52.658974+00:00"
+  }
+]

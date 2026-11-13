@@ -1,0 +1,28 @@
+{
+  "source_bytes": 1000622389,
+  "compressed_bytes": 359242482,
+  "reduction_percent": 64.1,
+  "codec": "hevc/hvc1",
+  "resolution": "1920x1080",
+  "duration_seconds": "2563.310750",
+  "video_packets": "61458",
+  "subtitle_roundtrip_identical": true,
+  "sample_ssim": [
+    {
+      "time_seconds": 35,
+      "ssim": 0.983921
+    },
+    {
+      "time_seconds": 1840,
+      "ssim": 0.992188
+    },
+    {
+      "time_seconds": 2400,
+      "ssim": 0.999406
+    },
+    {
+      "time_seconds": 2550,
+      "ssim": 0.999669
+    }
+  ]
+}

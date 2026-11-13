@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-09T09:07:37.009598+08:00",
+  "report_date": "2026-11-09",
+  "cutoff": "2026-11-09T09:00:00+08:00",
+  "market_session": "2026-11-06",
+  "valuation_issue": 3009,
+  "valuation_asof": "2026-11-06",
+  "verified_star": 4.8,
+  "threshold_triggered": false,
+  "no_new_regular_issue": true,
+  "source_list": "https://www.sina.cn/media/5546795997/",
+  "article": "https://www.sina.cn/news/detail/5362372126704445.html",
+  "verified_same_images": {
+    "3009_valuation.jpg": "bfa3e920455fa9444b7ef0edac52880c91e498eae8e70f36fd84bc5121d247a4",
+    "3009_hk.jpg": "9a78f43166a11a0c995a68c939008a1161cc80d49263b9fcd60e910e3d7c6def"
+  },
+  "finews_report_date": "2026-11-06",
+  "hk_supplement_asof": "2026-11-05",
+  "group_reviewed_count": 2,
+  "china_history_gap_cleared": true,
+  "events": [
+    "https://www.stats.gov.cn/fbyg/",
+    "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
+    "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+  ]
+}

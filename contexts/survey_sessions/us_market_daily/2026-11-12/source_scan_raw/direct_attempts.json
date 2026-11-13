@@ -1,0 +1,72 @@
+[
+  {
+    "name": "investing_rss_new",
+    "url": "https://www.reddit.com/r/investing/new/.rss?limit=25",
+    "collected_at": "2026-11-11T23:30:31.136899+00:00",
+    "http_status": "403",
+    "returncode": 0,
+    "error": "",
+    "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/investing_rss_new.html",
+    "sha256": "d358f6b006fc7441c27ff1a5b023891a0e881a9dea066ae8ced16895cbebbbe3"
+  },
+  {
+    "name": "stocks_rss_new",
+    "url": "https://www.reddit.com/r/stocks/new/.rss?limit=25",
+    "collected_at": "2026-11-11T23:30:31.138979+00:00",
+    "http_status": "403",
+    "returncode": 0,
+    "error": "",
+    "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/stocks_rss_new.html",
+    "sha256": "b4647b63a91e0830bd2e8998c4accd5daa01652961cd224804335ab8ebb8749f"
+  },
+  {
+    "name": "SecurityAnalysis_rss_new",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss?limit=25",
+    "collected_at": "2026-11-11T23:30:31.139266+00:00",
+    "http_status": "403",
+    "returncode": 0,
+    "error": "",
+    "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/SecurityAnalysis_rss_new.html",
+    "sha256": "0a8c555a70497b13eaa2cc4bca8e4f2a15ef06a3a98d8ae8392cf624e6050a7e"
+  },
+  {
+    "name": "ValueInvesting_rss_new",
+    "url": "https://www.reddit.com/r/ValueInvesting/new/.rss?limit=25",
+    "collected_at": "2026-11-11T23:30:31.638031+00:00",
+    "http_status": "403",
+    "returncode": 0,
+    "error": "",
+    "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/ValueInvesting_rss_new.html",
+    "sha256": "d969688715299798392926e82ad91eaab9ffdb4702d968cd17e8bfd3c884d748"
+  },
+  {
+    "name": "Bogleheads_rss_new",
+    "url": "https://www.reddit.com/r/Bogleheads/new/.rss?limit=25",
+    "collected_at": "2026-11-11T23:30:31.639602+00:00",
+    "http_status": "403",
+    "returncode": 0,
+    "error": "",
+    "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/Bogleheads_rss_new.html",
+    "sha256": "a7260d3089b2c462cb925941e4bf51ed9870f16bf39e1e101978ea9d9513f896"
+  },
+  {
+    "name": "ETFs_rss_new",
+    "url": "https://www.reddit.com/r/ETFs/new/.rss?limit=25",
+    "collected_at": "2026-11-11T23:30:31.642087+00:00",
+    "http_status": "403",
+    "returncode": 0,
+    "error": "",
+    "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/ETFs_rss_new.html",
+    "sha256": "9c90fad4e221117fa164a11c2f0549b61c21b818df8f70034d34b3056a890fdc"
+  },
+  {
+    "name": "finews_home",
+    "url": "https://finews.fyi/",
+    "collected_at": "2026-11-11T23:30:31.878606+00:00",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "raw_path": "contexts/survey_sessions/us_market_daily/2026-11-12/source_scan_raw/finews_home.html",
+    "sha256": "ec5ac2ca51c7faebbbdbca5e055040c9e511afb2249e9fa676843dc87e146b4c"
+  }
+]

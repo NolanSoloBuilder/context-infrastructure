@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "validate-brief",
+    "node --test worker/daily-brief.test.mjs worker/render.test.mjs"
+  ],
+  "passed": 19,
+  "failed": 0,
+  "validation_date": "2026-11-11",
+  "source_only_changes": [
+    "worker/daily-brief.json",
+    "worker/seed.json"
+  ],
+  "new_browser_visual_check": false,
+  "reason": "Content update only; no template/UI changes",
+  "charts_visually_read": true,
+  "chart_end_values_verified": true,
+  "market_crosscheck_completed": true,
+  "public_symbols": 43,
+  "no_private_data_imported": true
+}

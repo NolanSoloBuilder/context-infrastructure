@@ -1,0 +1,49 @@
+[
+  {
+    "id": "IGV_product",
+    "url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf",
+    "status": 200,
+    "size": 1832828,
+    "collected_at": "2026-11-13T03:07:24.473534+00:00"
+  },
+  {
+    "id": "IHI_product",
+    "url": "https://www.ishares.com/us/products/239516/ishares-us-medical-devices-etf",
+    "status": 200,
+    "size": 1793722,
+    "collected_at": "2026-11-13T03:07:20.370137+00:00"
+  },
+  {
+    "id": "IGV_holdings",
+    "url": "https://www.ishares.com/us/products/239771/ishares-expanded-tech-software-sector-etf/latest-holdings.csv",
+    "status": 200,
+    "size": 22983,
+    "collected_at": "2026-11-13T03:07:20.666885+00:00"
+  },
+  {
+    "id": "IHI_holdings",
+    "url": "https://www.ishares.com/us/products/239516/ishares-u-s-medical-devices-etf/latest-holdings.csv",
+    "status": 200,
+    "size": 13097,
+    "collected_at": "2026-11-13T03:07:21.465029+00:00"
+  },
+  {
+    "id": "XSW_product",
+    "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-software-services-etf-xsw",
+    "status": 200,
+    "size": 230603,
+    "collected_at": "2026-11-13T03:07:24.274239+00:00"
+  },
+  {
+    "id": "BOTZ_product",
+    "url": "https://www.globalxetfs.com/funds/botz",
+    "error": "HTTP Error 429: Too Many Requests",
+    "collected_at": "2026-11-13T03:07:22.671577+00:00"
+  },
+  {
+    "id": "AIQ_product",
+    "url": "https://www.globalxetfs.com/funds/aiq",
+    "error": "HTTP Error 429: Too Many Requests",
+    "collected_at": "2026-11-13T03:07:22.889200+00:00"
+  }
+]

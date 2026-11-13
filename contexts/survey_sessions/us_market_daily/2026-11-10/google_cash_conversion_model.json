@@ -1,0 +1,94 @@
+{
+  "reviewed_at": "2026-11-09T23:42:33.664115+00:00",
+  "report_date": "2026-11-10",
+  "disclosure_basis": "2026Q3 10-Q filed10/29 and Q2 10-Q; re-read2026-11-10; no new Nov9 Google filing",
+  "units": "USD billions unless per-share USD or days",
+  "facts_ytd9": {
+    "cfo": 127.149,
+    "cash_ppe": 131.953,
+    "sbc": 23.338
+  },
+  "facts_ytd6": {
+    "cfo": 84.859,
+    "cash_ppe": 80.598,
+    "sbc": 14.708
+  },
+  "q3_subtraction": {
+    "cfo": 42.29,
+    "cash_ppe": 51.355,
+    "sbc": 8.63,
+    "fcf_cash": -9.065,
+    "fcf_less_sbc_economic_proxy": -17.695
+  },
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+  ],
+  "price_reference": {
+    "symbol": "GOOGL",
+    "us_regular_session": "2026-11-09",
+    "primary_close_usd": 288.15,
+    "second_source_close_usd": 288.11,
+    "provided_by_root_current_market_check": true
+  },
+  "tpu_unit_model": {
+    "formula": "NWC = revenue*DSO/365 + revenue*(1-gross_margin)*(DIO-DPO)/365; first ramp-year gross cash = revenue*gross_margin - deltaNWC",
+    "unit_increment_usd_bn": 10,
+    "all_days_and_margin_are_analyst_assumptions_not_disclosures": true,
+    "scenarios": [
+      {
+        "case": "较快回款",
+        "incremental_annual_revenue_usd_bn": 10.0,
+        "gross_margin_assumption": 0.25,
+        "receivable_days": 30,
+        "inventory_days": 30,
+        "payable_days": 60,
+        "incremental_nwc_usd_bn": 0.20547945205479445,
+        "gross_profit_usd_bn": 2.5,
+        "first_ramp_year_gross_cash_before_opex_tax_capex_usd_bn": 2.2945205479452055,
+        "break_even_receivable_days_before_opex_tax_capex": 113.75,
+        "nwc_per_current_share_usd": 0.01671379958148645
+      },
+      {
+        "case": "中间敏感性",
+        "incremental_annual_revenue_usd_bn": 10.0,
+        "gross_margin_assumption": 0.25,
+        "receivable_days": 45,
+        "inventory_days": 60,
+        "payable_days": 45,
+        "incremental_nwc_usd_bn": 1.541095890410959,
+        "gross_profit_usd_bn": 2.5,
+        "first_ramp_year_gross_cash_before_opex_tax_capex_usd_bn": 0.9589041095890409,
+        "break_even_receivable_days_before_opex_tax_capex": 80.0,
+        "nwc_per_current_share_usd": 0.12535349686114844
+      },
+      {
+        "case": "慢回款与高库存",
+        "incremental_annual_revenue_usd_bn": 10.0,
+        "gross_margin_assumption": 0.25,
+        "receivable_days": 90,
+        "inventory_days": 90,
+        "payable_days": 30,
+        "incremental_nwc_usd_bn": 3.6986301369863015,
+        "gross_profit_usd_bn": 2.5,
+        "first_ramp_year_gross_cash_before_opex_tax_capex_usd_bn": -1.1986301369863015,
+        "break_even_receivable_days_before_opex_tax_capex": 46.25,
+        "nwc_per_current_share_usd": 0.30084839246675626
+      }
+    ],
+    "exclusions": [
+      "Operating expenses, tax, depreciation, maintenance/growth capex, lease payments and return/repurchase provisions not estimated here.",
+      "Gross-cash subtotal is neither FCFF nor net profit nor company guidance.",
+      "DeltaNWC is a one-off ramp investment at this incremental sales level; do not subtract the full stock again every subsequent year.",
+      "TPU-only sales, gross margin, AR and inventory not separately disclosed. All-company inventory also includes Pixel.",
+      "No contribution from customer prepayments assumed in this model; actual contract prepayments could lower cash use.",
+      "Do not subtract modeled cash-PPE again for inventory and do not apply the full company capex ratio to product units without allocation."
+    ]
+  },
+  "conclusion": "本次完成现金流口径和每100亿美元新增TPU销售的周转模型；不因高增长恢复旧买价。现价判断仍为未证实低估，完整经营预测与融资后估值未完成。",
+  "model_boundary": "FCF less SBC is a non-GAAP analyst economic proxy, not actual cash outflow and not normalized future cash flow. If EBIT already retains SBC in DCF, do not subtract SBC again.",
+  "sha256": {
+    "goog_q3.html": "352ee51d64acf19dc61634458ecf9aba039055d212ed6019c1f6c1e75c419881",
+    "goog_q2.html": "24cd22112e72c107245fe165c6d7e74fc533c6239a3e3b0eb7dfcb65f68cc36d"
+  }
+}

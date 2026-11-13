@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://nvidianews.nvidia.com/news",
+    "status": "200",
+    "error": "",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/NVDA-newsroom.html",
+    "reviewed_at": "2026-11-08T23:28:37.001622+00:00"
+  },
+  {
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "status": "200",
+    "error": "",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/NVDA-board.html",
+    "reviewed_at": "2026-11-08T23:28:37.739474+00:00"
+  },
+  {
+    "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+    "status": "200",
+    "error": "",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-09/company_scan_raw/NVDA-ceo.html",
+    "reviewed_at": "2026-11-08T23:28:38.719709+00:00"
+  }
+]

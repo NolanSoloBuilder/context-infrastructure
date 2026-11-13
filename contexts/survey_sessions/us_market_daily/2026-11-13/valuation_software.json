@@ -1,0 +1,446 @@
+{
+  "AMZN": {
+    "judgment": "估值偏高；投资重估收益放大表面盈利，当前未见足够折扣。",
+    "basis": "11/12 收267.44美元。2026Q3 GAAP EPS 1.89；用该季年化7.56作为透明盈利锚，基准再增15%，压力降15%，年化并非全年预测。TTM EPS 12.37含大额投资浮盈；9个月私募股权估值上调628.53亿美元，不能按这部分收益长期资本化。TTM公司口径FCF约负424亿美元，现金投入尚未兑现为股东现金。 条件基准：8.6940美元 EPS × 27倍 = 234.74美元；压力：6.4260美元 × 21倍 = 134.95美元；基准再折让20%为187.79美元。",
+    "next": "核AWS利润增长能否持续抵消资本投入与折旧、投资收益回落后经营EPS，以及净PPE投入与融资租赁；若基准增长无法兑现，下调估值。",
+    "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+    "market_session": "2026-11-12",
+    "price": 267.44,
+    "currency": "USD",
+    "quote_session": "regular_close",
+    "quote_crosscheck": "本次 Yahoo 日线与 StockAnalysis 2026-11-12 常规收盘一致；不使用盘后价。",
+    "base_value": 234.74,
+    "stress_value": 134.95,
+    "discount_price": 187.79,
+    "discount_to_base_pct": -13.93,
+    "model": {
+      "type": "conditional_earnings_multiple",
+      "anchor_eps": 7.56,
+      "anchor_formula": "Q3 GAAP EPS 1.89 × 4 = 7.56；未把季度负其他收入加回。",
+      "base_eps_growth_assumption": 0.15,
+      "base_pe_assumption": 27,
+      "base_eps": 8.693999999999999,
+      "stress_anchor_eps": 7.56,
+      "stress_eps_growth_assumption": -0.15,
+      "stress_pe_assumption": 21,
+      "stress_eps": 6.425999999999999,
+      "margin_of_safety_assumption": 0.2,
+      "multiple_reasoning": "27倍基准需要AWS高增长与零售利润率支持；21倍压力反映增长放缓和高投入，二者均为假设。",
+      "limitations": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+      "base_value_exact": 234.73799999999997,
+      "stress_value_exact": 134.946
+    },
+    "financials": {
+      "unit": "USD million except EPS",
+      "period": "2026Q3 / TTM to 2026-09-30",
+      "q3_gaap_eps": 1.89,
+      "ttm_gaap_eps": 12.370000000000001,
+      "ttm_operating_income": 104366,
+      "ttm_cfo": 168300,
+      "ttm_gross_cash_ppe": 215192,
+      "ttm_sbc": 19873,
+      "ttm_reported_fcf_approx": -42400,
+      "cash_and_marketable_securities": 114226,
+      "debt_carrying_value_excluding_leases": 179952,
+      "private_equity_upward_adjustments_9m": 62853,
+      "debt_note": "现金证券中含公开股权；账面债务不含租赁。FCF采用公司净PPE口径，不用现金流表毛购置额冒充公司FCF。"
+    },
+    "sources": [
+      {
+        "title": "AMZN 最新 SEC/IR 财务原文",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+      },
+      {
+        "title": "AMZN 11/12 常规收盘第二来源",
+        "url": "https://stockanalysis.com/stocks/amzn/history/"
+      },
+      {
+        "title": "Amazon 2026Q3 业绩及公司FCF口径",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+      }
+    ]
+  },
+  "MSFT": {
+    "judgment": "接近合理区间但折扣不足；需用融资租赁与资本开支检验利润质量。",
+    "basis": "11/12 收523.00美元。FY27Q1（2026/9）GAAP EPS4.92，剔除OpenAI投资影响的公司EPS4.89仍保留SBC；年化19.56作锚，基准增12%、压力降10%。TTM CFO1958.78亿美元减现金PPE1359.21亿美元仅599.57亿美元，再扣SBC的校验值474.01亿美元，且尚未扣融资租赁本金。 条件基准：21.9072美元 EPS × 26倍 = 569.59美元；压力：17.6040美元 × 22倍 = 387.29美元；基准再折让20%为455.67美元。",
+    "next": "核Azure与AI收入增长、OpenAI应收回款、融资租赁资本投入和现金转化；折旧加速或现金投入持续高于假设将压低倍数。",
+    "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+    "market_session": "2026-11-12",
+    "price": 523.0,
+    "currency": "USD",
+    "quote_session": "regular_close",
+    "quote_crosscheck": "本次 Yahoo 日线与 StockAnalysis 2026-11-12 常规收盘一致；不使用盘后价。",
+    "base_value": 569.59,
+    "stress_value": 387.29,
+    "discount_price": 455.67,
+    "discount_to_base_pct": 8.18,
+    "model": {
+      "type": "conditional_earnings_multiple",
+      "anchor_eps": 19.56,
+      "anchor_formula": "最新季度 EPS（仅剔除OpenAI投资影响）4.89 × 4 = 19.56；并非FY27指引。",
+      "base_eps_growth_assumption": 0.12,
+      "base_pe_assumption": 26,
+      "base_eps": 21.9072,
+      "stress_anchor_eps": 19.56,
+      "stress_eps_growth_assumption": -0.1,
+      "stress_pe_assumption": 22,
+      "stress_eps": 17.604,
+      "margin_of_safety_assumption": 0.2,
+      "multiple_reasoning": "26倍基准要求双位数持续增长与软件续费优势；22倍压力包含10%盈利回落、资本效率降低。",
+      "limitations": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+      "base_value_exact": 569.5871999999999,
+      "stress_value_exact": 387.288
+    },
+    "financials": {
+      "unit": "USD million except EPS",
+      "period": "FY27Q1 / TTM to 2026-09-30",
+      "q1_gaap_eps": 4.92,
+      "q1_eps_ex_openai_investment_effect": 4.89,
+      "ttm_cfo": 195878,
+      "ttm_cash_ppe": 135921,
+      "ttm_sbc": 12556,
+      "cash_and_short_investments": 64509,
+      "debt_excluding_leases": 35481,
+      "finance_lease_liability": 70973,
+      "q1_finance_lease_principal_approx": 1000,
+      "q1_new_finance_lease_rou_assets": 5192,
+      "fcf_note": "CFO减现金PPE尚未覆盖融资租赁本金及新取得融资租赁资产；不可视作全部AI资本投入。",
+      "ttm_fcf_proxy": 59957,
+      "ttm_fcf_less_sbc_proxy": 47401
+    },
+    "sources": [
+      {
+        "title": "MSFT 最新 SEC/IR 财务原文",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+      },
+      {
+        "title": "MSFT 11/12 常规收盘第二来源",
+        "url": "https://stockanalysis.com/stocks/msft/history/"
+      },
+      {
+        "title": "Microsoft FY27Q1 官方业绩及OpenAI调节",
+        "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
+      }
+    ]
+  },
+  "AAPL": {
+    "judgment": "当前溢价明显；优质现金流仍不足以证明当前价格有安全边际。",
+    "basis": "11/12 收354.88美元。FY26 GAAP EPS8.98，减已披露Q3/Q4关税退款贡献0.11/0.05，得到8.82；当前约40.2倍该调整盈利。基准EPS增8%，压力降10%；不预设回购必然抬高EPS。FY26 FCF1360.56亿美元，减SBC校验值1222.67亿美元，现金质量好但估值要求高。 条件基准：9.5256美元 EPS × 28倍 = 266.72美元；压力：7.9380美元 × 22倍 = 174.64美元；基准再折让20%为213.37美元。",
+    "next": "核AI终端换机带来的增量毛利、服务收入、存储成本和关税退款消退；若增长无法覆盖高倍数，不能仅因回调买入。",
+    "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+    "market_session": "2026-11-12",
+    "price": 354.88,
+    "currency": "USD",
+    "quote_session": "regular_close",
+    "quote_crosscheck": "本次 Yahoo 日线与 StockAnalysis 2026-11-12 常规收盘一致；不使用盘后价。",
+    "base_value": 266.72,
+    "stress_value": 174.64,
+    "discount_price": 213.37,
+    "discount_to_base_pct": -33.05,
+    "model": {
+      "type": "conditional_earnings_multiple",
+      "anchor_eps": 8.82,
+      "anchor_formula": "FY26 EPS 8.98 − Q3退款0.11 − Q4退款0.05 = 8.82。",
+      "base_eps_growth_assumption": 0.08,
+      "base_pe_assumption": 28,
+      "base_eps": 9.5256,
+      "stress_anchor_eps": 8.82,
+      "stress_eps_growth_assumption": -0.1,
+      "stress_pe_assumption": 22,
+      "stress_eps": 7.938000000000001,
+      "margin_of_safety_assumption": 0.2,
+      "multiple_reasoning": "28倍基准已给予品牌、生态和现金回收溢价；22倍压力计入换机不足、成本上行。",
+      "limitations": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+      "base_value_exact": 266.71680000000003,
+      "stress_value_exact": 174.63600000000002
+    },
+    "financials": {
+      "unit": "USD million except EPS",
+      "period": "FY2026 ended 2026-09-26",
+      "gaap_eps": 8.98,
+      "identified_tariff_refund_eps_q3": 0.11,
+      "identified_tariff_refund_eps_q4": 0.05,
+      "cfo": 145097,
+      "cash_ppe": 9041,
+      "sbc": 13789,
+      "cash_and_marketable_securities": 136935,
+      "term_debt_and_commercial_paper": 80111,
+      "finance_lease_liability": 1456,
+      "normalization_note": "只扣已核Q3/Q4退款，不声称穷尽全部一次项；EPS仍含SBC与利息。",
+      "fcf_proxy": 136056,
+      "fcf_less_sbc_proxy": 122267
+    },
+    "sources": [
+      {
+        "title": "AAPL 最新 SEC/IR 财务原文",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm"
+      },
+      {
+        "title": "AAPL 11/12 常规收盘第二来源",
+        "url": "https://stockanalysis.com/stocks/aapl/history/"
+      },
+      {
+        "title": "Apple FY26Q3：退款贡献EPS0.11",
+        "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+      },
+      {
+        "title": "Apple FY26Q4：退款贡献EPS0.05",
+        "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+      }
+    ]
+  },
+  "PLTR": {
+    "judgment": "高增长仍被高价计入；即使给予积极增长，当前也缺少安全边际。",
+    "basis": "11/12 收171.58美元。2026Q3税前利润11.48001亿美元、所得税仅0.13560亿美元；不能永久外推约1.18%税率。按20%假设税率、扣少数股东利润，再除25.73926亿稀释股并年化；保留SBC。基准再增40%且给45倍，压力仍增10%但30倍。TTM FCF40.54亿美元，减SBC校验值30.72亿美元，相对当前市值不足1%。 条件基准：1.9841美元 EPS × 45倍 = 89.29美元；压力：1.5590美元 × 30倍 = 46.77美元；基准再折让25%为66.96美元。",
+    "next": "核美国商业收入、合同现金回收、正常税率与SBC稀释；FDE变现没有单列利润，不能给同一公司再叠加独立FDE估值。",
+    "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+    "market_session": "2026-11-12",
+    "price": 171.58,
+    "currency": "USD",
+    "quote_session": "regular_close",
+    "quote_crosscheck": "本次 Yahoo 日线与 StockAnalysis 2026-11-12 常规收盘一致；不使用盘后价。",
+    "base_value": 89.29,
+    "stress_value": 46.77,
+    "discount_price": 66.96,
+    "discount_to_base_pct": -92.17,
+    "model": {
+      "type": "conditional_earnings_multiple",
+      "anchor_eps": 1.4172463388613348,
+      "anchor_formula": "(Q3税前利润1148.001 × 80% − 少数股东利润6.429) ÷ 稀释股数2573.926 × 4；金额和股数均以百万计。",
+      "base_eps_growth_assumption": 0.4,
+      "base_pe_assumption": 45,
+      "base_eps": 1.9841448744058685,
+      "stress_anchor_eps": 1.4172463388613348,
+      "stress_eps_growth_assumption": 0.1,
+      "stress_pe_assumption": 30,
+      "stress_eps": 1.5589709727474683,
+      "margin_of_safety_assumption": 0.25,
+      "multiple_reasoning": "45倍基准已容纳40%盈利增长，仍依赖持续商业化；30倍压力给10%增长，25%折扣反映客户/合同/税率与高倍数风险。",
+      "limitations": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+      "base_value_exact": 89.28651934826408,
+      "stress_value_exact": 46.76912918242405
+    },
+    "financials": {
+      "unit": "USD million except EPS",
+      "period": "2026Q3 / TTM to 2026-09-30",
+      "q3_pretax_income": 1148.001,
+      "q3_tax_expense": 13.56,
+      "q3_noncontrolling_income": 6.429,
+      "q3_diluted_shares_million": 2573.926,
+      "normal_tax_assumption": 0.2,
+      "ttm_cfo": 4097.197,
+      "ttm_cash_ppe": 43.241,
+      "ttm_sbc": 982.095,
+      "cash": 3619.414,
+      "marketable_securities": 6942.117,
+      "debt_note": "盈利估值未额外加入现金；没有把现金总额当现金流或用非GAAP剔除SBC。",
+      "ttm_fcf_proxy": 4053.956,
+      "ttm_fcf_less_sbc_proxy": 3071.861
+    },
+    "sources": [
+      {
+        "title": "PLTR 最新 SEC/IR 财务原文",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+      },
+      {
+        "title": "PLTR 11/12 常规收盘第二来源",
+        "url": "https://stockanalysis.com/stocks/pltr/history/"
+      },
+      {
+        "title": "Palantir 2026Q3 业绩",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+      }
+    ]
+  },
+  "ACN": {
+    "judgment": "七项中最接近条件折扣线；可能存在温和低估，但当前仍略高于20%折扣价。",
+    "basis": "11/12 收249.95美元。FY26 GAAP EPS13.56保留SBC及3.08亿美元优化费用；基准增6%，压力降10%。FY26 CFO123.63亿美元减现金PPE7.43亿美元，再扣SBC21.00亿美元，现金校验值95.20亿美元；现金证券128.38亿美元、债务101.12亿美元（不含租赁），提供相对较好财务缓冲。 条件基准：14.3736美元 EPS × 21倍 = 301.85美元；压力：12.2040美元 × 16倍 = 195.26美元；基准再折让20%为241.48美元。",
+    "next": "核AI订单转为收入和毛利、项目定价从工时到结果后的利润率、重组是否反复；若项目缩减使EPS下滑10%，压力价值明显低于现价。",
+    "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+    "market_session": "2026-11-12",
+    "price": 249.95,
+    "currency": "USD",
+    "quote_session": "regular_close",
+    "quote_crosscheck": "本次 Yahoo 日线与 StockAnalysis 2026-11-12 常规收盘一致；不使用盘后价。",
+    "base_value": 301.85,
+    "stress_value": 195.26,
+    "discount_price": 241.48,
+    "discount_to_base_pct": 17.19,
+    "model": {
+      "type": "conditional_earnings_multiple",
+      "anchor_eps": 13.56,
+      "anchor_formula": "FY26 GAAP EPS 13.56；基准×1.06，压力×0.90。",
+      "base_eps_growth_assumption": 0.06,
+      "base_pe_assumption": 21,
+      "base_eps": 14.373600000000001,
+      "stress_anchor_eps": 13.56,
+      "stress_eps_growth_assumption": -0.1,
+      "stress_pe_assumption": 16,
+      "stress_eps": 12.204,
+      "margin_of_safety_assumption": 0.2,
+      "multiple_reasoning": "21倍基准对应稳定服务现金流和6%增长；16倍压力反映客户削减项目及AI压缩工时定价。",
+      "limitations": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+      "base_value_exact": 301.84560000000005,
+      "stress_value_exact": 195.264
+    },
+    "financials": {
+      "unit": "USD million except EPS",
+      "period": "FY2026 ended 2026-08-31",
+      "gaap_eps": 13.56,
+      "cfo": 12363.346,
+      "cash_ppe": 742.748,
+      "sbc": 2100.433,
+      "cash_and_short_investments": 12837.769,
+      "debt_excluding_leases": 10111.758,
+      "operating_lease_liability": 3285.232,
+      "retirement_obligation": 1558.775,
+      "optimization_charge": 308,
+      "normalization_note": "保留优化费用；不把每次重组都当永久可加回一次项。",
+      "fcf_proxy": 11620.598,
+      "fcf_less_sbc_proxy": 9520.165
+    },
+    "sources": [
+      {
+        "title": "ACN 最新 SEC/IR 财务原文",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm"
+      },
+      {
+        "title": "ACN 11/12 常规收盘第二来源",
+        "url": "https://stockanalysis.com/stocks/acn/history/"
+      },
+      {
+        "title": "Accenture FY26 全年业绩",
+        "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/q4fy26earnings8-kexhibit.htm"
+      }
+    ]
+  },
+  "EPAM": {
+    "judgment": "较基准有小幅折扣，尚不足以覆盖现金转化与回购融资风险。",
+    "basis": "11/12 收163.83美元。TTM GAAP EPS=6.72+6.00−4.75=7.97，保留SBC；基准增10%，压力降10%。TTM FCF4.704亿美元，减SBC校验值2.865亿美元。9/30现金9.652亿美元、债务0.25亿美元是旧资产负债表；11/9签约5亿美元ASR将消耗现金或融资，不能再把旧净现金完整叠加估值。 条件基准：8.7670美元 EPS × 20倍 = 175.34美元；压力：7.1730美元 × 15倍 = 107.59美元；基准再折让20%为140.27美元。",
+    "next": "核ASR实际交付及最终结算后的现金/债务/股数、Q4经营现金与应收回款；2026/11/12新增申报为Form4/144，未发现ASR最终完成披露。",
+    "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+    "market_session": "2026-11-12",
+    "price": 163.83,
+    "currency": "USD",
+    "quote_session": "regular_close",
+    "quote_crosscheck": "本次 Yahoo 日线与 StockAnalysis 2026-11-12 常规收盘一致；不使用盘后价。",
+    "base_value": 175.34,
+    "stress_value": 107.59,
+    "discount_price": 140.27,
+    "discount_to_base_pct": 6.56,
+    "model": {
+      "type": "conditional_earnings_multiple",
+      "anchor_eps": 7.969999999999999,
+      "anchor_formula": "FY25 GAAP EPS6.72 + 9M26 EPS6.00 − 9M25 EPS4.75 =7.97；季度EPS加总受四舍五入和股数变化影响，属TTM每股盈利近似。",
+      "base_eps_growth_assumption": 0.1,
+      "base_pe_assumption": 20,
+      "base_eps": 8.767,
+      "stress_anchor_eps": 7.969999999999999,
+      "stress_eps_growth_assumption": -0.1,
+      "stress_pe_assumption": 15,
+      "stress_eps": 7.172999999999999,
+      "margin_of_safety_assumption": 0.2,
+      "multiple_reasoning": "20倍基准要求10%EPS恢复与现金转换正常；15倍压力计入项目预算、人才成本和融资回购风险。",
+      "limitations": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+      "base_value_exact": 175.33999999999997,
+      "stress_value_exact": 107.59499999999998
+    },
+    "financials": {
+      "unit": "USD million except EPS",
+      "period": "TTM to 2026-09-30",
+      "ttm_gaap_eps": 7.969999999999999,
+      "ttm_cfo": 532.942,
+      "ttm_cash_ppe": 62.53,
+      "ttm_sbc": 183.94400000000002,
+      "cash_asof_20260930": 965.173,
+      "debt_asof_20260930": 25,
+      "asr_signed_20261109": 500,
+      "asr_status": "已签约；不将预计11/10初始交付当作最终完成，不据此制造新股数。",
+      "ttm_fcf_proxy": 470.412,
+      "ttm_fcf_less_sbc_proxy": 286.468
+    },
+    "sources": [
+      {
+        "title": "EPAM 最新 SEC/IR 财务原文",
+        "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000052/epam-20260930.htm"
+      },
+      {
+        "title": "EPAM 11/12 常规收盘第二来源",
+        "url": "https://stockanalysis.com/stocks/epam/history/"
+      },
+      {
+        "title": "EPAM 2026Q3 业绩",
+        "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000048/exhibit99_q3x2026.htm"
+      },
+      {
+        "title": "EPAM 11/9 ASR协议8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000057/epam-20261109.htm"
+      }
+    ]
+  },
+  "GLOB": {
+    "judgment": "低于恢复基准但未到足够折扣；存在价值陷阱风险，11/19财报是下一核验点。",
+    "basis": "11/12 收45.75美元。最新已公布为2026H1：归母利润3874.6万美元；只将3229.4万美元重组费按假设25%税率加回，保留SBC与收购费用，半年年化作恢复锚；压力完全不加回重组。Q2经营现金3021.7万美元、资本开支1758.4万美元，减SBC1904.7万美元后的校验值为负。6/30借款4.22亿美元高于现金短投1.69亿美元，不能用调整EPS把杠杆和反复重组忽略。 条件基准：2.9013美元 EPS × 18倍 = 52.22美元；压力：1.7853美元 × 14倍 = 24.99美元；基准再折让25%为39.17美元。",
+    "next": "11/19盘后核Q3：AI Pods收入能否补足传统项目、回款与借款、重组是否再次发生；最新完整季度尚是Q2，不把Q3指引当实际业绩。",
+    "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+    "market_session": "2026-11-12",
+    "price": 45.75,
+    "currency": "USD",
+    "quote_session": "regular_close",
+    "quote_crosscheck": "本次 Yahoo 日线与 StockAnalysis 2026-11-12 常规收盘一致；不使用盘后价。",
+    "base_value": 52.22,
+    "stress_value": 24.99,
+    "discount_price": 39.17,
+    "discount_to_base_pct": 12.4,
+    "model": {
+      "type": "conditional_earnings_multiple",
+      "anchor_eps": 2.901347770994125,
+      "anchor_formula": "(H1归母利润38.746 + 归母调节表重组费32.294 ×75%) ×2 ÷ H1稀释股数43.405；压力=38.746×2÷43.405。",
+      "base_eps_growth_assumption": 0,
+      "base_pe_assumption": 18,
+      "base_eps": 2.901347770994125,
+      "stress_anchor_eps": 1.7853242713973045,
+      "stress_eps_growth_assumption": 0,
+      "stress_pe_assumption": 14,
+      "stress_eps": 1.7853242713973045,
+      "margin_of_safety_assumption": 0.25,
+      "multiple_reasoning": "18倍恢复基准要求重组停止并稳定收入，14倍压力使用未加回盈利；25%折扣用于客户、执行、净债务及商誉风险。",
+      "limitations": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+      "base_value_exact": 52.22425987789425,
+      "stress_value_exact": 24.994539799562265
+    },
+    "financials": {
+      "unit": "USD million except EPS",
+      "period": "H1 / Q2 2026 ended 2026-06-30",
+      "h1_common_income": 38.746,
+      "h1_business_optimization_common_reconciliation": 32.294,
+      "normalization_tax_assumption": 0.25,
+      "h1_sbc_common_reconciliation": 37.234,
+      "h1_diluted_shares_million": 43.405,
+      "q2_cfo": 30.217,
+      "q2_cash_ppe": 17.584,
+      "q2_sbc_common_reconciliation": 19.047,
+      "cash_and_short_investments": 168.815,
+      "borrowings": 421.955,
+      "lease_liabilities": 95.899,
+      "other_financial_liabilities": 147.99,
+      "goodwill": 1595.46,
+      "common_equity": 2113.548,
+      "normalization_note": "2025也发生重组，故基准加回具争议，压力不加回；IR财务表未审计且并非完整IAS34中期报告。"
+    },
+    "sources": [
+      {
+        "title": "GLOB 最新 SEC/IR 财务原文",
+        "url": "https://investors.globant.com/2026-08-13-Globant-Reports-2026-Second-Quarter-Financial-Results"
+      },
+      {
+        "title": "GLOB 11/12 常规收盘第二来源",
+        "url": "https://stockanalysis.com/stocks/glob/history/"
+      },
+      {
+        "title": "Globant Q3财报将于11/19盘后发布",
+        "url": "https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th"
+      }
+    ]
+  }
+}

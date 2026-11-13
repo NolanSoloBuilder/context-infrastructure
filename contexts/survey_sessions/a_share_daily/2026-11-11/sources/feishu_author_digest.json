@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-11-11T09:04:28.496502+08:00",
+  "window_start": "2026-11-10T09:00:00+08:00",
+  "window_end": "2026-11-11T09:00:00+08:00",
+  "message_count": 16,
+  "candidate_count": 15,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b60044af84cb0cecc1b3b9f19e3f",
+      "source_time": "2026-11-10 19:29+08:00",
+      "sync_create_time": "1794310211629",
+      "content_sha256": "10dece7dff9a7d8159fc06d17ad358587527175e022347d182fcc8195ef06067",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者将长期持有与波段操作区分，认为不擅长波段的人可以以长期持有为主，少部分做波段，并提到成长与红利再平衡。未给具体比例、交易线位或本人仓位。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b601b907904b0ceb2624e9ace7fa",
+      "source_time": "2026-11-10 19:18+08:00",
+      "sync_create_time": "1794309611552",
+      "content_sha256": "84d8ecb86b168ef4b24ede551adb1d4949e320e52593ea481ae1b1ce28035a3f",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为红利低波可作长期持有方向，同时强调其本金波动和建仓位置。未给本期新增买入条件或仓位。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "过滤成员内容、无关话题、个股申购和未展开的外链。",
+  "coverage": "群同步作者观点，非原知识星球全文。"
+}

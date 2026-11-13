@@ -1,0 +1,10 @@
+{
+  "source": "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/",
+  "attempted_between_utc": ["2026-11-10T23:36:11Z", "2026-11-10T23:38:58Z"],
+  "direct_http_status": null,
+  "curl_exit_code": 28,
+  "error": "Resolving timed out after 10003 milliseconds",
+  "web_reader_status": "success_full_article_body_and_chart_notes",
+  "web_evidence_file": "web_credit_blog.json",
+  "note": "公开web原文读取成功；直接HTTP归档失败单独保留，不声称取得原始HTML。"
+}

@@ -1,0 +1,86 @@
+{
+  "symbol": "BRK-B",
+  "name": "伯克希尔B",
+  "kind": "stock",
+  "facts": {
+    "name": "Berkshire Hathaway B",
+    "strategy": "保险、综合经营与投资资产的公司股权。",
+    "business": "保险、BNSF铁路、能源和其他经营业务，并持有上市公司及短期美债等投资。此处描述资产类型，不提供未核验的最新投资权重。",
+    "sources": [
+      {
+        "title": "Berkshire公司官网完整2026Q3 10-Q（11/7已发布）",
+        "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf",
+        "asof": "2026Q3（9/30），11/7发布、11/8复核"
+      },
+      {
+        "title": "Berkshire 11/7官方Q3业绩新闻稿",
+        "url": "https://www.berkshirehathaway.com/news/nov0726.pdf",
+        "asof": "2026Q3（9/30），11/7发布、11/8复核"
+      },
+      {
+        "title": "Berkshire官网2026Q2 10-Q半年现金流（用于单季差分）",
+        "url": "https://www.berkshirehathaway.com/qtrly/2ndqtr26.pdf",
+        "asof": "2026Q2（6/30），11/8用于单季差分"
+      }
+    ],
+    "risks": [
+      "保险赔付、保费定价与投资收益率；经营周期、能源责任及资本配置。"
+    ],
+    "gaps": [
+      "最新逐项13F权重未核，完整分部估值未完成；公司官网已取得完整Q3 10-Q，SEC recent本次尚未见对应新入库条目。"
+    ],
+    "notes": [
+      "回购均价不是内在价值或买入底线；经营利润资本化后再全额加投资资产会重复计价。",
+      "行情刷新时间与财务及研究日期分别保留；11/6盘后发生在11/7财报之前。"
+    ],
+    "financial_date": "2026-09-30",
+    "research_reviewed_at": "2026-11-07T23:39:03.418184+00:00",
+    "fact_lines": [
+      "2026Q3，财务截至9/30、11/7发布、11/8复核：税后经营利润127.05亿美元（同比−5.8%），GAAP归母净利221.12亿美元。经营利润包括投资利息、股息及权益法收益。",
+      "GEICO税前承保利润9.82亿美元，综合成本率91.4%；集团经营同比减少7.80亿中，非美元债汇率摆动为6.74亿。仅剔该项后同比约−0.81%，不代表完成全部正常化调整。",
+      "9/30集团现金及等价物＋另列短期国库券毛额3774.35亿美元；保险及其他业务扣未结算国库券应付后3522.80亿。未扣全部债务、保险责任与资本需求，均不称可分配净现金。",
+      "Q3回购约96亿美元，前三季账面144.09亿、现金支付137.57亿；Q3股票组合净卖出4.26亿，与自家股票回购分开。",
+      "11/6财报前收盘570.89美元，按9/30精确B等价股数与归母净资产P/B约1.60；前三季经营利润简单年化对应约24.6倍。仅作可复算估值参照，完整分部估值未完成。"
+    ]
+  },
+  "kind_label": "个股",
+  "new": false,
+  "role": "综合经营研究",
+  "personal_note": "保险、铁路、能源与投资资产共同构成公司价值，是单一公司股票而非指数。",
+  "quote": {
+    "symbol": "BRK-B",
+    "session": "2026-11-06",
+    "close": 570.89,
+    "day_pct": -0.25160351517613533,
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at_utc": "2026-11-06T23:37:21.567048+00:00",
+    "crosscheck_status": "本次Yahoo完整日线新采集；自动行情为单一提供方，未声称逐项跨源核验。"
+  },
+  "next": "后续GEICO赔付率与定价、投资收益率、回购持续性；完成剔除投资收益重复计价后的分部估值",
+  "industry_id": "conglomerate",
+  "industry": "保险与综合经营",
+  "extended": {
+    "status": "available",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at_utc": "2026-11-06T23:37:21.567048+00:00",
+    "pre": {
+      "status": "unavailable"
+    },
+    "post": {
+      "status": "unavailable"
+    },
+    "latest_regular": {
+      "price_usd": 570.89,
+      "session": "2026-11-06",
+      "segment": "regular_close_reference",
+      "time_et": "2026-11-06T16:03:23-05:00",
+      "time_beijing": "2026-11-07T05:03:23+08:00",
+      "captured_at_utc": "2026-11-06T23:37:17.921Z",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+      "single_source": true,
+      "note": "有明确时间戳的提供方参考；非经跨源核验的逐笔成交，不用于年度指标"
+    }
+  },
+  "last_refresh_attempt_at_utc": "2026-11-06T23:37:17.921Z",
+  "research_status": "Q3已核；回购加大、GEICO成本上升；完整分部估值待完成，未确认低估"
+}

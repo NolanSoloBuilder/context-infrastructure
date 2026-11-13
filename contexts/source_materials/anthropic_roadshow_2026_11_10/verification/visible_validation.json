@@ -1,0 +1,31 @@
+{
+  "size_bytes": 1602026273,
+  "duration_seconds": "2563.311000",
+  "video_packets": "61458",
+  "codec": "h264",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "subtitle_streams": 0,
+  "subtitle_delivery": "Burned into video pixels; see actual extracted frames",
+  "ass_event_count": 702,
+  "sample_quality_excluding_subtitle_area": [
+    {
+      "seconds": 40,
+      "upper_840px_ssim": 0.992191
+    },
+    {
+      "seconds": 1840,
+      "upper_840px_ssim": 0.992682
+    },
+    {
+      "seconds": 2400,
+      "upper_840px_ssim": 0.999271
+    },
+    {
+      "seconds": 2493,
+      "upper_840px_ssim": 0.992109
+    }
+  ]
+}

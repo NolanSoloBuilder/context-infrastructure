@@ -1,0 +1,22 @@
+{
+  "title": "继续观察：QQQM回撤降至约11%，今晚CPI后再看修复",
+  "fact": "11/9常规收盘QQQM279.52美元、日+3.44%，距10/6盘中高点314.11回撤11.01%；已离开13%–15%接近区间。标普500+2.35%，纳指100+3.40%。",
+  "implication": "上涨面改善，但QQQM仍略低于200日线280.47美元；价格反弹本身不提高企业未来现金流。今晚北京21:30的CPI尚未公布。",
+  "judgment": "继续观察，暂不因反弹加快追加；三项15%／25%收盘观察档本次均无新触发。",
+  "counter": "若通胀缓和、长端利率回落且指数持续站稳均线，等待的理由会减弱；不能用一天走势断言反弹结束或已经见底。",
+  "next": "核CPI实际值与构成、10年期收益率、QQQM能否站稳200日线；若回撤重新进入13%–15%，按原规则重新提示。",
+  "sources": [
+    {
+      "title": "QQQM本次Yahoo日线",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits"
+    },
+    {
+      "title": "QQQM第二来源历史",
+      "url": "https://stockanalysis.com/etf/qqqm/history/"
+    },
+    {
+      "title": "BLS CPI日程",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    }
+  ]
+}

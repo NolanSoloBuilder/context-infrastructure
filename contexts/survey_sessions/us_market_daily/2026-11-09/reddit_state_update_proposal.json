@@ -1,0 +1,18 @@
+{
+  "not_applied": true,
+  "report_date": "2026-11-09",
+  "cutoff_utc": "2026-11-08T23:25:00+00:00",
+  "partial_check_at_utc": "2026-11-08T23:29:50.580320+00:00",
+  "full_scan_complete": false,
+  "prerequisite": "Apply only after the selected official fact is actually published; keep full-scan success unchanged because access was partial.",
+  "proposed_reported_posts": [
+    {
+      "id": "1xrbjp6",
+      "claim_key": "nvda_board_independent_investigation_official_statement_2026_11_08",
+      "classification": "已核验公司正式披露／论坛因果猜测未采信",
+      "url": "https://www.reddit.com/r/investing/comments/1xrbjp6/jensen_huang_just_admitted_to_an_affair_with_a/"
+    }
+  ],
+  "fiNews_status": "success_unchanged_no_new_claim",
+  "global_state_modified": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed_with_two_editorial_improvements_applied",
+  "market_review": [
+    "dates and stages verified",
+    "6 up 6 down verified",
+    "BRK.B two-source high difference disclosed",
+    "charts visually read and endpoints recomputed",
+    "target price percentage uses displayed cents"
+  ],
+  "macro_review": [
+    "CPI year-over-year unavailable",
+    "yield levels and bp verified",
+    "SGOV date 11/9 retained",
+    "no obsolete CPI pending language"
+  ],
+  "company_review": [
+    "NVDA no causal attribution of entire price fall",
+    "CRWV cash bridge reconciles",
+    "EPAM signed versus executed separated",
+    "FDE retained study date made explicit",
+    "NVDA historical statement count clarified"
+  ],
+  "private_data_published": false
+}

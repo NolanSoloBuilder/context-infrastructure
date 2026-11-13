@@ -1,0 +1,180 @@
+[
+  {
+    "id": "bls_cpi",
+    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "retrieved_at_utc": "2026-11-10T23:35:01.523376+00:00",
+    "http_status": "403",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/bls_cpi.html",
+    "bytes": 1323
+  },
+  {
+    "id": "bls_cpi_table1",
+    "url": "https://www.bls.gov/news.release/cpi.t01.htm",
+    "retrieved_at_utc": "2026-11-10T23:35:01.523678+00:00",
+    "http_status": "403",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/bls_cpi_table1.html",
+    "bytes": 1323
+  },
+  {
+    "id": "bls_schedule_nov",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "retrieved_at_utc": "2026-11-10T23:35:01.524784+00:00",
+    "http_status": "403",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/bls_schedule_nov.html",
+    "bytes": 1323
+  },
+  {
+    "id": "bls_jobs_schedule",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+    "retrieved_at_utc": "2026-11-10T23:35:01.527862+00:00",
+    "http_status": "403",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/bls_jobs_schedule.html",
+    "bytes": 1323
+  },
+  {
+    "id": "treasury",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve",
+    "retrieved_at_utc": "2026-11-10T23:35:02.698078+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/treasury.html",
+    "bytes": 171293
+  },
+  {
+    "id": "cboe_vix",
+    "url": "https://www.cboe.com/tradable-products/vix",
+    "retrieved_at_utc": "2026-11-10T23:35:02.706510+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/cboe_vix.html",
+    "bytes": 596790
+  },
+  {
+    "id": "cboe_vix_history",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at_utc": "2026-11-10T23:35:02.748750+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/cboe_vix_history.csv",
+    "bytes": 474655
+  },
+  {
+    "id": "wsj_vix",
+    "url": "https://www.wsj.com/market-data/quotes/index/VIX/historical-prices",
+    "retrieved_at_utc": "2026-11-10T23:35:02.748818+00:00",
+    "http_status": "000",
+    "exit_code": 35,
+    "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.wsj.com:443 \n",
+    "file": "macro_raw/wsj_vix.html"
+  },
+  {
+    "id": "nyse_calendar",
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "retrieved_at_utc": "2026-11-10T23:35:02.849306+00:00",
+    "http_status": "000",
+    "exit_code": 28,
+    "error": "curl: (28) Resolving timed out after 12008 milliseconds\n",
+    "file": "macro_raw/nyse_calendar.html"
+  },
+  {
+    "id": "sifma_calendar",
+    "url": "https://www.sifma.org/resources/general/holiday-schedule/",
+    "retrieved_at_utc": "2026-11-10T23:35:03.731990+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/sifma_calendar.html",
+    "bytes": 298551
+  },
+  {
+    "id": "fomc_calendar",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "retrieved_at_utc": "2026-11-10T23:35:04.520279+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/fomc_calendar.html",
+    "bytes": 166350
+  },
+  {
+    "id": "dol_claims_schedule",
+    "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+    "retrieved_at_utc": "2026-11-10T23:35:05.164499+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/dol_claims_schedule.html",
+    "bytes": 14421
+  },
+  {
+    "id": "sgov",
+    "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+    "retrieved_at_utc": "2026-11-10T23:35:05.683723+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/sgov.html",
+    "bytes": 1781645
+  },
+  {
+    "id": "csco_calendar",
+    "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+    "retrieved_at_utc": "2026-11-10T23:35:07.031074+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/csco_calendar.html",
+    "bytes": 168298
+  },
+  {
+    "id": "amat_calendar",
+    "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+    "retrieved_at_utc": "2026-11-10T23:35:07.915187+00:00",
+    "http_status": "403",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/amat_calendar.html",
+    "bytes": 525
+  },
+  {
+    "id": "nvda_calendar",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+    "retrieved_at_utc": "2026-11-10T23:35:09.373449+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/nvda_calendar.html",
+    "bytes": 61504
+  },
+  {
+    "id": "nyfed_hhdc",
+    "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+    "retrieved_at_utc": "2026-11-10T23:35:09.981082+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/nyfed_hhdc.html",
+    "bytes": 110638
+  },
+  {
+    "id": "nyfed_index",
+    "url": "https://www.newyorkfed.org/microeconomics/hhdc",
+    "retrieved_at_utc": "2026-11-10T23:35:10.285760+00:00",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": "",
+    "file": "macro_raw/nyfed_index.html",
+    "bytes": 104724
+  }
+]

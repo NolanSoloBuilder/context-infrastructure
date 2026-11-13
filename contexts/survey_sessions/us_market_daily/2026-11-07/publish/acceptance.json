@@ -1,0 +1,27 @@
+{
+  "report_date": "2026-11-07",
+  "market_session": "2026-11-06",
+  "reviewed_at": "2026-11-06T23:46:08.794649+00:00",
+  "live_quote_sessions": [
+    "2026-11-06"
+  ],
+  "public_access_http_verified": true,
+  "assets": 43,
+  "etfs": 17,
+  "stocks": 26,
+  "chart_ranges_version": 2,
+  "archive_dates": [
+    "2026-11-06",
+    "2026-11-05",
+    "2026-11-04",
+    "2026-11-03",
+    "2026-11-02",
+    "2026-10-30"
+  ],
+  "old_archive_research_preserved": true,
+  "brief_sha256": "7bd1ecf12024482d10986e60cd75c300a8fdfaf033314c58f9a23a38788ca545",
+  "deployment_version": 24,
+  "layout_template_changed": false,
+  "verification": "CLI HTTP SSR/API + 19 targeted tests; no new browser visual check claimed",
+  "quote_refresh_complete": 43
+}

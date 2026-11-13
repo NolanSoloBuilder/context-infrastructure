@@ -1,0 +1,24 @@
+{
+  "not_applied": true,
+  "report_date": "2026-11-08",
+  "cutoff_utc": "2026-11-07T23:30:00+00:00",
+  "partial_check_at_utc": "2026-11-07T23:34:38.081678+00:00",
+  "full_scan_complete": false,
+  "prerequisite": "Only apply claims actually included in the successfully published site; artifacts alone do not imply publication. Preserve last_successful_full_check; this is partial access.",
+  "proposed_reported_posts": [
+    {
+      "id": "1xq3hs1",
+      "claim_key": "strl_signed_unsigned_design_scope_vs_backlog_new_discussion_2026_11_07",
+      "classification": "已核验历史财务口径／新增讨论",
+      "url": "https://www.reddit.com/r/stocks/comments/1xq3hs1/sterling_infrastructure_strl/"
+    },
+    {
+      "id": "1xpy9qs",
+      "claim_key": "model_routing_cost_quality_vs_vendor_revenue_new_discussion_2026_11_07",
+      "classification": "待核验观点／技术机制已核",
+      "url": "https://www.reddit.com/r/stocks/comments/1xpy9qs/a_view_on_anthropics_revenue/"
+    }
+  ],
+  "fiNews_status": "success_unchanged_no_new_claim",
+  "global_state_modified": false
+}

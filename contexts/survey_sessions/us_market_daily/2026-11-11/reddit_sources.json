@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-11",
+  "collected_at_utc": "2026-11-10T23:33:00.987193+00:00",
+  "reviewed_at_utc": "2026-11-10T23:36:41.544381+00:00",
+  "target_window_hours": 24,
+  "target_window_start_utc": "2026-11-09T23:33:00Z",
+  "target_window_end_utc": "2026-11-10T23:33:00Z",
+  "status": "partial_read_timestamp_and_access_gaps",
+  "full_scan_complete": false,
+  "selected_items": [],
+  "selected_count": 0,
+  "coverage": [
+    {
+      "community": "r/investing",
+      "new_url": "https://www.reddit.com/r/investing/new/",
+      "new_status": "当日缓存，置顶11/10日常讨论",
+      "top_day_url": "https://www.reddit.com/r/investing/top/?t=day",
+      "top_day_status": "3周前",
+      "rss_http_status": 403,
+      "attempt_count": 1,
+      "full_current_window_verified": false
+    },
+    {
+      "community": "r/stocks",
+      "new_url": "https://www.reddit.com/r/stocks/new/",
+      "new_status": "昨日缓存，置顶11/9日常讨论",
+      "top_day_url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "top_day_status": "上周",
+      "rss_http_status": 403,
+      "attempt_count": 1,
+      "full_current_window_verified": false
+    },
+    {
+      "community": "r/SecurityAnalysis",
+      "new_url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "new_status": "2日前缓存",
+      "top_day_url": "https://www.reddit.com/r/SecurityAnalysis/top/?t=day",
+      "top_day_status": "3周前，旧空列表不能当本日无内容",
+      "rss_http_status": 403,
+      "attempt_count": 1,
+      "full_current_window_verified": false
+    },
+    {
+      "community": "r/ValueInvesting",
+      "new_url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "new_status": "当日缓存",
+      "top_day_url": "https://www.reddit.com/r/ValueInvesting/top/?t=day",
+      "top_day_status": "上周",
+      "rss_http_status": 403,
+      "attempt_count": 1,
+      "full_current_window_verified": false
+    },
+    {
+      "community": "r/Bogleheads",
+      "new_url": "https://www.reddit.com/r/Bogleheads/new/",
+      "new_status": "昨日缓存",
+      "top_day_url": "https://www.reddit.com/r/Bogleheads/top/?t=day",
+      "top_day_status": "3周前",
+      "rss_http_status": 403,
+      "attempt_count": 1,
+      "full_current_window_verified": false
+    },
+    {
+      "community": "r/ETFs",
+      "new_url": "https://www.reddit.com/r/ETFs/new/",
+      "new_status": "2日前缓存",
+      "top_day_url": "https://www.reddit.com/r/ETFs/top/?t=day",
+      "top_day_status": "上周",
+      "rss_http_status": 403,
+      "attempt_count": 1,
+      "full_current_window_verified": false
+    }
+  ],
+  "original_posts_read": [
+    {
+      "post_id": "1xsfqgq",
+      "canonical_url": "https://www.reddit.com/r/investing/comments/1xsfqgq/rklb_stock_tumbles_over_8_overnight_as_neutron/",
+      "community": "r/investing",
+      "title": "RKLB Stock Tumbles Over 8% Overnight as Neutron Delays Overshadow Record Revenue...",
+      "published_at_utc": null,
+      "published_at_beijing": null,
+      "displayed_relative_age": "6h ago",
+      "read_scope": [
+        "原帖正文",
+        "两条可见评论"
+      ],
+      "claim_summary": "文章称Neutron首发推迟，轨道数据中心存在技术和经济难题。",
+      "opposing_comments": "一条评论强调发射排期与在手订单转化而非创纪录收入；另一条质疑轨道数据中心叙事。",
+      "verification_status": "未核绝对发帖时间；财报数字及引语未本次回查SEC，不作已核事实发布。",
+      "selected": false
+    },
+    {
+      "post_id": "1xskid6",
+      "canonical_url": "https://www.reddit.com/r/ValueInvesting/comments/1xskid6/zeta_q3_26_earnings_21st_consecutive_beat_raise/",
+      "community": "r/ValueInvesting",
+      "title": "ZETA Q3 26 earnings - 21st consecutive BEAT & RAISE",
+      "published_at_utc": null,
+      "published_at_beijing": null,
+      "displayed_relative_age": "24m ago",
+      "read_scope": [
+        "原帖正文"
+      ],
+      "claim_summary": "帖子列Q3营收、现金流、GAAP盈利与上调指引；未核原始公司披露。",
+      "opposing_comments": null,
+      "comments_status": "可读页面未呈现实质评论，不能声称无反对意见。",
+      "verification_status": "绝对时间和原始财报均缺；暂作待核线索，不公开数值。",
+      "selected": false
+    },
+    {
+      "post_id": "1xsjcyt",
+      "canonical_url": "https://www.reddit.com/r/ValueInvesting/comments/1xsjcyt/is_this_a_real_dip_forward_pe_says_cheap_cape/",
+      "community": "r/ValueInvesting",
+      "title": "Is this a real dip? Forward P/E says cheap, CAPE says ~40",
+      "published_at_utc": null,
+      "published_at_beijing": null,
+      "displayed_relative_age": "8h ago",
+      "read_scope": [
+        "原帖正文",
+        "多条实质支持和反方评论"
+      ],
+      "claim_summary": "争论预期PE与CAPE，担忧半导体周期高利润、云厂商折旧滞后和非经营浮盈。",
+      "opposing_comments": "评论区指出盈利同比增长并非对同一未来期盈利上修，必须统一供应商、观察日、GAAP口径和预测区间；亦有人认为行业构成变化削弱历史CAPE可比性。",
+      "verification_status": "绝对日期未核，帖内PE/盈利增长/市场回撤数字未独立复算，未作本日最新估值结论。",
+      "selected": false
+    },
+    {
+      "post_id": "1xsi4ic",
+      "canonical_url": "https://www.reddit.com/r/ValueInvesting/comments/1xsi4ic/amd_vs_nvidia_which_one_would_you_pick_for_the/",
+      "community": "r/ValueInvesting",
+      "title": "AMD vs Nvidia which one would you pick for the next 5 years?",
+      "published_at_utc": null,
+      "published_at_beijing": null,
+      "read_scope": [
+        "New页正文",
+        "原帖页面打开确认"
+      ],
+      "claim_summary": "泛化长期比较问题；未提供已核新经营事实。",
+      "opposing_comments": null,
+      "verification_status": "未深入评论、未核绝对时间，不选入。",
+      "selected": false
+    }
+  ],
+  "search_queries": [
+    "site:reddit.com/r/investing \"November 10, 2026\" AI earnings",
+    "site:reddit.com/r/stocks \"November 10, 2026\" Palantir Google",
+    "site:reddit.com/r/ValueInvesting \"November 10, 2026\" cash flow",
+    "site:reddit.com \"Nov 10 2026\" \"ServiceNow\"",
+    "定向检索1xsfqgq、1xskid6、1xsjcyt；返回无关旧帖，未获得可核绝对时间"
+  ],
+  "dedup_exclusions": [
+    "team_fde_cloud_migration_and_sbc_cash_quality_new_discussion_2026_11_09",
+    "google_malaysia_power_capex_new_discussion_2026_11_09",
+    "nvda_board_independent_investigation_official_statement_2026_11_08"
+  ],
+  "summary": "未取得同时满足日期、正文/评论和原始证据要求的新增Reddit条目；原因含六RSS403及缓存/绝对日期缺口，不等于确认没有新内容。",
+  "global_state_modified": false,
+  "published": false,
+  "sources_include_private_data": false
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "treasury",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
+    "http": "404",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/treasury.html",
+    "at": "2026-11-09T23:38:55.317492+00:00"
+  },
+  {
+    "id": "vix",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/vix.csv",
+    "at": "2026-11-09T23:38:54.034817+00:00"
+  },
+  {
+    "id": "sgov",
+    "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/sgov.html",
+    "at": "2026-11-09T23:38:55.208499+00:00"
+  },
+  {
+    "id": "nyse",
+    "url": "https://www.nyse.com/trade/hours-calendars",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/nyse.html",
+    "at": "2026-11-09T23:39:23.178936+00:00"
+  },
+  {
+    "id": "bls",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "http": "403",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/bls.html",
+    "at": "2026-11-09T23:38:56.059249+00:00"
+  },
+  {
+    "id": "fed",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/fed.html",
+    "at": "2026-11-09T23:38:55.958574+00:00"
+  },
+  {
+    "id": "claims",
+    "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+    "http": "200",
+    "error": "",
+    "path": "contexts/survey_sessions/us_market_daily/2026-11-10/macro_raw/claims.html",
+    "at": "2026-11-09T23:38:57.044696+00:00"
+  }
+]

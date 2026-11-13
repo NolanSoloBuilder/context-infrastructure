@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-11-13T03:13:01.910354+00:00",
+  "status": "conditional_models_completed_not_full_dcf",
+  "methodology": "条件估值，非目标价或确定内在价值。PE 与增长率是研究假设，不冒充历史均值或市场一致预期；基准值的折扣也不是损失上限。利润口径保留 SBC 和利息，不再次从 EPS 扣 SBC，不把净现金重复加回。现金流减 SBC 仅是稀释成本校验，非公司报告的自由现金流，且不等同完整股东现金流 DCF。",
+  "raw_source_coverage": "Fresh SEC submissions/companyfacts all seven downloaded; SEC filing HTML curl returned403 and remains failure evidence, relevant financial and risk sections were read through web tool. Globant Q2 primary IR financial tables were read through web. StockAnalysis historical regular closes read via web and agree with local Yahoo daily CSV on11/12.",
+  "price_crosscheck": {
+    "AMZN": 267.44,
+    "MSFT": 523.0,
+    "AAPL": 354.88,
+    "PLTR": 171.58,
+    "ACN": 249.95,
+    "EPAM": 163.83,
+    "GLOB": 45.75
+  },
+  "market_session": "2026-11-12",
+  "non_annual_eps_caveat": "季度/半年年化并非未来全年预测；不同公司财年不同；TTM EPS相加有舍入及加权股数近似；PE/增长/折扣均属显式研究假设。"
+}

@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-09",
+  "cutoff_utc": "2026-11-08T23:25:00+00:00",
+  "window_start_utc": "2026-11-07T23:25:00+00:00",
+  "checked_at_utc": "2026-11-08T23:29:50.580320+00:00",
+  "optional_72h_window_used_for_selected_posts": false,
+  "coverage_status": "partial_public_access_one_selected_officially_verified_new_item",
+  "full_scan_complete": false,
+  "access_summary": "r/investing New RSS succeeded25 posts including3 within24h. Other five priority-community RSS each returned429, no repeated endpoint attempts. All six New and Top day pages actually opened; all Top day pages stale.",
+  "rss_attempts": [
+    {
+      "name": "finews_home",
+      "url": "https://finews.fyi/",
+      "captured_at_utc": "2026-11-08T23:26:22.493181+00:00",
+      "status": 200,
+      "bytes": 133857,
+      "text_start": "FiNews 美股日报｜今日美股行情、美股指数盘后总结\nFiNews\n美股日报 · 更新\n2026-11-06 23:15:21 UTC\n2026-11-06\n‹\n›\n日\n一\n二\n三\n四\n五\n六\n2026年11月6日 美股盘后日报\n头部个股热力图\n美股头部个股热力图 2026-11-06\n2026 年 11 月 6 日\n−0.46%\n道指\n+1.09%\n纳指\n+0.31%\n标普 500\n科技"
+    },
+    {
+      "name": "investing_new",
+      "url": "https://www.reddit.com/r/investing/new/.rss",
+      "captured_at_utc": "2026-11-08T23:26:22.494623+00:00",
+      "status": 200,
+      "bytes": 72543,
+      "count": 25,
+      "first": "2026-11-08T22:52:18+00:00",
+      "last": "2026-11-05T23:09:55+00:00"
+    },
+    {
+      "name": "stocks_new",
+      "url": "https://www.reddit.com/r/stocks/new/.rss",
+      "captured_at_utc": "2026-11-08T23:26:22.494831+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "SecurityAnalysis_new",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/.rss",
+      "captured_at_utc": "2026-11-08T23:26:23.163932+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ValueInvesting_new",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/.rss",
+      "captured_at_utc": "2026-11-08T23:26:23.501238+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "Bogleheads_new",
+      "url": "https://www.reddit.com/r/Bogleheads/new/.rss",
+      "captured_at_utc": "2026-11-08T23:26:23.649509+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "ETFs_new",
+      "url": "https://www.reddit.com/r/ETFs/new/.rss",
+      "captured_at_utc": "2026-11-08T23:26:23.899666+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "community_page_checks": [
+    {
+      "community": "r/investing",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/investing/new/",
+      "read_result": "public page read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Feed ranking and relative ages do not establish absolute post dates."
+    },
+    {
+      "community": "r/investing",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/investing/top/?t=day",
+      "read_result": "stale public page read",
+      "cache_age_reported": "3 weeks old",
+      "freshness_limit": "Not used as latest24h evidence."
+    },
+    {
+      "community": "r/stocks",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/stocks/new/",
+      "read_result": "public page read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Feed ranking and relative ages do not establish absolute post dates."
+    },
+    {
+      "community": "r/stocks",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/stocks/top/?t=day",
+      "read_result": "stale public page read",
+      "cache_age_reported": "5 days old",
+      "freshness_limit": "Not used as latest24h evidence."
+    },
+    {
+      "community": "r/SecurityAnalysis",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/",
+      "read_result": "public page read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Feed ranking and relative ages do not establish absolute post dates."
+    },
+    {
+      "community": "r/SecurityAnalysis",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/top/?t=day",
+      "read_result": "stale public page read",
+      "cache_age_reported": "3 weeks old",
+      "freshness_limit": "Not used as latest24h evidence."
+    },
+    {
+      "community": "r/ValueInvesting",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/",
+      "read_result": "public page read",
+      "cache_age_reported": "yesterday",
+      "freshness_limit": "Feed ranking and relative ages do not establish absolute post dates."
+    },
+    {
+      "community": "r/ValueInvesting",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/ValueInvesting/top/?t=day",
+      "read_result": "stale public page read",
+      "cache_age_reported": "last week",
+      "freshness_limit": "Not used as latest24h evidence."
+    },
+    {
+      "community": "r/Bogleheads",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/Bogleheads/new/",
+      "read_result": "public page read",
+      "cache_age_reported": "yesterday",
+      "freshness_limit": "Feed ranking and relative ages do not establish absolute post dates."
+    },
+    {
+      "community": "r/Bogleheads",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/Bogleheads/top/?t=day",
+      "read_result": "stale public page read",
+      "cache_age_reported": "2 weeks old",
+      "freshness_limit": "Not used as latest24h evidence."
+    },
+    {
+      "community": "r/ETFs",
+      "mode": "New",
+      "url": "https://www.reddit.com/r/ETFs/new/",
+      "read_result": "public page read",
+      "cache_age_reported": "today",
+      "freshness_limit": "Feed ranking and relative ages do not establish absolute post dates."
+    },
+    {
+      "community": "r/ETFs",
+      "mode": "Top day",
+      "url": "https://www.reddit.com/r/ETFs/top/?t=day",
+      "read_result": "stale public page read",
+      "cache_age_reported": "last week",
+      "freshness_limit": "Not used as latest24h evidence."
+    }
+  ],
+  "targeted_checks": [
+    {
+      "topic": "BRK November8 / AI applications / FDE",
+      "result": "Targeted exact-date search yielded no results; not proof of no discussion. No additional original post with verified substantive update selected."
+    }
+  ],
+  "items": [
+    {
+      "id": "1xrbjp6",
+      "claim_key": "nvda_board_independent_investigation_official_statement_2026_11_08",
+      "url": "https://www.reddit.com/r/investing/comments/1xrbjp6/jensen_huang_just_admitted_to_an_affair_with_a/",
+      "community": "r/investing",
+      "title": "NVDA董事会启动独立调查，财务影响尚未量化",
+      "classification": "已核验公司正式披露／论坛因果猜测未采信",
+      "post_time_utc": "2026-11-08T22:52:18+00:00",
+      "post_time_beijing": "2026-11-09T06:52:18+08:00",
+      "post_time_source": "Public Atom RSS published; cached HTML relative ages not used",
+      "event_date": "2026-11-08",
+      "event_time_exact": null,
+      "event_time_limit": "Official release provides date but no exact clock time; contemporaneous Reddit post predates scan cutoff; actual original-source read at23:28UTC is separately recorded.",
+      "collected_at_utc": "2026-11-08T23:29:50.580320+00:00",
+      "window": "within24h",
+      "read_scope": "RSS full body and absolute time; public original post and visible comments; official NVIDIA statement and corporate newsroom index; official earnings calendar",
+      "comments_status": "Read speculative comments attributing prior weakness to leaks and counter-comments pointing to broad AI declines; these are not evidence of causality or wrongdoing. No consensus or anonymous identity assumed.",
+      "core_claim": "董事会已启动独立调查，由独立董事委员会监督，外部独立律师协助；声明称目前无理由认为国家安全或NVIDIA秘密遭泄露，仍支持现有领导团队。",
+      "verified_facts": [
+        "NVIDIA official statement dated November8 confirms independent board investigation and outside independent counsel.",
+        "Board states it currently has no reason to believe national security or NVIDIA secrets were compromised and expresses confidence in current leadership.",
+        "Official October28 calendar schedules FY27 Q3 results November17 at approximately13:20PT and call14:00PT; this is scheduled, not a new earnings result."
+      ],
+      "unverified_excluded": [
+        "Private-life details and allegations beyond the board statement omitted.",
+        "Forum claims of insider selling/leaks, export-control violations, causality for past stock/bitcoin moves not verified and not adopted.",
+        "No current market price or quantified earnings loss inferred from weekend discussion."
+      ],
+      "impact_assessment": "新增治理与关键管理人不确定性；声明未量化订单、营收、现金流或监管处罚影响，暂不机械下调盈利模型或以旧价格判抄底。",
+      "counterargument": "董事会仍支持管理层，且当前无理由认为秘密泄露；独立调查不等于已发现违法或财务损失。",
+      "next_check": "董事会调查进展、是否出现SEC或监管正式披露、管理层连续性及11月17日财报；只在订单/限制/经营发生实质变化后重估。",
+      "verification_sources": [
+        {
+          "title": "NVIDIA董事会声明（11月8日）",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "published_date": "2026-11-08",
+          "read_at_utc": "2026-11-08T23:28:08.998250+00:00",
+          "http_status": 200,
+          "scope": "Full original HTML/text saved; public web direct open initially failed, then homepage link opened successfully."
+        },
+        {
+          "title": "NVIDIA FY27Q3官方时间安排（10月28日）",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+          "published_date": "2026-10-28",
+          "scope": "Official scheduled dates only"
+        }
+      ],
+      "heat_metrics": null
+    }
+  ],
+  "excluded": [
+    {
+      "id": "1xqwmt0",
+      "url": "https://www.reddit.com/r/stocks/comments/1xqwmt0/anthropic_just_spent_34b_securing_its_own_power/",
+      "classification": "未入选／原报道和日期缺口",
+      "read_scope": "Public original body and substantive supporting/contrary comments read; direct ordinary HTTP200 contained only Reddit shell and no absolute timestamp.",
+      "claim": "Reported gas generator procurement; no official transaction confirmation obtained.",
+      "post_time_utc": null,
+      "counterargument": "Comments debate generation capacity vs firm supply and whether equipment spending proves economic return; no consensus claimed.",
+      "verification_attempts": [
+        {
+          "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+          "result": "Original report inaccessible via web tool."
+        },
+        {
+          "url": "https://www.anthropic.com/news",
+          "result": "Newsroom read; transaction not confirmed in read range."
+        }
+      ],
+      "reason": "Absolute post time unverified; original report inaccessible and official transaction details unverified. Not a confirmed new investment fact; do not publish amount/capacity as fact."
+    },
+    {
+      "id": "1xqkgca",
+      "url": "https://www.reddit.com/r/investing/comments/1xqkgca/thursdays_chip_crash_priced_a_2028_permitting/",
+      "post_time_utc": "2026-11-07T23:50:48+00:00",
+      "classification": "未入选／重复主题且关键主张未核",
+      "read_scope": "RSS full body/time and original body plus one comment challenging new-versus-existing permitting scope.",
+      "reason": "Policy/demand/energized-capacity thesis overlaps November6 reported discussion. Proposed political timing and grandfathership claims are not checked against actual enacted legal text; no material verified update."
+    },
+    {
+      "id": "1xq3hs1",
+      "reason": "STRL backlog already reported November8; no verified substantive new update."
+    },
+    {
+      "id": "1xpy9qs",
+      "reason": "Model routing already reported November8; no verified substantive new update."
+    }
+  ],
+  "source_collection_note": "Reddit is a lead; selected governance facts rest on original NVIDIA disclosure. Initially unverified lead upgraded only after official statement obtained.",
+  "global_state_modified": false,
+  "public_publish_status": "research_artifacts_only_pending_parent_publication"
+}

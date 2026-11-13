@@ -1,0 +1,3528 @@
+1
+00:00:30,338 --> 00:00:31,381
+这将成为
+This is going to be
+
+2
+00:00:31,381 --> 00:00:34,967
+人类历史上最有前景的技术。
+the most promising technology in human history.
+
+3
+00:00:35,134 --> 00:00:40,473
+AI 正在掌握认知的本质。2024 年到 2025 年，
+AI is capturing the essence of cognition. In 2024 and 2025,
+
+4
+00:00:40,598 --> 00:00:44,477
+AI 开始能够编程；如今，我们逐渐发现，
+coding became possible, and now we're starting to find that agents
+
+5
+00:00:44,477 --> 00:00:48,940
+智能体也能够在其他知识工作领域完成端到端的任务。
+that do things end to end in other areas of knowledge work are possible.
+
+6
+00:00:49,065 --> 00:00:53,486
+而最近，我们开始看到，AI 有望在
+And even more recently, we're starting to see that fundamental discoveries
+
+7
+00:00:53,486 --> 00:00:58,491
+生物学、数学和物理学等领域取得基础性发现。
+in areas like biology and mathematics and physics are becoming possible.
+
+8
+00:00:58,699 --> 00:01:03,204
+如果人类能用 AI 治愈癌症，心怀恶意的人
+If humans can use AI to cure cancer, an evil
+
+9
+00:01:03,204 --> 00:01:07,083
+也能用 AI 制造生物武器或发起网络攻击。
+human can use AI to make a bioweapon or do a cyber attack,
+
+10
+00:01:07,542 --> 00:01:11,003
+如果不应对这些风险，我们就无法成功。
+we cannot succeed if we don't address these risks.
+
+11
+00:01:11,087 --> 00:01:15,925
+我们决心把这件事做好，因为这正是我，
+And we are determined to get this right, because this is why I and this is why
+
+12
+00:01:15,967 --> 00:01:19,512
+以及许多 Anthropic 同事投身这项技术的原因。
+many people who work at Anthropic, this is why we work on this technology.
+
+13
+00:01:26,936 --> 00:01:29,856
+如今，智能已经成为人类能够构建的东西。
+Intelligence is now something humans can build.
+
+14
+00:01:29,856 --> 00:01:32,817
+这具有深远的意义。
+The implications of this are profound.
+
+15
+00:01:32,817 --> 00:01:36,654
+我们相信，它会大幅提升每个人的能力，扩大世界
+We believe it will make every person far more capable and expand the world's
+
+16
+00:01:36,654 --> 00:01:41,325
+从事认知工作的能力，改变每个行业、每门学科。
+capacity for cognitive work, transforming every industry and every discipline.
+
+17
+00:01:41,325 --> 00:01:45,246
+这种巨大的经济影响，始于前沿智能，
+This enormous economic impact begins with frontier intelligence,
+
+18
+00:01:45,496 --> 00:01:48,916
+始于 Claude 能做到什么。2024 年，
+with what Claude can do. In 2024,
+
+19
+00:01:49,000 --> 00:01:53,504
+Claude 能回答问题、检索信息或总结文档。
+Claude could answer a question, retrieve information, or summarize a document.
+
+20
+00:01:53,546 --> 00:01:55,423
+到 2025 年底，
+By the end of 2025,
+
+21
+00:01:55,423 --> 00:01:58,176
+Claude 已经能够开展深度研究、执行多步骤项目，
+Claude could do deep research and multi-step projects
+
+22
+00:01:58,176 --> 00:02:00,595
+例如重构整个代码库。
+like refactoring an entire code base.
+
+23
+00:02:00,595 --> 00:02:06,100
+这些任务过去需要人类工作数小时甚至数天。如今，
+The type of task that required hours or even days of human work. Today,
+
+24
+00:02:06,309 --> 00:02:09,687
+Claude 能承担复杂、开放式的项目，
+Claude can take on complex, open ended projects
+
+25
+00:02:09,687 --> 00:02:13,483
+这些项目过去需要多人花费数月甚至数年，进行研究、分析
+that once took months or years of research, analysis
+
+26
+00:02:13,483 --> 00:02:17,570
+和执行，现在几天就能完成。
+and execution by many people and complete them in days.
+
+27
+00:02:17,904 --> 00:02:21,949
+在不远的未来，我们认为前沿 AI 有潜力推动
+In the near future, we see potential for frontier AI to drive
+
+28
+00:02:21,949 --> 00:02:26,829
+人类一些最重大的突破，并开辟全新的市场。
+some of humanity's greatest breakthroughs and open entirely new markets.
+
+29
+00:02:27,163 --> 00:02:31,209
+我们迄今取得的成功，源于五项核心优势：
+Our success thus far emerges from five core advantages.
+
+30
+00:02:31,542 --> 00:02:34,962
+使命与专注、人才与文化、
+These are our mission and focus, talent and culture,
+
+31
+00:02:35,671 --> 00:02:38,049
+前沿研究与安全工作、
+frontier research and safety work,
+
+32
+00:02:38,049 --> 00:02:41,010
+算力策略，以及企业客户战略。
+our approach to compute and our enterprise strategy.
+
+33
+00:02:41,010 --> 00:02:43,346
+这一切都始于我们的使命：
+All of this begins with our mission.
+
+34
+00:02:43,346 --> 00:02:46,432
+负责任地开发和维护先进 AI，
+The responsible development and maintenance of advanced
+
+35
+00:02:46,432 --> 00:02:49,435
+为人类带来长远福祉。
+AI for the long term benefit of humanity.
+
+36
+00:02:49,685 --> 00:02:53,689
+使命凝聚着整个组织，也是我们专注执行的关键。
+It's an organizing force and key to our focused execution.
+
+37
+00:02:53,773 --> 00:02:58,903
+我们管理的资源都是有限的：算力、人才和研究能力。
+We manage a universe of finite resources: compute, talent, and research capacity.
+
+38
+00:02:59,153 --> 00:03:03,115
+使命帮助团队明确方向，并把这些资源
+The mission is how we create clarity for the team and deploy those resources
+
+39
+00:03:03,115 --> 00:03:07,745
+用在最能发挥价值的地方。在需要艰难抉择的时刻，
+to maximum effect. At challenging moments that call for hard choices,
+
+40
+00:03:08,079 --> 00:03:10,414
+使命让我们的决策更加明确。
+our mission sharpens our decision making.
+
+41
+00:03:10,414 --> 00:03:14,377
+正因如此，我们将 Mythos 等模型仅向网络防御者开放。
+It led us to deploy models like Mythos exclusively to cyber defenders.
+
+42
+00:03:14,544 --> 00:03:18,256
+也正因如此，我们承诺不在 Claude 中投放广告。
+It also led us to commit to keep Claude free of advertising.
+
+43
+00:03:18,589 --> 00:03:23,010
+这种使命感和专注，持续吸引着业内最优秀的人才。
+This mission and focus continue to attract the very best talent in the industry.
+
+44
+00:03:23,302 --> 00:03:25,221
+公司创立以来，一直如此。
+That's been true since our founding.
+
+45
+00:03:25,221 --> 00:03:28,266
+我们的七位联合创始人中，有些人提出的原创理念，
+Our seven co-founders include the originators of ideas
+
+46
+00:03:28,266 --> 00:03:31,477
+如今已成为 AI 行业的基础。
+that now make up the foundation of the AI industry.
+
+47
+00:03:31,727 --> 00:03:36,607
+这种顶尖人才的汇聚，遍及组织的各个层级。
+This concentration of top talent extends to all levels of the organization,
+
+48
+00:03:36,816 --> 00:03:40,820
+在吸引和留住本领域最杰出人才方面，
+and we lead the industry in attracting and retaining the brightest
+
+49
+00:03:40,820 --> 00:03:41,821
+我们处于行业领先地位。
+minds in the field.
+
+50
+00:03:48,869 --> 00:03:51,080
+我为什么在 Anthropic 工作？
+Why do I work at Anthropic?
+
+51
+00:03:51,080 --> 00:03:53,874
+为什么？我为什么在 Anthropic
+工作？为什么选择 Anthropic？
+Why do I? Why do I work at Anthropic? Why do I work at Anthropic?
+
+52
+00:03:53,874 --> 00:03:56,752
+我为什么在 Anthropic 工作？
+Why do I work at Anthropic?
+
+53
+00:03:56,752 --> 00:03:59,463
+因为我是个乐观的人。
+Because I'm an optimist.
+
+54
+00:03:59,463 --> 00:04:01,799
+我希望为家人，
+I want a safer, better world for my family
+
+55
+00:04:01,799 --> 00:04:04,802
+也为全人类，创造一个更安全、更美好的世界。
+and for humanity.
+
+56
+00:04:05,678 --> 00:04:06,387
+三年前，
+Three years
+
+57
+00:04:06,387 --> 00:04:09,432
+我哥哥因脑肿瘤去世，
+ago, my older brother died of a brain tumor
+
+58
+00:04:09,432 --> 00:04:12,810
+年仅 42 岁，和我现在一样大。
+at the age of 42, which is the age that I am now.
+
+59
+00:04:13,227 --> 00:04:17,815
+我深信，通过我们的使命和这项技术，
+And I believe deeply that through our mission and this technology,
+
+60
+00:04:17,815 --> 00:04:21,152
+未来，像我哥哥这样的人
+there will be a situation where people like my brother
+
+61
+00:04:21,193 --> 00:04:24,155
+就不必死去。
+don't have to die.
+
+62
+00:04:24,155 --> 00:04:26,574
+必须有人承担起把这件事做好的重任。
+Somebody has to carry the weight of getting this right.
+
+63
+00:04:26,574 --> 00:04:29,577
+而我真的不想只在一旁观望。
+And I really didn't want to watch from the sidelines.
+
+64
+00:04:30,911 --> 00:04:34,373
+这里的人会先问：这样做对吗？
+People here ask, is this the right thing to do?
+
+65
+00:04:34,624 --> 00:04:36,876
+然后才问：我们能做到吗？
+Before they ask, can we do it?
+
+66
+00:04:38,711 --> 00:04:39,503
+这是一种难得的组合：
+It's a rare
+
+67
+00:04:39,503 --> 00:04:44,091
+一群人既真正在意 AI 能否走向好的结果，
+combination of a group of people who care deeply about making AI go well,
+
+68
+00:04:44,091 --> 00:04:47,511
+也同样重视能力、
+and also care deeply about competence,
+
+69
+00:04:47,678 --> 00:04:50,640
+协同一致与诚信——这些品质
+coherence, integrity, qualities
+
+70
+00:04:50,640 --> 00:04:53,934
+才能真正让一个组织有效运作。
+that actually make an organization effective.
+
+71
+00:04:54,518 --> 00:04:58,564
+这些益处与风险，这些光明与阴影，
+These benefits and these risks, this light and this shade
+
+72
+00:04:58,731 --> 00:05:01,734
+恰恰是我选择来 Anthropic 工作的原因。
+was precisely why I chose to come work at Anthropic.
+
+73
+00:05:06,614 --> 00:05:08,658
+我们为提升模型安全性
+The work we do to make our models safe
+
+74
+00:05:08,658 --> 00:05:12,161
+和可靠性所做的工作，也在提升模型的能力。
+and reliable is the same work that makes them more capable.
+
+75
+00:05:12,328 --> 00:05:16,707
+我们关注有用的智能：模型处理现实任务
+We care about useful intelligence, how effectively a model handles
+
+76
+00:05:16,707 --> 00:05:20,586
+到底有多有效，以及能为客户带来什么价值。
+a real world task, and the value this delivers to customers.
+
+77
+00:05:20,795 --> 00:05:24,590
+我们始终专注于回答这个问题：Claude 能为我做到什么，
+We're relentlessly focused on answering the question, what can Claude
+
+78
+00:05:24,632 --> 00:05:27,635
+是其他模型做不到的？
+do for me that other models can't?
+
+79
+00:05:27,718 --> 00:05:31,055
+算力是支撑这些工作的关键基础设施。
+Compute is the critical infrastructure that enables this work.
+
+80
+00:05:31,430 --> 00:05:34,934
+我们在这里建立了独特优势，不仅体现在如何建设
+We've built a differentiated advantage here, not just in how we build
+
+81
+00:05:34,934 --> 00:05:36,143
+算力容量，
+our compute capacity,
+
+82
+00:05:36,143 --> 00:05:38,354
+还体现在如何充分利用这些算力，
+but in how we make the most of this capacity
+
+83
+00:05:38,354 --> 00:05:41,023
+找到能成倍提升算力效用的方法。
+through the discovery of compute multipliers.
+
+84
+00:05:41,023 --> 00:05:42,024
+作为领先的 AI 实验室，
+We are the leading
+
+85
+00:05:42,024 --> 00:05:45,653
+我们从第一天起就专注于为企业构建产品。
+AI lab that has been focused on building for the enterprise from day one.
+
+86
+00:05:45,778 --> 00:05:48,739
+我们训练前沿模型来解决知识工作中的任务。
+We train our frontier models to address knowledge work.
+
+87
+00:05:48,739 --> 00:05:52,952
+因此，客户可以同时获得出色的能力和价值。
+As a result, our customers get the best of both capability and value.
+
+88
+00:05:53,577 --> 00:05:56,205
+这些客户推动了我们前所未有的增长，
+These customers have enabled our historic growth
+
+89
+00:05:56,205 --> 00:06:00,418
+他们遍及金融服务、科技、
+and they span industries across financial services, technology,
+
+90
+00:06:00,668 --> 00:06:04,839
+制药、医疗、政府、制造等众多领域。
+pharma, healthcare, government, manufacturing, and more.
+
+91
+00:06:05,297 --> 00:06:08,801
+在这里，我们的公共利益使命与对安全的重视，
+And this is also where our public benefit mission and safety focus
+
+92
+00:06:08,801 --> 00:06:12,012
+也自然契合了客户需求。企业和我们一样，关心前沿 AI
+find natural alignment. Enterprises care that the frontier
+
+93
+00:06:12,012 --> 00:06:15,433
+是否安全、可信、实用。
+is safe, trustworthy and useful as much as we do.
+
+94
+00:06:15,599 --> 00:06:18,144
+随着前沿智能的能力不断提升，
+As frontier intelligence grows more capable,
+
+95
+00:06:18,144 --> 00:06:22,314
+我们对安全研究的持续专注也变得更加重要。
+our dedicated focus on safety research becomes that much more important.
+
+96
+00:06:22,565 --> 00:06:26,402
+这对客户至关重要，也是充分释放
+It's critically important to our customers and necessary for realizing
+
+97
+00:06:26,444 --> 00:06:28,279
+AI 潜力的必要条件。
+AI's full potential.
+
+98
+00:06:28,279 --> 00:06:31,449
+Anthropic 全力以赴，力求把这项工作做到最好。
+And Anthropic is fully committed to doing this work with excellence.
+
+99
+00:06:31,615 --> 00:06:34,493
+公共利益使命引领我们走到今天，
+Our public benefit mission is what brought us to this point,
+
+100
+00:06:34,493 --> 00:06:37,788
+也将继续塑造我们的工作，包括公司治理。
+and it will continue to shape our work, including at the governance level.
+
+101
+00:06:37,997 --> 00:06:41,959
+除了管理层和董事会，Anthropic
+In addition to our executive leadership and our board of directors, Anthropic
+
+102
+00:06:41,959 --> 00:06:45,212
+还接受长期利益信托的指导。这是一个独立、
+is advised by the Long-Term Benefit Trust, an independent,
+
+103
+00:06:45,212 --> 00:06:48,424
+没有财务利益关系的机构，负责选任董事会的多数成员。
+financially disinterested body that selects a majority of our board.
+
+104
+00:06:48,799 --> 00:06:52,386
+长期利益信托的职责，是帮助 Anthropic 在发展过程中，
+The LTBT's role is to help Anthropic plan for and fulfill
+
+105
+00:06:52,428 --> 00:06:54,430
+规划并履行我们的公共利益使命。
+our public benefit mission as we grow.
+
+106
+00:06:54,430 --> 00:06:58,642
+我们相信，AI 的未来应由民主社会塑造和引领。
+We believe AI's future should be shaped and led by democratic societies.
+
+107
+00:06:58,851 --> 00:07:01,395
+我们希望成为政府的可靠伙伴，帮助它们
+We want to be good partners in helping governments
+
+108
+00:07:01,395 --> 00:07:04,648
+适应 AI 能力不断提升所带来的变化。
+adapt to the changes that come with AI's rising capability.
+
+109
+00:07:04,899 --> 00:07:08,194
+为此，我们的管理层和政策团队都在行动，
+We do this at the executive level, through the work of our policy team
+
+110
+00:07:08,235 --> 00:07:11,238
+也通过 Anthropic Institute 等举措，分享
+and through efforts like the Anthropic Institute, which shares
+
+111
+00:07:11,238 --> 00:07:14,450
+前沿 AI 如何改变人们生活的研究。
+research on how frontier AI shapes how we live our lives.
+
+112
+00:07:15,034 --> 00:07:18,913
+我们相信，这将是现代以来人类生活最重大的变革，
+We are still early in what we believe will be the biggest transformation of the
+
+113
+00:07:18,913 --> 00:07:23,292
+而我们仍处于早期。它不仅蕴含巨大的经济潜力，
+human experience in the modern age, not just the profound economic potential,
+
+114
+00:07:23,584 --> 00:07:27,713
+我们也相信，AI 能以各种方式增进人类福祉：
+but in all the ways in which we believe AI can help humanity flourish.
+
+115
+00:07:28,255 --> 00:07:30,800
+从治愈疾病、加速经济增长，
+From curing diseases to accelerating growth,
+
+116
+00:07:30,800 --> 00:07:33,761
+到帮助人们过上更充实、更富足的生活。
+to helping people live more fulfilled and abundant lives.
+
+117
+00:07:36,138 --> 00:07:38,599
+谈到 Claude 模型家族，
+So if you think about our Claude model family,
+
+118
+00:07:38,599 --> 00:07:42,311
+它的设计目标，是为你的不同需求创造价值。
+it's designed to deliver value across all the goals you might have.
+
+119
+00:07:42,478 --> 00:07:45,606
+无论你优先考虑的是成本、速度，
+Whether you're optimizing for cost or speed
+
+120
+00:07:45,606 --> 00:07:48,609
+还是智能水平。在能力最高的一端，
+or intelligence. At the top end,
+
+121
+00:07:48,734 --> 00:07:51,737
+Mythos 和 Fable 不断推进技术前沿。
+Mythos and Fable push the frontier forward.
+
+122
+00:07:51,779 --> 00:07:55,324
+客户用它们加固网络基础设施，
+We see customers use it to harden cyber infrastructure
+
+123
+00:07:55,366 --> 00:07:58,786
+或取得新的科学发现。在另一端，
+or make new scientific discoveries. At the other end,
+
+124
+00:07:58,911 --> 00:08:02,957
+我们提供能力出色、性价比极高的模型，
+we have models that are extremely capable and highly cost effective,
+
+125
+00:08:03,123 --> 00:08:07,670
+企业可以依靠它们，大规模处理定义明确的常规任务。
+and businesses can rely on them at scale for well-defined, routine tasks.
+
+126
+00:08:07,962 --> 00:08:10,840
+我们重点思考的是，怎样让每个人
+A key thing we think about is how everyone
+
+127
+00:08:10,840 --> 00:08:13,801
+都能受益于这一整套模型。
+can get the benefit of that whole spectrum of models.
+
+128
+00:08:13,843 --> 00:08:17,680
+因为即使模型能力呈指数增长，
+Because even as model capability increases exponentially,
+
+129
+00:08:17,888 --> 00:08:21,600
+多数人使用模型的方式，也不会改变得那么快。
+what most people do with the models doesn't change that fast.
+
+130
+00:08:22,184 --> 00:08:25,187
+在构建产品时，我们遵循三项原则。
+We think about three principles as we build.
+
+131
+00:08:25,479 --> 00:08:28,440
+第一，让产品融入客户现有的工作环境。
+The first is meeting customers where they are.
+
+132
+00:08:29,108 --> 00:08:31,235
+使用 Claude 有几种方式。
+There's a few ways to use Claude.
+
+133
+00:08:31,235 --> 00:08:34,280
+首先是通过我们自己的应用，例如 Claude Code，
+First is through our own applications, like Claude Code
+
+134
+00:08:34,280 --> 00:08:36,323
+或 Claude 桌面端、移动端应用。
+or the Claude desktop or mobile app.
+
+135
+00:08:36,323 --> 00:08:40,244
+此外，Claude 也可以在 Word、Excel 等企业应用中使用。
+But Claude is also available on enterprise applications like Word and Excel.
+
+136
+00:08:40,661 --> 00:08:43,664
+我们深入各个垂直领域，努力理解：
+We go deep into verticals and try to understand
+
+137
+00:08:43,873 --> 00:08:48,752
+这个领域的专家，需要什么才能立刻高效开展工作？
+what does an expert in this domain need to be successful immediately?
+
+138
+00:08:49,211 --> 00:08:52,882
+比如，面向律师，我们有 Claude for Legal 套件，
+For instance, if you're a lawyer, we have a Claude for Legal bundle,
+
+139
+00:08:52,882 --> 00:08:55,885
+可以直接连接他们需要的工具。
+which connects directly to the tools you need.
+
+140
+00:08:56,051 --> 00:08:59,889
+我们在每个领域都会这样思考。
+This is something we think about for every domain.
+
+141
+00:09:00,264 --> 00:09:02,933
+我们也提供面向医疗、金融
+We have bundles for healthcare, financial
+
+142
+00:09:02,933 --> 00:09:05,936
+服务、生命科学等领域的套件。
+services, life sciences, and more.
+
+143
+00:09:06,020 --> 00:09:10,691
+第二项原则是，模型与产品同步开发。
+Our second principle is that we build models and products side by side.
+
+144
+00:09:10,816 --> 00:09:14,778
+我们为未来的模型开发产品，而不仅服务于今天的模型。
+We develop products for tomorrow's models, not just today's.
+
+145
+00:09:15,195 --> 00:09:18,908
+Claude Code 就很好地说明了，这为什么重要。
+Claude Code is a great illustration of why that matters.
+
+146
+00:09:19,325 --> 00:09:22,828
+几年前，我们发现尚未发布的
+A couple of years ago, we could see that our prerelease
+
+147
+00:09:22,828 --> 00:09:25,831
+模型越来越擅长理解代码。
+models were getting better at understanding code.
+
+148
+00:09:25,873 --> 00:09:28,959
+当时还不能包办一切，但我们已经看到了趋势。
+Couldn't quite do it all yet, but we could see the trend line.
+
+149
+00:09:29,335 --> 00:09:32,212
+我们围绕这一判断开发产品，
+We built a product around that thinking
+
+150
+00:09:32,212 --> 00:09:35,090
+仅仅几个月后，Claude Code 就发布了。
+and Claude Code was launched just a few months later.
+
+151
+00:09:35,090 --> 00:09:39,053
+它让人们接触到一种全新的编程方式，
+That introduced people to an entirely new way of coding,
+
+152
+00:09:39,386 --> 00:09:42,056
+也重新认识了 AI 能做到什么。
+and of understanding what AI can do.
+
+153
+00:09:42,056 --> 00:09:47,186
+模型与产品的这种相互促进，是我们持续开发的长期优势。
+This flywheel between model and product is a durable advantage in how we build.
+
+154
+00:09:47,394 --> 00:09:48,854
+模型能力提高，
+The model gets better.
+
+155
+00:09:48,854 --> 00:09:51,482
+我们就利用这些进步开发新功能。
+We develop new features powered by those advancements.
+
+156
+00:09:51,482 --> 00:09:53,651
+然后继续训练模型，让它更擅长
+Then we train the models to get even better
+
+157
+00:09:53,651 --> 00:09:57,279
+完成人们想做的事，从而增强整个系统。
+at what people are trying to do, which reinforces the whole system.
+
+158
+00:09:57,655 --> 00:10:00,199
+编程如此，其他领域也是如此。
+And we do that in coding and beyond.
+
+159
+00:10:00,199 --> 00:10:01,951
+第三项原则是，
+Our third principle is that we
+
+160
+00:10:01,951 --> 00:10:05,371
+缩小前沿能力与客户日常使用之间的差距。
+close the gap between the frontier and customers day to day.
+
+161
+00:10:05,871 --> 00:10:09,959
+多数人仍将 AI 工具视为搜索的替代品，
+Most people still think about their AI tools as a replacement for search
+
+162
+00:10:09,959 --> 00:10:13,170
+或简单的问答工具。它当然能做这些，
+or a simple Q&A tool, and it can be those things.
+
+163
+00:10:13,504 --> 00:10:17,049
+但人们真正能用这种智能做到的事，
+But that understates the power of what people can really do
+
+164
+00:10:17,091 --> 00:10:18,759
+远不止于此。
+with this intelligence.
+
+165
+00:10:18,759 --> 00:10:23,639
+正是在这里，产品成为重要的竞争差异。
+This is where product becomes a meaningful competitive differentiator.
+
+166
+00:10:23,681 --> 00:10:27,768
+如果没有优秀的产品，不断提升的智能水平
+Without a strong product, the difference between growing intelligence
+
+167
+00:10:27,768 --> 00:10:30,813
+与用户实际使用水平之间的差距，只会越积越大。
+and where users are just keeps compounding.
+
+168
+00:10:31,063 --> 00:10:35,192
+我们认为，未来要让使用 Claude 尽可能简单、
+We think the future will involve making Claude feel as simple
+
+169
+00:10:35,192 --> 00:10:40,030
+自然，让任何地方的人都能像对待同事一样
+and natural as possible, so people everywhere can just treat Claude
+
+170
+00:10:40,072 --> 00:10:44,618
+与 Claude 协作，每次都获得高质量的结果。
+the same way you treat a colleague and get high quality output every time.
+
+171
+00:10:44,910 --> 00:10:50,374
+我们相信，这三项原则能让前沿智能惠及每个人。
+We think these three principles are how we bring frontier intelligence to everyone.
+
+172
+00:10:50,708 --> 00:10:54,712
+这就是我们所说的：赋予人们超能力。
+This is what we mean when we say we want to give people superpowers.
+
+173
+00:10:54,920 --> 00:10:59,842
+Claude 首先帮助你，把原本要做的事做得更好、更快。
+Claude starts by helping you do what you need to better and faster.
+
+174
+00:11:00,009 --> 00:11:01,218
+随后，它会承担起
+Then it takes on
+
+175
+00:11:01,218 --> 00:11:05,055
+那些你过去因为太难、根本不敢尝试的事。
+the things you never would have tried because they were just too hard.
+
+176
+00:11:05,264 --> 00:11:09,852
+未来，这意味着我们每个人都能做到过去不可能的事，
+And in the future, that means all of us doing what used to be impossible
+
+177
+00:11:10,227 --> 00:11:13,439
+从而过上更美好、更充实的生活。
+so we can all live better, fuller lives.
+
+178
+00:11:16,942 --> 00:11:19,236
+当我们发现 AI 的规模定律时，
+When we discovered scaling laws in AI,
+
+179
+00:11:19,236 --> 00:11:22,906
+我们意识到，AI 能力可以进步得非常快。
+we realized that AI capabilities could improve very fast.
+
+180
+00:11:23,157 --> 00:11:26,994
+所以我们创立了 Anthropic：确保 AI 如果成为
+That's why we founded Anthropic to ensure that if AI became
+
+181
+00:11:26,994 --> 00:11:30,789
+一项变革性技术，也能安全地造福人类。
+a transformational technology, it would be safe and beneficial.
+
+182
+00:11:30,873 --> 00:11:35,252
+我们的核心判断是，AI 将在这十年取得巨大进步。
+Our fundamental bet is that AI would make tremendous progress this decade.
+
+183
+00:11:35,377 --> 00:11:38,464
+这些变革性的能力，正是研究
+These transformational capabilities are why research
+
+184
+00:11:38,464 --> 00:11:41,467
+与安全必须同步推进的原因。
+and safety must advance together.
+
+185
+00:11:41,467 --> 00:11:44,803
+唯有如此，我们才能获得这项技术的益处。
+It's the only way we'll realize the benefits of the technology.
+
+186
+00:11:45,012 --> 00:11:49,850
+我们从三个维度评估模型：能力、效率，
+We assess our models across three dimensions: capability, efficiency,
+
+187
+00:11:50,100 --> 00:11:51,477
+以及安全性。
+and safety.
+
+188
+00:11:51,477 --> 00:11:55,189
+我们优化模型，让它能够准确地规划并完成复杂工作，
+We optimize our models to be able to plan and complete complex work
+
+189
+00:11:55,230 --> 00:11:58,525
+持续数小时，甚至数天。
+accurately, across hours and even days.
+
+190
+00:11:59,068 --> 00:12:01,737
+Opus 5.5 就是个很好的例子。
+A good example is Opus 5.5.
+
+191
+00:12:01,737 --> 00:12:05,949
+一位用户完成了涉及 68 万行代码的迁移，
+One of our users was able to complete a 680K-line code migration
+
+192
+00:12:05,949 --> 00:12:06,950
+用时不到一天。
+in less than a day.
+
+193
+00:12:06,950 --> 00:12:10,287
+而就在几年前，这需要一个工程团队花上数周。
+This would have taken an engineering team weeks just a few years ago.
+
+194
+00:12:10,454 --> 00:12:14,708
+我们认为，在这种高度重视准确性的长时间任务上，
+We think our models are the very best at this long horizon work where accuracy
+
+195
+00:12:14,708 --> 00:12:15,959
+我们的模型表现最为出色。
+really matters.
+
+196
+00:12:15,959 --> 00:12:18,962
+这种能力始于模型训练过程。
+The capability begins in the model training process.
+
+197
+00:12:19,129 --> 00:12:23,342
+在预训练阶段，模型从人类知识的总和中学习：
+In the pre-training phase, a model learns from the totality of human knowledge.
+
+198
+00:12:23,425 --> 00:12:24,051
+文本、
+Text.
+
+199
+00:12:24,051 --> 00:12:27,054
+图像、科学论文、代码。
+Images, scientific papers, code.
+
+200
+00:12:27,304 --> 00:12:29,807
+在这个阶段，它开始理解——
+This phase is where it comes to understand
+
+201
+00:12:29,807 --> 00:12:32,810
+人类的基本概念和思想。
+fundamental human concepts and ideas.
+
+202
+00:12:33,185 --> 00:12:35,687
+第二个阶段是强化学习。
+The second phase is reinforcement learning.
+
+203
+00:12:35,687 --> 00:12:38,690
+在这一阶段，Claude 学会做到有益、诚实、无害。
+This is where Claude learns to be helpful, honest, and harmless.
+
+204
+00:12:38,857 --> 00:12:41,819
+我们在这个阶段激发出它在编程、
+It's where we draw out useful capabilities
+
+205
+00:12:41,819 --> 00:12:44,738
+知识工作和科学研究中的实用能力。
+in coding, knowledge work, and science.
+
+206
+00:12:44,738 --> 00:12:48,200
+随着模型从对话助手发展为自主智能体，
+As models have moved from conversational assistance to autonomous agents,
+
+207
+00:12:48,242 --> 00:12:49,827
+强化学习已经成为
+reinforcement learning has evolved
+
+208
+00:12:49,827 --> 00:12:52,913
+我们研究投入最大的领域之一。
+into one of the largest areas of research investment.
+
+209
+00:12:53,080 --> 00:12:55,457
+这个领域对客户确实很重要。
+One that really matters to our customers.
+
+210
+00:12:55,457 --> 00:12:58,127
+2021 年，我写过一份内部备忘录，
+In 2021, I wrote an internal memo
+
+211
+00:12:58,127 --> 00:13:03,215
+提出我们最有可能做出的产品，
+是一个与人类意图对齐的 AI 程序员。
+outlining how our most likely product might be an aligned AI programmer.
+
+212
+00:13:03,340 --> 00:13:07,010
+我还写了很多其他设想，但这一条后来证明相当准确。
+I wrote a lot of other things too, but this one turned out to be pretty accurate.
+
+213
+00:13:07,094 --> 00:13:10,347
+Claude 的训练过程是 Anthropic 使命不可或缺的一部分。
+Claude's training process is integral to Anthropic's mission.
+
+214
+00:13:10,514 --> 00:13:13,433
+我们需要理解如何训练前沿智能，
+We need to understand how to train frontier intelligence
+
+215
+00:13:13,433 --> 00:13:14,768
+以及如何确保它的安全。
+and how to make it safe.
+
+216
+00:13:14,768 --> 00:13:17,271
+这也是我们实现 AI 价值的方式。
+And this is how we deliver the benefits of AI.
+
+217
+00:13:24,361 --> 00:13:25,487
+我们认为，AI
+We think that AI
+
+218
+00:13:25,487 --> 00:13:29,616
+能帮助我们将临床试验所需的时间缩短 20% 到 30%。
+will help us reduce the time to do a clinical trial by 20 to 30%.
+
+219
+00:13:29,658 --> 00:13:33,787
+如果一种药物能提前两三年上市，
+If you get a drug to market 2 or 3 years sooner, those are either cures
+
+220
+00:13:33,871 --> 00:13:37,666
+那些目前还没有治疗方案的患者，就能更早获得治疗，甚至治愈。
+or treatments that patients that actually don't have solutions can have sooner.
+
+221
+00:13:37,749 --> 00:13:40,127
+所以我们认为，这对患者来说意义重大。
+So we think it's actually a huge win for patients.
+
+222
+00:13:40,127 --> 00:13:43,130
+对百时美施贵宝（BMS）来说也是如此。
+And it's also a huge win for BMS.
+
+223
+00:13:43,380 --> 00:13:45,340
+我们选择 Anthropic 有几个原因。
+We chose Anthropic for a couple of reasons.
+
+224
+00:13:45,340 --> 00:13:48,177
+首先，它具备最成熟的企业级能力。
+One is they had the most mature enterprise capabilities.
+
+225
+00:13:48,177 --> 00:13:51,180
+拥有一个可以使用的聊天机器人是一回事，
+So it's one thing to have a chatbot that you can use.
+
+226
+00:13:51,180 --> 00:13:54,099
+但把它真正部署到企业环境中，
+It's a whole different thing to actually put it in an environment
+
+227
+00:13:54,099 --> 00:13:56,143
+让它能够访问公司一些
+where you're giving it access to some of the company's
+
+228
+00:13:56,143 --> 00:14:00,397
+最机密的信息，同时提供可观测能力、
+most confidential information, and you're able to do observability,
+
+229
+00:14:00,731 --> 00:14:04,902
+管理安全，并精细控制授予用户的权限，则完全是另一回事。
+manage the security, manage what the fine tune controls of what you give users.
+
+230
+00:14:04,902 --> 00:14:07,362
+这些企业级管控能力，
+So there's like the enterprise controls that you'd often
+
+231
+00:14:07,362 --> 00:14:10,365
+通常正是 IT 部门非常看重的。
+see that IT organizations really value a lot.
+
+232
+00:14:10,449 --> 00:14:13,452
+我们已向全体 3 万名员工推广使用。
+We rolled it out across all 30,000 of our employees.
+
+233
+00:14:13,744 --> 00:14:14,953
+在我们历来部署的 AI 工具中，
+This is the fastest,
+
+234
+00:14:14,953 --> 00:14:19,249
+它的普及速度最快，接受程度也最高。
+most well adopted AI tool in the history of what we rolled out.
+
+235
+00:14:19,333 --> 00:14:22,377
+现在，你可以提出一个非常复杂的问题，
+So now you can ask a very, very complicated question
+
+236
+00:14:22,544 --> 00:14:23,545
+它会逐步处理。
+and it will go through.
+
+237
+00:14:23,545 --> 00:14:27,132
+它会判断需要查询哪个或哪些数据库，
+It will figure out which database or databases, because it can actually
+
+238
+00:14:27,132 --> 00:14:30,135
+因为它实际上能跨数据库查询。
+cross those databases, can be queried.
+
+239
+00:14:30,219 --> 00:14:31,553
+然后，它会生成一份报告，
+And then it will produce a report
+
+240
+00:14:31,553 --> 00:14:34,890
+其中已经融入了流行病学方面的背景信息。
+that actually has the context of the epidemiology built right into it.
+
+241
+00:14:35,015 --> 00:14:39,353
+过去，回答一个简单问题通常需要一两个月，
+So that takes you from what would have typically taken 1 to 2 months
+
+242
+00:14:39,353 --> 00:14:44,066
+如今只要四五分钟就能得到答案。
+to get a simple question answered, to being able to get it in 4 to 5 minutes.
+
+243
+00:14:44,399 --> 00:14:48,654
+现在，借助高通量计算
+And we're now finally at a stage both with high throughput computation,
+
+244
+00:14:48,654 --> 00:14:51,740
+和大语言模型，我们终于能够扩大
+but also large language models where you're able to scale up
+
+245
+00:14:51,740 --> 00:14:55,202
+计算和分析的规模，以匹配更大规模的生物学研究，
+your computation, your analytics to match the better scale of biology
+
+246
+00:14:55,202 --> 00:14:58,413
+从而帮助我们制定决策，改善诊疗标准。
+that can help the way that you inform and change the standard of care.
+
+247
+00:15:02,000 --> 00:15:02,751
+想一想，
+Consider all the
+
+248
+00:15:02,751 --> 00:15:05,754
+前沿 AI 实验室为什么需要高效利用算力。
+reasons a frontier AI lab needs to use compute efficiently.
+
+249
+00:15:05,796 --> 00:15:09,258
+研究和模型训练的每个阶段都离不开算力。
+We use it at every stage of the research and model training process.
+
+250
+00:15:09,466 --> 00:15:13,470
+为客户提供模型服务，以及内部大
+规模使用 Claude，也都依赖算力。
+It's how we serve models to customers and how we use Claude at scale internally.
+
+251
+00:15:13,679 --> 00:15:16,598
+通过训练我们认为最高效的模型，
+By training what we believe to be the most efficient models,
+
+252
+00:15:16,598 --> 00:15:19,476
+就能用同样的算力，在这些方面完成更多工作。
+we can do more of all these things with the same amount of compute.
+
+253
+00:15:19,476 --> 00:15:21,478
+这也是我们降低成本的方式，
+It's also how we drive down costs,
+
+254
+00:15:21,478 --> 00:15:24,731
+既降低客户的成本，也降低我们自身的底层成本。
+both for customers as well as our own underlying costs.
+
+255
+00:15:24,982 --> 00:15:28,318
+我们正通过研究不断加快效率提升。
+We're accelerating these efficiency gains through our research process.
+
+256
+00:15:28,694 --> 00:15:32,114
+我们取得新发现的速度越来越快，而这种加速很大程度上
+Our pace of discovery is speeding up, and a lot of that acceleration
+
+257
+00:15:32,114 --> 00:15:33,949
+来自 Claude 本身。
+comes from Claude itself.
+
+258
+00:15:33,949 --> 00:15:36,743
+部署前沿模型时，安全至关重要。
+When you deploy frontier models, safety is critical.
+
+259
+00:15:36,743 --> 00:15:38,161
+正是这一理念让各位联合创始人
+This idea brought the co-founders
+
+260
+00:15:38,161 --> 00:15:41,373
+走到一起，也从一开始就成为 Anthropic 的根基。
+together, and it's been at the foundation of Anthropic from the beginning.
+
+261
+00:15:41,623 --> 00:15:45,043
+出色的安全能力，是管理组织风险和系统性风险的关键。
+Excellence in safety is how you manage organizational and systemic risk.
+
+262
+00:15:45,168 --> 00:15:47,296
+它让我们能够安全地将前沿能力应用于
+It's how you safely enable frontier capabilities
+
+263
+00:15:47,296 --> 00:15:50,966
+编程、医学等领域，也深受客户重视。
+in fields like coding and medicine, and it's valued by our customers.
+
+264
+00:15:51,174 --> 00:15:54,052
+它让客户有足够的信心，把重要工作交给 AI。
+It gives them the trust they need to point AI at important work.
+
+265
+00:15:54,052 --> 00:15:56,513
+我们将安全融入每一个阶段。
+We build safety in at every stage.
+
+266
+00:15:56,513 --> 00:15:59,224
+通过对齐训练，我们让模型学会遵循用户意图，
+Through alignment training, we train models to follow user intent
+
+267
+00:15:59,224 --> 00:16:01,059
+避免采取有害行动。
+and avoid taking harmful actions.
+
+268
+00:16:01,059 --> 00:16:04,062
+我们也内置适当的防护措施，以防止滥用。
+And we build in the right safeguards aimed at preventing misuse.
+
+269
+00:16:04,479 --> 00:16:06,648
+我们还在可解释性等领域开展开创性研究，
+We also pioneer fields like interpretability,
+
+270
+00:16:06,648 --> 00:16:09,651
+帮助我们理解模型的“大脑”内部究竟发生了什么。
+which gives us insight into what's happening inside the model's brain.
+
+271
+00:16:09,776 --> 00:16:10,902
+在 Anthropic 内部，
+Within Anthropic,
+
+272
+00:16:10,902 --> 00:16:14,531
+我们越来越多地利用前沿模型改进自身流程。
+we increasingly turn frontier models back on improving our own processes.
+
+273
+00:16:14,656 --> 00:16:16,700
+我们称之为形成闭环，
+We call this closing the loop,
+
+274
+00:16:16,700 --> 00:16:19,494
+它推动着我们的三项研究重点共同向前发展。
+and it drives forward all three of our research priorities.
+
+275
+00:16:19,494 --> 00:16:22,205
+在这些工作中，Claude 越来越像一个与我们平等的合作伙伴。
+Claude is increasingly our equal partner here.
+
+276
+00:16:22,205 --> 00:16:25,208
+Claude 越强，就越能帮助我们完成各项工作。
+The better Claude gets, the more it helps us with all of our work.
+
+277
+00:16:25,250 --> 00:16:26,668
+它能提升我们的安全防护能力，
+It improves our security.
+
+278
+00:16:26,668 --> 00:16:28,712
+让训练和推理更高效，
+It makes training and inference more efficient.
+
+279
+00:16:28,712 --> 00:16:30,255
+推进 AI 安全研究，
+It drives safety work.
+
+280
+00:16:30,255 --> 00:16:33,050
+帮助我们更快地尝试更多研究思路，
+It helps us try out more research ideas more quickly,
+
+281
+00:16:33,050 --> 00:16:35,469
+也让整个组织更加高效。
+and it makes the whole organization more effective.
+
+282
+00:16:35,469 --> 00:16:38,138
+我们最重要的工作还在前方。
+Our most important work is still ahead
+
+283
+00:16:38,138 --> 00:16:40,724
+只要持续推动研究与安全齐头并进，
+if we keep research and safety advancing together.
+
+284
+00:16:40,724 --> 00:16:43,602
+我们相信，就能帮助实现
+We believe that we can help bring about some of the most significant
+
+285
+00:16:43,602 --> 00:16:45,103
+人类历史上一些最重大的突破。
+breakthroughs in human history.
+
+286
+00:16:51,610 --> 00:16:54,863
+取一个数，让它翻倍，再翻倍。
+Take a number and double it and double that.
+
+287
+00:16:54,863 --> 00:16:56,782
+然后继续翻倍。
+Then double that.
+
+288
+00:16:56,782 --> 00:17:00,577
+这条曲线，正是 Anthropic 所做工作的核心。
+That curve is really at the heart of what we do at Anthropic.
+
+289
+00:17:01,870 --> 00:17:05,832
+我们很早就注意到，模型性能似乎会随着算力增加，
+We noticed early on that performance seemed to scale very smoothly
+
+290
+00:17:05,832 --> 00:17:08,835
+呈现非常平滑的提升。
+with compute.
+
+291
+00:17:10,420 --> 00:17:11,129
+我们当时的判断是，
+Our bet
+
+292
+00:17:11,129 --> 00:17:14,466
+既然有整个互联网那么丰富的信息，
+was there is a whole internet's worth of context.
+
+293
+00:17:15,008 --> 00:17:18,970
+如果模型规模不再构成限制，会怎么样？
+What if the limiting factor of model size just went away?
+
+294
+00:17:20,639 --> 00:17:23,975
+到了 2022 年、2023 年，我们有了聊天机器人。
+So in 2022 or 23, we had chatbots.
+
+295
+00:17:25,435 --> 00:17:27,771
+你可以请它介绍日本武士的历史，
+You could ask them for a history of the samurai, and
+
+296
+00:17:27,771 --> 00:17:30,774
+它会给你一篇短文。
+it would come back with a little essay.
+
+297
+00:17:31,691 --> 00:17:33,026
+到了 2024 年，
+In 2024,
+
+298
+00:17:33,026 --> 00:17:37,656
+模型可以编程了，但 Claude 处理难题时仍然吃力。
+coding becomes possible, but Claude still struggles on hard problems.
+
+299
+00:17:38,782 --> 00:17:43,495
+到了 2025 年，模型开始能完成一些令人意想不到的事情。
+In 2025, the models start to be able to do surprising things.
+
+300
+00:17:43,912 --> 00:17:46,039
+编程能力大幅提升。
+Coding gets much better.
+
+301
+00:17:46,039 --> 00:17:49,709
+Claude 甚至能玩电子游戏，虽然玩得很差。
+Claude can even play video games quite badly.
+
+302
+00:17:50,919 --> 00:17:52,838
+同一年，它在 OpenBSD 中发现了一个漏洞，
+This same year, it found a flaw
+
+303
+00:17:52,838 --> 00:17:56,716
+这个漏洞此前 27 年都无人察觉。
+in OpenBSD that had gone unnoticed for 27 years.
+
+304
+00:17:59,636 --> 00:18:02,639
+突然之间，它能够执行多步骤流程了，
+Suddenly it can do multi-step processes.
+
+305
+00:18:03,223 --> 00:18:05,976
+能够从事知识工作了。
+Knowledge work.
+
+306
+00:18:05,976 --> 00:18:10,230
+它为一家量子计算公司构建了激光锁定控制器，
+It builds a controller for laser locks at a quantum computer company,
+
+307
+00:18:10,480 --> 00:18:14,734
+这项任务过去需要一组博士花一周时间才能完成。
+a task that used to take a team of people with PhDs a week.
+
+308
+00:18:15,068 --> 00:18:17,821
+而它无需人工介入，
+And it does this without human intervention
+
+309
+00:18:17,821 --> 00:18:20,824
+一夜之间就完成了。
+overnight.
+
+310
+00:18:20,866 --> 00:18:21,825
+我们开始看到
+We start to see
+
+311
+00:18:21,825 --> 00:18:24,828
+Claude 在数学上作出基础性发现，
+Claude making fundamental discoveries in math,
+
+312
+00:18:25,036 --> 00:18:28,039
+投身生命科学的前沿研究。
+working at the frontier of life science.
+
+313
+00:18:28,540 --> 00:18:31,543
+这样的加速可能令人应接不暇，
+This acceleration can be disorienting,
+
+314
+00:18:32,210 --> 00:18:35,755
+但我们仍然觉得，自己才刚刚起步。
+but there's still this sense that we're just setting out.
+
+315
+00:18:35,839 --> 00:18:39,259
+这条指数曲线正向前上方延伸，
+That exponential curve stretches up ahead of us,
+
+316
+00:18:39,759 --> 00:18:42,762
+而这一切才刚刚开始。
+and it's only just begun.
+
+317
+00:18:46,600 --> 00:18:48,602
+要实现 Anthropic 的使命，
+Achieving Anthropic's mission requires
+
+318
+00:18:48,602 --> 00:18:52,189
+我们就必须保持在前沿，而保持前沿地位离不开算力。
+staying at the frontier and staying at the frontier depends on compute.
+
+319
+00:18:52,230 --> 00:18:54,691
+我们在这方面的思路，源于我
+Our approach here goes back to research that I did
+
+320
+00:18:54,691 --> 00:18:57,486
+和另外几位联合创始人对规模定律的研究。
+with several of my other co-founders on scaling laws.
+
+321
+00:18:57,486 --> 00:18:59,404
+我们发现，只要方法正确，
+We found that with the right recipe,
+
+322
+00:18:59,404 --> 00:19:03,200
+增加算力就能可靠且可预测地提升智能水平。
+more compute reliably and predictably yields more intelligence.
+
+323
+00:19:03,241 --> 00:19:06,870
+后来，我们发现还可以持续改进这套方法，
+Later, we found that it was possible to improve this recipe over time
+
+324
+00:19:06,953 --> 00:19:10,540
+用同样的物理算力获得更高的智能水平。
+to achieve more intelligence with the same amount of physical compute.
+
+325
+00:19:10,665 --> 00:19:14,419
+因此，2021 年创立 Anthropic 时，我们已经明确了两点：
+So by the time we started Anthropic in 2021, we knew two things:
+
+326
+00:19:14,628 --> 00:19:18,507
+第一，算力是业务的基础；第二，充分发挥
+one, compute is the foundation of the business, and two, getting the most
+
+327
+00:19:18,507 --> 00:19:22,552
+每一单位算力的价值，是打造越来越智能的模型的关键。
+out of every unit of compute is key to making increasingly intelligent models.
+
+328
+00:19:22,594 --> 00:19:26,097
+这就是我们如此重视效率的原因。我们也因此相信，
+That's why we're so focused on efficiency, and it's why we believe a dollar
+
+329
+00:19:26,097 --> 00:19:30,185
+在 Anthropic 投入一美元算力，
+比在其他任何前沿实验室都更有效。
+of compute at Anthropic goes further than a dollar at any other frontier lab.
+
+330
+00:19:30,268 --> 00:19:32,521
+我们通过两种方式建立了这一优势。
+We've achieved that advantage in two ways.
+
+331
+00:19:32,521 --> 00:19:33,939
+先说第一种：
+I'll start with the first.
+
+332
+00:19:33,939 --> 00:19:37,359
+我们拥有一套自主研发的芯片适配和部署方法。
+Our proprietary approach to bringing up and deploying silicon.
+
+333
+00:19:37,651 --> 00:19:41,613
+如今，我们在四大类芯片上训练 Claude 并提供服务。
+We train and serve Claude now across all four major chip families.
+
+334
+00:19:41,821 --> 00:19:45,492
+之所以能做到，是因为我们很早就做出了一个非主流的选择：
+That's only possible because early on, we made an unconventional bet
+
+335
+00:19:45,534 --> 00:19:47,577
+采用多芯片策略。
+on a multi chip strategy.
+
+336
+00:19:47,577 --> 00:19:51,206
+当时，很多人认为，让 AI 模型在不同芯片上运行，
+At the time, many people thought that running AI models on different chips
+
+337
+00:19:51,206 --> 00:19:52,749
+并不值得投入那么多精力。
+wasn't worth the effort.
+
+338
+00:19:52,749 --> 00:19:56,044
+每一种芯片都需要专门适配的软件栈和推理栈，
+Each chip needs its own tailored software stack and inference
+
+339
+00:19:56,044 --> 00:19:59,047
+而构建这些系统既昂贵又困难。
+stack, which is expensive and difficult to build.
+
+340
+00:19:59,089 --> 00:20:02,551
+如今，我们已经积累了多年经验，并且非常擅长这项工作。
+We've now been doing it for years, and we've gotten incredibly good at it.
+
+341
+00:20:02,842 --> 00:20:06,846
+这带来了两项关键优势。在算力供应紧张的市场中，
+This comes with two key advantages. In a supply-constrained compute market,
+
+342
+00:20:06,846 --> 00:20:08,473
+多芯片策略
+our multi-silicon strategy
+
+343
+00:20:08,473 --> 00:20:12,310
+让我们能够专注于最佳性价比，而不受供应商限制。
+allows us to focus on the best price performance regardless of the provider.
+
+344
+00:20:12,435 --> 00:20:15,438
+我们可以把每种芯片用在它最擅长的任务上。
+We can match each chip to the job that it's best at.
+
+345
+00:20:15,689 --> 00:20:18,441
+有的更适合训练，有的更适合推理。
+Some are better at training, some are better at inference.
+
+346
+00:20:18,441 --> 00:20:22,445
+借助多芯片策略，我们可以把来自不同
+Our multi-silicon chip strategy means we can treat all of our chips across
+
+347
+00:20:22,445 --> 00:20:27,409
+供应商、架构和地点的所有芯片，视为一个可灵活调配的算力池。
+providers, architectures and locations as one fungible pool of compute.
+
+348
+00:20:27,784 --> 00:20:30,787
+这也让我们非常擅长适配新芯片。
+This has also made us really good at bringing up new chips.
+
+349
+00:20:30,787 --> 00:20:32,247
+举个例子，今年
+As an example, this year
+
+350
+00:20:32,247 --> 00:20:36,293
+我们首次开始使用 AMD GPU。过去，
+we started working with AMD GPUs for the first time. In the past,
+
+351
+00:20:36,334 --> 00:20:40,088
+适配一个新的芯片平台，需要数十位工程师工作数月。
+bringing on a new chip platform took dozens of engineers months of work.
+
+352
+00:20:40,505 --> 00:20:42,716
+这一次，我们让 Mythos 来试一试。
+This time we had Mythos try it out.
+
+353
+00:20:42,716 --> 00:20:46,303
+结果只用了三天，它就让 Claude 在 AMD 芯片上运行起来，
+It got Claude running on AMD in just three days with basically
+
+354
+00:20:46,303 --> 00:20:47,846
+而且基本没有人工介入。
+no human intervention.
+
+355
+00:20:47,846 --> 00:20:50,974
+几乎 100% 的计算内核都由 Claude 移植或编写。
+Claude ported or wrote almost 100% of the kernels.
+
+356
+00:20:51,266 --> 00:20:54,603
+对于承载这些芯片的数据中心，我们也有独特的策略。
+We also have a distinct approach to the data centers that house our chips.
+
+357
+00:20:54,936 --> 00:20:57,772
+过去，我们以云服务的形式购买算力。
+Historically, we bought compute as a cloud service.
+
+358
+00:20:57,772 --> 00:21:00,442
+如今，我们增加了第二种方式：租用芯片，
+We've now added a second approach where we lease chips
+
+359
+00:21:00,442 --> 00:21:03,445
+并在专门为我们设计和建造的数据中心里运行。
+and run them in purpose built data centers designed for us.
+
+360
+00:21:03,570 --> 00:21:05,905
+我们称之为 Anthropic Direct。
+We call this Anthropic Direct.
+
+361
+00:21:05,905 --> 00:21:08,199
+这种方式给我们带来了几个优势。
+That approach has a couple advantages for us.
+
+362
+00:21:08,199 --> 00:21:11,119
+它有助于降低算力的总拥有成本，
+It helps to lower the total cost of ownership of compute,
+
+363
+00:21:11,119 --> 00:21:14,873
+也让我们可以将数据中心和芯片的投入承诺分开安排。
+and allows us to separate the commitment to data centers from the chips.
+
+364
+00:21:15,290 --> 00:21:18,627
+我们算力优势的第二个来源，是发现
+The second driver of our compute advantage is our rate of discovery
+
+365
+00:21:18,627 --> 00:21:20,086
+算力增效方法的速度。
+of compute multipliers.
+
+366
+00:21:20,086 --> 00:21:24,090
+我们关注的是总有效算力，它等于
+We focus on total effective compute, which is the multiplicative product
+
+367
+00:21:24,090 --> 00:21:27,844
+物理算力容量，乘以我们发现的算力增效倍数。
+of physical capacity, times the compute multipliers that we discover.
+
+368
+00:21:28,094 --> 00:21:32,307
+每发现一种增效方法，我们的总有效算力池就会扩大。
+Each one we discover makes our pool of total effective compute bigger.
+
+369
+00:21:32,474 --> 00:21:33,308
+例如，
+For example,
+
+370
+00:21:33,308 --> 00:21:37,020
+假设训练一个达到特定智能水平的模型，需要 100 单位算力。
+say you need 100 units of compute to train a model of a certain intelligence.
+
+371
+00:21:37,270 --> 00:21:40,815
+一种能让有效算力达到原来 4
+倍的方法，意味着只需 25 单位算力，
+A 4x compute multiplier means you can use 25 units of compute
+
+372
+00:21:40,815 --> 00:21:42,442
+就能训练出完全相同的模型。
+to train the exact same model.
+
+373
+00:21:42,442 --> 00:21:46,613
+或者，你可以用这 100 单位物理算力，
+训练出一个更智能的模型，
+Or you can use those 100 physical units to train an even more intelligent model
+
+374
+00:21:46,696 --> 00:21:49,699
+而过去训练这个模型需要 400 单位算力。
+that would have previously required 400 units.
+
+375
+00:21:49,699 --> 00:21:53,536
+这些算力增效方法为我们创造了难以复制的竞争优势。
+Compute multipliers create a competitive advantage for us that's hard to replicate.
+
+376
+00:21:53,536 --> 00:21:54,788
+它们能在彼此的基础上不断积累。
+They build on each other.
+
+377
+00:21:54,788 --> 00:21:55,997
+我们发现的每一种新的增效方法，
+Each new multiplier we
+
+378
+00:21:55,997 --> 00:21:59,918
+都会对之前的方法产生正面作用，它们可以叠加。
+discover has a positive effect on the multipliers before it. They stack.
+
+379
+00:21:59,959 --> 00:22:01,586
+我们相信，随着逐步接近递归式自我改进，
+We believe that this can accelerate
+
+380
+00:22:01,586 --> 00:22:04,589
+这一过程还能进一步加速。
+even further as we approach recursive self-improvement.
+
+381
+00:22:04,631 --> 00:22:08,176
+Claude 将能够完全自主地发现算力增效方法，
+Claude will be able to discover compute multipliers entirely by itself,
+
+382
+00:22:08,385 --> 00:22:11,888
+让这类方法的数量增长得越来越快。
+allowing the number of compute multipliers to grow faster and faster.
+
+383
+00:22:12,180 --> 00:22:14,557
+我们相信，明智的投资、
+We believe this combination of smart investments,
+
+384
+00:22:14,557 --> 00:22:17,560
+突破性的研究，以及 Claude 不断提升的能力相结合，
+breakthrough research, and the improving capabilities of Claude
+
+385
+00:22:17,602 --> 00:22:20,980
+已使 Anthropic 在前沿实验室中处于领先地位。
+have put Anthropic in a leading position among the frontier labs.
+
+386
+00:22:26,319 --> 00:22:27,237
+AI 是
+AI is
+
+387
+00:22:27,237 --> 00:22:31,199
+一项突破性创新，但唯有重塑业务，
+a breakthrough innovation, but only reinvention
+
+388
+00:22:31,199 --> 00:22:34,869
+才能实现 AI 所承诺的价值。
+is going to get the value that AI promises.
+
+389
+00:22:35,078 --> 00:22:38,665
+在埃森哲，我们的工作就是架起一座桥梁，将技术
+At Accenture, our job is to be the bridge between technology
+
+390
+00:22:38,665 --> 00:22:41,668
+转化为客户切实的成果。
+and real outcomes for our clients.
+
+391
+00:22:42,127 --> 00:22:45,463
+我很喜欢别人问我们是否在用 Claude，
+I love the question about, you know, are we using Claude
+
+392
+00:22:45,463 --> 00:22:49,759
+因为我们每天都有数万名工程师在使用它。
+because we have tens of thousands of engineers using it every day?
+
+393
+00:22:49,884 --> 00:22:53,221
+我们在整个软件开发生命周期中使用它，
+We use it across our entire software development lifecycle,
+
+394
+00:22:53,304 --> 00:22:54,723
+它让我们腾出了更多时间。
+and it frees up time.
+
+395
+00:22:54,723 --> 00:22:56,558
+它让我们推进得更快，
+It makes us go faster and
+
+396
+00:22:56,558 --> 00:23:00,770
+也让工程师有更多时间专注于解决客户的
+allows our engineers to spend more time focusing on solving our clients'
+
+397
+00:23:00,770 --> 00:23:04,566
+难题、主导决策和制定战略。
+challenges, leading decision making, and setting strategy.
+
+398
+00:23:05,316 --> 00:23:10,196
+我们为数千家客户抵御网络攻击，
+We defend thousands of our clients from cyber attacks,
+
+399
+00:23:10,196 --> 00:23:15,076
+并将 Claude Code 和 Claude 智能体软件开发工具包，
+and we've paired Claude Code and Claude's agent software development kit with
+
+400
+00:23:15,285 --> 00:23:19,998
+与用于保护客户的前沿平台 Cyber.AI 结合起来。
+Cyber.AI, our cutting-edge platform that we use to help protect our clients.
+
+401
+00:23:20,039 --> 00:23:21,958
+使用这套方案带来的成果之一是，
+Just one result of using this
+
+402
+00:23:21,958 --> 00:23:25,670
+过去需要数天的扫描，如今不到一小时就能完成。
+is that we can now do scans that used to take days in under an hour.
+
+403
+00:23:25,837 --> 00:23:30,842
+我们重视客户的成功与安全，也相信
+We are focused on our clients' success and safety, and our mindset
+
+404
+00:23:30,884 --> 00:23:35,805
+双方的合作能让客户更快获得实际价值。
+is that because of our partnership, our clients can get to value faster.
+
+405
+00:23:40,685 --> 00:23:43,062
+我们最初的判断是，智能
+The early bet we made was that intelligence
+
+406
+00:23:43,062 --> 00:23:46,107
+是企业能从 AI 中获得的最有价值的资产。
+was the highest value asset that a business could get from AI.
+
+407
+00:23:46,524 --> 00:23:49,903
+我们相信，前沿智能能解决最棘手的问题，
+We believe frontier intelligence solves the toughest problems,
+
+408
+00:23:49,944 --> 00:23:53,615
+因此也能带来最大的影响。
+and for that reason it drives the biggest impact.
+
+409
+00:23:53,907 --> 00:23:56,576
+AI 能力的提升并不是渐进的。
+AI capability doesn't improve gradually.
+
+410
+00:23:56,576 --> 00:24:00,622
+当模型跨过某个门槛，就会发生跃升，
+When models cross a certain threshold, there is a step change
+
+411
+00:24:00,747 --> 00:24:04,083
+让整类工作的完成方式都发生变化。
+and an entire category of work is done differently.
+
+412
+00:24:04,834 --> 00:24:07,712
+编程是我们最熟悉的例子。
+Coding is the example we're most familiar with.
+
+413
+00:24:07,712 --> 00:24:10,006
+这种变化的速度令人惊叹。
+The speed of the change is remarkable.
+
+414
+00:24:10,006 --> 00:24:13,259
+仅用一年，我们就从自动补全几行代码，
+We went from autocomplete a few lines of code
+
+415
+00:24:13,343 --> 00:24:17,222
+发展到让大批智能体全天候工作。
+to fleets of agents working around the clock in just a year.
+
+416
+00:24:17,347 --> 00:24:20,350
+对乐天这样的企业来说，这意味着
+For a company like Rakuten, this means they're shipping
+
+417
+00:24:20,350 --> 00:24:24,229
+他们推出新功能的速度是竞争对手的四到五倍。
+new features 4 to 5 times faster than their competitors.
+
+418
+00:24:24,687 --> 00:24:30,193
+编程之后是网络安全。借助 Mythos
+和 Glasswing 项目，Claude 帮助
+After coding came cyber, and with Mythos and Project Glasswing, Claude has helped
+
+419
+00:24:30,193 --> 00:24:34,739
+网络防御人员在全社会范围内发现并修补漏洞。
+cyber defenders identify and patch vulnerabilities at a societal scale.
+
+420
+00:24:35,198 --> 00:24:37,408
+以 Mozilla 为例。
+Consider a company like Mozilla.
+
+421
+00:24:37,408 --> 00:24:41,120
+过去，他们每次发布新版时会修复二十多个安全漏洞，
+In the past, they used to fix over 20 security bugs per release,
+
+422
+00:24:41,371 --> 00:24:46,167
+而借助 Mythos Preview，他们发现并修复了 271 个。
+and with Mythos Preview, they identified and fixed 271.
+
+423
+00:24:46,584 --> 00:24:48,962
+知识工作也在沿着类似的轨迹发展。
+Knowledge work is on a similar curve.
+
+424
+00:24:48,962 --> 00:24:52,173
+科学研究、投资分析、保险核保，
+Scientific research, investment analysis, underwriting
+
+425
+00:24:52,173 --> 00:24:55,385
+都是我们在各行各业观察到的典型例子。
+all great examples of what we're seeing across industries.
+
+426
+00:24:55,718 --> 00:25:00,807
+Claude 帮助 AIG 这样的保险公司将报价耗时缩短了 55%。
+Claude helped an insurer like AIG cut down time to quote by 55%.
+
+427
+00:25:00,932 --> 00:25:03,017
+在每个领域，我们先看到进步，
+In each domain, we see an improvement.
+
+428
+00:25:03,017 --> 00:25:07,856
+随后出现能力跃升，接着整类工作的速度都加快了。
+Then a step change, and then a whole category of work moves fast.
+
+429
+00:25:13,152 --> 00:25:15,280
+令人难以想象的是，
+It's hard to imagine
+
+430
+00:25:15,280 --> 00:25:18,241
+Anthropic 如此迅速地
+the speed with which that Anthropic
+
+431
+00:25:18,241 --> 00:25:21,244
+融入了 AIG 的内部业务。
+has become embedded inside of AIG.
+
+432
+00:25:21,536 --> 00:25:23,621
+它帮助我们的核保人员做得更好。
+It's helped us create better underwriters.
+
+433
+00:25:23,621 --> 00:25:27,917
+他们现在能更充分地发挥专业能力，因为我们可以
+We were able to use their skill set more frequently because we're able
+
+434
+00:25:27,917 --> 00:25:30,920
+提取投保申请信息，并将其整理成便于
+to pull the submission information, get it in a format where they can
+
+435
+00:25:30,962 --> 00:25:31,921
+开展核保的格式。
+then underwrite.
+
+436
+00:25:31,921 --> 00:25:36,092
+我们看到，他们做出决策的速度显著提升，
+We've seen a significant uptick in the speed with which they can make decisions,
+
+437
+00:25:36,175 --> 00:25:37,385
+这实际上意味着，
+which really means
+
+438
+00:25:37,385 --> 00:25:41,014
+我们能以更一致的方式处理更多投保申请。
+we're able to get to more submissions in a more consistent way.
+
+439
+00:25:41,180 --> 00:25:44,183
+对客户而言，我们能更快地作出回应。
+And for clients, we're able to respond faster.
+
+440
+00:25:45,393 --> 00:25:47,478
+我认为，Anthropic 和 Claude
+I think Anthropic and Claude together
+
+441
+00:25:47,478 --> 00:25:51,524
+与我们希望提供的价值非常一致，体现在安全性、
+have a very similar value proposition that we try and bring in terms of safety
+
+442
+00:25:51,524 --> 00:25:55,403
+韧性和技术能力上。我们也与监管机构密切沟通，
+and resilience and technical capability, and we communicate pretty closely
+
+443
+00:25:55,403 --> 00:26:00,158
+说明我们如何使用 AI，以及人的参与
+with the regulators on how we're using AI and how the human element
+
+444
+00:26:00,158 --> 00:26:02,869
+和人工监督为何如此重要。这对我们
+and the human oversight is obviously very important to us
+
+445
+00:26:02,869 --> 00:26:05,580
+和监管机构都很重要，也已融入整个流程。
+and to our regulators and is embedded in the process.
+
+446
+00:26:08,625 --> 00:26:10,418
+Anthropic 所做的一切，
+Everything Anthropic does,
+
+447
+00:26:10,418 --> 00:26:13,463
+从研究到产品，再到市场拓展，
+from research to product to go-to-market,
+
+448
+00:26:13,504 --> 00:26:16,799
+最终都体现在我们如何服务客户上。
+it all comes together in how we serve the customer.
+
+449
+00:26:17,091 --> 00:26:22,764
+如今，我们与《财富》美国 500 强中的众多企业，
+以及前十强全部企业，都有深度合作。
+Today, we have deep engagements across the Fortune 500 and all of the Fortune 10.
+
+450
+00:26:23,097 --> 00:26:27,727
+超过一半的《财富》美国 500
+强企业在我们这里的支出超过十万美元。
+More than 50% of the Fortune 500 spends more than $100K with us.
+
+451
+00:26:28,019 --> 00:26:31,648
+全球 2000 强中，也有超过 30% 的企业达到这一水平。
+And that's true for more than 30% of the Global 2000.
+
+452
+00:26:32,190 --> 00:26:35,109
+对于所有这些客户，我们相信自己仍处于
+With all of these customers, we believe we are still
+
+453
+00:26:35,109 --> 00:26:38,279
+一场将持续数十年的转型的早期阶段。
+in the early stages of a multi-decade transformation.
+
+454
+00:26:38,655 --> 00:26:41,866
+这些《财富》美国 500 强客户在我们这里的支出，
+On average, spending from these Fortune 500 customers
+
+455
+00:26:41,866 --> 00:26:44,911
+平均还不到其总支出的 0.1%。
+is less than 0.1% of their total expenses.
+
+456
+00:26:45,203 --> 00:26:49,958
+即便是前十名，也仍不到其总支出的 1%。
+Even among the top ten, it's still less than 1% of their total expense line.
+
+457
+00:26:50,333 --> 00:26:51,000
+我们来仔细看看
+Let's zoom
+
+458
+00:26:51,000 --> 00:26:55,546
+一个典型客户的发展过程，通常从单个应用场景开始。
+in on the journey of a typical customer, and it starts with a single use case.
+
+459
+00:26:55,838 --> 00:26:57,256
+往往是开发者和工程师
+Often that's Claude Code
+
+460
+00:26:57,256 --> 00:27:01,094
+先使用 Claude Code，然后很快扩展到相关岗位。
+for developers and engineers, and it soon expands to adjacent roles.
+
+461
+00:27:01,177 --> 00:27:04,639
+知识工作者开始用 Claude 完成价值最高的工作。
+Knowledge workers start using Claude for their highest value work.
+
+462
+00:27:04,639 --> 00:27:07,600
+接着，各个团队将更多业务流程自动化，
+Then teams automate more business processes
+
+463
+00:27:07,600 --> 00:27:10,353
+并把 AI 融入核心基础设施。
+and build AI into core infrastructure.
+
+464
+00:27:10,353 --> 00:27:15,066
+最终，他们将 Claude 融入全新的产品和服务。
+And ultimately they embed Claude into entirely new products and services.
+
+465
+00:27:15,233 --> 00:27:18,903
+这个过程发展得很快，因此我们的
+The process happens quickly, and that's why we see an unprecedented
+
+466
+00:27:18,903 --> 00:27:22,782
+净收入留存率达到了前所未有的约 900%。
+net revenue retention rate of approximately 900%.
+
+467
+00:27:23,074 --> 00:27:25,827
+让我兴奋的是，最有意思、
+What excites me is that the most interesting
+
+468
+00:27:25,827 --> 00:27:28,830
+最具变革性的应用场景还在前方。
+and transformative use cases are still ahead of us.
+
+469
+00:27:28,997 --> 00:27:33,084
+我们在编程和网络安全领域看到的一切，如今正开始出现在
+Everything we've seen in coding and cyber, we're now starting to see across
+
+470
+00:27:33,084 --> 00:27:37,672
+几乎每一种职能、每一家企业和每一个行业中。
+virtually every function, every company and every industry.
+
+471
+00:27:37,714 --> 00:27:41,676
+他们希望与 Anthropic 合作，因为他们相信我们会帮助他们
+And they want to partner with Anthropic because they trust we will help them
+
+472
+00:27:41,718 --> 00:27:45,221
+率先看见未来，让他们始终站在前沿，
+see the future first, that we will keep them on the frontier,
+
+473
+00:27:45,304 --> 00:27:47,598
+并帮助他们完成转型、取得成功。
+and that we will help them transform and win.
+
+474
+00:27:53,938 --> 00:27:54,647
+当 Claude 促成的发现
+Something
+
+475
+00:27:54,647 --> 00:27:59,986
+走进我们的现实世界，
+exciting happens when the discoveries unlocked by Claude move into our world,
+
+476
+00:28:00,403 --> 00:28:03,364
+甚至走向地球之外时，激动人心的事情就发生了。
+or even beyond it.
+
+477
+00:28:03,364 --> 00:28:05,074
+2025 年 12 月，
+In December 2025,
+
+478
+00:28:05,074 --> 00:28:08,286
+Claude 帮助规划了“毅力号”火星车的行驶路线。
+Claude helped plan the Perseverance rover's route on Mars.
+
+479
+00:28:09,412 --> 00:28:12,457
+它用火星车专用的标记语言编写了代码。
+It wrote the code in the rover's own markup language.
+
+480
+00:28:13,207 --> 00:28:16,502
+工程师在发送指令前检查了所有内容。
+Engineers checked everything before the commands went out.
+
+481
+00:28:17,045 --> 00:28:19,422
+行驶四百米。
+400m driven.
+
+482
+00:28:19,422 --> 00:28:22,425
+任务完成。
+Mission accomplished.
+
+483
+00:28:22,884 --> 00:28:25,720
+Claude 处理海量数据的能力，
+Claude's ability to process vast amounts of data
+
+484
+00:28:25,720 --> 00:28:28,931
+在 2026 年夏天再次得到展现。
+came to the fore again in the summer of 2026.
+
+485
+00:28:29,515 --> 00:28:33,311
+约 950 个 Claude 智能体花了 21 小时，
+About 950 Claude agents spent 21 hours
+
+486
+00:28:33,436 --> 00:28:36,773
+筛查了 19 亿个蛋白质簇。
+sifting 1.9 billion protein clusters.
+
+487
+00:28:36,981 --> 00:28:41,694
+其中一个发现了异常模式：一个含有类似
+CRISPR 重复序列阵列的系统。
+One spotted an unusual pattern: a system with a CRISPR-like repeat array.
+
+488
+00:28:42,153 --> 00:28:45,406
+我们的科学家随后在实验室验证了 Claude 的发现。
+Our scientists were able to check Claude's findings in the lab.
+
+489
+00:28:45,656 --> 00:28:49,077
+这个新阵列此前从未被发表过。这是一次真正的
+The new array had never been published before. A genuine
+
+490
+00:28:49,077 --> 00:28:52,080
+新发现。
+discovery.
+
+491
+00:28:54,457 --> 00:28:55,208
+快速理解新信息的能力，
+The ability
+
+492
+00:28:55,208 --> 00:28:59,879
+在资源紧缺的地方尤为重要。
+to quickly understand new information really matters where resources are thin.
+
+493
+00:29:02,048 --> 00:29:03,132
+2026 年 9 月，
+In September
+
+494
+00:29:03,132 --> 00:29:07,553
+刚果东部应对埃博拉疫情的团队，
+2026, teams responding to an Ebola outbreak in eastern Congo
+
+495
+00:29:07,678 --> 00:29:12,517
+能在不到一小时内处理完各地区的日报，
+were able to process each region's daily reports in under an hour,
+
+496
+00:29:13,226 --> 00:29:15,770
+从而更全面地掌握疫情，
+creating a better picture of the epidemic
+
+497
+00:29:15,770 --> 00:29:18,773
+并腾出更多时间照顾患者。
+and freeing up time for patient care.
+
+498
+00:29:20,066 --> 00:29:21,359
+影响现实世界的能力，
+The power to affect
+
+499
+00:29:21,359 --> 00:29:24,320
+让安全变得更加重要。
+the real world makes safety even more important.
+
+500
+00:29:24,904 --> 00:29:27,573
+因此，Claude 的完整生物学能力
+It's why Claude's full biology capabilities
+
+501
+00:29:27,573 --> 00:29:30,576
+只向经过我们核验的组织开放。
+go only to organizations we've verified.
+
+502
+00:29:32,537 --> 00:29:35,540
+这也是 Claude 拥有一套“宪法”的原因。
+And why Claude has a constitution.
+
+503
+00:29:36,040 --> 00:29:40,336
+它让 Claude 能在从未遇到过的情境中
+It equips it to make judgment calls in situations it has never encountered
+
+504
+00:29:40,336 --> 00:29:42,380
+作出判断。
+before.
+
+505
+00:29:42,380 --> 00:29:47,135
+也因此，我们在可解释性和对齐研究上投入了大量精力。
+And it's why we put so much energy into interpretability and alignment.
+
+506
+00:29:47,343 --> 00:29:51,681
+让 Claude 在人们反复依赖它的场景中，
+To keep Claude accountable in situations where people will rely on it
+
+507
+00:29:52,807 --> 00:29:53,808
+始终能够被监督和问责。
+again and again.
+
+508
+00:29:53,808 --> 00:29:56,435
+我们发现，安全并没有拖慢我们的脚步。
+We're finding safety doesn't hold us back.
+
+509
+00:29:56,435 --> 00:29:59,480
+事实上，正因为我们可以信任 Claude 的工作，
+In fact, it's because we can trust Claude's work
+
+510
+00:29:59,564 --> 00:30:03,109
+才得以将它的发现应用于现实世界，
+that we can take its discoveries and apply them in the real world
+
+511
+00:30:04,235 --> 00:30:07,238
+让所有人从中受益。
+in ways that will benefit everyone.
+
+512
+00:30:11,325 --> 00:30:14,370
+我们相信，AI 对全球经济的变革
+We believe the transformation of the global economy through
+
+513
+00:30:14,412 --> 00:30:17,540
+是历史上最大的经济机遇。
+AI is the greatest economic opportunity in history.
+
+514
+00:30:17,665 --> 00:30:20,376
+而 Anthropic 具备把握这一机遇的独特优势。
+And Anthropic is uniquely positioned to capture it.
+
+515
+00:30:20,376 --> 00:30:23,462
+我们在 AI 前沿领域占据领先地位，预计价值
+We have leadership at the frontier of AI, where we expect value
+
+516
+00:30:23,504 --> 00:30:26,507
+将更多地向这里集中。同时，我们强大的商业模式
+will differentially accrue, and the strength of our business model
+
+517
+00:30:26,549 --> 00:30:29,510
+使我们能够持续投入，推动技术前沿，
+allows us to keep investing to advance the frontier
+
+518
+00:30:29,510 --> 00:30:33,639
+并为客户创造更多价值，为股东带来优异回报。
+while delivering more value to customers and superior returns for our shareholders.
+
+519
+00:30:33,639 --> 00:30:36,642
+财务业绩是最有力的证明。
+The clearest evidence of that is our financial results.
+
+520
+00:30:36,684 --> 00:30:39,896
+第三季度，我们实现了近 170 亿美元
+In Q3, we earned nearly $17 billion
+
+521
+00:30:39,896 --> 00:30:43,065
+的营收，达到去年同期的十二倍。今年以来，
+of revenue, up 12 times year over year. And year to date,
+
+522
+00:30:43,107 --> 00:30:46,027
+我们的算力利润率达到 43%，
+we've delivered a compute margin of 43%,
+
+523
+00:30:46,027 --> 00:30:48,070
+毛利率达到 85%，
+gross margin of 85%,
+
+524
+00:30:48,070 --> 00:30:51,949
+调整后营业利润率达到 12%，自由现金流也为正。
+adjusted operating margin of 12% and positive free cash flow.
+
+525
+00:30:52,491 --> 00:30:55,328
+这些业绩来自我们在前沿领域的领先地位，
+These results come from our frontier leadership,
+
+526
+00:30:55,328 --> 00:30:58,456
+也使我们有能力大力投入，进一步扩大优势。
+and they give us the capacity to invest heavily to extend it.
+
+527
+00:30:58,456 --> 00:31:02,418
+因此，尽管我们的盈利能力强劲，我们仍在积极投资，
+So while our profitability is strong, we are in an aggressive investment
+
+528
+00:31:02,418 --> 00:31:05,546
+着眼于这项业务的长期发展。
+mode as we focus on building this business for the long term.
+
+529
+00:31:05,755 --> 00:31:09,133
+Anthropic 的商业模式有五个独特之处。
+There are five elements that differentiate Anthropic's business model.
+
+530
+00:31:09,175 --> 00:31:13,221
+第一，我们构建的模型能提供最有用的智能。
+First, we build models that deliver the most useful intelligence
+
+531
+00:31:13,346 --> 00:31:14,680
+随着我们不断推动技术前沿，
+as we've pushed the frontier.
+
+532
+00:31:14,680 --> 00:31:17,516
+客户找到了更多值得交给 Claude 的高价值工作，
+Our customers have found more valuable work for Claude.
+
+533
+00:31:17,516 --> 00:31:19,477
+我们的营收也随之增长。
+And our revenue growth has followed.
+
+534
+00:31:19,477 --> 00:31:21,479
+我们称之为“模型驱动的增长”。
+We call this model led growth.
+
+535
+00:31:21,479 --> 00:31:23,981
+业务的发展轨迹印证了这一点。
+The trajectory of our business demonstrates this.
+
+536
+00:31:23,981 --> 00:31:28,694
+季度营收从 2025 年第一季度的 3.76 亿美元，
+Quarterly revenue grew from $376 million in Q1 2025
+
+537
+00:31:29,070 --> 00:31:32,490
+增长至 2026 年第三季度的近 170 亿美元。
+to nearly $17 billion in Q3 of 2026.
+
+538
+00:31:32,865 --> 00:31:36,410
+与此同时，我们的模型在编程工作流
+This tracks significant increases in the capabilities of our models
+
+539
+00:31:36,410 --> 00:31:40,414
+和现实任务中的能力也大幅提升。
+in coding workflows and real world tasks.
+
+540
+00:31:40,748 --> 00:31:44,543
+站在技术前沿，能解锁新的应用场景和能力。
+Being at the frontier unlocks new use cases and capabilities.
+
+541
+00:31:44,585 --> 00:31:48,673
+这也让我们在大多数客户工作负载上逐步形成帕累托优势，
+It also moves us towards Pareto dominance across most customer workloads,
+
+542
+00:31:48,798 --> 00:31:52,969
+即在相同成本下，提供能力最强的模型。
+enabling us to deliver the most capable models at a given cost.
+
+543
+00:31:53,094 --> 00:31:56,055
+这是因为，更智能的模型效率也更高。
+That is because smarter models are more efficient.
+
+544
+00:31:56,055 --> 00:32:00,476
+它们完成任务所需的推理强度更低，因此消耗的 token 更少。
+They can complete tasks at lower effort levels, which use fewer tokens.
+
+545
+00:32:00,643 --> 00:32:04,814
+我们还将大型模型的前沿智能
+We also cascade the frontier intelligence from our larger models
+
+546
+00:32:04,897 --> 00:32:06,482
+传递给小型模型。
+into our smaller models.
+
+547
+00:32:06,482 --> 00:32:10,695
+因此，我们能全面满足成本、能力和速度方面的需求。
+So we address the full range of cost, capability and speed.
+
+548
+00:32:11,070 --> 00:32:13,781
+每一代模型都进一步推进了这一点。
+Each generation has pushed that further.
+
+549
+00:32:13,781 --> 00:32:16,701
+我们最近推出的 Claude 5.5 模型系列，
+Our recent Claude 5.5 family of models are a
+
+550
+00:32:16,701 --> 00:32:20,162
+能力显著超越了 Claude 5 系列，
+significant step up in capability from the Claude 5 family
+
+551
+00:32:20,204 --> 00:32:22,123
+而 Claude 5 系列才在几个月前发布。
+we released just a few months prior.
+
+552
+00:32:22,123 --> 00:32:25,334
+同时，完成每项任务的成本也大幅降低。
+They're also significantly cheaper on a cost per task basis.
+
+553
+00:32:25,459 --> 00:32:28,337
+这就是始终在技术前沿进行研发的力量。
+That is the power of building at the frontier.
+
+554
+00:32:28,337 --> 00:32:32,008
+我们相信，我们能以最低的成本提供价值最高的智能，
+We believe we deliver the highest value intelligence at the lowest cost,
+
+555
+00:32:32,133 --> 00:32:34,969
+从而高效服务整个市场。
+which means we can serve the entire market efficiently.
+
+556
+00:32:34,969 --> 00:32:38,931
+虽然我们在大多数基准测试中领先，但衡量成功的真正标准
+While we lead across most benchmarks, the true measure of our success
+
+557
+00:32:39,432 --> 00:32:40,599
+是我们的客户。
+is our customers.
+
+558
+00:32:40,599 --> 00:32:43,602
+这就引出了我们的第二项差异化优势。
+And that leads me to our second differentiator.
+
+559
+00:32:44,020 --> 00:32:46,981
+我们打造领先的平台和产品，
+We build the leading platform and products to make
+
+560
+00:32:46,981 --> 00:32:49,984
+让客户能够用上最前沿的智能。
+frontier intelligence accessible to our customers.
+
+561
+00:32:50,151 --> 00:32:53,654
+平台解决方案是我们业务的基础，
+Our platform solutions are the foundation of our business,
+
+562
+00:32:53,988 --> 00:32:57,700
+客户可以在我们的 API 和 SDK 之上开发产品、
+and there is significant opportunity for customers to build products
+
+563
+00:32:57,700 --> 00:33:01,412
+重新设计业务流程，这其中蕴藏着巨大的机会。
+and reimagine processes on top of our APIs and SDK.
+
+564
+00:33:01,829 --> 00:33:06,042
+与此同时，我们自己的产品已成为推动技术普及的重要力量。
+At the same time, our own products have become a key driver of diffusion.
+
+565
+00:33:06,208 --> 00:33:07,168
+例如，
+For example,
+
+566
+00:33:07,168 --> 00:33:11,714
+Claude Code 本质上是对模型能力指数级进步的一次押注。
+Claude Code was fundamentally a bet on the exponential in model progress.
+
+567
+00:33:11,839 --> 00:33:15,760
+将它交到客户手中，让我们能够抓住
+Getting it into the hands of our customers put us in a position to capitalize
+
+568
+00:33:15,760 --> 00:33:19,221
+智能体编程能力大幅提升带来的机会。
+on agentic coding capabilities as they dramatically improved.
+
+569
+00:33:19,430 --> 00:33:23,309
+我们在 Claude Cowork 上沿用了同样
+的做法；自去年发布研究预览版以来，
+We followed that same playbook with Claude Cowork, and its adoption
+
+570
+00:33:23,309 --> 00:33:26,312
+它的普及速度已经超过了
+has exceeded that of Claude Code at the equivalent point,
+
+571
+00:33:26,312 --> 00:33:28,522
+Claude Code 在发布后相同阶段的水平。
+following its own research preview last year.
+
+572
+00:33:28,522 --> 00:33:33,319
+我们的产品与平台相互配合，共同满足客户需求。
+Together, our products and platform enable us to serve the needs of our customers.
+
+573
+00:33:33,486 --> 00:33:37,656
+如今，大多数企业客户既使用我们的平台，
+Today, the majority of enterprise customers use both our platform
+
+574
+00:33:37,698 --> 00:33:42,536
+也使用至少一款产品；2025 年第四季度，这一比例还只有 30%。
+and at least one of our products, up from 30% in the fourth quarter of 2025.
+
+575
+00:33:42,703 --> 00:33:47,375
+随着内部使用 Claude 的范围扩大，我们的产品迭代也在加速。
+Our product velocity is also accelerating as we expand our internal use of Claude.
+
+576
+00:33:47,458 --> 00:33:51,295
+每位工程师日均贡献的代码量，
+The average daily volume of code contributed per engineer is up
+
+577
+00:33:51,295 --> 00:33:54,423
+已达到 2024 年平均水平的 45 倍，
+45x relative to the 2024 average,
+
+578
+00:33:54,423 --> 00:33:58,469
+这也体现在我们的发布成果中。2026 年前九个月，
+and that's showing up in our launches. In the first nine months of 2026,
+
+579
+00:33:58,594 --> 00:34:02,056
+我们推出了 250 项模型、产品和功能。
+we shipped 250 models, products and features.
+
+580
+00:34:02,348 --> 00:34:06,310
+Claude 提升效率的作用也不局限
+于工程团队，而是遍及整个公司。
+And Claude isn't just accelerating our engineering teams across the company.
+
+581
+00:34:06,435 --> 00:34:10,272
+2026 年 1 月至 9 月，员工对 Claude 的使用量
+Our employees' use of Claude grew more than 250 times
+
+582
+00:34:10,314 --> 00:34:13,317
+增长到原来的 250 多倍。
+between January and September of 2026.
+
+583
+00:34:13,359 --> 00:34:17,238
+这些因素共同解释了为何我们的人均营收
+Together, these help explain why our revenue per employee has grown
+
+584
+00:34:17,238 --> 00:34:22,076
+从 2025 年第三季度的 140 万美元增长到原来的 4.5 倍以上，
+more than 4.5x from $1.4 million in Q3 of 2025
+
+585
+00:34:22,201 --> 00:34:25,955
+在 2026 年第三季度达到逾 660 万美元。
+to over $6.6 million as of Q3 2026.
+
+586
+00:34:25,996 --> 00:34:30,668
+Anthropic 的第三项差异化优势，是极高的算力使用效率。
+Anthropic's third differentiator is that we are extremely efficient users of compute.
+
+587
+00:34:30,751 --> 00:34:34,755
+我们将所有算力视为一个可灵活调配的资源池，既服务客户，
+We treat our compute as one fungible pool that serves customers,
+
+588
+00:34:34,839 --> 00:34:38,092
+也用于训练模型，以及支持我们内部使用 Claude。
+trains our models and powers our own use of Claude.
+
+589
+00:34:38,217 --> 00:34:41,387
+我们专注于让每一单位算力发挥最大的价值。
+We are focused on getting the most out of every unit of compute.
+
+590
+00:34:42,138 --> 00:34:45,558
+这让我们在服务成本和再投资能力上拥有优势。
+This gives us a cost to serve and a reinvestment advantage.
+
+591
+00:34:45,850 --> 00:34:49,186
+正如 Tom 所说，这种效率来自两个方面。
+As Tom described, there are two drivers of this efficiency.
+
+592
+00:34:49,728 --> 00:34:53,107
+首先是多种芯片并用的策略，
+The first is our multi-silicon strategy, which lets us
+
+593
+00:34:53,107 --> 00:34:57,111
+让我们能够购买性价比最高的芯片，
+并将它们作为统一资源池灵活调配。
+buy the most price-performant chips and run them as a single fungible pool.
+
+594
+00:34:57,194 --> 00:35:01,824
+其次是持续叠加的算力增效，使我们的有效总算力
+The second is compounding compute multipliers, which have scaled our total
+
+595
+00:35:01,824 --> 00:35:05,744
+增长速度远超实际硬件容量的增长速度。
+effective compute significantly faster than our physical capacity.
+
+596
+00:35:06,287 --> 00:35:09,915
+过去六个季度的财务表现体现了这一点。
+You can see this in our financial results over the last six quarters.
+
+597
+00:35:09,999 --> 00:35:14,086
+营收增长到原来的 45 倍以上，而计算基础设施成本
+We grew revenue by more than 45x, while computing infrastructure costs
+
+598
+00:35:14,086 --> 00:35:17,423
+仅增长到原来的 10 倍，也就是说，
+grew only 10x, a more than 4x improvement
+
+599
+00:35:17,423 --> 00:35:20,426
+每一美元算力投入带来的营收提高
+到原来的 4 倍以上。今年以来，
+in revenue per dollar of compute. And year to date,
+
+600
+00:35:20,551 --> 00:35:23,679
+我们的毛利率已提升至 85% 以上，
+our gross margin has improved to over 85%,
+
+601
+00:35:23,929 --> 00:35:27,266
+而 2025 年同期为 29%。
+up from 29% in the same period of 2025.
+
+602
+00:35:27,349 --> 00:35:31,270
+我们把效率提升带来的收益视为可以调配的资本。
+We think of these efficiency gains as capital that we get to allocate.
+
+603
+00:35:31,479 --> 00:35:35,357
+有时，我们通过降价将这些收益让给客户，
+In some cases, we pass them along to customers by lowering prices,
+
+604
+00:35:35,399 --> 00:35:38,527
+推动 Claude 在客户组织中得到更广泛的应用。
+which drives diffusion of Claude across those customers.
+
+605
+00:35:38,736 --> 00:35:42,072
+有时，我们保留这部分利润，并将它重新投入
+In other cases, we retain the margin and reinvest it
+
+606
+00:35:42,072 --> 00:35:45,784
+更多算力，让这一优势不断累积。
+in additional compute, which is what makes this advantage compound.
+
+607
+00:35:45,910 --> 00:35:50,456
+下一项差异化优势，是我们始终专注于服务企业。
+The next differentiator is our relentless focus on building for enterprises.
+
+608
+00:35:50,748 --> 00:35:54,710
+我们很早就意识到，企业将成为 AI 最大、最优质的
+We had the early insight that enterprises would be the largest and best customers
+
+609
+00:35:54,710 --> 00:35:55,669
+客户群体。
+for AI.
+
+610
+00:35:55,669 --> 00:35:59,298
+自 2023 年第一季度开始商业化以来，
+We have focused on serving that market since our commercial launch
+
+611
+00:35:59,298 --> 00:36:02,885
+我们一直专注于服务这个市场，
+in the first quarter of 2023, and have seen rapid adoption
+
+612
+00:36:02,885 --> 00:36:05,888
+并看到了快速的普及。截至 2026 年第三季度，
+since. As of Q3 2026,
+
+613
+00:36:05,930 --> 00:36:09,725
+我们拥有超过 11,900 家企业客户，
+we had more than 11,900 enterprise customers, up
+
+614
+00:36:09,725 --> 00:36:11,810
+达到年初的近 8 倍。
+nearly 8x from the start of the year.
+
+615
+00:36:11,810 --> 00:36:15,105
+作为首家入驻三大云平台的前沿 AI 实验室，
+As the first frontier lab available on all three major clouds,
+
+616
+00:36:15,397 --> 00:36:18,359
+我们让企业能够在自己现有的环境中
+we allow enterprises to deploy Claude within the environments
+
+617
+00:36:18,359 --> 00:36:19,610
+部署 Claude，
+they already operate in,
+
+618
+00:36:19,610 --> 00:36:22,530
+同时，我们保持与最终客户的直接关系，
+and we maintain the direct relationship with the end customer,
+
+619
+00:36:22,530 --> 00:36:24,406
+包括掌握定价权。
+including control over pricing.
+
+620
+00:36:24,406 --> 00:36:27,535
+我们相信，这些合作使我们的市场拓展效率
+We believe these partnerships enable us to be far more efficient
+
+621
+00:36:27,535 --> 00:36:30,162
+远高于行业其他公司。
+in our go-to-market efforts than the rest of the industry.
+
+622
+00:36:30,162 --> 00:36:33,874
+事实上，我们所有非算力开支，包括销售、
+In fact, our entire non-compute expense base, including sales
+
+623
+00:36:33,874 --> 00:36:37,628
+营销人员及其他运营开支，
+and marketing personnel and other operating expenses, represents
+
+624
+00:36:37,628 --> 00:36:40,589
+占营收的比例，还低于企业软件公司
+a lower percentage of revenue than the median enterprise
+
+625
+00:36:40,589 --> 00:36:43,592
+仅销售与营销开支占营收比例的中位数。
+software company spends on sales and marketing alone.
+
+626
+00:36:43,592 --> 00:36:47,054
+我们预计将大力投入市场拓展，以支持业务增长，
+We expect to invest meaningfully in go-to-market to support our growth,
+
+627
+00:36:47,388 --> 00:36:51,267
+同时保持高效获客，并与客户共同成长。
+while remaining highly efficient in how we sell to and grow with our customers.
+
+628
+00:36:51,350 --> 00:36:54,520
+最后一项差异化优势，是不断扩大的市场机会。
+Our final differentiator is our expanding market opportunity.
+
+629
+00:36:55,229 --> 00:36:58,566
+我们相信，每个行业的每家公司，
+We believe every company, across every industry
+
+630
+00:36:58,774 --> 00:37:01,318
+都会被强大的 AI 所改变。
+will be transformed by powerful AI.
+
+631
+00:37:01,318 --> 00:37:03,737
+这一变革始于编程，正扩展至知识工作，
+It started with coding and is spreading to knowledge
+
+632
+00:37:03,737 --> 00:37:07,908
+这是一个规模达 40 万亿美元、我们才刚刚开始进入的市场。
+work, a $40 trillion market that we have just begun to penetrate.
+
+633
+00:37:08,325 --> 00:37:12,830
+我们的客户包括许多全球规模最大、业务最复杂的企业，
+We count many of the world's largest and most complex businesses as our customers,
+
+634
+00:37:13,038 --> 00:37:18,002
+其中有超过半数的《财富》美国 500 强，
+以及逾 30% 的福布斯全球企业 2000 强。
+including over 50% of the Fortune 500 and over 30% of the Global 2000.
+
+635
+00:37:18,043 --> 00:37:23,465
+正如 Paul 所说，我们的《财富》美国
+500 强客户在 Claude 上的支出
+And as Paul described, our Fortune 500 customers spend less than 0.1%
+
+636
+00:37:23,549 --> 00:37:27,761
+还不到其总支出的 0.1%。随着 AI 技术前沿不断推进，
+of their total expenses on Claude. As the frontier of AI advances,
+
+637
+00:37:28,012 --> 00:37:31,181
+我们预计它将开辟全新的业务领域。
+we expect it will open up entirely new lines of business.
+
+638
+00:37:31,348 --> 00:37:34,643
+这一进程已在网络安全领域开始，我们预计，
+This has started already with cybersecurity, and we expect it
+
+639
+00:37:34,643 --> 00:37:37,980
+未来几年还会扩展至生命科学和机器人领域。
+will extend to life sciences and robotics in the coming years.
+
+640
+00:37:38,230 --> 00:37:42,526
+鉴于我们看到的巨大机遇，以及业务的实力，
+Given the size of the opportunity we see and the strength of our business,
+
+641
+00:37:43,152 --> 00:37:46,739
+我们正在大力投资三个领域：算力、
+we are investing aggressively in three areas: compute,
+
+642
+00:37:47,323 --> 00:37:50,326
+客户价值，以及安全与对齐。
+customer value and safety and alignment.
+
+643
+00:37:50,492 --> 00:37:53,495
+算力是支撑增长的关键。
+Compute is a critical enabler of our growth.
+
+644
+00:37:53,537 --> 00:37:57,708
+它为研发提供动力，也让我们能够满足不断增长的客户需求。
+It powers our R&D and enables us to meet expanding customer demand.
+
+645
+00:37:57,958 --> 00:38:01,378
+考虑到我们看到的可观回报，未来几年，
+We plan to make significant investments in compute over the coming years,
+
+646
+00:38:01,462 --> 00:38:05,090
+我们计划对算力进行大量投资，其中既包括短期
+given the compelling returns we see. That includes both short-term
+
+647
+00:38:05,090 --> 00:38:09,595
+及多年期云服务协议，也包括直接租赁的数据中心和芯片。
+and multi-year cloud deals as well as data centers and chips we lease directly.
+
+648
+00:38:09,637 --> 00:38:12,931
+我们将后者称为 Anthropic Direct，预计未来几年，
+We call this last piece Anthropic Direct, and we expect
+
+649
+00:38:12,931 --> 00:38:16,226
+它在我们整体算力中的占比将不断提高。
+it will make up a growing share of our compute base over the coming years.
+
+650
+00:38:16,685 --> 00:38:19,688
+第二个投资领域是客户价值。
+Our second investment area is customer value.
+
+651
+00:38:19,813 --> 00:38:22,858
+我们始终全力确保客户
+We are maniacally focused on ensuring customers
+
+652
+00:38:22,858 --> 00:38:25,861
+从 Claude 的投入中获得最大的回报。
+get the strongest return from their spend on Claude.
+
+653
+00:38:25,986 --> 00:38:30,783
+为此，我们开发能力最强、充分对齐且实用的模型，
+We do this through developing the most capable, aligned and useful models
+
+654
+00:38:30,949 --> 00:38:34,578
+并在提高模型效率的同时，降低客户成本。
+and through reducing customer costs as we make our models more efficient.
+
+655
+00:38:34,662 --> 00:38:39,124
+例如，9 月推出的 Opus 5.5 在大幅提升
+For example, our Opus 5.5 model in September delivered substantial gains
+
+656
+00:38:39,124 --> 00:38:42,795
+模型能力的同时，将客户成本降低了 40%。
+in model capability and 40% lower customer costs.
+
+657
+00:38:42,878 --> 00:38:46,590
+此次降价没有影响我们的利润率，因为 Opus 5.5
+This reduction was margin neutral to us because Opus 5.5
+
+658
+00:38:46,632 --> 00:38:48,592
+的服务成本也大幅降低了。
+is significantly cheaper to serve.
+
+659
+00:38:48,592 --> 00:38:52,221
+虽然降低客户成本会让我们牺牲部分短期营收，
+While we sacrifice some near-term revenue when we reduce customer costs,
+
+660
+00:38:52,429 --> 00:38:55,808
+但根据我们的经验，很快就会出现营收增长的助力，
+in our experience, we quickly see a tailwind to revenue
+
+661
+00:38:55,891 --> 00:39:00,020
+因为智能成本下降，会推动 Claude
+的使用量和普及范围进一步扩大。
+as the lower cost of intelligence drives greater usage and diffusion of Claude.
+
+662
+00:39:00,396 --> 00:39:03,232
+第三个领域是安全与对齐。
+The third area is safety and alignment.
+
+663
+00:39:03,232 --> 00:39:06,068
+安全是 Anthropic 运营的核心，
+Safety is core to how we operate at Anthropic,
+
+664
+00:39:06,068 --> 00:39:09,113
+从公司成立之初，我们就一直在这一领域投入。
+and we've been investing here since the inception of the company.
+
+665
+00:39:09,196 --> 00:39:11,615
+随着模型能力快速提升，
+As model capabilities advance rapidly,
+
+666
+00:39:11,615 --> 00:39:14,743
+我们正进一步增加人员、流程建设
+we're investing even more in people, processes
+
+667
+00:39:14,743 --> 00:39:17,746
+和算力方面的投入，以支持安全与对齐工作。
+and compute to support our safety and alignment work.
+
+668
+00:39:17,830 --> 00:39:22,710
+总体而言，我们预计对安全的重视将持续带来商业优势，
+Taken together, we expect our focus on safety to remain a commercial advantage
+
+669
+00:39:22,876 --> 00:39:26,463
+因为客户和开发者需要值得信赖的模型与产品。
+because customers and developers want models and products they can trust.
+
+670
+00:39:26,588 --> 00:39:30,968
+我们在算力、客户价值以及安全与对齐方面的投资，
+The investments we're making in compute, customer value and safety and alignment
+
+671
+00:39:30,968 --> 00:39:35,097
+将长期增强业务实力、拓展发展机会。
+will strengthen our business and broaden our opportunity over the long term.
+
+672
+00:39:35,347 --> 00:39:40,102
+我们相信，Anthropic 能够实现超过
+35% 的调整后营业利润率。
+We believe Anthropic can deliver adjusted operating margins of more than 35%,
+
+673
+00:39:40,144 --> 00:39:43,689
+随着效率持续提升、Anthropic Direct
+with continued efficiency gains, a greater share of Anthropic
+
+674
+00:39:43,689 --> 00:39:47,359
+算力占比提高，以及更多算力转向推理，
+Direct capacity, and more of our compute shifting towards inference.
+
+675
+00:39:47,401 --> 00:39:50,404
+我们认为，算力与基础设施开支占营收的比例
+We see a path for compute and infrastructure expenses
+
+676
+00:39:50,404 --> 00:39:53,782
+有望逐步降至约 45% 至 50%。
+to trend towards approximately 45 to 50% of revenue.
+
+677
+00:39:54,366 --> 00:39:57,619
+其次，我们预计销售、营销及合作伙伴费用
+Second, we expect sales, marketing and partnership costs
+
+678
+00:39:57,619 --> 00:40:00,038
+将逐步达到营收的 7% 至 10%，
+to trend towards 7 to 10% of revenue,
+
+679
+00:40:00,038 --> 00:40:03,208
+因为随着规模扩大，支付给合作伙伴的费用占营收的比例会下降。
+as partner fees become a smaller share of revenue as we scale.
+
+680
+00:40:03,625 --> 00:40:07,296
+第三，我们预计人员及其他运营开支
+And third, we expect personnel and other operating expenses
+
+681
+00:40:07,296 --> 00:40:10,466
+合计将逐步达到营收的 7% 至 10%，
+combined to trend towards 7 to 10% of revenue,
+
+682
+00:40:10,549 --> 00:40:14,803
+因为 Claude 会提高团队效率，而我们也会高效扩充人员规模。
+as Claude makes our teams more productive and we grow headcount efficiently.
+
+683
+00:40:14,845 --> 00:40:18,098
+我们相信，我们拥有最出色的财务模式：领先的算力
+We believe we have the best financial model: leading compute
+
+684
+00:40:18,098 --> 00:40:21,643
+效率、高度汇聚的人才，以及一种企业文化，
+efficiency, the greatest concentration of talent, and a culture
+
+685
+00:40:21,643 --> 00:40:25,522
+让我们始终专注于最能为企业创造价值的领域。
+that keeps us focused on where we can add the most value to enterprises.
+
+686
+00:40:25,773 --> 00:40:30,194
+AI 对全球经济的变革，有望成为历史上最大的
+AI's transformation of the global economy has the potential to be the largest
+
+687
+00:40:30,194 --> 00:40:34,031
+经济机遇，而我们今天才刚刚起步。
+economic opportunity in history, and we are at the foothills of it today.
+
+688
+00:40:38,035 --> 00:40:39,411
+如果我们看看今天的这些疾病，
+You know, if today we look
+
+689
+00:40:39,411 --> 00:40:43,832
+比如癌症、阿尔茨海默病、心脏病，
+at things like cancer, Alzheimer's, heart disease,
+
+690
+00:40:44,249 --> 00:40:48,879
+以及精神疾病，我认为它们将成为历史，
+mental illness, these will be relics of the past
+
+691
+00:40:49,087 --> 00:40:52,049
+而且用不了十年。
+in, I think, less than a decade.
+
+692
+00:40:52,049 --> 00:40:55,636
+我相信，能够妥善应对风险的公司，
+And I believe that the company which gets the risks right
+
+693
+00:40:55,677 --> 00:40:59,848
+也将获得社会认可的经营资格，
+will also be the company that has the license to operate
+
+694
+00:40:59,848 --> 00:41:04,853
+赢得社会信任，让人们相信它能以正确的方式带来益处。
+that society trusts and society believes can build the benefits in the right way.
+
+695
+00:41:05,437 --> 00:41:09,733
+我认为，只要做对了，我们就能开创一个奇迹时代，
+I think if we do this right, we can create an age of miracles
+
+696
+00:41:09,733 --> 00:41:14,321
+让人类能够解决那些
+where humanity is able to solve problems
+
+697
+00:41:14,488 --> 00:41:17,699
+困扰我们数千年的问题。
+that have eluded us for millennia.
+
+698
+00:41:17,950 --> 00:41:21,495
+我们必须确保，对所有风险，
+We have to make sure that all the risks,
+
+699
+00:41:21,703 --> 00:41:24,706
+对这项技术所有可能出错的地方，
+all the ways that things can go wrong with this technology,
+
+700
+00:41:24,706 --> 00:41:27,876
+都进行十分审慎的处理，
+we very carefully address those risks
+
+701
+00:41:28,085 --> 00:41:32,005
+在带来益处的同时，也维持可持续经营的业务。
+as we bring the benefits, and as we have a viable business at the same time.
+
+702
+00:41:32,089 --> 00:41:36,218
+我邀请你们加入我们，共同踏上这段旅程的下一个阶段。
+And I invite you to join us on the next phase of this journey.
+

@@ -1,0 +1,707 @@
+[
+  {
+    "symbol": "NVDA",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:42.112345+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/NVDA_sec.json",
+    "company": "NVIDIA CORP",
+    "latest": [
+      {
+        "form": "4",
+        "filingDate": "2026-11-06",
+        "reportDate": "2026-11-04",
+        "accessionNumber": "0001197647-26-000013",
+        "primaryDocument": "xslF345X06/wk-form4_1793999520.xml",
+        "acceptanceDateTime": "2026-11-06T21:12:02.000Z"
+      },
+      {
+        "form": "4/A",
+        "filingDate": "2026-10-13",
+        "reportDate": "2026-09-09",
+        "accessionNumber": "0002152188-26-000007",
+        "primaryDocument": "xslF345X06/wk-form4a_1791925767.xml",
+        "acceptanceDateTime": "2026-10-13T21:09:29.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-09",
+        "reportDate": "2026-10-07",
+        "accessionNumber": "0001197647-26-000011",
+        "primaryDocument": "xslF345X06/wk-form4_1791579847.xml",
+        "acceptanceDateTime": "2026-10-09T21:04:09.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-23",
+        "reportDate": "2026-09-21",
+        "accessionNumber": "0001696841-26-000014",
+        "primaryDocument": "xslF345X06/wk-form4_1790196985.xml",
+        "acceptanceDateTime": "2026-09-23T20:56:28.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-22",
+        "reportDate": "2026-09-18",
+        "accessionNumber": "0001199039-26-000016",
+        "primaryDocument": "xslF345X06/wk-form4_1790110579.xml",
+        "acceptanceDateTime": "2026-09-22T20:56:23.000Z"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-09-21",
+        "reportDate": "",
+        "accessionNumber": "0001921094-26-001040",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "acceptanceDateTime": "2026-09-21T20:22:56.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "db787ea656392c0442099ee6498a978e5b0bfba2c14e47a68dda393ddaff0375"
+  },
+  {
+    "symbol": "GOOGL",
+    "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:42.106260+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/GOOGL_sec.json",
+    "company": "Alphabet Inc.",
+    "latest": [
+      {
+        "form": "13F-HR",
+        "filingDate": "2026-11-06",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001652044-26-000086",
+        "primaryDocument": "xslForm13F_X02/primary_doc.xml",
+        "acceptanceDateTime": "2026-11-05T23:21:46.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-05",
+        "reportDate": "2026-11-05",
+        "accessionNumber": "0001193125-26-449835",
+        "primaryDocument": "d174184d8k.htm",
+        "acceptanceDateTime": "2026-11-05T21:10:44.000Z"
+      },
+      {
+        "form": "424B2",
+        "filingDate": "2026-11-04",
+        "reportDate": "",
+        "accessionNumber": "0001193125-26-447343",
+        "primaryDocument": "d125079d424b2.htm",
+        "acceptanceDateTime": "2026-11-04T21:21:20.000Z"
+      },
+      {
+        "form": "FWP",
+        "filingDate": "2026-11-02",
+        "reportDate": "",
+        "accessionNumber": "0001193125-26-443857",
+        "primaryDocument": "d134038dfwp.htm",
+        "acceptanceDateTime": "2026-11-02T22:01:06.000Z"
+      },
+      {
+        "form": "424B5",
+        "filingDate": "2026-11-02",
+        "reportDate": "",
+        "accessionNumber": "0001193125-26-442515",
+        "primaryDocument": "d125079d424b5.htm",
+        "acceptanceDateTime": "2026-11-02T11:04:43.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-30",
+        "reportDate": "2026-10-29",
+        "accessionNumber": "0001193125-26-442116",
+        "primaryDocument": "xslF345X06/ownership.xml",
+        "acceptanceDateTime": "2026-10-30T23:07:58.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "679f595245e1405a6fc4930020991b0042b790c5b2a18cd5799b8aa47bd8be60"
+  },
+  {
+    "symbol": "SOFI",
+    "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:42.313050+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/SOFI_sec.json",
+    "company": "SoFi Technologies, Inc.",
+    "latest": [
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001818874-26-000070",
+        "primaryDocument": "sofi-20260930.htm",
+        "acceptanceDateTime": "2026-11-05T21:08:44.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-11-03",
+        "reportDate": "2026-10-19",
+        "accessionNumber": "0001460835-26-000004",
+        "primaryDocument": "xslF345X06/wk-form4_1793754228.xml",
+        "acceptanceDateTime": "2026-11-04T01:03:52.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-10-27",
+        "reportDate": "2026-10-27",
+        "accessionNumber": "0001818874-26-000065",
+        "primaryDocument": "sofi-20261027.htm",
+        "acceptanceDateTime": "2026-10-27T11:02:59.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-22",
+        "reportDate": "2026-10-20",
+        "accessionNumber": "0002032458-26-000030",
+        "primaryDocument": "xslF345X06/wk-form4_1792713041.xml",
+        "acceptanceDateTime": "2026-10-22T23:50:43.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-23",
+        "reportDate": "2026-09-21",
+        "accessionNumber": "0002032458-26-000028",
+        "primaryDocument": "xslF345X06/wk-form4_1790208724.xml",
+        "acceptanceDateTime": "2026-09-24T00:12:06.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-23",
+        "reportDate": "2026-09-21",
+        "accessionNumber": "0001934200-26-000011",
+        "primaryDocument": "xslF345X06/wk-form4_1790208644.xml",
+        "acceptanceDateTime": "2026-09-24T00:10:47.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "2cb0b87579ce953bdc6b27f3848d40d3255458c14bb684d6055efc363532f351"
+  },
+  {
+    "symbol": "NOW",
+    "url": "https://data.sec.gov/submissions/CIK0001373715.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:42.585339+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/NOW_sec.json",
+    "company": "ServiceNow, Inc.",
+    "latest": [
+      {
+        "form": "144",
+        "filingDate": "2026-11-09",
+        "reportDate": "",
+        "accessionNumber": "0001959173-26-007841",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "acceptanceDateTime": "2026-11-09T14:47:36.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-26",
+        "accessionNumber": "0001649609-26-000037",
+        "primaryDocument": "xslF345X06/wk-form4_1793235984.xml",
+        "acceptanceDateTime": "2026-10-29T01:06:27.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-26",
+        "accessionNumber": "0001334944-26-000036",
+        "primaryDocument": "xslF345X06/wk-form4_1793235977.xml",
+        "acceptanceDateTime": "2026-10-29T01:06:20.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-26",
+        "accessionNumber": "0001667422-26-000038",
+        "primaryDocument": "xslF345X06/wk-form4_1793235971.xml",
+        "acceptanceDateTime": "2026-10-29T01:06:14.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-26",
+        "accessionNumber": "0002103469-26-000014",
+        "primaryDocument": "xslF345X06/wk-form4_1793235965.xml",
+        "acceptanceDateTime": "2026-10-29T01:06:07.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-26",
+        "accessionNumber": "0001781064-26-000020",
+        "primaryDocument": "xslF345X06/wk-form4_1793235957.xml",
+        "acceptanceDateTime": "2026-10-29T01:06:01.000Z"
+      }
+    ],
+    "new": [
+      {
+        "form": "144",
+        "filingDate": "2026-11-09",
+        "reportDate": "",
+        "accessionNumber": "0001959173-26-007841",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "acceptanceDateTime": "2026-11-09T14:47:36.000Z"
+      }
+    ],
+    "sha256": "2a72b9ea111e2761e1125686c52e117722c8e1df07457e35fa18bd1f215aeb70"
+  },
+  {
+    "symbol": "CRM",
+    "url": "https://data.sec.gov/submissions/CIK0001108524.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:42.616052+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/CRM_sec.json",
+    "company": "Salesforce, Inc.",
+    "latest": [
+      {
+        "form": "S-8",
+        "filingDate": "2026-11-02",
+        "reportDate": "",
+        "accessionNumber": "0001108524-26-000233",
+        "primaryDocument": "forms-8xlistenlabsequitypl.htm",
+        "acceptanceDateTime": "2026-11-02T22:13:09.000Z"
+      },
+      {
+        "form": "S-8",
+        "filingDate": "2026-11-02",
+        "reportDate": "",
+        "accessionNumber": "0001108524-26-000232",
+        "primaryDocument": "forms-8xedcplan.htm",
+        "acceptanceDateTime": "2026-11-02T21:35:45.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-23",
+        "reportDate": "2026-10-22",
+        "accessionNumber": "0001108524-26-000227",
+        "primaryDocument": "xslF345X06/form4.xml",
+        "acceptanceDateTime": "2026-10-23T20:59:03.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-10-20",
+        "reportDate": "2026-10-20",
+        "accessionNumber": "0001193125-26-425881",
+        "primaryDocument": "d516983d8k.htm",
+        "acceptanceDateTime": "2026-10-20T13:16:53.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-23",
+        "reportDate": "2026-09-22",
+        "accessionNumber": "0001108524-26-000225",
+        "primaryDocument": "xslF345X06/form4.xml",
+        "acceptanceDateTime": "2026-09-23T23:45:09.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-23",
+        "reportDate": "2026-09-22",
+        "accessionNumber": "0001108524-26-000220",
+        "primaryDocument": "xslF345X06/form4.xml",
+        "acceptanceDateTime": "2026-09-23T22:37:13.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "92897c3ece78bcd7c42b1b94dcff01c701e8017118f491f83267b3baa4aac31b"
+  },
+  {
+    "symbol": "GEHC",
+    "url": "https://data.sec.gov/submissions/CIK0001932393.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:43.012788+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/GEHC_sec.json",
+    "company": "GE HealthCare Technologies Inc.",
+    "latest": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-05",
+        "reportDate": "2026-11-04",
+        "accessionNumber": "0001932393-26-000063",
+        "primaryDocument": "gehc-20261104.htm",
+        "acceptanceDateTime": "2026-11-05T13:45:16.000Z"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-11-04",
+        "reportDate": "",
+        "accessionNumber": "0001969223-26-001128",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "acceptanceDateTime": "2026-11-04T21:47:05.000Z"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001932393-26-000059",
+        "primaryDocument": "gehc-20260930.htm",
+        "acceptanceDateTime": "2026-10-28T10:26:29.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-10-28",
+        "reportDate": "2026-10-22",
+        "accessionNumber": "0001932393-26-000058",
+        "primaryDocument": "gehc-20261022.htm",
+        "acceptanceDateTime": "2026-10-28T10:25:23.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-09-22",
+        "reportDate": "2026-09-22",
+        "accessionNumber": "0001932393-26-000053",
+        "primaryDocument": "gehc-20260922.htm",
+        "acceptanceDateTime": "2026-09-22T20:07:33.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-09-16",
+        "reportDate": "2026-09-14",
+        "accessionNumber": "0001694002-26-000011",
+        "primaryDocument": "xslF345X06/wk-form4_1789596117.xml",
+        "acceptanceDateTime": "2026-09-16T22:01:59.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "faccbcd1900dc12f63c85d635516f38ffd45650689f2301307e202e244647292"
+  },
+  {
+    "symbol": "CGNX",
+    "url": "https://data.sec.gov/submissions/CIK0000851205.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:43.587776+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/CGNX_sec.json",
+    "company": "COGNEX CORP",
+    "latest": [
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "reportDate": "2026-10-04",
+        "accessionNumber": "0000851205-26-000082",
+        "primaryDocument": "cgnx-20261004.htm",
+        "acceptanceDateTime": "2026-11-05T11:32:38.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-04",
+        "reportDate": "2026-11-04",
+        "accessionNumber": "0000851205-26-000079",
+        "primaryDocument": "cgnx-20261104.htm",
+        "acceptanceDateTime": "2026-11-04T21:32:27.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-09-22",
+        "reportDate": "2026-09-22",
+        "accessionNumber": "0000851205-26-000071",
+        "primaryDocument": "cgnx-20260922.htm",
+        "acceptanceDateTime": "2026-09-22T11:01:30.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-08-12",
+        "reportDate": "2026-08-11",
+        "accessionNumber": "0002054688-26-000008",
+        "primaryDocument": "xslF345X06/edgardoc.xml",
+        "acceptanceDateTime": "2026-08-12T20:00:17.000Z"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-08-11",
+        "reportDate": "",
+        "accessionNumber": "0001950047-26-007967",
+        "primaryDocument": "xsl144X01/primary_doc.xml",
+        "acceptanceDateTime": "2026-08-11T20:31:36.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-08-11",
+        "reportDate": "2026-08-07",
+        "accessionNumber": "0002132179-26-000006",
+        "primaryDocument": "xslF345X06/edgardoc.xml",
+        "acceptanceDateTime": "2026-08-11T20:22:58.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "c264c66273fbb14fe2fb8fd15ffd68f467cedacfa1f4c10bf67d17b0e0e8ea0a"
+  },
+  {
+    "symbol": "BRK-B",
+    "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:43.618522+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/BRK-B_sec.json",
+    "company": "BERKSHIRE HATHAWAY INC",
+    "latest": [
+      {
+        "form": "424B5",
+        "filingDate": "2026-11-09",
+        "reportDate": "",
+        "accessionNumber": "0001193125-26-452592",
+        "primaryDocument": "d86634d424b5.htm",
+        "acceptanceDateTime": "2026-11-09T11:40:01.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-09",
+        "reportDate": "2026-11-07",
+        "accessionNumber": "0001193125-26-452530",
+        "primaryDocument": "brka-20261107.htm",
+        "acceptanceDateTime": "2026-11-09T11:10:14.000Z"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-09",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001193125-26-452412",
+        "primaryDocument": "brka-20260930.htm",
+        "acceptanceDateTime": "2026-11-09T11:01:15.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-11-03",
+        "reportDate": "2026-10-30",
+        "accessionNumber": "0001193125-26-445930",
+        "primaryDocument": "xslF345X06/ownership.xml",
+        "acceptanceDateTime": "2026-11-04T02:30:04.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-29",
+        "reportDate": "2026-10-27",
+        "accessionNumber": "0001193125-26-438090",
+        "primaryDocument": "xslF345X06/ownership.xml",
+        "acceptanceDateTime": "2026-10-29T21:21:38.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-23",
+        "reportDate": "2026-10-21",
+        "accessionNumber": "0001728451-26-000005",
+        "primaryDocument": "xslF345X06/primary_doc.xml",
+        "acceptanceDateTime": "2026-10-23T20:38:16.000Z"
+      }
+    ],
+    "new": [
+      {
+        "form": "424B5",
+        "filingDate": "2026-11-09",
+        "reportDate": "",
+        "accessionNumber": "0001193125-26-452592",
+        "primaryDocument": "d86634d424b5.htm",
+        "acceptanceDateTime": "2026-11-09T11:40:01.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-09",
+        "reportDate": "2026-11-07",
+        "accessionNumber": "0001193125-26-452530",
+        "primaryDocument": "brka-20261107.htm",
+        "acceptanceDateTime": "2026-11-09T11:10:14.000Z"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-09",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001193125-26-452412",
+        "primaryDocument": "brka-20260930.htm",
+        "acceptanceDateTime": "2026-11-09T11:01:15.000Z"
+      }
+    ],
+    "sha256": "0b1b210d706b1c29a542c5ba0305d79c155da106acf3a7c39c98bdb298175462"
+  },
+  {
+    "symbol": "RRX",
+    "url": "https://data.sec.gov/submissions/CIK0000082811.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:43.902173+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/RRX_sec.json",
+    "company": "REGAL REXNORD CORP",
+    "latest": [
+      {
+        "form": "SCHEDULE 13G/A",
+        "filingDate": "2026-11-05",
+        "reportDate": "",
+        "accessionNumber": "0000315066-26-002824",
+        "primaryDocument": "xslSCHEDULE_13G_X02/primary_doc.xml",
+        "acceptanceDateTime": "2026-11-05T18:24:32.000Z"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-03",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0000082811-26-000238",
+        "primaryDocument": "rbc-20260930.htm",
+        "acceptanceDateTime": "2026-11-03T20:46:58.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-03",
+        "reportDate": "2026-11-03",
+        "accessionNumber": "0000082811-26-000236",
+        "primaryDocument": "rrx-20261103.htm",
+        "acceptanceDateTime": "2026-11-03T13:14:48.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-16",
+        "reportDate": "2026-10-14",
+        "accessionNumber": "0001497495-26-000002",
+        "primaryDocument": "xslF345X06/wk-form4_1792184341.xml",
+        "acceptanceDateTime": "2026-10-16T20:59:04.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-16",
+        "reportDate": "2026-10-14",
+        "accessionNumber": "0001259543-26-000004",
+        "primaryDocument": "xslF345X06/wk-form4_1792184335.xml",
+        "acceptanceDateTime": "2026-10-16T20:58:57.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-16",
+        "reportDate": "2026-10-14",
+        "accessionNumber": "0001477291-26-000004",
+        "primaryDocument": "xslF345X06/wk-form4_1792184329.xml",
+        "acceptanceDateTime": "2026-10-16T20:58:52.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "aa0f3ebf998e70a60a0bf44f762c19df836416e70c673b4d54f5d0aca869c427"
+  },
+  {
+    "symbol": "ATS",
+    "url": "https://data.sec.gov/submissions/CIK0001394832.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:44.227004+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/ATS_sec.json",
+    "company": "ATS Corp /ATS",
+    "latest": [
+      {
+        "form": "6-K",
+        "filingDate": "2026-11-04",
+        "reportDate": "2026-09-27",
+        "accessionNumber": "0001394832-26-000028",
+        "primaryDocument": "form6k-fy27q2.htm",
+        "acceptanceDateTime": "2026-11-04T12:06:57.000Z"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-11-02",
+        "reportDate": "2026-09-27",
+        "accessionNumber": "0001394832-26-000026",
+        "primaryDocument": "a6k-2026x10x21xq2earningsc.htm",
+        "acceptanceDateTime": "2026-10-30T21:59:40.000Z"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-09-03",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001628280-26-060342",
+        "primaryDocument": "a2026-09x03xjefferiesindus.htm",
+        "acceptanceDateTime": "2026-09-03T18:59:43.000Z"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-08-11",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001628280-26-055583",
+        "primaryDocument": "a2026-08x11xreportofagmresa.htm",
+        "acceptanceDateTime": "2026-08-11T16:12:34.000Z"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-08-07",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001628280-26-054690",
+        "primaryDocument": "a2026-08x07xreportofagmres.htm",
+        "acceptanceDateTime": "2026-08-07T16:27:25.000Z"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-08-06",
+        "reportDate": "2026-06-28",
+        "accessionNumber": "0001394832-26-000023",
+        "primaryDocument": "form6k-fy27q1.htm",
+        "acceptanceDateTime": "2026-08-06T11:08:02.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "55764bf1808ca2c53a882fc913c451b8a16aea40dde8bbea1941b84443f95869"
+  },
+  {
+    "symbol": "EPAM",
+    "url": "https://data.sec.gov/submissions/CIK0001352010.json",
+    "status": "200",
+    "error": "",
+    "retrieved_at": "2026-11-09T23:38:44.479020+00:00",
+    "raw": "contexts/survey_sessions/us_market_daily/2026-11-10/company_raw/EPAM_sec.json",
+    "company": "EPAM Systems, Inc.",
+    "latest": [
+      {
+        "form": "S-3ASR",
+        "filingDate": "2026-11-05",
+        "reportDate": "",
+        "accessionNumber": "0001140361-26-042127",
+        "primaryDocument": "ny20083715x1_s3asr.htm",
+        "acceptanceDateTime": "2026-11-05T21:53:37.000Z"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-05",
+        "reportDate": "2026-09-30",
+        "accessionNumber": "0001352010-26-000052",
+        "primaryDocument": "epam-20260930.htm",
+        "acceptanceDateTime": "2026-11-05T21:01:44.000Z"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-05",
+        "reportDate": "2026-11-05",
+        "accessionNumber": "0001352010-26-000048",
+        "primaryDocument": "epam-20261104.htm",
+        "acceptanceDateTime": "2026-11-04T23:55:57.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-11-03",
+        "reportDate": "2026-10-31",
+        "accessionNumber": "0001703877-26-000006",
+        "primaryDocument": "xslF345X06/wk-form4_1793745369.xml",
+        "acceptanceDateTime": "2026-11-03T22:36:11.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-11-03",
+        "reportDate": "2026-10-31",
+        "accessionNumber": "0001732239-26-000008",
+        "primaryDocument": "xslF345X06/wk-form4_1793745343.xml",
+        "acceptanceDateTime": "2026-11-03T22:35:46.000Z"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-11-03",
+        "reportDate": "2026-10-31",
+        "accessionNumber": "0001538408-26-000008",
+        "primaryDocument": "xslF345X06/wk-form4_1793745310.xml",
+        "acceptanceDateTime": "2026-11-03T22:35:12.000Z"
+      }
+    ],
+    "new": [],
+    "sha256": "6d14c11ae7d87fd8877c2c7c036db097d0ff1d1b538504b07718fc40f8838c94"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-11-12T09:06:53.498408+08:00",
+  "window_start": "2026-11-11T09:00:00+08:00",
+  "window_end": "2026-11-12T09:00:00+08:00",
+  "message_count": 17,
+  "candidate_count": 17,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b6074aaf884b4b07e02175d207a2",
+      "source_time": "2026-11-11 14:39+08:00",
+      "sync_create_time": "1794379331586",
+      "content_sha256": "fce8565a60522da1d31783e25bb566922e05a51795f9940e2d077fc740130fbb",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者将这一段科技上涨判断为结构性反弹，并主张把历史极值附近视为一个参考范围。未公布科创50新买入线或本人配置比例。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b600b01fed138cf272344d238942",
+      "source_time": "2026-11-11 12:53+08:00",
+      "sync_create_time": "1794372851470",
+      "content_sha256": "9c602a93da7f2fff51b31f0d699968224b546b42dfcf17ee72f8ee43eb339963",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者强调给判断偏差留余地，通常更倾向于增减仓位，并未说明本期实际变动或完整仓位。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b60779cfa98a0de34e7df2bcd9a1",
+      "source_time": "2026-11-11 18:00+08:00",
+      "sync_create_time": "1794391331727",
+      "content_sha256": "0f4738c1c2a652880fec7783d9072311a05ae11ee6874351cc130625b7d73882",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者以腾讯为例，认为观察中概股时可参考历史低估区，短期情绪的优先级较低。所引9月分析未在本窗口取得，未采用具体极值。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "过滤成员内容、无关话题和重复判断。",
+  "coverage": "群同步作者观点，非原知识星球全文。"
+}

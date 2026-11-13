@@ -1,0 +1,70 @@
+[
+  {
+    "title": "NVDA治理核验｜盘后下跌不能替代调查结论",
+    "paragraphs": [
+      "北京时间11/12 07:33重新读取官网声明：目前可核的最新治理公告仍为11/10独立董事聘请Joon H. Kim及Wachtell, Lipton, Rosen & Katz开展独立调查。今天读取的是旧公告的现状核验，不是新发布的调查结果。",
+      "截至本次读取，官网未提供新的调查结论、收入/客户订单/利润或现金流影响量化。本次盘后价格变化应按各来源的实际时刻单列；不能从跌幅反推出已经证实的经营损失或唯一原因。",
+      "研究判断：治理不确定性仍在，尚不能据此机械下调盈利分母，也不能把盘后大跌认定为便宜。下一步等待正式调查进展、客户/管理层变化及财报对经营和现金流的披露。"
+    ],
+    "sources": [
+      {
+        "title": "NVIDIA独立董事11/10声明（11/12重新读取）",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+      },
+      {
+        "title": "NVIDIA官网新闻目录（本次读取范围）",
+        "url": "https://nvidianews.nvidia.com/"
+      }
+    ]
+  },
+  {
+    "title": "AI落地证伪｜CoreWeave扩展应用服务，旧算力仍有价值但续约不是现金利润",
+    "paragraphs": [
+      "11/11新事实：CoreWeave宣布托管PostgreSQL数据库正式可用，运行在客户CKS集群内，与训练/推理相邻，包含备份、故障切换和pgvector。公司披露了Advaita Bio客户案例，但未披露这项产品的收入、毛利或订单金额。它是基础设施公司向生产应用配套服务扩展的证据，不是已经创造新增盈利的证明。",
+      "本次新增研究是补读11/10电话会官方托管逐字稿，而非今天又发布一份财报。管理层称Q3旧Ampere/Hopper报价环比上升30%–50%，并称2027超过13万颗、2028另外约17万颗GPU到期可再签约。按当前价格，2027续约机会接近40亿美元年化收入，纳入2028批次合计接近100亿美元；CFO在问答明确这部分在现有已签收入积压之外。它不是已经签下的新订单，也不是当年确认收入，两个数字不能相加。",
+      "敏感性可复算：假设续约价格低于管理层当前价格25%，且仅兑现其容量机会的80%，40×0.75×0.80=24亿美元；含2028批次的100×0.75×0.80=60亿美元，均只是年化收入机会。这是压力假设，不是预测，也未扣电力、运维、维护/替换设备及其他成本。",
+      "现金辨别：管理层预计未来三个月约90亿美元预付款/押金，其中超过30亿对应设备债务已偿清的旧设施。这可改善融资压力，但只是未来收款展望，仍对应未来交付义务；设备没有新购置支出，不等于所有经营成本消失。把90亿预收、约40/100亿续约ARR或22.56亿Q3调整EBITDA直接当股东自由现金流都会高估确定性。",
+      "对原假说的修正：AI应用落地可能增大旧算力需求，基础设施公司也在进入生产应用服务；因此不能仅因infra竞争激烈就断定利润必然转移给应用层。反证同样强：数据库建立在开源PostgreSQL/CNPG之上，尚无独立利润证明；续约价格、客户兑现率、交付和融资仍决定回报。下一步核实际续约、预收到账及履约成本、分产品收入与维护资本开支。完整Q3 10-Q未取得，本次没有完成DCF或给出低估/安全买入价。"
+    ],
+    "sources": [
+      {
+        "title": "CoreWeave 11/11官方数据库发布",
+        "url": "https://www.coreweave.com/news/coreweave-database-launches-so-ai-teams-can-build-run-and-scale-production-applications-on-one-platform"
+      },
+      {
+        "title": "CoreWeave Q3官方托管电话会逐字稿，尤其第2–3、6、12页",
+        "url": "https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Transcript-_1_.pdf"
+      },
+      {
+        "title": "CoreWeave SEC申报清单（本次仍未见Q3 10-Q）",
+        "url": "https://data.sec.gov/submissions/CIK0001769628.json"
+      }
+    ]
+  },
+  {
+    "title": "公司核验范围与旧模型日期",
+    "paragraphs": [
+      "本次成功读取NVDA、GOOGL、SOFI、NOW、CRM、GEHC、CGNX、BRK.B、RRX、ATS、EPAM、CRWV的SEC recent各最近50项，未见申报日期11/11及之后的新文件。11/11为美国退伍军人节，SEC官方日历确认EDGAR不接收/处理/接受新申报，旧档可读；因此不能将此结果表述为这些公司没有新动态。",
+      "NVIDIA新闻页、11/10声明、BRK官方2026新闻目录、CoreWeave数据库原文及官方托管电话会PDF成功读取。Alphabet、SoFi、NOW、CRM、GEHC及CoreWeave季度IR页返回403，CGNX页面429；未绕过限制，不将这些范围说成完整核验成功。",
+      "本次不重置Google资本桥/TPU、SOFI信用资本、NOW/CRM/GEHC/CGNX条件估值的原模型日期；新股价不代表重估已经完成。EPAM 11/9签约的加速回购、BRK 11/9日元债初步文件没有本次新证据可确认最终交付/定价。"
+    ],
+    "sources": [
+      {
+        "title": "SEC EDGAR官方假日日历",
+        "url": "https://www.sec.gov/submit-filings/filer-support-resources/edgar-calendar"
+      },
+      {
+        "title": "BRK 2026官方新闻目录",
+        "url": "https://www.berkshirehathaway.com/news/2026news.html"
+      },
+      {
+        "title": "Google SEC近期申报",
+        "url": "https://data.sec.gov/submissions/CIK0001652044.json"
+      },
+      {
+        "title": "SoFi SEC近期申报",
+        "url": "https://data.sec.gov/submissions/CIK0001818874.json"
+      }
+    ]
+  }
+]

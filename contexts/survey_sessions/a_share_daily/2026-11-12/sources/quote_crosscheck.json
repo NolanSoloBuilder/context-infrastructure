@@ -1,0 +1,69 @@
+{
+  "asof": "2026-11-11",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "quote_time": "20261111161427",
+      "close": 3680.64,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "quote_time": "20261111161427",
+      "close": 2765.54,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "quote_time": "20261111161409",
+      "close": 4075.71,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "quote_time": "20261111161409",
+      "close": 1300.38,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "quote_time": "20261111161453",
+      "close": 2.882,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "quote_time": "20261111161453",
+      "close": 4.15,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "quote_time": "20261111161458",
+      "close": 1.375,
+      "consistent": true
+    }
+  ],
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3680.64,
+      "daily_pct": 0.46
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4075.71,
+      "daily_pct": 0.41
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1300.38,
+      "daily_pct": 2.8
+    }
+  ],
+  "independent_sources": [
+    "https://m.jrj.com.cn/madapter/finance/2026/11/11151659103604.shtml",
+    "https://finance.eastmoney.com/a/202611113928386357.html"
+  ],
+  "note": "腾讯历史和点价为同一提供方。主要指数另核金融界与东方财富收盘。"
+}

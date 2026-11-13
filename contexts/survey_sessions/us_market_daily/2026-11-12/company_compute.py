@@ -1,0 +1,92 @@
+"""2026-11-12 company research: transparent sensitivity, not a forecast/valuation."""
+import json
+from pathlib import Path
+from datetime import datetime, timezone
+
+OUT = Path(__file__).resolve().parent
+PDF = "https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Transcript-_1_.pdf"
+DATABASE = "https://www.coreweave.com/news/coreweave-database-launches-so-ai-teams-can-build-run-and-scale-production-applications-on-one-platform"
+NVDA = "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+CAL = "https://www.sec.gov/submit-filings/filer-support-resources/edgar-calendar"
+now = datetime.now(timezone.utc).isoformat()
+
+model = {
+    "asof_research": "2026-11-12", "reviewed_at": now,
+    "source_event_date": "2026-11-10", "source": PDF,
+    "units": "USD million; annualized revenue opportunity, not recognized revenue or cash flow",
+    "source_locations": {"renewal_pricing": "PDF page 3", "prepayments": "PDF pages 2, 6, 12", "renewal_backlog_exclusion": "PDF page 12 Q&A", "conditional_capex": "PDF pages 6-7"},
+    "management_inputs": {
+        "2027_gpus_coming_off_contract_more_than": 130000,
+        "2028_additional_gpus_coming_off_contract_approximately": 170000,
+        "2027_renewal_annualized_revenue_opportunity_approximately": 4000,
+        "2027_and_2028_cumulative_renewal_annualized_revenue_opportunity_approximately": 10000,
+        "next_three_months_expected_customer_prepayments_and_deposits_approximately": 9000,
+        "of_which_paid_off_existing_infrastructure_more_than": 3000,
+        "future_cash_not_received_as_of_source": True,
+    },
+    "formula": "management opportunity * renewal price relative to management current-price assumption * capacity successfully recontracted relative to assumed opportunity",
+    "illustrative_scenarios_not_forecasts": [],
+    "limitations": [
+        "The CFO states these opportunities are outside currently contracted revenue backlog. They are not signed incremental orders.",
+        "The 2028 figure includes 2027 renewals; do not sum 4000+10000 or treat either as full-calendar-year recognized revenue.",
+        "Use round 4000/10000 solely as approximations to management approaching/nearly statements.",
+        "Recontracting realization factor is a hypothetical fraction of management opportunity, not a disclosed GPU utilization estimate.",
+        "Existing installed equipment does not require purchase capex for this renewal opportunity; service opex, maintenance, replacement and future demand remain unknown.",
+        "Prepayments/deposits are cash timing with future service obligations, not profit or free cash flow.",
+        "No equity price, diluted-share denominator, DCF or margin-of-safety conclusion was calculated.",
+        "Full Q3 10-Q absent from the fresh SEC submissions list; no inference of delayed filing from Nov11 federal filing holiday.",
+    ]
+}
+for name, price, renewed in [("management current-price reference", 1.0, 1.0), ("price 25% below reference", 0.75, 1.0), ("price 25% below reference and 80% realization", 0.75, 0.8)]:
+    model["illustrative_scenarios_not_forecasts"].append({"name": name, "price_factor": price, "recontracting_realization_factor": renewed, "2027_annualized_revenue_opportunity": round(4000*price*renewed, 6), "2027_plus_2028_annualized_revenue_opportunity": round(10000*price*renewed, 6)})
+assert model["illustrative_scenarios_not_forecasts"][-1]["2027_annualized_revenue_opportunity"] == 2400
+assert model["illustrative_scenarios_not_forecasts"][-1]["2027_plus_2028_annualized_revenue_opportunity"] == 6000
+(OUT / "company_crwv_renewal_sensitivity.json").write_text(json.dumps(model, ensure_ascii=False, indent=2))
+
+nvda_section = {
+    "title": "NVDA治理核验｜盘后下跌不能替代调查结论",
+    "paragraphs": [
+        "北京时间11/12 07:33重新读取官网声明：目前可核的最新治理公告仍为11/10独立董事聘请Joon H. Kim及Wachtell, Lipton, Rosen & Katz开展独立调查。今天读取的是旧公告的现状核验，不是新发布的调查结果。",
+        "截至本次读取，官网未提供新的调查结论、收入/客户订单/利润或现金流影响量化。本次盘后价格变化应按各来源的实际时刻单列；不能从跌幅反推出已经证实的经营损失或唯一原因。",
+        "研究判断：治理不确定性仍在，尚不能据此机械下调盈利分母，也不能把盘后大跌认定为便宜。下一步等待正式调查进展、客户/管理层变化及财报对经营和现金流的披露。"
+    ],
+    "sources": [{"title": "NVIDIA独立董事11/10声明（11/12重新读取）", "url": NVDA}, {"title": "NVIDIA官网新闻目录（本次读取范围）", "url": "https://nvidianews.nvidia.com/"}]
+}
+crwv_section = {
+    "title": "AI落地证伪｜CoreWeave扩展应用服务，旧算力仍有价值但续约不是现金利润",
+    "paragraphs": [
+        "11/11新事实：CoreWeave宣布托管PostgreSQL数据库正式可用，运行在客户CKS集群内，与训练/推理相邻，包含备份、故障切换和pgvector。公司披露了Advaita Bio客户案例，但未披露这项产品的收入、毛利或订单金额。它是基础设施公司向生产应用配套服务扩展的证据，不是已经创造新增盈利的证明。",
+        "本次新增研究是补读11/10电话会官方托管逐字稿，而非今天又发布一份财报。管理层称Q3旧Ampere/Hopper报价环比上升30%–50%，并称2027超过13万颗、2028另外约17万颗GPU到期可再签约。按当前价格，2027续约机会接近40亿美元年化收入，纳入2028批次合计接近100亿美元；CFO在问答明确这部分在现有已签收入积压之外。它不是已经签下的新订单，也不是当年确认收入，两个数字不能相加。",
+        "敏感性可复算：假设续约价格低于管理层当前价格25%，且仅兑现其容量机会的80%，40×0.75×0.80=24亿美元；含2028批次的100×0.75×0.80=60亿美元，均只是年化收入机会。这是压力假设，不是预测，也未扣电力、运维、维护/替换设备及其他成本。",
+        "现金辨别：管理层预计未来三个月约90亿美元预付款/押金，其中超过30亿对应设备债务已偿清的旧设施。这可改善融资压力，但只是未来收款展望，仍对应未来交付义务；设备没有新购置支出，不等于所有经营成本消失。把90亿预收、约40/100亿续约ARR或22.56亿Q3调整EBITDA直接当股东自由现金流都会高估确定性。",
+        "对原假说的修正：AI应用落地可能增大旧算力需求，基础设施公司也在进入生产应用服务；因此不能仅因infra竞争激烈就断定利润必然转移给应用层。反证同样强：数据库建立在开源PostgreSQL/CNPG之上，尚无独立利润证明；续约价格、客户兑现率、交付和融资仍决定回报。下一步核实际续约、预收到账及履约成本、分产品收入与维护资本开支。完整Q3 10-Q未取得，本次没有完成DCF或给出低估/安全买入价。"
+    ],
+    "sources": [{"title": "CoreWeave 11/11官方数据库发布", "url": DATABASE}, {"title": "CoreWeave Q3官方托管电话会逐字稿，尤其第2–3、6、12页", "url": PDF}, {"title": "CoreWeave SEC申报清单（本次仍未见Q3 10-Q）", "url": "https://data.sec.gov/submissions/CIK0001769628.json"}]
+}
+coverage = {
+    "title": "公司核验范围与旧模型日期",
+    "paragraphs": [
+        "本次成功读取NVDA、GOOGL、SOFI、NOW、CRM、GEHC、CGNX、BRK.B、RRX、ATS、EPAM、CRWV的SEC recent各最近50项，未见申报日期11/11及之后的新文件。11/11为美国退伍军人节，SEC官方日历确认EDGAR不接收/处理/接受新申报，旧档可读；因此不能将此结果表述为这些公司没有新动态。",
+        "NVIDIA新闻页、11/10声明、BRK官方2026新闻目录、CoreWeave数据库原文及官方托管电话会PDF成功读取。Alphabet、SoFi、NOW、CRM、GEHC及CoreWeave季度IR页返回403，CGNX页面429；未绕过限制，不将这些范围说成完整核验成功。",
+        "本次不重置Google资本桥/TPU、SOFI信用资本、NOW/CRM/GEHC/CGNX条件估值的原模型日期；新股价不代表重估已经完成。EPAM 11/9签约的加速回购、BRK 11/9日元债初步文件没有本次新证据可确认最终交付/定价。"
+    ],
+    "sources": [{"title": "SEC EDGAR官方假日日历", "url": CAL}, {"title": "BRK 2026官方新闻目录", "url": "https://www.berkshirehathaway.com/news/2026news.html"}, {"title": "Google SEC近期申报", "url": "https://data.sec.gov/submissions/CIK0001652044.json"}, {"title": "SoFi SEC近期申报", "url": "https://data.sec.gov/submissions/CIK0001818874.json"}]
+}
+sections = [nvda_section, crwv_section, coverage]
+(OUT / "public_company_sections.json").write_text(json.dumps(sections, ensure_ascii=False, indent=2))
+item = {
+    "title": "应用落地不等于退出infra：CoreWeave新数据库与旧GPU续约提供反证",
+    "fact": "11/11 CoreWeave正式推出与训练/推理同集群的托管PostgreSQL数据库；本次补读11/10电话会，确认旧GPU 2027约40亿美元、含2028约100亿美元的续约年化收入只是当前价格下、现有backlog之外的机会。",
+    "implication": "生产应用增加状态存储与推理需求，基础设施平台可能同时捕获服务收入和延长旧设备价值；但产品未披露收入/毛利，续约机会不是已签收入。",
+    "judgment": "应把研究重心放在客户付费、续约价格和可分配现金，而非只按infra/应用标签切换。当前证据不足以称CRWV低估；没有完成全量DCF。",
+    "counter": "若续约价格降25%且兑现80%，2027年化机会从约40亿降至24亿美元；旧设备仍有运维和替换成本。新数据库依赖开源底座，尚无独立利润证据。",
+    "next": "核续约合同实际签订、预付款到账与履约成本、维护资本开支；取得Q3 10-Q后核合同集中、债务与稀释。",
+    "sources": crwv_section["sources"]
+}
+update = {"report_date": "2026-11-12", "market_session": "2026-11-11", "reviewed_at": now, "headline_candidates": [item], "nvda_status": nvda_section, "sections": sections, "model_file": "company_crwv_renewal_sensitivity.json", "source_manifest_files": ["company_raw/sec_scan.json", "company_raw/ir_manifest.json", "company_raw/extra_manifest.json", "company_raw/nvda_statement_meta.json", "company_raw/crwv_transcript_meta.json"], "scope": "Public company research only; no holdings/valuation completion assertions"}
+(OUT / "company_update.json").write_text(json.dumps(update, ensure_ascii=False, indent=2))
+lines = ["# 公司研究｜2026-11-12", "", f"复核时间：{now}；行情时段与价格由主流程单独核验。本次没有完整新估值。", ""]
+for s in sections:
+    lines += ["## "+s["title"], ""] + [p+"\n" for p in s["paragraphs"]] + ["；".join(f'[{x["title"]}]({x["url"]})' for x in s["sources"]), ""]
+(OUT / "company_update.md").write_text("\n".join(lines))
+print(json.dumps({"written": ["company_crwv_renewal_sensitivity.json", "company_update.json", "company_update.md", "public_company_sections.json"], "headlines": len(update["headline_candidates"]), "model_assertions": "passed"}, ensure_ascii=False))

@@ -1,0 +1,3512 @@
+[
+  {
+    "id": 1,
+    "time": "00:30.338 --> 00:31.381",
+    "en": "This is going to be"
+  },
+  {
+    "id": 2,
+    "time": "00:31.381 --> 00:34.967",
+    "en": "the most promising technology in human history."
+  },
+  {
+    "id": 3,
+    "time": "00:35.134 --> 00:40.473",
+    "en": "AI is capturing the essence of cognition. In 2024 and 2025,"
+  },
+  {
+    "id": 4,
+    "time": "00:40.598 --> 00:44.477",
+    "en": "coding became possible, and now we're starting to find that agents"
+  },
+  {
+    "id": 5,
+    "time": "00:44.477 --> 00:48.940",
+    "en": "that do things end to end in other areas of knowledge work are possible."
+  },
+  {
+    "id": 6,
+    "time": "00:49.065 --> 00:53.486",
+    "en": "And even more recently, we're starting to see that fundamental discoveries"
+  },
+  {
+    "id": 7,
+    "time": "00:53.486 --> 00:58.491",
+    "en": "in areas like biology and mathematics and physics are becoming possible."
+  },
+  {
+    "id": 8,
+    "time": "00:58.699 --> 01:03.204",
+    "en": "If humans can use AI to cure cancer, an evil"
+  },
+  {
+    "id": 9,
+    "time": "01:03.204 --> 01:07.083",
+    "en": "human can use AI to make a bioweapon or do a cyber attack,"
+  },
+  {
+    "id": 10,
+    "time": "01:07.542 --> 01:11.003",
+    "en": "we cannot succeed if we don't address these risks."
+  },
+  {
+    "id": 11,
+    "time": "01:11.087 --> 01:15.925",
+    "en": "And we are determined to get this right, because this is why I and this is why"
+  },
+  {
+    "id": 12,
+    "time": "01:15.967 --> 01:19.512",
+    "en": "many people who work at Anthropic, this is why we work on this technology."
+  },
+  {
+    "id": 13,
+    "time": "01:26.936 --> 01:29.856",
+    "en": "Intelligence is now something humans can build."
+  },
+  {
+    "id": 14,
+    "time": "01:29.856 --> 01:32.817",
+    "en": "The implications of this are profound."
+  },
+  {
+    "id": 15,
+    "time": "01:32.817 --> 01:36.654",
+    "en": "We believe it will make every person far more capable and expand the world's"
+  },
+  {
+    "id": 16,
+    "time": "01:36.654 --> 01:41.325",
+    "en": "capacity for cognitive work, transforming every industry and every discipline."
+  },
+  {
+    "id": 17,
+    "time": "01:41.325 --> 01:45.246",
+    "en": "This enormous economic impact begins with frontier intelligence,"
+  },
+  {
+    "id": 18,
+    "time": "01:45.496 --> 01:48.916",
+    "en": "with what Claude can do. In 2024,"
+  },
+  {
+    "id": 19,
+    "time": "01:49.000 --> 01:53.504",
+    "en": "Claude could answer a question, retrieve information, or summarize a document."
+  },
+  {
+    "id": 20,
+    "time": "01:53.546 --> 01:55.423",
+    "en": "By the end of 2025,"
+  },
+  {
+    "id": 21,
+    "time": "01:55.423 --> 01:58.176",
+    "en": "Claude could do deep research and multi-step projects"
+  },
+  {
+    "id": 22,
+    "time": "01:58.176 --> 02:00.595",
+    "en": "like refactoring an entire code base."
+  },
+  {
+    "id": 23,
+    "time": "02:00.595 --> 02:06.100",
+    "en": "The type of task that required hours or even days of human work. Today,"
+  },
+  {
+    "id": 24,
+    "time": "02:06.309 --> 02:09.687",
+    "en": "Claude can take on complex, open ended projects"
+  },
+  {
+    "id": 25,
+    "time": "02:09.687 --> 02:13.483",
+    "en": "that once took months or years of research, analysis"
+  },
+  {
+    "id": 26,
+    "time": "02:13.483 --> 02:17.570",
+    "en": "and execution by many people and complete them in days."
+  },
+  {
+    "id": 27,
+    "time": "02:17.904 --> 02:21.949",
+    "en": "In the near future, we see potential for frontier AI to drive"
+  },
+  {
+    "id": 28,
+    "time": "02:21.949 --> 02:26.829",
+    "en": "some of humanity's greatest breakthroughs and open entirely new markets."
+  },
+  {
+    "id": 29,
+    "time": "02:27.163 --> 02:31.209",
+    "en": "Our success thus far emerges from five core advantages."
+  },
+  {
+    "id": 30,
+    "time": "02:31.542 --> 02:34.962",
+    "en": "These are our mission and focus, talent and culture,"
+  },
+  {
+    "id": 31,
+    "time": "02:35.671 --> 02:38.049",
+    "en": "frontier research and safety work,"
+  },
+  {
+    "id": 32,
+    "time": "02:38.049 --> 02:41.010",
+    "en": "our approach to compute and our enterprise strategy."
+  },
+  {
+    "id": 33,
+    "time": "02:41.010 --> 02:43.346",
+    "en": "All of this begins with our mission."
+  },
+  {
+    "id": 34,
+    "time": "02:43.346 --> 02:46.432",
+    "en": "The responsible development and maintenance of advanced"
+  },
+  {
+    "id": 35,
+    "time": "02:46.432 --> 02:49.435",
+    "en": "AI for the long term benefit of humanity."
+  },
+  {
+    "id": 36,
+    "time": "02:49.685 --> 02:53.689",
+    "en": "It's an organizing force and key to our focused execution."
+  },
+  {
+    "id": 37,
+    "time": "02:53.773 --> 02:58.903",
+    "en": "We manage a universe of finite resources: compute, talent, and research capacity."
+  },
+  {
+    "id": 38,
+    "time": "02:59.153 --> 03:03.115",
+    "en": "The mission is how we create clarity for the team and deploy those resources"
+  },
+  {
+    "id": 39,
+    "time": "03:03.115 --> 03:07.745",
+    "en": "to maximum effect. At challenging moments that call for hard choices,"
+  },
+  {
+    "id": 40,
+    "time": "03:08.079 --> 03:10.414",
+    "en": "our mission sharpens our decision making."
+  },
+  {
+    "id": 41,
+    "time": "03:10.414 --> 03:14.377",
+    "en": "It led us to deploy models like Mythos exclusively to cyber defenders."
+  },
+  {
+    "id": 42,
+    "time": "03:14.544 --> 03:18.256",
+    "en": "It also led us to commit to keep Claude free of advertising."
+  },
+  {
+    "id": 43,
+    "time": "03:18.589 --> 03:23.010",
+    "en": "This mission and focus continue to attract the very best talent in the industry."
+  },
+  {
+    "id": 44,
+    "time": "03:23.302 --> 03:25.221",
+    "en": "That's been true since our founding."
+  },
+  {
+    "id": 45,
+    "time": "03:25.221 --> 03:28.266",
+    "en": "Our seven co-founders include the originators of ideas"
+  },
+  {
+    "id": 46,
+    "time": "03:28.266 --> 03:31.477",
+    "en": "that now make up the foundation of the AI industry."
+  },
+  {
+    "id": 47,
+    "time": "03:31.727 --> 03:36.607",
+    "en": "This concentration of top talent extends to all levels of the organization,"
+  },
+  {
+    "id": 48,
+    "time": "03:36.816 --> 03:40.820",
+    "en": "and we lead the industry in attracting and retaining the brightest"
+  },
+  {
+    "id": 49,
+    "time": "03:40.820 --> 03:41.821",
+    "en": "minds in the field."
+  },
+  {
+    "id": 50,
+    "time": "03:48.869 --> 03:51.080",
+    "en": "Why do I work at Anthropic?"
+  },
+  {
+    "id": 51,
+    "time": "03:51.080 --> 03:53.874",
+    "en": "Why do I? Why do I work at Anthropic? Why do I work at Anthropic?"
+  },
+  {
+    "id": 52,
+    "time": "03:53.874 --> 03:56.752",
+    "en": "Why do I work at Anthropic?"
+  },
+  {
+    "id": 53,
+    "time": "03:56.752 --> 03:59.463",
+    "en": "Because I'm an optimist."
+  },
+  {
+    "id": 54,
+    "time": "03:59.463 --> 04:01.799",
+    "en": "I want a safer, better world for my family"
+  },
+  {
+    "id": 55,
+    "time": "04:01.799 --> 04:04.802",
+    "en": "and for humanity."
+  },
+  {
+    "id": 56,
+    "time": "04:05.678 --> 04:06.387",
+    "en": "Three years"
+  },
+  {
+    "id": 57,
+    "time": "04:06.387 --> 04:09.432",
+    "en": "ago, my older brother died of a brain tumor"
+  },
+  {
+    "id": 58,
+    "time": "04:09.432 --> 04:12.810",
+    "en": "at the age of 42, which is the age that I am now."
+  },
+  {
+    "id": 59,
+    "time": "04:13.227 --> 04:17.815",
+    "en": "And I believe deeply that through our mission and this technology,"
+  },
+  {
+    "id": 60,
+    "time": "04:17.815 --> 04:21.152",
+    "en": "there will be a situation where people like my brother"
+  },
+  {
+    "id": 61,
+    "time": "04:21.193 --> 04:24.155",
+    "en": "don't have to die."
+  },
+  {
+    "id": 62,
+    "time": "04:24.155 --> 04:26.574",
+    "en": "Somebody has to carry the weight of getting this right."
+  },
+  {
+    "id": 63,
+    "time": "04:26.574 --> 04:29.577",
+    "en": "And I really didn't want to watch from the sidelines."
+  },
+  {
+    "id": 64,
+    "time": "04:30.911 --> 04:34.373",
+    "en": "People here ask, is this the right thing to do?"
+  },
+  {
+    "id": 65,
+    "time": "04:34.624 --> 04:36.876",
+    "en": "Before they ask, can we do it?"
+  },
+  {
+    "id": 66,
+    "time": "04:38.711 --> 04:39.503",
+    "en": "It's a rare"
+  },
+  {
+    "id": 67,
+    "time": "04:39.503 --> 04:44.091",
+    "en": "combination of a group of people who care deeply about making AI go well,"
+  },
+  {
+    "id": 68,
+    "time": "04:44.091 --> 04:47.511",
+    "en": "and also care deeply about competence,"
+  },
+  {
+    "id": 69,
+    "time": "04:47.678 --> 04:50.640",
+    "en": "coherence, integrity, qualities"
+  },
+  {
+    "id": 70,
+    "time": "04:50.640 --> 04:53.934",
+    "en": "that actually make an organization effective."
+  },
+  {
+    "id": 71,
+    "time": "04:54.518 --> 04:58.564",
+    "en": "These benefits and these risks, this light and this shade"
+  },
+  {
+    "id": 72,
+    "time": "04:58.731 --> 05:01.734",
+    "en": "was precisely why I chose to come work at Anthropic."
+  },
+  {
+    "id": 73,
+    "time": "05:06.614 --> 05:08.658",
+    "en": "The work we do to make our models safe"
+  },
+  {
+    "id": 74,
+    "time": "05:08.658 --> 05:12.161",
+    "en": "and reliable is the same work that makes them more capable."
+  },
+  {
+    "id": 75,
+    "time": "05:12.328 --> 05:16.707",
+    "en": "We care about useful intelligence, how effectively a model handles"
+  },
+  {
+    "id": 76,
+    "time": "05:16.707 --> 05:20.586",
+    "en": "a real world task, and the value this delivers to customers."
+  },
+  {
+    "id": 77,
+    "time": "05:20.795 --> 05:24.590",
+    "en": "We're relentlessly focused on answering the question, what can Claude"
+  },
+  {
+    "id": 78,
+    "time": "05:24.632 --> 05:27.635",
+    "en": "do for me that other models can't?"
+  },
+  {
+    "id": 79,
+    "time": "05:27.718 --> 05:31.055",
+    "en": "Compute is the critical infrastructure that enables this work."
+  },
+  {
+    "id": 80,
+    "time": "05:31.430 --> 05:34.934",
+    "en": "We've built a differentiated advantage here, not just in how we build"
+  },
+  {
+    "id": 81,
+    "time": "05:34.934 --> 05:36.143",
+    "en": "our compute capacity,"
+  },
+  {
+    "id": 82,
+    "time": "05:36.143 --> 05:38.354",
+    "en": "but in how we make the most of this capacity"
+  },
+  {
+    "id": 83,
+    "time": "05:38.354 --> 05:41.023",
+    "en": "through the discovery of compute multipliers."
+  },
+  {
+    "id": 84,
+    "time": "05:41.023 --> 05:42.024",
+    "en": "We are the leading"
+  },
+  {
+    "id": 85,
+    "time": "05:42.024 --> 05:45.653",
+    "en": "AI lab that has been focused on building for the enterprise from day one."
+  },
+  {
+    "id": 86,
+    "time": "05:45.778 --> 05:48.739",
+    "en": "We train our frontier models to address knowledge work."
+  },
+  {
+    "id": 87,
+    "time": "05:48.739 --> 05:52.952",
+    "en": "As a result, our customers get the best of both capability and value."
+  },
+  {
+    "id": 88,
+    "time": "05:53.577 --> 05:56.205",
+    "en": "These customers have enabled our historic growth"
+  },
+  {
+    "id": 89,
+    "time": "05:56.205 --> 06:00.418",
+    "en": "and they span industries across financial services, technology,"
+  },
+  {
+    "id": 90,
+    "time": "06:00.668 --> 06:04.839",
+    "en": "pharma, healthcare, government, manufacturing, and more."
+  },
+  {
+    "id": 91,
+    "time": "06:05.297 --> 06:08.801",
+    "en": "And this is also where our public benefit mission and safety focus"
+  },
+  {
+    "id": 92,
+    "time": "06:08.801 --> 06:12.012",
+    "en": "find natural alignment. Enterprises care that the frontier"
+  },
+  {
+    "id": 93,
+    "time": "06:12.012 --> 06:15.433",
+    "en": "is safe, trustworthy and useful as much as we do."
+  },
+  {
+    "id": 94,
+    "time": "06:15.599 --> 06:18.144",
+    "en": "As frontier intelligence grows more capable,"
+  },
+  {
+    "id": 95,
+    "time": "06:18.144 --> 06:22.314",
+    "en": "our dedicated focus on safety research becomes that much more important."
+  },
+  {
+    "id": 96,
+    "time": "06:22.565 --> 06:26.402",
+    "en": "It's critically important to our customers and necessary for realizing"
+  },
+  {
+    "id": 97,
+    "time": "06:26.444 --> 06:28.279",
+    "en": "AI's full potential."
+  },
+  {
+    "id": 98,
+    "time": "06:28.279 --> 06:31.449",
+    "en": "And Anthropic is fully committed to doing this work with excellence."
+  },
+  {
+    "id": 99,
+    "time": "06:31.615 --> 06:34.493",
+    "en": "Our public benefit mission is what brought us to this point,"
+  },
+  {
+    "id": 100,
+    "time": "06:34.493 --> 06:37.788",
+    "en": "and it will continue to shape our work, including at the governance level."
+  },
+  {
+    "id": 101,
+    "time": "06:37.997 --> 06:41.959",
+    "en": "In addition to our executive leadership and our board of directors, Anthropic"
+  },
+  {
+    "id": 102,
+    "time": "06:41.959 --> 06:45.212",
+    "en": "is advised by the Long-Term Benefit Trust, an independent,"
+  },
+  {
+    "id": 103,
+    "time": "06:45.212 --> 06:48.424",
+    "en": "financially disinterested body that selects a majority of our board."
+  },
+  {
+    "id": 104,
+    "time": "06:48.799 --> 06:52.386",
+    "en": "The LTBT's role is to help Anthropic plan for and fulfill"
+  },
+  {
+    "id": 105,
+    "time": "06:52.428 --> 06:54.430",
+    "en": "our public benefit mission as we grow."
+  },
+  {
+    "id": 106,
+    "time": "06:54.430 --> 06:58.642",
+    "en": "We believe AI's future should be shaped and led by democratic societies."
+  },
+  {
+    "id": 107,
+    "time": "06:58.851 --> 07:01.395",
+    "en": "We want to be good partners in helping governments"
+  },
+  {
+    "id": 108,
+    "time": "07:01.395 --> 07:04.648",
+    "en": "adapt to the changes that come with AI's rising capability."
+  },
+  {
+    "id": 109,
+    "time": "07:04.899 --> 07:08.194",
+    "en": "We do this at the executive level, through the work of our policy team"
+  },
+  {
+    "id": 110,
+    "time": "07:08.235 --> 07:11.238",
+    "en": "and through efforts like the Anthropic Institute, which shares"
+  },
+  {
+    "id": 111,
+    "time": "07:11.238 --> 07:14.450",
+    "en": "research on how frontier AI shapes how we live our lives."
+  },
+  {
+    "id": 112,
+    "time": "07:15.034 --> 07:18.913",
+    "en": "We are still early in what we believe will be the biggest transformation of the"
+  },
+  {
+    "id": 113,
+    "time": "07:18.913 --> 07:23.292",
+    "en": "human experience in the modern age, not just the profound economic potential,"
+  },
+  {
+    "id": 114,
+    "time": "07:23.584 --> 07:27.713",
+    "en": "but in all the ways in which we believe AI can help humanity flourish."
+  },
+  {
+    "id": 115,
+    "time": "07:28.255 --> 07:30.800",
+    "en": "From curing diseases to accelerating growth,"
+  },
+  {
+    "id": 116,
+    "time": "07:30.800 --> 07:33.761",
+    "en": "to helping people live more fulfilled and abundant lives."
+  },
+  {
+    "id": 117,
+    "time": "07:36.138 --> 07:38.599",
+    "en": "So if you think about our Claude model family,"
+  },
+  {
+    "id": 118,
+    "time": "07:38.599 --> 07:42.311",
+    "en": "it's designed to deliver value across all the goals you might have."
+  },
+  {
+    "id": 119,
+    "time": "07:42.478 --> 07:45.606",
+    "en": "Whether you're optimizing for cost or speed"
+  },
+  {
+    "id": 120,
+    "time": "07:45.606 --> 07:48.609",
+    "en": "or intelligence. At the top end,"
+  },
+  {
+    "id": 121,
+    "time": "07:48.734 --> 07:51.737",
+    "en": "Mythos and Fable push the frontier forward."
+  },
+  {
+    "id": 122,
+    "time": "07:51.779 --> 07:55.324",
+    "en": "We see customers use it to harden cyber infrastructure"
+  },
+  {
+    "id": 123,
+    "time": "07:55.366 --> 07:58.786",
+    "en": "or make new scientific discoveries. At the other end,"
+  },
+  {
+    "id": 124,
+    "time": "07:58.911 --> 08:02.957",
+    "en": "we have models that are extremely capable and highly cost effective,"
+  },
+  {
+    "id": 125,
+    "time": "08:03.123 --> 08:07.670",
+    "en": "and businesses can rely on them at scale for well-defined, routine tasks."
+  },
+  {
+    "id": 126,
+    "time": "08:07.962 --> 08:10.840",
+    "en": "A key thing we think about is how everyone"
+  },
+  {
+    "id": 127,
+    "time": "08:10.840 --> 08:13.801",
+    "en": "can get the benefit of that whole spectrum of models."
+  },
+  {
+    "id": 128,
+    "time": "08:13.843 --> 08:17.680",
+    "en": "Because even as model capability increases exponentially,"
+  },
+  {
+    "id": 129,
+    "time": "08:17.888 --> 08:21.600",
+    "en": "what most people do with the models doesn't change that fast."
+  },
+  {
+    "id": 130,
+    "time": "08:22.184 --> 08:25.187",
+    "en": "We think about three principles as we build."
+  },
+  {
+    "id": 131,
+    "time": "08:25.479 --> 08:28.440",
+    "en": "The first is meeting customers where they are."
+  },
+  {
+    "id": 132,
+    "time": "08:29.108 --> 08:31.235",
+    "en": "There's a few ways to use Claude."
+  },
+  {
+    "id": 133,
+    "time": "08:31.235 --> 08:34.280",
+    "en": "First is through our own applications, like Claude Code"
+  },
+  {
+    "id": 134,
+    "time": "08:34.280 --> 08:36.323",
+    "en": "or the Claude desktop or mobile app."
+  },
+  {
+    "id": 135,
+    "time": "08:36.323 --> 08:40.244",
+    "en": "But Claude is also available on enterprise applications like Word and Excel."
+  },
+  {
+    "id": 136,
+    "time": "08:40.661 --> 08:43.664",
+    "en": "We go deep into verticals and try to understand"
+  },
+  {
+    "id": 137,
+    "time": "08:43.873 --> 08:48.752",
+    "en": "what does an expert in this domain need to be successful immediately?"
+  },
+  {
+    "id": 138,
+    "time": "08:49.211 --> 08:52.882",
+    "en": "For instance, if you're a lawyer, we have a Claude for Legal bundle,"
+  },
+  {
+    "id": 139,
+    "time": "08:52.882 --> 08:55.885",
+    "en": "which connects directly to the tools you need."
+  },
+  {
+    "id": 140,
+    "time": "08:56.051 --> 08:59.889",
+    "en": "This is something we think about for every domain."
+  },
+  {
+    "id": 141,
+    "time": "09:00.264 --> 09:02.933",
+    "en": "We have bundles for healthcare, financial"
+  },
+  {
+    "id": 142,
+    "time": "09:02.933 --> 09:05.936",
+    "en": "services, life sciences, and more."
+  },
+  {
+    "id": 143,
+    "time": "09:06.020 --> 09:10.691",
+    "en": "Our second principle is that we build models and products side by side."
+  },
+  {
+    "id": 144,
+    "time": "09:10.816 --> 09:14.778",
+    "en": "We develop products for tomorrow's models, not just today's."
+  },
+  {
+    "id": 145,
+    "time": "09:15.195 --> 09:18.908",
+    "en": "Claude Code is a great illustration of why that matters."
+  },
+  {
+    "id": 146,
+    "time": "09:19.325 --> 09:22.828",
+    "en": "A couple of years ago, we could see that our prerelease"
+  },
+  {
+    "id": 147,
+    "time": "09:22.828 --> 09:25.831",
+    "en": "models were getting better at understanding code."
+  },
+  {
+    "id": 148,
+    "time": "09:25.873 --> 09:28.959",
+    "en": "Couldn't quite do it all yet, but we could see the trend line."
+  },
+  {
+    "id": 149,
+    "time": "09:29.335 --> 09:32.212",
+    "en": "We built a product around that thinking"
+  },
+  {
+    "id": 150,
+    "time": "09:32.212 --> 09:35.090",
+    "en": "and Claude Code was launched just a few months later."
+  },
+  {
+    "id": 151,
+    "time": "09:35.090 --> 09:39.053",
+    "en": "That introduced people to an entirely new way of coding,"
+  },
+  {
+    "id": 152,
+    "time": "09:39.386 --> 09:42.056",
+    "en": "and of understanding what AI can do."
+  },
+  {
+    "id": 153,
+    "time": "09:42.056 --> 09:47.186",
+    "en": "This flywheel between model and product is a durable advantage in how we build."
+  },
+  {
+    "id": 154,
+    "time": "09:47.394 --> 09:48.854",
+    "en": "The model gets better."
+  },
+  {
+    "id": 155,
+    "time": "09:48.854 --> 09:51.482",
+    "en": "We develop new features powered by those advancements."
+  },
+  {
+    "id": 156,
+    "time": "09:51.482 --> 09:53.651",
+    "en": "Then we train the models to get even better"
+  },
+  {
+    "id": 157,
+    "time": "09:53.651 --> 09:57.279",
+    "en": "at what people are trying to do, which reinforces the whole system."
+  },
+  {
+    "id": 158,
+    "time": "09:57.655 --> 10:00.199",
+    "en": "And we do that in coding and beyond."
+  },
+  {
+    "id": 159,
+    "time": "10:00.199 --> 10:01.951",
+    "en": "Our third principle is that we"
+  },
+  {
+    "id": 160,
+    "time": "10:01.951 --> 10:05.371",
+    "en": "close the gap between the frontier and customers day to day."
+  },
+  {
+    "id": 161,
+    "time": "10:05.871 --> 10:09.959",
+    "en": "Most people still think about their AI tools as a replacement for search"
+  },
+  {
+    "id": 162,
+    "time": "10:09.959 --> 10:13.170",
+    "en": "or a simple Q&A tool, and it can be those things."
+  },
+  {
+    "id": 163,
+    "time": "10:13.504 --> 10:17.049",
+    "en": "But that understates the power of what people can really do"
+  },
+  {
+    "id": 164,
+    "time": "10:17.091 --> 10:18.759",
+    "en": "with this intelligence."
+  },
+  {
+    "id": 165,
+    "time": "10:18.759 --> 10:23.639",
+    "en": "This is where product becomes a meaningful competitive differentiator."
+  },
+  {
+    "id": 166,
+    "time": "10:23.681 --> 10:27.768",
+    "en": "Without a strong product, the difference between growing intelligence"
+  },
+  {
+    "id": 167,
+    "time": "10:27.768 --> 10:30.813",
+    "en": "and where users are just keeps compounding."
+  },
+  {
+    "id": 168,
+    "time": "10:31.063 --> 10:35.192",
+    "en": "We think the future will involve making Claude feel as simple"
+  },
+  {
+    "id": 169,
+    "time": "10:35.192 --> 10:40.030",
+    "en": "and natural as possible, so people everywhere can just treat Claude"
+  },
+  {
+    "id": 170,
+    "time": "10:40.072 --> 10:44.618",
+    "en": "the same way you treat a colleague and get high quality output every time."
+  },
+  {
+    "id": 171,
+    "time": "10:44.910 --> 10:50.374",
+    "en": "We think these three principles are how we bring frontier intelligence to everyone."
+  },
+  {
+    "id": 172,
+    "time": "10:50.708 --> 10:54.712",
+    "en": "This is what we mean when we say we want to give people superpowers."
+  },
+  {
+    "id": 173,
+    "time": "10:54.920 --> 10:59.842",
+    "en": "Claude starts by helping you do what you need to better and faster."
+  },
+  {
+    "id": 174,
+    "time": "11:00.009 --> 11:01.218",
+    "en": "Then it takes on"
+  },
+  {
+    "id": 175,
+    "time": "11:01.218 --> 11:05.055",
+    "en": "the things you never would have tried because they were just too hard."
+  },
+  {
+    "id": 176,
+    "time": "11:05.264 --> 11:09.852",
+    "en": "And in the future, that means all of us doing what used to be impossible"
+  },
+  {
+    "id": 177,
+    "time": "11:10.227 --> 11:13.439",
+    "en": "so we can all live better, fuller lives."
+  },
+  {
+    "id": 178,
+    "time": "11:16.942 --> 11:19.236",
+    "en": "When we discovered scaling laws in AI,"
+  },
+  {
+    "id": 179,
+    "time": "11:19.236 --> 11:22.906",
+    "en": "we realized that AI capabilities could improve very fast."
+  },
+  {
+    "id": 180,
+    "time": "11:23.157 --> 11:26.994",
+    "en": "That's why we founded Anthropic to ensure that if AI became"
+  },
+  {
+    "id": 181,
+    "time": "11:26.994 --> 11:30.789",
+    "en": "a transformational technology, it would be safe and beneficial."
+  },
+  {
+    "id": 182,
+    "time": "11:30.873 --> 11:35.252",
+    "en": "Our fundamental bet is that AI would make tremendous progress this decade."
+  },
+  {
+    "id": 183,
+    "time": "11:35.377 --> 11:38.464",
+    "en": "These transformational capabilities are why research"
+  },
+  {
+    "id": 184,
+    "time": "11:38.464 --> 11:41.467",
+    "en": "and safety must advance together."
+  },
+  {
+    "id": 185,
+    "time": "11:41.467 --> 11:44.803",
+    "en": "It's the only way we'll realize the benefits of the technology."
+  },
+  {
+    "id": 186,
+    "time": "11:45.012 --> 11:49.850",
+    "en": "We assess our models across three dimensions: capability, efficiency,"
+  },
+  {
+    "id": 187,
+    "time": "11:50.100 --> 11:51.477",
+    "en": "and safety."
+  },
+  {
+    "id": 188,
+    "time": "11:51.477 --> 11:55.189",
+    "en": "We optimize our models to be able to plan and complete complex work"
+  },
+  {
+    "id": 189,
+    "time": "11:55.230 --> 11:58.525",
+    "en": "accurately, across hours and even days."
+  },
+  {
+    "id": 190,
+    "time": "11:59.068 --> 12:01.737",
+    "en": "A good example is Opus 5.5."
+  },
+  {
+    "id": 191,
+    "time": "12:01.737 --> 12:05.949",
+    "en": "One of our users was able to complete a 680K-line code migration"
+  },
+  {
+    "id": 192,
+    "time": "12:05.949 --> 12:06.950",
+    "en": "in less than a day."
+  },
+  {
+    "id": 193,
+    "time": "12:06.950 --> 12:10.287",
+    "en": "This would have taken an engineering team weeks just a few years ago."
+  },
+  {
+    "id": 194,
+    "time": "12:10.454 --> 12:14.708",
+    "en": "We think our models are the very best at this long horizon work where accuracy"
+  },
+  {
+    "id": 195,
+    "time": "12:14.708 --> 12:15.959",
+    "en": "really matters."
+  },
+  {
+    "id": 196,
+    "time": "12:15.959 --> 12:18.962",
+    "en": "The capability begins in the model training process."
+  },
+  {
+    "id": 197,
+    "time": "12:19.129 --> 12:23.342",
+    "en": "In the pre-training phase, a model learns from the totality of human knowledge."
+  },
+  {
+    "id": 198,
+    "time": "12:23.425 --> 12:24.051",
+    "en": "Text."
+  },
+  {
+    "id": 199,
+    "time": "12:24.051 --> 12:27.054",
+    "en": "Images, scientific papers, code."
+  },
+  {
+    "id": 200,
+    "time": "12:27.304 --> 12:29.807",
+    "en": "This phase is where it comes to understand"
+  },
+  {
+    "id": 201,
+    "time": "12:29.807 --> 12:32.810",
+    "en": "fundamental human concepts and ideas."
+  },
+  {
+    "id": 202,
+    "time": "12:33.185 --> 12:35.687",
+    "en": "The second phase is reinforcement learning."
+  },
+  {
+    "id": 203,
+    "time": "12:35.687 --> 12:38.690",
+    "en": "This is where Claude learns to be helpful, honest, and harmless."
+  },
+  {
+    "id": 204,
+    "time": "12:38.857 --> 12:41.819",
+    "en": "It's where we draw out useful capabilities"
+  },
+  {
+    "id": 205,
+    "time": "12:41.819 --> 12:44.738",
+    "en": "in coding, knowledge work, and science."
+  },
+  {
+    "id": 206,
+    "time": "12:44.738 --> 12:48.200",
+    "en": "As models have moved from conversational assistance to autonomous agents,"
+  },
+  {
+    "id": 207,
+    "time": "12:48.242 --> 12:49.827",
+    "en": "reinforcement learning has evolved"
+  },
+  {
+    "id": 208,
+    "time": "12:49.827 --> 12:52.913",
+    "en": "into one of the largest areas of research investment."
+  },
+  {
+    "id": 209,
+    "time": "12:53.080 --> 12:55.457",
+    "en": "One that really matters to our customers."
+  },
+  {
+    "id": 210,
+    "time": "12:55.457 --> 12:58.127",
+    "en": "In 2021, I wrote an internal memo"
+  },
+  {
+    "id": 211,
+    "time": "12:58.127 --> 13:03.215",
+    "en": "outlining how our most likely product might be an aligned AI programmer."
+  },
+  {
+    "id": 212,
+    "time": "13:03.340 --> 13:07.010",
+    "en": "I wrote a lot of other things too, but this one turned out to be pretty accurate."
+  },
+  {
+    "id": 213,
+    "time": "13:07.094 --> 13:10.347",
+    "en": "Claude's training process is integral to Anthropic's mission."
+  },
+  {
+    "id": 214,
+    "time": "13:10.514 --> 13:13.433",
+    "en": "We need to understand how to train frontier intelligence"
+  },
+  {
+    "id": 215,
+    "time": "13:13.433 --> 13:14.768",
+    "en": "and how to make it safe."
+  },
+  {
+    "id": 216,
+    "time": "13:14.768 --> 13:17.271",
+    "en": "And this is how we deliver the benefits of AI."
+  },
+  {
+    "id": 217,
+    "time": "13:24.361 --> 13:25.487",
+    "en": "We think that AI"
+  },
+  {
+    "id": 218,
+    "time": "13:25.487 --> 13:29.616",
+    "en": "will help us reduce the time to do a clinical trial by 20 to 30%."
+  },
+  {
+    "id": 219,
+    "time": "13:29.658 --> 13:33.787",
+    "en": "If you get a drug to market 2 or 3 years sooner, those are either cures"
+  },
+  {
+    "id": 220,
+    "time": "13:33.871 --> 13:37.666",
+    "en": "or treatments that patients that actually don't have solutions can have sooner."
+  },
+  {
+    "id": 221,
+    "time": "13:37.749 --> 13:40.127",
+    "en": "So we think it's actually a huge win for patients."
+  },
+  {
+    "id": 222,
+    "time": "13:40.127 --> 13:43.130",
+    "en": "And it's also a huge win for BMS."
+  },
+  {
+    "id": 223,
+    "time": "13:43.380 --> 13:45.340",
+    "en": "We chose Anthropic for a couple of reasons."
+  },
+  {
+    "id": 224,
+    "time": "13:45.340 --> 13:48.177",
+    "en": "One is they had the most mature enterprise capabilities."
+  },
+  {
+    "id": 225,
+    "time": "13:48.177 --> 13:51.180",
+    "en": "So it's one thing to have a chatbot that you can use."
+  },
+  {
+    "id": 226,
+    "time": "13:51.180 --> 13:54.099",
+    "en": "It's a whole different thing to actually put it in an environment"
+  },
+  {
+    "id": 227,
+    "time": "13:54.099 --> 13:56.143",
+    "en": "where you're giving it access to some of the company's"
+  },
+  {
+    "id": 228,
+    "time": "13:56.143 --> 14:00.397",
+    "en": "most confidential information, and you're able to do observability,"
+  },
+  {
+    "id": 229,
+    "time": "14:00.731 --> 14:04.902",
+    "en": "manage the security, manage what the fine tune controls of what you give users."
+  },
+  {
+    "id": 230,
+    "time": "14:04.902 --> 14:07.362",
+    "en": "So there's like the enterprise controls that you'd often"
+  },
+  {
+    "id": 231,
+    "time": "14:07.362 --> 14:10.365",
+    "en": "see that IT organizations really value a lot."
+  },
+  {
+    "id": 232,
+    "time": "14:10.449 --> 14:13.452",
+    "en": "We rolled it out across all 30,000 of our employees."
+  },
+  {
+    "id": 233,
+    "time": "14:13.744 --> 14:14.953",
+    "en": "This is the fastest,"
+  },
+  {
+    "id": 234,
+    "time": "14:14.953 --> 14:19.249",
+    "en": "most well adopted AI tool in the history of what we rolled out."
+  },
+  {
+    "id": 235,
+    "time": "14:19.333 --> 14:22.377",
+    "en": "So now you can ask a very, very complicated question"
+  },
+  {
+    "id": 236,
+    "time": "14:22.544 --> 14:23.545",
+    "en": "and it will go through."
+  },
+  {
+    "id": 237,
+    "time": "14:23.545 --> 14:27.132",
+    "en": "It will figure out which database or databases, because it can actually"
+  },
+  {
+    "id": 238,
+    "time": "14:27.132 --> 14:30.135",
+    "en": "cross those databases, can be queried."
+  },
+  {
+    "id": 239,
+    "time": "14:30.219 --> 14:31.553",
+    "en": "And then it will produce a report"
+  },
+  {
+    "id": 240,
+    "time": "14:31.553 --> 14:34.890",
+    "en": "that actually has the context of the epidemiology built right into it."
+  },
+  {
+    "id": 241,
+    "time": "14:35.015 --> 14:39.353",
+    "en": "So that takes you from what would have typically taken 1 to 2 months"
+  },
+  {
+    "id": 242,
+    "time": "14:39.353 --> 14:44.066",
+    "en": "to get a simple question answered, to being able to get it in 4 to 5 minutes."
+  },
+  {
+    "id": 243,
+    "time": "14:44.399 --> 14:48.654",
+    "en": "And we're now finally at a stage both with high throughput computation,"
+  },
+  {
+    "id": 244,
+    "time": "14:48.654 --> 14:51.740",
+    "en": "but also large language models where you're able to scale up"
+  },
+  {
+    "id": 245,
+    "time": "14:51.740 --> 14:55.202",
+    "en": "your computation, your analytics to match the better scale of biology"
+  },
+  {
+    "id": 246,
+    "time": "14:55.202 --> 14:58.413",
+    "en": "that can help the way that you inform and change the standard of care."
+  },
+  {
+    "id": 247,
+    "time": "15:02.000 --> 15:02.751",
+    "en": "Consider all the"
+  },
+  {
+    "id": 248,
+    "time": "15:02.751 --> 15:05.754",
+    "en": "reasons a frontier AI lab needs to use compute efficiently."
+  },
+  {
+    "id": 249,
+    "time": "15:05.796 --> 15:09.258",
+    "en": "We use it at every stage of the research and model training process."
+  },
+  {
+    "id": 250,
+    "time": "15:09.466 --> 15:13.470",
+    "en": "It's how we serve models to customers and how we use Claude at scale internally."
+  },
+  {
+    "id": 251,
+    "time": "15:13.679 --> 15:16.598",
+    "en": "By training what we believe to be the most efficient models,"
+  },
+  {
+    "id": 252,
+    "time": "15:16.598 --> 15:19.476",
+    "en": "we can do more of all these things with the same amount of compute."
+  },
+  {
+    "id": 253,
+    "time": "15:19.476 --> 15:21.478",
+    "en": "It's also how we drive down costs,"
+  },
+  {
+    "id": 254,
+    "time": "15:21.478 --> 15:24.731",
+    "en": "both for customers as well as our own underlying costs."
+  },
+  {
+    "id": 255,
+    "time": "15:24.982 --> 15:28.318",
+    "en": "We're accelerating these efficiency gains through our research process."
+  },
+  {
+    "id": 256,
+    "time": "15:28.694 --> 15:32.114",
+    "en": "Our pace of discovery is speeding up, and a lot of that acceleration"
+  },
+  {
+    "id": 257,
+    "time": "15:32.114 --> 15:33.949",
+    "en": "comes from Claude itself."
+  },
+  {
+    "id": 258,
+    "time": "15:33.949 --> 15:36.743",
+    "en": "When you deploy frontier models, safety is critical."
+  },
+  {
+    "id": 259,
+    "time": "15:36.743 --> 15:38.161",
+    "en": "This idea brought the co-founders"
+  },
+  {
+    "id": 260,
+    "time": "15:38.161 --> 15:41.373",
+    "en": "together, and it's been at the foundation of Anthropic from the beginning."
+  },
+  {
+    "id": 261,
+    "time": "15:41.623 --> 15:45.043",
+    "en": "Excellence in safety is how you manage organizational and systemic risk."
+  },
+  {
+    "id": 262,
+    "time": "15:45.168 --> 15:47.296",
+    "en": "It's how you safely enable frontier capabilities"
+  },
+  {
+    "id": 263,
+    "time": "15:47.296 --> 15:50.966",
+    "en": "in fields like coding and medicine, and it's valued by our customers."
+  },
+  {
+    "id": 264,
+    "time": "15:51.174 --> 15:54.052",
+    "en": "It gives them the trust they need to point AI at important work."
+  },
+  {
+    "id": 265,
+    "time": "15:54.052 --> 15:56.513",
+    "en": "We build safety in at every stage."
+  },
+  {
+    "id": 266,
+    "time": "15:56.513 --> 15:59.224",
+    "en": "Through alignment training, we train models to follow user intent"
+  },
+  {
+    "id": 267,
+    "time": "15:59.224 --> 16:01.059",
+    "en": "and avoid taking harmful actions."
+  },
+  {
+    "id": 268,
+    "time": "16:01.059 --> 16:04.062",
+    "en": "And we build in the right safeguards aimed at preventing misuse."
+  },
+  {
+    "id": 269,
+    "time": "16:04.479 --> 16:06.648",
+    "en": "We also pioneer fields like interpretability,"
+  },
+  {
+    "id": 270,
+    "time": "16:06.648 --> 16:09.651",
+    "en": "which gives us insight into what's happening inside the model's brain."
+  },
+  {
+    "id": 271,
+    "time": "16:09.776 --> 16:10.902",
+    "en": "Within Anthropic,"
+  },
+  {
+    "id": 272,
+    "time": "16:10.902 --> 16:14.531",
+    "en": "we increasingly turn frontier models back on improving our own processes."
+  },
+  {
+    "id": 273,
+    "time": "16:14.656 --> 16:16.700",
+    "en": "We call this closing the loop,"
+  },
+  {
+    "id": 274,
+    "time": "16:16.700 --> 16:19.494",
+    "en": "and it drives forward all three of our research priorities."
+  },
+  {
+    "id": 275,
+    "time": "16:19.494 --> 16:22.205",
+    "en": "Claude is increasingly our equal partner here."
+  },
+  {
+    "id": 276,
+    "time": "16:22.205 --> 16:25.208",
+    "en": "The better Claude gets, the more it helps us with all of our work."
+  },
+  {
+    "id": 277,
+    "time": "16:25.250 --> 16:26.668",
+    "en": "It improves our security."
+  },
+  {
+    "id": 278,
+    "time": "16:26.668 --> 16:28.712",
+    "en": "It makes training and inference more efficient."
+  },
+  {
+    "id": 279,
+    "time": "16:28.712 --> 16:30.255",
+    "en": "It drives safety work."
+  },
+  {
+    "id": 280,
+    "time": "16:30.255 --> 16:33.050",
+    "en": "It helps us try out more research ideas more quickly,"
+  },
+  {
+    "id": 281,
+    "time": "16:33.050 --> 16:35.469",
+    "en": "and it makes the whole organization more effective."
+  },
+  {
+    "id": 282,
+    "time": "16:35.469 --> 16:38.138",
+    "en": "Our most important work is still ahead"
+  },
+  {
+    "id": 283,
+    "time": "16:38.138 --> 16:40.724",
+    "en": "if we keep research and safety advancing together."
+  },
+  {
+    "id": 284,
+    "time": "16:40.724 --> 16:43.602",
+    "en": "We believe that we can help bring about some of the most significant"
+  },
+  {
+    "id": 285,
+    "time": "16:43.602 --> 16:45.103",
+    "en": "breakthroughs in human history."
+  },
+  {
+    "id": 286,
+    "time": "16:51.610 --> 16:54.863",
+    "en": "Take a number and double it and double that."
+  },
+  {
+    "id": 287,
+    "time": "16:54.863 --> 16:56.782",
+    "en": "Then double that."
+  },
+  {
+    "id": 288,
+    "time": "16:56.782 --> 17:00.577",
+    "en": "That curve is really at the heart of what we do at Anthropic."
+  },
+  {
+    "id": 289,
+    "time": "17:01.870 --> 17:05.832",
+    "en": "We noticed early on that performance seemed to scale very smoothly"
+  },
+  {
+    "id": 290,
+    "time": "17:05.832 --> 17:08.835",
+    "en": "with compute."
+  },
+  {
+    "id": 291,
+    "time": "17:10.420 --> 17:11.129",
+    "en": "Our bet"
+  },
+  {
+    "id": 292,
+    "time": "17:11.129 --> 17:14.466",
+    "en": "was there is a whole internet's worth of context."
+  },
+  {
+    "id": 293,
+    "time": "17:15.008 --> 17:18.970",
+    "en": "What if the limiting factor of model size just went away?"
+  },
+  {
+    "id": 294,
+    "time": "17:20.639 --> 17:23.975",
+    "en": "So in 2022 or 23, we had chatbots."
+  },
+  {
+    "id": 295,
+    "time": "17:25.435 --> 17:27.771",
+    "en": "You could ask them for a history of the samurai, and"
+  },
+  {
+    "id": 296,
+    "time": "17:27.771 --> 17:30.774",
+    "en": "it would come back with a little essay."
+  },
+  {
+    "id": 297,
+    "time": "17:31.691 --> 17:33.026",
+    "en": "In 2024,"
+  },
+  {
+    "id": 298,
+    "time": "17:33.026 --> 17:37.656",
+    "en": "coding becomes possible, but Claude still struggles on hard problems."
+  },
+  {
+    "id": 299,
+    "time": "17:38.782 --> 17:43.495",
+    "en": "In 2025, the models start to be able to do surprising things."
+  },
+  {
+    "id": 300,
+    "time": "17:43.912 --> 17:46.039",
+    "en": "Coding gets much better."
+  },
+  {
+    "id": 301,
+    "time": "17:46.039 --> 17:49.709",
+    "en": "Claude can even play video games quite badly."
+  },
+  {
+    "id": 302,
+    "time": "17:50.919 --> 17:52.838",
+    "en": "This same year, it found a flaw"
+  },
+  {
+    "id": 303,
+    "time": "17:52.838 --> 17:56.716",
+    "en": "in OpenBSD that had gone unnoticed for 27 years."
+  },
+  {
+    "id": 304,
+    "time": "17:59.636 --> 18:02.639",
+    "en": "Suddenly it can do multi-step processes."
+  },
+  {
+    "id": 305,
+    "time": "18:03.223 --> 18:05.976",
+    "en": "Knowledge work."
+  },
+  {
+    "id": 306,
+    "time": "18:05.976 --> 18:10.230",
+    "en": "It builds a controller for laser locks at a quantum computer company,"
+  },
+  {
+    "id": 307,
+    "time": "18:10.480 --> 18:14.734",
+    "en": "a task that used to take a team of people with PhDs a week."
+  },
+  {
+    "id": 308,
+    "time": "18:15.068 --> 18:17.821",
+    "en": "And it does this without human intervention"
+  },
+  {
+    "id": 309,
+    "time": "18:17.821 --> 18:20.824",
+    "en": "overnight."
+  },
+  {
+    "id": 310,
+    "time": "18:20.866 --> 18:21.825",
+    "en": "We start to see"
+  },
+  {
+    "id": 311,
+    "time": "18:21.825 --> 18:24.828",
+    "en": "Claude making fundamental discoveries in math,"
+  },
+  {
+    "id": 312,
+    "time": "18:25.036 --> 18:28.039",
+    "en": "working at the frontier of life science."
+  },
+  {
+    "id": 313,
+    "time": "18:28.540 --> 18:31.543",
+    "en": "This acceleration can be disorienting,"
+  },
+  {
+    "id": 314,
+    "time": "18:32.210 --> 18:35.755",
+    "en": "but there's still this sense that we're just setting out."
+  },
+  {
+    "id": 315,
+    "time": "18:35.839 --> 18:39.259",
+    "en": "That exponential curve stretches up ahead of us,"
+  },
+  {
+    "id": 316,
+    "time": "18:39.759 --> 18:42.762",
+    "en": "and it's only just begun."
+  },
+  {
+    "id": 317,
+    "time": "18:46.600 --> 18:48.602",
+    "en": "Achieving Anthropic's mission requires"
+  },
+  {
+    "id": 318,
+    "time": "18:48.602 --> 18:52.189",
+    "en": "staying at the frontier and staying at the frontier depends on compute."
+  },
+  {
+    "id": 319,
+    "time": "18:52.230 --> 18:54.691",
+    "en": "Our approach here goes back to research that I did"
+  },
+  {
+    "id": 320,
+    "time": "18:54.691 --> 18:57.486",
+    "en": "with several of my other co-founders on scaling laws."
+  },
+  {
+    "id": 321,
+    "time": "18:57.486 --> 18:59.404",
+    "en": "We found that with the right recipe,"
+  },
+  {
+    "id": 322,
+    "time": "18:59.404 --> 19:03.200",
+    "en": "more compute reliably and predictably yields more intelligence."
+  },
+  {
+    "id": 323,
+    "time": "19:03.241 --> 19:06.870",
+    "en": "Later, we found that it was possible to improve this recipe over time"
+  },
+  {
+    "id": 324,
+    "time": "19:06.953 --> 19:10.540",
+    "en": "to achieve more intelligence with the same amount of physical compute."
+  },
+  {
+    "id": 325,
+    "time": "19:10.665 --> 19:14.419",
+    "en": "So by the time we started Anthropic in 2021, we knew two things:"
+  },
+  {
+    "id": 326,
+    "time": "19:14.628 --> 19:18.507",
+    "en": "one, compute is the foundation of the business, and two, getting the most"
+  },
+  {
+    "id": 327,
+    "time": "19:18.507 --> 19:22.552",
+    "en": "out of every unit of compute is key to making increasingly intelligent models."
+  },
+  {
+    "id": 328,
+    "time": "19:22.594 --> 19:26.097",
+    "en": "That's why we're so focused on efficiency, and it's why we believe a dollar"
+  },
+  {
+    "id": 329,
+    "time": "19:26.097 --> 19:30.185",
+    "en": "of compute at Anthropic goes further than a dollar at any other frontier lab."
+  },
+  {
+    "id": 330,
+    "time": "19:30.268 --> 19:32.521",
+    "en": "We've achieved that advantage in two ways."
+  },
+  {
+    "id": 331,
+    "time": "19:32.521 --> 19:33.939",
+    "en": "I'll start with the first."
+  },
+  {
+    "id": 332,
+    "time": "19:33.939 --> 19:37.359",
+    "en": "Our proprietary approach to bringing up and deploying silicon."
+  },
+  {
+    "id": 333,
+    "time": "19:37.651 --> 19:41.613",
+    "en": "We train and serve Claude now across all four major chip families."
+  },
+  {
+    "id": 334,
+    "time": "19:41.821 --> 19:45.492",
+    "en": "That's only possible because early on, we made an unconventional bet"
+  },
+  {
+    "id": 335,
+    "time": "19:45.534 --> 19:47.577",
+    "en": "on a multi chip strategy."
+  },
+  {
+    "id": 336,
+    "time": "19:47.577 --> 19:51.206",
+    "en": "At the time, many people thought that running AI models on different chips"
+  },
+  {
+    "id": 337,
+    "time": "19:51.206 --> 19:52.749",
+    "en": "wasn't worth the effort."
+  },
+  {
+    "id": 338,
+    "time": "19:52.749 --> 19:56.044",
+    "en": "Each chip needs its own tailored software stack and inference"
+  },
+  {
+    "id": 339,
+    "time": "19:56.044 --> 19:59.047",
+    "en": "stack, which is expensive and difficult to build."
+  },
+  {
+    "id": 340,
+    "time": "19:59.089 --> 20:02.551",
+    "en": "We've now been doing it for years, and we've gotten incredibly good at it."
+  },
+  {
+    "id": 341,
+    "time": "20:02.842 --> 20:06.846",
+    "en": "This comes with two key advantages. In a supply-constrained compute market,"
+  },
+  {
+    "id": 342,
+    "time": "20:06.846 --> 20:08.473",
+    "en": "our multi-silicon strategy"
+  },
+  {
+    "id": 343,
+    "time": "20:08.473 --> 20:12.310",
+    "en": "allows us to focus on the best price performance regardless of the provider."
+  },
+  {
+    "id": 344,
+    "time": "20:12.435 --> 20:15.438",
+    "en": "We can match each chip to the job that it's best at."
+  },
+  {
+    "id": 345,
+    "time": "20:15.689 --> 20:18.441",
+    "en": "Some are better at training, some are better at inference."
+  },
+  {
+    "id": 346,
+    "time": "20:18.441 --> 20:22.445",
+    "en": "Our multi-silicon chip strategy means we can treat all of our chips across"
+  },
+  {
+    "id": 347,
+    "time": "20:22.445 --> 20:27.409",
+    "en": "providers, architectures and locations as one fungible pool of compute."
+  },
+  {
+    "id": 348,
+    "time": "20:27.784 --> 20:30.787",
+    "en": "This has also made us really good at bringing up new chips."
+  },
+  {
+    "id": 349,
+    "time": "20:30.787 --> 20:32.247",
+    "en": "As an example, this year"
+  },
+  {
+    "id": 350,
+    "time": "20:32.247 --> 20:36.293",
+    "en": "we started working with AMD GPUs for the first time. In the past,"
+  },
+  {
+    "id": 351,
+    "time": "20:36.334 --> 20:40.088",
+    "en": "bringing on a new chip platform took dozens of engineers months of work."
+  },
+  {
+    "id": 352,
+    "time": "20:40.505 --> 20:42.716",
+    "en": "This time we had Mythos try it out."
+  },
+  {
+    "id": 353,
+    "time": "20:42.716 --> 20:46.303",
+    "en": "It got Claude running on AMD in just three days with basically"
+  },
+  {
+    "id": 354,
+    "time": "20:46.303 --> 20:47.846",
+    "en": "no human intervention."
+  },
+  {
+    "id": 355,
+    "time": "20:47.846 --> 20:50.974",
+    "en": "Claude ported or wrote almost 100% of the kernels."
+  },
+  {
+    "id": 356,
+    "time": "20:51.266 --> 20:54.603",
+    "en": "We also have a distinct approach to the data centers that house our chips."
+  },
+  {
+    "id": 357,
+    "time": "20:54.936 --> 20:57.772",
+    "en": "Historically, we bought compute as a cloud service."
+  },
+  {
+    "id": 358,
+    "time": "20:57.772 --> 21:00.442",
+    "en": "We've now added a second approach where we lease chips"
+  },
+  {
+    "id": 359,
+    "time": "21:00.442 --> 21:03.445",
+    "en": "and run them in purpose built data centers designed for us."
+  },
+  {
+    "id": 360,
+    "time": "21:03.570 --> 21:05.905",
+    "en": "We call this Anthropic Direct."
+  },
+  {
+    "id": 361,
+    "time": "21:05.905 --> 21:08.199",
+    "en": "That approach has a couple advantages for us."
+  },
+  {
+    "id": 362,
+    "time": "21:08.199 --> 21:11.119",
+    "en": "It helps to lower the total cost of ownership of compute,"
+  },
+  {
+    "id": 363,
+    "time": "21:11.119 --> 21:14.873",
+    "en": "and allows us to separate the commitment to data centers from the chips."
+  },
+  {
+    "id": 364,
+    "time": "21:15.290 --> 21:18.627",
+    "en": "The second driver of our compute advantage is our rate of discovery"
+  },
+  {
+    "id": 365,
+    "time": "21:18.627 --> 21:20.086",
+    "en": "of compute multipliers."
+  },
+  {
+    "id": 366,
+    "time": "21:20.086 --> 21:24.090",
+    "en": "We focus on total effective compute, which is the multiplicative product"
+  },
+  {
+    "id": 367,
+    "time": "21:24.090 --> 21:27.844",
+    "en": "of physical capacity, times the compute multipliers that we discover."
+  },
+  {
+    "id": 368,
+    "time": "21:28.094 --> 21:32.307",
+    "en": "Each one we discover makes our pool of total effective compute bigger."
+  },
+  {
+    "id": 369,
+    "time": "21:32.474 --> 21:33.308",
+    "en": "For example,"
+  },
+  {
+    "id": 370,
+    "time": "21:33.308 --> 21:37.020",
+    "en": "say you need 100 units of compute to train a model of a certain intelligence."
+  },
+  {
+    "id": 371,
+    "time": "21:37.270 --> 21:40.815",
+    "en": "A 4x compute multiplier means you can use 25 units of compute"
+  },
+  {
+    "id": 372,
+    "time": "21:40.815 --> 21:42.442",
+    "en": "to train the exact same model."
+  },
+  {
+    "id": 373,
+    "time": "21:42.442 --> 21:46.613",
+    "en": "Or you can use those 100 physical units to train an even more intelligent model"
+  },
+  {
+    "id": 374,
+    "time": "21:46.696 --> 21:49.699",
+    "en": "that would have previously required 400 units."
+  },
+  {
+    "id": 375,
+    "time": "21:49.699 --> 21:53.536",
+    "en": "Compute multipliers create a competitive advantage for us that's hard to replicate."
+  },
+  {
+    "id": 376,
+    "time": "21:53.536 --> 21:54.788",
+    "en": "They build on each other."
+  },
+  {
+    "id": 377,
+    "time": "21:54.788 --> 21:55.997",
+    "en": "Each new multiplier we"
+  },
+  {
+    "id": 378,
+    "time": "21:55.997 --> 21:59.918",
+    "en": "discover has a positive effect on the multipliers before it. They stack."
+  },
+  {
+    "id": 379,
+    "time": "21:59.959 --> 22:01.586",
+    "en": "We believe that this can accelerate"
+  },
+  {
+    "id": 380,
+    "time": "22:01.586 --> 22:04.589",
+    "en": "even further as we approach recursive self-improvement."
+  },
+  {
+    "id": 381,
+    "time": "22:04.631 --> 22:08.176",
+    "en": "Claude will be able to discover compute multipliers entirely by itself,"
+  },
+  {
+    "id": 382,
+    "time": "22:08.385 --> 22:11.888",
+    "en": "allowing the number of compute multipliers to grow faster and faster."
+  },
+  {
+    "id": 383,
+    "time": "22:12.180 --> 22:14.557",
+    "en": "We believe this combination of smart investments,"
+  },
+  {
+    "id": 384,
+    "time": "22:14.557 --> 22:17.560",
+    "en": "breakthrough research, and the improving capabilities of Claude"
+  },
+  {
+    "id": 385,
+    "time": "22:17.602 --> 22:20.980",
+    "en": "have put Anthropic in a leading position among the frontier labs."
+  },
+  {
+    "id": 386,
+    "time": "22:26.319 --> 22:27.237",
+    "en": "AI is"
+  },
+  {
+    "id": 387,
+    "time": "22:27.237 --> 22:31.199",
+    "en": "a breakthrough innovation, but only reinvention"
+  },
+  {
+    "id": 388,
+    "time": "22:31.199 --> 22:34.869",
+    "en": "is going to get the value that AI promises."
+  },
+  {
+    "id": 389,
+    "time": "22:35.078 --> 22:38.665",
+    "en": "At Accenture, our job is to be the bridge between technology"
+  },
+  {
+    "id": 390,
+    "time": "22:38.665 --> 22:41.668",
+    "en": "and real outcomes for our clients."
+  },
+  {
+    "id": 391,
+    "time": "22:42.127 --> 22:45.463",
+    "en": "I love the question about, you know, are we using Claude"
+  },
+  {
+    "id": 392,
+    "time": "22:45.463 --> 22:49.759",
+    "en": "because we have tens of thousands of engineers using it every day?"
+  },
+  {
+    "id": 393,
+    "time": "22:49.884 --> 22:53.221",
+    "en": "We use it across our entire software development lifecycle,"
+  },
+  {
+    "id": 394,
+    "time": "22:53.304 --> 22:54.723",
+    "en": "and it frees up time."
+  },
+  {
+    "id": 395,
+    "time": "22:54.723 --> 22:56.558",
+    "en": "It makes us go faster and"
+  },
+  {
+    "id": 396,
+    "time": "22:56.558 --> 23:00.770",
+    "en": "allows our engineers to spend more time focusing on solving our clients'"
+  },
+  {
+    "id": 397,
+    "time": "23:00.770 --> 23:04.566",
+    "en": "challenges, leading decision making, and setting strategy."
+  },
+  {
+    "id": 398,
+    "time": "23:05.316 --> 23:10.196",
+    "en": "We defend thousands of our clients from cyber attacks,"
+  },
+  {
+    "id": 399,
+    "time": "23:10.196 --> 23:15.076",
+    "en": "and we've paired Claude Code and Claude's agent software development kit with"
+  },
+  {
+    "id": 400,
+    "time": "23:15.285 --> 23:19.998",
+    "en": "Cyber.AI, our cutting-edge platform that we use to help protect our clients."
+  },
+  {
+    "id": 401,
+    "time": "23:20.039 --> 23:21.958",
+    "en": "Just one result of using this"
+  },
+  {
+    "id": 402,
+    "time": "23:21.958 --> 23:25.670",
+    "en": "is that we can now do scans that used to take days in under an hour."
+  },
+  {
+    "id": 403,
+    "time": "23:25.837 --> 23:30.842",
+    "en": "We are focused on our clients' success and safety, and our mindset"
+  },
+  {
+    "id": 404,
+    "time": "23:30.884 --> 23:35.805",
+    "en": "is that because of our partnership, our clients can get to value faster."
+  },
+  {
+    "id": 405,
+    "time": "23:40.685 --> 23:43.062",
+    "en": "The early bet we made was that intelligence"
+  },
+  {
+    "id": 406,
+    "time": "23:43.062 --> 23:46.107",
+    "en": "was the highest value asset that a business could get from AI."
+  },
+  {
+    "id": 407,
+    "time": "23:46.524 --> 23:49.903",
+    "en": "We believe frontier intelligence solves the toughest problems,"
+  },
+  {
+    "id": 408,
+    "time": "23:49.944 --> 23:53.615",
+    "en": "and for that reason it drives the biggest impact."
+  },
+  {
+    "id": 409,
+    "time": "23:53.907 --> 23:56.576",
+    "en": "AI capability doesn't improve gradually."
+  },
+  {
+    "id": 410,
+    "time": "23:56.576 --> 24:00.622",
+    "en": "When models cross a certain threshold, there is a step change"
+  },
+  {
+    "id": 411,
+    "time": "24:00.747 --> 24:04.083",
+    "en": "and an entire category of work is done differently."
+  },
+  {
+    "id": 412,
+    "time": "24:04.834 --> 24:07.712",
+    "en": "Coding is the example we're most familiar with."
+  },
+  {
+    "id": 413,
+    "time": "24:07.712 --> 24:10.006",
+    "en": "The speed of the change is remarkable."
+  },
+  {
+    "id": 414,
+    "time": "24:10.006 --> 24:13.259",
+    "en": "We went from autocomplete a few lines of code"
+  },
+  {
+    "id": 415,
+    "time": "24:13.343 --> 24:17.222",
+    "en": "to fleets of agents working around the clock in just a year."
+  },
+  {
+    "id": 416,
+    "time": "24:17.347 --> 24:20.350",
+    "en": "For a company like Rakuten, this means they're shipping"
+  },
+  {
+    "id": 417,
+    "time": "24:20.350 --> 24:24.229",
+    "en": "new features 4 to 5 times faster than their competitors."
+  },
+  {
+    "id": 418,
+    "time": "24:24.687 --> 24:30.193",
+    "en": "After coding came cyber, and with Mythos and Project Glasswing, Claude has helped"
+  },
+  {
+    "id": 419,
+    "time": "24:30.193 --> 24:34.739",
+    "en": "cyber defenders identify and patch vulnerabilities at a societal scale."
+  },
+  {
+    "id": 420,
+    "time": "24:35.198 --> 24:37.408",
+    "en": "Consider a company like Mozilla."
+  },
+  {
+    "id": 421,
+    "time": "24:37.408 --> 24:41.120",
+    "en": "In the past, they used to fix over 20 security bugs per release,"
+  },
+  {
+    "id": 422,
+    "time": "24:41.371 --> 24:46.167",
+    "en": "and with Mythos Preview, they identified and fixed 271."
+  },
+  {
+    "id": 423,
+    "time": "24:46.584 --> 24:48.962",
+    "en": "Knowledge work is on a similar curve."
+  },
+  {
+    "id": 424,
+    "time": "24:48.962 --> 24:52.173",
+    "en": "Scientific research, investment analysis, underwriting"
+  },
+  {
+    "id": 425,
+    "time": "24:52.173 --> 24:55.385",
+    "en": "all great examples of what we're seeing across industries."
+  },
+  {
+    "id": 426,
+    "time": "24:55.718 --> 25:00.807",
+    "en": "Claude helped an insurer like AIG cut down time to quote by 55%."
+  },
+  {
+    "id": 427,
+    "time": "25:00.932 --> 25:03.017",
+    "en": "In each domain, we see an improvement."
+  },
+  {
+    "id": 428,
+    "time": "25:03.017 --> 25:07.856",
+    "en": "Then a step change, and then a whole category of work moves fast."
+  },
+  {
+    "id": 429,
+    "time": "25:13.152 --> 25:15.280",
+    "en": "It's hard to imagine"
+  },
+  {
+    "id": 430,
+    "time": "25:15.280 --> 25:18.241",
+    "en": "the speed with which that Anthropic"
+  },
+  {
+    "id": 431,
+    "time": "25:18.241 --> 25:21.244",
+    "en": "has become embedded inside of AIG."
+  },
+  {
+    "id": 432,
+    "time": "25:21.536 --> 25:23.621",
+    "en": "It's helped us create better underwriters."
+  },
+  {
+    "id": 433,
+    "time": "25:23.621 --> 25:27.917",
+    "en": "We were able to use their skill set more frequently because we're able"
+  },
+  {
+    "id": 434,
+    "time": "25:27.917 --> 25:30.920",
+    "en": "to pull the submission information, get it in a format where they can"
+  },
+  {
+    "id": 435,
+    "time": "25:30.962 --> 25:31.921",
+    "en": "then underwrite."
+  },
+  {
+    "id": 436,
+    "time": "25:31.921 --> 25:36.092",
+    "en": "We've seen a significant uptick in the speed with which they can make decisions,"
+  },
+  {
+    "id": 437,
+    "time": "25:36.175 --> 25:37.385",
+    "en": "which really means"
+  },
+  {
+    "id": 438,
+    "time": "25:37.385 --> 25:41.014",
+    "en": "we're able to get to more submissions in a more consistent way."
+  },
+  {
+    "id": 439,
+    "time": "25:41.180 --> 25:44.183",
+    "en": "And for clients, we're able to respond faster."
+  },
+  {
+    "id": 440,
+    "time": "25:45.393 --> 25:47.478",
+    "en": "I think Anthropic and Claude together"
+  },
+  {
+    "id": 441,
+    "time": "25:47.478 --> 25:51.524",
+    "en": "have a very similar value proposition that we try and bring in terms of safety"
+  },
+  {
+    "id": 442,
+    "time": "25:51.524 --> 25:55.403",
+    "en": "and resilience and technical capability, and we communicate pretty closely"
+  },
+  {
+    "id": 443,
+    "time": "25:55.403 --> 26:00.158",
+    "en": "with the regulators on how we're using AI and how the human element"
+  },
+  {
+    "id": 444,
+    "time": "26:00.158 --> 26:02.869",
+    "en": "and the human oversight is obviously very important to us"
+  },
+  {
+    "id": 445,
+    "time": "26:02.869 --> 26:05.580",
+    "en": "and to our regulators and is embedded in the process."
+  },
+  {
+    "id": 446,
+    "time": "26:08.625 --> 26:10.418",
+    "en": "Everything Anthropic does,"
+  },
+  {
+    "id": 447,
+    "time": "26:10.418 --> 26:13.463",
+    "en": "from research to product to go-to-market,"
+  },
+  {
+    "id": 448,
+    "time": "26:13.504 --> 26:16.799",
+    "en": "it all comes together in how we serve the customer."
+  },
+  {
+    "id": 449,
+    "time": "26:17.091 --> 26:22.764",
+    "en": "Today, we have deep engagements across the Fortune 500 and all of the Fortune 10."
+  },
+  {
+    "id": 450,
+    "time": "26:23.097 --> 26:27.727",
+    "en": "More than 50% of the Fortune 500 spends more than $100K with us."
+  },
+  {
+    "id": 451,
+    "time": "26:28.019 --> 26:31.648",
+    "en": "And that's true for more than 30% of the Global 2000."
+  },
+  {
+    "id": 452,
+    "time": "26:32.190 --> 26:35.109",
+    "en": "With all of these customers, we believe we are still"
+  },
+  {
+    "id": 453,
+    "time": "26:35.109 --> 26:38.279",
+    "en": "in the early stages of a multi-decade transformation."
+  },
+  {
+    "id": 454,
+    "time": "26:38.655 --> 26:41.866",
+    "en": "On average, spending from these Fortune 500 customers"
+  },
+  {
+    "id": 455,
+    "time": "26:41.866 --> 26:44.911",
+    "en": "is less than 0.1% of their total expenses."
+  },
+  {
+    "id": 456,
+    "time": "26:45.203 --> 26:49.958",
+    "en": "Even among the top ten, it's still less than 1% of their total expense line."
+  },
+  {
+    "id": 457,
+    "time": "26:50.333 --> 26:51.000",
+    "en": "Let's zoom"
+  },
+  {
+    "id": 458,
+    "time": "26:51.000 --> 26:55.546",
+    "en": "in on the journey of a typical customer, and it starts with a single use case."
+  },
+  {
+    "id": 459,
+    "time": "26:55.838 --> 26:57.256",
+    "en": "Often that's Claude Code"
+  },
+  {
+    "id": 460,
+    "time": "26:57.256 --> 27:01.094",
+    "en": "for developers and engineers, and it soon expands to adjacent roles."
+  },
+  {
+    "id": 461,
+    "time": "27:01.177 --> 27:04.639",
+    "en": "Knowledge workers start using Claude for their highest value work."
+  },
+  {
+    "id": 462,
+    "time": "27:04.639 --> 27:07.600",
+    "en": "Then teams automate more business processes"
+  },
+  {
+    "id": 463,
+    "time": "27:07.600 --> 27:10.353",
+    "en": "and build AI into core infrastructure."
+  },
+  {
+    "id": 464,
+    "time": "27:10.353 --> 27:15.066",
+    "en": "And ultimately they embed Claude into entirely new products and services."
+  },
+  {
+    "id": 465,
+    "time": "27:15.233 --> 27:18.903",
+    "en": "The process happens quickly, and that's why we see an unprecedented"
+  },
+  {
+    "id": 466,
+    "time": "27:18.903 --> 27:22.782",
+    "en": "net revenue retention rate of approximately 900%."
+  },
+  {
+    "id": 467,
+    "time": "27:23.074 --> 27:25.827",
+    "en": "What excites me is that the most interesting"
+  },
+  {
+    "id": 468,
+    "time": "27:25.827 --> 27:28.830",
+    "en": "and transformative use cases are still ahead of us."
+  },
+  {
+    "id": 469,
+    "time": "27:28.997 --> 27:33.084",
+    "en": "Everything we've seen in coding and cyber, we're now starting to see across"
+  },
+  {
+    "id": 470,
+    "time": "27:33.084 --> 27:37.672",
+    "en": "virtually every function, every company and every industry."
+  },
+  {
+    "id": 471,
+    "time": "27:37.714 --> 27:41.676",
+    "en": "And they want to partner with Anthropic because they trust we will help them"
+  },
+  {
+    "id": 472,
+    "time": "27:41.718 --> 27:45.221",
+    "en": "see the future first, that we will keep them on the frontier,"
+  },
+  {
+    "id": 473,
+    "time": "27:45.304 --> 27:47.598",
+    "en": "and that we will help them transform and win."
+  },
+  {
+    "id": 474,
+    "time": "27:53.938 --> 27:54.647",
+    "en": "Something"
+  },
+  {
+    "id": 475,
+    "time": "27:54.647 --> 27:59.986",
+    "en": "exciting happens when the discoveries unlocked by Claude move into our world,"
+  },
+  {
+    "id": 476,
+    "time": "28:00.403 --> 28:03.364",
+    "en": "or even beyond it."
+  },
+  {
+    "id": 477,
+    "time": "28:03.364 --> 28:05.074",
+    "en": "In December 2025,"
+  },
+  {
+    "id": 478,
+    "time": "28:05.074 --> 28:08.286",
+    "en": "Claude helped plan the Perseverance rover's route on Mars."
+  },
+  {
+    "id": 479,
+    "time": "28:09.412 --> 28:12.457",
+    "en": "It wrote the code in the rover's own markup language."
+  },
+  {
+    "id": 480,
+    "time": "28:13.207 --> 28:16.502",
+    "en": "Engineers checked everything before the commands went out."
+  },
+  {
+    "id": 481,
+    "time": "28:17.045 --> 28:19.422",
+    "en": "400m driven."
+  },
+  {
+    "id": 482,
+    "time": "28:19.422 --> 28:22.425",
+    "en": "Mission accomplished."
+  },
+  {
+    "id": 483,
+    "time": "28:22.884 --> 28:25.720",
+    "en": "Claude's ability to process vast amounts of data"
+  },
+  {
+    "id": 484,
+    "time": "28:25.720 --> 28:28.931",
+    "en": "came to the fore again in the summer of 2026."
+  },
+  {
+    "id": 485,
+    "time": "28:29.515 --> 28:33.311",
+    "en": "About 950 Claude agents spent 21 hours"
+  },
+  {
+    "id": 486,
+    "time": "28:33.436 --> 28:36.773",
+    "en": "sifting 1.9 billion protein clusters."
+  },
+  {
+    "id": 487,
+    "time": "28:36.981 --> 28:41.694",
+    "en": "One spotted an unusual pattern: a system with a CRISPR-like repeat array."
+  },
+  {
+    "id": 488,
+    "time": "28:42.153 --> 28:45.406",
+    "en": "Our scientists were able to check Claude's findings in the lab."
+  },
+  {
+    "id": 489,
+    "time": "28:45.656 --> 28:49.077",
+    "en": "The new array had never been published before. A genuine"
+  },
+  {
+    "id": 490,
+    "time": "28:49.077 --> 28:52.080",
+    "en": "discovery."
+  },
+  {
+    "id": 491,
+    "time": "28:54.457 --> 28:55.208",
+    "en": "The ability"
+  },
+  {
+    "id": 492,
+    "time": "28:55.208 --> 28:59.879",
+    "en": "to quickly understand new information really matters where resources are thin."
+  },
+  {
+    "id": 493,
+    "time": "29:02.048 --> 29:03.132",
+    "en": "In September"
+  },
+  {
+    "id": 494,
+    "time": "29:03.132 --> 29:07.553",
+    "en": "2026, teams responding to an Ebola outbreak in eastern Congo"
+  },
+  {
+    "id": 495,
+    "time": "29:07.678 --> 29:12.517",
+    "en": "were able to process each region's daily reports in under an hour,"
+  },
+  {
+    "id": 496,
+    "time": "29:13.226 --> 29:15.770",
+    "en": "creating a better picture of the epidemic"
+  },
+  {
+    "id": 497,
+    "time": "29:15.770 --> 29:18.773",
+    "en": "and freeing up time for patient care."
+  },
+  {
+    "id": 498,
+    "time": "29:20.066 --> 29:21.359",
+    "en": "The power to affect"
+  },
+  {
+    "id": 499,
+    "time": "29:21.359 --> 29:24.320",
+    "en": "the real world makes safety even more important."
+  },
+  {
+    "id": 500,
+    "time": "29:24.904 --> 29:27.573",
+    "en": "It's why Claude's full biology capabilities"
+  },
+  {
+    "id": 501,
+    "time": "29:27.573 --> 29:30.576",
+    "en": "go only to organizations we've verified."
+  },
+  {
+    "id": 502,
+    "time": "29:32.537 --> 29:35.540",
+    "en": "And why Claude has a constitution."
+  },
+  {
+    "id": 503,
+    "time": "29:36.040 --> 29:40.336",
+    "en": "It equips it to make judgment calls in situations it has never encountered"
+  },
+  {
+    "id": 504,
+    "time": "29:40.336 --> 29:42.380",
+    "en": "before."
+  },
+  {
+    "id": 505,
+    "time": "29:42.380 --> 29:47.135",
+    "en": "And it's why we put so much energy into interpretability and alignment."
+  },
+  {
+    "id": 506,
+    "time": "29:47.343 --> 29:51.681",
+    "en": "To keep Claude accountable in situations where people will rely on it"
+  },
+  {
+    "id": 507,
+    "time": "29:52.807 --> 29:53.808",
+    "en": "again and again."
+  },
+  {
+    "id": 508,
+    "time": "29:53.808 --> 29:56.435",
+    "en": "We're finding safety doesn't hold us back."
+  },
+  {
+    "id": 509,
+    "time": "29:56.435 --> 29:59.480",
+    "en": "In fact, it's because we can trust Claude's work"
+  },
+  {
+    "id": 510,
+    "time": "29:59.564 --> 30:03.109",
+    "en": "that we can take its discoveries and apply them in the real world"
+  },
+  {
+    "id": 511,
+    "time": "30:04.235 --> 30:07.238",
+    "en": "in ways that will benefit everyone."
+  },
+  {
+    "id": 512,
+    "time": "30:11.325 --> 30:14.370",
+    "en": "We believe the transformation of the global economy through"
+  },
+  {
+    "id": 513,
+    "time": "30:14.412 --> 30:17.540",
+    "en": "AI is the greatest economic opportunity in history."
+  },
+  {
+    "id": 514,
+    "time": "30:17.665 --> 30:20.376",
+    "en": "And Anthropic is uniquely positioned to capture it."
+  },
+  {
+    "id": 515,
+    "time": "30:20.376 --> 30:23.462",
+    "en": "We have leadership at the frontier of AI, where we expect value"
+  },
+  {
+    "id": 516,
+    "time": "30:23.504 --> 30:26.507",
+    "en": "will differentially accrue, and the strength of our business model"
+  },
+  {
+    "id": 517,
+    "time": "30:26.549 --> 30:29.510",
+    "en": "allows us to keep investing to advance the frontier"
+  },
+  {
+    "id": 518,
+    "time": "30:29.510 --> 30:33.639",
+    "en": "while delivering more value to customers and superior returns for our shareholders."
+  },
+  {
+    "id": 519,
+    "time": "30:33.639 --> 30:36.642",
+    "en": "The clearest evidence of that is our financial results."
+  },
+  {
+    "id": 520,
+    "time": "30:36.684 --> 30:39.896",
+    "en": "In Q3, we earned nearly $17 billion"
+  },
+  {
+    "id": 521,
+    "time": "30:39.896 --> 30:43.065",
+    "en": "of revenue, up 12 times year over year. And year to date,"
+  },
+  {
+    "id": 522,
+    "time": "30:43.107 --> 30:46.027",
+    "en": "we've delivered a compute margin of 43%,"
+  },
+  {
+    "id": 523,
+    "time": "30:46.027 --> 30:48.070",
+    "en": "gross margin of 85%,"
+  },
+  {
+    "id": 524,
+    "time": "30:48.070 --> 30:51.949",
+    "en": "adjusted operating margin of 12% and positive free cash flow."
+  },
+  {
+    "id": 525,
+    "time": "30:52.491 --> 30:55.328",
+    "en": "These results come from our frontier leadership,"
+  },
+  {
+    "id": 526,
+    "time": "30:55.328 --> 30:58.456",
+    "en": "and they give us the capacity to invest heavily to extend it."
+  },
+  {
+    "id": 527,
+    "time": "30:58.456 --> 31:02.418",
+    "en": "So while our profitability is strong, we are in an aggressive investment"
+  },
+  {
+    "id": 528,
+    "time": "31:02.418 --> 31:05.546",
+    "en": "mode as we focus on building this business for the long term."
+  },
+  {
+    "id": 529,
+    "time": "31:05.755 --> 31:09.133",
+    "en": "There are five elements that differentiate Anthropic's business model."
+  },
+  {
+    "id": 530,
+    "time": "31:09.175 --> 31:13.221",
+    "en": "First, we build models that deliver the most useful intelligence"
+  },
+  {
+    "id": 531,
+    "time": "31:13.346 --> 31:14.680",
+    "en": "as we've pushed the frontier."
+  },
+  {
+    "id": 532,
+    "time": "31:14.680 --> 31:17.516",
+    "en": "Our customers have found more valuable work for Claude."
+  },
+  {
+    "id": 533,
+    "time": "31:17.516 --> 31:19.477",
+    "en": "And our revenue growth has followed."
+  },
+  {
+    "id": 534,
+    "time": "31:19.477 --> 31:21.479",
+    "en": "We call this model led growth."
+  },
+  {
+    "id": 535,
+    "time": "31:21.479 --> 31:23.981",
+    "en": "The trajectory of our business demonstrates this."
+  },
+  {
+    "id": 536,
+    "time": "31:23.981 --> 31:28.694",
+    "en": "Quarterly revenue grew from $376 million in Q1 2025"
+  },
+  {
+    "id": 537,
+    "time": "31:29.070 --> 31:32.490",
+    "en": "to nearly $17 billion in Q3 of 2026."
+  },
+  {
+    "id": 538,
+    "time": "31:32.865 --> 31:36.410",
+    "en": "This tracks significant increases in the capabilities of our models"
+  },
+  {
+    "id": 539,
+    "time": "31:36.410 --> 31:40.414",
+    "en": "in coding workflows and real world tasks."
+  },
+  {
+    "id": 540,
+    "time": "31:40.748 --> 31:44.543",
+    "en": "Being at the frontier unlocks new use cases and capabilities."
+  },
+  {
+    "id": 541,
+    "time": "31:44.585 --> 31:48.673",
+    "en": "It also moves us towards Pareto dominance across most customer workloads,"
+  },
+  {
+    "id": 542,
+    "time": "31:48.798 --> 31:52.969",
+    "en": "enabling us to deliver the most capable models at a given cost."
+  },
+  {
+    "id": 543,
+    "time": "31:53.094 --> 31:56.055",
+    "en": "That is because smarter models are more efficient."
+  },
+  {
+    "id": 544,
+    "time": "31:56.055 --> 32:00.476",
+    "en": "They can complete tasks at lower effort levels, which use fewer tokens."
+  },
+  {
+    "id": 545,
+    "time": "32:00.643 --> 32:04.814",
+    "en": "We also cascade the frontier intelligence from our larger models"
+  },
+  {
+    "id": 546,
+    "time": "32:04.897 --> 32:06.482",
+    "en": "into our smaller models."
+  },
+  {
+    "id": 547,
+    "time": "32:06.482 --> 32:10.695",
+    "en": "So we address the full range of cost, capability and speed."
+  },
+  {
+    "id": 548,
+    "time": "32:11.070 --> 32:13.781",
+    "en": "Each generation has pushed that further."
+  },
+  {
+    "id": 549,
+    "time": "32:13.781 --> 32:16.701",
+    "en": "Our recent Claude 5.5 family of models are a"
+  },
+  {
+    "id": 550,
+    "time": "32:16.701 --> 32:20.162",
+    "en": "significant step up in capability from the Claude 5 family"
+  },
+  {
+    "id": 551,
+    "time": "32:20.204 --> 32:22.123",
+    "en": "we released just a few months prior."
+  },
+  {
+    "id": 552,
+    "time": "32:22.123 --> 32:25.334",
+    "en": "They're also significantly cheaper on a cost per task basis."
+  },
+  {
+    "id": 553,
+    "time": "32:25.459 --> 32:28.337",
+    "en": "That is the power of building at the frontier."
+  },
+  {
+    "id": 554,
+    "time": "32:28.337 --> 32:32.008",
+    "en": "We believe we deliver the highest value intelligence at the lowest cost,"
+  },
+  {
+    "id": 555,
+    "time": "32:32.133 --> 32:34.969",
+    "en": "which means we can serve the entire market efficiently."
+  },
+  {
+    "id": 556,
+    "time": "32:34.969 --> 32:38.931",
+    "en": "While we lead across most benchmarks, the true measure of our success"
+  },
+  {
+    "id": 557,
+    "time": "32:39.432 --> 32:40.599",
+    "en": "is our customers."
+  },
+  {
+    "id": 558,
+    "time": "32:40.599 --> 32:43.602",
+    "en": "And that leads me to our second differentiator."
+  },
+  {
+    "id": 559,
+    "time": "32:44.020 --> 32:46.981",
+    "en": "We build the leading platform and products to make"
+  },
+  {
+    "id": 560,
+    "time": "32:46.981 --> 32:49.984",
+    "en": "frontier intelligence accessible to our customers."
+  },
+  {
+    "id": 561,
+    "time": "32:50.151 --> 32:53.654",
+    "en": "Our platform solutions are the foundation of our business,"
+  },
+  {
+    "id": 562,
+    "time": "32:53.988 --> 32:57.700",
+    "en": "and there is significant opportunity for customers to build products"
+  },
+  {
+    "id": 563,
+    "time": "32:57.700 --> 33:01.412",
+    "en": "and reimagine processes on top of our APIs and SDK."
+  },
+  {
+    "id": 564,
+    "time": "33:01.829 --> 33:06.042",
+    "en": "At the same time, our own products have become a key driver of diffusion."
+  },
+  {
+    "id": 565,
+    "time": "33:06.208 --> 33:07.168",
+    "en": "For example,"
+  },
+  {
+    "id": 566,
+    "time": "33:07.168 --> 33:11.714",
+    "en": "Claude Code was fundamentally a bet on the exponential in model progress."
+  },
+  {
+    "id": 567,
+    "time": "33:11.839 --> 33:15.760",
+    "en": "Getting it into the hands of our customers put us in a position to capitalize"
+  },
+  {
+    "id": 568,
+    "time": "33:15.760 --> 33:19.221",
+    "en": "on agentic coding capabilities as they dramatically improved."
+  },
+  {
+    "id": 569,
+    "time": "33:19.430 --> 33:23.309",
+    "en": "We followed that same playbook with Claude Cowork, and its adoption"
+  },
+  {
+    "id": 570,
+    "time": "33:23.309 --> 33:26.312",
+    "en": "has exceeded that of Claude Code at the equivalent point,"
+  },
+  {
+    "id": 571,
+    "time": "33:26.312 --> 33:28.522",
+    "en": "following its own research preview last year."
+  },
+  {
+    "id": 572,
+    "time": "33:28.522 --> 33:33.319",
+    "en": "Together, our products and platform enable us to serve the needs of our customers."
+  },
+  {
+    "id": 573,
+    "time": "33:33.486 --> 33:37.656",
+    "en": "Today, the majority of enterprise customers use both our platform"
+  },
+  {
+    "id": 574,
+    "time": "33:37.698 --> 33:42.536",
+    "en": "and at least one of our products, up from 30% in the fourth quarter of 2025."
+  },
+  {
+    "id": 575,
+    "time": "33:42.703 --> 33:47.375",
+    "en": "Our product velocity is also accelerating as we expand our internal use of Claude."
+  },
+  {
+    "id": 576,
+    "time": "33:47.458 --> 33:51.295",
+    "en": "The average daily volume of code contributed per engineer is up"
+  },
+  {
+    "id": 577,
+    "time": "33:51.295 --> 33:54.423",
+    "en": "45x relative to the 2024 average,"
+  },
+  {
+    "id": 578,
+    "time": "33:54.423 --> 33:58.469",
+    "en": "and that's showing up in our launches. In the first nine months of 2026,"
+  },
+  {
+    "id": 579,
+    "time": "33:58.594 --> 34:02.056",
+    "en": "we shipped 250 models, products and features."
+  },
+  {
+    "id": 580,
+    "time": "34:02.348 --> 34:06.310",
+    "en": "And Claude isn't just accelerating our engineering teams across the company."
+  },
+  {
+    "id": 581,
+    "time": "34:06.435 --> 34:10.272",
+    "en": "Our employees' use of Claude grew more than 250 times"
+  },
+  {
+    "id": 582,
+    "time": "34:10.314 --> 34:13.317",
+    "en": "between January and September of 2026."
+  },
+  {
+    "id": 583,
+    "time": "34:13.359 --> 34:17.238",
+    "en": "Together, these help explain why our revenue per employee has grown"
+  },
+  {
+    "id": 584,
+    "time": "34:17.238 --> 34:22.076",
+    "en": "more than 4.5x from $1.4 million in Q3 of 2025"
+  },
+  {
+    "id": 585,
+    "time": "34:22.201 --> 34:25.955",
+    "en": "to over $6.6 million as of Q3 2026."
+  },
+  {
+    "id": 586,
+    "time": "34:25.996 --> 34:30.668",
+    "en": "Anthropic's third differentiator is that we are extremely efficient users of compute."
+  },
+  {
+    "id": 587,
+    "time": "34:30.751 --> 34:34.755",
+    "en": "We treat our compute as one fungible pool that serves customers,"
+  },
+  {
+    "id": 588,
+    "time": "34:34.839 --> 34:38.092",
+    "en": "trains our models and powers our own use of Claude."
+  },
+  {
+    "id": 589,
+    "time": "34:38.217 --> 34:41.387",
+    "en": "We are focused on getting the most out of every unit of compute."
+  },
+  {
+    "id": 590,
+    "time": "34:42.138 --> 34:45.558",
+    "en": "This gives us a cost to serve and a reinvestment advantage."
+  },
+  {
+    "id": 591,
+    "time": "34:45.850 --> 34:49.186",
+    "en": "As Tom described, there are two drivers of this efficiency."
+  },
+  {
+    "id": 592,
+    "time": "34:49.728 --> 34:53.107",
+    "en": "The first is our multi-silicon strategy, which lets us"
+  },
+  {
+    "id": 593,
+    "time": "34:53.107 --> 34:57.111",
+    "en": "buy the most price-performant chips and run them as a single fungible pool."
+  },
+  {
+    "id": 594,
+    "time": "34:57.194 --> 35:01.824",
+    "en": "The second is compounding compute multipliers, which have scaled our total"
+  },
+  {
+    "id": 595,
+    "time": "35:01.824 --> 35:05.744",
+    "en": "effective compute significantly faster than our physical capacity."
+  },
+  {
+    "id": 596,
+    "time": "35:06.287 --> 35:09.915",
+    "en": "You can see this in our financial results over the last six quarters."
+  },
+  {
+    "id": 597,
+    "time": "35:09.999 --> 35:14.086",
+    "en": "We grew revenue by more than 45x, while computing infrastructure costs"
+  },
+  {
+    "id": 598,
+    "time": "35:14.086 --> 35:17.423",
+    "en": "grew only 10x, a more than 4x improvement"
+  },
+  {
+    "id": 599,
+    "time": "35:17.423 --> 35:20.426",
+    "en": "in revenue per dollar of compute. And year to date,"
+  },
+  {
+    "id": 600,
+    "time": "35:20.551 --> 35:23.679",
+    "en": "our gross margin has improved to over 85%,"
+  },
+  {
+    "id": 601,
+    "time": "35:23.929 --> 35:27.266",
+    "en": "up from 29% in the same period of 2025."
+  },
+  {
+    "id": 602,
+    "time": "35:27.349 --> 35:31.270",
+    "en": "We think of these efficiency gains as capital that we get to allocate."
+  },
+  {
+    "id": 603,
+    "time": "35:31.479 --> 35:35.357",
+    "en": "In some cases, we pass them along to customers by lowering prices,"
+  },
+  {
+    "id": 604,
+    "time": "35:35.399 --> 35:38.527",
+    "en": "which drives diffusion of Claude across those customers."
+  },
+  {
+    "id": 605,
+    "time": "35:38.736 --> 35:42.072",
+    "en": "In other cases, we retain the margin and reinvest it"
+  },
+  {
+    "id": 606,
+    "time": "35:42.072 --> 35:45.784",
+    "en": "in additional compute, which is what makes this advantage compound."
+  },
+  {
+    "id": 607,
+    "time": "35:45.910 --> 35:50.456",
+    "en": "The next differentiator is our relentless focus on building for enterprises."
+  },
+  {
+    "id": 608,
+    "time": "35:50.748 --> 35:54.710",
+    "en": "We had the early insight that enterprises would be the largest and best customers"
+  },
+  {
+    "id": 609,
+    "time": "35:54.710 --> 35:55.669",
+    "en": "for AI."
+  },
+  {
+    "id": 610,
+    "time": "35:55.669 --> 35:59.298",
+    "en": "We have focused on serving that market since our commercial launch"
+  },
+  {
+    "id": 611,
+    "time": "35:59.298 --> 36:02.885",
+    "en": "in the first quarter of 2023, and have seen rapid adoption"
+  },
+  {
+    "id": 612,
+    "time": "36:02.885 --> 36:05.888",
+    "en": "since. As of Q3 2026,"
+  },
+  {
+    "id": 613,
+    "time": "36:05.930 --> 36:09.725",
+    "en": "we had more than 11,900 enterprise customers, up"
+  },
+  {
+    "id": 614,
+    "time": "36:09.725 --> 36:11.810",
+    "en": "nearly 8x from the start of the year."
+  },
+  {
+    "id": 615,
+    "time": "36:11.810 --> 36:15.105",
+    "en": "As the first frontier lab available on all three major clouds,"
+  },
+  {
+    "id": 616,
+    "time": "36:15.397 --> 36:18.359",
+    "en": "we allow enterprises to deploy Claude within the environments"
+  },
+  {
+    "id": 617,
+    "time": "36:18.359 --> 36:19.610",
+    "en": "they already operate in,"
+  },
+  {
+    "id": 618,
+    "time": "36:19.610 --> 36:22.530",
+    "en": "and we maintain the direct relationship with the end customer,"
+  },
+  {
+    "id": 619,
+    "time": "36:22.530 --> 36:24.406",
+    "en": "including control over pricing."
+  },
+  {
+    "id": 620,
+    "time": "36:24.406 --> 36:27.535",
+    "en": "We believe these partnerships enable us to be far more efficient"
+  },
+  {
+    "id": 621,
+    "time": "36:27.535 --> 36:30.162",
+    "en": "in our go-to-market efforts than the rest of the industry."
+  },
+  {
+    "id": 622,
+    "time": "36:30.162 --> 36:33.874",
+    "en": "In fact, our entire non-compute expense base, including sales"
+  },
+  {
+    "id": 623,
+    "time": "36:33.874 --> 36:37.628",
+    "en": "and marketing personnel and other operating expenses, represents"
+  },
+  {
+    "id": 624,
+    "time": "36:37.628 --> 36:40.589",
+    "en": "a lower percentage of revenue than the median enterprise"
+  },
+  {
+    "id": 625,
+    "time": "36:40.589 --> 36:43.592",
+    "en": "software company spends on sales and marketing alone."
+  },
+  {
+    "id": 626,
+    "time": "36:43.592 --> 36:47.054",
+    "en": "We expect to invest meaningfully in go-to-market to support our growth,"
+  },
+  {
+    "id": 627,
+    "time": "36:47.388 --> 36:51.267",
+    "en": "while remaining highly efficient in how we sell to and grow with our customers."
+  },
+  {
+    "id": 628,
+    "time": "36:51.350 --> 36:54.520",
+    "en": "Our final differentiator is our expanding market opportunity."
+  },
+  {
+    "id": 629,
+    "time": "36:55.229 --> 36:58.566",
+    "en": "We believe every company, across every industry"
+  },
+  {
+    "id": 630,
+    "time": "36:58.774 --> 37:01.318",
+    "en": "will be transformed by powerful AI."
+  },
+  {
+    "id": 631,
+    "time": "37:01.318 --> 37:03.737",
+    "en": "It started with coding and is spreading to knowledge"
+  },
+  {
+    "id": 632,
+    "time": "37:03.737 --> 37:07.908",
+    "en": "work, a $40 trillion market that we have just begun to penetrate."
+  },
+  {
+    "id": 633,
+    "time": "37:08.325 --> 37:12.830",
+    "en": "We count many of the world's largest and most complex businesses as our customers,"
+  },
+  {
+    "id": 634,
+    "time": "37:13.038 --> 37:18.002",
+    "en": "including over 50% of the Fortune 500 and over 30% of the Global 2000."
+  },
+  {
+    "id": 635,
+    "time": "37:18.043 --> 37:23.465",
+    "en": "And as Paul described, our Fortune 500 customers spend less than 0.1%"
+  },
+  {
+    "id": 636,
+    "time": "37:23.549 --> 37:27.761",
+    "en": "of their total expenses on Claude. As the frontier of AI advances,"
+  },
+  {
+    "id": 637,
+    "time": "37:28.012 --> 37:31.181",
+    "en": "we expect it will open up entirely new lines of business."
+  },
+  {
+    "id": 638,
+    "time": "37:31.348 --> 37:34.643",
+    "en": "This has started already with cybersecurity, and we expect it"
+  },
+  {
+    "id": 639,
+    "time": "37:34.643 --> 37:37.980",
+    "en": "will extend to life sciences and robotics in the coming years."
+  },
+  {
+    "id": 640,
+    "time": "37:38.230 --> 37:42.526",
+    "en": "Given the size of the opportunity we see and the strength of our business,"
+  },
+  {
+    "id": 641,
+    "time": "37:43.152 --> 37:46.739",
+    "en": "we are investing aggressively in three areas: compute,"
+  },
+  {
+    "id": 642,
+    "time": "37:47.323 --> 37:50.326",
+    "en": "customer value and safety and alignment."
+  },
+  {
+    "id": 643,
+    "time": "37:50.492 --> 37:53.495",
+    "en": "Compute is a critical enabler of our growth."
+  },
+  {
+    "id": 644,
+    "time": "37:53.537 --> 37:57.708",
+    "en": "It powers our R&D and enables us to meet expanding customer demand."
+  },
+  {
+    "id": 645,
+    "time": "37:57.958 --> 38:01.378",
+    "en": "We plan to make significant investments in compute over the coming years,"
+  },
+  {
+    "id": 646,
+    "time": "38:01.462 --> 38:05.090",
+    "en": "given the compelling returns we see. That includes both short-term"
+  },
+  {
+    "id": 647,
+    "time": "38:05.090 --> 38:09.595",
+    "en": "and multi-year cloud deals as well as data centers and chips we lease directly."
+  },
+  {
+    "id": 648,
+    "time": "38:09.637 --> 38:12.931",
+    "en": "We call this last piece Anthropic Direct, and we expect"
+  },
+  {
+    "id": 649,
+    "time": "38:12.931 --> 38:16.226",
+    "en": "it will make up a growing share of our compute base over the coming years."
+  },
+  {
+    "id": 650,
+    "time": "38:16.685 --> 38:19.688",
+    "en": "Our second investment area is customer value."
+  },
+  {
+    "id": 651,
+    "time": "38:19.813 --> 38:22.858",
+    "en": "We are maniacally focused on ensuring customers"
+  },
+  {
+    "id": 652,
+    "time": "38:22.858 --> 38:25.861",
+    "en": "get the strongest return from their spend on Claude."
+  },
+  {
+    "id": 653,
+    "time": "38:25.986 --> 38:30.783",
+    "en": "We do this through developing the most capable, aligned and useful models"
+  },
+  {
+    "id": 654,
+    "time": "38:30.949 --> 38:34.578",
+    "en": "and through reducing customer costs as we make our models more efficient."
+  },
+  {
+    "id": 655,
+    "time": "38:34.662 --> 38:39.124",
+    "en": "For example, our Opus 5.5 model in September delivered substantial gains"
+  },
+  {
+    "id": 656,
+    "time": "38:39.124 --> 38:42.795",
+    "en": "in model capability and 40% lower customer costs."
+  },
+  {
+    "id": 657,
+    "time": "38:42.878 --> 38:46.590",
+    "en": "This reduction was margin neutral to us because Opus 5.5"
+  },
+  {
+    "id": 658,
+    "time": "38:46.632 --> 38:48.592",
+    "en": "is significantly cheaper to serve."
+  },
+  {
+    "id": 659,
+    "time": "38:48.592 --> 38:52.221",
+    "en": "While we sacrifice some near-term revenue when we reduce customer costs,"
+  },
+  {
+    "id": 660,
+    "time": "38:52.429 --> 38:55.808",
+    "en": "in our experience, we quickly see a tailwind to revenue"
+  },
+  {
+    "id": 661,
+    "time": "38:55.891 --> 39:00.020",
+    "en": "as the lower cost of intelligence drives greater usage and diffusion of Claude."
+  },
+  {
+    "id": 662,
+    "time": "39:00.396 --> 39:03.232",
+    "en": "The third area is safety and alignment."
+  },
+  {
+    "id": 663,
+    "time": "39:03.232 --> 39:06.068",
+    "en": "Safety is core to how we operate at Anthropic,"
+  },
+  {
+    "id": 664,
+    "time": "39:06.068 --> 39:09.113",
+    "en": "and we've been investing here since the inception of the company."
+  },
+  {
+    "id": 665,
+    "time": "39:09.196 --> 39:11.615",
+    "en": "As model capabilities advance rapidly,"
+  },
+  {
+    "id": 666,
+    "time": "39:11.615 --> 39:14.743",
+    "en": "we're investing even more in people, processes"
+  },
+  {
+    "id": 667,
+    "time": "39:14.743 --> 39:17.746",
+    "en": "and compute to support our safety and alignment work."
+  },
+  {
+    "id": 668,
+    "time": "39:17.830 --> 39:22.710",
+    "en": "Taken together, we expect our focus on safety to remain a commercial advantage"
+  },
+  {
+    "id": 669,
+    "time": "39:22.876 --> 39:26.463",
+    "en": "because customers and developers want models and products they can trust."
+  },
+  {
+    "id": 670,
+    "time": "39:26.588 --> 39:30.968",
+    "en": "The investments we're making in compute, customer value and safety and alignment"
+  },
+  {
+    "id": 671,
+    "time": "39:30.968 --> 39:35.097",
+    "en": "will strengthen our business and broaden our opportunity over the long term."
+  },
+  {
+    "id": 672,
+    "time": "39:35.347 --> 39:40.102",
+    "en": "We believe Anthropic can deliver adjusted operating margins of more than 35%,"
+  },
+  {
+    "id": 673,
+    "time": "39:40.144 --> 39:43.689",
+    "en": "with continued efficiency gains, a greater share of Anthropic"
+  },
+  {
+    "id": 674,
+    "time": "39:43.689 --> 39:47.359",
+    "en": "Direct capacity, and more of our compute shifting towards inference."
+  },
+  {
+    "id": 675,
+    "time": "39:47.401 --> 39:50.404",
+    "en": "We see a path for compute and infrastructure expenses"
+  },
+  {
+    "id": 676,
+    "time": "39:50.404 --> 39:53.782",
+    "en": "to trend towards approximately 45 to 50% of revenue."
+  },
+  {
+    "id": 677,
+    "time": "39:54.366 --> 39:57.619",
+    "en": "Second, we expect sales, marketing and partnership costs"
+  },
+  {
+    "id": 678,
+    "time": "39:57.619 --> 40:00.038",
+    "en": "to trend towards 7 to 10% of revenue,"
+  },
+  {
+    "id": 679,
+    "time": "40:00.038 --> 40:03.208",
+    "en": "as partner fees become a smaller share of revenue as we scale."
+  },
+  {
+    "id": 680,
+    "time": "40:03.625 --> 40:07.296",
+    "en": "And third, we expect personnel and other operating expenses"
+  },
+  {
+    "id": 681,
+    "time": "40:07.296 --> 40:10.466",
+    "en": "combined to trend towards 7 to 10% of revenue,"
+  },
+  {
+    "id": 682,
+    "time": "40:10.549 --> 40:14.803",
+    "en": "as Claude makes our teams more productive and we grow headcount efficiently."
+  },
+  {
+    "id": 683,
+    "time": "40:14.845 --> 40:18.098",
+    "en": "We believe we have the best financial model: leading compute"
+  },
+  {
+    "id": 684,
+    "time": "40:18.098 --> 40:21.643",
+    "en": "efficiency, the greatest concentration of talent, and a culture"
+  },
+  {
+    "id": 685,
+    "time": "40:21.643 --> 40:25.522",
+    "en": "that keeps us focused on where we can add the most value to enterprises."
+  },
+  {
+    "id": 686,
+    "time": "40:25.773 --> 40:30.194",
+    "en": "AI's transformation of the global economy has the potential to be the largest"
+  },
+  {
+    "id": 687,
+    "time": "40:30.194 --> 40:34.031",
+    "en": "economic opportunity in history, and we are at the foothills of it today."
+  },
+  {
+    "id": 688,
+    "time": "40:38.035 --> 40:39.411",
+    "en": "You know, if today we look"
+  },
+  {
+    "id": 689,
+    "time": "40:39.411 --> 40:43.832",
+    "en": "at things like cancer, Alzheimer's, heart disease,"
+  },
+  {
+    "id": 690,
+    "time": "40:44.249 --> 40:48.879",
+    "en": "mental illness, these will be relics of the past"
+  },
+  {
+    "id": 691,
+    "time": "40:49.087 --> 40:52.049",
+    "en": "in, I think, less than a decade."
+  },
+  {
+    "id": 692,
+    "time": "40:52.049 --> 40:55.636",
+    "en": "And I believe that the company which gets the risks right"
+  },
+  {
+    "id": 693,
+    "time": "40:55.677 --> 40:59.848",
+    "en": "will also be the company that has the license to operate"
+  },
+  {
+    "id": 694,
+    "time": "40:59.848 --> 41:04.853",
+    "en": "that society trusts and society believes can build the benefits in the right way."
+  },
+  {
+    "id": 695,
+    "time": "41:05.437 --> 41:09.733",
+    "en": "I think if we do this right, we can create an age of miracles"
+  },
+  {
+    "id": 696,
+    "time": "41:09.733 --> 41:14.321",
+    "en": "where humanity is able to solve problems"
+  },
+  {
+    "id": 697,
+    "time": "41:14.488 --> 41:17.699",
+    "en": "that have eluded us for millennia."
+  },
+  {
+    "id": 698,
+    "time": "41:17.950 --> 41:21.495",
+    "en": "We have to make sure that all the risks,"
+  },
+  {
+    "id": 699,
+    "time": "41:21.703 --> 41:24.706",
+    "en": "all the ways that things can go wrong with this technology,"
+  },
+  {
+    "id": 700,
+    "time": "41:24.706 --> 41:27.876",
+    "en": "we very carefully address those risks"
+  },
+  {
+    "id": 701,
+    "time": "41:28.085 --> 41:32.005",
+    "en": "as we bring the benefits, and as we have a viable business at the same time."
+  },
+  {
+    "id": 702,
+    "time": "41:32.089 --> 41:36.218",
+    "en": "And I invite you to join us on the next phase of this journey."
+  }
+]

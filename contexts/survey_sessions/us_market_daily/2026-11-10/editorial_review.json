@@ -1,0 +1,16 @@
+{
+  "status": "passed_after_corrections",
+  "checks": [
+    "three alert stages independently recomputed",
+    "private data excluded",
+    "corporate source facts independently checked",
+    "TEAM official shareholder letter FDE paragraph re-read by root",
+    "real charts visually readable, XLY missing rather than zero"
+  ],
+  "corrections": [
+    "CGNX acquisition closing not confirmed",
+    "old Google no-model claim made historical",
+    "cent-normalized alert high vs raw chart precision explained"
+  ],
+  "tests": 19
+}

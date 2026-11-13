@@ -1,0 +1,35 @@
+{
+  "deployment": {
+    "id": "appgdep_6af64cfe0d44819195239e0760cd2adb",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_8b8a039b2758819183befe7c04b33cb5",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-12T23:34:45.076870+00:00"
+  },
+  "saved_version": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_8b8a039b2758819183befe7c04b33cb5",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 30,
+    "source": {
+      "commit_sha": "b135caa214945c474d0801314ba8d3bd7b78041f"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000096788207b2e2abdc091dc85f",
+      "content_hash": "sha256:4b4594c30b91929cfb181b0c9f50c912c1a841a754582bcef8454a915442561e",
+      "size_bytes": 7895040,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "live_readback": "unverified; local HTTPS connection refused"
+}

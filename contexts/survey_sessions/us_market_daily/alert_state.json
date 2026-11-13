@@ -1,9 +1,9 @@
 {
   "version": 1,
   "automation_id": "automation-3",
-  "last_checked_session": "2026-11-05",
-  "report_date_beijing": "2026-11-06",
-  "updated_at_utc": "2026-11-05T23:38:47.187699+00:00",
+  "last_checked_session": "2026-11-12",
+  "report_date_beijing": "2026-11-13",
+  "updated_at_utc": "2026-11-12T23:35:04.660848+00:00",
   "basis": {
     "window": "(session - 364 calendar days, session]",
     "high": "intraday high in split-adjusted Yahoo OHLC series",
@@ -12,77 +12,76 @@
     "high_dates_on_ties": "earliest high in current window"
   },
   "data_validation": {
-    "watchlist_closes_verified": false,
-    "status": "partial_QQQM_boundary_conflict_deferred",
+    "status": "crosschecked",
     "fully_valid_symbols": [
+      "QQQM",
       "VOO",
       "BRK.B"
     ],
-    "deferred_symbols": [
-      "QQQM"
-    ],
-    "site_url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site/",
-    "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-06/verification.json",
-    "public_brief_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-06/daily-brief.json",
-    "public_brief_sha256": "b3a0d05ce968c779ef1b28e4d11cc896e7bc88ba1d2f45cfc682e169b477192a"
+    "deferred_symbols": []
   },
   "symbols": {
     "QQQM": {
       "provider_symbol": "QQQM",
-      "last_checked_session": "2026-11-03",
-      "close_usd": 282.23,
+      "last_checked_session": "2026-11-12",
+      "close_usd": 283.39,
       "high_52w_usd": 314.11,
       "high_date": "2026-10-06",
-      "drawdown_pct": 10.150734679760454,
+      "drawdown_pct": 9.78001337111204,
       "stage": "below_13",
-      "stage_since_session": "2026-10-23",
+      "stage_since_session": "2026-11-09",
       "first_recorded_session": "2026-10-23",
-      "last_highlight_report_date": null,
+      "last_highlight_report_date": "2026-11-07",
       "level_15_usd": 266.99,
       "level_25_usd": 235.58,
-      "gap_to_15_percentage_points": 4.849265320239546,
-      "price_change_to_15_pct": -5.397111821622424,
+      "gap_to_15_percentage_points": 5.219986628887961,
+      "price_change_to_15_pct": -5.787077878541935,
       "previous_stage": "below_13",
       "new_highlight": false,
-      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
+      "verification_note": "Yahoo and StockAnalysis closes agree. High differences do not change stage.",
+      "historical_highlight_reason": "retrospective confirmation of11/5 crossing, current11/6 return to near_15",
+      "historical_previous_verified_market_stage": "at_or_above_15"
     },
     "VOO": {
       "provider_symbol": "VOO",
-      "last_checked_session": "2026-11-05",
-      "close_usd": 673.97,
+      "last_checked_session": "2026-11-12",
+      "close_usd": 696.0,
       "high_52w_usd": 718.47,
       "high_date": "2026-10-06",
-      "drawdown_pct": 6.1937174571750635,
+      "drawdown_pct": 3.1274792266900553,
       "stage": "below_13",
       "stage_since_session": "2026-10-23",
       "first_recorded_session": "2026-10-23",
       "last_highlight_report_date": null,
       "level_15_usd": 610.7,
       "level_25_usd": 538.85,
-      "gap_to_15_percentage_points": 8.806282542824936,
-      "price_change_to_15_pct": -9.387732391649472,
+      "gap_to_15_percentage_points": 11.872520773309944,
+      "price_change_to_15_pct": -12.255747126436777,
       "previous_stage": "below_13",
       "new_highlight": false,
-      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
+      "verification_note": "Yahoo and StockAnalysis closes agree. High differences do not change stage."
     },
     "BRK.B": {
       "provider_symbol": "BRK-B",
-      "last_checked_session": "2026-11-05",
-      "close_usd": 572.33,
-      "high_52w_usd": 586.3,
-      "high_date": "2026-11-05",
-      "drawdown_pct": 2.3827342647085303,
+      "last_checked_session": "2026-11-12",
+      "close_usd": 589.83,
+      "high_52w_usd": 596.9,
+      "high_date": "2026-11-12",
+      "drawdown_pct": 1.1844530072038784,
       "stage": "below_13",
       "stage_since_session": "2026-10-23",
       "first_recorded_session": "2026-10-23",
       "last_highlight_report_date": null,
-      "level_15_usd": 498.36,
-      "level_25_usd": 439.73,
-      "gap_to_15_percentage_points": 12.61726573529147,
-      "price_change_to_15_pct": -12.925235441091687,
+      "level_15_usd": 507.37,
+      "level_25_usd": 447.68,
+      "gap_to_15_percentage_points": 13.815546992796122,
+      "price_change_to_15_pct": -13.980299408304099,
       "previous_stage": "below_13",
       "new_highlight": false,
-      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
+      "verification_note": "Yahoo and StockAnalysis closes agree. High differences do not change stage."
     }
   },
   "highlighted_symbols": [],
@@ -116,22 +115,7 @@
     "VOO",
     "BRK-B"
   ],
-  "deferred_checks": {
-    "QQQM": {
-      "attempted_session": "2026-11-05",
-      "attempted_at_utc": "2026-11-05T23:38:47.187699+00:00",
-      "reason": "Yahoo and Investing close266.85 -> D15.047%, StockAnalysis267.02 with high314.12 -> D14.994%; conflict straddles15% stage. Preserve last valid stage; spotlight pending confirmation, not a confirmed cross.",
-      "yahoo_close": 266.85,
-      "investing_close": 266.85,
-      "stockanalysis_close": 267.02,
-      "yahoo_high": 314.11,
-      "stockanalysis_high": 314.12,
-      "high_date": "2026-10-06",
-      "last_valid_session": "2026-11-03",
-      "highlight_report_date": "2026-11-06",
-      "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-06/verification.json"
-    }
-  },
+  "deferred_checks": {},
   "resolved_checks": {
     "BRK.B": {
       "resolved_session": "2026-11-05",
@@ -160,6 +144,52 @@
         "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-05/verification.json"
       },
       "basis": "Fresh dated second source corroborates current close and rolling high; differing StockAnalysis close disclosed. No stage change."
+    },
+    "QQQM": {
+      "resolved_session": "2026-11-06",
+      "resolved_at_utc": "2026-11-06T23:44:11.380230+00:00",
+      "old_deferred_check": {
+        "attempted_session": "2026-11-05",
+        "attempted_at_utc": "2026-11-05T23:38:47.187699+00:00",
+        "reason": "Yahoo and Investing close266.85 -> D15.047%, StockAnalysis267.02 with high314.12 -> D14.994%; conflict straddles15% stage. Preserve last valid stage; spotlight pending confirmation, not a confirmed cross.",
+        "yahoo_close": 266.85,
+        "investing_close": 266.85,
+        "stockanalysis_close": 267.02,
+        "yahoo_high": 314.11,
+        "stockanalysis_high": 314.12,
+        "high_date": "2026-10-06",
+        "last_valid_session": "2026-11-03",
+        "highlight_report_date": "2026-11-06",
+        "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-06/verification.json"
+      },
+      "basis": {
+        "session": "2026-11-05",
+        "checked_on": "2026-11-07",
+        "close": 266.85,
+        "high_yahoo_investing": 314.11,
+        "high_stockanalysis": 314.12,
+        "d_yahoo": 15.04568463277196,
+        "d_stockanalysis": 15.048389150643061,
+        "finding": "StockAnalysis historical close now266.85 vs267.02 captured yesterday. Both high variants now yield D>15. Record retrospective confirmation, not a fresh crossing on11/6."
+      }
     }
+  },
+  "reported_event_ids": [
+    "QQQM:2026-11-05:15:retrospective-confirmation"
+  ],
+  "publication": {
+    "id": "appgdep_6af64cfe0d44819195239e0760cd2adb",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_8b8a039b2758819183befe7c04b33cb5",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-12T23:34:45.076870+00:00"
   }
 }

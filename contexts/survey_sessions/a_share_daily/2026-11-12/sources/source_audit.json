@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-12T09:06:53.498408+08:00",
+  "report_date": "2026-11-12",
+  "cutoff": "2026-11-12T09:00:00+08:00",
+  "market_session": "2026-11-11",
+  "valuation_issue": 3012,
+  "valuation_asof": "2026-11-11",
+  "verified_star": 4.8,
+  "previous_verified_star": 4.8,
+  "threshold_triggered": false,
+  "author_list": "https://www.sina.cn/media/5546795997/",
+  "article": "https://www.sina.cn/news/detail/5364183501639571.html",
+  "source_image_sha256": "f170c62883faaacdc9c2bf9895c73c4c64ce73e32f357931dbe756464988d864",
+  "valuation_counts": {
+    "低估": 18,
+    "正常": 32,
+    "高估": 0
+  },
+  "changes": [
+    {
+      "name": "中证500",
+      "before": "低估",
+      "after": "正常"
+    }
+  ],
+  "finews_report_date": "2026-11-11",
+  "group_reviewed_count": 3,
+  "china_history_gap": [
+    {
+      "symbol": "usKWEB.AM",
+      "history_asof": "2026-11-10",
+      "missing_session": "2026-11-11",
+      "quote_time": "2026-11-11T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBABA.N",
+      "history_asof": "2026-11-10",
+      "missing_session": "2026-11-11",
+      "quote_time": "2026-11-11T16:04:18-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usPDD.OQ",
+      "history_asof": "2026-11-10",
+      "missing_session": "2026-11-11",
+      "quote_time": "2026-11-11T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usJD.OQ",
+      "history_asof": "2026-11-10",
+      "missing_session": "2026-11-11",
+      "quote_time": "2026-11-11T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBIDU.OQ",
+      "history_asof": "2026-11-10",
+      "missing_session": "2026-11-11",
+      "quote_time": "2026-11-11T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usNTES.OQ",
+      "history_asof": "2026-11-10",
+      "missing_session": "2026-11-11",
+      "quote_time": "2026-11-11T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    }
+  ],
+  "events": [
+    "https://finance.eastmoney.com/a/202611113928447384.html",
+    "https://www.sse.com.cn/market/sseindex/diclosure/c/c_20260924_10833342.shtml",
+    "https://www.szse.cn/disclosure/notice/t20261106_623796.html"
+  ]
+}

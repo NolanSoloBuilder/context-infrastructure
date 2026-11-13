@@ -1,0 +1,154 @@
+[
+  {
+    "key": "AMZN_10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:15.545466+00:00",
+    "sha256": "af9eba8ae0d51f4c799d540e296fd3b997ba240638ace6d2ac5efc76d6551f9d",
+    "error": ""
+  },
+  {
+    "key": "AMZN_10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:15.561333+00:00",
+    "sha256": "70c0719451654a473f6c29bc87c732b09d3eb1e3121ba83e12876a6b2cb4ef89",
+    "error": ""
+  },
+  {
+    "key": "MSFT_10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:15.830053+00:00",
+    "sha256": "8691d65d412a0fdd4b3ed89754a27e25cf6faef04844cc876792140a3fa0e0a5",
+    "error": ""
+  },
+  {
+    "key": "MSFT_10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:16.555338+00:00",
+    "sha256": "a657e5819162f7a954bc5124301c20cec44a4139d8dec09656b23770cf61d62d",
+    "error": ""
+  },
+  {
+    "key": "AAPL_10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:15.738487+00:00",
+    "sha256": "b893894bff8587fc38ffb26b761bd0a2b6386070a4081640e54d549c48e3aaff",
+    "error": ""
+  },
+  {
+    "key": "AAPL_10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:15.955644+00:00",
+    "sha256": "04b367210e1f7e16fbaa70794d80929b3bea51c08dc6a13f66583d4b3fd8c268",
+    "error": ""
+  },
+  {
+    "key": "PLTR_10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:15.958592+00:00",
+    "sha256": "b6288da0f782a495a130e3ee13ead2179ec65f27fef9899d7d766b82d9644365",
+    "error": ""
+  },
+  {
+    "key": "PLTR_10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:16.479376+00:00",
+    "sha256": "581e1954a760332efcac4f38b0d50debb87c717c664ba04873f3ce7a8c4c853d",
+    "error": ""
+  },
+  {
+    "key": "ACN_10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000032/acn-20260531.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:16.192796+00:00",
+    "sha256": "2d36551188c821783d951a9058adbbf56547a328414e53a7bacab4c09c5be211",
+    "error": ""
+  },
+  {
+    "key": "ACN_10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/acn-20260831.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:16.366398+00:00",
+    "sha256": "b3e39803c2a38c58c572aac1d4a00c9e0672cae151910fe69a1a967bad3b9526",
+    "error": ""
+  },
+  {
+    "key": "EPAM_10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000052/epam-20260930.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:17.396710+00:00",
+    "sha256": "e4e60ecaa6e68e4e94cef046737ed20dec11ee33b712f01d3baab975bc21d9d1",
+    "error": ""
+  },
+  {
+    "key": "EPAM_10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000015/epam-20251231.htm",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:16.866480+00:00",
+    "sha256": "00e5deeafb2abba2788edab9e8ee5875ed811e1fdcd38582d549460798d251f6",
+    "error": ""
+  },
+  {
+    "key": "AMZN_price",
+    "url": "https://stockanalysis.com/stocks/amzn/history/",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:17.216916+00:00",
+    "sha256": "f6396af9ff3da5b90589c7a70b013ba84437b2bb06a8e8ae8d1c7ad758e9949b",
+    "error": ""
+  },
+  {
+    "key": "MSFT_price",
+    "url": "https://stockanalysis.com/stocks/msft/history/",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:16.955599+00:00",
+    "sha256": "dd489c87b557b5af5309b9fd9d3bf50221d8780fe4a7f997c1e815a089477500",
+    "error": ""
+  },
+  {
+    "key": "AAPL_price",
+    "url": "https://stockanalysis.com/stocks/aapl/history/",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:17.475230+00:00",
+    "sha256": "977116b9b101a0369bed019d45ee7bad5958c16fa7f3bf73ed7f99cb19f24b49",
+    "error": ""
+  },
+  {
+    "key": "PLTR_price",
+    "url": "https://stockanalysis.com/stocks/pltr/history/",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:17.501853+00:00",
+    "sha256": "db886fae18e4abe31293f0d64821c11b835fd5ca8df32b0d77932ac4a7add56d",
+    "error": ""
+  },
+  {
+    "key": "ACN_price",
+    "url": "https://stockanalysis.com/stocks/acn/history/",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:32.023881+00:00",
+    "sha256": "a4f91a0b8f1c096cf13d247f77877771e8037d425eb5ec541804656632e75879",
+    "error": ""
+  },
+  {
+    "key": "EPAM_price",
+    "url": "https://stockanalysis.com/stocks/epam/history/",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:17.878625+00:00",
+    "sha256": "f438c7909cfae43fd04ecd41267f108d5698ef1e82bde430df3d0a777a376a8d",
+    "error": ""
+  },
+  {
+    "key": "GLOB_price",
+    "url": "https://stockanalysis.com/stocks/glob/history/",
+    "status": "403",
+    "retrieved_at": "2026-11-13T03:05:17.698909+00:00",
+    "sha256": "ba08b1068099b01449b2c416d5e534f474723e3b7badd9347f8426b60464d05e",
+    "error": ""
+  }
+]

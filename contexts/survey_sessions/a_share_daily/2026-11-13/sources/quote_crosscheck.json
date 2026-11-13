@@ -1,0 +1,69 @@
+{
+  "asof": "2026-11-12",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "quote_time": "20261112161427",
+      "close": 3655.83,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "quote_time": "20261112161427",
+      "close": 2772.07,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "quote_time": "20261112161409",
+      "close": 4043.93,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "quote_time": "20261112161409",
+      "close": 1309.84,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "quote_time": "20261112161441",
+      "close": 2.884,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "quote_time": "20261112161500",
+      "close": 4.114,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "quote_time": "20261112161451",
+      "close": 1.381,
+      "consistent": true
+    }
+  ],
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3655.83,
+      "daily_pct": -0.67
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4043.93,
+      "daily_pct": -0.78
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1309.84,
+      "daily_pct": 0.73
+    }
+  ],
+  "independent_sources": [
+    "https://news.10jqka.com.cn/20261112/c681748583.shtml",
+    "https://www.thepaper.cn/newsDetail_forward_34459030"
+  ],
+  "note": "腾讯历史和点价为同一提供方。四个重点指数的收盘与同花顺复盘一致。"
+}

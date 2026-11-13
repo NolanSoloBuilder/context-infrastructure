@@ -1,0 +1,19 @@
+{
+  "report_date": "2026-11-09",
+  "checked_at_utc": "2026-11-08T23:26:48.028652+00:00",
+  "checked_at_et": "2026-11-08T18:26:48.028652-05:00",
+  "latest_completed_regular_session": "2026-11-06",
+  "next_regular_session": "2026-11-09",
+  "next_open_et": "2026-11-09T09:30:00-05:00",
+  "next_open_beijing": "2026-11-09T22:30:00+08:00",
+  "next_premarket_start_et": "2026-11-09T04:00:00-05:00",
+  "next_premarket_status": "not_started",
+  "current_market_status": "weekend_closed",
+  "new_regular_session": false,
+  "exchange_calendar_source": "https://www.nyse.com/trade/hours-calendars",
+  "source_read_scope": "2026 holidays and NYSE core/Arca extended hours",
+  "alert_state_before_sha256": "b7289b052ce359b8d635ed81b3b56ab9612f81e18e901348d849e3825507500d",
+  "reddit_state_before_sha256": "ee36f6041dbbeb998e6f6d4796ce0c4815dd06d64623a661efdcf48a7c750cd2",
+  "quotes_recollected_locally": false,
+  "charts_regenerated": false
+}

@@ -1,0 +1,61 @@
+{
+  "items": [],
+  "sections": [
+    {
+      "title": "Reddit｜讨论已读，最新日期仍有缺口",
+      "paragraphs": [
+        "六社区New与Top日窗均已尝试；六路RSS返回403后停止，部分网页是旧缓存。读到Reddit搜索导流、Rebellions混合推理和存储周期讨论的正文与实质评论，但原帖只显示相对时间，未核定绝对日期，本日不列为已核最新精选。",
+        "值得保留的研究问题是：AI使用增长由谁取得利润、替代芯片是否仍依赖NVIDIA互连，以及存储低预期PE的利润分母能否持续。相关帖中的导流数量、跌幅和估值数字未完整核验，不作为入场依据。未入选不代表已确认社区没有新增内容。"
+      ],
+      "sources": [
+        {
+          "title": "r/stocks New",
+          "url": "https://www.reddit.com/r/stocks/new/"
+        },
+        {
+          "title": "Reddit与AI导流讨论（原帖日期待核）",
+          "url": "https://www.reddit.com/r/stocks/comments/1xtezjr/reddits_revenue_is_up_53_its_stock_is_down_almost/"
+        },
+        {
+          "title": "存储周期讨论（原帖日期待核）",
+          "url": "https://www.reddit.com/r/stocks/comments/1xt9u7e/mu_skhy_and_sndk_are_42_35_and_635_below_their/"
+        }
+      ]
+    },
+    {
+      "title": "FiNews｜已读11/11版，任免传闻仍待官方证实",
+      "paragraphs": [
+        "实际读取11/11版，更新时间11/11 23:18:04 UTC，采集23:30:31 UTC；覆盖7段总结、21条新闻与日历/行情。聚合摘要用于找线索，不作为独立核实的财报、资金流或股价因果证据。",
+        "对英伟达任免传闻，重新核到的11/10官方声明仍只确认聘请独立调查团队。这项进展昨天已发布；没有在这份声明中看到CEO更换、调查结论或财务影响，因此不把媒体说法提升为已发生事实。"
+      ],
+      "sources": [
+        {
+          "title": "FiNews 11/11日报",
+          "url": "https://finews.fyi/"
+        },
+        {
+          "title": "NVIDIA独立董事11/10声明",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+        }
+      ]
+    },
+    {
+      "title": "FDE资料补充｜交付能力重要，利润仍需证明",
+      "paragraphs": [
+        "已读取Anthropic公司招聘原文：FDE面向战略客户构建生产系统，并将可复用做法交给伙伴；岗位职责包括容量/利用率、项目定价、合同经济性及伙伴交付质量。这支持把FDE理解为需要管理成本和回报的交付业务。",
+        "它不能证明某家上市服务商新增订单或利润，更不能直接确认低估。官方页面未核到首次发布日期，聚合站又分别标10/2、11/10、11/11，故仅作为本次补核资料，不写成今日新招聘或新增长催化。下一步应核上市服务商实际签约、项目毛利、可复用软件收入与现金回收。"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic官方GTM Strategy & Operations, FDE岗位",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5427938008"
+        }
+      ]
+    }
+  ],
+  "proposed_reported_claim_keys": [],
+  "primary_source_claim_keys": [],
+  "scan_status": "partial_read_timestamp_and_access_gaps",
+  "reviewed_at": "2026-11-11T23:34:50.821791+00:00",
+  "state_updated": false
+}

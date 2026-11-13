@@ -1,0 +1,398 @@
+[
+  {
+    "symbol": "^GSPC",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=1mo&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:17.921471+00:00",
+    "name": "S&P 500",
+    "currency": "USD",
+    "bars": 23
+  },
+  {
+    "symbol": "VOO",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:17.921749+00:00",
+    "name": "Vanguard S&P 500 ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "QQQM",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:17.924461+00:00",
+    "name": "Invesco NASDAQ 100 ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "SPMO",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:17.924648+00:00",
+    "name": "Invesco S&P 500 Momentum ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "MAGS",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.167332+00:00",
+    "name": "Roundhill Magnificent Seven ETF",
+    "currency": "USD",
+    "bars": 899
+  },
+  {
+    "symbol": "SMH",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.421134+00:00",
+    "name": "VanEck Semiconductor ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "VGT",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.425359+00:00",
+    "name": "Vanguard Information Technology Index Fund ETF Shares",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "SOXX",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.433726+00:00",
+    "name": "iShares Semiconductor ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "DRAM",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.647697+00:00",
+    "name": "Roundhill Memory ETF",
+    "currency": "USD",
+    "bars": 152
+  },
+  {
+    "symbol": "SGOV",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.925941+00:00",
+    "name": "iShares 0-3 Month Treasury Bond ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "IGV",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IGV?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.939322+00:00",
+    "name": "iShares Expanded Tech-Software Sector ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "XSW",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XSW?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:18.949420+00:00",
+    "name": "State Street SPDR S&P Software & Services ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "IHI",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IHI?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:19.074264+00:00",
+    "name": "iShares U.S. Medical Devices ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "BOTZ",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BOTZ?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:19.438309+00:00",
+    "name": "Global X Robotics & Artificial Intelligence ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "AIQ",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AIQ?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:19.492046+00:00",
+    "name": "Global X Artificial Intelligence & Technology ETF",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "KORU",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:19.517055+00:00",
+    "name": "Direxion Daily South Korea Bull 3X Shares",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "SOXL",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:19.622706+00:00",
+    "name": "Direxion Daily Semiconductor Bull 3X Shares",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "SOXS",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXS?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:19.984392+00:00",
+    "name": "Direxion Daily Semiconductor Bear 3X Shares",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "RRX",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RRX?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:19.995485+00:00",
+    "name": "Regal Rexnord Corporation",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "CGNX",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.058511+00:00",
+    "name": "Cognex Corporation",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "ATS",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ATS?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.172875+00:00",
+    "name": "ATS Corporation",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "GOOGL",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.467699+00:00",
+    "name": "Alphabet Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "AMZN",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.488083+00:00",
+    "name": "Amazon.com, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "NVDA",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.585478+00:00",
+    "name": "NVIDIA Corporation",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "SKHY",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SKHY?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.674399+00:00",
+    "name": "SK hynix Inc.",
+    "currency": "USD",
+    "bars": 85
+  },
+  {
+    "symbol": "INTC",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.919693+00:00",
+    "name": "Intel Corporation",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "SNDK",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.979611+00:00",
+    "name": "Sandisk Corporation",
+    "currency": "USD",
+    "bars": 436
+  },
+  {
+    "symbol": "MRNA",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:20.982922+00:00",
+    "name": "Moderna, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "SOFI",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:21.098110+00:00",
+    "name": "SoFi Technologies, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "BRK-B",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:21.567048+00:00",
+    "name": "Berkshire Hathaway Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "NOW",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:21.652509+00:00",
+    "name": "ServiceNow, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "CRM",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:21.896801+00:00",
+    "name": "Salesforce, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "PLTR",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:21.902292+00:00",
+    "name": "Palantir Technologies Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "MSFT",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.177259+00:00",
+    "name": "Microsoft Corporation",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "GEHC",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.181854+00:00",
+    "name": "GE HealthCare Technologies Inc.",
+    "currency": "USD",
+    "bars": 977
+  },
+  {
+    "symbol": "ISRG",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ISRG?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.372264+00:00",
+    "name": "Intuitive Surgical, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "ACN",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACN?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.480720+00:00",
+    "name": "Accenture plc",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "EPAM",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EPAM?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.607623+00:00",
+    "name": "EPAM Systems, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "GLOB",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLOB?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.719380+00:00",
+    "name": "Globant S.A.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "TEM",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEM?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.823980+00:00",
+    "name": "Tempus AI, Inc.",
+    "currency": "USD",
+    "bars": 602
+  },
+  {
+    "symbol": "SPCX",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPCX?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:22.975685+00:00",
+    "name": "Space Exploration Technologies Corp.",
+    "currency": "USD",
+    "bars": 103
+  },
+  {
+    "symbol": "BA",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:23.140292+00:00",
+    "name": "The Boeing Company",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "TSLA",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:23.254907+00:00",
+    "name": "Tesla, Inc.",
+    "currency": "USD",
+    "bars": 1255
+  },
+  {
+    "symbol": "AAPL",
+    "status": "ok",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5y&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "captured_at": "2026-11-06T23:37:23.286104+00:00",
+    "name": "Apple Inc.",
+    "currency": "USD",
+    "bars": 1255
+  }
+]

@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-12",
+  "market_session": "2026-11-11",
+  "reviewed_at": "2026-11-11T23:34:24.570189+00:00",
+  "reviewed_at_bjt": "2026-11-12T07:34:24.570189+08:00",
+  "calendar": {
+    "previous_completed_session": "2026-11-11",
+    "next_session": "2026-11-12",
+    "equity_status": "11/11 老兵日 NYSE 正常开市，下一交易日 11/12；不属于周末休市简版。",
+    "regular_close_et": "2026-11-11T16:00:00-05:00",
+    "regular_close_bjt": "2026-11-12T05:00:00+08:00",
+    "after_hours_ends_et": "2026-11-11T20:00:00-05:00",
+    "after_hours_ends_bjt": "2026-11-12T09:00:00+08:00",
+    "after_hours_status_at_review": "ongoing",
+    "next_premarket_start_et": "2026-11-12T04:00:00-05:00",
+    "next_premarket_start_bjt": "2026-11-12T17:00:00+08:00",
+    "next_premarket_status": "not_started",
+    "next_regular_open_et": "2026-11-12T09:30:00-05:00",
+    "next_regular_open_bjt": "2026-11-12T22:30:00+08:00",
+    "bond_market_note": "SIFMA 建议美国美元计价固定收益现货市场 11/11 全天休市；不是对股票或所有期货产品的休市判断。Fed 日历也将 11/11 统计发布顺延 11/12。",
+    "source_urls": [
+      "https://www.nyse.com/trade/hours-calendars",
+      "https://www.sifma.org/resources/general/holiday-schedule/",
+      "https://www.federalreserve.gov/newsevents/2026-november.htm"
+    ]
+  },
+  "vix": {
+    "session": "2026-11-11",
+    "value": 17.49,
+    "previous_close": 19.46,
+    "change_points": -1.97,
+    "change_pct": -10.123329907502576,
+    "unit": "index_points",
+    "kind": "cash_index_close",
+    "cboe_display_asof": "9:15 PM 11/11/2026 (页面未注明时区)",
+    "second_source_display_asof": "3:15 PM CST 11/11/26",
+    "second_source_datetime_et": "2026-11-11T16:15:00-05:00",
+    "second_source_datetime_bjt": "2026-11-12T05:15:00+08:00",
+    "verification": "Cboe 官方现值与 WSJ 明确日期的 OHLC CLOSE 一致。Cboe 官方下载 CSV 尚只到 11/10，未把该 CSV 冒充 11/11 收盘证据。",
+    "cboe_csv_latest": {
+      "DATE": "11/10/2026",
+      "OPEN": "19.760000",
+      "HIGH": "21.610000",
+      "LOW": "19.290000",
+      "CLOSE": "19.460000"
+    },
+    "source_urls": [
+      "https://www.cboe.com/tradable-products/vix",
+      "https://www.wsj.com/market-data/quotes/index/VIX/historical-prices",
+      "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+    ]
+  },
+  "treasury": {
+    "observation_date": "2026-11-10",
+    "requested_equity_session": "2026-11-11",
+    "new_row_for_requested_session": false,
+    "two_year_pct": 4.73,
+    "ten_year_pct": 4.98,
+    "spread_10y_minus_2y_bp": 25.0,
+    "daily_change_for_2026_11_11_bp": null,
+    "basis": "美国财政部 Daily Treasury Par Yield Curve/CMT；约 15:30 ET 指示性买方报价，不是实时成交。",
+    "note": "11/11 老兵日债券市场休市，官方页面最新有效行仍为 11/10；不生成 11/11 的新收益率或零变动。",
+    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve"
+  },
+  "sgov": {
+    "sec_30_day_yield_pct": 3.85,
+    "asof": "2026-11-10",
+    "previous_verified_yield_pct": 3.85,
+    "previous_verified_asof": "2026-11-09",
+    "yield_value_changed": false,
+    "disclosure_date_advanced": true,
+    "trailing_12m_yield_pct": 3.63,
+    "expense_ratio_pct": 0.09,
+    "note": "本次新访问官方页，SEC 收益率数值无变化，只推进官方披露日；不把 trailing yield 当 SEC 收益率，不把任一收益率当未来总回报。",
+    "source_url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf"
+  },
+  "event_window_et": [
+    "2026-11-12",
+    "2026-11-18"
+  ],
+  "events": [
+    {
+      "name": "美国初请失业金",
+      "date_et": "2026-11-12",
+      "time_et": "08:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-12T08:30:00-05:00",
+      "datetime_bjt": "2026-11-12T21:30:00+08:00",
+      "reference_period": null,
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "按 DOL 周四 08:30 EST 规则；11/12 非例外。2026 年 11 月的例外是 11/25，非本次。",
+      "source_urls": [
+        "https://oui.doleta.gov/unemploy/claims_arch.asp"
+      ]
+    },
+    {
+      "name": "Moderna Analyst Day",
+      "date_et": "2026-11-12",
+      "time_et": null,
+      "timezone": "America/New_York",
+      "datetime_et": null,
+      "datetime_bjt": null,
+      "reference_period": null,
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "SEC 确认日期；当前可打开 IR 正文未返回具体时刻，09:00 EST 仅见搜索索引，故时间留空。不是季度财报。",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm",
+        "https://investors.modernatx.com/events-presentations"
+      ]
+    },
+    {
+      "name": "Cisco FY2027 Q1 业绩电话会",
+      "date_et": "2026-11-12",
+      "time_et": "16:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-12T16:30:00-05:00",
+      "datetime_bjt": "2026-11-13T05:30:00+08:00",
+      "reference_period": "截至 2026-10-24 的财季",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "公告另明确当日常规收盘后发布业绩，未明示发布分钟；16:30 为电话会时间。",
+      "source_urls": [
+        "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html"
+      ]
+    },
+    {
+      "name": "Applied Materials FY2026 Q4/全年业绩电话会",
+      "date_et": "2026-11-12",
+      "time_et": "16:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-12T16:30:00-05:00",
+      "datetime_bjt": "2026-11-13T05:30:00+08:00",
+      "reference_period": "FY2026 Q4/全年",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "官方公告核实电话会时刻；业绩稿具体发布分钟未说明，不把电话会时刻冒充发布时间。",
+      "source_urls": [
+        "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results"
+      ]
+    },
+    {
+      "name": "美国 PPI",
+      "date_et": "2026-11-13",
+      "time_et": "08:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-13T08:30:00-05:00",
+      "datetime_bjt": "2026-11-13T21:30:00+08:00",
+      "reference_period": "2026-10",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "",
+      "source_urls": [
+        "https://www.bls.gov/schedule/2026/11_sched.htm"
+      ]
+    },
+    {
+      "name": "美国进出口物价指数",
+      "date_et": "2026-11-17",
+      "time_et": "08:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-17T08:30:00-05:00",
+      "datetime_bjt": "2026-11-17T21:30:00+08:00",
+      "reference_period": "2026-10",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "",
+      "source_urls": [
+        "https://www.bls.gov/schedule/2026/11_sched.htm"
+      ]
+    },
+    {
+      "name": "美国工业产出与产能利用率",
+      "date_et": "2026-11-17",
+      "time_et": "09:15:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-17T09:15:00-05:00",
+      "datetime_bjt": "2026-11-17T22:15:00+08:00",
+      "reference_period": "2026-10",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "",
+      "source_urls": [
+        "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      ]
+    },
+    {
+      "name": "NVIDIA FY2027 Q3 业绩发布",
+      "date_et": "2026-11-17",
+      "time_et": "16:20:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-17T16:20:00-05:00",
+      "datetime_bjt": "2026-11-18T05:20:00+08:00",
+      "reference_period": "截至 2026-10-25 的财季",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "公司用 approximately，属于预计发布时间；原公告 13:20 PT。",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+      ]
+    },
+    {
+      "name": "NVIDIA FY2027 Q3 业绩电话会",
+      "date_et": "2026-11-17",
+      "time_et": "17:00:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-17T17:00:00-05:00",
+      "datetime_bjt": "2026-11-18T06:00:00+08:00",
+      "reference_period": "截至 2026-10-25 的财季",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "原公告 14:00 PT / 17:00 ET。",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+      ]
+    },
+    {
+      "name": "FOMC 10/27–28 会议纪要",
+      "date_et": "2026-11-18",
+      "time_et": "14:00:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-18T14:00:00-05:00",
+      "datetime_bjt": "2026-11-19T03:00:00+08:00",
+      "reference_period": "2026-10-27/28",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": true,
+      "note": "会议纪要，不是新的利率决议。",
+      "source_urls": [
+        "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      ]
+    },
+    {
+      "name": "Globant Q3 业绩电话会（窗口外前瞻）",
+      "date_et": "2026-11-19",
+      "time_et": "16:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-11-19T16:30:00-05:00",
+      "datetime_bjt": "2026-11-20T05:30:00+08:00",
+      "reference_period": "截至 2026-09-30 的季度",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": false,
+      "note": "11/19 超出本次 11/12–18 日窗口；业绩当日常规收盘后发布，具体分钟未说明。",
+      "source_urls": [
+        "https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th"
+      ]
+    },
+    {
+      "name": "美国非农就业报告",
+      "date_et": "2026-12-04",
+      "time_et": "08:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-12-04T08:30:00-05:00",
+      "datetime_bjt": "2026-12-04T21:30:00+08:00",
+      "reference_period": "2026-11",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": false,
+      "note": "不在未来 7 日内。",
+      "source_urls": [
+        "https://www.bls.gov/schedule/news_release/empsit.htm"
+      ]
+    },
+    {
+      "name": "下一次 FOMC 会议开始",
+      "date_et": "2026-12-08",
+      "time_et": null,
+      "timezone": "America/New_York",
+      "datetime_et": null,
+      "datetime_bjt": null,
+      "reference_period": null,
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": false,
+      "note": "会议 12/8–9；本次不杜撰具体决议发布时间。不在未来 7 日内。",
+      "source_urls": [
+        "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      ]
+    },
+    {
+      "name": "美国 CPI",
+      "date_et": "2026-12-10",
+      "time_et": "08:30:00",
+      "timezone": "America/New_York",
+      "datetime_et": "2026-12-10T08:30:00-05:00",
+      "datetime_bjt": "2026-12-10T21:30:00+08:00",
+      "reference_period": "2026-11",
+      "status": "scheduled_not_released",
+      "within_next_seven_us_calendar_days": false,
+      "note": "10 月 CPI 已于 11/10 发布，下一期是 12/10；本次 7 日窗口没有新的 CPI。",
+      "source_urls": [
+        "https://www.bls.gov/schedule/news_release/cpi.htm"
+      ]
+    }
+  ],
+  "interpretation": {
+    "judgment": "VIX 下降说明本次期权隐含波动降温，但债券市场没有 11/11 新官方收益率可供交叉确认，不能据此认定折现率压力解除或估值已便宜。",
+    "strongest_counterpoint": "VIX 不是盈利或估值指标；债市休市造成信号不同步，11/12 重开与 11/13 PPI 可能改变判断。",
+    "next_check": "11/12 美债重开、今晚北京时间 21:30 初请失业金、11/13 21:30 PPI，以及 CSCO/AMAT 财报的订单、利润率和现金流。"
+  },
+  "gaps": [
+    "MRNA 11/12 Analyst Day 日期已由 SEC 核实；当前可打开 IR 原文没有具体小时，不能将搜索摘要 09:00 EST 升格为已核时刻。",
+    "Cboe 现值页面没有明确时间区域；采用 WSJ CST 时刻作交叉说明。官方 CSV 当次下载仍止于 11/10。",
+    "BLS、AMAT 和 MRNA SEC 本机 HTTP 为 403；web 工具可访问正文的结果已留档。NYSE 本机 DNS 超时，WSJ 本机 TLS 失败；web 工具读取成功。",
+    "日历精选与观察名单相关事件，并非覆盖所有公司的完整财报库；未来日程可能由发布方调整。"
+  ],
+  "sources": [
+    {
+      "id": "bls_cpi_schedule",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "bls_cpi_schedule",
+        "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+        "retrieved_at_utc": "2026-11-11T23:31:35.622764+00:00",
+        "http_status": "403",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/bls_cpi_schedule.html",
+        "bytes": 1323
+      }
+    },
+    {
+      "id": "fed_nov_calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "fed_nov_calendar",
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+        "retrieved_at_utc": "2026-11-11T23:31:35.624760+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/fed_nov_calendar.html",
+        "bytes": 104202
+      }
+    },
+    {
+      "id": "bls_schedule_nov",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "bls_schedule_nov",
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+        "retrieved_at_utc": "2026-11-11T23:31:35.626025+00:00",
+        "http_status": "403",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/bls_schedule_nov.html",
+        "bytes": 1323
+      }
+    },
+    {
+      "id": "bls_jobs_schedule",
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "bls_jobs_schedule",
+        "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+        "retrieved_at_utc": "2026-11-11T23:31:35.626210+00:00",
+        "http_status": "403",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/bls_jobs_schedule.html",
+        "bytes": 1323
+      }
+    },
+    {
+      "id": "treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "treasury",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve",
+        "retrieved_at_utc": "2026-11-11T23:31:36.393950+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/treasury.html",
+        "bytes": 171293
+      }
+    },
+    {
+      "id": "cboe_vix",
+      "url": "https://www.cboe.com/tradable-products/vix",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "cboe_vix",
+        "url": "https://www.cboe.com/tradable-products/vix",
+        "retrieved_at_utc": "2026-11-11T23:31:36.903776+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/cboe_vix.html",
+        "bytes": 597828
+      }
+    },
+    {
+      "id": "cboe_vix_history",
+      "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "cboe_vix_history",
+        "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+        "retrieved_at_utc": "2026-11-11T23:31:36.904021+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/cboe_vix_history.csv",
+        "bytes": 474706
+      }
+    },
+    {
+      "id": "wsj_vix",
+      "url": "https://www.wsj.com/market-data/quotes/index/VIX/historical-prices",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "wsj_vix",
+        "url": "https://www.wsj.com/market-data/quotes/index/VIX/historical-prices",
+        "retrieved_at_utc": "2026-11-11T23:31:36.929812+00:00",
+        "http_status": "000",
+        "exit_code": 35,
+        "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.wsj.com:443 \n",
+        "file": "macro_raw/wsj_vix.html"
+      }
+    },
+    {
+      "id": "nyse_calendar",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "nyse_calendar",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "retrieved_at_utc": "2026-11-11T23:31:36.969847+00:00",
+        "http_status": "000",
+        "exit_code": 28,
+        "error": "curl: (28) Resolving timed out after 12011 milliseconds\n",
+        "file": "macro_raw/nyse_calendar.html"
+      }
+    },
+    {
+      "id": "sifma_calendar",
+      "url": "https://www.sifma.org/resources/general/holiday-schedule/",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "sifma_calendar",
+        "url": "https://www.sifma.org/resources/general/holiday-schedule/",
+        "retrieved_at_utc": "2026-11-11T23:31:38.275683+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/sifma_calendar.html",
+        "bytes": 298590
+      }
+    },
+    {
+      "id": "fomc_calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "fomc_calendar",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "retrieved_at_utc": "2026-11-11T23:31:39.080602+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/fomc_calendar.html",
+        "bytes": 166350
+      }
+    },
+    {
+      "id": "dol_claims_schedule",
+      "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "dol_claims_schedule",
+        "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+        "retrieved_at_utc": "2026-11-11T23:31:39.472991+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/dol_claims_schedule.html",
+        "bytes": 14421
+      }
+    },
+    {
+      "id": "sgov",
+      "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "sgov",
+        "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+        "retrieved_at_utc": "2026-11-11T23:31:39.534378+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/sgov.html",
+        "bytes": 1823334
+      }
+    },
+    {
+      "id": "csco_calendar",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "csco_calendar",
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+        "retrieved_at_utc": "2026-11-11T23:31:41.207918+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/csco_calendar.html",
+        "bytes": 168298
+      }
+    },
+    {
+      "id": "amat_calendar",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "amat_calendar",
+        "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+        "retrieved_at_utc": "2026-11-11T23:31:42.808411+00:00",
+        "http_status": "403",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/amat_calendar.html",
+        "bytes": 527
+      }
+    },
+    {
+      "id": "nvda_calendar",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "nvda_calendar",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+        "retrieved_at_utc": "2026-11-11T23:31:43.298267+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/nvda_calendar.html",
+        "bytes": 61504
+      }
+    },
+    {
+      "id": "mrna_sec_calendar",
+      "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "mrna_sec_calendar",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm",
+        "retrieved_at_utc": "2026-11-11T23:31:43.922875+00:00",
+        "http_status": "403",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/mrna_sec_calendar.html",
+        "bytes": 4818
+      }
+    },
+    {
+      "id": "mrna_events",
+      "url": "https://investors.modernatx.com/events-presentations",
+      "access": "fresh_current_task",
+      "http_receipt": {
+        "id": "mrna_events",
+        "url": "https://investors.modernatx.com/events-presentations",
+        "retrieved_at_utc": "2026-11-11T23:31:44.195425+00:00",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": "",
+        "file": "macro_raw/mrna_events.html",
+        "bytes": 224660
+      }
+    },
+    {
+      "id": "glob_calendar",
+      "url": "https://investors.globant.com/2026-11-05-Globant-to-Announce-Third-Quarter-2026-Financial-Results-on-November-19th",
+      "access": "fresh_current_task",
+      "http_receipt": null
+    }
+  ]
+}

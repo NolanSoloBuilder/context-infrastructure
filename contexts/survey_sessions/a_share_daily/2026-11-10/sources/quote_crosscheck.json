@@ -1,0 +1,66 @@
+{
+  "asof": "2026-11-09",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "quote_time": "20261109161428",
+      "close": 3660.79,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "quote_time": "20261109161428",
+      "close": 2789.15,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "quote_time": "20261109161410",
+      "close": 4056.11,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "quote_time": "20261109161410",
+      "close": 1256.96,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "quote_time": "20261109161457",
+      "close": 2.909,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "quote_time": "20261109161457",
+      "close": 4.13,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "quote_time": "20261109161454",
+      "close": 1.327,
+      "consistent": true
+    }
+  ],
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3660.79,
+      "daily_pct": 0.32
+    },
+    {
+      "symbol": "sh000300",
+      "close": 4056.11,
+      "daily_pct": 0.05
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1256.96,
+      "daily_pct": 0.3
+    }
+  ],
+  "independent_report": "https://flash.jin10.com/detail/20261109150308489800",
+  "note": "腾讯日线与收盘点价为同一提供方；上证、沪深300、科创50另核金十同日收盘与FiNews。"
+}

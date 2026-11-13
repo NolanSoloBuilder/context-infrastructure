@@ -1,0 +1,35 @@
+{
+  "version": {
+    "id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f~appgver_94e653edcf8081919381bb9ca1934195",
+    "project_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f",
+    "version_number": 24,
+    "source": {
+      "commit_sha": "acf81206b123146128c15b3591076c4488b06896"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000016a08211b888656a2c9c163c",
+      "content_hash": "sha256:a8d2efc5e6a48120e6d2d1378d76ef19829ad370cdc78730107acd03f6507562",
+      "size_bytes": 5191680,
+      "file_count": 6
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6af511d4e28881918fb96c6e6a5dde1b",
+    "project_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f",
+    "title": "A股投资观察晨报",
+    "version_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f~appgver_94e653edcf8081919381bb9ca1934195",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae7f4bd52b88191aedf8724e1c3c90f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-12T01:10:01.480361+00:00"
+  },
+  "access_mode": "public"
+}

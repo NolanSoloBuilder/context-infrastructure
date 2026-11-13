@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-09",
+  "market_session": "2026-11-06",
+  "reviewed_at": "2026-11-08T23:29:38Z",
+  "review_window_utc": {
+    "start": "2026-11-07T23:29:38Z",
+    "end": "2026-11-08T23:29:38Z"
+  },
+  "conclusion": "原七家公司实际已读SEC及有限官网范围内未取得24h重大新增；补查NVDA确认11/8官方治理声明，为本次唯一足以更新风险研究的新事实。部分IR列表访问/渲染不完整，不声称全网无消息。",
+  "deployment_relevance": "update_nvda_governance_risk_only; no new regular market session, no valuation date refresh, do not repeat Berkshire Q3",
+  "sec_checks": [
+    {
+      "symbol": "GOOGL",
+      "url": "https://data.sec.gov/submissions/CIK0001652044.json",
+      "status": "200",
+      "error": "",
+      "fetched_at": "2026-11-08T23:26:53.490066+00:00",
+      "company": "Alphabet Inc.",
+      "latest": [
+        {
+          "form": "13F-HR",
+          "filingDate": "2026-11-06",
+          "reportDate": "2026-09-30",
+          "accessionNumber": "0001652044-26-000086",
+          "acceptanceDateTime": "2026-11-05T23:21:46.000Z"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-11-05",
+          "accessionNumber": "0001193125-26-449835",
+          "acceptanceDateTime": "2026-11-05T21:10:44.000Z"
+        },
+        {
+          "form": "424B2",
+          "filingDate": "2026-11-04",
+          "reportDate": "",
+          "accessionNumber": "0001193125-26-447343",
+          "acceptanceDateTime": "2026-11-04T21:21:20.000Z"
+        },
+        {
+          "form": "FWP",
+          "filingDate": "2026-11-02",
+          "reportDate": "",
+          "accessionNumber": "0001193125-26-443857",
+          "acceptanceDateTime": "2026-11-02T22:01:06.000Z"
+        },
+        {
+          "form": "424B5",
+          "filingDate": "2026-11-02",
+          "reportDate": "",
+          "accessionNumber": "0001193125-26-442515",
+          "acceptanceDateTime": "2026-11-02T11:04:43.000Z"
+        }
+      ],
+      "since_11_08": [],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/GOOGL-sec.json",
+      "sha256": "679f595245e1405a6fc4930020991b0042b790c5b2a18cd5799b8aa47bd8be60"
+    },
+    {
+      "symbol": "SOFI",
+      "url": "https://data.sec.gov/submissions/CIK0001818874.json",
+      "status": "200",
+      "error": "",
+      "fetched_at": "2026-11-08T23:26:53.513412+00:00",
+      "company": "SoFi Technologies, Inc.",
+      "latest": [
+        {
+          "form": "10-Q",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-09-30",
+          "accessionNumber": "0001818874-26-000070",
+          "acceptanceDateTime": "2026-11-05T21:08:44.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-11-03",
+          "reportDate": "2026-10-19",
+          "accessionNumber": "0001460835-26-000004",
+          "acceptanceDateTime": "2026-11-04T01:03:52.000Z"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-10-27",
+          "reportDate": "2026-10-27",
+          "accessionNumber": "0001818874-26-000065",
+          "acceptanceDateTime": "2026-10-27T11:02:59.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-22",
+          "reportDate": "2026-10-20",
+          "accessionNumber": "0002032458-26-000030",
+          "acceptanceDateTime": "2026-10-22T23:50:43.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-09-23",
+          "reportDate": "2026-09-21",
+          "accessionNumber": "0002032458-26-000028",
+          "acceptanceDateTime": "2026-09-24T00:12:06.000Z"
+        }
+      ],
+      "since_11_08": [],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/SOFI-sec.json",
+      "sha256": "2cb0b87579ce953bdc6b27f3848d40d3255458c14bb684d6055efc363532f351"
+    },
+    {
+      "symbol": "NOW",
+      "url": "https://data.sec.gov/submissions/CIK0001373715.json",
+      "status": "200",
+      "error": "",
+      "fetched_at": "2026-11-08T23:26:54.041429+00:00",
+      "company": "ServiceNow, Inc.",
+      "latest": [
+        {
+          "form": "4",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-26",
+          "accessionNumber": "0001649609-26-000037",
+          "acceptanceDateTime": "2026-10-29T01:06:27.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-26",
+          "accessionNumber": "0001334944-26-000036",
+          "acceptanceDateTime": "2026-10-29T01:06:20.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-26",
+          "accessionNumber": "0001667422-26-000038",
+          "acceptanceDateTime": "2026-10-29T01:06:14.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-26",
+          "accessionNumber": "0002103469-26-000014",
+          "acceptanceDateTime": "2026-10-29T01:06:07.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-26",
+          "accessionNumber": "0001781064-26-000020",
+          "acceptanceDateTime": "2026-10-29T01:06:01.000Z"
+        }
+      ],
+      "since_11_08": [],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/NOW-sec.json",
+      "sha256": "894302ab3aae5ca233dfe85d2c4a624f0e1654f660e28c7b310cfc5b98ed0cd4"
+    },
+    {
+      "symbol": "CRM",
+      "url": "https://data.sec.gov/submissions/CIK0001108524.json",
+      "status": "200",
+      "error": "",
+      "fetched_at": "2026-11-08T23:26:54.068764+00:00",
+      "company": "Salesforce, Inc.",
+      "latest": [
+        {
+          "form": "S-8",
+          "filingDate": "2026-11-02",
+          "reportDate": "",
+          "accessionNumber": "0001108524-26-000233",
+          "acceptanceDateTime": "2026-11-02T22:13:09.000Z"
+        },
+        {
+          "form": "S-8",
+          "filingDate": "2026-11-02",
+          "reportDate": "",
+          "accessionNumber": "0001108524-26-000232",
+          "acceptanceDateTime": "2026-11-02T21:35:45.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-23",
+          "reportDate": "2026-10-22",
+          "accessionNumber": "0001108524-26-000227",
+          "acceptanceDateTime": "2026-10-23T20:59:03.000Z"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-10-20",
+          "reportDate": "2026-10-20",
+          "accessionNumber": "0001193125-26-425881",
+          "acceptanceDateTime": "2026-10-20T13:16:53.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-09-23",
+          "reportDate": "2026-09-22",
+          "accessionNumber": "0001108524-26-000225",
+          "acceptanceDateTime": "2026-09-23T23:45:09.000Z"
+        }
+      ],
+      "since_11_08": [],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/CRM-sec.json",
+      "sha256": "92897c3ece78bcd7c42b1b94dcff01c701e8017118f491f83267b3baa4aac31b"
+    },
+    {
+      "symbol": "GEHC",
+      "url": "https://data.sec.gov/submissions/CIK0001932393.json",
+      "status": "200",
+      "error": "",
+      "fetched_at": "2026-11-08T23:26:54.814621+00:00",
+      "company": "GE HealthCare Technologies Inc.",
+      "latest": [
+        {
+          "form": "8-K",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-11-04",
+          "accessionNumber": "0001932393-26-000063",
+          "acceptanceDateTime": "2026-11-05T13:45:16.000Z"
+        },
+        {
+          "form": "144",
+          "filingDate": "2026-11-04",
+          "reportDate": "",
+          "accessionNumber": "0001969223-26-001128",
+          "acceptanceDateTime": "2026-11-04T21:47:05.000Z"
+        },
+        {
+          "form": "10-Q",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-09-30",
+          "accessionNumber": "0001932393-26-000059",
+          "acceptanceDateTime": "2026-10-28T10:26:29.000Z"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-10-28",
+          "reportDate": "2026-10-22",
+          "accessionNumber": "0001932393-26-000058",
+          "acceptanceDateTime": "2026-10-28T10:25:23.000Z"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-09-22",
+          "reportDate": "2026-09-22",
+          "accessionNumber": "0001932393-26-000053",
+          "acceptanceDateTime": "2026-09-22T20:07:33.000Z"
+        }
+      ],
+      "since_11_08": [],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/GEHC-sec.json",
+      "sha256": "faccbcd1900dc12f63c85d635516f38ffd45650689f2301307e202e244647292"
+    },
+    {
+      "symbol": "CGNX",
+      "url": "https://data.sec.gov/submissions/CIK0000851205.json",
+      "status": "200",
+      "error": "",
+      "fetched_at": "2026-11-08T23:26:54.564011+00:00",
+      "company": "COGNEX CORP",
+      "latest": [
+        {
+          "form": "10-Q",
+          "filingDate": "2026-11-05",
+          "reportDate": "2026-10-04",
+          "accessionNumber": "0000851205-26-000082",
+          "acceptanceDateTime": "2026-11-05T11:32:38.000Z"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-11-04",
+          "reportDate": "2026-11-04",
+          "accessionNumber": "0000851205-26-000079",
+          "acceptanceDateTime": "2026-11-04T21:32:27.000Z"
+        },
+        {
+          "form": "8-K",
+          "filingDate": "2026-09-22",
+          "reportDate": "2026-09-22",
+          "accessionNumber": "0000851205-26-000071",
+          "acceptanceDateTime": "2026-09-22T11:01:30.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-08-12",
+          "reportDate": "2026-08-11",
+          "accessionNumber": "0002054688-26-000008",
+          "acceptanceDateTime": "2026-08-12T20:00:17.000Z"
+        },
+        {
+          "form": "144",
+          "filingDate": "2026-08-11",
+          "reportDate": "",
+          "accessionNumber": "0001950047-26-007967",
+          "acceptanceDateTime": "2026-08-11T20:31:36.000Z"
+        }
+      ],
+      "since_11_08": [],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/CGNX-sec.json",
+      "sha256": "c264c66273fbb14fe2fb8fd15ffd68f467cedacfa1f4c10bf67d17b0e0e8ea0a"
+    },
+    {
+      "symbol": "BRK-B",
+      "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "status": "200",
+      "error": "",
+      "fetched_at": "2026-11-08T23:26:55.074965+00:00",
+      "company": "BERKSHIRE HATHAWAY INC",
+      "latest": [
+        {
+          "form": "4",
+          "filingDate": "2026-11-03",
+          "reportDate": "2026-10-30",
+          "accessionNumber": "0001193125-26-445930",
+          "acceptanceDateTime": "2026-11-04T02:30:04.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-29",
+          "reportDate": "2026-10-27",
+          "accessionNumber": "0001193125-26-438090",
+          "acceptanceDateTime": "2026-10-29T21:21:38.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-23",
+          "reportDate": "2026-10-21",
+          "accessionNumber": "0001728451-26-000005",
+          "acceptanceDateTime": "2026-10-23T20:38:16.000Z"
+        },
+        {
+          "form": "SCHEDULE 13G/A",
+          "filingDate": "2026-10-07",
+          "reportDate": "",
+          "accessionNumber": "0001193125-26-417254",
+          "acceptanceDateTime": "2026-10-08T01:47:30.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-05",
+          "reportDate": "2026-10-01",
+          "accessionNumber": "0001193125-26-414744",
+          "acceptanceDateTime": "2026-10-06T01:02:56.000Z"
+        }
+      ],
+      "since_11_08": [],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/BRK-B-sec.json",
+      "sha256": "4486ee768583478d98bb56a5cfce9d8ed8f2985c9f0c252c05a4e4898d32dca9"
+    },
+    {
+      "symbol": "NVDA",
+      "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+      "status": "200",
+      "company": "NVIDIA CORP",
+      "latest": [
+        {
+          "form": "4",
+          "filingDate": "2026-11-06",
+          "reportDate": "2026-11-04",
+          "accessionNumber": "0001197647-26-000013",
+          "acceptanceDateTime": "2026-11-06T21:12:02.000Z"
+        },
+        {
+          "form": "4/A",
+          "filingDate": "2026-10-13",
+          "reportDate": "2026-09-09",
+          "accessionNumber": "0002152188-26-000007",
+          "acceptanceDateTime": "2026-10-13T21:09:29.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-10-09",
+          "reportDate": "2026-10-07",
+          "accessionNumber": "0001197647-26-000011",
+          "acceptanceDateTime": "2026-10-09T21:04:09.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-09-23",
+          "reportDate": "2026-09-21",
+          "accessionNumber": "0001696841-26-000014",
+          "acceptanceDateTime": "2026-09-23T20:56:28.000Z"
+        },
+        {
+          "form": "4",
+          "filingDate": "2026-09-22",
+          "reportDate": "2026-09-18",
+          "accessionNumber": "0001199039-26-000016",
+          "acceptanceDateTime": "2026-09-22T20:56:23.000Z"
+        }
+      ],
+      "new_in_review_window": [],
+      "raw_file": "company_scan_raw/NVDA-sec.json",
+      "sha256": "db787ea656392c0442099ee6498a978e5b0bfba2c14e47a68dda393ddaff0375"
+    }
+  ],
+  "official_news_coverage": {
+    "GOOGL": "SEC recent成功；Alphabet新闻入口curl403，web主站只解析到导航，新闻列表覆盖不完整。未以此推断公司全网无新闻。",
+    "SOFI": "SEC recent成功；IR新闻入口web仅解析到年份选择，curl403，动态新闻列表未完整取得。",
+    "NOW": "SEC recent成功；IR旧入口失败，Newsroom列表动态正文不完整；搜索定位的11/5 LTM合作属窗口前旧公告，未当新事实。",
+    "CRM": "SEC recent成功；IR页web仅年份选择、curl403；搜索定位11/8媒体新文章引用的是11/4美国/11/5地区版Coworker公告，不能按媒体日期重报新事件。",
+    "GEHC": "SEC recent成功；官网IR新闻页访问失败，覆盖不完整；最近8-K为11/5、事件日11/4，不属于本次24h新事件。",
+    "CGNX": "SEC recent成功；IR动态页正文不完整，搜索索引列最新11/4Q3，索引不充当完整实时新闻扫描。",
+    "BRK-B": "SEC recent成功；官方完整2026新闻列表成功，最新11/7Q3已于昨日研究发布，无新增条目。不能将SEC尚无10-Q写成公司尚未公布。",
+    "NVDA": "SEC recent成功，最新11/6Form4；官方Newsroom11/8两篇全文及董事会声明PDF成功，确认新增治理披露。IR旧URL404不影响已取得的Newsroom原文。"
+  },
+  "official_sources": [
+    {
+      "title": "NVIDIA董事会声明",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "published_date": "2026-11-08",
+      "time_precision": "date_only; official page did not expose publication clock time",
+      "retrieved_at": "2026-11-08T23:29:38Z",
+      "scope": "完整声明正文及官方Newsroom日期；下载PDF同文交叉核对（同一发行人，非独立第二来源）",
+      "status": "official_primary_read"
+    },
+    {
+      "title": "NVIDIA CEO致员工信",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "published_date": "2026-11-08",
+      "retrieved_at": "2026-11-08T23:29:38Z",
+      "scope": "完整正文；研究仅使用配合独立调查与继续履职表述，不扩散私人细节",
+      "status": "official_primary_read"
+    },
+    {
+      "title": "NVIDIA董事会声明官方PDF",
+      "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af0d5123d63325ccc415751/",
+      "published_date": null,
+      "retrieved_at": "2026-11-08T23:29:38Z",
+      "scope": "一页全文；PDF未单独列发布日期，日期依据官网HTML",
+      "status": "official_primary_read"
+    },
+    {
+      "title": "NVIDIA Newsroom近期列表",
+      "url": "https://nvidianews.nvidia.com/news",
+      "retrieved_at": "2026-11-08T23:29:38Z",
+      "scope": "最新页面，首两篇11/8，其后11/6；新闻列表及直接正文相符",
+      "status": "official_primary_read"
+    },
+    {
+      "title": "Berkshire官方2026新闻列表",
+      "url": "https://www.berkshirehathaway.com/news/2026news.html",
+      "retrieved_at": "2026-11-08T23:29:38Z",
+      "scope": "完整列表；最新仍11/7Q3，11/8已研究发布，本次去重",
+      "status": "official_primary_read"
+    }
+  ],
+  "excluded_old_events": [
+    {
+      "symbol": "BRK-B",
+      "event_date": "2026-11-07",
+      "disposition": "already_published_2026-11-08_do_not_repeat",
+      "url": "https://www.berkshirehathaway.com/news/nov0726.pdf"
+    },
+    {
+      "symbol": "CRM",
+      "event_date": "2026-11-05",
+      "disposition": "outside_24h_window; regional official date; not media Nov8 event",
+      "url": "https://www.salesforce.com/ap/news/press-releases/2026/11/05/ph-salesforces-agentforce-coworker-usage-soars-21x-in-three-months-as-enterprises-delegate-real-work-to-ai/"
+    },
+    {
+      "symbol": "NOW",
+      "event_date": "2026-11-05",
+      "disposition": "outside_24h_window",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/LTM-and-ServiceNow-expand-partnership-to-scale-agentic-AI-and-accelerate-joint-go-to-market/default.aspx"
+    }
+  ],
+  "public_item": {
+    "title": "英伟达出现新增治理风险，财务影响尚未量化",
+    "fact": "NVIDIA于11/8发布董事会声明，宣布由独立董事委员会监督调查、外部独立法律顾问协助；CEO同日确认支持并配合。",
+    "implication": "推断：新增治理与关键人物不确定性，可能影响风险溢价；公告没有量化营收、利润或现金损失，也没有宣布调整业绩指引。",
+    "judgment": "新增风险观察，等待调查事实及后续官方披露；不能把调查启动写成指控成立，也不据此调整盈利预测或认定买点。",
+    "counter": "董事会表示目前没有理由认为国家安全或公司机密已受损，并维持对CEO及领导团队的信任；调查尚无结论，这也不等于已经证明没有风险。",
+    "next": "核对独立调查范围及结果、董事会/监管或SEC后续披露、管理层与客户订单是否出现可验证变化；11/6报价先于公告，不能当事件后的市场反应。",
+    "sources": [
+      {
+        "title": "NVIDIA董事会11/8声明",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+      },
+      {
+        "title": "NVIDIA同日员工信",
+        "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+      }
+    ]
+  },
+  "private_data_accessed": false,
+  "site_or_state_modified": false
+}

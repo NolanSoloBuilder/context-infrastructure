@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "automation_id": "automation-3",
+  "last_checked_session": "2026-11-10",
+  "report_date_beijing": "2026-11-11",
+  "updated_at_utc": "2026-11-10T23:39:33.707766+00:00",
+  "basis": {
+    "window": "(session - 364 calendar days, session]",
+    "high": "intraday high in split-adjusted Yahoo OHLC series",
+    "drawdown": "100 * (1 - close / rolling high), positive magnitude",
+    "stages": "below_13: D<13; near_15: 13<=D<15; at_or_above_15: 15<=D<23; near_25: 23<=D<25; at_or_above_25: D>=25",
+    "high_dates_on_ties": "earliest high in current window"
+  },
+  "data_validation": {
+    "watchlist_closes_verified": true,
+    "status": "third_party_crosschecked_same_stages_with_disclosed_price_differences",
+    "fully_valid_symbols": [
+      "QQQM",
+      "VOO",
+      "BRK.B"
+    ],
+    "deferred_symbols": [],
+    "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-11/verification.json"
+  },
+  "symbols": {
+    "QQQM": {
+      "provider_symbol": "QQQM",
+      "last_checked_session": "2026-11-10",
+      "close_usd": 277.87,
+      "high_52w_usd": 314.11,
+      "high_date": "2026-10-06",
+      "drawdown_pct": 11.537359523733725,
+      "stage": "below_13",
+      "stage_since_session": "2026-11-09",
+      "first_recorded_session": "2026-10-23",
+      "last_highlight_report_date": "2026-11-07",
+      "level_15_usd": 266.99,
+      "level_25_usd": 235.58,
+      "gap_to_15_percentage_points": 3.462640476266275,
+      "price_change_to_15_pct": -3.9155000539820795,
+      "previous_stage": "below_13",
+      "new_highlight": false,
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
+      "verification_note": "Yahoo/StockAnalysis close/high differences disclosed; both yield below_13; BRK.B new intraday high date agrees, magnitude differs by $0.04.",
+      "historical_highlight_reason": "retrospective confirmation of11/5 crossing, current11/6 return to near_15",
+      "historical_previous_verified_market_stage": "at_or_above_15"
+    },
+    "VOO": {
+      "provider_symbol": "VOO",
+      "last_checked_session": "2026-11-10",
+      "close_usd": 689.5,
+      "high_52w_usd": 718.47,
+      "high_date": "2026-10-06",
+      "drawdown_pct": 4.03217949253275,
+      "stage": "below_13",
+      "stage_since_session": "2026-10-23",
+      "first_recorded_session": "2026-10-23",
+      "last_highlight_report_date": null,
+      "level_15_usd": 610.7,
+      "level_25_usd": 538.85,
+      "gap_to_15_percentage_points": 10.96782050746725,
+      "price_change_to_15_pct": -11.428571428571422,
+      "previous_stage": "below_13",
+      "new_highlight": false,
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
+      "verification_note": "Yahoo/StockAnalysis close/high differences disclosed; both yield below_13; BRK.B new intraday high date agrees, magnitude differs by $0.04."
+    },
+    "BRK.B": {
+      "provider_symbol": "BRK-B",
+      "last_checked_session": "2026-11-10",
+      "close_usd": 583.34,
+      "high_52w_usd": 586.41,
+      "high_date": "2026-11-10",
+      "drawdown_pct": 0.5235244965126729,
+      "stage": "below_13",
+      "stage_since_session": "2026-10-23",
+      "first_recorded_session": "2026-10-23",
+      "last_highlight_report_date": null,
+      "level_15_usd": 498.45,
+      "level_25_usd": 439.81,
+      "gap_to_15_percentage_points": 14.476475503487327,
+      "price_change_to_15_pct": -14.552405115370115,
+      "previous_stage": "below_13",
+      "new_highlight": false,
+      "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
+      "verification_note": "Yahoo/StockAnalysis close/high differences disclosed; both yield below_13; BRK.B new intraday high date agrees, magnitude differs by $0.04."
+    }
+  },
+  "highlighted_symbols": [],
+  "retired_symbols": {
+    "QQQ": {
+      "retired_report_date_beijing": "2026-10-30",
+      "reason": "User removed QQQ, retaining QQQM",
+      "last_valid_state": {
+        "provider_symbol": "QQQ",
+        "last_checked_session": "2026-10-29",
+        "close_usd": 715.34,
+        "high_52w_usd": 762.86,
+        "high_date": "2026-10-06",
+        "drawdown_pct": 6.229184831892088,
+        "stage": "below_13",
+        "stage_since_session": "2026-10-23",
+        "first_recorded_session": "2026-10-23",
+        "last_highlight_report_date": null,
+        "level_15_usd": 648.43,
+        "level_25_usd": 572.15,
+        "gap_to_15_percentage_points": 8.770815168107912,
+        "price_change_to_15_pct": -9.35345944512055,
+        "previous_stage": "below_13",
+        "new_highlight": false,
+        "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred."
+      }
+    }
+  },
+  "active_watch_symbols": [
+    "QQQM",
+    "VOO",
+    "BRK-B"
+  ],
+  "deferred_checks": {},
+  "resolved_checks": {
+    "BRK.B": {
+      "resolved_session": "2026-11-05",
+      "old_deferred_check": {
+        "attempted_session": "2026-11-04",
+        "attempted_at_utc": "2026-11-04T23:38:43.978893+00:00",
+        "reason": "Unresolved dated regular close discrepancy; preserve last valid symbol state",
+        "yahoo_close": 579.09,
+        "second_close": 579.92,
+        "yahoo_high": 580.65,
+        "last_valid_session": "2026-11-03",
+        "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-05/verification.json"
+      },
+      "basis": "Fresh dated second source corroborates current close and rolling high; differing StockAnalysis close disclosed. No stage change."
+    },
+    "VOO": {
+      "resolved_session": "2026-11-05",
+      "old_deferred_check": {
+        "attempted_session": "2026-11-04",
+        "attempted_at_utc": "2026-11-04T23:38:43.978893+00:00",
+        "reason": "Unresolved dated regular close discrepancy; preserve last valid symbol state",
+        "yahoo_close": 704.78,
+        "second_close": 704.74,
+        "yahoo_high": 718.47,
+        "last_valid_session": "2026-11-03",
+        "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-05/verification.json"
+      },
+      "basis": "Fresh dated second source corroborates current close and rolling high; differing StockAnalysis close disclosed. No stage change."
+    },
+    "QQQM": {
+      "resolved_session": "2026-11-06",
+      "resolved_at_utc": "2026-11-06T23:44:11.380230+00:00",
+      "old_deferred_check": {
+        "attempted_session": "2026-11-05",
+        "attempted_at_utc": "2026-11-05T23:38:47.187699+00:00",
+        "reason": "Yahoo and Investing close266.85 -> D15.047%, StockAnalysis267.02 with high314.12 -> D14.994%; conflict straddles15% stage. Preserve last valid stage; spotlight pending confirmation, not a confirmed cross.",
+        "yahoo_close": 266.85,
+        "investing_close": 266.85,
+        "stockanalysis_close": 267.02,
+        "yahoo_high": 314.11,
+        "stockanalysis_high": 314.12,
+        "high_date": "2026-10-06",
+        "last_valid_session": "2026-11-03",
+        "highlight_report_date": "2026-11-06",
+        "verification_file": "/Users/xuhao/Documents/Other/context-infrastructure/contexts/survey_sessions/us_market_daily/2026-11-06/verification.json"
+      },
+      "basis": {
+        "session": "2026-11-05",
+        "checked_on": "2026-11-07",
+        "close": 266.85,
+        "high_yahoo_investing": 314.11,
+        "high_stockanalysis": 314.12,
+        "d_yahoo": 15.04568463277196,
+        "d_stockanalysis": 15.048389150643061,
+        "finding": "StockAnalysis historical close now266.85 vs267.02 captured yesterday. Both high variants now yield D>15. Record retrospective confirmation, not a fresh crossing on11/6."
+      }
+    }
+  },
+  "reported_event_ids": [
+    "QQQM:2026-11-05:15:retrospective-confirmation"
+  ],
+  "publication": {
+    "published_at_utc": "2026-11-09T23:50:31.857170+00:00",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_6f85198711748191900ee90ac91b67ed",
+    "deployment_id": "appgdep_6af25ba8fb888191a710db82754c990a",
+    "status": "succeeded",
+    "site_url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site"
+  }
+}

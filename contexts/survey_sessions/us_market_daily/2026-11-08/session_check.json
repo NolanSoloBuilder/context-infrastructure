@@ -1,0 +1,16 @@
+{
+  "report_date": "2026-11-08",
+  "reviewed_at": "2026-11-07T23:32:24.802445+00:00",
+  "market_session": "2026-11-06",
+  "next_session": "2026-11-09",
+  "market_status": "weekend_closed",
+  "next_open_et": "2026-11-09T09:30:00-05:00",
+  "next_open_beijing": "2026-11-09T22:30:00+08:00",
+  "premarket": "11/9 尚未开始",
+  "afterhours": "11/6时段已结束；11/7周六无常规或盘后交易，不把11/6盘后当11/7财报反应",
+  "source_url": "https://www.nyse.com/trade/hours-calendars",
+  "scope": "2026交易所休市表和常规/延长时段；结合America/New_York星期/时区核算",
+  "repeated_market_collection": false,
+  "audit_charts": "No new session; existing 2026-11-07 audit for US11/6 retained without regenerating or copying curves",
+  "alert_state_before_sha256": "b7289b052ce359b8d635ed81b3b56ab9612f81e18e901348d849e3825507500d"
+}

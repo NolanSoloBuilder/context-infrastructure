@@ -1,0 +1,96 @@
+[
+  {
+    "title": "通胀复核｜10月CPI已公布，同比缺失必须留空",
+    "paragraphs": [
+      "10月CPI于11/10 08:30 EST（北京时间11/10 21:30）发布：总指数季调环比+0.4%，9月为+0.6%；核心环比+0.3%，连续第三个月相同。BLS因2025年10月拨款中断未采集多数调查数据，本月总CPI与核心同比均无法公布；缺失不是0，也不能用9月同比替代。",
+      "住房环比+0.3%、能源+0.7%、食品+0.5%，二手车-1.2%。能源与住房较9月涨幅放缓，是对持续再通胀判断的反证；核心涨幅未进一步下降，也不支持把单月结果当成降息保证。未核市场一致预期，不标超预期或低于预期。"
+    ],
+    "sources": [
+      {
+        "title": "BLS 10月CPI正文",
+        "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+      },
+      {
+        "title": "BLS CPI表1（含缺失说明）",
+        "url": "https://www.bls.gov/news.release/cpi.t01.htm"
+      }
+    ]
+  },
+  {
+    "title": "利率与波动｜收益率上升，VIX回落不等于估值风险消失",
+    "paragraphs": [
+      "11/10美国财政部2年／10年名义平价收益率为4.73%／4.98%，较11/9上升17／10个基点；10年减2年利差25个基点。数据基于约15:30 EST指示性买方报价插值，并非实际成交或实时利率。高折现率对远期现金流占比高的公司更不利，但不能把同日利率变动全部归因于CPI。",
+      "VIX 11/10收盘19.46点，下降0.46点／2.31%；Cboe页面与WSJ历史表一致。WSJ时间为15:15 CST＝16:15 EST（北京时间11/11 05:15）。Cboe页面9:15 PM未标时区，官方历史CSV本次只到11/9，未声称其已确认11/10。",
+      "SGOV官方SEC30日收益率3.85%，日期11/9，较前次核定11/6的3.84%上升1个基点；12个月尾随收益率为3.63%。两者不是总回报或未来收益保证，也不把收益率日期更新为11/10。"
+    ],
+    "sources": [
+      {
+        "title": "美国财政部平价收益率",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202611&type=daily_treasury_yield_curve"
+      },
+      {
+        "title": "Cboe VIX官网",
+        "url": "https://www.cboe.com/tradable-products/vix"
+      },
+      {
+        "title": "WSJ VIX历史收盘",
+        "url": "https://www.wsj.com/market-data/quotes/index/VIX/historical-prices"
+      },
+      {
+        "title": "iShares SGOV官方收益率",
+        "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf"
+      }
+    ]
+  },
+  {
+    "title": "事件日历｜老兵日股票开市，下一步看PPI与科技财报",
+    "paragraphs": [
+      "最近完成常规交易日为11/10；11/11老兵日NYSE股票正常交易，北京时间22:30开盘。SIFMA对美元债券等市场建议休市，不等于股票休市。复核时11/10盘后尚未结束，至北京时间11/11 09:00结束；11/11下一盘前尚未开始，北京时间17:00开始。",
+      "北京时间11/12 21:30初请失业金；11/13 21:30美国10月PPI；11/17 21:30美国10月进出口价格。未来7天没有新CPI、月度就业报告或FOMC决议：下一CPI12/10、就业12/4，均为08:30 EST／21:30北京；FOMC为12/8–9。",
+      "Cisco与Applied Materials业绩电话会均为11/12 16:30 EST，即北京时间11/13 05:30。Cisco明确同日收盘后发业绩；电话会时刻不等于精确公告分钟。NVIDIA FY27Q3业绩预计11/17约16:20 EST发布，北京时间11/18约05:20；电话会17:00 EST／北京06:00。",
+      "Moderna分析师日日期为11/12，具体开始时刻本次未核；这不是另一场季度财报。科技财报列相关性精选，不声称覆盖全部监测公司。"
+    ],
+    "sources": [
+      {
+        "title": "NYSE交易时间与休市日",
+        "url": "https://www.nyse.com/trade/hours-calendars"
+      },
+      {
+        "title": "SIFMA债券市场假期建议",
+        "url": "https://www.sifma.org/resources/general/holiday-schedule/"
+      },
+      {
+        "title": "BLS 11月官方日历",
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+      },
+      {
+        "title": "DOL初请发布安排",
+        "url": "https://oui.doleta.gov/unemploy/claims_arch.asp"
+      },
+      {
+        "title": "BLS就业日历",
+        "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+      },
+      {
+        "title": "FOMC官方日历",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      {
+        "title": "Cisco财报安排",
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html"
+      },
+      {
+        "title": "Applied Materials财报安排",
+        "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results"
+      },
+      {
+        "title": "NVIDIA财报安排",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+      },
+      {
+        "title": "Moderna SEC分析师日披露",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000194/exhibit9912026q3pressrelea.htm"
+      }
+    ]
+  }
+]

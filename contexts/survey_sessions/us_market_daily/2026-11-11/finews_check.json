@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-11",
+  "reviewed_at_utc": "2026-11-10T23:36:41.544381+00:00",
+  "source_url": "https://finews.fyi/",
+  "status": "success_page_read_with_one_primary_verified_new_lead",
+  "http_status": 200,
+  "collected_at_utc": "2026-11-10T23:33:01.772735+00:00",
+  "displayed_market_date": "2026-11-10",
+  "displayed_updated_at_utc": "2026-11-10T23:17:14Z",
+  "read_scope": [
+    "完整实际首页HTML",
+    "8项盘后摘要",
+    "未来一周日历",
+    "23条新闻与外链",
+    "91项个股热力图及行情/温度"
+  ],
+  "raw_path": "source_scan_raw/finews_home.html",
+  "sha256": "41832dc14fa1fea169f7536c4d689f252b188ae88f81ded392d66ec0081cf84c",
+  "primary_verified_leads": [
+    {
+      "claim_key": "nyfed_q3_2026_card_balance_vs_delinquency_flow_2026_11_10",
+      "event_date": "2026-11-10",
+      "source_period": "2026Q3",
+      "discovery": "FiNews 11/10信用卡债务新闻→回查NY Fed原文",
+      "primary_urls": [
+        "https://www.newyorkfed.org/newsevents/news/research/2026/20261110",
+        "https://libertystreeteconomics.newyorkfed.org/2026/11/a-look-at-the-wider-divide-in-credit-card-delinquency-by-income/"
+      ],
+      "primary_raw_files": [
+        "source_scan_raw/nyfed_q3_release.html",
+        "source_scan_raw/nyfed_income_blog.html"
+      ],
+      "source_access": "web搜索返回正文；web.open内部错误；直接HTTP200获得完整原文并保存。",
+      "facts": [
+        "Q3信用卡债务1.285万亿美元，环比增加220亿美元；总体家庭债务19.105万亿美元。",
+        "总体债务处于某种逾期状态的存量占比5.0%，环比上升0.3个百分点。",
+        "信用卡新转入90天及以上严重逾期的年化余额比例6.87%，上年同期7.05%；早期及严重逾期转入较上季略改善。",
+        "同日官方研究称低收入地区承受更高压力，2020–22发卡标准较松的批次贡献正在减弱；不是SOFI个体借款人或个人贷款组合统计。"
+      ],
+      "interpretation": "债务存量纪录不直接证明新增违约流量同步恶化；SOFI风险应核其自身贷款品类、客群、批次、净核销和公允价值假设，不能用全国信用卡均值直接推演。",
+      "counterargument": "总逾期存量比例仍上升，低收入区域压力仍高；新增贷款会逐渐进入风险成熟期，宏观冲击可令改善逆转。",
+      "next_check": "SOFI自身个人贷款不同批次的逾期/净核销、贷款出售与留存、回收及公允价值假设，避免将总体信用卡比例作为其贷款损失率。"
+    }
+  ],
+  "calendar_correction": {
+    "aggregate_claim": "11/11美国银行假日，市场休市",
+    "verified_conclusion": "NYSE股票11/11正常常规交易；银行假日不等于股票交易所休市。",
+    "primary_url": "https://www.nyse.com/trade/hours-calendars",
+    "scope": "2026官方假日日历及9:30–16:00 ET常规时段"
+  },
+  "remaining_leads_unverified": [
+    {
+      "topic": "CoreWeave Q3财报及指引",
+      "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "status": "仅FiNews聚合线索，交主任务核IR/SEC；本文件不确认其财报数字。"
+    },
+    {
+      "topic": "Ring无人机与机器人",
+      "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+      "status": "未核官方产品与财务影响，不作为估值依据。"
+    }
+  ],
+  "not_adopted": [
+    "来源价格由主任务独立核验，不以FiNews单源确认。",
+    "股价相对强弱不等同真实资金净流向。",
+    "未独立核定的调查/监管指控、IPO定价与宏观归因不作已核事实。"
+  ],
+  "sources_include_private_data": false
+}

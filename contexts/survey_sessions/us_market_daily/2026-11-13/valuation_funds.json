@@ -1,0 +1,140 @@
+{
+  "IGV": {
+    "judgment": "情景估值已完成：当前高于基准参考，尚无充分安全边际",
+    "basis": "11/12常规收盘$101.45（Yahoo与StockAnalysis同价）；11/11同日价$102.23、PE33.05作模型起点。发行人PE采用各成分最近财政年度EPS，并排除负PE；未披露被排除权重，不能称TTM或全组合GAAP盈利。11/11前五MSFT/PLTR/PANW/CRWD/ORCL合计41.36%；应用软件50.41%、系统软件43.40%。费率0.38%。偏软件大公司，仍含云基础设施、安全和传统软件。基准假设盈利分母代理年增12%、终值28倍，主动测试软件高倍数压缩；AI收费增长仍可能被席位减少、推理成本和SBC抵消。三年、要求收益10%、扣年度费率的价格情景现值：压力$50.55／基准$90.38／乐观$115.49；基准八折$72.31。这是条件映射，不是基金内在价值；不含分红。按基准终值倍数，现价需约16.4%的年化分母代理增长才能达到模型10%年化价格回报。倍数、增长与八折均为研究假设。",
+    "next": "观察头部持仓AI增量收费、SBC后每股现金流和传统席位流失；重构含亏损公司权重的组合盈利，若利润不增则不能只因跌价认定便宜。",
+    "reviewed_at": "2026-11-13T03:10:36.821728+00:00",
+    "market_session": "2026-11-12",
+    "valuation_type": "conditional_fund_sensitivity",
+    "base_value": 90.38,
+    "stress_value": 50.55,
+    "bull_value": 115.49,
+    "discount_price": 72.31,
+    "sources": [
+      {
+        "title": "IGV 发行人产品页：估值/费率/实际披露日期",
+        "url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf"
+      },
+      {
+        "title": "IGV 官方持仓CSV，2026-11-11",
+        "url": "https://www.ishares.com/us/products/239771/ishares-expanded-tech-software-sector-etf/latest-holdings.csv"
+      },
+      {
+        "title": "IGV 11/12常规收盘（Yahoo，单源参照）",
+        "url": "https://finance.yahoo.com/quote/IGV/history/"
+      },
+      {
+        "title": "11/12收盘交叉核验",
+        "url": "https://stockanalysis.com/etf/igv/history/"
+      }
+    ]
+  },
+  "XSW": {
+    "judgment": "情景估值已完成：当前高于基准参考，尚无充分安全边际",
+    "basis": "11/12常规收盘$206.92（Yahoo与StockAnalysis同价）；11/11同日价$208.41、PE18.93作模型起点。基金FY1 PE18.93为预期下一年EPS的加权调和口径，包含正负极端值；指数另列PE26.87，不能当同一分母。11/11应用软件67.37%、系统软件21.36%、IT咨询9.10%；修正等权，头五合计6.12%，费率0.35%。FactSet平均3–5年EPS增速预测18.14%，不是已实现或基金承诺。基准把分母代理增速压至10%、终值18倍，低于披露的预测均值；分散降低单一龙头集中，但中小软件及服务企业面临模型替代和融资风险。三年、要求收益10%、扣年度费率的价格情景现值：压力$104.58／基准$196.10／乐观$248.97；基准八折$156.88。这是条件映射，不是基金内在价值；不含分红。按基准终值倍数，现价需约12.0%的年化分母代理增长才能达到模型10%年化价格回报。倍数、增长与八折均为研究假设。",
+    "next": "核盈利预测下修、亏损持仓权重与订单现金转化；用同一FY1调和算法追踪估值，不直接与IGV剔负PE排名。",
+    "reviewed_at": "2026-11-13T03:10:36.821728+00:00",
+    "market_session": "2026-11-12",
+    "valuation_type": "conditional_fund_sensitivity",
+    "base_value": 196.1,
+    "stress_value": 104.58,
+    "bull_value": 248.97,
+    "discount_price": 156.88,
+    "sources": [
+      {
+        "title": "XSW 发行人产品页：估值/费率/实际披露日期",
+        "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-software-services-etf-xsw"
+      },
+      {
+        "title": "XSW 11/12常规收盘（Yahoo，单源参照）",
+        "url": "https://finance.yahoo.com/quote/XSW/history/"
+      },
+      {
+        "title": "11/12收盘交叉核验",
+        "url": "https://stockanalysis.com/etf/xsw/history/"
+      }
+    ]
+  },
+  "IHI": {
+    "judgment": "情景估值已完成：当前高于基准参考，尚无充分安全边际",
+    "basis": "11/12常规收盘$57.46（Yahoo与StockAnalysis同价）；11/11同日价$58.17、PE33.60作模型起点。发行人PE采用各成分最近财政年度EPS并排除负PE；不是可直接比较的全组合TTM PE。11/11 ABT/ISRG/MDT合计43.41%，GEHC4.62%；费率0.37%。医疗器械组合，含诊断、植入物和手术设备，AI收入未单列，不能当纯医疗AI。基准分母代理年增8%、终值28倍，给医疗器械增长而不假设AI单独爆发；手术量和耗材复购是支撑，支付压价、产品召回和关税是反证。三年、要求收益10%、扣年度费率的价格情景现值：压力$28.30／基准$45.37／乐观$60.72；基准八折$36.30。这是条件映射，不是基金内在价值；不含分红。按基准终值倍数，现价需约16.8%的年化分母代理增长才能达到模型10%年化价格回报。倍数、增长与八折均为研究假设。",
+    "next": "核ABT/ISRG/MDT手术与设备需求、定价及毛利；AI商业化需证明付费，不把临床部署等同新增收入。",
+    "reviewed_at": "2026-11-13T03:10:36.821728+00:00",
+    "market_session": "2026-11-12",
+    "valuation_type": "conditional_fund_sensitivity",
+    "base_value": 45.37,
+    "stress_value": 28.3,
+    "bull_value": 60.72,
+    "discount_price": 36.3,
+    "sources": [
+      {
+        "title": "IHI 发行人产品页：估值/费率/实际披露日期",
+        "url": "https://www.ishares.com/us/products/239516/ishares-us-medical-devices-etf"
+      },
+      {
+        "title": "IHI 官方持仓CSV，2026-11-11",
+        "url": "https://www.ishares.com/us/products/239516/ishares-u-s-medical-devices-etf/latest-holdings.csv"
+      },
+      {
+        "title": "IHI 11/12常规收盘（Yahoo，单源参照）",
+        "url": "https://finance.yahoo.com/quote/IHI/history/"
+      },
+      {
+        "title": "11/12收盘交叉核验",
+        "url": "https://stockanalysis.com/etf/ihi/history/"
+      }
+    ]
+  },
+  "BOTZ": {
+    "judgment": "情景估值已完成：当前高于基准参考，尚无充分安全边际",
+    "basis": "11/12常规收盘$31.42（Yahoo与StockAnalysis同价）；11/11同日价$32.23、PE30.12作模型起点。Global X展示AltaVista 2026年份PE30.12（2025栏42.97）；页面未完整说明预期/实现混合、负盈利和聚合算法，不能称GAAP TTM。11/11前五合计41.44%，费率0.68%；10/31工业46.21%、IT32.52%，中国14.42%、香港2.43%。机器人硬件与自动化主导，非纯软件落地，含境外和汇率敞口。基准分母代理年增8%、终值25倍，计入工业资本开支周期和估值压缩；机器人需求不等于各设备商都能维持利润。三年、要求收益10%、扣年度费率的价格情景现值：压力$14.38／基准$24.81／乐观$33.33；基准八折$19.84。这是条件映射，不是基金内在价值；不含分红。按基准终值倍数，现价需约16.9%的年化分母代理增长才能达到模型10%年化价格回报。倍数、增长与八折均为研究假设。",
+    "next": "核订单增长是否转交付与现金，持续追踪中国/香港暴露及汇率；补AltaVista负盈利处理和预测覆盖后才讨论更精确穿透价值。",
+    "reviewed_at": "2026-11-13T03:10:36.821728+00:00",
+    "market_session": "2026-11-12",
+    "valuation_type": "conditional_fund_sensitivity",
+    "base_value": 24.81,
+    "stress_value": 14.38,
+    "bull_value": 33.33,
+    "discount_price": 19.84,
+    "sources": [
+      {
+        "title": "BOTZ 发行人产品页：估值/费率/实际披露日期",
+        "url": "https://www.globalxetfs.com/funds/botz"
+      },
+      {
+        "title": "BOTZ 11/12常规收盘（Yahoo，单源参照）",
+        "url": "https://finance.yahoo.com/quote/BOTZ/history/"
+      },
+      {
+        "title": "11/12收盘交叉核验",
+        "url": "https://stockanalysis.com/etf/botz/history/"
+      }
+    ]
+  },
+  "AIQ": {
+    "judgment": "情景估值已完成：接近基准参考，但缺乏八折缓冲；低表面PE未证明低估",
+    "basis": "11/12常规收盘$59.49（Yahoo与StockAnalysis同价）；11/11同日价$59.91、PE18.49作模型起点。Global X展示AltaVista 2026年份PE18.49（2025栏27.74）；未完整核定会计口径、负盈利处理与预测覆盖，不可据此直接认定低估。11/11前五合计18.51%，费率0.68%；10/31软件服务36.00%、半导体22.64%、硬件13.92%、中国5.58%。应用与基础设施混合，和科技/芯片ETF存在经济敞口重叠。基准分母代理年增10%、终值18倍，不依赖估值扩张；较低表面PE也可能受周期利润、预测口径与芯片权重影响。三年、要求收益10%、扣年度费率的价格情景现值：压力$30.47／基准$57.14／乐观$72.55；基准八折$45.71。这是条件映射，不是基金内在价值；不含分红。按基准终值倍数，现价需约11.5%的年化分母代理增长才能达到模型10%年化价格回报。倍数、增长与八折均为研究假设。",
+    "next": "分拆软件付费、芯片周期及大型平台利润，核2026预测修订；补AltaVista口径前，不因18.49倍低于IGV就判断更便宜。",
+    "reviewed_at": "2026-11-13T03:10:36.821728+00:00",
+    "market_session": "2026-11-12",
+    "valuation_type": "conditional_fund_sensitivity",
+    "base_value": 57.14,
+    "stress_value": 30.47,
+    "bull_value": 72.55,
+    "discount_price": 45.71,
+    "sources": [
+      {
+        "title": "AIQ 发行人产品页：估值/费率/实际披露日期",
+        "url": "https://www.globalxetfs.com/funds/aiq"
+      },
+      {
+        "title": "AIQ 11/12常规收盘（Yahoo，单源参照）",
+        "url": "https://finance.yahoo.com/quote/AIQ/history/"
+      },
+      {
+        "title": "11/12收盘交叉核验",
+        "url": "https://stockanalysis.com/etf/aiq/history/"
+      }
+    ]
+  }
+}
