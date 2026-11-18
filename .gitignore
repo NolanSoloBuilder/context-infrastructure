@@ -1,9 +1,32 @@
 adhoc_jobs/tmp_*
-.agents/skills/**/node_modules/
+node_modules/
+.DS_Store
+__pycache__/
+/.playwright-cli/
 .agents/skills/**/.git/
-.agents/skills/**/.DS_Store
-.agents/skills/**/__pycache__/
 .agents/skills/**/*.pyc
+
+# Local working outputs from dated market reports. Keep final reports and evidence.
+/contexts/survey_sessions/a_share_daily/????-??-??/**/*.log
+/contexts/survey_sessions/us_market_daily/????-??-??/**/*.log
+/contexts/survey_sessions/a_share_daily/????-??-??/**/*.tar
+/contexts/survey_sessions/us_market_daily/????-??-??/**/*.tar
+/contexts/survey_sessions/a_share_daily/????-??-??/**/*.tar.gz
+/contexts/survey_sessions/us_market_daily/????-??-??/**/*.tar.gz
+/contexts/survey_sessions/a_share_daily/????-??-??/**/*.tgz
+/contexts/survey_sessions/us_market_daily/????-??-??/**/*.tgz
+/contexts/survey_sessions/a_share_daily/????-??-??/**/*_before*.json
+/contexts/survey_sessions/us_market_daily/????-??-??/**/*_before*.json
+/contexts/survey_sessions/a_share_daily/????-??-??/**/report_before_*.md
+/contexts/survey_sessions/us_market_daily/????-??-??/**/report_before_*.md
+/contexts/survey_sessions/a_share_daily/????-??-??/**/live_home*.html
+/contexts/survey_sessions/us_market_daily/????-??-??/**/live_home*.html
+/contexts/survey_sessions/us_market_daily/????-??-??/online_home*.html
+/contexts/survey_sessions/us_market_daily/????-??-??/online_state.json
+/contexts/survey_sessions/us_market_daily/????-??-??/online_history.json
+/contexts/survey_sessions/us_market_daily/????-??-??/online_refresh_start.json
+/contexts/survey_sessions/us_market_daily/????-??-??/publish/homepage*.html
+/contexts/survey_sessions/a_share_daily/????-??-??/site_report.html
 
 # Private Chrome data and generated bookmark artifacts.
 /adhoc_jobs/chrome_bookmark_cleanup/backups/

@@ -3,6 +3,8 @@
 日报真源：`contexts/survey_sessions/a_share_daily/YYYY-MM-DD/report.md`。
 个人观察合同：同目录上级的 `investor_profile.json`；星级提醒状态：`decision_state.json`。
 
+日更保留本地 HTML、发布与验收记录。后续同步 Git 时按[日报入库规则](../../periodic_jobs/weekly_git_sync/README.md#日报入库规则)选取最终报告、必要证据和发布凭证，核对次日沿用的行情和估值基线。
+
 ## 生成HTML
 
 ```sh
