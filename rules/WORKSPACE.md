@@ -1,64 +1,35 @@
-# WORKSPACE.md - 目录路由速查
+# 工作区路由
 
-目标：让 AI 每轮 session 都能快速知道"去哪里找/放什么"。**找任何文件前先查这里。**
+需要定位资料或确定新内容落点时，从这里进入对应主题或项目。具体做法、当前状态和历史版本由对应入口维护。
 
-## 路由规则
+## 可复用知识
 
-### 项目与代码
-- 写代码 / 跑脚本 / 一次性项目：`adhoc_jobs/<project>/`
-- 工具脚本（邮件、语义搜索、分享报告等）：`tools/`
-- 定时任务：`periodic_jobs/`
+- [知识库主题索引](../contexts/knowledge_base/README.md)收录 Agent Harness、铝型材 DIY、产品设计、工程与跨境账户等主题。
+- [Codex 执行经验启动卡](../contexts/thought_review/codex_execution_experience_review.md)负责会话启动和专题分流。[思考与复盘](../contexts/thought_review/)记录判断形成和经验提炼过程。
+- [技能索引](skills/INDEX.md)列出通用流程和技术操作。全局和项目级安装见[作用域治理](skills/skill_scope_management.md)，本机登记见 `~/.local/share/agent-skill-scopes/manifest.json`。
+- [个人公理](axioms/INDEX.md)用于查长期判断原则。[动态观察](../contexts/memory/OBSERVATIONS.md)和[历史记忆任务](../periodic_jobs/ai_heartbeat/)用于追溯观察和复盘。
 
-### 知识与记录
+## 当前项目与工具
 
-- 爱室丽选品 Agent 访谈底稿：`contexts/survey_sessions/2026_09_18_ashley_assortment_discovery.md`（公开背景、待核实流程与决策层级，尚未确认内部 SOP）。
-- 通用调研报告：`contexts/survey_sessions/`
-- 美股图文日报：`contexts/survey_sessions/us_market_daily/YYYY-MM-DD/`（日报、行情快照、曲线与行业图）；生成脚本与现有Python环境：`adhoc_jobs/us_market_daily/`
-- A 股 ETF 晨报：`contexts/survey_sessions/a_share_daily/YYYY-MM-DD/`（银行螺丝钉专栏、指定 E 大策略整理文章、上证与科创行情图及来源）；首期采集绘图脚本：`adhoc_jobs/a_share_daily/sample.py`
-- 外部原始资料 / 本地文档归档：`contexts/source_materials/`
-- 绩效 / OKR 历史资料与本人自评语气：[2026 上半年原文档案](../contexts/source_materials/2026_09_16_h1_performance/README.md)（按业务域索引，含 OKR、周报、业务指标、技术方案、4篇历史自评与离线图片）；[本期复盘稿](../contexts/thought_review/2026_09_16_h1_okr_review.md)。
-- 二次理解后的结构化知识卡片：`contexts/knowledge_base/`
-- 铝型材 DIY 连续学习：`contexts/knowledge_base/aluminum_profile_learning/00-学习计划.md`（按篇记录材料、结构、加工与采购知识）
-- Rimbo 归档上下文：`contexts/rimbo/`
-- 思考 / 复盘 / 方法论：`contexts/thought_review/`
-- 每日日志：`contexts/daily_records/`
+- 一次性项目和脚本进入 `adhoc_jobs/<project>/`。通用工具在 [tools/](../tools/)，周期任务在 [periodic_jobs/](../periodic_jobs/)。
+- [A 股晨报](../adhoc_jobs/a_share_daily/README.md)和[美股日报](../adhoc_jobs/us_market_daily/README.md)的项目 README 各自指向现行流程、日期归档和站点发布说明。站点源码分别维护在独立 Git 仓库 `adhoc_jobs/a_share_site/` 与 `adhoc_jobs/us_market_site/`。
+- [地铁打字 Web 版](../adhoc_jobs/tw_metro_typing_china/)和[打字游中国](../adhoc_jobs/china_route_typing_prototype/)是两个独立项目。小红书小工具的正式入口是 [xhs-minitools](https://github.com/NolanSoloBuilder/xhs-minitools)，本机在 `/Users/xuhao/Documents/Other/xhs-minitools/`。
+- BeamJoin 的实现、规格和发布文档在 [agent-native-aluminum-platform](https://github.com/NolanSoloBuilder/agent-native-aluminum-platform)，本机在 `/Users/xuhao/Documents/Other/agent-native-aluminum-platform/`。
+- 多问卷集合站的正式入口是 [quiz-hub](https://github.com/NolanSoloBuilder/quiz-hub)。原本机路径 `/Users/xuhao/Documents/Other/quiz-hub/` 当前不可用。
+- `context-vault`（AI Tool Environment Sync）是独立仓库，登记路径 `/Users/xuhao/Documents/Basic/context-vault/` 当前不可用。内部 Runway API proxy 位于 `/Users/xuhao/Documents/Basic/claude-code-proxy/`，凭据和发布规则见项目说明。
+- 企业 Agent 定制候选底座见 [mkagent](https://github.com/NolanSoloBuilder/mkagent)，本机在 `/Users/xuhao/Documents/Other/mkagent/`。[个人网站原型](../adhoc_jobs/xuhao_personal_site/)在本工作区。
+- 项目工具见 [Chrome 书签整理](../adhoc_jobs/chrome_bookmark_cleanup/)、[Cited Alpha 联系人线索](../adhoc_jobs/cited_alpha_lead_pipeline/)和 [StrongVPN 订阅维护](skills/strongvpn-node-optimizer/references/subscription_workflow.md)。
 
-### 系统与规则
-- 可复用技术方案 / Skill：`rules/skills/`
-- 核心公理（Axioms）：`rules/axioms/`
-- 记忆系统：`contexts/memory/` + `periodic_jobs/ai_heartbeat/`
+## 调研与历史证据
 
-## 命名规则
-- 目录和文件名：小写 + 下划线 (snake_case)
-- 临时一次性项目：`tmp_<name>/`
+- [调研记录](../contexts/survey_sessions/)保存专题结论、日期报告和核验证据。[原始资料](../contexts/source_materials/)保存外部文档、转录和附件。按主题找可复用结论时，先看知识库主题索引。
+- [Cited Alpha 研究 Agent 总方案](../contexts/survey_sessions/cited_alpha_agent_redesign/README.md)和[爱室丽选品 Agent 访谈底稿](../contexts/survey_sessions/2026_09_18_ashley_assortment_discovery.md)是专题研究的入口。
+- [2026 上半年绩效资料](../contexts/source_materials/2026_09_16_h1_performance/README.md)按业务域索引原文，个人总结见[本期复盘](../contexts/thought_review/2026_09_16_h1_okr_review.md)。
+- [Anthropic 路演资料](../contexts/source_materials/anthropic_roadshow_2026_11_10/README.md)保留字幕、来源和编码核验记录。
+- [Rimbo 归档](../contexts/rimbo/README.md)负责旧工作上下文和迁移记录。[Love User Manual 实现快照](../adhoc_jobs/love_user_manual/)保留迁移前实现，[铝型材编辑器旧 Demo](../adhoc_jobs/aluminum_editor_demo/)保留早期原型。
+- [Shared Agent Workspace 内容产物](../adhoc_jobs/xhs_shared_agent_post/)保留正文、视觉规格和成图。[Mac 磁盘清理记录](../adhoc_jobs/storage_analysis_20261009/)保留快照和执行证据，[每日日志](../contexts/daily_records/)保留日期线索。
 
-## Python 环境
-- 根目录 `.venv/` 为工作区级环境，用 `uv pip install` 管理依赖
-- 需要隔离时在 `adhoc_jobs/<project>/.venv/` 建独立环境
+## 新文件与环境
 
-## 快速查询
-
-<!-- 随着你的项目增长，在这里添加活跃项目的快捷路由 -->
-<!-- 格式：- `project-name` → `adhoc_jobs/project_name/` (说明) -->
-- `rimbo` / `rimbo-work-context` → `contexts/rimbo/README.md`（原 `rimbo-work-context` 已迁入当前空间；迁移清单见 `contexts/rimbo/MIGRATION_MANIFEST.md`）
-- `codex_execution_experience` / `codex 经验复盘` → `contexts/thought_review/codex_execution_experience_review.md`（默认加载 L0 启动卡）；专题规则按需看 `contexts/thought_review/codex_execution_experience/`
-- `chrome-bookmark-cleanup` → `adhoc_jobs/chrome_bookmark_cleanup/`（Chrome 书签整理脚本、备份和整理预览）
-- `cited-alpha-lead-pipeline` → `adhoc_jobs/cited_alpha_lead_pipeline/`（公开联系人入口抓取、Hunter enrichment、验证与法域门禁）
-- `china-metro-typing` → `adhoc_jobs/tw_metro_typing_china/`（基于 tw-metro-typing fork 的中国 41 城地铁站名打字游戏）
-- `china-route-typing` / `打字游中国` → `adhoc_jobs/china_route_typing_prototype/`（独立的全国城市线路打字游戏交互原型；复用地铁项目技术资产，不复用地铁站点数据）
-- `context-vault` / `AI Tool Environment Sync` → `/Users/xuhao/Documents/Basic/context-vault/`（独立 GitHub 仓库；不要放入当前 workspace 的 `adhoc_jobs/`）
-- `claude-code-proxy` → `/Users/xuhao/Documents/Basic/claude-code-proxy/`（内部 Runway API proxy 仓库；凭据治理和发布前检查入口）
-- `skill-scope` / `全局 Skill 范围` → `rules/skills/skill_scope_management.md`（治理规则）；`~/.local/share/agent-skill-scopes/manifest.json`（本机来源、项目链接、备份及审计真源）
-- `Mac磁盘清理` / `storage-analysis` → `adhoc_jobs/storage_analysis_20261009/`（磁盘快照、逐项清理结果、Codex会话候选与执行证据；日常记录在 `contexts/daily_records/2026_10_09_*cleanup*.md`）
-- `xuhao-personal-site` → `adhoc_jobs/xuhao_personal_site/`（徐昊个人网站原型；全屏横向叙事、作品集与近况）
-- `agent-native-aluminum-platform` / BeamJoin → `/Users/xuhao/Documents/Other/agent-native-aluminum-platform/`（独立 GitHub 仓库 `NolanSoloBuilder/agent-native-aluminum-platform`；领域命令、Web 3D、API、MCP、联调脚本）；产品规格与技术架构已复制到该仓库 `docs/`，本工作区原调研稿仍保留在 `contexts/survey_sessions/`；旧 Demo 位于 `adhoc_jobs/aluminum_editor_demo/`，不作为新工程依赖
-- `xhs-shared-agent-post` → `adhoc_jobs/xhs_shared_agent_post/`（Shared Agent Workspace 小红书正文、视觉规格与成图）
-- 多问卷集合站 / `quiz-hub` → `/Users/xuhao/Documents/Other/quiz-hub/`（GitHub 私有仓库 `NolanSoloBuilder/quiz-hub`；线上 `quiz.forgepane.com`；问卷、网页、内容、封面与结果卡的正式真源）
-- `love-user-manual` 原始实现快照 → `adhoc_jobs/love_user_manual/`（已迁移到 `quiz-hub`，不再作为部署真源）
-- `mkagent` → `/Users/xuhao/Documents/Other/mkagent/`（GitHub fork `NolanSoloBuilder/mkagent`；上游 `MkThingsHQ/mkagent`，企业客户 Agent 定制候选底座）
-- `cited-alpha-agent-redesign` → `contexts/survey_sessions/cited_alpha_agent_redesign/README.md`（通用金融研究 Agent 总方案、分层设计与迁移验收入口）
-- `StrongVPN订阅更新` / `重新下载节点并更新订阅` → `rules/skills/strongvpn-node-optimizer/references/subscription_workflow.md`（节点下载、Clash YAML 转换、验证、VPS 原子发布与客户端刷新；当前为一份完整统一订阅）
-
-- 美股在线观察台 / `us-market-site` → `adhoc_jobs/us_market_site/`（独立Sites源码Git；固定公网地址与发布证据见 `contexts/survey_sessions/us_market_daily/cloud_site/`；仅公开行情研究，私账仍本地）
-
-- A股晨报在线站点 / `a-share-site` → `adhoc_jobs/a_share_site/`（独立Sites源码Git；固定地址与发布证据见`contexts/survey_sessions/a_share_daily/cloud_site/`）
+- 新项目目录优先使用小写下划线命名。临时一次性项目可放 `adhoc_jobs/tmp_<name>/`。
+- 项目依赖和运行环境以项目说明为准。需要单独的 Python 环境时，可以在项目目录建立 `.venv/`。

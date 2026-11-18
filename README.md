@@ -9,7 +9,7 @@
 | 在这个工作区协作 | [AGENTS.md](AGENTS.md) 和 [Codex 执行经验启动卡](contexts/thought_review/codex_execution_experience_review.md) |
 | 查找项目、脚本和历史资料 | [工作区路由](rules/WORKSPACE.md) |
 | 了解个人背景、偏好和表达方式 | [个人档案](rules/USER.md)、[协作原则](rules/SOUL.md) 和 [沟通与写作](rules/COMMUNICATION.md) |
-| 查找可复用的知识和方法 | [知识库](contexts/knowledge_base/)、[执行复盘](contexts/thought_review/) 和 [技能索引](rules/skills/INDEX.md) |
+| 查找可复用的知识和方法 | [知识库主题索引](contexts/knowledge_base/README.md)、[执行复盘](contexts/thought_review/) 和 [技能索引](rules/skills/INDEX.md) |
 | 查证某次判断或执行结果 | [调研记录](contexts/survey_sessions/) 和 [原始资料](contexts/source_materials/) |
 
 会话先读启动卡，再按任务进入对应专题。项目的实现、状态和部署入口以项目自身文档为准，工作区路由负责指向这些入口。

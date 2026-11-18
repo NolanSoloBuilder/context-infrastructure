@@ -1,8 +1,10 @@
 # 美股日报数据、图表与 HTML
 
+从[按日期归档的日报](../../contexts/survey_sessions/us_market_daily/)进入当天的报告、行情与研究证据。线上观察台的固定入口、发布版本和读回证据见[站点说明](../../contexts/survey_sessions/us_market_daily/cloud_site/README.md)。研究取舍见[研究规则](../../contexts/survey_sessions/us_market_daily/research_policy.md)。
+
 日更按现有流程生成、发布和本机留档。后续同步 Git 时按[日报入库规则](../../periodic_jobs/weekly_git_sync/README.md#日报入库规则)选取最终报告、必要证据和发布凭证，核对行情与研究基线的可复用性。
 
-已完成首次手动验证：北京时间2026-10-23，对应美东2026-10-22常规收盘。此脚本只读公开行情并生成本地文件；不连接券商或交易。图表不能代替每次的联网新闻、官方日历、收益率和重要价格交叉核验。
+下方命令使用首次手动验证的历史样例，北京时间 2026-10-23 对应美东 2026-10-22 常规收盘。日更使用当期北京时间目录和最新已完成的美东常规交易日。采集脚本只读公开行情并生成本地文件，新闻、交易日历、收益率和重要报价仍需当次核验。
 
 现有隔离环境：`adhoc_jobs/us_market_daily/.venv`，Python 3.12，matplotlib、pandas；不需要每天重装。macOS字体使用系统Arial Unicode。
 

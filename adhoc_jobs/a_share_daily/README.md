@@ -1,7 +1,8 @@
 # A股个人晨报
 
-日报真源：`contexts/survey_sessions/a_share_daily/YYYY-MM-DD/report.md`。
-个人观察合同：同目录上级的 `investor_profile.json`；星级提醒状态：`decision_state.json`。
+从[按日期归档的晨报](../../contexts/survey_sessions/a_share_daily/)进入对应日期，正文以 `report.md` 为准。复核当期估值时打开同目录的 `valuation_all.json`，按 `asof`、`issue`、`source_url` 和 `source_image` 回看实际数据日、作者原文和估值原图。休市沿用旧估值时，按报告注明的有效日期追溯。
+
+当前作者观察范围是银行螺丝钉与重远投资观。日常行情使用 `collect_market.py`。个人观察口径和提醒状态见归档根目录的 `investor_profile.json` 与 `decision_state.json`。线上发布与核验入口见[站点说明](../../contexts/survey_sessions/a_share_daily/cloud_site/README.md)。
 
 日更保留本地 HTML、发布与验收记录。后续同步 Git 时按[日报入库规则](../../periodic_jobs/weekly_git_sync/README.md#日报入库规则)选取最终报告、必要证据和发布凭证，核对次日沿用的行情和估值基线。
 
@@ -106,7 +107,7 @@ valuation_labels.mjs在渲染时将明确的作者分类变为文字标签：低
 
 ### 主观察表全量估值（2026-11-02最新口径）
 
-用户要求纳入螺丝钉全部基金指数。常规原图中每一个指数都须进入主表，不限重点4/5项，也不限低估区。当前第3004期50项（23低估、27正常、0高估）为当期事实，未来不写死数量。原图PE/PB/盈利收益率、分类及场内/场外基金代码逐项核对后保存当日valuation_all.json；旧辅助页只作名称/代码参考，不能填入当期估值。债券收益率参考与其他日期的附表不混入指数数目或同日估值。
+用户要求纳入螺丝钉全部基金指数。常规原图中每一个指数都须进入主表，不限重点4/5项，也不限低估区。第3004期历史样例为50项（23低估、27正常、0高估），每日数量以当期原图为准。原图PE/PB/盈利收益率、分类及场内/场外基金代码逐项核对后保存当日valuation_all.json；旧辅助页只作名称/代码参考，不能填入当期估值。债券收益率参考与其他日期的附表不混入指数数目或同日估值。
 
 先读取当期完整原图建立valuation_all.json，核对count/各分类数量/唯一名称，保存source_url/source_image/asof/issue/overall_star及逐项值。`write_valuation_overview.py --report-dir <当日目录>`按完整JSON更新同一Markdown主表、生成当期valuation_cheap.json子集；拒绝估值日与行情有效日不一致，不补造未采行情。上证指数原图本期为PE16.05/PB1.39、正常；前版漏读已在当日sources/valuation_corrections.json纠正，不能再写“未提供”。之后每日按新原图刷新，不沿用固定估值数。
 

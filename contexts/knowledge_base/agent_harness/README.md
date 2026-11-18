@@ -1,23 +1,20 @@
-# Agent Harness Knowledge Base
+# Agent Harness 专题
 
-日期：2026-07-06
-
-这个目录不是原始资料归档，而是对 Agent Harness 相关资料理解后的结构化知识库。原始 OpenBook 成书版在 `contexts/source_materials/openbook/`；外部资料的 URL 记录在 `reference_cards.md`。
+这里存放 Agent Harness 的学习计划、设计原语和参考卡片。原始成书版见 [OpenBook 资料归档](../../source_materials/openbook/README.md)。
 
 ## 文件
 
 | 文件 | 用途 |
 |---|---|
-| `reference_cards.md` | 外部资料的理解卡片：每条资料解决什么 Harness 问题、适合什么时候用、对应 OpenBook 哪些章节 |
-| `harness_primitives.md` | 从资料中抽象出来的 Harness 设计原语：状态、工具、权限、记忆、观测、恢复等 |
+| [AI Agent Infra 岗位学习计划](00-学习计划.md) | 六周练习与验收，先用第一周试做校准起点 |
+| [Harness 设计原语](harness_primitives.md) | 状态、工具、权限、记忆、观测和恢复等设计概念 |
+| [参考资料卡片](reference_cards.md) | 每份资料适用的问题、外部来源和对应的 OpenBook 章节 |
 
 ## 使用方式
 
-当讨论 Agent runtime、工具系统、记忆、多 Agent、MCP、权限或云上 sandbox 时：
-
-1. 先读 `harness_primitives.md`，确认要讨论的是哪类设计原语。
-2. 再读 `reference_cards.md`，选择 2-3 个最贴近问题的外部资料。
-3. 需要具体章节时，回到 `contexts/source_materials/openbook/openbook_zh.md` 或对应官方文档。
+- 按周学习或准备岗位面试时，从学习计划开始。
+- 做运行时、工具、记忆或权限设计时，先找对应的设计原语，再用参考卡片定位资料。
+- 核对具体章节时，查阅 [OpenBook 中文成书版](../../source_materials/openbook/openbook_zh.md)或对应的官方文档。
 
 ## 入库边界
 
