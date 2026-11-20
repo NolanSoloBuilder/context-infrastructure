@@ -1,0 +1,89 @@
+.qy-archive {
+  width: min(100%, 640px);
+  margin-inline: auto;
+  padding: clamp(18px, 5vw, 36px) clamp(16px, 5vw, 34px) 38px;
+  color: var(--qy-ink, #24291f);
+}
+.qy-archive-header {
+  min-height: 141px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 23px 23px 28px;
+  border: 1px solid var(--qy-rule, #d9d1bf);
+  background: var(--qy-sheet, #fffdf7) url("/assets/qingyan-name-paper.webp") center / cover no-repeat;
+}
+.qy-archive-header h1 {
+  margin: 0 0 8px;
+  font: 700 clamp(28px, 8vw, 38px)/1.2 var(--qy-serif, serif);
+  letter-spacing: .09em;
+}
+.qy-archive-header p { font-size: 13px; color: var(--qy-muted, #5d6053); }
+.qy-archive-header img { flex: none; margin-top: 3px; }
+.qy-archive-section { margin-top: 25px; }
+.qy-archive-section h2 {
+  margin: 0 0 8px;
+  font: 700 19px/1.35 var(--qy-serif, serif);
+}
+.qy-archive ul { margin: 0; padding: 0; list-style: none; }
+.qy-archive-section ul {
+  border-block: 1px solid var(--qy-rule, #d9d1bf);
+  background: var(--qy-sheet, #fffdf7);
+}
+.qy-archive li + li { border-top: 1px solid var(--qy-rule, #d9d1bf); }
+.qy-archive-link {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-height: 66px;
+  padding: 10px 14px;
+  color: inherit;
+  text-decoration: none;
+}
+.qy-archive-link:hover { background-color: var(--qy-green-light, #e8ede3); }
+.qy-archive-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: var(--qy-green, #314938);
+  background: var(--qy-green-light, #e8ede3);
+  font-size: 18px;
+}
+.qy-archive-label { display: grid; gap: 2px; flex: 1; min-width: 0; }
+.qy-archive-label strong { font-size: 15px; font-weight: 650; }
+.qy-archive-label > span, .qy-archive-link > i {
+  color: var(--qy-muted, #5d6053);
+  font-size: 12px;
+}
+.qy-archive-management {
+  margin-top: 23px;
+  border-block: 1px solid var(--qy-rule, #d9d1bf);
+}
+.qy-archive-management > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 46px;
+  cursor: pointer;
+  padding-inline: 5px;
+  color: var(--qy-green, #314938);
+  font-weight: 600;
+  list-style: none;
+}
+.qy-archive-management > summary::-webkit-details-marker { display: none; }
+.qy-archive-management[open] > summary > i { transform: rotate(180deg); }
+.qy-archive-clear {
+  min-height: 44px;
+  padding-inline: 14px;
+  background: transparent;
+  border: 0;
+  color: #92372d;
+  text-align: left;
+  cursor: pointer;
+}
+.qy-archive-clear:disabled { opacity: .55; }
+.qy-archive-status:not(:empty) { margin: 0 14px 12px; color: var(--qy-muted, #5d6053); font-size: 13px; }

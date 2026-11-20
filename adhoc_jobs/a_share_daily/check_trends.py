@@ -9,6 +9,7 @@ def cli(*args):
  return r.stdout
 script=r'''async page => {
  const result={status:'passed'};
+ const previous=page.locator('#last-session');if(await previous.count())await previous.locator(':scope > summary').click();
  if(await page.locator('[data-trend-period="3y"][aria-pressed=true]').count()!==1)throw new Error('Default is not three years');
  if(await page.locator('#trend-dialog').evaluate(e=>e.open)||await page.locator('#china-stocks').evaluate(e=>e.open))throw new Error('Default panels should be closed');
  const total=await page.locator('.trend-summary-card[data-trend-symbol]').count();if(total<7)throw new Error('Missing cards');result.cards=total;

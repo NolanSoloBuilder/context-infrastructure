@@ -1,0 +1,104 @@
+
+Open_chest.png
+size: 2048, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+1
+  rotate: false
+  xy: 1718, 269
+  size: 259, 211
+  orig: 262, 215
+  offset: 1, 2
+  index: -1
+2
+  rotate: true
+  xy: 1160, 19
+  size: 265, 301
+  orig: 266, 301
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 982, 286
+  size: 244, 194
+  orig: 246, 196
+  offset: 1, 1
+  index: -1
+4
+  rotate: true
+  xy: 872, 20
+  size: 264, 286
+  orig: 264, 286
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1228, 286
+  size: 244, 194
+  orig: 246, 196
+  offset: 1, 1
+  index: -1
+6
+  rotate: true
+  xy: 1463, 2
+  size: 265, 286
+  orig: 265, 286
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 234, 340
+  size: 272, 140
+  orig: 330, 339
+  offset: 11, 146
+  index: -1
+8
+  rotate: false
+  xy: 2, 349
+  size: 230, 131
+  orig: 330, 339
+  offset: 42, 142
+  index: -1
+Leader_board/1
+  rotate: false
+  xy: 1474, 286
+  size: 242, 194
+  orig: 242, 194
+  offset: 0, 0
+  index: -1
+Leader_board/2
+  rotate: true
+  xy: 582, 35
+  size: 263, 288
+  orig: 263, 288
+  offset: 0, 0
+  index: -1
+Leader_board/3
+  rotate: false
+  xy: 508, 306
+  size: 228, 174
+  orig: 228, 174
+  offset: 0, 0
+  index: -1
+Leader_board/4
+  rotate: true
+  xy: 2, 85
+  size: 253, 286
+  orig: 253, 286
+  offset: 0, 0
+  index: -1
+Leader_board/5
+  rotate: false
+  xy: 738, 300
+  size: 242, 180
+  orig: 242, 180
+  offset: 0, 0
+  index: -1
+Leader_board/6
+  rotate: true
+  xy: 290, 44
+  size: 260, 290
+  orig: 260, 290
+  offset: 0, 0
+  index: -1

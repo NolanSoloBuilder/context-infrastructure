@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-19T01:22:53.969639+00:00",
+  "public_anonymous": true,
+  "report_date": "2026-11-19",
+  "content_revision": "35678c4ad5b792a5f25cc0100699b7769a6d945ae7a9834d539a57b64cb1ad41",
+  "html_meta_same_revision": true,
+  "archived_site_sha256": "d6800700a30770ff51d35c3019185e8a3d78a70c4dbc603dcdd0ebb92f62c979",
+  "served_html_sha256": "dff9f59ec16bfdde4a00907ea8faa8c27af8bb3d0b34e9d3db31ca7b66f2ee8c",
+  "html_match": "matches archived bytes after removing identified Cloudflare bootstrap",
+  "served_bytes": 4935878,
+  "archived_bytes": 4934764,
+  "attempts": [
+    {
+      "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site/?v=35678c4ad5b7-verify",
+      "public_dns_override": false,
+      "exit_code": 7,
+      "error": "curl: (7) Failed to connect to nolan-a-share-daily.choice-calf-0415.chatgpt.site port 443 after 32 ms: Couldn't connect to server\n"
+    },
+    {
+      "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site/report-meta.json?v=35678c4ad5b7-verify",
+      "public_dns_override": false,
+      "exit_code": 7,
+      "error": "curl: (7) Failed to connect to nolan-a-share-daily.choice-calf-0415.chatgpt.site port 443 after 2 ms: Couldn't connect to server\n"
+    },
+    {
+      "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site/?v=35678c4ad5b7-verify",
+      "public_dns_override": true,
+      "exit_code": 0,
+      "error": ""
+    },
+    {
+      "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site/report-meta.json?v=35678c4ad5b7-verify",
+      "public_dns_override": true,
+      "exit_code": 0,
+      "error": ""
+    }
+  ]
+}

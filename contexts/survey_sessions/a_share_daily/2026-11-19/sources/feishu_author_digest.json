@@ -1,0 +1,37 @@
+{
+  "window_start": "2026-11-18T09:00:00+08:00",
+  "window_end": "2026-11-19T09:00:00+08:00",
+  "message_count": 21,
+  "candidate_count": 20,
+  "complete_api_window": true,
+  "provenance": "南冬CLI只读群同步作者观点；不是独立读取的知识星球全文",
+  "reviewed": [
+    {
+      "message_id": "om_x100b60efd41698a0cefdd1776851971",
+      "kind": "新动态",
+      "source_time": "2026-11-18 22:37+08:00",
+      "sync_create_time": "1795013037980",
+      "sync_update_time": "1795013037980",
+      "content_sha256": "97d316ac510ea0b7592df2d25a0d1872e61b99ad7c13d75b751dab2b0934f531",
+      "summary": "作者用2015年创业板历史跌幅类比，提出创业板1930点、科创50约900点的情景终点，区分反弹仓和长期仓、按浮亏承受力放慢节奏；初学者可以放弃博反弹。点位与概率是作者主观推演，不能验证为价格下限；科创50在2015年尚未存在。示例比例不是作者实际仓位，也不采用其不亏钱或一年回本式表述。"
+    },
+    {
+      "message_id": "om_x100b60ee659aeca0cd3fabce7d89a3f",
+      "kind": "回答",
+      "source_time": "2026-11-18 21:05+08:00",
+      "sync_create_time": "1795007157726",
+      "sync_update_time": "1795007157726",
+      "content_sha256": "d592cb3d907463506dd21a730de06a6e7ab12a32ab6394632941142cea49334f",
+      "summary": "作者认为科创50与创业板的风险结构和确定性不同，倾向创业板；这属于作者判断，未披露新买入金额或完整仓位。"
+    }
+  ],
+  "superseded_sync": [
+    {
+      "message_id": "om_x100b60ef3b9578a0dd6c140f1519e93",
+      "source_time": "2026-11-18 22:33+08:00",
+      "content_sha256": "92a2858af326848fcd2d0d20e180b4784ce27ad897bc5cbf370c74763b0366aa"
+    }
+  ],
+  "dedup_note": "22:33与22:37同一篇，后者新增技术类比说明，仅保留22:37摘要；成员提问/评论及非投资内容未归档",
+  "coverage_warning": "未知，群同步可能有缺漏"
+}

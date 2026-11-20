@@ -7,6 +7,7 @@ def cli(*args):
  if r.returncode or '### Error' in r.stdout:raise RuntimeError(r.stdout+r.stderr)
  return r.stdout
 script=r'''async page => {
+ const previous=page.locator('#last-session');if(await previous.count()){if(await previous.evaluate(e=>e.open))throw new Error('Previous session should start collapsed');await previous.locator(':scope > summary').click();}
  const expected=DATA,table=page.locator('#watchlist>.table-scroll tbody tr'),shown=()=>table.evaluateAll(rows=>rows.filter(r=>!r.hidden).length),result={status:'passed'};
  if(await table.count()!==expected.count)throw new Error('Incomplete full list');
  const compared=await table.evaluateAll((rows,items)=>items.map(x=>{const matches=rows.filter(r=>{const name=r.cells[0].textContent.trim();return name===x.name||name.startsWith(x.name+' ')});if(matches.length!==1)return x.name+': nonunique';const r=matches[0],val=r.cells[4].textContent,fund=r.cells[5].textContent;if(!val.includes(x.zone))return x.name+': class';for(const [key,prefix,suffix] of [['pe','PE','倍'],['pb','PB','倍'],['earnings_yield','盈利收益率','%']])if(x[key]&&!val.includes(prefix+x[key]+suffix))return x.name+': '+key;for(const key of ['on_exchange_fund','off_exchange_fund'])if(x[key]&&!fund.includes(x[key]))return x.name+': '+key;return null}).filter(Boolean),expected.items);

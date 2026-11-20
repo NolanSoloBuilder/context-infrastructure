@@ -1,0 +1,30 @@
+{
+  "report_date": "2026-11-19",
+  "cutoff": "2026-11-19T09:00:00+08:00",
+  "author_source": {
+    "url": "https://www.sina.cn/news/detail/5366723058598756.html",
+    "issue": "3017",
+    "published": "2026-11-18T21:52:00+08:00",
+    "overall_star": 5.0,
+    "previous_star": 5.0,
+    "stage_changed": false,
+    "image_date": "20261118",
+    "count": 50,
+    "counts": {
+      "低估": 24,
+      "正常": 26,
+      "高估": 0
+    },
+    "image_sha256": "6075566dc1c1a17345bc6187b6ef1c61e43a842b8e6410da6ca919a2b87e3117",
+    "scope": "本人公开同步正文及常规估值原图。低估新增中证1000，其余分类不变。"
+  },
+  "star_alert": "11月16日已首次触线，本期无新触发",
+  "market_source": "腾讯proxy7项同日完整序列；交叉核验另见quote_crosscheck.json",
+  "feishu": {
+    "message_count": 21,
+    "candidate_count": 20,
+    "reviewed_unique": 2,
+    "cutoff": "2026-11-19T09:00:00+08:00"
+  },
+  "valuation_review": "二次对照原图50项：港股科技股息率纠正为0.75%，其余指标与分类基金代码一致"
+}

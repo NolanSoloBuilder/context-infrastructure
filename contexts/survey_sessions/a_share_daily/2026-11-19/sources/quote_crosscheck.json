@@ -1,0 +1,136 @@
+{
+  "asof": "2026-11-18",
+  "spot_source": "https://qt.gtimg.cn/q=sh000001,sh000016,sh000300,sh000688,sh510050,sh510300,sh588000",
+  "same_provider_checks": [
+    {
+      "symbol": "sh000001",
+      "date": "20261118161500",
+      "close": 3587.83,
+      "previous_close": 3584.58,
+      "daily_pct": 0.09066613103905219,
+      "status": "match",
+      "independence": "same provider different endpoint"
+    },
+    {
+      "symbol": "sh000016",
+      "date": "20261118161500",
+      "close": 2764.54,
+      "previous_close": 2768.36,
+      "daily_pct": -0.13798783395223557,
+      "status": "match",
+      "independence": "same provider different endpoint"
+    },
+    {
+      "symbol": "sh000300",
+      "date": "20261118161411",
+      "close": 3983.77,
+      "previous_close": 3976.46,
+      "daily_pct": 0.18383185043984174,
+      "status": "match",
+      "independence": "same provider different endpoint"
+    },
+    {
+      "symbol": "sh000688",
+      "date": "20261118161411",
+      "close": 1247.99,
+      "previous_close": 1221.19,
+      "daily_pct": 2.194580695878612,
+      "status": "match",
+      "independence": "same provider different endpoint"
+    },
+    {
+      "symbol": "sh510050",
+      "date": "20261118161448",
+      "close": 2.883,
+      "previous_close": 2.884,
+      "daily_pct": -0.03467406380027738,
+      "status": "match",
+      "independence": "same provider different endpoint"
+    },
+    {
+      "symbol": "sh510300",
+      "date": "20261118161439",
+      "close": 4.058,
+      "previous_close": 4.042,
+      "daily_pct": 0.3958436417615063,
+      "status": "match",
+      "independence": "same provider different endpoint"
+    },
+    {
+      "symbol": "sh588000",
+      "date": "20261118161458",
+      "close": 1.322,
+      "previous_close": 1.294,
+      "daily_pct": 2.163833075734156,
+      "status": "match",
+      "independence": "same provider different endpoint"
+    }
+  ],
+  "finews_source": "https://a.finews.fyi/api/reports/2026-11-18",
+  "finews_checks": [
+    {
+      "symbol": "sh000001",
+      "close": 3587.83,
+      "daily_pct": 0.09,
+      "status": "match to displayed precision"
+    },
+    {
+      "symbol": "sh000300",
+      "close": 3983.77,
+      "daily_pct": 0.18,
+      "status": "match to displayed precision"
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1247.99,
+      "daily_pct": 2.19,
+      "status": "match to displayed precision"
+    },
+    {
+      "symbol": "sh510300",
+      "close": 4.058,
+      "daily_pct": 0.4,
+      "status": "match to displayed precision"
+    },
+    {
+      "symbol": "sh588000",
+      "close": 1.322,
+      "daily_pct": 2.16,
+      "status": "match to displayed precision"
+    }
+  ],
+  "independent_sources": [
+    {
+      "url": "https://www.sse.com.cn/market/sseindex/overview/?COLLCC=1161507938",
+      "method": "网页检索可读，更新日期2026-11-18；普通入口不显示行情，不视作失败行情验证",
+      "closes": {
+        "sh000001": 3587.83,
+        "sh000016": 2764.54,
+        "sh000688": 1247.99
+      }
+    },
+    {
+      "url": "https://stock.cngold.org/c/2026-11-18/c10888398.html",
+      "method": "网页检索可读，发布时间2026-11-18 15:25，直接打开失败",
+      "closes": {
+        "sh000001": 3587.83,
+        "sh000016": 2764.54,
+        "sh000300": 3983.77,
+        "sh000688": 1247.99
+      }
+    }
+  ],
+  "ma60_independent_recalculation": {
+    "date": "2026-11-18",
+    "n": 60,
+    "arithmetic_mean": 1457.5318333333335,
+    "gap_pct": -14.376484172844261
+  },
+  "turnover_difference": {
+    "cls_yiyuan": 13695.63,
+    "finews_yiyuan": 13697.02223463,
+    "difference_yiyuan": 1.39,
+    "report_display": "约1.37万亿元，两市范围；未推断ETF净申购"
+  },
+  "history_route": "直接使用已验证腾讯proxy接口成功；本次未声称主路失败"
+}

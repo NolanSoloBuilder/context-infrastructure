@@ -1,0 +1,800 @@
+{
+  "asof_session": "2026-11-17",
+  "generated_at_utc": "2026-11-17T23:30:28.293458+00:00",
+  "method": {
+    "prices": "Yahoo daily OHLC close; split-adjusted provider series, not dividend-reinvested total returns",
+    "drawdown": "100*(close / max(high in (date-364 calendar days,date]) - 1)",
+    "volume_baseline": "20 preceding sessions, excluding report session",
+    "screening_levels": "52-week intraday high * .85 / .75, cents rounded half-up; observation only"
+  },
+  "sources": [
+    {
+      "symbol": "AAPL",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "AAPL.json",
+      "sha256": "4feff6b52c3fdce5d9de70b41a3734fb90ed71878df2a017f3bd9552972964db",
+      "file_saved_utc": "2026-11-17T23:30:25.640480+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "ACN",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ACN?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "ACN.json",
+      "sha256": "d17b26df3b680caeefb2a61a804d45401a5e415e1353ce9b04adcf1ba56e3891",
+      "file_saved_utc": "2026-11-17T23:30:24.659475+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "AIQ",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AIQ?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "AIQ.json",
+      "sha256": "3badecf1a308b2bf129af329f097343c94a054e92b00f080409d97c7180fe78b",
+      "file_saved_utc": "2026-11-17T23:30:21.969803+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "AMZN",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "AMZN.json",
+      "sha256": "48cb9657f6909e1e96800bffa94fd448a28b02965dc6d2420c3a1489e1856e8f",
+      "file_saved_utc": "2026-11-17T23:30:23.018369+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "BA",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BA?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "BA.json",
+      "sha256": "7e775e382de8a1000a974253f94f9be124e62c1d3c30da38ba9e67d0903ce2ec",
+      "file_saved_utc": "2026-11-17T23:30:25.448194+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "BOTZ",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BOTZ?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "BOTZ.json",
+      "sha256": "e49e0c8e203255574b8f4b847829dd82ef5567735b5c54b115b2fa0647048fba",
+      "file_saved_utc": "2026-11-17T23:30:21.843647+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "BRK-B",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "BRK-B.json",
+      "sha256": "31a3ab5c420a5ec3c8d4d862acc2f193efe274e40d71a82c38f1e0f959e2ce38",
+      "file_saved_utc": "2026-11-17T23:30:20.616743+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "CGNX",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CGNX?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "CGNX.json",
+      "sha256": "59e5d142742c60c4bc9204b46fa5d0c6867aef49f6584a711334c0292661a4fb",
+      "file_saved_utc": "2026-11-17T23:30:22.627814+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "CRM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "CRM.json",
+      "sha256": "44f0d5fa79ef4f588de1fe775139895fe9f7ba207677bf23dc6d05fea89c0975",
+      "file_saved_utc": "2026-11-17T23:30:24.084660+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "DRAM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/DRAM?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "DRAM.json",
+      "sha256": "933397432c570c9a2ad8eb1943f04a479118d366ed47589a3a57f3231e3cf83c",
+      "file_saved_utc": "2026-11-17T23:30:21.324627+00:00",
+      "first_session": "2026-04-02",
+      "last_session": "2026-11-17",
+      "bars": 159,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "EPAM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/EPAM?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "EPAM.json",
+      "sha256": "5641b6d8a1fe334c8ac21083310ff57c64bc6c074264ecca58bb9aac7e1c9722",
+      "file_saved_utc": "2026-11-17T23:30:24.831796+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "GEHC",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GEHC?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "GEHC.json",
+      "sha256": "3b2a9115db7300781856ebefb4ad75aafbab893422cc9fd9fe78f55373de0066",
+      "file_saved_utc": "2026-11-17T23:30:24.291184+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "GLOB",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLOB?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "GLOB.json",
+      "sha256": "d6754688848a1b94fbf31a8302ca5321d20bffa674a58b466918c924e9abc5c0",
+      "file_saved_utc": "2026-11-17T23:30:24.925174+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "GOOG",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOG?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "GOOG.json",
+      "sha256": "286aa91ea476c328f219d163fc85457af48ff2d8c1d68862881109cd52dd250c",
+      "file_saved_utc": "2026-11-17T23:30:25.640956+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "GOOGL",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "GOOGL.json",
+      "sha256": "473b0447e9220b29c698910edec4910b461cdf71b0066d8ed3bff9a19214f7e4",
+      "file_saved_utc": "2026-11-17T23:30:22.902555+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "IGV",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IGV?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "IGV.json",
+      "sha256": "cb972885c70cf4d80770d9feaa64220981daaf49e8a733c6bfdb5104bbdd49df",
+      "file_saved_utc": "2026-11-17T23:30:21.448964+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "IHI",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IHI?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "IHI.json",
+      "sha256": "6b8eddbf4046d99ed325ee4ba00be20a95feb4725f85c53d91e9e0ef8afa3f14",
+      "file_saved_utc": "2026-11-17T23:30:21.777974+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "INTC",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "INTC.json",
+      "sha256": "61b21687de756da2914f44b97c9b4042884eec0dec83531feec4a32a5decb537",
+      "file_saved_utc": "2026-11-17T23:30:23.542998+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "ISRG",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/ISRG?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "ISRG.json",
+      "sha256": "26a0946c2b7f261d38b69c2a52bef40b844fb4f399c2211d93b1a63e582ee599",
+      "file_saved_utc": "2026-11-17T23:30:24.595530+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "KORU",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/KORU?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "KORU.json",
+      "sha256": "f20fa78ef5808dd344365007209d87120889a3924d56c9953d1aaf00e4533922",
+      "file_saved_utc": "2026-11-17T23:30:22.114314+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1739197800": {
+          "date": 1739197800,
+          "numerator": 1.0,
+          "denominator": 10.0,
+          "splitRatio": "1:10"
+        },
+        "1784122200": {
+          "date": 1784122200,
+          "numerator": 20.0,
+          "denominator": 1.0,
+          "splitRatio": "20:1"
+        }
+      }
+    },
+    {
+      "symbol": "MAGS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MAGS?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "MAGS.json",
+      "sha256": "dec75b680b177f51b766ed02d9f0e3bf31a64d14111d394b2a3a0d980506fdef",
+      "file_saved_utc": "2026-11-17T23:30:20.924156+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "MRNA",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRNA?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "MRNA.json",
+      "sha256": "76f4ed62330d64ac7801a04be7a98ff185e5367b7a37dc6309d0c857d2f7147e",
+      "file_saved_utc": "2026-11-17T23:30:23.684012+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "MSFT",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "MSFT.json",
+      "sha256": "69347dde85c65afb9914be5e5e801389d83299e4cf35e17166099afa8f835bd0",
+      "file_saved_utc": "2026-11-17T23:30:24.400118+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "NOW",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "NOW.json",
+      "sha256": "9588e5082b78e404bf3bd0bd6f596d65206e940ce82490b757f2ef4a9ef238c8",
+      "file_saved_utc": "2026-11-17T23:30:23.876551+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1766068200": {
+          "date": 1766068200,
+          "numerator": 5.0,
+          "denominator": 1.0,
+          "splitRatio": "5:1"
+        }
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "NVDA.json",
+      "sha256": "85e92382edac2f2970af3f997b99abc6bafe36e0e4df45b8cd632686cb62d7e3",
+      "file_saved_utc": "2026-11-17T23:30:23.161482+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "PLTR",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "PLTR.json",
+      "sha256": "d60cacb3360b7f3bd67a35c479692f260ef5bbc0bd0aac1bf68b2c0eea095548",
+      "file_saved_utc": "2026-11-17T23:30:24.203450+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "QQQM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "QQQM.json",
+      "sha256": "24403644419f8b33d9b43be17d52d2e50c9f34ff40fed0fe686fe0a8bc02b7ed",
+      "file_saved_utc": "2026-11-17T23:30:20.542559+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "RRX",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/RRX?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "RRX.json",
+      "sha256": "1ed9c3562ccd7face9424b37cd2f133b23cfcbcf8c2473a66d62bbcf543814c8",
+      "file_saved_utc": "2026-11-17T23:30:22.494796+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SCHD",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SCHD?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SCHD.json",
+      "sha256": "5aa69cbeb3d13784f6e7c146762cbad778c776f3900714ae57428fc67075ea4a",
+      "file_saved_utc": "2026-11-17T23:30:20.406021+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SGOV",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SGOV.json",
+      "sha256": "42e508d5b1e64df611390c67e4af256d368745614d8b4c5a5db89cee1cd85195",
+      "file_saved_utc": "2026-11-17T23:30:28.266598+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SKHY",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SKHY?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SKHY.json",
+      "sha256": "68633ca3922c135165e80698ba2d1100ac633f58fc359a9622b0de31fbf12aad",
+      "file_saved_utc": "2026-11-17T23:30:23.350304+00:00",
+      "first_session": "2026-07-10",
+      "last_session": "2026-11-17",
+      "bars": 92,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SMH",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SMH.json",
+      "sha256": "4b1ce99d8ea31d94b1543a1702d6957c3d0c5061296d05148edd372853b8d4e5",
+      "file_saved_utc": "2026-11-17T23:30:27.215083+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SNDK",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNDK?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SNDK.json",
+      "sha256": "68d51d91e9f820b2a91a5aa3deff80c234702a10be671a8257b9079f7fc542ac",
+      "file_saved_utc": "2026-11-17T23:30:23.418041+00:00",
+      "first_session": "2025-02-13",
+      "last_session": "2026-11-17",
+      "bars": 443,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SOFI",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOFI?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SOFI.json",
+      "sha256": "1c347b6286d04c3df3c83178594eab386a5560a5c43e699a7b951a26240bdd0e",
+      "file_saved_utc": "2026-11-17T23:30:23.760010+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SOXL",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXL?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SOXL.json",
+      "sha256": "fb34b0de54d508f96cf861e3b181c8ee10f013823ad7a969ba72fd134c50f7bd",
+      "file_saved_utc": "2026-11-17T23:30:22.376154+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SOXS",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXS?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SOXS.json",
+      "sha256": "21d5b74681bea2d444987c38c29691e57f128ed5fdb2b3db6f08fb2f5668ba9d",
+      "file_saved_utc": "2026-11-17T23:30:22.376012+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1772721000": {
+          "date": 1772721000,
+          "numerator": 1.0,
+          "denominator": 20.0,
+          "splitRatio": "1:20"
+        },
+        "1784122200": {
+          "date": 1784122200,
+          "numerator": 1.0,
+          "denominator": 10.0,
+          "splitRatio": "1:10"
+        }
+      }
+    },
+    {
+      "symbol": "SOXX",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SOXX?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SOXX.json",
+      "sha256": "22e277cbf4ebd365eaad5cac6a57a79e5eb0747eb6eb9b961a964198d3a0fd89",
+      "file_saved_utc": "2026-11-17T23:30:21.154645+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1793889000": {
+          "date": 1793889000,
+          "numerator": 3.0,
+          "denominator": 1.0,
+          "splitRatio": "3:1"
+        }
+      }
+    },
+    {
+      "symbol": "SPCX",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPCX?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SPCX.json",
+      "sha256": "0224d2f8fe477ca7206853b780dd3f4a3ededb4d111ec723b2c15d7312440718",
+      "file_saved_utc": "2026-11-17T23:30:25.127737+00:00",
+      "first_session": "2026-06-12",
+      "last_session": "2026-11-17",
+      "bars": 110,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "SPMO",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPMO?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "SPMO.json",
+      "sha256": "5d08380ae93bb3b4070582aa6e8574e6889cd6858f1c5b97e4539b92164ddbd5",
+      "file_saved_utc": "2026-11-17T23:30:20.924046+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "TEM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TEM?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "TEM.json",
+      "sha256": "827f0553d13127702c7b3b0f9de09667df54be7c9e6493d0a4ac0ca2e5337d58",
+      "file_saved_utc": "2026-11-17T23:30:25.127616+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "TSLA",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "TSLA.json",
+      "sha256": "83d5d39202592197c12d1321d2be8207b04555a11dfc4eeee7f105ac9e4e34ff",
+      "file_saved_utc": "2026-11-17T23:30:25.449671+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "VGT",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/VGT?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "VGT.json",
+      "sha256": "bba527a591336970e2d279edfeacf916b4d0adfc39e8ae377e119a9f814f3ac6",
+      "file_saved_utc": "2026-11-17T23:30:21.056624+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1776778200": {
+          "date": 1776778200,
+          "numerator": 8.0,
+          "denominator": 1.0,
+          "splitRatio": "8:1"
+        }
+      }
+    },
+    {
+      "symbol": "VOO",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/VOO?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "VOO.json",
+      "sha256": "1b5bf51fb6155b68563f8f97a89bf12d21fc56dbcfa4e015312cbd481b84c5f3",
+      "file_saved_utc": "2026-11-17T23:30:20.406563+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "XLB",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLB?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLB.json",
+      "sha256": "f831e0af0b54b875cd74bc318ed173367c5719da5ba8c57c37bb26742c1deedb",
+      "file_saved_utc": "2026-11-17T23:30:27.214674+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1764945000": {
+          "date": 1764945000,
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      }
+    },
+    {
+      "symbol": "XLC",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLC.json",
+      "sha256": "76ad8b120b6611903d05be3e4aaabbf2b4549afc8d4930a1010cb102b3f5de09",
+      "file_saved_utc": "2026-11-17T23:30:25.976155+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "XLE",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLE.json",
+      "sha256": "1a8f831f327fe4c073027b9c8274fdab76328b3ca568f9410f9fd34e57516a3e",
+      "file_saved_utc": "2026-11-17T23:30:26.693621+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1764945000": {
+          "date": 1764945000,
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      }
+    },
+    {
+      "symbol": "XLF",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLF.json",
+      "sha256": "ae28c24b301df7d616b0740a19ecf04569cf2168c43c7706e8d3168cd649c4ac",
+      "file_saved_utc": "2026-11-17T23:30:26.692384+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "XLI",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLI?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLI.json",
+      "sha256": "fbc811e8ac4e8c5ed3bcf037154a34fed239cd2541e30175a7402419afbcfce6",
+      "file_saved_utc": "2026-11-17T23:30:26.692354+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "XLK",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLK.json",
+      "sha256": "5b845a9ed0b109b5be7a5acf4f22dc19ba34091802fc0405240ae83d9d62c210",
+      "file_saved_utc": "2026-11-17T23:30:26.045638+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1764945000": {
+          "date": 1764945000,
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      }
+    },
+    {
+      "symbol": "XLP",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLP.json",
+      "sha256": "b38e44506b6a2b241488d6c62e7825486bab323043ec0eff4fb541e1c34bdc6e",
+      "file_saved_utc": "2026-11-17T23:30:26.171123+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "XLRE",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLRE?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLRE.json",
+      "sha256": "42a93c4405fce69ffb083bbdbc5763144fbc28cf4676c1b1d573bdca6c168015",
+      "file_saved_utc": "2026-11-17T23:30:27.213108+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "XLU",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLU.json",
+      "sha256": "fbf8756dc839af89bc9e12fd3401076645d740975a11b000ea4db06ac11021c1",
+      "file_saved_utc": "2026-11-17T23:30:27.213109+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1764945000": {
+          "date": 1764945000,
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      }
+    },
+    {
+      "symbol": "XLV",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLV.json",
+      "sha256": "1cd2d081b55bf037820c31cd1e6423782aaaf6890380f31e6a64c80dd39a7f2c",
+      "file_saved_utc": "2026-11-17T23:30:26.566225+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "XLY",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "XLY.json",
+      "sha256": "7ab2d66316422c0ece940906fe9dcfc3fa007f1b5354d7ed55cc0570317d45a6",
+      "file_saved_utc": "2026-11-17T23:30:26.171105+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {
+        "1764945000": {
+          "date": 1764945000,
+          "numerator": 2.0,
+          "denominator": 1.0,
+          "splitRatio": "2:1"
+        }
+      }
+    },
+    {
+      "symbol": "^GSPC",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "index_GSPC.json",
+      "sha256": "fdc116d5ecad3a893b8955ba548a8f8152db1388a6cdd2bc11caacf7520261ec",
+      "file_saved_utc": "2026-11-17T23:30:27.739397+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "^IXIC",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "index_IXIC.json",
+      "sha256": "851106de0dd912bc43d2f674fd0b2d06cdfd86d38d30e15d6ccbabfaf367d760",
+      "file_saved_utc": "2026-11-17T23:30:27.740544+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "^NDX",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "index_NDX.json",
+      "sha256": "2a215512652e298060c2c256c4a505e276940c88ec054581435cb98c1c1837f9",
+      "file_saved_utc": "2026-11-17T23:30:27.740597+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 501,
+      "currency": "USD",
+      "splits": {}
+    },
+    {
+      "symbol": "^VIX",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=2y&interval=1d&events=div%2Csplits",
+      "raw_file": "index_VIX.json",
+      "sha256": "ed2cf79ef06c3498d6f2c5f3042acf08e79d8414eafb062ef9849db1ac6c45ae",
+      "file_saved_utc": "2026-11-17T23:30:27.742137+00:00",
+      "first_session": "2024-11-18",
+      "last_session": "2026-11-17",
+      "bars": 503,
+      "currency": "USD",
+      "splits": {}
+    }
+  ],
+  "errors": [
+    {
+      "symbol": "XSW",
+      "error": "XSW: inconsistent OHLC"
+    },
+    {
+      "symbol": "ATS",
+      "error": "ATS: inconsistent OHLC"
+    }
+  ]
+}

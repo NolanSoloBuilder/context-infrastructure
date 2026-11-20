@@ -1,0 +1,79 @@
+[
+  {
+    "event": "tap",
+    "source": "sfx_tap_item.wav",
+    "sha256": "8ef5199b841f1a9ae1839770dadd909987ed72b0b9f837bb6e7bde5610051918",
+    "sampleRate": 44100,
+    "encodedBytes": 1567
+  },
+  {
+    "event": "button",
+    "source": "sfx_tap_button.wav",
+    "sha256": "9cde00c44adae348a27b0a7d2b76238399b885dc95026d9276f2d5d923ef9761",
+    "sampleRate": 44100,
+    "encodedBytes": 3135
+  },
+  {
+    "event": "receive",
+    "source": "sfx_box_receive.wav",
+    "sha256": "6455abeb5bcc536ed70a2c3bed060f7e23c6001ceeb02585c5dcbb1e083a46dc",
+    "sampleRate": 44100,
+    "encodedBytes": 1881
+  },
+  {
+    "event": "cache",
+    "source": "sfx_cache_receive.wav",
+    "sha256": "49dc74080a8acf26df098b8318d98b3461ef51c2d70c8f22b5c8271fbfd3ea06",
+    "sampleRate": 44100,
+    "encodedBytes": 1881
+  },
+  {
+    "event": "complete",
+    "source": "sfx_box_complete.wav",
+    "sha256": "eba20c9f60fa100cc3c9e3e6a0801f45d1842f4faa91ca739ce4fe9f5561e291",
+    "sampleRate": 44100,
+    "encodedBytes": 17554
+  },
+  {
+    "event": "win",
+    "source": "sfx_win_game.wav",
+    "sha256": "51279dbdaf0bfb195ee37bae0008f07cfe49d399c598f4b3deda9e255c1878dd",
+    "sampleRate": 44100,
+    "encodedBytes": 33228
+  },
+  {
+    "event": "lose",
+    "source": "sfx_lose_game.wav",
+    "sha256": "1b13e0a40ae0718ff520d4c44fb81be05c19c89d5c15385027ec21e074c51edd",
+    "sampleRate": 44100,
+    "encodedBytes": 54544
+  },
+  {
+    "event": "shuffle",
+    "source": "sfx_booster_wand.wav",
+    "sha256": "86b070b3a1dceedf39b7866b16d69adde0df6f1651e228337e20acc9a25aa71f",
+    "sampleRate": 44100,
+    "encodedBytes": 37930
+  },
+  {
+    "event": "extra",
+    "source": "sfx_booster_tray.wav",
+    "sha256": "228d1e78e7c5e61ecb50846b53e71e95e2621d2e6064fcada30f3f6d2cd5d424",
+    "sampleRate": 44100,
+    "encodedBytes": 24764
+  },
+  {
+    "event": "magnet",
+    "source": "sfx_booster_magnet.wav",
+    "sha256": "933b84afa90e4faf11c64197b49d1165a8041d9c8cb1982377d1956e7b13dfcc",
+    "sampleRate": 44100,
+    "encodedBytes": 16614
+  },
+  {
+    "event": "music",
+    "source": "music_skewer_ingame.wav",
+    "sha256": "67b01f9179f5c1ea7fe28f4d2984ff53c1d2e3cdbdffba14471af1c35d915de2",
+    "sampleRate": 24000,
+    "encodedBytes": 530112
+  }
+]

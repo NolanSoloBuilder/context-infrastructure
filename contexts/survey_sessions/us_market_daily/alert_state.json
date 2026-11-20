@@ -1,9 +1,9 @@
 {
   "version": 1,
   "automation_id": "automation-3",
-  "last_checked_session": "2026-11-12",
-  "report_date_beijing": "2026-11-13",
-  "updated_at_utc": "2026-11-12T23:35:04.660848+00:00",
+  "last_checked_session": "2026-11-19",
+  "report_date_beijing": "2026-11-20",
+  "updated_at_utc": "2026-11-19T23:32:24.875098+00:00",
   "basis": {
     "window": "(session - 364 calendar days, session]",
     "high": "intraday high in split-adjusted Yahoo OHLC series",
@@ -23,68 +23,71 @@
   "symbols": {
     "QQQM": {
       "provider_symbol": "QQQM",
-      "last_checked_session": "2026-11-12",
-      "close_usd": 283.39,
+      "last_checked_session": "2026-11-19",
+      "close_usd": 265.64,
       "high_52w_usd": 314.11,
       "high_date": "2026-10-06",
-      "drawdown_pct": 9.78001337111204,
-      "stage": "below_13",
-      "stage_since_session": "2026-11-09",
+      "drawdown_pct": 15.432238859332436,
+      "stage": "at_or_above_15",
+      "stage_since_session": "2026-11-19",
       "first_recorded_session": "2026-10-23",
-      "last_highlight_report_date": "2026-11-07",
+      "last_highlight_report_date": "2026-11-20",
       "level_15_usd": 266.99,
       "level_25_usd": 235.58,
-      "gap_to_15_percentage_points": 5.219986628887961,
-      "price_change_to_15_pct": -5.787077878541935,
-      "previous_stage": "below_13",
-      "new_highlight": false,
+      "gap_to_15_percentage_points": -0.4322388593324362,
+      "price_change_to_15_pct": 0.5111154102962034,
+      "previous_stage": "near_15",
+      "new_highlight": true,
       "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
-      "verification_note": "Yahoo and StockAnalysis closes agree. High differences do not change stage.",
+      "verification_note": "Yahoo and Stock Analysis close 265.64; second-source high 314.12, same stage.",
       "historical_highlight_reason": "retrospective confirmation of11/5 crossing, current11/6 return to near_15",
-      "historical_previous_verified_market_stage": "at_or_above_15"
+      "historical_previous_verified_market_stage": "at_or_above_15",
+      "stage_since_precision": "confirmed by preceding Yahoo session and dated second-source closes; cross-checked current stage"
     },
     "VOO": {
       "provider_symbol": "VOO",
-      "last_checked_session": "2026-11-12",
-      "close_usd": 696.0,
+      "last_checked_session": "2026-11-19",
+      "close_usd": 658.01,
       "high_52w_usd": 718.47,
       "high_date": "2026-10-06",
-      "drawdown_pct": 3.1274792266900553,
+      "drawdown_pct": 8.415099225139688,
       "stage": "below_13",
       "stage_since_session": "2026-10-23",
       "first_recorded_session": "2026-10-23",
       "last_highlight_report_date": null,
       "level_15_usd": 610.7,
       "level_25_usd": 538.85,
-      "gap_to_15_percentage_points": 11.872520773309944,
-      "price_change_to_15_pct": -12.255747126436777,
+      "gap_to_15_percentage_points": 6.584900774860312,
+      "price_change_to_15_pct": -7.189941485057383,
       "previous_stage": "below_13",
       "new_highlight": false,
       "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
-      "verification_note": "Yahoo and StockAnalysis closes agree. High differences do not change stage."
+      "verification_note": "Yahoo and Stock Analysis close 658.01; second-source high 718.47, same stage."
     },
     "BRK.B": {
       "provider_symbol": "BRK-B",
-      "last_checked_session": "2026-11-12",
-      "close_usd": 589.83,
-      "high_52w_usd": 596.9,
+      "last_checked_session": "2026-11-19",
+      "close_usd": 572.04,
+      "high_52w_usd": 596.92,
       "high_date": "2026-11-12",
-      "drawdown_pct": 1.1844530072038784,
+      "drawdown_pct": 4.168063659305776,
       "stage": "below_13",
       "stage_since_session": "2026-10-23",
       "first_recorded_session": "2026-10-23",
       "last_highlight_report_date": null,
-      "level_15_usd": 507.37,
-      "level_25_usd": 447.68,
-      "gap_to_15_percentage_points": 13.815546992796122,
-      "price_change_to_15_pct": -13.980299408304099,
+      "level_15_usd": 507.38,
+      "level_25_usd": 447.69,
+      "gap_to_15_percentage_points": 10.831936340694224,
+      "price_change_to_15_pct": -11.303054862822936,
       "previous_stage": "below_13",
       "new_highlight": false,
       "initialization_note": "First recorded valid session; below near-entry range. No historical crossing is inferred.",
-      "verification_note": "Yahoo and StockAnalysis closes agree. High differences do not change stage."
+      "verification_note": "Yahoo and Stock Analysis close 572.04; second-source high 596.92, same stage."
     }
   },
-  "highlighted_symbols": [],
+  "highlighted_symbols": [
+    "QQQM"
+  ],
   "retired_symbols": {
     "QQQ": {
       "retired_report_date_beijing": "2026-10-30",
@@ -175,21 +178,15 @@
     }
   },
   "reported_event_ids": [
-    "QQQM:2026-11-05:15:retrospective-confirmation"
+    "QQQM:2026-11-05:15:retrospective-confirmation",
+    "2026-11-19:QQQM:at_or_above_15"
   ],
   "publication": {
-    "id": "appgdep_6af64cfe0d44819195239e0760cd2adb",
-    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
-    "title": "个人美股观察台",
-    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_8b8a039b2758819183befe7c04b33cb5",
-    "type": "publish",
-    "status": "succeeded",
-    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
-    "has_mcp": false,
-    "screenshot_asset_pointer": null,
-    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
-    "failure_message": null,
-    "env_set_revision": 0,
-    "updated_at": "2026-11-12T23:34:45.076870+00:00"
+    "public_site": "https://nolan-market-watch.choice-calf-0415.chatgpt.site/",
+    "verified": true,
+    "version_number": 34,
+    "report_date_beijing": "2026-11-20",
+    "market_session": "2026-11-19",
+    "quote_count": 44
   }
 }

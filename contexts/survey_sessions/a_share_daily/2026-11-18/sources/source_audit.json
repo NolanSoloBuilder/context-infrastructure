@@ -1,0 +1,87 @@
+{
+  "report_date": "2026-11-18",
+  "checked_at": "2026-11-18T09:02:59.694242+08:00",
+  "cutoff": "2026-11-18T09:00:00+08:00",
+  "market_session": "2026-11-17",
+  "market_closed_today": false,
+  "author_list": "https://www.sina.cn/media/5546795997/",
+  "article": "https://www.sina.cn/news/detail/5366359875388294.html",
+  "valuation_issue": 3016,
+  "valuation_asof": "2026-11-17",
+  "verified_star": 5.0,
+  "previous_verified_star": 5.0,
+  "latest_issue_new": true,
+  "threshold_triggered": false,
+  "source_image_sha256": "a6d60a0875041e4d120ceffa5c2bff5fa7e3280aeb766ae7940a387e1483c6cd",
+  "valuation_counts": {
+    "低估": 23,
+    "正常": 27,
+    "高估": 0
+  },
+  "changes": [],
+  "finews_report_date": "2026-11-17",
+  "group_reviewed_count": 3,
+  "china_history_gap": [
+    {
+      "symbol": "usKWEB.AM",
+      "history_asof": "2026-11-16",
+      "missing_session": "2026-11-17",
+      "quote_time": "2026-11-17T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBABA.N",
+      "history_asof": "2026-11-16",
+      "missing_session": "2026-11-17",
+      "quote_time": "2026-11-17T16:05:11-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usPDD.OQ",
+      "history_asof": "2026-11-16",
+      "missing_session": "2026-11-17",
+      "quote_time": "2026-11-17T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usJD.OQ",
+      "history_asof": "2026-11-16",
+      "missing_session": "2026-11-17",
+      "quote_time": "2026-11-17T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBIDU.OQ",
+      "history_asof": "2026-11-16",
+      "missing_session": "2026-11-17",
+      "quote_time": "2026-11-17T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usNTES.OQ",
+      "history_asof": "2026-11-16",
+      "missing_session": "2026-11-17",
+      "quote_time": "2026-11-17T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    }
+  ],
+  "fallback_note": "行情主路501，改用腾讯备用代理成功获取7项完整同日日线，趋势独立复算。",
+  "image_scopes": [
+    {
+      "file": "3016_valuation.jpg",
+      "asof": "2026-11-17",
+      "scope": "常规50项"
+    },
+    {
+      "file": "3016_pension_2026-11-16.jpg",
+      "asof": "2026-11-16",
+      "scope": "养老专题，未计入常规表"
+    },
+    {
+      "file": "3016_pension_account.jpg",
+      "plan_date": "2026-11-17",
+      "holdings_asof": "2026-11-16",
+      "scope": "特定养老账户记录，未推定作者总仓位"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "key": "nvda_ir",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/default.aspx",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "nvda_earnings",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+    "status": 200,
+    "collected_at": "2026-11-13T23:27:18.284580+00:00",
+    "bytes": 369570
+  },
+  {
+    "key": "treasury",
+    "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "finews",
+    "url": "https://finews.fyi/",
+    "status": 200,
+    "collected_at": "2026-11-13T23:27:17.421598+00:00",
+    "bytes": 136369
+  },
+  {
+    "key": "bls",
+    "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "fed",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "status": 200,
+    "collected_at": "2026-11-13T23:27:17.949592+00:00",
+    "bytes": 166065
+  },
+  {
+    "key": "reddit_investing_new",
+    "url": "https://www.reddit.com/r/investing/new.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_investing_top",
+    "url": "https://www.reddit.com/r/investing/top.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_stocks_new",
+    "url": "https://www.reddit.com/r/stocks/new.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_stocks_top",
+    "url": "https://www.reddit.com/r/stocks/top.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_SecurityAnalysis_new",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/new.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_SecurityAnalysis_top",
+    "url": "https://www.reddit.com/r/SecurityAnalysis/top.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_ValueInvesting_new",
+    "url": "https://www.reddit.com/r/ValueInvesting/new.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_ValueInvesting_top",
+    "url": "https://www.reddit.com/r/ValueInvesting/top.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_Bogleheads_new",
+    "url": "https://www.reddit.com/r/Bogleheads/new.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_Bogleheads_top",
+    "url": "https://www.reddit.com/r/Bogleheads/top.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_ETFs_new",
+    "url": "https://www.reddit.com/r/ETFs/new.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_ETFs_top",
+    "url": "https://www.reddit.com/r/ETFs/top.json?limit=10&t=day",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "reddit_nvda_post",
+    "url": "https://www.reddit.com/r/investing/comments/1xuxkvf.json?limit=12",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "key": "qqqm",
+    "url": "https://stockanalysis.com/etf/qqqm/history/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "voo",
+    "url": "https://stockanalysis.com/etf/voo/history/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "brk.b",
+    "url": "https://stockanalysis.com/stocks/brk.b/history/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "nvda",
+    "url": "https://stockanalysis.com/stocks/nvda/history/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "spmo",
+    "url": "https://stockanalysis.com/etf/spmo/history/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "vgt",
+    "url": "https://stockanalysis.com/etf/vgt/history/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "goog",
+    "url": "https://stockanalysis.com/stocks/goog/history/",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

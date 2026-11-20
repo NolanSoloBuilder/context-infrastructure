@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-17T23:34:55.249812+00:00",
+  "status": "partial_cached_lists_absolute_post_time_unverified",
+  "communities": [
+    "investing",
+    "stocks",
+    "SecurityAnalysis",
+    "ValueInvesting",
+    "Bogleheads",
+    "ETFs"
+  ],
+  "sorts": [
+    "new",
+    "top_day"
+  ],
+  "post": {
+    "url": "https://www.reddit.com/r/stocks/comments/1xywpnl/nvidia_announces_financial_results_for_third/",
+    "id": "1xywpnl",
+    "community": "stocks",
+    "post_time_beijing": null,
+    "event_date_us": "2026-11-17",
+    "read_scope": "body and visible subset of comments",
+    "claim": "earnings and guidance growth",
+    "counter": "margin decline and receivable cash absorption from official IR, not asserted community consensus",
+    "verification_source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+    "status": "facts verified via IR; post absolute time incomplete"
+  },
+  "finews": {
+    "latest_session": "2026-11-16",
+    "updated_at": "2026-11-16T23:20:46Z"
+  },
+  "reddit_state_updated": false
+}

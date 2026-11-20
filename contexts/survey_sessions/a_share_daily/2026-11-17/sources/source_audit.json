@@ -1,0 +1,86 @@
+{
+  "report_date": "2026-11-17",
+  "checked_at": "2026-11-17T09:07:41.785228+08:00",
+  "cutoff": "2026-11-17T09:00:00+08:00",
+  "market_session": "2026-11-16",
+  "market_closed_today": false,
+  "author_list": "https://www.sina.cn/media/5546795997/",
+  "article": "https://www.sina.cn/news/detail/5365998452474713.html",
+  "valuation_issue": 3015,
+  "valuation_asof": "2026-11-16",
+  "verified_star": 5.0,
+  "previous_verified_star": 4.9,
+  "latest_issue_new": true,
+  "threshold_triggered": true,
+  "source_image_sha256": "a0f95a697f405059ac291c083096ede168d08f822da4f80b36c89aab190a323f",
+  "valuation_counts": {
+    "低估": 23,
+    "正常": 27,
+    "高估": 0
+  },
+  "changes": [
+    {
+      "name": "MSCI A50",
+      "before": "正常",
+      "after": "低估"
+    },
+    {
+      "name": "创业板",
+      "before": "正常",
+      "after": "低估"
+    },
+    {
+      "name": "北证50",
+      "before": "正常",
+      "after": "低估"
+    }
+  ],
+  "finews_report_date": "2026-11-16",
+  "group_reviewed_count": 4,
+  "china_history_gap": [
+    {
+      "symbol": "usKWEB.AM",
+      "history_asof": "2026-11-13",
+      "missing_session": "2026-11-16",
+      "quote_time": "2026-11-16T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBABA.N",
+      "history_asof": "2026-11-13",
+      "missing_session": "2026-11-16",
+      "quote_time": "2026-11-16T16:04:48-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usPDD.OQ",
+      "history_asof": "2026-11-13",
+      "missing_session": "2026-11-16",
+      "quote_time": "2026-11-16T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usJD.OQ",
+      "history_asof": "2026-11-13",
+      "missing_session": "2026-11-16",
+      "quote_time": "2026-11-16T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBIDU.OQ",
+      "history_asof": "2026-11-13",
+      "missing_session": "2026-11-16",
+      "quote_time": "2026-11-16T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usNTES.OQ",
+      "history_asof": "2026-11-13",
+      "missing_session": "2026-11-16",
+      "quote_time": "2026-11-16T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    }
+  ],
+  "nbs_economy": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965844.html",
+  "nbs_housing": "https://www.stats.gov.cn/sj/sjjd/202611/t20261116_1965838.html"
+}

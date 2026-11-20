@@ -1,0 +1,38 @@
+{
+  "saved": {
+    "id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_f75f209ec8f0819186cac0de0970467a",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "version_number": 32,
+    "source": {
+      "commit_sha": "f97d3e5f43e6f1151a4eb2fcb8ea72a54472f5fb"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000044ec8207bf3cf187f3f55e66",
+      "content_hash": "sha256:3d1386669e0b9ceee856b5b0ce933566044da0a796d750f8ccd3c538c59c62aa",
+      "size_bytes": 8171520,
+      "file_count": 2
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6afce4f3cab48191b0ee3c07d07680d0",
+    "project_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139",
+    "title": "个人美股观察台",
+    "version_id": "appgprj_6ae3fe7f4f9c8191be98b84d10171139~appgver_f75f209ec8f0819186cac0de0970467a",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ae3fe7f4f9c8191be98b84d10171139",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-17T23:36:43.681791+00:00"
+  },
+  "verification": {
+    "local_ssr": "passed date, QQQM alert, NVDA valuation, SCHD",
+    "live": "not yet rechecked"
+  }
+}

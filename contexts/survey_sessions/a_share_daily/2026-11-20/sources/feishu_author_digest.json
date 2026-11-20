@@ -1,0 +1,48 @@
+{
+  "window_start": "2026-11-19T09:00:00+08:00",
+  "window_end": "2026-11-20T09:00:00+08:00",
+  "message_count": 41,
+  "candidate_count": 27,
+  "complete_api_window": true,
+  "provenance": "南冬CLI只读群同步作者观点，不是独立获取原星球全文",
+  "reviewed": [
+    {
+      "message_id": "om_x100b60c5772480a8df0b9bb02c98555",
+      "kind": "新动态",
+      "source_time": "2026-11-19 23:18+08:00",
+      "sync_create_time": "1795101598833",
+      "sync_update_time": "1795101598833",
+      "content_sha256": "11c7035c6e3f2d18f0643b415a6dd48296b674de792ffe9534135c940bf3f021",
+      "summary": "23:18作者认为上证相对创业板的优势或接近尾声。其论证包含两指数点位差，点位基准不同，不能将相减后的点数当可比投资收益或验证的轮动时点。"
+    },
+    {
+      "message_id": "om_x100b60dbdb1a04acde0958ac965bff8",
+      "kind": "回答",
+      "source_time": "2026-11-19 21:27+08:00",
+      "sync_create_time": "1795094877738",
+      "sync_update_time": "1795094877738",
+      "content_sha256": "c3058c567c97907eed2b3cf8af12148379712ee6dfa52f87d0bbfa142c5c6d98",
+      "summary": "21:27作者认为恒生科技成分变更限制历史估值比较，可另看中概及头部权重股；以上轮熊市估值作情景锚仍以业绩不弱于当时为前提。未给本报七标的统一买入价。"
+    },
+    {
+      "message_id": "om_x100b60dd8f94a484dc0b93698247548",
+      "kind": "回答",
+      "source_time": "2026-11-19 14:49+08:00",
+      "sync_create_time": "1795070997849",
+      "sync_update_time": "1795070997849",
+      "content_sha256": "88151b40f931e4588c94659c1831aa3b756dd0e236b4c1ece0fd4afb773b3c37",
+      "summary": "14:49认为科技弹性较大、沪深300及上证50相对稳健；比例取决于承受力。继续区分创业板1930点上方的反弹与下方的长期情景，初学者可以不参与反弹并接受踏空。这不是本报确认的价格下限。"
+    },
+    {
+      "message_id": "om_x100b60d23f16b90cdc0ab354f49821c",
+      "kind": "回答",
+      "source_time": "2026-11-19 11:03+08:00",
+      "sync_create_time": "1795057437984",
+      "sync_update_time": "1795057437984",
+      "content_sha256": "926aa9331f87dcbccd72073c7f93bc39c785b6b7273d68fdaae4e3ecf033d170",
+      "summary": "11:03作者认为持续下跌后的创业板长线性价比相对红利改善；属于其相对判断，未给完整实际仓位或资金分配。"
+    }
+  ],
+  "dedup_note": "重复历史情景与不同时间近似回答不重复报告；其余无关话题及成员问题不归档",
+  "coverage_warning": "未知，群同步可能有缺漏"
+}

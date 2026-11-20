@@ -1,0 +1,62 @@
+
+FoodJams_anim_lock.png
+size: 564,180
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/charcoal01
+  rotate: true
+  xy: 359, 72
+  size: 104, 75
+  orig: 104, 75
+  offset: 0, 0
+  index: -1
+1/charcoal02
+  rotate: true
+  xy: 252, 25
+  size: 151, 105
+  orig: 171, 128
+  offset: 11, 14
+  index: -1
+1/glow
+  rotate: true
+  xy: 532, 15
+  size: 27, 26
+  orig: 33, 28
+  offset: 3, 2
+  index: -1
+UI_chain_f
+  rotate: 180
+  xy: 374, 8
+  size: 146, 104
+  orig: 146, 104
+  offset: 0, 0
+  index: -1
+UI_chain_f_02
+  rotate: false
+  xy: 432, 3
+  size: 122, 84
+  orig: 122, 84
+  offset: 0, 0
+  index: -1
+UI_glass_break
+  rotate: false
+  xy: 2, 11
+  size: 248, 165
+  orig: 248, 165
+  offset: 0, 0
+  index: -1
+UI_icon_unlock_a
+  rotate: false
+  xy: 436, 113
+  size: 73, 61
+  orig: 77, 64
+  offset: 2, 2
+  index: -1
+UI_icon_unlock_b
+  rotate: true
+  xy: 511, 113
+  size: 59, 44
+  orig: 63, 47
+  offset: 2, 2
+  index: -1

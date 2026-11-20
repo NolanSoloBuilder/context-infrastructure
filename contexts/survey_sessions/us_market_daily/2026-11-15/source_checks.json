@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-11-14T23:35:08.771883+00:00",
+  "results": [
+    {
+      "name": "site",
+      "url": "https://nolan-market-watch.choice-calf-0415.chatgpt.site/api/state",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "name": "finews",
+      "url": "https://finews.fyi/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "investing_new",
+      "url": "https://www.reddit.com/r/investing/new/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "investing_top",
+      "url": "https://www.reddit.com/r/investing/top/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "stocks_new",
+      "url": "https://www.reddit.com/r/stocks/new/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "stocks_top",
+      "url": "https://www.reddit.com/r/stocks/top/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "SecurityAnalysis_new",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/new/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "SecurityAnalysis_top",
+      "url": "https://www.reddit.com/r/SecurityAnalysis/top/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "ValueInvesting_new",
+      "url": "https://www.reddit.com/r/ValueInvesting/new/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "ValueInvesting_top",
+      "url": "https://www.reddit.com/r/ValueInvesting/top/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "Bogleheads_new",
+      "url": "https://www.reddit.com/r/Bogleheads/new/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "Bogleheads_top",
+      "url": "https://www.reddit.com/r/Bogleheads/top/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "ETFs_new",
+      "url": "https://www.reddit.com/r/ETFs/new/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "name": "ETFs_top",
+      "url": "https://www.reddit.com/r/ETFs/top/.json?limit=10&t=day",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+
+GoodJam_anim_lock.png
+size: 408,408
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 996
+  rotate: false
+  xy: 377, 366
+  size: 28, 39
+  orig: 28, 40
+  offset: 0, 0
+  index: -1
+Layer 997
+  rotate: false
+  xy: 377, 284
+  size: 21, 33
+  orig: 21, 34
+  offset: 0, 1
+  index: -1
+Layer 998
+  rotate: true
+  xy: 357, 142
+  size: 58, 47
+  orig: 58, 47
+  offset: 0, 0
+  index: -1
+Layer 998 copy
+  rotate: true
+  xy: 377, 319
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: -1
+Layer 998 copy 2
+  rotate: false
+  xy: 357, 202
+  size: 48, 55
+  orig: 49, 55
+  offset: 0, 0
+  index: -1
+UI_chain_b
+  rotate: false
+  xy: 2, 222
+  size: 267, 183
+  orig: 267, 183
+  offset: 0, 0
+  index: -1
+UI_chain_f
+  rotate: true
+  xy: 271, 259
+  size: 146, 104
+  orig: 146, 104
+  offset: 0, 0
+  index: -1
+UI_chain_f_02
+  rotate: true
+  xy: 271, 135
+  size: 122, 84
+  orig: 122, 84
+  offset: 0, 0
+  index: -1
+UI_glass_break
+  rotate: false
+  xy: 2, 55
+  size: 248, 165
+  orig: 248, 165
+  offset: 0, 0
+  index: -1
+UI_icon_unlock_a
+  rotate: true
+  xy: 252, 60
+  size: 73, 61
+  orig: 77, 64
+  offset: 2, 2
+  index: -1
+UI_icon_unlock_b
+  rotate: true
+  xy: 357, 81
+  size: 59, 44
+  orig: 63, 47
+  offset: 2, 2
+  index: -1

@@ -1,0 +1,49 @@
+{
+  "window_start": "2026-11-16T09:00:00+08:00",
+  "window_end": "2026-11-17T09:00:00+08:00",
+  "message_count": 16,
+  "pages": 1,
+  "complete_api_window": true,
+  "original_source_completeness": "未知，群同步可能有缺漏",
+  "collected_at": "2026-11-17T09:07:41.785228+08:00",
+  "candidate_count": 16,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b6084925728a0b49e7da94555f7d",
+      "source_time": "2026-11-16 22:00+08:00",
+      "sync_create_time": "1794837961938",
+      "content_sha256": "0ff5a0c8c935d918d7b824fee284ed8659a736dfb86e1a1b0aad7ce6eb3386d6",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者倾向熊市期间优先研究宽基，称具体买入时机还须等其另行提示，本条未给当前买点或投入比例。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b60985043e4a4c3025b8fb644725",
+      "source_time": "2026-11-16 16:41+08:00",
+      "sync_create_time": "1794818537359",
+      "content_sha256": "8410d84f93c3947b6198a07f096fb65ac8aec134237735131ee0a37d9fd09714",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者把沪深300视为宽基选择，并指出部分大资金也会用红利来兼顾风险和收益。本条未披露实际持仓。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b609f8a8984b0cef51888e12e22c",
+      "source_time": "2026-11-16 16:16+08:00",
+      "sync_create_time": "1794817092527",
+      "content_sha256": "1f0e3f3547852031a6fffe66465402793d213e77d5d531f600f125e3a8493234",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者提示恒生科技成分变化可能影响估值可比性，偏向观察部分头部中概的个股估值；本报未把历史估值极值当成价格保证。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b609ff20960a8b4a3bc780cef008",
+      "source_time": "2026-11-16 16:15+08:00",
+      "sync_create_time": "1794816972582",
+      "content_sha256": "354158f9bf666634d9308978d1b41f604e5cb0917d890e2fe031276ef1ac0ee9",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为历史上可能有反弹，也要求为反弹缺席预留余地。属于情景判断，未验证概率。",
+      "member_content_retained": false
+    }
+  ],
+  "review_note": "仅汇总直接影响ETF、中概与趋势观察的作者回答。未收录原文、成员内容或其他议题。"
+}

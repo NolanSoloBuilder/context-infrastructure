@@ -1,0 +1,167 @@
+[
+  {
+    "asset": "plus_icon.webp",
+    "source": "data.unity3d",
+    "id": 53,
+    "original_name": "icon_Plus",
+    "sha256": "32168e4173f6f5f9f400f129066cbfd6a110f03f039068d3efc309d68dd59879"
+  },
+  {
+    "asset": "orders_icon.webp",
+    "source": "data.unity3d",
+    "id": 265,
+    "original_name": "ic_OnlineBonus",
+    "sha256": "1f3b2f622a1451219546d959e77cbe2bf40ab062bd7c96f1cd34abd2defb8fd1"
+  },
+  {
+    "asset": "lock.webp",
+    "source": "data.unity3d",
+    "id": 112,
+    "original_name": "lock",
+    "sha256": "b1ee377c74f6f4ef7d3af3b69eeb5d01a1d817339fbe70fa4873e8777a576b0d"
+  },
+  {
+    "asset": "lock_label.webp",
+    "source": "data.unity3d",
+    "id": 126,
+    "original_name": "ui_title_lock",
+    "sha256": "7fb70de2f8649eacc4487547229c5756b5e07a0a86aa333963c1de3cddf53130"
+  },
+  {
+    "asset": "tutorial_hand.webp",
+    "source": "data.unity3d",
+    "id": 276,
+    "original_name": "icon_hand1",
+    "sha256": "229f563d0b6f8132e2852cbacdcdc094f3ce342bf184a04e267ac59a454b19d9"
+  },
+  {
+    "asset": "tutorial_arrow.webp",
+    "source": "data.unity3d",
+    "id": 311,
+    "original_name": "arrow_tutorial",
+    "sha256": "81191a71ff753cbff7c56c9e3e6814972dcf64cb3aad54b2f8501b345a5f179d"
+  },
+  {
+    "asset": "fx_flare.webp",
+    "source": "data.unity3d",
+    "id": 294,
+    "original_name": "flare01",
+    "sha256": "3cd5cda1ce837c061b9083f3b9d9e47322e0d6d86650f132477ec31d8547e063"
+  },
+  {
+    "asset": "fx_star.webp",
+    "source": "data.unity3d",
+    "id": 449,
+    "original_name": "Additive_Star3",
+    "sha256": "a56ad17c4977d1dd6386a4c49abc130c9dd96572767b6352f2dc18fc8c61cd1f"
+  },
+  {
+    "asset": "fx_confetti.webp",
+    "source": "data.unity3d",
+    "id": 421,
+    "original_name": "Star01",
+    "sha256": "a8ca5f6810313fef106b2fa70e5660e2dd57508e4386ca1858eabd101d33e48a"
+  },
+  {
+    "asset": "settings_icon.webp",
+    "source": "data.unity3d",
+    "id": 358,
+    "original_name": "ic_setting",
+    "sha256": "489c1d1bd58f1538309d0cad224b2a412487c2a04a9c5cd240601c781b7fd09b"
+  },
+  {
+    "asset": "check.webp",
+    "source": "data.unity3d",
+    "id": 233,
+    "original_name": "icon_CheckMark",
+    "sha256": "944eca2c6e82ff9b5f587e59810d57d0500ab6d70448d531aa3b21d8417117f4"
+  },
+  {
+    "asset": "star_icon.webp",
+    "source": "data.unity3d",
+    "id": 199,
+    "original_name": "HUD_icon_star",
+    "sha256": "9224b894a5a176522812b1c68608f8a397134c6ebc22e49dd5a010619b4b64c8"
+  },
+  {
+    "asset": "close.webp",
+    "source": "data.unity3d",
+    "id": 152,
+    "original_name": "ic_close",
+    "sha256": "da209d10884c5e6733ad22c448213191b93bc47667f979baf1c5d37c5fd80f01"
+  },
+  {
+    "asset": "vibration_on.webp",
+    "source": "data.unity3d",
+    "id": 375,
+    "original_name": "vibration_on",
+    "sha256": "f5bcb59528b68bed6d3d212aea50b361d037a39c2cbdeca6e3e8bcecdbe64f4d"
+  },
+  {
+    "asset": "vibration_off.webp",
+    "source": "data.unity3d",
+    "id": 135,
+    "original_name": "vibration_off",
+    "sha256": "584ef59128ca70ab31065e2a49226908df486e0981a5340f105da904857de776"
+  },
+  {
+    "asset": "sakura_currency_2.webp",
+    "source": "theme_kr_assets_all_1fd4ff33c6b5ba68e46b004519569030.bundle",
+    "id": -4994981701261438430,
+    "original_name": "ui_Currency_2"
+  },
+  {
+    "asset": "sakura_addorder.webp",
+    "source": "theme_kr_assets_all_1fd4ff33c6b5ba68e46b004519569030.bundle",
+    "id": -4606381233904686260,
+    "original_name": "ic_order01_Korea_2"
+  },
+  {
+    "asset": "sakura_preview.webp",
+    "source": "theme_kr_assets_all_1fd4ff33c6b5ba68e46b004519569030.bundle",
+    "id": 1881710902624834044,
+    "original_name": "ic_squareplate_Korea"
+  },
+  {
+    "asset": "sakura_currency.webp",
+    "source": "theme_kr_assets_all_1fd4ff33c6b5ba68e46b004519569030.bundle",
+    "id": 8494022929145497592,
+    "original_name": "ui_Currency"
+  },
+  {
+    "asset": "japan_currency.webp",
+    "source": "theme_jp_assets_all_7156a4e9b8e53915bb37c8d0f080f41a.bundle",
+    "id": -6454914640821948244,
+    "original_name": "ui_Currency"
+  },
+  {
+    "asset": "japan_preview.webp",
+    "source": "theme_jp_assets_all_7156a4e9b8e53915bb37c8d0f080f41a.bundle",
+    "id": 465111942822211770,
+    "original_name": "ic_squareplate_JP"
+  },
+  {
+    "asset": "japan_currency_2.webp",
+    "source": "theme_jp_assets_all_7156a4e9b8e53915bb37c8d0f080f41a.bundle",
+    "id": 1142401532223206685,
+    "original_name": "ui_Currency_2"
+  },
+  {
+    "asset": "china_currency_2.webp",
+    "source": "theme_cn_assets_all_80405ba7df745e79e9d7ae1c8cbf07c0.bundle",
+    "id": -1552412228077946341,
+    "original_name": "ui_Currency_2"
+  },
+  {
+    "asset": "china_currency.webp",
+    "source": "theme_cn_assets_all_80405ba7df745e79e9d7ae1c8cbf07c0.bundle",
+    "id": 3413509771647463391,
+    "original_name": "ui_Currency"
+  },
+  {
+    "asset": "china_preview.webp",
+    "source": "theme_cn_assets_all_80405ba7df745e79e9d7ae1c8cbf07c0.bundle",
+    "id": 8311014054701451653,
+    "original_name": "ic_squareplate_China"
+  }
+]

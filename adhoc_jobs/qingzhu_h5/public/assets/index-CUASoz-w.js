@@ -1,0 +1,1 @@
+import{d as o,u as n,b as t,c as r,o as a}from"./index-GEgtjqXc.js";const p=o({__name:"index",setup(c){const e=n();return t(()=>{e.replace("/nickname/form")}),(s,u)=>(a(),r("div"))}});export{p as default};

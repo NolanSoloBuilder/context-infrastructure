@@ -1,0 +1,4578 @@
+[
+  {
+    "case": "ordinary",
+    "group": "boundary",
+    "input": {
+      "year": 2025,
+      "month": 1,
+      "day": 1,
+      "hour": 12,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2025,
+        "month": 1,
+        "day": 1,
+        "hour": 12,
+        "minute": 0,
+        "week": "星期三",
+        "weekIndex": 3
+      },
+      "lunar": {
+        "year": 2024,
+        "month": 12,
+        "day": 2,
+        "yearCn": "二〇二四年",
+        "monthCn": "腊月",
+        "dayCn": "初二",
+        "isLeap": false,
+        "yearGanZhi": "甲辰",
+        "monthGanZhi": "丙子",
+        "dayGanZhi": "庚午"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "甲",
+          "zhi": "辰",
+          "ganzhi": "甲辰",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "偏财",
+          "zizuo": "衰",
+          "zhiShishen": [
+            "偏印",
+            "正财",
+            "伤官"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "华盖",
+            "童子煞"
+          ]
+        },
+        "month": {
+          "gan": "丙",
+          "zhi": "子",
+          "ganzhi": "丙子",
+          "ganWuxing": "火",
+          "zhiWuxing": "水",
+          "nayin": "涧下水",
+          "nayinWuxing": "水",
+          "shishen": "偏官",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "伤官"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "将星"
+          ]
+        },
+        "day": {
+          "gan": "庚",
+          "zhi": "午",
+          "ganzhi": "庚午",
+          "ganWuxing": "金",
+          "zhiWuxing": "火",
+          "nayin": "路旁土",
+          "nayinWuxing": "土",
+          "shishen": "日主",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "正官",
+            "正印"
+          ],
+          "cangGan": [
+            "丁",
+            "己"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "天德合",
+            "福星贵人",
+            "灾煞",
+            "丧门"
+          ]
+        },
+        "hour": {
+          "gan": "壬",
+          "zhi": "午",
+          "ganzhi": "壬午",
+          "ganWuxing": "水",
+          "zhiWuxing": "火",
+          "nayin": "杨柳木",
+          "nayinWuxing": "木",
+          "shishen": "食神",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "正官",
+            "正印"
+          ],
+          "cangGan": [
+            "丁",
+            "己"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "月德贵人",
+            "德秀贵人",
+            "福星贵人",
+            "灾煞",
+            "丧门"
+          ]
+        }
+      },
+      "baziString": "甲辰 丙子 庚午 壬午",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "戌",
+          "亥"
+        ],
+        "hour": [
+          "申",
+          "酉"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 2,
+        "水": 3,
+        "火": 3,
+        "土": 3
+      },
+      "riZhuStrength": {
+        "score": 25,
+        "level": "偏弱",
+        "helpful": [
+          "土",
+          "金"
+        ],
+        "harmful": [
+          "火",
+          "水"
+        ],
+        "analysis": "日主庚(金)，偏弱"
+      },
+      "yongShen": {
+        "yong": "土",
+        "xi": "金",
+        "ji": "水",
+        "xian": "木",
+        "description": "日主庚(金)偏弱，以扶抑取用神土、喜神金；调候参考：仲冬严寒，取丁火暖金",
+        "tiaohou": {
+          "primary_gan": [
+            "丁"
+          ],
+          "secondary_gan": [
+            "丙",
+            "甲"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "木"
+          ],
+          "note": "仲冬严寒，取丁火暖金",
+          "xiyong_wuxing": [
+            "火",
+            "木"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏官格",
+        "category": "正格",
+        "description": "性格刚强，有魄力，适合开创事业"
+      }
+    }
+  },
+  {
+    "case": "early-zi",
+    "group": "boundary",
+    "input": {
+      "year": 2026,
+      "month": 11,
+      "day": 17,
+      "hour": 0,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2026,
+        "month": 11,
+        "day": 17,
+        "hour": 0,
+        "minute": 0,
+        "week": "星期二",
+        "weekIndex": 2
+      },
+      "lunar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "yearCn": "二〇二六年",
+        "monthCn": "十月",
+        "dayCn": "初九",
+        "isLeap": false,
+        "yearGanZhi": "丙午",
+        "monthGanZhi": "己亥",
+        "dayGanZhi": "乙未"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "丙",
+          "zhi": "午",
+          "ganzhi": "丙午",
+          "ganWuxing": "火",
+          "zhiWuxing": "火",
+          "nayin": "天河水",
+          "nayinWuxing": "水",
+          "shishen": "伤官",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "食神",
+            "偏财"
+          ],
+          "cangGan": [
+            "丁",
+            "己"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "太极贵人",
+            "文昌",
+            "将星",
+            "勾绞煞",
+            "词馆"
+          ]
+        },
+        "month": {
+          "gan": "己",
+          "zhi": "亥",
+          "ganzhi": "己亥",
+          "ganWuxing": "土",
+          "zhiWuxing": "水",
+          "nayin": "平地木",
+          "nayinWuxing": "木",
+          "shishen": "偏财",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "正印",
+            "劫财"
+          ],
+          "cangGan": [
+            "壬",
+            "甲"
+          ],
+          "cangGanWuxing": [
+            "水",
+            "木"
+          ],
+          "shensha": [
+            "劫煞",
+            "地网"
+          ]
+        },
+        "day": {
+          "gan": "乙",
+          "zhi": "未",
+          "ganzhi": "乙未",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "沙中金",
+          "nayinWuxing": "金",
+          "shishen": "日主",
+          "zizuo": "养",
+          "zhiShishen": [
+            "偏财",
+            "食神",
+            "比肩"
+          ],
+          "cangGan": [
+            "己",
+            "丁",
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "火",
+            "木"
+          ],
+          "shensha": [
+            "天德贵人",
+            "童子煞"
+          ]
+        },
+        "hour": {
+          "gan": "丙",
+          "zhi": "子",
+          "ganzhi": "丙子",
+          "ganWuxing": "火",
+          "zhiWuxing": "水",
+          "nayin": "涧下水",
+          "nayinWuxing": "水",
+          "shishen": "伤官",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "偏印"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "太极贵人",
+            "灾煞"
+          ]
+        }
+      },
+      "baziString": "丙午 己亥 乙未 丙子",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "辰",
+          "巳"
+        ],
+        "day": [
+          "辰",
+          "巳"
+        ],
+        "hour": [
+          "申",
+          "酉"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 0,
+        "木": 3,
+        "水": 2,
+        "火": 4,
+        "土": 3
+      },
+      "riZhuStrength": {
+        "score": 61,
+        "level": "偏强",
+        "helpful": [
+          "金",
+          "火"
+        ],
+        "harmful": [
+          "水",
+          "木"
+        ],
+        "analysis": "日主乙(木)，偏强"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "土",
+        "ji": "水",
+        "xian": "火",
+        "description": "日主乙(木)偏强，以扶抑取用神金、喜神土；调候参考：初冬水寒，丙火解冻",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "戊"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "土"
+          ],
+          "note": "初冬水寒，丙火解冻",
+          "xiyong_wuxing": [
+            "火",
+            "土"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏财格",
+        "category": "正格",
+        "description": "眼光独到，善投资，适合商业投资"
+      }
+    }
+  },
+  {
+    "case": "late-zi",
+    "group": "boundary",
+    "input": {
+      "year": 2026,
+      "month": 11,
+      "day": 17,
+      "hour": 23,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2026,
+        "month": 11,
+        "day": 17,
+        "hour": 23,
+        "minute": 0,
+        "week": "星期二",
+        "weekIndex": 2
+      },
+      "lunar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "yearCn": "二〇二六年",
+        "monthCn": "十月",
+        "dayCn": "初九",
+        "isLeap": false,
+        "yearGanZhi": "丙午",
+        "monthGanZhi": "己亥",
+        "dayGanZhi": "乙未"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "丙",
+          "zhi": "午",
+          "ganzhi": "丙午",
+          "ganWuxing": "火",
+          "zhiWuxing": "火",
+          "nayin": "天河水",
+          "nayinWuxing": "水",
+          "shishen": "比肩",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "劫财",
+            "伤官"
+          ],
+          "cangGan": [
+            "丁",
+            "己"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "羊刃",
+            "将星"
+          ]
+        },
+        "month": {
+          "gan": "己",
+          "zhi": "亥",
+          "ganzhi": "己亥",
+          "ganWuxing": "土",
+          "zhiWuxing": "水",
+          "nayin": "平地木",
+          "nayinWuxing": "木",
+          "shishen": "伤官",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "偏官",
+            "偏印"
+          ],
+          "cangGan": [
+            "壬",
+            "甲"
+          ],
+          "cangGanWuxing": [
+            "水",
+            "木"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "劫煞",
+            "地网"
+          ]
+        },
+        "day": {
+          "gan": "丙",
+          "zhi": "申",
+          "ganzhi": "丙申",
+          "ganWuxing": "火",
+          "zhiWuxing": "金",
+          "nayin": "山下火",
+          "nayinWuxing": "火",
+          "shishen": "日主",
+          "zizuo": "病",
+          "zhiShishen": [
+            "偏财",
+            "偏官",
+            "食神"
+          ],
+          "cangGan": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "金",
+            "水",
+            "土"
+          ],
+          "shensha": [
+            "文昌",
+            "驿马",
+            "丧门"
+          ]
+        },
+        "hour": {
+          "gan": "戊",
+          "zhi": "子",
+          "ganzhi": "戊子",
+          "ganWuxing": "土",
+          "zhiWuxing": "水",
+          "nayin": "霹雳火",
+          "nayinWuxing": "火",
+          "shishen": "食神",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "正官"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "福星贵人",
+            "灾煞"
+          ]
+        }
+      },
+      "baziString": "丙午 己亥 丙申 戊子",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "辰",
+          "巳"
+        ],
+        "day": [
+          "辰",
+          "巳"
+        ],
+        "hour": [
+          "午",
+          "未"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 1,
+        "水": 3,
+        "火": 3,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 38,
+        "level": "偏弱",
+        "helpful": [
+          "木",
+          "火"
+        ],
+        "harmful": [
+          "水",
+          "土"
+        ],
+        "analysis": "日主丙(火)，偏弱"
+      },
+      "yongShen": {
+        "yong": "木",
+        "xi": "火",
+        "ji": "土",
+        "xian": "金",
+        "description": "日主丙(火)偏弱，以扶抑取用神木、喜神火；调候参考：初冬水旺克火，取甲木化水生火",
+        "tiaohou": {
+          "primary_gan": [
+            "甲"
+          ],
+          "secondary_gan": [
+            "戊",
+            "庚",
+            "壬"
+          ],
+          "primary_wuxing": [
+            "木"
+          ],
+          "secondary_wuxing": [
+            "土",
+            "金",
+            "水"
+          ],
+          "note": "初冬水旺克火，取甲木化水生火",
+          "xiyong_wuxing": [
+            "木",
+            "土",
+            "金",
+            "水"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "伤官格",
+        "category": "正格",
+        "description": "才华横溢，有个性，适合艺术创作"
+      }
+    }
+  },
+  {
+    "case": "before-lichun",
+    "group": "boundary",
+    "input": {
+      "year": 2025,
+      "month": 2,
+      "day": 3,
+      "hour": 21,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2025,
+        "month": 2,
+        "day": 3,
+        "hour": 21,
+        "minute": 0,
+        "week": "星期一",
+        "weekIndex": 1
+      },
+      "lunar": {
+        "year": 2025,
+        "month": 1,
+        "day": 6,
+        "yearCn": "二〇二五年",
+        "monthCn": "正月",
+        "dayCn": "初六",
+        "isLeap": false,
+        "yearGanZhi": "乙巳",
+        "monthGanZhi": "戊寅",
+        "dayGanZhi": "癸卯"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "甲",
+          "zhi": "辰",
+          "ganzhi": "甲辰",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "伤官",
+          "zizuo": "衰",
+          "zhiShishen": [
+            "正官",
+            "食神",
+            "比肩"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "华盖",
+            "空亡",
+            "勾绞煞",
+            "童子煞"
+          ]
+        },
+        "month": {
+          "gan": "丁",
+          "zhi": "丑",
+          "ganzhi": "丁丑",
+          "ganWuxing": "火",
+          "zhiWuxing": "土",
+          "nayin": "涧下水",
+          "nayinWuxing": "水",
+          "shishen": "偏财",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "偏官",
+            "比肩",
+            "偏印"
+          ],
+          "cangGan": [
+            "己",
+            "癸",
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "水",
+            "金"
+          ],
+          "shensha": [
+            "吊客"
+          ]
+        },
+        "day": {
+          "gan": "癸",
+          "zhi": "卯",
+          "ganzhi": "癸卯",
+          "ganWuxing": "水",
+          "zhiWuxing": "木",
+          "nayin": "金箔金",
+          "nayinWuxing": "金",
+          "shishen": "日主",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "食神"
+          ],
+          "cangGan": [
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "木"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "德秀贵人",
+            "文昌",
+            "词馆",
+            "福星贵人",
+            "童子煞"
+          ]
+        },
+        "hour": {
+          "gan": "癸",
+          "zhi": "亥",
+          "ganzhi": "癸亥",
+          "ganWuxing": "水",
+          "zhiWuxing": "水",
+          "nayin": "大海水",
+          "nayinWuxing": "水",
+          "shishen": "比肩",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "劫财",
+            "伤官"
+          ],
+          "cangGan": [
+            "壬",
+            "甲"
+          ],
+          "cangGanWuxing": [
+            "水",
+            "木"
+          ],
+          "shensha": [
+            "德秀贵人",
+            "羊刃",
+            "亡神",
+            "红鸾",
+            "地网"
+          ]
+        }
+      },
+      "baziString": "甲辰 丁丑 癸卯 癸亥",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "辰",
+          "巳"
+        ],
+        "hour": [
+          "子",
+          "丑"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 4,
+        "水": 5,
+        "火": 1,
+        "土": 2
+      },
+      "riZhuStrength": {
+        "score": 39,
+        "level": "偏弱",
+        "helpful": [
+          "金",
+          "水"
+        ],
+        "harmful": [
+          "土",
+          "木"
+        ],
+        "analysis": "日主癸(水)，偏弱"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "水",
+        "ji": "木",
+        "xian": "火",
+        "description": "日主癸(水)偏弱，以扶抑取用神金、喜神水；调候参考：冬末酷寒，丙丁火为急",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "丁"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [],
+          "note": "冬末酷寒，丙丁火为急",
+          "xiyong_wuxing": [
+            "火"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏财格",
+        "category": "正格",
+        "description": "眼光独到，善投资，适合商业投资"
+      }
+    }
+  },
+  {
+    "case": "after-lichun",
+    "group": "boundary",
+    "input": {
+      "year": 2025,
+      "month": 2,
+      "day": 3,
+      "hour": 23,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2025,
+        "month": 2,
+        "day": 3,
+        "hour": 23,
+        "minute": 0,
+        "week": "星期一",
+        "weekIndex": 1
+      },
+      "lunar": {
+        "year": 2025,
+        "month": 1,
+        "day": 6,
+        "yearCn": "二〇二五年",
+        "monthCn": "正月",
+        "dayCn": "初六",
+        "isLeap": false,
+        "yearGanZhi": "乙巳",
+        "monthGanZhi": "戊寅",
+        "dayGanZhi": "癸卯"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "乙",
+          "zhi": "巳",
+          "ganzhi": "乙巳",
+          "ganWuxing": "木",
+          "zhiWuxing": "火",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "劫财",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "食神",
+            "偏财",
+            "偏官"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "文昌",
+            "勾绞煞",
+            "孤辰"
+          ]
+        },
+        "month": {
+          "gan": "戊",
+          "zhi": "寅",
+          "ganzhi": "戊寅",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "偏财",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "比肩",
+            "食神",
+            "偏财"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "禄神",
+            "劫煞",
+            "空亡",
+            "福星贵人",
+            "吊客",
+            "童子煞"
+          ]
+        },
+        "day": {
+          "gan": "甲",
+          "zhi": "辰",
+          "ganzhi": "甲辰",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "日主",
+          "zizuo": "衰",
+          "zhiShishen": [
+            "偏财",
+            "劫财",
+            "正印"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "德秀贵人",
+            "金舆",
+            "天喜",
+            "童子煞"
+          ]
+        },
+        "hour": {
+          "gan": "甲",
+          "zhi": "子",
+          "ganzhi": "甲子",
+          "ganWuxing": "木",
+          "zhiWuxing": "水",
+          "nayin": "海中金",
+          "nayinWuxing": "金",
+          "shishen": "比肩",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "正印"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "太极贵人",
+            "德秀贵人",
+            "童子煞"
+          ]
+        }
+      },
+      "baziString": "乙巳 戊寅 甲辰 甲子",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "寅",
+          "卯"
+        ],
+        "hour": [
+          "戌",
+          "亥"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 5,
+        "水": 2,
+        "火": 2,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 80,
+        "level": "偏强",
+        "helpful": [
+          "金",
+          "火"
+        ],
+        "harmful": [
+          "水",
+          "木"
+        ],
+        "analysis": "日主甲(木)，偏强"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "土",
+        "ji": "水",
+        "xian": "火",
+        "description": "日主甲(木)偏强，以扶抑取用神金、喜神土；调候参考：初春木嫩，取丙火解寒，癸水润泽",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "癸"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "水"
+          ],
+          "note": "初春木嫩，取丙火解寒，癸水润泽",
+          "xiyong_wuxing": [
+            "火",
+            "水"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏财格",
+        "category": "正格",
+        "description": "眼光独到，善投资，适合商业投资"
+      }
+    }
+  },
+  {
+    "case": "leap-month",
+    "group": "boundary",
+    "input": {
+      "year": 2023,
+      "month": 3,
+      "day": 22,
+      "hour": 11,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2023,
+        "month": 3,
+        "day": 22,
+        "hour": 11,
+        "minute": 0,
+        "week": "星期三",
+        "weekIndex": 3
+      },
+      "lunar": {
+        "year": 2023,
+        "month": 2,
+        "day": 1,
+        "yearCn": "二〇二三年",
+        "monthCn": "闰闰二月",
+        "dayCn": "初一",
+        "isLeap": true,
+        "yearGanZhi": "癸卯",
+        "monthGanZhi": "乙卯",
+        "dayGanZhi": "己卯"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "癸",
+          "zhi": "卯",
+          "ganzhi": "癸卯",
+          "ganWuxing": "水",
+          "zhiWuxing": "木",
+          "nayin": "金箔金",
+          "nayinWuxing": "金",
+          "shishen": "偏财",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "偏官"
+          ],
+          "cangGan": [
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "木"
+          ],
+          "shensha": [
+            "将星",
+            "天德合"
+          ]
+        },
+        "month": {
+          "gan": "乙",
+          "zhi": "卯",
+          "ganzhi": "乙卯",
+          "ganWuxing": "木",
+          "zhiWuxing": "木",
+          "nayin": "大溪水",
+          "nayinWuxing": "水",
+          "shishen": "偏官",
+          "zizuo": "临官",
+          "zhiShishen": [
+            "偏官"
+          ],
+          "cangGan": [
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "木"
+          ],
+          "shensha": [
+            "将星"
+          ]
+        },
+        "day": {
+          "gan": "己",
+          "zhi": "卯",
+          "ganzhi": "己卯",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "日主",
+          "zizuo": "病",
+          "zhiShishen": [
+            "偏官"
+          ],
+          "cangGan": [
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "木"
+          ],
+          "shensha": [
+            "将星"
+          ]
+        },
+        "hour": {
+          "gan": "庚",
+          "zhi": "午",
+          "ganzhi": "庚午",
+          "ganWuxing": "金",
+          "zhiWuxing": "火",
+          "nayin": "路旁土",
+          "nayinWuxing": "土",
+          "shishen": "伤官",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "偏印",
+            "比肩"
+          ],
+          "cangGan": [
+            "丁",
+            "己"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "禄神",
+            "天喜"
+          ]
+        }
+      },
+      "baziString": "癸卯 乙卯 己卯 庚午",
+      "kongwang": {
+        "year": [
+          "辰",
+          "巳"
+        ],
+        "month": [
+          "子",
+          "丑"
+        ],
+        "day": [
+          "申",
+          "酉"
+        ],
+        "hour": [
+          "戌",
+          "亥"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 4,
+        "水": 1,
+        "火": 1,
+        "土": 2
+      },
+      "riZhuStrength": {
+        "score": 20,
+        "level": "偏弱",
+        "helpful": [
+          "火",
+          "土"
+        ],
+        "harmful": [
+          "木",
+          "金"
+        ],
+        "analysis": "日主己(土)，偏弱"
+      },
+      "yongShen": {
+        "yong": "火",
+        "xi": "土",
+        "ji": "金",
+        "xian": "水",
+        "description": "日主己(土)偏弱，以扶抑取用神火、喜神土；调候参考：仲春木旺，丙火化木生己",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "癸",
+            "甲"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "水",
+            "木"
+          ],
+          "note": "仲春木旺，丙火化木生己",
+          "xiyong_wuxing": [
+            "火",
+            "水",
+            "木"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏官格",
+        "category": "正格",
+        "description": "性格刚强，有魄力，适合开创事业"
+      }
+    }
+  },
+  {
+    "case": "unknown-hour",
+    "group": "boundary",
+    "input": {
+      "year": 2026,
+      "month": 11,
+      "day": 17,
+      "hour": -1,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 1001,
+      "message": "参数错误: hour - Input should be greater than or equal to 0"
+    }
+  },
+  {
+    "case": "before-jingzhe",
+    "group": "boundary",
+    "input": {
+      "year": 2025,
+      "month": 3,
+      "day": 5,
+      "hour": 15,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2025,
+        "month": 3,
+        "day": 5,
+        "hour": 15,
+        "minute": 0,
+        "week": "星期三",
+        "weekIndex": 3
+      },
+      "lunar": {
+        "year": 2025,
+        "month": 2,
+        "day": 6,
+        "yearCn": "二〇二五年",
+        "monthCn": "二月",
+        "dayCn": "初六",
+        "isLeap": false,
+        "yearGanZhi": "乙巳",
+        "monthGanZhi": "己卯",
+        "dayGanZhi": "癸酉"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "乙",
+          "zhi": "巳",
+          "ganzhi": "乙巳",
+          "ganWuxing": "木",
+          "zhiWuxing": "火",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "食神",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "正财",
+            "正官",
+            "正印"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "太极贵人",
+            "孤辰"
+          ]
+        },
+        "month": {
+          "gan": "戊",
+          "zhi": "寅",
+          "ganzhi": "戊寅",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "正官",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "伤官",
+            "正财",
+            "正官"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "金舆",
+            "劫煞",
+            "吊客",
+            "童子煞"
+          ]
+        },
+        "day": {
+          "gan": "癸",
+          "zhi": "酉",
+          "ganzhi": "癸酉",
+          "ganWuxing": "水",
+          "zhiWuxing": "金",
+          "nayin": "剑锋金",
+          "nayinWuxing": "金",
+          "shishen": "日主",
+          "zizuo": "病",
+          "zhiShishen": [
+            "偏印"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "将星"
+          ]
+        },
+        "hour": {
+          "gan": "庚",
+          "zhi": "申",
+          "ganzhi": "庚申",
+          "ganWuxing": "金",
+          "zhiWuxing": "金",
+          "nayin": "石榴木",
+          "nayinWuxing": "木",
+          "shishen": "正印",
+          "zizuo": "临官",
+          "zhiShishen": [
+            "正印",
+            "劫财",
+            "正官"
+          ],
+          "cangGan": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "金",
+            "水",
+            "土"
+          ],
+          "shensha": [
+            "太极贵人",
+            "亡神",
+            "勾绞煞"
+          ]
+        }
+      },
+      "baziString": "乙巳 戊寅 癸酉 庚申",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "戌",
+          "亥"
+        ],
+        "hour": [
+          "子",
+          "丑"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 4,
+        "木": 2,
+        "水": 2,
+        "火": 2,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 36,
+        "level": "偏弱",
+        "helpful": [
+          "金",
+          "水"
+        ],
+        "harmful": [
+          "土",
+          "木"
+        ],
+        "analysis": "日主癸(水)，偏弱"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "水",
+        "ji": "木",
+        "xian": "火",
+        "description": "日主癸(水)偏弱，以扶抑取用神金、喜神水；调候参考：初春癸水弱，取辛金生之",
+        "tiaohou": {
+          "primary_gan": [
+            "辛"
+          ],
+          "secondary_gan": [
+            "丙"
+          ],
+          "primary_wuxing": [
+            "金"
+          ],
+          "secondary_wuxing": [
+            "火"
+          ],
+          "note": "初春癸水弱，取辛金生之",
+          "xiyong_wuxing": [
+            "金",
+            "火"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "正官格",
+        "category": "正格",
+        "description": "为人正直，有官运，适合从事管理工作"
+      }
+    }
+  },
+  {
+    "case": "after-jingzhe",
+    "group": "boundary",
+    "input": {
+      "year": 2025,
+      "month": 3,
+      "day": 5,
+      "hour": 18,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2025,
+        "month": 3,
+        "day": 5,
+        "hour": 18,
+        "minute": 0,
+        "week": "星期三",
+        "weekIndex": 3
+      },
+      "lunar": {
+        "year": 2025,
+        "month": 2,
+        "day": 6,
+        "yearCn": "二〇二五年",
+        "monthCn": "二月",
+        "dayCn": "初六",
+        "isLeap": false,
+        "yearGanZhi": "乙巳",
+        "monthGanZhi": "己卯",
+        "dayGanZhi": "癸酉"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "乙",
+          "zhi": "巳",
+          "ganzhi": "乙巳",
+          "ganWuxing": "木",
+          "zhiWuxing": "火",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "食神",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "正财",
+            "正官",
+            "正印"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "太极贵人",
+            "孤辰"
+          ]
+        },
+        "month": {
+          "gan": "己",
+          "zhi": "卯",
+          "ganzhi": "己卯",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "偏官",
+          "zizuo": "病",
+          "zhiShishen": [
+            "食神"
+          ],
+          "cangGan": [
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "木"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "文昌",
+            "词馆",
+            "福星贵人",
+            "灾煞"
+          ]
+        },
+        "day": {
+          "gan": "癸",
+          "zhi": "酉",
+          "ganzhi": "癸酉",
+          "ganWuxing": "水",
+          "zhiWuxing": "金",
+          "nayin": "剑锋金",
+          "nayinWuxing": "金",
+          "shishen": "日主",
+          "zizuo": "病",
+          "zhiShishen": [
+            "偏印"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "将星",
+            "天德合"
+          ]
+        },
+        "hour": {
+          "gan": "辛",
+          "zhi": "酉",
+          "ganzhi": "辛酉",
+          "ganWuxing": "金",
+          "zhiWuxing": "金",
+          "nayin": "石榴木",
+          "nayinWuxing": "木",
+          "shishen": "偏印",
+          "zizuo": "临官",
+          "zhiShishen": [
+            "偏印"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "将星"
+          ]
+        }
+      },
+      "baziString": "乙巳 己卯 癸酉 辛酉",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "戌",
+          "亥"
+        ],
+        "hour": [
+          "子",
+          "丑"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 4,
+        "木": 2,
+        "水": 1,
+        "火": 1,
+        "土": 2
+      },
+      "riZhuStrength": {
+        "score": 35,
+        "level": "偏弱",
+        "helpful": [
+          "金",
+          "水"
+        ],
+        "harmful": [
+          "土",
+          "木"
+        ],
+        "analysis": "日主癸(水)，偏弱"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "水",
+        "ji": "木",
+        "xian": "火",
+        "description": "日主癸(水)偏弱，以扶抑取用神金、喜神水；调候参考：仲春木旺泄水，取金生水",
+        "tiaohou": {
+          "primary_gan": [
+            "庚"
+          ],
+          "secondary_gan": [
+            "辛"
+          ],
+          "primary_wuxing": [
+            "金"
+          ],
+          "secondary_wuxing": [],
+          "note": "仲春木旺泄水，取金生水",
+          "xiyong_wuxing": [
+            "金"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏官格",
+        "category": "正格",
+        "description": "性格刚强，有魄力，适合开创事业"
+      }
+    }
+  },
+  {
+    "case": "winter",
+    "group": "variation",
+    "input": {
+      "year": 1990,
+      "month": 1,
+      "day": 7,
+      "hour": 14,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 1990,
+        "month": 1,
+        "day": 7,
+        "hour": 14,
+        "minute": 0,
+        "week": "星期日",
+        "weekIndex": 0
+      },
+      "lunar": {
+        "year": 1989,
+        "month": 12,
+        "day": 11,
+        "yearCn": "一九八九年",
+        "monthCn": "腊月",
+        "dayCn": "十一",
+        "isLeap": false,
+        "yearGanZhi": "己巳",
+        "monthGanZhi": "丁丑",
+        "dayGanZhi": "壬申"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "己",
+          "zhi": "巳",
+          "ganzhi": "己巳",
+          "ganWuxing": "土",
+          "zhiWuxing": "火",
+          "nayin": "大林木",
+          "nayinWuxing": "木",
+          "shishen": "正官",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "偏财",
+            "偏官",
+            "偏印"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "太极贵人",
+            "孤辰"
+          ]
+        },
+        "month": {
+          "gan": "丁",
+          "zhi": "丑",
+          "ganzhi": "丁丑",
+          "ganWuxing": "火",
+          "zhiWuxing": "土",
+          "nayin": "涧下水",
+          "nayinWuxing": "水",
+          "shishen": "正财",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "正官",
+            "劫财",
+            "正印"
+          ],
+          "cangGan": [
+            "己",
+            "癸",
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "水",
+            "金"
+          ],
+          "shensha": [
+            "金舆",
+            "华盖",
+            "寡宿"
+          ]
+        },
+        "day": {
+          "gan": "壬",
+          "zhi": "申",
+          "ganzhi": "壬申",
+          "ganWuxing": "水",
+          "zhiWuxing": "金",
+          "nayin": "剑锋金",
+          "nayinWuxing": "金",
+          "shishen": "日主",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "偏印",
+            "比肩",
+            "偏官"
+          ],
+          "cangGan": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "金",
+            "水",
+            "土"
+          ],
+          "shensha": [
+            "太极贵人",
+            "亡神",
+            "词馆"
+          ]
+        },
+        "hour": {
+          "gan": "丁",
+          "zhi": "未",
+          "ganzhi": "丁未",
+          "ganWuxing": "火",
+          "zhiWuxing": "土",
+          "nayin": "天河水",
+          "nayinWuxing": "水",
+          "shishen": "正财",
+          "zizuo": "冠带",
+          "zhiShishen": [
+            "正官",
+            "正财",
+            "伤官"
+          ],
+          "cangGan": [
+            "己",
+            "丁",
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "火",
+            "木"
+          ],
+          "shensha": [
+            "勾绞煞",
+            "丧门",
+            "童子煞"
+          ]
+        }
+      },
+      "baziString": "己巳 丁丑 壬申 丁未",
+      "kongwang": {
+        "year": [
+          "戌",
+          "亥"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "戌",
+          "亥"
+        ],
+        "hour": [
+          "寅",
+          "卯"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 3,
+        "木": 1,
+        "水": 3,
+        "火": 4,
+        "土": 5
+      },
+      "riZhuStrength": {
+        "score": 20,
+        "level": "偏弱",
+        "helpful": [
+          "金",
+          "水"
+        ],
+        "harmful": [
+          "土",
+          "木"
+        ],
+        "analysis": "日主壬(水)，偏弱"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "水",
+        "ji": "木",
+        "xian": "火",
+        "description": "日主壬(水)偏弱，以扶抑取用神金、喜神水；调候参考：冬末严寒，丙火解冻",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "丁",
+            "甲"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "木"
+          ],
+          "note": "冬末严寒，丙火解冻",
+          "xiyong_wuxing": [
+            "火",
+            "木"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "正财格",
+        "category": "正格",
+        "description": "踏实稳重，善理财，适合金融财务"
+      }
+    }
+  },
+  {
+    "case": "spring",
+    "group": "variation",
+    "input": {
+      "year": 1996,
+      "month": 4,
+      "day": 23,
+      "hour": 6,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 1996,
+        "month": 4,
+        "day": 23,
+        "hour": 6,
+        "minute": 0,
+        "week": "星期二",
+        "weekIndex": 2
+      },
+      "lunar": {
+        "year": 1996,
+        "month": 3,
+        "day": 6,
+        "yearCn": "一九九六年",
+        "monthCn": "三月",
+        "dayCn": "初六",
+        "isLeap": false,
+        "yearGanZhi": "丙子",
+        "monthGanZhi": "壬辰",
+        "dayGanZhi": "庚寅"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "丙",
+          "zhi": "子",
+          "ganzhi": "丙子",
+          "ganWuxing": "火",
+          "zhiWuxing": "水",
+          "nayin": "涧下水",
+          "nayinWuxing": "水",
+          "shishen": "偏官",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "伤官"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "将星"
+          ]
+        },
+        "month": {
+          "gan": "壬",
+          "zhi": "辰",
+          "ganzhi": "壬辰",
+          "ganWuxing": "水",
+          "zhiWuxing": "土",
+          "nayin": "长流水",
+          "nayinWuxing": "水",
+          "shishen": "食神",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "偏印",
+            "正财",
+            "伤官"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "天德贵人",
+            "月德贵人",
+            "德秀贵人",
+            "华盖",
+            "童子煞"
+          ]
+        },
+        "day": {
+          "gan": "庚",
+          "zhi": "寅",
+          "ganzhi": "庚寅",
+          "ganWuxing": "金",
+          "zhiWuxing": "木",
+          "nayin": "松柏木",
+          "nayinWuxing": "木",
+          "shishen": "日主",
+          "zizuo": "绝",
+          "zhiShishen": [
+            "偏财",
+            "偏官",
+            "偏印"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "太极贵人",
+            "驿马",
+            "丧门"
+          ]
+        },
+        "hour": {
+          "gan": "己",
+          "zhi": "卯",
+          "ganzhi": "己卯",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "正印",
+          "zizuo": "病",
+          "zhiShishen": [
+            "正财"
+          ],
+          "cangGan": [
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "木"
+          ],
+          "shensha": [
+            "勾绞煞",
+            "红鸾",
+            "童子煞"
+          ]
+        }
+      },
+      "baziString": "丙子 壬辰 庚寅 己卯",
+      "kongwang": {
+        "year": [
+          "申",
+          "酉"
+        ],
+        "month": [
+          "午",
+          "未"
+        ],
+        "day": [
+          "午",
+          "未"
+        ],
+        "hour": [
+          "申",
+          "酉"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 3,
+        "水": 3,
+        "火": 2,
+        "土": 3
+      },
+      "riZhuStrength": {
+        "score": 63,
+        "level": "偏强",
+        "helpful": [
+          "火",
+          "水"
+        ],
+        "harmful": [
+          "土",
+          "金"
+        ],
+        "analysis": "日主庚(金)，偏强"
+      },
+      "yongShen": {
+        "yong": "火",
+        "xi": "木",
+        "ji": "土",
+        "xian": "水",
+        "description": "日主庚(金)偏强，以扶抑取用神火、喜神木；调候参考：春末土重金埋，取甲木疏土",
+        "tiaohou": {
+          "primary_gan": [
+            "甲"
+          ],
+          "secondary_gan": [
+            "丁",
+            "壬",
+            "癸"
+          ],
+          "primary_wuxing": [
+            "木"
+          ],
+          "secondary_wuxing": [
+            "火",
+            "水"
+          ],
+          "note": "春末土重金埋，取甲木疏土",
+          "xiyong_wuxing": [
+            "木",
+            "火",
+            "水"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "食神格",
+        "category": "正格",
+        "description": "温和乐观，有口福，适合餐饮娱乐"
+      }
+    }
+  },
+  {
+    "case": "summer",
+    "group": "variation",
+    "input": {
+      "year": 2000,
+      "month": 7,
+      "day": 12,
+      "hour": 18,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2000,
+        "month": 7,
+        "day": 12,
+        "hour": 18,
+        "minute": 0,
+        "week": "星期三",
+        "weekIndex": 3
+      },
+      "lunar": {
+        "year": 2000,
+        "month": 6,
+        "day": 11,
+        "yearCn": "二〇〇〇年",
+        "monthCn": "六月",
+        "dayCn": "十一",
+        "isLeap": false,
+        "yearGanZhi": "庚辰",
+        "monthGanZhi": "癸未",
+        "dayGanZhi": "辛未"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "庚",
+          "zhi": "辰",
+          "ganzhi": "庚辰",
+          "ganWuxing": "金",
+          "zhiWuxing": "土",
+          "nayin": "白蜡金",
+          "nayinWuxing": "金",
+          "shishen": "劫财",
+          "zizuo": "养",
+          "zhiShishen": [
+            "正印",
+            "偏财",
+            "食神"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "华盖"
+          ]
+        },
+        "month": {
+          "gan": "癸",
+          "zhi": "未",
+          "ganzhi": "癸未",
+          "ganWuxing": "水",
+          "zhiWuxing": "土",
+          "nayin": "杨柳木",
+          "nayinWuxing": "木",
+          "shishen": "食神",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "偏印",
+            "偏官",
+            "偏财"
+          ],
+          "cangGan": [
+            "己",
+            "丁",
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "火",
+            "木"
+          ],
+          "shensha": []
+        },
+        "day": {
+          "gan": "辛",
+          "zhi": "未",
+          "ganzhi": "辛未",
+          "ganWuxing": "金",
+          "zhiWuxing": "土",
+          "nayin": "路旁土",
+          "nayinWuxing": "土",
+          "shishen": "日主",
+          "zizuo": "衰",
+          "zhiShishen": [
+            "偏印",
+            "偏官",
+            "偏财"
+          ],
+          "cangGan": [
+            "己",
+            "丁",
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "火",
+            "木"
+          ],
+          "shensha": []
+        },
+        "hour": {
+          "gan": "丁",
+          "zhi": "酉",
+          "ganzhi": "丁酉",
+          "ganWuxing": "火",
+          "zhiWuxing": "金",
+          "nayin": "山下火",
+          "nayinWuxing": "火",
+          "shishen": "偏官",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "比肩"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "德秀贵人",
+            "桃花",
+            "禄神"
+          ]
+        }
+      },
+      "baziString": "庚辰 癸未 辛未 丁酉",
+      "kongwang": {
+        "year": [
+          "申",
+          "酉"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "戌",
+          "亥"
+        ],
+        "hour": [
+          "辰",
+          "巳"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 3,
+        "木": 3,
+        "水": 2,
+        "火": 3,
+        "土": 3
+      },
+      "riZhuStrength": {
+        "score": 69,
+        "level": "偏强",
+        "helpful": [
+          "火",
+          "水"
+        ],
+        "harmful": [
+          "土",
+          "金"
+        ],
+        "analysis": "日主辛(金)，偏强"
+      },
+      "yongShen": {
+        "yong": "火",
+        "xi": "木",
+        "ji": "土",
+        "xian": "水",
+        "description": "日主辛(金)偏强，以扶抑取用神火、喜神木；调候参考：夏末土重，取壬水淘金",
+        "tiaohou": {
+          "primary_gan": [
+            "壬"
+          ],
+          "secondary_gan": [
+            "庚",
+            "甲"
+          ],
+          "primary_wuxing": [
+            "水"
+          ],
+          "secondary_wuxing": [
+            "金",
+            "木"
+          ],
+          "note": "夏末土重，取壬水淘金",
+          "xiyong_wuxing": [
+            "水",
+            "金",
+            "木"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "食神格",
+        "category": "正格",
+        "description": "温和乐观，有口福，适合餐饮娱乐"
+      }
+    }
+  },
+  {
+    "case": "autumn",
+    "group": "variation",
+    "input": {
+      "year": 2009,
+      "month": 9,
+      "day": 17,
+      "hour": 9,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2009,
+        "month": 9,
+        "day": 17,
+        "hour": 9,
+        "minute": 0,
+        "week": "星期四",
+        "weekIndex": 4
+      },
+      "lunar": {
+        "year": 2009,
+        "month": 7,
+        "day": 29,
+        "yearCn": "二〇〇九年",
+        "monthCn": "七月",
+        "dayCn": "廿九",
+        "isLeap": false,
+        "yearGanZhi": "己丑",
+        "monthGanZhi": "癸酉",
+        "dayGanZhi": "乙丑"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "己",
+          "zhi": "丑",
+          "ganzhi": "己丑",
+          "ganWuxing": "土",
+          "zhiWuxing": "土",
+          "nayin": "霹雳火",
+          "nayinWuxing": "火",
+          "shishen": "偏财",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "偏财",
+            "偏印",
+            "偏官"
+          ],
+          "cangGan": [
+            "己",
+            "癸",
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "水",
+            "金"
+          ],
+          "shensha": [
+            "华盖",
+            "福星贵人"
+          ]
+        },
+        "month": {
+          "gan": "癸",
+          "zhi": "酉",
+          "ganzhi": "癸酉",
+          "ganWuxing": "水",
+          "zhiWuxing": "金",
+          "nayin": "剑锋金",
+          "nayinWuxing": "金",
+          "shishen": "偏印",
+          "zizuo": "病",
+          "zhiShishen": [
+            "偏官"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "将星"
+          ]
+        },
+        "day": {
+          "gan": "乙",
+          "zhi": "丑",
+          "ganzhi": "乙丑",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "海中金",
+          "nayinWuxing": "金",
+          "shishen": "日主",
+          "zizuo": "衰",
+          "zhiShishen": [
+            "偏财",
+            "偏印",
+            "偏官"
+          ],
+          "cangGan": [
+            "己",
+            "癸",
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "水",
+            "金"
+          ],
+          "shensha": [
+            "华盖",
+            "福星贵人"
+          ]
+        },
+        "hour": {
+          "gan": "辛",
+          "zhi": "巳",
+          "ganzhi": "辛巳",
+          "ganWuxing": "金",
+          "zhiWuxing": "火",
+          "nayin": "白蜡金",
+          "nayinWuxing": "金",
+          "shishen": "偏官",
+          "zizuo": "死",
+          "zhiShishen": [
+            "伤官",
+            "正财",
+            "正官"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "金舆"
+          ]
+        }
+      },
+      "baziString": "己丑 癸酉 乙丑 辛巳",
+      "kongwang": {
+        "year": [
+          "午",
+          "未"
+        ],
+        "month": [
+          "戌",
+          "亥"
+        ],
+        "day": [
+          "戌",
+          "亥"
+        ],
+        "hour": [
+          "申",
+          "酉"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 5,
+        "木": 1,
+        "水": 3,
+        "火": 1,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 24,
+        "level": "偏弱",
+        "helpful": [
+          "水",
+          "木"
+        ],
+        "harmful": [
+          "金",
+          "火"
+        ],
+        "analysis": "日主乙(木)，偏弱"
+      },
+      "yongShen": {
+        "yong": "水",
+        "xi": "木",
+        "ji": "火",
+        "xian": "土",
+        "description": "日主乙(木)偏弱，以扶抑取用神水、喜神木；调候参考：仲秋金旺，丙火制金暖木",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "癸"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "水"
+          ],
+          "note": "仲秋金旺，丙火制金暖木",
+          "xiyong_wuxing": [
+            "火",
+            "水"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏印格",
+        "category": "正格",
+        "description": "思维独特，有创意，适合技术研究"
+      }
+    }
+  },
+  {
+    "case": "leap-day",
+    "group": "variation",
+    "input": {
+      "year": 2004,
+      "month": 2,
+      "day": 29,
+      "hour": 22,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2004,
+        "month": 2,
+        "day": 29,
+        "hour": 22,
+        "minute": 0,
+        "week": "星期日",
+        "weekIndex": 0
+      },
+      "lunar": {
+        "year": 2004,
+        "month": 2,
+        "day": 10,
+        "yearCn": "二〇〇四年",
+        "monthCn": "二月",
+        "dayCn": "初十",
+        "isLeap": false,
+        "yearGanZhi": "甲申",
+        "monthGanZhi": "丙寅",
+        "dayGanZhi": "戊寅"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "甲",
+          "zhi": "申",
+          "ganzhi": "甲申",
+          "ganWuxing": "木",
+          "zhiWuxing": "金",
+          "nayin": "泉中水",
+          "nayinWuxing": "水",
+          "shishen": "偏官",
+          "zizuo": "绝",
+          "zhiShishen": [
+            "食神",
+            "偏财",
+            "比肩"
+          ],
+          "cangGan": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "金",
+            "水",
+            "土"
+          ],
+          "shensha": [
+            "德秀贵人",
+            "文昌",
+            "空亡",
+            "孤辰",
+            "福星贵人",
+            "童子煞"
+          ]
+        },
+        "month": {
+          "gan": "丙",
+          "zhi": "寅",
+          "ganzhi": "丙寅",
+          "ganWuxing": "火",
+          "zhiWuxing": "木",
+          "nayin": "炉中火",
+          "nayinWuxing": "火",
+          "shishen": "偏印",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "偏官",
+            "偏印",
+            "比肩"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "月德贵人",
+            "德秀贵人",
+            "驿马",
+            "词馆",
+            "童子煞"
+          ]
+        },
+        "day": {
+          "gan": "戊",
+          "zhi": "寅",
+          "ganzhi": "戊寅",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "日主",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "偏官",
+            "偏印",
+            "比肩"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "驿马",
+            "词馆",
+            "童子煞"
+          ]
+        },
+        "hour": {
+          "gan": "癸",
+          "zhi": "亥",
+          "ganzhi": "癸亥",
+          "ganWuxing": "水",
+          "zhiWuxing": "水",
+          "nayin": "大海水",
+          "nayinWuxing": "水",
+          "shishen": "正财",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "偏财",
+            "偏官"
+          ],
+          "cangGan": [
+            "壬",
+            "甲"
+          ],
+          "cangGanWuxing": [
+            "水",
+            "木"
+          ],
+          "shensha": [
+            "亡神",
+            "地网"
+          ]
+        }
+      },
+      "baziString": "甲申 丙寅 戊寅 癸亥",
+      "kongwang": {
+        "year": [
+          "午",
+          "未"
+        ],
+        "month": [
+          "戌",
+          "亥"
+        ],
+        "day": [
+          "申",
+          "酉"
+        ],
+        "hour": [
+          "子",
+          "丑"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 4,
+        "水": 3,
+        "火": 3,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 30,
+        "level": "偏弱",
+        "helpful": [
+          "火",
+          "土"
+        ],
+        "harmful": [
+          "木",
+          "金"
+        ],
+        "analysis": "日主戊(土)，偏弱"
+      },
+      "yongShen": {
+        "yong": "火",
+        "xi": "土",
+        "ji": "金",
+        "xian": "水",
+        "description": "日主戊(土)偏弱，以扶抑取用神火、喜神土；调候参考：初春土寒，取丙火暖土，癸水滋润",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "甲",
+            "癸"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "木",
+            "水"
+          ],
+          "note": "初春土寒，取丙火暖土，癸水滋润",
+          "xiyong_wuxing": [
+            "火",
+            "木",
+            "水"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏印格",
+        "category": "正格",
+        "description": "思维独特，有创意，适合技术研究"
+      }
+    }
+  },
+  {
+    "case": "cold-dew",
+    "group": "variation",
+    "input": {
+      "year": 2024,
+      "month": 10,
+      "day": 8,
+      "hour": 5,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2024,
+        "month": 10,
+        "day": 8,
+        "hour": 5,
+        "minute": 0,
+        "week": "星期二",
+        "weekIndex": 2
+      },
+      "lunar": {
+        "year": 2024,
+        "month": 9,
+        "day": 6,
+        "yearCn": "二〇二四年",
+        "monthCn": "九月",
+        "dayCn": "初六",
+        "isLeap": false,
+        "yearGanZhi": "甲辰",
+        "monthGanZhi": "甲戌",
+        "dayGanZhi": "乙巳"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "甲",
+          "zhi": "辰",
+          "ganzhi": "甲辰",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "劫财",
+          "zizuo": "衰",
+          "zhiShishen": [
+            "正财",
+            "比肩",
+            "偏印"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "华盖",
+            "勾绞煞",
+            "童子煞"
+          ]
+        },
+        "month": {
+          "gan": "甲",
+          "zhi": "戌",
+          "ganzhi": "甲戌",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "山头火",
+          "nayinWuxing": "火",
+          "shishen": "劫财",
+          "zizuo": "养",
+          "zhiShishen": [
+            "正财",
+            "偏官",
+            "食神"
+          ],
+          "cangGan": [
+            "戊",
+            "辛",
+            "丁"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "金",
+            "火"
+          ],
+          "shensha": [
+            "寡宿",
+            "天罗",
+            "童子煞"
+          ]
+        },
+        "day": {
+          "gan": "乙",
+          "zhi": "巳",
+          "ganzhi": "乙巳",
+          "ganWuxing": "木",
+          "zhiWuxing": "火",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "日主",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "伤官",
+            "正财",
+            "正官"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "金舆",
+            "劫煞",
+            "天喜"
+          ]
+        },
+        "hour": {
+          "gan": "己",
+          "zhi": "卯",
+          "ganzhi": "己卯",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "偏财",
+          "zizuo": "病",
+          "zhiShishen": [
+            "比肩"
+          ],
+          "cangGan": [
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "木"
+          ],
+          "shensha": [
+            "禄神",
+            "空亡"
+          ]
+        }
+      },
+      "baziString": "甲辰 甲戌 乙巳 己卯",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "寅",
+          "卯"
+        ],
+        "hour": [
+          "申",
+          "酉"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 2,
+        "木": 5,
+        "水": 1,
+        "火": 2,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 54,
+        "level": "中和",
+        "helpful": [
+          "水",
+          "木"
+        ],
+        "harmful": [
+          "金",
+          "火"
+        ],
+        "analysis": "日主乙(木)，中和"
+      },
+      "yongShen": {
+        "yong": "水",
+        "xi": "金",
+        "ji": "",
+        "xian": "",
+        "description": "日主乙(木)中和，以扶抑取用神水、喜神金；调候参考：秋末土燥，取癸水润土",
+        "tiaohou": {
+          "primary_gan": [
+            "癸"
+          ],
+          "secondary_gan": [
+            "辛"
+          ],
+          "primary_wuxing": [
+            "水"
+          ],
+          "secondary_wuxing": [
+            "金"
+          ],
+          "note": "秋末土燥，取癸水润土",
+          "xiyong_wuxing": [
+            "水",
+            "金"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "劫财格",
+        "category": "正格",
+        "description": "竞争意识强，善于交际，适合销售"
+      }
+    }
+  },
+  {
+    "case": "at-midnight",
+    "group": "variation",
+    "input": {
+      "year": 2018,
+      "month": 5,
+      "day": 6,
+      "hour": 0,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2018,
+        "month": 5,
+        "day": 6,
+        "hour": 0,
+        "minute": 0,
+        "week": "星期日",
+        "weekIndex": 0
+      },
+      "lunar": {
+        "year": 2018,
+        "month": 3,
+        "day": 21,
+        "yearCn": "二〇一八年",
+        "monthCn": "三月",
+        "dayCn": "廿一",
+        "isLeap": false,
+        "yearGanZhi": "戊戌",
+        "monthGanZhi": "丁巳",
+        "dayGanZhi": "戊戌"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "戊",
+          "zhi": "戌",
+          "ganzhi": "戊戌",
+          "ganWuxing": "土",
+          "zhiWuxing": "土",
+          "nayin": "平地木",
+          "nayinWuxing": "木",
+          "shishen": "比肩",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "比肩",
+            "伤官",
+            "正印"
+          ],
+          "cangGan": [
+            "戊",
+            "辛",
+            "丁"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "金",
+            "火"
+          ],
+          "shensha": [
+            "太极贵人",
+            "华盖",
+            "天罗"
+          ]
+        },
+        "month": {
+          "gan": "丁",
+          "zhi": "巳",
+          "ganzhi": "丁巳",
+          "ganWuxing": "火",
+          "zhiWuxing": "火",
+          "nayin": "沙中土",
+          "nayinWuxing": "土",
+          "shishen": "正印",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "偏印",
+            "比肩",
+            "食神"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "禄神",
+            "亡神",
+            "空亡",
+            "红鸾"
+          ]
+        },
+        "day": {
+          "gan": "戊",
+          "zhi": "戌",
+          "ganzhi": "戊戌",
+          "ganWuxing": "土",
+          "zhiWuxing": "土",
+          "nayin": "平地木",
+          "nayinWuxing": "木",
+          "shishen": "日主",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "比肩",
+            "伤官",
+            "正印"
+          ],
+          "cangGan": [
+            "戊",
+            "辛",
+            "丁"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "金",
+            "火"
+          ],
+          "shensha": [
+            "太极贵人",
+            "华盖",
+            "八专日",
+            "天罗"
+          ]
+        },
+        "hour": {
+          "gan": "壬",
+          "zhi": "子",
+          "ganzhi": "壬子",
+          "ganWuxing": "水",
+          "zhiWuxing": "水",
+          "nayin": "桑柘木",
+          "nayinWuxing": "木",
+          "shishen": "偏财",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "正财"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "灾煞",
+            "丧门"
+          ]
+        }
+      },
+      "baziString": "戊戌 丁巳 戊戌 壬子",
+      "kongwang": {
+        "year": [
+          "辰",
+          "巳"
+        ],
+        "month": [
+          "子",
+          "丑"
+        ],
+        "day": [
+          "辰",
+          "巳"
+        ],
+        "hour": [
+          "寅",
+          "卯"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 3,
+        "木": 0,
+        "水": 2,
+        "火": 4,
+        "土": 5
+      },
+      "riZhuStrength": {
+        "score": 80,
+        "level": "偏强",
+        "helpful": [
+          "木",
+          "金"
+        ],
+        "harmful": [
+          "火",
+          "土"
+        ],
+        "analysis": "日主戊(土)，偏强"
+      },
+      "yongShen": {
+        "yong": "木",
+        "xi": "水",
+        "ji": "火",
+        "xian": "金",
+        "description": "日主戊(土)偏强，以扶抑取用神木、喜神水；调候参考：初夏火旺土燥，取甲木癸水",
+        "tiaohou": {
+          "primary_gan": [
+            "甲"
+          ],
+          "secondary_gan": [
+            "丙",
+            "癸"
+          ],
+          "primary_wuxing": [
+            "木"
+          ],
+          "secondary_wuxing": [
+            "火",
+            "水"
+          ],
+          "note": "初夏火旺土燥，取甲木癸水",
+          "xiyong_wuxing": [
+            "木",
+            "火",
+            "水"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "正印格",
+        "category": "正格",
+        "description": "聪明好学，有贵人相助，适合文化教育"
+      }
+    }
+  },
+  {
+    "case": "pre-lunar-new-year",
+    "group": "variation",
+    "input": {
+      "year": 2024,
+      "month": 2,
+      "day": 8,
+      "hour": 17,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2024,
+        "month": 2,
+        "day": 8,
+        "hour": 17,
+        "minute": 0,
+        "week": "星期四",
+        "weekIndex": 4
+      },
+      "lunar": {
+        "year": 2023,
+        "month": 12,
+        "day": 29,
+        "yearCn": "二〇二三年",
+        "monthCn": "腊月",
+        "dayCn": "廿九",
+        "isLeap": false,
+        "yearGanZhi": "癸卯",
+        "monthGanZhi": "丙寅",
+        "dayGanZhi": "壬寅"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "甲",
+          "zhi": "辰",
+          "ganzhi": "甲辰",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "食神",
+          "zizuo": "衰",
+          "zhiShishen": [
+            "偏官",
+            "伤官",
+            "劫财"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "德秀贵人",
+            "华盖",
+            "空亡",
+            "童子煞"
+          ]
+        },
+        "month": {
+          "gan": "丙",
+          "zhi": "寅",
+          "ganzhi": "丙寅",
+          "ganWuxing": "火",
+          "zhiWuxing": "木",
+          "nayin": "炉中火",
+          "nayinWuxing": "火",
+          "shishen": "偏财",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "食神",
+            "偏财",
+            "偏官"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "月德贵人",
+            "德秀贵人",
+            "文昌",
+            "驿马",
+            "孤辰",
+            "福星贵人",
+            "童子煞"
+          ]
+        },
+        "day": {
+          "gan": "壬",
+          "zhi": "寅",
+          "ganzhi": "壬寅",
+          "ganWuxing": "水",
+          "zhiWuxing": "木",
+          "nayin": "金箔金",
+          "nayinWuxing": "金",
+          "shishen": "日主",
+          "zizuo": "病",
+          "zhiShishen": [
+            "食神",
+            "偏财",
+            "偏官"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "文昌",
+            "驿马",
+            "天德合",
+            "孤辰",
+            "福星贵人",
+            "童子煞"
+          ]
+        },
+        "hour": {
+          "gan": "己",
+          "zhi": "酉",
+          "ganzhi": "己酉",
+          "ganWuxing": "土",
+          "zhiWuxing": "金",
+          "nayin": "大驿土",
+          "nayinWuxing": "土",
+          "shishen": "正官",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "正印"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "桃花"
+          ]
+        }
+      },
+      "baziString": "甲辰 丙寅 壬寅 己酉",
+      "kongwang": {
+        "year": [
+          "寅",
+          "卯"
+        ],
+        "month": [
+          "戌",
+          "亥"
+        ],
+        "day": [
+          "辰",
+          "巳"
+        ],
+        "hour": [
+          "寅",
+          "卯"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 4,
+        "水": 2,
+        "火": 3,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 24,
+        "level": "偏弱",
+        "helpful": [
+          "金",
+          "水"
+        ],
+        "harmful": [
+          "土",
+          "木"
+        ],
+        "analysis": "日主壬(水)，偏弱"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "水",
+        "ji": "木",
+        "xian": "火",
+        "description": "日主壬(水)偏弱，以扶抑取用神金、喜神水；调候参考：初春壬水弱，取庚金生之",
+        "tiaohou": {
+          "primary_gan": [
+            "庚"
+          ],
+          "secondary_gan": [
+            "丙",
+            "戊"
+          ],
+          "primary_wuxing": [
+            "金"
+          ],
+          "secondary_wuxing": [
+            "火",
+            "土"
+          ],
+          "note": "初春壬水弱，取庚金生之",
+          "xiyong_wuxing": [
+            "金",
+            "火",
+            "土"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏财格",
+        "category": "正格",
+        "description": "眼光独到，善投资，适合商业投资"
+      }
+    }
+  },
+  {
+    "case": "summer-solstice",
+    "group": "variation",
+    "input": {
+      "year": 2022,
+      "month": 6,
+      "day": 21,
+      "hour": 12,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2022,
+        "month": 6,
+        "day": 21,
+        "hour": 12,
+        "minute": 0,
+        "week": "星期二",
+        "weekIndex": 2
+      },
+      "lunar": {
+        "year": 2022,
+        "month": 5,
+        "day": 23,
+        "yearCn": "二〇二二年",
+        "monthCn": "五月",
+        "dayCn": "廿三",
+        "isLeap": false,
+        "yearGanZhi": "壬寅",
+        "monthGanZhi": "丙午",
+        "dayGanZhi": "乙巳"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "壬",
+          "zhi": "寅",
+          "ganzhi": "壬寅",
+          "ganWuxing": "水",
+          "zhiWuxing": "木",
+          "nayin": "金箔金",
+          "nayinWuxing": "金",
+          "shishen": "正印",
+          "zizuo": "病",
+          "zhiShishen": [
+            "劫财",
+            "伤官",
+            "正财"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "羊刃",
+            "空亡",
+            "孤辰"
+          ]
+        },
+        "month": {
+          "gan": "丙",
+          "zhi": "午",
+          "ganzhi": "丙午",
+          "ganWuxing": "火",
+          "zhiWuxing": "火",
+          "nayin": "天河水",
+          "nayinWuxing": "水",
+          "shishen": "伤官",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "食神",
+            "偏财"
+          ],
+          "cangGan": [
+            "丁",
+            "己"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "太极贵人",
+            "月德贵人",
+            "德秀贵人",
+            "文昌",
+            "将星",
+            "勾绞煞",
+            "词馆"
+          ]
+        },
+        "day": {
+          "gan": "乙",
+          "zhi": "巳",
+          "ganzhi": "乙巳",
+          "ganWuxing": "木",
+          "zhiWuxing": "火",
+          "nayin": "覆灯火",
+          "nayinWuxing": "火",
+          "shishen": "日主",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "伤官",
+            "正财",
+            "正官"
+          ],
+          "cangGan": [
+            "丙",
+            "戊",
+            "庚"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土",
+            "金"
+          ],
+          "shensha": [
+            "金舆",
+            "亡神"
+          ]
+        },
+        "hour": {
+          "gan": "壬",
+          "zhi": "午",
+          "ganzhi": "壬午",
+          "ganWuxing": "水",
+          "zhiWuxing": "火",
+          "nayin": "杨柳木",
+          "nayinWuxing": "木",
+          "shishen": "正印",
+          "zizuo": "胎",
+          "zhiShishen": [
+            "食神",
+            "偏财"
+          ],
+          "cangGan": [
+            "丁",
+            "己"
+          ],
+          "cangGanWuxing": [
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "太极贵人",
+            "文昌",
+            "将星",
+            "勾绞煞",
+            "词馆"
+          ]
+        }
+      },
+      "baziString": "壬寅 丙午 乙巳 壬午",
+      "kongwang": {
+        "year": [
+          "辰",
+          "巳"
+        ],
+        "month": [
+          "寅",
+          "卯"
+        ],
+        "day": [
+          "寅",
+          "卯"
+        ],
+        "hour": [
+          "申",
+          "酉"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 2,
+        "水": 2,
+        "火": 5,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 56,
+        "level": "中和",
+        "helpful": [
+          "金",
+          "火"
+        ],
+        "harmful": [
+          "水",
+          "木"
+        ],
+        "analysis": "日主乙(木)，中和"
+      },
+      "yongShen": {
+        "yong": "水",
+        "xi": "金",
+        "ji": "",
+        "xian": "",
+        "description": "日主乙(木)中和，以扶抑取用神水、喜神金；调候参考：仲夏火炎，专用癸水",
+        "tiaohou": {
+          "primary_gan": [
+            "癸"
+          ],
+          "secondary_gan": [
+            "丙"
+          ],
+          "primary_wuxing": [
+            "水"
+          ],
+          "secondary_wuxing": [
+            "火"
+          ],
+          "note": "仲夏火炎，专用癸水",
+          "xiyong_wuxing": [
+            "水",
+            "火"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "伤官格",
+        "category": "正格",
+        "description": "才华横溢，有个性，适合艺术创作"
+      }
+    }
+  },
+  {
+    "case": "rain-water",
+    "group": "variation",
+    "input": {
+      "year": 2015,
+      "month": 2,
+      "day": 19,
+      "hour": 18,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2015,
+        "month": 2,
+        "day": 19,
+        "hour": 18,
+        "minute": 0,
+        "week": "星期四",
+        "weekIndex": 4
+      },
+      "lunar": {
+        "year": 2015,
+        "month": 1,
+        "day": 1,
+        "yearCn": "二〇一五年",
+        "monthCn": "正月",
+        "dayCn": "初一",
+        "isLeap": false,
+        "yearGanZhi": "乙未",
+        "monthGanZhi": "戊寅",
+        "dayGanZhi": "丙寅"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "乙",
+          "zhi": "未",
+          "ganzhi": "乙未",
+          "ganWuxing": "木",
+          "zhiWuxing": "土",
+          "nayin": "沙中金",
+          "nayinWuxing": "金",
+          "shishen": "正印",
+          "zizuo": "养",
+          "zhiShishen": [
+            "伤官",
+            "劫财",
+            "正印"
+          ],
+          "cangGan": [
+            "己",
+            "丁",
+            "乙"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "火",
+            "木"
+          ],
+          "shensha": [
+            "金舆",
+            "华盖"
+          ]
+        },
+        "month": {
+          "gan": "戊",
+          "zhi": "寅",
+          "ganzhi": "戊寅",
+          "ganWuxing": "土",
+          "zhiWuxing": "木",
+          "nayin": "城头土",
+          "nayinWuxing": "土",
+          "shishen": "食神",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "偏印",
+            "比肩",
+            "食神"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "亡神",
+            "词馆",
+            "天喜",
+            "童子煞"
+          ]
+        },
+        "day": {
+          "gan": "丙",
+          "zhi": "寅",
+          "ganzhi": "丙寅",
+          "ganWuxing": "火",
+          "zhiWuxing": "木",
+          "nayin": "炉中火",
+          "nayinWuxing": "火",
+          "shishen": "日主",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "偏印",
+            "比肩",
+            "食神"
+          ],
+          "cangGan": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "木",
+            "火",
+            "土"
+          ],
+          "shensha": [
+            "月德贵人",
+            "德秀贵人",
+            "亡神",
+            "词馆",
+            "天喜",
+            "童子煞"
+          ]
+        },
+        "hour": {
+          "gan": "丁",
+          "zhi": "酉",
+          "ganzhi": "丁酉",
+          "ganWuxing": "火",
+          "zhiWuxing": "金",
+          "nayin": "山下火",
+          "nayinWuxing": "火",
+          "shishen": "劫财",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "正财"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "太极贵人",
+            "天德贵人",
+            "灾煞",
+            "丧门"
+          ]
+        }
+      },
+      "baziString": "乙未 戊寅 丙寅 丁酉",
+      "kongwang": {
+        "year": [
+          "辰",
+          "巳"
+        ],
+        "month": [
+          "申",
+          "酉"
+        ],
+        "day": [
+          "戌",
+          "亥"
+        ],
+        "hour": [
+          "辰",
+          "巳"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 1,
+        "木": 4,
+        "水": 0,
+        "火": 5,
+        "土": 4
+      },
+      "riZhuStrength": {
+        "score": 80,
+        "level": "偏强",
+        "helpful": [
+          "水",
+          "土"
+        ],
+        "harmful": [
+          "木",
+          "火"
+        ],
+        "analysis": "日主丙(火)，偏强"
+      },
+      "yongShen": {
+        "yong": "水",
+        "xi": "金",
+        "ji": "木",
+        "xian": "土",
+        "description": "日主丙(火)偏强，以扶抑取用神水、喜神金；调候参考：初春丙火方升，取壬水辅映",
+        "tiaohou": {
+          "primary_gan": [
+            "壬"
+          ],
+          "secondary_gan": [
+            "庚"
+          ],
+          "primary_wuxing": [
+            "水"
+          ],
+          "secondary_wuxing": [
+            "金"
+          ],
+          "note": "初春丙火方升，取壬水辅映",
+          "xiyong_wuxing": [
+            "水",
+            "金"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "食神格",
+        "category": "正格",
+        "description": "温和乐观，有口福，适合餐饮娱乐"
+      }
+    }
+  },
+  {
+    "case": "old-year",
+    "group": "variation",
+    "input": {
+      "year": 1952,
+      "month": 8,
+      "day": 20,
+      "hour": 1,
+      "minute": 0,
+      "gender": 2
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 1952,
+        "month": 8,
+        "day": 20,
+        "hour": 1,
+        "minute": 0,
+        "week": "星期三",
+        "weekIndex": 3
+      },
+      "lunar": {
+        "year": 1952,
+        "month": 7,
+        "day": 1,
+        "yearCn": "一九五二年",
+        "monthCn": "七月",
+        "dayCn": "初一",
+        "isLeap": false,
+        "yearGanZhi": "壬辰",
+        "monthGanZhi": "戊申",
+        "dayGanZhi": "戊戌"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "壬",
+          "zhi": "辰",
+          "ganzhi": "壬辰",
+          "ganWuxing": "水",
+          "zhiWuxing": "土",
+          "nayin": "长流水",
+          "nayinWuxing": "水",
+          "shishen": "偏财",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "比肩",
+            "正官",
+            "正财"
+          ],
+          "cangGan": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "木",
+            "水"
+          ],
+          "shensha": [
+            "太极贵人",
+            "月德贵人",
+            "华盖",
+            "空亡"
+          ]
+        },
+        "month": {
+          "gan": "戊",
+          "zhi": "申",
+          "ganzhi": "戊申",
+          "ganWuxing": "土",
+          "zhiWuxing": "金",
+          "nayin": "大驿土",
+          "nayinWuxing": "土",
+          "shishen": "比肩",
+          "zizuo": "病",
+          "zhiShishen": [
+            "食神",
+            "偏财",
+            "比肩"
+          ],
+          "cangGan": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "金",
+            "水",
+            "土"
+          ],
+          "shensha": [
+            "德秀贵人",
+            "文昌",
+            "天德合",
+            "福星贵人"
+          ]
+        },
+        "day": {
+          "gan": "戊",
+          "zhi": "戌",
+          "ganzhi": "戊戌",
+          "ganWuxing": "土",
+          "zhiWuxing": "土",
+          "nayin": "平地木",
+          "nayinWuxing": "木",
+          "shishen": "日主",
+          "zizuo": "墓",
+          "zhiShishen": [
+            "比肩",
+            "伤官",
+            "正印"
+          ],
+          "cangGan": [
+            "戊",
+            "辛",
+            "丁"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "金",
+            "火"
+          ],
+          "shensha": [
+            "太极贵人",
+            "德秀贵人",
+            "天德合",
+            "八专日",
+            "寡宿",
+            "天罗"
+          ]
+        },
+        "hour": {
+          "gan": "癸",
+          "zhi": "丑",
+          "ganzhi": "癸丑",
+          "ganWuxing": "水",
+          "zhiWuxing": "土",
+          "nayin": "桑柘木",
+          "nayinWuxing": "木",
+          "shishen": "正财",
+          "zizuo": "冠带",
+          "zhiShishen": [
+            "劫财",
+            "正财",
+            "伤官"
+          ],
+          "cangGan": [
+            "己",
+            "癸",
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "土",
+            "水",
+            "金"
+          ],
+          "shensha": [
+            "天乙贵人",
+            "太极贵人",
+            "天德贵人",
+            "吊客"
+          ]
+        }
+      },
+      "baziString": "壬辰 戊申 戊戌 癸丑",
+      "kongwang": {
+        "year": [
+          "午",
+          "未"
+        ],
+        "month": [
+          "寅",
+          "卯"
+        ],
+        "day": [
+          "辰",
+          "巳"
+        ],
+        "hour": [
+          "寅",
+          "卯"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 3,
+        "木": 1,
+        "水": 5,
+        "火": 1,
+        "土": 6
+      },
+      "riZhuStrength": {
+        "score": 62,
+        "level": "偏强",
+        "helpful": [
+          "木",
+          "金"
+        ],
+        "harmful": [
+          "火",
+          "土"
+        ],
+        "analysis": "日主戊(土)，偏强"
+      },
+      "yongShen": {
+        "yong": "木",
+        "xi": "水",
+        "ji": "火",
+        "xian": "金",
+        "description": "日主戊(土)偏强，以扶抑取用神木、喜神水；调候参考：初秋寒气渐生，取丙火暖之",
+        "tiaohou": {
+          "primary_gan": [
+            "丙"
+          ],
+          "secondary_gan": [
+            "癸",
+            "甲"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "水",
+            "木"
+          ],
+          "note": "初秋寒气渐生，取丙火暖之",
+          "xiyong_wuxing": [
+            "火",
+            "水",
+            "木"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "比肩格",
+        "category": "正格",
+        "description": "独立自主，重友情，适合合作经营"
+      }
+    }
+  },
+  {
+    "case": "winter-solstice",
+    "group": "variation",
+    "input": {
+      "year": 2017,
+      "month": 12,
+      "day": 22,
+      "hour": 23,
+      "minute": 0,
+      "gender": 1
+    },
+    "expected": {
+      "code": 0,
+      "message": "操作成功",
+      "solar": {
+        "year": 2017,
+        "month": 12,
+        "day": 22,
+        "hour": 23,
+        "minute": 0,
+        "week": "星期五",
+        "weekIndex": 5
+      },
+      "lunar": {
+        "year": 2017,
+        "month": 11,
+        "day": 5,
+        "yearCn": "二〇一七年",
+        "monthCn": "冬月",
+        "dayCn": "初五",
+        "isLeap": false,
+        "yearGanZhi": "丁酉",
+        "monthGanZhi": "壬子",
+        "dayGanZhi": "癸未"
+      },
+      "hourUnknown": false,
+      "bazi": {
+        "year": {
+          "gan": "丁",
+          "zhi": "酉",
+          "ganzhi": "丁酉",
+          "ganWuxing": "火",
+          "zhiWuxing": "金",
+          "nayin": "山下火",
+          "nayinWuxing": "火",
+          "shishen": "伤官",
+          "zizuo": "长生",
+          "zhiShishen": [
+            "正官"
+          ],
+          "cangGan": [
+            "辛"
+          ],
+          "cangGanWuxing": [
+            "金"
+          ],
+          "shensha": [
+            "将星",
+            "勾绞煞"
+          ]
+        },
+        "month": {
+          "gan": "壬",
+          "zhi": "子",
+          "ganzhi": "壬子",
+          "ganWuxing": "水",
+          "zhiWuxing": "水",
+          "nayin": "桑柘木",
+          "nayinWuxing": "木",
+          "shishen": "偏印",
+          "zizuo": "帝旺",
+          "zhiShishen": [
+            "正印"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "太极贵人",
+            "月德贵人",
+            "德秀贵人",
+            "天喜"
+          ]
+        },
+        "day": {
+          "gan": "甲",
+          "zhi": "申",
+          "ganzhi": "甲申",
+          "ganWuxing": "木",
+          "zhiWuxing": "金",
+          "nayin": "泉中水",
+          "nayinWuxing": "水",
+          "shishen": "日主",
+          "zizuo": "绝",
+          "zhiShishen": [
+            "偏官",
+            "偏印",
+            "偏财"
+          ],
+          "cangGan": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "cangGanWuxing": [
+            "金",
+            "水",
+            "土"
+          ],
+          "shensha": [
+            "亡神",
+            "孤辰"
+          ]
+        },
+        "hour": {
+          "gan": "甲",
+          "zhi": "子",
+          "ganzhi": "甲子",
+          "ganWuxing": "木",
+          "zhiWuxing": "水",
+          "nayin": "海中金",
+          "nayinWuxing": "金",
+          "shishen": "比肩",
+          "zizuo": "沐浴",
+          "zhiShishen": [
+            "正印"
+          ],
+          "cangGan": [
+            "癸"
+          ],
+          "cangGanWuxing": [
+            "水"
+          ],
+          "shensha": [
+            "太极贵人",
+            "天喜"
+          ]
+        }
+      },
+      "baziString": "丁酉 壬子 甲申 甲子",
+      "kongwang": {
+        "year": [
+          "辰",
+          "巳"
+        ],
+        "month": [
+          "寅",
+          "卯"
+        ],
+        "day": [
+          "午",
+          "未"
+        ],
+        "hour": [
+          "戌",
+          "亥"
+        ]
+      },
+      "wuxingWithCangGan": {
+        "金": 2,
+        "木": 2,
+        "水": 4,
+        "火": 1,
+        "土": 1
+      },
+      "riZhuStrength": {
+        "score": 77,
+        "level": "偏强",
+        "helpful": [
+          "金",
+          "火"
+        ],
+        "harmful": [
+          "水",
+          "木"
+        ],
+        "analysis": "日主甲(木)，偏强"
+      },
+      "yongShen": {
+        "yong": "金",
+        "xi": "土",
+        "ji": "水",
+        "xian": "火",
+        "description": "日主甲(木)偏强，以扶抑取用神金、喜神土；调候参考：仲冬水旺木寒，取丁火解寒",
+        "tiaohou": {
+          "primary_gan": [
+            "丁"
+          ],
+          "secondary_gan": [
+            "庚",
+            "丙"
+          ],
+          "primary_wuxing": [
+            "火"
+          ],
+          "secondary_wuxing": [
+            "金"
+          ],
+          "note": "仲冬水旺木寒，取丁火解寒",
+          "xiyong_wuxing": [
+            "火",
+            "金"
+          ]
+        },
+        "method": "扶抑为主，调候为参考"
+      },
+      "pattern": {
+        "name": "偏印格",
+        "category": "正格",
+        "description": "思维独特，有创意，适合技术研究"
+      }
+    }
+  }
+]

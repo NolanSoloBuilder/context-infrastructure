@@ -1,0 +1,48 @@
+
+Cup.png
+size: 1164,468
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LID
+  rotate: true
+  xy: 625, 152
+  size: 314, 126
+  orig: 316, 128
+  offset: 1, 1
+  index: -1
+L_quai
+  rotate: false
+  xy: 753, 305
+  size: 138, 161
+  orig: 140, 163
+  offset: 1, 1
+  index: -1
+R_quai
+  rotate: false
+  xy: 893, 305
+  size: 138, 161
+  orig: 140, 163
+  offset: 1, 1
+  index: -1
+Star_Shape_03
+  rotate: false
+  xy: 1033, 338
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 300, 139
+  size: 323, 327
+  orig: 325, 329
+  offset: 1, 1
+  index: -1
+light_sweep
+  rotate: false
+  xy: 2, 2
+  size: 296, 464
+  orig: 322, 488
+  offset: 14, 14
+  index: -1

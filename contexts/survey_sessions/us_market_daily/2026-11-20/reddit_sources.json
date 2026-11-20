@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-19T23:32:24.875098+00:00",
+  "coverage": "partial",
+  "direct_feed_status": "no usable feed; HTTP 429 or 404",
+  "posts": [
+    {
+      "id": "1y08gkb",
+      "url": "https://www.reddit.com/r/stocks/comments/1y08gkb/anthropic_shares_indicated_more_than_20_higher_on/",
+      "community": "stocks",
+      "posted_date": "2026-11-19",
+      "time_verified": false,
+      "read_scope": "post body",
+      "claim": "pre-debut grey-market price indication",
+      "counter": "not a Nasdaq cash equity execution; use dated actual price",
+      "status": "not used as trade evidence",
+      "verification_sources": [
+        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "https://stockanalysis.com/stocks/ant/"
+      ]
+    }
+  ],
+  "finews": {
+    "url": "https://finews.fyi/",
+    "session": "2026-11-18",
+    "updated_at": "2026-11-18T23:22:36Z",
+    "scope": "homepage summary and calendar"
+  }
+}

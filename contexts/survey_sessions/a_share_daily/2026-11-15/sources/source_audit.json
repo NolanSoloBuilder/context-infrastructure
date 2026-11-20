@@ -1,0 +1,70 @@
+{
+  "article": "https://www.sina.cn/news/detail/5364909211910329.html",
+  "valuation_asof": "2026-11-13",
+  "valuation_issue": 3014,
+  "verified_star": 4.9,
+  "valuation_counts": {
+    "低估": 20,
+    "正常": 30,
+    "高估": 0
+  },
+  "source_image_sha256": "fb55d3aada8a63798c06c7745587c29188d18545d21df2756f8992dbfc03d24c",
+  "china_history_gap": [
+    {
+      "symbol": "usKWEB.AM",
+      "history_asof": "2026-11-12",
+      "missing_session": "2026-11-13",
+      "quote_time": "2026-11-13T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBABA.N",
+      "history_asof": "2026-11-12",
+      "missing_session": "2026-11-13",
+      "quote_time": "2026-11-13T16:03:12-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usPDD.OQ",
+      "history_asof": "2026-11-12",
+      "missing_session": "2026-11-13",
+      "quote_time": "2026-11-13T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usJD.OQ",
+      "history_asof": "2026-11-12",
+      "missing_session": "2026-11-13",
+      "quote_time": "2026-11-13T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBIDU.OQ",
+      "history_asof": "2026-11-12",
+      "missing_session": "2026-11-13",
+      "quote_time": "2026-11-13T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usNTES.OQ",
+      "history_asof": "2026-11-12",
+      "missing_session": "2026-11-13",
+      "quote_time": "2026-11-13T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    }
+  ],
+  "report_date": "2026-11-15",
+  "checked_at": "2026-11-15T09:01:28.130962+08:00",
+  "cutoff": "2026-11-15T09:00:00+08:00",
+  "market_session": "2026-11-13",
+  "market_closed_today": true,
+  "carried_forward": true,
+  "carried_from": "2026-11-14",
+  "author_list": "https://www.sina.cn/media/5546795997/",
+  "latest_issue_new": false,
+  "finews_report_date": "2026-11-13",
+  "group_reviewed_count": 0,
+  "threshold_triggered": false,
+  "market_data_evidence": "../2026-11-14/sources/quote_crosscheck.json",
+  "nbs_calendar": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/"
+}

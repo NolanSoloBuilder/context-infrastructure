@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-15T23:32:57.226539+00:00",
+  "status": "partial_read_cached_feeds",
+  "state_advanced": false,
+  "feeds": [
+    {
+      "community": "investing",
+      "urls": [
+        "https://www.reddit.com/r/investing/new/",
+        "https://www.reddit.com/r/investing/top/?t=day"
+      ],
+      "limitation": "Retrieved pages include stale caches; cannot certify 24-hour coverage"
+    },
+    {
+      "community": "stocks",
+      "urls": [
+        "https://www.reddit.com/r/stocks/new/",
+        "https://www.reddit.com/r/stocks/top/?t=day"
+      ],
+      "limitation": "Retrieved pages include stale caches; cannot certify 24-hour coverage"
+    },
+    {
+      "community": "SecurityAnalysis",
+      "urls": [
+        "https://www.reddit.com/r/SecurityAnalysis/new/",
+        "https://www.reddit.com/r/SecurityAnalysis/top/?t=day"
+      ],
+      "limitation": "Retrieved pages include stale caches; cannot certify 24-hour coverage"
+    },
+    {
+      "community": "ValueInvesting",
+      "urls": [
+        "https://www.reddit.com/r/ValueInvesting/new/",
+        "https://www.reddit.com/r/ValueInvesting/top/?t=day"
+      ],
+      "limitation": "Retrieved pages include stale caches; cannot certify 24-hour coverage"
+    },
+    {
+      "community": "Bogleheads",
+      "urls": [
+        "https://www.reddit.com/r/Bogleheads/new/",
+        "https://www.reddit.com/r/Bogleheads/top/?t=day"
+      ],
+      "limitation": "Retrieved pages include stale caches; cannot certify 24-hour coverage"
+    },
+    {
+      "community": "ETFs",
+      "urls": [
+        "https://www.reddit.com/r/ETFs/new/",
+        "https://www.reddit.com/r/ETFs/top/?t=day"
+      ],
+      "limitation": "Retrieved pages include stale caches; cannot certify 24-hour coverage"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1xwr97u",
+      "url": "https://www.reddit.com/r/stocks/comments/1xwr97u/nvidia_reports_tuesday_first_time_in_33_years/",
+      "community": "stocks",
+      "index_date": "2026-11-15",
+      "posted_at_utc": null,
+      "posted_at_beijing": null,
+      "scope": "Original body and visible comments",
+      "claim": "Next earnings guidance and customer commitment may matter more than historical-quarter results",
+      "status": "research_question_not_new_confirmed_fact",
+      "counter": "Strong earnings may not resolve governance uncertainty; return and export claims not independently confirmed",
+      "verification_source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+      "next": "Review reported guidance, margins and cash conversion after official earnings. Exact post timestamp unavailable; not marked reported."
+    }
+  ]
+}

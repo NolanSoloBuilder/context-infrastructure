@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updated_at": "2026-11-13",
+  "version": 7,
+  "updated_at": "2026-11-20",
   "groups": [
     {
       "id": "funds",
@@ -217,6 +217,18 @@
           "industry": "互联网与AI服务",
           "market_data_enabled": true,
           "currency": "USD"
+        },
+        {
+          "symbol": "ANT",
+          "name": "Anthropic／Claude",
+          "kind": "stock",
+          "industry_id": "internet_ai",
+          "industry": "互联网与AI服务",
+          "market_data_enabled": true,
+          "currency": "USD",
+          "history_start_guard": "2026-11-19",
+          "inception_date": "2026-11-19",
+          "allow_short_history": true
         }
       ]
     },
@@ -471,6 +483,21 @@
           "kind": "stock",
           "industry_id": "consumer_technology",
           "industry": "消费电子与软件服务",
+          "market_data_enabled": true,
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "label": "电子游戏与互动娱乐",
+      "assets": [
+        {
+          "symbol": "TTWO",
+          "name": "Take-Two／Rockstar Games",
+          "kind": "stock",
+          "industry_id": "gaming",
+          "industry": "电子游戏与互动娱乐",
           "market_data_enabled": true,
           "currency": "USD"
         }

@@ -22,6 +22,21 @@
  function select(svg,index){const card=svg.closest('[data-trend-symbol]'),a=data.assets[card.dataset.trendSymbol],r=trendRange(a,period),p=r.points[index];svg.dataset.selected=index;const x=60+(Date.parse(p.date)-Number(svg.dataset.start))/Number(svg.dataset.duration)*560,y=200-(p.close-Number(svg.dataset.yMin))/(Number(svg.dataset.yMax)-Number(svg.dataset.yMin))*175,c=svg.querySelector('[data-trend-cursor]');c.removeAttribute('hidden');c.querySelector('line').setAttribute('x1',x);c.querySelector('line').setAttribute('x2',x);c.querySelector('circle').setAttribute('cx',x);c.querySelector('circle').setAttribute('cy',y);const tip=card.querySelector('.trend-readout');tip.hidden=false;tip.textContent=`${p.date} · 收盘 ${p.close.toFixed(a.unit==='元'?3:2)}${a.unit}${options.ma20&&Number.isFinite(p.ma20)?' · MA20 '+p.ma20.toFixed(2):''}${options.ma60&&Number.isFinite(p.ma60)?' · MA60 '+p.ma60.toFixed(2):''}`;}
  function point(e){const svg=e.target.closest('.trend-svg');if(!svg)return;const r=trendRange(data.assets[svg.closest('[data-trend-symbol]').dataset.trendSymbol],period),b=svg.getBoundingClientRect(),date=Number(svg.dataset.start)+Math.max(0,Math.min(1,((e.clientX-b.left)/b.width*640-60)/560))*Number(svg.dataset.duration);let best=0;for(let i=1;i<r.points.length;i++)if(Math.abs(Date.parse(r.points[i].date)-date)<Math.abs(Date.parse(r.points[best].date)-date))best=i;select(svg,best);}
  for(const container of [root,dialog,hover]){container.addEventListener('pointermove',e=>{if(e.pointerType!=='touch')point(e);});container.addEventListener('pointerdown',e=>{if(e.target.closest('.trend-svg')){clearTimeout(hoverTimer);if(container===root)hideHover();point(e);}});container.addEventListener('keydown',e=>{const svg=e.target.closest('.trend-svg');if(!svg||!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();e.stopPropagation();const last=trendRange(data.assets[svg.closest('[data-trend-symbol]').dataset.trendSymbol],period).points.length-1,n=Number(svg.dataset.selected??last);select(svg,e.key==='Home'?0:e.key==='End'?last:Math.max(0,Math.min(last,n+(e.key==='ArrowRight'?1:-1))));});}
- try{const saved=JSON.parse(sessionStorage.getItem('a-share-trend-restore')||'null');sessionStorage.removeItem('a-share-trend-restore');if(saved){period=['20d','1y','2y','3y'].includes(saved.period)?saved.period:'3y';for(const k of Object.keys(options))if(typeof saved.options?.[k]==='boolean')options[k]=saved.options[k];render();const china=root.querySelector('#china-stocks');if(china)china.open=!!saved.china;root.querySelectorAll('[data-trend-overlay]').forEach(e=>e.checked=options[e.dataset.trendOverlay]);const symbol=saved.active||(saved.open||[])[0];if(data.assets[symbol])open(symbol);}}catch{}
- window.addEventListener('a-share-before-refresh',()=>{try{sessionStorage.setItem('a-share-trend-restore',JSON.stringify({period,options,active:dialog.open?active:null,china:!!root.querySelector('#china-stocks')?.open}));}catch{}});
+ const lastSession=root.closest('details#last-session');
+ try{
+  const saved=JSON.parse(sessionStorage.getItem('a-share-trend-restore')||'null');
+  sessionStorage.removeItem('a-share-trend-restore');
+  if(saved){
+   period=['20d','1y','2y','3y'].includes(saved.period)?saved.period:'3y';
+   for(const k of Object.keys(options))if(typeof saved.options?.[k]==='boolean')options[k]=saved.options[k];
+   render();
+   const china=root.querySelector('#china-stocks');
+   if(china)china.open=!!saved.china;
+   root.querySelectorAll('[data-trend-overlay]').forEach(e=>e.checked=options[e.dataset.trendOverlay]);
+   const symbol=saved.active||(saved.open||[])[0];
+   if(lastSession&&(saved.lastSessionOpen||saved.china||data.assets[symbol]))lastSession.open=true;
+   if(data.assets[symbol])open(symbol);
+  }
+ }catch{}
+ window.addEventListener('a-share-before-refresh',()=>{try{sessionStorage.setItem('a-share-trend-restore',JSON.stringify({period,options,active:dialog.open?active:null,china:!!root.querySelector('#china-stocks')?.open,lastSessionOpen:!!lastSession?.open}));}catch{}});
 })();

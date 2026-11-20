@@ -1,0 +1,366 @@
+:root {
+  --qy-paper: #f6f1e7;
+  --qy-sheet: #fffdf7;
+  --qy-ink: #24291f;
+  --qy-muted: #5d6053;
+  --qy-rule: #d9d1bf;
+  --qy-green: #314938;
+  --qy-green-light: #e8ede3;
+  --qy-seal: #a52d21;
+  --qy-green-mid: #4c6652;
+  --qy-paper-depth: #eee7d8;
+  --qy-bronze: #76582f;
+  --qy-bronze-soft: #f2e8d4;
+  --qy-clay: #794f3a;
+  --qy-clay-soft: #f1e6dc;
+  --qy-water: #3d5c62;
+  --qy-water-soft: #e5edeb;
+  --qy-seal-soft: #f4e5df;
+  --qy-shadow: #362d1e;
+  --qy-serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", SimSun, serif;
+  --qy-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --van-primary-color: var(--qy-green);
+  --van-text-color: var(--qy-ink);
+  --van-text-color-2: var(--qy-muted);
+  --van-background: var(--qy-paper);
+  --van-background-2: var(--qy-sheet);
+}
+html body {
+  background: var(--qy-paper);
+  color: var(--qy-ink);
+  font-family: var(--qy-sans);
+}
+:where(a, button, [tabindex]):focus-visible {
+  outline: 2px solid var(--qy-green);
+  outline-offset: 4px;
+}
+.qingyan-home {
+  position: relative;
+  max-width: 680px;
+  margin-inline: auto;
+  isolation: isolate;
+  font-family: var(--qy-sans);
+  color: var(--qy-ink);
+}
+.qingyan-home::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 auto;
+  height: 365px;
+  background: url("/assets/qingyan-hero-paper.webp") 65% 62% / cover no-repeat;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+.qingyan-wordmark {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 22px 23px 18px;
+  font: 700 24px/1.2 var(--qy-serif);
+  letter-spacing: .16em;
+}
+.qingyan-wordmark::before, .qingyan-wordmark::after {
+  content: "";
+  height: 1px;
+  background: var(--qy-rule);
+}
+.qingyan-wordmark img {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
+}
+.qingyan-hero { padding: 24px 27px 0; }
+.qingyan-hero-copy { min-height: 266px; }
+.qingyan-hero h1 {
+  font: 800 clamp(33px, 9vw, 53px)/1.26 var(--qy-serif);
+  letter-spacing: .015em;
+}
+.qingyan-hero h1::after, .qingyan-sample-pinyin::after {
+  content: "";
+  display: block;
+  width: 27px;
+  border-top: 2px solid var(--qy-seal);
+  margin-block: 16px 14px;
+}
+.qingyan-hero-copy > p {
+  color: #434638;
+  font-size: 13px;
+  letter-spacing: .04em;
+  line-height: 1.85;
+}
+.qingyan-start {
+  display: flex;
+  min-height: 49px;
+  align-items: center;
+  justify-content: center;
+  background: var(--qy-green);
+  border: 1px solid var(--qy-green);
+  border-radius: 9px;
+  color: #fffaf0;
+  font: 700 23px/1.3 var(--qy-serif);
+  letter-spacing: .14em;
+  text-decoration: none;
+}
+.qingyan-start:hover { background-color: #263c2c; }
+.qingyan-primary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 28px 23px 0;
+}
+.qingyan-tool-link {
+  display: flex;
+  align-items: center;
+  gap: clamp(11px, 4vw, 22px);
+  min-height: 54px;
+  padding-inline: clamp(8px, 3.8vw, 20px);
+  color: var(--qy-ink);
+  text-decoration: none;
+  font: 700 clamp(15px, 4.3vw, 23px)/1.3 var(--qy-serif);
+  white-space: nowrap;
+}
+.qingyan-tool-link:nth-child(odd) { border-right: 1px solid var(--qy-rule); }
+.qingyan-tool-link:nth-child(-n+2) { border-bottom: 1px solid var(--qy-rule); }
+.qingyan-tool-link:hover { background: var(--qy-green-light); }
+.qingyan-tool-link .van-icon {
+  flex: none;
+  font-size: clamp(22px, 7vw, 34px);
+  color: var(--qy-green);
+}
+.qingyan-caption {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 17px 27px 22px;
+  color: var(--qy-muted);
+  font-size: 11px;
+  letter-spacing: .07em;
+}
+.qingyan-caption::before, .qingyan-caption::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid var(--qy-rule);
+}
+.qingyan-specimen {
+  display: flex;
+  min-height: 168px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-inline: 16px;
+  padding: 17px 15px 24px;
+  border: 1px solid #c9c6af;
+  background: #f8f3e7 url("/assets/qingyan-name-paper.webp") center / cover no-repeat;
+  text-align: center;
+}
+.qingyan-sample-name {
+  font: 800 clamp(31px, 9vw, 48px)/1.18 var(--qy-serif);
+  letter-spacing: .13em;
+  text-indent: .13em;
+}
+.qingyan-sample-pinyin {
+  font: 16px/1.35 Georgia, serif;
+  letter-spacing: .09em;
+}
+.qingyan-sample-pinyin::after { margin: 9px auto 5px; width: 20px; }
+.qingyan-sample-meaning { color: #44473a; font-size: 12px; line-height: 1.6; }
+.qingyan-more {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 17px;
+  margin: 20px 22px 0;
+  border-bottom: 1px solid var(--qy-rule);
+  padding-bottom: 10px;
+}
+.qingyan-more a { color: var(--qy-green); text-decoration: underline; text-underline-offset: 3px; }
+.qingyan-more a { display: inline-flex; align-items: center; min-height: 38px; font-size: 13px; }
+html body .tab-bar.van-tabbar, html body .tab-bar .van-tabbar {
+  background: #faf5eb;
+  border-top: 1px solid var(--qy-rule);
+  box-shadow: none;
+}
+html body .tab-bar .van-tabbar-item { color: #595f50; background: transparent; }
+html body .tab-bar .van-tabbar-item--active { color: var(--qy-green); }
+html body .tab-bar .tab-icon { font-size: 23px; transform: none; }
+html body .tab-bar .tab-text { font-size: 12px; }
+html[data-qingyan-route="/"] body .tab-bar.van-tabbar--fixed,
+html[data-qingyan-route="/"] body .tab-bar .van-tabbar--fixed {
+  max-width: 680px;
+  right: 0;
+  margin-inline: auto;
+}
+@media (min-width: 540px) {
+  .qingyan-home::before { height: 426px; background-position: center 66%; }
+  .qingyan-wordmark { padding-inline: 34px; }
+  .qingyan-hero { padding-inline: 36px; }
+  .qingyan-hero-copy { min-height: 309px; }
+  .qingyan-hero-copy > p { font-size: 15px; }
+  .qingyan-primary { margin-inline: 36px; }
+  .qingyan-tool-link { min-height: 64px; padding-inline: 26px; }
+  .qingyan-specimen { margin-inline: 34px; min-height: 210px; }
+}
+@media (max-width: 359px) {
+  .qingyan-hero { padding-inline: 20px; }
+  .qingyan-hero-copy { min-height: 238px; }
+  .qingyan-home::before { height: 335px; }
+  .qingyan-wordmark { font-size: 21px; }
+}
+
+/* Keep the existing tools and interactions, while sharing the book-page palette. */
+html body :is(.qingyan-home, .bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page, .ai-result-page,
+  .naming-result-page, .ai-detail-page, .tools-page, .mine-page, .free-info) {
+  background-color: transparent;
+  color: var(--qy-ink);
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page, .ai-result-page,
+  .naming-result-page, .ai-detail-page, .tools-page, .mine-page) {
+  background: var(--qy-paper);
+  font-family: var(--qy-sans);
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page) :is(.hero, .hero-section),
+html body :is(.tools-page, .mine-page) :is(.page-header, .user-header) {
+  background: var(--qy-paper);
+  color: var(--qy-ink);
+  border-bottom: 1px solid var(--qy-rule);
+  box-shadow: none;
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page) :is(h1, .hero-title),
+html body :is(.tools-page, .mine-page) :is(.page-title, .section-title, .user-name),
+html body :is(.ai-result-page, .naming-result-page, .ai-detail-page) :is(.summary-title, .navbar-title, .full-name-display, .char-text) {
+  font-family: var(--qy-serif);
+  color: var(--qy-ink);
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page) :is(.hero p, .hero-desc),
+html body :is(.tools-page, .mine-page) :is(.tool-desc, .user-desc) {
+  color: var(--qy-muted);
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page) :is(.form-card, .history-card, .history-section),
+html body :is(.ai-result-page, .naming-result-page, .ai-detail-page) :is(.name-card, .summary-card, .hero-card, .collapse-section, .source-box),
+html body :is(.tools-page, .mine-page) :is(.tool-card, .menu-section, .list-section, .redeem-entry) {
+  background: var(--qy-sheet);
+  color: var(--qy-ink);
+  border: 1px solid var(--qy-rule);
+  border-radius: 12px;
+  box-shadow: none;
+}
+html body :is(.ai-detail-page, .ai-result-page) :is(.big-char, .meta-pinyin, .meta-score, .summary-meta) {
+  color: var(--qy-green);
+}
+html body .ai-detail-page .big-char-box {
+  background: var(--qy-paper);
+  border-color: var(--qy-rule);
+}
+html body .ai-detail-page :is(.big-wuxing, .meta-item) {
+  color: var(--qy-green);
+  background: var(--qy-green-light);
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page) :is(.gender-btn, .pos-btn, .precision-btn).active {
+  color: var(--qy-green);
+  background: var(--qy-green-light);
+  border-color: var(--qy-green);
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page) :is(.submit-btn, .cta-btn, .start-btn, .generate-btn),
+html body .van-button--primary {
+  --van-button-primary-background: var(--qy-green);
+  --van-button-primary-border-color: var(--qy-green);
+}
+
+.qingyan-home::before {
+  -webkit-mask-image: linear-gradient(#000 calc(100% - 26px), transparent);
+  mask-image: linear-gradient(#000 calc(100% - 26px), transparent);
+}
+html body .tab-bar > .van-tabbar.van-tabbar--fixed {
+  background-color: #faf5eb;
+}
+html body .ai-form-page .hero-badge {
+  color: var(--qy-green);
+  background: var(--qy-green-light);
+  border: 1px solid var(--qy-rule);
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page)
+  :is(.analyze-btn, .submit-btn, .cta-btn, .start-btn, .generate-btn) {
+  background: var(--qy-green);
+  border-color: var(--qy-green);
+  color: #fffaf0;
+  box-shadow: none;
+}
+html body :is(.bazi-form-page, .naming-form-page, .ai-form-page, .test-form-page)
+  :is(.form-xiyong-setting, .advanced-options, .hero-overlay) {
+  background: var(--qy-paper);
+}
+html body .naming-form-page :is(.title-white, .title-gold, .hero-desc, .hero-subtitle) {
+  color: var(--qy-ink);
+}
+html body :is(.naming-detail-page, .test-score-page) {
+  background: var(--qy-paper);
+  color: var(--qy-ink);
+  font-family: var(--qy-sans);
+}
+html body :is(.naming-detail-page, .test-score-page)
+  :is(.name-card, .score-card, .poem-card, .summary-card, .name-info-card) {
+  background: var(--qy-sheet);
+  border: 1px solid var(--qy-rule);
+  box-shadow: none;
+}
+
+html body .naming-detail-page .name-card:is(.gender-female, .gender-male) {
+  color: var(--qy-ink);
+  background: var(--qy-paper) url("/assets/qingyan-name-paper.webp") center / cover no-repeat;
+  border-color: var(--qy-rule);
+}
+html body .naming-detail-page .name-card .card-decoration { display: none; }
+html body .naming-detail-page .name-card .full-name {
+  color: var(--qy-ink);
+  font-family: var(--qy-serif);
+  text-shadow: none;
+}
+html body .naming-detail-page .name-card :is(.pinyin, .info-tag) {
+  color: var(--qy-green);
+  text-shadow: none;
+}
+html body .naming-detail-page .name-card .info-tag { background-color: var(--qy-green-light); }
+html body .naming-detail-page :is(.score-card, .poem-card, .shape-card, .phonetics-card, .homophone-card) {
+  background: var(--qy-sheet);
+  border: 1px solid var(--qy-rule);
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+/* Tool popovers and widgets use the same palette even when teleported to body. */
+html:is([data-qingyan-route^="/tools"], [data-qingyan-route^="/nickname"],
+  [data-qingyan-route^="/english-name"], [data-qingyan-route^="/chinese-name"],
+  [data-qingyan-route^="/test"]) body {
+  --van-blue: var(--qy-green);
+  --van-green: var(--qy-green-mid);
+  --van-red: var(--qy-seal);
+  --van-orange: var(--qy-bronze);
+  --van-primary-color: var(--qy-green);
+  --van-success-color: var(--qy-green-mid);
+  --van-danger-color: var(--qy-seal);
+  --van-warning-color: var(--qy-bronze);
+  --van-text-color: var(--qy-ink);
+  --van-text-color-2: var(--qy-muted);
+  --van-text-color-3: var(--qy-muted);
+  --van-active-color: var(--qy-paper-depth);
+  --van-background: var(--qy-paper);
+  --van-background-2: var(--qy-sheet);
+  --van-background-3: var(--qy-paper-depth);
+  --van-border-color: var(--qy-rule);
+  --van-field-placeholder-text-color: var(--qy-muted);
+  --van-field-input-text-color: var(--qy-ink);
+  --van-picker-background: var(--qy-sheet);
+  --van-picker-confirm-action-color: var(--qy-green);
+  --van-tabs-bottom-bar-color: var(--qy-green);
+  --van-nav-bar-icon-color: var(--qy-green);
+  --van-nav-bar-text-color: var(--qy-green);
+  --van-nav-bar-background: var(--qy-sheet);
+  --van-switch-on-background: var(--qy-green);
+  --van-radio-checked-icon-color: var(--qy-green);
+  --van-checkbox-checked-icon-color: var(--qy-green);
+  --van-loading-spinner-color: var(--qy-green);
+  --van-popover-dark-background: var(--qy-green);
+  --van-toast-background: var(--qy-green);
+}

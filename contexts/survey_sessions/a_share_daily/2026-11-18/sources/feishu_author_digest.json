@@ -1,0 +1,40 @@
+{
+  "window_start": "2026-11-17T09:00:00+08:00",
+  "window_end": "2026-11-18T09:00:00+08:00",
+  "message_count": 18,
+  "pages": 1,
+  "complete_api_window": true,
+  "original_source_completeness": "未知，群同步可能有缺漏",
+  "collected_at": "2026-11-18T09:02:59.694242+08:00",
+  "candidate_count": 16,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b60f65891d4b4c1ee9ed75f4d55b",
+      "source_time": "2026-11-17 17:39+08:00",
+      "sync_create_time": "1794908518058",
+      "content_sha256": "4ef2fa3ed92020af81c49be149aaa3c533071309447c872225743a6ac4137dbd",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者认为行业估值的历史可比性随发展阶段变化；在回答中将沪深300的3250点当作其加仓规划的极值参考。该点位是作者情景假设，未被本报验证为下限，也未纳入用户仓位规则。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b60f59c1570acc1d14e1ec2b2019",
+      "source_time": "2026-11-17 17:23+08:00",
+      "sync_create_time": "1794907437853",
+      "content_sha256": "3adf0e07274a201cdc6a5263069789ae5f364e91bcd70fd7d57c5576a5fe6864",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者对证券行业中短期机会表示不确定，建议跟踪券商各期财报。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b608b5749c8a4dd5eeb3ec08760e",
+      "source_time": "2026-11-17 14:16+08:00",
+      "sync_create_time": "1794896280603",
+      "content_sha256": "ac640021c097dd684f380e2dcf31e3ac07be367ea974811de909f033b4f7a94a",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者给出创业板2000点下方、科创50 1000点下方可作长期配置的条件，并要求参与反弹前先想好反弹失败的应对。属于作者条件，未据此拟定用户交易计划。",
+      "member_content_retained": false
+    }
+  ],
+  "review_note": "只摘要直接影响宽基、科技和证券行业研究的作者回答，未归档成员内容或无关议题。"
+}

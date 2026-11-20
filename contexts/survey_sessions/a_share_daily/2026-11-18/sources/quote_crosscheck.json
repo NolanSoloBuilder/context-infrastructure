@@ -1,0 +1,108 @@
+{
+  "asof": "2026-11-17",
+  "spot_source": "https://qt.gtimg.cn/q=sh000001,sh000016,sh000300,sh000688,sh510050,sh510300,sh588000",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "quote_time": "20261117161427",
+      "close": 3584.58,
+      "previous_close": 3602.57,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "quote_time": "20261117161427",
+      "close": 2768.36,
+      "previous_close": 2766.57,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "quote_time": "20261117161409",
+      "close": 3976.46,
+      "previous_close": 3979.8,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "quote_time": "20261117161409",
+      "close": 1221.19,
+      "previous_close": 1213.68,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "quote_time": "20261117161455",
+      "close": 2.884,
+      "previous_close": 2.885,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "quote_time": "20261117161455",
+      "close": 4.042,
+      "previous_close": 4.054,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "quote_time": "20261117161500",
+      "close": 1.294,
+      "previous_close": 1.282,
+      "consistent": true
+    }
+  ],
+  "finews_source": "https://a.finews.fyi/api/reports/2026-11-17",
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3584.58,
+      "daily_pct": -0.5,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "close": 3976.46,
+      "daily_pct": -0.08,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1221.19,
+      "daily_pct": 0.62,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "close": 4.042,
+      "daily_pct": -0.3,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "close": 1.294,
+      "daily_pct": 0.94,
+      "consistent": true
+    }
+  ],
+  "media_source": "https://news.10jqka.com.cn/20261117/c681902266.shtml",
+  "media_crosscheck": {
+    "sh000001": [
+      3584.58,
+      -0.5
+    ],
+    "sh000016": [
+      2768.36,
+      0.06
+    ],
+    "sh000300": [
+      3976.46,
+      -0.08
+    ],
+    "sh000688": [
+      1221.19,
+      0.62
+    ]
+  },
+  "notes": "腾讯日线与点价为同一提供方；四指数与同花顺复盘独立交叉核对。FiNews底层数据独立性未确认。行情主路501，替代代理保留各数据实际URL。"
+}

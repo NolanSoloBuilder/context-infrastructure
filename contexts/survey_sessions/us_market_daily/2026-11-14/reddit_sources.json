@@ -1,0 +1,18 @@
+{
+  "collected_at": "2026-11-13T23:29:21.614057+00:00",
+  "coverage": "partial",
+  "six_communities_new_top": "12 endpoints HTTP403; no bypass",
+  "post_url": "https://www.reddit.com/r/investing/comments/1xuxkvf/nvidia_buy_the_dip_or_wait/",
+  "post_id": "1xuxkvf",
+  "community": "investing",
+  "post_time_beijing": null,
+  "event_date": "2026-11-11",
+  "read_scope": "web original post body and visible comments; relative times only, no absolute timestamp verified",
+  "claim": "是否抄底；评论担忧关键人才与客户关系",
+  "counter": "评论中的调查/收入指控无原始证据，不能作事实；部分评论为讽刺",
+  "verification_sources": [
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+  ],
+  "status": "date_unverified_not_reported_as_fresh_signal",
+  "state_advanced": false
+}

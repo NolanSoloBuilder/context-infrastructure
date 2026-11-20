@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-11-14T23:36:26.689408+00:00",
+  "status": "partial_read",
+  "state_advanced": false,
+  "reason": "Direct New/Top failed TLS verification; web New pages cached 4-6 days, not fresh evidence. Two dated thread titles read but exact posting timestamps absent.",
+  "posts": [
+    {
+      "id": "1xvz8md",
+      "url": "https://www.reddit.com/r/stocks/comments/1xvz8md/rstocks_weekend_discussion_saturday_nov_14_2026/",
+      "community": "stocks",
+      "title_date": "2026-11-14",
+      "posted_at_utc": null,
+      "posted_at_beijing": null,
+      "read_scope": "body and visible comments",
+      "claim": "Comment alleges financing AI startups to absorb excess silicon",
+      "verification": "unverified; not an entry or exit basis",
+      "next": "Check inventory, customer concentration, receivables and commitments in next official earnings."
+    },
+    {
+      "id": "1xvxuhj",
+      "url": "https://www.reddit.com/r/investing/comments/1xvxuhj/daily_general_discussion_and_advice_thread/",
+      "community": "investing",
+      "title_date": "2026-11-14",
+      "posted_at_utc": null,
+      "read_scope": "body; no substantive comments returned",
+      "verification": "No actionable company evidence"
+    }
+  ],
+  "finews": {
+    "url": "https://finews.fyi/",
+    "market_session": "2026-11-13",
+    "updated_at": "2026-11-13T23:19:44Z",
+    "read_scope": "summary and headlines; aggregation only; no newly confirmed company financial fact"
+  }
+}

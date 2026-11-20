@@ -8,7 +8,11 @@ def cli(*args):
  return r.stdout
 script=r'''async page => {
  await page.clock.install();await page.reload();
+ const prices=page.locator('.trend-summary-card[data-trend-symbol]'),cards=await prices.count();
  const revision=await page.locator('meta[name=report-revision]').getAttribute('content');let mode='same',requests=0;
+ if(cards<7)throw new Error('Missing trend cards');
+ const previous=page.locator('#last-session'),hasPrevious=await previous.count();
+ if(hasPrevious)await previous.locator(':scope > summary').click();
  await page.getByRole('button',{name:'立即检查',exact:true}).click();await page.waitForFunction(()=>document.querySelector('#report-refresh [role=status]').textContent.includes('已是最新'));
  await page.route('**/report-meta.json?*',async route=>{requests++;await route.fulfill({status:mode==='error'?503:200,contentType:'application/json',body:JSON.stringify({content_revision:mode==='new'?'a'.repeat(64):revision})});});
  const check=page.getByRole('button',{name:'立即检查',exact:true}),toggle=page.locator('#report-refresh input'),status=page.locator('#report-refresh [role=status]');
@@ -18,11 +22,16 @@ script=r'''async page => {
  await toggle.check();before=requests;await page.clock.fastForward(315000);await page.waitForFunction(()=>!document.querySelector('#report-refresh button').disabled);if(requests<=before)throw new Error('Timer did not poll');result.timerPolled=true;
  await page.evaluate(()=>Object.defineProperty(document,'visibilityState',{configurable:true,get:()=> 'hidden'}));before=requests;await page.clock.fastForward(315000);if(requests!==before)throw new Error('Background polling continued');result.hiddenPaused=true;
  await page.evaluate(()=>{Object.defineProperty(document,'visibilityState',{configurable:true,get:()=> 'visible'});document.dispatchEvent(new Event('visibilitychange'));});await page.waitForFunction(()=>!document.querySelector('#report-refresh button').disabled);
- mode='error';await check.click();await page.waitForFunction(()=>document.querySelector('#report-refresh [role=status]').textContent.includes('检查失败'));result.failureRetainedReport=await page.locator('.trend-card').count()===14;if(!result.failureRetainedReport)throw new Error('Failure removed report');
- await page.locator('[data-trend-period="2y"]').click();await page.locator('#china-stocks>summary').click();await page.locator('.trend-summary-card h3').first().click();
+ mode='error';await check.click();await page.waitForFunction(()=>document.querySelector('#report-refresh [role=status]').textContent.includes('检查失败'));result.failureRetainedReport=await prices.count()===cards;if(!result.failureRetainedReport)throw new Error('Failure removed report');
+ await page.locator('[data-trend-period="2y"]').click();await page.locator('#china-stocks>summary').click();await prices.first().press('Enter');
+ await page.locator('#trend-dialog[open]').waitFor({timeout:5000});
  mode='new';await page.clock.fastForward(315000);await page.waitForURL(url=>url.searchParams.get('v')==='aaaaaaaaaaaa');await page.waitForLoadState();
  result.updateReloaded=page.url().includes('v=aaaaaaaaaaaa');result.restoredPeriod=await page.locator('[data-trend-period="2y"][aria-pressed=true]').count()===1;result.restoredCard=await page.locator('#trend-dialog').evaluate(e=>e.open);result.restoredChina=await page.locator('#china-stocks').evaluate(e=>e.open);
  if(!result.updateReloaded||!result.restoredPeriod||!result.restoredCard||!result.restoredChina)throw new Error('Refresh lost state '+JSON.stringify(result));
+ if(hasPrevious){
+  result.restoredLastSession=await previous.evaluate(e=>e.open);
+  if(!result.restoredLastSession)throw new Error('Refresh closed previous session');
+ }
  result.requests=requests;return result;
 }'''
 try:

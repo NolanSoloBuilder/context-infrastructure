@@ -1,0 +1,38 @@
+{
+  "sh000001": {
+    "name": "上证指数",
+    "asof": "2026-11-16",
+    "close": 3602.57,
+    "ma60": 3812.2929999999997,
+    "gap_pct": -5.5012298372659085,
+    "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000001,day,,,80,qfq",
+    "method": "最近60个交易日指数收盘算术平均"
+  },
+  "sh000016": {
+    "name": "上证50",
+    "asof": "2026-11-16",
+    "close": 2766.57,
+    "ma60": 2834.9056666666665,
+    "gap_pct": -2.4105093679189893,
+    "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000016,day,,,80,qfq",
+    "method": "最近60个交易日指数收盘算术平均"
+  },
+  "sh000300": {
+    "name": "沪深300",
+    "asof": "2026-11-16",
+    "close": 3979.8,
+    "ma60": 4340.676166666667,
+    "gap_pct": -8.313823764093286,
+    "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000300,day,,,80,qfq",
+    "method": "最近60个交易日指数收盘算术平均"
+  },
+  "sh000688": {
+    "name": "科创50",
+    "asof": "2026-11-16",
+    "close": 1213.68,
+    "ma60": 1476.0408333333332,
+    "gap_pct": -17.774632476856723,
+    "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,,,80,qfq",
+    "method": "最近60个交易日指数收盘算术平均"
+  }
+}

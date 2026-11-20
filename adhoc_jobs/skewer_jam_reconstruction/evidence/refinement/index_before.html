@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"><title>串串小铺</title><link rel="stylesheet" href="./style.css"></head>
+<body><main id="viewport" aria-label="串串小铺游戏"><div id="stage" class="theme-sakura">
+<div class="wall"></div><div class="counter"></div>
+<header class="hud"><div class="served"><span class="clipboard">▤</span><span id="served">0/6</span></div><div class="level"><h1 id="level">第 1 关</h1><div class="progress"><i id="progress"></i></div></div><button id="levels" class="level-select" aria-label="选择关卡">关卡</button></header>
+<section id="orders" class="orders" aria-label="当前订单"></section><section id="buffer" class="buffer" aria-label="暂存餐盘"></section>
+<div id="combo" class="combo" aria-live="polite"></div><section id="grills" class="grills" aria-label="烤盘"></section>
+<div id="guide" class="guide"><strong>点一点，把同类串串装满餐盘</strong><span>每盘 3 串 · 暂存位满了就打烊啦</span></div>
+<footer class="toolbar"><div class="tools"><button data-tool="extra" aria-label="增加暂存位"><span class="tool-picture"><img src="./assets/booster_plus.webp" alt=""></span><small>加一格</small><em></em></button><button data-tool="shuffle" aria-label="重新排列串串"><span class="tool-picture"><img src="./assets/shuffle.webp" alt=""></span><small>重排</small><em></em></button><button data-tool="serve" aria-label="自动完成一份订单"><span class="tool-picture"><img src="./assets/icon_booster_magicwand.webp" alt=""></span><small>上菜</small><em></em></button><button data-tool="swap" aria-label="换一份可完成的订单"><span class="tool-picture"><img src="./assets/magnet.webp" alt=""></span><small>换单</small><em></em></button></div><button id="pause" class="pause" aria-label="暂停游戏"><img src="./assets/ic_pause.webp" alt="暂停"></button></footer>
+<div class="bottom-note"><button id="undo" aria-label="撤销上一步">↶ 撤销</button><span>串串小铺</span><button id="hint">给个提示</button></div>
+<div id="effects" class="effects" aria-hidden="true"></div><div id="toast" class="toast" role="status"></div>
+</div></main><div id="modal" class="modal" hidden></div>
+<script src="./core.js"></script><script src="./app.js"></script>
+</body></html>

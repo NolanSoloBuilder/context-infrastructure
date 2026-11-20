@@ -1,0 +1,39 @@
+{
+  "report_date_beijing": "2026-11-20",
+  "market_session": "2026-11-19",
+  "generated_at_utc": "2026-11-20T01:06:14.768Z",
+  "source_markdown_sha256": "7a3fe759fe80d0164b41b480e29f1873b48b9b69a966d928d2185a270146e53a",
+  "html_sha256": "c4fe848712b2ce2549add3265601b646998a262eda19be14586a0664ef83c5a0",
+  "html_bytes": 4867283,
+  "embedded_chart_files": [
+    "sources/3018_valuation.jpg",
+    "market.svg",
+    "sources/3018_dividend_2026-11-18.jpg"
+  ],
+  "embedded_appendices": [],
+  "downloadable_evidence": [
+    "trend_metrics.json",
+    "market.json",
+    "valuation_all.json",
+    "sources/3018_valuation.jpg",
+    "valuation_cheap.json",
+    "market.svg",
+    "sources/feishu_author_digest.json",
+    "sources/3018_dividend_2026-11-18.jpg",
+    "sources/official_lpr_2026-11-20.json",
+    "sources/source_audit.json",
+    "sources/quote_crosscheck.json",
+    "sources/china_trend_audit.json"
+  ],
+  "content_policy": "Reviewed report is the content source; no fetching or price recomputation; images and linked local evidence embedded for offline use.",
+  "shared_style": "../us_market_daily/report.css",
+  "shared_interactions": "../us_market_daily/report_interactions.js",
+  "shared_style_sha256": "b666acafe04dc7589bc699b718a6cae307ffad248995642af0282e5f9bbda2fc",
+  "content_revision": "241a29d1f85ab3105d0816a85a6c016b9a3ef9ca4cc25a505dde68cd280e5dfd",
+  "refresh_script_sha256": "322855d89211291617ae0083134dd27cc0bbbb1c0263c531113f0f6415a1cca4",
+  "trend_asof": "2026-11-19",
+  "trend_script_sha256": "29696f29e221e565a5b7e13972b02fe1a1208ae255c5ddda39e759fce5fecb74",
+  "mobile_style": "report_mobile.css",
+  "mobile_style_sha256": "34c361dee0ebc55ee109dff74aa17d37d5a2d673a62f6e8c8fc44aba774eb080",
+  "shared_interactions_sha256": "830aaee3dd18ec06738a5d2e462db8f9f0310a4b2eb987d63376ce565c4efb5f"
+}

@@ -148,6 +148,11 @@ if (trendData && fs.existsSync(path.join(out, 'valuation_all.json'))) {
   for(const [symbol,name] of Object.entries(related)){const asset=trendData.assets[symbol],row=valuation.items.find(x=>x.name===name);if(asset && row)asset.valuation={...row,index_name:row.name,asof:valuation.asof,source_url:valuation.source_url};}
 }
 const trendsHtml = trendData ? trendSection(trendData) : '';
+const reportSections = rendered.map(section => {
+  if (!section.includes('id="watchlist"')) return section;
+  if (!market.carried_forward) return section + trendsHtml;
+  return `<details id="last-session" class="report-section folded"><summary><span>最近交易日行情与估值 · ${escape(market.asof)}</span><span class="expand-label">展开</span></summary><div class="section-content">${section}${trendsHtml}</div></details>`;
+}).join('\n');
 const trendScript = trendData ? fs.readFileSync(new URL('./trend_view.mjs', import.meta.url), 'utf8').replace(/^export /gm, '') + '\n' + fs.readFileSync(new URL('./trend_client.js', import.meta.url), 'utf8') : '';
 const [year, month, day] = reportDate.split('-');
 const navItems = [['priorities', '今日重点'], ['watchlist', '主观察表'], ['trends', '趋势图'], ['china-stocks', '中概股'], ['valuation', '估值星级'], ['entry', '资金条件'], ['authors', '作者对照'], ['calendar', '事件观察'], ['method', '数据口径']];
@@ -184,7 +189,7 @@ const html = `<!doctype html>
 <div class="report-refresh" id="report-refresh"><label><input type="checkbox" checked>自动检查新版</label><button type="button">立即检查</button><span role="status" aria-live="polite">默认每5分钟检查最新已发布晨报</span></div>
   <section class="introduction" aria-label="今日判断">${introduction}</section>
   ${tickerHtml && !source.includes('## 主观察表：行情、估值与星级') ? `<div class="market-strip" aria-label="指数与波动率，收盘点位及当日变化">${tickerHtml}</div><p class="strip-note">指数单位为点，ETF报价为人民币元；行情截至${market.asof}收盘。</p>` : ''}
-  ${rendered.map(section => section.includes('id="watchlist"') ? section + trendsHtml : section).join('\n')}${trendsHtml && !rendered.some(section => section.includes('id="watchlist"')) ? trendsHtml : ''}
+  ${reportSections}${trendsHtml && !rendered.some(section => section.includes('id="watchlist"')) ? trendsHtml : ''}
   ${appendixHtml.length ? `<section id="references" class="report-section reference-section"><h2>延伸阅读与研究依据</h2>${appendixHtml.join('\n')}</section>` : ''}
 </main>
 <footer><span>A股观察 · ${reportDate} · 已保存的收盘研究</span><a href="#top">回到顶部 ↑</a></footer>

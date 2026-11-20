@@ -1,0 +1,348 @@
+{
+  "reviewed_at": "2026-11-17T23:34:55.249812+00:00",
+  "session": "2026-11-17",
+  "next_session": "2026-11-18",
+  "crosschecked_closes": {
+    "QQQM": 270.42,
+    "VOO": 673.19,
+    "BRK-B": 586.76,
+    "NVDA": 155.46,
+    "SMH": 460.1
+  },
+  "qqqm_high_difference": {
+    "Yahoo": 314.11,
+    "StockAnalysis": 314.12,
+    "stage_effect": "none"
+  },
+  "macro": {
+    "treasury_date": "2026-11-17",
+    "two_year_pct": 4.8,
+    "ten_year_pct": 5.1,
+    "sgov_sec_date": "2026-11-16",
+    "sgov_sec_pct": 3.88
+  },
+  "source_links": [
+    {
+      "title": "QQQM跨源行情",
+      "url": "https://stockanalysis.com/etf/qqqm/"
+    },
+    {
+      "title": "Yahoo日线",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits"
+    },
+    {
+      "title": "NVIDIA FY27Q3官方业绩及Q4指引",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "title": "NVDA常规收盘与带时刻盘后",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    },
+    {
+      "title": "CRM财报日历",
+      "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx"
+    },
+    {
+      "title": "NOW最近业绩",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "title": "VOO",
+      "url": "https://stockanalysis.com/etf/voo/"
+    },
+    {
+      "title": "BRK.B",
+      "url": "https://stockanalysis.com/stocks/brk.b/"
+    },
+    {
+      "title": "QQQM",
+      "url": "https://stockanalysis.com/etf/qqqm/"
+    },
+    {
+      "title": "NVDA第二来源",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    },
+    {
+      "title": "QQQM第二来源",
+      "url": "https://stockanalysis.com/etf/qqqm/"
+    },
+    {
+      "title": "SMH第二来源",
+      "url": "https://stockanalysis.com/etf/smh/"
+    },
+    {
+      "title": "Yahoo行业样本",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=2y&interval=1d&events=div%2Csplits"
+    },
+    {
+      "title": "财政部收益率",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+    },
+    {
+      "title": "SGOV发行人",
+      "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf"
+    },
+    {
+      "title": "Fed日历",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "title": "BLS日历",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm"
+    },
+    {
+      "title": "NYSE交易日历",
+      "url": "https://www.nyse.com/trade/hours-calendars"
+    },
+    {
+      "title": "Reddit原帖",
+      "url": "https://www.reddit.com/r/stocks/comments/1xywpnl/nvidia_announces_financial_results_for_third/"
+    },
+    {
+      "title": "FiNews",
+      "url": "https://finews.fyi/"
+    },
+    {
+      "title": "NVIDIA FY27Q3官方业绩及Q4指引",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "title": "Yahoo行情",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQM?range=2y&interval=1d&events=div%2Csplits"
+    },
+    {
+      "title": "Atlassian 11/5 FY27Q1官方股东信",
+      "url": "https://s206.q4cdn.com/270053503/files/content_files/index-4.html"
+    },
+    {
+      "title": "SEC FY27Q1财报与现金流表",
+      "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/ex991q1fy27.htm"
+    },
+    {
+      "title": "NOW Q3 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+    },
+    {
+      "title": "CRM FY27 Q2 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm"
+    },
+    {
+      "title": "GEHC完整Q3 10-Q（IR镜像）",
+      "url": "https://investor.gehealthcare.com/node/12596/html"
+    },
+    {
+      "title": "Cognex 11/4 Q3财报与现金流",
+      "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+    },
+    {
+      "title": "NOW Q3 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+    },
+    {
+      "title": "NOW 2025 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm"
+    },
+    {
+      "title": "NOW Q3官方财报",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "title": "NOW第二行情",
+      "url": "https://stockanalysis.com/stocks/now/history/"
+    },
+    {
+      "title": "CRM FY27 Q2 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm"
+    },
+    {
+      "title": "CRM FY26 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm"
+    },
+    {
+      "title": "CRM Q2官方财报及指引",
+      "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+    },
+    {
+      "title": "Fin完成收购",
+      "url": "https://www.salesforce.com/news/press-releases/2026/09/10/salesforce-completes-acquisition-of-fin/"
+    },
+    {
+      "title": "Contentful交易及完成更新",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-contentful/"
+    },
+    {
+      "title": "10/20拟收购Braze",
+      "url": "https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/"
+    },
+    {
+      "title": "CRM第二行情",
+      "url": "https://stockanalysis.com/stocks/crm/history/"
+    },
+    {
+      "title": "Loops交易更新",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-loops/"
+    },
+    {
+      "title": "GEHC Q3财报与全年指引",
+      "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "title": "GEHC完整Q3 10-Q（IR镜像）",
+      "url": "https://investor.gehealthcare.com/node/12596/html"
+    },
+    {
+      "title": "2025年报业绩公告",
+      "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-fourth-quarter-and-full-year-2025"
+    },
+    {
+      "title": "拟收购SOFIE公告",
+      "url": "https://gehealthcare.gcs-web.com/news-releases/news-release-details/ge-healthcare-acquire-sofie-biosciences-establishing-final-mile"
+    },
+    {
+      "title": "GEHC带时刻第二行情",
+      "url": "https://stockanalysis.com/stocks/gehc/statistics/"
+    },
+    {
+      "title": "PLTR官方FDSE职责",
+      "url": "https://jobs.lever.co/palantir/7ea66860-ae93-4139-9388-b7284cb33f37"
+    },
+    {
+      "title": "PLTR最新Q3 SEC附件",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+    },
+    {
+      "title": "NOW与ACN联合FDE公告",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Accenture-launch-forward-deployed-engineering-program-to-scale-agentic-AI-across-the-enterprise/default.aspx"
+    },
+    {
+      "title": "CRM官方FDE伙伴网络",
+      "url": "https://www.salesforce.com/news/stories/salesforce-launches-forward-deployed-engineer-partner-network-announcement/"
+    },
+    {
+      "title": "ACN Microsoft FDE",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-launches-microsoft-forward-deployed-engineering-practice-to-help-organizations-scale-ai-across-the-enterprise"
+    },
+    {
+      "title": "ACN年度财报",
+      "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/q4fy26earnings8-kexhibit.htm"
+    },
+    {
+      "title": "EPAM Q2官方转型与财报",
+      "url": "https://investors.epam.com/news/news-details/2026/EPAM-Reports-Results-for-Second-Quarter-2026/default.aspx"
+    },
+    {
+      "title": "EPAM合同收费结构10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000046/epam-20260630.htm"
+    },
+    {
+      "title": "GLOB官方FDE岗位",
+      "url": "https://career.globant.com/job/ForwardDeployedEngineeringManagerspecializedinDefenseProjects/79206"
+    },
+    {
+      "title": "GLOB Q2官方财报",
+      "url": "https://investors.globant.com/2026-08-13-Globant-Reports-2026-Second-Quarter-Financial-Results"
+    },
+    {
+      "title": "EPAM 11/5 Q3官方业绩",
+      "url": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000048/exhibit99_q3x2026.htm"
+    },
+    {
+      "title": "Stanford AI Index 2025：历史推理成本口径",
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report"
+    },
+    {
+      "title": "Microsoft：2026-10-28 FY2027 Q1官方电话会",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+    },
+    {
+      "title": "QJE 2025：Generative AI at Work（5172名客服员工）",
+      "url": "https://doi.org/10.1093/QJE/QJAE044"
+    },
+    {
+      "title": "ServiceNow：2026 Q3财报与GAAP对照",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "title": "Salesforce：FY2027 Q2财报及Agentforce ARR定义",
+      "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+    },
+    {
+      "title": "Salesforce Agentforce：官方计费方式",
+      "url": "https://www.salesforce.com/agentforce/pricing/"
+    },
+    {
+      "title": "Palantir：2026 Q3 Business Update",
+      "url": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf"
+    },
+    {
+      "title": "Palantir：Foundry／AIP等平台的功能定位",
+      "url": "https://www.palantir.com/docs/foundry/architecture-center/platforms"
+    },
+    {
+      "title": "GE HealthCare：2026 Q3财报",
+      "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "title": "GE HealthCare：2026-11-03 Vscan Air新增AI功能及交付安排",
+      "url": "https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments"
+    },
+    {
+      "title": "Tempus：2026 Q3业务拆分与损益",
+      "url": "https://investors.tempus.com/news/news-details/2026/Tempus-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "title": "Intuitive：da Vinci由医生控制的工作方式",
+      "url": "https://www.davincisurgery.com/en-us/how-davinci-works"
+    },
+    {
+      "title": "Cognex：2026-11-04发布的Q3公司财报",
+      "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+    },
+    {
+      "title": "Cognex：2026-09-22拟收购RealSense公告",
+      "url": "https://investor.cognex.com/news/news-details/2026/Cognex-to-Acquire-RealSense-Expanding-Machine-Vision-Leadership-into-High-Growth-Robotic-Perception-Market/default.aspx"
+    },
+    {
+      "title": "IGV：发行人费率、策略与持仓入口",
+      "url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf"
+    },
+    {
+      "title": "XSW：发行人费率、修正等权策略与持仓",
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-software-services-etf-xsw"
+    },
+    {
+      "title": "IHI：发行人费率、策略与持仓入口",
+      "url": "https://www.ishares.com/us/products/239516/ishares-us-medical-devices-etf"
+    },
+    {
+      "title": "BOTZ：发行人机器人与自动化策略",
+      "url": "https://www.globalxetfs.com/funds/botz"
+    },
+    {
+      "title": "AIQ：发行人全产业链策略与持仓",
+      "url": "https://www.globalxetfs.com/funds/aiq"
+    },
+    {
+      "title": "ServiceNow：2026 Q3财报与GAAP对照",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "title": "Salesforce：FY2027 Q2财报及Agentforce ARR定义",
+      "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+    },
+    {
+      "title": "GE HealthCare：2026 Q3财报",
+      "url": "https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "title": "Cognex：2026-11-04发布的Q3公司财报",
+      "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html"
+    },
+    {
+      "title": "Microsoft：2026-10-28 FY2027 Q1官方电话会",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+    }
+  ],
+  "gaps": "See daily-brief gaps section",
+  "chart_visual_check": "Both images viewed; slight QQQM/15% label proximity, values readable; no online visual pass claimed"
+}

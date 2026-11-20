@@ -1,0 +1,106 @@
+{
+  "asof": "2026-11-16",
+  "spot_source": "https://qt.gtimg.cn/q=sh000001,sh000016,sh000300,sh000688,sh510050,sh510300,sh588000",
+  "spot_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "quote_time": "20261116161427",
+      "close": 3602.57,
+      "previous_close": 3634.35,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000016",
+      "quote_time": "20261116161427",
+      "close": 2766.57,
+      "previous_close": 2775.02,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "quote_time": "20261116161409",
+      "close": 3979.8,
+      "previous_close": 4016.29,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "quote_time": "20261116161409",
+      "close": 1213.68,
+      "previous_close": 1279.66,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510050",
+      "quote_time": "20261116161446",
+      "close": 2.885,
+      "previous_close": 2.889,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "quote_time": "20261116161436",
+      "close": 4.054,
+      "previous_close": 4.083,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "quote_time": "20261116161455",
+      "close": 1.282,
+      "previous_close": 1.354,
+      "consistent": true
+    }
+  ],
+  "finews_source": "https://a.finews.fyi/api/reports/2026-11-16",
+  "finews_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3602.57,
+      "daily_pct": -0.87,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000300",
+      "close": 3979.8,
+      "daily_pct": -0.91,
+      "consistent": true
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1213.68,
+      "daily_pct": -5.16,
+      "consistent": true
+    },
+    {
+      "symbol": "sh510300",
+      "close": 4.054,
+      "daily_pct": -0.71,
+      "consistent": true
+    },
+    {
+      "symbol": "sh588000",
+      "close": 1.282,
+      "daily_pct": -5.32,
+      "consistent": true
+    }
+  ],
+  "sse_source": "https://www.sse.com.cn/market/sseindex/overview/",
+  "sse_crosscheck": [
+    {
+      "symbol": "sh000001",
+      "close": 3602.57
+    },
+    {
+      "symbol": "sh000016",
+      "close": 2766.57
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1213.68
+    }
+  ],
+  "independent_media_source": "https://www.dapanbao.com/review/2026-11-16/",
+  "independent_media_note": "沪深300收盘及日跌幅复核一致。",
+  "notes": "腾讯日线与点价是同一提供方。FiNews为界面交叉核对，底层供数独立性未确认。"
+}

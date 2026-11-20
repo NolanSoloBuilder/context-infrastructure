@@ -1,0 +1,40 @@
+{
+  "report_date": "2026-11-20",
+  "author_cutoff": "2026-11-20T09:00:00+08:00",
+  "author_source": {
+    "url": "https://www.sina.cn/news/detail/5367083644751867.html",
+    "issue": "3018",
+    "published": "2026-11-19T21:45:00+08:00",
+    "overall_star": 5.0,
+    "previous_star": 5.0,
+    "stage_changed": false,
+    "image_date": "20261119",
+    "count": 50,
+    "counts": {
+      "低估": 24,
+      "正常": 26,
+      "高估": 0
+    },
+    "image_sha256": "ea2fbefa0eb89ca42fb7250dc4c3f354fec937577419cedba4adf4b38bd69f24",
+    "scope": "20261119常规原图全部50项；国债参考单列。另一张红利专题为2026/11/18，不混入。正文中证2000低估未列入本图，不追加虚构行。"
+  },
+  "additional_image": {
+    "file": "3018_dividend_2026-11-18.jpg",
+    "image_date": "2026-11-18",
+    "thematic_star": 4.0,
+    "note": "红利专题并非整体星级；未将异日表值写入11/19常规表"
+  },
+  "star_alert": "11月16日有效期已首次触线，本期无新触发",
+  "lpr": {
+    "url": "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/bk-lpr.json",
+    "published": "2026-11-20T09:00:00+08:00",
+    "one_year": "3.00%",
+    "five_year_plus": "3.50%",
+    "boundary": "09:00发布，报告显式单列截点发布核验补充，不伪装09:00前已知"
+  },
+  "feishu": {
+    "message_count": 41,
+    "candidate_count": 27,
+    "reviewed_unique": 4
+  }
+}

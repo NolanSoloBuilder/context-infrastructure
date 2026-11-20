@@ -1,0 +1,14 @@
+{
+  "anonymous": true,
+  "report_date": "2026-11-15",
+  "content_revision": "8cad763a5b54df2db8d6c2adf21bb3e98a9895bc4899775e87170cded66048d7",
+  "html_sha256": "9047876037ec0acc52830929d688272e8091fba7153221677dc45c3c796f225b",
+  "archived_html_sha256": "65a27667411ebaa5aea0c341ecb85e964caa5acb702a8b44301b468f194066fa",
+  "html_matches_archive_excluding_edge_script": true,
+  "edge_script_bytes": 1114,
+  "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site/",
+  "trend_assets": 24,
+  "valuation_rows": 50,
+  "previous_session_default_folded": true,
+  "public_readback_route": "使用公开DNS的A记录，HTTPS验证原域名，本机默认DNS解析至回环地址"
+}

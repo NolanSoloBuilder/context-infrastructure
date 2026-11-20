@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-11-14T09:01:52.497062+08:00",
+  "window_start": "2026-11-13T09:00:00+08:00",
+  "window_end": "2026-11-14T09:00:00+08:00",
+  "message_count": 11,
+  "candidate_count": 10,
+  "complete_api_window": true,
+  "reviewed_author_only_summaries": [
+    {
+      "message_id": "om_x100b6044b9798cb0b0556ed9a5907e2",
+      "source_time": "2026-11-13 21:22+08:00",
+      "sync_create_time": "1794576251510",
+      "content_sha256": "10a5b82128fd13790413970b01b35261d4c80ef54e230c7b0aa5948b5efe27d5",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者将宽基指数基金的进一步配置与他对熊市阶段的确认挂钩，本条未给可执行买点、完整仓位或现金余额。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b6044d8f978acc0c4a8106b5b412",
+      "source_time": "2026-11-13 20:56+08:00",
+      "sync_create_time": "1794574691571",
+      "content_sha256": "054cec65d8088a536dfbb46c803d1d1cedb30ee3f51c9aa53242a4022d181f47",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者根据10月M2增速更新宏观判断，仍沿用此前的支撑情景。保留为作者判断，未采纳其未经核验的消息传播推测。",
+      "member_content_retained": false
+    },
+    {
+      "message_id": "om_x100b60443e7928a0cfe5a20c4d7a063",
+      "source_time": "2026-11-13 20:46+08:00",
+      "sync_create_time": "1794574091554",
+      "content_sha256": "ae6debbbe3022589229a7e1f23f0c89b459f5e7d5a87c14181b35036183628e1",
+      "provenance": "群内机器人标记的星主回答/新动态；非原星球直读",
+      "summary": "作者在问答中给出仅于低估区定投的原则，未指定可执行标的和首笔投入比例。",
+      "member_content_retained": false
+    }
+  ],
+  "excluded": "过滤成员内容、无关话题和未经证实的推测。",
+  "coverage": "群同步作者观点，非原知识星球全文。"
+}

@@ -1,0 +1,6 @@
+.venv/
+evidence/*.apk
+evidence/unpacked/
+evidence/exported/
+evidence/audio/
+evidence/raw_audio/

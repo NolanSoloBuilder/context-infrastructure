@@ -1,0 +1,143 @@
+{
+  "asof": "2026-11-19",
+  "spot_source": "https://qt.gtimg.cn/q=sh000001,sh000016,sh000300,sh000688,sh510050,sh510300,sh588000",
+  "same_provider_checks": [
+    {
+      "symbol": "sh000001",
+      "date": "20261119161427",
+      "close": 3577.62,
+      "previous_close": 3587.83,
+      "daily_pct": -0.2845731263744433,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh000016",
+      "date": "20261119161427",
+      "close": 2773.46,
+      "previous_close": 2764.54,
+      "daily_pct": 0.32265765733179297,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh000300",
+      "date": "20261119161409",
+      "close": 3984.84,
+      "previous_close": 3983.77,
+      "daily_pct": 0.026858980312627345,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh000688",
+      "date": "20261119161409",
+      "close": 1270.78,
+      "previous_close": 1247.99,
+      "daily_pct": 1.8261364273752134,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh510050",
+      "date": "20261119161448",
+      "close": 2.883,
+      "previous_close": 2.883,
+      "daily_pct": 0.0,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh510300",
+      "date": "20261119161438",
+      "close": 4.06,
+      "previous_close": 4.058,
+      "daily_pct": 0.04928536224739766,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh588000",
+      "date": "20261119161445",
+      "close": 1.344,
+      "previous_close": 1.322,
+      "daily_pct": 1.6641452344931862,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    }
+  ],
+  "finews_source": "https://a.finews.fyi/api/reports/2026-11-19",
+  "finews_checks": [
+    {
+      "symbol": "sh000001",
+      "finews_close": 3577.62,
+      "finews_daily_pct": -0.28,
+      "verified_close": 3577.62,
+      "verified_daily_pct": -0.2845731263744433,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh000300",
+      "finews_close": 3984.84,
+      "finews_daily_pct": 0.03,
+      "verified_close": 3984.84,
+      "verified_daily_pct": 0.026858980312627345,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh000688",
+      "finews_close": 1270.78,
+      "finews_daily_pct": 1.83,
+      "verified_close": 1270.78,
+      "verified_daily_pct": 1.8261364273752134,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh510300",
+      "finews_close": 4.06,
+      "finews_daily_pct": 0.05,
+      "verified_close": 4.06,
+      "verified_daily_pct": 0.04928536224739766,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh588000",
+      "finews_close": 1.34,
+      "finews_daily_pct": 1.36,
+      "verified_close": 1.344,
+      "verified_daily_pct": 1.6641452344931862,
+      "status": "mismatch; not adopted"
+    }
+  ],
+  "independent_sources": [
+    {
+      "url": "https://www.sse.com.cn/market/sseindex/overview/",
+      "method": "当日更新的网页检索表；静态PE不替代作者口径",
+      "closes": {
+        "sh000001": 3577.62,
+        "sh000016": 2773.46,
+        "sh000688": 1270.78
+      }
+    },
+    {
+      "url": "https://flash.jin10.com/detail/20261119150214210800",
+      "published": "2026-11-19T15:02:14+08:00",
+      "closes": {
+        "sh000001": 3577.62,
+        "sh000300": 3984.84,
+        "sh000688": 1270.78
+      }
+    }
+  ],
+  "ma60_independent_recalculation": {
+    "n": 60,
+    "arithmetic_mean": 1450.9195,
+    "gap_pct": -12.415540627857025
+  },
+  "turnover": {
+    "finews_yiyuan": 13051.4727,
+    "independent_report": "智通13051.47亿元，与FiNews一致；财联社转载约1.31万亿/缩量646亿，非净申购",
+    "source": "https://beta.zhitongcaijing.com/content/detail/1525535.html"
+  },
+  "history_route": "本次直接用腾讯proxy成功，未声称当前主路故障"
+}

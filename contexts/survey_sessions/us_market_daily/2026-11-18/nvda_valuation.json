@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-11-17T23:34:55.249812+00:00",
+  "inputs_currency_unit": "USD billion except share price",
+  "quarter_weeks": 14,
+  "annualization": 3.7142857142857144,
+  "revenue": 130,
+  "gross_margin": 0.715,
+  "opex": 11,
+  "tax": 0.17,
+  "diluted_shares_billion": 24.186,
+  "base_eps": 10.445718302205528,
+  "base_multiple": 20,
+  "base_value": 208.91436604411055,
+  "discount_price": 167.13149283528844,
+  "stress_revenue": 110.5,
+  "stress_margin": 0.68,
+  "stress_multiple": 16,
+  "stress_value": 130.80920012758264,
+  "q3_fcf_billion": 43.777,
+  "limitations": "Conditional annualized operating model, not full DCF or confirmed undervaluation; no investment gains, no net-cash addition; quarterly share count held fixed. Multiples/discouts are analyst assumptions; full new 10-Q not obtained.",
+  "sources": [
+    {
+      "title": "NVIDIA FY27Q3官方业绩及Q4指引",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "title": "NVDA常规收盘与带时刻盘后",
+      "url": "https://stockanalysis.com/stocks/nvda/"
+    }
+  ]
+}

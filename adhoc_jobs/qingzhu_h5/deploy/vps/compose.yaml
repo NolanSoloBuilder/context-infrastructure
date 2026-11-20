@@ -1,0 +1,46 @@
+name: qingyan
+
+services:
+  app:
+    build:
+      context: ../..
+      dockerfile: deploy/vps/Dockerfile
+    image: qingyan:local
+    network_mode: host
+    restart: unless-stopped
+    env_file: /etc/qingyan/app.env
+    environment:
+      NODE_ENV: production
+      TZ: Asia/Shanghai
+      PORT: "14175"
+      QINGZHU_BAZI_DB: /data/bazi.sqlite
+      QINGZHU_LOCAL_DB: /data/site.sqlite
+      QINGYAN_PUBLIC: "1"
+    volumes:
+      - /var/lib/qingyan:/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 384m
+    pids_limit: 96
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:14175/healthz').then(r=>process.exit(r.ok?0:1),()=>process.exit(1))"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+
+  tunnel:
+    image: cloudflare/cloudflared:2026.11.1
+    network_mode: host
+    restart: unless-stopped
+    command: ["tunnel", "--no-autoupdate", "--config", "/etc/cloudflared/config.yml", "run"]
+    volumes:
+      - /etc/qingyan/tunnel:/etc/cloudflared:ro
+    user: "65532:65532"
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 192m
+    pids_limit: 96

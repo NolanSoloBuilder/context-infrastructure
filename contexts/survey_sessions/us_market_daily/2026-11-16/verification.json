@@ -1,0 +1,35 @@
+{
+  "report_date": "2026-11-16",
+  "reviewed_at": "2026-11-15T23:32:57.226539+00:00",
+  "market_session": "2026-11-13",
+  "next_session": "2026-11-16",
+  "next_regular_open_beijing": "2026-11-16T22:30:00+08:00",
+  "market_archive_created": false,
+  "new_verified_research": false,
+  "site": {
+    "version": 31,
+    "platform_status": "active",
+    "audience": "public",
+    "http_verified": false,
+    "error": "Domain resolves to 127.0.0.1, connection refused; no network settings changed",
+    "research_date_retained": "2026-11-14"
+  },
+  "sources": [
+    {
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "scope": "2026 holidays and regular session hours"
+    },
+    {
+      "url": "https://finews.fyi/",
+      "scope": "latest date and summary",
+      "source_updated_at": "2026-11-13T23:19:44Z",
+      "new_since_previous_check": false
+    },
+    {
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+      "scope": "official timing of financial results and conference call",
+      "event_results_beijing": "2026-11-18T05:20:00+08:00",
+      "event_call_beijing": "2026-11-18T06:00:00+08:00"
+    }
+  ]
+}

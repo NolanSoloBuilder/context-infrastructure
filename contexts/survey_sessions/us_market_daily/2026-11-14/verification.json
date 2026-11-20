@@ -1,0 +1,32 @@
+{
+  "reviewed_at": "2026-11-13T23:29:21.614057+00:00",
+  "session": "2026-11-13",
+  "crosschecked_closes": {
+    "QQQM": 279.97,
+    "VOO": 693.38,
+    "BRK-B": 592.94,
+    "NVDA": 162.85,
+    "SPMO": 132.31,
+    "VGT": 111.18,
+    "GOOG": 292.52
+  },
+  "sources": [
+    "Yahoo chart",
+    "StockAnalysis via web tool"
+  ],
+  "highs": {
+    "QQQM": [
+      314.11,
+      314.12
+    ],
+    "VOO": [
+      718.47,
+      718.47
+    ],
+    "BRK-B": [
+      596.92,
+      596.92
+    ]
+  },
+  "new_alerts": []
+}

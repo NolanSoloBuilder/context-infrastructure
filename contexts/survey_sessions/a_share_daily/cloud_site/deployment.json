@@ -1,8 +1,8 @@
 {
-  "id": "appgdep_6af663436e948191a1e4d1e167648f96",
+  "id": "appgdep_6aff9d838a208191be1871c3a4123576",
   "project_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f",
   "title": "A股投资观察晨报",
-  "version_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f~appgver_91ff70b446908191925e99bab3668243",
+  "version_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f~appgver_744f8e31d918819196c48d9a2edfb36c",
   "type": "publish",
   "status": "succeeded",
   "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site",
@@ -11,15 +11,15 @@
   "provider_deployment_id": "site---6ae7f4bd52b88191aedf8724e1c3c90f",
   "failure_message": null,
   "env_set_revision": 0,
-  "updated_at": "2026-11-13T01:09:44.200030+00:00",
-  "source_commit": "f27e8fe393cfc6ce4bf382ef5c181cec228bd356",
+  "updated_at": "2026-11-20T01:08:38.282901+00:00",
+  "source_commit": "a4d8155e6b349f9e6a196df56fab1f2f0c71cb2a",
   "audience": "public",
-  "report_date": "2026-11-13",
+  "report_date": "2026-11-20",
   "access_revision": 2,
   "chart_fix_verified_anonymously": true,
-  "mobile_viewport_validation": "passed: 320,360,375,390,430,768,1280; collapsed and expanded; table scroll; zoom modal",
+  "mobile_viewport_validation": "passed: 320,360,375,390,430,768,1280; collapsed and expanded; table scroll; detail and valuation dialogs",
   "interactive_trends": true,
-  "trend_asof": "2026-11-12",
+  "trend_asof": "2026-11-19",
   "china_watchlist": [
     "513050",
     "KWEB",
@@ -35,22 +35,67 @@
   "china_default_folded": true,
   "auto_refresh_interval_seconds": 300,
   "refresh_scope": "latest published report only",
-  "content_revision": "a75f0955cb9d6eed6c422853ab0635b611b4ed92d10cfbea7a36f5f444204e71",
+  "content_revision": "a74f0ef4b8c5f49b2a0e65c1bed8ebb9b68b9ee8c56e076705263d7fdeae48ae",
   "valuation_badges": true,
   "valuation_index_count": 50,
   "valuation_counts": {
-    "低估": 19,
-    "正常": 31,
+    "低估": 24,
+    "正常": 26,
     "高估": 0
   },
-  "valuation_asof": "2026-11-12",
+  "valuation_asof": "2026-11-19",
   "trend_detail_mode": "desktop hover preview + click pinned dialog; mobile tap dialog",
   "valuation_image_modal": true,
-  "latest_evidence": "2026-11-07/sources/site_publication.json",
-  "china_history_gap": "六项美元历史只到11月5日，缺11月6日完成日线",
+  "latest_evidence": "2026-11-20/sources/site_publication.json",
+  "china_history_gap": [
+    {
+      "symbol": "usKWEB.AM",
+      "history_asof": "2026-11-18",
+      "missing_session": "2026-11-19",
+      "quote_time": "2026-11-19T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBABA.N",
+      "history_asof": "2026-11-18",
+      "missing_session": "2026-11-19",
+      "quote_time": "2026-11-19T16:04:26-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usPDD.OQ",
+      "history_asof": "2026-11-18",
+      "missing_session": "2026-11-19",
+      "quote_time": "2026-11-19T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usJD.OQ",
+      "history_asof": "2026-11-18",
+      "missing_session": "2026-11-19",
+      "quote_time": "2026-11-19T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usBIDU.OQ",
+      "history_asof": "2026-11-18",
+      "missing_session": "2026-11-19",
+      "quote_time": "2026-11-19T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    },
+    {
+      "symbol": "usNTES.OQ",
+      "history_asof": "2026-11-18",
+      "missing_session": "2026-11-19",
+      "quote_time": "2026-11-19T16:00:01-05:00",
+      "reason": "提供方收盘后报价日期比历史末日更新，未用点价拼接复权日线"
+    }
+  ],
   "dividend_research_asof": "2026-11-03",
   "trend_card_count": 24,
   "retained_valuation_research": true,
-  "overall_star": 4.8,
-  "access_mode": "public"
+  "overall_star": 5.0,
+  "access_mode": "public",
+  "version_number": 32,
+  "carried_forward": false
 }
