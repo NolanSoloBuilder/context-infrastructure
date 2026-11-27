@@ -1,0 +1,54 @@
+{
+  "reviewed_at_utc": "2026-11-26T23:26:13.634181+00:00",
+  "market_session": "2026-11-25",
+  "next_session": "2026-11-27",
+  "no_republication_reason": "感恩节休市，未核到足以改变判断的新增披露",
+  "verified_production": {
+    "version": 40,
+    "report_date": "2026-11-26",
+    "quote_session": "2026-11-25",
+    "symbols": 46
+  },
+  "listing_http_status": {
+    "investing": {
+      "new": 429,
+      "top_day": 429
+    },
+    "stocks": {
+      "new": 429,
+      "top_day": 429
+    },
+    "SecurityAnalysis": {
+      "new": 429,
+      "top_day": 429
+    },
+    "ValueInvesting": {
+      "new": 429,
+      "top_day": 429
+    },
+    "Bogleheads": {
+      "new": 429,
+      "top_day": 429
+    },
+    "ETFs": {
+      "new": 429,
+      "top_day": 404
+    }
+  },
+  "targeted": [
+    {
+      "post_id": "1y5y0q0",
+      "title_date": "2026-11-26",
+      "absolute_timestamp_verified": false,
+      "url": "https://www.reddit.com/r/stocks/comments/1y5y0q0/rstocks_daily_discussion_options_trading_thursday/",
+      "scope": "原帖和可见评论",
+      "conclusion": "未取得可独立验证的新披露"
+    }
+  ],
+  "finews": {
+    "url": "https://finews.fyi/",
+    "report_date": "2026-11-25",
+    "displayed_modified": "2026-11-26 00:28:15",
+    "timezone": null
+  }
+}

@@ -48,7 +48,7 @@ Python入口调用本目录 `render_html.mjs`。A股HTML直接复用相邻美股
 
 ## 2026-11-02 起站点交付
 
-用户要求参考美股发成站点。晨报完成后更新固定的Sites地址 https://nolan-a-share-daily.choice-calf-0415.chatgpt.site ，保留本地HTML归档。发布入口与精确身份见 contexts/survey_sessions/a_share_daily/cloud_site/README.md；源码在adhoc_jobs/a_share_site。2026-11-02用户随后明确改为与美股相同的public访问方式，无需登录，后续保持public并使用公开部署入口。只有部署成功才报告线上已更新，失败时说明固定链接仍是上一成功版本。
+用户要求参考美股发成站点。晨报完成后部署到现有 Sites 项目并通过固定阅读地址 https://ashare.forgepane.com 交付，保留本地 HTML 归档。项目身份与域名配置见 `contexts/survey_sessions/a_share_daily/cloud_site/README.md`。源码在 `adhoc_jobs/a_share_site`。访问方式保持 public，无需登录。部署后在固定阅读地址匿名核对首页和 `/report-meta.json` 的日期与内容版本。发布失败时说明线上最近一次核验的报告日期。
 
 
 ### 图表边界修复（2026-11-02）

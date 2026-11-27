@@ -1,0 +1,68 @@
+{
+  "reviewed_at_utc": "2026-11-22T23:33:04.877047+00:00",
+  "market_session": "2026-11-20",
+  "next_session": "2026-11-23",
+  "published": false,
+  "listing_http_by_scope": {
+    "investing": {
+      "new": 429,
+      "top_day": 429
+    },
+    "stocks": {
+      "new": 429,
+      "top_day": 429
+    },
+    "SecurityAnalysis": {
+      "new": 429,
+      "top_day": 429
+    },
+    "ValueInvesting": {
+      "new": 429,
+      "top_day": 429
+    },
+    "Bogleheads": {
+      "new": 429,
+      "top_day": 429
+    },
+    "ETFs": {
+      "new": 404,
+      "top_day": 429
+    }
+  },
+  "targeted": [
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1y1tyue/rstocks_weekend_discussion_saturday_nov_21_2026/",
+      "post_id": "1y1tyue",
+      "title_date": "2026-11-21",
+      "absolute_timestamp_verified": false,
+      "range": "original thread and visible comment",
+      "status": "no verifiable new claim",
+      "topics": [
+        "memory semiconductor multiple speculation"
+      ]
+    }
+  ],
+  "finews": {
+    "url": "https://finews.fyi/2026-11-20",
+    "published_session": "2026-11-20",
+    "date_modified_displayed": "2026-11-20 23:24:41",
+    "timezone": null,
+    "scope": [
+      "盘后总结",
+      "头部个股热力图",
+      "主要新闻"
+    ]
+  },
+  "site": {
+    "version": 37,
+    "site_connector_status": "active",
+    "local_http_recheck": "connect failed",
+    "last_verified_brief_date": "2026-11-22"
+  },
+  "release_calendar_sources": [
+    "https://www.nyse.com/trade/hours-calendars",
+    "https://investors.delltechnologies.com/news-events/events",
+    "https://investor.analog.com/events/event-details/q4-2026-analog-devices-inc-earnings-conference-call",
+    "https://www.bea.gov/news/schedule/"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "window_start": "2026-11-23T09:00:00+08:00",
+  "window_end": "2026-11-24T09:00:00+08:00",
+  "message_count": 21,
+  "complete_api_window": true,
+  "candidate_count": 20,
+  "reviewed": [
+    {
+      "message_id": "om_x100b7f7734d134b4c08f4da9a34d0d4",
+      "kind": "回答",
+      "source_time": "2026-11-23 20:54+08:00",
+      "sync_create_time": "1795438498077",
+      "sync_update_time": "1795438498077",
+      "content_sha256": "bb93f1628f5f60a04fbce76754839334cce798ec15c032d72fde477f3bc5358d",
+      "summary": "20:54作者在其定义的底部区域以买入为主，阶段内淡化趋势。同步文本引用的原帖片段不完整，无法确认其底部区域的具体条件。"
+    },
+    {
+      "message_id": "om_x100b7f08bf5334a0c32c8815bf505b1",
+      "kind": "回答",
+      "source_time": "2026-11-23 13:28+08:00",
+      "sync_create_time": "1795411738209",
+      "sync_update_time": "1795411738209",
+      "content_sha256": "2eaf3c68d005944665f903cc0656d280eff32238fffdf3425c36e92e5568d0f9",
+      "summary": "13:28作者建议经验较少者先看宽基，行业ETF可暂缓。"
+    },
+    {
+      "message_id": "om_x100b7f0fb4eda8a4b0b22ffc94ecd85",
+      "kind": "回答",
+      "source_time": "2026-11-23 12:22+08:00",
+      "sync_create_time": "1795407778265",
+      "sync_update_time": "1795407778265",
+      "content_sha256": "734fe92c705386c207aa02d4912ddda00c44aaf933fea8329bd5484be96bd8fd",
+      "summary": "12:22作者建议先预演可能的走势，再按可承受的情形管理仓位。未披露完整实际仓位。"
+    }
+  ],
+  "provenance": "群同步作者观点",
+  "coverage_warning": "同步可能有缺漏；部分引用原帖未取得"
+}

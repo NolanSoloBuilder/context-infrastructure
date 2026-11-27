@@ -1,0 +1,38 @@
+{
+  "window_start": "2026-11-24T09:00:00+08:00",
+  "window_end": "2026-11-25T09:00:00+08:00",
+  "message_count": 19,
+  "complete_api_window": true,
+  "candidate_count": 16,
+  "reviewed": [
+    {
+      "message_id": "om_x100b7f6c76d2eca0cefcf137e0723ca",
+      "kind": "回答",
+      "source_time": "2026-11-24 20:30+08:00",
+      "sync_create_time": "1795523458246",
+      "sync_update_time": "1795523458246",
+      "content_sha256": "d3792bfc1bf457285dd1619da46fab518cf43269f4b4cbc7d48f123f3614b76b",
+      "summary": "20:30作者区分风险偏好，认为双创价格弹性较大，沪深300相对稳健，前文举例属于假设。"
+    },
+    {
+      "message_id": "om_x100b7f669aefc880cfbe93eb6bb654b",
+      "kind": "回答",
+      "source_time": "2026-11-24 14:22+08:00",
+      "sync_create_time": "1795501378417",
+      "sync_update_time": "1795501378417",
+      "content_sha256": "fd89faf24c55c1c27ab3c6d9a66e93f677520fb39af3c893e77ea29aa60fec84",
+      "summary": "14:22作者回答未给沪深300或红利新增建议，其他标的仅引用先前文章，本次未取得被引用原帖。"
+    },
+    {
+      "message_id": "om_x100b7f6583533ca0b0b5942b31942ff",
+      "kind": "回答",
+      "source_time": "2026-11-24 13:11+08:00",
+      "sync_create_time": "1795497178204",
+      "sync_update_time": "1795497178204",
+      "content_sha256": "b043cc1dd90cda486b1fcb5c19e9da45234ba132471a56851380ef9734e00b80",
+      "summary": "13:11作者在低位分批配置双创这一前提下，强调应使用长期闲置资金，并先估算不同走势下能够承受的持仓成本。"
+    }
+  ],
+  "provenance": "群同步作者观点",
+  "coverage_warning": "同步可能有缺漏；部分引用原帖未取得"
+}

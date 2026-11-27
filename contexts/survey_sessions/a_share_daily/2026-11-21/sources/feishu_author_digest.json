@@ -1,0 +1,48 @@
+{
+  "window_start": "2026-11-20T09:00:00+08:00",
+  "window_end": "2026-11-21T09:00:00+08:00",
+  "message_count": 30,
+  "candidate_count": 24,
+  "complete_api_window": true,
+  "provenance": "南冬CLI只读群同步作者观点，不是独立获取原星球全文",
+  "reviewed": [
+    {
+      "message_id": "om_x100b7f36f99a0cacb4ccf0766c227ed",
+      "kind": "回答",
+      "source_time": "2026-11-20 19:13+08:00",
+      "sync_create_time": "1795173237756",
+      "sync_update_time": "1795173237756",
+      "content_sha256": "2d262b9b240ea4aaa1270cbd15d4f7054382c93f13a16e7fe9d3f69d1348e2cb",
+      "summary": "19:13披露其个股方法为分阶段移动止盈与阶段内回撤限制，并强调先按业绩和预期筛选。25%/8%属作者个股纪律，不移植为本报A股宽基仓位或个人止盈止损规则。"
+    },
+    {
+      "message_id": "om_x100b7f36e696a8a4b09c128e52eba18",
+      "kind": "回答",
+      "source_time": "2026-11-20 19:08+08:00",
+      "sync_create_time": "1795172997973",
+      "sync_update_time": "1795172997973",
+      "content_sha256": "51e73873f1e4ef33a98ed07263cfa9a344ebb385d6aadc612c23f31d76395eef",
+      "summary": "19:08明确不预测股市，建议为不同走势预先安排应对计划；本次未提供实际仓位比例。"
+    },
+    {
+      "message_id": "om_x100b7f35fe17a4a8ce7e718765906a1",
+      "kind": "回答",
+      "source_time": "2026-11-20 18:02+08:00",
+      "sync_create_time": "1795169037911",
+      "sync_update_time": "1795169037911",
+      "content_sha256": "7f4799895d67948290578d16fb20db5557eed3839f6645a160d77eec710af4da",
+      "summary": "18:02继续以创业板1930、科创50约900作为2015年跌幅类比；反弹失败则研究2024年熊市低位的长期情景。所谓70%/30%为作者主观概率，未验证价格下限或一年回本。"
+    },
+    {
+      "message_id": "om_x100b7f353291e8a8dc144eb7e7abadf",
+      "kind": "回答",
+      "source_time": "2026-11-20 17:49+08:00",
+      "sync_create_time": "1795168198056",
+      "sync_update_time": "1795168198056",
+      "content_sha256": "e9f2edf02e57ebfd04f016866d1f41295325078f443be9bfb3896b00be707d8a",
+      "summary": "17:49继续提示恒生科技成分变化，部分新增成分尚未评估，可分别研究头部权重股或中概；反转时间无法预测。"
+    }
+  ],
+  "dedup_note": "重复场景不铺陈全文；去除成员问题、评论与非投资内容。",
+  "coverage_warning": "未知，群同步可能有缺漏"
+}

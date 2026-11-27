@@ -1,0 +1,32 @@
+{
+  "id": "appgdep_6b0392191ad08191a2932acc8524d794",
+  "project_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f",
+  "title": "A股投资观察晨报",
+  "version_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f~appgver_b14a16d798348191b2c3b353c68afc3f",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ae7f4bd52b88191aedf8724e1c3c90f",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-23T01:08:59.001705+00:00",
+  "version_number": 35,
+  "source_commit": "1749245c7746fb659e1d65de999e14c593fca671",
+  "archive": "/tmp/a-share-daily-2026-11-23.tar.gz",
+  "archive_content_hash": "sha256:4dd467bcff9891873f2f52d54bd7a2208ed40cdd00384d8aba28747cb65f8187",
+  "report_date": "2026-11-23",
+  "audience": "public",
+  "overall_star": 5.1,
+  "valuation_asof": "2026-11-20",
+  "valuation_count": 50,
+  "valuation_counts": {
+    "低估": 25,
+    "正常": 25,
+    "高估": 0
+  },
+  "review": "fresh daily mobile, all50 effective-date valuations/filters/search and24 trends x4 ranges/16 mobile combinations passed",
+  "readback_evidence": "site_readback.json",
+  "readback_method": "anonymous HTTPS through normal DNS; no IP override used"
+}

@@ -1,6 +1,10 @@
 # A股晨报在线站点
 
-固定地址：https://nolan-a-share-daily.choice-calf-0415.chatgpt.site
+固定阅读地址：https://ashare.forgepane.com
+
+2026-11-23 将固定入口切到 `ashare.forgepane.com`，绑定同一个 Sites 项目。Cloudflare 为该子域代理 CNAME `custom-domains.chatgpt.site`，并保留 Sites 生成的两条 TXT 验证记录。当前网络的部分 DNS 服务器会将 `chatgpt.site` 解析为回环地址。代理开启后，递归查询返回 Cloudflare 公网地址。Sites 后台可能显示排查期间绑定的备用别名 `a-share.forgepane.com`，原 `nolan-a-share-daily.choice-calf-0415.chatgpt.site` 为 Sites 平台地址。`a-etf` 的每日交付统一使用固定阅读地址，匿名核对首页和 `/report-meta.json` 的报告日期及内容版本。
+
+固定入口访问故障先核对用户点开的完整 URL、浏览器错误码和发生时间，再比对普通 DNS、匿名 HTTPS、Sites 域名及证书状态和浏览器加载结果。2026-11-26 本机 Chrome 能直接打开固定地址，匿名首页和版本文件均返回 200，故障端原因仍待定位。若 Cloudflare 在正文之后插入检测脚本，保留原始响应哈希，并在比较正文时记录具体插入位置及脚本路径。[访问核验](../2026-11-26/sources/site_access_audit.json) · [发布回读](../2026-11-26/sources/site_readback.json)
 
 2026-11-02用户要求参考美股发布为站点。采用Sites托管，保留个人晨报完整内容，包括资金条件和群同步作者摘要；用户随后明确要求无需登录、知道链接即可访问，现改为public。
 

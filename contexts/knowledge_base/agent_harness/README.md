@@ -7,6 +7,7 @@
 | 文件 | 用途 |
 |---|---|
 | [AI Agent Infra 岗位学习计划](00-学习计划.md) | 六周练习与验收，先用第一周试做校准起点 |
+| [Personal Agent 四周学习计划](personal_agent_learning_plan.md) | Muse 架构资料、开源源码入口与跨天委托实验 |
 | [Harness 设计原语](harness_primitives.md) | 状态、工具、权限、记忆、观测和恢复等设计概念 |
 | [参考资料卡片](reference_cards.md) | 每份资料适用的问题、外部来源和对应的 OpenBook 章节 |
 

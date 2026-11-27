@@ -1,0 +1,38 @@
+{
+  "window_start": "2026-11-26T09:00:00+08:00",
+  "window_end": "2026-11-27T09:00:00+08:00",
+  "message_count": 45,
+  "complete_api_window": true,
+  "candidate_count": 32,
+  "reviewed": [
+    {
+      "message_id": "om_x100b7fb6a1f414accf583df001a20e4",
+      "kind": "回答",
+      "source_time": "2026-11-26 21:05+08:00",
+      "sync_create_time": "1795698419898",
+      "sync_update_time": "1795698419898",
+      "content_sha256": "a2feb5c7c1ff000fb72f98a700ba95f5c7b36cf9c2a660def6a925ce2ee0c315",
+      "summary": "11月26日21:05，作者比较沪深300和创业板，认为前者相对稳健、后者弹性较大，选择取决于需求。"
+    },
+    {
+      "message_id": "om_x100b7fb78fed44a4cf362164fe3a85c",
+      "kind": "回答",
+      "source_time": "2026-11-26 22:02+08:00",
+      "sync_create_time": "1795701778315",
+      "sync_update_time": "1795701778315",
+      "content_sha256": "f81ed0a4cf16767c78846819139787e1ca4e6513a4e43af69ded9b5212ac04f7",
+      "summary": "11月26日22:02，作者认为持仓过度集中于少数个股会放大风险，并用红利与创业板说明两者波动特征不同。"
+    },
+    {
+      "message_id": "om_x100b7fb08ed298a0b0f7c3e5c5192b2",
+      "kind": "回答",
+      "source_time": "2026-11-26 23:09+08:00",
+      "sync_create_time": "1795705858217",
+      "sync_update_time": "1795705858217",
+      "content_sha256": "b937cb23b9e95c1e594767557142dac7d207654dfd71d6b894925aee33a23322",
+      "summary": "11月26日23:09，作者指出创业板有更长的历史序列可供研究，并把同指数ETF的基金规模列为筛选因素。"
+    }
+  ],
+  "provenance": "群同步作者观点",
+  "coverage_warning": "仅纳入审核摘要，未独立取得原知识星球全文。"
+}

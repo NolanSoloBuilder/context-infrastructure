@@ -1,0 +1,38 @@
+{
+  "window_start": "2026-11-22T09:00:00+08:00",
+  "window_end": "2026-11-23T09:00:00+08:00",
+  "message_count": 10,
+  "candidate_count": 8,
+  "reviewed": [
+    {
+      "message_id": "om_x100b7f1bf5d028a4c3c3e93ac964f6a",
+      "kind": "回答",
+      "source_time": "2026-11-22 22:25+08:00",
+      "sync_create_time": "1795357618129",
+      "sync_update_time": "1795357618129",
+      "content_sha256": "8ffcd3f57f05b900dc2a17d88dff61796a413ed4d3ff3257781c6a488336284e",
+      "summary": "11月22日22:25作者认为红利相对适合经验较少者，而成长科技的盈利变化会放大价格弹性；关于红利与创业板反向变化的说法属作者经验判断，不是保证低风险或稳定负相关。"
+    },
+    {
+      "message_id": "om_x100b7f1bdb5058a4b3665379cb5cb7a",
+      "kind": "回答",
+      "source_time": "2026-11-22 22:15+08:00",
+      "sync_create_time": "1795357018134",
+      "sync_update_time": "1795357018134",
+      "content_sha256": "41ca64ba612d2d9007a18d485bc59fdd9de99138202ca85dac10e2ea45b7cb8c",
+      "summary": "11月22日22:15答复中建议在其判断的底部区域分批配置宽基，并提示海外ETF溢价变化。只摘录投资部分，不归档成员房产信息；未把该判断当作本报已确认底部。"
+    },
+    {
+      "message_id": "om_x100b7f1b7ad34ca0c0f3c5e2a76055c",
+      "kind": "回答",
+      "source_time": "2026-11-22 21:49+08:00",
+      "sync_create_time": "1795355458204",
+      "sync_update_time": "1795355458204",
+      "content_sha256": "94ececb76c1ba1fc1ce3506a27eb7819622d82a973a6100759dc9392ae9f04bd",
+      "summary": "11月22日21:49作者将近期行情解释为科技与其他成分之间的结构分化，认为沪深300受部分科技权重影响。该归因未被本报独立逐股复算，不能说宽基已免疫科技风险。"
+    }
+  ],
+  "complete_api_window": true,
+  "provenance": "南冬CLI只读群同步作者观点，不是独立获取知识星球全文",
+  "coverage_warning": "未知，群同步可能有缺漏"
+}

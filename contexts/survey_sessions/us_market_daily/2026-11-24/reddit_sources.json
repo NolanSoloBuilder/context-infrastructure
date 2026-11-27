@@ -1,0 +1,45 @@
+{
+  "reviewed_at_utc": "2026-11-23T23:35:06.708099+00:00",
+  "listing_http": {
+    "investing": [
+      429,
+      429
+    ],
+    "stocks": [
+      429,
+      429
+    ],
+    "SecurityAnalysis": [
+      429,
+      429
+    ],
+    "ValueInvesting": [
+      404,
+      429
+    ],
+    "Bogleheads": [
+      429,
+      429
+    ],
+    "ETFs": [
+      429,
+      429
+    ]
+  },
+  "targeted": [
+    {
+      "url": "https://www.reddit.com/r/stocks/comments/1y3gbbh/rstocks_daily_discussion_monday_nov_23_2026/",
+      "post_id": "1y3gbbh",
+      "title_date": "2026-11-23",
+      "absolute_timestamp_verified": false,
+      "scope": "正文及部分可见评论",
+      "topic": "反弹归因",
+      "status": "讨论情绪"
+    }
+  ],
+  "finews": {
+    "url": "https://finews.fyi/2026-11-23",
+    "date_modified_displayed": "2026-11-23 23:25:53",
+    "timezone": null
+  }
+}

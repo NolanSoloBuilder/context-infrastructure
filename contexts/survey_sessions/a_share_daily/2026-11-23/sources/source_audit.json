@@ -1,0 +1,36 @@
+{
+  "report_date": "2026-11-23",
+  "cutoff": "2026-11-23T09:00:00+08:00",
+  "latest_author_list": {
+    "url": "https://www.sina.cn/media/5546795997/",
+    "latest_issue": "3019",
+    "asof": "2026-11-20",
+    "overall_star": 5.1,
+    "new_issue": false
+  },
+  "valuation": {
+    "carried_forward": true,
+    "asof": "2026-11-20",
+    "count": 50,
+    "counts": {
+      "低估": 25,
+      "正常": 25,
+      "高估": 0
+    },
+    "original_verified_in": "2026-11-21/sources/source_audit.json",
+    "original_image_sha256": "959e0e0f5bde0141ac71b15f01c8ea1cb0c54efe25642d531e60d78151bec069",
+    "scope": "沿用已核验的11/20常规原图，不声称今早重新转录新表；港股专题仍11/19"
+  },
+  "market": {
+    "recollected": true,
+    "asof": "2026-11-20",
+    "scope": "周一盘前重新采集7项上周五完整日线；没有使用11/23未完成日线",
+    "ma60": 1443.8881666666666
+  },
+  "decision_state": "无新一期，不更新星级决策记录或重置首触提醒",
+  "feishu": {
+    "message_count": 10,
+    "candidate_count": 8,
+    "reported_count": 3
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "report_date": "2026-11-21",
+  "cutoff": "2026-11-21T09:00:00+08:00",
+  "author_source": {
+    "url": "https://www.xueqiu.com/3079173340/417896848",
+    "issue": "3019",
+    "published": "2026-11-20T21:52:00+08:00",
+    "overall_star": 5.1,
+    "previous_star": 5.0,
+    "stage_changed": false,
+    "image_date": "20261120",
+    "count": 50,
+    "counts": {
+      "低估": 25,
+      "正常": 25,
+      "高估": 0
+    },
+    "image_sha256": "959e0e0f5bde0141ac71b15f01c8ea1cb0c54efe25642d531e60d78151bec069",
+    "new_low": "上证指数"
+  },
+  "additional_image": {
+    "file": "3019_hk_2026-11-19.jpg",
+    "image_date": "2026-11-19",
+    "thematic_star": 4.9,
+    "scope": "港股专题，不改变A股整体观察线"
+  },
+  "sina_failure": "302反垃圾跳门户，详情未作为成功正文",
+  "fallback": "本人雪球原文内置浏览器只读核验，配图按已观察DOM src下载",
+  "star_alert": "星级升0.1但持续在同一阶段；非首次或重新跨档，last_alerted_asof保持11月16日",
+  "market_scope": "周六沿用最新已完成交易日11/20显示，数据本次新采集核验；详细表/趋势默认折叠",
+  "feishu": {
+    "message_count": 30,
+    "candidate_count": 24,
+    "reviewed_unique": 4
+  }
+}

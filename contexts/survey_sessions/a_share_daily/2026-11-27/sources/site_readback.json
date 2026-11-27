@@ -1,0 +1,28 @@
+{
+  "url": "https://ashare.forgepane.com/",
+  "report_date": "2026-11-27",
+  "revision": "0807b27f1eb022fbe34c4719dffd985f326d251eb50eda25b2390a85252f03df",
+  "html_sha256": "cbc20a2dd3c0dbdff4e4daf11277a9906aefa5e0e5d46d596cf8c32e2bc85c8a",
+  "raw_response_sha256": "9be95c2d9876191783273bf7b6a02d5cc2c6cf7b5f1823f817a2f7ec4e21220f",
+  "meta_matches_dist": true,
+  "authored_html_matches_dist": true,
+  "cloudflare_edge_script_paths": [
+    "/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+    "/cdn-cgi/challenge-platform/scripts/precursor/main.js"
+  ],
+  "homepage": {
+    "http": 200,
+    "tls_verify": 0,
+    "transferred_bytes": 2291952,
+    "seconds": 1.730679,
+    "edge_address": "172.67.218.212"
+  },
+  "metadata": {
+    "http": 200,
+    "tls_verify": 0,
+    "transferred_bytes": 217,
+    "seconds": 0.613301,
+    "edge_address": "104.21.53.208"
+  },
+  "checked_at": "2026-11-27T09:10:35.600598+08:00"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "appgdep_6b04e3370a448191a53695deba0ba120",
+  "project_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f",
+  "title": "A股投资观察晨报",
+  "version_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f~appgver_cff0973d041881919c6d605f6ca984ab",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ae7f4bd52b88191aedf8724e1c3c90f",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-24T01:07:22.656352+00:00",
+  "version_number": 36,
+  "source_commit": "2e87befef9a04041cbc359ebedd7b59e8548a0e8",
+  "archive": "/tmp/a-share-daily-2026-11-24.tar.gz",
+  "archive_content_hash": "sha256:6503eeb13e30ebca0bce83d18c4a4e405a142007c6e4324f765165684114a82d",
+  "fixed_reader_url": "https://ashare.forgepane.com/",
+  "report_date": "2026-11-24",
+  "audience": "public",
+  "overall_star": 5.1,
+  "valuation_asof": "2026-11-23",
+  "valuation_count": 50,
+  "valuation_counts": {
+    "低估": 26,
+    "正常": 24,
+    "高估": 0
+  },
+  "review": "本期基础版和站点合成版手机边界均通过，50项估值全表筛选和24卡趋势交互通过",
+  "readback_evidence": "site_readback.json",
+  "readback_method": "普通DNS、匿名HTTPS"
+}

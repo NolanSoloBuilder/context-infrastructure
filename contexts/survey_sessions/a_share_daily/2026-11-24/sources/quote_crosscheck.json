@@ -1,0 +1,172 @@
+{
+  "asof": "2026-11-23",
+  "tencent_spot": [
+    {
+      "symbol": "sh000001",
+      "timestamp": "20261123161427",
+      "close": 3538.95,
+      "prior_close": 3533.79,
+      "provider_change_pct": 0.15,
+      "calculated_change_pct": 0.14601886359970617
+    },
+    {
+      "symbol": "sh000016",
+      "timestamp": "20261123161427",
+      "close": 2762.1,
+      "prior_close": 2785.92,
+      "provider_change_pct": -0.86,
+      "calculated_change_pct": -0.8550137835975247
+    },
+    {
+      "symbol": "sh000300",
+      "timestamp": "20261123161409",
+      "close": 3958.29,
+      "prior_close": 3954.57,
+      "provider_change_pct": 0.09,
+      "calculated_change_pct": 0.0940683816445187
+    },
+    {
+      "symbol": "sh000688",
+      "timestamp": "20261123161409",
+      "close": 1227.89,
+      "prior_close": 1231.09,
+      "provider_change_pct": -0.26,
+      "calculated_change_pct": -0.2599322551559813
+    },
+    {
+      "symbol": "sh510050",
+      "timestamp": "20261123161458",
+      "close": 2.875,
+      "prior_close": 2.9,
+      "provider_change_pct": -0.86,
+      "calculated_change_pct": -0.8620689655172376
+    },
+    {
+      "symbol": "sh510300",
+      "timestamp": "20261123161448",
+      "close": 4.023,
+      "prior_close": 4.018,
+      "provider_change_pct": 0.12,
+      "calculated_change_pct": 0.1244400199104101
+    },
+    {
+      "symbol": "sh588000",
+      "timestamp": "20261123161456",
+      "close": 1.298,
+      "prior_close": 1.3,
+      "provider_change_pct": -0.15,
+      "calculated_change_pct": -0.15384615384614886
+    }
+  ],
+  "eastmoney_etf_unadjusted": [
+    {
+      "code": "510050",
+      "close": "2.875",
+      "prior_close": "2.900",
+      "daily_pct": "-0.86",
+      "raw": "eastmoney_510050.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.510050&klt=101&fqt=0&beg=20261120&end=20261123&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    },
+    {
+      "code": "510300",
+      "close": "4.023",
+      "prior_close": "4.018",
+      "daily_pct": "0.12",
+      "raw": "eastmoney_510300.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.510300&klt=101&fqt=0&beg=20261120&end=20261123&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    },
+    {
+      "code": "588000",
+      "close": "1.298",
+      "prior_close": "1.300",
+      "daily_pct": "-0.15",
+      "raw": "eastmoney_588000.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.588000&klt=101&fqt=0&beg=20261120&end=20261123&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61"
+    }
+  ],
+  "independent_index_close": {
+    "url": "https://news.10jqka.com.cn/20261123/c682101377.shtml",
+    "quotes": {
+      "sh000001": {
+        "close": 3538.95,
+        "reported_change_pct": 0.15
+      },
+      "sh000016": {
+        "close": 2762.1,
+        "reported_change_pct": -0.85
+      },
+      "sh000300": {
+        "close": 3958.29,
+        "reported_change_pct": 0.09
+      },
+      "sh000688": {
+        "close": 1227.89,
+        "reported_change_pct": -0.26
+      }
+    },
+    "note": "上证50显示精度差0.01个百分点"
+  },
+  "finews": {
+    "asof": "2026-11-23",
+    "indices": [
+      {
+        "symbol": "000001.SH",
+        "name": "上证指数",
+        "value": 3538.95,
+        "change": 5.16,
+        "changePercent": 0.15,
+        "turnover": 738500418823
+      },
+      {
+        "symbol": "399001.SZ",
+        "name": "深证成指",
+        "value": 10454.37,
+        "change": 197.98,
+        "changePercent": 1.93,
+        "turnover": 814379754014
+      },
+      {
+        "symbol": "399006.SZ",
+        "name": "创业板指",
+        "value": 2280.2,
+        "change": 68.07,
+        "changePercent": 3.08,
+        "turnover": 404609096956
+      },
+      {
+        "symbol": "000300.SH",
+        "name": "沪深 300",
+        "value": 3958.29,
+        "change": 3.72,
+        "changePercent": 0.09,
+        "turnover": 458279260285
+      },
+      {
+        "symbol": "000688.SH",
+        "name": "科创 50",
+        "value": 1227.89,
+        "change": -3.2,
+        "changePercent": -0.26,
+        "turnover": 89555016201
+      },
+      {
+        "symbol": "000905.SH",
+        "name": "中证 500",
+        "value": 6128.99,
+        "change": 122.91,
+        "changePercent": 2.05,
+        "turnover": 257760096137
+      },
+      {
+        "symbol": "899050.BJ",
+        "name": "北证 50",
+        "value": 795.38,
+        "change": 35.48,
+        "changePercent": 4.67,
+        "turnover": 11298994794
+      }
+    ],
+    "breadth_turnover": 1552880172837,
+    "breadth_turnover_change": 130679749899
+  }
+}

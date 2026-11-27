@@ -1,0 +1,134 @@
+{
+  "asof": "2026-11-20",
+  "spot_source": "https://qt.gtimg.cn/q=sh000001,sh000016,sh000300,sh000688,sh510050,sh510300,sh588000",
+  "same_provider_checks": [
+    {
+      "symbol": "sh000001",
+      "date": "20261120161427",
+      "close": 3533.79,
+      "previous_close": 3577.62,
+      "daily_pct": -1.225116138662019,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh000016",
+      "date": "20261120161427",
+      "close": 2785.92,
+      "previous_close": 2773.46,
+      "daily_pct": 0.44925832714370895,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh000300",
+      "date": "20261120161409",
+      "close": 3954.57,
+      "previous_close": 3984.84,
+      "daily_pct": -0.7596289938868295,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh000688",
+      "date": "20261120161409",
+      "close": 1231.09,
+      "previous_close": 1270.78,
+      "daily_pct": -3.1232786162829207,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh510050",
+      "date": "20261120161459",
+      "close": 2.9,
+      "previous_close": 2.883,
+      "daily_pct": 0.589663544918495,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh510300",
+      "date": "20261120161457",
+      "close": 4.018,
+      "previous_close": 4.06,
+      "daily_pct": -1.0344827586206806,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    },
+    {
+      "symbol": "sh588000",
+      "date": "20261120161500",
+      "close": 1.3,
+      "previous_close": 1.344,
+      "daily_pct": -3.2738095238095233,
+      "status": "match",
+      "independence": "same provider other endpoint"
+    }
+  ],
+  "finews_source": "https://a.finews.fyi/api/reports/2026-11-20",
+  "finews_checks": [
+    {
+      "symbol": "sh000001",
+      "close": 3533.79,
+      "daily_pct": -1.23,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh000300",
+      "close": 3954.57,
+      "daily_pct": -0.76,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh000688",
+      "close": 1231.09,
+      "daily_pct": -3.12,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh510300",
+      "close": 4.018,
+      "daily_pct": -1.03,
+      "status": "match to display precision"
+    },
+    {
+      "symbol": "sh588000",
+      "close": 1.3,
+      "daily_pct": -3.27,
+      "status": "match to display precision"
+    }
+  ],
+  "independent_sources": [
+    {
+      "url": "https://www.sse.com.cn/market/sseindex/overview/",
+      "method": "网页检索当日表",
+      "closes": {
+        "sh000001": 3533.79,
+        "sh000016": 2785.92,
+        "sh000688": 1231.09
+      }
+    },
+    {
+      "url": "https://news.10jqka.com.cn/20261120/c682043117.shtml",
+      "method": "15:30本人金融研究中心收评，网页检索可读直接打开失败",
+      "closes": {
+        "sh000001": 3533.79,
+        "sh000016": 2785.92,
+        "sh000300": 3954.57,
+        "sh000688": 1231.09
+      }
+    }
+  ],
+  "ma60_independent_recalculation": {
+    "n": 60,
+    "arithmetic_mean": 1443.8881666666666,
+    "gap_pct": -14.737856544522321
+  },
+  "precision_note": "上证按3577.62前收算跌1.225116%，四舍五入为-1.23%；金十报-1.22%且跌43.82点，差0.01点/0.01个百分点，不混作本报前收。",
+  "turnover": {
+    "finews_yiyuan": 14222.00422937,
+    "note": "两市约1.42万亿；同花顺沪深京约1.43万亿范围不同；成交额不代表净申购"
+  },
+  "history_route": "腾讯proxy本次直接成功"
+}

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T09:06:49.172649+08:00",
+  "checked_at": "2026-11-27T09:10:35.676859+08:00",
   "articles": [
     {
       "issue": "3001",
@@ -93,20 +93,65 @@
       "scope": "11月19日常规原图50项及正文5星；11月18日红利专题4星分开",
       "status": "read",
       "reported_in": "2026-11-20/report.html"
+    },
+    {
+      "issue": "3019",
+      "url": "https://www.xueqiu.com/3079173340/417896848",
+      "scope": "本人雪球正文5.1星、11/20常规原图50项25低估25正常；11/19港股专题分开",
+      "status": "read",
+      "reported_in": "2026-11-21/report.html"
+    },
+    {
+      "issue": "3020",
+      "url": "https://www.sina.cn/news/detail/5368532965523662.html",
+      "content_sha256": "5021b055e41c801c189c2a90a1ac39a1c407a33260d4f9e3d76bcfad595217e5",
+      "scope": "11月23日同步正文与常规原图50项，26低估24正常",
+      "status": "read",
+      "reported_in": "2026-11-24/report.html"
+    },
+    {
+      "issue": "3021",
+      "url": "https://www.sina.cn/news/detail/5368894077540895.html",
+      "content_sha256": "c48cd96d9b83db3bb54c036b90031b00a1483e75488be83380e8eb978a810519",
+      "scope": "11月24日同步正文与常规原图50项，25低估25正常；养老金附表为11月23日",
+      "status": "read",
+      "reported_in": "2026-11-25/report.html"
+    },
+    {
+      "issue": "3022",
+      "url": "https://www.xueqiu.com/3079173340/418627351",
+      "image_sha256": "3f084187c33518dc1ae26919c19ee251c1245e57cd3b11985d048da6083ff678",
+      "scope": "11月25日作者雪球正文与常规原图50项，28低估22正常",
+      "status": "read",
+      "reported_in": "2026-11-26/report.html"
+    },
+    {
+      "issue": "3023",
+      "url": "https://www.sina.cn/news/detail/5369612729324321.html",
+      "content_sha256": "b392c0d8d5b5aa02fadcd0f3dd31981f01f98c888d77f8e70d907a50c3cc6e74",
+      "image_sha256": "4aed08f524774727f31df3a7754391b6d0b4757dee2a705abad8746b27e6e598",
+      "scope": "11月26日作者同步正文与常规原图50项，28低估22正常，11月25日红利专题单列",
+      "status": "read",
+      "reported_in": "2026-11-27/report.html"
     }
   ],
   "valuation_images": {
     "2026-10-27": "2026-10-28/sources/3001_first.jpg",
     "2026-10-26": "2026-10-28/sources/3001_attachment.jpg",
     "2026-11-18": "2026-11-19/sources/3017_valuation.jpg",
-    "2026-11-19": "2026-11-20/sources/3018_valuation.jpg"
+    "2026-11-19": "2026-11-20/sources/3018_valuation.jpg",
+    "2026-11-20": "2026-11-21/sources/3019_valuation.jpg",
+    "2026-11-23": "2026-11-24/sources/3020_valuation.jpg",
+    "2026-11-24": "2026-11-25/sources/3021_fig1.jpg",
+    "2026-11-25": "2026-11-26/sources/lsd_3022_valuation.png",
+    "2026-11-26": "2026-11-27/sources/lsd_3023_regular.jpg"
   },
   "scope_note": "逐日核验本人公开同步正文及常规原图，不声称账号全部历史覆盖",
   "feishu": {
     "profile": "nandong-feishu",
     "chat_id": "oc_694dac14c6045bae8f0167003c127188",
-    "last_successful_read_at": "2026-11-20T09:06:49.172649+08:00",
-    "morning_window_end": "2026-11-20T09:00:00+08:00",
+    "last_successful_read_at": "2026-11-27T09:10:35.676859+08:00",
+    "morning_window_end": "2026-11-27T09:00:00+08:00",
     "supplement_window_end": "2026-10-28T12:02:47+08:00",
     "reported_message_ids": [
       "om_x100b613c046df4a8df6c78de2f1fe65",
@@ -177,10 +222,30 @@
       "om_x100b60c5772480a8df0b9bb02c98555",
       "om_x100b60dbdb1a04acde0958ac965bff8",
       "om_x100b60dd8f94a484dc0b93698247548",
-      "om_x100b60d23f16b90cdc0ab354f49821c"
+      "om_x100b60d23f16b90cdc0ab354f49821c",
+      "om_x100b7f36f99a0cacb4ccf0766c227ed",
+      "om_x100b7f36e696a8a4b09c128e52eba18",
+      "om_x100b7f35fe17a4a8ce7e718765906a1",
+      "om_x100b7f353291e8a8dc144eb7e7abadf",
+      "om_x100b7f1bf5d028a4c3c3e93ac964f6a",
+      "om_x100b7f1bdb5058a4b3665379cb5cb7a",
+      "om_x100b7f1b7ad34ca0c0f3c5e2a76055c",
+      "om_x100b7f7734d134b4c08f4da9a34d0d4",
+      "om_x100b7f08bf5334a0c32c8815bf505b1",
+      "om_x100b7f0fb4eda8a4b0b22ffc94ecd85",
+      "om_x100b7f6c76d2eca0cefcf137e0723ca",
+      "om_x100b7f669aefc880cfbe93eb6bb654b",
+      "om_x100b7f6583533ca0b0b5942b31942ff",
+      "om_x100b7f43036d4ca4ce3400c529e5078",
+      "om_x100b7f4461d308a0c047e112eacf8e9",
+      "om_x100b7f5f62502cb4ce4cbfe7573a10d",
+      "om_x100b7f5255d33ca4c4a0d9917770636",
+      "om_x100b7fb6a1f414accf583df001a20e4",
+      "om_x100b7fb78fed44a4cf362164fe3a85c",
+      "om_x100b7fb08ed298a0b0f7c3e5c5192b2"
     ],
-    "report": "2026-11-20/report.html",
-    "evidence": "2026-11-20/sources/feishu_author_digest.json",
+    "report": "2026-11-27/report.html",
+    "evidence": "2026-11-27/sources/feishu_author_digest.json",
     "coverage_warning": "机器人曾有故障，非原星球完整记录",
     "reported_content_hashes": [
       "2ab98d5eded07f2e8e5ddc7d3d020c6b899c04f31984375917fedd1b8f2e8522",
@@ -212,7 +277,27 @@
       "11c7035c6e3f2d18f0643b415a6dd48296b674de792ffe9534135c940bf3f021",
       "c3058c567c97907eed2b3cf8af12148379712ee6dfa52f87d0bbfa142c5c6d98",
       "88151b40f931e4588c94659c1831aa3b756dd0e236b4c1ece0fd4afb773b3c37",
-      "926aa9331f87dcbccd72073c7f93bc39c785b6b7273d68fdaae4e3ecf033d170"
+      "926aa9331f87dcbccd72073c7f93bc39c785b6b7273d68fdaae4e3ecf033d170",
+      "2d262b9b240ea4aaa1270cbd15d4f7054382c93f13a16e7fe9d3f69d1348e2cb",
+      "51e73873f1e4ef33a98ed07263cfa9a344ebb385d6aadc612c23f31d76395eef",
+      "7f4799895d67948290578d16fb20db5557eed3839f6645a160d77eec710af4da",
+      "e9f2edf02e57ebfd04f016866d1f41295325078f443be9bfb3896b00be707d8a",
+      "8ffcd3f57f05b900dc2a17d88dff61796a413ed4d3ff3257781c6a488336284e",
+      "41ca64ba612d2d9007a18d485bc59fdd9de99138202ca85dac10e2ea45b7cb8c",
+      "94ececb76c1ba1fc1ce3506a27eb7819622d82a973a6100759dc9392ae9f04bd",
+      "bb93f1628f5f60a04fbce76754839334cce798ec15c032d72fde477f3bc5358d",
+      "2eaf3c68d005944665f903cc0656d280eff32238fffdf3425c36e92e5568d0f9",
+      "734fe92c705386c207aa02d4912ddda00c44aaf933fea8329bd5484be96bd8fd",
+      "d3792bfc1bf457285dd1619da46fab518cf43269f4b4cbc7d48f123f3614b76b",
+      "fd89faf24c55c1c27ab3c6d9a66e93f677520fb39af3c893e77ea29aa60fec84",
+      "b043cc1dd90cda486b1fcb5c19e9da45234ba132471a56851380ef9734e00b80",
+      "fe7fcc273cba91331b1c25f42ad3fd10e1d1a56724e881422da619d1a43ba30e",
+      "7b78af1d1c77dd5f7933f8b522d3b7f5231209315315f9ffdc4523c4f44cc18f",
+      "e3d0c95ca909fbc4b34f50decbc764a3ae933fe1c7f9afb301a84c0f01c2aaaa",
+      "118a868df1bbe4c82ef0b27e48820295fe6fb5cb35bb3ebd220c62166e4a4b90",
+      "a2feb5c7c1ff000fb72f98a700ba95f5c7b36cf9c2a660def6a925ce2ee0c315",
+      "f81ed0a4cf16767c78846819139787e1ca4e6513a4e43af69ded9b5212ac04f7",
+      "b937cb23b9e95c1e594767557142dac7d207654dfd71d6b894925aee33a23322"
     ]
   },
   "etf_world": {
@@ -221,9 +306,10 @@
     "reason": "用户要求停止相关订阅并移除日报内容"
   },
   "latest_author_list_check": {
-    "checked_on": "2026-11-20",
-    "latest_visible_issue": "3018",
+    "checked_on": "2026-11-27",
+    "latest_visible_issue": "3023",
     "new_issue_verified": true,
-    "working_url": "https://www.sina.cn/media/5546795997/"
+    "working_url": "https://www.sina.cn/media/5546795997",
+    "effective_asof": "2026-11-26"
   }
 }

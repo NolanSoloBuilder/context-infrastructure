@@ -1,0 +1,35 @@
+{
+  "issue": "3021",
+  "published_at": "2026-11-24T21:39:00+08:00",
+  "source_url": "https://www.sina.cn/news/detail/5368894077540895.html",
+  "author_listing": "https://www.sina.cn/media/5546795997/",
+  "author_detail_body_verified": true,
+  "overall_star": 5.1,
+  "previous_issue": "3020",
+  "previous_star": 5.1,
+  "source_image_url": "https://wx1.sinaimg.cn/large/0063nN1zly1ijdm2s94juj30hg1ckqro.jpg",
+  "image_asof": "2026-11-24",
+  "image_sha256": "3ac8033bd4a3904abac4afa984c0f13eb2115bbf697f9877b49d4ad664af132d",
+  "classes": {
+    "低估": 25,
+    "正常": 25,
+    "高估": 0
+  },
+  "classification_change": [
+    "纳斯达克100：低估→正常"
+  ],
+  "additional_figures": [
+    {
+      "file": "3021_fig2.jpg",
+      "kind": "个人养老金定投历史长图",
+      "not_in_main_table": true
+    },
+    {
+      "file": "3021_fig3.jpg",
+      "kind": "养老金估值专题",
+      "asof": "2026-11-23",
+      "not_in_main_table": true
+    }
+  ],
+  "body_archive_sha256": "c48cd96d9b83db3bb54c036b90031b00a1483e75488be83380e8eb978a810519"
+}

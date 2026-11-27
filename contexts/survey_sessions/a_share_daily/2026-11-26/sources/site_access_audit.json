@@ -1,0 +1,22 @@
+{
+  "url": "https://ashare.forgepane.com/",
+  "observed_at": "2026-11-26T09:11:29.524515+08:00",
+  "previous_report_visible_in_chrome": "2026-11-25",
+  "current_report_visible_in_chrome": "2026-11-26",
+  "normal_dns": true,
+  "public_resolvers": [
+    "223.5.5.5",
+    "119.29.29.29",
+    "1.1.1.1",
+    "8.8.8.8"
+  ],
+  "previous_page_mobile_user_agent_http": 200,
+  "anonymous_current_http": 200,
+  "sites_custom_domain": "active",
+  "sites_certificate": "active",
+  "sites_access": "public",
+  "sites_worker_errors_last_45_minutes": 0,
+  "client_error_reproduced": false,
+  "zone_configuration_changed": false,
+  "note": "边缘插入检测脚本的请求仍返回200并加载正文，缺少失败端样本，无法确定用户侧原因。"
+}

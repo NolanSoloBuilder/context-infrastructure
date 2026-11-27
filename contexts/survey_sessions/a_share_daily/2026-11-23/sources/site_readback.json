@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-23T01:09:11.890551+00:00",
+  "public_anonymous": true,
+  "report_date": "2026-11-23",
+  "content_revision": "777e9d20cdd30a2a4e8f94e3dcff51a4125754aa2137d3ccd242708ba6cdec09",
+  "html_meta_same_revision": true,
+  "archived_site_sha256": "7112b33de964e6c45cb4843ed1328081b8132718d433519326c2529f8d7b42cc",
+  "served_html_sha256": "c93d6509cc68b6679e7b2926eff9ed797c253e8539026e2e4348c8481a1e8527",
+  "html_match": "matches archived bytes after removing identified Cloudflare bootstrap",
+  "served_bytes": 3736155,
+  "archived_bytes": 3735041,
+  "attempts": [
+    {
+      "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site/?v=777e9d20cdd3-verify",
+      "public_dns_override": false,
+      "exit_code": 0,
+      "error": ""
+    },
+    {
+      "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site/report-meta.json?v=777e9d20cdd3-verify",
+      "public_dns_override": false,
+      "exit_code": 0,
+      "error": ""
+    }
+  ]
+}

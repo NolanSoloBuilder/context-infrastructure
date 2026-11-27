@@ -1,0 +1,31 @@
+{
+  "id": "appgdep_6b023ee2802081918cd5a143a68a019a",
+  "project_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f",
+  "title": "A股投资观察晨报",
+  "version_id": "appgprj_6ae7f4bd52b88191aedf8724e1c3c90f~appgver_0da9dfd433f48191a1b1cc6ff6672d94",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://nolan-a-share-daily.choice-calf-0415.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ae7f4bd52b88191aedf8724e1c3c90f",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-22T01:01:39.887670+00:00",
+  "version_number": 34,
+  "source_commit": "d4b94cc51adc0d1a02d289d94a4c212a8bd42502",
+  "archive": "/tmp/a-share-daily-2026-11-22.tar.gz",
+  "archive_content_hash": "sha256:1b8e09a71460d682105d81cbc9074c43dcc99e8f9520d77af92ec31551629d4b",
+  "report_date": "2026-11-22",
+  "audience": "public",
+  "overall_star": 5.1,
+  "valuation_asof": "2026-11-20",
+  "valuation_count": 50,
+  "valuation_counts": {
+    "低估": 25,
+    "正常": 25,
+    "高估": 0
+  },
+  "review": "fresh daily mobile, all50 carried-forward valuations/filters/search and24 trends x4 ranges/16 mobile combinations passed; six US Friday history gaps filled",
+  "readback_evidence": "site_readback.json"
+}

@@ -1,0 +1,44 @@
+{
+  "report_date": "2026-11-22",
+  "cutoff": "2026-11-22T09:00:00+08:00",
+  "latest_author_list": {
+    "url": "https://www.sina.cn/media/5546795997/",
+    "latest_issue": "3019",
+    "asof": "2026-11-20",
+    "overall_star": 5.1,
+    "new_issue": false,
+    "scope": "今早实际列表href及摘要核对，未见新一期；不将旧星级变化说成今日变化"
+  },
+  "valuation": {
+    "carried_forward": true,
+    "asof": "2026-11-20",
+    "count": 50,
+    "counts": {
+      "低估": 25,
+      "正常": 25,
+      "高估": 0
+    },
+    "original_verified_in": "2026-11-21/sources/source_audit.json",
+    "original_image_sha256": "959e0e0f5bde0141ac71b15f01c8ea1cb0c54efe25642d531e60d78151bec069",
+    "coverage": "沿用11/21已按11/20原图逐项核验的50项；今日未声称重新转录新表，异日港股专题仍11/19"
+  },
+  "market": {
+    "carried_forward": true,
+    "asof": "2026-11-20",
+    "original_quote_review": "2026-11-21/sources/quote_crosscheck.json",
+    "ma60_recomputed": 1443.8881666666666,
+    "n": 60,
+    "scope": "休市沿用7项已核验收盘，未重绘旧图；独立复算均线验证归档完整"
+  },
+  "china": {
+    "asof": "2026-11-20",
+    "newly_filled_missing_session": "2026-11-20",
+    "note": "六项美元中概历史接口新补齐上次缺少的已完成周五日线；单一提供方、前复权非总回报"
+  },
+  "decision_state": "无新一期，不改星级决策记录，不重复触发提醒",
+  "feishu": {
+    "message_count": 2,
+    "candidate_count": 0,
+    "reported_count": 0
+  }
+}

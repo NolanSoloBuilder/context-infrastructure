@@ -1,0 +1,47 @@
+{
+  "window_start": "2026-11-25T09:00:00+08:00",
+  "window_end": "2026-11-26T09:00:00+08:00",
+  "message_count": 23,
+  "complete_api_window": true,
+  "candidate_count": 23,
+  "reviewed": [
+    {
+      "message_id": "om_x100b7f43036d4ca4ce3400c529e5078",
+      "kind": "回答",
+      "source_time": "2026-11-26 07:51+08:00",
+      "sync_create_time": "1795650778306",
+      "sync_update_time": "1795650778306",
+      "content_sha256": "fe7fcc273cba91331b1c25f42ad3fd10e1d1a56724e881422da619d1a43ba30e",
+      "summary": "11月26日07:51，作者认为部分中小盘继续下跌后可能进入其长期配置视野，并拟等后续货币数据再确认是否企稳。"
+    },
+    {
+      "message_id": "om_x100b7f4461d308a0c047e112eacf8e9",
+      "kind": "回答",
+      "source_time": "2026-11-25 23:46+08:00",
+      "sync_create_time": "1795621618181",
+      "sync_update_time": "1795621618181",
+      "content_sha256": "7b78af1d1c77dd5f7933f8b522d3b7f5231209315315f9ffdc4523c4f44cc18f",
+      "summary": "11月25日23:46，作者暂未将沪深300放入其长期配置视野，依据是这一轮蓝筹自7月以来跌幅较小，历史比较需要考虑背景差异。"
+    },
+    {
+      "message_id": "om_x100b7f5f62502cb4ce4cbfe7573a10d",
+      "kind": "回答",
+      "source_time": "2026-11-25 18:04+08:00",
+      "sync_create_time": "1795601098141",
+      "sync_update_time": "1795601098141",
+      "content_sha256": "e3d0c95ca909fbc4b34f50decbc764a3ae933fe1c7f9afb301a84c0f01c2aaaa",
+      "summary": "11月25日18:04，作者认为近期双创做反弹的尝试未形成持续合力，建议按没有反弹的情景检验既有仓位与浮亏承受力。"
+    },
+    {
+      "message_id": "om_x100b7f5255d33ca4c4a0d9917770636",
+      "kind": "回答",
+      "source_time": "2026-11-25 12:18+08:00",
+      "sync_create_time": "1795580338218",
+      "sync_update_time": "1795580338218",
+      "content_sha256": "118a868df1bbe4c82ef0b27e48820295fe6fb5cb35bb3ebd220c62166e4a4b90",
+      "summary": "11月25日12:18，作者回顾曾把创业板60日线用于科技仓位风险管理。这条答复讨论的是当时的纪律。"
+    }
+  ],
+  "provenance": "群同步作者观点",
+  "coverage_warning": "群同步可能有缺漏。仅纳入核准作者答复摘要。"
+}
